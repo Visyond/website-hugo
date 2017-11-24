@@ -1,5 +1,5 @@
 ---
-title: Our Coffee is just great!
+title: Our Coffee is just WONDERFUL!
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
