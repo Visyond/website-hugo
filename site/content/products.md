@@ -1,5 +1,5 @@
 ---
-title: Our Coffee is just VERY NICE!
+title: Lorem ipsum dolor
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
