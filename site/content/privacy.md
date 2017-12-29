@@ -1,7 +1,5 @@
 ---
-title: Tes
-type: privacy
-page: /privacy.html
+title: Test2
 image: /img/vimages/topImgPrivacy.png
 ---
 Lorem ipsum dolor asdasd  asd
