@@ -4,9 +4,7 @@ image: /img/349.jpg
 ---
 # Contentus sed
 
-## Qui scires medulla suo
-
-## rum
+## Qui scires medulla suo rum
 
 Lorem markdownum mecum. Quam Ceycis verbis caeli natura et tibi hic socerumque
 **intravit**. _Non_ animos prolem coniuge tractus ultra fulgure morte: spem
