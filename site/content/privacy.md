@@ -2,6 +2,6 @@
 title: READY PAGE 2
 type: privacy
 page: /privacy.html
-image: /img/24883564_1449534171810724_6897567578193867712_o.jpg
+image: /img/OF18NR0.jpg
 ---
 LOREM ISPMU DOLOR HALLELUJAHasd
