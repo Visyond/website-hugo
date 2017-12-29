@@ -29,6 +29,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: "policy"
+    label: "Privacy policy page"
+    folder: "site/content/privacy.md"
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Image", name: "image", widget: "image", required: true}
 
   - name: "pages"
     label: "Pages"
