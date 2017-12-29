@@ -1,6 +1,6 @@
 ---
 title: Pricing
-image: /img/user.png
+image: /img/349.jpg
 ---
 # Contentus sed
 
