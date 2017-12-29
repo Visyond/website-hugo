@@ -6,8 +6,6 @@ image: /img/349.jpg
 
 ## Qui scires medulla suo
 
-![undefined](/img/two_steps.png)
-
 ## rum
 
 Lorem markdownum mecum. Quam Ceycis verbis caeli natura et tibi hic socerumque
@@ -20,11 +18,8 @@ pericula spoliisque oraque et fronde est haud
 ## Ipsa ausim cristis est
 
 > Agros arbor opemque efficiens in luctus! Iam ubi a carens 
->
->
 
 \-- Some Bastard
-
 
 stetimusque debita Titan si ante cuspide. Deprendit tellus ambustique, si versae
 oculos amplexa desertum flumina, Dianae! Est enim sinuatus pars parte sua
