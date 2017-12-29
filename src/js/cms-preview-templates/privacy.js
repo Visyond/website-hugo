@@ -7,8 +7,10 @@ export default class Privacy extends React.Component {
     	let image = getAsset(entry.getIn(["data", "image"]));
 
     	return <div>
-	    	<section className="titleImage privacyPol">
-	    		<div className="titleImageWrapper container-fluid" style={{backgroundImage: image && `url(${image})`}}>
+	    	<section className="titleImage privacyPol" style={{
+        backgroundImage: image && `url(${image})`
+      }}>
+	    		<div className="titleImageWrapper container-fluid">
 		            <div className="row">
 		                <h1 className="pagesTitle">{ entry.getIn(["data", "title"]) }</h1>
 		            </div>
