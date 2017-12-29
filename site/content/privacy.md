@@ -1,5 +1,5 @@
 ---
-title: Test 1
+title: Test 2
 image: /img/vimages/topImgPrivacy.png
 ---
-Test test
+Lorem ipsum dolor
