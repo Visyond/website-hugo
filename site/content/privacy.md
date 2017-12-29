@@ -1,8 +1,5 @@
 ---
-title: Test 1 1 1
-type: privacy
+title: Last chance
 image: /img/vimages/topImgPrivacy.png
-description: >- 
-  lorem ipsum dolor sit amet dasd as dasd
 ---
-
+Lorem ipsum dolor asdasd  asd
