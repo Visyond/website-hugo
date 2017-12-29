@@ -4,12 +4,6 @@ image: /img/349.jpg
 ---
 # Contentus sed
 
-
-<table border="1">
-<tr><td> Hello, this is some custom, non-markdown html if You really want </td></tr>
-</table>
-
-
 ## Qui scires medulla suorum
 
 Lorem markdownum mecum. Quam Ceycis verbis caeli natura et tibi hic socerumque
@@ -70,3 +64,9 @@ arcana lumina quid undis tenent, sed arma Iunone.
 Fors procul munus hoc, cum dubita undas molem dilectu inque, eat glaciali
 _iugulum_; quoque. Summam ab aetheris pennas. Ipsa tantus sui angue planxerunt
 Hymenaee.
+
+
+
+
+
+<table border="1"> <tr><td> Hello, this is some custom, non-markdown html if You really want </td></tr> </table>
