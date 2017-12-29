@@ -1,5 +1,5 @@
 ---
-title: ' asdPrivacy policyasd asd'
+title: asd
 image: /img/vimages/topImgPrivacy.png
 ---
 asdasdaasdasdasddasdsaasdasdasdssdsa
