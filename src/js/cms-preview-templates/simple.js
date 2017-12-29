@@ -1,7 +1,7 @@
 import React from "react";
 import format from "date-fns/format";
 
-export default class Privacy extends React.Component {
+export default class SimplePage extends React.Component {
 	render() {
 		const {entry, widgetFor, getAsset} = this.props;
     	let image = getAsset(entry.getIn(["data", "image"]));

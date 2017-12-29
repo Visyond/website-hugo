@@ -3,7 +3,7 @@ import CMS from "netlify-cms";
 
 import PostPreview from "./cms-preview-templates/post";
 import ProductsPreview from "./cms-preview-templates/products";
-import Privacy from './cms-preview-templates/privacy';
+import SimplePage from './cms-preview-templates/simple';
 
 
 // Example of creating a custom color widget
@@ -21,5 +21,5 @@ class ColorControl extends React.Component {
 CMS.registerPreviewStyle("/css/main.css");
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
-CMS.registerPreviewTemplate("privacy", Privacy);
+CMS.registerPreviewTemplate("simple", SimplePage);
 CMS.registerWidget("color", ColorControl);
