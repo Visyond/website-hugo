@@ -1,5 +1,8 @@
 ---
-title: Last chance
-image: /img/vimages/topImgPrivacy.png
+title: Test 1 1 1
+type: privacy
+categories: [functions]
+page: /privacy.html
+description: >- 
+  sda asasdas
 ---
-Lorem ipsum dolor asdasd  asd
