@@ -51,6 +51,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "policy"
         label: "Privacy policy page"
         fields:
-          - {label: "Title", name: "title", widget: "string", required: true}
-          - {label: "Image", name: "image", widget: "image", required: true}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Image", name: "image", widget: "image"}
           - {label: "Body", name: "body", widget: "markdown"}
