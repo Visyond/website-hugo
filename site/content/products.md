@@ -1,5 +1,5 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: Lorem ipsum dolor sit ametasd
 type: products
 page: /products.html
 image: /img/products/jumbotron.jpg
