@@ -1,7 +1,7 @@
 ---
-title: Test 1 1 1
+title: READY PAGE
 type: privacy
 page: /privacy.html
 image: /img/vimages/topImgPrivacy.png
 ---
-asd
+LOREM ISPMU DOLOR
