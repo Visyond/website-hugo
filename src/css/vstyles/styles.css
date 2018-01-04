@@ -1657,8 +1657,6 @@ body {
         top: 3px;
         -webkit-transition: all .23s ease;
         transition: all .23s ease; }
-      .mainMenuBar .mainMenuWrapper .mainMenu a:hover {
-            border-bottom: 1px solid #52556c; }
       .mainMenuBar .mainMenuWrapper .mainMenu .siteMenu,
       .mainMenuBar .mainMenuWrapper .mainMenu .signUpMenu {
         margin-right: auto;
