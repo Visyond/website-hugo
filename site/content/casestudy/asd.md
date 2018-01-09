@@ -1,6 +1,9 @@
 ---
-title: asd
-date: 2018-01-09T12:03:14.995Z
-menu: asd
+title: Case studies
+tooltip:
+  - title: Lorem 1
+  - title: Lorem 2
+  - title: Lorem 3
+image: /img/video_poster.jpg
 ---
 adasd

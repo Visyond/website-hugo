@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: Pricing test
 image: /img/391.jpg
 ---
 # Contentus sed
