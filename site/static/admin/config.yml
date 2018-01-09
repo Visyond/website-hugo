@@ -31,11 +31,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Client image", name: "client", widget: "image", required: false}
       - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Widget aside", name: aside, widget: list, fields: [
-        {label: "Aside Body", name: "group", widget: object, fields: [{ label: content, name: "content", widget: "markdown" }]}
-      ]}
-
-      # - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
+      - {label: "Widget aside", name: aside, widget: list, fields: [{label: Heading, name: "content", widget: "markdown"}]}
+      - {label: "First solution", name: "first_solution", widget: "markdown"}
+      - {label: "Second solution", name: "second_solution", widget: "markdown"}
+      - {label: "Third solution", name: "third_solution", widget: "markdown"}
 
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"

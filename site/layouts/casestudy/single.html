@@ -2,13 +2,13 @@
 <div class="case-study-title-wrap">
     <style>
         .case-study-title-wrap {
-            background: url('/img/vimages/casestudy.png') center center no-repeat;
+            background: url({{ .Params.Image }}) center center no-repeat;
             background-size: cover;
         }
     </style>
     <div class="container container--case-study-title-wrap">
         <h1 class="case-study__title">
-            Case study: Elettronica
+            {{ .Title }}
         </h1>
         <ul class="case-study-params__list">
             <li class="case-study-params__item">Industry: Insurance</li>
@@ -90,18 +90,16 @@
                 </a>
             </article>
             <article class="case-study-sub-block__article">
-                <a href="#" class="case-study-sub-block__article-link">
-                    <figure>
-                        <img src="/img/vimages/relet.png" alt="">
+                <figure>
+                    <img src="/img/vimages/relet.png" alt="">
 
-                        <figcaption class="case-study-sub-block__descr-wrap">
-                            <h3 class="case-study-sub-block__descr-title">Well, the way they make shows is.</h3>
-                            <p class="case-study-sub-block__descr-desc">
-                                Well, the way they make shows is, they make one show. That show's called a pilot.
-                            </p>
-                        </figcaption>
-                    </figure>
-                </a>
+                    <figcaption class="case-study-sub-block__descr-wrap">
+                        <h3 class="case-study-sub-block__descr-title">Well, the way they make shows is.</h3>
+                        <p class="case-study-sub-block__descr-desc">
+                            Well, the way they make shows is, they make one show. That show's called a pilot.
+                        </p>
+                    </figcaption>
+                </figure>
             </article>
 
             

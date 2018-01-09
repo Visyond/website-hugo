@@ -6,7 +6,6 @@ export default class CaseStudy extends React.Component {
         const { entry, widgetFor, getAsset } = this.props;
         let image = getAsset(entry.getIn(["data", "image"]));
         let client = getAsset(entry.getIn(["data", "client"]));
-        console.log(client);
         return (
             <div>
                 <div 
@@ -21,7 +20,6 @@ export default class CaseStudy extends React.Component {
                         {(entry.getIn(["data","tooltip"]) || []).map((item, index) => {
                             return <li className="case-study-params__item" key={index}>{ item.get('title') }</li>
                         })}
-
                         </ul>
                     </div>
                 </div>
@@ -39,30 +37,31 @@ export default class CaseStudy extends React.Component {
                         {widgetFor('body')}
                     </div>
                     <div className="container--case-study__right-column">
-                        {/* {console.log(entry.getIn(["data", "aside"]))} */}
-                        {(entry.getIn(["data","aside"]) || []).map((item, index) => {
-                            
-                            // return <li className="case-study-params__item" key={index}>{ item.get('title') }</li>
-                            return <section className="case-study__widget" key={index}>{console.log(item.get("group"))}</section>
-                        })}
+                        {
+                            (entry.getIn(["data", "aside"]) || []).map((item, index) => {
+                                return <section className="case-study__widget" key={index}>{item.get('content')}</section>
+                            })
+                        }
                     </div>
+                </div>
+                <div className="case-study-sub-block">
+                    <h3 className="case-study-sub-block__section-title">Related Solutions</h3>
+                    <div className="container">
+                        <section className="case-study-sub-block__section">
+                            <h3 hidden></h3>
+                            <article className="case-study-sub-block__article">
+                                {widgetFor('first_solution')}
+                            </article>
+                            <article className="case-study-sub-block__article">
+                                {widgetFor('second_solution')}
+                            </article>
+                            <article className="case-study-sub-block__article">
+                                {widgetFor('third_solution')}
+                            </article>
+                        </section>
+                    </div>  
                 </div>
             </div>
             );
-            
-            
-            
-            // <div>
-            //     <section className="privacyPolicy">
-            //         <div className="privacyPolicyWrapper container">
-            //             <div className="row">
-            //                 <div className="col-md-2" />
-            //                 <div className="col-md-8">{widgetFor('body')}</div>
-            //                 <div className="col-md-2" />
-            //             </div>
-            //         </div>
-            //     </section>
-            // </div>
-        
     }
 }

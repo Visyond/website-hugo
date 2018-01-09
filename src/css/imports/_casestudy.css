@@ -76,7 +76,7 @@
         margin-top: 0;
     }
 }
-.container--case-study__left-column > h3 {
+.container--case-study__left-column  h3 {
     color: #52556c;
     font-size: 24px;
 }
@@ -228,7 +228,7 @@
 }
 
 
-.case-study-sub-block__article figure img {
+.case-study-sub-block__article img {
     display: block;
     max-width: 100%;
     margin-bottom: 30px;
@@ -239,14 +239,21 @@
     color: #52556c;
 }
 
-.case-study-sub-block__descr-title {
+.case-study-sub-block__article h2 {
     font-size: 16px;
     margin-bottom: 19px;
     transition: color .1s ease-in-out;
+    color: #52556c;
 }
 
-.case-study-sub-block__descr-desc {
+.case-study-sub-block__article p {
     font-weight: 300;
+    color: #52556c;
     font-size: 14px;
     line-height: 25px;
 }
+
+.case-study-sub-block__article a{
+    color: #52556c;
+}
+
