@@ -1,5 +1,5 @@
 ---
-title: Privacy
+title: Privacy policy
 image: /img/aaaaaa.jpg
 ---
 # We are watching you...
