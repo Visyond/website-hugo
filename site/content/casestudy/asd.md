@@ -22,5 +22,6 @@ first_solution: |-
   ## Hi there
 
   lorem ipsum dolor
+second_solution: '![undefined](/img/casestudy.png)'
 ---
 adasd
