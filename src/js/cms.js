@@ -23,5 +23,5 @@ CMS.registerPreviewStyle("/css/main.css");
 CMS.registerPreviewTemplate("post", PostPreview);
 CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("simplepages", SimplePage);
-CMS.registerPreviewTemplate("casestudy", CaseStudy);
+CMS.registerPreviewTemplate("casetudy", CaseStudy);
 CMS.registerWidget("color", ColorControl);
