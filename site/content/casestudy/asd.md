@@ -5,8 +5,8 @@ tooltip:
   - title: Lorem 1
   - title: Lorem 2
   - title: Lorem 3
+client_ask: asd
 aside:
-  - group:
-      content: '![undefined](/img/video-btn.png)'
+  - {}
 ---
 adasd
