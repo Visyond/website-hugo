@@ -1,5 +1,5 @@
 ---
-title: terms
+title: terms test
 image: /img/391.jpg
 ---
 # Terms and conditions
