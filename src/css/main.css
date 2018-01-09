@@ -3,7 +3,14 @@
 @import "./imports/_adjustment.css";
 @import "./imports/_header.css";
 @import "./imports/_nav.css";
-@import "./imports/simplepage.css";
 @import "./imports/_footer.css";
+/**
+*
+* Pages
+*
+**/
+@import "./imports/_simplepage.css";
+@import "./imports/_casestudy.css";
+
 
 
