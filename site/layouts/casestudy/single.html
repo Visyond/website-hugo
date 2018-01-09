@@ -11,9 +11,9 @@
             {{ .Title }}
         </h1>
         <ul class="case-study-params__list">
-            <li class="case-study-params__item">Industry: Insurance</li>
-            <li class="case-study-params__item">Use cases: Finance, Workforce planning</li>
-            <li class="case-study-params__item">Customers: 9 million</li>
+            {{ range $element := .Params.Tooltip }}
+                <li class="case-study-params__item">{{ $element.title }}</li>
+            {{ end }}
         </ul>
     </div>
 </div>
@@ -24,7 +24,7 @@
         
         <figure class="case-study__person">
             <div class="case-study__person-img">
-                <img src="/img/vimages/client_3.jpg" alt="client">
+                <img src={{.Params.Client}} alt="client">
             </div>
 
             <figcaption class="cast-study__person-comment">
