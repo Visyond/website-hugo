@@ -25,10 +25,17 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Menu", name: "menu", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}]}
+      # - {label: "Menu", name: "menu", widget: "text"}
+      - {label: "Client image", name: "client", widget: "image", required: false}
+      - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Widget aside", name: aside, widget: list, fields: [
+        {label: "Aside Body", name: "group", widget: object, fields: [{ label: content, name: "content", widget: "markdown" }]}
+      ]}
+
+      # - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
 
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"

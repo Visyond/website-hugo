@@ -1,13 +1,111 @@
 {{ partial "head" . }} 
-<section class="privacyPolicy">
-    <div class="privacyPolicyWrapper container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                {{.Content}}
-            </div>
-            <div class="col-md-2"></div>
-        </div>
+<div class="case-study-title-wrap">
+    <style>
+        .case-study-title-wrap {
+            background: url('/img/vimages/casestudy.png') center center no-repeat;
+            background-size: cover;
+        }
+    </style>
+    <div class="container container--case-study-title-wrap">
+        <h1 class="case-study__title">
+            Case study: Elettronica
+        </h1>
+        <ul class="case-study-params__list">
+            <li class="case-study-params__item">Industry: Insurance</li>
+            <li class="case-study-params__item">Use cases: Finance, Workforce planning</li>
+            <li class="case-study-params__item">Customers: 9 million</li>
+        </ul>
     </div>
-</section>
+</div>
+<div class="container container--case-study case-study--maincontent">
+    
+    <!-- container case-study__left-column -->
+    <div class="container--case-study__left-column">
+        
+        <figure class="case-study__person">
+            <div class="case-study__person-img">
+                <img src="/img/vimages/client_3.jpg" alt="client">
+            </div>
+
+            <figcaption class="cast-study__person-comment">
+                <p>Fernando is a Sales Manager at Elettronica, a company of more than 800 employees active in the defense sector and selling its solutions worldwide.</p>
+                <p>Fernando leads the preparation of forecasts and plans for the top management, and recommends where to allocate resources to optimise the sales process.</p>
+            </figcaption>
+        </figure>
+        
+    </div> <!-- ./container case-study__left-column -->
+    
+    <!-- container case-study__right-column -->
+    <div class="container--case-study__right-column">
+        <section class="case-study__widget case-study__widget--img-wrap">
+            <img src="/img/vimages/elet.png" alt="company logo" class="case-study__widget--img-wrap">
+        </section>
+
+        <section class="case-study__widget">
+            <h3>Use cases</h3>
+            <ul>
+                <li>
+                    <p>Territory &amp; Quota Planning Territory &amp; Quota Planning asd asd</p>
+                </li>
+                <li>
+                    <p>Territory &amp; Quota Planning</p>
+                </li>
+                
+            </ul>
+        </section>
+
+    </div> <!-- ./container case-study__right-column -->
+</div>
+<div class="case-study-sub-block">
+    <h3 class="case-study-sub-block__section-title">Related Solutions</h3>
+    <div class="container">
+        <section class="case-study-sub-block__section">
+            <h3 hidden></h3>
+            <article class="case-study-sub-block__article">
+                <a href="#" class="case-study-sub-block__article-link">
+                    <figure>
+                        <img src="/img/vimages/relet.png" alt="">
+
+                        <figcaption class="case-study-sub-block__descr-wrap">
+                            <h3 class="case-study-sub-block__descr-title">Well, the way they make shows is.</h3>
+                            <p class="case-study-sub-block__descr-desc">
+                                Well, the way they make shows is, they make one show. That show's called a pilot.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="case-study-sub-block__article">
+                <a href="#" class="case-study-sub-block__article-link">
+                    <figure>
+                        <img src="/img/vimages/relet.png" alt="">
+
+                        <figcaption class="case-study-sub-block__descr-wrap">
+                            <h3 class="case-study-sub-block__descr-title">Well, the way they make shows is.</h3>
+                            <p class="case-study-sub-block__descr-desc">
+                                Well, the way they make shows is, they make one show. That show's called a pilot.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+            <article class="case-study-sub-block__article">
+                <a href="#" class="case-study-sub-block__article-link">
+                    <figure>
+                        <img src="/img/vimages/relet.png" alt="">
+
+                        <figcaption class="case-study-sub-block__descr-wrap">
+                            <h3 class="case-study-sub-block__descr-title">Well, the way they make shows is.</h3>
+                            <p class="case-study-sub-block__descr-desc">
+                                Well, the way they make shows is, they make one show. That show's called a pilot.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </a>
+            </article>
+
+            
+        </section>
+    </div>  
+</div>
 {{ partial "footer" . }}
