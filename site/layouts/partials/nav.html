@@ -1,4 +1,87 @@
-<section class="mainMenuBar menuFix">
+<nav class="nav">
+	<ul class="nav__list">
+		<li class="nav__item"><a href="#" class="nav__link"><span>Platform</span></a></li>
+		<li class="nav__item">
+			<a href="#solutions-toggle" class="nav__link">
+				<span>Solutions</span>
+			</a>
+			<div class="dropdown-menu-wrap">
+			<div class="dropdown-toggle" id="solutions-toggle">
+					<div class="dropdown-toggle--left">
+						<a href="#" class="dropdown-toggle--left__link">
+							<h3 class="dropdown-toggle--left__title">Answer questions in seconds</h3>
+							<figure class="dropdown-toggle--left__img">
+								<img src="#">
+								<figcaption class="dropdown-toggle--left__img-desc">
+									Coming from finance, we know first hand all the pains of working with spreadsheets the old way - be it simple 1-page budgets.
+								</figcaption>
+							</figure>
+						</a>
+					</div>
+					<section class="dropdown-toggle--right">
+						<h3 hidden></h3>
+						<article class="dropdown-toggle__group">
+							<h4 class="dropdown-toggle__group-title">Challenge</h4>
+							<ul class="dropdown-toggle__group-list">
+								{{ range .Site.Menus.challenge }}
+								<li class="dropdown-toggle__group-list-item">
+									<a href="{{ .URL }}" class="dropdown-toggle__group-list-item-link">{{ .Name }}</a>
+								</li>
+								{{end}}
+							</ul>
+						</article>
+						<article class="dropdown-toggle__group">
+							<h4 class="dropdown-toggle__group-title">Need</h4>
+							<ul class="dropdown-toggle__group-list">
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+							</ul>
+						</article>
+						<article class="dropdown-toggle__group">
+							<h4 class="dropdown-toggle__group-title">Industry</h4>
+							<ul class="dropdown-toggle__group-list">
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+							</ul>
+						</article>
+						<article class="dropdown-toggle__group">
+							<h4 class="dropdown-toggle__group-title">Business size</h4>
+							<ul class="dropdown-toggle__group-list">
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+								<li class="dropdown-toggle__group-list-item">
+									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
+								</li>
+							</ul>
+						</article>
+					</section>
+			</div>
+		</div>
+		</li>
+		<li class="nav__item"><a href="#" class="nav__link"><span>Case studies</span></a></li>
+		<li class="nav__item"><a href="#" class="nav__link"><span>Resourses</span></a></li>
+	</ul>
+</nav>
+
+<!-- <section class="mainMenuBar menuFix">
 	<div class="mainMenuWrapper">
 		<div class="mainMenu">
 			<div class="logoColor-mobile">
@@ -12,87 +95,9 @@
 					<a class="blog dropdown-toggle visible-xs" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">
 						Products<span class="caret"></span>
 					</a>
-					<!-- <ul class="dropdown-menu">
-						<li><a href="#">Platform</a></li>
-						<li><a href="#">BizModel</a></li>
-					</ul> -->
 					<div class="clearfix visible-xs"></div>
 					<a class="blog hidden-xs" href="#">Platform</a>
-					<div class="dropdown-menu-wrap">
-						<a class="tutorials hidden-xs dropdown-link" href="#solutions-toggle">Solutions <span class="caret"></span></a>
-						<div class="dropdown-toggle" id="solutions-toggle">
-								<div class="dropdown-toggle--left">
-									<a href="#" class="dropdown-toggle--left__link">
-										<h3 class="dropdown-toggle--left__title">Answer questions in seconds</h3>
-										<figure class="dropdown-toggle--left__img">
-											<img src="#">
-											<figcaption class="dropdown-toggle--left__img-desc">
-												Coming from finance, we know first hand all the pains of working with spreadsheets the old way - be it simple 1-page budgets.
-											</figcaption>
-										</figure>
-									</a>
-								</div>
-								<section class="dropdown-toggle--right">
-									<h3 hidden></h3>
-									<article class="dropdown-toggle__group">
-										<h4 class="dropdown-toggle__group-title">Challenge</h4>
-										<ul class="dropdown-toggle__group-list">
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-										</ul>
-									</article>
-									<article class="dropdown-toggle__group">
-										<h4 class="dropdown-toggle__group-title">Need</h4>
-										<ul class="dropdown-toggle__group-list">
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-										</ul>
-									</article>
-									<article class="dropdown-toggle__group">
-										<h4 class="dropdown-toggle__group-title">Industry</h4>
-										<ul class="dropdown-toggle__group-list">
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-										</ul>
-									</article>
-									<article class="dropdown-toggle__group">
-										<h4 class="dropdown-toggle__group-title">Business size</h4>
-										<ul class="dropdown-toggle__group-list">
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-											<li class="dropdown-toggle__group-list-item">
-												<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-											</li>
-										</ul>
-									</article>
-								</section>
-						</div>
-					</div>
+					
 					<a class="tutorials" href="#">Case studies</a>
 					<div class="dropdown-menu-wrap dropdown"></div>
 					<a class="pricing dropdown-link" href="#">Resourses</a>
@@ -109,4 +114,4 @@
 			<span class="navigation-mobile__link-txt">Menu</span>
 		</a>
 	</div>
-</section>
+</section> -->

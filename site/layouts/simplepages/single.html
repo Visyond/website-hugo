@@ -1,27 +1,14 @@
 {{ partial "head" . }}
-{{ partial "nav" . }}
-<section class="titleImage privacyPol">
-  <div class="titleImageWrapper container-fluid">
-    <style>
-      .titleImage.privacyPol {
-        background: url({{.Params.Image}});
-        background-size: cover;
-      }
-    </style>
-    <div class="row">
-      <h1 class="pagesTitle">{{.Title}}</h1>
-    </div>
-  </div>
-</section>
-<section class="privacyPolicy">
-  <div class="privacyPolicyWrapper container">
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-8">
-        {{.Content}}
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-  </div>
-</section>
+<div class="simplepage-title-wrap">
+	<style>
+		.simplepage-title-wrap {
+			background: url({{ .Params.Image }});
+			background-size: cover;
+		}
+	</style>
+	<h1 class="simplepage__title">{{ .Title }}</h1>
+</div>
+<div class="simplepage-content">
+	{{ .Content }}
+</div>
 {{ partial "footer" . }}

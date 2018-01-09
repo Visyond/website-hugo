@@ -1,130 +1,109 @@
-<!-- <footer class="bg-black ph3 pv4 white">
 
-	<div class="mw7 center pt3">
+</div>
+<footer class="main-footer">
+	<div class="main-footer--container container">
+		<div class="main-footer__left">
+			
+			<!-- logo -->
+			<div class="logo">
+				<a href="/" class="logo__link">
+					<img src="/img/vimages/logoFooter.png" alt="Visyond logo">
+				</a>
+			</div> <!-- ./logo -->
 
-		<div class="measure-narrow center mb4">
+			<!-- contacts -->
+			<address class="contacts">
+				<span class="contacts__desc">
+					Intuitive financial software built to simplify the way you manage your business.
+				</span>
+				<ul class="contacts__list">
+					<li class="contacts__item">
+						<a href="#" class="contacts__link contacts__link--tel">
+							<i class="material-icons">phone</i>
+							<span class="contacts__link-desc">+44 20 3868 7298</span>
+						</a>
+					</li>
+					<li class="contacts__item">
+						<a href="#" class="contacts__link contacts__link--email">
+							<i class="material-icons">email</i>
+							<span class="contacts__link-desc">info@visyond.com</span>
+						</a>
+					</li>
+				</ul>
+			</address> <!-- ./contacts -->
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
+			<span class="copyright">
+				2011-2018 &copy; Visyond. All rights reserved
+			</span>
 
 		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+		<div class="main-footer__right">
+			<section class="footer-section-group">
+				<h3 class="footer-section-group__title">Company</h3>
+				<ul class="footer-section-group__list">
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/about" class="footer-section-group__link">About us</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/team" class="footer-section-group__link">Team</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/careers" class="footer-section-group__link">Careers</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/terms" class="footer-section-group__link">Terms of use</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/privacy" class="footer-section-group__link">Privacy of policy</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/contacts" class="footer-section-group__link">Contacts</a>
+					</li>
 				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
+			</section>
+			<section class="footer-section-group">
+				<h3 class="footer-section-group__title">Finance &amp; business professionals</h3>
+				<ul class="footer-section-group__list">
+					<li class="footer-section-group__item">
+						<a href="http://visyond.com/infinite" class="footer-section-group__link">Infinite solution</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://visyond.com/pricing" class="footer-section-group__link">Pricing</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="http://blog.visyond.com/spreadsheet-sprawl-collaboration/" class="footer-section-group__link">Help center</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="https://www.youtube.com/playlist?list=PLoTjjkFFBLt7PoG8iLtr22Vn-gu7fIP7S" class="footer-section-group__link">Video tutorials</a>
+					</li>
 				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "vimeo") }}
+			</section>
+			<section class="footer-section-group footer-section-group--social-wrap">
+				<h3 class="footer-section-group__title">Startups</h3>
+				<ul class="footer-section-group__list">
+					<li class="footer-section-group__item">
+						<a href="http://visyond.com/edge" class="footer-section-group__link">Edge solution</a>
+					</li>
+					<li class="footer-section-group__item">
+						<a href="http://blog.visyond.com/" class="footer-section-group__link">Startup blog</a>
+					</li>
 				</ul>
-			</div>
 
+				<address class="social social--footer">
+					<ul class="social__list">
+						<li class="social__item"><a href="https://www.facebook.com/Visyond" class="social__link social__link--fb"></a></li>
+						<li class="social__item"><a href="https://www.linkedin.com/company/visyond" class="social__link social__link--ln"></a></li>
+						<li class="social__item"><a href="https://twitter.com/visyond" class="social__link social__link--tw"></a></li>
+					</ul>
+				</address>
+			</section>
 		</div>
 	</div>
-
 </footer>
 
-{{ partial "svg" . }}
-
-<script src="/app.js"></script>
-
+<script src="/jquery-3.0.0.min.js"></script>
+<script src="/script.custom.js"></script>
+{{block "addscripts" . }}
+{{end}}
 </body>
-
-</html>
- -->
-
- <footer class="page-footer">
-      <div class="container">
-        <div class="row big_ninja">
-            <div class="col-md-12">
-                <a href="/" class="page-footer__logo"><img src="/img/vimages/logoFooter.png" alt="Visyond logotype" class="page-header__logo-img"></a>
-            <div class="page-footer__text">Intuitive financial software built to simplify the way you manage your business.</div>
-            </div>
-            
-        </div>
-        <div class="row">
-          <div class="col-md-8 col-md-push-4">
-            <div class="row footer-nav">
-              <div class="col-md-4 footer-nav__col">
-                <div class="footer-nav__heading">Company</div>
-                <div class="footer-nav__item"><a href="https://visyond.com/about" class="footer-nav__link">About us</a></div>
-                <div class="footer-nav__item"><a href="https://visyond.com/team" class="footer-nav__link">Team</a></div>
-                <div class="footer-nav__item"><a href="https://visyond.com/careers" class="footer-nav__link">Careers</a></div>
-                <div class="footer-nav__item"><a href="https://visyond.com/terms" class="footer-nav__link">Terms of use</a></div>
-                <div class="footer-nav__item"><a href="https://visyond.com/privacy" class="footer-nav__link">Privacy policy</a></div>
-                <div class="footer-nav__item"><a href="https://visyond.com/contacts" class="footer-nav__link">Contacts</a></div>
-              </div>
-              <div class="col-md-4 footer-nav__col">
-                <div class="footer-nav__heading">Finance &amp; business professionals</div>
-                <div class="footer-nav__item"><a href="http://visyond.com/infinite" class="footer-nav__link">Infinite solution</a></div>
-                <div class="footer-nav__item"><a href="http://visyond.com/pricing" class="footer-nav__link">Pricing</a></div>
-                <div class="footer-nav__item"><a href="http://blog.visyond.com/spreadsheet-sprawl-collaboration/" class="footer-nav__link">Help center</a></div>
-                <div class="footer-nav__item"><a href="https://www.youtube.com/playlist?list=PLoTjjkFFBLt7PoG8iLtr22Vn-gu7fIP7S" class="footer-nav__link">Video tutorials</a></div>
-                <div class="footer-nav__item footerMenuItemSignup"><a href="https://visyond.com/site/signup/" class="footer-nav__link">SIGN UP</a></div>
-              </div>
-              <div class="col-md-4 footer-nav__col">
-                <div class="footer-nav__heading">Startups</div>
-                <div class="footer-nav__item"><a href="http://visyond.com/edge" class="footer-nav__link">Edge solution</a></div>
-                <div class="footer-nav__item"><a href="http://blog.visyond.com/" class="footer-nav__link">Startup blog</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-md-pull-8">
-          <a href="/" class="page-footer__logo small_ninja"><img src="/img/vimages/logoFooter.png" alt="Visyond logotype" class="page-header__logo-img"></a>
-            <div class="page-footer__text small_ninja">Intuitive financial software built to simplify the way you manage your business.</div>
-            <a class="ourPhone" href="tel:+442038687298">
-                <img class="smallPhone" src="/img/vimages/smallPhone.png"><div class="phoneNumber">+44 20 3868 7298</div>
-            </a>
-            <a class="ourPhone" href="mailto:info@visyond.com">
-                <img class="smallPhone smallEmail" src="/img/vimages/email.png"><div class="phoneNumber emailText">info@visyond.com</div>
-            </a>
-            <div class="page-footer__copy">2011-2016 &copy; Visyond. All rights reserved</div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="socials">
-              <div class="socials__text">Follow us</div>
-              <div class="socials__item"><a href="https://www.facebook.com/Visyond" class="socials__link fb"></a></div>
-              <div class="socials__item"><a href="https://www.linkedin.com/company/visyond" class="socials__link linkin"></a></div>
-              <div class="socials__item"><a href="https://twitter.com/visyond" class="socials__link tw"></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="/jquery-3.0.0.min.js"></script>
-    <script src="/slick.min.js"></script>
-    <script src="/pageEngine.js"></script>
-    <script src="/app.js"></script>
-
-
-</body>
-
 </html>

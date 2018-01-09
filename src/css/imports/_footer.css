@@ -1,0 +1,146 @@
+.main-footer {
+    background: #171729;
+    padding: 50px 0;
+}
+
+.main-footer--container {
+    display: flex;
+}
+
+.main-footer__left {
+    width: 440px;
+    border-right: 1px solid #4a4c57;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contacts {
+    font-style: normal;
+    margin-top: 35px;
+    padding-right: 110px;
+}
+
+.contacts__desc {
+    color: #afb3d3;
+    font-weight: 300;
+    letter-spacing: .09em;
+    font-size: 14px;
+}
+
+.contacts__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.contacts__link {
+    color: #fff;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .06em;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition: color .1s ease-in-out;
+    &:hover {
+        color: #0585ff;
+    }
+}
+
+.contacts__link-desc {
+    margin-left: 5px;
+}
+
+.copyright {
+    color: #afb3d3;
+    font-weight: 300;
+    letter-spacing: .09em;
+    font-size: 14px;
+    margin-top: auto;
+    display: inline-block;
+}
+
+.main-footer__right {
+    flex: 1 0;
+    padding: 20px 0 0 135px;
+    display: flex;
+}
+
+.footer-section-group:not(:first-child) {
+    margin-left: 70px;
+}
+
+.footer-section-group__title {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-section-group__list {
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.footer-section-group__item:not(:first-child) {
+    margin-top: 15px;
+}
+
+.footer-section-group__link {
+    color: #afb3d3;
+    font-size: 14px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.footer-section-group--social-wrap {
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.social--footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.social__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social__link {
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.social__link--fb {
+    background: url('/img/vimages/fb.png') center center no-repeat;
+    background-size: cover;
+}
+
+.social__link--ln {
+    background: url('/img/vimages/linkin.png') center center no-repeat;
+    background-size: cover;
+}
+.social__link--tw {
+    background: url('/img/vimages/tw.png') center center no-repeat;
+    background-size: cover;
+}
+

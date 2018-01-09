@@ -1,0 +1,40 @@
+<header class="main-header">
+
+    <div class="main-header__left">
+        
+        <!-- logo -->
+        <div class="logo">
+            <a href="/" class="logo__link">
+                <img src="/img/vimages/logoColor.png" alt="">
+            </a>
+        </div> <!-- ./logo -->
+
+        {{ partial "nav" . }}
+    </div>
+
+    <div class="main-header__right">
+
+        <!-- header-user -->
+        <div class="header-user">
+            <ul class="header-user__list">
+                <li class="header-user__item">
+                    <a 
+                        href="https://visyond.com/site/login/" 
+                        class="header-user__link header-user__link--log-in"
+                    >
+                        Log In
+                    </a>
+                </li>
+                <li class="header-user__item">
+                    <a 
+                        href="https://visyond.com/site/signup/" 
+                        class="header-user__link header-user__link--sign-up"
+                    >
+                        sign up
+                    </a>
+                </li>
+            </ul>
+        </div> <!-- ./header-user -->
+
+    </div>
+</header>
