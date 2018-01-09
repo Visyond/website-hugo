@@ -25,3 +25,5 @@ first_solution: |-
 second_solution: '![undefined](/img/casestudy.png)'
 ---
 adasd
+
+![undefined](/img/infiniteImage1.png)
