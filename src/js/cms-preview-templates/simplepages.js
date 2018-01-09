@@ -7,26 +7,14 @@ export default class SimplePage extends React.Component {
     	let image = getAsset(entry.getIn(["data", "image"]));
 
     	return <div>
-	    	<section className="titleImage privacyPol" style={{
-        backgroundImage: image && `url(${image})`
-      }}>
-	    		<div className="titleImageWrapper container-fluid">
-		            <div className="row">
-		                <h1 className="pagesTitle">{ entry.getIn(["data", "title"]) }</h1>
-		            </div>
-		        </div>
-	    	</section>
-	    	<section className="privacyPolicy">
-	    		<div className="privacyPolicyWrapper container">
-	    			<div className="row">
-	    				<div className="col-md-2"></div>
-	    					<div className="col-md-8">
-								{ widgetFor("body") }
-	    					</div>
-	    				<div className="col-md-2"></div>
-	    			</div>
-	    		</div>
-	    	</section>
+	    	<div className="simplepage-title-wrap" style={{
+        		background:image && `url(${image}) center center no-repeat`
+      		}}>
+				<h1 className="simplepage__title">{ entry.getIn(["data", "title"]) }</h1>
+	    	</div>
+			<div className="simplepage-content">
+				{ widgetFor("body") }
+			</div>
     	</div>;
 	}
 }
