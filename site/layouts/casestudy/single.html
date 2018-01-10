@@ -30,9 +30,8 @@
             <figcaption class="cast-study__person-comment">
                     <p>{{.Params.Client_ask}}</p>
             </figcaption>
-
-            {{ .Params.Body }}
         </figure>
+        {{ .Content }}
         
     </div> <!-- ./container case-study__left-column -->
     
@@ -52,7 +51,7 @@
         <section class="case-study-sub-block__section">
             <h3 hidden></h3>
             <article class="case-study-sub-block__article">
-                {{.Params.First_solution}}
+                {{.Params.First_solution.Content}}
             </article>
             <article class="case-study-sub-block__article">
                 {{.Params.Second_solution}}
