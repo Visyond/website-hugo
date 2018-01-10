@@ -30,6 +30,8 @@
             <figcaption class="cast-study__person-comment">
                     <p>{{.Params.Client_ask}}</p>
             </figcaption>
+
+            {{ .Params.Body }}
         </figure>
         
     </div> <!-- ./container case-study__left-column -->
@@ -38,7 +40,7 @@
     <div class="container--case-study__right-column">
         {{ range $itemAside := .Params.Aside }}
         <section class="case-study__widget">
-            {{ $itemAside }}
+            {{ $itemAside.content }}
         </section>
         {{ end }}
 
@@ -53,10 +55,10 @@
                 {{.Params.First_solution}}
             </article>
             <article class="case-study-sub-block__article">
-                {{.Params.Sirst_solution}}
+                {{.Params.Second_solution}}
             </article>
             <article class="case-study-sub-block__article">
-                {{.Params.Tirst_solution}}
+                {{.Params.Third_solution}}
             </article>
 
         </section>
