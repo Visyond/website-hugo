@@ -39,7 +39,7 @@ export default class CaseStudy extends React.Component {
                     <div className="container--case-study__right-column">
                         {
                             (entry.getIn(["data", "aside"]) || []).map((item, index) => {
-                                return <section className="case-study__widget" key={index}>{item.get('content') || markdownify }</section>
+                                return <section className="case-study__widget" key={index}>{item.get('content') }</section>
                             })
                         }
                     </div>

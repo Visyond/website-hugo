@@ -156,6 +156,10 @@
     margin: 0;
     letter-spacing: 0.3px;
 }
+.case-study__widget img{
+    display: block;
+    max-width: 100%;
+}
 .case-study__widget ul {
     margin: 20px 0 0 0;
     padding: 0;
