@@ -39,7 +39,7 @@
     <div class="container--case-study__right-column">
         {{ range $itemAside := .Params.Aside }}
         <section class="case-study__widget">
-            {{ $itemAside.content }}
+            {{ $itemAside.content | markdownify }}
         </section>
         {{ end }}
 
@@ -51,7 +51,7 @@
         <section class="case-study-sub-block__section">
             <h3 hidden></h3>
             <article class="case-study-sub-block__article">
-                {{.Params.First_solution.Content}}
+                {{ .Params.First_solution | markdownify }}
             </article>
             <article class="case-study-sub-block__article">
                 {{.Params.Second_solution}}
