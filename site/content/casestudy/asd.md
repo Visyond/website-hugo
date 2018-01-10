@@ -19,6 +19,8 @@ aside:
 first_solution: |-
   ## Hi there
 
+  ![undefined](/img/topImgPricing.jpg)
+
   lorem ipsum dolor
 second_solution: ''
 ---
