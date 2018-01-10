@@ -17,12 +17,10 @@ aside:
   - content: dasdasdas
   - content: asdsdasdasdas
 first_solution: |-
-  ![undefined](/img/relet.png)
-
   ## Hi there
 
   lorem ipsum dolor
-second_solution: '![undefined](/img/casestudy.png)'
+second_solution: ''
 ---
 adasd
 
