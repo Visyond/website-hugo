@@ -15,10 +15,11 @@ client_ask: >-
   and recommends where to allocate resources to optimise the sales process
 aside:
   - content: |-
-      dasdasdas
+
 
       ![undefined](/img/topImgPricing.jpg)
-  - content: asdsdasdasdas
+
+      Hi there
 first_solution: |-
   ## Hi there
 
