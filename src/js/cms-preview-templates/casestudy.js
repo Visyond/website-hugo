@@ -39,7 +39,9 @@ export default class CaseStudy extends React.Component {
                     <div className="container--case-study__right-column">
                         {   
                             (widgetsFor('aside') || []).map((item, index) => {
-                                return <section className="case-study__widget" key={index}>{ item.get('widgets') }</section>
+                                if (item) {
+                                   return <section className="case-study__widget" key={index}>{ item.get('widgets') }</section>
+                                }
                             })
                         }
                     </div>

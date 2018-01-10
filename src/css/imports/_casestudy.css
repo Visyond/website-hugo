@@ -76,7 +76,7 @@
         margin-top: 0;
     }
 }
-.container--case-study__left-column  h3 {
+.container--case-study__left-column  h2 {
     color: #52556c;
     font-size: 24px;
 }
@@ -97,6 +97,11 @@
 
 .container--case-study__left-column li {
     position: relative;
+    color: #5f6976;
+    line-height: 22px;
+    /* text-indent: 5px; */
+    margin: 0;
+    text-indent: 12px;
     &:not(:last-child) {
         margin-bottom: 15px;
     }
@@ -111,17 +116,17 @@
         left: 0;
         top: 7px;
     }
+
+    
 }
 
-.container--case-study__left-column li p {
+.container--case-study__left-column li p{
     color: #5f6976;
     line-height: 22px;
     /* text-indent: 5px; */
-    margin: 0;
-    text-indent: 12px;
 }
 
-.container--case-study__left-column > img {
+.container--case-study__left-column > p > img {
     display: block;
     max-width: 100%;
     margin: 20px 0;
@@ -170,6 +175,7 @@
 
 .case-study__widget li {
     position: relative;
+    text-indent: 8px;
     &:not(:last-child) {
         margin-bottom: 15px;
     }
@@ -191,7 +197,6 @@
     line-height: 22px;
     /* text-indent: 5px; */
     margin: 0;
-    text-indent: 8px;
 }
 
 .case-study-sub-block {
@@ -257,7 +262,11 @@
     line-height: 25px;
 }
 
-.case-study-sub-block__article a{
+.case-study-sub-block__article a {
+    transition: color .1s ease-in-out;
     color: #52556c;
 }
 
+.case-study-sub-block__article:hover a {
+    color: #0585ff;
+}

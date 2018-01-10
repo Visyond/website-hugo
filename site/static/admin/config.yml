@@ -27,7 +27,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
-      # - {label: "Menu", name: "menu", widget: "text"}
       - {label: "Client image", name: "client", widget: "image", required: false}
       - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
