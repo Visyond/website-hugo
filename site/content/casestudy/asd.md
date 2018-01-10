@@ -5,7 +5,8 @@ tooltip:
   - title: Lorem 1
   - title: Lorem 2
   - title: Lorem 3
-client: /img/client_3.jpg
+  - title: some text
+client: /img/img-team-1.jpg
 client_ask: >-
   Fernando is a Sales Manager at Elettronica, a company of more than 800
   employees active in the defense sector and selling its solutions worldwide.
@@ -20,13 +21,23 @@ aside:
       ![undefined](/img/topImgPricing.jpg)
 
       Hi there
+  - content: Lorem upsdum asd
 first_solution: |-
-  ## Hi there
+  ## 
 
   ![undefined](/img/topImgPricing.jpg)
 
-  lorem ipsum dolor
-second_solution: ''
+  ## [Some solutions](google.com)
+second_solution: |-
+
+
+  ![undefined](/img/casestudy.png)
+
+  ## [Some solutions](http://localhost:3000/admin/google.com)
+third_solution: |-
+
+
+  ## [Some solutions](http://localhost:3000/admin/google.com)
 ---
 adasd
 
