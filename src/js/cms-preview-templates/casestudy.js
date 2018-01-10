@@ -3,7 +3,7 @@ import format from 'date-fns/format';
 
 export default class CaseStudy extends React.Component {
     render() {
-        const { entry, widgetFor, getAsset } = this.props;
+        const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         let image = getAsset(entry.getIn(["data", "image"]));
         let client = getAsset(entry.getIn(["data", "client"]));
         return (
@@ -37,9 +37,9 @@ export default class CaseStudy extends React.Component {
                         {widgetFor('body')}
                     </div>
                     <div className="container--case-study__right-column">
-                        {
-                            (entry.getIn(["data", "aside"]) || []).map((item, index) => {
-                                return <section className="case-study__widget" key={index}>{item.get('content') }</section>
+                        {   
+                            (widgetsFor('aside') || []).map((item, index) => {
+                                return <section className="case-study__widget" key={index}>{ item.get('widgets') }</section>
                             })
                         }
                     </div>
