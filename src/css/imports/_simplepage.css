@@ -25,7 +25,8 @@
     letter-spacing: 1px;
 }
 
-.simplepage-content p {
+.simplepage-content p,
+.simplepage-content ul {
     font-weight: 100;
     line-height: 30px;
 }
