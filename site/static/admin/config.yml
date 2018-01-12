@@ -53,16 +53,16 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Intro Blurb", name: "description", widget: "text"}
   #     - {label: "Image", name: "image", widget: "image", required: false}
   #     - {label: "Body", name: "body", widget: "markdown"}
-  # - name: "simplepages"
-  #   label: "Simplepages"
-  #   folder: "site/content/simplepages"
-  #   create: true
-  #   fields:
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     # - {label: Type, name: type, widget: hidden, default: simplepages}
-  #     # - {label: Page, name: page, widget: hidden, default: "/simplepages.html"}
-  #     - {label: "Image", name: "image", widget: "image", required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
+  - name: "simplepages"
+    label: "Simplepages"
+    folder: "site/content/simplepages"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      # - {label: Type, name: type, widget: hidden, default: simplepages}
+      # - {label: Page, name: page, widget: hidden, default: "/simplepages.html"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   # - name: "custom" # Used in routes, ie.: /admin/collections/:slug/edit
   #   label: "Custom Page" # Used in the UI, ie.: "New Post"
