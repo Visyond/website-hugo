@@ -1,4 +1,16 @@
 {{ partial "head" . }}
+<div class="sub-heading">
+    <nav class="sub-heading__nav">
+        <ul class="sub-heading__nav-list">
+            <li class="sub-heading__nav-item">
+                <a href="#" class="sub-heading__nav-link">Overview</a>
+            </li>
+            <li class="sub-heading__nav-item">
+                <a href="#" class="sub-heading__nav-link">Features</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 <div class="landing">
     <div class="landing-banner">
         <style>
@@ -20,7 +32,7 @@
 
                 <div class="landing-btn-wrap">
                     <a href="/signup/" class="landing-btn landing-btn--signup" aria-label="button">sign up</a>
-                    <a href="/signup/" class="landing-btn landing-btn--watch" aria-label="button">watch video</a>
+                    <button class="landing-btn landing-btn--watch modal-btn" data-modal=".banner-modal">watch video</button>
                 </div>
             </section>
         </div> <!-- ./banner -->
@@ -95,5 +107,194 @@
             </ul>
         </div>
     </div>  <!-- ./features -->
+    
+    <!-- testimonials -->
+    <div class="testimonials">
+        <div class="container testimonials--container">
+
+            <!-- company -->
+            <div class="testimonials__company-wrap">
+                <ul class="testimonials__company-list">
+                    <li class="testimonials__company-item">
+                        <img src="/img/vimages/jebg.png" alt="" class="testimonials__company-img">
+                    </li>
+                    <li class="testimonials__company-item">
+                        <img src="/img/vimages/elearn.png" alt="" class="testimonials__company-img">
+                    </li>
+                    <li class="testimonials__company-item">
+                        <img src="/img/vimages/deloitte.png" alt="" class="testimonials__company-img">
+                    </li>
+                    <li class="testimonials__company-item">
+                        <img src="/img/vimages/elt.png" alt="" class="testimonials__company-img">
+                    </li>
+                    <li class="testimonials__company-item">
+                        <img src="/img/vimages/abrt.png" alt="" class="testimonials__company-img">
+                    </li>
+                </ul>
+            </div> <!-- ./company -->
+
+            <!-- testimonials__slider-wrap -->
+            <div class="testimonials__slider-wrap">
+                <h3 class="testimonials__title">Testimonials</h3>
+                <ul class="testimonials__slider-list">
+                    <li class="testimonials__slider-item">
+                        <p class="testimonials__slider-client-asked">
+                            When I use Visyond I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
+                        </p>
+
+                        <figure class="testimonials__slider-client-img-container">
+                            <span class="testimonials__slider-client-img-wrap">
+                                <img src="/img/vimages/client_3.jpg" alt="client">
+                            </span>
+                            <figcaption class="testimonials__slider-client-name">
+                                <span>Edoardo Gauzolino, Founder, JEBG</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="testimonials__slider-item">
+                        <p class="testimonials__slider-client-asked">
+                            When I use Visyond I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
+                        </p>
+
+                        <figure class="testimonials__slider-client-img-container">
+                            <span class="testimonials__slider-client-img-wrap">
+                                <img src="/img/vimages/client_5.jpg" alt="client">
+                            </span>
+                            <figcaption class="testimonials__slider-client-name">
+                                <span>Edoardo Gauzolino, Founder, JEBG</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="testimonials__slider-item">
+                        <p class="testimonials__slider-client-asked">
+                            When I use Visyond I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
+                        </p>
+
+                        <figure class="testimonials__slider-client-img-container">
+                            <span class="testimonials__slider-client-img-wrap">
+                                <img src="/img/vimages/client_5.jpg" alt="client">
+                            </span>
+                            <figcaption class="testimonials__slider-client-name">
+                                <span>Edoardo Gauzolino, Founder, JEBG</span>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div> <!-- ./testimonials__slider-wrap -->
+
+        </div>
+    </div> <!-- ./testimonials -->
+
+    <section class="tour">
+        <div class="container">
+            <h3 class="tour__main-title">Product tour</h3>
+            
+            <!-- tour__slider-button-list -->
+            <ul class="tour__slider-button-list">
+                <li class="tour__slider-button-item">
+                    <button class="tour__slider-button">Streamlined modelling</button>
+                </li>
+                <li class="tour__slider-button-item">
+                    <button class="tour__slider-button">Intelegent error detection</button>
+                </li>
+                <li class="tour__slider-button-item">
+                    <button class="tour__slider-button">Hassle-free scenarios</button>
+                </li>
+                <li class="tour__slider-button-item">
+                    <button class="tour__slider-button">Visual analysis</button>
+                </li>
+                <li class="tour__slider-button-item">
+                    <button class="tour__slider-button">Something elst</button>
+                </li>
+            </ul> <!-- ./tour__slider-button-list -->
+        </div>
+
+        <div class="tour__slider-wrap">
+            <ul class="tour__slider-list">
+                <li class="tour__slider-item">
+                    <div class="container">
+                        <p class="tour__slider-descr">
+                            That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem.
+                            That's also clear. But for some reason, you and I react the exact same way to water.
+                        </p>
+                        <figure class="tour__slider-img-container">
+                            <span class="tour__slider-img-wrap">
+                                <img src="/img/vimages/product_tour/1.png" alt="" class="tour__slider-img">
+                            </span>
+                        </figure>
+                    </div>
+                </li>
+                <li class="tour__slider-item">
+                    <div class="container">
+                        <p class="tour__slider-descr">
+                            That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem.
+                            That's also clear. But for some reason, you and I react the exact same way to water.
+                        </p>
+                        <figure class="tour__slider-img-container">
+                            <span class="tour__slider-img-wrap">
+                                <img src="/img/vimages/product_tour/2.png" alt="" class="tour__slider-img">
+                            </span>
+                        </figure>
+                    </div>
+                </li>
+                <li class="tour__slider-item">
+                    <div class="container">
+                        <p class="tour__slider-descr">
+                            That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem.
+                            That's also clear. But for some reason, you and I react the exact same way to water.
+                        </p>
+                        <figure class="tour__slider-img-container">
+                            <span class="tour__slider-img-wrap">
+                                <img src="/img/vimages/product_tour/3.jpg" alt="" class="tour__slider-img">
+                            </span>
+                        </figure>
+                    </div>
+                </li>
+                <li class="tour__slider-item">
+                    <div class="container">
+                        <p class="tour__slider-descr">
+                            That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem.
+                            That's also clear. But for some reason, you and I react the exact same way to water.
+                        </p>
+                        <figure class="tour__slider-img-container">
+                            <span class="tour__slider-img-wrap">
+                                <img src="/img/vimages/product_tour/4.jpg" alt="" class="tour__slider-img">
+                            </span>
+                        </figure>
+                    </div>
+                </li>
+                <li class="tour__slider-item">
+                    <div class="container">
+                        <p class="tour__slider-descr">
+                            That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem.
+                            That's also clear. But for some reason, you and I react the exact same way to water.
+                        </p>
+                        <figure class="tour__slider-img-container">
+                            <span class="tour__slider-img-wrap">
+                                <img src="/img/vimages/product_tour/5.jpg" alt="" class="tour__slider-img">
+                            </span>
+                        </figure>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="errors">
+        <div class="container">
+            <h3 class="errors__title">88% of spreadsheets have errors*</h3>
+            <p class="errors__desc">
+                Don’t leave it to chance.
+            </p>
+            <a href="/signup" class="header-user__link--sign-up sign-up--errors">sign up</a>
+        </div>
+    </div>
+</div>
+<div class="banner-modal">
+    <div class="banner-modal__container">
+        <button class="banner-modal__close">
+            <i class="material-icons" aria-label="icon">close</i>
+        </button>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/-orVOUD25eI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
 </div>
 {{ partial "footer" . }}

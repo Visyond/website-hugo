@@ -1,5 +1,20 @@
 @import './imports/_cms';
 
+/**
+*
+* Plugins css
+*
+**/
+
+@import "./imports/slick-theme.css";
+@import "./imports/slick.css";
+
+/**
+*
+* Basic page needs
+*
+**/
+
 @import "./imports/_adjustment.css";
 @import "./imports/_header.css";
 @import "./imports/_nav.css";

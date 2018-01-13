@@ -55,6 +55,7 @@
     background-color: #F2F3F7;
     border: 1px solid #DCDEEC;
     box-shadow: 1px 10px 15px rgba(0, 0, 0, .07);
+    z-index: 9999;
 }
 
 .dropdown-toggle--active {
