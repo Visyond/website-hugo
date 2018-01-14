@@ -4,6 +4,7 @@ topImage: /img/banner.jpg
 descr: >-
   Visyond gives you an edge when preparing, analysing and presenting your
   numbers
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 func:
   - content: Cashflow forecasting
     icon: /img/ico-map-1.png
