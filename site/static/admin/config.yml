@@ -43,6 +43,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Top image", name: "topImage", widget: "image", required: true }
       - { label: "Top description", name: "descr", widget: "string", required: false }
+      - { label: "Video url", name: "popupUrl", widget: "string", required: false }
       - { label: "Function", name: "func", widget: "list",
         fields: [
           {label: "Description", name: "content", widget: "string"},
