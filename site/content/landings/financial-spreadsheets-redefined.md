@@ -38,5 +38,27 @@ company:
   - logo: /img/jebg.png
   - logo: /img/logoClient_1.png
   - logo: /img/elt.png
+testiSlider:
+  - ask: >-
+      Since we use Visyond, everyone, regardless of their skill level, can ask
+      deeper questions to our models and prepare more informative reports in
+      real time.
+    name: 'Edoardo Gauzolino, Founder, JEBG'
+    photo: /img/client_5.jpg
+  - ask: >-
+      When I use Visyond I see my accuracy and ability to answer questions about
+      my work go up. I can do more and have peace of mind.
+    name: BOSS
+    photo: /img/img-team-1.jpg
+tour:
+  - btn: Modeling
+    descr: Lorem ipsum dolor sit amet
+    img: /img/5.jpg
+  - btn: Button 2
+    descr: dasdsadadsas dasdsadadsas dasdsadadsas
+    img: /img/4.jpg
+  - btn: Button 3
+    descr: Lorem ipsdum dolor sit amet
+    img: /img/2.png
 ---
 
