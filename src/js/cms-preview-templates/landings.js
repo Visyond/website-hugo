@@ -6,7 +6,8 @@ export default class Landings extends React.Component {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         let image = getAsset(entry.getIn(["data", "topImage"]));
         let bottomImage = getAsset(entry.getIn(["data", "bottomBg"]));
-        return <div className="landing">
+        return (
+        <div className="landing">
 
             <div 
                 className="landing-banner"
@@ -34,10 +35,10 @@ export default class Landings extends React.Component {
                 <div className="container">
                     <ul className="functions__list">
                     {(entry.getIn(["data", "func"]) || []).map((item, index) => {
-                        return <li className="functions__item">
+                        return <li className="functions__item" key={index}>
                                     <figure className="functions__img-container">
                                         <span className="function__img-wrap">
-                                            <img src={item.get('ico')} alt="#" className="functions__img" />
+                                            <img src={item.get('icon')} alt="#" className="functions__img" />
                                         </span>
                                         <figcaption className="functions__img-descr">{ item.get('content') }</figcaption>
                                     </figure>
@@ -151,6 +152,7 @@ export default class Landings extends React.Component {
                 </div>
             </div>
         </div>
+        );
     }
     
 }

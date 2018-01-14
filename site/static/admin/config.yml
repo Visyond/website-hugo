@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Second solution", name: "second_solution", widget: "markdown", required: false}
       - {label: "Third solution", name: "third_solution", widget: "markdown", required: false}
   
-  - name: "langings"
+  - name: "landings"
     label: "Landings"
     folder: "site/content/landings"
     create: true
@@ -46,7 +46,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Function", name: "func", widget: "list",
         fields: [
           {label: "Description", name: "content", widget: "string"},
-          {label: "Icon", name: "ico", widget: "image"}
+          {label: "Icon", name: "icon", widget: "image"}
         ],
         required: false,
       }
