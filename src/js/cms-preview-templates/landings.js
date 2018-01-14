@@ -6,7 +6,7 @@ export default class Landings extends React.Component {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         let image = getAsset(entry.getIn(["data", "topImage"]));
         let bottomImage = getAsset(entry.getIn(["data", "bottomBg"]));
-        return <div>
+        return <div className="landing">
 
             <div 
                 className="landing-banner"
