@@ -41,7 +41,49 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - { label: "Top image", name: "topImage", widget: "image", required: true }
+      - { label: "Top description", name: "descr", widget: "string", required: false }
+      - { label: "Function", name: "func", widget: "list",
+        fields: [
+          {label: "Description", name: "content", widget: "string"},
+          {label: "Icon", name: "ico", widget: "image"}
+        ],
+        required: false,
+      }
+      - { label: "Features", name: "feature", widget: "list",
+        fields: [
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Description", name: "content", widget: "string"},
+          {label: "Icon", name: "ico", widget: "image"}
+        ],
+        required: false,
+      }
+      - { label: "Testimonials company", name: "company", widget: "list",
+        fields: [
+          {label: "Logo", name: "logo", widget: "image"}
+        ],
+        required: false,
+      }
+      - { label: "Testimonials slider", name: "testiSlider", widget: "list",
+        fields: [
+          {label: "Client asked", name: "ask", widget: "string"},
+          {label: "Logo", name: "photo", widget: "image"},
+          {label: "Client name", name: "name", widget: "string"}
+        ],
+        required: false,
+      }
+      - { label: "Product tour", name: "tour", widget: "list",
+        fields: [
+          {label: "button", name: "btn", widget: "string"},
+          {label: "description", name: "descr", widget: "string"},
+          {label: "Logo", name: "img", widget: "image"},
+        ],
+        required: false,
+      }
+      - { label: "Bottom background", name: "bottomBg", widget: "image", required: false }
+      - { label: "Bottom title", name: "bottomTitle", widget: "string", required: false }
+      - { label: "Bottom sub-title", name: "bottomSubTitle", widget: "string", required: false }
+      
 
   # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
   #   label: "Post" # Used in the UI, ie.: "New Post"
