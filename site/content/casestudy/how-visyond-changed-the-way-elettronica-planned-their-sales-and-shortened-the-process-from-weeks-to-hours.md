@@ -2,6 +2,7 @@
 title: >-
   How Visyond changed the way Elettronica planned their Sales, and shortened the
   process from weeks to hours
+image: /img/bbbbb.PNG
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
