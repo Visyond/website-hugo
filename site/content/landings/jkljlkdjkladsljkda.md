@@ -1,6 +1,6 @@
 ---
 title: jkljlkdjkladsljkda
-topImage: /img/video_poster.jpg
+topImage: /img/testimon1.jpg
 descr: asdasdasd
 ---
 
