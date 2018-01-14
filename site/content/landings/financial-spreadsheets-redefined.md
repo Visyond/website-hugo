@@ -60,5 +60,8 @@ tour:
   - btn: Button 3
     descr: Lorem ipsdum dolor sit amet
     img: /img/2.png
+bottomBg: /img/errors-dark.jpg
+bottomTitle: 88% of spreadsheets have errors*
+bottomSubTitle: Don’t leave it to chance. SIGN UP
 ---
 
