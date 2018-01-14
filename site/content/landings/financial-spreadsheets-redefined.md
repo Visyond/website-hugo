@@ -15,5 +15,28 @@ func:
     icon: /img/mapShape1.png
   - content: Investment analysis
     icon: /img/mapShape2.png
+feature:
+  - content: >-
+      Collaborate effortlessly without the chaos of numerous file versions
+      floating around. Gain full control over your models by preventing
+      overridden changes and keeping full track of colleagues’ inputs.
+    ico: /img/tw.png
+    title: Collaborate seamlessly
+  - content: >-
+      Collaborate effortlessly without the chaos of numerous file versions
+      floating around. Gain full control over your models by preventing
+      overridden changes and keeping full track of colleagues’ inputs.
+    ico: /img/tw.png
+    title: Collaborate seamlessly
+  - content: >-
+      Collaborate effortlessly without the chaos of numerous file versions
+      floating around. Gain full control over your models by preventing
+      overridden changes and keeping full track of colleagues’ inputs.
+    ico: /img/mapShape2.png
+    title: Collaborate seamlessly
+company:
+  - logo: /img/jebg.png
+  - logo: /img/logoClient_1.png
+  - logo: /img/elt.png
 ---
 
