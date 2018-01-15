@@ -38,5 +38,6 @@ company:
 testiSlider:
   - ask: what
     name: bob
+    photo: /img/bbbbb.PNG
 ---
 
