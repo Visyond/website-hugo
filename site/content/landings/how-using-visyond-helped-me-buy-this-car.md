@@ -35,5 +35,8 @@ feature:
     title: Collaboration is easy
 company:
   - {}
+testiSlider:
+  - ask: what
+    name: bob
 ---
 
