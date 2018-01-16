@@ -37,8 +37,37 @@ aside:
       * Run simulations on the assumptions
 
       * Generate and present results and reports automatically
-  - content: "**Solution\r**\n\n* Single, cloud-based Territory & Quota data model\r\n* Visyond Replaced multiple copies of the spreadsheets sent and consolidated manually with Visyond dynamic cases and scenarios managed\r\n* Visyond introduced real-time collaboration to the existing workflow and made the process much faster\r\n* Transparency and accountability for data input Results at a Glance"
-  - content: "Result at the glance\r\n\n* Process completed in hours instead of the typical few days with Excel-based process: at least 20 times faster\r\n* Clarity for every stakeholder about different versions of data and impact of their assumptions\r\n* Separate paperwork and notes have been eliminated thanks to auto reporting\r\n* Ability to create different versions of data and compare scenarios in real-time\r\n* Simplicity and speed in changing assumptions and and presenting the new results"
+  - content: >-
+      **Solution**
+
+
+      * Single, cloud-based Territory & Quota data model
+
+      * Visyond Replaced multiple copies of the spreadsheets sent and
+      consolidated manually with Visyond dynamic cases and scenarios managed
+
+      * Visyond introduced real-time collaboration to the existing workflow and
+      made the process much faster
+
+      * Transparency and accountability for data input Results at a Glance
+  - content: >-
+      **Result at the glance**
+
+
+      * Process completed in hours instead of the typical few days with
+      Excel-based process: at least 20 times faster
+
+      * Clarity for every stakeholder about different versions of data and
+      impact of their assumptions
+
+      * Separate paperwork and notes have been eliminated thanks to auto
+      reporting
+
+      * Ability to create different versions of data and compare scenarios in
+      real-time
+
+      * Simplicity and speed in changing assumptions and and presenting the new
+      results
 first_solution: |-
   ![undefined](/img/finger_paint-1920x1200.jpg)
 
