@@ -7,7 +7,17 @@ tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
 client: /img/Layer_6772x.png
-client_ask: "Fernando is a Sales Manager at Elettronica, a company of more than 800 employees active in the defense sector and selling its solutions worldwide.\r\n\r\nFernando leads the preparation of forecasts and plans for the top management, and recommends where to allocate resources to optimise the sales process.\n\n> \"It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.\r\"\n"
+client_ask: >-
+  Fernando is a Sales Manager at Elettronica, a company of more than 800
+  employees active in the defense sector and selling its solutions worldwide.
+
+
+  Fernando leads the preparation of forecasts and plans for the top management,
+  and recommends where to allocate resources to optimise the sales process.
+
+
+  > _"It was a very time consuming process with a high risk of mistakes at each
+  step, due to the manual implementation and the large set of inputs"._
 aside:
   - content: '![undefined](/img/Elettronica_logo2x.png)'
   - content: |-
@@ -68,20 +78,36 @@ aside:
 
       * Simplicity and speed in changing assumptions and and presenting the new
       results
-first_solution: |-
+first_solution: >-
   ![undefined](/img/finger_paint-1920x1200.jpg)
 
-  **Solution 1 test**
-second_solution: |-
+
+  **Do people get scared when they look at your Excel formulas?**
+
+
+  Worry no more! Visyond features natural-language formulas that anyone can
+  read! Unless you are, like, really bad at this.
+second_solution: >-
   ![undefined](/img/1333741712089.jpg)
 
-  **Solution 2 test**
-third_solution: |-
+
+  **Tired of this burning sensation in your lower back when someone overwrites
+  the data in your model?**
+
+
+  See a doctor for existing cases. Better yet - prevent it altogether with
+  Visyond's version control!
+third_solution: >-
   ![undefined](/img/wallhaven-11877.png)
 
-  **Solution 3 test**
+
+  **Be elegant and excel with Visyond!**
+
+
+  No pun intended. Easy to learn and to work with. Visyond is elegant in its
+  simplicity. Try it and you will never look back.
 ---
-### Before Visyond
+## Before Visyond
 
 This is how Fernando's job look like:
 
@@ -92,11 +118,9 @@ This is how Fernando's job look like:
 
 ![undefined](/img/Screen_Shot_2017-11-06_at_3.17.59_PM.png)
 
-> Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally.
+> _"Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally"._
 
-
-
-### After Visyond
+## After Visyond
 
 After Visyond was implemented, Fernando’s job changed completely. Thanks to Visyond’s “Cases” and “Scenarios” tools, he can now share the master file between the stakeholders to collect their inputs without the fear they could alter or damage the core structure - and subsequently prepare different scenarios acting on each parameter without changing the spreadsheets set.
 
