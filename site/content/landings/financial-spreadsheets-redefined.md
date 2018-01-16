@@ -1,9 +1,7 @@
 ---
 title: Financial spreadsheets redefined
 topImage: /img/banner.jpg
-descr: >-
-  Visyond gives you an edge when preparing, analysing and presenting your
-  numbers
+descr: 'gives you an edge when preparing, analysing and presenting your numbers'
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 func:
   - content: Cashflow forecasting
