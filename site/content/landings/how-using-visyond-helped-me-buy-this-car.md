@@ -57,5 +57,30 @@ testiSlider:
   - ask: what
     name: bob
     photo: /img/bbbbb.PNG
+tour:
+  - btn: Version control and comparison
+    descr: >-
+      You no longer need to juggle dozens of slightly different versions of the
+      same spreadsheet. Keep everything in the same spreadsheet with the ability
+      to roll-back at any time.
+  - btn: 3D-Cell
+    descr: >-
+      In Visyond, each cell is a database that stores multiple inputs from
+      different people, comments and even file attachments. Everyone who needs
+      to contribute can input their numbers through an easy to manage a
+      collaborative process. Information about who changed what and when is
+      always available for you to view.
+  - btn: 'Import & Export spreadsheets, link external sources'
+    descr: >-
+      Easily import data from the existing spreadsheets into Visyond and
+      continue working without interruptions. Export the spreadsheet to share
+      with someone outside the platform. All values and formulae will be safely
+      carried over to the new document. Add an external spreadsheet & reference
+      any cells from it directly in Visyond.
+  - btn: 'Cloud-based: access from anywhere, on any device'
+    descr: >-
+      Your data will always be available to you wherever you are in the world,
+      around the clock, on any device. Securely stored and continuously
+      backed-up.
 ---
 
