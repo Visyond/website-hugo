@@ -1,9 +1,9 @@
 ---
-title: How using Visyond helped me buy this car?
+title: >-
+  Maintain full control and transparency over financial modelling data, with our
+  spreadsheet governance platform
 topImage: /img/wallhaven-246377.jpg
-descr: >-
-  My entire life I have been using Excel to do financial modelling but then I
-  heard about Visyond and it changed my life!
+descr: 'Improved Spreadsheet Management and Governance, For You and Your Clients'
 popupUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 func:
   - content: Charming eyes
