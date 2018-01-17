@@ -4,6 +4,9 @@
     <h3 hidden></h3>
 
     <ul class="homepage-cards__list">
+        {{ range $element := .Params.Cards }}
+            lorem
+        {{end}}
         <li class="homepage-cards__item">
             {{ .Description }}
             {{ partial "homepage-card.html" .}}

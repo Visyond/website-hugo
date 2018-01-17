@@ -140,4 +140,10 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields: 
-          - { label: Title, name: title, widget: string }
+          - { label: Cards, name: "cards", widget: list, fields: [
+            { label: "Card background", name: cardBackground, widget: "image" },
+            { label: "Card title", name: cardTitle, widget: "string" },
+            { label: "Card icon", name: cardIcon, widget: "image" },
+            { label: "Card description", name: cardDescr, widget: "string" },
+            { label: "Card path", name: cardLink, widget: "string" }
+          ]}
