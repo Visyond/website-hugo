@@ -12,5 +12,9 @@
     <link rel="shortcut icon" href="https://visyond.com/f/img/visy-favicon.ico">
 </head>
 <body>
-    {{ partial "header" . }}
-    <div class="maincontent">
+    {{ if eq .Title "Homepage" }}
+        {{ partial "homepage-header" . }}
+    {{ else }}
+        {{ partial "header" . }}
+    {{ end }}
+    <div class="maincontent {{ if eq .Title "Homepage"}} no-padding {{end}}">

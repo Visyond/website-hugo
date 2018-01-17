@@ -1,0 +1,246 @@
+.homepage-header {
+    background: #182130;
+    padding: 25px 30px 25px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+
+.nav--homepage-header {
+    margin-left: 0;
+}
+
+.nav--homepage-header__item {
+    &:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+.nav--homepage-header__link {
+    color: #fff;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #0585ff;
+    }
+}
+
+.nav--homepage-header__link.nav__link--active {
+    color: #0585ff;
+}
+
+.homepage__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepage__user-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.homepage__user-nav-item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.homepage__user-nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    transition: color .1s ease-in-out;
+
+    &:hover {
+        color: #0585ff;
+    }
+}
+
+.homepage__user-nav-link--request {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.no-padding {
+    padding-top: 0;
+}
+
+.homepage-cards {
+    background: #182130;
+    padding: 0 30px;
+    padding-bottom: 30px;
+}
+
+.homepage-cards__list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.homepage-cards__item {
+    width: calc( 50% - 5px);
+    margin-bottom: 10px;
+    &:nth-child(2n+1) {
+        margin-right: 10px;
+    }
+}
+
+.trusted {
+    background: #f5f6f9;
+    padding: 40px 0;
+}
+
+.homepage-title {
+    text-align: center;
+    font-weight: 700;
+    color: #858794;
+    font-size: 29px;
+    letter-spacing: 1px;
+}
+
+.trusted__title {
+    margin-bottom: 30px;
+}
+
+.trusted__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.trusted__list .slick-track {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted__item {
+    padding: 0 50px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.trusted__img {
+    display: block;
+    max-width: 70%;
+    filter: grayscale(100%);
+    transition: filter .1s ease-in-out;
+    &:hover {
+        filter: grayscale(0);
+    }
+}
+
+.customers {
+    padding: 110px 0;
+}
+
+.customers__list {
+    margin: 60px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.customers__item {
+    text-align: center;
+}
+
+.customers__img-container {
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.customers__img-wrap {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+.customers__img-wrap img {
+    max-width: 100%;
+}
+
+.customers__img-descr-wrap {
+    margin-top: 55px;
+}
+
+.customers__img-descr {
+    color: #52556c;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    position: relative;
+    margin-bottom: 45px;
+
+    &:before, &:after {
+        content: '';
+        background: url('/img/vimages/quote.png') no-repeat;
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        
+    }
+    &:before {
+        left: -10px;
+        top: 5px;
+    }
+    &:after {
+        right: 0;
+        bottom: 0;
+        transform: rotate(180deg);
+    }
+}
+
+.customers__img-author {
+    color: #52556c;
+    font-size: 16px;
+    opacity: .8;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.customers__img-company {
+    max-width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.customers__list .slick-next, .customers__list .slick-prev {
+    z-index: 9;
+    background:url("/img/vimages/arrowL.png") no-repeat;
+    background-size: 70px;
+    height: 139px;
+    width: 70px;
+    transition: background .2s ease-in-out;
+    &:before {
+        content: '';
+    }
+
+    &:hover {
+        /* background: url('/img/vimages/tour-arr-hover.png') no-repeat; */
+        background-size: 70px;
+    }
+}
+
+.customers__list .slick-prev {
+    left: 0;
+}
+
+.customers__list .slick-next {
+    right: 0;
+    transform: rotate(180deg) translateY(50%);
+}

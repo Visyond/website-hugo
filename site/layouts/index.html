@@ -1,4 +1,75 @@
 {{ partial "head" . }}
 
+<section class="homepage-cards">
+    <h3 hidden></h3>
+
+    <ul class="homepage-cards__list">
+        <li class="homepage-cards__item">
+            {{ .Description }}
+            {{ partial "homepage-card.html" .}}
+        </li>
+        <!-- <li class="homepage-cards__item">
+            {{ partial "homepage-card.html" . }}
+        </li>
+        <li class="homepage-cards__item">
+            {{ partial "homepage-card.html" . }}
+        </li>
+        <li class="homepage-cards__item">
+            {{ partial "homepage-card.html" . }}
+        </li> -->
+    </ul>
+</section>
+
+<section class="trusted">
+    <h3 class="trusted__title homepage-title">Trusted by</h3>
+
+    <ul class="trusted__list">
+        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/elt.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/elt.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
+        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
+    </ul>
+</section>
+
+<section class="customers">
+    <h3 class="customers__title homepage-title">What the customers say</h3>
+
+    <ul class="customers__list">
+        <li class="customers__item">
+            <figure class="customers__img-container">
+                <span class="customers__img-wrap">
+                    <img src="/img/vimages/img-team-1.jpg" alt="">
+                </span>
+
+                <figcaption class="customers__img-descr-wrap">
+                    <p class="customers__img-descr">I have finally full control on the source and impact of any assumptions, and can confidently answer what-if questions with a few clicks.</p>
+
+                    <span class="customers__img-author">Nina Fedorova, Senior Consultant, DELOITTE</span>
+                    <img src="/img/vimages/jebg.png" alt="" class="customers__img-company">
+                </figcaption>
+            </figure>
+        </li>
+        <li class="customers__item">
+            <figure class="customers__img-container">
+                <span class="customers__img-wrap">
+                    <img src="/img/vimages/img-team-1.jpg" alt="">
+                </span>
+
+                <figcaption class="customers__img-descr-wrap">
+                    <p class="customers__img-descr">I have finally full control on the source and impact of any assumptions, and can confidently answer what-if questions with a few clicks.</p>
+
+                    <span class="customers__img-author">Nina Fedorova, Senior Consultant, DELOITTE</span>
+                    <img src="/img/vimages/logoClient_1.png" alt="" class="customers__img-company">
+                </figcaption>
+            </figure>
+        </li>
+    </ul>
+</section>
 
 {{ partial "footer" . }}

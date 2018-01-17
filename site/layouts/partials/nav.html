@@ -1,8 +1,9 @@
-<nav class="nav">
-	<ul class="nav__list">
-		<li class="nav__item"><a href="#" class="nav__link"><span>Platform</span></a></li>
-		<li class="nav__item">
-			<a href="#solutions-toggle" class="nav__link">
+
+<nav class="nav {{ if eq .Title "Homepage"}} nav--homepage-header {{end}}">
+	<ul class="nav__list {{ if eq .Title "Homepage"}} nav--homepage-header__list {{end}}">
+		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="#" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Platform</span></a></li>
+		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}">
+			<a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}">
 				<span>Solutions</span>
 			</a>
 			<div class="dropdown-menu-wrap">
@@ -76,8 +77,8 @@
 			</div>
 		</div>
 		</li>
-		<li class="nav__item"><a href="#" class="nav__link"><span>Case studies</span></a></li>
-		<li class="nav__item"><a href="#" class="nav__link"><span>Resourses</span></a></li>
+		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="#" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Case studies</span></a></li>
+		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="#" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Resourses</span></a></li>
 	</ul>
 </nav>
 

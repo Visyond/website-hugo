@@ -1,0 +1,48 @@
+
+.function-card__bg {
+    background: url('/img/vimages/banner.jpg') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: blur(1px);
+    opacity: .6;
+}
+
+.function-card {
+    position: relative;
+    background: #111F34;
+    height: 100%;
+
+    &:hover .function-card__bg{
+        filter: blur(0);
+    }
+
+    &:hover .function-card__title {
+        color: #0585ff;
+    }
+}
+.function-card__link {
+    position: relative;
+    padding: 50px 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    color: #fff;
+}
+.function-card__title {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 29px;
+    transition: color .1s ease-in-out;   
+}
+
+.function-card__descr {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+    max-width: 430px;
+}

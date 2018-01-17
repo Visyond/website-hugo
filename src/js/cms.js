@@ -6,6 +6,7 @@ import ProductsPreview from "./cms-preview-templates/products";
 import SimplePage from './cms-preview-templates/simplepages';
 import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
+import Homepage from "./cms-preview-templates/homepage";
 
 
 // Example of creating a custom color widget
@@ -26,4 +27,5 @@ CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("simplepages", SimplePage);
 CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
+CMS.registerWidget("homepage", Homepage);
 CMS.registerWidget("color", ColorControl);
