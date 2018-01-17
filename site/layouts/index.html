@@ -4,17 +4,16 @@
     <h3 hidden></h3>
 
     <ul class="homepage-cards__list">
-        
-        {{ range $el := .Params.Cards }}
+        {{ range $index, $foo := .Params.cards }}
             <li class="homepage-cards__item">
                 <article class="function-card">
                     <div 
                         class="function-card__bg"
-                    
-                    ></div>
-                    <a href="#" class="function-card__link">
-                        <span class="function-card__icon">
-                            
+                        ></div>
+                        <a href="#" class="function-card__link">
+                            <span class="function-card__icon">
+                                    {{ $index }}
+                            {{ $foo }}
                         </span>
                         <!-- <h3 class="function-card__title"></h3> -->
                         <p class="function-card__descr">
@@ -24,15 +23,6 @@
                 </article>
             </li>
         {{end}}
-        <!-- <li class="homepage-cards__item">
-            {{ partial "homepage-card.html" . }}
-        </li>
-        <li class="homepage-cards__item">
-            {{ partial "homepage-card.html" . }}
-        </li>
-        <li class="homepage-cards__item">
-            {{ partial "homepage-card.html" . }}
-        </li> -->
     </ul>
 </section>
 

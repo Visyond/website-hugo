@@ -141,9 +141,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "home"
         fields: 
           - { label: Cards, name: "cards", widget: list, fields: [
-            { label: "Card background", name: cardBackground, widget: "image" },
-            { label: "Card title", name: cardTitle, widget: "string" },
-            { label: "Card icon", name: cardIcon, widget: "image" },
-            { label: "Card description", name: cardDescr, widget: "string" },
-            { label: "Card path", name: cardLink, widget: "string" }
+              { label: "Card title", name: "cardTitle", widget: "string" },
+              { label: "Card background", name: "cardBackground", widget: "image" },
+              { label: "Card icon", name: "cardIcon", widget: "image" },
+              { label: "Card description", name: "cardDescr", widget: "string" },
+              { label: "Card path", name: "cardLink", widget: "string" },
           ]}
