@@ -4,22 +4,25 @@
     <h3 hidden></h3>
 
     <ul class="homepage-cards__list">
-        {{ range $element := .Params.Cards }}
-        <li class="homepage-cards__item">
-            <article class="function-card">
-                <div 
-                    class="function-card__bg"
-                    style="background: url({{$element.cardBackground}}) center center no-repeat"
-                ></div>
-                <a href={{$element.cardLink}} class="function-card__link">
-                    <span class="function-card__icon">{{ $element.cardIcon }}</span>
-                    <h3 class="function-card__title">{{ $element.cardTitle }}</h3>
-                    <p class="function-card__descr">
-                        {{ $element.cardDescr }}
-                    </p>
-                </a>
-            </article>
-        </li>
+        
+        {{ range $el := .Params.Cards }}
+            <li class="homepage-cards__item">
+                <article class="function-card">
+                    <div 
+                        class="function-card__bg"
+                    
+                    ></div>
+                    <a href="#" class="function-card__link">
+                        <span class="function-card__icon">
+                            
+                        </span>
+                        <!-- <h3 class="function-card__title"></h3> -->
+                        <p class="function-card__descr">
+                            
+                        </p>
+                    </a>
+                </article>
+            </li>
         {{end}}
         <!-- <li class="homepage-cards__item">
             {{ partial "homepage-card.html" . }}
