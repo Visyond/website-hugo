@@ -4,7 +4,7 @@ cards:
     cardDescr: Lorem ipsum dolor sit amet
     cardIcon: /img/tw.png
     cardLink: google.com
-    cardTitle: Lorem ipsum dolor
+    cardTitle: Lorem ipsum dolor 2
   - cardDescr: oops
     cardLink: amazon.com
     cardTitle: second card
