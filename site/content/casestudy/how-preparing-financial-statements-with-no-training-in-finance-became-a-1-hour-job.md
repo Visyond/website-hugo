@@ -25,8 +25,20 @@ client_ask: >-
   to update data"._
 aside:
   - content: '![eLearnSecurity](/img/elearnsec logo.png)'
-  - content: "**Use Cases\r**\n\n* Reporting\r\n* Preparing Financial Statements"
-  - content: "**Challenge\r**\n\n* Streamlining the process of creation and analysis of a proforma financial statements (Balance sheet, Income Statement) inside an existing operating model of the company\r\n* Reporting Key Performance Indicators to key stakeholders"
+  - content: |-
+      **Use Cases**
+
+      * Reporting
+      * Preparing Financial Statements
+  - content: >-
+      **Challenge**
+
+
+      * Streamlining the process of creation and analysis of a proforma
+      financial statements (Balance sheet, Income Statement) inside an existing
+      operating model of the company
+
+      * Reporting Key Performance Indicators to key stakeholders
   - content: >-
       **Solution**
 
@@ -34,7 +46,19 @@ aside:
       * User-friendly, point & click interface to generate financial statements
       directly from your model, without the hassle and training of doing it
       manually
-  - content: "**Result at the glance\r**\n\n* Clean & balanced financial statements created without the use of plugs or iterations (Visyond solves the equations linking the 3 statements)\r\n* The unnecessary intermediate worksheets have been eliminated - together with the potential errors associated with them\r\n* The model owner can focus on working with the operating model that he masters, without worrying about financial statements, as a result improving his productivity"
+  - content: >-
+      **Result at the glance**
+
+
+      * Clean & balanced financial statements created without the use of plugs
+      or iterations (Visyond solves the equations linking the 3 statements)
+
+      * The unnecessary intermediate worksheets have been eliminated - together
+      with the potential errors associated with them
+
+      * The model owner can focus on working with the operating model that he
+      masters, without worrying about financial statements, as a result
+      improving his productivity
 first_solution: >-
   ![Car](/img/wallhaven-246377.jpg)
 
