@@ -1,4 +1,5 @@
 ---
-cards: []
+cards:
+  - cardTitle: Lorem ipsum dolor
 ---
 
