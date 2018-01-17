@@ -1,9 +1,4 @@
 ---
-<<<<<<< HEAD
-title: Home
-type: Pages
-page: /index.html
-=======
 cards:
   - cardBackground: /img/map2.png
     cardDescr: Lorem ipsum dolor sit amet
@@ -21,6 +16,5 @@ slider:
     slidercompany: Visyond
     sliderlogo: /img/logo-elt.png
     sliderphoto: /img/testimon1.jpg
->>>>>>> parent of 1b16103... Update Pages “home”
 ---
 
