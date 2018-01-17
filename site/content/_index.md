@@ -8,5 +8,8 @@ cards:
   - cardDescr: oops
     cardLink: amazon.com
     cardTitle: second card
+client:
+  - clientIcon: /img/jebg_c.png
+  - clientIcon: /img/elet2.png
 ---
 
