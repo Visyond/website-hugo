@@ -27,5 +27,5 @@ CMS.registerPreviewTemplate("products", ProductsPreview);
 CMS.registerPreviewTemplate("simplepages", SimplePage);
 CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
-CMS.registerWidget("home", Home);
+CMS.registerPreviewTemplate("home", Home);
 CMS.registerWidget("color", ColorControl);
