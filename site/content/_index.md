@@ -1,4 +1,5 @@
 ---
+title: "Homepage"
 cards:
   - cardBackground: /img/map2.png
     cardDescr: Lorem ipsum dolor sit amet
