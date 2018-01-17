@@ -16,5 +16,9 @@ slider:
     slidercompany: Visyond
     sliderlogo: /img/logo-elt.png
     sliderphoto: /img/testimon1.jpg
+  - sliderDescr: Visyond
+    slidercompany: BOSS
+    sliderlogo: /img/tw.png
+    sliderphoto: /img/img-team-1.jpg
 ---
 
