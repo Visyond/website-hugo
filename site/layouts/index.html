@@ -5,12 +5,22 @@
 
     <ul class="homepage-cards__list">
         {{ range $element := .Params.Cards }}
-            lorem
-        {{end}}
         <li class="homepage-cards__item">
-            {{ .Description }}
-            {{ partial "homepage-card.html" .}}
+            <article class="function-card">
+                <div 
+                    class="function-card__bg"
+                    style="background: url({{$element.cardBackground}}) center center no-repeat"
+                ></div>
+                <a href={{$element.cardLink}} class="function-card__link">
+                    <span class="function-card__icon">{{ $element.cardIcon }}</span>
+                    <h3 class="function-card__title">{{ $element.cardTitle }}</h3>
+                    <p class="function-card__descr">
+                        {{ $element.cardDescr }}
+                    </p>
+                </a>
+            </article>
         </li>
+        {{end}}
         <!-- <li class="homepage-cards__item">
             {{ partial "homepage-card.html" . }}
         </li>
