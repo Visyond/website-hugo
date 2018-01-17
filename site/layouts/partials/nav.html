@@ -7,8 +7,8 @@
 				<span>Solutions</span>
 			</a>
 			<div class="dropdown-menu-wrap">
-			<div class="dropdown-toggle" id="solutions-toggle">
-					<div class="dropdown-toggle--left">
+			<div class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" id="solutions-toggle">
+					<div class="dropdown-toggle--left {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-left {{end}}">
 						<a href="#" class="dropdown-toggle--left__link">
 							<h3 class="dropdown-toggle--left__title">Answer questions in seconds</h3>
 							<figure class="dropdown-toggle--left__img">
@@ -19,7 +19,7 @@
 							</figure>
 						</a>
 					</div>
-					<section class="dropdown-toggle--right">
+					<section class="dropdown-toggle--right {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-right {{end}}">
 						<h3 hidden></h3>
 						<article class="dropdown-toggle__group">
 							<h4 class="dropdown-toggle__group-title">Challenge</h4>
