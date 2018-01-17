@@ -11,5 +11,10 @@ cards:
 client:
   - clientIcon: /img/jebg_c.png
   - clientIcon: /img/elet2.png
+slider:
+  - sliderDescr: I have a finaly full controll
+    slidercompany: Visyond
+    sliderlogo: /img/logo-elt.png
+    sliderphoto: /img/testimon1.jpg
 ---
 
