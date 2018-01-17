@@ -183,6 +183,8 @@
     font-style: italic;
     position: relative;
     margin-bottom: 45px;
+    padding: 0 15px;
+    display: inline-block;
 
     &:before, &:after {
         content: '';
@@ -194,7 +196,7 @@
         
     }
     &:before {
-        left: -10px;
+        left: 0px;
         top: 5px;
     }
     &:after {

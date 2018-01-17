@@ -119,7 +119,7 @@ collections: # A list of collections the CMS should be able to edit
   #     - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "products"
-    label: "Products"
+    label: "Pages"
     files:
       - file: "site/content/products.md"
         label: "Products Page"
@@ -146,4 +146,13 @@ collections: # A list of collections the CMS should be able to edit
               { label: "Card icon", name: "cardIcon", widget: "image" },
               { label: "Card description", name: "cardDescr", widget: "string" },
               { label: "Card path", name: "cardLink", widget: "string" },
+          ]}
+          - { label: "Clients", name: "client", widget: list, fields: [
+            { label: "Client icon", name: "clientIcon", widget: image }
+          ]}
+          - { label: Slider, name: "slider", widget: list, fields: [
+              { label: "slider photo", name: "sliderphoto", widget: "image" },
+              { label: "slider description", name: "sliderDescr", widget: "string" },
+              { label: "slider company", name: "slidercompany", widget: "string" },
+              { label: "slider logo", name: "sliderlogo", widget: "image" },
           ]}

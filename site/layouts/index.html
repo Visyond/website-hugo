@@ -5,24 +5,9 @@
 
     <ul class="homepage-cards__list">
         {{ range $foo := .Params.cards }}
-            <li class="homepage-cards__item">
-                <article class="function-card">
-                    <div 
-                        class="function-card__bg"
-                        ></div>
-                        <a href="#" class="function-card__link">
-                            <span class="function-card__icon">
-                                {{ .cardIcon }}
-                        </span>
-                        <h3 class="function-card__title">
-                            {{ .cardTitle }}
-                        </h3>
-                        <p class="function-card__descr">
-                            {{ .cardDesc }}
-                        </p>
-                    </a>
-                </article>
-            </li>
+        <li class="homepage-cards__item">
+            {{ partial "homepage-card" (dict "cardBackground" .cardBackground "cardLink" .cardLink "cardIcon" .cardIcon "cardTitle" .cardTitle "cardDescr" .cardDescr ) }}
+        </li>
         {{end}}
     </ul>
 </section>
@@ -31,16 +16,9 @@
     <h3 class="trusted__title homepage-title">Trusted by</h3>
 
     <ul class="trusted__list">
-        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/elt.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/elt.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/logoClient_1.png" alt="" class="trusted__img"></li>
-        <li class="trusted__item"><img src="/img/vimages/jebg.png" alt="" class="trusted__img"></li>
+        {{ range $icon := .Params.client }}
+        <li class="trusted__item"><img src={{ .clientIcon }} alt="" class="trusted__img"></li>
+        {{end}}
     </ul>
 </section>
 
@@ -48,34 +26,22 @@
     <h3 class="customers__title homepage-title">What the customers say</h3>
 
     <ul class="customers__list">
+        {{ range $item := .Params.slider  }}
         <li class="customers__item">
             <figure class="customers__img-container">
                 <span class="customers__img-wrap">
-                    <img src="/img/vimages/img-team-1.jpg" alt="">
+                    <img src={{ .sliderphoto }} alt="">
                 </span>
 
                 <figcaption class="customers__img-descr-wrap">
-                    <p class="customers__img-descr">I have finally full control on the source and impact of any assumptions, and can confidently answer what-if questions with a few clicks.</p>
+                    <p class="customers__img-descr">{{ .sliderDescr }}</p>
 
-                    <span class="customers__img-author">Nina Fedorova, Senior Consultant, DELOITTE</span>
-                    <img src="/img/vimages/jebg.png" alt="" class="customers__img-company">
+                    <span class="customers__img-author">{{ .slidercompany }}</span>
+                    <img src={{ .sliderlogo }} alt="" class="customers__img-company">
                 </figcaption>
             </figure>
         </li>
-        <li class="customers__item">
-            <figure class="customers__img-container">
-                <span class="customers__img-wrap">
-                    <img src="/img/vimages/img-team-1.jpg" alt="">
-                </span>
-
-                <figcaption class="customers__img-descr-wrap">
-                    <p class="customers__img-descr">I have finally full control on the source and impact of any assumptions, and can confidently answer what-if questions with a few clicks.</p>
-
-                    <span class="customers__img-author">Nina Fedorova, Senior Consultant, DELOITTE</span>
-                    <img src="/img/vimages/logoClient_1.png" alt="" class="customers__img-company">
-                </figcaption>
-            </figure>
-        </li>
+        {{ end }}
     </ul>
 </section>
 
