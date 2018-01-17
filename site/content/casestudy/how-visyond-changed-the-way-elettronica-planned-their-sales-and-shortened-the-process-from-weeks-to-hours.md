@@ -16,8 +16,8 @@ client_ask: >-
   and recommends where to allocate resources to optimise the sales process.
 
 
-  > _"It was a very time consuming process with a high risk of mistakes at each
-  step, due to the manual implementation and the large set of inputs"._
+  > "It was a very time consuming process with a high risk of mistakes at each
+  step, due to the manual implementation and the large set of inputs".
 aside:
   - content: '![undefined](/img/Elettronica_logo2x.png)'
   - content: |-
@@ -118,7 +118,7 @@ This is how Fernando's job look like:
 
 ![undefined](/img/Screen_Shot_2017-11-06_at_3.17.59_PM.png)
 
-> _"Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally"._
+> "Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally".
 
 ## After Visyond
 
