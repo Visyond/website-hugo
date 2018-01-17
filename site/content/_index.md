@@ -1,7 +1,4 @@
 ---
-title: asd
-type: pages
-page: /index.html
+title: 'asdn,mnm,n,m'
 ---
 
-asdas
