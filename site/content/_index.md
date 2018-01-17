@@ -16,5 +16,9 @@ slider:
     slidercompany: Visyond
     sliderlogo: /img/logo-elt.png
     sliderphoto: /img/testimon1.jpg
+  - sliderDescr: hgfdsa
+    slidercompany: hgfdsa
+    sliderlogo: /img/jebg_c.png
+    sliderphoto: /img/img-team-1.jpg
 ---
 
