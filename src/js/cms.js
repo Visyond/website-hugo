@@ -6,7 +6,7 @@ import ProductsPreview from "./cms-preview-templates/products";
 import SimplePage from './cms-preview-templates/simplepages';
 import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
-import Homepage from "./cms-preview-templates/homepage";
+import Home from "./cms-preview-templates/home";
 
 
 // Example of creating a custom color widget

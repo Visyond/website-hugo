@@ -11,9 +11,11 @@ export default class Home extends React.Component {
                     <ul className="homepage-cards__list">
                     {(entry.getIn(["data", "cards"]) || []).map((item, index) => {
 
+
                         <li className="homepage-cards__item" key={index}>
+                        {index}
                         <article className="function-card">
-                            <div className="function-card__bg" style=`background: url({item.get('cardBackground')}) center center no-repeat`></div>
+                            <div className="function-card__bg" style="background: url({item.get('cardBackground')}) center center no-repeat"></div>
                             <a href="#" className="function-card__link">
                                 <span className="function-card__icon">
                                     <img src={item.get('cardIcon')} />
@@ -31,6 +33,6 @@ export default class Home extends React.Component {
                     </ul>
                 </section>
             </div>
-        )
+        );
     }
 }
