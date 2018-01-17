@@ -4,7 +4,7 @@
     <h3 hidden></h3>
 
     <ul class="homepage-cards__list">
-        {{ range $index, $foo := .Params.cards }}
+        {{ range $foo := .Params.cards }}
             <li class="homepage-cards__item">
                 <article class="function-card">
                     <div 
@@ -12,12 +12,13 @@
                         ></div>
                         <a href="#" class="function-card__link">
                             <span class="function-card__icon">
-                                    {{ $index }}
-                            {{ $foo }}
+                                {{ .cardIcon }}
                         </span>
-                        <!-- <h3 class="function-card__title"></h3> -->
+                        <h3 class="function-card__title">
+                            {{ .cardTitle }}
+                        </h3>
                         <p class="function-card__descr">
-                            
+                            {{ .cardDesc }}
                         </p>
                     </a>
                 </article>
