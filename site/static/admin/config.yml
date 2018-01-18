@@ -141,6 +141,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - { label: Title, name: contactsPage, widget: string }
+          - { label: Type, name: type, widget: hidden, default: contact }
+          - { label: Contact, name: contact, widget: hidden, default: "/contact.html" }
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
