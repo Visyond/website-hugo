@@ -13,6 +13,7 @@ contactsSocial:
 contactsPhone:
   - socialPhone: +3 123 123 123
   - socialPhone: +7 123 123 123
+  - socialPhone: '123123123'
 contactsEmail:
   - socialEmail: info@visyond.com
   - socialEmail: info2@visyond.com
