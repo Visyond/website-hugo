@@ -2,7 +2,7 @@
 title: >-
   How preparing Financial Statements with no training in Finance became a 1-hour
   job
-image: /img/1276771818788.jpg
+image: /img/casestud.jpg
 client: /img/armando.png
 client_ask: >-
   Armando is the Founder and CEO of eLearnSecurity, a Silicon Valley company
