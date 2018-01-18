@@ -1,4 +1,4 @@
 ---
-contactsPage: Contact us
+contactsPage: Contact us now
 ---
 
