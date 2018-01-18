@@ -3,13 +3,13 @@
 <div class="case-study-title-wrap contacts-title-wrap">
     <style>
         .case-study-title-wrap {
-            background: url('/img/vimages/topImgTerms.png') center center no-repeat;
+            background: url({{ .Params.TopImage }}) center center no-repeat;
             background-size: cover;
         }
     </style>
     <div class="container container--case-study-title-wrap">
         <h1 class="case-study__title">
-            {{ .Params.ContactsPage }}
+            {{ .Params.Title }}
         </h1>
     </div>
 </div>
@@ -17,23 +17,20 @@
 	<section class="contacts-page">
 		<article class="contacts-page__item contacts-page__item--mail">
 			<h3 class="contacts-page__title">Mail</h3>
-			<span class="contacts-page__address">Visyond Ventures Ltd 
-				86-90 Paul Street London  EC2A 4NE
-				United Kingdom</span>
+			<span class="contacts-page__address">{{ .Params.Mail }}</span>
 			
 			<div class="contacts-page__social-wrap">
-				{{ partial "social" . }}
+				{{ partial "social" (dict "data" .Params.ContactsSocial) }}
 			</div>
 		</article>
 		<article class="contacts-page__item contacts-page__item--phone">
 			<h3 class="contacts-page__title">Telephone</h3>
 			<ul class="contacts-page__list">
+				{{ range $element := .Params.Phone }}
 				<li class="contacts-page__item">
-					<a href="tel:+442038687298" class="contacts-page__link">+44 20 3868 7298</a>
+					<a href={{ $element.socialPhone }} class="contacts-page__link">{{ $element.socialPhone }}</a>
 				</li>
-				<li class="contacts-page__item">
-					<a href="tel:+442038687298" class="contacts-page__link">+44 20 3868 7298</a>
-				</li>
+				{{ end }}
 			</ul>
 		</article>
 		
