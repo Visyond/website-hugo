@@ -1,8 +1,13 @@
 <address class="social">
-    {{ .data }}
     <ul class="social__list">
-        <li class="social__item"><a href="https://www.facebook.com/Visyond" class="social__link social__link--fb"></a></li>
-        <li class="social__item"><a href="https://www.linkedin.com/company/visyond" class="social__link social__link--ln"></a></li>
-        <li class="social__item"><a href="https://twitter.com/visyond" class="social__link social__link--tw"></a></li>
+        
+        {{ range $el := .data }}
+        <li class="social__item">
+            <a 
+                href={{$el.socialLink}} class="social__link"
+                style="background: url({{$el.socialIcon}}) center center no-repeat; background-size:cover;"
+            ></a>
+        </li>
+        {{ end }}
     </ul>
 </address>

@@ -7,6 +7,7 @@ import SimplePage from './cms-preview-templates/simplepages';
 import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
 import Home from "./cms-preview-templates/home";
+import Contact from "./cms-preview-templates/contact";
 
 
 // Example of creating a custom color widget
@@ -28,4 +29,5 @@ CMS.registerPreviewTemplate("simplepages", SimplePage);
 CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
 CMS.registerPreviewTemplate("home", Home);
+CMS.registerPreviewTemplate("contact", Contact);
 CMS.registerWidget("color", ColorControl);
