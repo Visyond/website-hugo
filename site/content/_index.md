@@ -32,7 +32,7 @@ slider:
       and can confidently answer what-if questions with a few clicks.
     slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
     sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1.jpg
+    sliderphoto: /img/client_1a.jpg
   - sliderDescr: >-
       Since we use Visyond, everyone, regardless of their skill level, can ask
       deeper questions to our models and prepare more informative reports in
@@ -45,6 +45,6 @@ slider:
       my work go up. I can do more and have peace of mind.
     slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
     sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3.jpg
+    sliderphoto: /img/client_3a.jpg
 ---
 
