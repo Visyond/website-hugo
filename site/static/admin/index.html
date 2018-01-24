@@ -12,7 +12,13 @@
   <!-- <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script> -->
 </head>
 <body>
-  <span style="background: url('https://dev-gh.visyond.com/cms-status.svg'); position: absolute; right: 15px; top: 100px; z-index: 999; width: 66px; height: 20px;"></span>
+  <iframe width="160" height="55" src="https://dev-gh.visyond.com/cms-status.svg"
+      style="position: absolute; right: 125px; top: 20px; z-index: 999;" id="status"></iframe>
   <script src="/cms.js"></script>
+  <script>
+     setInterval(() => {
+        $('#status').attr('src', 'https://dev-gh.visyond.com/cms-status.svg')
+      }, 2000)
+  </script>
 </body>
 </html>
