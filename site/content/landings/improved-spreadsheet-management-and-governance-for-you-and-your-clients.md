@@ -33,6 +33,19 @@ case:
   - caseDescr: asdasd
     caseIco: /img/mapShape2.png
     caseLink: asd
+challenge:
+  - caseDescr: sdfgh
+    caseIco: /img/twitter.png
+    caseLink: adsad
+  - caseDescr: sdfghj
+    caseIco: /img/ico-streamline.png
+    caseLink: sdfgh
+  - caseDescr: sdfghjk.
+    caseIco: /img/ico-answer.png
+    caseLink: sdfghjk
+  - caseDescr: sdfghjk
+    caseIco: /img/jberg1.png
+    caseLink: wsefghjkl
 pricingTitle: ыьфдд
 firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
