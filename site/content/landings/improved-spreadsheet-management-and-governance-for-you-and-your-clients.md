@@ -17,6 +17,7 @@ feature:
   - content: вфывфывфывы
     ico: /img/tw.png
 howToPhoto: /img/testimon1.jpg
+howToAsked: Lorem ipsdum dolor sit amet
 howTo: вфывфывфывыф
 howToCompany: выфвфывфывы
 case:
