@@ -1,5 +1,5 @@
 ---
-title: 'Improved Spreadsheet Management and Governance, For You and Your Clients'
+title: Improved Spreadsheet
 topImage: /img/banner.jpg
 descr: ''
 videoTitle: "Visyond offers a new approach \x03of securing and managing your \x03spreadsheet data"
