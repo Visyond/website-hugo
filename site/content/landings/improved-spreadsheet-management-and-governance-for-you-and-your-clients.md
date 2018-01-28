@@ -70,7 +70,10 @@ leftCardSubTitle: фывфывфыв
 leftCardSubContent: фыв
 middleCardTitle: фыв
 middleCardSubTitle: фыв
-middleCardSubContent: фыв
+middleCardSubContent: |-
+  * first
+  * second
+  * third
 rightCardTitle: фыв
 rightCardSubTitle: фыв
 rightCardSubContent: фыв
