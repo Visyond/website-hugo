@@ -55,8 +55,8 @@ export default class Landings extends React.Component {
                     <h3 className="landing-trusted__title">Trusted by:</h3>
                     <ul className="landing-trusted__list">
                         {(entry.getIn(["data", "trusted"]) || []).map((item, index) => {
-                            <li className="landing-trusted__item">
-                                <img src={item.get('logo')} className="landing-trusted__img"/>
+                            return <li className="landing-trusted__item" key={index}>
+                                <img src={item.get("logo") && getAsset(item.get("logo"))} className="landing-trusted__img"/>
                             </li>
                         })}
                     </ul>
@@ -70,11 +70,11 @@ export default class Landings extends React.Component {
                     </h3>
 
                     <ul className="landing-features__list">
-                        {(entry.getIn(["data", "trusted"]) || []).map((item, index) => {
-                            <li className="landing-features__item">
+                        {(entry.getIn(["data", "feature"]) || []).map((item, index) => {
+                            return <li className="landing-features__item" key={index}>
                                 <figure className="landing-features__img-container">
                                     <span className="landing-features__img-wrap">
-                                        <img src={item.get('ico')} alt="" />
+                                        <img src={item.get('ico') && getAsset(item.get('ico'))} alt="" />
                                     </span>
                                     <figcaption className="landing-features__img-descr">
                                         <p className="landing-text-content">
@@ -99,7 +99,7 @@ export default class Landings extends React.Component {
                         <div className="column-6 different--right">
                             <figure className="landing-different__img-container">
                                 <span className="landing-different__img-wrap">
-                                    <img src={getAsset(entry.getIn(['data', 'howToPhoto ']))} alt="" />
+                                    <img src={getAsset(entry.getIn(['data', 'howToPhoto']))} alt="" />
                                 </span>
                                 <figcaption className="landing-different__img-descr-wrap">
                                     <p className="landing-different__img-descr">
@@ -124,9 +124,9 @@ export default class Landings extends React.Component {
 
                     <ul className="landing-casestudy__list">
                         {(entry.getIn(["data", "case"]) || []).map((item, index) => {
-                            <li className="landing-casestudy__item">
+                            return <li className="landing-casestudy__item" key={index}>
                                 <a href={item.get('caseLink')} className="landing-casestudy__link">
-                                    <img src={item.get('caseIco')} />
+                                    <img src={item.get('caseIco') && getAsset(item.get('caseIco'))} />
                                     <h3 className="landing-casestudy__title">
                                         { item.get('caseDescr') }
                                     </h3>
@@ -144,10 +144,10 @@ export default class Landings extends React.Component {
 
                     <ul className="landing-challenge__list">
                         {(entry.getIn(["data", "challenge"]) || []).map((item, index) => {
-                            <li className="landing-challenge__item">
+                            return <li className="landing-challenge__item" key={index}>
                                 <a href="#" className="landing-challenge__link">
                                     <span className="landing-challenge__icon">
-                                        <img src={item.get('caseIco')} alt="" />
+                                        <img src={item.get('caseIco') && getAsset(item.get('caseIco'))} alt="" />
                                     </span>
                                     <p className="landing-challenge__descr">
                                         {item.get('caseDescr')}
@@ -164,10 +164,10 @@ export default class Landings extends React.Component {
                     <h3 className="landing-title landing-title--landing-features-reverse">Features</h3>
                     <div className="landing-features-reverse__item-wrap">
                         {(entry.getIn(["data", "features"]) || []).map((item, index) => {
-                            <article className="landing-features-reverse__item">
+                            return <article className="landing-features-reverse__item" key={index}>
                                 <figure className="landing-features-reverse__img-container column-wrap">
                                     <span className="landing-features-reverse__img-wrap column-6">
-                                        <img src={item.get('featureImg')} alt="" />
+                                        <img src={item.get('featureImg') && getAsset(item.get('featureImg'))} alt="" />
                                     </span>
                                     <figcaption className="landing-features-reverse__img-descr-wrap column-6">
                                         <h3 className="landing-features-reverse__img-title">
@@ -196,15 +196,15 @@ export default class Landings extends React.Component {
 
                     <ul className="landing-featured__list">
                         {(entry.getIn(["data", "featured"]) || []).map((item, index) => { 
-                            <li className="landing-featured__item">
-                                <img src={ item.get('logo') } alt="" />
+                            return <li className="landing-featured__item" key={index}>
+                                <img src={ item.get('logo') && getAsset(item.get('logo'))} alt="" />
                             </li>
                         })}
                     </ul>
 
                     <ul className="landing-featured__list-comment">
                         {(entry.getIn(["data", "featured"]) || []).map((item, index) => {
-                            <li className="landing-featured__list-comment-item">
+                            return <li className="landing-featured__list-comment-item" key={index}>
                                 <p>
                                     { item.get('descr') }
                                 </p>
@@ -240,7 +240,7 @@ export default class Landings extends React.Component {
                                 </div>
                                 <ul>
                                     {(entry.getIn(["data", "leftCardPoint"]) || []).map((item, index) => {
-                                        <li>
+                                        return <li key={index}>
                                             { item.get('line') }
                                         </li>
                                     })}
@@ -258,7 +258,7 @@ export default class Landings extends React.Component {
                                 </div>
                                 <ul>
                                     {(entry.getIn(["data", "middleCardPoint"]) || []).map((item, index) => {
-                                        <li>
+                                        return <li key={index}>
                                             { item.get('line') }
                                         </li>
                                     })}
@@ -280,7 +280,7 @@ export default class Landings extends React.Component {
                                 </div>
                                 <ul>
                                     {(entry.getIn(["data", "middleCardPoint"]) || []).map((item, index) => {
-                                        <li>
+                                       return <li key={index}>
                                             {item.get('line')}
                                         </li>
                                     })}   

@@ -62,7 +62,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
       - { label: "How to photo", name: "howToPhoto", widget: "image" }
-      - { label: "How to asked", name: "howToAsked", widget: "image" }
+      - { label: "How to asked", name: "howToAsked", widget: "string" }
       - { label: "How to text", name: "howTo", widget: "markdown", required: false }
       - { label: "How to company", name: "howToCompany", widget: "markdown", required: false }
 
