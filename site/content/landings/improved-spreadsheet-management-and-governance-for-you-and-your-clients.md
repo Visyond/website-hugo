@@ -1,14 +1,13 @@
 ---
 title: Improved Spreadsheet
 topImage: /img/banner.jpg
-descr: ''
 videoTitle: "Visyond offers a new approach \x03of securing and managing your \x03spreadsheet data"
 videoDescr: >-
   Meet the future of financial spreadsheets. Powered by machine intelligence,
   Visyond’s unique cloud spreadsheet Platform helps you save time, reduce errors
   and streamline routine analytic tasks without the need to learn new complex
   software. 
-popupUrl: 'https://www.youtube.com/watch?v=mIOudZrtVRs'
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/logoClient_1.png
   - logo: /img/jebg_c.png
@@ -47,16 +46,16 @@ challenge:
     caseIco: /img/jberg1.png
     caseLink: wsefghjkl
 features:
-  - featureImg: /img/infiniteImage1.png
-    title: sadasdsd
-    descr: sadasdasd
+  - descr: sadasdasd
+    featureImg: /img/infiniteImage1.png
     linkDescr: asdasdasd
     linkPath: sadasdasdasdsa
-  - featureImg: /img/img-case-list-item.jpg
-    title: dasdas
-    descr: asdasd
+    title: sadasdsd
+  - descr: asdasd
+    featureImg: /img/img-case-list-item.jpg
     linkDescr: asdasdasdsad
     linkPath: asdasdas
+    title: dasdas
 featured:
   - descr: 'Hello, world'
     logo: /img/logoClient_1.png
