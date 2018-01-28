@@ -46,6 +46,17 @@ challenge:
   - caseDescr: sdfghjk
     caseIco: /img/jberg1.png
     caseLink: wsefghjkl
+features:
+  - featureImg: /img/infiniteImage1.png
+    title: sadasdsd
+    descr: sadasdasd
+    linkDescr: asdasdasd
+    linkPath: sadasdasdasdsa
+  - featureImg: /img/img-case-list-item.jpg
+    title: dasdas
+    descr: asdasd
+    linkDescr: asdasdasdsad
+    linkPath: asdasdas
 pricingTitle: ыьфдд
 firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
