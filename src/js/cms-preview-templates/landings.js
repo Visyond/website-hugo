@@ -18,139 +18,281 @@ export default class Landings extends React.Component {
                         <h1 className="landing-banner__main-title">
                             { entry.getIn(["data", "title"]) }
                         </h1>
-                        <p className="landing-banner__descr">
-                            { entry.getIn(["data", "descr"]) }
-                        </p>
 
                         <div className="landing-btn-wrap">
                             <a href="/signup/" className="landing-btn landing-btn--signup" aria-label="button">sign up</a>
-                            <button className="landing-btn landing-btn--watch modal-btn" data-modal=".banner-modal">watch video</button>
                         </div>
                     </section>
                 </div>
             </div>
 
-            
-            <div className="functions">
-                <div className="container">
-                    <ul className="functions__list">
-                    {(entry.getIn(["data", "func"]) || []).map((item, index) => {
-                        return <li className="functions__item" key={index}>
-                                    <figure className="functions__img-container">
-                                        <span className="function__img-wrap">
-                                            <img src={item.get('icon')} alt="#" className="functions__img" />
-                                        </span>
-                                        <figcaption className="functions__img-descr">{ item.get('content') }</figcaption>
-                                    </figure>
-                                </li>   
-                    })}
-                                                      
-                    </ul>
-                </div>
-            </div>
-
-            <div className="features">
-                <div className="container">
-                    <ul className="features__list">
-                    {(entry.getIn(['data', 'feature']) || []).map((item, index) => {
-                        return <li className="features__item">
-                                    <figure className="feature__img-container">
-                                        <span className="feature__img-wrap">
-                                            <img src={item.get('ico')} alt="lorem" />
-                                        </span>
-                                        <figcaption className="feature__descr-wrap">
-                                            <h3 className="feature__img-title">{item.get('title')}</h3>
-                                            <p className="feature__img-descr">{item.get('content')}</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                    })}
-                        
-                    </ul>
-                </div>
-            </div>
-
-            <div className="testimonials">
-                <div className="container testimonials--container">
-                    <div className="testimonials__company-wrap">
-                        <ul className="testimonials__company-list">
-                        {(entry.getIn(['data', 'company']) || []).map((item, index) => { 
-                            return  <li className="testimonials__company-item">
-                                        <img src={item.get('logo')} alt="" className="testimonials__company-img" />
-                                    </li>
-                        })}
-                        </ul>
+            <section className="landing-preview">
+                <div className="container column-wrap">
+                    <div className="column-6">
+                        <h3 className="landing-title">
+                            { entry.getIn(['data', 'videoTitle']) }
+                        </h3>
+                        <p className="landing-text-content landing-preview__text-content">
+                            { entry.getIn(['data', 'videoDescr']) }
+                        </p>
+                        <div className="landing-btn-wrap landing-btn-wrap--landing-preview">
+                            <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                        </div>
                     </div>
-
-                    <div className="testimonials__slider-wrap">
-                        <h3 className="testimonials__title">Testimonials</h3>
-                        <ul className="testimonials__slider-list">
-                        {(entry.getIn(['data', 'testiSlider']) || []).map((item, index) => {
-                            return
-                            <li className="testimonials__slider-item">
-                                    <p className="testimonials__slider-client-asked">{item.get('ask')}</p>
-
-                                    <figure className="testimonials__slider-client-img-container">
-                                        <span className="testimonials__slider-client-img-wrap">
-                                            <img src={item.get('photo')} alt="client" />
-                                        </span>
-                                        <figcaption className="testimonials__slider-client-name">
-                                            <span>{item.get('name')}</span>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                        })}
-                        </ul>
+                    <div className="column-6">
+                        <div className="landing-preview__video-wrap">
+                            <img src="/img/vimages/laptop.png" alt=""/>
+                            <button className="landing-preview__video-link modal-btn" data-modal=".banner-modal">
+                                <img src="/img/vimages/play-laptop.png" alt="#"/>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <section className="tour">
+            <section className="landing-trusted">
                 <div className="container">
-                    <h3 className="tour__main-title">Product tour</h3>
-
-                    <ul class="tour__slider-button-list">
-                        {(entry.getIn(['data', 'tour']) || []).map((item, index) => {
-                            return
-                                <li class="tour__slider-button-item">
-                                    <button class="tour__slider-button">{item.get('btn')}</button>
-                                </li>
-                        })}
-                    </ul>
-
-                </div>
-
-                <div className="tour__slider-wrap">
-                    <ul className="tour__slider-list">
-                    {(entry.getIn(['data', 'tour']) || []).map((item, index) => {
-                        return
-                            <li className="tour__slider-item">
-                                <div className="container">
-                                    <p className="tour__slider-descr">{item.get('descr')}</p>
-                                    <figure className="tour__slider-img-container">
-                                        <span className="tour__slider-img-wrap">
-                                            <img src={item.get('img')} alt="" className="tour__slider-img" />
-                                        </span>
-                                    </figure>
-                                </div>
+                    <h3 className="landing-trusted__title">Trusted by:</h3>
+                    <ul className="landing-trusted__list">
+                        {(entry.getIn(["data", "trusted"]) || []).map((item, index) => {
+                            <li className="landing-trusted__item">
+                                <img src={item.get('logo')} className="landing-trusted__img"/>
                             </li>
-                    })}
+                        })}
                     </ul>
                 </div>
             </section>
 
-            <div 
-                className="errors"
-                style={{ background:image && `url(${bottomImage}) center center no-repeat` }}
-                >
+            <section className="landing-features">
                 <div className="container">
-                    <h3 className="errors__title">{entry.getIn(['data', 'bottomTitle'])}</h3>
-                    <p className="errors__desc">
-                        {entry.getIn(['data', 'bottomSubTitle'])}
-                    </p>
-                    <a href="/signup" className="header-user__link--sign-up sign-up--errors">sign up</a>
+                    <h3 className="landing-title landing-title--features">
+                        { entry.getIn(['data', 'featureTitle']) }
+                    </h3>
+
+                    <ul className="landing-features__list">
+                        {(entry.getIn(["data", "trusted"]) || []).map((item, index) => {
+                            <li className="landing-features__item">
+                                <figure className="landing-features__img-container">
+                                    <span className="landing-features__img-wrap">
+                                        <img src={item.get('ico')} alt="" />
+                                    </span>
+                                    <figcaption className="landing-features__img-descr">
+                                        <p className="landing-text-content">
+                                            { item.get('content') }
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        })}
+                    </ul>
                 </div>
-            </div>
+            </section>
+
+           
+            <section className="landing-different">
+                <div className="container">
+                    <h3 className="landing-title landing-title--landing-different">How Visyond is different</h3>
+                    <div className="column-wrap">
+                        <div className="column-6 different--left">
+                        { entry.getIn(["data", "howTo"]) }
+                        </div>
+                        <div className="column-6 different--right">
+                            <figure className="landing-different__img-container">
+                                <span className="landing-different__img-wrap">
+                                    <img src={getAsset(entry.getIn(['data', 'howToPhoto ']))} alt="" />
+                                </span>
+                                <figcaption className="landing-different__img-descr-wrap">
+                                    <p className="landing-different__img-descr">
+                                        { entry.getIn(["data", "howToAsked"]) }
+                                    </p>
+                                    <address className="landing-different__img-address">
+                                        {entry.getIn(['data', 'howToCompany'])}
+                                    </address>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div className="landing-different__btn-wrap">
+                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                    </div>
+                </div>
+            </section> 
+
+            <section className="landing-casestudy">
+                <div className="container">
+                    <h3 className="landing-title landing-title--landing-casestudy">Case study</h3>
+
+                    <ul className="landing-casestudy__list">
+                        {(entry.getIn(["data", "case"]) || []).map((item, index) => {
+                            <li className="landing-casestudy__item">
+                                <a href={item.get('caseLink')} className="landing-casestudy__link">
+                                    <img src={item.get('caseIco')} />
+                                    <h3 className="landing-casestudy__title">
+                                        { item.get('caseDescr') }
+                                    </h3>
+                                </a>
+                            </li>
+                        })}
+                    </ul>
+
+                </div>
+            </section>
+
+            <section className="landing-challenge">
+                <div className="container">
+                    <h3 className="landing-title landing-title--landing-challenge">Challenges and Solutions</h3>
+
+                    <ul className="landing-challenge__list">
+                        {(entry.getIn(["data", "challenge"]) || []).map((item, index) => {
+                            <li className="landing-challenge__item">
+                                <a href="#" className="landing-challenge__link">
+                                    <span className="landing-challenge__icon">
+                                        <img src={item.get('caseIco')} alt="" />
+                                    </span>
+                                    <p className="landing-challenge__descr">
+                                        {item.get('caseDescr')}
+                                    </p>
+                                </a>
+                            </li>
+                       })}
+                    </ul>
+                </div>
+            </section>
+
+            <section className="landing-features-reverse">
+                <div className="container">
+                    <h3 className="landing-title landing-title--landing-features-reverse">Features</h3>
+                    <div className="landing-features-reverse__item-wrap">
+                        {(entry.getIn(["data", "features"]) || []).map((item, index) => {
+                            <article className="landing-features-reverse__item">
+                                <figure className="landing-features-reverse__img-container column-wrap">
+                                    <span className="landing-features-reverse__img-wrap column-6">
+                                        <img src={item.get('featureImg')} alt="" />
+                                    </span>
+                                    <figcaption className="landing-features-reverse__img-descr-wrap column-6">
+                                        <h3 className="landing-features-reverse__img-title">
+                                            { item.get('title') }
+                                        </h3>
+                                        <p className="landing-features-reverse__img-descr landing-text-content">
+                                            { item.get('descr') }
+                                        </p>
+                                        <a href="{{ $el.linkPath }}" className="landing-features-reverse__link">
+                                            { item.get('linkDescr') }
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </article>
+                        })}
+                    </div>
+                    <div className="landing-features-reverse__btn-wrap">
+                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                    </div>
+                </div>
+            </section>
+
+            <section className="landing-featured">
+                <div className="container">
+                    <h3 className="landing-title landing-title--landing-featured">As featured in</h3>
+
+                    <ul className="landing-featured__list">
+                        {(entry.getIn(["data", "featured"]) || []).map((item, index) => { 
+                            <li className="landing-featured__item">
+                                <img src={ item.get('logo') } alt="" />
+                            </li>
+                        })}
+                    </ul>
+
+                    <ul className="landing-featured__list-comment">
+                        {(entry.getIn(["data", "featured"]) || []).map((item, index) => {
+                            <li className="landing-featured__list-comment-item">
+                                <p>
+                                    { item.get('descr') }
+                                </p>
+                            </li>
+                        })}
+                    </ul>
+                </div>
+            </section>
+
+
+            <section className="pricing">
+                <div className="container">
+                    <h3 className="landing-title landing-title--pricing">
+                        { entry.getIn(["data", "pricingTitle"]) }
+                    </h3>
+                    <h4 className="pricing__subtitle">
+                        { entry.getIn(["data", "firstPricingSubTitle"]) }
+                        <p>
+                            { entry.getIn(["data", "secondPricingSubTitle"]) }
+                        </p>
+                    </h4>
+                    
+                    <ul className="pricing__list">
+                        <li className="pricing__item">
+                            <article className="pricing__card">
+                                <div className="pricing__title-wrap">
+                                    <h3 className="pricing__title">
+                                        { entry.getIn(["data", "leftCardTitle"]) }
+                                    </h3>
+                                    <h4 className="pricing__card-subtitle">
+                                        { entry.getIn(["data", "leftCardSubTitle"]) }
+                                    </h4>
+                                </div>
+                                <ul>
+                                    {(entry.getIn(["data", "leftCardPoint"]) || []).map((item, index) => {
+                                        <li>
+                                            { item.get('line') }
+                                        </li>
+                                    })}
+                                </ul>
+                                <div className="landing-btn-wrap landing-btn-wrap--pricing">
+                                    <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                                </div>
+                            </article>
+                        </li>
+                        <li className="pricing__item pricing__item--middle">
+                            <article className="pricing__card">
+                                <div className="pricing__title-wrap">
+                                    <h3 className="pricing__title">{ entry.getIn(["data", "middleCardTitle"]) }</h3>
+                                    <h4 className="pricing__card-subtitle">{ entry.getIn(["data", "middleCardSubTitle"]) }</h4>
+                                </div>
+                                <ul>
+                                    {(entry.getIn(["data", "middleCardPoint"]) || []).map((item, index) => {
+                                        <li>
+                                            { item.get('line') }
+                                        </li>
+                                    })}
+                                </ul>
+                                <div className="landing-btn-wrap landing-btn-wrap--pricing">
+                                    <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                                </div>
+                            </article>
+                        </li>
+                        <li className="pricing__item">
+                            <article className="pricing__card">
+                                <div className="pricing__title-wrap">
+                                    <h3 className="pricing__title">
+                                        { entry.getIn(["data", "rightCardTitle"]) }
+                                    </h3>
+                                    <h4 className="pricing__card-subtitle">
+                                        { entry.getIn(["data", "rightCardSubTitle"]) }
+                                    </h4>
+                                </div>
+                                <ul>
+                                    {(entry.getIn(["data", "middleCardPoint"]) || []).map((item, index) => {
+                                        <li>
+                                            {item.get('line')}
+                                        </li>
+                                    })}   
+                                </ul>
+                                <div className="landing-btn-wrap landing-btn-wrap--pricing">
+                                    <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">get  quote</a>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
         );
     }
