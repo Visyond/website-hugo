@@ -37,3 +37,12 @@ a {
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
 }
+
+.column-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.column-6 {
+    width: 50%;
+}

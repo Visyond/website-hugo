@@ -47,6 +47,10 @@
     color: #0585ff;
 }
 
+.landing-btn-wrap--landing-preview {
+    margin-top: 65px;
+}
+
 .header-user__link--sign-up {
     text-transform: uppercase;
     background: #0585ff;

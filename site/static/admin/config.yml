@@ -43,47 +43,77 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Top image", name: "topImage", widget: "image", required: true }
       - { label: "Top description", name: "descr", widget: "string", required: false }
-      - { label: "Video url", name: "popupUrl", widget: "string", required: false }
-      - { label: "Function", name: "func", widget: "list",
+      - { label: "Video title", name: "videoTitle", widget: "string", required: false }
+      - { label: "Video descr", name: "videoDescr", widget: "string", required: false }
+      
+      - { label: "Video url", name: "popupUrl", widget: "string", required: false }      
+      - { label: "Trusted by", name: "trusted", widget: "list",
         fields: [
-          {label: "Description", name: "content", widget: "string"},
-          {label: "Icon", name: "icon", widget: "image"}
+          {label: "logo", name: "logo", widget: "image"}
         ],
         required: false,
       }
+
+      - { label: "Feature title", name: "featureTitle", widget: "string", required: true }      
       - { label: "Features", name: "feature", widget: "list",
         fields: [
-          {label: "Title", name: "title", widget: "string"},
           {label: "Description", name: "content", widget: "string"},
           {label: "Icon", name: "ico", widget: "image"}
         ],
         required: false,
       }
-      - { label: "Testimonials company", name: "company", widget: "list",
+      - { label: "How to photo", name: "howToPhoto", widget: "image" }
+      - { label: "How to text", name: "howTo", widget: "markdown", required: false }
+      - { label: "How to company", name: "howToCompany", widget: "markdown", required: false }
+
+      - { label: "Case study", name: "case", widget: "list",
         fields: [
-          {label: "Logo", name: "logo", widget: "image"}
+          {label: "Case study link", name: "caseLink", widget: "string"},
+          {label: "Icon", name: "caseIco", widget: "image"},
+          {label: "Case study description", name: "caseDescr", widget: "string"},
         ],
         required: false,
       }
-      - { label: "Testimonials slider", name: "testiSlider", widget: "list",
+      - { label: "Challenge and Solutions", name: "challenge", widget: "list",
         fields: [
-          {label: "Client asked", name: "ask", widget: "string"},
-          {label: "Logo", name: "photo", widget: "image"},
-          {label: "Client name", name: "name", widget: "string"}
+          {label: "Challenge link", name: "caseLink", widget: "string"},
+          {label: "Icon", name: "caseIco", widget: "image"},
+          {label: "Challenge description", name: "caseDescr", widget: "string"},
         ],
         required: false,
       }
-      - { label: "Product tour", name: "tour", widget: "list",
+      - { label: "Features", name: "features", widget: "list",
         fields: [
-          {label: "button", name: "btn", widget: "string"},
-          {label: "description", name: "descr", widget: "string"},
-          {label: "Logo", name: "img", widget: "image"},
+          {label: "Image", name: "featureImg", widget: "image"},
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Description", name: "descr", widget: "string"},
+          {label: "Link description", name: "linkDescr", widget: "string"},
+          {label: "Link path", name: "linkPath", widget: "string"},
         ],
         required: false,
       }
-      - { label: "Bottom background", name: "bottomBg", widget: "image", required: false }
-      - { label: "Bottom title", name: "bottomTitle", widget: "string", required: false }
-      - { label: "Bottom sub-title", name: "bottomSubTitle", widget: "string", required: false }
+      - { label: "Featured Hover", name: "featured", widget: "list",
+        fields: [
+          {label: "Logo", name: "logo", widget: "image"},
+          {label: "Description", name: "descr", widget: "string"},
+        ],
+        required: false,
+      }
+      - { label: "Pricing title", name: "pricingTitle", widget: "string", required: true }
+      - { label: "Pricing sub-title-1", name: "firstPricingSubTitle", widget: "string", required: true }
+      - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string", required: true }
+
+      - { label: "Left card title", name: "leftCardTitle", widget: "string", required: true }
+      - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string", required: true }
+      - { label: "Left card content", name: "leftCardSubContent", widget: "markdown", required: true }
+      
+      - { label: "Middle card title", name: "middleCardTitle", widget: "string", required: true }
+      - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: true }
+      - { label: "middle card content", name: "middleCardSubContent", widget: "markdown", required: true }
+      
+      - { label: "Right card title", name: "rightCardTitle", widget: "string", required: true }
+      - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: true }
+      - { label: "Right card content", name: "rightCardSubContent", widget: "markdown", required: true }
       
 
   # - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit

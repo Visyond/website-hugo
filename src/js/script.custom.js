@@ -52,6 +52,27 @@ $(function () {
             }
         }
     })();
+
+    if($('.landing-featured__item').length) {
+
+        var pb = 0;
+        for (let i = 0; i < $('.landing-featured__list-comment-item').length; i++) {
+            
+            if (pb < $('.landing-featured__list-comment-item').eq(i).height()) {
+                pb = $('.landing-featured__list-comment-item').eq(i).height() + 300;
+         30 }
+        }
+        $('.landing-featured').css('padding-bottom', pb);
+        $('.landing-featured__list-comment-item:first-child').css('opacity', 1)
+        $('.landing-featured__item > img').hover(function () {
+            var idx = $(this).parent().index();
+            console.log(idx);
+            $('.landing-featured__list-comment-item').eq(idx).css('opacity', 1);
+        }, function () {
+            var idx = $(this).parent().index();
+            $('.landing-featured__list-comment-item').eq(idx).css('opacity', 0);
+        })
+    }
     
 
 });

@@ -32,143 +32,230 @@
 
                 <div class="landing-btn-wrap">
                     <a href="/signup/" class="landing-btn landing-btn--signup" aria-label="button">sign up</a>
-                    <button class="landing-btn landing-btn--watch modal-btn" data-modal=".banner-modal">watch video</button>
+                    <!-- <button class="landing-btn landing-btn--watch modal-btn" data-modal=".banner-modal">watch video</button> -->
                 </div>
             </section>
         </div> <!-- ./banner -->
-
-        <!-- functions -->
-        <div class="functions">
-            <div class="container">
-                <ul class="functions__list">
-                    {{ range $element := .Params.Func }}
-                    <li class="functions__item">
-                        <figure class="functions__img-container">
-                            <span class="function__img-wrap">
-                                <img src={{ $element.icon }} alt="#" class="functions__img">
-                            </span>
-                            <figcaption class="functions__img-descr">
-                                {{ $element.content }}
-                            </figcaption>
-                        </figure>
-                    </li>    
-                    {{ end }}                             
-                </ul>
-            </div>
-        </div> <!-- ./functions -->
     </div>
 
-    <!-- features -->
-    <div class="features">
+    <section class="landing-preview">
+        <div class="container column-wrap">
+            <div class="column-6">
+                <h3 class="landing-title">{{ .Params.VideoTitle }}</h3>
+                <p class="landing-text-content landing-preview__text-content">
+                    {{ .Params.VideoDescr }}
+                </p>
+                <div class="landing-btn-wrap landing-btn-wrap--landing-preview">
+                    <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                </div>
+            </div>
+            <div class="column-6">
+                <div class="landing-preview__video-wrap">
+                    <img src="/img/vimages/laptop.png" alt="">
+                    <button class="landing-preview__video-link modal-btn" data-modal=".banner-modal">
+                        <img src="/img/vimages/play-laptop.png" alt="#">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-trusted">
         <div class="container">
-            <ul class="features__list">
-                {{ range $element := .Params.Feature }}
-                <li class="features__item">
-                    <figure class="feature__img-container">
-                        <span class="feature__img-wrap">
-                            <img src={{ $element.ico }} alt="lorem">
+            <h3 class="landing-trusted__title">Trusted by:</h3>
+            <ul class="landing-trusted__list">
+                {{ range $el := .Params.truested }}
+                <li class="landing-trusted__item">
+                    <img src="{{$el}}" alt="jebg" class="landing-trusted__img">
+                </li>
+                {{end}}
+            </ul>
+        </div>
+    </section>
+
+    <section class="landing-features">
+        <div class="container">
+            <h3 class="landing-title landing-title--features">
+                {{ .Params.FeatureTitle }}
+            </h3>
+
+            <ul class="landing-features__list">
+                {{ range $el := .Params.Feature }}
+                <li class="landing-features__item">
+                    <figure class="landing-features__img-container">
+                        <span class="landing-features__img-wrap">
+                            <img src="{{ $el.ico }}" alt="">
                         </span>
-                        <figcaption class="feature__descr-wrap">
-                            <h3 class="feature__img-title">{{ $element.title }}</h3>
-                            <p class="feature__img-descr">{{ $element.content }}</p>
+                        <figcaption class="landing-features__img-descr">
+                            <p class="landing-text-content">{{ $el.content }}</p>
                         </figcaption>
                     </figure>
                 </li>
                 {{ end }}
             </ul>
         </div>
-    </div>  <!-- ./features -->
-    
-    <!-- testimonials -->
-    <div class="testimonials">
-        <div class="container testimonials--container">
+    </section>
 
-            <!-- company -->
-            <div class="testimonials__company-wrap">
-                <ul class="testimonials__company-list">
-                    {{ range $element := .Params.Company }}
-                    <li class="testimonials__company-item">
-                        <img src={{ $element.logo }} alt="" class="testimonials__company-img">
-                    </li>
-                    {{ end }}
-                </ul>
-            </div> <!-- ./company -->
-
-            <!-- testimonials__slider-wrap -->
-            <div class="testimonials__slider-wrap">
-                <h3 class="testimonials__title">Testimonials</h3>
-                <ul class="testimonials__slider-list">
-                    {{ range $element := .Params.TestiSlider }}
-                    <li class="testimonials__slider-item">
-                        <p class="testimonials__slider-client-asked">
-                            {{$element.ask}}
-                        </p>
-
-                        <figure class="testimonials__slider-client-img-container">
-                            <span class="testimonials__slider-client-img-wrap">
-                                <img src={{ $element.photo }} alt="client">
-                            </span>
-                            <figcaption class="testimonials__slider-client-name">
-                                <span>{{ $element.name }}</span>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    {{ end }}
-                </ul>
-            </div> <!-- ./testimonials__slider-wrap -->
-
-        </div>
-    </div> <!-- ./testimonials -->
-
-    <section class="tour">
+    <!-- landing-different -->
+    <section class="landing-different">
         <div class="container">
-            <h3 class="tour__main-title">Product tour</h3>
-            
-            <!-- tour__slider-button-list -->
-            <ul class="tour__slider-button-list">
-                {{ range $element := .Params.Tour }}
-                <li class="tour__slider-button-item">
-                    <button class="tour__slider-button">{{ $element.btn }}</button>
-                </li>
-                {{ end }}
-            </ul> <!-- ./tour__slider-button-list -->
+            <h3 class="landing-title landing-title--landing-different">How Visyond is different</h3>
+            <div class="column-wrap">
+                <div class="column-6 different--left">
+                    {{ .Params.HowTo }}
+                </div>
+                <div class="column-6 different--right">
+                    <figure class="landing-different__img-container">
+                        <span class="landing-different__img-wrap">
+                            <img src="{{ .Params.HowToPhoto }}" alt="">
+                        </span>
+                        <figcaption class="landing-different__img-descr-wrap">
+                            <p class="landing-different__img-descr">{{ .Params.HowTo }}</p>
+                            <address class="landing-different__img-address">{{ .Params.HowToCompany }}</address>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="landing-different__btn-wrap">
+                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+            </div>
         </div>
+    </section> <!-- ./landing-different -->
 
-        <div class="tour__slider-wrap">
-            <ul class="tour__slider-list">
-                {{ range $element := .Params.Tour }}
-                <li class="tour__slider-item">
-                    <div class="container">
-                        <p class="tour__slider-descr">
-                            {{$element.descr}}
-                        </p>
-                        <figure class="tour__slider-img-container">
-                            <span class="tour__slider-img-wrap">
-                                <img src={{$element.img}} alt="" class="tour__slider-img">
-                            </span>
-                        </figure>
-                    </div>
+    <section class="landing-casestudy">
+        <div class="container">
+            <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
+
+            <ul class="landing-casestudy__list">
+                {{ range $el := .Params.Case }}
+                <li class="landing-casestudy__item">
+                    <a href="{{ $el.caseLink }}" class="landing-casestudy__link">
+                        <img src="{{ $el.caseIco }}" alt="">
+                        <h3 class="landing-casestudy__title">{{ $el.caseDescr }}</h3>
+                    </a>
                 </li>
                 {{ end }}
             </ul>
         </div>
     </section>
-    <div class="errors">
-        <style>
-            .errors {
-                background: url({{ .Params.BottomBg }}) center center no-repeat;
-                background-size: cover;
-            }
-        </style>
+
+    <section class="landing-challenge">
         <div class="container">
-            <h3 class="errors__title">{{ .Params.bottomTitle }}</h3>
-            <p class="errors__desc">
-                {{ .Params.bottomSubTitle }}
-            </p>
-            <a href="/signup" class="header-user__link--sign-up sign-up--errors">sign up</a>
+            <h3 class="landing-title landing-title--landing-challenge">Challenges and Solutions</h3>
+
+            <ul class="landing-challenge__list">
+                {{ range $el := .Params.Challenge }}
+                <li class="landing-challenge__item">
+                    <a href="{{ $el.caseLink }}" class="landing-challenge__link">
+                        <span class="landing-challenge__icon">
+                            <img src="{{ $el.caseIco }}" alt="">
+                        </span>
+                        <p class="landing-challenge__descr">{{ $el.caseDescr }}</p>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
         </div>
-    </div>
-</div>
+    </section>
+
+    <section class="landing-features-reverse">
+        <div class="container">
+            <h3 class="landing-title landing-title--landing-features-reverse">Features</h3>
+            <div class="landing-features-reverse__item-wrap">
+                {{ range $el := .Params.Features }}
+                <article class="landing-features-reverse__item">
+                    <figure class="landing-features-reverse__img-container column-wrap">
+                        <span class="landing-features-reverse__img-wrap column-6">
+                            <img src="{{ $el.featureImg }}" alt="">
+                        </span>
+                        <figcaption class="landing-features-reverse__img-descr-wrap column-6">
+                            <h3 class="landing-features-reverse__img-title">{{ $el.title }}</h3>
+                            <p class="landing-features-reverse__img-descr landing-text-content">{{ $el.descr }}</p>
+                            <a href="{{ $el.linkPath }}" class="landing-features-reverse__link">{{ $el.linkDescr }}</a>
+                        </figcaption>
+                    </figure>
+                </article>
+                {{ end }}
+            </div>
+            <div class="landing-features-reverse__btn-wrap">
+                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="landing-featured">
+        <div class="container">
+            <h3 class="landing-title landing-title--landing-featured">As featured in</h3>
+
+            <ul class="landing-featured__list">
+                {{ range $el := .Params.Featured }}
+                <li class="landing-featured__item">
+                    <img src="{{ $el.logo }}" alt="">
+                </li>
+                {{ end }}
+            </ul>
+
+            <ul class="landing-featured__list-comment">
+                {{ range $el := .Params.Featured }}
+                <li class="landing-featured__list-comment-item">
+                    <p>
+                       {{ $el.descr }}
+                    </p>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h3 class="landing-title landing-title--pricing">{{ .Params.PricingTitle }}</h3>
+            <h4 class="pricing__subtitle">{{ .Params.FirstPricingSubTitle }}
+                <p>{{ .Params.SecondPricingSubTitle }}</p>
+            </h4>
+            
+            <ul class="pricing__list">
+                <li class="pricing__item">
+                    <article class="pricing__card">
+                        <div class="pricing__title-wrap">
+                            <h3 class="pricing__title">{{ .Params.LeftCardTitle }}</h3>
+                            <h4 class="pricing__card-subtitle">{{ .Params.LeftCardSubTitle }}</h4>
+                        </div>
+                        {{ .Params.LeftCardContent }}
+                        <div class="landing-btn-wrap landing-btn-wrap--pricing">
+                            <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                        </div>
+                    </article>
+                </li>
+                <li class="pricing__item pricing__item--middle">
+                    <article class="pricing__card">
+                        <div class="pricing__title-wrap">
+                            <h3 class="pricing__title">{{ .Params.MiddleCardTitle }}</h3>
+                            <h4 class="pricing__card-subtitle">{{ .Params.MiddleCardSubTitle }}</h4>
+                        </div>
+                        {{ .Params.MiddleCardContent }}
+                        <div class="landing-btn-wrap landing-btn-wrap--pricing">
+                            <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                        </div>
+                    </article>
+                </li>
+                <li class="pricing__item">
+                    <article class="pricing__card">
+                        <div class="pricing__title-wrap">
+                            <h3 class="pricing__title">{{ .Params.RightCardTitle }}</h3>
+                            <h4 class="pricing__card-subtitle">{{ .Params.RightCardSubTitle }}</h4>
+                        </div>
+                        {{ .Params.RightCardContent }}
+                        <div class="landing-btn-wrap landing-btn-wrap--pricing">
+                            <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">get  quote</a>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
 <div class="banner-modal">
     <div class="banner-modal__container">
         <button class="banner-modal__close">
