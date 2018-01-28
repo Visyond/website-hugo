@@ -20,6 +20,19 @@ feature:
 howToPhoto: /img/testimon1.jpg
 howTo: вфывфывфывыф
 howToCompany: выфвфывфывы
+case:
+  - caseDescr: asdasd
+    caseIco: /img/twitter.png
+    caseLink: google.com
+  - caseDescr: asdasd
+    caseIco: /img/linkdn.png
+    caseLink: asd
+  - caseDescr: asdasdasdds
+    caseIco: /img/ico-streamline.png
+    caseLink: asdasd
+  - caseDescr: asdasd
+    caseIco: /img/mapShape2.png
+    caseLink: asd
 pricingTitle: ыьфдд
 firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
