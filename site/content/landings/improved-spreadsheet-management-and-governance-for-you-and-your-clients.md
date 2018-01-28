@@ -67,24 +67,21 @@ firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
 leftCardTitle: вфывыф
 leftCardSubTitle: фывфывфыв
-leftCardContent: |-
-  * first
-  * second
-  * third
+leftCardPoint:
+  - line: First
+  - line: Second
+  - line: Third
 middleCardTitle: фыв
 middleCardSubTitle: фыв
-middleCardContent: |-
-  sadasdas
-
-  a
-
-  * sdasdadsdsa
-  * ads
+middleCardPoint:
+  - line: Wow
+  - line: lol
+  - line: Girl
 rightCardTitle: фыв
 rightCardSubTitle: фыв
-rightCardContent: |-
-  * dsadasdsa
-
-  asd
+RightCardPoint:
+  - line: One
+  - line: Tow
+  - line: Three
 ---
 
