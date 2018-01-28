@@ -83,7 +83,7 @@ middleCardContent: |-
 rightCardTitle: фыв
 rightCardSubTitle: фыв
 rightCardContent: |-
-  dsadasdsa
+  * dsadasdsa
 
   asd
 ---
