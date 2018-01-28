@@ -67,15 +67,24 @@ firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
 leftCardTitle: вфывыф
 leftCardSubTitle: фывфывфыв
-leftCardSubContent: фыв
-middleCardTitle: фыв
-middleCardSubTitle: фыв
-middleCardSubContent: |-
+leftCardContent: |-
   * first
   * second
   * third
+middleCardTitle: фыв
+middleCardSubTitle: фыв
+middleCardContent: |-
+  sadasdas
+
+  a
+
+  * sdasdadsdsa
+  * ads
 rightCardTitle: фыв
 rightCardSubTitle: фыв
-rightCardSubContent: фыв
+rightCardContent: |-
+  dsadasdsa
+
+  asd
 ---
 
