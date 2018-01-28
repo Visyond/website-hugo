@@ -57,6 +57,11 @@ features:
     descr: asdasd
     linkDescr: asdasdasdsad
     linkPath: asdasdas
+featured:
+  - descr: 'Hello, world'
+    logo: /img/logoClient_1.png
+  - descr: Hi there
+    logo: /img/abrt.png
 pricingTitle: ыьфдд
 firstPricingSubTitle: ыфв
 secondPricingSubTitle: фыв
