@@ -3,7 +3,7 @@ title: Hi there
 topImage: /img/video_poster.jpg
 videoTitle: 'Lorem '
 videoDescr: asd
-popupUrl: 'http://www.google.com'
+popupUrl: 'https://www.youtube.com/embed/YrZC63uMjDU'
 trusted:
   - {}
 howToPhoto: /img/testimon1.jpg
