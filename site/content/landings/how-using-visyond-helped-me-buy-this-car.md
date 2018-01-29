@@ -41,9 +41,11 @@ feature:
       including cell auto-formatting, natural language formulas, and easily
       explorable cell dependencies.
   - content: >-
-      Visyond is easy to use and easy to learn. If you are familiar with Excel
-      then you should feel yourself right at home! Visyond offers a flexible
-      pricing policy – pay only for the features that you need!
+      Visyond is easy to use and learn. If you are familiar with Excel then you
+      should feel yourself right at home! We have also made it easy to import
+      and download data. With Visyond, peace of mind is built-into our solution:
+      Complete accountability, and human-proof. No one can change your inputs or
+      formulas. 
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
 howTo: |-
