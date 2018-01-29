@@ -7,11 +7,12 @@ popupUrl: 'http://www.google.com'
 trusted:
   - {}
 howToPhoto: /img/testimon1.jpg
-howToAsked: asd
+howToAsked: Lorem ispdum dolor sit amet
 howTo: |-
   * first
   * second
   * third
+howToCompany: Visyond
 challenge:
   - caseDescr: asdasd
     caseIco: /img/video_poster.jpg
