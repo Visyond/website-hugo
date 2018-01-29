@@ -130,5 +130,8 @@ RightCardPoint:
   - line: 'This is '
   - line: Very good
   - line: Application
+priceClientAsked: Best. Thing. Ever. I would buy twice if I could!
+priceClientCompany: 'Some Guy, Some Job-title, Visyond'
+priceClientCompanyLogo: /img/logo_color.png
 ---
 
