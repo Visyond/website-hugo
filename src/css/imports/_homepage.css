@@ -183,7 +183,7 @@
 .customers__img-wrap {
     border-radius: 50%;
     width: 140px;
-    height: 140px;
+    /* height: 140px; */
     overflow: hidden;
     display: block;
     margin: 0 auto;
@@ -233,6 +233,7 @@
     opacity: .8;
     display: block;
     margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .customers__img-company {
