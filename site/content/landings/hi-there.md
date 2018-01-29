@@ -12,6 +12,10 @@ howTo: |-
   * first
   * second
   * third
+challenge:
+  - caseDescr: asdasd
+    caseIco: /img/video_poster.jpg
+    caseLink: asd
 pricingTitle: asd
 firstPricingSubTitle: asd
 secondPricingSubTitle: asd
