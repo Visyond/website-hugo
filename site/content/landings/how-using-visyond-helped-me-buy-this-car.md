@@ -12,7 +12,7 @@ trusted:
   - logo: /img/elearn2.png
   - logo: /img/elet2.png
   - logo: /img/jberg2.png
-featureTitle: Visyond Features
+featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
       With our powerful platform, you never run the risk of losing data. Every
