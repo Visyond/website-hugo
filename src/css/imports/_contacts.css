@@ -169,6 +169,7 @@
     height: 192px;
     margin: 15px auto 0 auto;
 }
+.contacts-page__map-img { overflow: hidden; }
 .contacts-page__map-img img{
     width: 100%;
     display: block;
