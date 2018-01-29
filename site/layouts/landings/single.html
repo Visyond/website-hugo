@@ -98,7 +98,7 @@
             <h3 class="landing-title landing-title--landing-different">How Visyond is different</h3>
             <div class="column-wrap">
                 <div class="column-6 different--left">
-                    {{  .Params.HowTo }}
+                    {{  .Params.HowTo | markdownify }}
                 </div>
                 <div class="column-6 different--right">
                     <figure class="landing-different__img-container">
