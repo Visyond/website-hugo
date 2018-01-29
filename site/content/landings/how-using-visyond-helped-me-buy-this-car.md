@@ -94,25 +94,33 @@ challenge:
     caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 features:
   - descr: >-
-      So shiny and good-looking. Aasdasd asdasda
-      .asdaskdfhoaishdoahsdoahsd.pasfaoksfohiasfasf asda asfihf asfjuha fau.
-      aihfaughf . afasfasf 
+      You no longer need to juggle dozens of slightly different versions of the
+      same spreadsheet. Keep everything in the same spreadsheet with the ability
+      to roll-back at any time.
     featureImg: /img/132148607486.jpg
-    linkDescr: Click here for more info now @@@
+    linkDescr: 'Find out more '
     linkPath: google.com
-    title: Very nice interface
+    title: Version control and comparison
   - descr: >-
-      We still can't figure out what this is. But it is amazing. We like it and
-      so should you.
+      In Visyond, each cell is a database that stores multiple inputs from
+      different people, comments and even file attachments. Everyone who needs
+      to contribute can input their numbers through an easy to manage a
+      collaborative process. Information about who changed what and when is
+      always available for you to view.
     featureImg: /img/5-10.jpg
-    linkDescr: learn more about parallel dimensions with visyiond
+    linkDescr: Learn more about the features you need
     linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: 54-D cell
-  - descr: But space must be filled...............
+    title: 3D-Cell
+  - descr: >-
+      Easily import data from the existing spreadsheets into Visyond and
+      continue working without interruptions.  Export the spreadsheet to share
+      with someone outside the platform. All values and formulae will be safely
+      carried over to the new document. Add an external spreadsheet & reference
+      any cells from it directly in Visyond.
     featureImg: /img/1276771818788.jpg
-    linkDescr: this link leads nowhere.
+    linkDescr: Find out more today
     linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: Not a feature
+    title: 'Import & Export spreadsheets, link external sources'
 featured:
   - descr: sdasdasdadasd
     logo: /img/abrt2.png
