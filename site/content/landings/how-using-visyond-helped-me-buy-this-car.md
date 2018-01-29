@@ -12,7 +12,7 @@ trusted:
   - logo: /img/elearn2.png
   - logo: /img/elet2.png
   - logo: /img/jberg2.png
-featureTitle: Features (or any other title)
+featureTitle: Visyond Features
 feature:
   - content: >-
       With our powerful platform, you never run the risk of losing data. Every
@@ -48,10 +48,28 @@ feature:
       formulas. 
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
-howTo: |-
-  * Makes modelling easier
-  * Helps govern data
-  * Even cooks dinner for you!
+howTo: >-
+  Unlike Excel, organisations benefit from a comprehensive audit trail, data
+  security and transparency. Boards, stakeholders and shareholders are
+  increasingly aware of new regulatory and compliance burdens. With Visyond,
+  your sensitive financial information is secure and future-proofed.
+
+
+  Traditional financial modelling tools perpetuates chaos. Making it difficult
+  to reach a single version of the truth that everyone agrees on, creating
+  frustration for everybody involved. Managing an analytical task with inputs
+  from multiple stakeholders can take weeks or months. At the same time, the
+  rapid pace of today’s business world requires a quick turn-around - companies
+  cannot afford prolonged decision-making timescales; they need to make
+  strategic decisions quickly.
+
+
+  Visyond’s smart, cloud-based spreadsheet platform improves data governance and
+  accelerates strategic financial decision making.
+
+
+  **Peace of mind is guaranteed when your organisation uses Visyond for
+  financial modelling.**
 howToCompany: '- Bob, Manager at Visyond'
 case:
   - caseDescr: I don't have any problems anymore
