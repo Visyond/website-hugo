@@ -1,18 +1,18 @@
 ---
 title: >-
-  Maintain full control and transparency over financial modelling data, with our
-  spreadsheet governance platform
+  Enhanced governance and compliance controls, with our transparent spreadsheet
+  platform 
 topImage: /img/wallhaven-246377.jpg
 videoTitle: Watch this amazing video!
 videoDescr: And see how Visyond works!
-popupUrl: 'https://www.youtube.com/embed/YrZC63uMjDU'
+popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 trusted:
   - logo: /img/abrt2.png
   - logo: /img/delo2.png
   - logo: /img/elearn2.png
   - logo: /img/elet2.png
   - logo: /img/jberg2.png
-featureTitle: Features (or any other title)
+featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
       With our powerful platform, you never run the risk of losing data. Every
@@ -41,17 +41,33 @@ feature:
       including cell auto-formatting, natural language formulas, and easily
       explorable cell dependencies.
   - content: >-
-      Visyond is easy to use and easy to learn. If you are familiar with Excel
-      then you should feel yourself right at home! Visyond offers a flexible
-      pricing policy – pay only for the features that you need!
+      Visyond is easy to use and learn. If you are familiar with Excel then you
+      should feel yourself right at home! We have also made it easy to import
+      and download data. With Visyond, peace of mind is built-into our solution:
+      Complete accountability, and human-proof. No one can change your inputs or
+      formulas. 
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
-howTo: |-
-  * Makes modelling easier
-  * Helps govern data
-  * Even cooks dinner for you!
-  * Lorem ipsum
-  * 1asd
+howTo: >-
+  Strict regulatory and compliance burdens demonstrate why organisations benefit
+  from a comprehensive audit trail, data security and transparency. With
+  Visyond, your sensitive financial information is secure and future-proofed.
+
+
+  Traditional financial modelling tools perpetuates chaos across organisations.
+  Making it difficult to reach a single version of the truth that everyone
+  agrees on. Managing an analytical task with inputs from multiple stakeholders
+  can take weeks or months. At the same time, the rapid pace of today’s business
+  world requires a quick turn-around - they need to make strategic decisions
+  quickly.
+
+
+  Visyond’s smart, cloud-based spreadsheet platform improves data governance and
+  accelerates strategic financial decision making.
+
+
+  **Peace of mind is guaranteed when your organisation uses Visyond for
+  financial modelling.**
 howToCompany: '- Bob, Manager at Visyond'
 case:
   - caseDescr: I don't have any problems anymore
@@ -78,25 +94,33 @@ challenge:
     caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 features:
   - descr: >-
-      So shiny and good-looking. Aasdasd asdasda
-      .asdaskdfhoaishdoahsdoahsd.pasfaoksfohiasfasf asda asfihf asfjuha fau.
-      aihfaughf . afasfasf 
+      You no longer need to juggle dozens of slightly different versions of the
+      same spreadsheet. Keep everything in the same spreadsheet with the ability
+      to roll-back at any time.
     featureImg: /img/132148607486.jpg
-    linkDescr: Click here for more info now @@@
+    linkDescr: 'Find out more '
     linkPath: google.com
-    title: Very nice interface
+    title: Version control and comparison
   - descr: >-
-      We still can't figure out what this is. But it is amazing. We like it and
-      so should you.
+      In Visyond, each cell is a database that stores multiple inputs from
+      different people, comments and even file attachments. Everyone who needs
+      to contribute can input their numbers through an easy to manage a
+      collaborative process. Information about who changed what and when is
+      always available for you to view.
     featureImg: /img/5-10.jpg
-    linkDescr: learn more about parallel dimensions with visyiond
+    linkDescr: Learn more about the features you need
     linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: 54-D cell
-  - descr: But space must be filled...............
+    title: 3D-Cell
+  - descr: >-
+      Easily import data from the existing spreadsheets into Visyond and
+      continue working without interruptions.  Export the spreadsheet to share
+      with someone outside the platform. All values and formulae will be safely
+      carried over to the new document. Add an external spreadsheet & reference
+      any cells from it directly in Visyond.
     featureImg: /img/1276771818788.jpg
-    linkDescr: this link leads nowhere.
+    linkDescr: Find out more today
     linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: Not a feature
+    title: 'Import & Export spreadsheets, link external sources'
 featured:
   - descr: sdasdasdadasd
     logo: /img/abrt2.png
@@ -132,5 +156,8 @@ RightCardPoint:
   - line: 'This is '
   - line: Very good
   - line: Application
+priceClientAsked: Best. Thing. Ever. I would buy twice if I could!
+priceClientCompany: 'Some Guy, Some Job-title, Visyond'
+priceClientCompanyLogo: /img/logo_color.png
 ---
 
