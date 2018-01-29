@@ -291,10 +291,17 @@ export default class Landings extends React.Component {
                             </article>
                         </li>
                     </ul>
+
+                    <div className="price__asked-wrap">
+                        <p className="price__asked-descr">
+                        {entry.getIn(["data", "priceClientAsked"])}
+                        </p>
+                        <address className="price__asked-company">{ entry.getIn(['data', 'priceClientCompany']) }</address>
+                        <img src={getAsset(entry.getIn(["data", "priceClientCompanyLogo"]))}  className="price__asked-img"/>
+                    </div>
                 </div>
             </section>
         </div>
         );
     }
-    
 }

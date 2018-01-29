@@ -129,6 +129,9 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
+      - { label: "Price client askded", name: "priceClientAsked", widget: "string" }
+      - { label: "Price client company name", name: "priceClientCompany", widget: "string" }
+      - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image" }
   - name: "simplepages"
     label: "Simplepages"
     folder: "site/content/simplepages"

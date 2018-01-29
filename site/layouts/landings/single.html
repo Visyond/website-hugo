@@ -266,6 +266,14 @@
                     </article>
                 </li>
             </ul>
+
+            <div class="price__asked-wrap">
+                <p class="price__asked-descr">
+                    {{ .Params.PriceClientAsked }}
+                </p>
+                <address class="price__asked-company">{{ .Params.PriceClientCompany }}</address>
+                <img src="{{ .Params.PriceClientCompanyLogo }}" alt="" class="price__asked-img">
+            </div>
         </div>
     </section>
     

@@ -115,7 +115,7 @@
     color: #fff;
     font-weight: 400;
     line-height: 1.27;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     letter-spacing: 3px;
 }
 
@@ -389,6 +389,7 @@
     &:after {
         right: 0;
         bottom: 0;
+        transform: rotate(180deg);
     }
 }
 
@@ -781,6 +782,54 @@
 .landing-btn-wrap--pricing {
     margin-top: 20px;
     text-align: center;
+}
+
+.price__asked-wrap {
+    text-align: center;
+    width: 450px;
+    margin: 85px auto 0 auto;
+}
+
+.price__asked-descr {
+    text-align: left;
+    position: relative;
+    padding: 0 15px;
+    color: #52556c;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+    &:before, &:after {
+        content: "";
+        background: url(/img/vimages/quote.png) no-repeat;
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+    }
+    &:before {
+        left: 0;
+        top: 5px;
+    }
+    &:after {
+        right: 0;
+        bottom: 0;
+        transform: rotate(180deg);
+    }
+}
+
+.price__asked-company {
+    color: rgba(82, 85, 108, .8);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.price__asked-img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 /**
