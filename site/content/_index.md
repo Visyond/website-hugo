@@ -1,4 +1,5 @@
 ---
+title: Homepage
 cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
     cardDescr: Financial modelling solution that will make your workloads lighter
