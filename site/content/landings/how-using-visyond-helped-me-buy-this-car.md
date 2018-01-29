@@ -49,19 +49,17 @@ feature:
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
 howTo: >-
-  Unlike Excel, organisations benefit from a comprehensive audit trail, data
-  security and transparency. Boards, stakeholders and shareholders are
-  increasingly aware of new regulatory and compliance burdens. With Visyond,
-  your sensitive financial information is secure and future-proofed.
+  Strict regulatory and compliance burdens demonstrate why organisations benefit
+  from a comprehensive audit trail, data security and transparency. With
+  Visyond, your sensitive financial information is secure and future-proofed.
 
 
-  Traditional financial modelling tools perpetuates chaos. Making it difficult
-  to reach a single version of the truth that everyone agrees on, creating
-  frustration for everybody involved. Managing an analytical task with inputs
-  from multiple stakeholders can take weeks or months. At the same time, the
-  rapid pace of today’s business world requires a quick turn-around - companies
-  cannot afford prolonged decision-making timescales; they need to make
-  strategic decisions quickly.
+  Traditional financial modelling tools perpetuates chaos across organisations.
+  Making it difficult to reach a single version of the truth that everyone
+  agrees on. Managing an analytical task with inputs from multiple stakeholders
+  can take weeks or months. At the same time, the rapid pace of today’s business
+  world requires a quick turn-around - they need to make strategic decisions
+  quickly.
 
 
   Visyond’s smart, cloud-based spreadsheet platform improves data governance and
