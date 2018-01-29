@@ -50,6 +50,7 @@ howTo: |-
   * Makes modelling easier
   * Helps govern data
   * Even cooks dinner for you!
+  * Lorem ipsum
 howToCompany: '- Bob, Manager at Visyond'
 case:
   - caseDescr: I don't have any problems anymore
