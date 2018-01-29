@@ -1,7 +1,7 @@
 ---
 title: >-
-  Maintain full control and transparency over financial modelling data, with our
-  spreadsheet governance platform
+  Enhanced governance and compliance controls, with our transparent spreadsheet
+  platform 
 topImage: /img/wallhaven-246377.jpg
 videoTitle: Watch this amazing video!
 videoDescr: And see how Visyond works!
