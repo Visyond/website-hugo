@@ -194,8 +194,9 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
-        fields: 
-          - { label: Cards, name: "cards", widget: list, fields: [
+        fields:
+          - { label: "Page title", name: "title", widget: "string" }
+          - { label: Cards, name: "cards", widget: list, fields: [  
               { label: "Card title", name: "cardTitle", widget: "string" },
               { label: "Card background", name: "cardBackground", widget: "image" },
               { label: "Card icon", name: "cardIcon", widget: "image" },
