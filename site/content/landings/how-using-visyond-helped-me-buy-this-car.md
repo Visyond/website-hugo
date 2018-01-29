@@ -5,10 +5,7 @@ title: >-
 topImage: /img/wallhaven-246377.jpg
 videoTitle: Watch this amazing video!
 videoDescr: And see how Visyond works!
-popupUrl: >-
-  <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 trusted:
   - logo: /img/abrt2.png
   - logo: /img/delo2.png
