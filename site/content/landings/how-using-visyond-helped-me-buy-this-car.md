@@ -54,26 +54,26 @@ howToCompany: '- Bob, Manager at Visyond'
 case:
   - caseDescr: I don't have any problems anymore
     caseIco: /img/0035e2711cfdc8aabbd6f3d78bc6a3f3.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   - caseDescr: 'Answer complex questions in 2,5 seconds'
     caseIco: /img/ad6b20a29bdadb77d549ac5933570be4.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   - caseDescr: I got fired because Visyond is too effective
     caseIco: /img/double-drops-wallpapers_30688_1920x1200.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   - caseDescr: Elon Musk wishes he started using Visyond earlier
     caseIco: /img/1307940381225.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 challenge:
   - caseDescr: Data Governance
     caseIco: /img/aurora_burst-1920x1200.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   - caseDescr: Do cool stuff easily
     caseIco: /img/13293290177293.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
   - caseDescr: Burger cooking
     caseIco: /img/132913034257.jpg
-    caseLink: google.com
+    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 features:
   - descr: >-
       So shiny and good-looking. Aasdasd asdasda
@@ -88,12 +88,12 @@ features:
       so should you.
     featureImg: /img/5-10.jpg
     linkDescr: learn more about parallel dimensions with visyiond
-    linkPath: google.com
+    linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     title: 54-D cell
   - descr: But space must be filled...............
     featureImg: /img/1276771818788.jpg
     linkDescr: this link leads nowhere.
-    linkPath: google.com
+    linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
     title: Not a feature
 featured:
   - descr: sdasdasdadasd
