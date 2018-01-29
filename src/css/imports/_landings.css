@@ -500,7 +500,7 @@
 
 .landing-challenge__icon {
     display: block;
-    width: 80px;
+    width: 100%;
 }
 
 .landing-challenge__icon > img {
@@ -516,6 +516,7 @@
     margin-bottom: 0;
     text-align: center;
     width: 100%;
+    font-weight: 700;
 }
 
 /**
