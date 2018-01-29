@@ -16,6 +16,12 @@ challenge:
   - caseDescr: asdasd
     caseIco: /img/video_poster.jpg
     caseLink: asd
+features:
+  - descr: 'Lorem ipsdum '
+    featureImg: /img/video_poster.jpg
+    linkDescr: Click here
+    linkPath: 'http://www.google.com'
+    title: Hi there
 pricingTitle: asd
 firstPricingSubTitle: asd
 secondPricingSubTitle: asd
