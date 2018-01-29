@@ -32,5 +32,8 @@ middleCardTitle: asd
 middleCardSubTitle: asd
 rightCardTitle: asd
 rightCardSubTitle: asd
+priceClientAsked: Good. Verry good
+priceClientCompany: Visyond ltd
+priceClientCompanyLogo: /img/jberg2.png
 ---
 
