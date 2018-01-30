@@ -50,3 +50,23 @@ h1, h2, h3, h4, h5, h6, p {
 .slick-slide {
     outline: none;
 }
+
+.try__btn-wrap {
+    text-align: center;
+}
+
+.purple-vbtn {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    background: #9f4bcc;
+    padding: 15px 130px;
+    border-radius: 4px;
+    transition: background .1s ease-in-out;
+    letter-spacing: .5px;
+    &:hover {
+        background: #8334ad;
+    }
+}
