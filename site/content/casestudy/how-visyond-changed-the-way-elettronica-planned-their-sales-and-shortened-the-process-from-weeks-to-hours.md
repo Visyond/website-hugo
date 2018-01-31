@@ -95,7 +95,7 @@ second_solution: >-
   the data in your model?**
 
 
-  **See **a doctor for existing cases. Better yet - prevent it altogether with
+  **See** a doctor for existing cases. Better yet - prevent it altogether with
   Visyond's version control!
 third_solution: >-
   ![undefined](/img/wallhaven-11877.png)
@@ -104,12 +104,12 @@ third_solution: >-
   **Be elegant and excel with Visyond!**
 
 
-  **No **pun intended. Easy to learn and to work with. Visyond is elegant in its
+  **No** pun intended. Easy to learn and to work with. Visyond is elegant in its
   simplicity. Try it and you will never look back.
 ---
 ## Before Visyond
 
-**This **is how Fernando's job look like:
+**This** is how Fernando's job look like:
 
 * He had to collect inputs by meeting or calling each colleague individually
 * Even written contributions were “tricky”: colleagues were saving their inputs on their own copies of the plan and the reconciliation was a daunting task
