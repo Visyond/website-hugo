@@ -1,5 +1,5 @@
 ---
-title: Enhanced governance and compliance controls
+title: Enhanced spreadsheet Governance and Control
 topImage: /img/banner.jpg
 videoTitle: From days to minutes
 videoDescr: >-
