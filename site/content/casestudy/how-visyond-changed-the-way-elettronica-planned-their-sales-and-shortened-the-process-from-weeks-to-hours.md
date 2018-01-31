@@ -95,7 +95,7 @@ second_solution: >-
   the data in your model?**
 
 
-  **See **a doctor for existing cases. Better yet - prevent it altogether with
+  **See** a doctor for existing cases. Better yet - prevent it altogether with
   Visyond's version control!
 third_solution: >-
   ![undefined](/img/wallhaven-11877.png)
