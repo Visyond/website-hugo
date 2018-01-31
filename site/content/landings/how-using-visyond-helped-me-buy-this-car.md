@@ -67,7 +67,7 @@ howTo: >-
 
   **Peace of mind is guaranteed when your organisation uses Visyond for
   financial modelling.**
-howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
+howToCompany: 'Fernando Rizzo, Area Manager, Elettronica'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
