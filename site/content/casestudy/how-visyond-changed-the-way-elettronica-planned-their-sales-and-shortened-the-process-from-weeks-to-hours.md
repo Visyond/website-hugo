@@ -8,7 +8,7 @@ tooltip:
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
 client: /img/Layer_6772x.png
 client_ask: >-
-  Fernando is a Sales Manager at Elettronica, a company of more than 800
+  Fernando is a Sales Manager at **Elettronica**, a company of more than 800
   employees active in the defense sector and selling its solutions worldwide.
 
 
@@ -109,7 +109,7 @@ third_solution: >-
 ---
 ## Before Visyond
 
-This is how Fernando's job look like:
+**This **is how Fernando's job look like:
 
 * He had to collect inputs by meeting or calling each colleague individually
 * Even written contributions were “tricky”: colleagues were saving their inputs on their own copies of the plan and the reconciliation was a daunting task
