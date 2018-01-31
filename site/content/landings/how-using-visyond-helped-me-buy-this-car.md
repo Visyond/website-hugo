@@ -44,7 +44,9 @@ feature:
       and download data. 
     ico: /img/ico-lamp.png
 howToPhoto: /img/client_3a.jpg
-howToAsked: Very cool stuff! Recommend!
+howToAsked: >-
+  When I use Visyond I see my accuracy and ability to answer questions about my
+  work go up. I can do more and have peace of mind.
 howTo: >-
   Strict regulatory and compliance burdens demonstrate why organisations benefit
   from a comprehensive audit trail, data security and transparency. With
@@ -65,7 +67,7 @@ howTo: >-
 
   **Peace of mind is guaranteed when your organisation uses Visyond for
   financial modelling.**
-howToCompany: '- Bob, Manager at Visyond'
+howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
