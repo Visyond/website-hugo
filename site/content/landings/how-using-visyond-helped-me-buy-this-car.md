@@ -2,50 +2,55 @@
 title: >-
   Enhanced governance and compliance controls, with our transparent spreadsheet
   platform 
-topImage: /img/wallhaven-246377.jpg
-videoTitle: Watch this amazing video!
-videoDescr: And see how Visyond works!
+topImage: /img/banner.jpg
+videoTitle: From days to minutes
+videoDescr: >-
+  Meet the future of financial spreadsheets. Powered by machine intelligence,
+  Visyond's unique cloud spreadsheet platform saves time, reduces errors and
+  streamlines routine analytical tasks.
 popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 trusted:
-  - logo: /img/abrt2.png
-  - logo: /img/delo2.png
-  - logo: /img/elearn2.png
-  - logo: /img/elet2.png
-  - logo: /img/jberg2.png
+  - logo: /img/abrtwhite.png
+  - logo: /img/delowhite.png
+  - logo: /img/eletwhite.png
+  - logo: /img/jbergwhite.png
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
       With our powerful platform, you never run the risk of losing data. Every
       change, input and scenario is securely stored in the cloud. Accessible
       from anywhere.
-    ico: /img/PlayStation-4-Hitman-Beta.jpg
+    ico: /img/ico-cube.png
   - content: >-
       Multiple people can work together from anywhere on any device, without the
       risk of breaking or overwriting each other’s data or formulas. Changes are
       easy to identify and compare.
-    ico: /img/kid-on-computer-2_tnvltp.jpg
+    ico: /img/ico-comments.png
   - content: >-
       Track who did what, enjoy complete accountability with a self-documenting
       audit trail. Accountability is built into our platform to safeguard your
       organization and team.
-    ico: /img/Capture.PNG
+    ico: /img/ico-figure.png
   - content: >-
       Gain full control over who can access or edit the data - have multiple
       people work simultaneously with the same spreadsheet, with access and
       visibility strictly controlled to safeguard sensitive data. Avoid
       uncontrolled sharing or accidental information leaks.
+    ico: /img/ico-true.png
   - content: >-
       Visyond is designed to be fully compatible with legacy tools, such as
       Excel, and familiar to anyone who’s used it. To save time and reduce
       errors, we provide users with an accessible and user-friendly interface,
       including cell auto-formatting, natural language formulas, and easily
       explorable cell dependencies.
+    ico: /img/ico-stack.png
   - content: >-
       Visyond is easy to use and learn. If you are familiar with Excel then you
       should feel yourself right at home! We have also made it easy to import
       and download data. With Visyond, peace of mind is built-into our solution:
       Complete accountability, and human-proof. No one can change your inputs or
       formulas. 
+    ico: /img/ico-lamp.png
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
 howTo: >-
@@ -156,8 +161,10 @@ RightCardPoint:
   - line: 'This is '
   - line: Very good
   - line: Application
-priceClientAsked: Best. Thing. Ever. I would buy twice if I could!
-priceClientCompany: 'Some Guy, Some Job-title, Visyond'
-priceClientCompanyLogo: /img/logo_color.png
+priceClientAsked: >-
+  I have finally full control on the source and impact of any assumptions, and
+  can confidently answer what-if questions with a few clicks.
+priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
+priceClientCompanyLogo: /img/delo1.png
 ---
 
