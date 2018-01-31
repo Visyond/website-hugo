@@ -219,6 +219,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Type, name: type, widget: hidden, default: about }
           - { label: About, name: about, widget: hidden, default: "/casestudies.html" }
           - { label: "Casy study", name: "casestudy", widget: list, fields: [
+              { label: "url", name: "url", widget: "string" },
               { label: "Company logo", name: "logo", widget: "image" },
               { label: "Photo", name: "photo", widget: "image" },
               { label: "Name", name: "name", widget: "string" },

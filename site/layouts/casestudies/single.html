@@ -16,7 +16,7 @@
     <ul class="casestudies__list">
         {{ range $el := .Params.Casestudy }}
         <li class="casestudies__item">
-            <a href="#" class="casestudies__link">
+            <a href="{{ $el.url }}" class="casestudies__link">
                 <div class="casestudies__top">
                     <span class="casestudies__company-wrap">
                         <img src="{{ $el.logo }}">
@@ -37,7 +37,7 @@
                     <h3 class="casestudies__title">{{ $el.title }}</h3>
                     <ul class="casestudies__tag-list">
                         {{ range $tag := $el.tags }}
-                        <li class="casestudies__tag-item">{{ $tag.tagTitle }}</li>
+                        <li class="casestudies__tag-item">{{ .tagTitle }}</li>
                         {{ end }}
                     </ul>
                 </div>
