@@ -28,10 +28,10 @@
             </div>
 
             <figcaption class="cast-study__person-comment">
-                    <p>{{.Params.Client_ask}}</p>
+                    <p>{{.Params.Client_ask | markdownify}}</p>
             </figcaption>
         </figure>
-        {{ .Content }}
+        {{ .Content | markdownify }}
         
     </div> <!-- ./container case-study__left-column -->
     
