@@ -109,7 +109,7 @@ third_solution: >-
 ---
 ## Before Visyond
 
-**This **is how Fernando's job look like:
+**This** is how Fernando's job look like:
 
 * He had to collect inputs by meeting or calling each colleague individually
 * Even written contributions were “tricky”: colleagues were saving their inputs on their own copies of the plan and the reconciliation was a daunting task
