@@ -1,7 +1,5 @@
 ---
-title: >-
-  Enhanced governance and compliance controls, with our transparent spreadsheet
-  platform 
+title: Enhanced governance and compliance controls
 topImage: /img/banner.jpg
 videoTitle: From days to minutes
 videoDescr: >-
