@@ -1,7 +1,7 @@
 ---
 title: Test - del
 topImage: /img/banner.jpg
-videoTitle: "Visyond offers a new approach \x03of securing and managing your \x03spreadsheet data"
+videoTitle: Visyond offers a new approach of securing and managing your spreadsheet data
 videoDescr: >-
   Meet the future of financial spreadsheets. Powered by machine intelligence,
   Visyond’s unique cloud spreadsheet Platform helps you save time, reduce errors
@@ -18,8 +18,8 @@ feature:
     ico: /img/tw.png
 howToPhoto: /img/testimon1.jpg
 howToAsked: Lorem ipsdum dolor sit amet
-howTo: вфывфывфывыф
-howToCompany: выфвфывфывы
+howTo: '**HOW** TO TEXT'
+howToCompany: '**HOW** TO COMPANY'
 case:
   - caseDescr: asdasd
     caseIco: /img/twitter.png
