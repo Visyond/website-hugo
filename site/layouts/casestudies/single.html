@@ -1,11 +1,5 @@
 {{ partial "head" . }} 
-<div class="case-study-title-wrap">
-    <style>
-        .case-study-title-wrap {
-            background: url('/img/vimages/casestudies.jpg') center center no-repeat;
-            background-size: cover;
-        }
-    </style>
+<div class="case-study-title-wrap casestudies-title-wrap">
     <div class="container container--case-study-title-wrap">
         <h1 class="case-study__title">
             Case studies
@@ -14,7 +8,7 @@
 </div>
 <div class="container">
     <ul class="casestudies__list">
-        {{ range $el := .Params.Casestudy }}
+        {{ range $el := .Params.Casestudies }}
         <li class="casestudies__item">
             <a href="{{ $el.url }}" class="casestudies__link">
                 <div class="casestudies__top">

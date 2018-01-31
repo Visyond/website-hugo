@@ -1,3 +1,8 @@
+.casestudies-title-wrap {
+    background: url('/img/vimages/casestudies.jpg') center center no-repeat;
+    background-size: cover;
+}
+
 .casestudies__list {
     margin: 50px 0;
     padding: 0;

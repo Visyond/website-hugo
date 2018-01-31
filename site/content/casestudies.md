@@ -1,6 +1,6 @@
 ---
 type: casestudies
-casestudy:
+casestudies:
   - company: Visyond LTD
     logo: /img/jberg1.png
     name: Anton Abashkin
