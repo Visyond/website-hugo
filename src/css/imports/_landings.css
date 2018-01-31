@@ -351,12 +351,11 @@
     display: block;
     width: 91px;
     border-radius: 50%;
-    overflow: hidden;
-    height: 90px;
 }
 
 .landing-different__img-wrap > img {
     max-width: 100%;
+    border-radius: 50%;
 }
 
 .landing-different__img-descr-wrap {

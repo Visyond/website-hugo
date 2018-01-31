@@ -94,7 +94,8 @@ export default class Landings extends React.Component {
                     <h3 className="landing-title landing-title--landing-different">How Visyond is different</h3>
                     <div className="column-wrap">
                         <div className="column-6 different--left">
-                        { entry.getIn(["data", "howTo"]) }
+                        
+                        { widgetFor('howTo') }
                         </div>
                         <div className="column-6 different--right">
                             <figure className="landing-different__img-container">
@@ -106,7 +107,7 @@ export default class Landings extends React.Component {
                                         { entry.getIn(["data", "howToAsked"]) }
                                     </p>
                                     <address className="landing-different__img-address">
-                                        {entry.getIn(['data', 'howToCompany'])}
+                                        {widgetFor('howToCompany')}
                                     </address>
                                 </figcaption>
                             </figure>

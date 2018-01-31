@@ -107,7 +107,7 @@
                         </span>
                         <figcaption class="landing-different__img-descr-wrap">
                             <p class="landing-different__img-descr">{{ .Params.howToAsked }}</p>
-                            <address class="landing-different__img-address">{{ .Params.HowToCompany }}</address>
+                            <address class="landing-different__img-address">{{ .Params.HowToCompany | markdownify}}</address>
                         </figcaption>
                     </figure>
                 </div>
