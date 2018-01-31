@@ -1,15 +1,15 @@
 ---
 type: casestudies
 casestudies:
-  - company: Visyond LTD
+  - company: Visyond
     logo: /img/jberg1.png
-    name: Anton Abashkin
-    photo: /img/anton.png
+    name: Nick
+    photo: /img/ger.png
     tags:
-      - tagTitle: first
+      - tagTitle: asd
       - tagTitle: second
-      - tagTitle: third
-    title: This is first casy study yep
+      - tagTitle: Third
+    title: This is first page
     url: /casestudy
 ---
 
