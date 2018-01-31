@@ -67,18 +67,13 @@ howTo: >-
   financial modelling.**
 howToCompany: '- Bob, Manager at Visyond'
 case:
-  - caseDescr: I don't have any problems anymore
-    caseIco: /img/0035e2711cfdc8aabbd6f3d78bc6a3f3.jpg
+  - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
+    caseIco: /img/elet.png
     caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: 'Answer complex questions in 2,5 seconds'
-    caseIco: /img/ad6b20a29bdadb77d549ac5933570be4.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: I got fired because Visyond is too effective
-    caseIco: /img/double-drops-wallpapers_30688_1920x1200.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: Elon Musk wishes he started using Visyond earlier
-    caseIco: /img/1307940381225.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  - caseDescr: >-
+      Financial statements preparation: eLearnSecurity made this a 1-hour job
+      with Visyond
+    caseIco: /img/elearn1.png
 challenge:
   - caseDescr: Data Governance
     caseIco: /img/aurora_burst-1920x1200.jpg
