@@ -8,6 +8,7 @@ import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
 import Home from "./cms-preview-templates/home";
 import Contact from "./cms-preview-templates/contact";
+import CaseStudies from "./cms-preview-templates/casestudies";
 
 
 // Example of creating a custom color widget
@@ -30,4 +31,5 @@ CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
 CMS.registerPreviewTemplate("home", Home);
 CMS.registerPreviewTemplate("contact", Contact);
+CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerWidget("color", ColorControl);

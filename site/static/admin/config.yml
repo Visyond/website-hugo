@@ -212,9 +212,9 @@ collections: # A list of collections the CMS should be able to edit
               { label: "slider company", name: "slidercompany", widget: "string" },
               { label: "slider logo", name: "sliderlogo", widget: "image" },
           ]}
-      # - file: "site/content/about.md"
-      #   label: "About us"
-      #   name: "about"
-      #   fields:
-      #     - { label: Type, name: type, widget: hidden, default: about }
-      #     - { label: About, name: about, widget: hidden, default: "/about.html" }
+      - file: "site/content/casestudies.md"
+        label: "Case studies"
+        name: "casestudies"
+        fields:
+          - { label: Type, name: type, widget: hidden, default: about }
+          - { label: About, name: about, widget: hidden, default: "/casestudies.html" }
