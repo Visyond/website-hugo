@@ -1,5 +1,5 @@
 ---
-title: Improved Spreadsheet
+title: Test - del
 topImage: /img/banner.jpg
 videoTitle: "Visyond offers a new approach \x03of securing and managing your \x03spreadsheet data"
 videoDescr: >-
@@ -83,5 +83,8 @@ RightCardPoint:
   - line: One
   - line: Tow
   - line: Three
+priceClientAsked: asasdasd
+priceClientCompany: asdasdasd
+priceClientCompanyLogo: /img/delo2.png
 ---
 
