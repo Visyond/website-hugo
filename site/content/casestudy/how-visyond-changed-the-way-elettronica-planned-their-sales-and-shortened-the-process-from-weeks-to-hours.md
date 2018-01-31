@@ -8,7 +8,7 @@ tooltip:
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
 client: /img/Layer_6772x.png
 client_ask: >-
-  Fernando is a Sales Manager at **Elettronica**, a company of more than 800
+  Fernando is a Sales Manager at **Elettronica** , a company of more than 800
   employees active in the defense sector and selling its solutions worldwide.
 
 
