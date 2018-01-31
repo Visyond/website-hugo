@@ -15,36 +15,38 @@ export default class CaseStudies extends React.Component {
                 </div>
             </div>
             <div className="container">
-                <ul class="casestudies__list">
+                <ul className="casestudies__list">
                 {(entry.getIn(["data", "casestudies"]) || []).map((item, index) => {
-                <li class="casestudies__item">
-                    <a href={item.get('url')} class="casestudies__link">
-                        <div class="casestudies__top">
-                            <span class="casestudies__company-wrap">
+                return <li className="casestudies__item" key={index}>
+                    <a href={item.get('url')} className="casestudies__link">
+                        <div className="casestudies__top">
+                            <span className="casestudies__company-wrap">
                                 <img src={item.get('logo')} />
                             </span>
-                            <div class="casestudies__company-person-wrap">
-                                <span class="casestudies__company-person-img">
+                            <div className="casestudies__company-person-wrap">
+                                <span className="casestudies__company-person-img">
                                     <img src={item.get('photo')} alt="" />
                                 </span>
                                 <div>
-                                    <span class="casestudies__company-person-name">
+                                    <span className="casestudies__company-person-name">
                                         { item.get('name') }
                                     </span>
-                                    <span class="casestudies__company-person-company-name">
+                                    <span className="casestudies__company-person-company-name">
                                         { item.get('company') }
                                     </span>
                                 </div>
                             </div>
                         </div>
-                        <div class="casestudies__bottom">
-                            <h3 class="casestudies__title">
+                        <div className="casestudies__bottom">
+                            <h3 className="casestudies__title">
                                 { item.get('title') }
                             </h3>
-                            <ul class="casestudies__tag-list">
-                                
-                                <li class="casestudies__tag-item"></li>
-                
+                            <ul className="casestudies__tag-list">
+                            {(item.get("tags") || []).map((tag, index) => {
+                                return <li className="casestudies__tag-item" key={index}>
+                                    {tag.get('tagTitle')}
+                                </li>
+                            })}
                             </ul>
                         </div>
                     </a>
