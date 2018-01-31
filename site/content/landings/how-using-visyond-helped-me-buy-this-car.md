@@ -17,9 +17,8 @@ trusted:
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
-      With our powerful platform, you never run the risk of losing data. Every
-      change, input and scenario is securely stored in the cloud. Accessible
-      from anywhere.
+      You never run the risk of losing data. Every change, input and scenario is
+      securely stored in the cloud.
     ico: /img/ico-cube.png
   - content: >-
       Multiple people can work together from anywhere on any device, without the
@@ -28,28 +27,23 @@ feature:
     ico: /img/ico-comments.png
   - content: >-
       Track who did what, enjoy complete accountability with a self-documenting
-      audit trail. Accountability is built into our platform to safeguard your
-      organization and team.
+      audit trail.
     ico: /img/ico-figure.png
   - content: >-
       Gain full control over who can access or edit the data - have multiple
       people work simultaneously with the same spreadsheet, with access and
-      visibility strictly controlled to safeguard sensitive data. Avoid
-      uncontrolled sharing or accidental information leaks.
+      visibility strictly controlled to safeguard sensitive data.
     ico: /img/ico-true.png
   - content: >-
-      Visyond is designed to be fully compatible with legacy tools, such as
-      Excel, and familiar to anyone who’s used it. To save time and reduce
-      errors, we provide users with an accessible and user-friendly interface,
-      including cell auto-formatting, natural language formulas, and easily
-      explorable cell dependencies.
+      Visyond is fully compatible with legacy tools such as Excel. We provide
+      users with an accessible and user-friendly interface, including cell
+      auto-formatting, natural language formulas, and easily explorable cell
+      dependencies.
     ico: /img/ico-stack.png
   - content: >-
       Visyond is easy to use and learn. If you are familiar with Excel then you
       should feel yourself right at home! We have also made it easy to import
-      and download data. With Visyond, peace of mind is built-into our solution:
-      Complete accountability, and human-proof. No one can change your inputs or
-      formulas. 
+      and download data. 
     ico: /img/ico-lamp.png
 howToPhoto: /img/client_3a.jpg
 howToAsked: Very cool stuff! Recommend!
