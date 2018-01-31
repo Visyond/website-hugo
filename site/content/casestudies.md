@@ -10,5 +10,6 @@ casestudy:
       - tagTitle: second
       - tagTitle: third
     title: This is first casy study yep
+    url: /casestudy
 ---
 
