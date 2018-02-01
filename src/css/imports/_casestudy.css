@@ -115,9 +115,30 @@
         position: absolute;
         left: 0;
         top: 7px;
-    }
+    }  
+}
 
-    
+.container--case-study__left-column blockquote {
+    position: relative;
+    margin: 0;
+    padding: 20px 60px 20px 80px;
+    border: 1px solid #DEDFED;
+    &:before, &:after {
+        content: '';
+        position: absolute;
+        background: url('/img/vimages/qright.png') center center no-repeat;
+        background-size: cover;
+        width: 35px;
+        height: 20px;
+    }
+    &:before {
+        left: 20px;
+        top: 20px;
+    }
+    &:after {
+        bottom: 20px;
+        right: 20px;
+    }
 }
 
 .container--case-study__left-column li p{
@@ -188,7 +209,7 @@
         border-radius: 50%;
         position: absolute;
         left: 0;
-        top: 5px;
+        top: 9px;
     }
 }
 
