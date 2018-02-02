@@ -20,19 +20,7 @@ howToPhoto: /img/testimon1.jpg
 howToAsked: Lorem ipsdum dolor sit amet
 howTo: '**HOW** TO TEXT'
 howToCompany: '**HOW** TO COMPANY'
-case:
-  - caseDescr: asdasd
-    caseIco: /img/twitter.png
-    caseLink: google.com
-  - caseDescr: asdasd
-    caseIco: /img/linkdn.png
-    caseLink: asd
-  - caseDescr: asdasdasdds
-    caseIco: /img/ico-streamline.png
-    caseLink: asdasd
-  - caseDescr: asdasd
-    caseIco: /img/mapShape2.png
-    caseLink: asd
+case: []
 challenge:
   - caseDescr: sdfgh
     caseIco: /img/twitter.png
