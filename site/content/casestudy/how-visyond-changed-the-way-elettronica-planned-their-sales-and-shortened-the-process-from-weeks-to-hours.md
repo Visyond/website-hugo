@@ -34,7 +34,7 @@ aside:
 
       * Needed an easy-to-use interface for scenario planning
 
-      * Needed a platform, online and user-friendly to:
+      * Needed an online and user-friendly platform
 
       * Collect assumptions without sending email attachments
 
