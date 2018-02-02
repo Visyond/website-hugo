@@ -119,6 +119,7 @@
         </div>
     </section> <!-- ./landing-different -->
 
+    {{ if gt (len .Params.Case) 0 }}
     <section class="landing-casestudy">
         <div class="container">
             <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
@@ -135,7 +136,8 @@
             </ul>
         </div>
     </section>
-
+    {{ end }}
+    {{ if gt (len .Params.Challenge) 0 }}
     <section class="landing-challenge">
         <div class="container">
             <h3 class="landing-title landing-title--landing-challenge">Challenges and Solutions</h3>
@@ -154,7 +156,8 @@
             </ul>
         </div>
     </section>
-
+    {{ end }}
+    
     <section class="landing-features-reverse">
         <div class="container">
             <h3 class="landing-title landing-title--landing-features-reverse">Features</h3>
@@ -179,7 +182,7 @@
             </div>
         </div>
     </section>
-
+    
     <section class="landing-featured">
         <div class="container">
             <h3 class="landing-title landing-title--landing-featured">As featured in</h3>
@@ -203,6 +206,7 @@
             </ul>
         </div>
     </section>
+    
 
     <section class="pricing">
         <div class="container">
