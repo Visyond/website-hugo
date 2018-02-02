@@ -20,21 +20,8 @@ howToPhoto: /img/testimon1.jpg
 howToAsked: Lorem ipsdum dolor sit amet
 howTo: '**HOW** TO TEXT'
 howToCompany: '**HOW** TO COMPANY'
-case:
-  - caseDescr: asdasdadsasd
-challenge:
-  - caseDescr: sdfgh
-    caseIco: /img/twitter.png
-    caseLink: adsad
-  - caseDescr: sdfghj
-    caseIco: /img/ico-streamline.png
-    caseLink: sdfgh
-  - caseDescr: sdfghjk.
-    caseIco: /img/ico-answer.png
-    caseLink: sdfghjk
-  - caseDescr: sdfghjk
-    caseIco: /img/jberg1.png
-    caseLink: wsefghjkl
+case: []
+challenge: []
 features: []
 featured:
   - descr: 'Hello, world'
