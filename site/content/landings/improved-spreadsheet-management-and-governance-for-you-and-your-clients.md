@@ -46,17 +46,7 @@ challenge:
   - caseDescr: sdfghjk
     caseIco: /img/jberg1.png
     caseLink: wsefghjkl
-features:
-  - descr: sadasdasd
-    featureImg: /img/infiniteImage1.png
-    linkDescr: asdasdasd
-    linkPath: sadasdasdasdsa
-    title: sadasdsd
-  - descr: asdasd
-    featureImg: /img/img-case-list-item.jpg
-    linkDescr: asdasdasdsad
-    linkPath: asdasdas
-    title: dasdas
+features: []
 featured:
   - descr: 'Hello, world'
     logo: /img/logoClient_1.png
