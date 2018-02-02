@@ -1,25 +1,22 @@
 ---
 type: casestudies
 casestudies:
-  - company: Visyond
-    logo: /img/jberg1.png
-    name: Nick
-    photo: /img/ger.png
+  - logo: /img/elet.png
+    name: ''
     tags:
-      - tagTitle: asd
-      - tagTitle: second
-      - tagTitle: Third
-    title: This is first page
-    url: /casestudy
-  - company: Visyond LTD
-    logo: /img/elt_c.png
-    name: Gianluca
-    photo: /img/gianluca.png
+      - tagTitle: Sales planning
+      - tagTitle: Territory & Quota planning
+    title: 'Sales Planning: Elettronica''s Sales Planning from weeks to hours'
+    url: >-
+      how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+  - logo: /img/elearn1.png
     tags:
-      - tagTitle: Human Resource
-      - tagTitle: CEO
-      - tagTitle: YEP
-    title: This is second page
-    url: /casestudy
+      - tagTitle: Reporting
+      - tagTitle: Financial Statements
+    title: >-
+      Financial Statements Preparation: eLearnSecurity made this a 1-hour job
+      with Visyond
+    url: >-
+      how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
 
