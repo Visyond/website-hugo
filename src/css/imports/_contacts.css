@@ -9,7 +9,7 @@
 }
 
 .contacts-page__item--mail {
-    width: 215px;
+    width: 179px;
 }
 
 .contacts-page__item--phone,
@@ -76,10 +76,10 @@
     padding: 14px;
     font-weight: 300;
 
-    &::-webkit-input-placeholder {color:rgba(94, 111, 133, .8);}
-    &::-moz-placeholder          {color:rgba(94, 111, 133, .8);}/* Firefox 19+ */
-    &:-moz-placeholder           {color:rgba(94, 111, 133, .8)}/* Firefox 18- */
-    &:-ms-input-placeholder      {color:rgba(94, 111, 133, .8)}
+    &::-webkit-input-placeholder {color:rgba(94, 111, 133, .8); font-family: "Open Sans", sans-serif;}
+    &::-moz-placeholder          {color:rgba(94, 111, 133, .8); font-family: "Open Sans", sans-serif;}/* Firefox 19+ */
+    &:-moz-placeholder           {color:rgba(94, 111, 133, .8); font-family: "Open Sans", sans-serif;}/* Firefox 18- */
+    &:-ms-input-placeholder      {color:rgba(94, 111, 133, .8); font-family: "Open Sans", sans-serif;}
 }
 
 .contact__form-input--message {
