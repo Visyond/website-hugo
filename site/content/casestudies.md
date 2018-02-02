@@ -9,7 +9,7 @@ casestudies:
     title: 'Sales Planning: Elettronica''s Sales Planning from weeks to hours'
     url: >-
       how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-  - logo: /img/elearn1.png
+  - logo: /img/elearn.png
     tags:
       - tagTitle: Reporting
       - tagTitle: Financial Statements
