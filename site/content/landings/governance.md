@@ -91,33 +91,22 @@ challenge:
     caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 features:
   - descr: >-
-      You no longer need to juggle dozens of slightly different versions of the
-      same spreadsheet. Keep everything in the same spreadsheet with the ability
-      to roll-back at any time.
-    featureImg: /img/132148607486.jpg
-    linkDescr: 'Find out more '
-    linkPath: google.com
-    title: Version control and comparison
-  - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
-      different people, comments and even file attachments. Everyone who needs
-      to contribute can input their numbers through an easy to manage a
-      collaborative process. Information about who changed what and when is
-      always available for you to view.
-    featureImg: /img/5-10.jpg
-    linkDescr: Learn more about the features you need
-    linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: 3D-Cell
+      different people, comments and even file attachments. Information about
+      who changed what and when is always available for you to view.
+    featureImg: /img/track everything.PNG
+    title: 'Tracking everything inside the cell, enable full accountability'
   - descr: >-
-      Easily import data from the existing spreadsheets into Visyond and
-      continue working without interruptions.  Export the spreadsheet to share
-      with someone outside the platform. All values and formulae will be safely
-      carried over to the new document. Add an external spreadsheet & reference
-      any cells from it directly in Visyond.
-    featureImg: /img/1276771818788.jpg
-    linkDescr: Find out more today
-    linkPath: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-    title: 'Import & Export spreadsheets, link external sources'
+      No one can change your input, accidentally delete or change your formula
+      or assumption.
+    featureImg: /img/version control.PNG
+    title: 'Full version control, no need for storing multiple files'
+  - descr: >-
+      Have full control over who has access to what at granular level. Manage
+      permissions and restrictions like seeing only certain cells, worksheets,
+      or reports.
+    featureImg: /img/permissions placeholder.png
+    title: Access & Permissions control
 featured:
   - descr: sdasdasdadasd
     logo: /img/abrt2.png
