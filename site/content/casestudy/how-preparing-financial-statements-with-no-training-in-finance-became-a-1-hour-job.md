@@ -5,7 +5,7 @@ title: >-
 image: /img/casestud.jpg
 client: /img/armando.png
 client_ask: >-
-  Armando is the Founder and CEO of eLearnSecurity, a Silicon Valley company
+  Armando is the Founder and CEO of **eLearnSecurity**, a Silicon Valley company
   providing cyber security training to IT Security professionals worldwide.
 
 
@@ -20,9 +20,9 @@ client_ask: >-
   a common language with finance people.
 
 
-  > "The process took 1 stressful week and I did not feel comfortable to update
+  > The process took 1 stressful week and I did not feel comfortable to update
   the data, fearing to break something. Now it is a 1-hour job and a few clicks
-  to update data".
+  to update data.
 aside:
   - content: '![eLearnSecurity](/img/elearnsec logo.png)'
   - content: |-
@@ -96,9 +96,7 @@ Armando has been looking for a solution for a long time but could not find a sui
 
 ![Flexibility](/img/flexibility.png)
 
-
-
-> "The remarkable thing in Visyond is that if I have a lot of cost items, I don’t need to worry where to type them: I can decide later what is an OPEX or a CAPEX by selecting and deselecting them from intuitive screens".
+> The remarkable thing in Visyond is that if I have a lot of cost items, I don’t need to worry where to type them: I can decide later what is an OPEX or a CAPEX by selecting and deselecting them from intuitive screens.
 
 ## After Visyond
 
