@@ -98,7 +98,8 @@ features:
     title: 'Tracking everything inside the cell, enable full accountability'
   - descr: >-
       No one can change your input, accidentally delete or change your formula
-      or assumption.
+      or assumption. All changes and steps are self-documented, and the audit
+      trail is kept for ever.
     featureImg: /img/version control.PNG
     title: 'Full version control, no need for storing multiple files'
   - descr: >-
