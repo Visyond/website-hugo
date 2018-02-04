@@ -3,28 +3,28 @@ title: Homepage
 cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
     cardDescr: Financial modelling solution that will make your workloads lighter
-    cardIcon: /img/tw1.png
+    cardIcon: /img/model.png
     cardLink: google.com
     cardTitle: Modelling
   - cardBackground: /img/1306356785139.jpg
     cardDescr: >-
       Maintain full control and transparency over financial modelling data with
       our spreadsheet governance platform
-    cardIcon: /img/tw1.png
+    cardIcon: /img/gov.png
     cardLink: amazon.com
     cardTitle: Governance
   - cardBackground: /img/13294212361934.jpg
     cardDescr: >-
       Create your own RIO Calculator, complex quotes or value calculations in
       minutes
-    cardIcon: /img/tw1.png
+    cardIcon: /img/calc.png
     cardLink: google.com
     cardTitle: KPI/Value Calculator
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
       decisions
-    cardIcon: /img/tw1.png
+    cardIcon: /img/analytic.png
     cardLink: google.com
     cardTitle: Analytics & Presentation
 client:
