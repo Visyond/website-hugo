@@ -116,29 +116,31 @@ featured:
       Bisceglie, the founder of Visyond, made this dream a reality.
     logo: /img/finBuzz.png
 pricingTitle: Pricing
-firstPricingSubTitle: Buy now pls.
-secondPricingSubTitle: starting from $99999999999 month/user
+firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
+secondPricingSubTitle: >-
+  For companies and teams the prices are custom and depend on specific use cases
+  and feature requirements
 leftCardTitle: Small teams
-leftCardSubTitle: if u don't need a spaceship...
+leftCardSubTitle: if you don't need a spaceship...
 leftCardPoint:
   - line: Write funny comments
   - line: Attach cat pictures
   - line: Keep your content safe
   - line: Only use what you need
-middleCardTitle: EnTeRpRiSe
-middleCardSubTitle: you NEED a spaceship
+middleCardTitle: Enterprise
+middleCardSubTitle: if you NEED a spaceship!
 middleCardPoint:
   - line: Do whatever
   - line: Do whenever
   - line: Get results
   - line: Be happy
 rightCardTitle: Medium teams
-rightCardSubTitle: What is a medium team anyway
+rightCardSubTitle: When you are not quite sure...
 RightCardPoint:
-  - line: Hello
-  - line: 'This is '
-  - line: Very good
-  - line: Application
+  - line: Do stuff
+  - line: Achieve milestones
+  - line: Don't forget breakfast
+  - line: 'After all, it is the most important meal of the day'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
