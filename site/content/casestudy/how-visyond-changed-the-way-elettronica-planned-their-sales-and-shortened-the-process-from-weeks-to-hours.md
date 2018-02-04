@@ -16,8 +16,8 @@ client_ask: >-
   and recommends where to allocate resources to optimise the sales process.
 
 
-  > "It was a very time consuming process with a high risk of mistakes at each
-  step, due to the manual implementation and the large set of inputs".
+  > It was a very time consuming process with a high risk of mistakes at each
+  step, due to the manual implementation and the large set of inputs.
 aside:
   - content: '![undefined](/img/Elettronica_logo2x.png)'
   - content: |-
@@ -109,7 +109,7 @@ third_solution: >-
 ---
 ## Before Visyond
 
-**This** is how Fernando's job look like:
+This is how Fernando's job look like:
 
 * He had to collect inputs by meeting or calling each colleague individually
 * Even written contributions were “tricky”: colleagues were saving their inputs on their own copies of the plan and the reconciliation was a daunting task
@@ -118,7 +118,7 @@ third_solution: >-
 
 ![undefined](/img/Screen_Shot_2017-11-06_at_3.17.59_PM.png)
 
-> "Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally".
+> Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally.
 
 ## After Visyond
 
