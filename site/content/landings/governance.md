@@ -109,16 +109,12 @@ features:
     featureImg: /img/permissions placeholder.png
     title: Access & Permissions control
 featured:
-  - descr: sdasdasdadasd
-    logo: /img/abrt2.png
-  - descr: asdasdasdasdasdfff
-    logo: /img/jberg1.png
-  - descr: ggggggggggggggggggggggggg
-    logo: /img/jberg1.png
-  - descr: bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-    logo: /img/elet.png
-  - descr: wwwwwwwwwwwwwwwwww
-    logo: /img/elearn1.png
+  - descr: >-
+      Anyone creating a spreadsheet model dreams of spending less time on it,
+      reducing the risk of mistakes, being able to effectively co-work with
+      colleagues, and seamlessly sharing it across their organization. Gianluca
+      Bisceglie, the founder of Visyond, made this dream a reality.
+    logo: /img/finBuzz.png
 pricingTitle: Pricing
 firstPricingSubTitle: Buy now pls.
 secondPricingSubTitle: starting from $99999999999 month/user
