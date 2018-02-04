@@ -47,26 +47,11 @@ howToPhoto: /img/client_3a.jpg
 howToAsked: >-
   When I use Visyond I see my accuracy and ability to answer questions about my
   work go up. I can do more and have peace of mind.
-howTo: >-
-  Strict regulatory and compliance burdens demonstrate why organisations benefit
-  from a comprehensive audit trail, data security and transparency. With
-  Visyond, your sensitive financial information is secure and future-proofed.
-
-
-  Traditional financial modelling tools perpetuates chaos across organisations.
-  Making it difficult to reach a single version of the truth that everyone
-  agrees on. Managing an analytical task with inputs from multiple stakeholders
-  can take weeks or months. At the same time, the rapid pace of today’s business
-  world requires a quick turn-around - they need to make strategic decisions
-  quickly.
-
-
-  Visyond’s smart, cloud-based spreadsheet platform improves data governance and
-  accelerates strategic financial decision making.
-
-
-  **Peace of mind is guaranteed when your organisation uses Visyond for
-  financial modelling.**
+howTo: |-
+  * Visyond offers comprehensive audit trail, data security and transparency 
+  * Ensures quick turn-around and allows quick strategic decision-making 
+  * Greatly accelerates input-gathering from multiple stakeholders 
+  * Reduces data chaos and guarantees peace of mind
 howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
