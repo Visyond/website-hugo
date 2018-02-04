@@ -140,7 +140,7 @@ RightCardPoint:
   - line: Do stuff
   - line: Achieve milestones
   - line: Don't forget breakfast
-  - line: 'After all, it is the most important meal of the day'
+  - line: 'Also, lunch & dinner'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
