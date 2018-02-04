@@ -71,11 +71,14 @@ howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+    caseLink: >-
+      https://cms.visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - caseDescr: >-
       Financial statements preparation: eLearnSecurity made this a 1-hour job
       with Visyond
     caseIco: /img/elearn1.png
+    caseLink: >-
+      https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 challenge:
   - caseDescr: Data Governance
     caseIco: /img/aurora_burst-1920x1200.jpg
