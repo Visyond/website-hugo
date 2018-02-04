@@ -11,7 +11,7 @@ cards:
       Maintain full control and transparency over financial modelling data with
       our spreadsheet governance platform
     cardIcon: /img/gov.png
-    cardLink: landings/how-using-visyond-helped-me-buy-this-car
+    cardLink: landings/governance
     cardTitle: Governance
   - cardBackground: /img/13294212361934.jpg
     cardDescr: >-
