@@ -65,6 +65,7 @@ case:
 challenge:
   - caseDescr: Decision makers
   - caseDescr: Data input and consolidation
+featuresTitle: How Visyond improves spreadsheet governance
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
