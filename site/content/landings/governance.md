@@ -77,20 +77,21 @@ features:
       In Visyond, each cell is a database that stores multiple inputs from
       different people, comments and even file attachments. Information about
       who changed what and when is always available for you to view.
-    featureImg: /img/track everything.PNG
+    featureImg: /img/illusrtation 1-2.png
     title: 'Tracking everything inside the cell, enable full accountability'
   - descr: >-
       No one can change your input, accidentally delete or change your formula
       or assumption. All changes and steps are self-documented, and the audit
       trail is kept for ever.
-    featureImg: /img/version control.PNG
+    featureImg: /img/illusrtation 2-2.png
     title: 'Full version control, no need for storing multiple files'
   - descr: >-
       Have full control over who has access to what at granular level. Manage
       permissions and restrictions like seeing only certain cells, worksheets,
       or reports.
-    featureImg: /img/permissions placeholder.png
+    featureImg: /img/illusrtation 4-2.png
     title: Access & Permissions control
+  - {}
 featured:
   - descr: >-
       Anyone creating a spreadsheet model dreams of spending less time on it,
