@@ -1,11 +1,15 @@
 ---
 title: Enhanced spreadsheet Governance and Control
 topImage: /img/banner.jpg
-videoTitle: From days to minutes
+videoTitle: It is time to take your spreadsheets under control!
 videoDescr: >-
-  Meet the future of financial spreadsheets. Powered by machine intelligence,
-  Visyond's unique cloud spreadsheet platform saves time, reduces errors and
-  streamlines routine analytical tasks.
+  Traditional spreadsheets cannot handle dynamic and fluid information flow and
+  effectively manage organization of data.  As a consequence, human errors are
+  inevitably introduced. Hours and days are lost in attempts to track down
+  changes and compare different versions of the same document.  New regulations
+  and data protection rules also create additional pressure and scrutiny
+  requiring organizations to transform and adapt their workflows. Visyond
+  eradicates all these obstacles!
 popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 trusted:
   - logo: /img/abrtwhite.png
@@ -63,34 +67,34 @@ case:
     caseLink: >-
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 challenge:
-  - caseDescr: Data Governance
-    caseIco: /img/aurora_burst-1920x1200.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: Do cool stuff easily
-    caseIco: /img/13293290177293.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: Burger cooking
-    caseIco: /img/132913034257.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+  - caseDescr: Decision makers
+  - caseDescr: Data input and consolidation
+featuresTitle: How Visyond improves spreadsheet governance
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
       different people, comments and even file attachments. Information about
       who changed what and when is always available for you to view.
-    featureImg: /img/track everything.PNG
+    featureImg: /img/illusrtation 1-2.png
     title: 'Tracking everything inside the cell, enable full accountability'
   - descr: >-
       No one can change your input, accidentally delete or change your formula
       or assumption. All changes and steps are self-documented, and the audit
       trail is kept for ever.
-    featureImg: /img/version control.PNG
+    featureImg: /img/illusrtation 2-2.png
     title: 'Full version control, no need for storing multiple files'
   - descr: >-
       Have full control over who has access to what at granular level. Manage
       permissions and restrictions like seeing only certain cells, worksheets,
       or reports.
-    featureImg: /img/permissions placeholder.png
+    featureImg: /img/illusrtation 4-2.png
     title: Access & Permissions control
+  - descr: >-
+      All related discussions, comments, supporting information, and attachments
+      are stored inside the cell.
+    featureImg: /img/illusrtation 3-2.png
+    linkDescr: ''
+    title: Seamless collaboration
 featured:
   - descr: >-
       Anyone creating a spreadsheet model dreams of spending less time on it,
