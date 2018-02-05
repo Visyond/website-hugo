@@ -162,7 +162,7 @@ export default class Landings extends React.Component {
 
             <section className="landing-features-reverse">
                 <div className="container">
-                    <h3 className="landing-title landing-title--landing-features-reverse">Features</h3>
+                    <h3 className="landing-title landing-title--landing-features-reverse">{ entry.getIn(["data", "featuresTitle"]) }</h3>
                     <div className="landing-features-reverse__item-wrap">
                         {(entry.getIn(["data", "features"]) || []).map((item, index) => {
                             return <article className="landing-features-reverse__item" key={index}>

@@ -82,6 +82,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
+      - { label: "Features Title", name: "featuresTitle", widget: "string" }
       - { label: "Features", name: "features", widget: "list",
         fields: [
           {label: "Image", name: "featureImg", widget: "image"},

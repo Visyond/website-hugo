@@ -160,7 +160,7 @@
     
     <section class="landing-features-reverse">
         <div class="container">
-            <h3 class="landing-title landing-title--landing-features-reverse">Features</h3>
+            <h3 class="landing-title landing-title--landing-features-reverse">{{ .Params.FeaturesTitle }}</h3>
             <div class="landing-features-reverse__item-wrap">
                 {{ range $el := .Params.Features }}
                 <article class="landing-features-reverse__item">
