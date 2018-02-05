@@ -14,7 +14,9 @@ trusted:
   - logo: /img/jbergwhite.png
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
-  - content: 'Every change, input and scenario is securely stored in your spra.'
+  - content: >-
+      Finally, single version of the truth! Every change, input and scenario is
+      securely stored in your spreadsheet. 
     ico: /img/ico-cube.png
   - content: >-
       Multiple people can work together from anywhere on any device, without the
