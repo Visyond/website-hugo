@@ -620,6 +620,7 @@
     flex-flow: row wrap;
     margin: 50px 0 0 0;
     list-style: none;
+    justify-content: center;
 }
 .landing-featured__item {
     width: 20%;
