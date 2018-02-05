@@ -62,7 +62,9 @@ case:
     caseIco: /img/elearn1.png
     caseLink: >-
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-challenge: []
+challenge:
+  - caseDescr: Decision makers
+  - caseDescr: Data input and consolidation
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
