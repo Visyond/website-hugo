@@ -104,7 +104,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string" }
 
       - { label: "Left card title", name: "leftCardTitle", widget: "string" }
-      - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string" }
+      - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string", required: false }
       - { label: "Left card point", name: "leftCardPoint", widget: "list",
         fields: [
           {label: "Line", name: "line", widget: "string"},
@@ -113,7 +113,7 @@ collections: # A list of collections the CMS should be able to edit
       }
       
       - { label: "Middle card title", name: "middleCardTitle", widget: "string" }
-      - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string" }
+      - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: false }
       - { label: "Middle card point", name: "middleCardPoint", widget: "list",
         fields: [
           {label: "Line", name: "line", widget: "string"},
@@ -122,7 +122,7 @@ collections: # A list of collections the CMS should be able to edit
       }
       
       - { label: "Right card title", name: "rightCardTitle", widget: "string" }
-      - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string" }
+      - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: false }
       - { label: "Right card point", name: "RightCardPoint", widget: "list",
         fields: [
           {label: "Line", name: "line", widget: "string"},
