@@ -62,16 +62,7 @@ case:
     caseIco: /img/elearn1.png
     caseLink: >-
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-challenge:
-  - caseDescr: Data Governance
-    caseIco: /img/aurora_burst-1920x1200.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: Do cool stuff easily
-    caseIco: /img/13293290177293.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-  - caseDescr: Burger cooking
-    caseIco: /img/132913034257.jpg
-    caseLink: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+challenge: []
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
