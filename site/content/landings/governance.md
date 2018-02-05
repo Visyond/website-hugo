@@ -109,7 +109,7 @@ leftCardPoint:
   - line: Write funny comments
   - line: Attach cat pictures
   - line: Keep your content safe
-  - line: Only use what you need
+  - line: Only use what you need when y
 middleCardTitle: Enterprise
 middleCardSubTitle: if you NEED a spaceship!
 middleCardPoint:
