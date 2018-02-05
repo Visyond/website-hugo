@@ -116,13 +116,16 @@ middleCardPoint:
   - line: Do whatever
   - line: Do whenever
   - line: Get results
-  - line: Be happy
+  - line: Be happy dont worry everything
+  - line: asdasdasdasdasdasd
+  - line: asdasdasdasdasdasdasd
+  - line: asdasdasd
 rightCardTitle: Consulting
 rightCardSubTitle: When you are not quite sure...
 RightCardPoint:
   - line: Do stuff
   - line: Achieve milestones
-  - line: Don't forget breakfast
+  - line: Don't forget breakfast23232323
   - line: 'Also, lunch & dinner'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
