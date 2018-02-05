@@ -14,18 +14,15 @@ trusted:
   - logo: /img/jbergwhite.png
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
-  - content: >-
-      You never run the risk of losing data. Every change, input and scenario is
-      securely stored in the cloud.
+  - content: 'Every change, input and scenario is securely stored in your spra.'
     ico: /img/ico-cube.png
   - content: >-
       Multiple people can work together from anywhere on any device, without the
-      risk of breaking or overwriting each other’s data or formulas. Changes are
-      easy to identify and compare.
+      risk of breaking or overwriting each other’s data or formulas.
     ico: /img/ico-comments.png
   - content: >-
       Track who did what, enjoy complete accountability with a self-documenting
-      audit trail.
+      audit trail and compare versions on the fly.
     ico: /img/ico-figure.png
   - content: >-
       Gain full control over who can access or edit the data - have multiple
