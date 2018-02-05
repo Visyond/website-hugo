@@ -104,7 +104,7 @@ secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
 leftCardTitle: Business
-leftCardSubTitle: mandatory field - will be fixed
+leftCardSubTitle: ''
 leftCardPoint:
   - line: Unlimited project
   - line: Unlimited collaborators
@@ -120,7 +120,7 @@ middleCardPoint:
   - line: Dedicated account manager
   - line: Onboarding program
 rightCardTitle: Consulting
-rightCardSubTitle: mandatory field - will be fixed
+rightCardSubTitle: ''
 RightCardPoint:
   - line: Pricing based on intensity of use and features required
   - line: Custom branding and reports
