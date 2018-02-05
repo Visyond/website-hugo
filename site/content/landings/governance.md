@@ -36,8 +36,8 @@ feature:
     ico: /img/ico-stack.png
   - content: >-
       Visyond is easy to use and learn. If you are familiar with Excel then you
-      should feel yourself right at home! We have also made it easy to import
-      and download data. 
+      should feel yourself right at home! Learning how to use Visyond will not
+      take a lot of time for your team.
     ico: /img/ico-lamp.png
 howToPhoto: /img/client_3a.jpg
 howToAsked: >-
