@@ -26,14 +26,13 @@ feature:
     ico: /img/ico-figure.png
   - content: >-
       Gain full control over who can access or edit the data - have multiple
-      people work simultaneously with the same spreadsheet, with access and
-      visibility strictly controlled to safeguard sensitive data.
+      people work simultaneously with different views of the same spreadsheet,
+      with access strictly controlled to safeguard sensitive data.
     ico: /img/ico-true.png
   - content: >-
-      Visyond is fully compatible with legacy tools such as Excel. We provide
-      users with an accessible and user-friendly interface, including cell
-      auto-formatting, natural language formulas, and easily explorable cell
-      dependencies.
+      Visyond is fully compatible with legacy tools such as Excel. Import,
+      export, or link to your spreadsheets or other data sources through our
+      API.  
     ico: /img/ico-stack.png
   - content: >-
       Visyond is easy to use and learn. If you are familiar with Excel then you
