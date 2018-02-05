@@ -104,29 +104,27 @@ secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
 leftCardTitle: Business
-leftCardSubTitle: if you don't need a spaceship...
+leftCardSubTitle: mandatory field - will be fixed
 leftCardPoint:
-  - line: Write funny comments
-  - line: Attach cat pictures
-  - line: Keep your content safe
-  - line: Only use what you need when y
+  - line: Unlimited project
+  - line: Unlimited collaborators
+  - line: Unlimited tracking & versions
+  - line: Email and phone support
+  - line: Online training
 middleCardTitle: Enterprise
-middleCardSubTitle: if you NEED a spaceship!
+middleCardSubTitle: all in Business plus
 middleCardPoint:
-  - line: Do whatever
-  - line: Do whenever
-  - line: Get results
-  - line: Be happy dont worry everything
-  - line: asdasdasdasdasdasd
-  - line: asdasdasdasdasdasdasd
-  - line: asdasdasd
+  - line: 'Custom workflows '
+  - line: Custom integrations
+  - line: 'On-premise installation '
+  - line: Dedicated account manager
+  - line: Onboarding program
 rightCardTitle: Consulting
-rightCardSubTitle: When you are not quite sure...
+rightCardSubTitle: mandatory field - will be fixed
 RightCardPoint:
-  - line: Do stuff
-  - line: Achieve milestones
-  - line: Don't forget breakfast23232323
-  - line: 'Also, lunch & dinner'
+  - line: Pricing based on intensity of use and features required
+  - line: Custom branding and reports
+  - line: 'Affiliate program '
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
