@@ -15,33 +15,31 @@ trusted:
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
-      You never run the risk of losing data. Every change, input and scenario is
-      securely stored in the cloud.
+      Finally, single version of the truth! Every change, input and scenario is
+      securely stored in your spreadsheet. 
     ico: /img/ico-cube.png
   - content: >-
       Multiple people can work together from anywhere on any device, without the
-      risk of breaking or overwriting each other’s data or formulas. Changes are
-      easy to identify and compare.
+      risk of breaking or overwriting each other’s data or formulas.
     ico: /img/ico-comments.png
   - content: >-
       Track who did what, enjoy complete accountability with a self-documenting
-      audit trail.
+      audit trail and compare versions on the fly.
     ico: /img/ico-figure.png
   - content: >-
       Gain full control over who can access or edit the data - have multiple
-      people work simultaneously with the same spreadsheet, with access and
-      visibility strictly controlled to safeguard sensitive data.
+      people work simultaneously with different views of the same spreadsheet,
+      with access strictly controlled to safeguard sensitive data.
     ico: /img/ico-true.png
   - content: >-
-      Visyond is fully compatible with legacy tools such as Excel. We provide
-      users with an accessible and user-friendly interface, including cell
-      auto-formatting, natural language formulas, and easily explorable cell
-      dependencies.
+      Visyond is fully compatible with legacy tools such as Excel. Import,
+      export, or link to your spreadsheets or other data sources through our
+      API.  
     ico: /img/ico-stack.png
   - content: >-
       Visyond is easy to use and learn. If you are familiar with Excel then you
-      should feel yourself right at home! We have also made it easy to import
-      and download data. 
+      should feel yourself right at home! Learning how to use Visyond will not
+      take a lot of time for your team.
     ico: /img/ico-lamp.png
 howToPhoto: /img/client_3a.jpg
 howToAsked: >-
@@ -105,27 +103,28 @@ firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
-leftCardTitle: Small teams
-leftCardSubTitle: if you don't need a spaceship...
+leftCardTitle: Business
+leftCardSubTitle: mandatory field - will be fixed
 leftCardPoint:
-  - line: Write funny comments
-  - line: Attach cat pictures
-  - line: Keep your content safe
-  - line: Only use what you need
+  - line: Unlimited project
+  - line: Unlimited collaborators
+  - line: Unlimited tracking & versions
+  - line: Email and phone support
+  - line: Online training
 middleCardTitle: Enterprise
-middleCardSubTitle: if you NEED a spaceship!
+middleCardSubTitle: all in Business plus
 middleCardPoint:
-  - line: Do whatever
-  - line: Do whenever
-  - line: Get results
-  - line: Be happy
-rightCardTitle: Medium teams
-rightCardSubTitle: When you are not quite sure...
+  - line: 'Custom workflows '
+  - line: Custom integrations
+  - line: 'On-premise installation '
+  - line: Dedicated account manager
+  - line: Onboarding program
+rightCardTitle: Consulting
+rightCardSubTitle: mandatory field - will be fixed
 RightCardPoint:
-  - line: Do stuff
-  - line: Achieve milestones
-  - line: Don't forget breakfast
-  - line: 'Also, lunch & dinner'
+  - line: Pricing based on intensity of use and features required
+  - line: Custom branding and reports
+  - line: 'Affiliate program '
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
