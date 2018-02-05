@@ -103,7 +103,7 @@ firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
-leftCardTitle: Small teams
+leftCardTitle: Business
 leftCardSubTitle: if you don't need a spaceship...
 leftCardPoint:
   - line: Write funny comments
@@ -117,7 +117,7 @@ middleCardPoint:
   - line: Do whenever
   - line: Get results
   - line: Be happy
-rightCardTitle: Medium teams
+rightCardTitle: Consulting
 rightCardSubTitle: When you are not quite sure...
 RightCardPoint:
   - line: Do stuff
