@@ -1,7 +1,7 @@
 ---
 title: Enhanced spreadsheet Governance and Control
 topImage: /img/banner.jpg
-videoTitle: From days to minutes
+videoTitle: It is time to take your spreadsheets under control!
 videoDescr: >-
   Meet the future of financial spreadsheets. Powered by machine intelligence,
   Visyond's unique cloud spreadsheet platform saves time, reduces errors and
