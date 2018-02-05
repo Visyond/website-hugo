@@ -3,9 +3,13 @@ title: Enhanced spreadsheet Governance and Control
 topImage: /img/banner.jpg
 videoTitle: It is time to take your spreadsheets under control!
 videoDescr: >-
-  Meet the future of financial spreadsheets. Powered by machine intelligence,
-  Visyond's unique cloud spreadsheet platform saves time, reduces errors and
-  streamlines routine analytical tasks.
+  Traditional spreadsheets cannot handle dynamic and fluid information flow and
+  effectively manage organization of data.  As a consequence, human errors are
+  inevitably introduced. Hours and days are lost in attempts to track down
+  changes and compare different versions of the same document.  New regulations
+  and data protection rules also create additional pressure and scrutiny
+  requiring organizations to transform and adapt their workflows. Visyond
+  eradicates all these obstacles!
 popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
 trusted:
   - logo: /img/abrtwhite.png
