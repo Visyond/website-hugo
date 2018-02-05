@@ -89,10 +89,12 @@ features:
       or reports.
     featureImg: /img/illusrtation 4-2.png
     title: Access & Permissions control
-  - descr: 'communicate with ppl, chat, attach, dasdasdasdasdasdasdasd'
+  - descr: >-
+      All related discussions, comments, supporting information, and attachments
+      are stored inside the cell.
     featureImg: /img/illusrtation 3-2.png
     linkDescr: ''
-    title: Chat & comments & bla bla bla
+    title: Seamless collaboration
 featured:
   - descr: >-
       Anyone creating a spreadsheet model dreams of spending less time on it,
