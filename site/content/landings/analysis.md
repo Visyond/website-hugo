@@ -1,6 +1,7 @@
 ---
 title: Analysis
 topImage: /img/feature-icons-v1_10.png
+videoTitle: a
 howToPhoto: /img/feature-icons-v1_03.png
 howToAsked: asdasd
 featuresTitle: asd
