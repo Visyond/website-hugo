@@ -53,6 +53,10 @@ howToPhoto: /img/feature-icons-v1_03.png
 howToAsked: asdasd
 howTo: asdasdasdasdasdasddasdasd
 howToCompany: gfasasasfasf
+case:
+  - caseDescr: Hi there
+    caseIco: /img/ico-comments.png
+    caseLink: google.com
 featuresTitle: asdasdasd
 features:
   - descr: asdasdasd
