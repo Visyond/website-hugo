@@ -83,12 +83,14 @@ features:
       Financial analysis has never been so easy. Perform Monte-Carlo,
       Sensitivity and Tornado Analyses (and many others) by with one click of a
       button. Let Visyond do everything else.
+    featureImg: /img/Shrug_Meme.jpg
     title: Advanced analysis techniques made simple
   - descr: >-
       You don’t need to spend hours or days creating an attractive presentation
       to demonstrate the figures to stakeholders. Select the data you need, and
       Visyond will build interactive slides with neat charts and graphs in
       seconds.
+    featureImg: /img/Shrug_Meme.jpg
     title: 'Interactive dashboards, slides, and reporting capabilities'
   - descr: >-
       Detailed analysis usually involved multiple scenario inputs, many of which
@@ -96,30 +98,52 @@ features:
       numerous sources easy to manage, keeping everything in one spreadsheet.
       Now you can compare different scenarios and cases side-by-side without
       having to dig through different versions of spreadsheets.
+    featureImg: /img/Shrug_Meme.jpg
     title: Easy ‘what-if’ scenarios analysis & comparison
   - descr: >-
       Searching for errors and inconsistencies in a financial model is difficult
       and time-consuming. Visyond simplifies this, with automated Audit mode and
       extensive tooltip resources that make auditing easier.
+    featureImg: /img/Shrug_Meme.jpg
     title: Audit-mode & tooltips
-pricingTitle: asdasd
-firstPricingSubTitle: asdasd
-secondPricingSubTitle: asdasd
-leftCardTitle: asdas
-leftCardSubTitle: asd
+featured:
+  - descr: >-
+      Anyone creating a spreadsheet model dreams of spending less time on it,
+      reducing the risk of mistakes, being able to effectively co-work with
+      colleagues, and seamlessly sharing it across their organization. Gianluca
+      Bisceglie, the founder of Visyond, made this dream a reality.
+    logo: /img/finBuzz.png
+pricingTitle: Pricing
+firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
+secondPricingSubTitle: >-
+  For companies and teams the prices are custom and depend on specific use cases
+  and feature requirements
+leftCardTitle: Business
+leftCardSubTitle: Discover full potential of Visyond
 leftCardPoint:
-  - line: asd
-middleCardTitle: asd
-middleCardSubTitle: asd
+  - line: Unlimited projects
+  - line: Unlimited collaborators
+  - line: Unlimited tracking & versions
+  - line: Email and phone support
+  - line: Online training
+middleCardTitle: Enterprise
+middleCardSubTitle: all in Business plus
 middleCardPoint:
-  - line: asd
-  - line: asd
-rightCardTitle: asd
-rightCardSubTitle: asd
+  - line: 'Custom workflows '
+  - line: Custom integrations
+  - line: 'On-premise installation '
+  - line: Dedicated account manager
+  - line: Onboarding program
+rightCardTitle: Consulting
+rightCardSubTitle: Pricing based on intensity of use
 RightCardPoint:
-  - line: asd
-priceClientAsked: asdasd
-priceClientCompany: asdasd
-priceClientCompanyLogo: /img/elet2.png
+  - line: Pay only for required features
+  - line: Custom branding and reports
+  - line: 'Affiliate program '
+priceClientAsked: >-
+  When I use Visyond I see my accuracy and ability to answer questions about my
+  work go up. I can do more and have peace of mind.
+priceClientCompany: 'Fernando Rizzo, Area Manager, Elettronica'
+priceClientCompanyLogo: /img/elet.png
 ---
 
