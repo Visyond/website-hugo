@@ -1,5 +1,5 @@
 ---
-title: Modelling
+title: Visyond redefines financial modelling
 topImage: /img/1321982094630.jpg
 videoTitle: 'Make financial models work for you, with Visyond.'
 videoDescr: >-
