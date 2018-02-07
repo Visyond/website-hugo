@@ -19,31 +19,35 @@ trusted:
 featureTitle: Improved Spreadsheet Management and Governance
 feature:
   - content: >-
-      Finally, single version of the truth! Every change, input and scenario is
-      securely stored in your spreadsheet. 
+      Full control over data - Finally, single version of the truth! Every
+      change, input and scenario is securely stored in your spreadsheet. 
     ico: /img/feature-icons-v1_05.png
   - content: >-
-      Multiple people can work together from anywhere on any device, without the
-      risk of breaking or overwriting each other’s data or formulas.
+      Simple version control and seamless collaboration - Multiple people can
+      work together from anywhere on any device, without the risk of breaking or
+      overwriting each other’s data or formulas.
     ico: /img/feature-icons-v1_10.png
   - content: >-
-      Track who did what, enjoy complete accountability with a self-documenting
-      audit trail and compare versions on the fly.
+      Full transparency and accountability - Track who did what, enjoy complete
+      accountability with a self-documenting audit trail and compare versions on
+      the fly.
     ico: /img/feature-icons-v1_14.png
   - content: >-
-      Gain full control over who can access or edit the data - have multiple
-      people work simultaneously with different views of the same spreadsheet,
-      with access strictly controlled to safeguard sensitive data.
+      Secure and granular access management - Gain full control over who can
+      access or edit the data - have multiple people work simultaneously with
+      different views of the same spreadsheet, with access strictly controlled
+      to safeguard sensitive data.
     ico: /img/feature-icons-v1_18.png
   - content: >-
-      Visyond is fully compatible with legacy tools such as Excel. Import,
-      export, or link to your spreadsheets or other data sources through our
-      API.  
+      Compatibility - Visyond is fully compatible with legacy tools such as
+      Excel. Import, export, or link to your spreadsheets or other data sources
+      through our API.  
     ico: /img/feature-icons-v1_22.png
   - content: >-
-      Visyond is easy to use and learn. If you are familiar with Excel then you
-      should feel yourself right at home! Learning how to use Visyond will not
-      take a lot of time for your team.
+      Low switching costs & minimum learning curve  - Visyond is easy to use and
+      learn. If you are familiar with Excel then you should feel yourself right
+      at home! Learning how to use Visyond will not take a lot of time for your
+      team.
     ico: /img/feature-icons-v1_27.png
 howToPhoto: /img/client_3a.jpg
 howToAsked: >-
