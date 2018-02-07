@@ -110,7 +110,7 @@ secondPricingSubTitle: >-
 leftCardTitle: Business
 leftCardSubTitle: ''
 leftCardPoint:
-  - line: Unlimited project
+  - line: Unlimited projects
   - line: Unlimited collaborators
   - line: Unlimited tracking & versions
   - line: Email and phone support
