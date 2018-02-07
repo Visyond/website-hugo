@@ -124,9 +124,9 @@ middleCardPoint:
   - line: Dedicated account manager
   - line: Onboarding program
 rightCardTitle: Consulting
-rightCardSubTitle: ''
+rightCardSubTitle: Pricing based on intensity of use
 RightCardPoint:
-  - line: Pricing based on intensity of use and features required
+  - line: Pay only for required features
   - line: Custom branding and reports
   - line: 'Affiliate program '
 priceClientAsked: >-
