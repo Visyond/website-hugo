@@ -4,7 +4,7 @@ cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
     cardDescr: Financial modelling solution that will make your workloads lighter
     cardIcon: /img/model.png
-    cardLink: google.com
+    cardLink: landings/modelling
     cardTitle: Modelling
   - cardBackground: /img/1306356785139.jpg
     cardDescr: >-
@@ -18,14 +18,14 @@ cards:
       Create your own RIO Calculator, complex quotes or value calculations in
       minutes
     cardIcon: /img/calc.png
-    cardLink: google.com
+    cardLink: landings/calculators
     cardTitle: KPI/Value Calculator
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
       decisions
     cardIcon: /img/analytic.png
-    cardLink: google.com
+    cardLink: landings/analysis
     cardTitle: Analytics & Presentation
 client:
   - clientIcon: /img/jberg2.png
