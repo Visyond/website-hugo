@@ -51,13 +51,34 @@ feature:
       indicator, numerous scenarios, complete with reports & interactive slides.
 howToPhoto: /img/feature-icons-v1_03.png
 howToAsked: asdasd
-featuresTitle: asd
+howTo: asdasdasdasdasdasd
+howToCompany: gfasasasfasf
+featuresTitle: asdasdasd
+features:
+  - descr: asdasdasd
+    linkDescr: asdasdasdasd
+    title: asdasdasd
+featured:
+  - descr: asdasdasdasd
+    logo: /img/eletwhite.png
 pricingTitle: asd
 firstPricingSubTitle: asd
 secondPricingSubTitle: asd
 leftCardTitle: asd
+leftCardSubTitle: asdasdasd
+leftCardPoint:
+  - line: dddd
+  - line: asdasd
 middleCardTitle: asd
+middleCardSubTitle: asdasdasd
+middleCardPoint:
+  - line: ffff
+  - line: fff
 rightCardTitle: asd
+rightCardSubTitle: asdasd
+RightCardPoint:
+  - line: sgsdgsdg
+  - line: hteth
 priceClientAsked: asd
 priceClientCompany: asd
 priceClientCompanyLogo: /img/feature-icons-v1_13.png
