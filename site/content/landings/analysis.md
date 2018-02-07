@@ -51,7 +51,7 @@ feature:
       indicator, numerous scenarios, complete with reports & interactive slides.
 howToPhoto: /img/feature-icons-v1_03.png
 howToAsked: asdasd
-howTo: asdasdasdasdasdasd
+howTo: asdasdasdasdasdasddasdasd
 howToCompany: gfasasasfasf
 featuresTitle: asdasdasd
 features:
