@@ -61,8 +61,8 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      - { label: "How to photo", name: "howToPhoto", widget: "image" }
-      - { label: "How to asked", name: "howToAsked", widget: "string" }
+      - { label: "How to photo", name: "howToPhoto", widget: "image", required: false }
+      - { label: "How to asked", name: "howToAsked", widget: "string", required: false }
       - { label: "How to text", name: "howTo", widget: "markdown", required: false }
       - { label: "How to company", name: "howToCompany", widget: "markdown", required: false }
 
@@ -82,7 +82,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      - { label: "Features Title", name: "featuresTitle", widget: "string" }
+      - { label: "Features Title", name: "featuresTitle", widget: "string", required: false }
       - { label: "Features", name: "features", widget: "list",
         fields: [
           {label: "Image", name: "featureImg", widget: "image"},
@@ -100,11 +100,11 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      - { label: "Pricing title", name: "pricingTitle", widget: "string" }
-      - { label: "Pricing sub-title-1", name: "firstPricingSubTitle", widget: "string" }
-      - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string" }
+      - { label: "Pricing title", name: "pricingTitle", widget: "string", required: false }
+      - { label: "Pricing sub-title-1", name: "firstPricingSubTitle", widget: "string", required: false }
+      - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string", required: false }
 
-      - { label: "Left card title", name: "leftCardTitle", widget: "string" }
+      - { label: "Left card title", name: "leftCardTitle", widget: "string", required: false }
       - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string", required: false }
       - { label: "Left card point", name: "leftCardPoint", widget: "list",
         fields: [
@@ -113,7 +113,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
       
-      - { label: "Middle card title", name: "middleCardTitle", widget: "string" }
+      - { label: "Middle card title", name: "middleCardTitle", widget: "string", required: false }
       - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: false }
       - { label: "Middle card point", name: "middleCardPoint", widget: "list",
         fields: [
@@ -122,7 +122,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
       
-      - { label: "Right card title", name: "rightCardTitle", widget: "string" }
+      - { label: "Right card title", name: "rightCardTitle", widget: "string", required: false }
       - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: false }
       - { label: "Right card point", name: "RightCardPoint", widget: "list",
         fields: [
@@ -130,9 +130,9 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      - { label: "Price client askded", name: "priceClientAsked", widget: "string" }
-      - { label: "Price client company name", name: "priceClientCompany", widget: "string" }
-      - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image" }
+      - { label: "Price client askded", name: "priceClientAsked", widget: "string", required: false }
+      - { label: "Price client company name", name: "priceClientCompany", widget: "string", required: false }
+      - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image", required: false }
   - name: "simplepages"
     label: "Simplepages"
     folder: "site/content/simplepages"
