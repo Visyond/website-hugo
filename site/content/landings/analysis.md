@@ -19,42 +19,46 @@ trusted:
 featureTitle: Powerful enhanced analytics
 feature:
   - content: >-
-      Easy-to-read graphs and charts make a lot more sense than spreadsheets
-      with hundreds of rows, columns and other variables. Stakeholders need to
-      make decisions quickly. Visyond gives you the tools to painlessly create
-      slides and make them interactive so that different assumptions can be
-      tested on the fly.
+      High-impact, interactive data presentation - Easy-to-read graphs and
+      charts make a lot more sense than spreadsheets with hundreds of rows,
+      columns and other variables. Stakeholders need to make decisions quickly.
+      Visyond gives you the tools to painlessly create slides and make them
+      interactive so that different assumptions can be tested on the fly.
     ico: /img/feature-icons-v1_03.png
   - content: >-
-      “This year I want to increase revenue by 30%. How do I do that? What is
-      involved?” Visyond helps you find the answer to this and many other
-      questions without spending weeks sourcing inputs, creating a spreadsheet,
-      asking hundreds of ‘what-if’ questions.
+      Straightforward identification of key variables - “This year I want to
+      increase revenue by 30%. How do I do that? What is involved?” Visyond
+      helps you find the answer to this and many other questions without
+      spending weeks sourcing inputs, creating a spreadsheet, asking hundreds of
+      ‘what-if’ questions.
     ico: /img/feature-icons-v1_09.png
   - content: >-
-      All it takes is a few clicks. Painless analysis. Input your numbers,
-      select the type of analysis you would like to perform, press a button to
-      run the analysis, and you are immediately presented with the results.
-      Review, share and collaborate; fast and easy.
+      Advanced analysis with a few clicks - All it takes is a few clicks. Input
+      your numbers, select the type of analysis you would like to perform, press
+      a button to run the analysis, and you are immediately presented with the
+      results. Review, share and collaborate; fast and easy.
     ico: /img/feature-icons-v1_13.png
   - content: >-
-      At Visyond, our intelligent, powerful modelling financial platform is
-      built for everyone who needs to make inputs, create models, analyse and
-      test their theories and assumptions. Whether you are a financial modeller,
-      admin assistant or investor, anyone can use our platform.
+      Easy to learn, simple to use, fast to adapt - Our intelligent, powerful
+      modelling financial platform is built for everyone who needs to make
+      inputs, create models, analyse and test their theories and assumptions.
+      Whether you are a financial modeler, admin assistant or investor, anyone
+      can use Visyond.
     ico: /img/feature-icons-v1_17.png
   - content: >-
-      Financial analysis often requires analysts to perform many tedious and
-      repetitive tasks that often result in errors in the spreadsheet. Visyond
-      automates dozens of processes and allows those creating spreadsheets to
-      focus on delivering impactful financial advice, instead of spending more
-      time on data entry and fixing the formula.
+      Eliminate boring routine tasks - Financial analysis often requires
+      analysts to perform many tedious and repetitive tasks that often result in
+      errors in the spreadsheet. Visyond automates dozens of processes and
+      allows those creating spreadsheets to focus on delivering impactful
+      financial advice, instead of spending more time on data entry and fixing
+      the formula.
     ico: /img/feature-icons-v1_21.png
   - content: >-
-      Within Visyond, we give you complete control of your financial models,
-      which acts as a centralized data hub that contains all the needed
-      information, starting from the numbers themselves, possible cases for each
-      indicator, numerous scenarios, complete with reports & interactive slides.
+      Single source of truth - Within Visyond, we give you complete control of
+      your financial models, which acts as a centralized data hub that contains
+      all the needed information, starting from the numbers themselves, possible
+      cases for each indicator, numerous scenarios, complete with reports &
+      interactive slides.
     ico: /img/feature-icons-v1_25.png
 howToPhoto: /img/client_1a.jpg
 howToAsked: >-
