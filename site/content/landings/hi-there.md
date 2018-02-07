@@ -4,5 +4,8 @@ topImage: /img/132148607486.jpg
 howToAsked: asdasddasdsad
 howTo: asdasdsadasd sa sad asd asd
 howToCompany: ывапроорпавапитимсмит
+case:
+  - caseDescr: asd
+    caseLink: asd
 ---
 
