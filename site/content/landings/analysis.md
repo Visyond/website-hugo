@@ -16,7 +16,7 @@ trusted:
   - logo: /img/delowhite.png
   - logo: /img/eletwhite.png
   - logo: /img/jbergwhite.png
-featureTitle: How Visyond enhances your analytical capabilities
+featureTitle: Powerful enhanced analytics
 feature:
   - content: >-
       Easy-to-read graphs and charts make a lot more sense than spreadsheets
@@ -66,7 +66,42 @@ howTo: |-
   * Quick identification of inputs that affect the output the most
   * Convenient visualization of the results of your analysis
 howToCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-featuresTitle: asdasdasd
+case:
+  - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
+    caseIco: /img/elet.png
+    caseLink: >-
+      https://cms.visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+  - caseDescr: >-
+      Financial statements preparation: eLearnSecurity made this a 1-hour job
+      with Visyond
+    caseIco: /img/elearn1.png
+    caseLink: >-
+      https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+featuresTitle: How Visyond improves your analytics
+features:
+  - descr: >-
+      Financial analysis has never been so easy. Perform Monte-Carlo,
+      Sensitivity and Tornado Analyses (and many others) by with one click of a
+      button. Let Visyond do everything else.
+    title: Advanced analysis techniques made simple
+  - descr: >-
+      You don’t need to spend hours or days creating an attractive presentation
+      to demonstrate the figures to stakeholders. Select the data you need, and
+      Visyond will build interactive slides with neat charts and graphs in
+      seconds.
+    title: 'Interactive dashboards, slides, and reporting capabilities'
+  - descr: >-
+      Detailed analysis usually involved multiple scenario inputs, many of which
+      will come from business decision makers. Visyond makes gathering data from
+      numerous sources easy to manage, keeping everything in one spreadsheet.
+      Now you can compare different scenarios and cases side-by-side without
+      having to dig through different versions of spreadsheets.
+    title: Easy ‘what-if’ scenarios analysis & comparison
+  - descr: >-
+      Searching for errors and inconsistencies in a financial model is difficult
+      and time-consuming. Visyond simplifies this, with automated Audit mode and
+      extensive tooltip resources that make auditing easier.
+    title: Audit-mode & tooltips
 pricingTitle: asdasd
 firstPricingSubTitle: asdasd
 secondPricingSubTitle: asdasd
