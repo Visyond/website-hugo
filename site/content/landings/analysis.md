@@ -69,7 +69,7 @@ howTo: |-
   * Natural language formulas - no more obfuscated 'spaghetti' calculations 
   * Quick identification of inputs that affect the output the most
   * Convenient visualization of the results of your analysis
-howToCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
+howToCompany: '**Nina Fedorova**, Senior Consultant, DELOITTE'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
