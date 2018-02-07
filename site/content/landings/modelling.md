@@ -48,10 +48,10 @@ howToAsked: >-
   When I use Visyond I see my accuracy and ability to answer questions about my
   work go up. I can do more and have peace of mind.
 howTo: |-
-  * Point #1
-  * Point #2
-  * Point #3
-  * Point #4
+  * Single source of truth for different cases and scenarios
+  * Straightforward identification of dependencies in a model
+  * Natural-language formulas and convenient cell formatting
+  * Painless model debugging and auditing
 howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
 case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
