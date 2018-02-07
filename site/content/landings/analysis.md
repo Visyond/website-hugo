@@ -81,6 +81,6 @@ RightCardPoint:
   - line: hteth
 priceClientAsked: asd
 priceClientCompany: asd
-priceClientCompanyLogo: /img/feature-icons-v1_13.png
+priceClientCompanyLogo: /img/jberg1.png
 ---
 
