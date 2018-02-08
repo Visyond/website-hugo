@@ -3,8 +3,8 @@ title: Homepage
 cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
     cardDescr: >-
-      Take full control over your spreadsheets. Capture everything in an
-      intelligent spreadsheet that becomes a single source of truth.
+      Take full control over your data and capture everything in an intelligent
+      spreadsheet that becomes a single source of truth.
     cardIcon: /img/model.png
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
