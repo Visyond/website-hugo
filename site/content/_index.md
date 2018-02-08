@@ -29,7 +29,7 @@ cards:
       matter of a few clicks instead of long hours of manual setup.
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
-    cardTitle: Analytics & Visualization tools
+    cardTitle: Analytics & Visualization Tools
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
