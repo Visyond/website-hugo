@@ -5,7 +5,7 @@ cards:
     cardDescr: >-
       Take full control over your spreadsheets and capture everything in an
       intelligent platform that becomes a single source of truth.
-    cardIcon: /img/model.png
+    cardIcon: /img/icon80px.png
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
