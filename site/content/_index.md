@@ -9,7 +9,10 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
-    cardDescr: 'Reduce errors, save time, work HARDER !!!!'
+    cardDescr: >-
+      Meet the future of financial spreadsheets. Powered by machine
+      intelligence, Visyond's unique cloud spreadsheet Platform saves time,
+      reduces errors and streamlines routine analytical tasks.
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
