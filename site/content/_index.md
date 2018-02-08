@@ -11,7 +11,7 @@ cards:
   - cardBackground: /img/1306356785139.jpg
     cardDescr: >-
       Turn days of work into minutes by streamlining routine modeling tasks,
-      reducing errors, and empowering the non-modelers.
+      reducing errors and complexity.
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
