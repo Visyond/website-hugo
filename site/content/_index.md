@@ -5,28 +5,28 @@ cards:
     cardDescr: Financial modelling solution that will make your workloads lighter
     cardIcon: /img/model.png
     cardLink: landings/modelling
-    cardTitle: Modelling
+    cardTitle: Spreadsheet Modelling
   - cardBackground: /img/1306356785139.jpg
     cardDescr: >-
       Maintain full control and transparency over financial modelling data with
       our spreadsheet governance platform
     cardIcon: /img/gov.png
     cardLink: landings/governance
-    cardTitle: Governance
+    cardTitle: Spreadsheet Governance
   - cardBackground: /img/13294212361934.jpg
     cardDescr: >-
       Create your own RIO Calculator, complex quotes or value calculations in
       minutes
     cardIcon: /img/calc.png
     cardLink: landings/calculators
-    cardTitle: KPI/Value Calculator
+    cardTitle: Spreadsheet KPI/Value Calculator
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
       decisions
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
-    cardTitle: Analytics & Presentation
+    cardTitle: Spreadsheet Analytics & Presentation
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
