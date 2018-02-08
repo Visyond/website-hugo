@@ -17,8 +17,8 @@ cards:
     cardTitle: Spreadsheet Modeling
   - cardBackground: /img/13294212361934.jpg
     cardDescr: >-
-      Use your familiar spreadsheet as the engine to power interactive
-      visualizations and calculators
+      Use your familiar spreadsheet as the engine to power interactive visual
+      dashboards that you can share with everybody.
     cardIcon: /img/calc.png
     cardLink: landings/calculators
     cardTitle: Interactive Calculators & Dashboards
