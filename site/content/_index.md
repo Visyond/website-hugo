@@ -9,7 +9,9 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
-    cardDescr: 'Save time, reduce errors, and streamline routine modeling tasks.'
+    cardDescr: >-
+      Turn days of work into minutes by streamlining routine modeling tasks,
+      reducing errors, and empowering the non-modelers.
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
