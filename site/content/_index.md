@@ -3,8 +3,8 @@ title: Homepage
 cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
     cardDescr: >-
-      Maintain full control and transparency over financial modelling data with
-      our spreadsheet governance platform
+      Maintain full control and transparency over your spreadsheets, track
+      inputs from multiple sources - finally a single sources of truth!
     cardIcon: /img/model.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Governance
