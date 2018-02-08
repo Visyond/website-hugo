@@ -24,7 +24,7 @@ cards:
       decisions
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
-    cardTitle: Analytics & Visualization apps
+    cardTitle: Analytics & Visualization tools
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
