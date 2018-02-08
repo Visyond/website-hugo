@@ -25,8 +25,9 @@ cards:
     cardTitle: Interactive Calculators & Dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
-      Get insights on your model, perform advanced analytical tasks in just a
-      few clicks while avoiding long painful manual setups.
+      Get insights on your model, perform advanced analytical tasks, and answer
+      what-if questions in just a few clicks while avoiding long painful manual
+      setups.
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
     cardTitle: Analytics & Visualization tools
