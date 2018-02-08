@@ -19,7 +19,7 @@ cards:
       minutes
     cardIcon: /img/calc.png
     cardLink: landings/calculators
-    cardTitle: Spreadsheet KPI/Value Calculator
+    cardTitle: Spreadsheet powered by dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
