@@ -14,12 +14,10 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Modelling
   - cardBackground: /img/13294212361934.jpg
-    cardDescr: >-
-      Create your own RIO Calculator, complex quotes or value calculations in
-      minutes
+    cardDescr: Spreadsheet-powered dashboards that blah-blah-blah
     cardIcon: /img/calc.png
     cardLink: landings/calculators
-    cardTitle: Spreadsheet powered by dashboards
+    cardTitle: Interactive dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
