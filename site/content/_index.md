@@ -9,10 +9,10 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
-    cardDescr: Financial modelling solution that will make your workloads lighter
+    cardDescr: Modeling solution that will make your workloads lighter
     cardIcon: /img/gov.png
     cardLink: landings/modelling
-    cardTitle: Spreadsheet Modelling
+    cardTitle: Spreadsheet Modeling
   - cardBackground: /img/13294212361934.jpg
     cardDescr: Spreadsheet-powered dashboards that blah-blah-blah
     cardIcon: /img/calc.png
