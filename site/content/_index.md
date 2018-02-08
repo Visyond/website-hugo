@@ -15,21 +15,6 @@ cards:
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
-  - cardBackground: /img/13294212361934.jpg
-    cardDescr: >-
-      Use your familiar spreadsheet as the engine to power interactive visual
-      dashboards that you can share with anybody. Turn complex models into
-      simple user-friendly calculators.
-    cardIcon: /img/calc.png
-    cardLink: landings/calculators
-    cardTitle: Interactive Calculators & Dashboards
-  - cardBackground: /img/wallhaven-89.jpg
-    cardDescr: >-
-      Get insights on your models and accomplish your analytical quests in a
-      matter of a few clicks instead of long hours of manual setup.
-    cardIcon: /img/analytic.png
-    cardLink: landings/analysis
-    cardTitle: Analytics & Visualization Tools
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
