@@ -2,17 +2,17 @@
 title: Homepage
 cards:
   - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
-    cardDescr: Financial modelling solution that will make your workloads lighter
-    cardIcon: /img/model.png
-    cardLink: landings/modelling
-    cardTitle: Spreadsheet Modelling
-  - cardBackground: /img/1306356785139.jpg
     cardDescr: >-
       Maintain full control and transparency over financial modelling data with
       our spreadsheet governance platform
+    cardIcon: /img/model.png
+    cardLink: landings/modelling
+    cardTitle: Spreadsheet Governance
+  - cardBackground: /img/1306356785139.jpg
+    cardDescr: Financial modelling solution that will make your workloads lighter
     cardIcon: /img/gov.png
     cardLink: landings/governance
-    cardTitle: Spreadsheet Governance
+    cardTitle: Spreadsheet Modelling
   - cardBackground: /img/13294212361934.jpg
     cardDescr: >-
       Create your own RIO Calculator, complex quotes or value calculations in
