@@ -25,8 +25,8 @@ cards:
     cardTitle: Interactive Calculators & Dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
-      An intelligent platform, expertly crafted, to help you make better
-      decisions
+      Get insights on your model, perform advanced analytical tasks, from long
+      painful manual setups to just a few clicks.
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
     cardTitle: Analytics & Visualization tools
