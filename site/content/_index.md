@@ -6,12 +6,12 @@ cards:
       Maintain full control and transparency over your spreadsheets, track
       inputs from multiple sources - finally a single sources of truth!
     cardIcon: /img/model.png
-    cardLink: landings/modelling
+    cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
     cardDescr: Financial modelling solution that will make your workloads lighter
     cardIcon: /img/gov.png
-    cardLink: landings/governance
+    cardLink: landings/modelling
     cardTitle: Spreadsheet Modelling
   - cardBackground: /img/13294212361934.jpg
     cardDescr: Spreadsheet-powered dashboards that blah-blah-blah
