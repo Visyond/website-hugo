@@ -1,11 +1,11 @@
 ---
 title: Homepage
 cards:
-  - cardBackground: /img/07fe4685973fafa7e42852ce63935988.jpg
+  - cardBackground: /img/banner gov.png
     cardDescr: >-
       Take full control over your spreadsheets and capture everything in an
       intelligent platform that becomes a single source of truth.
-    cardIcon: /img/icon40px.png
+    cardIcon: /img/banner gov.png
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
