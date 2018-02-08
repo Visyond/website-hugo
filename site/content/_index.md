@@ -1,7 +1,7 @@
 ---
 title: Homepage
 cards:
-  - cardBackground: /img/banner gov resize.png
+  - cardBackground: /img/banner gov resized.png
     cardDescr: >-
       Take full control over your spreadsheets and capture everything in an
       intelligent platform that becomes a single source of truth.
