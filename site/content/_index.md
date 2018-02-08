@@ -24,7 +24,7 @@ cards:
       decisions
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
-    cardTitle: Spreadsheet Analytics & Presentation
+    cardTitle: Analytic & presentation apps
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
