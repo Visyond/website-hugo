@@ -16,7 +16,9 @@ cards:
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
   - cardBackground: /img/13294212361934.jpg
-    cardDescr: Spreadsheet-powered dashboards that blah-blah-blah
+    cardDescr: >-
+      Use your familiar spreadsheet as the engine to power interactive
+      visualizations and calculators
     cardIcon: /img/calc.png
     cardLink: landings/calculators
     cardTitle: Interactive Calculators & Dashboards
