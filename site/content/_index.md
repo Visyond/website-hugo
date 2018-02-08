@@ -17,14 +17,14 @@ cards:
     cardDescr: Spreadsheet-powered dashboards that blah-blah-blah
     cardIcon: /img/calc.png
     cardLink: landings/calculators
-    cardTitle: Interactive calculators & dashboards
+    cardTitle: Interactive Calculators & Dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
       An intelligent platform, expertly crafted, to help you make better
       decisions
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
-    cardTitle: Analytic & presentation a
+    cardTitle: Analytics & Reporting
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
