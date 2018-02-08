@@ -9,10 +9,7 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
-    cardDescr: >-
-      Powered by machine intelligence, Visyond's unique cloud spreadsheet
-      Platform saves time, reduces errors and streamlines routine analytical
-      tasks.
+    cardDescr: 'Save time, reduce errors, and streamline routine modeling tasks.'
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
