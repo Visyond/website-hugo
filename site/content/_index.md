@@ -25,7 +25,7 @@ cards:
     cardTitle: Interactive Calculators & Dashboards
   - cardBackground: /img/wallhaven-89.jpg
     cardDescr: >-
-      Get insights on your model and accomplish your analytical quests in a
+      Get insights on your models and accomplish your analytical quests in a
       matter of a few clicks instead of long hours of manual setup.
     cardIcon: /img/analytic.png
     cardLink: landings/analysis
