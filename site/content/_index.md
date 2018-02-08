@@ -9,7 +9,7 @@ cards:
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance
   - cardBackground: /img/1306356785139.jpg
-    cardDescr: Modeling solution that will make your workloads lighter
+    cardDescr: 'Reduce errors, save time, work HARDER !!!!'
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
