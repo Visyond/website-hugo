@@ -82,11 +82,8 @@ first_solution: >-
   ![undefined](/img/finger_paint-1920x1200.jpg)
 
 
-  **Do people get scared when they look at your Excel formulas?**
-
-
-  Worry no more! Visyond features natural-language formulas that anyone can
-  read! Unless you are, like, really bad at this.
+  [**Analysts and
+  consultants**](https://visyond.com/solutions_analysts_consultants)
 second_solution: >-
   ![undefined](/img/1333741712089.jpg)
 
