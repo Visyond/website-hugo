@@ -72,7 +72,13 @@ case:
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 challenge:
   - caseDescr: Decision makers
+    caseLink: 'https://visyond.com/solutions_roles_decision-makers'
   - caseDescr: Data input and consolidation
+    caseLink: 'https://visyond.com/solutions_data-entry-consolidation'
+  - caseDescr: Analysts & Consultants
+    caseLink: 'https://visyond.com/solutions_analysts_consultants'
+  - caseDescr: Finance
+    caseLink: 'https://visyond.com/solutions_finance'
 featuresTitle: How Visyond improves spreadsheet governance
 features:
   - descr: >-
