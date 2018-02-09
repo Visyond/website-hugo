@@ -8,7 +8,7 @@ cards:
     cardIcon: /img/icon40px.png
     cardLink: landings/governance
     cardTitle: Spreadsheet Governance & Collaboration
-  - cardBackground: /img/girl edit resized.png
+  - cardBackground: /img/girl edit resized darker.png
     cardDescr: >-
       Turn days of work into minutes by streamlining routine modeling tasks,
       reducing errors and complexity.
