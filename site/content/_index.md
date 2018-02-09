@@ -7,7 +7,7 @@ cards:
       intelligent platform that becomes a single source of truth.
     cardIcon: /img/icon40px.png
     cardLink: landings/governance
-    cardTitle: Spreadsheet Governance
+    cardTitle: Spreadsheet Governance & Collaboration
   - cardBackground: /img/girl edit resized.png
     cardDescr: >-
       Turn days of work into minutes by streamlining routine modeling tasks,
