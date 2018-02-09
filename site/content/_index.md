@@ -15,6 +15,8 @@ cards:
     cardIcon: /img/gov.png
     cardLink: landings/modelling
     cardTitle: Spreadsheet Modeling
+  - {}
+  - {}
 client:
   - clientIcon: /img/jberg2.png
   - clientIcon: /img/elearn2.png
