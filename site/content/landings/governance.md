@@ -73,7 +73,7 @@ case:
 challenge:
   - caseDescr: Decision makers
     caseLink: 'https://visyond.com/solutions_roles_decision-makers'
-  - caseDescr: Data input and consolidation
+  - caseDescr: Data consolidation
     caseLink: 'https://visyond.com/solutions_data-entry-consolidation'
   - caseDescr: Analysts & Consultants
     caseLink: 'https://visyond.com/solutions_analysts_consultants'
