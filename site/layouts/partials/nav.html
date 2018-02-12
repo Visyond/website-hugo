@@ -1,3 +1,8 @@
+{{ with .Site.GetPage "section" "nav" }}
+
+{{ .Title }}
+
+{{ end }}
 
 <nav class="nav {{ if eq .Title "Homepage"}} nav--homepage-header {{end}}">
 	<ul class="nav__list {{ if eq .Title "Homepage"}} nav--homepage-header__list {{end}}">
@@ -10,7 +15,6 @@
 				<div 
 					class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" 
 					id="solutions-toggle"
-					
 				>
 					<ul class="dropdown-toggle__group-list">
 						{{ range $el := .Params.solutionDropdown }}
