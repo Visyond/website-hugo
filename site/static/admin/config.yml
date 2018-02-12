@@ -192,7 +192,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Email, name: contactsEmail, widget: list, fields: [
             { label: "email", name: socialEmail, widget: "string" }
           ]}
-      - file: "site/content/nav.md"
+      - file: "site/content/partials/nav.md"
         label: "Navigation"
         name: "nav"
         fields:
