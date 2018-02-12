@@ -1,4 +1,5 @@
 ---
+title: Nav
 solutionDropdown:
   - path: 'http://facebook.com'
     title: Facebook
