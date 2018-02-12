@@ -1,6 +1,6 @@
 ---
 title: Homepage
-cardTitle: This is main title
+cardTitle: Powerful spreadsheet platform powered by machine intelligence
 cards:
   - cardBackground: /img/banner gov resized.png
     cardDescr: >-
