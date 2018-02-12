@@ -94,7 +94,7 @@
 
 .homepage-cards {
     background: #182130;
-    padding: 50px 2.1vw;
+    padding: 20px 2.1vw 50px 2.1vw;
 }
 
 .homepage-cards__list {
@@ -125,6 +125,13 @@
     color: #858794;
     font-size: 29px;
     letter-spacing: 1px;
+}
+
+.homepage-title--cards {
+    margin-left: -20px;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .trusted__title {
