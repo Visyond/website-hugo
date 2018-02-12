@@ -1,5 +1,5 @@
 ---
-type: contact
+type: contacts
 title: Contact us
 topImage: /img/topImgTerms.png
 mail: Visyond Ventures Ltd 86-90 Paul Street London  EC2A 4NE United Kingdom

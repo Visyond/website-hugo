@@ -7,7 +7,7 @@ import SimplePage from './cms-preview-templates/simplepages';
 import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
 import Home from "./cms-preview-templates/home";
-import Contact from "./cms-preview-templates/contact";
+import Contacts from "./cms-preview-templates/contacts";
 import CaseStudies from "./cms-preview-templates/casestudies";
 
 
@@ -30,6 +30,6 @@ CMS.registerPreviewTemplate("simplepages", SimplePage);
 CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
 CMS.registerPreviewTemplate("home", Home);
-CMS.registerPreviewTemplate("contact", Contact);
+CMS.registerPreviewTemplate("contacts", Contacts);
 CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerWidget("color", ColorControl);

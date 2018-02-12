@@ -1,6 +1,6 @@
 import React from 'react';
 import format from 'date-fns/format';
-export default class Contact extends React.Component { 
+export default class Contacts extends React.Component { 
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         let image = getAsset(entry.getIn(["data", "topImage"]));
