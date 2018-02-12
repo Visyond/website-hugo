@@ -6,8 +6,8 @@ solutionDropdown:
     title: Analysts and Consultants
   - path: 'https://visyond.com/solutions_data-entry-consolidation'
     title: Data Input and Consolidation
-  - path: Finance
-    title: 'https://visyond.com/solutions_finance'
+  - path: 'https://visyond.com/solutions_finance'
+    title: Finance
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
