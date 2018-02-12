@@ -8,7 +8,7 @@ casestudies:
       - tagTitle: Territory & Quota planning
     title: 'Sales Planning: Elettronica''s Sales Planning from weeks to hours'
     url: >-
-      how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - logo: /img/elearn.png
     tags:
       - tagTitle: Reporting
@@ -17,6 +17,6 @@ casestudies:
       Financial Statements Preparation: eLearnSecurity made this a 1-hour job
       with Visyond
     url: >-
-      how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
 
