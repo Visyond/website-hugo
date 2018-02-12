@@ -1,13 +1,5 @@
 ---
 title: Homepage
-solutionDropdown:
-  - path: 'http://facebook.com'
-    title: Hi there
-resourcesDropdown:
-  - path: 'http://google.com'
-    title: Google
-  - path: 'http://amazon.com'
-    title: Amazon
 cards:
   - cardBackground: /img/banner gov resized.png
     cardDescr: >-
