@@ -196,8 +196,6 @@ collections: # A list of collections the CMS should be able to edit
         label: "Navigation"
         name: "nav"
         fields:
-          - { label: "Title", name: "title", widget: "hidden" }
-          - { label: "Card title", name: "cardTitle", widget: "string" }          
           - { label: "Solutions dropdown", name: "solutionDropdown", widget: "list", fields: [
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
@@ -210,7 +208,8 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Page title", name: "title", widget: "string" }
+          - { label: "Page title", name: "title", widget: hidden }
+          - { label: "Card title", name: "cardTitle", widget: "string" }
           - { label: Cards, name: "cards", widget: list, fields: [  
               { label: "Card title", name: "cardTitle", widget: "string" },
               { label: "Card background", name: "cardBackground", widget: "image" },

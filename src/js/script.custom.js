@@ -82,6 +82,26 @@ $(function () {
             $('.landing-featured__list-comment-item').eq(0).css('opacity', 1);
         })
     }
+
+    /**
+     * 
+     * 
+     * Slowly navigation
+     * 
+     * 
+     */
+
+
+     $('.sub-heading__nav-link').on('click', function(e) {
+        e.preventDefault();
+
+        let $href = $(this).attr('href');
+        let $offsetTop = $($href).offset().top;
+
+        $('html, body').animate({
+            scrollTop: $offsetTop
+        })
+     })
     
 
 });
