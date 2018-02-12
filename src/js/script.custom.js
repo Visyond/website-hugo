@@ -11,16 +11,19 @@ $(function () {
         let parent = $('.nav__item').has('.dropdown-menu-wrap').find('.nav__link').find('span').after('<i class="material-icons dropdown-arrow">arrow_drop_down</i>');
         
         link.on('click', function (e) {
-            console.log($(this));
             e.preventDefault();
             let href = $(this).attr('href');
             $(href).toggleClass('dropdown-toggle--active');
         });
 
         $(document).on('click', function (e) {
-            if (!link.is(e.target) && link.has(e.target).length === 0) {
-                let href = link.attr('href');
-                $(href).removeClass('dropdown-toggle--active');
+            let parent = $('.nav__item');
+            for (let i = 0; i < parent.length; i++) {
+                let link = $(parent[i]).has('.dropdown-menu-wrap').find('.nav__link');
+                if (!link.is(e.target) && link.has(e.target).length === 0) {
+                    let href = link.attr('href');
+                    $(href).removeClass('dropdown-toggle--active');
+                }
             }
         })
     }
@@ -28,7 +31,7 @@ $(function () {
 
     /**
      * 
-     * dropdown navigation
+     * Modal
      * 
      */
 

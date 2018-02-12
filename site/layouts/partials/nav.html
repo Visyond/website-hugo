@@ -7,6 +7,21 @@
 				<span>Solutions</span>
 			</a>
 			<div class="dropdown-menu-wrap">
+				<div 
+					class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" 
+					id="solutions-toggle"
+					
+				>
+					<ul class="dropdown-toggle__group-list">
+						{{ range $el := .Params.solutionDropdown }}
+						<li class="dropdown-toggle__group-list-item">
+							<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
+						</li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+			<!-- <div class="dropdown-menu-wrap">
 			<div class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" id="solutions-toggle">
 					<div class="dropdown-toggle--left {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-left {{end}}">
 						<a href="#" class="dropdown-toggle--left__link">
@@ -74,10 +89,27 @@
 							</ul>
 						</article>
 					</section>
-			</div>
-		</div>
+			</div> -->
+		<!-- </div> -->
 		</li>
 		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="#" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Case studies</span></a></li>
-		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="#" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Resourses</span></a></li>
+		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}">
+			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Resourses</span></a>
+			<div class="dropdown-menu-wrap">
+				<div 
+					class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" 
+					id="resources-toggle"
+					
+				>
+					<ul class="dropdown-toggle__group-list">
+						{{ range $el := .Params.resourcesDropdown }}
+						<li class="dropdown-toggle__group-list-item">
+							<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
+						</li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
+		</li>
 	</ul>
 </nav>
