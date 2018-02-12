@@ -14,7 +14,7 @@ cards:
       Turn days of work into minutes by streamlining routine modeling tasks,
       reducing errors and complexity.
     cardIcon: /img/gov.png
-    cardLink: landings/modelling
+    cardLink: 'https://visyond.com/'
     cardTitle: Spreadsheet Modeling
 client:
   - clientIcon: /img/jberg2.png
