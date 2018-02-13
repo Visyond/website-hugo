@@ -11,6 +11,7 @@ videoDescr: >-
   financial analysis is the cornerstone of every business, small or large, local
   or international. You need accurate forecasts. Every input and output could
   give your organisation an advantage over the competition.
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
