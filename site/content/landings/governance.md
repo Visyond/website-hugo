@@ -10,7 +10,7 @@ videoDescr: >-
   and data protection rules also create additional pressure and scrutiny
   requiring organizations to transform and adapt their workflows. Visyond
   eradicates all these obstacles!
-popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
