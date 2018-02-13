@@ -141,8 +141,12 @@
     font-size: 14px;
     line-height: 16px;
     padding: 8px 10px !important;
-    color: #fff;
+    color: #52556c;
     display: block;
+}
+
+.nav--homepage-header .dropdown-toggle__group-list-item-link {
+    color: #fff;
 }
 
 .dropdown-toggle__group-list-item-link:hover {
