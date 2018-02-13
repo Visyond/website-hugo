@@ -1,5 +1,5 @@
 ---
-url: /terms123
+url: /terms
 title: Terms of Use
 image: /img/terms.jpg
 ---
