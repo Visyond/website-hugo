@@ -60,32 +60,21 @@ aside:
       masters, without worrying about financial statements, as a result
       improving his productivity
 first_solution: >-
-  ![Car](/img/wallhaven-246377.jpg)
+  ![Analysts and Consultants](/img/feature-icons-v1_03.png)
 
 
-  **Save time and money with Visyond!**
+  [**Analysts and
+  Consultants**](https://visyond.com/solutions_analysts_consultants)
+second_solution: |-
+  ![Decision Makers](/img/feature-icons-v1_25.png)
 
-
-  Car is not included in the package. It is nice and shiny, though. Like our
-  platform.
-second_solution: >-
-  ![Bulbs](/img/light_bulbs_and_drops-1920x1200.jpg)
-
-
-  **Be creative & make intelligent decisions!**
-
-
-  Who puts the light-bulbs in the rain like that, by the way...Does not look
-  secure. Unlike Visyond, which is.
+  [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
 third_solution: >-
-  ![undefined](/img/STS-134_International_Space_Station_after_undocking.jpg)
+  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
 
 
-  **Be above your competition.**
-
-
-  We don't just take you to the 'next level'. We launch you straight to the high
-  orbit. Buckle up!
+  [**Data Input &
+  Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
 ---
 ## Before Visyond
 
