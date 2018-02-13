@@ -28,7 +28,6 @@
 			<ul class="contacts-page__list">
 				{{ range $element := .Params.contactsPhone }}
 				<li class="contacts-page__item">
-						{{ "http://gohugo.io/docs" | replaceRE "^https?://([^/]+).*" "$1" }}
 					<a href={{ .socialPhone }} class="contacts-page__link">{{ .socialPhone }}</a>
 				</li>
 				{{ end }}
