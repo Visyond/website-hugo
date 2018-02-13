@@ -79,30 +79,21 @@ aside:
       * Simplicity and speed in changing assumptions and and presenting the new
       results
 first_solution: >-
-  ![undefined](/img/finger_paint-1920x1200.jpg)
+  ![Analysts & Consultants](/img/feature-icons-v1_03.png)
 
 
   [**Analysts and
-  consultants**](https://visyond.com/solutions_analysts_consultants)
-second_solution: >-
-  ![undefined](/img/1333741712089.jpg)
+  Consultants**](https://visyond.com/solutions_analysts_consultants)
+second_solution: |-
+  ![Decision Makers](/img/feature-icons-v1_25.png)
 
-
-  **Tired of this burning sensation in your lower back when someone overwrites
-  the data in your model?**
-
-
-  **See** a doctor for existing cases. Better yet - prevent it altogether with
-  Visyond's version control!
+  [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
 third_solution: >-
-  ![undefined](/img/wallhaven-11877.png)
+  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
 
 
-  **Be elegant and excel with Visyond!**
-
-
-  **No** pun intended. Easy to learn and to work with. Visyond is elegant in its
-  simplicity. Try it and you will never look back.
+  [**Data Input &
+  Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
 ---
 ## Before Visyond
 
