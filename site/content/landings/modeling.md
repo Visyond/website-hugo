@@ -10,7 +10,7 @@ videoDescr: >-
   of the model, managing complex unreadable formulas all while fighting not
   quite intuitive interfaces and trying to make sense of different versions of
   spreadsheets flying around. Our intelligent platform, Visyond, solves this.
-popupUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
