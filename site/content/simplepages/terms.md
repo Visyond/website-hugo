@@ -1,6 +1,7 @@
 ---
 title: Terms of Use
 image: /img/terms.jpg
+url: '/terms'
 ---
 **Visyond** is a Software as a Service provider. As such it offers a service (“Visyond”) for public use, to individual users, companies, organizations and or legal entities worldwide.
 

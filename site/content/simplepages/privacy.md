@@ -1,6 +1,7 @@
 ---
 title: Privacy policy
 image: /img/privacy.jpg
+url: '/privacy'
 ---
 ## **WHAT INFORMATION DO WE COLLECT?**
 
