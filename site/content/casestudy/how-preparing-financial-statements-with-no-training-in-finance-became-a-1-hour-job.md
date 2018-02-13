@@ -65,16 +65,40 @@ first_solution: >-
 
   [**Analysts and
   Consultants**](https://visyond.com/solutions_analysts_consultants)
-second_solution: |-
+
+
+  As an analyst or consultant, you either revamp existing systems or invent new
+  ones. Constantly, you identify areas that need improving. But your first step
+  begins with the deep analysis, before researching for the optimum solution.
+  Without accurate numbers, you’ll draw the wrong conclusion – and no career
+  needs the downfall from that!
+second_solution: >-
   ![Decision Makers](/img/feature-icons-v1_25.png)
 
+
   [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
+
+
+  As a decision maker with demanding priorities, your time is too limited to
+  collect reports from every corner within your organization and then piecemeal
+  each report into building the picture. That can be mind numbing – especially
+  when your company’s future is at stake.
 third_solution: >-
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
 
 
   [**Data Input &
   Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
+
+
+  Every month-end or end of quarter it’s a never-ending hassle gathering and
+  consolidating financial information across departments. Finance develops new
+  spreadsheet templates – hopefully error-free! And then they begin to pass
+  spreadsheets among departments to gather the numbers. This often wastes time,
+  and requires added work to verify and recheck the data’s accuracy. And during
+  the process the reasons behind each modified number often loses its visibility
+  – causing further inquiries. This all makes closing your books ceaseless
+  nightmare.
 ---
 ## Before Visyond
 
