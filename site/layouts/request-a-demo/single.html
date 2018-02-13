@@ -13,32 +13,37 @@
             </div>
         </div> <!-- ./client asked -->
 
+
         <!-- form -->
         <div class="request-demo__form-wrap">
             <h3 class="request-demo__form-title">Request a demo</h3>
             <h4 class="request-demo__form-subtitle">Please fill in the form to recieve your invitation</h4>
 
-            <form class="request-demo__form">
+            <form class="request-demo__form" method="POST" action="https://api.kickofflabs.com/v1/96370/subscribe">
+               <input type="hidden" name="subject" value="Feedback">
+               <input type="hidden" name="api_key" value="1fd701f8c4ae64d01bf1744e91434e86aee94bd3">
+
+
                 <div class="request-form-field request-demo__input--required">
-                    <input type="text" class="request-demo__input" placeholder="First name" required>
+                    <input name="first_name" type="text" class="request-demo__input" placeholder="First name" required>
                 </div>
                 <div class="request-form-field request-demo__input--required">
-                    <input type="text" class="request-demo__input" placeholder="Last name" required>
+                    <input name="last_name" type="text" class="request-demo__input" placeholder="Last name" required>
                 </div>
                 <div class="request-form-field">
-                    <input type="text" class="request-demo__input" placeholder="Your role">
+                    <input name="role" type="text" class="request-demo__input" placeholder="Your role">
                 </div>
                 <div class="request-form-field request-demo__input--required">
-                    <input type="email" class="request-demo__input" placeholder="Email" required>
+                    <input name="email" type="email" class="request-demo__input" placeholder="Email" required>
                 </div>
                 <div class="request-form-field">
-                    <input type="tel" class="request-demo__input" placeholder="Phone">
+                    <input name="phone" type="tel" class="request-demo__input" placeholder="Phone">
                 </div>
                 <div class="request-form-field request-demo__input--required">
-                    <input type="text" class="request-demo__input" placeholder="Company" required>
+                    <input name="company" type="text" class="request-demo__input" placeholder="Company" required>
                 </div>
                 <div class="request-form-field">
-                    <input type="url" class="request-demo__input" placeholder="Company website">
+                    <input name="website" type="url" class="request-demo__input" placeholder="Company website">
                 </div>
                 <button class="request-demo__submit" type="submit">Subscribe</button>
                 <span class="required-fields"><small>*</small>Required fields</span>
