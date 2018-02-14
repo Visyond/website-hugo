@@ -18,11 +18,11 @@ cards:
     cardLink: /modeling
     cardTitle: Spreadsheet Modeling
 client:
-  - clientIcon: /img/jberg2.png
-  - clientIcon: /img/elearn2.png
-  - clientIcon: /img/delo2.png
-  - clientIcon: /img/abrt2.png
-  - clientIcon: /img/elet2.png
+  - clientIcon: /img/jberg1.png
+  - clientIcon: /img/elearn1.png
+  - clientIcon: /img/delo1.png
+  - clientIcon: /img/abrt1.png
+  - clientIcon: /img/elet.png
 slider:
   - sliderDescr: >-
       I have finally full control on the source and impact of any assumptions,
