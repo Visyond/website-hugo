@@ -187,7 +187,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Counters"
         name: "counters"
         fields:
-          - { label: "Counters scripts", name: "counters", widget: markdown }
+          - { label: "Counters scripts", name: "countersScripts", widget: markdown }
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"

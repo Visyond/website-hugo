@@ -1,4 +1,4 @@
 ---
-counters: <script>alert(1)</script>
+countersScripts: <script>alert(1)</script>
 ---
 
