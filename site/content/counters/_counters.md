@@ -1,4 +1,4 @@
 ---
-countersScripts: <script>alert(1)</script>
+countersScripts: 'Hello, world'
 ---
 
