@@ -1,5 +1,5 @@
 ---
-title: Elettronica's Sales planning - from weeks to hours
+title: 'Case Study: Elettronica'
 image: /img/casestud.jpg
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
