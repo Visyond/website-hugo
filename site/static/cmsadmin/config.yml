@@ -183,7 +183,7 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
           ]}
-      - file: "site/content/counters/_counters.md"
+      - file: "site/content/counters/_index.md"
         label: "Counters"
         name: "counters"
         fields:
