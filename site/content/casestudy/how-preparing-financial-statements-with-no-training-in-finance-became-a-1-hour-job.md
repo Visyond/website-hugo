@@ -1,5 +1,5 @@
 ---
-title: How Financial Statements preparation became a 1-hour job
+title: 'Case Study: eLearnSecurity'
 image: /img/casestud.jpg
 client: /img/armando.png
 client_ask: >-
