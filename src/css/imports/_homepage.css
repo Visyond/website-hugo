@@ -129,9 +129,7 @@
 
 .homepage-title--cards {
     margin-left: -20px;
-    color: #fff;
     margin-bottom: 50px;
-    font-size: 40px;
 }
 
 .trusted__title {
@@ -273,4 +271,18 @@
 .customers__list .slick-next {
     right: 0;
     transform: rotate(180deg) translateY(50%);
+}
+
+@media screen and (max-width: 1201px) {
+    .homepage__logo {
+        position: static;
+        transform: translate(0, 0);
+    }
+
+    .homepage__user-nav-list {
+        margin-top: 30px;
+    }
+    .homepage__user-nav-item:not(:last-child) {
+        margin: 0 0 15px 0;
+    }
 }

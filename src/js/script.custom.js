@@ -31,6 +31,28 @@ $(function () {
 
     /**
      * 
+     * Responsive menu
+     * 
+     */
+
+    function responsiveNav() {
+        let nav = $('.nav');
+        let btn = $('.responsive-btn');
+        btn.on('click', function() {
+            nav.toggleClass('nav--active');
+            $('body').addClass('body-fixed');
+            $('body').append('<div class="overlay">');
+        });
+
+        $(document).on('click', '.overlay', function() {
+            nav.removeClass('nav--active');
+            $('body').removeClass('body-fixed');
+            $('.overlay').remove();
+        });
+    }
+    responsiveNav();
+    /**
+     * 
      * Modal
      * 
      */

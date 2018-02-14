@@ -10,6 +10,18 @@
     z-index: 999;
 }
 
+.responsive-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+
+    @media screen and (max-width: 1201px) {
+        display: block;
+    }
+}
+
 .logo__link {
     display: flex;
     align-items: center;
@@ -63,4 +75,10 @@
         background: rgb(4, 118, 224);
     }
     
+}
+
+@media screen and (max-width: 1201px) {
+    .homepage-header {
+        justify-content: space-between;
+    }
 }
