@@ -10,7 +10,7 @@
     <title>{{ .Title }} | Visyond</title>
     <link rel="shortcut icon" href="/img/vimages/favicon.ico">
     {{ with .Params.MetaTags }}
-        {{ . }}
+        {{ . | markdownify }}
     {{ end }}
 </head>
 <body>
