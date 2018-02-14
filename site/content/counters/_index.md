@@ -1,4 +1,4 @@
 ---
-countersScripts: <script>console.log(1)</script>
+countersScripts: <script>console.log(2)</script>
 ---
 
