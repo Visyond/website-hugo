@@ -1,7 +1,5 @@
 ---
-title: >-
-  How preparing Financial Statements with no training in Finance became a 1-hour
-  job
+title: How Financial Statements preparation became a 1-hour job
 image: /img/casestud.jpg
 client: /img/armando.png
 client_ask: >-
