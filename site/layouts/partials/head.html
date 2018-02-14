@@ -12,6 +12,13 @@
     {{ with .Params.MetaTags }}
         {{ . | markdownify }}
     {{ end }}
+
+
+    {{ with .Site.GetPage "section" "counters" }}
+        {{ range $el := .Params }}
+            {{ $el | markdownify}}
+        {{ end }}
+    {{ end }}
 </head>
 <body>
     
