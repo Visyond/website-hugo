@@ -213,5 +213,9 @@
 
     .nav__link {
         padding: 0;
+        font-weight: 400;
+    }
+    .homepage__user-nav-link {
+        font-weight: 400;
     }
 }
