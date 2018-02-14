@@ -1,5 +1,4 @@
 ---
-metaDescription: This is visyond page. Very cool application for business
 title: Homepage
 cardTitle: Powerful spreadsheet platform powered by machine intelligence
 cards:

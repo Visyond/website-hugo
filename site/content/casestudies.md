@@ -1,5 +1,4 @@
 ---
-metaDescription: Awesome case studies our companies
 type: casestudies
 casestudies:
   - logo: /img/elet.png
