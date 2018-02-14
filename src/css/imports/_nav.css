@@ -206,21 +206,24 @@
     color: #52556c !important;
 }
 
+
 .overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, .4);
+    width: 100%;
+    display: block;
+    height: 100vh;
+    z-index: 999;
     display: none;
 }
 
 
 @media screen and (max-width: 1201px) {
-    .overlay {
-        position: fixed;
-        left: 0;
-        top: 0;
-        background: rgba(0, 0, 0, .4);
-        width: 100%;
+
+    .overlay--active {
         display: block;
-        height: 100vh;
-        z-index: 999;
     }
     .body-fixed {
         height: 100vh;

@@ -42,6 +42,7 @@ $(function () {
             nav.toggleClass('nav--active');
             $('body').addClass('body-fixed');
             $('body').append('<div class="overlay">');
+            $('.overlay').addClass('overlay--active');
 
             $(this).attr('disabled', true);
         });
@@ -49,7 +50,7 @@ $(function () {
         $(document).on('click', '.overlay', function() {
             nav.removeClass('nav--active');
             $('body').removeClass('body-fixed');
-            $('.overlay').remove();
+            $('.overlay').removeClass('overlay--active');
             btn.removeAttr('disabled');
         });
     }
