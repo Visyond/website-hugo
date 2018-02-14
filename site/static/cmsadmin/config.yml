@@ -12,6 +12,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/solutions"
     create: true
     fields: # The fields each document in this collection have
+      - { label: "Meta: description", name: "metaDescription", widget: string }
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
@@ -24,6 +25,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/casestudy"
     create: true
     fields: # The fields each document in this collection have
+      - { label: "Meta: description", name: "metaDescription", widget: string }
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
@@ -40,6 +42,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/landings"
     create: true
     fields:
+      - { label: "Meta: description", name: "metaDescription", widget: string }
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Top image", name: "topImage", widget: "image", required: true }
       - { label: "Video title", name: "videoTitle", widget: "string", required: false }
@@ -138,6 +141,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/simplepages"
     create: true
     fields:
+      - { label: "Meta: description", name: "metaDescription", widget: string }
       - {label: "Page url", name: "url", widget: "string"}      
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
@@ -150,6 +154,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Contacts page"
         name: "contacts"
         fields:
+          - { label: "Meta: description", name: "metaDescription", widget: string }
           - { label: Type, name: type, widget: hidden, default: contact }
           - { label: Contact, name: contact, widget: hidden, default: "/contact.html" }
           - { label: Title, name: title, widget: string }
@@ -169,6 +174,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Navigation"
         name: "nav"
         fields:
+          - { label: "Meta: description", name: "metaDescription", widget: string }
           - { label: "Solutions dropdown", name: "solutionDropdown", widget: "list", fields: [
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
@@ -177,10 +183,16 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
           ]}
+      - file: "site/content/counters/_counters.md"
+        label: "Counters"
+        name: "counters"
+        fields:
+          - { label: "Counters scripts", name: "counters", widget: markdown }
       - file: "site/content/_index.md"
         label: "Home Page"
         name: "home"
         fields:
+          - { label: "Meta: description", name: "metaDescription", widget: string }       
           - { label: "Page title", name: "title", widget: hidden }
           - { label: "Card title", name: "cardTitle", widget: "string" }
           - { label: Cards, name: "cards", widget: list, fields: [  
@@ -203,6 +215,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Case studies"
         name: "casestudies"
         fields:
+          - { label: "Meta: description", name: "metaDescription", widget: string }
           - { label: Type, name: type, widget: hidden, default: about }
           - { label: About, name: about, widget: hidden, default: "/casestudies.html" }
           - { label: "Casy study", name: "casestudies", widget: list, fields: [
