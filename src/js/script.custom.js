@@ -42,12 +42,15 @@ $(function () {
             nav.toggleClass('nav--active');
             $('body').addClass('body-fixed');
             $('body').append('<div class="overlay">');
+
+            $(this).attr('disabled', true);
         });
 
         $(document).on('click', '.overlay', function() {
             nav.removeClass('nav--active');
             $('body').removeClass('body-fixed');
             $('.overlay').remove();
+            btn.removeAttr('disabled');
         });
     }
     responsiveNav();

@@ -115,12 +115,33 @@
 		</li>
 	</ul>
 
-	{{ if eq .Title "Homepage" }}
+	{{ if ne .Title "Homepage" }}
+	<ul class="header-user__list">
+		<li class="header-user__item">
+				<a 
+						href="/accounts/login" 
+						class="header-user__link header-user__link--log-in"
+				>
+						Log In
+				</a>
+		</li>
+		<li class="header-user__item">
+				<a 
+						href="/accounts/signup" 
+						class="header-user__link header-user__link--sign-up"
+				>
+						sign up
+				</a>
+		</li>
+	</ul>
+	{{ else }}
+
 	<ul class="homepage__user-nav-list">
 		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link">log in</a></li>
 		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link">sign up</a></li>
 		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link homepage__user-nav-link--request">request a demo</a></li>
 	</ul>
+
 	{{ end }}
 	
 </nav>

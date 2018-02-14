@@ -5,6 +5,14 @@
     align-items: center;
     position: relative;
     justify-content: space-between;
+
+    @media screen and (max-width: 1201px) {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
 }
 
 .nav--homepage-header {
@@ -24,6 +32,10 @@
     &:hover {
         color: #0585ff;
     }
+
+    @media screen and (max-width: 1201px) {
+        color: #52556c !important;
+    }   
 }
 
 .nav--homepage-header__link.nav__link--active {
@@ -41,6 +53,11 @@
 .nav--homepage-header-dropdown-toggle {
     background: #1F2733;
     border: none;
+
+    @media screen and (max-width: 1201px) {
+        background: none;
+        border-left: 1px solid #1f2733;
+    }
 }
 .nav--homepage-header-dropdown-right {
     border-color: #000;
@@ -63,6 +80,10 @@
     margin: 0;
     padding: 0;
     display: flex;
+
+    @media screen and (max-width: 1201px) {
+        flex-flow: column nowrap;
+    }
 }
 
 .homepage__user-nav-item {
@@ -81,6 +102,11 @@
     &:hover {
         color: #0585ff;
     }
+
+    @media screen and (max-width: 1201px) {
+        color: #52556c;
+        font-weight: 400;
+    }
 }
 
 .homepage__user-nav-link--request {
@@ -95,6 +121,10 @@
 .homepage-cards {
     background: #182130;
     padding: 20px 2.1vw 50px 2.1vw;
+
+    @media screen and (max-width: 1201px) {
+        padding-top: 115px;   
+    }
 }
 
 .homepage-cards__list {
@@ -280,7 +310,7 @@
     }
 
     .homepage__user-nav-list {
-        margin-top: 30px;
+        margin-top: 45px;
     }
     .homepage__user-nav-item:not(:last-child) {
         margin: 0 0 15px 0;

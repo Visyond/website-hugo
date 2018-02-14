@@ -8,6 +8,10 @@
     top: 0;
     width: 100%;
     z-index: 999;
+
+    @media screen and (max-width: 1201px) {
+        z-index: 9999;
+    }
 }
 
 .responsive-btn {
@@ -43,10 +47,21 @@
     padding: 0;
     list-style: none;
     align-items: center;
+
+    @media screen and (max-width: 1201px) {
+        flex-flow: column nowrap;
+        margin-top: 45px;
+        align-items: flex-start;
+    }
 }
 
 .header-user__item:not(:last-child) {
     margin-right: 35px;
+
+    @media screen and (max-width: 1201px) {
+        
+        margin: 0 0 15px 0;
+    }
 }
 
 .header-user__link {
@@ -75,10 +90,4 @@
         background: rgb(4, 118, 224);
     }
     
-}
-
-@media screen and (max-width: 1201px) {
-    .homepage-header {
-        justify-content: space-between;
-    }
 }
