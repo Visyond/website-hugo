@@ -1,4 +1,4 @@
 ---
-countersScripts: 'Hello, world'
+countersScripts: Hi there
 ---
 
