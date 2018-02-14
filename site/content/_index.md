@@ -1,4 +1,5 @@
 ---
+metaTags: <meta rel="description" content="awesome page visyond">
 title: Homepage
 cardTitle: Powerful spreadsheet platform powered by machine intelligence
 cards:
