@@ -118,9 +118,9 @@
 	
 
 	<ul class="homepage__user-nav-list">
-		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link">log in</a></li>
-		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link">sign up</a></li>
-		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link homepage__user-nav-link--request">request a demo</a></li>
+		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">log in</a></li>
+		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">sign up</a></li>
+		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}} homepage__user-nav-link--request">request a demo</a></li>
 	</ul>
 
 	
