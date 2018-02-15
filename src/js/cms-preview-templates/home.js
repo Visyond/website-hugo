@@ -8,7 +8,7 @@ export default class Home extends React.Component {
         return (
             <div>
                 <section className="homepage-cards">
-                    <h3 class="homepage-title homepage-title--cards">{entry.getIn(['data', 'cardTitle'])}</h3>
+                    <h3 className="homepage-title homepage-title--cards">{entry.getIn(['data', 'cardTitle'])}</h3>
                     <ul className="homepage-cards__list">
                     {(entry.getIn(["data", "cards"]) || []).map((item, index) => {
 
