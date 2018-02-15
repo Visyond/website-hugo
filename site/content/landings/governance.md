@@ -122,7 +122,7 @@ secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
 leftCardTitle: Business
-leftCardSubTitle: Discover full potential of Visyond
+leftCardSubTitle: Discover the full potential of Visyond
 leftCardPoint:
   - line: Unlimited projects
   - line: Unlimited collaborators
