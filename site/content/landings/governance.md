@@ -122,7 +122,7 @@ secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
 leftCardTitle: Business
-leftCardSubTitle: Discover the full potential of Visyond
+leftCardSubTitle: ''
 leftCardPoint:
   - line: Unlimited projects
   - line: Unlimited collaborators
@@ -138,7 +138,7 @@ middleCardPoint:
   - line: Dedicated account manager
   - line: Onboarding program
 rightCardTitle: Consulting
-rightCardSubTitle: Pricing based on intensity of use
+rightCardSubTitle: ''
 RightCardPoint:
   - line: Pay only for required features
   - line: Custom branding and reports
