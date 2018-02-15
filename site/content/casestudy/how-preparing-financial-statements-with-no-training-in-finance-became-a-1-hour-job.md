@@ -1,5 +1,7 @@
 ---
-title: 'Case Study: eLearnSecurity'
+title: >-
+  How preparing Financial Statements with no training in Finance became a 1-hour
+  job
 image: /img/casestud.jpg
 client: /img/armando.png
 client_ask: >-
