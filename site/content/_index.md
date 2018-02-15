@@ -1,7 +1,7 @@
 ---
 metaTags: <meta rel="description" content="awesome page visyond">
 title: Homepage
-cardTitle: Powerful spreadsheet platform powered by machine intelligence
+cardTitle: Powerful spreadsheet platform  <br> powered by machine intelligence
 cards:
   - cardBackground: /img/banner gov resized.png
     cardDescr: >-
