@@ -1,5 +1,7 @@
 ---
-title: 'Case Study: Elettronica'
+title: >-
+  How Visyond changed the way Elettronica planned their Sales, and shortened the
+  process from weeks to hours
 image: /img/casestud.jpg
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
