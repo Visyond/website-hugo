@@ -40,15 +40,15 @@ $(function () {
         let btn = $('.responsive-btn');
         btn.on('click', function() {
             nav.toggleClass('nav--active');
-            $('body').addClass('body-fixed');
+            $('.wrapper').addClass('body-fixed');
             $('.overlay').addClass('overlay--active');
 
             $(this).attr('disabled', true);
         });
 
-        $(document).on('click', '.overlay', function() {
+        $('.overlay').on('click touchstart', function() {
             nav.removeClass('nav--active');
-            $('body').removeClass('body-fixed');
+            $('.wrapper').removeClass('body-fixed');
             $('.overlay').removeClass('overlay--active');
             btn.removeAttr('disabled');
         });

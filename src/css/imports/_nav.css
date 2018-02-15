@@ -14,7 +14,7 @@
         top: 0;
         background: #fff;
         box-shadow: 0 15px 10px rgba(0, 0, 0, .4);
-        width: 250px;
+        width: 200px;
         height: 100vh;
         z-index: 999;
         padding: 40px 25px;
@@ -217,18 +217,20 @@
     height: 100vh;
     z-index: 999;
     display: none;
+    -webkit-overflow-scrolling: touch;
 }
 
+.overlay--active {
+    display: block;
+}
 
 @media screen and (max-width: 1201px) {
 
-    .overlay--active {
-        display: block;
-    }
     .body-fixed {
         height: 100vh;
         width: 100%;
         overflow: hidden;
+        position: relative;
     }
     .nav--active {
         transform: translateX(0);

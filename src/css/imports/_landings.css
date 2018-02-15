@@ -874,6 +874,7 @@
 .body-fixed {
     overflow: hidden;
     height: 100vh;
+    position: relative;
 }
 .banner-modal--active {
     display: flex;
