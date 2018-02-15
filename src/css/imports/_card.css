@@ -23,6 +23,25 @@
     &:hover .function-card__title {
         color: #0585ff;
     }
+
+    @media screen and (max-width: 1024px) {
+
+        &:hover .function-card__bg{
+            filter: blur(1px);
+        }
+    
+        &:hover .function-card__title {
+            color: #fff;
+        }
+        &:active .function-card__bg{
+            filter: blur(0px);
+        }
+    
+        &:active .function-card__title {
+            color: #0585ff;
+        }
+        
+    }
 }
 .function-card__link {
     position: relative;
