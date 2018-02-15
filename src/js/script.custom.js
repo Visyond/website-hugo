@@ -40,7 +40,7 @@ $(function () {
         let btn = $('.responsive-btn');
         btn.on('click', function() {
             nav.toggleClass('nav--active');
-            $('.wrapper').addClass('body-fixed');
+            $('body').addClass('body-fixed');
             $('.overlay').addClass('overlay--active');
 
             $(this).attr('disabled', true);
@@ -48,7 +48,7 @@ $(function () {
 
         $('.overlay').on('click touchstart', function() {
             nav.removeClass('nav--active');
-            $('.wrapper').removeClass('body-fixed');
+            $('body').removeClass('body-fixed');
             $('.overlay').removeClass('overlay--active');
             btn.removeAttr('disabled');
         });
