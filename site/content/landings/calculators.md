@@ -82,6 +82,7 @@ case:
     caseIco: /img/elearn1.png
     caseLink: >-
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+challengeTitle: Challenge and Solutions
 features:
   - descr: >-
       This feature is so cool it will blow your brain away. With Visyond you
