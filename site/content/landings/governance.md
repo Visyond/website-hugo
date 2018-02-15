@@ -140,6 +140,7 @@ middleCardPoint:
 rightCardTitle: Consulting
 rightCardSubTitle: ''
 RightCardPoint:
+  - line: 'Pricing based on intensity of use '
   - line: Pay only for required features
   - line: Custom branding and reports
   - line: 'Affiliate program '
