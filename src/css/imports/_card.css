@@ -32,12 +32,20 @@
     display: flex;
     flex-flow: column nowrap;
     color: #fff;
+
+    @media screen and (max-width: 1371px) {
+        height: auto;
+    }
 }
 .function-card__title {
     margin: 10px 0;
     font-weight: 700;
     font-size: 29px;
     transition: color .1s ease-in-out;   
+
+    @media screen and (max-width: 691px) {
+        font-size: 20px;
+    }
 }
 
 .function-card__descr {
@@ -45,4 +53,7 @@
     line-height: 25px;
     font-weight: 300;
     max-width: 430px;
+    @media screen and (max-width: 691px) {
+        font-size: 14px;    
+    }
 }
