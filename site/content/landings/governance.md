@@ -60,7 +60,7 @@ howTo: |-
   * Reduces data chaos and guarantees peace of mind
 howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
 case:
-  - caseDescr: Elettronica's Sales Planning - from weeks to hours
+  - caseDescr: ' How Visyond changed the way Elettronica planned their Sales, and shortened the process from weeks to hours'
     caseIco: /img/elet.png
     caseLink: >-
       https://cms.visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
