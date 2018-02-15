@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 
 <section class="homepage-cards">
-        <h3 class="homepage-title homepage-title--cards">{{ .Params.CardTitle }}</h3>
+        <h3 class="homepage-title homepage-title--cards">{{ .Params.CardTitle | markdownify }}</h3>
     <ul class="homepage-cards__list">
         {{ range $foo := .Params.cards }}
         <li class="homepage-cards__item">

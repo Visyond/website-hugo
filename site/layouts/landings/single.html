@@ -3,6 +3,9 @@
     <nav class="sub-heading__nav">
         <ul class="sub-heading__nav-list">
             <li class="sub-heading__nav-item">
+                <a href="#pricing" class="sub-heading__nav-link">Pricing</a>
+            </li>
+            <li class="sub-heading__nav-item">
                 <a href="#overview" class="sub-heading__nav-link">Overview</a>
             </li>
             <li class="sub-heading__nav-item">
@@ -11,7 +14,7 @@
         </ul>
     </nav>
 </div>
-<div class="landing" id="overview">
+<div class="landing">
     <div class="landing-banner">
         <style>
             .landing-banner {
@@ -34,7 +37,7 @@
         </div> <!-- ./banner -->
     </div>
 
-    <section class="landing-preview">
+    <section class="landing-preview" id="overview">
         <div class="container column-wrap">
             <div class="column-6">
                 <h3 class="landing-title">{{ .Params.VideoTitle }}</h3>
@@ -141,7 +144,7 @@
     
     <section class="landing-challenge">
         <div class="container">
-            <h3 class="landing-title landing-title--landing-challenge">Challenges and Solutions</h3>
+            <h3 class="landing-title landing-title--landing-challenge">{{ .Params.ChallengeTitle }}</h3>
 
             <ul class="landing-challenge__list">
                 {{ range $el := .Params.Challenge }}
@@ -209,7 +212,7 @@
     </section>
     
 
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="container">
             <h3 class="landing-title landing-title--pricing">{{ .Params.PricingTitle }}</h3>
             <h4 class="pricing__subtitle">{{ .Params.FirstPricingSubTitle }}

@@ -141,7 +141,7 @@ export default class Landings extends React.Component {
 
             <section className="landing-challenge">
                 <div className="container">
-                    <h3 className="landing-title landing-title--landing-challenge">Challenges and Solutions</h3>
+                    <h3 className="landing-title landing-title--landing-challenge">{entry.getIn(['data', 'challengeTitle'])}</h3>
 
                     <ul className="landing-challenge__list">
                         {(entry.getIn(["data", "challenge"]) || []).map((item, index) => {
