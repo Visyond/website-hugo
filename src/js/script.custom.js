@@ -121,11 +121,11 @@ $(function () {
         e.preventDefault();
 
         let $href = $(this).attr('href');
-        let $offsetTop = $($href).offset().top;
+        let $offsetTop = $($href).offset().top - 110;
 
         $('html, body').animate({
             scrollTop: $offsetTop
-        })
+        }, 500)
      })
     
 

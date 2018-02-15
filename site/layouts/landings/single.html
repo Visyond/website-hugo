@@ -38,8 +38,8 @@
     </div>
 
     <section class="landing-preview" id="overview">
-        <div class="container column-wrap">
-            <div class="column-6">
+        <div class="container column-wrap column-wrap--overview">
+            <div class="column-6 overview--left">
                 <h3 class="landing-title">{{ .Params.VideoTitle }}</h3>
                 <p class="landing-text-content landing-preview__text-content">
                     {{ .Params.VideoDescr }}
@@ -48,7 +48,7 @@
                     <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
                 </div>
             </div>
-            <div class="column-6">
+            <div class="column-6 overview--right">
                 <div class="landing-preview__video-wrap">
                     <img src="/img/vimages/laptop.png" alt="">
                     <button class="landing-preview__video-link modal-btn" data-modal=".banner-modal" data-src={{.Params.PopupUrl}}>
@@ -100,7 +100,7 @@
     <section class="landing-different">
         <div class="container">
             <h3 class="landing-title landing-title--landing-different">How Visyond is different</h3>
-            <div class="column-wrap">
+            <div class="column-wrap column-wrap--different">
                 <div class="column-6 different--left">
                     {{  .Params.HowTo | markdownify }}
                 </div>
