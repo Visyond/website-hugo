@@ -41,7 +41,6 @@ $(function () {
         btn.on('click', function() {
             nav.toggleClass('nav--active');
             $('body').addClass('body-fixed');
-            $('body').append('<div class="overlay">');
             $('.overlay').addClass('overlay--active');
 
             $(this).attr('disabled', true);

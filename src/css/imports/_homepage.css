@@ -126,6 +126,10 @@
     @media screen and (max-width: 1201px) {
         padding-top: 115px;   
     }
+
+    @media screen and (max-width: 651px) {
+        padding-top: 90px;
+    }
 }
 
 .homepage-cards__list {
@@ -184,6 +188,10 @@
 
     @media screen and (max-width: 1111px) {
         margin-left: 0;
+    }
+
+    @media screen and (max-width: 651px) {
+        font-size: 23px;
     }
 }
 
