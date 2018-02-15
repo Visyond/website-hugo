@@ -12,6 +12,8 @@ import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
+import imagemin from 'gulp-imagemin';
+import pngquant from 'imagemin-pngquant'
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
@@ -54,7 +56,7 @@ gulp.task("js", (cb) => {
 
 gulp.task("svg", () => {
   const svgs = gulp
-    .src("site/static/img/icons/*.svg")
+    .src("site/static/img/vimages/*.svg")
     .pipe(svgmin())
     .pipe(svgstore({inlineSvg: true}));
 
@@ -68,6 +70,17 @@ gulp.task("svg", () => {
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
+gulp.task('img', () => {
+  return gulp.src('site/static/img/vimages/**/*')
+    .pipe(imagemin({
+      interlaced: true,
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant()]
+  }))
+    .pipe(gulp.dest('dist/img/vimages'))
+})
+
 gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
   browserSync.init({
     server: {
@@ -76,7 +89,7 @@ gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
   gulp.watch("./src/css/**/*.css", ["css"]);
-  gulp.watch("./site/static/img/icons/*.svg", ["svg"]);
+  gulp.watch("./site/static/img/vimages/*.svg", ["svg"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
