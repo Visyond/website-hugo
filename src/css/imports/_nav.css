@@ -244,6 +244,6 @@
     border-radius: 4px;
 
     &:hover {
-        color: #fff;
+        color: #fff !important;
     }
 }
