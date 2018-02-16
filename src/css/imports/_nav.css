@@ -35,9 +35,6 @@
 }
 
 .nav__item {   
-    &:not(:last-child) {
-        margin-right: 35px;
-    }
     position: relative;
 
     @media screen and (max-width: 1201px) {
@@ -50,7 +47,6 @@
 .nav__link {
     color: #52556c;
     font-size: 14px;
-    font-weight: 300;
     transition: background .1s ease-in-out,
                 color .1s ease-in-out;
     padding: 9px 15px 8px 15px;
@@ -240,4 +236,10 @@
 
   .white-page-menu {
     color: #52556c;
+}
+
+.blue-request {
+    background: #0585ff;
+    padding: 10px 25px;
+    border-radius: 4px;
 }

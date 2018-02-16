@@ -34,7 +34,7 @@
                 </h1>
 
                 <div class="landing-btn-wrap">
-                    <a href="/accounts/signup" class="landing-btn landing-btn--signup" aria-label="button">sign up</a>
+                    <a href="/request-a-demo" class="landing-btn landing-btn--signup" aria-label="button">request a demo</a>
                 </div>
             </section>
         </div> <!-- ./banner -->
@@ -50,7 +50,7 @@
                 <p class="landing-text-content landing-preview__text-content">
                 </p>
                 <div class="landing-btn-wrap landing-btn-wrap--landing-preview">
-                    <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                    <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
                 </div>
             </div>
             <div class="column-6 overview--right">
@@ -75,6 +75,31 @@
                 {{end}}
             </ul>
         <!-- </div> -->
+    </section>
+
+    <section class="landing-features-reverse" id="features">
+        <div class="container">
+            <h3 class="landing-title landing-title--landing-features-reverse">{{ .Params.FeaturesTitle }}</h3>
+            <div class="landing-features-reverse__item-wrap">
+                {{ range $el := .Params.Features }}
+                <article class="landing-features-reverse__item">
+                    <figure class="landing-features-reverse__img-container column-wrap">
+                        <span class="landing-features-reverse__img-wrap column-6">
+                            <img src="{{ .featureImg }}" alt="">
+                        </span>
+                        <figcaption class="landing-features-reverse__img-descr-wrap column-6">
+                            <h3 class="landing-features-reverse__img-title">{{ $el.title }}</h3>
+                            <p class="landing-features-reverse__img-descr landing-text-content">{{ $el.descr }}</p>
+                            <a href="{{ .linkPath }}" class="landing-features-reverse__link">{{ .linkDescr }}</a>
+                        </figcaption>
+                    </figure>
+                </article>
+                {{ end }}
+            </div>
+            <div class="landing-features-reverse__btn-wrap">
+                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
+            </div>
+        </div>
     </section>
     
 
@@ -102,6 +127,24 @@
         </div>
     </section>
 
+    <section class="landing-casestudy" id="casestudies">
+        
+        <div class="container">
+            <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
+
+            <ul class="landing-casestudy__list">
+                {{ range $el := .Params.Case }}
+                <li class="landing-casestudy__item">
+                    <a href="{{ .caseLink }}" class="landing-casestudy__link">
+                        <img src="{{ .caseIco }}" alt="">
+                        <h3 class="landing-casestudy__title">{{ .caseDescr }}</h3>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </section>
+
     <!-- landing-different -->
     <section class="landing-different">
         <div class="container">
@@ -123,29 +166,13 @@
                 </div>
             </div>
             <div class="landing-different__btn-wrap">
-                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
             </div>
         </div>
     </section> <!-- ./landing-different -->
 
     
-    <section class="landing-casestudy" id="casestudies">
-        
-        <div class="container">
-            <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
-
-            <ul class="landing-casestudy__list">
-                {{ range $el := .Params.Case }}
-                <li class="landing-casestudy__item">
-                    <a href="{{ .caseLink }}" class="landing-casestudy__link">
-                        <img src="{{ .caseIco }}" alt="">
-                        <h3 class="landing-casestudy__title">{{ .caseDescr }}</h3>
-                    </a>
-                </li>
-                {{ end }}
-            </ul>
-        </div>
-    </section>
+   
     
     
     <section class="landing-challenge">
@@ -168,30 +195,7 @@
     </section>
     
     
-    <section class="landing-features-reverse" id="features">
-        <div class="container">
-            <h3 class="landing-title landing-title--landing-features-reverse">{{ .Params.FeaturesTitle }}</h3>
-            <div class="landing-features-reverse__item-wrap">
-                {{ range $el := .Params.Features }}
-                <article class="landing-features-reverse__item">
-                    <figure class="landing-features-reverse__img-container column-wrap">
-                        <span class="landing-features-reverse__img-wrap column-6">
-                            <img src="{{ .featureImg }}" alt="">
-                        </span>
-                        <figcaption class="landing-features-reverse__img-descr-wrap column-6">
-                            <h3 class="landing-features-reverse__img-title">{{ $el.title }}</h3>
-                            <p class="landing-features-reverse__img-descr landing-text-content">{{ $el.descr }}</p>
-                            <a href="{{ .linkPath }}" class="landing-features-reverse__link">{{ .linkDescr }}</a>
-                        </figcaption>
-                    </figure>
-                </article>
-                {{ end }}
-            </div>
-            <div class="landing-features-reverse__btn-wrap">
-                <a href="#" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
-            </div>
-        </div>
-    </section>
+    
     
     {{ if gt (len .Params.Featured) 0 }}
     <section class="landing-featured">
@@ -242,7 +246,7 @@
                             {{ end }}
                         </ul>
                         <div class="landing-btn-wrap landing-btn-wrap--pricing">
-                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">quote</a>
                         </div>
                     </article>
                 </li>
@@ -260,7 +264,7 @@
                             {{ end }}
                         </ul>
                         <div class="landing-btn-wrap landing-btn-wrap--pricing">
-                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">get quote</a>
+                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">quote</a>
                         </div>
                     </article>
                 </li>
@@ -278,7 +282,7 @@
                             {{ end }}
                         </ul>
                         <div class="landing-btn-wrap landing-btn-wrap--pricing">
-                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">get  quote</a>
+                            <a href="/request-a-demo" class="landing-btn landing-btn--landing-preview" aria-label="button">quote</a>
                         </div>
                     </article>
                 </li>

@@ -36,7 +36,7 @@ export default class Landings extends React.Component {
                             { entry.getIn(['data', 'videoDescr']) }
                         </p>
                         <div className="landing-btn-wrap landing-btn-wrap--landing-preview">
-                            <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                            <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
                         </div>
                     </div>
                     <div className="column-6">
@@ -114,7 +114,7 @@ export default class Landings extends React.Component {
                         </div>
                     </div>
                     <div className="landing-different__btn-wrap">
-                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
                     </div>
                 </div>
             </section> 
@@ -186,7 +186,7 @@ export default class Landings extends React.Component {
                         })}
                     </div>
                     <div className="landing-features-reverse__btn-wrap">
-                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
+                        <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
                     </div>
                 </div>
             </section>

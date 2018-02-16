@@ -407,6 +407,7 @@
 
 .landing-different {
     padding: 75px 0;
+    background: #f5f6f9;
     @media screen and (max-width: 768px) {
         padding: 30px 0;
     }
@@ -541,7 +542,7 @@
 
 .landing-casestudy {
     padding: 75px 0;
-    background: #F5F6F9;
+    background: #fff;
 
     @media screen and (max-width: 768px) {
         padding: 40px 0;
@@ -680,7 +681,7 @@
 
 .landing-features-reverse {
     padding: 75px 0;
-    background: #F5F6F9;
+    background: #fff;
     @media screen and (max-width: 768px) {
         padding: 40px 0;
     }
@@ -707,7 +708,7 @@
         }
     }
     &:not(:first-child) {
-        margin-top: 100px;
+        margin-top: 30px;
         @media screen and (max-width: 768px) {
             margin-top: 35px;
         }
@@ -906,7 +907,7 @@
 
 .pricing { 
     padding: 75px 0;
-
+    background: #f5f6f9;
     @media screen and (max-width: 1024px) {
         padding: 40px 0;
     }

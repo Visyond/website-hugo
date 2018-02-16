@@ -92,7 +92,6 @@
 			</div> -->
 		<!-- </div> -->
 		</li>
-		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="/casestudies" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Case studies</span></a></li>
 		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}">
 			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Resourses</span></a>
 			<div class="dropdown-menu-wrap">
@@ -120,7 +119,7 @@
 	<ul class="homepage__user-nav-list">
 		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">log in</a></li>
 		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">sign up</a></li>
-		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}} homepage__user-nav-link--request">request a demo</a></li>
+		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} blue-request {{end}} homepage__user-nav-link--request">request a demo</a></li>
 	</ul>
 
 	
