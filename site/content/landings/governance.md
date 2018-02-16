@@ -110,13 +110,7 @@ features:
     featureImg: /img/illusrtation 3-2.png
     linkDescr: ''
     title: Seamless collaboration
-featured:
-  - descr: >-
-      Anyone creating a spreadsheet model dreams of spending less time on it,
-      reducing the risk of mistakes, being able to effectively co-work with
-      colleagues, and seamlessly sharing it across their organization. Gianluca
-      Bisceglie, the founder of Visyond, made this dream a reality.
-    logo: /img/finBuzz.png
+featured: []
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
