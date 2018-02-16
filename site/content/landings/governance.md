@@ -1,4 +1,5 @@
 ---
+title: Enhanced Spreadsheet Governance and Control
 mainTitle: Enhanced Spreadsheet <br>  Governance and Control
 topImage: /img/banner.jpg
 videoTitle: It is time to take your spreadsheets under control!
