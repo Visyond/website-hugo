@@ -16,7 +16,7 @@ export default class Landings extends React.Component {
                 <div className="container">
                     <section className="landing-banner__descr-wrap">
                         <h1 className="landing-banner__main-title">
-                            { entry.getIn(["data", "title"]) }
+                            { entry.getIn(["data", "mainTitle"]) }
                         </h1>
 
                         <div className="landing-btn-wrap">

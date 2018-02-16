@@ -43,7 +43,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - { label: "Title", name: "title", widget: "markdown", required: true }
+      - { label: "Title", name: "mainTitle", widget: "markdown", required: true }
       - { label: "Top image", name: "topImage", widget: "image", required: true }
       - { label: "Video title", name: "videoTitle", widget: "string", required: false }
       - { label: "Video descr", name: "videoDescr", widget: "markdown", required: false }
