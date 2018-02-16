@@ -1,5 +1,5 @@
 ---
-metaTags: <meta rel="description" content="awesome page visyond">
+metaTags: ''
 title: Homepage
 cardTitle: >-
   Smart Spreadsheet Software powered by machine intelligence to drive decision
