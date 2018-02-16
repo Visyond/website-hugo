@@ -11,8 +11,10 @@ videoDescr: >-
   inevitably introduced. Hours and days are lost in attempts to track down
   changes and compare different versions of the same document.  New regulations
   and data protection rules also create additional pressure and scrutiny
-  requiring organizations to transform and adapt their workflows. Visyond
-  eradicates all these obstacles!
+  requiring organizations to transform and adapt their workflows. 
+
+
+  Visyond eradicates all these obstacles!
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
