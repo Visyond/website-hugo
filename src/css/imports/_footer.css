@@ -20,13 +20,8 @@
     flex-flow: column nowrap;
 
     @media screen and (max-width: 768px) {
-        width: 330px;
-    }
-    @media screen and (max-width: 651px) {
-        order: 2;
-        border-right: none;
         width: 100%;
-        margin-top: 55px;
+        border-right: none;
     }
 }
 
@@ -94,8 +89,14 @@
     flex: 1 0;
     padding: 20px 0 0 135px;
     display: flex;
+
+    @media screen and (max-width: 1211px) {
+        padding-left: 45px;
+    }
+
     @media screen and (max-width: 768px) {
         padding-left: 50px;
+        display: none;
     }
     @media screen and (max-width: 651px) {
         padding: 0;
@@ -104,6 +105,10 @@
 
 .footer-section-group:not(:first-child) {
     margin-left: 70px;
+
+    @media screen and (max-width: 1211px) {
+        margin-left: 15px;
+    }
 }
 
 .footer-section-group__title {
