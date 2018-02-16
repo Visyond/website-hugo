@@ -1,7 +1,9 @@
 ---
 metaTags: <meta rel="description" content="awesome page visyond">
 title: Homepage
-cardTitle: Powerful spreadsheet platform powered by machine intelligence
+cardTitle: >-
+  Smart Spreadsheet Software powered by machine intelligence to drive decision
+  making
 cards:
   - cardBackground: /img/banner gov resized.png
     cardDescr: >-
