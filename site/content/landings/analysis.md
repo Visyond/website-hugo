@@ -1,5 +1,5 @@
 ---
-title: Financial analysis taken to a new level
+mainTitle: Financial analysis taken to a new level
 topImage: /img/1366656894550.jpg
 videoTitle: Make smarter strategic decisions quickly with Visyond!
 videoDescr: >-

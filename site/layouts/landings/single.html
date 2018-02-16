@@ -30,7 +30,7 @@
         <div class="container">
             <section class="landing-banner__descr-wrap">
                 <h1 class="landing-banner__main-title">
-                    {{ .Params.MainTitle }}
+                    {{ .Params.MainTitle | markdownify }}
                 </h1>
 
                 <div class="landing-btn-wrap">
