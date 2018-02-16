@@ -45,8 +45,7 @@
 
 .landing-text-content {
     color: rgba(94, 111, 133, .9);
-    font-size: 14px;
-    font-weight: 300;
+    font-size: 16px;
     line-height: 30px;
 }
 
@@ -111,7 +110,7 @@
 
 .landing-banner__descr-wrap {
     padding-top: 10vh;
-    width: 49%;
+    width: 90%;
     @media screen and (max-width: 768px) {
         width: 85%;
     }
@@ -127,6 +126,7 @@
     line-height: 1.27;
     margin-bottom: 70px;
     letter-spacing: 3px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, .3);
 
     @media screen and (max-width: 768px) {
         font-size: 45px;
@@ -302,7 +302,7 @@
     padding: 0;
     list-style: none;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
 
     @media screen and (max-width: 768px) {
         flex-flow: row wrap;
@@ -369,6 +369,12 @@
         margin-bottom: 30px;
         padding-left: 70px;
     }
+}
+
+.landings-features__img-title {
+    color: rgba(81,84,107,.8);
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .landing-features__img-wrap {
@@ -445,7 +451,7 @@
     list-style: none;
 }
 
-.different--left li {
+.different--left ul li {
     position: relative;
     text-indent: 10px;
     font-weight: 300;
@@ -757,7 +763,6 @@
 .landing-features-reverse__img-descr {
     line-height: 25px;
     font-size: 16px;
-    font-weight: 300;
     color: #5e6f85;
 
     @media screen and (max-width: 768px) {

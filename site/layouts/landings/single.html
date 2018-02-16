@@ -3,13 +3,16 @@
     <nav class="sub-heading__nav">
         <ul class="sub-heading__nav-list">
             <li class="sub-heading__nav-item">
-                <a href="#pricing" class="sub-heading__nav-link">Pricing</a>
-            </li>
-            <li class="sub-heading__nav-item">
                 <a href="#overview" class="sub-heading__nav-link">Overview</a>
             </li>
             <li class="sub-heading__nav-item">
                 <a href="#features" class="sub-heading__nav-link">Features</a>
+            </li>
+            <li class="sub-heading__nav-item">
+                <a href="#casestudies" class="sub-heading__nav-link">Case Studies</a>
+            </li>
+            <li class="sub-heading__nav-item">
+                <a href="#pricing" class="sub-heading__nav-link">Pricing</a>
             </li>
         </ul>
     </nav>
@@ -27,7 +30,7 @@
         <div class="container">
             <section class="landing-banner__descr-wrap">
                 <h1 class="landing-banner__main-title">
-                    {{ .Title }}
+                    {{ .Title | markdownify }}
                 </h1>
 
                 <div class="landing-btn-wrap">
@@ -41,8 +44,10 @@
         <div class="container column-wrap column-wrap--overview">
             <div class="column-6 overview--left">
                 <h3 class="landing-title">{{ .Params.VideoTitle }}</h3>
+                <div class="landing-preview__text-content landing-text-content">
+                    {{ .Params.VideoDescr | markdownify }}
+                </div>
                 <p class="landing-text-content landing-preview__text-content">
-                    {{ .Params.VideoDescr }}
                 </p>
                 <div class="landing-btn-wrap landing-btn-wrap--landing-preview">
                     <a href="/signup/" class="landing-btn landing-btn--landing-preview" aria-label="button">request demo</a>
@@ -60,7 +65,7 @@
     </section>
     
     <section class="landing-trusted">
-        <div class="container">
+        <!-- <div class="container"> -->
             <h3 class="landing-trusted__title">Trusted by:</h3>
             <ul class="landing-trusted__list">
                 {{ range $el := .Params.trusted }}
@@ -69,7 +74,7 @@
                 </li>
                 {{end}}
             </ul>
-        </div>
+        <!-- </div> -->
     </section>
     
 
@@ -87,6 +92,7 @@
                             <img src="{{ $el.ico }}" alt="">
                         </span>
                         <figcaption class="landing-features__img-descr">
+                            <h3 class="landings-features__img-title">{{ $el.title }}</h3>
                             <p class="landing-text-content">{{ $el.content }}</p>
                         </figcaption>
                     </figure>
@@ -123,7 +129,7 @@
     </section> <!-- ./landing-different -->
 
     
-    <section class="landing-casestudy">
+    <section class="landing-casestudy" id="casestudies">
         
         <div class="container">
             <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
@@ -187,6 +193,7 @@
         </div>
     </section>
     
+    {{ if gt (len .Params.Featured) 0 }}
     <section class="landing-featured">
         <div class="container">
             <h3 class="landing-title landing-title--landing-featured">As featured in</h3>
@@ -210,6 +217,7 @@
             </ul>
         </div>
     </section>
+    {{ end }}
     
 
     <section class="pricing" id="pricing">
