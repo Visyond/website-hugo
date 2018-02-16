@@ -709,6 +709,7 @@
     }
     &:not(:first-child) {
         margin-top: 30px;
+        border-top: 1px solid rgba(0, 0, 0, .2);
         @media screen and (max-width: 768px) {
             margin-top: 35px;
         }
@@ -783,7 +784,7 @@
 }
 
 .landing-features-reverse__btn-wrap {
-    margin-top: 100px;
+    margin-top: 30px;
     @media screen and (max-width: 768px) {
         margin-top: 30px;
     }
