@@ -242,4 +242,8 @@
     background: #0585ff;
     padding: 10px 25px;
     border-radius: 4px;
+
+    &:hover {
+        color: #fff;
+    }
 }
