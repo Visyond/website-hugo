@@ -70,7 +70,7 @@ case:
     caseIco: /img/elearn1.png
     caseLink: >-
       https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-challengeTitle: Challenge and Solutions
+challengeTitle: Solutions for
 challenge:
   - caseDescr: Decision makers
     caseIco: /img/ico-true.png
