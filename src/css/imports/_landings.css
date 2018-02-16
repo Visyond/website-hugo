@@ -971,6 +971,16 @@
     @media screen and (max-width: 1024px) {
         margin-top: 0;
         transform: scale(1);
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pricing__item--left {
+        order: 2;
+    }
+    .pricing__item--right {
+        order: 3;
     }
 }
 
