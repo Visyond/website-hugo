@@ -132,6 +132,6 @@ This is how Fernando's job look like:
 
 ## After Visyond
 
-After Visyond was implemented, Fernando’s job changed completely. Thanks to Visyond’s “Cases” and “Scenarios” tools, he can now share the master file between the stakeholders to collect their inputs without the fear they could alter or damage the core structure - and subsequently prepare different scenarios acting on each parameter without changing the spreadsheets set.
+Thanks to Visyond’s “Scenarios”, he now shares only one file with his stakeholders and collects their input without fearing they could alter or damage the model structure. Everything is transparently tracked.
 
-Also, preparing reports, charts, and forecasts for senior management has become easy and quick.
+Preparing reports, charts, and forecasts for senior management is now an automated, easy and quick process.
