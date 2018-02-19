@@ -13,7 +13,8 @@ import inject from "gulp-inject";
 import replace from "gulp-replace";
 import cssnano from "cssnano";
 import imagemin from 'gulp-imagemin';
-import pngquant from 'imagemin-pngquant'
+import pngquant from 'imagemin-pngquant';
+import csso from 'postcss-csso';
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
@@ -29,7 +30,11 @@ gulp.task("css", () => (
     .pipe(postcss([
       cssImport({from: "./src/css/main.css"}),
       cssnext(),
-      cssnano(),
+      csso({
+        forceMediaMerge: true,
+        clone: true,
+        comments: false,
+      }),
     ]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
@@ -71,7 +76,7 @@ gulp.task("svg", () => {
 });
 
 gulp.task('img', () => {
-  return gulp.src('site/static/img/vimages/**/*')
+  return gulp.src('site/static/img/**/*')
     .pipe(imagemin({
       interlaced: true,
       progressive: true,
