@@ -11,7 +11,7 @@ solutionDropdown:
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
-  - path: 'https://visyond.com/casestudies/'
+  - path: /casestudies
     title: Case Studies
 ---
 
