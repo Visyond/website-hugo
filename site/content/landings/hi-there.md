@@ -1,7 +1,7 @@
 ---
 metaTags: ''
 title: 'Hi, there'
-mainTitle: 'Hi, thereasd sadsad'
+mainTitle: 'Hi, thereasd'
 topImage: /img/132913034257.jpg
 videoTitle: 'lorem ipsudm dolor '
 videoDescr: Some people
