@@ -22,12 +22,26 @@
     &:hover {
         box-shadow: 0 5px 40px #DBDDEC;
     }
+
+    @media screen and (max-width: 1021px) {
+        width: 100%;
+        &:not(:nth-child(2n)) {
+            margin-right: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .casestudies__link {
     width: 100%;
     display: block;
     padding: 20px 30px;
+
+    @media screen and (max-width: 768px) {
+        padding: 20px;
+    }
 }
 
 .casestudies__top {

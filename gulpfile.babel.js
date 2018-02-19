@@ -84,6 +84,7 @@ gulp.task('img', () => {
       use: [pngquant()]
   }))
     .pipe(gulp.dest('site/static/img'))
+    .pipe(browserSync.stream())
 })
 
 gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
