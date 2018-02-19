@@ -76,14 +76,14 @@ gulp.task("svg", () => {
 });
 
 gulp.task('img', () => {
-  return gulp.src('site/static/img/**/*')
+  return gulp.src('site/static/source-img/*')
     .pipe(imagemin({
       interlaced: true,
       progressive: true,
       svgoPlugins: [{removeViewBox: false}],
       use: [pngquant()]
   }))
-    .pipe(gulp.dest('dist/img'))
+    .pipe(gulp.dest('site/static/img'))
 })
 
 gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
