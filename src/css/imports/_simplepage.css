@@ -1,6 +1,10 @@
 .simplepage-title-wrap {
     text-align: center;
     padding: 90px 0;
+
+    @media screen and (max-width: 1024px) {
+        padding: 40px 0;
+    }
 }
 
 .simplepage__title {
@@ -8,12 +12,20 @@
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
+    margin-bottom: 0;
+    @media screen and (max-width: 1024px) {
+        font-size: 40px;
+    }
 }
 
 .simplepage-content {
     width: 780px;
     margin: 0 auto;
     padding: 50px 0;
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        padding: 40px 10px;
+    }
 }
 
 .simplepage-content {
