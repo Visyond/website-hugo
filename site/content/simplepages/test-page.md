@@ -1,6 +1,5 @@
 ---
-metaTags: ''
-url: /test-page
+url: /testpage
 title: Test Page
 image: /img/391.jpg
 ---
