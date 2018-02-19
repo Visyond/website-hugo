@@ -27,9 +27,7 @@ features:
   - descr: On keyboard and blah blah blah
     featureImg: /img/infiniteImage.png
     title: Type stuff
-featured:
-  - descr: SUPER AMAZING STUFF
-    logo: /img/abrt1.png
+featured: []
 pricingTitle: BUY NOW
 firstPricingSubTitle: DONT WAIT
 secondPricingSubTitle: ONLY $99999999999999999999999999999999999999
