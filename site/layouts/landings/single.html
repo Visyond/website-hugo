@@ -196,7 +196,7 @@
     
     
     
-    
+    {{ if ne (len .Params.Featured) 0 }}
     <section class="landing-featured">
         <div class="container">
             <h3 class="landing-title landing-title--landing-featured">As featured in</h3>
@@ -220,6 +220,7 @@
             </ul>
         </div>
     </section>    
+    {{ end }}
     
 
     <section class="pricing" id="pricing">
