@@ -21,7 +21,7 @@ const defaultArgs = ["-d", "../dist", "-s", "site"];
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
-gulp.task("build", ["css", "js", "cms-assets", "hugo"]);
+gulp.task("build", ["css", "js", "cms-assets", "hugo", "img"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
 gulp.task("css", () => (
@@ -78,7 +78,7 @@ gulp.task('img', () => {
       svgoPlugins: [{removeViewBox: false}],
       use: [pngquant()]
   }))
-    .pipe(gulp.dest('dist/img/vimages'))
+    .pipe(gulp.dest('dist/img'))
 })
 
 gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
