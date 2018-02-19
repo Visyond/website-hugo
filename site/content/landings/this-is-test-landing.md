@@ -1,7 +1,7 @@
 ---
 title: This is test landing
 mainTitle: Test title
-topImage: /img/banner.jpg
+topImage: /img/generic.jpg
 videoTitle: Amazing video
 videoDescr: Test desc
 trusted:
