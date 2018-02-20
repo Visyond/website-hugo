@@ -1,6 +1,6 @@
 ---
 title: This is test landing
-mainTitle: Test title
+mainTitle: Hello world!
 topImage: /img/5-10.jpg
 videoTitle: Amazing video
 videoDescr: Test desc
