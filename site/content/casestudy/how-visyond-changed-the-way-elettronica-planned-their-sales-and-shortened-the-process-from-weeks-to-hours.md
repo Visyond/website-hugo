@@ -67,8 +67,8 @@ aside:
       * Separate paperwork and notes have been eliminated thanks to auto
       reporting
 
-      * Ability to create different versions of data and compare scenarios in
-      real-time
+      * Ability to create different versions of the plan and compare scenarios
+      in real-time
 
       * Simplicity and quick turnaround for 'what-if' assumption changes
 first_solution: >
