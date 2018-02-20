@@ -160,6 +160,10 @@
     background: #f5f6f9;
     display: flex;
     padding-top: 215px;
+
+    @media screen and (max-width: 531px) {
+        padding-top: 0;
+    }
 }
 
 .contacts-page__map-column {
@@ -185,6 +189,10 @@
     transform: translateX(-50%);
     top: -165px;
     z-index: 99;
+
+    @media screen and (max-width: 531px) {
+        display: none;
+    }
 }
 .contacts-page__map-city {
     color: #52556c;

@@ -17,7 +17,7 @@
 	<section class="contacts-page">
 		<article class="contacts-page__item contacts-page__item--mail">
 			<h3 class="contacts-page__title">Mail</h3>
-			<span class="contacts-page__address">{{ .Params.Mail }}</span>
+			<span class="contacts-page__address">{{ .Params.Mail | markdownify }}</span>
 			
 			<div class="contacts-page__social-wrap">
 				{{ partial "social" (dict "data" .Params.ContactsSocial) }}
