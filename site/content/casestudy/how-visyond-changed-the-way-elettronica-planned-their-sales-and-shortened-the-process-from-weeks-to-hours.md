@@ -26,21 +26,16 @@ aside:
       * Legacy spreadsheet-based Sales planning process was time-consuming and
       impractical
 
-      * Needed an easy-to-use interface for scenario planning
+      * Sharing the master spreadsheet with colleagues caused extra stress due
+      to risk of unwanted changes or data corruption
 
-      * Needed an online and user-friendly platform
+      * Scenario planning and analysis was cumbersome
 
-      * Collect assumptions without sending email attachments
+      * Collecting assumptions from team members involved long and chaotic
+      e-mail exchanges
 
-      * Track collaborators’ assumptions
-
-      * Save backup information and files inside the relevant cells
-
-      * Quickly switch scenarios
-
-      * Run simulations on the assumptions
-
-      * Generate and present results and reports automatically
+      * Routine analytical tasks had to be done manually requiring significant
+      time investement at every at every iteration
   - content: >-
       **Solution**
 
