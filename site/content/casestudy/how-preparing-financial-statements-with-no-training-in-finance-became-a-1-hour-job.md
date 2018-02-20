@@ -4,7 +4,7 @@ title: >-
   job
 image: /img/casestud.jpg
 client: /img/armando.png
-client_ask: >-
+client_ask: >+
   Armando is the Founder and CEO of **eLearnSecurity**, a Silicon Valley company
   providing cyber security training to IT Security professionals worldwide.
 
@@ -19,10 +19,6 @@ client_ask: >-
   company valuation, stock options allocation and other activities that require
   a common language with finance people.
 
-
-  > The process took 1 stressful week and I did not feel comfortable to update
-  the data, fearing to break something. Now it is a 1-hour job and a few clicks
-  to update data.
 aside:
   - content: '![eLearnSecurity](/img/elearnsec logo.png)'
   - content: |-
@@ -100,6 +96,8 @@ third_solution: >-
   – causing further inquiries. This all makes closing your books ceaseless
   nightmare.
 ---
+> The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data.
+
 ## Before Visyond
 
 Armando has been looking for a solution for a long time but could not find a suitable tool.
