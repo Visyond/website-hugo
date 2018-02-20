@@ -72,46 +72,22 @@ aside:
 
       * Simplicity and speed in changing assumptions and and presenting the new
       results
-first_solution: >-
+first_solution: >
   ![Analysts & Consultants](/img/feature-icons-v1_03.png)
 
 
-  [**Analysts and
+  ## [**Analysts and
   Consultants**](https://visyond.com/solutions_analysts_consultants)
-
-
-  As an analyst or consultant, you either revamp existing systems or invent new
-  ones. Constantly, you identify areas that need improving. But your first step
-  begins with the deep analysis, before researching for the optimum solution.
-  Without accurate numbers, you’ll draw the wrong conclusion – and no career
-  needs the downfall from that!
-second_solution: >-
+second_solution: |
   ![Decision Makers](/img/feature-icons-v1_25.png)
 
-
-  [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
-
-
-  As a decision maker with demanding priorities, your time is too limited to
-  collect reports from every corner within your organization and then piecemeal
-  each report into building the picture. That can be mind numbing – especially
-  when your company’s future is at stake.
-third_solution: >-
+  ## [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
+third_solution: >
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
 
 
-  [**Data Input &
+  ## [**Data Input &
   Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
-
-
-  Gathering Every month-end or end of quarter it’s a never-ending hassle
-  gathering and consolidating financial information across departments. Finance
-  develops new spreadsheet templates – hopefully error-free! And then they begin
-  to pass spreadsheets among departments to gather the numbers. This often
-  wastes time, and requires added work to verify and recheck the data’s
-  accuracy. And during the process the reasons behind each modified number often
-  loses its visibility – causing further inquiries. This all makes closing your
-  books ceaseless nightmare.
 ---
 > It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
 
