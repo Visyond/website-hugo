@@ -5,17 +5,13 @@ tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
 client: /img/Layer_6772x.png
-client_ask: >-
+client_ask: >
   Fernando is a Sales Manager at **Elettronica**, a company of more than 800
   employees active in the defense sector and selling its solutions worldwide.
 
 
   Fernando leads the preparation of forecasts and plans for the top management,
   and recommends where to allocate resources to optimise the sales process.
-
-
-  > It was a very time consuming process with a high risk of mistakes at each
-  step, due to the manual implementation and the large set of inputs.
 aside:
   - content: '![undefined](/img/Elettronica_logo2x.png)'
   - content: |-
@@ -117,6 +113,8 @@ third_solution: >-
   loses its visibility – causing further inquiries. This all makes closing your
   books ceaseless nightmare.
 ---
+> It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
+
 ## Before Visyond
 
 This is how Fernando's job look like:
