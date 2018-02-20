@@ -27,7 +27,9 @@ features:
   - descr: On keyboard and blah blah blah
     featureImg: /img/infiniteImage.png
     title: Type stuff
-featured: []
+featured:
+  - descr: asdasdasdsadasd asd
+    logo: /img/kub-kubik-gran-rebro.jpg
 pricingTitle: BUY NOW
 firstPricingSubTitle: DONT WAIT
 secondPricingSubTitle: ONLY $99999999999999999999999999999999999999
