@@ -23,7 +23,7 @@ aside:
       **Challenge**
 
 
-      * Current spreadsheet-based Sales planning was time-intensive and
+      * Legacy spreadsheet-based Sales planning process was time-consuming and
       impractical
 
       * Needed an easy-to-use interface for scenario planning
