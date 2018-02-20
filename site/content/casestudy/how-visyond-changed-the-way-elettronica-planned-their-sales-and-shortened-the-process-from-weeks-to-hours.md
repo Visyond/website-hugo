@@ -70,8 +70,7 @@ aside:
       * Ability to create different versions of data and compare scenarios in
       real-time
 
-      * Simplicity and speed in changing assumptions and and presenting the new
-      results
+      * Simplicity and quick turnaround for 'what-if' assumption changes
 first_solution: >
   ![Analysts & Consultants](/img/feature-icons-v1_03.png)
 
