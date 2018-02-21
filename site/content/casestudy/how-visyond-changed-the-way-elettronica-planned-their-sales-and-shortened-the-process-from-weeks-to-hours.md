@@ -23,24 +23,19 @@ aside:
       **Challenge**
 
 
-      * Current spreadsheet-based Sales planning was time-intensive and
+      * Legacy spreadsheet-based Sales planning process was time-consuming and
       impractical
 
-      * Needed an easy-to-use interface for scenario planning
+      * Sharing the master spreadsheet with colleagues caused extra stress due
+      to risk of unwanted changes or data corruption
 
-      * Needed an online and user-friendly platform
+      * Scenario planning and analysis was cumbersome
 
-      * Collect assumptions without sending email attachments
+      * Collecting assumptions from team members involved long and chaotic
+      e-mail exchanges
 
-      * Track collaborators’ assumptions
-
-      * Save backup information and files inside the relevant cells
-
-      * Quickly switch scenarios
-
-      * Run simulations on the assumptions
-
-      * Generate and present results and reports automatically
+      * Routine analytical tasks had to be done manually requiring significant
+      time investement at every at every iteration
   - content: >-
       **Solution**
 
@@ -67,11 +62,10 @@ aside:
       * Separate paperwork and notes have been eliminated thanks to auto
       reporting
 
-      * Ability to create different versions of data and compare scenarios in
-      real-time
+      * Ability to create different versions of the plan and compare scenarios
+      in real-time
 
-      * Simplicity and speed in changing assumptions and and presenting the new
-      results
+      * Simplicity and quick turnaround for 'what-if' assumption changes
 first_solution: >
   ![Analysts & Consultants](/img/feature-icons-v1_03.png)
 
