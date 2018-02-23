@@ -4,9 +4,9 @@ mainTitle: asdasdasd
 topImage: /img/391.jpg
 videoTitle: asdasd
 videoDescr: asdasd
-howToAsked: asdasd
-howTo: asd
-howToCompany: asd
+howToAsked: ''
+howTo: ''
+howToCompany: ''
 challengeTitle: asdasd
 featuresTitle: asdasd
 ---
