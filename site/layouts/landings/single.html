@@ -77,6 +77,7 @@
         <!-- </div> -->
     </section>
 
+    {{ if .Params.Features }}
     <section class="landing-features-reverse" id="features">
         <div class="container">
             <h3 class="landing-title landing-title--landing-features-reverse">{{ .Params.FeaturesTitle }}</h3>
@@ -101,8 +102,10 @@
             </div>
         </div>
     </section>
+    {{ end }}
     
 
+    {{ if .Params.Feature }}
     <section class="landing-features">
         <div class="container">
             <h3 class="landing-title landing-title--features">
@@ -126,7 +129,9 @@
             </ul>
         </div>
     </section>
+    {{ end }}
 
+    {{ if .Params.Case }}
     <section class="landing-casestudy" id="casestudies">
         
         <div class="container">
@@ -144,7 +149,9 @@
             </ul>
         </div>
     </section>
+    {{ end }}
 
+    {{ if .Params.HowTo }}
     <!-- landing-different -->
     <section class="landing-different">
         <div class="container">
@@ -170,11 +177,12 @@
             </div>
         </div>
     </section> <!-- ./landing-different -->
+    {{ end }}
 
     
    
     
-    
+    {{ if .Params.Challenge }}
     <section class="landing-challenge">
         <div class="container">
             <h3 class="landing-title landing-title--landing-challenge">{{ .Params.ChallengeTitle }}</h3>
@@ -193,10 +201,11 @@
             </ul>
         </div>
     </section>
+    {{ end }}
     
     
     
-    {{ if (gt (where .Site.Pages "Section" "featured" | len) 0)}}
+    {{ if .Params.Featured }}
     <section class="landing-featured">
         <div class="container">
             <h3 class="landing-title landing-title--landing-featured">As featured in</h3>
@@ -219,7 +228,7 @@
                 {{ end }}
             </ul>
         </div>
-    </section>    
+    </section>
     {{ end }}
     
 
