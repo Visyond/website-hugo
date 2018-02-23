@@ -81,7 +81,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      - { label: "Challenge and Solutions title", name: "challengeTitle", widget: "string" }
+      - { label: "Challenge and Solutions title", name: "challengeTitle", widget: "string", required: false }
       - { label: "Challenge and Solutions", name: "challenge", widget: "list",
         fields: [
           {label: "Challenge link", name: "caseLink", widget: "string"},
