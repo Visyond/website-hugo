@@ -1,4 +1,5 @@
 ---
+metaTags: фыв
 title: new test
 mainTitle: test title
 topImage: /img/banner.jpg
