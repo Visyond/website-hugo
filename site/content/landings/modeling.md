@@ -1,5 +1,6 @@
 ---
-mainTitle: Visyond redefines financial modelling
+title: Modeling
+mainTitle: Visyond redefines financial modeling
 topImage: /img/1321982094630.jpg
 videoTitle: 'Make financial models work for you, with Visyond.'
 videoDescr: >-
@@ -57,13 +58,13 @@ case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
     caseLink: >-
-      https://cms.visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - caseDescr: >-
       Financial statements preparation: eLearnSecurity made this a 1-hour job
       with Visyond
     caseIco: /img/elearn1.png
     caseLink: >-
-      https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 challengeTitle: Challenge and Solutions
 challenge:
   - caseDescr: Decision makers
