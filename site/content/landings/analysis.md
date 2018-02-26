@@ -1,4 +1,5 @@
 ---
+title: Anlysis
 mainTitle: Financial analysis taken to a new level
 topImage: /img/1366656894550.jpg
 videoTitle: Make smarter strategic decisions quickly with Visyond!
@@ -75,13 +76,13 @@ case:
   - caseDescr: 'Sales Planning: Elettronica''s Sales Planning planning from weeks to hours'
     caseIco: /img/elet.png
     caseLink: >-
-      https://cms.visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - caseDescr: >-
       Financial statements preparation: eLearnSecurity made this a 1-hour job
       with Visyond
     caseIco: /img/elearn1.png
     caseLink: >-
-      https://cms.visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 featuresTitle: How Visyond improves your analytics
 features:
   - descr: >-
