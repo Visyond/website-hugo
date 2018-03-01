@@ -4,12 +4,12 @@ mainTitle: Solution for spreadsheet sharing & collaboration
 topImage: /img/banner.jpg
 videoTitle: How Visyond improves sharing & collaboration
 videoDescr: >-
-  Visyond is built to handle dynamic information flows, manage organization of
-  data in order to reduce the impact of human errors, save time, and comply with
-  data protection rules and regulations. 
+  Visyond is built to handle dynamic information flows, establish effective
+  sharing of spreadsheets, manage organization of data, and comply with data
+  protection regulations.
 
 
-  Check out the video on the right to learn more!
+  Check out the video to learn more!
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
@@ -18,26 +18,6 @@ trusted:
   - logo: /img/jbergwhite.png
 featureTitle: Improved Spreadsheet Management and Sharing
 feature:
-  - content: >-
-      Every change, input, scenario, and version is securely stored in your
-      spreadsheet.
-    ico: /img/feature-icons-v1_05.png
-    title: Full control over data
-  - content: >-
-      Collaborate from anywhere on any device without breaking each other’s
-      data.
-    ico: /img/feature-icons-v1_10.png
-    title: Simple version control
-  - content: >-
-      Track who did what, enjoy complete accountability with a self-documenting
-      audit trail.
-    ico: /img/feature-icons-v1_14.png
-    title: Full transparency
-  - content: >-
-      Have collaborators work with different views of the same spreadsheet, with
-      strictly controlled access permissions.
-    ico: /img/feature-icons-v1_18.png
-    title: Advanced access management
   - content: >-
       Full compatibility with legacy tools like Excel. Manage multiple data
       sources through our API.
@@ -83,23 +63,24 @@ featuresTitle: How Visyond improves spreadsheet sharing
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
-      different people, comments and even file attachments. Information about
-      who changed what and when is always available for you to view.
+      different people, attachments and cases. Information about who changed
+      what and when is always available for you to view.
     featureImg: /img/illusrtation 1-2.png
-    title: 'Tracking everything inside the cell, enable full accountability'
+    title: Simultaneous inputs from multiple people
   - descr: >-
-      All related discussions, comments, supporting information, and attachments
-      are stored inside the cell.
+      You no longer have to manually gather inputs from multiple sources. All
+      related discussions, comments, and supporting information are stroed in a
+      single place.
     featureImg: /img/illusrtation 3-2.png
-    title: Seamless collaboration
+    title: Seamless sharing & collaboration
   - descr: >-
-      No one can change your input, accidentally delete or change your formula
-      or assumption. All changes and steps are self-documented, and the audit
+      No one can accidentally change inputs, delete or change formulas or
+      assumptions. All changes and steps are self-documented, and the audit
       trail is kept for ever.
     featureImg: /img/illusrtation 2-2.png
-    title: 'Full version control, no need for storing multiple files'
+    title: Accountability & version control
   - descr: >-
-      Have full control over who has access to what at granular level. Manage
+      Have full control over who has access to what at granular level. Manager
       permissions and restrictions like seeing only certain cells, worksheets,
       or reports.
     featureImg: /img/illusrtation 4-2.png
