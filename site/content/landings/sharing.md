@@ -28,6 +28,11 @@ feature:
       should feel yourself right at home!
     ico: /img/feature-icons-v1_27.png
     title: Low entry barrier
+  - content: >-
+      Share spreadsheets without worrying with advanced permission management
+      and self-documenting audit trail. 
+    ico: /img/feature-icons-v1_10.png
+    title: Full transparency
 howToPhoto: /img/client_3.jpg
 howToAsked: >-
   When I use Visyond I see my accuracy and ability to answer questions about my
@@ -69,7 +74,7 @@ features:
     title: Simultaneous inputs from multiple people
   - descr: >-
       You no longer have to manually gather inputs from multiple sources. All
-      related discussions, comments, and supporting information are stroed in a
+      related discussions, comments, and supporting information are stored in a
       single place.
     featureImg: /img/illusrtation 3-2.png
     title: Seamless sharing & collaboration
@@ -80,7 +85,7 @@ features:
     featureImg: /img/illusrtation 2-2.png
     title: Accountability & version control
   - descr: >-
-      Have full control over who has access to what at granular level. Manager
+      Have full control over who has access to what at granular level. Manage
       permissions and restrictions like seeing only certain cells, worksheets,
       or reports.
     featureImg: /img/illusrtation 4-2.png
