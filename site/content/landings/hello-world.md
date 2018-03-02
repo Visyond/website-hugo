@@ -7,6 +7,10 @@ videoDescr: asdasd
 howToAsked: ''
 howTo: ''
 howToCompany: ''
+case:
+  - caseDescr: фыв
+    caseIco: /img/1307940381225.jpg
+    caseLink: фыв
 challengeTitle: asdasd
 featuresTitle: asdasd
 ---
