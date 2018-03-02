@@ -2,7 +2,7 @@
 title: Sharing
 mainTitle: Secure and selective sharing
 topImage: /img/banner.jpg
-videoTitle: How Visyond improves sharing & collaboration
+videoTitle: Why Visyond?
 videoDescr: >-
   Visyond is built to handle dynamic information flows, establish effective
   sharing of spreadsheets, manage organization of data, and comply with data
@@ -16,7 +16,7 @@ trusted:
   - logo: /img/delowhite.png
   - logo: /img/eletwhite.png
   - logo: /img/jbergwhite.png
-featureTitle: Improved Spreadsheet Management and Sharing
+featureTitle: ''
 feature:
   - content: >-
       Full compatibility with legacy tools like Excel. Manage multiple data
