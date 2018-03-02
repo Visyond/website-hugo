@@ -5,8 +5,8 @@ topImage: /img/banner.jpg
 videoTitle: Why Visyond?
 videoDescr: >-
   Visyond is built to handle dynamic information flows, establish effective
-  sharing of spreadsheets, manage organization of data, and comply with data
-  protection regulations.
+  secure sharing of spreadsheets, manage organization of data, and comply with
+  data protection regulations.
 
 
   Check out the video to learn more!
@@ -16,7 +16,7 @@ trusted:
   - logo: /img/delowhite.png
   - logo: /img/eletwhite.png
   - logo: /img/jbergwhite.png
-featureTitle: ''
+featureTitle: Visyond sharing solution offers
 feature:
   - content: >-
       Full compatibility with legacy tools like Excel. Manage multiple data
@@ -64,32 +64,32 @@ challenge:
   - caseDescr: Finance
     caseIco: /img/ico-figure.png
     caseLink: 'https://visyond.com/solutions_finance'
-featuresTitle: How Visyond improves spreadsheet sharing
+featuresTitle: Visyond improves spreadsheet sharing by
 features:
   - descr: >-
       In Visyond, each cell is a database that stores multiple inputs from
       different people, attachments and cases. Information about who changed
       what and when is always available for you to view.
     featureImg: /img/illusrtation 1-2.png
-    title: Simultaneous inputs from multiple people
+    title: Tracking simultaneous inputs from multiple people
   - descr: >-
       You no longer have to manually gather inputs from multiple sources. All
       related discussions, comments, and supporting information are stored in a
       single place.
     featureImg: /img/illusrtation 3-2.png
-    title: Seamless sharing & collaboration
+    title: Enabling seamless sharing & collaboration
   - descr: >-
       No one can accidentally change inputs, delete or change formulas or
       assumptions. All changes and steps are self-documented, and the audit
       trail is kept for ever.
     featureImg: /img/illusrtation 2-2.png
-    title: Accountability & version control
+    title: Providing accountability & version control
   - descr: >-
       Have full control over who has access to what at granular level. Manage
       permissions and restrictions like seeing only certain cells, worksheets,
       or reports.
     featureImg: /img/illusrtation 4-2.png
-    title: Access & Permissions control
+    title: Controlling access & permissions
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
