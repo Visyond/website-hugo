@@ -1,6 +1,6 @@
 ---
 title: Sharing
-mainTitle: Solution for spreadsheet sharing & collaboration
+mainTitle: Secure and selective sharing
 topImage: /img/banner.jpg
 videoTitle: How Visyond improves sharing & collaboration
 videoDescr: >-
