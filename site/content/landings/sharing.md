@@ -99,19 +99,16 @@ features:
       information: supporting files, discussions, comments, and approval status,
       so you can keep track of your important data in one place.
     featureImg: /img/illusrtation 3-2.png
-    title: Reduce data chaos by keeping all relevant information in a single place
+    title: Reduce data chaos by keeping all relevant information in one place
   - descr: >-
-      No one can accidentally change inputs, delete or change formulas or
-      assumptions. All changes and steps are self-documented, and the audit
-      trail is kept for ever.
+      No one can accidentally override data or formulas. All changes and steps
+      are self-documented, giving you the full audit trail that is kept forever.
+      You can always revert back to any prior version of the spreadsheet and
+      compare them on the fly.
     featureImg: /img/illusrtation 2-2.png
-    title: Providing accountability & version control
-  - descr: >-
-      You no longer have to manually gather inputs from multiple sources. All
-      related discussions, comments, and supporting information are stored in a
-      single place.
-    featureImg: /img/illusrtation 3-2.png
-    title: Enabling seamless sharing & collaboration
+    title: >-
+      Complete transparency, accountability and governance for your peace of
+      mind
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
