@@ -1,6 +1,8 @@
 ---
 title: Sharing
-mainTitle: Secure and selective sharing
+mainTitle: |-
+  Secure and restrictive
+  spreadsheet sharing
 topImage: /img/banner.jpg
 videoTitle: Why Visyond?
 videoDescr: >-
