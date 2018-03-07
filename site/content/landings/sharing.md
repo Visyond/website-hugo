@@ -1,15 +1,26 @@
 ---
 title: Sharing
-mainTitle: "Spreadsheet sharing & collaboration\r\nmade simple and secure"
-topImage: /img/amazing back.png
-videoTitle: Why Visyond?
+mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
+topImage: /img/banner.jpg
+videoTitle: Take your spreadsheets under control
 videoDescr: >-
-  Visyond is built to handle dynamic information flows, establish effective
-  secure sharing of spreadsheets, manage organization of data, and comply with
-  data protection regulations.
+  Sharing and collaborating on traditional spreadsheets can be a mess. Once sent
+  - you have no control over who can access or modify your spreadsheet: 
 
 
-  Check out the video to learn more!
+  * back & forth emails with bits of information or changes attached 
+
+  * hours lost in tracking down changes and comparing different versions of the
+  same file
+
+  * critical data accidentally deleted or lost along the way, often unnoticed 
+
+  * confidential and sensitive information leaked or exposed to unintended
+  parties
+
+
+  Visyond offers a secure, simple and modern way to share and work on
+  spreadsheets together.
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
