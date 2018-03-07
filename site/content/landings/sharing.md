@@ -81,17 +81,24 @@ challenge:
 featuresTitle: How Visyond improves the way you share and collaborate on spreadsheets
 features:
   - descr: >-
+      Have full and granular control over who can view and edit your
+      spreadsheets. Restrict permissions to just certain cells, worksheets, or
+      linked reports, no one can share your spreadsheet without your explicit
+      approval.
+    featureImg: /img/illusrtation 4-2.png
+    title: 'Manage access to your spreadsheet, down to the cell level'
+  - descr: >-
       In Visyond each cell stores multiple inputs from different people. No need
       to duplicate files when sharing, and spend hours comparing different
       versions or tracking down changes. Finally, a single source of truth.
-    featureImg: /img/illusrtation 4-2.png
+    featureImg: /img/illusrtation 1-2.png
     linkDescr: ''
     title: Seamless collaboration without endless back & forth emails
   - descr: >-
       In Visyond, your spreadsheet is the central repository for all relevant
       information: supporting files, discussions, comments, and approval status,
       so you can keep track of your important data in one place.
-    featureImg: /img/illusrtation 1-2.png
+    featureImg: /img/illusrtation 3-2.png
     title: Reduce data chaos by keeping all relevant information in a single place
   - descr: >-
       No one can accidentally change inputs, delete or change formulas or
