@@ -81,6 +81,13 @@ challenge:
 featuresTitle: How Visyond improves the way you share and collaborate on spreadsheets
 features:
   - descr: >-
+      Have full and granular control over who can view and edit your
+      spreadsheets. Restrict permissions to just certain cells, worksheets, or
+      linked reports, no one can share your spreadsheet without your explicit
+      approval.
+    featureImg: /img/illusrtation 4-2.png
+    title: 'Manage access to your spreadsheet, down to the cell level'
+  - descr: >-
       In Visyond each cell stores multiple inputs from different people. No need
       to duplicate files when sharing, and spend hours comparing different
       versions or tracking down changes. Finally, a single source of truth.
@@ -105,13 +112,6 @@ features:
       single place.
     featureImg: /img/illusrtation 3-2.png
     title: Enabling seamless sharing & collaboration
-  - descr: >-
-      Have full and granular control over who can view and edit your
-      spreadsheets. Restrict permissions to just certain cells, worksheets, or
-      linked reports, no one can share your spreadsheet without your explicit
-      approval.
-    featureImg: /img/illusrtation 4-2.png
-    title: 'Manage access to your spreadsheet, down to the cell level'
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
