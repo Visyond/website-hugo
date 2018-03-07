@@ -89,9 +89,10 @@ features:
     linkDescr: ''
     title: 'Manage access to your spreadsheet, down to the cell level'
   - descr: >-
-      In Visyond, each cell is a database that stores multiple inputs from
-      different people, attachments and cases. Information about who changed
-      what and when is always available for you to view.
+      In Visyond each cell is a database that stores multiple inputs from
+      different people, comments and file attachments. No need to create
+      duplicate files, and spend hours comparing different versions or tracking
+      down changes. Finally, a single source of truth.
     featureImg: /img/illusrtation 1-2.png
     title: >-
       Reduce data chaos by keeping inputs from all contributors in a single
