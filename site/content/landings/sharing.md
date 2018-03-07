@@ -93,7 +93,9 @@ features:
       different people, attachments and cases. Information about who changed
       what and when is always available for you to view.
     featureImg: /img/illusrtation 1-2.png
-    title: Tracking simultaneous inputs from multiple people
+    title: >-
+      Reduce data chaos by keeping inputs from all contributors in a single
+      place
   - descr: >-
       No one can accidentally change inputs, delete or change formulas or
       assumptions. All changes and steps are self-documented, and the audit
