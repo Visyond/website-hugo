@@ -2,10 +2,10 @@
 title: Sharing
 mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
 topImage: /img/banner.jpg
-videoTitle: Take your spreadsheets under control
+videoTitle: Sharing and collaborating on traditional spreadsheets can be a mess.
 videoDescr: >-
-  Sharing and collaborating on traditional spreadsheets can be a mess. Once sent
-  - you have no control over who can access or modify your spreadsheet: 
+  Once sent - you have no control over who can access or modify your
+  spreadsheet: 
 
 
   * back & forth emails with bits of information or changes attached 
