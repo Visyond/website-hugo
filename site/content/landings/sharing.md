@@ -99,7 +99,7 @@ features:
       information: supporting files, discussions, comments, and approval status,
       so you can keep track of your important data in one place.
     featureImg: /img/illusrtation 3-2.png
-    title: Reduce data chaos by keeping all relevant information in a single place
+    title: Reduce data chaos by keeping all relevant information in one place
   - descr: >-
       No one can accidentally change inputs, delete or change formulas or
       assumptions. All changes and steps are self-documented, and the audit
