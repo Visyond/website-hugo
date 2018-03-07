@@ -2,25 +2,28 @@
 title: Sharing
 mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
 topImage: /img/banner.jpg
-videoTitle: Take your spreadsheets under control
+videoTitle: Sharing and collaborating on traditional spreadsheets can be a mess.
 videoDescr: >-
-  Sharing and collaborating on traditional spreadsheets can be a mess. Once sent
-  - you have no control over who can access or modify your spreadsheet: 
+  Once a spreadsheet is sent - you have no control over who can access or modify
+  it.
 
 
-  * back & forth emails with bits of information or changes attached 
+  * Back & forth emails with bits of information or changes attached 
 
-  * hours lost in tracking down changes and comparing different versions of the
+  * Hours lost in tracking down changes and comparing different versions of the
   same file
 
-  * critical data accidentally deleted or lost along the way, often unnoticed 
+  * Critical data accidentally deleted or lost along the way, often unnoticed 
 
-  * confidential and sensitive information leaked or exposed to unintended
+  * Confidential and sensitive information leaked or exposed to unintended
   parties
 
+  * As a result: millions of dollars lost due spreadsheet errors, litigation
+  risks, reputational damage...
 
-  Visyond offers a secure, simple and modern way to share and work on
-  spreadsheets together.
+
+  **Visyond offers a secure, simple and modern way to share and work on
+  spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
@@ -75,20 +78,21 @@ challenge:
   - caseDescr: Finance
     caseIco: /img/ico-figure.png
     caseLink: 'https://visyond.com/solutions_finance'
-featuresTitle: Visyond improves spreadsheet sharing by
+featuresTitle: How Visyond improves the way you share and collaborate on spreadsheets
 features:
   - descr: >-
-      In Visyond, each cell is a database that stores multiple inputs from
-      different people, attachments and cases. Information about who changed
-      what and when is always available for you to view.
-    featureImg: /img/illusrtation 1-2.png
-    title: Tracking simultaneous inputs from multiple people
+      In Visyond each cell stores multiple inputs from different people. No need
+      to duplicate files when sharing, and spend hours comparing different
+      versions or tracking down changes. Finally, a single source of truth.
+    featureImg: /img/illusrtation 4-2.png
+    linkDescr: ''
+    title: Seamless collaboration without endless back & forth emails
   - descr: >-
-      You no longer have to manually gather inputs from multiple sources. All
-      related discussions, comments, and supporting information are stored in a
-      single place.
-    featureImg: /img/illusrtation 3-2.png
-    title: Enabling seamless sharing & collaboration
+      In Visyond, your spreadsheet is the central repository for all relevant
+      information: supporting files, discussions, comments, and approval status,
+      so you can keep track of your important data in one place.
+    featureImg: /img/illusrtation 1-2.png
+    title: Reduce data chaos by keeping all relevant information in a single place
   - descr: >-
       No one can accidentally change inputs, delete or change formulas or
       assumptions. All changes and steps are self-documented, and the audit
@@ -96,11 +100,11 @@ features:
     featureImg: /img/illusrtation 2-2.png
     title: Providing accountability & version control
   - descr: >-
-      Have full control over who has access to what at granular level. Manage
-      permissions and restrictions like seeing only certain cells, worksheets,
-      or reports.
-    featureImg: /img/illusrtation 4-2.png
-    title: Controlling access & permissions
+      You no longer have to manually gather inputs from multiple sources. All
+      related discussions, comments, and supporting information are stored in a
+      single place.
+    featureImg: /img/illusrtation 3-2.png
+    title: Enabling seamless sharing & collaboration
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
