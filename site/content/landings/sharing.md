@@ -1,9 +1,7 @@
 ---
 title: Sharing
-mainTitle: |-
-  Secure and restrictive
-  spreadsheet sharing
-topImage: /img/banner.jpg
+mainTitle: "Spreadsheet sharing & collaboration\r\nmade simple and secure"
+topImage: /img/amazing back.png
 videoTitle: Why Visyond?
 videoDescr: >-
   Visyond is built to handle dynamic information flows, establish effective
