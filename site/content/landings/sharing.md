@@ -89,7 +89,7 @@ features:
     title: 'Manage access to your spreadsheet, down to the cell level'
   - descr: >-
       In Visyond each cell stores multiple inputs from different people. No need
-      to duplicate files when sharing, and spend hours comparing different
+      to duplicate files when sharing and spend hours comparing different
       versions or tracking down changes. Finally, a single source of truth.
     featureImg: /img/illusrtation 1-2.png
     linkDescr: ''
@@ -102,9 +102,9 @@ features:
     title: Reduce data chaos by keeping all relevant information in one place
   - descr: >-
       No one can accidentally override data or formulas. All changes and steps
-      are self-documented, giving you the full audit trail that is kept forever.
-      You can always revert back to any prior version of the spreadsheet and
-      compare them on the fly.
+      are self-documented, giving you a full audit trail that is kept forever.
+      You can always revert to any prior version of the spreadsheet and compare
+      them on the fly.
     featureImg: /img/illusrtation 2-2.png
     title: >-
       Complete transparency, accountability and governance for your peace of
