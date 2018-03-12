@@ -2,7 +2,7 @@
 title: Sharing
 mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
 topImage: /img/banner.jpg
-videoTitle: Sharing and collaborating on traditional spreadsheets can be a mess.
+videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
   Once a spreadsheet is sent - you have no control over who can access or modify
   it.
@@ -49,7 +49,7 @@ feature:
     title: Full transparency
 howToPhoto: /img/client_3.jpg
 howToAsked: >-
-  When I use Visyond I see my accuracy and ability to answer questions about my
+  When I use Visyond, I see my accuracy and ability to answer questions about my
   work go up. I can do more and have peace of mind.
 howTo: "* Visyond offers comprehensive audit trail, data security and transparency \r\n* Ensures quick turn-around and allows quick strategic decision-making\r\n* Greatly accelerates input-gathering from multiple stakeholders\r\n* Reduces data chaos and guarantees peace of mind"
 howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
@@ -89,7 +89,7 @@ features:
     title: 'Manage access to your spreadsheet, down to the cell level'
   - descr: >-
       In Visyond each cell stores multiple inputs from different people. No need
-      to duplicate files when sharing, and spend hours comparing different
+      to duplicate files when sharing and spend hours comparing different
       versions or tracking down changes. Finally, a single source of truth.
     featureImg: /img/illusrtation 1-2.png
     linkDescr: ''
@@ -102,9 +102,10 @@ features:
     title: Reduce data chaos by keeping all relevant information in one place
   - descr: >-
       No one can accidentally override data or formulas. All changes and steps
-      are self-documented, giving you the full audit trail that is kept forever.
-      You can always revert back to any prior version of the spreadsheet and
-      compare them on the fly.
+      are self-documented, giving you a full audit trail that is kept forever.
+      You can always go back to previous versions of the spreadsheet and compare
+      them on the fly, or revert any changes individually, without rolling back
+      the entire document.
     featureImg: /img/illusrtation 2-2.png
     title: >-
       Complete transparency, accountability and governance for your peace of
