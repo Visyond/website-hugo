@@ -49,7 +49,7 @@ feature:
     title: Full transparency
 howToPhoto: /img/client_3.jpg
 howToAsked: >-
-  When I use Visyond I see my accuracy and ability to answer questions about my
+  When I use Visyond, I see my accuracy and ability to answer questions about my
   work go up. I can do more and have peace of mind.
 howTo: "* Visyond offers comprehensive audit trail, data security and transparency \r\n* Ensures quick turn-around and allows quick strategic decision-making\r\n* Greatly accelerates input-gathering from multiple stakeholders\r\n* Reduces data chaos and guarantees peace of mind"
 howToCompany: '**Fernando Rizzo**, Area Manager, Elettronica'
