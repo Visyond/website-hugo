@@ -103,8 +103,9 @@ features:
   - descr: >-
       No one can accidentally override data or formulas. All changes and steps
       are self-documented, giving you a full audit trail that is kept forever.
-      You can always revert to any prior version of the spreadsheet and compare
-      them on the fly.
+      You can always go back to previous versions of the spreadsheet and compare
+      them on the fly, or revert any changes individually, without rolling back
+      the entire document.
     featureImg: /img/illusrtation 2-2.png
     title: >-
       Complete transparency, accountability and governance for your peace of
