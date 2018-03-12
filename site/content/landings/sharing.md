@@ -2,7 +2,7 @@
 title: Sharing
 mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
 topImage: /img/banner.jpg
-videoTitle: Sharing and collaborating on traditional spreadsheets can be a mess.
+videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
   Once a spreadsheet is sent - you have no control over who can access or modify
   it.
