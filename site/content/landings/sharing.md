@@ -3,7 +3,7 @@ title: Sharing
 mainTitle: |-
   Simple & secure
   Spreadsheet collaboration 
-  software 123
+  software
 topImage: /img/banner.jpg
 videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
