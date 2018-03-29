@@ -78,7 +78,7 @@ challenge:
   - caseDescr: Finance
     caseIco: /img/ico-figure.png
     caseLink: 'https://visyond.com/solutions_finance'
-featuresTitle: 123How Visyond improves the way you share and collaborate on spreadsheets
+featuresTitle: How Visyond improves the way you share and collaborate on spreadsheets
 features:
   - descr: >-
       Have full and granular control over who can view and edit your
