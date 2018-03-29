@@ -8,12 +8,12 @@ videoDescr: >-
   it.
 
 
-  * Back & forth emails with bits of information or changes attached 
+  * Back & forth emails with bits of information or changes attached
 
   * Hours lost in tracking down changes and comparing different versions of the
   same file
 
-  * Critical data accidentally deleted or lost along the way, often unnoticed 
+  * Critical data accidentally deleted or lost along the way, often unnoticed
 
   * Confidential and sensitive information leaked or exposed to unintended
   parties
@@ -24,6 +24,13 @@ videoDescr: >-
 
   **Visyond offers a secure, simple and modern way to share and work on
   spreadsheets together.**
+
+infoTitle: Header
+infoDescr: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+infoSubDescr: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
   - logo: /img/abrtwhite.png
@@ -44,7 +51,7 @@ feature:
     title: Low entry barrier
   - content: >-
       Share spreadsheets without worrying with advanced permission management
-      and self-documenting audit trail. 
+      and self-documenting audit trail.
     ico: /img/feature-icons-v1_10.png
     title: Full transparency
 howToPhoto: /img/client_3.jpg
@@ -142,4 +149,3 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
-
