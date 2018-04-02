@@ -9,7 +9,7 @@ export default class Landings extends React.Component {
         return (
         <div className="landing">
 
-            <div 
+            <div
                 className="landing-banner"
                 style={{ background:image && `url(${image}) center center no-repeat` }}
                 >
@@ -50,6 +50,25 @@ export default class Landings extends React.Component {
                 </div>
             </section>
 
+            <section class="landing-infographic">
+              <div class="container">
+
+                <h3 class="landing-infographic__title">
+                  { entry.getIn(['data', 'infoTitle']) }
+                </h3>
+                <p class="landing-infographic__descr">
+                  { entry.getIn(['data', 'infoDescr']) }
+                </p>
+                <div class="landing-infographic__wrapper">
+                  <img src={item.get('infoImg') && getAsset(item.get('infoImg'))} alt="infographic" class="landing-infographic__img"/>
+                </div>
+                <p class="landing-infographic__sub-descr">
+                  { entry.getIn(['data', 'infoSubDescr']) }
+                </p>
+
+              </div>
+            </section>
+
             <section className="landing-trusted">
                 <div className="container">
                     <h3 className="landing-trusted__title">Trusted by:</h3>
@@ -88,13 +107,13 @@ export default class Landings extends React.Component {
                 </div>
             </section>
 
-           
+
             <section className="landing-different">
                 <div className="container">
                     <h3 className="landing-title landing-title--landing-different">How Visyond is different</h3>
                     <div className="column-wrap">
                         <div className="column-6 different--left">
-                        
+
                         { widgetFor('howTo') }
                         </div>
                         <div className="column-6 different--right">
@@ -117,7 +136,7 @@ export default class Landings extends React.Component {
                         <a href="#" className="landing-btn landing-btn--landing-preview" aria-label="button">request a demo</a>
                     </div>
                 </div>
-            </section> 
+            </section>
 
             <section className="landing-casestudy">
                 <div className="container">
@@ -196,7 +215,7 @@ export default class Landings extends React.Component {
                     <h3 className="landing-title landing-title--landing-featured">As featured in</h3>
 
                     <ul className="landing-featured__list">
-                        {(entry.getIn(["data", "featured"]) || []).map((item, index) => { 
+                        {(entry.getIn(["data", "featured"]) || []).map((item, index) => {
                             return <li className="landing-featured__item" key={index}>
                                 <img src={ item.get('logo') && getAsset(item.get('logo'))} alt="" />
                             </li>
@@ -227,7 +246,7 @@ export default class Landings extends React.Component {
                             { entry.getIn(["data", "secondPricingSubTitle"]) }
                         </p>
                     </h4>
-                    
+
                     <ul className="pricing__list">
                         <li className="pricing__item">
                             <article className="pricing__card">
@@ -284,7 +303,7 @@ export default class Landings extends React.Component {
                                        return <li key={index}>
                                             {item.get('line')}
                                         </li>
-                                    })}   
+                                    })}
                                 </ul>
                                 <div className="landing-btn-wrap landing-btn-wrap--pricing">
                                     <a href="/signup/" className="landing-btn landing-btn--landing-preview" aria-label="button">get  quote</a>

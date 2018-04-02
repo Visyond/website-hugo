@@ -32,15 +32,14 @@ infoTitle: 'This is the infographics section! '
 infoDescr: |-
   **Visyond blah-blah-blah**
 
+  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
+infoImg: /img/infographic.jpg
+infoSubDescr: >-
+
   1. some
   2. text
-
-  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
-
   ![Deloitte-text](/img/Deloitte.png)
-infoSubDescr: |-
-  And also Visyond blah-blah-blah!
-
+  
   * Super nice
   * Very convenient
   * Save time!
