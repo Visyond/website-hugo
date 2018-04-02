@@ -29,10 +29,8 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
-infoDescr: |-
+infoDescr: |
   Visyond blah-blah-blah
-
-  ![undefined](/img/Visyond_VS_Infographic_Alexey-1.png)
 infoSubDescr: |-
   And also Visyond blah-blah-blah!
 
