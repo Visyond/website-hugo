@@ -2,7 +2,7 @@
 title: Sharing
 mainTitle: |-
   Simple & secure
-  Spreadsheet collaboration 
+  Spreadsheet collaboration
   software
 topImage: /img/banner.jpg
 videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
@@ -11,12 +11,12 @@ videoDescr: >-
   it.
 
 
-  * Back & forth emails with bits of information or changes attached 
+  * Back & forth emails with bits of information or changes attached
 
   * Hours lost in tracking down changes and comparing different versions of the
   same file
 
-  * Critical data accidentally deleted or lost along the way, often unnoticed 
+  * Critical data accidentally deleted or lost along the way, often unnoticed
 
   * Confidential and sensitive information leaked or exposed to unintended
   parties
@@ -33,13 +33,12 @@ infoDescr: |-
   **Visyond blah-blah-blah**
 
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
-infoImg: /img/infographic.jpg
 infoSubDescr: >-
 
   1. some
   2. text
   ![Deloitte-text](/img/Deloitte.png)
-  
+
   * Super nice
   * Very convenient
   * Save time!
@@ -67,7 +66,7 @@ feature:
     title: Low entry barrier
   - content: >-
       Share spreadsheets without worrying with advanced permission management
-      and self-documenting audit trail. 
+      and self-documenting audit trail.
     ico: /img/feature-icons-v1_10.png
     title: Full transparency
 howToPhoto: /img/client_3.jpg
@@ -165,4 +164,3 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
-
