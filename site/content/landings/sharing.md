@@ -5,7 +5,7 @@ mainTitle: |-
   Spreadsheet collaboration 
   software
 topImage: /img/banner.jpg
-videoTitle: ''
+videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
   Once a spreadsheet is sent - you have no control over who can access or modify
   it.
