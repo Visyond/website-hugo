@@ -26,10 +26,26 @@ videoDescr: >-
   spreadsheets together.**
 
 infoTitle: Header
-infoDescr: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+infoDescr: |
+  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
+
+
+  ## [**Data Input &
+  Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
+infoImg: /img/infographic.jpg
 infoSubDescr: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  * Back & forth emails with bits of information or changes attached
+
+  * Hours lost in tracking down changes and comparing different versions of the
+  same file
+
+  * Critical data accidentally deleted or lost along the way, often unnoticed
+
+  * Confidential and sensitive information leaked or exposed to unintended
+  parties
+
+  * As a result: millions of dollars lost due spreadsheet errors, litigation
+  risks, reputational damage...
 
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 trusted:
