@@ -1,6 +1,9 @@
 ---
 title: Sharing
-mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
+mainTitle: |-
+  Simple & secure
+  Spreadsheet collaboration 
+  software
 topImage: /img/banner.jpg
 videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
