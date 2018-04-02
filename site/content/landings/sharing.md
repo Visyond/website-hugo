@@ -1,6 +1,9 @@
 ---
 title: Sharing
-mainTitle: "Simple & secure\r\nSpreadsheet collaboration \nsoftware"
+mainTitle: |-
+  Simple & secure
+  Spreadsheet collaboration 
+  software
 topImage: /img/banner.jpg
 videoTitle: Sharing and collaborating on traditional spreadsheets can be cumbersome.
 videoDescr: >-
@@ -8,12 +11,12 @@ videoDescr: >-
   it.
 
 
-  * Back & forth emails with bits of information or changes attached
+  * Back & forth emails with bits of information or changes attached 
 
   * Hours lost in tracking down changes and comparing different versions of the
   same file
 
-  * Critical data accidentally deleted or lost along the way, often unnoticed
+  * Critical data accidentally deleted or lost along the way, often unnoticed 
 
   * Confidential and sensitive information leaked or exposed to unintended
   parties
@@ -24,30 +27,27 @@ videoDescr: >-
 
   **Visyond offers a secure, simple and modern way to share and work on
   spreadsheets together.**
+popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
+infoTitle: 'This is the infographics section! '
+infoDescr: |-
+  **Visyond blah-blah-blah**
 
-infoTitle: Header
-infoDescr: |
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
-
-
-  ## [**Data Input &
-  Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
 infoImg: /img/infographic.jpg
 infoSubDescr: >-
-  * Back & forth emails with bits of information or changes attached
 
-  * Hours lost in tracking down changes and comparing different versions of the
-  same file
+  1. some
+  2. text
+  ![Deloitte-text](/img/Deloitte.png)
+  
+  * Super nice
+  * Very convenient
+  * Save time!
 
-  * Critical data accidentally deleted or lost along the way, often unnoticed
+  but wait, there is more!
 
-  * Confidential and sensitive information leaked or exposed to unintended
-  parties
-
-  * As a result: millions of dollars lost due spreadsheet errors, litigation
-  risks, reputational damage...
-
-popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
+  1. aaa
+  2. bbb
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
@@ -67,7 +67,7 @@ feature:
     title: Low entry barrier
   - content: >-
       Share spreadsheets without worrying with advanced permission management
-      and self-documenting audit trail.
+      and self-documenting audit trail. 
     ico: /img/feature-icons-v1_10.png
     title: Full transparency
 howToPhoto: /img/client_3.jpg
@@ -165,3 +165,4 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
+
