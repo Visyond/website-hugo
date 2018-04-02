@@ -32,8 +32,13 @@ infoTitle: 'This is the infographics section! '
 infoDescr: |-
   Visyond blah-blah-blah
 
-  ![It is easier with Visyond](/img/Visyond_VS_Infographic_Alexey-1.png)
-infoSubDescr: And also Visyond blah-blah-blah!
+  ![undefined](/img/Visyond_VS_Infographic_Alexey-1.png)
+infoSubDescr: |-
+  And also Visyond blah-blah-blah!
+
+  * Super nice
+  * Very convenient
+  * Save time!
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
