@@ -30,9 +30,10 @@ videoDescr: >-
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
 infoDescr: |-
-  Visyond blah-blah-blah
+  **Visyond blah-blah-blah**
 
-  ![undefined](/img/Visyond_VS_Infographic_Alexey-1.png)
+  1. some
+  2. text
 infoSubDescr: |-
   And also Visyond blah-blah-blah!
 
