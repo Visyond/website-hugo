@@ -29,13 +29,15 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
-infoDescr: |
+infoDescr: |-
   **Visyond blah-blah-blah**
 
   1. some
   2. text
 
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
+
+  ![Deloitte-text](/img/Deloitte.png)
 infoSubDescr: |-
   And also Visyond blah-blah-blah!
 
