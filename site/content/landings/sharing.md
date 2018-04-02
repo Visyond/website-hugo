@@ -39,6 +39,11 @@ infoSubDescr: |-
   * Super nice
   * Very convenient
   * Save time!
+
+  but wait, there is more!
+
+  1. aaa
+  2. bbb
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
