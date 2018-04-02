@@ -40,6 +40,7 @@
         </div> <!-- ./banner -->
     </div>
 
+    {{ if .Params.VideoTitle }}
     <section class="landing-preview" id="overview">
         <div class="container column-wrap column-wrap--overview">
             <div class="column-6 overview--left">
@@ -63,7 +64,29 @@
             </div>
         </div>
     </section>
-    
+    {{ end }}
+
+    <section class="landing-infographic">
+      <div class="container">
+
+        <h3 class="landing-infographic__title">
+          {{ .Params.InfoTitle }}
+        </h3>
+        <p class="landing-infographic__descr">
+          {{ .Params.InfoDescr }}
+        </p>
+        <div class="landing-infographic__wrapper">
+          <!-- temporary -->
+          <img src="/img/infographic.jpg" alt="infographic" class="landing-infographic__temporary" width="100%">
+          <!-- ./temporary -->
+        </div>
+        <p class="landing-infographic__sub-descr">
+          {{ .Params.infoSubDescr }}
+        </p>
+
+      </div>
+    </section>
+
     <section class="landing-trusted">
         <!-- <div class="container"> -->
             <h3 class="landing-trusted__title">Trusted by:</h3>
@@ -103,7 +126,7 @@
         </div>
     </section>
     {{ end }}
-    
+
 
     {{ if .Params.Feature }}
     <section class="landing-features">
@@ -133,7 +156,7 @@
 
     {{ if .Params.Case }}
     <section class="landing-casestudy" id="casestudies">
-        
+
         <div class="container">
             <h3 class="landing-title landing-title--landing-casestudy">Case study</h3>
 
@@ -179,9 +202,9 @@
     </section> <!-- ./landing-different -->
     {{ end }}
 
-    
-   
-    
+
+
+
     {{ if .Params.Challenge }}
     <section class="landing-challenge">
         <div class="container">
@@ -202,9 +225,9 @@
         </div>
     </section>
     {{ end }}
-    
-    
-    
+
+
+
     {{ if .Params.Featured }}
     <section class="landing-featured">
         <div class="container">
@@ -230,7 +253,7 @@
         </div>
     </section>
     {{ end }}
-    
+
 
     <section class="pricing" id="pricing">
         <div class="container">
@@ -238,7 +261,7 @@
             <h4 class="pricing__subtitle">{{ .Params.FirstPricingSubTitle }}
                 <p>{{ .Params.SecondPricingSubTitle }}</p>
             </h4>
-            
+
             <ul class="pricing__list">
                 <li class="pricing__item pricing__item--left">
                     <article class="pricing__card">
@@ -305,7 +328,7 @@
             </div>
         </div>
     </section>
-    
+
 
 <div class="banner-modal">
     <div class="banner-modal__container">
