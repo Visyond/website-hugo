@@ -28,10 +28,14 @@ videoDescr: >-
   **Visyond offers a secure, simple and modern way to share and work on
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
-infoTitle: 'This is the infographics section! '
+
+infoTitle: This is the infographics section!
 infoDescr: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 infoImg: /img/infographic.jpg
 infoSubDescr: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
