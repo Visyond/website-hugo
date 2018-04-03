@@ -29,9 +29,9 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
-infoDescr: >-
-infoImg: /img/infographic.jpg
-infoSubDescr: >-
+infoDescr: ''
+infoImg: /img/2.png
+infoSubDescr: ''
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
@@ -149,3 +149,4 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
+
