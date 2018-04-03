@@ -55,6 +55,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - { label: "Infographic title", name: "infoTitle", widget: "string", required: false }
       - { label: "Infographic descr", name: "infoDescr", widget: "markdown", required: false }
+      - { label: "Infografic image", name: "infoImg", widget: "image", required: false }
       - { label: "Infographic sub descr", name: "infoSubDescr", widget: "markdown", required: false }
 
       - { label: "Trusted by", name: "trusted", widget: "list",

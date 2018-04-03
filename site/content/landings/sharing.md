@@ -29,24 +29,9 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
-infoDescr: |-
-  **Visyond blah-blah-blah**
-
-  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
+infoDescr: >-
+infoImg: /img/infographic.jpg
 infoSubDescr: >-
-
-  1. some
-  2. text
-  ![Deloitte-text](/img/Deloitte.png)
-
-  * Super nice
-  * Very convenient
-  * Save time!
-
-  but wait, there is more!
-
-  1. aaa
-  2. bbb
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
