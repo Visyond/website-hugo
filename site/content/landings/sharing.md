@@ -29,7 +29,11 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
-infoDescr: ''
+infoDescr: |-
+  1. hello
+  2. world
+
+  **some** _text_
 infoImg: /img/infographic.jpg
 infoSubDescr: ''
 trusted:
