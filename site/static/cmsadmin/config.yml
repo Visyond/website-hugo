@@ -52,16 +52,11 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Video title", name: "videoTitle", widget: "string", required: false }
       - { label: "Video descr", name: "videoDescr", widget: "markdown", required: false }
       - { label: "Video url", name: "popupUrl", widget: "string", required: false }
-
-      - { label: "Infographic", name: "infographic", widget: "list" ,
-      fields: [
-        { label: "Infographic title", name: "infoTitle", widget: "string" },
-        { label: "Infographic descr", name: "infoDescr", widget: "markdown" },
-        { label: "Infografic image", name: "infoImg", widget: "image" },
-        { label: "Infographic sub descr", name: "infoSubDescr", widget: "markdown" }
-      ],
-      required: "false" }
-
+      
+      - { label: "Infographic title", name: "infoTitle", widget: "string", required: false }
+      - { label: "Infographic descr", name: "infoDescr", widget: "markdown", required: false }
+      - { label: "Infografic image", name: "infoImg", widget: "image", required: false }
+      - { label: "Infographic sub descr", name: "infoSubDescr", widget: "markdown", required: false }
 
       - { label: "Trusted by", name: "trusted", widget: "list",
         fields: [
