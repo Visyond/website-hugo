@@ -28,8 +28,14 @@ videoDescr: >-
   **Visyond offers a secure, simple and modern way to share and work on
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
+infoTitle: 'This is the infographics section! '
+infoDescr: |-
+  1. hello
+  2. world
 
-
+  **some** _text_
+infoImg: /img/infographic.jpg
+infoSubDescr: ''
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
@@ -147,3 +153,4 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
+
