@@ -30,7 +30,7 @@ videoDescr: >-
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: 'This is the infographics section! '
 infoDescr: ''
-infoImg: /img/2.png
+infoImg: /img/4.jpg
 infoSubDescr: ''
 trusted:
   - logo: /img/abrtwhite.png
