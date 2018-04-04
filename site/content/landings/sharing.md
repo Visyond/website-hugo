@@ -40,6 +40,7 @@ infoSubDescr: |-
 
   1. insert 
   2. image
+  3. test
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
