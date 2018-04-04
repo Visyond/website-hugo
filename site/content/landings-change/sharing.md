@@ -30,7 +30,7 @@ videoDescr: >-
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 
 infoTitle: This is the infographics section!
-infoDescr: |-
+infoDescr: >-
   1. hello
   2. world
   **some**
@@ -156,4 +156,3 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/Deloitte.png
 ---
-
