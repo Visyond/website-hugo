@@ -32,6 +32,8 @@ infoTitle: This is the infographics section!
 infoDescr: |-
   **some text**
 
+
+
   1. first
   2. second
   3. third
