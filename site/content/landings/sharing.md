@@ -39,6 +39,8 @@ infoSubDescr: |-
   2. second
   3. third
 
+
+
   **some** _text_
 trusted:
   - logo: /img/abrtwhite.png
