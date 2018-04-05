@@ -81,7 +81,7 @@
           <!-- ./temporary -->
         </div>
         <p class="landing-infographic__sub-descr">
-          {{ .Params.InfoSubDescr }}
+          {{ .Params.InfoSubDescr | markdownify }}
         </p>
       </div>
     </section>
