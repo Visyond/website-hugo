@@ -32,11 +32,10 @@ infoTitle: This is the infographics section!
 infoDescr: |-
   **some text**
 
-
-
   1. first
   2. second
   3. third
+  4. fourth
 infoImg: /img/infographic.jpg
 infoSubDescr: |-
   1. first
