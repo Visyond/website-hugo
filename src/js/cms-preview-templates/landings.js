@@ -57,13 +57,13 @@ export default class Landings extends React.Component {
                   { entry.getIn(['data', 'infoTitle']) }
                 </h3>
                 <p className="landing-infographic__descr">
-                  { widgetFor('infoDescr') }
+                  { entry.getIn(['data', 'infoDescr']) }
                 </p>
                 <div className="landing-infographic__wrapper">
                   <img src={ entry.getIn(['data', 'infoImg']) } alt="infographic" className="landing-infographic__img"/>
                 </div>
                 <p className="landing-infographic__sub-descr">
-                  { widgetFor('infoSubDescr') }
+                  { entry.getIn(['data', 'infoSubDescr']) }
                 </p>
 
               </div>
