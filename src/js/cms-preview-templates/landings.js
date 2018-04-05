@@ -50,19 +50,19 @@ export default class Landings extends React.Component {
                 </div>
             </section>
 
-            <section class="landing-infographic">
-              <div class="container">
+            <section className="landing-infographic">
+              <div className="container">
 
-                <h3 class="landing-infographic__title">
+                <h3 className="landing-infographic__title">
                   { entry.getIn(['data', 'infoTitle']) }
                 </h3>
-                <p class="landing-infographic__descr">
+                <p className="landing-infographic__descr">
                   { widgetFor('infoDescr') }
                 </p>
-                <div class="landing-infographic__wrapper">
-                  <img src={ entry.getIn(['data', 'infoImg']) } alt="infographic" class="landing-infographic__img"/>
+                <div className="landing-infographic__wrapper">
+                  <img src={ entry.getIn(['data', 'infoImg']) } alt="infographic" className="landing-infographic__img"/>
                 </div>
-                <p class="landing-infographic__sub-descr">
+                <p className="landing-infographic__sub-descr">
                   { widgetFor('infoSubDescr') }
                 </p>
 
