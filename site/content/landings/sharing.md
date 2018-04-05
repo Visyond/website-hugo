@@ -36,7 +36,7 @@ infoDescr: |-
   _text_
 infoImg: /img/infographic.jpg
 infoSubDescr: |-
-  ![image](/img/casestudy.png)
+  ![delo](/img/delo1.png)
 
   1. insert 
   2. image
