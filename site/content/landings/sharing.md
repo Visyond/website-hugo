@@ -32,8 +32,9 @@ infoTitle: This is the infographics section!
 infoDescr: |-
   1. hello
   2. world
-  **some**
-  _text_
+     **some**
+     _text_
+  3. _**home**_
 infoImg: /img/infographic.jpg
 infoSubDescr: |-
   ![delo](/img/delo1.png)
