@@ -34,7 +34,12 @@ infoDescr: |-
   2. second
   3. third
 infoImg: /img/infographic.jpg
-infoSubDescr: '**some** _text_'
+infoSubDescr: |-
+  1. first
+  2. second
+  3. third
+
+  **some** _text_
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
