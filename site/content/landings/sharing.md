@@ -29,15 +29,12 @@ videoDescr: >-
   spreadsheets together.**
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: This is the infographics section!
-infoDescr: |-
-  some text
-
-  second text
+infoDescr: '**some text**'
 infoImg: /img/infographic.jpg
 infoSubDescr: |-
-  1. first
-  2. second
-  3. third
+  * first
+  * second
+  * third
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
