@@ -30,19 +30,14 @@ videoDescr: >-
 popupUrl: 'https://www.youtube.com/embed/mIOudZrtVRs'
 infoTitle: This is the infographics section!
 infoDescr: |-
-  **some text**
+  some text
 
-  1. first
-  2. second
+  second text
 infoImg: /img/infographic.jpg
 infoSubDescr: |-
   1. first
   2. second
   3. third
-
-
-
-  **some** _text_
 trusted:
   - logo: /img/abrtwhite.png
   - logo: /img/delowhite.png
