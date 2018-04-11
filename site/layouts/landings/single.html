@@ -72,17 +72,17 @@
         <h3 class="landing-infographic__title">
           {{ .Params.InfoTitle }}
         </h3>
-        <p class="landing-infographic__descr">
+        <div class="landing-infographic__descr">
           {{ .Params.InfoDescr | markdownify}}
-        </p>
+        </div>
         <div class="landing-infographic__wrapper">
           <!-- temporary -->
-          <img src="{{ .Params.InfoImg }}" class="landing-infographic__img" width="100%">
+          <img src="{{ .Params.InfoImg }}" class="landing-infographic__img">
           <!-- ./temporary -->
         </div>
-        <p class="landing-infographic__sub-descr">
+        <div class="landing-infographic__sub-descr">
           {{ .Params.InfoSubDescr | markdownify }}
-        </p>
+        </div>
       </div>
     </section>
 
