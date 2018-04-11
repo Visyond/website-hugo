@@ -299,6 +299,7 @@
 
 .landing-infographic__wrapper {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .landing-infographic__descr,
@@ -312,6 +313,7 @@
 .landing-infographic__img {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 
