@@ -289,7 +289,8 @@
   line-height: 42px;
   font-weight: 700;
   text-align: center;
-  color: rgba(81,84,107,.8);
+  /* color: rgba(81,84,107,.8); */
+  color: orange;
   margin-bottom: 30px;
 
   @media screen and (max-width: 768px) {
