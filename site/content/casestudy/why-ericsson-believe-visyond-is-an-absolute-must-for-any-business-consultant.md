@@ -32,6 +32,7 @@ third_solution: "![Data Input & Consolidation](/img/feature-icons-v1_13.png)\r\n
 ## Before Visyond
 
 Kedar, a seasoned modeler, has been working with large telecom customers for many years. The business environment he is immersed in requires quick turnaround in business model changes and active collaboration with the clients. However, using the combination of Excel and e-mails/calls as primary tools was not always efficient:
+
 * Understanding the logic and calculations and debugging was troublesome at times, especially when working on complex models spanning multiple worksheets.
 * It was hard to keep track of all the changes and versions of the spreadsheet after sharing the initial version with the client. Then the client would make the changes in their copy and send it back to Kedar who had incorporate them into a single document every time and then share with the client again.
 * Building 7 Waterfall charts took on average 2 days, and an update could easily consume half a day.
@@ -44,6 +45,7 @@ Kedar, a seasoned modeler, has been working with large telecom customers for man
 >With Excel, it took me days to prepare numbers and put them into an insightful presentation. With Visyond, I can change anything on the fly, it audits and points out errors, and I can carry out what-if analysis from interactive slides.
 
 ## After Visyond
+
 Visyond provided the convenient tool to build reliable models, quickly perform advanced analyses and effectively communicate with the customers in a single controlled space, while allowing the clients to test their assumptions without breaking the model or risk losing any data.
 
 > Visyond has greatly improved my productivity by reducing modeling time by more than 70%. This allowed me to spend more time on business impact than intricacies of excel modeling.
