@@ -2,7 +2,8 @@
 title: Why Ericsson believe Visyond is an absolute must for any business consultant
 image: /img/topImgCase.jpg
 tooltip:
-  - title: 'Industry: Telecom & Sales'
+  - title: 'Industry: Telecom'
+  - title: 'Function: Sales'
   - title: 'Use Cases: Business Impact Modeling, Analysis, Presentation'
 client: /img/Kedar Thakar case study image.jpg
 client_ask: >-
