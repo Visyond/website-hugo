@@ -1,5 +1,5 @@
 ---
-url: home
+url: /home
 title: Home title
 ---
 * some
