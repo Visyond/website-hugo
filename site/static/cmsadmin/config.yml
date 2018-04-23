@@ -173,6 +173,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Home-new"
     folder: "site/content/home-new/"
     fields:
+      - { label: "Home New", name: home-new, widget: hidden, default: "/home-new.html" }
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Page url", name: "url", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
