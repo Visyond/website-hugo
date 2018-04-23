@@ -1,6 +1,6 @@
 ---
 url: /home
-title: Home title
+title: home
 ---
 * some
 * text
