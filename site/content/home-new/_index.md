@@ -1,5 +1,5 @@
 ---
-url: /home_new
+url: /homenew
 title: new home page 2
 ---
 * some
