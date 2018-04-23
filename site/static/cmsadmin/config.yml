@@ -171,6 +171,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "products"
     label: "Pages"
+    folder: "site/content"
     files:
       - file: "site/content/contacts.md"
         label: "Contacts page"
