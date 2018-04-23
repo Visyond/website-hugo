@@ -169,6 +169,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
+  - name: "home"
+    label: "home"
+    folder: "site/content/home/_index.md"
+    fields:
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Page url", name: "url", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: "products"
     label: "Pages"
     files:
