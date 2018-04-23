@@ -171,7 +171,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "home-new"
     label: "home-new"
-    folder: "site/content/home-new/_index.md"
+    file: "site/content/home-new/_index.md"
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Page url", name: "url", widget: "string"}
