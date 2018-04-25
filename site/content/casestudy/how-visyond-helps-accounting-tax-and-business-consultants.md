@@ -9,7 +9,7 @@ tooltip:
 client: /img/logo_small.png
 client_ask: "Financial and business consultancy is a multi-layered and sophisticated endeavor that demands a great degree of accuracy and responsibility across all business activities.\r\n\nThe surface, or ‘client-facing’, layer has to have a definitive answer to the challenges of **handling of sensitive information**, **management of clients’ expectations**, and **continuous communication** process with the clients among others.\r\n\nAs even the fastest sports car in the world cannot reach its top speed if the engine is not carefully calibrated, consulting businesses cannot reach their full potential and effectiveness in communicating the value that their insights bring on the table if the a company’s ‘inner layers’ workings are not finely-tuned and efficient.\r\n"
 aside:
-  - content: '![Visyond](/img/logo_small.png)'
+  - content: '![Visyond](/img/logo_color.png)'
   - content: "**Use Cases**\r\n\r\n* Clients management\r\n* Selective sharing of slides, dashboards, apps, presentations\r\n* Collaborative 'what-if' and scenario analysis (productivity)"
   - content: |-
       **Stakeholders**
