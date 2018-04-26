@@ -10,7 +10,7 @@ public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "solutions"
-    label: "Solutions" 
+    label: "Solutions"
     folder: "site/content/solutions"
     create: true
     fields: # The fields each document in this collection have
@@ -21,7 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Menu", name: "menu", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  
+
   - name: "casestudy"
     label: "Case Study"
     folder: "site/content/casestudy"
@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "First solution", name: "first_solution", widget: "markdown", required: false}
       - {label: "Second solution", name: "second_solution", widget: "markdown", required: false}
       - {label: "Third solution", name: "third_solution", widget: "markdown", required: false}
-  
+
   - name: "landings"
     label: "Landings"
     folder: "site/content/landings"
@@ -48,10 +48,16 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Top Title", name: "title", widget: "string", required: true }
       - { label: "Title", name: "mainTitle", widget: "markdown", required: true }
       - { label: "Top image", name: "topImage", widget: "image", required: true }
+
       - { label: "Video title", name: "videoTitle", widget: "string", required: false }
       - { label: "Video descr", name: "videoDescr", widget: "markdown", required: false }
-      
-      - { label: "Video url", name: "popupUrl", widget: "string", required: false }      
+      - { label: "Video url", name: "popupUrl", widget: "string", required: false }
+
+      - { label: "Infographic title", name: "infoTitle", widget: "string", required: false }
+      - { label: "Infographic descr", name: "infoDescr", widget: "markdown", required: false }
+      - { label: "Infografic image", name: "infoImg", widget: "image", required: false }
+      - { label: "Infographic sub descr", name: "infoSubDescr", widget: "markdown", required: false }
+
       - { label: "Trusted by", name: "trusted", widget: "list",
         fields: [
           {label: "logo", name: "logo", widget: "image"}
@@ -59,10 +65,10 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - { label: "Feature title", name: "featureTitle", widget: "string", required: false }      
+      - { label: "Feature title", name: "featureTitle", widget: "string", required: false }
       - { label: "Features", name: "feature", widget: "list",
         fields: [
-          {label: "Title", name: "title", widget: "string"},          
+          {label: "Title", name: "title", widget: "string"},
           {label: "Description", name: "content", widget: "string"},
           {label: "Icon", name: "ico", widget: "image"}
         ],
@@ -120,7 +126,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      
+
       - { label: "Middle card title", name: "middleCardTitle", widget: "string", required: false }
       - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: false }
       - { label: "Middle card point", name: "middleCardPoint", widget: "list",
@@ -129,7 +135,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-      
+
       - { label: "Right card title", name: "rightCardTitle", widget: "string", required: false }
       - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: false }
       - { label: "Right card point", name: "RightCardPoint", widget: "list",
@@ -147,10 +153,22 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Page url", name: "url", widget: "string"}      
+      - {label: "Page url", name: "url", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "testpages"
+    label: "Testpages"
+    folder: "site/content/testpages"
+    create: true
+    fields:
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Page url", name: "url", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
 
   - name: "products"
     label: "Pages"
@@ -197,10 +215,10 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
-          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }       
+          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: "Page title", name: "title", widget: hidden }
           - { label: "Card title", name: "cardTitle", widget: "markdown" }
-          - { label: Cards, name: "cards", widget: list, fields: [  
+          - { label: Cards, name: "cards", widget: list, fields: [
               { label: "Card title", name: "cardTitle", widget: "string" },
               { label: "Card background", name: "cardBackground", widget: "image" },
               { label: "Card icon", name: "cardIcon", widget: "image" },

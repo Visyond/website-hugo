@@ -225,7 +225,7 @@
     transition: background .1s ease-in-out;
     font-weight: 300;
     border-radius: 6px;
-    
+
     &:hover {
         background: rgb(4, 118, 224);
     }
@@ -275,6 +275,51 @@
 
 /**
 *
+* Landing infographic
+*
+**/
+
+.landing-infographic {
+  background: #f5f6f9;
+  padding: 75px 0;
+}
+
+.landing-infographic__title {
+  font-size: 29px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(81,84,107,.8);
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 768px) {
+      font-size: 22px;
+  }
+}
+
+.landing-infographic__wrapper {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.landing-infographic__descr,
+.landing-infographic__sub-descr {
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(94,111,133,.9);
+  margin-bottom: 20px;
+}
+
+.landing-infographic__img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+/**
+*
 * Trusted
 *
 **/
@@ -315,6 +360,7 @@
         margin-top: 15px;
     }
 }
+
 .landing-trusted__item {
     width: 19%;
     margin-top: 20px;
@@ -325,6 +371,7 @@
         width: 150px;
     }
 }
+
 .landing-trusted__img {
     max-width: 80%;
     display: block;
@@ -426,7 +473,7 @@
 .column-wrap--different {
     @media screen and (max-width: 1021px) {
         flex-flow: column nowrap;
-    }  
+    }
 }
 .different--left {
     color: #5f6976;
@@ -567,7 +614,7 @@
     flex-flow: row wrap;
 
     @media screen and (max-width: 768px) {
-        flex-direction: column;   
+        flex-direction: column;
     }
 }
 
@@ -620,7 +667,7 @@
 }
 
 .landing-title--landing-challenge {
-    text-align: center; 
+    text-align: center;
 }
 
 .landing-challenge__list {
@@ -694,7 +741,7 @@
 }
 
 .landing-title--landing-features-reverse {
-    text-align: center; 
+    text-align: center;
     margin-bottom: 0;
 }
 .landing-features-reverse__item-wrap {
@@ -728,7 +775,7 @@
     align-items: center;
     justify-content: center;
 
-    
+
 }
 .landing-features-reverse__img-container {
     margin: 0;
@@ -857,7 +904,7 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    
+
     position: absolute;
     width: 100%;
     bottom: 50px;
@@ -884,8 +931,8 @@
     text-align: center;
     color: #292b38;
     font-style: italic;
-    line-height: 25px; 
-    
+    line-height: 25px;
+
     &:before, &:after {
         content: "";
         transform: scale(1.5);
@@ -898,7 +945,7 @@
         left: 50%;
     }
     &:before {
-        
+
         top: -25px;
     }
     &:after {
@@ -912,7 +959,7 @@
 *
 **/
 
-.pricing { 
+.pricing {
     padding: 75px 0;
     background: #f5f6f9;
     @media screen and (max-width: 1024px) {
