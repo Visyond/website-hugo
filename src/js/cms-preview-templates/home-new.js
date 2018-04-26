@@ -11,11 +11,11 @@ export default class HomeNew extends React.Component {
 
               <div className="nh-top">
                 <h2 className="nh-top__title">
-                  { entry.getIn(['data', 'infoTitle']) }
+                  { entry.getIn(['data', 'topTitle']) }
                 </h2>
 
                 <div className="nh-top__under-title">
-                  Visyond is a collaborative speadsheet platform that reduced security threats and errors, speeds up the decision making process, adds secure selective sharing, data traking
+                  { entry.getIn(['data', 'topSubTitle']) }
                 </div>
 
                 <div className="nh-top__btns-wrap">
