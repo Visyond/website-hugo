@@ -3,7 +3,7 @@ import format from 'date-fns/format';
 export default class HomeNew extends React.Component {
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
-        let image = getAsset(entry.getIn(["data", "topImage"]));
+        // let image = getAsset(entry.getIn(["data", "topImage"]));
 
         return (
             <div>
@@ -38,7 +38,10 @@ export default class HomeNew extends React.Component {
 
                 <div className="nh-trusted__logos-wrap">
                   {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
-                      return <img src={ entry.getIn(['data', 'trustedLogo']) } className="landing-trusted__img" key={index}/>
+                      return <li key={index}>
+                        <img src={ entry.getIn(['data', 'trustedLogo']) } className="landing-trusted__img"/>
+                      </li>
+
                   })}
                 </div>
               </section>
