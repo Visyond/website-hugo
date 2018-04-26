@@ -22,22 +22,20 @@
         </button>
       </div>
 
-      <img src="/img/391.jpg" alt="image" class="nh-top__img">
+      <img src="{{ .Params.TopImage }}" alt="image" class="nh-top__img">
     </div>
     <!-- ./top section -->
 
     <!-- trusted section -->
     <section class="nh-trusted">
       <h3 class="nh-trusted__title">
-        trusted by
+        {{ .Params.TrustedTitle }}
       </h3>
 
       <div class="nh-trusted__logos-wrap">
-        <img src="/img/home/elt.png" alt="elt electronica">
-        <img src="/img/home/ericsson.png" alt="ericsson">
-        <img src="/img/home/deloitte.png" alt="deloitte">
-        <img src="/img/home/abrt.png" alt="abrt">
-        <img src="/img/home/jebg.png" alt="jebg">
+        {{ range $el := .Params.TrustedLogos }}
+          <img src="{{ $el.trustedLogo }}" alt="logo">
+        {{ end }}
       </div>
     </section>
     <!-- ./trusted section -->
