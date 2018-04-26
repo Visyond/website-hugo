@@ -11,12 +11,12 @@ export default class HomeNew extends React.Component {
 
               <div className="nh-top">
                 <h2 className="nh-top__title">
-                  single source of truth for your spreadsheets
+                  { entry.getIn(['data', 'infoTitle']) }
                 </h2>
 
-                <p className="nh-top__under-title">
+                <div className="nh-top__under-title">
                   Visyond is a collaborative speadsheet platform that reduced security threats and errors, speeds up the decision making process, adds secure selective sharing, data traking
-                </p>
+                </div>
 
                 <div className="nh-top__btns-wrap">
                   <button className="nh-link nh-link--sign-up">

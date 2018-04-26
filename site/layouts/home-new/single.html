@@ -5,12 +5,12 @@
     <!-- top section -->
     <div class="nh-top">
       <h2 class="nh-top__title">
-        single source of truth for your spreadsheets
+        {{ .Params.TopTitle }}
       </h2>
 
-      <p class="nh-top__under-title">
-        Visyond is a collaborative speadsheet platform that reduced security threats and errors, speeds up the decision making process, adds secure selective sharing, data traking
-      </p>
+      <div class="nh-top__under-title">
+        {{ .Params.TopSubTitle }}
+      </div>
 
       <div class="nh-top__btns-wrap">
         <button class="nh-link nh-link--sign-up">
