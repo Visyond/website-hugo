@@ -7,7 +7,7 @@ topImage: /img/home_page_illustration_concept.png
 trustedTitle: trusted by
 trustedLogos:
   - trustedLogo: /img/abrt.png
-  - trustedLogo: /img/deloitte.png
+  - trustedLogo: /img/elt.png
   - trustedLogo: /img/ericsson.png
 ---
 
