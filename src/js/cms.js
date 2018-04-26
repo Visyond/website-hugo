@@ -8,6 +8,7 @@ import TestPages from './cms-preview-templates/testpages';
 import CaseStudy from './cms-preview-templates/casestudy';
 import Landings from './cms-preview-templates/landings';
 import Home from "./cms-preview-templates/home";
+import HomeNew from "./cms-preview-templates/home-new";
 import Contacts from "./cms-preview-templates/contacts";
 import CaseStudies from "./cms-preview-templates/casestudies";
 
@@ -32,6 +33,7 @@ CMS.registerPreviewTemplate("testpages", TestPages);
 CMS.registerPreviewTemplate("casestudy", CaseStudy);
 CMS.registerPreviewTemplate("landings", Landings);
 CMS.registerPreviewTemplate("home", Home);
+CMS.registerPreviewTemplate("home-new", HomeNew);
 CMS.registerPreviewTemplate("contacts", Contacts);
 CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerWidget("color", ColorControl);
