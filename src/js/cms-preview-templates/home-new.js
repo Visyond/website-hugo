@@ -86,7 +86,7 @@ export default class HomeNew extends React.Component {
                     </h3>
 
                     <p className="nh-info__block-descr">
-                      ...as a team without the risk of accidentally overriding data or formulas with Visyond's <span>granular permissions control</span>, support of different coexisting cases, <span>scenario comparison</span>, dependency & errors root cause analysis.
+                      ...as a team without the risk of accidentally overriding data or formulas with Visyonds <span>granular permissions control</span>, support of different coexisting cases, <span>scenario comparison</span>, dependency & errors root cause analysis.
                     </p>
 
                     <button className="nh-link nh-link--learn-more">
@@ -108,7 +108,7 @@ export default class HomeNew extends React.Component {
                     </h3>
 
                     <p className="nh-info__block-descr">
-                      ...and <span>in a few clicks gain valuable insights</span> by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyond's interactive slides and <span>share only what each stakeholder needs to see</span>.
+                      ...and <span>in a few clicks gain valuable insights</span> by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyonds interactive slides and <span>share only what each stakeholder needs to see</span>.
                     </p>
 
                     <button className="nh-link nh-link--learn-more">
