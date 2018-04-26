@@ -28,20 +28,18 @@ export default class HomeNew extends React.Component {
                   </button>
                 </div>
 
-                <img src="/img/391.jpg" alt="image" className="nh-top__img"/>
+                <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="nh-top__img"/>
               </div>
 
               <section className="nh-trusted">
                 <h3 className="nh-trusted__title">
-                  trusted by
+                  { entry.getIn(['data', 'trustedTitle']) }
                 </h3>
 
                 <div className="nh-trusted__logos-wrap">
-                  <img src="/img/home/elt.png" alt="elt electronica"/>
-                  <img src="/img/home/ericsson.png" alt="ericsson"/>
-                  <img src="/img/home/deloitte.png" alt="deloitte"/>
-                  <img src="/img/home/abrt.png" alt="abrt"/>
-                  <img src="/img/home/jebg.png" alt="jebg"/>
+                  {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
+                      return <img src={item.get("trutrustedLogo") && getAsset(item.get("trustedLogo"))} className="landing-trusted__img"/>
+                  })}
                 </div>
               </section>
 

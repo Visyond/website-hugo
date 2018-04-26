@@ -164,11 +164,17 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      # - {label: "Page url", name: "url", widget: "string"}
-      - {label: "Title", name: "topTitle", widget: "string", required: true}
-      - {label: "Sub Title", name: "topSubTitle", widget: "string", required: true}
-      # - {label: "Image", name: "image", widget: "image", required: false}
-      # - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "string", required: true}
+      - {label: "Top Image", name: "topImage", widget: "image", required: false}
+
+      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
+      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
+        fields: [
+          {label: "Logo", name: "trustedLogo", widget: "image"}
+        ],
+        required: false,
+      }
 
   - name: "testpages"
     label: "Testpages"
