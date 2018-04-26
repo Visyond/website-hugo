@@ -81,7 +81,7 @@ There are many challenges in daily routine operations of a consultant:
 
 ## After Visyond
 
-* Visyond acts a repository for all the information: raw data, calculations and relations between data, versions, comments, attachments, and approval. Having a **single source of truth** dramatically reduces time spent on communication and data consolidation.
+* Visyond acts as a repository for all the information: raw data, calculations and relations between data, versions, comments, attachments, and approval. Having a **single source of truth** dramatically reduces time spent on communication and data consolidation.
 * With the help of Visyond's **role-based permission system** and **Selective Sharing** that allows to limit access down to individual cells or just a single slide, the risk of data leaks is greatly mitigated.
 * Different **cases and scenarios co-exist** in a single document and can be switched at any time without breaking the model or any calculations.
 * It takes **just a few minutes to complete Scenario Analysis**, and it can be updated easily on-the-fly.
