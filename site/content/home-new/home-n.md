@@ -5,5 +5,8 @@ topSubTitle: >-
   and errors
 topImage: /img/2.png
 trustedTitle: trusted by
+trustedLogos:
+  - trustedLogo: /img/elt.png
+  - trustedLogo: /img/ericsson.png
 ---
 
