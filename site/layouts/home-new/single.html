@@ -32,11 +32,13 @@
         {{ .Params.TrustedTitle }}
       </h3>
 
-      <div class="nh-trusted__logos-wrap">
+      <ul class="nh-trusted__logos-wrap">
         {{ range $el := .Params.TrustedLogos }}
-          <img src="{{ $el.trustedLogo }}" alt="logo">
+        <li>
+          <img src="{{ $el.TrustedLogo }}" alt="logo">
+        </li>
         {{ end }}
-      </div>
+      </ul>
     </section>
     <!-- ./trusted section -->
 
