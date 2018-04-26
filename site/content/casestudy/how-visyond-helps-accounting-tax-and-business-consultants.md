@@ -7,7 +7,7 @@ tooltip:
       Use Cases: Clients Management, Collaborative Scenario Analysis, Selective
       Sharing
 client: /img/logo_small.png
-client_ask: "Financial and business consultancy is a multi-layered and sophisticated endeavor that demands a great degree of accuracy and responsibility across all business activities.\r\n\nThe surface, or ‘client-facing’, layer has to have a definitive answer to the challenges of **handling of sensitive information**, **management of clients’ expectations**, and **continuous communication** process with the clients among others.\r\n\nAs even the fastest sports car in the world cannot reach its top speed if the engine is not carefully calibrated, consulting businesses cannot reach their full potential and effectiveness in communicating the value that their insights bring on the table if the a company’s ‘inner layers’ workings are not finely-tuned and efficient.\r\n"
+client_ask: "Financial and business consultancy is a multi-layered and sophisticated endeavor that demands a great degree of accuracy and responsibility across all business activities.\r\n\nThe surface, or ‘client-facing’, layer has to have definitive answers to the challenges of **handling of sensitive information**, **management of clients’ expectations**, and **continuous communication** process with the clients among others.\r\n\nAs even the fastest sports car in the world cannot reach its top speed if the engine is not carefully calibrated, consulting businesses cannot reach their full potential and effectiveness in communicating the value that their insights bring on the table if a company’s ‘inner layers workings' are not finely-tuned and efficient.\r\n"
 aside:
   - content: '![Visyond](/img/logo_color.png)'
   - content: "**Use Cases**\r\n\r\n* Clients management\r\n* Selective sharing of slides, dashboards, apps, presentations\r\n* Collaborative 'what-if' and scenario analysis (productivity)"
@@ -81,7 +81,7 @@ There are many challenges in daily routine operations of a consultant:
 
 ## After Visyond
 
-* Visyond acts a repository for all the information: raw data, calculations and relations between data, versions, comments, attachments, and approval. Having a **single source of truth** dramatically reduces time spent on communication and data consolidation.
+* Visyond acts as a repository for all the information: raw data, calculations and relations between data, versions, comments, attachments, and approval. Having a **single source of truth** dramatically reduces time spent on communication and data consolidation.
 * With the help of Visyond's **role-based permission system** and **Selective Sharing** that allows to limit access down to individual cells or just a single slide, the risk of data leaks is greatly mitigated.
 * Different **cases and scenarios co-exist** in a single document and can be switched at any time without breaking the model or any calculations.
 * It takes **just a few minutes to complete Scenario Analysis**, and it can be updated easily on-the-fly.
