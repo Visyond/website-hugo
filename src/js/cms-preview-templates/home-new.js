@@ -38,7 +38,7 @@ export default class HomeNew extends React.Component {
 
                 <div className="nh-trusted__logos-wrap">
                   {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
-                      return <img src={item.get("trutrustedLogo") && getAsset(item.get("trustedLogo"))} className="landing-trusted__img"/>
+                      return <img src={ entry.getIn(['data', 'trustedLogo']) } className="landing-trusted__img" key={index}/>
                   })}
                 </div>
               </section>

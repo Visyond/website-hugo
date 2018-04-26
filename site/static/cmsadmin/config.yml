@@ -165,13 +165,13 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Top Title", name: "topTitle", widget: "string", required: true}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "string", required: true}
-      - {label: "Top Image", name: "topImage", widget: "image", required: false}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "text", required: true}
+      - {label: "Top Image", name: "topImage", widget: "image", required: false, default: "/img/4.jpg"}
 
       - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
       - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
         fields: [
-          {label: "Logo", name: "trustedLogo", widget: "image"}
+          {label: "Logo", name: "trustedLogo", widget: "image"},
         ],
         required: false,
       }
