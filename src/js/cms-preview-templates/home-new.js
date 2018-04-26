@@ -9,7 +9,6 @@ export default class HomeNew extends React.Component {
             <div>
             <div className="new-home nh">
 
-              <!-- top section -->
               <div className="nh-top">
                 <h2 className="nh-top__title">
                   single source of truth for your spreadsheets
@@ -29,34 +28,29 @@ export default class HomeNew extends React.Component {
                   </button>
                 </div>
 
-                <img src="/img/391.jpg" alt="image" className="nh-top__img">
+                <img src="/img/391.jpg" alt="image" className="nh-top__img"/>
               </div>
-              <!-- ./top section -->
 
-              <!-- trusted section -->
               <section className="nh-trusted">
                 <h3 className="nh-trusted__title">
                   trusted by
                 </h3>
 
                 <div className="nh-trusted__logos-wrap">
-                  <img src="/img/home/elt.png" alt="elt electronica">
-                  <img src="/img/home/ericsson.png" alt="ericsson">
-                  <img src="/img/home/deloitte.png" alt="deloitte">
-                  <img src="/img/home/abrt.png" alt="abrt">
-                  <img src="/img/home/jebg.png" alt="jebg">
+                  <img src="/img/home/elt.png" alt="elt electronica"/>
+                  <img src="/img/home/ericsson.png" alt="ericsson"/>
+                  <img src="/img/home/deloitte.png" alt="deloitte"/>
+                  <img src="/img/home/abrt.png" alt="abrt"/>
+                  <img src="/img/home/jebg.png" alt="jebg"/>
                 </div>
               </section>
-              <!-- ./trusted section -->
 
-              <!-- section info -->
               <div className="nh-info">
 
-                <!-- info block -->
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" className="nh-info__block-img">
+                  <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
-                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines">
+                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
@@ -72,13 +66,11 @@ export default class HomeNew extends React.Component {
                     </button>
                   </section>
                 </div>
-                <!-- ./info block -->
 
-                <!-- info block -->
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_2.png" alt="collaborate on spreadsheets" className="nh-info__block-img">
+                  <img src="/img/home/v_clip_group_2.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
-                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines">
+                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
@@ -94,13 +86,11 @@ export default class HomeNew extends React.Component {
                     </button>
                   </section>
                 </div>
-                <!-- ./info block -->
 
-                <!-- info block -->
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_3.png" alt="collaborate on spreadsheets" className="nh-info__block-img">
+                  <img src="/img/home/v_clip_group_3.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
-                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines">
+                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
@@ -116,11 +106,9 @@ export default class HomeNew extends React.Component {
                     </button>
                   </section>
                 </div>
-                <!-- ./info block -->
 
-                <!-- info block -->
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_4.png" alt="collaborate on spreadsheets" className="nh-info__block-img">
+                  <img src="/img/home/v_clip_group_4.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
@@ -136,12 +124,9 @@ export default class HomeNew extends React.Component {
                     </button>
                   </section>
                 </div>
-                <!-- ./info block -->
 
               </div>
-              <!-- ./section info -->
 
-              <!-- section capabilities -->
               <section className="nh-capabilities">
                 <h3 className="nh-capabilities__title">
                   With Visyond you can
@@ -149,7 +134,7 @@ export default class HomeNew extends React.Component {
 
                 <div className="nh-capabilities__modules">
                   <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon.png" alt="save time" className="nh-capabilities__img">
+                    <img src="/img/home/v_icon.png" alt="save time" className="nh-capabilities__img"/>
 
                     <p className="nh-capabilities__descr">
                       Save up to <span>80%</span> of time
@@ -157,7 +142,7 @@ export default class HomeNew extends React.Component {
                   </div>
 
                   <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon2.png" alt="reduce costs" className="nh-capabilities__img">
+                    <img src="/img/home/v_icon2.png" alt="reduce costs" className="nh-capabilities__img"/>
 
                     <p className="nh-capabilities__descr">
                       Reduce costs up to <span>$420</span>
@@ -165,7 +150,7 @@ export default class HomeNew extends React.Component {
                   </div>
 
                   <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon3.png" alt="reduce error" className="nh-capabilities__img">
+                    <img src="/img/home/v_icon3.png" alt="reduce error" className="nh-capabilities__img"/>
 
                     <p className="nh-capabilities__descr">
                       Reduce errors by <span>90%</span>
@@ -173,18 +158,15 @@ export default class HomeNew extends React.Component {
                   </div>
                 </div>
               </section>
-              <!-- ./section capabilities -->
 
-              <!-- section studies -->
               <section className="nh-studies">
                 <h3 className="nh-studies__title">
                   Featured case studies
                 </h3>
 
-                <!-- first block -->
                 <div className="nh-studies__block">
                   <div className="nh-studies__img-wrap">
-                    <img src="/img/home/v_case_1.png" alt="case" className="nh-studies__img">
+                    <img src="/img/home/v_case_1.png" alt="case" className="nh-studies__img"/>
                     <span className="nh-studies__img-text nh-studies__img-text--first">from 7 weeks</span>
                     <span className="nh-studies__img-text nh-studies__img-text--second">to 2 hours</span>
                   </div>
@@ -207,12 +189,10 @@ export default class HomeNew extends React.Component {
                     </a>
                   </section>
                 </div>
-                <!-- ./first block -->
 
-                <!-- second block -->
                 <div className="nh-studies__block">
                   <div className="nh-studies__img-wrap">
-                    <img src="/img/home/v_case_2.png" alt="case" className="nh-studies__img">
+                    <img src="/img/home/v_case_2.png" alt="case" className="nh-studies__img"/>
                     <span className="nh-studies__img-text nh-studies__img-text--third">from 2 weeks</span>
                     <span className="nh-studies__img-text nh-studies__img-text--fourth">to 1 hour</span>
                   </div>
@@ -235,11 +215,8 @@ export default class HomeNew extends React.Component {
                     </a>
                   </section>
                 </div>
-                <!-- ./second block -->
               </section>
-              <!-- ./section studies -->
 
-              <!-- section provides -->
               <div className="nh-provides">
                 <section className="nh-provides__wrap">
                   <h3 className="nh-provides__title">
@@ -254,12 +231,11 @@ export default class HomeNew extends React.Component {
                       Low entry barrier - Visyond is easy <span>to use and learn</span>.
                     </li>
                     <li className="nh-provides__item">
-                      Low entry barrier - Visyond is easy <span>to use and learn
+                      Low entry barrier - Visyond is easy <span>to use and learn</span>
                     </li>
                   </ul>
                 </section>
               </div>
-              <!-- ./section provides -->
 
               <section className="nh-bottom">
                 <h3 className="nh-bottom__title">
