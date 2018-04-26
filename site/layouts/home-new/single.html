@@ -34,7 +34,9 @@
 
       <ul class="nh-trusted__logos-wrap">
         {{ range $el := .Params.TrustedLogos }}
+        <li>
           <img src="{{ .TrustedLogo }}" alt="logo">
+        </li>
         {{ end }}
       </ul>
     </section>
