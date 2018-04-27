@@ -46,7 +46,7 @@
     <ul class="nh-info">
 
       <!-- info block -->
-      {{ range $el := .Params.InfoBlockFirst }}
+
       <li class="nh-info__block">
         <img src="#" alt="collaborate on spreadsheets" class="nh-info__block-img">
 
@@ -54,19 +54,18 @@
 
         <section class="nh-info__text-wrap">
           <h3 class="nh-info__block-title">
-            {{ $el.Title }}
+            title
           </h3>
 
           <div class="nh-info__block-descr">
-            {{ $el.Descr }}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi nihil, velit ratione itaque, quam natus aut sunt quisquam!
           </div>
 
-          <a href="{{ $el.Link }}" class="nh-link nh-link--learn-more">
+          <a href="#" class="nh-link nh-link--learn-more">
             learn more
           </a>
         </section>
       </li>
-      {{ end }}
       <!-- ./info block -->
     </ul>
     <!-- ./section info -->
