@@ -189,8 +189,8 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
       - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-        field: [
-          {label: "Logo", name: "trustedLogo", widget: "image"},
+        fields: [
+          {label: "Logo", name: "logo", widget: "image"},
         ],
         required: false,
       }
