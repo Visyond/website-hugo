@@ -35,7 +35,7 @@
       <ul class="nh-trusted__logos-wrap">
         {{ range $el := .Params.TrustedLogos }}
         <li>
-          <img src="{{ .TrustedLogo }}" alt="logo">
+          <img src="{{ .Params.TrustedLogo }}" alt="logo">
         </li>
         {{ end }}
       </ul>
@@ -47,7 +47,7 @@
 
       <!-- info block -->
       <div class="nh-info__block">
-        <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" class="nh-info__block-img">
+        <img src="{{ .Params.InfoBlockFirst.Image }}" alt="collaborate on spreadsheets" class="nh-info__block-img">
 
         <img src="/img/home/v_lines.png" alt="lines" class="nh-info__block-lines">
 
