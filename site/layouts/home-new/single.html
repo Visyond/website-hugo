@@ -35,7 +35,7 @@
       <ul class="nh-trusted__logos-wrap">
         {{ range $el := .Params.TrustedLogos }}
         <li>
-          <img src="{{ .Params.TrustedLogo }}" alt="logo">
+          <img src="{{ $el.TrustedLogo }}" alt="logo">
         </li>
         {{ end }}
       </ul>
@@ -43,95 +43,32 @@
     <!-- ./trusted section -->
 
     <!-- section info -->
-    <div class="nh-info">
+    <ul class="nh-info">
 
       <!-- info block -->
-      <div class="nh-info__block">
-        <img src="{{ .Params.InfoBlockFirst.Image }}" alt="collaborate on spreadsheets" class="nh-info__block-img">
+      {{ range $el := .Params.InfoBlockFirst }}
+      <li class="nh-info__block">
+        <img src="{{ $el.Image }}" alt="collaborate on spreadsheets" class="nh-info__block-img">
 
         <img src="/img/home/v_lines.png" alt="lines" class="nh-info__block-lines">
 
         <section class="nh-info__text-wrap">
           <h3 class="nh-info__block-title">
-            {{ .Params.InfoBlockFirst.Title }}
+            {{ $el.Title }}
           </h3>
 
           <div class="nh-info__block-descr">
-            ...without back-and-forth emails and data chaos and enjoy the benefits of <span>data tracking, version control and secure selective sharing</span> - allow access to only certain cells, worksheets, or linked reports and slides.
+            {{ $el.Descr }}
           </div>
 
-          <a href="#" class="nh-link nh-link--learn-more">
+          <a href="{{ $el.Link }}" class="nh-link nh-link--learn-more">
             learn more
           </a>
         </section>
-      </div>
+      </li>
+      {{ end }}
       <!-- ./info block -->
-
-      <!-- info block -->
-      <div class="nh-info__block">
-        <img src="/img/home/v_clip_group_2.png" alt="collaborate on spreadsheets" class="nh-info__block-img">
-
-        <img src="/img/home/v_lines.png" alt="lines" class="nh-info__block-lines">
-
-        <section class="nh-info__text-wrap">
-          <h3 class="nh-info__block-title">
-            build robust model
-          </h3>
-
-          <div class="nh-info__block-descr">
-            ...as a team without the risk of accidentally overriding data or formulas with Visyond's <span>granular permissions control</span>, support of different coexisting cases, <span>scenario comparison</span>, dependency & errors root cause analysis.
-          </div>
-
-          <a href="#" class="nh-link nh-link--learn-more">
-            learn more
-          </a>
-        </section>
-      </div>
-      <!-- ./info block -->
-
-      <!-- info block -->
-      <div class="nh-info__block">
-        <img src="/img/home/v_clip_group_3.png" alt="collaborate on spreadsheets" class="nh-info__block-img">
-
-        <img src="/img/home/v_lines.png" alt="lines" class="nh-info__block-lines">
-
-        <section class="nh-info__text-wrap">
-          <h3 class="nh-info__block-title">
-            analyze data
-          </h3>
-
-          <div class="nh-info__block-descr">
-            ...and <span>in a few clicks gain valuable insights</span> by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyond's interactive slides and <span>share only what each stakeholder needs to see</span>.
-          </div>
-
-          <a href="#" class="nh-link nh-link--learn-more">
-            learn more
-          </a>
-        </section>
-      </div>
-      <!-- ./info block -->
-
-      <!-- info block -->
-      <div class="nh-info__block">
-        <img src="/img/home/v_clip_group_4.png" alt="collaborate on spreadsheets" class="nh-info__block-img">
-
-        <section class="nh-info__text-wrap">
-          <h3 class="nh-info__block-title">
-            share the results
-          </h3>
-
-          <div class="nh-info__block-descr">
-            ...safely without the risk of damaging or losing any data. Prepare <span>data visualizations, presentations and reports</span> in a few simple steps. <span>Create dashboards &amp; apps</span> powered by the spreadsheet calculation engine <span>without programming</span>.
-          </div>
-
-          <a href="#" class="nh-link nh-link--learn-more">
-            learn more
-          </a>
-        </section>
-      </div>
-      <!-- ./info block -->
-
-    </div>
+    </ul>
     <!-- ./section info -->
 
     <!-- section capabilities -->

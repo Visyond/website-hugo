@@ -45,87 +45,29 @@ export default class HomeNew extends React.Component {
                 </ul>
               </section>
 
-              <div className="nh-info">
-
-                <div className="nh-info__block">
-                  <img src={ entry.getIn(['data', 'infoBlockFirst.image']) } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
-
-                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
-
-                  <section className="nh-info__text-wrap">
-                    <h3 className="nh-info__block-title">
-                      { entry.getIn(['data', 'infoBlockFirst.title']) }
-                    </h3>
-
-                    <div className="nh-info__block-descr">
-                      ...without back-and-forth emails and data chaos and enjoy the benefits of <span>data tracking, version control and secure selective sharing</span> - allow access to only certain cells, worksheets, or linked reports and slides.
-                    </div>
-
-                    <a href="#" className="nh-link nh-link--learn-more">
-                      learn more
-                    </a>
-                  </section>
-                </div>
-
-                <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_2.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
+              <ul className="nh-info">
+              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                  return <li className="nh-info__block">
+                  <img src={ entry.getIn(['data', 'image']) } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      build robust model
+                      { entry.getIn(['data', 'title']) }
                     </h3>
 
                     <div className="nh-info__block-descr">
-                      ...as a team without the risk of accidentally overriding data or formulas with Visyonds <span>granular permissions control</span>, support of different coexisting cases, <span>scenario comparison</span>, dependency & errors root cause analysis.
+                      { entry.getIn(['data', 'descr']) }
                     </div>
 
-                    <a href="#" className="nh-link nh-link--learn-more">
+                    <a href={ entry.getIn(['data', 'link']) } className="nh-link nh-link--learn-more">
                       learn more
                     </a>
                   </section>
-                </div>
-
-                <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_3.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
-
-                  <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
-
-                  <section className="nh-info__text-wrap">
-                    <h3 className="nh-info__block-title">
-                      analyze data
-                    </h3>
-
-                    <div className="nh-info__block-descr">
-                      ...and <span>in a few clicks gain valuable insights</span> by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyonds interactive slides and <span>share only what each stakeholder needs to see</span>.
-                    </div>
-
-                    <a href="#" className="nh-link nh-link--learn-more">
-                      learn more
-                    </a>
-                  </section>
-                </div>
-
-                <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_4.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
-
-                  <section className="nh-info__text-wrap">
-                    <h3 className="nh-info__block-title">
-                      share the results
-                    </h3>
-
-                    <div className="nh-info__block-descr">
-                      ...safely without the risk of damaging or losing any data. Prepare <span>data visualizations, presentations and reports</span> in a few simple steps. <span>Create dashboards &amp; apps</span> powered by the spreadsheet calculation engine <span>without programming</span>.
-                    </div>
-
-                    <a href="#" className="nh-link nh-link--learn-more">
-                      learn more
-                    </a>
-                  </section>
-                </div>
-
-              </div>
+                </li>
+                })}
+              </ul>
 
               <section className="nh-capabilities">
                 <h3 className="nh-capabilities__title">
