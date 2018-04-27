@@ -13,5 +13,6 @@ trustedLogos:
   - trustedLogo: /img/v_jebg.png
 infoBlockFirst:
   image: /img/v_clip_group_1.png
+  title: collaborate on spreadsheets
 ---
 
