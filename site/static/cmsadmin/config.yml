@@ -195,12 +195,12 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Info Block First", name: "infoBlockFirst", widget: "object", fields:
-        - {label: "Info Image", name: "infoImage", widget: "image"}
-        - {label: "info Title", name: "infoTitle", widget: "string"}
-        - {label: "Info Description", name: "infoDescr", widget: "markdown"}
-        - {label: "Info Link", name: "infoLink", widget: "string"}
-      }
+      # - {label: "Info Block First", name: "infoBlockFirst", widget: "object", fields:
+      #   - {label: "Info Image", name: "infoImage", widget: "image"}
+      #   - {label: "info Title", name: "infoTitle", widget: "string"}
+      #   - {label: "Info Description", name: "infoDescr", widget: "markdown"}
+      #   - {label: "Info Link", name: "infoLink", widget: "string"}
+      # }
 
 
 
