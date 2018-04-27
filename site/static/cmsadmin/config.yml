@@ -202,7 +202,9 @@ collections: # A list of collections the CMS should be able to edit
         - label: "Image"
           name: "image"
           widget: "image"
-      #   - {label: "info Title", name: "infoTitle", widget: "string"}
+        - label: "info Title"
+          name: "title"
+          widget: "string"
       #   - {label: "Info Description", name: "infoDescr", widget: "markdown"}
       #   - {label: "Info Link", name: "infoLink", widget: "string"}
       # }

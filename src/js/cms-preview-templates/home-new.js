@@ -54,7 +54,7 @@ export default class HomeNew extends React.Component {
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      collaborate on spreadsheets
+                      { entry.getIn(['data', 'infoBlockFirst.title']) }
                     </h3>
 
                     <div className="nh-info__block-descr">
