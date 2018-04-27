@@ -48,7 +48,7 @@ export default class HomeNew extends React.Component {
               <div className="nh-info">
 
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
+                  <img src={ entry.getIn(['data', 'infoBlockFirst.image']) } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
