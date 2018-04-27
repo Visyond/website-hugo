@@ -197,17 +197,20 @@ collections: # A list of collections the CMS should be able to edit
 
       - label: "Info Block First"
         name: "infoBlockFirst"
-        widget: "object"
+        widget: "list"
         fields:
         - label: "Image"
           name: "image"
           widget: "image"
-        - label: "info Title"
+        - label: "Info Title"
           name: "title"
           widget: "string"
-      #   - {label: "Info Description", name: "infoDescr", widget: "markdown"}
-      #   - {label: "Info Link", name: "infoLink", widget: "string"}
-      # }
+        - label: "Info Description"
+          name: "descr"
+          widget: "markdown"
+        - label: "Info Link"
+          name: "link"
+          widget: "string"
 
 
 
