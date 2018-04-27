@@ -11,5 +11,8 @@ trustedLogos:
   - trustedLogo: /img/v_deloitte.png
   - trustedLogo: /img/v_abrt.png
   - trustedLogo: /img/v_jebg.png
+infoBlockFirst:
+  image: /img/v_clip_group_1.png
+  title: collaborate on spreadsheets
 ---
 
