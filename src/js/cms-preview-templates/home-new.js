@@ -48,22 +48,22 @@ export default class HomeNew extends React.Component {
               <div className="nh-info">
 
                 <div className="nh-info__block">
-                  <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
+                  <img src={ entry.getIn(['data', 'infoBlockFirst.infoImage']) } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      collaborate on spreadsheets
+                      { entry.getIn(['data', 'infoBlockFirst.infoTitle']) }
                     </h3>
 
-                    <p className="nh-info__block-descr">
-                      ...without back-and-forth emails and data chaos and enjoy the benefits of <span>data tracking, version control and secure selective sharing</span> - allow access to only certain cells, worksheets, or linked reports and slides.
-                    </p>
+                    <div className="nh-info__block-descr">
+                      { entry.getIn(['data', 'infoBlockFirst.infoDescr']) }
+                    </div>
 
-                    <button className="nh-link nh-link--learn-more">
+                    <a href={ entry.getIn(['data', 'infoBlockFirst.infoLink']) } className="nh-link nh-link--learn-more">
                       learn more
-                    </button>
+                    </a>
                   </section>
                 </div>
 
@@ -77,13 +77,13 @@ export default class HomeNew extends React.Component {
                       build robust model
                     </h3>
 
-                    <p className="nh-info__block-descr">
+                    <div className="nh-info__block-descr">
                       ...as a team without the risk of accidentally overriding data or formulas with Visyonds <span>granular permissions control</span>, support of different coexisting cases, <span>scenario comparison</span>, dependency & errors root cause analysis.
-                    </p>
+                    </div>
 
-                    <button className="nh-link nh-link--learn-more">
+                    <a href="#" className="nh-link nh-link--learn-more">
                       learn more
-                    </button>
+                    </a>
                   </section>
                 </div>
 
@@ -97,13 +97,13 @@ export default class HomeNew extends React.Component {
                       analyze data
                     </h3>
 
-                    <p className="nh-info__block-descr">
+                    <div className="nh-info__block-descr">
                       ...and <span>in a few clicks gain valuable insights</span> by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyonds interactive slides and <span>share only what each stakeholder needs to see</span>.
-                    </p>
+                    </div>
 
-                    <button className="nh-link nh-link--learn-more">
+                    <a href="#" className="nh-link nh-link--learn-more">
                       learn more
-                    </button>
+                    </a>
                   </section>
                 </div>
 
@@ -115,13 +115,13 @@ export default class HomeNew extends React.Component {
                       share the results
                     </h3>
 
-                    <p className="nh-info__block-descr">
+                    <div className="nh-info__block-descr">
                       ...safely without the risk of damaging or losing any data. Prepare <span>data visualizations, presentations and reports</span> in a few simple steps. <span>Create dashboards &amp; apps</span> powered by the spreadsheet calculation engine <span>without programming</span>.
-                    </p>
+                    </div>
 
-                    <button className="nh-link nh-link--learn-more">
+                    <a href="#" className="nh-link nh-link--learn-more">
                       learn more
-                    </button>
+                    </a>
                   </section>
                 </div>
 
