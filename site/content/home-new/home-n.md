@@ -6,13 +6,10 @@ topSubTitle: >-
 topImage: /img/v_home_page_illustration_concept.png
 trustedTitle: trusted by
 trustedLogos:
-  - trustedLogo: /img/v_elt.png
-  - trustedLogo: /img/v_ericsson.png
-  - trustedLogo: /img/v_deloitte.png
-  - trustedLogo: /img/v_abrt.png
-  - trustedLogo: /img/v_jebg.png
-infoBlockFirst:
-  image: /img/v_clip_group_1.png
-  title: collaborate on spreadsheets
+  - logo: /img/v_elt.png
+  - logo: /img/v_ericsson.png
+  - logo: /img/v_deloitte.png
+  - logo: /img/v_abrt.png
+  - logo: /img/v_jebg.png
 ---
 
