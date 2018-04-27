@@ -22,6 +22,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
+
+
+
+
   - name: "casestudy"
     label: "Case Study"
     folder: "site/content/casestudy"
@@ -38,6 +42,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "First solution", name: "first_solution", widget: "markdown", required: false}
       - {label: "Second solution", name: "second_solution", widget: "markdown", required: false}
       - {label: "Third solution", name: "third_solution", widget: "markdown", required: false}
+
+
+
+
 
   - name: "landings"
     label: "Landings"
@@ -147,6 +155,12 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Price client askded", name: "priceClientAsked", widget: "string", required: false }
       - { label: "Price client company name", name: "priceClientCompany", widget: "string", required: false }
       - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image", required: false }
+
+
+
+
+
+
   - name: "simplepages"
     label: "Simplepages"
     folder: "site/content/simplepages"
@@ -157,6 +171,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+
+
 
   - name: "home-new"
     label: "HomeNew"
@@ -176,6 +195,19 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "object", fields:
+        - {label: "Info Image", name: "infoImage", widget: "image"}
+        - {label: "info Title", name: "infoTitle", widget: "string"}
+        - {label: "Info Description", name: "infoDescr", widget: "markdown"}
+        - {label: "Info Link", name: "infoLink", widget: "string"}
+      }
+
+
+
+
+
+
+
   - name: "testpages"
     label: "Testpages"
     folder: "site/content/testpages"
@@ -186,6 +218,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+
+
 
 
   - name: "products"
