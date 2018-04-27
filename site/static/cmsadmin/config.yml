@@ -189,25 +189,20 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
       - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-        fields: [
+        field: [
           {label: "Logo", name: "trustedLogo", widget: "image"},
         ],
         required: false,
       }
 
-      - label: "Info Block First"
+      - {label: "Info Block First"
         name: "infoBlockFirst"
         widget: "list"
-        fields:
-        - label: "Info Title"
-          name: "title"
-          widget: "string"
-        - label: "Info Description"
-          name: "descr"
-          widget: "markdown"
-        - label: "Info Link"
-          name: "link"
-          widget: "string"
+        fields: [
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Info Link", name: "link", widget: "string"}
+        ]}
 
 
 
