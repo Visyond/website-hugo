@@ -46,27 +46,25 @@ export default class HomeNew extends React.Component {
               </section>
 
               <ul className="nh-info">
-              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
-                  return <li className="nh-info__block">
+               <li className="nh-info__block">
                   <img src="#" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      { entry.getIn(['data', 'title']) }
+                      title
                     </h3>
 
                     <div className="nh-info__block-descr">
-                      { entry.getIn(['data', 'descr']) }
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi nihil, velit ratione itaque, quam natus aut sunt quisquam!
                     </div>
 
-                    <a href={ entry.getIn(['data', 'link']) } className="nh-link nh-link--learn-more">
+                    <a href="#" className="nh-link nh-link--learn-more">
                       learn more
                     </a>
                   </section>
                 </li>
-                })}
               </ul>
 
               <section className="nh-capabilities">
