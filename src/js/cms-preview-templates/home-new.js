@@ -48,20 +48,20 @@ export default class HomeNew extends React.Component {
               <div className="nh-info">
 
                 <div className="nh-info__block">
-                  <img src={ entry.getIn(['data', 'infoBlockFirst.infoImage']) } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
+                  <img src="/img/home/v_clip_group_1.png" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      { entry.getIn(['data', 'infoBlockFirst.infoTitle']) }
+                      collaborate on spreadsheets
                     </h3>
 
                     <div className="nh-info__block-descr">
-                      { entry.getIn(['data', 'infoBlockFirst.infoDescr']) }
+                      ...without back-and-forth emails and data chaos and enjoy the benefits of <span>data tracking, version control and secure selective sharing</span> - allow access to only certain cells, worksheets, or linked reports and slides.
                     </div>
 
-                    <a href={ entry.getIn(['data', 'infoBlockFirst.infoLink']) } className="nh-link nh-link--learn-more">
+                    <a href="#" className="nh-link nh-link--learn-more">
                       learn more
                     </a>
                   </section>
