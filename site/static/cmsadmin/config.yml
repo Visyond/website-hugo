@@ -195,10 +195,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Info Block First",
-        name: "infoBlockFirst",
-        widget: "list",
-        fields: [
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Title", name: "title", widget: "string"},
           {label: "Info Description", name: "descr", widget: "markdown"},
           {label: "Info Link", name: "link", widget: "string"}
