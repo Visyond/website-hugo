@@ -199,9 +199,6 @@ collections: # A list of collections the CMS should be able to edit
         name: "infoBlockFirst"
         widget: "list"
         fields:
-        - label: "Image"
-          name: "image"
-          widget: "image"
         - label: "Info Title"
           name: "title"
           widget: "string"
