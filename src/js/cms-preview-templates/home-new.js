@@ -46,6 +46,8 @@ export default class HomeNew extends React.Component {
               </section>
 
               <ul className="nh-info">
+              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                  return
                <li className="nh-info__block">
                   <img src="#" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
@@ -53,18 +55,19 @@ export default class HomeNew extends React.Component {
 
                   <section className="nh-info__text-wrap">
                     <h3 className="nh-info__block-title">
-                      title
+                      { item.get('title') }
                     </h3>
 
                     <div className="nh-info__block-descr">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi nihil, velit ratione itaque, quam natus aut sunt quisquam!
+                      { item.get('descr') }
                     </div>
 
-                    <a href="#" className="nh-link nh-link--learn-more">
+                    <a href={ item.get('link') } className="nh-link nh-link--learn-more">
                       learn more
                     </a>
                   </section>
                 </li>
+                })}
               </ul>
 
               <section className="nh-capabilities">
