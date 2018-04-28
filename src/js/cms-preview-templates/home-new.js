@@ -71,7 +71,7 @@ export default class HomeNew extends React.Component {
 
               <section className="nh-capabilities">
                 <h3 className="nh-capabilities__title">
-                  With Visyond you can
+                  { entry.getIn(['data', 'capabilitiesTitle']) }
                 </h3>
 
                 <ul className="nh-capabilities__modules">
