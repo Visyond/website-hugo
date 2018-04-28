@@ -163,19 +163,15 @@
       </div>
       <section class="nh-provides__wrap">
         <h3 class="nh-provides__title">
-          Visyond provides
+          {{ .Params.ProvidesTitle }}
         </h3>
 
         <ul class="nh-provides__list">
+          {{ range $el := .Params.ProvidesList }}
           <li class="nh-provides__item">
-            A flexible and familiar spreadsheet inter-face that is <span>cross-compatible</span> with Excel.
+            {{ .text | markdownify }}
           </li>
-          <li class="nh-provides__item">
-            Low entry barrier - Visyond is easy <span>to use and learn</span>.
-          </li>
-          <li class="nh-provides__item">
-            Low entry barrier - Visyond is easy <span>to use and learn
-          </li>
+          {{ end }}
         </ul>
       </section>
     </div>

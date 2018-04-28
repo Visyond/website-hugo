@@ -148,19 +148,15 @@ export default class HomeNew extends React.Component {
               <div className="nh-provides">
                 <section className="nh-provides__wrap">
                   <h3 className="nh-provides__title">
-                    Visyond provides
+                    { entry.getIn(['data', 'providesTitle']) }
                   </h3>
 
                   <ul className="nh-provides__list">
-                    <li className="nh-provides__item">
+                  {(entry.getIn(["data", "providesList"]) || []).map((item, index) => {
+                      return <li className="nh-provides__item" key={index}>
                       A flexible and familiar spreadsheet inter-face that is <span>cross-compatible</span> with Excel.
                     </li>
-                    <li className="nh-provides__item">
-                      Low entry barrier - Visyond is easy <span>to use and learn</span>.
-                    </li>
-                    <li className="nh-provides__item">
-                      Low entry barrier - Visyond is easy <span>to use and learn</span>
-                    </li>
+                  })}
                   </ul>
                 </section>
               </div>
