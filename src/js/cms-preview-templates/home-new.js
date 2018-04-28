@@ -161,7 +161,7 @@ export default class HomeNew extends React.Component {
                 </section>
               </div>
 
-              <section className="nh-bottom" style="background: url({ entry.getIn(['data', 'bgBottom']) })">
+              <section className="nh-bottom">
                 <h3 className="nh-bottom__title">
                   { entry.getIn(['data', 'titleBottom']) }
                 </h3>
