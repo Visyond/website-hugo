@@ -3,7 +3,7 @@ import format from 'date-fns/format';
 export default class HomeNew extends React.Component {
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
-        let image = getAsset(entry.getIn(["data", "bgBottom"]));
+        // let image = getAsset(entry.getIn(["data", "bgBottom"]));
 
         return (
             <div>
@@ -164,7 +164,7 @@ export default class HomeNew extends React.Component {
                 </section>
               </div>
 
-              <section className="nh-bottom" style={image}>
+              <section className="nh-bottom">
                 <h3 className="nh-bottom__title">
                   { entry.getIn(['data', 'titleBottom']) }
                 </h3>
