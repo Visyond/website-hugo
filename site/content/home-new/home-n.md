@@ -19,8 +19,9 @@ infoBlockFirst:
     link: '#'
     title: collaborate on spreadsheets
   - descr: |-
-      * some
-      * text
+      * lorem
+      * ipsum
+      * dolor
     link: '#'
     title: some title
 ---
