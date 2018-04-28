@@ -78,31 +78,17 @@
         With Visyond you can
       </h3>
 
-      <div class="nh-capabilities__modules">
-        <div class="nh-capabilities__block">
-          <img src="/img/home/v_icon.png" alt="save time" class="nh-capabilities__img">
+      <ul class="nh-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="nh-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="nh-capabilities__img">
 
-          <p class="nh-capabilities__descr">
-            Save up to <span>80%</span> of time
-          </p>
-        </div>
-
-        <div class="nh-capabilities__block">
-          <img src="/img/home/v_icon2.png" alt="reduce costs" class="nh-capabilities__img">
-
-          <p class="nh-capabilities__descr">
-            Reduce costs up to <span>$420</span>
-          </p>
-        </div>
-
-        <div class="nh-capabilities__block">
-          <img src="/img/home/v_icon3.png" alt="reduce error" class="nh-capabilities__img">
-
-          <p class="nh-capabilities__descr">
-            Reduce errors by <span>90%</span>
-          </p>
-        </div>
-      </div>
+          <div class="nh-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
     </section>
     <!-- ./section capabilities -->
 

@@ -74,31 +74,17 @@ export default class HomeNew extends React.Component {
                   With Visyond you can
                 </h3>
 
-                <div className="nh-capabilities__modules">
-                  <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon.png" alt="save time" className="nh-capabilities__img"/>
+                <ul className="nh-capabilities__modules">
+                {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                    return <li className="nh-capabilities__block" key={index}>
+                    <img src={item.get('image')} alt="save time" className="nh-capabilities__img"/>
 
-                    <p className="nh-capabilities__descr">
-                      Save up to <span>80%</span> of time
-                    </p>
-                  </div>
-
-                  <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon2.png" alt="reduce costs" className="nh-capabilities__img"/>
-
-                    <p className="nh-capabilities__descr">
-                      Reduce costs up to <span>$420</span>
-                    </p>
-                  </div>
-
-                  <div className="nh-capabilities__block">
-                    <img src="/img/home/v_icon3.png" alt="reduce error" className="nh-capabilities__img"/>
-
-                    <p className="nh-capabilities__descr">
-                      Reduce errors by <span>90%</span>
-                    </p>
-                  </div>
-                </div>
+                    <div className="nh-capabilities__descr">
+                      {item.get('text')}
+                    </div>
+                  </li>
+                  })}
+                </ul>
               </section>
 
               <section className="nh-studies">
