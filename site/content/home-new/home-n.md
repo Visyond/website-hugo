@@ -55,5 +55,7 @@ providesList:
       **cross-compatible**  with Excel.
   - text: Low entry barrier - Visyond is easy **to use and learn.**
   - text: Low entry barrier - Visyond is easy **to use and learn.**
+titleBottom: Dramatically improve your decision-making process today
+bgBottom: /img/2.png
 ---
 
