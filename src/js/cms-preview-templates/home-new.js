@@ -48,7 +48,7 @@ export default class HomeNew extends React.Component {
               <ul className="nh-info">
               {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
                   return <li className="nh-info__block" key={index}>
-                  <img src="#" alt="collaborate on spreadsheets" className="nh-info__block-img"/>
+                  <img src={ item.get('image') } alt="collaborate on spreadsheets" className="nh-info__block-img"/>
 
                   <img src="/img/home/lines.png" alt="lines" className="nh-info__block-lines"/>
 
