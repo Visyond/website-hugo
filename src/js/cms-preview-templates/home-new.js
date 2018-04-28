@@ -3,9 +3,7 @@ import format from 'date-fns/format';
 export default class HomeNew extends React.Component {
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
-        let image = {
-          backgroundImage: 'url(' { entry.getIn(['data', 'bgImage']) } ')'
-        };
+        let image = getAsset(entry.getIn(["data", "bgBottom"]));
 
         return (
             <div>
