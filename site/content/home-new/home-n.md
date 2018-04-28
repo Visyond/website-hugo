@@ -41,11 +41,11 @@ infoBlockFirst:
     link: '#'
     title: share the results
 capabilitiesTitle: With Visyond you can
-calabilitiesList:
+capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time
   - image: /img/v_icon2.png
-    text: Reduce cost up to **$420**
+    text: Reduce costs up to **$420**
   - image: /img/v_icon3.png
     text: Reduce errors by **90%**
 ---
