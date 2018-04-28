@@ -154,7 +154,7 @@ export default class HomeNew extends React.Component {
                   <ul className="nh-provides__list">
                   {(entry.getIn(["data", "providesList"]) || []).map((item, index) => {
                       return <li className="nh-provides__item" key={index}>
-                      A flexible and familiar spreadsheet inter-face that is <span>cross-compatible</span> with Excel.
+                      {item.get('text')}
                     </li>
                   })}
                   </ul>
