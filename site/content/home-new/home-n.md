@@ -18,5 +18,10 @@ infoBlockFirst:
       nihil, velit ratione itaque, quam natus aut sunt quisquam!
     link: '#'
     title: collaborate on spreadsheets
+  - descr: |-
+      * some
+      * text
+    link: '#'
+    title: some title
 ---
 
