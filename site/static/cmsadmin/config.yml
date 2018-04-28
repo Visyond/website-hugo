@@ -202,10 +202,10 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Link", name: "link", widget: "string"},
         ],}
 
-        - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
-        - {label: "CapabilitiesList", name: "calabilitiesList", widget: "list", fields: [
-          {label: "Capabilities Image", name: "image", widget: "image", required: true},
-          {label: "Capabilities Text", name: "text", widget: "markdown", required: true}
+      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
+      - {label: "CapabilitiesList", name: "calabilitiesList", widget: "list", fields: [
+        {label: "Capabilities Image", name: "image", widget: "image", required: true},
+        {label: "Capabilities Text", name: "text", widget: "markdown", required: true}
         ]}
 
 
