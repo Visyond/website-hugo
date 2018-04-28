@@ -40,5 +40,13 @@ infoBlockFirst:
     image: /img/v_clip_group_4.png
     link: '#'
     title: share the results
+capabilitiesTitle: With Visyond you can
+calabilitiesList:
+  - image: /img/v_icon.png
+    text: Save up to **80%** of time
+  - image: /img/v_icon2.png
+    text: Reduce cost up to **$420**
+  - image: /img/v_icon3.png
+    text: Reduce errors by **90%**
 ---
 
