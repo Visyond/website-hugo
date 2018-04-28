@@ -251,6 +251,10 @@
   }
 }
 
+.nh-info__block:last-child .nh-info__block-lines {
+  display: none;
+}
+
 .nh-info__text-wrap {
   display: -webkit-flex;
   display: -ms-flex;
@@ -279,6 +283,7 @@
 .nh-info__block-descr {
   color: #767575;
   font-size: 1.3125rem;
+  margin-bottom: 1rem;
 }
 
 .nh-info__block-descr span {
@@ -325,6 +330,9 @@
   display: -ms-flex;
   display: flex;
   justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 
   @media screen and (max-width: 800px) {
     -webkit-flex-direction: column;
@@ -346,6 +354,8 @@
   align-items: center;
   justify-content: space-between;
   max-width: 175px;
+  padding: 0;
+  margin: 0;
 
   @media screen and (max-width: 800px) {
     -webkit-flex-direction: row;
