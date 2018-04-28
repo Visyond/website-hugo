@@ -59,7 +59,7 @@
           </h3>
 
           <div class="nh-info__block-descr">
-            {{ .descr }}
+            {{ .descr | markdownify }}
           </div>
 
           <a href="{{ .link }}" class="nh-link nh-link--learn-more">
