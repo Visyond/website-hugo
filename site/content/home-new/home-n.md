@@ -48,5 +48,12 @@ capabilitiesList:
     text: Reduce costs up to **$420**
   - image: /img/v_icon3.png
     text: Reduce errors by **90%**
+providesTitle: Visyond Provides
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet inter-face that is
+      **cross-compatible**  with Excel.
+  - text: Low entry barrier - Visyond is easy **to use and learn.**
+  - text: Low entry barrier - Visyond is easy **to use and learn.**
 ---
 
