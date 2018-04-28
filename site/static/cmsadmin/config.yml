@@ -213,6 +213,8 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Provides Item", name: "text", widget: "markdown"},
       ],}
 
+      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
 
 
 

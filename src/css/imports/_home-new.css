@@ -670,7 +670,9 @@
 
 
 .nh-bottom {
-  background: #222424;
+  background: rgba(0,0,0,.5) center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
   padding: 50px 10px 150px;
   display: -webkit-flex;
   display: -ms-flex;
