@@ -75,7 +75,7 @@ export default class HomeNew extends React.Component {
                 </h3>
 
                 <ul className="nh-capabilities__modules">
-                {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
                     return <li className="nh-capabilities__block" key={index}>
                     <img src={item.get('image')} alt="save time" className="nh-capabilities__img"/>
 
