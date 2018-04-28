@@ -11,5 +11,12 @@ trustedLogos:
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
   - logo: /img/v_jebg.png
+infoBlockFirst:
+  - descr: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
+      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
+      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+    link: '#'
+    title: collaborate on spreadsheets
 ---
 
