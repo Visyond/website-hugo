@@ -4,6 +4,9 @@ export default class HomeNew extends React.Component {
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         // let image = getAsset(entry.getIn(["data", "bgBottom"]));
+        let bgBottom = {
+          backgroundImage: 'url(' + { entry.getIn(['data', 'bgBottom']) } + ')'
+        };
 
         return (
             <div>
@@ -164,7 +167,7 @@ export default class HomeNew extends React.Component {
                 </section>
               </div>
 
-              <section className="nh-bottom">
+              <section className="nh-bottom" style={bgBottom}>
                 <h3 className="nh-bottom__title">
                   { entry.getIn(['data', 'titleBottom']) }
                 </h3>
