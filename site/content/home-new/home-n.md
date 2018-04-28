@@ -19,12 +19,26 @@ infoBlockFirst:
     image: /img/v_clip_group_1.png
     link: '#'
     title: collaborate on spreadsheets
-  - descr: |-
-      * lorem
-      * ipsum
-      * dolor
+  - descr: >-
+      * Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem
+      cum neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
+      nihil, velit ratione itaque, quam natus aut sunt quisquam!
     image: /img/v_clip_group_2.png
     link: '#'
-    title: some title
+    title: build robust models
+  - descr: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
+      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
+      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+    image: /img/v_clip_group_3.png
+    link: '#'
+    title: analyze data
+  - descr: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
+      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
+      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+    image: /img/v_clip_group_4.png
+    link: '#'
+    title: share the results
 ---
 
