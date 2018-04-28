@@ -16,12 +16,14 @@ infoBlockFirst:
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
       neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
       nihil, velit ratione itaque, quam natus aut sunt quisquam!
+    image: /img/v_clip_group_1.png
     link: '#'
     title: collaborate on spreadsheets
   - descr: |-
       * lorem
       * ipsum
       * dolor
+    image: /img/v_clip_group_2.png
     link: '#'
     title: some title
 ---
