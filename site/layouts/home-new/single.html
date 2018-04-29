@@ -95,64 +95,39 @@
     <!-- section studies -->
     <section class="nh-studies">
       <h3 class="nh-studies__title">
-        Featured case studies
+        {{ .Params.StudiesTitle }}
       </h3>
 
-      <!-- first block -->
-      <div class="nh-studies__block">
-        <div class="nh-studies__img-wrap">
-          <img src="/img/home/v_case_1.png" alt="case" class="nh-studies__img">
-          <span class="nh-studies__img-text nh-studies__img-text--first">from 7 weeks</span>
-          <span class="nh-studies__img-text nh-studies__img-text--second">to 2 hours</span>
-        </div>
+      <ul class="nh-studies__blocks">
+        {{ range $el := .Params.StudiesBlock }}
+        <!-- block -->
+        <li class="nh-studies__block">
+          <div class="nh-studies__img-wrap">
+            <img src="{{ .image }}" alt="case" class="nh-studies__img">
+          </div>
 
-        <section class="nh-studies__text-wrap">
-          <h3 class="nh-studies__block-title">
-            Elettronica reduced its sales planning cycle
-          </h3>
+          <section class="nh-studies__text-wrap">
+            <h3 class="nh-studies__block-title">
+              {{ .title }}
+            </h3>
 
-          <cite class="nh-studies__block-descr">
-            When i used Visyond, I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
-          </cite>
+            <cite class="nh-studies__block-descr">
+              {{ .text }}
+            </cite>
 
-          <p class="nh-studies__block-author">
-            Fernando Rizzo, Area Manager, Elettronica
-          </p>
+            <div class="nh-studies__block-author">
+              {{ .author }}
+            </div>
 
-          <a href="#" class="nh-studies__block-link">
-            learn more>>
-          </a>
-        </section>
-      </div>
-      <!-- ./first block -->
+            <a href="{{ .linkUrl }}" class="nh-studies__block-link">
+              {{ .linkText }}>>
+            </a>
+          </section>
+        </li>
+        <!-- ./block -->
+        {{ end }}
+      </ul>
 
-      <!-- second block -->
-      <div class="nh-studies__block">
-        <div class="nh-studies__img-wrap">
-          <img src="/img/home/v_case_2.png" alt="case" class="nh-studies__img">
-          <span class="nh-studies__img-text nh-studies__img-text--third">from 2 weeks</span>
-          <span class="nh-studies__img-text nh-studies__img-text--fourth">to 1 hour</span>
-        </div>
-
-        <section class="nh-studies__text-wrap">
-          <h3 class="nh-studies__block-title">
-            Now eLearnSecurity decreased time spent for financial statements preparation
-          </h3>
-
-          <cite class="nh-studies__block-descr">
-            When i used Visyond, I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
-          </cite>
-
-          <p class="nh-studies__block-author">
-            Fernando Rizzo, Area Manager, Elettronica
-          </p>
-
-          <a href="#" class="nh-studies__block-link">
-            learn more>>
-          </a>
-        </section>
-      </div>
-      <!-- ./second block -->
     </section>
     <!-- ./section studies -->
 

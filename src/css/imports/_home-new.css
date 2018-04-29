@@ -428,6 +428,12 @@
   }
 }
 
+.nh-studies__blocks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .nh-studies__block {
   display: -webkit-flex;
   display: -ms-flex;
@@ -437,6 +443,7 @@
   max-width: 900px;
   width: 100%;
   margin-bottom: 5rem;
+  padding: 0;
 
   @media screen and (max-width: 800px) {
     -webkit-flex-direction: column;
@@ -486,7 +493,7 @@
     width: 100%;
   }
 }
-
+/*
 .nh-studies__img-text {
   position: absolute;
   color: #555;
@@ -509,7 +516,7 @@
 .nh-studies__img-text--fourth {
   bottom: 8%;
   right: 8%;
-}
+} */
 
 .nh-studies__block-title {
   font-weight: 600;
