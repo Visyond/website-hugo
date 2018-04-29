@@ -48,6 +48,26 @@ capabilitiesList:
     text: Reduce costs up to **$420**
   - image: /img/v_icon3.png
     text: Reduce errors by **90%**
+studiesTitle: Featured case studies
+studiesBlock:
+  - author: 'Fernando Rizzo, Area Manager, Elettronica'
+    image: /img/v_case_1.png
+    linkText: learn more
+    linkUrl: '#'
+    text: >-
+      When i used Visyond, I see my accuracy and ability to answer questions
+      about my work go up. I can do more and have peace of mind.
+    title: Elettronica reduced its sales planning cycle
+  - author: ' Fernando Rizzo, Area Manager, Elettronica'
+    image: /img/v_case_2.png
+    linkText: learn more
+    linkUrl: '#'
+    text: >-
+      When i used Visyond, I see my accuracy and ability to answer questions
+      about my work go up. I can do more and have peace of mind.
+    title: >-
+      Now eLearnSecurity decreased time spent for financial statements
+      preparation
 providesTitle: Visyond Provides
 providesList:
   - text: >-
