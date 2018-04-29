@@ -89,60 +89,36 @@ export default class HomeNew extends React.Component {
 
               <section className="nh-studies">
                 <h3 className="nh-studies__title">
-                  Featured case studies
+                  { entry.getIn(['data', 'studiesTitle']) }
                 </h3>
+                <ul className="nh-studies__blocks">
+                {(entry.getIn(["data", "studiesBlock"]) || []).map((item, index) => {
+                    return <li className="nh-studies__block" key={index}>
+                    <div className="nh-studies__img-wrap">
+                      <img src={item.get('image')} alt="case" className="nh-studies__img"/>
+                    </div>
 
-                <div className="nh-studies__block">
-                  <div className="nh-studies__img-wrap">
-                    <img src="/img/home/v_case_1.png" alt="case" className="nh-studies__img"/>
-                    <span className="nh-studies__img-text nh-studies__img-text--first">from 7 weeks</span>
-                    <span className="nh-studies__img-text nh-studies__img-text--second">to 2 hours</span>
-                  </div>
+                    <section className="nh-studies__text-wrap">
+                      <h3 className="nh-studies__block-title">
+                        {item.get('title')}
+                      </h3>
 
-                  <section className="nh-studies__text-wrap">
-                    <h3 className="nh-studies__block-title">
-                      Elettronica reduced its sales planning cycle
-                    </h3>
+                      <cite className="nh-studies__block-descr">
+                        {item.get('text')}
+                      </cite>
 
-                    <cite className="nh-studies__block-descr">
-                      When i used Visyond, I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
-                    </cite>
+                      <p className="nh-studies__block-author">
+                        {item.get('author')}
+                      </p>
 
-                    <p className="nh-studies__block-author">
-                      Fernando Rizzo, Area Manager, Elettronica
-                    </p>
+                      <a href={item.get('linkUrl')} className="nh-studies__block-link">
+                        {item.get('linkText')}>>
+                      </a>
+                    </section>
+                  </li>
+                })}
+                </ul>
 
-                    <a href="#" className="nh-studies__block-link">
-                      learn more>>
-                    </a>
-                  </section>
-                </div>
-
-                <div className="nh-studies__block">
-                  <div className="nh-studies__img-wrap">
-                    <img src="/img/home/v_case_2.png" alt="case" className="nh-studies__img"/>
-                    <span className="nh-studies__img-text nh-studies__img-text--third">from 2 weeks</span>
-                    <span className="nh-studies__img-text nh-studies__img-text--fourth">to 1 hour</span>
-                  </div>
-
-                  <section className="nh-studies__text-wrap">
-                    <h3 className="nh-studies__block-title">
-                      Now eLearnSecurity decreased time spent for financial statements preparation
-                    </h3>
-
-                    <cite className="nh-studies__block-descr">
-                      When i used Visyond, I see my accuracy and ability to answer questions about my work go up. I can do more and have peace of mind.
-                    </cite>
-
-                    <p className="nh-studies__block-author">
-                      Fernando Rizzo, Area Manager, Elettronica
-                    </p>
-
-                    <a href="#" className="nh-studies__block-link">
-                      learn more>>
-                    </a>
-                  </section>
-                </div>
               </section>
 
               <div className="nh-provides">
