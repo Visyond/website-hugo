@@ -1,14 +1,14 @@
 import React from 'react';
 import format from 'date-fns/format';
 
-export default class SimplePage extends React.Component {
+export default class Solutions extends React.Component {
     render() {
         const { entry, widgetFor, getAsset } = this.props;
         let image = getAsset(entry.getIn(['data', 'image']));
 
         return (
             <div>
-            <div className="new-home sol">
+            <div className="solutions sol">
 
               <div className="sol-top">
                 <h2 className="sol-top__title">
