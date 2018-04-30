@@ -1,42 +1,35 @@
 ---
 topTitle: Single source of truth for your spreadsheets
 topSubTitle: >-
-  Visyond is a collaborative speadsheet platform that reduced security threats
-  and errors
-topImage: /img/v_home_page_illustration_concept.png
+  Visyond is a collaborative spreadsheet platform that reduces security threats
+  and errors, speeds up the decision making process, adds secure selective
+  sharing, data tracking and analysis automation that reduce the risk of data
+  leaks and errors.
+topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
   - logo: /img/v_ericsson.png
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
-  - logo: /img/v_jebg.png
+  - logo: /img/logo_cy4gateblack and white.png
 infoBlockFirst:
   - descr: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
-      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
-      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+      ...without back-and-forth emails and data chaos and enjoy the benefits of
+      **data tracking, version control and secure selective sharing** - allow
+      access to only certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
     link: '#'
     title: collaborate on spreadsheets
-  - descr: >-
-      * Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem
-      cum neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
-      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+  - descr: "…as a team without the risk of accidentally overriding data or formulas with Visyond’s **granular permissions control**, support of different coexisting cases, **scenario comparison**, dependency & errors root cause analysis.\r\n"
     image: /img/v_clip_group_2.png
     link: '#'
     title: build robust models
-  - descr: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
-      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
-      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+  - descr: "…and **in a few clicks gain valuable insights** by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyond’s interactive slides and **share only what each stakeholder needs to see**.\r\n"
     image: /img/v_clip_group_3.png
     link: '#'
     title: analyze data
-  - descr: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem cum
-      neque non vel veniam, eligendi numquam, nostrum doloremque dicta modi
-      nihil, velit ratione itaque, quam natus aut sunt quisquam!
+  - descr: "…safely without the risk of damaging or losing any data. Prepare **data visualizations, presentations and reports** in a few simple steps. **Create dashboards & apps** powered by the spreadsheet calculation engine **without programming**.\r\n"
     image: /img/v_clip_group_4.png
     link: '#'
     title: share the results
@@ -53,7 +46,8 @@ studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
     image: /img/v_case_1.png
     linkText: learn more
-    linkUrl: '#'
+    linkUrl: >-
+      https://visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
     text: >-
       When i used Visyond, I see my accuracy and ability to answer questions
       about my work go up. I can do more and have peace of mind.
@@ -61,7 +55,8 @@ studiesBlock:
   - author: ' Fernando Rizzo, Area Manager, Elettronica'
     image: /img/v_case_2.png
     linkText: learn more
-    linkUrl: '#'
+    linkUrl: >-
+      https://visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
     text: >-
       When i used Visyond, I see my accuracy and ability to answer questions
       about my work go up. I can do more and have peace of mind.
@@ -74,8 +69,8 @@ providesList:
       A flexible and familiar spreadsheet inter-face that is
       **cross-compatible**  with Excel.
   - text: Low entry barrier - Visyond is easy **to use and learn.**
-  - text: Low entry barrier - Visyond is easy **to use and learn.**
+  - text: Full **transparency and control** over your data
 titleBottom: Dramatically improve your decision-making process today
-bgBottom: /img/banner gov.png
+bgBottom: /img/back2.png
 ---
 
