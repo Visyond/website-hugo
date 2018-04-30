@@ -19,7 +19,7 @@ infoBlockFirst:
       **data tracking, version control and secure selective sharing** - allow
       access to only certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
-    link: '#'
+    link: 'https://visyond.com/landings/governance/'
     title: collaborate on spreadsheets
   - descr: "…as a team without the risk of accidentally overriding data or formulas with Visyond’s **granular permissions control**, support of different coexisting cases, **scenario comparison**, dependency & errors root cause analysis.\r\n"
     image: /img/v_clip_group_2.png
