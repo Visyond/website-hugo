@@ -15,12 +15,48 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields: # The fields each document in this collection have
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Menu", name: "menu", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "text", required: true}
+      - {label: "Top Image", name: "topImage", widget: "image", required: false, default: "/img/home/home_page_illustration_concept.png"}
+
+      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
+      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
+        fields: [
+          {label: "Logo", name: "logo", widget: "image"},
+        ],
+        required: false,
+      }
+
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Info Link", name: "link", widget: "string"},
+        ],}
+
+      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
+      - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
+        {label: "Capabilities Image", name: "image", widget: "image"},
+        {label: "Capabilities Text", name: "text", widget: "markdown"},
+        ],}
+
+      - {label: "Studies Title", name: "studiesTitle", widget: "string"}
+      - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
+        {label: "Image", name: "image", widget: "image"},
+        {label: "Title", name: "title", widget: "string"},
+        {label: "Text", name: "text", widget: "text"},
+        {label: "Author", name: "author", widget: "string"},
+        {label: "Link Text", name: "linkText", widget: "string"},
+        {label: "Link URL", name: "linkUrl", widget: "string"},
+      ],}
+
+      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+      - {label: "Provides List", name: "providesList", widget: "list", fields: [
+        {label: "Provides Item", name: "text", widget: "markdown"},
+      ],}
+
+      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
 
 
 
