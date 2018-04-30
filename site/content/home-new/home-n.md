@@ -47,22 +47,23 @@ studiesBlock:
     image: /img/v_case_1.png
     linkText: learn more
     linkUrl: >-
-      https://visyond.com/casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
     text: >-
       When i used Visyond, I see my accuracy and ability to answer questions
       about my work go up. I can do more and have peace of mind.
-    title: Elettronica reduced its sales planning cycle
-  - author: ' Fernando Rizzo, Area Manager, Elettronica'
+    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
+  - author: 'Armando, CEO, eLearnSecurity'
     image: /img/v_case_2.png
     linkText: learn more
     linkUrl: >-
-      https://visyond.com/casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
     text: >-
-      When i used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
+      The process took 1 stressful week and I did not feel comfortable to update
+      the data, fearing to break something. Now it is a 1-hour job and a few
+      clicks to update data.
     title: >-
-      Now eLearnSecurity decreased time spent for financial statements
-      preparation
+      How preparing Financial Statements with no training in Finance became a
+      1-hour job
 providesTitle: Visyond Provides
 providesList:
   - text: >-
