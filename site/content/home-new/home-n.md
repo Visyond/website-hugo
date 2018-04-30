@@ -18,29 +18,29 @@ infoBlockFirst:
       ...without back-and-forth emails and data chaos and enjoy the benefits of
       **data tracking, version control and secure selective sharing** - allow
       access to only certain cells, worksheets, or linked reports and slides.
-    image: /img/v_clip_group_1.png
+    image: /img/v_clip_group_1 - Copy.png
     link: 'https://visyond.com/landings/governance/'
-    title: collaborate on spreadsheets
+    title: collaborate on spreadsheets!!
   - descr: "…as a team without the risk of accidentally overriding data or formulas with Visyond’s **granular permissions control**, support of different coexisting cases, **scenario comparison**, dependency & errors root cause analysis.\r\n"
     image: /img/v_clip_group_2.png
     link: '#'
-    title: build robust models
+    title: build robust models!!
   - descr: "…and **in a few clicks gain valuable insights** by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyond’s interactive slides and **share only what each stakeholder needs to see**.\r\n"
     image: /img/v_clip_group_3.png
     link: '#'
-    title: analyze data
+    title: analyze data!!
   - descr: "…safely without the risk of damaging or losing any data. Prepare **data visualizations, presentations and reports** in a few simple steps. **Create dashboards & apps** powered by the spreadsheet calculation engine **without programming**.\r\n"
     image: /img/v_clip_group_4.png
     link: '#'
-    title: share the results
-capabilitiesTitle: With Visyond you can
+    title: share the results!!
+capabilitiesTitle: With Visyond you can!!
 capabilitiesList:
   - image: /img/v_icon.png
-    text: Save up to **80%** of time
+    text: Save up to **80%** of time!!
   - image: /img/v_icon2.png
-    text: Reduce costs up to **$420**
-  - image: /img/v_icon3.png
-    text: Reduce errors by **90%**
+    text: Reduce costs up to **$420**!!
+  - image: /img/v_icon3 - Copy.png
+    text: Reduce errors by **90%**!!!
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
@@ -71,7 +71,7 @@ providesList:
       **cross-compatible**  with Excel.
   - text: Low entry barrier - Visyond is easy **to use and learn.**
   - text: Full **transparency and control** over your data
-titleBottom: Dramatically improve your decision-making process today
+titleBottom: Dramatically improve your decision-making process today!!
 bgBottom: /img/back2.png
 ---
 
