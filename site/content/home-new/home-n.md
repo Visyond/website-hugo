@@ -44,7 +44,7 @@ capabilitiesList:
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/v_case_1 - Copy.png
+    image: /img/Elettronica.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
@@ -53,7 +53,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando, CEO, eLearnSecurity'
-    image: /img/v_case_2.png
+    image: /img/ELearnSecurity.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
