@@ -1,44 +1,47 @@
 ---
-topTitle: Single source of truth for your spreadsheets
+topTitle: >-
+  Smarter Spreadsheet automation, secure collaboration, and interactive
+  reporting
 topSubTitle: >-
-  Visyond is a collaborative spreadsheet platform that reduces security threats
-  and errors, speeds up the decision making process, adds secure selective
-  sharing, data tracking and analysis automation that reduce the risk of data
-  leaks and errors.
+  Reduce security threats and errors, speed up the decision making, add secure
+  selective sharing, data tracking and analysis automation that reduce the risk
+  of data leaks.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
-  - logo: /img/v_ericsson.png
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
   - logo: /img/logo_cy4gateblack and white 30.png
 infoBlockFirst:
   - descr: >-
-      ...without back-and-forth emails and data chaos and enjoy the benefits of
-      **data tracking, version control and secure selective sharing** - allow
-      access to only certain cells, worksheets, or linked reports and slides.
+      No back-and-forth emails. No data chaos. **Track all inputs**, control
+      versions and enjoy **secure selective sharing** - allow access to only
+      certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
     link: 'https://visyond.com/landings/governance/'
     title: collaborate on spreadsheets
-  - descr: "…as a team without the risk of accidentally overriding data or formulas with Visyond’s **granular permissions control**, support of different coexisting cases, **scenario comparison**, dependency & errors root cause analysis.\r\n"
+  - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your financial models.\r\n"
     image: /img/v_clip_group_2.png
     link: '#'
-    title: build robust models
-  - descr: "…and **in a few clicks gain valuable insights** by performing advanced analysis (Sensitivity, Scenario and many more!). Add the charts to Visyond’s interactive slides and **share only what each stakeholder needs to see**.\r\n"
+    title: REDUCE ERRORS AND RISK
+  - descr: >-
+      Answer any questions on-the-fly. Gain valuable insights in a few clicks by
+      performing routine and advanced analyses that used to take days. Add your
+      findings to **interactive dashboard-apps** and share only what each
+      stakeholder needs to see.
     image: /img/v_clip_group_3.png
     link: '#'
-    title: analyze data
-  - descr: "…safely without the risk of damaging or losing any data. Prepare **data visualizations, presentations and reports** in a few simple steps. **Create dashboards & apps** powered by the spreadsheet calculation engine **without programming**.\r\n"
+    title: COLLABORATIVE DATA ANALYSIS
+  - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, visualizations and reports in a few simple steps. \r\n"
     image: /img/v_clip_group_4.png
     link: '#'
-    title: share the results
-capabilitiesTitle: With Visyond you can!!
+    title: UNIQUE ON-THE-FLY REPORTING
 capabilitiesList:
   - image: /img/v_icon.png
-    text: Save up to **80%** of time
+    text: Save up to **80%**
   - image: /img/v_icon2.png
-    text: Reduce costs up to **$420**
+    text: Reduce costs up to **$420** per employee/month
   - image: /img/v_icon3.png
     text: Reduce errors by **90%**
 studiesTitle: Featured case studies
@@ -64,14 +67,14 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
-providesTitle: Visyond Provides
+providesTitle: Get started in minutes
 providesList:
   - text: >-
       A flexible and familiar spreadsheet inter-face that is
       **cross-compatible**  with Excel.
   - text: Low entry barrier - Visyond is easy **to use and learn.**
   - text: Full **transparency and control** over your data
-titleBottom: Dramatically improve your decision-making process today!!
+titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 ---
 
