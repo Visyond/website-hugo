@@ -19,17 +19,35 @@ export default class HomeNew extends React.Component {
                 </div>
 
                 <div className="nh-top__btns-wrap">
-                  <button className="nh-link nh-link--sign-up">
-                    sign up
-                  </button>
+                  <a href="https://visyond.com/accounts/signup/" className="nh-link nh-link--sign-up">
+                    free sign up
+                  </a>
 
-                  <button className="nh-link nh-link--request">
+                  <a href="https://visyond.com/request-a-demo" className="nh-link nh-link--request">
                     request a demo
-                  </button>
+                  </a>
                 </div>
 
                 <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="nh-top__img"/>
               </div>
+
+              <section className="nh-capabilities">
+                // <h3 className="nh-capabilities__title">
+                //   { entry.getIn(['data', 'capabilitiesTitle']) }
+                // </h3>
+
+                <ul className="nh-capabilities__modules">
+                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
+                    return <li className="nh-capabilities__block" key={index}>
+                    <img src={item.get('image')} alt="save time" className="nh-capabilities__img"/>
+
+                    <div className="nh-capabilities__descr">
+                      {item.get('text')}
+                    </div>
+                  </li>
+                  })}
+                </ul>
+              </section>
 
               <section className="nh-trusted">
                 <h3 className="nh-trusted__title">
@@ -69,24 +87,6 @@ export default class HomeNew extends React.Component {
                 })}
               </ul>
 
-              <section className="nh-capabilities">
-                <h3 className="nh-capabilities__title">
-                  { entry.getIn(['data', 'capabilitiesTitle']) }
-                </h3>
-
-                <ul className="nh-capabilities__modules">
-                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
-                    return <li className="nh-capabilities__block" key={index}>
-                    <img src={item.get('image')} alt="save time" className="nh-capabilities__img"/>
-
-                    <div className="nh-capabilities__descr">
-                      {item.get('text')}
-                    </div>
-                  </li>
-                  })}
-                </ul>
-              </section>
-
               <section className="nh-studies">
                 <h3 className="nh-studies__title">
                   { entry.getIn(['data', 'studiesTitle']) }
@@ -122,9 +122,6 @@ export default class HomeNew extends React.Component {
               </section>
 
               <div className="nh-provides">
-                <div class="nh-provides__img-wrap">
-                  <img src="/img/home/v_notebook.png" alt="notebook" class="nh-provides__img"/>
-                </div>
                 <section className="nh-provides__wrap">
                   <h3 className="nh-provides__title">
                     { entry.getIn(['data', 'providesTitle']) }
@@ -138,6 +135,9 @@ export default class HomeNew extends React.Component {
                   })}
                   </ul>
                 </section>
+                <div class="nh-provides__img-wrap">
+                  <img src="/img/home/v_notebook.png" alt="notebook" class="nh-provides__img"/>
+                </div>
               </div>
 
               <section className="nh-bottom">
