@@ -238,7 +238,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Link", name: "link", widget: "string"},
         ],}
 
-      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
+      # - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
       - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
         {label: "Capabilities Image", name: "image", widget: "image"},
         {label: "Capabilities Text", name: "text", widget: "markdown"},

@@ -24,7 +24,7 @@
 }
 
 .nh-top__under-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #595959;
   max-width: 850px;
@@ -68,6 +68,19 @@
 
   &--sign-up {
     background: #50556e;
+    position: relative;
+
+    &:before {
+      content: "* no credit card required";
+      position: absolute;
+      color: #595959;
+      bottom: -1.5rem;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 1rem;
+      text-transform: lowercase;
+    }
   }
 
   &--request {
@@ -212,7 +225,6 @@
 
 .nh-info__block-img {
   width: 45%;
-  filter: drop-shadow( 0 0 70px #d6d2d2);
 
   @media screen and (max-width: 800px) {
     width: 80%;
@@ -301,7 +313,7 @@
 
 
 .nh-capabilities {
-  background: #f1f5fa;
+  background: #fff;
   padding: 50px 10px;
   display: -webkit-flex;
   display: -ms-flex;
@@ -365,9 +377,9 @@
     max-width: 500px;
   }
 
-  &:not(:first-child) {
+  /* &:not(:first-child) {
     padding-top: 14px;
-  }
+  } */
 
   &:not(:last-child) {
 
@@ -379,6 +391,7 @@
 
 .nh-capabilities__img {
   margin-bottom: 1.5rem;
+  height: 135px;
 
   @media screen and (max-width: 800px) {
     margin-right: 3rem;
@@ -548,6 +561,7 @@
   color: #595959;
   font-weight: 400;
   font-size: 1.0625rem;
+  margin-bottom: 1.5rem;
 }
 
 .nh-studies__block-link {
@@ -571,20 +585,21 @@
   display: flex;
   -ms-align-items: center;
   align-items: center;
+  justify-content: center;
   /* background: url(/img/home/v_notebook.png) -60% 50% no-repeat;
   -webkit-background-size: 67%;
   background-size: 67%; */
 
   @media screen and (max-width: 800px) {
     background: none;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
 .nh-provides__img-wrap {
-  width: 50%;
+  width: 45%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -599,17 +614,19 @@
 }
 
 .nh-provides__img {
-  width: 80%;
+  width: 100%;
   display: block;
 }
 
 .nh-provides__wrap {
-  width: 44%;
+  width: 600px;
   position: relative;
+  padding-left: 60px;
 
   @media screen and (max-width: 800px) {
     width: 100%;
     left: 0;
+    padding-left: 0;
   }
 }
 

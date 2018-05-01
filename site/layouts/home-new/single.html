@@ -13,11 +13,11 @@
       </div>
 
       <div class="nh-top__btns-wrap">
-        <a href="#" class="nh-link nh-link--sign-up">
-          sign up
+        <a href="https://visyond.com/accounts/signup/" class="nh-link nh-link--sign-up">
+          free sign up
         </a>
 
-        <a href="#" class="nh-link nh-link--request">
+        <a href="https://visyond.com/request-a-demo" class="nh-link nh-link--request">
           request a demo
         </a>
       </div>
@@ -25,6 +25,26 @@
       <img src="{{ .Params.TopImage }}" alt="image" class="nh-top__img">
     </div>
     <!-- ./top section -->
+
+    <!-- section capabilities -->
+    <section class="nh-capabilities">
+      <!-- <h3 class="nh-capabilities__title">
+        With Visyond you can
+      </h3> -->
+
+      <ul class="nh-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="nh-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="nh-capabilities__img">
+
+          <div class="nh-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <!-- ./section capabilities -->
 
     <!-- trusted section -->
     <section class="nh-trusted">
@@ -72,26 +92,6 @@
     </ul>
     <!-- ./section info -->
 
-    <!-- section capabilities -->
-    <section class="nh-capabilities">
-      <h3 class="nh-capabilities__title">
-        With Visyond you can
-      </h3>
-
-      <ul class="nh-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="nh-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="nh-capabilities__img">
-
-          <div class="nh-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
-    <!-- ./section capabilities -->
-
     <!-- section studies -->
     <section class="nh-studies">
       <h3 class="nh-studies__title">
@@ -133,9 +133,6 @@
 
     <!-- section provides -->
     <div class="nh-provides">
-      <div class="nh-provides__img-wrap">
-        <img src="/img/home/v_notebook.png" alt="notebook" class="nh-provides__img">
-      </div>
       <section class="nh-provides__wrap">
         <h3 class="nh-provides__title">
           {{ .Params.ProvidesTitle }}
@@ -149,6 +146,9 @@
           {{ end }}
         </ul>
       </section>
+      <div class="nh-provides__img-wrap">
+        <img src="/img/home/v_notebook.png" alt="notebook" class="nh-provides__img">
+      </div>
     </div>
     <!-- ./section provides -->
 
