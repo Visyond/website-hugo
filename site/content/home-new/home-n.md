@@ -39,7 +39,7 @@ infoBlockFirst:
     title: UNIQUE ON-THE-FLY REPORTING
 capabilitiesList:
   - image: /img/v_icon.png
-    text: Save up to **80%**
+    text: Save up to **80%** of time on routine tasks
   - image: /img/v_icon2.png
     text: Reduce costs up to **$420** per employee/month
   - image: /img/v_icon3.png
