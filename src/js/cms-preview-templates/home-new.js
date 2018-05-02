@@ -78,11 +78,9 @@ export default class HomeNew extends React.Component {
                     <div className="nh-info__block-descr">
                       { item.get('descr') }
                     </div>
-                    if({ item.get('link') }) {
-                      <a href={ item.get('link') } className="nh-link nh-link--learn-more">
-                        learn more
-                      </a>
-                    }
+                    { if (item.get('link')) {<a href={ item.get('link') } className="nh-link nh-link--learn-more">
+                      learn more
+                    </a>}}
                   </section>
                 </li>
                 })}
