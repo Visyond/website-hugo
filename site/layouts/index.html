@@ -1,47 +1,168 @@
 {{ partial "head" . }}
 
-<section class="homepage-cards">
-        <h3 class="homepage-title homepage-title--cards">{{ .Params.CardTitle | markdownify }}</h3>
-    <ul class="homepage-cards__list">
-        {{ range $foo := .Params.cards }}
-        <li class="homepage-cards__item">
-            {{ partial "homepage-card" (dict "cardBackground" .cardBackground "cardLink" .cardLink "cardIcon" .cardIcon "cardTitle" .cardTitle "cardDescr" .cardDescr ) }}
-        </li>
-        {{end}}
-    </ul>
-</section>
+  <div class="home">
 
-<section class="trusted">
-    <h3 class="trusted__title homepage-title">Trusted by</h3>
+    <!-- top section -->
+    <div class="home-top">
+      <h2 class="home-top__title">
+        {{ .Params.TopTitle }}
+      </h2>
 
-    <ul class="trusted__list">
-        {{ range $icon := .Params.client }}
-        <li class="trusted__item"><img src={{ .clientIcon }} alt="" class="trusted__img"></li>
-        {{end}}
-    </ul>
-</section>
+      <div class="home-top__under-title">
+        {{ .Params.TopSubTitle }}
+      </div>
 
-<section class="customers">
-    <h3 class="customers__title homepage-title">What the customers say</h3>
+      <div class="home-top__btns-wrap">
+        <a href="https://visyond.com/accounts/signup/" class="home-link home-link--sign-up">
+          free sign up
+        </a>
 
-    <ul class="customers__list">
-        {{ range $item := .Params.slider  }}
-        <li class="customers__item">
-            <figure class="customers__img-container">
-                <span class="customers__img-wrap">
-                    <img src={{ .sliderphoto }} alt="">
-                </span>
+        <a href="https://visyond.com/request-a-demo" class="home-link home-link--request">
+          request a demo
+        </a>
+      </div>
 
-                <figcaption class="customers__img-descr-wrap">
-                    <p class="customers__img-descr">{{ .sliderDescr }}</p>
+      <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img">
+    </div>
+    <!-- ./top section -->
 
-                    <span class="customers__img-author">{{ .slidercompany }}</span>
-                    <img src={{ .sliderlogo }} alt="" class="customers__img-company">
-                </figcaption>
-            </figure>
+    <!-- section capabilities -->
+    <section class="home-capabilities">
+      <!-- <h3 class="home-capabilities__title">
+        With Visyond you can
+      </h3> -->
+
+      <ul class="home-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="home-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="home-capabilities__img">
+
+          <div class="home-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
         </li>
         {{ end }}
+      </ul>
+    </section>
+    <!-- ./section capabilities -->
+
+    <!-- trusted section -->
+    <section class="home-trusted">
+      <h3 class="home-trusted__title">
+        {{ .Params.TrustedTitle }}
+      </h3>
+
+      <ul class="home-trusted__logos-wrap">
+        {{ range $el := .Params.TrustedLogos }}
+        <li>
+          <img src="{{ .logo }}" alt="logo">
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <!-- ./trusted section -->
+
+    <!-- section info -->
+    <ul class="home-info">
+
+      <!-- info block -->
+      {{ range $el := .Params.InfoBlockFirst }}
+
+      <li class="home-info__block">
+        <img src="{{ .image }}" alt="collaborate on spreadsheets" class="home-info__block-img">
+
+        <img src="/img/home/v_lines.png" alt="lines" class="home-info__block-lines">
+
+        <section class="home-info__text-wrap">
+          <h3 class="home-info__block-title">
+            {{ .title }}
+          </h3>
+
+          <div class="home-info__block-descr">
+            {{ .descr | markdownify }}
+          </div>
+          {{ if .link }}
+          <a href="{{ .link }}" class="home-link home-link--learn-more">
+            learn more
+          </a>
+          {{ end }}
+        </section>
+      </li>
+      {{ end }}
+      <!-- ./info block -->
     </ul>
-</section>
+    <!-- ./section info -->
+
+    <!-- section studies -->
+    <section class="home-studies">
+      <h3 class="home-studies__title">
+        {{ .Params.StudiesTitle }}
+      </h3>
+
+      <ul class="home-studies__blocks">
+        {{ range $el := .Params.StudiesBlock }}
+        <!-- block -->
+        <li class="home-studies__block">
+          <div class="home-studies__img-wrap">
+            <img src="{{ .image }}" alt="case" class="home-studies__img">
+          </div>
+
+          <section class="home-studies__text-wrap">
+            <h3 class="home-studies__block-title">
+              {{ .title }}
+            </h3>
+
+            <cite class="home-studies__block-descr">
+              {{ .text }}
+            </cite>
+
+            <div class="home-studies__block-author">
+              {{ .author }}
+            </div>
+
+            <a href="{{ .linkUrl }}" class="home-studies__block-link">
+              {{ .linkText }}>>
+            </a>
+          </section>
+        </li>
+        <!-- ./block -->
+        {{ end }}
+      </ul>
+
+    </section>
+    <!-- ./section studies -->
+
+    <!-- section provides -->
+    <div class="home-provides">
+      <section class="home-provides__wrap">
+        <h3 class="home-provides__title">
+          {{ .Params.ProvidesTitle }}
+        </h3>
+
+        <ul class="home-provides__list">
+          {{ range $el := .Params.ProvidesList }}
+          <li class="home-provides__item">
+            {{ .text | markdownify }}
+          </li>
+          {{ end }}
+        </ul>
+      </section>
+      <div class="home-provides__img-wrap">
+        <img src="/img/home/v_notebook.png" alt="notebook" class="home-provides__img">
+      </div>
+    </div>
+    <!-- ./section provides -->
+
+    <section class="home-bottom" style="background-image: url({{ .Params.BgBottom }})">
+      <h3 class="home-bottom__title">
+        {{ .Params.TitleBottom }}
+      </h3>
+
+      <a href="https://visyond.com/request-a-demo" class="home-link home-link--request">
+        request a demo
+      </a>
+    </section>
+
+  </div>
 
 {{ partial "footer" . }}
