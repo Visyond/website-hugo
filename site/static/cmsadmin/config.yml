@@ -269,7 +269,8 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "home"
     label: "Home Page"
-    file: "site/content/_index.md"
+    folder: "site/content/"
+    create: true
     fields:
       - {label: "Page title", name: "title", widget: "string"}
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
