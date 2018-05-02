@@ -1,75 +1,155 @@
 import React from 'react';
 import format from 'date-fns/format';
-export default class Home extends React.Component { 
+export default class Home extends React.Component {
     render () {
         const { entry, widgetFor, getAsset, widgetsFor } = this.props;
         let image = getAsset(entry.getIn(["data", "topImage"]));
 
         return (
             <div>
-                <section className="homepage-cards">
-                    <h3 className="homepage-title homepage-title--cards">{entry.getIn(['data', 'cardTitle'])}</h3>
-                    <ul className="homepage-cards__list">
-                    {(entry.getIn(["data", "cards"]) || []).map((item, index) => {
+            <div className="new-home nh">
 
+              <div className="home-top">
+                <h2 className="home-top__title">
+                  { entry.getIn(['data', 'topTitle']) }
+                </h2>
 
-                        return <li className="homepage-cards__item" key={index}>
-                        <article className="function-card">
-                            <div className="function-card__bg"
-                                style={{ background:`url(${item.get('cardBackground')}) center center no-repeat` }}
-                            ></div>
-                            <a href="#" className="function-card__link">
-                                <span className="function-card__icon">
-                                    <img src={item.get('cardIcon')} />
-                                </span>
-                                <h3 className="function-card__title">
-                                    {item.get('cardTitle')}
-                                </h3>
-                                <p className="function-card__descr">
-                                    {item.get('cardDescr')}
-                                </p>
-                            </a>
-                        </article>
-                        </li>
-                    })}
-                    </ul>
+                <div className="home-top__under-title">
+                  { entry.getIn(['data', 'topSubTitle']) }
+                </div>
+
+                <div className="home-top__btns-wrap">
+                  <a href="https://visyond.com/accounts/signup/" className="home-link home-link--sign-up">
+                    free sign up
+                  </a>
+
+                  <a href="https://visyond.com/request-a-demo" className="home-link home-link--request">
+                    request a demo
+                  </a>
+                </div>
+
+                <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="home-top__img"/>
+              </div>
+
+              <section className="home-capabilities">
+                {/*<h3 className="home-capabilities__title">
+                  { entry.getIn(['data', 'capabilitiesTitle']) }
+                </h3>*/}
+
+                <ul className="home-capabilities__modules">
+                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
+                    return <li className="home-capabilities__block" key={index}>
+                    <img src={item.get('image')} alt="save time" className="home-capabilities__img"/>
+
+                    <div className="home-capabilities__descr">
+                      {item.get('text')}
+                    </div>
+                  </li>
+                  })}
+                </ul>
+              </section>
+
+              <section className="home-trusted">
+                <h3 className="home-trusted__title">
+                  { entry.getIn(['data', 'trustedTitle']) }
+                </h3>
+
+                <ul className="home-trusted__logos-wrap">
+                  {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
+                      return <li key={index}>
+                        <img src={ item.get('logo') } className="landing-trusted__img"/>
+                       </li>
+                  })}
+                </ul>
+              </section>
+
+              <ul className="home-info">
+              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                  return <li className="home-info__block" key={index}>
+                  <img src={ item.get('image') } alt="collaborate on spreadsheets" className="home-info__block-img"/>
+
+                  <img src="/img/home/lines.png" alt="lines" className="home-info__block-lines"/>
+
+                  <section className="home-info__text-wrap">
+                    <h3 className="home-info__block-title">
+                      { item.get('title') }
+                    </h3>
+
+                    <div className="home-info__block-descr">
+                      { item.get('descr') }
+                    </div>
+                    <a href={ item.get('link') } className="home-link home-link--learn-more">
+                      learn more
+                    </a>
+                  </section>
+                </li>
+                })}
+              </ul>
+
+              <section className="home-studies">
+                <h3 className="home-studies__title">
+                  { entry.getIn(['data', 'studiesTitle']) }
+                </h3>
+                <ul className="home-studies__blocks">
+                {(entry.getIn(["data", "studiesBlock"]) || []).map((item, index) => {
+                    return <li className="home-studies__block" key={index}>
+                    <div className="home-studies__img-wrap">
+                      <img src={item.get('image')} alt="case" className="home-studies__img"/>
+                    </div>
+
+                    <section className="home-studies__text-wrap">
+                      <h3 className="home-studies__block-title">
+                        {item.get('title')}
+                      </h3>
+
+                      <cite className="home-studies__block-descr">
+                        {item.get('text')}
+                      </cite>
+
+                      <p className="home-studies__block-author">
+                        {item.get('author')}
+                      </p>
+
+                      <a href={item.get('linkUrl')} className="home-studies__block-link">
+                        {item.get('linkText')}>>
+                      </a>
+                    </section>
+                  </li>
+                })}
+                </ul>
+
+              </section>
+
+              <div className="home-provides">
+                <section className="home-provides__wrap">
+                  <h3 className="home-provides__title">
+                    { entry.getIn(['data', 'providesTitle']) }
+                  </h3>
+
+                  <ul className="home-provides__list">
+                  {(entry.getIn(["data", "providesList"]) || []).map((item, index) => {
+                      return <li className="home-provides__item" key={index}>
+                      {item.get('text')}
+                    </li>
+                  })}
+                  </ul>
                 </section>
+                <div class="home-provides__img-wrap">
+                  <img src="/img/home/v_notebook.png" alt="notebook" class="home-provides__img"/>
+                </div>
+              </div>
 
-                <section className="trusted">
-                    <h3 className="trusted__title homepage-title">Trusted by</h3>
+              <section className="home-bottom">
+                <h3 className="home-bottom__title">
+                  { entry.getIn(['data', 'titleBottom']) }
+                </h3>
 
-                    <ul className="trusted__list">
-                    {(entry.getIn(["data", "client"]) || []).map((item, index) => {
-                        return <li className="trusted__item" key={index}>
-                          <img src={item.get('clientIcon')} alt="" className="trusted__img" />
-                        </li>
-                    })}    
-                    </ul>
-                    
-                </section>
+                <button className="home-link home-link--request">
+                  request a demo
+                </button>
+              </section>
 
-                <section className="customers">
-                    <h3 className="customers__title homepage-title">What the customers say</h3>
-
-                    <ul className="customers__list">
-                    {(entry.getIn(["data", "slider"]) || []).map((item, index) => {
-                        return <li className="customers__item" key={index}>
-                            <figure className="customers__img-container">
-                                <span className="customers__img-wrap">
-                                    <img src={ item.get('sliderphoto') } alt="" />
-                                </span>
-
-                                <figcaption className="customers__img-descr-wrap">
-                                    <p className="customers__img-descr">{ item.get('sliderDescr') }</p>
-
-                                    <span className="customers__img-author">{ item.get('slidercompany') }</span>
-                                    <img src={ item.get('sliderlogo') } alt="" className="customers__img-company"/>
-                                </figcaption>
-                            </figure>
-                        </li>
-                    })}    
-                    </ul>
-                </section>
+            </div>
             </div>
         );
     }
