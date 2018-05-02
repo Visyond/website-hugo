@@ -20,7 +20,7 @@ infoBlockFirst:
     title: collaborate on spreadsheets
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your financial models.\r\n"
     image: /img/v_clip_group_2.png
-    link: '#'
+    link: ''
     title: REDUCE ERRORS AND RISK
   - descr: >-
       Answer any questions on-the-fly. Gain valuable insights in a few clicks by
@@ -28,11 +28,11 @@ infoBlockFirst:
       findings to **interactive dashboard-apps** and share only what each
       stakeholder needs to see.
     image: /img/v_clip_group_3.png
-    link: '#'
+    link: ''
     title: COLLABORATIVE DATA ANALYSIS
   - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, visualizations and reports in a few simple steps. \r\n"
     image: /img/v_clip_group_4.png
-    link: '#'
+    link: ''
     title: UNIQUE ON-THE-FLY REPORTING
 capabilitiesList:
   - image: /img/v_icon.png
