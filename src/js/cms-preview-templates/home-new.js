@@ -32,9 +32,9 @@ export default class HomeNew extends React.Component {
               </div>
 
               <section className="nh-capabilities">
-                // <h3 className="nh-capabilities__title">
-                //   { entry.getIn(['data', 'capabilitiesTitle']) }
-                // </h3>
+                {/*<h3 className="nh-capabilities__title">
+                  { entry.getIn(['data', 'capabilitiesTitle']) }
+                </h3>*/}
 
                 <ul className="nh-capabilities__modules">
                 {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
