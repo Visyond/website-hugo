@@ -1,11 +1,8 @@
 ---
-topTitle: >-
-  Smarter Spreadsheet automation, secure collaboration, and interactive
-  reporting
+topTitle: 'SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF DAYS'
 topSubTitle: >-
-  Reduce security threats and errors, speed up the decision making, add secure
-  selective sharing, data tracking and analysis automation that reduce the risk
-  of data leaks.
+  Visualize the impact of your decisions, reduce risk of errors and collaborate
+  securely with Visyond’s intuitive cloud based automation software.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
 trustedTitle: trusted by
 trustedLogos:
@@ -43,7 +40,7 @@ capabilitiesList:
   - image: /img/v_icon2.png
     text: Reduce costs up to **$420** per employee/month
   - image: /img/v_icon3.png
-    text: Reduce errors by **90%**
+    text: '**Significantly** reduce errors'
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
