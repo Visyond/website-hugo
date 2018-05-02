@@ -81,10 +81,11 @@
           <div class="nh-info__block-descr">
             {{ .descr | markdownify }}
           </div>
-
+          {{ if .link }}
           <a href="{{ .link }}" class="nh-link nh-link--learn-more">
             learn more
           </a>
+          {{ end }}
         </section>
       </li>
       {{ end }}
