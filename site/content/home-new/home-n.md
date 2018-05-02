@@ -20,7 +20,7 @@ infoBlockFirst:
     title: collaborate on spreadsheets
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your financial models.\r\n"
     image: /img/v_clip_group_2.png
-    link: ''
+    link: '#'
     title: REDUCE ERRORS AND RISK
   - descr: >-
       Answer any questions on-the-fly. Gain valuable insights in a few clicks by
