@@ -1,4 +1,5 @@
 ---
+title: Homepage
 topTitle: 'SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF DAYS'
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
@@ -74,3 +75,4 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 ---
+
