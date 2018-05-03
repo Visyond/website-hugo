@@ -1,5 +1,5 @@
 .homepage-header {
-    background: #f2f3f7;
+    background: #182130;
     padding: 25px 30px 25px 15px;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .nav--homepage-header__link {
-    color: #52556c;
+    color: #fff;
     text-transform: uppercase;
 
     &:hover {
@@ -48,11 +48,11 @@
 }
 .nav--homepage-header-dropdown-left .dropdown-toggle--left__title,
 .nav--homepage-header-dropdown-left .dropdown-toggle--left__img-desc {
-    color: #52556c;
+    color: #fff;
 }
 
 .nav--homepage-header-dropdown-toggle {
-    background: #f2f3f7;
+    background: #1F2733;
     border: none;
 
     @media screen and (max-width: 1201px) {
@@ -65,9 +65,8 @@
 }
 
 .nav--homepage-header-dropdown-right .dropdown-toggle__group-title,
-.nav--homepage-header-dropdown-right .dropdown-toggle__group-list-item-link,
-.nav--homepage-header .dropdown-toggle__group-list-item-link {
-    color: #52556c;
+.nav--homepage-header-dropdown-right .dropdown-toggle__group-list-item-link {
+    color: #fff;
 }
 
 .homepage__logo {
@@ -112,6 +111,7 @@
 }
 
 .homepage__user-nav-link--request {
+    color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
 }

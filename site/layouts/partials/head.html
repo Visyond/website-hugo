@@ -21,10 +21,10 @@
     {{ end }}
 </head>
 <body>
-    
-    {{ if eq .Title "Homepage" }}
+
+    {{ if eq .Title "Homepage Some" }}
         {{ partial "homepage-header" . }}
     {{ else }}
         {{ partial "header" . }}
     {{ end }}
-    <div class="maincontent {{ if eq .Title "Homepage"}} no-padding {{end}}">
+    <div class="maincontent {{ if eq .Title "Homepage Some"}} no-padding {{end}}">
