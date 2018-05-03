@@ -1,7 +1,9 @@
 ---
 title: Homepage
 metaTags: visyond
-topTitle: 'SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF DAYS'
+topTitle: >-
+  **SPREADSHEET** COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF
+  DAYS
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud based automation software.
@@ -48,7 +50,7 @@ capabilitiesList:
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/ELearnSecurity-v2.png
+    image: /img/Elettronica - v2.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
@@ -57,7 +59,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity 80.jpg
+    image: /img/ELearnSecurity - v2.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
