@@ -1,5 +1,5 @@
 ---
-topTitle: Title
+topTitle: New title
 topSubTitle: Some under title
 topImage: /img/infographic.jpg
 trustedTitle: trusted title
