@@ -10,9 +10,9 @@ trustedLogos:
   - logo: /img/v_elt.png
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
-  - logo: /img/logo_cy4gateblack and white 30.png
   - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 30.png
+  - logo: /img/datadvance-logo black and white 15.png
+  - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. No data chaos. **Track all inputs**, control
