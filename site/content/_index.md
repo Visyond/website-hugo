@@ -17,7 +17,7 @@ infoBlockFirst:
       versions and enjoy **secure selective sharing** - allow access to only
       certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
-    link: 'https://visyond.com/landings/governance/'
+    link: ''
     title: collaborate on spreadsheets
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your financial models.\r\n"
     image: /img/v_clip_group_2.png
