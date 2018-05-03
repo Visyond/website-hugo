@@ -33,7 +33,7 @@ infoBlockFirst:
     image: /img/v_clip_group_3.png
     link: ''
     title: COLLABORATIVE DATA ANALYSIS
-  - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, visualizations and reports in a few simple steps. \r\n"
+  - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, **visualizations** and reports in a few simple steps. \r\n"
     image: /img/v_clip_group_4.png
     link: ''
     title: UNIQUE ON-THE-FLY REPORTING
@@ -52,10 +52,10 @@ studiesBlock:
     linkUrl: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
     text: >-
-      When i used Visyond, I see my accuracy and ability to answer questions
+      When I used Visyond, I see my accuracy and ability to answer questions
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando, CEO, eLearnSecurity'
+  - author: 'Armando Romeo, CEO, eLearnSecurity'
     image: /img/ELearnSecurity 80.jpg
     linkText: learn more
     linkUrl: >-
@@ -70,9 +70,9 @@ studiesBlock:
 providesTitle: Get started in minutes
 providesList:
   - text: >-
-      A flexible and familiar spreadsheet inter-face that is
-      **cross-compatible**  with Excel.
-  - text: Low entry barrier - Visyond is easy **to use and learn.**
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
