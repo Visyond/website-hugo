@@ -5,11 +5,11 @@
     <!-- top section -->
     <div class="home-top">
       <h2 class="home-top__title">
-        {{ .Params.TopTitle }}
+        {{ .Params.TopTitle | markdownify}}
       </h2>
 
       <div class="home-top__under-title">
-        {{ .Params.TopSubTitle }}
+        {{ .Params.TopSubTitle | markdownify}}
       </div>
 
       <div class="home-top__btns-wrap">
