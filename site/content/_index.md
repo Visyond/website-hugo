@@ -1,7 +1,9 @@
 ---
 title: Homepage
 metaTags: visyond
-topTitle: 'SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF DAYS'
+topTitle: >-
+  SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING <br></br> IN MINUTES INSTEAD
+  OF DAYS
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud based automation software.
