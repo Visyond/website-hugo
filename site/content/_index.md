@@ -1,5 +1,6 @@
 ---
 title: Homepage
+metaTags: visyond
 topTitle: 'SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING IN MINUTES INSTEAD OF DAYS'
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
@@ -47,7 +48,7 @@ capabilitiesList:
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica 80.jpg
+    image: /img/ELearnSecurity-v2.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
