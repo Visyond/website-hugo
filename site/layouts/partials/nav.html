@@ -1,13 +1,13 @@
-<nav class="nav {{ if eq .Title "Homepage"}} nav--homepage-header {{end}}">
-	<ul class="nav__list {{ if eq .Title "Homepage"}} nav--homepage-header__list {{end}}">
-		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}"><a href="https://visyond.com/platform" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Platform</span></a></li>
-		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}">
-			<a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}">
+<nav class="nav {{ if eq .Title "Homepage Some"}} nav--homepage-header {{end}}">
+	<ul class="nav__list {{ if eq .Title "Homepage Some"}} nav--homepage-header__list {{end}}">
+		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}"><a href="https://visyond.com/platform" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Platform</span></a></li>
+		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+			<a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
 				<span>Solutions</span>
 			</a>
 			<div class="dropdown-menu-wrap">
-				<div 
-					class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" 
+				<div
+					class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
 					id="solutions-toggle"
 				>
 					<ul class="dropdown-toggle__group-list">
@@ -22,7 +22,7 @@
 				</div>
 			</div>
 			<!-- <div class="dropdown-menu-wrap">
-			<div class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" id="solutions-toggle">
+			<div class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}" id="solutions-toggle">
 					<div class="dropdown-toggle--left {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-left {{end}}">
 						<a href="#" class="dropdown-toggle--left__link">
 							<h3 class="dropdown-toggle--left__title">Answer questions in seconds</h3>
@@ -92,13 +92,13 @@
 			</div> -->
 		<!-- </div> -->
 		</li>
-		<li class="nav__item {{ if eq .Title "Homepage"}} nav--homepage-header__item {{end}}">
-			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage"}} nav--homepage-header__link {{end}}"><span>Resources</span></a>
+		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Resources</span></a>
 			<div class="dropdown-menu-wrap">
-				<div 
-					class="dropdown-toggle {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-toggle {{end}}" 
+				<div
+					class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
 					id="resources-toggle"
-					
+
 				>
 					<ul class="dropdown-toggle__group-list">
 						{{ with .Site.GetPage "section" "nav" }}
@@ -114,14 +114,14 @@
 		</li>
 	</ul>
 
-	
+
 
 	<ul class="homepage__user-nav-list">
-		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">log in</a></li>
-		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} white-page-menu {{end}}">sign up</a></li>
-		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage" }} blue-request {{end}} homepage__user-nav-link--request">request a demo</a></li>
+		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} white-page-menu {{end}}">log in</a></li>
+		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} white-page-menu {{end}}">sign up</a></li>
+		<li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} blue-request {{end}} homepage__user-nav-link--request">request a demo</a></li>
 	</ul>
 
-	
-	
+
+
 </nav>
