@@ -14,12 +14,13 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/solutions"
     create: true
     fields: # The fields each document in this collection have
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "text", required: true}
+      - {label: "Page title", name: "title", widget: "string"}
+      - { label: "Meta tags", name: "metaTags", widget: markdown }
+      - {label: "Top Title", name: "topTitle", widget: "string"}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "text"}
       - {label: "Top Image", name: "topImage", widget: "image", required: false, default: "/img/home/home_page_illustration_concept.png"}
 
-      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
+      - {label: "Trusted Title", name: "trustedTitle", widget: "string"}
       - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
         fields: [
           {label: "Logo", name: "logo", widget: "image"},
@@ -34,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Link", name: "link", widget: "string"},
         ],}
 
-      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
+      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string"}
       - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
         {label: "Capabilities Image", name: "image", widget: "image"},
         {label: "Capabilities Text", name: "text", widget: "markdown"},
@@ -273,17 +274,16 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page title", name: "title", widget: "string"}
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "text", required: true}
-      - {label: "Top Image", name: "topImage", widget: "image", required: false, default: "/img/home/home_page_illustration_concept.png"}
+      - { label: "Meta tags", name: "metaTags", widget: "markdown"}
+      - {label: "Top Title", name: "topTitle", widget: "markdown"}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown"}
+      - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
 
-      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: true}
+      - {label: "Trusted Title", name: "trustedTitle", widget: "string"}
       - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
         fields: [
           {label: "Logo", name: "logo", widget: "image"},
         ],
-        required: false,
       }
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
