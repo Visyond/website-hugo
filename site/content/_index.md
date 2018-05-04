@@ -6,7 +6,7 @@ topTitle: |-
   IN MINUTES INSTEAD OF DAYS
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
-  securely with Visyond’s intuitive cloud based automation software.
+  securely with Visyond’s intuitive cloud-based automation software.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
 trustedTitle: trusted by
 trustedLogos:
@@ -23,16 +23,16 @@ infoBlockFirst:
       certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
     link: ''
-    title: collaborate on spreadsheets
-  - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your financial models.\r\n"
+    title: ' SMOOTH COLLABORATION'
+  - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, dependency and error root cause analysis will help you minimize risks when building your models.\r\n"
     image: /img/v_clip_group_2.png
     link: ''
-    title: REDUCE ERRORS AND RISK
+    title: DATA INTEGRITY
   - descr: >-
-      Answer any questions on-the-fly. Gain valuable insights in a few clicks by
-      performing routine and advanced analyses that used to take days. Add your
-      findings to **interactive dashboard-apps** and share only what each
-      stakeholder needs to see.
+      Answer any questions on-the-fly and **compare scenarios easily**. Gain
+      valuable insights in a few clicks by performing routine and advanced
+      analyses that used to take days. Add your findings to **interactive
+      dashboard-apps** and share only what each stakeholder needs to see.
     image: /img/v_clip_group_3.png
     link: ''
     title: COLLABORATIVE DATA ANALYSIS
@@ -44,7 +44,7 @@ capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
   - image: /img/v_icon2.png
-    text: Reduce costs up to **$420** per employee/month
+    text: Reduce average cost up to **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 studiesTitle: Featured case studies
