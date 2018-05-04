@@ -7,7 +7,7 @@ topTitle: |-
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud-based automation software.
-topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
+topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v7.png
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
