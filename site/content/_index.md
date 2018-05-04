@@ -23,11 +23,11 @@ infoBlockFirst:
       certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
     link: ''
-    title: collaborate on spreadsheets
+    title: ' SMOOTH COLLABORATION'
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, **scenario comparison**, dependency and error root cause analysis will help you minimize risks when building your models.\r\n"
     image: /img/v_clip_group_2.png
     link: ''
-    title: REDUCE ERRORS AND RISK
+    title: DATA INTEGRITY
   - descr: >-
       Answer any questions on-the-fly. Gain valuable insights in a few clicks by
       performing routine and advanced analyses that used to take days. Add your
