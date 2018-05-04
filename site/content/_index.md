@@ -6,7 +6,7 @@ topTitle: |-
   IN MINUTES INSTEAD OF DAYS
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
-  securely with Visyond’s intuitive cloud based automation software.
+  securely with Visyond’s intuitive cloud-based automation software.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-04-26 v6.png
 trustedTitle: trusted by
 trustedLogos:
@@ -44,7 +44,7 @@ capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
   - image: /img/v_icon2.png
-    text: Reduce costs up to **$420** per employee/month
+    text: Reduce average cost up to **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 studiesTitle: Featured case studies
