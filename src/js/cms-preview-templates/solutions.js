@@ -32,6 +32,21 @@ export default class Solutions extends React.Component {
                 <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="sol-top__img"/>
               </div>
 
+              <section className="sol-capabilities">
+
+                <ul className="sol-capabilities__modules">
+                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
+                    return <li className="sol-capabilities__block" key={index}>
+                    <img src={item.get('image')} alt="save time" className="sol-capabilities__img"/>
+
+                    <div className="sol-capabilities__descr">
+                      {item.get('text')}
+                    </div>
+                  </li>
+                  })}
+                </ul>
+              </section>
+
               <section className="sol-trusted">
                 <h3 className="sol-trusted__title">
                   { entry.getIn(['data', 'trustedTitle']) }
@@ -69,24 +84,6 @@ export default class Solutions extends React.Component {
                 </li>
                 })}
               </ul>
-
-              <section className="sol-capabilities">
-                <h3 className="sol-capabilities__title">
-                  { entry.getIn(['data', 'capabilitiesTitle']) }
-                </h3>
-
-                <ul className="sol-capabilities__modules">
-                {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {
-                    return <li className="sol-capabilities__block" key={index}>
-                    <img src={item.get('image')} alt="save time" className="sol-capabilities__img"/>
-
-                    <div className="sol-capabilities__descr">
-                      {item.get('text')}
-                    </div>
-                  </li>
-                  })}
-                </ul>
-              </section>
 
               <section className="sol-studies">
                 <h3 className="sol-studies__title">

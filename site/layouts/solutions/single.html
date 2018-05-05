@@ -5,16 +5,16 @@
     <!-- top section -->
     <div class="sol-top">
       <h2 class="sol-top__title">
-        {{ .Params.TopTitle }}
+        {{ .Params.TopTitle | markdownify}}
       </h2>
 
       <div class="sol-top__under-title">
-        {{ .Params.TopSubTitle }}
+        {{ .Params.TopSubTitle | markdownify }}
       </div>
 
       <div class="sol-top__btns-wrap">
         <a href="#" class="sol-link sol-link--sign-up">
-          sign up
+          free sign up
         </a>
 
         <a href="#" class="sol-link sol-link--request">
@@ -25,6 +25,26 @@
       <img src="{{ .Params.TopImage }}" alt="image" class="sol-top__img">
     </div>
     <!-- ./top section -->
+
+    <!-- section capabilities -->
+    <section class="sol-capabilities">
+      <!-- <h3 class="sol-capabilities__title">
+        With Visyond you can
+      </h3> -->
+
+      <ul class="sol-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="sol-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="sol-capabilities__img">
+
+          <div class="sol-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <!-- ./section capabilities -->
 
     <!-- trusted section -->
     <section class="sol-trusted">
@@ -62,35 +82,17 @@
             {{ .descr | markdownify }}
           </div>
 
+          {{ if .link }}
           <a href="{{ .link }}" class="sol-link sol-link--learn-more">
             learn more
           </a>
+          {{ end }}
         </section>
       </li>
       {{ end }}
       <!-- ./info block -->
     </ul>
     <!-- ./section info -->
-
-    <!-- section capabilities -->
-    <section class="sol-capabilities">
-      <h3 class="sol-capabilities__title">
-        With Visyond you can
-      </h3>
-
-      <ul class="sol-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="sol-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="sol-capabilities__img">
-
-          <div class="sol-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
-    <!-- ./section capabilities -->
 
     <!-- section studies -->
     <section class="sol-studies">
@@ -133,9 +135,6 @@
 
     <!-- section provides -->
     <div class="sol-provides">
-      <div class="sol-provides__img-wrap">
-        <img src="/img/home/v_notebook.png" alt="notebook" class="sol-provides__img">
-      </div>
       <section class="sol-provides__wrap">
         <h3 class="sol-provides__title">
           {{ .Params.ProvidesTitle }}
@@ -149,6 +148,9 @@
           {{ end }}
         </ul>
       </section>
+      <div class="sol-provides__img-wrap">
+        <img src="/img/home/v_notebook.png" alt="notebook" class="sol-provides__img">
+      </div>
     </div>
     <!-- ./section provides -->
 
