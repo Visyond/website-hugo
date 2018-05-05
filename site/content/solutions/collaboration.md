@@ -1,6 +1,9 @@
 ---
 title: Collaboration
-topTitle: 'SECURE, TRANSPARENT AND SIMPLE SPREADSHEET COLLABORATION & SHARING'
+topTitle: |-
+  SECURE, TRANSPARENT AND SIMPLE SPREADSHEET 
+
+  COLLABORATION & SHARING
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
@@ -57,7 +60,6 @@ infoBlockFirst:
     image: /img/Shrug_Meme.jpg
     link: '#'
     title: IMPORT AND EXPORT FREELY
-capabilitiesTitle: Title - to remove
 capabilitiesList:
   - image: /img/v_icon.png
     text: Eliminate data chaos
