@@ -13,7 +13,7 @@ trustedLogos:
   - logo: /img/logo_cy4gateblack and white 30.png
 infoBlockFirst:
   - descr: >-
-      No back-and-forth emails.\n No data chaos. **Track all inputs**, control
+      No back-and-forth emails.\s\s No data chaos. **Track all inputs**, control
       versions and enjoy **secure selective sharing** - allow access to only
       certain cells, worksheets, or linked reports and slides.
     image: /img/v_clip_group_1.png
