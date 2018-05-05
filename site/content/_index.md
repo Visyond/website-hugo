@@ -2,7 +2,7 @@
 title: Homepage
 metaTags: visyond
 topTitle: |-
-  SPREADSHEET COLLABORATION, ANALYSIS  <br></br> AND REPORTING
+  SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING
   IN MINUTES INSTEAD OF DAYS
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
