@@ -16,8 +16,8 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Page title", name: "title", widget: "string", required: false,}
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false, }
-      - {label: "Top Title", name: "topTitle", widget: "string", required: false,}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "text", required: false,}
+      - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
       - {label: "Top Image", name: "topImage", widget: "image", required: false, default: "/img/home/home_page_illustration_concept.png"}
 
       - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: false,}
@@ -37,7 +37,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: false,}
+      # - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: false,}
       - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
         {label: "Capabilities Image", name: "image", widget: "image"},
         {label: "Capabilities Text", name: "text", widget: "markdown"},

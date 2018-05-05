@@ -135,10 +135,10 @@ $(function () {
 
      function addCopyright() {
        const copyright = document.querySelector('.js-copyright');
-       const year = new Date();
+       const date = new Date();
 
        if(copyright) {
-         copyright.innerHTML = `2011-${year.getFullYear()} &copy; Visyond. All rights reserved`
+         copyright.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
        }
      }
 
