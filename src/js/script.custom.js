@@ -1,15 +1,15 @@
 $(function () {
 
     /**
-     * 
+     *
      * dropdown navigation
-     * 
+     *
      */
 
     function navLinkDropdown (e) {
         let link = $('.nav__item').has('.dropdown-menu-wrap').find('.nav__link');
         let parent = $('.nav__item').has('.dropdown-menu-wrap').find('.nav__link').find('span').after('<i class="material-icons dropdown-arrow">arrow_drop_down</i>');
-        
+
         link.on('click', function (e) {
             e.preventDefault();
             let href = $(this).attr('href');
@@ -30,9 +30,9 @@ $(function () {
     navLinkDropdown();
 
     /**
-     * 
+     *
      * Responsive menu
-     * 
+     *
      */
 
     function responsiveNav() {
@@ -55,9 +55,9 @@ $(function () {
     }
     responsiveNav();
     /**
-     * 
+     *
      * Modal
-     * 
+     *
      */
 
     (function () {
@@ -89,7 +89,7 @@ $(function () {
 
         var pb = 0;
         for (let i = 0; i < $('.landing-featured__list-comment-item').length; i++) {
-            
+
             if (pb < $('.landing-featured__list-comment-item').eq(i).height()) {
                 pb = $('.landing-featured__list-comment-item').eq(i).height() + 200;
          30 }
@@ -109,11 +109,11 @@ $(function () {
     }
 
     /**
-     * 
-     * 
+     *
+     *
      * Slowly navigation
-     * 
-     * 
+     *
+     *
      */
 
 
@@ -127,6 +127,22 @@ $(function () {
             scrollTop: $offsetTop
         }, 500)
      })
-    
+
+
+
+
+     //=====COPYRIGHT=====
+
+     function addCopyright() {
+       const copyright = document.querySelector('.js-copyright');
+       const year = new Date();
+
+       if(copyright) {
+         copyright.innerHTML = `2011-${year.getFullYear()} &copy; Visyond. All rights reserved`
+       }
+     }
+
+     addCopyright();
+
 
 });
