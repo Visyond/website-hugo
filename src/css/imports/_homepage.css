@@ -22,6 +22,10 @@
   }
 }
 
+.home-top__title p {
+  margin: 0;
+}
+
 .home-top__under-title {
   font-size: 1.5rem;
   font-weight: 400;
