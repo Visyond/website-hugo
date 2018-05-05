@@ -13,9 +13,11 @@ trustedLogos:
   - logo: /img/logo_cy4gateblack and white 30.png
 infoBlockFirst:
   - descr: >-
-      No back-and-forth emails.\s\s No data chaos. **Track all inputs**, control
-      versions and enjoy **secure selective sharing** - allow access to only
-      certain cells, worksheets, or linked reports and slides.
+      No back-and-forth emails. 
+
+      No data chaos. **Track all inputs**, control versions and enjoy **secure
+      selective sharing** - allow access to only certain cells, worksheets, or
+      linked reports and slides.
     image: /img/v_clip_group_1.png
     link: 'https://visyond.com/landings/governance/'
     title: collaborate on spreadsheets
