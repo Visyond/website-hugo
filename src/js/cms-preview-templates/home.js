@@ -19,11 +19,15 @@ export default class Home extends React.Component {
                 </div>
 
                 <div className="home-top__btns-wrap">
-                  <a href="https://visyond.com/accounts/signup/" className="home-link home-link--sign-up">
+                  <a href={ entry.getIn(['data', 'signUpURL']) } className="home-link home-link--sign-up">
                     free sign up
                   </a>
 
-                  <a href="https://visyond.com/request-a-demo" className="home-link home-link--request">
+                  <a href={ entry.getIn(['data', 'watchVideoURL']) } className="home-link home-link--request">
+                    watch video
+                  </a>
+
+                  <a href={ entry.getIn(['data', 'requestURL']) } className="home-link home-link--request">
                     request a demo
                   </a>
                 </div>
