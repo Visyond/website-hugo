@@ -43,7 +43,7 @@
   justify-content: center;
   margin-bottom: 7rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 850px) {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -63,7 +63,7 @@
   &:not(:last-child) {
     margin-right: 2rem;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 850px) {
       margin-right: 0;
       margin-bottom: 2rem;
     }
