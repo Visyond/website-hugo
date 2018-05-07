@@ -138,8 +138,8 @@ export default class Home extends React.Component {
                   })}
                   </ul>
                 </section>
-                <div class="home-provides__img-wrap">
-                  <img src="/img/home/v_notebook.png" alt="notebook" class="home-provides__img"/>
+                <div className="home-provides__img-wrap">
+                  <img src="/img/home/v_notebook.png" alt="notebook" className="home-provides__img"/>
                 </div>
               </div>
 
