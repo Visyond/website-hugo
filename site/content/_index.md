@@ -5,6 +5,9 @@ topTitle: |-
   SPREADSHEET COLLABORATION, ANALYSIS AND REPORTING 
 
   IN MINUTES INSTEAD OF DAYS
+signUpURL: '#'
+watchVideoURL: '#'
+requestURL: '#'
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud-based automation software.
