@@ -2,8 +2,8 @@
 title: CEO
 metaTags: ''
 topTitle: >-
-  ENABLING AND SIMPLIFYING THE WAY CEOS COMMUNICATE THE NUMBERS BEHIND THEIR
-  BUSINESS PLAN TO INVESTORS AND STAKEHOLDERS
+  Enabling and simplifying the way CEOs communicate the numbers behind their
+  business plan to investors and stakeholders
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud-based automation software.
