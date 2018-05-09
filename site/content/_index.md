@@ -28,7 +28,7 @@ infoBlockFirst:
     image: /img/v_clip_group_1.png
     link: ''
     title: ' SMOOTH COLLABORATION'
-  - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permissions control, dependency and error root cause analysis will help you minimize risks when building your models.\r\n"
+  - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permission control, dependency and error root cause analysis will minimize errors and give you peace of mind.\r\n"
     image: /img/v_clip_group_2.png
     link: ''
     title: SECURE DATA INTEGRITY
@@ -36,7 +36,7 @@ infoBlockFirst:
       Answer any questions on-the-fly and **compare scenarios easily**. Gain
       valuable insights in a few clicks by performing routine and advanced
       analyses that used to take days. Add your findings to **interactive
-      dashboard-apps** and share only what each stakeholder needs to see.
+      dashboards and apps** and share only what each stakeholder needs to see.
     image: /img/v_clip_group_3.png
     link: ''
     title: COLLABORATIVE DATA ANALYSIS
