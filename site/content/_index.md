@@ -6,10 +6,7 @@ topTitle: |-
 
   IN MINUTES INSTEAD OF DAYS
 signUpURL: /accounts/signup/
-watchVideoURL: >-
-  <iframe width="640" height="360"
-  src="https://www.youtube.com/embed/XByK_MG_T_M" frameborder="0"
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+watchVideoURL: 'https://youtu.be/XByK_MG_T_M'
 requestURL: /request-a-demo
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
