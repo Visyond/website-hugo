@@ -6,7 +6,7 @@ topTitle: |-
 
   IN MINUTES INSTEAD OF DAYS
 signUpURL: /accounts/signup/
-watchVideoURL: ''
+watchVideoURL: 'https://youtu.be/WoPc4pKs70w'
 requestURL: /request-a-demo
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
