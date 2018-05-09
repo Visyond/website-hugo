@@ -157,6 +157,8 @@ $(function () {
          }
        }
 
+       videoPopup.children[0].removeChild(videoPopup.querySelector('p'));
+
        // console.log(srcPart);
 
        const iframeBlock = document.createElement('iframe');
@@ -171,8 +173,6 @@ $(function () {
        function removeIframe() {
          videoPopup.children[0].removeChild(videoPopup.querySelector('iframe'));
        }
-
-       removeIframe();
 
        function createIframe() {
          videoPopup.children[0].appendChild(iframeBlock);
