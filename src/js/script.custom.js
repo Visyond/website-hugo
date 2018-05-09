@@ -148,12 +148,21 @@ $(function () {
        const videoBtn = document.querySelector('.js-btn-video');
        const videoPopup = document.querySelector('.js-popup');
        const closePopup = document.querySelector('.js-popup-close');
-       const srcIframe = videoPopup.querySelector('iframe').getAttribute('src');
-       
+       const srcIframe = videoPopup.querySelector('p').innerHTML;
+       let srcPart = "";
+
+       for(let i = 0; i < srcIframe.length; i++) {
+         if(i > 16) {
+           srcPart += srcIframe[i];
+         }
+       }
+
+       // console.log(srcPart);
+
        const iframeBlock = document.createElement('iframe');
        iframeBlock.setAttribute('width', '894');
        iframeBlock.setAttribute('height', '500');
-       iframeBlock.setAttribute('src', srcIframe);
+       iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}`);
        iframeBlock.setAttribute('frameborder', '0');
        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
