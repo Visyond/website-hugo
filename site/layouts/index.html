@@ -17,9 +17,9 @@
           free sign up
         </a>
 
-        <a href="{{ .Params.WatchVideoURL }}" class="home-link home-link--request">
+        <button class="home-link home-link--btn js-btn-video">
           watch video
-        </a>
+        </button>
 
         <a href="{{ .Params.RequestURL }}" class="home-link home-link--request">
           request a demo
@@ -27,6 +27,13 @@
       </div>
 
       <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img">
+
+      <div class="home-top__popup js-popup">
+        <div class="home-top__iframe-wrap">
+          <button class="home-top__popup-close js-popup-close"></button>
+          {{ .Params.WatchVideoURL }}
+        </div>
+      </div>
     </div>
     <!-- ./top section -->
 

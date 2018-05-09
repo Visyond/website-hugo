@@ -144,5 +144,46 @@ $(function () {
 
      addCopyright();
 
+     function watchVideo() {
+       const videoBtn = document.querySelector('.js-btn-video');
+       const videoPopup = document.querySelector('.js-popup');
+       const closePopup = document.querySelector('.js-popup-close');
+       const srcIframe = videoPopup.querySelector('iframe').getAttribute('src');
+       
+       const iframeBlock = document.createElement('iframe');
+       iframeBlock.setAttribute('width', '894');
+       iframeBlock.setAttribute('height', '500');
+       iframeBlock.setAttribute('src', srcIframe);
+       iframeBlock.setAttribute('frameborder', '0');
+       iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
+       iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
+
+
+       function removeIframe() {
+         videoPopup.children[0].removeChild(videoPopup.querySelector('iframe'));
+       }
+
+       removeIframe();
+
+       function createIframe() {
+         videoPopup.children[0].appendChild(iframeBlock);
+       }
+
+
+       videoBtn.addEventListener('click', e => {
+         videoPopup.classList.add('home-top__popup--show');
+         createIframe();
+       });
+
+       videoPopup.addEventListener('click', e => {
+         if(e.target === e.currentTarget || e.target === closePopup) {
+           videoPopup.classList.remove('home-top__popup--show');
+           removeIframe();
+         }
+       })
+     }
+
+     watchVideo();
+
 
 });
