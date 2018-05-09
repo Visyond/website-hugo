@@ -37,7 +37,10 @@ export default class Home extends React.Component {
                 <div className="home-top__popup js-popup">
                   <div className="home-top__iframe-wrap">
                     <button className="home-top__popup-close js-popup-close"></button>
-                    { entry.getIn(['data', 'watchVideoURL']) }
+                    <p>
+                      { entry.getIn(['data', 'watchVideoURL']) }
+                    </p>
+
                   </div>
                 </div>
               </div>
