@@ -70,7 +70,7 @@
   }
 
   &--sign-up {
-    background: #50556e;
+    background: #0086ff;
     position: relative;
 
     &:before {
@@ -86,12 +86,8 @@
     }
   }
 
-  &--request {
-    background: #0086ff;
-  }
-
   &--btn {
-    background: #0086ff;
+    background: #595959;
     padding: 1.1rem 0;
     cursor: pointer;
   }
