@@ -144,20 +144,12 @@ $(function () {
 
      addCopyright();
 
-     function watchVideo() {
-       const videoBtn = document.querySelector('.js-btn-video');
-       const videoPopup = document.querySelector('.js-popup');
+     function watchVideo(btn, popup) {
        const closePopup = document.querySelector('.js-popup-close');
-       const srcIframe = videoPopup.querySelector('p').innerHTML;
-       let srcPart = "";
+       const srcIframe = popup.querySelector('p').innerHTML;
+       let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
-       for(let i = 0; i < srcIframe.length; i++) {
-         if(i > 16) {
-           srcPart += srcIframe[i];
-         }
-       }
-
-       videoPopup.children[0].removeChild(videoPopup.querySelector('p'));
+       popup.children[0].removeChild(popup.querySelector('p'));
 
        // console.log(srcPart);
 
@@ -171,28 +163,32 @@ $(function () {
 
 
        function removeIframe() {
-         videoPopup.children[0].removeChild(videoPopup.querySelector('iframe'));
+         popup.children[0].removeChild(popup.querySelector('iframe'));
        }
 
        function createIframe() {
-         videoPopup.children[0].appendChild(iframeBlock);
+         popup.children[0].appendChild(iframeBlock);
        }
 
 
-       videoBtn.addEventListener('click', e => {
-         videoPopup.classList.add('home-top__popup--show');
+       btn.addEventListener('click', e => {
+         popup.classList.add('home-top__popup--show');
          createIframe();
        });
 
-       videoPopup.addEventListener('click', e => {
+       popup.addEventListener('click', e => {
          if(e.target === e.currentTarget || e.target === closePopup) {
-           videoPopup.classList.remove('home-top__popup--show');
+           popup.classList.remove('home-top__popup--show');
            removeIframe();
          }
        })
      }
+     if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
+       const videoBtn = document.querySelector('.js-btn-video');
+       const videoPopup = document.querySelector('.js-popup');
 
-     watchVideo();
+       watchVideo(videoBtn, videoPopup);
+     }
 
 
 });
