@@ -23,9 +23,9 @@ export default class Home extends React.Component {
                     free sign up
                   </a>
 
-                  <a href={ entry.getIn(['data', 'watchVideoURL']) } className="home-link home-link--request">
+                  <button className="home-link home-link--btn js-btn-video">
                     watch video
-                  </a>
+                  </button>
 
                   <a href={ entry.getIn(['data', 'requestURL']) } className="home-link home-link--request">
                     request a demo
@@ -33,6 +33,13 @@ export default class Home extends React.Component {
                 </div>
 
                 <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="home-top__img"/>
+
+                <div className="home-top__popup js-popup">
+                  <div className="home-top__iframe-wrap">
+                    <button className="home-top__popup-close js-popup-close"></button>
+                    { entry.getIn(['data', 'watchVideoURL']) }
+                  </div>
+                </div>
               </div>
 
               <section className="home-capabilities">
