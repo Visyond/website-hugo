@@ -204,21 +204,24 @@ $(function () {
      //=====LOGO TRUSTED SLIDER=====
 
      function logoSlide() {
+       const slidersBlock = document.querySelector('.home-trusted__logos-wrap');
        const sliders = document.querySelectorAll('.home-trusted__logo-item');
        let count = 0;
+       console.log(slidersBlock.offsetWidth);
+       let step = sliders[0].offsetWidth;
+
+       window.addEventListener('resize', () => {
+         step = sliders[0].offsetWidth;
+       })
 
        setInterval(() => {
          if(document.documentElement.clientWidth > 800) {
            count++;
-           for(let i = 0; i < sliders.length; i++) {
-             sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
-           }
+           slidersBlock.style.transform = `translateX(-${step * (count % (sliders.length - 3))}px)`;
          }
          else {
            count = 0;
-           for(let i = 0; i < sliders.length; i++) {
-             sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
-           }
+           slidersBlock.style.transform = `translateX(-${step * (count % (sliders.length - 3))}px)`;
          }
 
        }, 3000);

@@ -65,14 +65,16 @@
       <h3 class="home-trusted__title">
         {{ .Params.TrustedTitle }}
       </h3>
+      <div class="home-trusted__wrapper">
+        <ul class="home-trusted__logos-wrap">
+          {{ range $el := .Params.TrustedLogos }}
+          <li class="home-trusted__logo-item">
+            <img src="{{ .logo }}" alt="logo">
+          </li>
+          {{ end }}
+        </ul>
+      </div>
 
-      <ul class="home-trusted__logos-wrap">
-        {{ range $el := .Params.TrustedLogos }}
-        <li class="home-trusted__logo-item">
-          <img src="{{ .logo }}" alt="logo">
-        </li>
-        {{ end }}
-      </ul>
     </section>
     <!-- ./trusted section -->
 
