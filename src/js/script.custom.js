@@ -204,29 +204,40 @@ $(function () {
      //=====LOGO TRUSTED SLIDER=====
 
      function logoSlide() {
-       const slidersBlock = document.querySelector('.home-trusted__logos-wrap');
-       const sliders = document.querySelectorAll('.home-trusted__logo-item');
+       let slidersBlock = document.querySelector('.js-slider');
+       let sliders = document.querySelectorAll('.home-trusted__logo-item');
+       const slidersNumber = sliders.length;
        let count = 0;
-       console.log(slidersBlock.offsetWidth);
        let step = sliders[0].offsetWidth;
+
+       let sliderInterval = setInterval(() => {
+         if(document.documentElement.clientWidth > 800) {
+           sliders = document.querySelectorAll('.home-trusted__logo-item');
+           slidersBlock = document.querySelector('.js-slider')
+           let cloneNode = sliders[count].cloneNode(true);
+           slidersBlock.appendChild(cloneNode);
+           count++;
+           slidersBlock.style.transform = `translateX(-${step * count}px)`;
+         }
+         else {
+           for(let i = slidersBlock.children.length - 1; i > 0 ; i--) {
+             if(i >= slidersNumber) {
+               slidersBlock.removeChild(slidersBlock.children[i]);
+             }
+           }
+           count = 0;
+           slidersBlock.style.transform = `translateX(-${step * count}px)`;
+         }
+
+       }, 5000);
 
        window.addEventListener('resize', () => {
          step = sliders[0].offsetWidth;
-       })
-
-       setInterval(() => {
-         if(document.documentElement.clientWidth > 800) {
-           count++;
-           slidersBlock.style.transform = `translateX(-${step * (count % (sliders.length - 3))}px)`;
-         }
-         else {
-           count = 0;
-           slidersBlock.style.transform = `translateX(-${step * (count % (sliders.length - 3))}px)`;
-         }
-
-       }, 3000);
+       });
      }
-
-     logoSlide();
+     
+     if(document.querySelector('.js-slider')) {
+       logoSlide();
+     }
 
 });

@@ -184,7 +184,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  transition: 2s;
+  transition: 3s;
 
   @media screen and (max-width: 800px) {
     -webkit-flex-direction: column;
