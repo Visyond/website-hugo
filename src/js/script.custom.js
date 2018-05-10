@@ -144,6 +144,12 @@ $(function () {
 
      addCopyright();
 
+
+
+
+
+
+     //=====POPUP WITH YOUTUBE VIDEO=====
      function watchVideo(btn, popup) {
        const closePopup = document.querySelector('.js-popup-close');
        const srcIframe = popup.querySelector('p').innerHTML;
@@ -160,7 +166,6 @@ $(function () {
        iframeBlock.setAttribute('frameborder', '0');
        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
-       iframeBlock.setAttribute('autoplay', '1');
 
 
        function removeIframe() {
@@ -191,5 +196,27 @@ $(function () {
        watchVideo(videoBtn, videoPopup);
      }
 
+
+
+
+
+
+     //=====LOGO TRUSTED SLIDER=====
+
+     function logoSlide() {
+       console.log(123);
+       const sliders = document.querySelectorAll('.home-trusted__logo-item');
+       let count = 0;
+
+       setInterval(() => {
+         count++;
+         console.log(count);
+         for(let i = 0; i < sliders.length; i++) {
+           sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
+         }
+       }, 3000);
+     }
+
+     logoSlide();
 
 });
