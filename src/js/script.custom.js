@@ -204,13 +204,11 @@ $(function () {
      //=====LOGO TRUSTED SLIDER=====
 
      function logoSlide() {
-       console.log(123);
        const sliders = document.querySelectorAll('.home-trusted__logo-item');
        let count = 0;
 
        setInterval(() => {
          count++;
-         console.log(count);
          for(let i = 0; i < sliders.length; i++) {
            sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
          }
