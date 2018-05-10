@@ -208,10 +208,19 @@ $(function () {
        let count = 0;
 
        setInterval(() => {
-         count++;
-         for(let i = 0; i < sliders.length; i++) {
-           sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
+         if(document.documentElement.clientWidth > 800) {
+           count++;
+           for(let i = 0; i < sliders.length; i++) {
+             sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
+           }
          }
+         else {
+           count = 0;
+           for(let i = 0; i < sliders.length; i++) {
+             sliders[i].style.transform = `translateX(-${100 * (count % (sliders.length - 3))}%)`;
+           }
+         }
+
        }, 3000);
      }
 
