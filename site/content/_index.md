@@ -48,7 +48,7 @@ capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
   - image: /img/v_icon2.png
-    text: Reduce average cost up to **$420** per employee/month
+    text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 studiesTitle: Featured case studies
