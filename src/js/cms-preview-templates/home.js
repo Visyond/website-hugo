@@ -67,14 +67,15 @@ export default class Home extends React.Component {
                 <h3 className="home-trusted__title">
                   { entry.getIn(['data', 'trustedTitle']) }
                 </h3>
-
+                <div className="home-trusted__wrapper">
                 <ul className="home-trusted__logos-wrap">
                   {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
-                      return <li key={index}>
+                      return <li key={index} className="home-trusted__logo-item">
                         <img src={ item.get('logo') } className="landing-trusted__img"/>
                        </li>
                   })}
                 </ul>
+                </div>
               </section>
 
               <ul className="home-info">
