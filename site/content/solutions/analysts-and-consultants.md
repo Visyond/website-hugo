@@ -20,10 +20,30 @@ trustedLogos:
   - logo: /img/datadvance-logo black and white 15.png
   - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
-  - descr: tratatatratatatratata
-    image: /img/v_clip_group_1.png
+  - descr: >-
+      Put an end to the long wary hours of preparing calculations for multiple
+      scenarios! Visyond connects you to intellignent data that propagates your
+      formulas with swiftness and ease, graphically displays opportunities and
+      risks, aggregates data in real time, helps you easily find the source of
+      information and lets you answer what-if questions on the fly.
+    image: /img/Ancient-Aliens.jpg
     link: '#'
-    title: tratata
+    title: Transform the way you analyze and present data
+  - descr: "Visyond is cloud-based so you never lose information, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and eliminate dependency from the model creator by sharing your models and analysis.\r It’s been designed to never break formulae or lose your teams’ work, tracking their input and changes."
+    image: /img/Ancient-Aliens.jpg
+    link: '#'
+    title: Never lose critical information
+  - descr: >-
+      Visyond’s built-in analysis tools automate typical routine tasks that
+      would otherwise require expensive software, add-ons or error-prone lengthy
+      manual setups. For example, build a downloadable Analytics report with
+      just one click.
+    image: /img/Ancient-Aliens.jpg
+    link: '#'
+    title: Save time and enhance your analysis and report
+  - descr: "\rAdd cases to any cell and combine them in scenarios. Have as many scenarios as you like without creating the chaos of multiple files and model versions. Visualise and compare all the scenarios with just a few clicks. \rEvery cell in Visyond is multi-dimensional and like a database."
+    image: /img/Ancient-Aliens.jpg
+    title: Demonstrate your analysis powerfully
 capabilitiesList:
   - image: /img/v_icon.png
     text: do stuff
