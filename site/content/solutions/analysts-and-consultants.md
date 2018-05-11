@@ -26,11 +26,11 @@ infoBlockFirst:
       formulas with swiftness and ease, graphically displays opportunities and
       risks, aggregates data in real time, helps you easily find the source of
       information and lets you answer what-if questions on the fly.
-    image: /img/Ancient-Aliens.jpg
+    image: /img/consult1.png
     link: '#'
     title: Transform the way you analyze and present data
   - descr: "Visyond is cloud-based so you never lose information - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by securely sharing your models and analysis.\r It’s been designed to never break formulas or lose your teams’ work, track their input and changes."
-    image: /img/Ancient-Aliens.jpg
+    image: /img/consult2.png
     link: '#'
     title: Never lose critical information
   - descr: >-
@@ -38,7 +38,7 @@ infoBlockFirst:
       otherwise require expensive software, add-ons, writing macros or
       error-prone lengthy manual setups. With Visyond you will need just a few
       clicks and minutes to perform analyses that used to take days.
-    image: /img/Ancient-Aliens.jpg
+    image: /img/consult3.png
     link: '#'
     title: Save time and enhance your analysis and report
   - descr: >-
@@ -50,7 +50,7 @@ infoBlockFirst:
       results with stakeholders allowing them to test their own assumptions
       directly in the dashboards without the risk of breaking the underlying
       model.
-    image: /img/Ancient-Aliens.jpg
+    image: /img/consult4.png
     link: '#'
     title: Demonstrate your analysis powerfully
 capabilitiesList:
@@ -72,6 +72,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
+    image: /img/ELearnSecurity - v2.png
     linkText: learn more
     linkUrl: '#'
     text: >-
