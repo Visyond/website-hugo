@@ -21,7 +21,7 @@ client_ask: >-
   with the clients to ensure that the models are accurate, reliable and satisfy
   all the requirements in order to help clients make smart business decisions.
 aside:
-  - content: '![Ericsson](/img/512px-Ericsson_logo.svg.png)'
+  - content: '![Visyond](/img/logo_color.png)'
   - content: "**Use Cases**\n\n* Business impact modeling\r\n* Analysis\r\n* Presentation\r\n\n"
   - content: "**Challenge**\n\n* Excel-based modeling was inefficient consuming valuable time that instead could have been better spent on business impact\r\n* Multiple days and large effort was required to create and maintain Waterfall charts\r\n* Simulations and ‘what-if’ questions took a whole week to complete\r\n* Continuous back-and-forth communications with the clients and the management of consequent changes in the models were cumbersome and time-consuming\r\n* Presentations and dashboards for clients had to be maintained and updated every time there was a minor change in the underlying model\r\n"
   - content: "**Solution**\n\n* Visyond’s natural-language formulas, error detection and easily identifiable precedent and dependent cells that assist in understanding the logic and debugging the model\r\n* Straightforward analytics tools that allow to perform advanced analyses like Sensitivity or Waterfall in a few clicks\r\n* Sensitivity (what-if) analysis that can be easily done by clients themselves in order to test different assumptions\r\n* Real time collaboration with the clients, version control and input tracking, all within the spreadsheet, that improve the efficiency of communication and turnaround of changes’ implementation\r\n* Interactive slides that are linked to the model and automatically updated in real time every time the numbers change"
