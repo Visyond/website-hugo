@@ -1,7 +1,7 @@
 ---
 title: >-
-  How Ericsson sped up by 70% their Return on Investment presentations and
-  empowered their customers
+  How a major telecom vendor sped up by 70% their Return on Investment
+  presentations and empowered their customers
 image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Telecom'
@@ -9,10 +9,10 @@ tooltip:
   - title: 'Use Cases: Business Impact Modeling, Analysis, Presentation'
 client: /img/Kedar Thakar case study image.jpg
 client_ask: >-
-  Kedar Thakar is **Sales Chief Modeler at Ericsson**, a company with more than
-  100,000 employees and one of the leading providers of Information and
+  Kedar Thakar is **Sales Chief Modeler at a major telecom company** with more
+  than 100,000 employees that is one of the leading providers of Information and
   Communication Technology (ICT) to service providers with over 40% of the
-  world’s mobile traffic carried through Ericsson’s networks.
+  world’s mobile traffic carried through their networks.
 
 
 
