@@ -29,24 +29,37 @@ infoBlockFirst:
     image: /img/Ancient-Aliens.jpg
     link: '#'
     title: Transform the way you analyze and present data
-  - descr: "Visyond is cloud-based so you never lose information, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and eliminate dependency from the model creator by sharing your models and analysis.\r It’s been designed to never break formulae or lose your teams’ work, tracking their input and changes."
+  - descr: "Visyond is cloud-based so you never lose information - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by securely sharing your models and analysis.\r It’s been designed to never break formulas or lose your teams’ work, track their input and changes."
     image: /img/Ancient-Aliens.jpg
     link: '#'
     title: Never lose critical information
   - descr: >-
-      Visyond’s built-in analysis tools automate typical routine tasks that
-      would otherwise require expensive software, add-ons or error-prone lengthy
-      manual setups. For example, build a downloadable Analytics report with
-      just one click.
+      Our built-in analysis tools automate typical routine tasks that would
+      otherwise require expensive software, add-ons, writing macros or
+      error-prone lengthy manual setups. With Visyond you will need just a few
+      clicks and minutes to perform analyses that used to take days.
     image: /img/Ancient-Aliens.jpg
     link: '#'
     title: Save time and enhance your analysis and report
-  - descr: "\rAdd cases to any cell and combine them in scenarios. Have as many scenarios as you like without creating the chaos of multiple files and model versions. Visualise and compare all the scenarios with just a few clicks. \rEvery cell in Visyond is multi-dimensional and like a database."
+  - descr: >-
+      Every cell in Visyond can store multiple coexisting inputs, attachments
+      and conversations. You can add different cases (i.e. optimistic &
+      pessimistic forecasts) to any cells and combine them into as many
+      scenarios as you like and then quickly compare them on-the fly. Then, with
+      the help of powerful interactive dashboards, you can securely share the
+      results with stakeholders allowing them to test their own assumptions
+      directly in the dashboards without the risk of breaking the underlying
+      model.
     image: /img/Ancient-Aliens.jpg
+    link: '#'
     title: Demonstrate your analysis powerfully
 capabilitiesList:
   - image: /img/v_icon.png
-    text: do stuff
+    text: Save up to **80%** of time on routine tasks
+  - image: /img/v_icon2.png
+    text: Reduce average cost by **$420** per employee/month
+  - image: /img/v_icon3.png
+    text: '**Significantly** reduce errors'
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
@@ -58,6 +71,16 @@ studiesBlock:
       When I used Visyond, I see my accuracy and ability to answer questions
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
+  - author: 'Armando Romeo, CEO, eLearnSecurity'
+    linkText: learn more
+    linkUrl: '#'
+    text: >-
+      The process took 1 stressful week and I did not feel comfortable to update
+      the data, fearing to break something. Now it is a 1-hour job and a few
+      clicks to update data.
+    title: >-
+      How preparing Financial Statements with no training in Finance became a
+      1-hour job
 providesTitle: Get started in minutes
 providesList:
   - text: >-
