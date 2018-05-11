@@ -72,6 +72,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
+    image: /img/ELearnSecurity - v2.png
     linkText: learn more
     linkUrl: '#'
     text: >-
