@@ -44,6 +44,30 @@ export default class Solutions extends React.Component {
                 </div>
               </div>
 
+              <ul className="sol-info">
+              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
+                  return <li className="sol-info__block" key={index}>
+                  <img src={ item.get('image') } alt="collaborate on spreadsheets" className="sol-info__block-img"/>
+
+                  <img src="/img/home/lines.png" alt="lines" className="sol-info__block-lines"/>
+
+                  <section className="sol-info__text-wrap">
+                    <h3 className="sol-info__block-title">
+                      { item.get('title') }
+                    </h3>
+
+                    <div className="sol-info__block-descr">
+                      { item.get('descr') }
+                    </div>
+
+                    <a href={ item.get('link') } className="sol-link sol-link--learn-more">
+                      learn more
+                    </a>
+                  </section>
+                </li>
+                })}
+              </ul>
+
               <section className="sol-capabilities">
 
                 <ul className="sol-capabilities__modules">
@@ -73,30 +97,6 @@ export default class Solutions extends React.Component {
                 </ul>
                 </div>
               </section>
-
-              <ul className="sol-info">
-              {(entry.getIn(["data", "infoBlockFirst"]) || []).map((item, index) => {
-                  return <li className="sol-info__block" key={index}>
-                  <img src={ item.get('image') } alt="collaborate on spreadsheets" className="sol-info__block-img"/>
-
-                  <img src="/img/home/lines.png" alt="lines" className="sol-info__block-lines"/>
-
-                  <section className="sol-info__text-wrap">
-                    <h3 className="sol-info__block-title">
-                      { item.get('title') }
-                    </h3>
-
-                    <div className="sol-info__block-descr">
-                      { item.get('descr') }
-                    </div>
-
-                    <a href={ item.get('link') } className="sol-link sol-link--learn-more">
-                      learn more
-                    </a>
-                  </section>
-                </li>
-                })}
-              </ul>
 
               <section className="sol-studies">
                 <h3 className="sol-studies__title">
