@@ -23,14 +23,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Request URL", name: "requestURL", widget: "string", required: false,}
       - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
 
-      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: false,}
-      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-        fields: [
-          {label: "Logo", name: "logo", widget: "image"},
-        ],
-        required: false,
-      }
-
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
           {label: "Info Title", name: "title", widget: "string"},
@@ -44,6 +36,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
         {label: "Capabilities Image", name: "image", widget: "image"},
         {label: "Capabilities Text", name: "text", widget: "markdown"},
+        ],
+        required: false,
+      }
+
+      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: false,}
+      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
+        fields: [
+          {label: "Logo", name: "logo", widget: "image"},
         ],
         required: false,
       }
