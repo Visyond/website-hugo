@@ -10,7 +10,7 @@ topSubTitle: >+
   the wrong conclusion – and no career needs the downfall from that!
 
 
-bgImage: /img/2.png
+bgImage: /img/Screen_Shot_2017-11-06_at_3.17.59_PM.png
 trustedTitle: Trusted by
 trustedLogos:
   - logo: /img/v_elt.png
