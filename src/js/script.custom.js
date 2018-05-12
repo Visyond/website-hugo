@@ -178,17 +178,18 @@ $(function () {
 
 
        btn.addEventListener('click', e => {
-         popup.classList.add('home-top__popup--show');
+         popup.classList.add('popup--show');
          createIframe();
        });
 
        popup.addEventListener('click', e => {
          if(e.target === e.currentTarget || e.target === closePopup) {
-           popup.classList.remove('home-top__popup--show');
+           popup.classList.remove('popup--show');
            removeIframe();
          }
        })
-     }
+     };
+
      if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
        const videoBtn = document.querySelector('.js-btn-video');
        const videoPopup = document.querySelector('.js-popup');
@@ -204,15 +205,15 @@ $(function () {
      //=====LOGO TRUSTED SLIDER=====
 
      function logoSlide() {
-       let slidersBlock = document.querySelector('.js-slider');
-       let sliders = document.querySelectorAll('.home-trusted__logo-item');
+       let slidersBlock = document.querySelector(`.js-slider`);
+       let sliders = slidersBlock.children;
        const slidersNumber = sliders.length;
        let count = 0;
        let step = sliders[0].offsetWidth;
 
        let sliderInterval = setInterval(() => {
          if(document.documentElement.clientWidth > 800) {
-           sliders = document.querySelectorAll('.home-trusted__logo-item');
+           sliders = slidersBlock.children;
            slidersBlock = document.querySelector('.js-slider')
            let cloneNode = sliders[count].cloneNode(true);
            slidersBlock.appendChild(cloneNode);
@@ -235,7 +236,7 @@ $(function () {
          step = sliders[0].offsetWidth;
        });
      }
-     
+
      if(document.querySelector('.js-slider')) {
        logoSlide();
      }
