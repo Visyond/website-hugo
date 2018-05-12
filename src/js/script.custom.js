@@ -242,4 +242,48 @@ $(function () {
        logoSlide();
      }
 
+
+
+
+
+
+     //=====POPUP INFO IMAGES====
+
+     function PopupInfoImages() {
+       this.mainBlock = document.querySelector('.js-image-block');
+       this.images = this.mainBlock.querySelectorAll('img:first-child');
+
+       this._createPopup = (src) => {
+         const popup = document.createElement('div');
+         const video = document.createElement('video');
+         const source = document.createElement('source');
+         video.setAttribute('autoplay', 'autoplay');
+         source.setAttribute('src', src);
+         popup.classList.add('popup');
+         video.appendChild(source);
+         popup.appendChild(video);
+         this.mainBlock.appendChild(popup);
+
+         setTimeout( () => {
+           popup.style.opacity = 1;
+         }, 500);
+
+         popup.addEventListener('click', e => {
+           popup.parentNode.removeChild(popup);
+         });
+       }
+
+       this.mainBlock.addEventListener('click', e => {
+         for(let i = 0; i < this.images.length; i++) {
+          if(e.target === this.images[i]) {
+            console.log(this.images[i].dataset.src);
+            this._createPopup(this.images[i].dataset.src);
+          };
+        };
+      });
+    };
+
+     if(document.querySelector('.js-image-block')) {
+       const newPopup = new PopupInfoImages();
+     }
 });
