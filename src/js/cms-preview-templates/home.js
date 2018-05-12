@@ -46,9 +46,6 @@ export default class Home extends React.Component {
               </div>
 
               <section className="home-capabilities">
-                {/*<h3 className="home-capabilities__title">
-                  { entry.getIn(['data', 'capabilitiesTitle']) }
-                </h3>*/}
 
                 <ul className="home-capabilities__modules">
                 {(entry.getIn(["data", "capabilitiesList"]) || []).map((item, index) => {

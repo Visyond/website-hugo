@@ -213,6 +213,7 @@ $(function () {
 
        let sliderInterval = setInterval(() => {
          if(document.documentElement.clientWidth > 800) {
+           step = sliders[0].offsetWidth;
            sliders = slidersBlock.children;
            slidersBlock = document.querySelector('.js-slider')
            let cloneNode = sliders[count].cloneNode(true);
