@@ -4,6 +4,9 @@ topTitle: |-
   SECURE, TRANSPARENT AND SIMPLE SPREADSHEET 
 
   COLLABORATION & SHARING
+signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+requestURL: /request-a-demo
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
