@@ -12,14 +12,6 @@ signUpURL: ''
 watchVideoURL: ''
 requestURL: ''
 bgImage: /img/banner.jpg
-trustedTitle: trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
   - descr: >-
       Full control over who can view or edit what parts of the spreadsheets -
@@ -29,6 +21,7 @@ infoBlockFirst:
       carefully crafted formulas.
     image: /img/Shrug_Meme.jpg
     link: '#'
+    popupUrl: /img/Visyond.mp4
     title: SECURE SELECTIVE SHARING
   - descr: >-
       Each cell can store multiple inputs from different people allowing you to
@@ -72,6 +65,14 @@ capabilitiesList:
     text: Keep up to date with the latest changes
   - image: /img/v_icon.png
     text: 'Know who changed what, when'
+trustedTitle: trusted by
+trustedLogos:
+  - logo: /img/v_elt.png
+  - logo: /img/v_deloitte.png
+  - logo: /img/v_abrt.png
+  - logo: /img/elearn2.png
+  - logo: /img/datadvance-logo black and white 15.png
+  - logo: /img/logo_cy4gate black and white 25.png
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
