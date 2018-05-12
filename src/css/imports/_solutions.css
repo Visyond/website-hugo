@@ -9,6 +9,7 @@
   align-items: center;
   text-align: center;
   padding: 40px 10px 0;
+  background-size: cover;
 }
 
 .sol-top__title {

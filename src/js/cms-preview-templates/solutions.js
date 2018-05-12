@@ -20,16 +20,28 @@ export default class Solutions extends React.Component {
                 </div>
 
                 <div className="sol-top__btns-wrap">
-                  <button className="sol-link sol-link--sign-up">
-                    sign up
-                  </button>
+                <a href={ entry.getIn(['data', 'signUpURL']) } className="sol-link sol-link--sign-up">
+                  free sign up
+                </a>
 
-                  <button className="sol-link sol-link--request">
-                    request a demo
-                  </button>
+                <button className="sol-link sol-link--btn js-btn-video">
+                  watch video
+                </button>
+
+                <a href={ entry.getIn(['data', 'requestURL']) } className="sol-link sol-link--request">
+                  request a demo
+                </a>
                 </div>
 
-                <img src={ entry.getIn(['data', 'topImage']) } alt="image" className="sol-top__img"/>
+                <div className="sol-top__popup js-popup">
+                  <div className="sol-top__iframe-wrap">
+                    <button className="sol-top__popup-close js-popup-close"></button>
+                    <p>
+                      { entry.getIn(['data', 'watchVideoURL']) }
+                    </p>
+
+                  </div>
+                </div>
               </div>
 
               <section className="sol-capabilities">
@@ -51,14 +63,15 @@ export default class Solutions extends React.Component {
                 <h3 className="sol-trusted__title">
                   { entry.getIn(['data', 'trustedTitle']) }
                 </h3>
-
+                <div className="sol-trusted__wrapper">
                 <ul className="sol-trusted__logos-wrap">
                   {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
-                      return <li key={index}>
+                      return <li key={index} className="home-trusted__logo-item">
                         <img src={ item.get('logo') } className="landing-trusted__img"/>
                        </li>
                   })}
                 </ul>
+                </div>
               </section>
 
               <ul className="sol-info">

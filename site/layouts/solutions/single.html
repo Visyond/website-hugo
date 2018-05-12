@@ -3,7 +3,7 @@
   <div class="sol">
 
     <!-- top section -->
-    <div class="sol-top">
+    <div class="sol-top" style="background-image: url({{ .Params.BgImage }})">
       <h2 class="sol-top__title">
         {{ .Params.TopTitle | markdownify}}
       </h2>
@@ -31,8 +31,6 @@
         </a>
         {{ end }}
       </div>
-
-      <img src="{{ .Params.TopImage }}" alt="image" class="sol-top__img">
 
       <div class="sol-top__popup js-popup">
         <div class="sol-top__iframe-wrap">
