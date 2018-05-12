@@ -4,14 +4,14 @@ topTitle: |-
   SECURE, TRANSPARENT AND SIMPLE SPREADSHEET 
 
   COLLABORATION & SHARING
-signUpURL: ''
-watchVideoURL: ''
-requestURL: ''
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
   granular permissions control.
-topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
+signUpURL: ''
+watchVideoURL: ''
+requestURL: ''
+bgImage: /img/banner.jpg
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
