@@ -1,6 +1,6 @@
 {{ partial "head" . }}
 
-  <div class="new-home sol">
+  <div class="sol">
 
     <!-- top section -->
     <div class="sol-top">
@@ -13,16 +13,34 @@
       </div>
 
       <div class="sol-top__btns-wrap">
-        <a href="#" class="sol-link sol-link--sign-up">
+        {{ if .Params.SignUpURL }}
+        <a href="{{ .Params.SignUpURL }}" class="sol-link sol-link--sign-up">
           free sign up
         </a>
+        {{ end }}
 
-        <a href="#" class="sol-link sol-link--request">
+        {{ if .Params.WatchVideoURL }}
+        <button class="home-link home-link--btn js-btn-video">
+          watch video
+        </button>
+        {{ end }}
+
+        {{ if .Params.RequestURL }}
+        <a href="{{ .Params.RequestURL }}" class="sol-link sol-link--request">
           request a demo
         </a>
+        {{ end }}
       </div>
 
       <img src="{{ .Params.TopImage }}" alt="image" class="sol-top__img">
+
+      <div class="sol-top__popup js-popup">
+        <div class="sol-top__iframe-wrap">
+          <button class="sol-top__popup-close js-popup-close"></button>
+          <p>{{ .Params.WatchVideoURL }}</p>
+
+        </div>
+      </div>
     </div>
     <!-- ./top section -->
 
@@ -51,14 +69,15 @@
       <h3 class="sol-trusted__title">
         {{ .Params.TrustedTitle }}
       </h3>
-
-      <ul class="sol-trusted__logos-wrap">
-        {{ range $el := .Params.TrustedLogos }}
-        <li>
-          <img src="{{ .logo }}" alt="logo">
-        </li>
-        {{ end }}
-      </ul>
+      <div class="sol-trusted__wrapper">
+        <ul class="sol-trusted__logos-wrap js-slider">
+          {{ range $el := .Params.TrustedLogos }}
+          <li class="sol-trusted__logo-item">
+            <img src="{{ .logo }}" alt="logo">
+          </li>
+          {{ end }}
+        </ul>
+      </div>
     </section>
     <!-- ./trusted section -->
 
