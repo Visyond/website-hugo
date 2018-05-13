@@ -30,6 +30,7 @@ infoBlockFirst:
       back-and-forth emails containing different versions of the same document.
     image: /img/Shrug_Meme.jpg
     link: '#'
+    popupUrl: /img/grouped waterfall chart.png
     title: STRUCTURED DATA GATHERING & CONSOLIDATION
   - descr: >-
       In Visyond, the spreadsheet is the central repository for all relevant
