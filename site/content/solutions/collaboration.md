@@ -19,18 +19,18 @@ infoBlockFirst:
       only to interact with selected reports and present with interactive slides
       where they can test their assumptions without breaking any of the
       carefully crafted formulas.
-    image: /img/Shrug_Meme.jpg
+    image: /img/collab 1 sample.png
     link: '#'
-    popupUrl: /img/Visyond.mp4
+    popupUrl: /img/collab video 1.mp4
     title: SECURE SELECTIVE SHARING
   - descr: >-
       Each cell can store multiple inputs from different people allowing you to
       effectively work together without the risk of overriding data or
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
-    image: /img/Shrug_Meme.jpg
+    image: /img/collab 2 sample.png
     link: '#'
-    popupUrl: /img/grouped waterfall chart.png
+    popupUrl: /img/collab video 2.mp4
     title: STRUCTURED DATA GATHERING & CONSOLIDATION
   - descr: >-
       In Visyond, the spreadsheet is the central repository for all relevant
