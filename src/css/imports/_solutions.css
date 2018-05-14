@@ -328,13 +328,6 @@
 .sol-info__block-img {
   width: 100%;
 
-  &:before {
-    content: "";
-    width: 140px;
-    height: 140px;
-    background: url(/img/vimages/play-laptop.png);
-  }
-
   @media screen and (max-width: 800px) {
     width: 80%;
   }
