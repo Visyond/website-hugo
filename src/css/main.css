@@ -1,4 +1,4 @@
-@import './imports/_cms';
+/* @import './imports/_cms'; */
 
 /**
 *
@@ -37,7 +37,7 @@
 @import "./imports/_home-new.css";
 @import "./imports/_solutions.css";
 
-@import "./imports/_responsive.css";
+/* @import "./imports/_responsive.css"; */
 /**
 *
 * Components
