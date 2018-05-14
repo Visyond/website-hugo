@@ -1,13 +1,7 @@
 ---
 title: test-solutions
 topTitle: New title
-topSubTitle: Some under title
-topImage: /img/infographic.jpg
-trustedTitle: trusted title
-trustedLogos:
-  - logo: /img/v_abrt.png
-  - logo: /img/v_elt.png
-  - logo: /img/v_jebg.png
+topSubTitle: Lorem ipsum dolor
 infoBlockFirst:
   - descr: >-
       Some many many many many many many many many many many many many many many
@@ -15,12 +9,16 @@ infoBlockFirst:
     image: /img/v_clip_group_1.png
     link: '#'
     title: Some title
-capabilitiesTitle: Capabilities title
 capabilitiesList:
   - image: /img/v_icon.png
     text: Under icon text
   - image: /img/v_icon3.png
     text: Another under text
+trustedTitle: trusted title
+trustedLogos:
+  - logo: /img/v_abrt.png
+  - logo: /img/v_elt.png
+  - logo: /img/v_jebg.png
 studiesTitle: Studies title
 studiesBlock:
   - author: Author
