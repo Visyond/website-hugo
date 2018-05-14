@@ -19,9 +19,9 @@ infoBlockFirst:
       only to interact with selected reports and present with interactive slides
       where they can test their assumptions without breaking any of the
       carefully crafted formulas.
-    image: /img/Shrug_Meme.jpg
+    image: /img/collab 1 sample.png
     link: '#'
-    popupUrl: /img/Visyond.mp4
+    popupUrl: /img/collab video 1.mp4
     title: SECURE SELECTIVE SHARING
   - descr: >-
       Each cell can store multiple inputs from different people allowing you to
