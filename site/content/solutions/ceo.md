@@ -7,15 +7,9 @@ topTitle: >-
 topSubTitle: >-
   Visualize the impact of your decisions, reduce risk of errors and collaborate
   securely with Visyond’s intuitive cloud-based automation software.
-topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
-trustedTitle: trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
+signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+requestURL: /request-a-demo
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. No data chaos. **Track all inputs**, control
@@ -47,6 +41,14 @@ capabilitiesList:
     text: Reduce average cost up to **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
+trustedTitle: trusted by
+trustedLogos:
+  - logo: /img/v_elt.png
+  - logo: /img/v_deloitte.png
+  - logo: /img/v_abrt.png
+  - logo: /img/elearn2.png
+  - logo: /img/datadvance-logo black and white 15.png
+  - logo: /img/logo_cy4gate black and white 25.png
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
