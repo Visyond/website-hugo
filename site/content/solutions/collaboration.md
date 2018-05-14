@@ -11,7 +11,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/agreement-business-businessman-872957.jpg
+bgImage: /img/pexels-photo-872957.jpeg
 infoBlockFirst:
   - descr: >-
       Full control over who can view or edit what parts of the spreadsheets -
