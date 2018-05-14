@@ -10,15 +10,10 @@ topSubTitle: >+
   the wrong conclusion – and no career needs the downfall from that!
 
 
+signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+requestURL: /request-a-demo
 bgImage: /img/Screen_Shot_2017-11-06_at_3.17.59_PM.png
-trustedTitle: Trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
   - descr: >-
       Put an end to the long wary hours of preparing calculations for multiple
@@ -60,6 +55,14 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
+trustedTitle: Trusted by
+trustedLogos:
+  - logo: /img/v_elt.png
+  - logo: /img/v_deloitte.png
+  - logo: /img/v_abrt.png
+  - logo: /img/elearn2.png
+  - logo: /img/datadvance-logo black and white 15.png
+  - logo: /img/logo_cy4gate black and white 25.png
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
