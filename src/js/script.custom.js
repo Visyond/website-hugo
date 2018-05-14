@@ -251,43 +251,33 @@ $(function () {
 
      function PopupInfoImages() {
        this.mainBlock = document.querySelector('.js-image-block');
-       this.images = this.mainBlock.querySelectorAll('img:first-child');
+       this.images = this.mainBlock.querySelectorAll('.sol-info__img-wrap img');
 
        this._createPopup = (src) => {
-         const popup = document.createElement('div');
-         const video = document.createElement('video');
-         const source = document.createElement('source');
-         video.setAttribute('autoplay', 'autoplay');
-         source.setAttribute('src', src);
-         popup.classList.add('popup');
-         video.appendChild(source);
-         popup.appendChild(video);
-         this.mainBlock.appendChild(popup);
+         if(src) {
+           const popup = document.createElement('div');
+           const video = document.createElement('video');
+           const source = document.createElement('source');
+           video.setAttribute('autoplay', 'autoplay');
+           source.setAttribute('src', src);
+           popup.classList.add('popup');
+           video.appendChild(source);
+           popup.appendChild(video);
+           this.mainBlock.appendChild(popup);
 
-         setTimeout( () => {
-           popup.style.opacity = 1;
-         }, 500);
-         // let opacityStep = 0;
-         //
-         // let opacityInt = setInterval(() => {
-         //   if(opacityStep < 1) {
-         //     popup.style.opacity = opacityStep;
-         //     opacityStep = opacityStep + .1;
-         //   }
-         //   else {
-         //     clearInterval(opacityStep);
-         //   }
-         // }, 20);
+           setTimeout( () => {
+             popup.style.opacity = 1;
+           }, 500);
 
-         popup.addEventListener('click', e => {
-           popup.parentNode.removeChild(popup);
-         });
+           popup.addEventListener('click', e => {
+             popup.parentNode.removeChild(popup);
+           });
+         }
        }
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
           if(e.target === this.images[i]) {
-            console.log(this.images[i].dataset.src);
             this._createPopup(this.images[i].dataset.src);
           };
         };
