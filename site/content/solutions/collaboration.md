@@ -8,9 +8,9 @@ topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
   granular permissions control.
-signUpURL: ''
-watchVideoURL: ''
-requestURL: ''
+signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+requestURL: /request-a-demo
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
@@ -30,6 +30,7 @@ infoBlockFirst:
       back-and-forth emails containing different versions of the same document.
     image: /img/Shrug_Meme.jpg
     link: '#'
+    popupUrl: /img/grouped waterfall chart.png
     title: STRUCTURED DATA GATHERING & CONSOLIDATION
   - descr: >-
       In Visyond, the spreadsheet is the central repository for all relevant
