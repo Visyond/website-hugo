@@ -15,8 +15,9 @@
 .sol-top__title {
   font-size: 2.375rem;
   font-weight: 400;
-  color: #50546d;
+  color: #fff;
   margin-bottom: 1rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
 
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
@@ -30,9 +31,10 @@
 .sol-top__under-title {
   font-size: 1.25rem;
   font-weight: 400;
-  color: #595959;
+  color: #fff;
   max-width: 850px;
   margin-bottom: 2rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
 }
 
 .sol-top__btns-wrap {
@@ -284,7 +286,7 @@
   }
 }
 
-.sol-info__block:nth-child(2n+1) .sol-info__block-img {
+.sol-info__block:nth-child(2n+1) .sol-info__img-wrap {
   margin-right: 6rem;
 
   @media screen and (max-width: 800px) {
@@ -293,7 +295,7 @@
   }
 }
 
-.sol-info__block:nth-child(2n) .sol-info__block-img {
+.sol-info__block:nth-child(2n) .sol-info__img-wrap {
   margin-left: 6rem;
 
   @media screen and (max-width: 800px) {
@@ -302,9 +304,36 @@
   }
 }
 
+.sol-info__img-wrap {
+  width: 50%;
+  position: relative;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.sol-info__play-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .1s;
+}
+
+.sol-info__img-wrap:hover .sol-info__play-video {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
 .sol-info__block-img {
-  width: 45%;
-  /* filter: drop-shadow( 0 0 70px #d6d2d2); */
+  width: 100%;
+
+  &:before {
+    content: "";
+    width: 140px;
+    height: 140px;
+    background: url(/img/vimages/play-laptop.png);
+  }
 
   @media screen and (max-width: 800px) {
     width: 80%;
@@ -349,6 +378,7 @@
 }
 
 .sol-info__text-wrap {
+  width: 50%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -362,6 +392,7 @@
     -ms-align-items: center;
     align-items: center;
     text-align: center;
+    width: 100%;
   }
 }
 
@@ -375,7 +406,7 @@
 
 .sol-info__block-descr {
   color: #767575;
-  font-size: 1.3125rem;
+  font-size: .9375rem;
   margin-bottom: 1rem;
 }
 
@@ -386,6 +417,7 @@
 .sol-link--learn-more {
   background: #0086ff;
   text-align: center;
+  font-size: 1.25rem;
 }
 
 .popup {
