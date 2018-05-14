@@ -277,7 +277,7 @@ $(function () {
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
-          if(e.target === this.images[i]) {
+          if(e.target === this.images[i] ) {
             this._createPopup(this.images[i].dataset.src);
           };
         };
