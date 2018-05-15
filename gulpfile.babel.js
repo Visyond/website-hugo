@@ -59,21 +59,21 @@ gulp.task("js", (cb) => {
   });
 });
 
-// gulp.task("svg", () => {
-//   const svgs = gulp
-//     .src("site/static/img/vimages/*.svg")
-//     .pipe(svgmin())
-//     .pipe(svgstore({inlineSvg: true}));
-//
-//   function fileContents(filePath, file) {
-//     return file.contents.toString();
-//   }
-//
-//   return gulp
-//     .src("site/layouts/partials/svg.html")
-//     .pipe(inject(svgs, {transform: fileContents}))
-//     .pipe(gulp.dest("site/layouts/partials/"));
-// });
+gulp.task("svg", () => {
+  const svgs = gulp
+    .src("site/static/img/vimages/*.svg")
+    .pipe(svgmin())
+    .pipe(svgstore({inlineSvg: true}));
+
+  function fileContents(filePath, file) {
+    return file.contents.toString();
+  }
+
+  return gulp
+    .src("site/layouts/partials/svg.html")
+    .pipe(inject(svgs, {transform: fileContents}))
+    .pipe(gulp.dest("site/layouts/partials/"));
+});
 
 gulp.task('img', () => {
   return gulp.src('site/static/source-img/*')
@@ -87,7 +87,7 @@ gulp.task('img', () => {
     .pipe(browserSync.stream())
 })
 
-gulp.task("server", ["hugo", "css", "cms-assets", "js"], () => {
+gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -95,7 +95,7 @@ gulp.task("server", ["hugo", "css", "cms-assets", "js"], () => {
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
   gulp.watch("./src/css/**/*.css", ["css"]);
-  // gulp.watch("./site/static/img/vimages/*.svg", ["svg"]);
+  gulp.watch("./site/static/img/vimages/*.svg", ["svg"]);
   gulp.watch("./site/**/*", ["hugo"]);
 });
 
