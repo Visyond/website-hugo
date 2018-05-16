@@ -329,11 +329,14 @@
 
 .sol-info__block-img {
   width: 100%;
-  cursor: pointer;
 
   @media screen and (max-width: 800px) {
     width: 80%;
   }
+}
+
+.sol-info__block-img-pointer {
+  cursor: pointer;
 }
 
 .sol-info__block-lines {

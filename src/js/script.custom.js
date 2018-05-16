@@ -277,6 +277,9 @@ $(function () {
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
+          if(this.images[i].dataset.src) {
+            this.images[i].classList.add('sol-info__block-img-pointer');
+          }
           if(e.target === this.images[i]) {
             this._createPopup(this.images[i].dataset.src);
           };
