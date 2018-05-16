@@ -1,11 +1,16 @@
 ---
+url: /privacy
 title: Privacy policy
 image: /img/privacy.jpg
-url: '/privacy'
 ---
 ## **WHAT INFORMATION DO WE COLLECT?**
 
 We collect information from you when you register on our site.
+
+* Name
+* Email
+
+The information that is provided by you will only be used for the purpose for which it is provided. This allows us to create your new account, and send you invoices, updates, or contact you concerning your account. We’ll never give nor sell your personal information to third parties.
 <br></br>
 
 ## **WHAT DO WE USE YOUR INFORMATION FOR?**
@@ -31,8 +36,18 @@ After a transaction, your private information (credit cards, social security num
 
 ## **DO WE USE COOKIES?**
 
-Yes (Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information)
+Yes. Cookies are small files that a site or its service provider transfers to your computers hard drive through your Web browser (if you allow) that enables the sites or service providers systems to recognize your browser and capture and remember certain information.
+
+We use cookies to help you navigate the website as easily as possible, and to remember information about your current session. When you browse our marketing pages, we track that for analytical purposes (conversion rates and testing new designs).
+
+You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+
+**We do not use this technology to spy on you or otherwise invade your privacy.**
 <br></br>
+
+## **INTERNATIONAL TRANSFER**
+
+If you use our services outside of the European Union, we may transfer information from that jurisdiction to the European Union, where data protection is regulated under the General Data Protection Regulation (GDPR).
 
 ## **LOCAL STORAGE**
 
@@ -46,7 +61,7 @@ We do not sell, trade, or otherwise transfer to outside parties your personally 
 
 ## **THIRD PARTY LINKS**
 
-Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
+Occasionally, at our discretion, we may include or offer third party products or services on our website (e.g., integration with other software platforms). These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
 <br></br>
 
 ## **CHILDRENS ONLINE PRIVACY PROTECTION ACT COMPLIANCE**
@@ -73,8 +88,12 @@ By using our site, you consent to our privacy policy.
 
 If we decide to change our privacy policy, we will post those changes on this page, send an email notifying you of any changes, and/or update the Privacy Policy modification date below.
 
-This policy was last modified on 10 December 2014.
+This policy was last modified on 15 May 2018.
 <br></br>
+
+## **RIGHT TO ERASURE (right to be forgotten)**
+
+In accordance with General Data Protection Regulation (GDPR) we will use reasonable efforts to supply, correct or delete personal information about you on our files.
 
 ## **CONTACTING US**
 
