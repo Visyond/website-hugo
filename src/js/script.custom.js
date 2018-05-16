@@ -317,7 +317,7 @@ $(function () {
        const cookiesYes = cookiesBlock.querySelector('.cookies__yes');
 
        if(!localStorage.getItem('agree')) {
-         cookies.classList.add('cookies-show');
+         cookiesBlock.classList.add('cookies-show');
          console.log('show panel');
        }
 
