@@ -253,6 +253,12 @@ $(function () {
        this.mainBlock = document.querySelector('.js-image-block');
        this.images = this.mainBlock.querySelectorAll('.sol-info__img-wrap img');
 
+       for(let i = 0; i < this.images.length; i++) {
+         if(this.images[i].dataset.src) {
+           this.images[i].classList.add('sol-info__block-img-pointer');
+         }
+       }
+
        this._createPopup = (src) => {
          if(src) {
            const popup = document.createElement('div');
@@ -277,9 +283,6 @@ $(function () {
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
-          if(this.images[i].dataset.src) {
-            this.images[i].classList.add('sol-info__block-img-pointer');
-          }
           if(e.target === this.images[i]) {
             this._createPopup(this.images[i].dataset.src);
           };
