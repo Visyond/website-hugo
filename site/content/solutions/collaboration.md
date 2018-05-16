@@ -15,12 +15,10 @@ bgImage: /img/Collab 1 resized.jpg
 infoBlockFirst:
   - descr: >-
       Full control over who can view or edit what parts of the spreadsheets -
-      manage permissions down to individual cell level. 
-
-
-      It allows stakeholders only to interact with selected reports and present
-      with interactive slides where they can test their assumptions without
-      breaking any of the carefully crafted formulas.
+      manage permissions down to individual cell level. It allows stakeholders
+      only to interact with selected reports and present with interactive slides
+      where they can test their assumptions without breaking any of the
+      carefully crafted formulas.
     image: /img/collab 1 sample.png
     link: '#'
     popupUrl: /img/collab video 1.mp4
