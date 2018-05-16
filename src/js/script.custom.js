@@ -304,4 +304,30 @@ $(function () {
      if(document.querySelector('.js-image-block')) {
        const newPopup = new PopupInfoImages();
      }
+
+
+
+
+
+
+     //=====COOKIES=====
+
+     function getCookies() {
+       const cookiesBlock = document.querySelector('.cookies');
+       const cookiesYes = cookiesBlock.querySelector('.cookies__yes');
+
+       if(!localStorage.getItem('agree')) {
+         cookies.classList.add('cookies-show');
+         console.log('show panel');
+       }
+
+       cookiesYes.addEventListener('click', () => {
+         localStorage.setItem('agree', true);
+         console.log('add key Agree');
+       });
+     }
+
+     if(document.querySelector('.cookies')) {
+       getCookies();
+     }
 });
