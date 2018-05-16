@@ -1,5 +1,5 @@
 <div class="cookies">
   <div class="cookies__text">{{ .Params.CookiesText }}</div>
-  <button class="cookies__yes"></button>
-  <button class="cookies__no"></button>
+  <button class="cookies__yes">{{ .Params.CookiesYesBtn }}</button>
+  <a href="{{ .Params.CookiesNoBtnURL }}" class="cookies__no">{{ .Params.CookiesNoBtn }}</a>
 </div>

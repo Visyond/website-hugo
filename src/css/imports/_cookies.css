@@ -1,9 +1,43 @@
 .cookies {
-  display: none;
   position: fixed;
+  padding: 2rem;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
   left: 0;
   min-height: 50px;
   bottom: 0;
   right: 0;
   background: #fff;
+  display: none;
+}
+
+.cookies--show {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.cookies__text {
+  margin-right: auto;
+}
+
+.cookies__yes {
+  border: none;
+  background: none;
+  padding: 1rem;
+  border: 1px solid #595959;
+  border-radius: 5px;
+  color: #595959;
+}
+
+.cookies__no {
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  padding: 1rem;
+  border: 1px solid #595959;
+  color: #595959;
 }
