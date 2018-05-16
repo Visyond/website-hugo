@@ -46,7 +46,7 @@
   justify-content: center;
   margin-bottom: 7rem;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 850px) {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -79,7 +79,8 @@
     &:before {
       content: "* no credit card required";
       position: absolute;
-      color: #595959;
+      text-shadow: 0 5px 5px rgba(0,0,0,.3);
+      color: #fff;
       bottom: -1.5rem;
       left: 0;
       width: 100%;
@@ -314,6 +315,7 @@
 }
 
 .sol-info__play-video {
+  pointer-events: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -327,6 +329,7 @@
 
 .sol-info__block-img {
   width: 100%;
+  cursor: pointer;
 
   @media screen and (max-width: 800px) {
     width: 80%;
@@ -390,7 +393,6 @@
 }
 
 .sol-info__block-title {
-  text-transform: uppercase;
   color: #0086ff;
   font-size: 2rem;
   font-weight: 400;
