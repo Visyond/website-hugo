@@ -210,16 +210,19 @@ $(function () {
        const slidersNumber = sliders.length;
        let count = 0;
        let step = sliders[0].offsetWidth;
+       let pause = false;
 
        let sliderInterval = setInterval(() => {
          if(document.documentElement.clientWidth > 800) {
-           step = sliders[0].offsetWidth;
-           sliders = slidersBlock.children;
-           slidersBlock = document.querySelector('.js-slider')
-           let cloneNode = sliders[count].cloneNode(true);
-           slidersBlock.appendChild(cloneNode);
-           count++;
-           slidersBlock.style.transform = `translateX(-${step * count}px)`;
+           if(!pause) {
+             step = sliders[0].offsetWidth;
+             sliders = slidersBlock.children;
+             slidersBlock = document.querySelector('.js-slider')
+             let cloneNode = sliders[count].cloneNode(true);
+             slidersBlock.appendChild(cloneNode);
+             count++;
+             slidersBlock.style.transform = `translateX(-${step * count}px)`;
+           }
          }
          else {
            for(let i = slidersBlock.children.length - 1; i > 0 ; i--) {
@@ -232,6 +235,14 @@ $(function () {
          }
 
        }, 5000);
+
+       window.addEventListener('blur', () => {
+         pause = true;
+       })
+
+       window.addEventListener('focus', () => {
+         pause = false;
+       })
 
        window.addEventListener('resize', () => {
          step = sliders[0].offsetWidth;
