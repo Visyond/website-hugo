@@ -5,9 +5,11 @@ topTitle: |-
 
   COLLABORATION & SHARING
 topSubTitle: >-
-  Greatly accelerate and simplify the gathering of inputs from multiple
-  stakeholders with Visyond’s innovative selective sharing technology and
-  granular permissions control.
+  Greatly accelerate and simplify the gathering of 
+
+
+  inputs from multiple stakeholders with Visyond’s innovative selective sharing
+  technology and granular permissions control.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
