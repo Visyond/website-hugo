@@ -317,13 +317,12 @@ $(function () {
        const cookiesYes = cookiesBlock.querySelector('.cookies__yes');
 
        if(!localStorage.getItem('agree')) {
-         cookiesBlock.classList.add('cookies-show');
-         console.log('show panel');
+         cookiesBlock.classList.add('cookies--show');
        }
 
        cookiesYes.addEventListener('click', () => {
          localStorage.setItem('agree', true);
-         console.log('add key Agree');
+         cookiesBlock.classList.remove('cookies--show');
        });
      }
 
