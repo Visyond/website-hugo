@@ -107,5 +107,8 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 cookiesText: We use cookies on this site to enhance your user experience
+cookiesYesBtn: I agree
+cookiesNoBtn: 'No, I want to know more'
+cookiesNoBtnURL: /privacy/
 ---
 
