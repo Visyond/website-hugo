@@ -71,6 +71,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
       - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
 
+      - {label: "Cookies Text", name: "cookiesText", widget: "markdown", required: false}
+
 
 
 

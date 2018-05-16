@@ -1,0 +1,9 @@
+.cookies {
+  display: none;
+  position: fixed;
+  left: 0;
+  min-height: 50px;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+}
