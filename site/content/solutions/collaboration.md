@@ -5,11 +5,9 @@ topTitle: |-
 
   COLLABORATION & SHARING
 topSubTitle: >-
-  Greatly accelerate and simplify the gathering of 
-
-
-  inputs from multiple stakeholders with Visyond’s innovative selective sharing
-  technology and granular permissions control.
+  Greatly accelerate and simplify the gathering of inputs from multiple
+  stakeholders with Visyond’s innovative selective sharing technology and
+  granular permissions control.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
@@ -17,10 +15,12 @@ bgImage: /img/Collab 1 resized.jpg
 infoBlockFirst:
   - descr: >-
       Full control over who can view or edit what parts of the spreadsheets -
-      manage permissions down to individual cell level. It allows stakeholders
-      only to interact with selected reports and present with interactive slides
-      where they can test their assumptions without breaking any of the
-      carefully crafted formulas.
+      manage permissions down to individual cell level. 
+
+
+      It allows stakeholders only to interact with selected reports and present
+      with interactive slides where they can test their assumptions without
+      breaking any of the carefully crafted formulas.
     image: /img/collab 1 sample.png
     link: '#'
     popupUrl: /img/collab video 1.mp4
