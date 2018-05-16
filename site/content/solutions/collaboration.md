@@ -106,5 +106,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
+cookiesText: We use cookies on this site to enhance your user experience
 ---
 
