@@ -357,7 +357,6 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-collections:
   - name: "products"
     label: "Pages"
     files:
