@@ -1,9 +1,9 @@
 ---
 title: Collaboration
 topTitle: |-
-  SECURE, TRANSPARENT AND SIMPLE SPREADSHEET 
+  Secure, transparent and simple spreadsheet 
 
-  COLLABORATION & SHARING
+  Collaboration & Sharing
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
@@ -22,7 +22,7 @@ infoBlockFirst:
     image: /img/collab 1 sample.png
     link: '#'
     popupUrl: /img/collab video 1.mp4
-    title: SECURE SELECTIVE SHARING
+    title: Secure Selective Sharing
   - descr: >-
       Each cell can store multiple inputs from different people allowing you to
       effectively work together without the risk of overriding data or
@@ -31,7 +31,7 @@ infoBlockFirst:
     image: /img/collab 2 sample.png
     link: '#'
     popupUrl: /img/collab video 2.mp4
-    title: STRUCTURED DATA GATHERING & CONSOLIDATION
+    title: Structured data gathring & consolidation
   - descr: >-
       In Visyond, the spreadsheet is the central repository for all relevant
       information such as supporting files, discussions, comments and approval
@@ -39,7 +39,7 @@ infoBlockFirst:
       your spreadsheet.
     image: /img/Shrug_Meme.jpg
     link: '#'
-    title: KNOWLEDGE MANAGEMENT
+    title: Knowledge management
   - descr: >-
       All inputs are self-documented giving you a full audit trail showing you
       who changed what and when. You can always go back to previous versions of
@@ -47,7 +47,7 @@ infoBlockFirst:
       individually, without rolling back the entire document.
     image: /img/Shrug_Meme.jpg
     link: '#'
-    title: INPUT TRACKING AND VERSION CONTROL
+    title: Input tracking and version control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
       cover their spreadsheet and presentation needs. That is why we built an
@@ -56,7 +56,7 @@ infoBlockFirst:
       in Visyond.
     image: /img/Shrug_Meme.jpg
     link: '#'
-    title: IMPORT AND EXPORT FREELY
+    title: Import and Export freely
 capabilitiesList:
   - image: /img/v_icon.png
     text: Eliminate data chaos
