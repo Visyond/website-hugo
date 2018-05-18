@@ -1,6 +1,9 @@
 ---
-title: Compliance
-topTitle: Data Compliance and Spreadsheet Governance for you and your clients
+title: Governance
+topTitle: |-
+  Data tracking and spreadsheet governance 
+
+  for you and your clients
 topSubTitle: >-
   Minimize errors when collaborating on spreadsheets, dramatically reduce the
   risks of unauthorized access, data overriding and avoid breaking the model
@@ -8,7 +11,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/banner.jpg
+bgImage: /img/governance top 1.jpg
 infoBlockFirst:
   - descr: >-
       Transform the maze of entangled, co-dependent and hard-to-read
@@ -52,13 +55,13 @@ infoBlockFirst:
     link: '#'
     title: Secure sandbox for stress-testing
 capabilitiesList:
-  - image: /img/v_icon.png
+  - image: /img/feature-icons-v1_13.png
     text: Quickly identify the root cause of errors and relationships between cells
-  - image: /img/v_icon2.png
+  - image: /img/feature-icons-v1_03.png
     text: >-
       Easily test assumptions and play with the numbers without the risk of
       breaking or accidentally modifying any data
-  - image: /img/v_icon3.png
+  - image: /img/feature-icons-v1_09.png
     text: Ensure seamless collaboration between team members
 trustedTitle: trusted by
 trustedLogos:
