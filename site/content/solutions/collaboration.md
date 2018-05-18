@@ -58,13 +58,13 @@ infoBlockFirst:
     link: ''
     title: Import and Export freely
 capabilitiesList:
-  - image: /img/v_icon.png
+  - image: /img/feature-icons-v1_03.png
     text: Eliminate data chaos
-  - image: /img/v_icon2.png
-    text: Ensure quick turn-around
-  - image: /img/v_icon3.png
-    text: Keep up to date with the latest changes
   - image: /img/v_icon.png
+    text: Ensure quick turn-around
+  - image: /img/feature-icons-v1_13.png
+    text: Keep up to date with the latest changes
+  - image: /img/feature-icons-v1_09.png
     text: 'Know who changed what, when'
 trustedTitle: trusted by
 trustedLogos:
