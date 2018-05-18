@@ -13,28 +13,32 @@ requestURL: /request-a-demo
 bgImage: /img/CEO landing header 3.jpg
 infoBlockFirst:
   - descr: >-
-      No back-and-forth emails. No data chaos. **Track all inputs**, control
-      versions and enjoy **secure selective sharing** - allow access to only
-      certain cells, worksheets, or linked reports and slides.
+      No back-and-forth emails. No data chaos. Work together on spreadsheets,
+      communicate and attach relevant documentation directly in Visyond, control
+      versions and enjoy _secure selective sharing_ - allow access to only
+      certain cells, worksheets, or linked reports and slides and expose only
+      what each person has to see or interact with!
     image: /img/v_clip_group_1.png
     link: '#'
     title: Collaborate and selectively share to different stakeholders
   - descr: >-
-      Answer any questions on-the-fly and **compare scenarios easily**. Gain
-      valuable insights in a few clicks by performing routine and advanced
-      analyses that used to take days. Add your findings to **interactive
-      dashboards and apps** and share only what each stakeholder needs to see.
+      Empower collaborators and decision makers to answer any questions
+      on-the-fly and compare scenarios easily, without calling consultants or
+      “model gurus”. Visyond removes bottlenecks and everybody will get valuable
+      insights in a few clicks instead of days or weeks. Findings and automatic
+      visualizations can be exported to \_interactive dashboards\_ and apps, and
+      shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
     link: '#'
     title: 'Answer difficult questions, easily'
   - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, **visualizations** and reports in a few simple steps. \r\n"
     image: /img/v_clip_group_4.png
     link: '#'
-    title: Unique on-the-fly reporting
+    title: Interactive & secure on-the-fly reporting
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permission control, dependency and error root cause analysis will minimize errors and give you peace of mind.\r\n"
     image: /img/v_clip_group_2.png
     link: '#'
-    title: Secure data integrity
+    title: Data tracking and spreadsheet governance
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
