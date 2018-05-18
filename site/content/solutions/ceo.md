@@ -10,6 +10,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
+bgImage: /img/CEO landing header.jpeg
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. No data chaos. **Track all inputs**, control
@@ -29,11 +30,11 @@ infoBlockFirst:
   - descr: "Create interactive dashboards & apps powered by **Visyond’s spreadsheet calculation engine** without programming. Share the results safely without the risk of damaging or losing any data whilst preparing data presentations, **visualizations** and reports in a few simple steps. \r\n"
     image: /img/v_clip_group_4.png
     link: '#'
-    title: UNIQUE ON-THE-FLY REPORTING
+    title: Unique on-the-fly reporting
   - descr: "No overriding data or formulas. **No risk of breaking the model and calculations**. Granular permission control, dependency and error root cause analysis will minimize errors and give you peace of mind.\r\n"
     image: /img/v_clip_group_2.png
     link: '#'
-    title: SECURE DATA INTEGRITY
+    title: Secure data integrity
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -81,5 +82,8 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
+cookiesYesBtn: 'Yes'
+cookiesNoBtn: 'No, I''d like to know more!'
+cookiesNoBtnURL: /privacy/
 ---
 
