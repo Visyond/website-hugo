@@ -10,7 +10,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/CEO landing header 2.jpg
+bgImage: /img/CEO landing header 3.jpg
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. No data chaos. **Track all inputs**, control
