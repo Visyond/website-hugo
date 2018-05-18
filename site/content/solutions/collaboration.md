@@ -1,9 +1,9 @@
 ---
 title: Collaboration
 topTitle: |-
-  Secure, transparent and simple spreadsheet 
+  Secure, transparent and simple 
 
-  Collaboration & Sharing
+  Spreadsheet Collaboration & Sharing
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
