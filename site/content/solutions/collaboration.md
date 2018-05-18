@@ -20,7 +20,7 @@ infoBlockFirst:
       where they can test their assumptions without breaking any of the
       carefully crafted formulas.
     image: /img/v_clip_group_4.png
-    link: '#'
+    link: ''
     popupUrl: /img/collab video 1.mp4
     title: Secure Selective Sharing
   - descr: >-
@@ -29,7 +29,7 @@ infoBlockFirst:
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
     image: /img/v_clip_group_3.png
-    link: '#'
+    link: ''
     popupUrl: /img/collab video 2.mp4
     title: Structured data gathring & consolidation
   - descr: >-
@@ -38,7 +38,7 @@ infoBlockFirst:
       status allowing you to have a knowledge management system integrated in
       your spreadsheet.
     image: /img/v_clip_group_1.png
-    link: '#'
+    link: ''
     title: Knowledge management
   - descr: >-
       All inputs are self-documented giving you a full audit trail showing you
@@ -46,7 +46,7 @@ infoBlockFirst:
       the spreadsheet and compare them on the fly, or revert any changes
       individually, without rolling back the entire document.
     image: /img/v_clip_group_2.png
-    link: '#'
+    link: ''
     title: Input tracking and version control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
@@ -54,8 +54,8 @@ infoBlockFirst:
       import and export functionality that can handle even the most complex
       spreadsheets and let you easily export slides & dashboards you’ve created
       in Visyond.
-    image: /img/Shrug_Meme.jpg
-    link: '#'
+    image: /img/package-27770_1280.png
+    link: ''
     title: Import and Export freely
 capabilitiesList:
   - image: /img/v_icon.png
