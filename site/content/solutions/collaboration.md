@@ -21,7 +21,6 @@ infoBlockFirst:
       any of the carefully crafted formulas.
     image: /img/v_clip_group_4.png
     link: ''
-    popupUrl: /img/collab video 1.mp4
     title: Secure Selective Sharing
   - descr: >-
       Each **cell can store multiple inputs** from different people allowing you
@@ -30,7 +29,6 @@ infoBlockFirst:
       back-and-forth emails containing different versions of the same document.
     image: /img/v_clip_group_3.png
     link: ''
-    popupUrl: /img/collab video 2.mp4
     title: Structured data gathring & consolidation
   - descr: >-
       In Visyond, the **spreadsheet is the central repository for all relevant
