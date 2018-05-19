@@ -1,7 +1,9 @@
 {{ if .Params.CookiesText }}
-<div class="cookies">
-  <div class="cookies__text">{{ .Params.CookiesText }}</div>
-  <button class="cookies__yes">{{ .Params.CookiesYesBtn }}</button>
-  <a href="{{ .Params.CookiesNoBtnURL }}" class="cookies__no">{{ .Params.CookiesNoBtn }}</a>
-</div>
+  {{ with .Site.GetPage "section" "cookies" }}
+  <div class="cookies">
+    <div class="cookies__text">{{ .Params.CookiesText }}</div>
+    <button class="cookies__yes">{{ .Params.CookiesYesBtn }}</button>
+    <a href="{{ .Params.CookiesNoBtnURL }}" class="cookies__no">{{ .Params.CookiesNoBtn }}</a>
+  </div>
+  {{ end }}
 {{ end }}
