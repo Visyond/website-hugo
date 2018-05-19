@@ -32,28 +32,38 @@ infoBlockFirst:
     title: Transparent and Controlled Collaboration
   - descr: >-
       No overriding data or formulas. No risk of breaking the model and
-      calculations. **Granular permission control** will safeguard your
-      sensitive information and give you peace of mind: **avoid data leakages,
-      minimize errors, and track all inputs**, data, assumptions and analysis.
+      calculations.
+
+
+      **Granular permission control** will safeguard your sensitive information
+      and give you peace of mind: **avoid data leakages, minimize errors, and
+      track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_2.png
     link: ''
     title: Data tracking and spreadsheet governance
   - descr: >-
       Empower collaborators and decision makers to **answer any questions
       on-the-fly** and **compare scenarios easily**, without calling consultants
-      or “model gurus”. Visyond removes bottlenecks and everybody will get
-      valuable insights in a few clicks instead of days or weeks. Findings and
-      automatic visualizations can be exported to _interactive dashboards and
-      apps_, and shared only with those who needs to see them.
+      or “model gurus”. 
+
+
+      Visyond removes bottlenecks and everybody will get valuable insights in a
+      few clicks instead of days or weeks. 
+
+
+      Findings and automatic visualizations can be exported to _interactive
+      dashboards and apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
     link: ''
     title: Collaborative analysis for decision making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
       share them via **interactive dashboards & apps** powered by Visyond’s
-      spreadsheet calculation engine without writing a line of code. **Let
-      everybody you authorize “play” with the assumptions you selectively make
-      available to them**: no risk of exposing sensitive information,
+      spreadsheet calculation engine without writing a line of code. 
+
+
+      **Let everybody you authorize “play” with the assumptions you selectively
+      make available to them**: no risk of exposing sensitive information,
       accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
     link: ''
