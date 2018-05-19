@@ -10,7 +10,7 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
-  reduce errors and control what each collaborator can see and interact with.
+  reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
 trustedTitle: trusted by
 trustedLogos:
