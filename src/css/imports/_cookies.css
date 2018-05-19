@@ -19,9 +19,7 @@
 }
 
 .cookies--show {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
+  display: none;
 }
 
 .cookies__text {
