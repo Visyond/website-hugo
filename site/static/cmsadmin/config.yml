@@ -394,9 +394,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "cookies"
         fields:
           - {label: "Cookies Text", name: "cookiesText", widget: "markdown", required: false}
-          - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree", required: false}
-          - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more", required: false,}
-          - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/", required: false,}
+          - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree"}
+          - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more"}
+          - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/"}
       - file: "site/content/counters/_index.md"
         label: "Counters"
         name: "counters"
