@@ -2,15 +2,16 @@
 title: Homepage
 metaTags: visyond
 topTitle: |-
-  Spreadsheet collaboration, analysis and reporting 
+  Secure Spreadsheet Collaboration, Analysis and Reporting 
 
-  in minutes instead of days
+  in Minutes instead of Days
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 topSubTitle: >-
-  Visualize the impact of your decisions, reduce risk of errors and collaborate
-  securely with Visyond’s intuitive cloud-based automation software.
+  Visualize the impact of your decisions, reduce errors, control what each
+  collaborator can see & interact with and collaborate securely with Visyond’s
+  intuitive cloud-based automation software.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
 trustedTitle: trusted by
 trustedLogos:
