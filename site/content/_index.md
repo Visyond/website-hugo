@@ -43,8 +43,8 @@ infoBlockFirst:
       on-the-fly** and **compare scenarios easily**, without calling consultants
       or “model gurus”. Visyond removes bottlenecks and everybody will get
       valuable insights in a few clicks instead of days or weeks. Findings and
-      automatic visualizations can be exported to **_interactive dashboards_ and
-      apps**, and shared only with those who needs to see them.
+      automatic visualizations can be exported to _interactive dashboards and
+      apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
     link: ''
     title: Collaborative analysis for decision making
