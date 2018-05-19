@@ -10,7 +10,7 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 topSubTitle: >-
   Visualize the impact of your decisions, reduce errors, control what each
-  collaborator can see & interact with and collaborate securely with Visyond’s
+  collaborator can see and interact with and collaborate securely with Visyond’s
   intuitive cloud-based automation software.
 topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
 trustedTitle: trusted by
@@ -23,42 +23,42 @@ trustedLogos:
   - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
   - descr: >-
-      No back-and-forth emails. No data chaos. Work together on spreadsheets,
-      communicate and attach relevant documentation directly in Visyond, control
-      versions and enjoy _secure selective sharing_ - allow access to only
-      certain cells, worksheets, or linked reports and slides and expose only
-      what each person has to see or interact with!
+      No back-and-forth emails. **No data chaos.** Work together on
+      spreadsheets, communicate and attach relevant documentation directly in
+      Visyond, control versions and **enjoy _secure selective sharing_** - allow
+      access to only certain cells, worksheets, or linked reports and slides and
+      **expose only what each person has to see or interact with**!
     image: /img/v_clip_group_1.png
     link: ''
-    title: Transparent Collaboration
+    title: Transparent and Controlled Collaboration
   - descr: >-
       No overriding data or formulas. No risk of breaking the model and
-      calculations. Granular permission control will safeguard your sensitive
-      information and give you peace of mind: avoid data leakages, minimize
-      errors, and track all inputs, data, assumptions and analysis.
+      calculations. **Granular permission control** will safeguard your
+      sensitive information and give you peace of mind: **avoid data leakages,
+      minimize errors, and track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_2.png
     link: ''
     title: Data tracking and spreadsheet governance
   - descr: >-
-      Empower collaborators and decision makers to answer any questions
-      on-the-fly and compare scenarios easily, without calling consultants or
-      “model gurus”. Visyond removes bottlenecks and everybody will get valuable
-      insights in a few clicks instead of days or weeks. Findings and automatic
-      visualizations can be exported to _interactive dashboards_ and apps, and
-      shared only with those who needs to see them.
+      Empower collaborators and decision makers to **answer any questions
+      on-the-fly** and **compare scenarios easily**, without calling consultants
+      or “model gurus”. Visyond removes bottlenecks and everybody will get
+      valuable insights in a few clicks instead of days or weeks. Findings and
+      automatic visualizations can be exported to **_interactive dashboards_ and
+      apps**, and shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
     link: ''
     title: Collaborative analysis for decision making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
-      share them via interactive dashboards & apps powered by Visyond’s
-      spreadsheet calculation engine without writing a line of code. Let
+      share them via **interactive dashboards & apps** powered by Visyond’s
+      spreadsheet calculation engine without writing a line of code. **Let
       everybody you authorize “play” with the assumptions you selectively make
-      available to them: no risk of exposing sensitive information, accidentally
-      corrupting data or showing unnecessary details.
+      available to them**: no risk of exposing sensitive information,
+      accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
     link: ''
-    title: Interactive & secure on-the-fly reporting
+    title: Interactive & secure on-the-fly reporting and presentations
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -78,7 +78,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v2.png
+    image: /img/ELearnSecurity - v3.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
