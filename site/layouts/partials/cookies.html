@@ -1,9 +1,7 @@
-{{ if .Params.CookiesText }}
-  {{ range $el := .Params.Products }}
-    <div class="cookies">
-      <div class="cookies__text">{{ $el.cookiesText }}</div>
-      <button class="cookies__yes">{{ $el.cookiesYesBtn }}</button>
-      <a href="{{ $el.cookiesNoBtnURL }}" class="cookies__no">{{ $el.cookiesNoBtn }}</a>
-    </div>
-  {{ end }}
+{{ range $el := .Params.Products }}
+  <div class="cookies">
+    <div class="cookies__text">{{ $el.cookiesText }}</div>
+    <button class="cookies__yes">{{ $el.cookiesYesBtn }}</button>
+    <a href="{{ $el.cookiesNoBtnURL }}" class="cookies__no">{{ $el.cookiesNoBtn }}</a>
+  </div>
 {{ end }}
