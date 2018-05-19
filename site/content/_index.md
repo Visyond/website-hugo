@@ -88,6 +88,20 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+slider:
+  - sliderDescr: >-
+      I have finally full control on the source and impact of any assumptions,
+      and can confidently answer what-if questions with a few clicks.
+    slidercompany: '''Nina Fedorova, Senior Consultant, DELOITTE'''
+    sliderlogo: /img/delo1.png
+    sliderphoto: /img/client_1a.jpg
+  - sliderDescr: >-
+      Since we use Visyond, everyone, regardless of their skill level, can ask
+      deeper questions to our models and prepare more informative reports in
+      real time.
+    slidercompany: '''Edoardo Gauzolino, Founder, JEBG'''
+    sliderlogo: /img/jberg1.png
+    sliderphoto: /img/client_2.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
