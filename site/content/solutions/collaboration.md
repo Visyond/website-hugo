@@ -52,7 +52,7 @@ infoBlockFirst:
       **import and export functionality that can handle even the most complex
       spreadsheets** and let you easily export slides & dashboards you’ve
       created in Visyond.
-    image: /img/package-27770_1280 smaller.png
+    image: /img/package-27770_1280 even smaller.png
     link: ''
     title: Import and Export freely
 capabilitiesList:
