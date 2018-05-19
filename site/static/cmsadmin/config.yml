@@ -325,6 +325,13 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Link URL", name: "linkUrl", widget: "string"},
       ],}
 
+      - {label: "Slider Customers", name: "slider", widget: "list", fields: [
+        {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
+        {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
+        {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
+        {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
+      ]}
+
       - {label: "Provides Title", name: "providesTitle", widget: "string"}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
