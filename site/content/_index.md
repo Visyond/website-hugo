@@ -102,6 +102,12 @@ slider:
     slidercompany: '''Edoardo Gauzolino, Founder, JEBG'''
     sliderlogo: /img/jberg1.png
     sliderphoto: /img/client_2.jpg
+  - sliderDescr: >-
+      When I use Visyond I see my accuracy and ability to answer questions about
+      my work go up. I can do more and have peace of mind.
+    slidercompany: '''Fernando Rizzo, Area Manager, Elettronica'''
+    sliderlogo: /img/elet.png
+    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
