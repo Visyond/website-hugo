@@ -24,7 +24,7 @@ infoBlockFirst:
   - descr: >-
       No back-and-forth emails. **No data chaos.** Work together on
       spreadsheets, communicate and attach relevant documentation directly in
-      Visyond, control versions and **enjoy secure_ selective sharing_** - allow
+      Visyond, control versions and **enjoy secure _selective sharing_** - allow
       access to only certain cells, worksheets, or linked reports and slides and
       **expose only what each person has to see or interact with**!
     image: /img/v_clip_group_1.png
