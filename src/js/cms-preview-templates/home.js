@@ -132,7 +132,7 @@ export default class Home extends React.Component {
               </section>
 
               <section className="customers">
-                    <h3 className="customers__title homepage-title">What the customers say</h3>
+                    <h3 className="customers__title homepage-title">{ entry.getIn(['data', 'studiesTitle']) }</h3>
 
                     <ul className="customers__list">
                     {(entry.getIn(["data", "slider"]) || []).map((item, index) => {

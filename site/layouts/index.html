@@ -150,7 +150,9 @@
 
     <!-- section customers -->
     <section class="customers">
-      <h3 class="customers__title homepage-title">What the customers say</h3>
+      {{ if .Params.TitleCustomers }}
+      <h3 class="customers__title homepage-title">{{ .Params.TitleCustomers }}</h3>
+      {{ end }}
 
         <ul class="customers__list">
           {{ range $item := .Params.slider  }}
