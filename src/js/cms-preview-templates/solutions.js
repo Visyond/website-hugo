@@ -156,9 +156,9 @@ export default class Solutions extends React.Component {
                   { entry.getIn(['data', 'titleBottom']) }
                 </h3>
 
-                <button className="sol-link sol-link--request">
+                <a href="{ entry.getIn(['data', 'botRequestURL']) }" class="sol-link sol-link--request">
                   request a demo
-                </button>
+                </a>
               </section>
 
             </div>

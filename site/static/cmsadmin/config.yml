@@ -70,6 +70,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
       - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
+      - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
 
 
 
