@@ -675,7 +675,7 @@
 
 
 .customers {
-    padding: 110px 0;
+    padding: 30px 0;
     max-width: 1200px;
     margin: 0 auto;
 
@@ -686,10 +686,13 @@
 
 .customers__title {
   text-align: center;
-    font-weight: 700;
-    color: #858794;
-    font-size: 29px;
-    letter-spacing: 1px;
+  font-weight: 400;
+  color: #555;
+  font-size: 3rem;
+
+  @media screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 }
 
 .customers .slick-dots {
@@ -733,14 +736,14 @@
 }
 
 .customers__img-descr {
-    color: #52556c;
-    font-size: 18px;
-    line-height: 25px;
-    font-style: italic;
-    position: relative;
-    margin-bottom: 45px;
-    padding: 0 15px;
-    display: inline-block;
+  font-weight: 400;
+  font-style: italic;
+  color: #767575;
+  font-size: 1.3125rem;
+  position: relative;
+  margin-bottom: .5rem;
+  padding: 0 15px;
+  display: inline-block;
 
     &:before, &:after {
         content: '';
@@ -763,18 +766,16 @@
 }
 
 .customers__img-author {
-    color: #52556c;
-    font-size: 16px;
-    opacity: .8;
-    display: block;
-    margin-bottom: 15px;
-    font-weight: 300;
+  color: #595959;
+  font-weight: 400;
+  font-size: 1.0625rem;
+  margin-bottom: 1.5rem;
 }
 
 .customers__img-company {
     max-width: 140px;
     display: block;
-    margin: 0 auto;
+    margin: 1rem auto 0;
 }
 
 

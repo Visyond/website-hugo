@@ -129,8 +129,30 @@ export default class Solutions extends React.Component {
                   </li>
                 })}
                 </ul>
-
               </section>
+
+              <section className="customers">
+                    <h3 className="customers__title homepage-title">{ entry.getIn(['data', 'studiesTitle']) }</h3>
+
+                    <ul className="customers__list">
+                    {(entry.getIn(["data", "slider"]) || []).map((item, index) => {
+                        return <li className="customers__item" key={index}>
+                            <figure className="customers__img-container">
+                                <span className="customers__img-wrap">
+                                    <img src={ item.get('sliderphoto') } alt="" />
+                                </span>
+
+                                <figcaption className="customers__img-descr-wrap">
+                                    <p className="customers__img-descr">{ item.get('sliderDescr') }</p>
+
+                                    <span className="customers__img-author">{ item.get('slidercompany') }</span>
+                                    <img src={ item.get('sliderlogo') } alt="" className="customers__img-company"/>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    })}
+                    </ul>
+                </section>
 
               <div className="sol-provides">
                 <div class="sol-provides__img-wrap">
@@ -156,7 +178,7 @@ export default class Solutions extends React.Component {
                   { entry.getIn(['data', 'titleBottom']) }
                 </h3>
 
-                <a href="{ entry.getIn(['data', 'botRequestURL']) }" class="sol-link sol-link--request">
+                <a href="{ entry.getIn(['data', 'botRequestURL']) }" className="sol-link sol-link--request">
                   request a demo
                 </a>
               </section>
