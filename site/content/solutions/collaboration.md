@@ -1,9 +1,9 @@
 ---
 title: Collaboration
 topTitle: |-
-  SECURE, TRANSPARENT AND SIMPLE SPREADSHEET 
+  Secure, Transparent and Simple 
 
-  COLLABORATION & SHARING
+  Spreadsheet Collaboration and Sharing
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
@@ -11,61 +11,59 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/Collab 1 resized.jpg
+bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
       Full control over who can view or edit what parts of the spreadsheets -
-      manage permissions down to individual cell level. It allows stakeholders
-      only to interact with selected reports and present with interactive slides
-      where they can test their assumptions without breaking any of the
-      carefully crafted formulas.
-    image: /img/collab 1 sample.png
-    link: '#'
-    popupUrl: /img/collab video 1.mp4
-    title: SECURE SELECTIVE SHARING
+      **manage permissions down to individual cell level**. It allows
+      stakeholders only to interact with selected reports and present with
+      interactive slides where they can **test assumptions** without breaking
+      any of the carefully crafted formulas.
+    image: /img/v_clip_group_4.png
+    link: ''
+    title: Secure Selective Sharing
   - descr: >-
-      Each cell can store multiple inputs from different people allowing you to
-      effectively work together without the risk of overriding data or
+      Each **cell can store multiple inputs** from different people allowing you
+      to effectively work together without the risk of overriding data or
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
-    image: /img/collab 2 sample.png
-    link: '#'
-    popupUrl: /img/collab video 2.mp4
-    title: STRUCTURED DATA GATHERING & CONSOLIDATION
+    image: /img/v_clip_group_3.png
+    link: ''
+    title: Structured data gathring & consolidation
   - descr: >-
-      In Visyond, the spreadsheet is the central repository for all relevant
-      information such as supporting files, discussions, comments and approval
+      In Visyond, the **spreadsheet is the central repository for all relevant
+      information** such as supporting files, discussions, comments and approval
       status allowing you to have a knowledge management system integrated in
       your spreadsheet.
-    image: /img/Shrug_Meme.jpg
-    link: '#'
-    title: KNOWLEDGE MANAGEMENT
+    image: /img/v_clip_group_1.png
+    link: ''
+    title: Knowledge management
   - descr: >-
-      All inputs are self-documented giving you a full audit trail showing you
-      who changed what and when. You can always go back to previous versions of
-      the spreadsheet and compare them on the fly, or revert any changes
-      individually, without rolling back the entire document.
-    image: /img/Shrug_Meme.jpg
-    link: '#'
-    title: INPUT TRACKING AND VERSION CONTROL
+      All inputs are self-documented giving you a **full audit trail** showing
+      you who changed what and when. You can always go back to previous versions
+      of the spreadsheet and compare them on the fly, or **revert any changes
+      individually**, without rolling back the entire document.
+    image: /img/v_clip_group_2.png
+    link: ''
+    title: Input tracking and version control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
       cover their spreadsheet and presentation needs. That is why we built an
-      import and export functionality that can handle even the most complex
-      spreadsheets and let you easily export slides & dashboards you’ve created
-      in Visyond.
-    image: /img/Shrug_Meme.jpg
-    link: '#'
-    title: IMPORT AND EXPORT FREELY
+      **import and export functionality that can handle even the most complex
+      spreadsheets** and let you easily export slides & dashboards you’ve
+      created in Visyond.
+    image: /img/package-27770_1280 even smaller.png
+    link: ''
+    title: Import and Export freely
 capabilitiesList:
-  - image: /img/v_icon.png
+  - image: /img/feature-icons-v1_03.png
     text: Eliminate data chaos
-  - image: /img/v_icon2.png
-    text: Ensure quick turn-around
-  - image: /img/v_icon3.png
+  - image: /img/feature-icons-v1_13.png
     text: Keep up to date with the latest changes
-  - image: /img/v_icon.png
+  - image: /img/feature-icons-v1_09.png
     text: 'Know who changed what, when'
+  - image: /img/v_icon.png
+    text: Ensure quick turn-around
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
@@ -86,7 +84,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v2.png
+    image: /img/ELearnSecurity - v3.png
     linkText: learn more
     linkUrl: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
