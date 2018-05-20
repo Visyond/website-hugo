@@ -98,6 +98,7 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+titleCustomers: What the customers say
 slider:
   - sliderDescr: >-
       I have finally full control on the source and impact of any assumptions,
