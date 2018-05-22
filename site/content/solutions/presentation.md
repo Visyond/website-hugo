@@ -2,10 +2,9 @@
 title: Presentation
 topTitle: 'Interactive and Secure Real-Time Presentations, Visualizations and Reporting'
 topSubTitle: >-
-  Easily create insightful interactive visualizations, presentations and reports
-  based on your  Visyond’s spreadsheet calculation engine. Enable each
-  collaborator to test their assumptions only on information they are authorized
-  to see and interact with
+  Easily create insightful interactive slides based on  Visyond’s spreadsheet
+  calculation engine. Enable each collaborator to test their assumptions only on
+  information they are authorized to see and interact with
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
