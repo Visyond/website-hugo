@@ -20,7 +20,7 @@ infoBlockFirst:
       trend lines**. Drastically reduce the time & effort involved in auditing
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
-    image: /img/nice model.png
+    image: /img/feature 1 - nice model.png
     link: ''
     title: Readable and beautiful models
   - descr: >-
@@ -32,7 +32,7 @@ infoBlockFirst:
       Want to visualize how different cells are connected or know how they
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
-    image: /img/dependency.png
+    image: /img/feature 2 - dependencies.png
     link: ''
     title: Error root cause & dependencies tracking
   - descr: >-
@@ -42,7 +42,7 @@ infoBlockFirst:
       errors and measure the impact of different inputs** while dramatically
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
-    image: /img/scenario.png
+    image: /img/feature 3 - scenario comparison.png
     link: '#'
     title: Hassle-free number testing environment
   - descr: >-
@@ -52,7 +52,7 @@ infoBlockFirst:
       controlled sandbox environment to play with the numbers** without
       compromising or changing the calculations and underlying logic of the
       model.
-    image: /img/dashboard.png
+    image: /img/feature 4 - slides.png
     link: ''
     title: Secure sandbox for stress-testing
 capabilitiesList:
