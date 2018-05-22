@@ -39,7 +39,7 @@ infoBlockFirst:
       and give you peace of mind: **avoid data leakages, minimize errors, and
       track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_2.png
-    link: ''
+    link: /solutions/governance
     title: Data tracking and spreadsheet governance
   - descr: >-
       Empower collaborators and decision makers to **answer any questions
