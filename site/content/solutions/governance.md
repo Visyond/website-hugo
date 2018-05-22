@@ -11,7 +11,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/governance top 2.jpg
+bgImage: /img/governance top 3.jpg
 infoBlockFirst:
   - descr: >-
       Transform the maze of entangled, co-dependent and hard-to-read
