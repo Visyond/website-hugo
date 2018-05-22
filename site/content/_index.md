@@ -28,7 +28,7 @@ infoBlockFirst:
       access to only certain cells, worksheets, or linked reports and slides and
       **expose only what each person has to see or interact with**!
     image: /img/v_clip_group_1.png
-    link: ''
+    link: /solutions/collaboration/
     title: Transparent and Controlled Collaboration
   - descr: >-
       No overriding data or formulas. No risk of breaking the model and
