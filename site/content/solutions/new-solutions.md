@@ -6,7 +6,7 @@ infoBlockFirst:
   - descr: >-
       Some many many many many many many many many many many many many many many
       many many many many many many text
-    image: /img/v_clip_group_1.png
+    image: /img/v_clip_group_4.png
     link: '#'
     title: Some title
 capabilitiesList:
@@ -27,6 +27,9 @@ studiesBlock:
     linkUrl: '#'
     text: Some text between title and author
     title: Studies block title
+slider:
+  - sliderDescr: Description
+    slidercompany: Name Company
 providesTitle: Provides title
 providesList:
   - text: Lorem ipsum dolor
@@ -36,5 +39,6 @@ providesList:
       * Lorem ipsum dolor
 titleBottom: Bottom Title
 bgBottom: /img/errors-dark.jpg
+botRequestURL: '#'
 ---
 
