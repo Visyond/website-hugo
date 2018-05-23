@@ -54,7 +54,7 @@ infoBlockFirst:
       Findings and automatic visualizations can be exported to _interactive
       dashboards and apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
-    link: ''
+    link: /solutions/analysis
     title: Collaborative analysis for decision making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
