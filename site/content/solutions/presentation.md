@@ -22,7 +22,7 @@ infoBlockFirst:
       fields (i,e. sliders, drop-down lists, etc.) are placed on the
       presentations and update the output cells or charts in real-time without
       changing what is in the spreadsheet.
-    image: /img/Ancient-Aliens.jpg
+    image: /img/bbbbb.PNG
     title: Interactive dashboards
   - descr: >-
       Visyond interactive slides also let you **easily build various apps, such
