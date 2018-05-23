@@ -25,12 +25,10 @@ infoBlockFirst:
     image: /img/Ancient-Aliens.jpg
     title: Interactive dashboards
   - descr: >-
-      With Visyond interactive slides you can not only create dynamic slides
-      that are updated in real-time based on inputs users supply directly into
-      the slide but also they let you **easily build various apps, such as ROI
-      calculators, that can be shared with your colleagues or clients or
-      embedded on a webpage with the data being supplied from your
-      spreadsheet**.
+      Visyond interactive slides also let you **easily build various apps, such
+      as ROI calculators, Sales quotation calculators and many more that can be
+      shared with your colleagues, clients or embedded on a webpage with the
+      data being supplied from your spreadsheet**.
 
 
       The process is simple and does not require wiring a line of code or
@@ -39,15 +37,14 @@ infoBlockFirst:
     title: Apps and calculators without programming
   - descr: >-
       With Visyond’s granular permission control and secure selective sharing
-      you can **expose only those parts of the model and
-      presentations/visualizations that you deem necessary with only specific
-      stakeholders**.
+      you can **expose only parts of  the model and presentations slides that
+      you deem necessary with only specific stakeholders**. 
 
 
       Do you want your clients or colleagues to understand how different
       scenarios affect the outcome but don’t want them to accidentally break the
       calculations you’ve been working on or see unnecessary details in a
-      crowded spreadsheet? 
+      crowded spreadsheet?
 
 
       With Visyond it is simple - in few clicks generate the scenarios, put them
