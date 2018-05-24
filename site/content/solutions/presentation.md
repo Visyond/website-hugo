@@ -8,7 +8,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/banner.jpg
+bgImage: /img/presentation top 1.jpg
 infoBlockFirst:
   - descr: >-
       Make smarter decisions faster by getting valuable insights with
