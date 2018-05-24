@@ -6,7 +6,7 @@ infoBlockFirst:
   - descr: >-
       Some many many many many many many many many many many many many many many
       many many many many many many text
-    image: /img/bbbbb.PNG
+    image: /img/kid-on-computer-2_tnvltp.jpg
     link: '#'
     title: Some title
 capabilitiesList:
