@@ -66,7 +66,7 @@ infoBlockFirst:
       make available to them**: no risk of exposing sensitive information,
       accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
-    link: ''
+    link: /solutions/presentation
     title: Interactive & secure on-the-fly reporting and presentations
 capabilitiesList:
   - image: /img/v_icon.png
