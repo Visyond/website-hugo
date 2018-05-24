@@ -1,5 +1,5 @@
 ---
-title: new-solutions2
+title: test-solutions2
 signUpURL: /accounts/signup/
 requestURL: /request-a-demo
 bgImage: /img/banner.jpg
