@@ -1,0 +1,9 @@
+{{ with .Site.GetPage "section" "cookies" }}
+  {{ if .Params.cookiesText }}
+    <div class="cookies">
+      <div class="cookies__text">{{ .Params.cookiesText }}</div>
+      <button class="cookies__yes">{{ .Params.cookiesYesBtn }}</button>
+      <a href="{{ .Params.cookiesNoBtnURL }}" class="cookies__no">{{ .Params.cookiesNoBtn }}</a>
+    </div>
+  {{ end }}
+{{ end }}

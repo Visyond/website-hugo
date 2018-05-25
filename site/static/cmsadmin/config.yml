@@ -18,9 +18,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
       - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}
       - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Sign Up URL", name: "signUpURL", widget: "string", required: false,}
+      - {label: "Sign Up URL", name: "signUpURL", widget: "string", required: false, default: "/accounts/signup/"}
       - {label: "Watch Video", name: "watchVideoURL", widget: "string", required: false}
-      - {label: "Request URL", name: "requestURL", widget: "string", required: false,}
+      - {label: "Request URL", name: "requestURL", widget: "string", required: false, default: "/request-a-demo"}
       - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
@@ -61,6 +61,14 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
+      - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
+      - {label: "Slider Customers", name: "slider", widget: "list", fields: [
+        {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
+        {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
+        {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
+        {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
+      ]}
+
       - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
@@ -70,6 +78,8 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
       - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
+      - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
+
 
 
 
@@ -324,6 +334,14 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Link URL", name: "linkUrl", widget: "string"},
       ],}
 
+      - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
+      - {label: "Slider Customers", name: "slider", widget: "list", fields: [
+        {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
+        {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
+        {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
+        {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
+      ]}
+
       - {label: "Provides Title", name: "providesTitle", widget: "string"}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
@@ -346,7 +364,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
 
 
 
@@ -389,6 +406,14 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
           ]}
+      - file: "site/content/cookies/_index.md"
+        label: "Cookies"
+        name: "cookies"
+        fields:
+          - {label: "Cookies Text", name: "cookiesText", widget: "markdown", required: false}
+          - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree"}
+          - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more"}
+          - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/"}
       - file: "site/content/counters/_index.md"
         label: "Counters"
         name: "counters"

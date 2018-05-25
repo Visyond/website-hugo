@@ -210,16 +210,19 @@ $(function () {
        const slidersNumber = sliders.length;
        let count = 0;
        let step = sliders[0].offsetWidth;
+       let pause = false;
 
        let sliderInterval = setInterval(() => {
          if(document.documentElement.clientWidth > 800) {
-           step = sliders[0].offsetWidth;
-           sliders = slidersBlock.children;
-           slidersBlock = document.querySelector('.js-slider')
-           let cloneNode = sliders[count].cloneNode(true);
-           slidersBlock.appendChild(cloneNode);
-           count++;
-           slidersBlock.style.transform = `translateX(-${step * count}px)`;
+           if(!pause) {
+             step = sliders[0].offsetWidth;
+             sliders = slidersBlock.children;
+             slidersBlock = document.querySelector('.js-slider')
+             let cloneNode = sliders[count].cloneNode(true);
+             slidersBlock.appendChild(cloneNode);
+             count++;
+             slidersBlock.style.transform = `translateX(-${step * count}px)`;
+           }
          }
          else {
            for(let i = slidersBlock.children.length - 1; i > 0 ; i--) {
@@ -232,6 +235,14 @@ $(function () {
          }
 
        }, 5000);
+
+       window.addEventListener('blur', () => {
+         pause = true;
+       })
+
+       window.addEventListener('focus', () => {
+         pause = false;
+       })
 
        window.addEventListener('resize', () => {
          step = sliders[0].offsetWidth;
@@ -251,32 +262,39 @@ $(function () {
 
      function PopupInfoImages() {
        this.mainBlock = document.querySelector('.js-image-block');
-       this.images = this.mainBlock.querySelectorAll('img:first-child');
+       this.images = this.mainBlock.querySelectorAll('.sol-info__img-wrap img');
+
+       for(let i = 0; i < this.images.length; i++) {
+         if(this.images[i].dataset.src) {
+           this.images[i].classList.add('sol-info__block-img-pointer');
+         }
+       }
 
        this._createPopup = (src) => {
-         const popup = document.createElement('div');
-         const video = document.createElement('video');
-         const source = document.createElement('source');
-         video.setAttribute('autoplay', 'autoplay');
-         source.setAttribute('src', src);
-         popup.classList.add('popup');
-         video.appendChild(source);
-         popup.appendChild(video);
-         this.mainBlock.appendChild(popup);
+         if(src) {
+           const popup = document.createElement('div');
+           const video = document.createElement('video');
+           const source = document.createElement('source');
+           video.setAttribute('autoplay', 'autoplay');
+           source.setAttribute('src', src);
+           popup.classList.add('popup');
+           video.appendChild(source);
+           popup.appendChild(video);
+           this.mainBlock.appendChild(popup);
 
-         setTimeout( () => {
-           popup.style.opacity = 1;
-         }, 500);
+           setTimeout( () => {
+             popup.style.opacity = 1;
+           }, 500);
 
-         popup.addEventListener('click', e => {
-           popup.parentNode.removeChild(popup);
-         });
+           popup.addEventListener('click', e => {
+             popup.parentNode.removeChild(popup);
+           });
+         }
        }
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
           if(e.target === this.images[i]) {
-            console.log(this.images[i].dataset.src);
             this._createPopup(this.images[i].dataset.src);
           };
         };
@@ -285,5 +303,30 @@ $(function () {
 
      if(document.querySelector('.js-image-block')) {
        const newPopup = new PopupInfoImages();
+     }
+
+
+
+
+
+
+     //=====COOKIES=====
+
+     function getCookies() {
+       const cookiesBlock = document.querySelector('.cookies');
+       const cookiesYes = cookiesBlock.querySelector('.cookies__yes');
+
+       if(!localStorage.getItem('agree')) {
+         cookiesBlock.classList.add('cookies--show');
+       }
+
+       cookiesYes.addEventListener('click', () => {
+         localStorage.setItem('agree', true);
+         cookiesBlock.classList.remove('cookies--show');
+       });
+     }
+
+     if(document.querySelector('.cookies')) {
+       getCookies();
      }
 });

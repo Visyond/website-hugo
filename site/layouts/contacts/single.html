@@ -18,7 +18,7 @@
 		<article class="contacts-page__item contacts-page__item--mail">
 			<h3 class="contacts-page__title">Mail</h3>
 			<span class="contacts-page__address">{{ .Params.Mail | markdownify }}</span>
-			
+
 			<div class="contacts-page__social-wrap">
 				{{ partial "social" (dict "data" .Params.ContactsSocial) }}
 			</div>
@@ -33,7 +33,7 @@
 				{{ end }}
 			</ul>
 		</article>
-		
+
 		<article class="contacts-page__item contacts-page__item--email">
 			<h3 class="contacts-page__title">Email</h3>
 			<ul class="contacts-page__list">
@@ -46,7 +46,7 @@
 		</article>
 		<article class="contacts-page__item contacts-page__item--form">
 			<h3 class="contacts-page__title">Contact us</h3>
-			<form class="contact__form-wrap">
+			<form class="contact__form-wrap" netlify>
 				<div class="contact__form-item">
 					<input type="text" placeholder="Name" class="contact__form-input" name="name" required>
 					<span class="contact__form-state"></span>
@@ -86,9 +86,9 @@
 <script>
     alert("Sorry, contacts temporary does not work");
 	google.maps.event.addDomListener(window, 'load', init);
-        
+
 		function init() {
-			
+
 			var mapOptions = {
 				zoom: 18,
 				center: new google.maps.LatLng(51.525641,-0.0836877),

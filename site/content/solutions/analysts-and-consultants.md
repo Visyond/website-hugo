@@ -13,7 +13,7 @@ topSubTitle: >+
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/Screen_Shot_2017-11-06_at_3.17.59_PM.png
+bgImage: /img/analysts_consultants 1.jpg
 infoBlockFirst:
   - descr: >-
       Put an end to the long wary hours of preparing calculations for multiple
@@ -48,6 +48,10 @@ infoBlockFirst:
     image: /img/consult4.png
     link: '#'
     title: Demonstrate your analysis powerfully
+  - descr: 'test test test test? test test test! test test test test test test test. '
+    image: /img/test pic 1233451241.png
+    link: '#'
+    title: test
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -85,6 +89,27 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+titleCustomers: What the customers say
+slider:
+  - sliderDescr: >-
+      I have finally full control on the source and impact of any assumptions,
+      and can confidently answer what-if questions with a few clicks.
+    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
+    sliderlogo: /img/delo1.png
+    sliderphoto: /img/client_1a.jpg
+  - sliderDescr: >-
+      Since we use Visyond, everyone, regardless of their skill level, can ask
+      deeper questions to our models and prepare more informative reports in
+      real time.
+    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
+    sliderlogo: /img/jberg1.png
+    sliderphoto: /img/client_2.jpg
+  - sliderDescr: >-
+      When I use Visyond I see my accuracy and ability to answer questions about
+      my work go up. I can do more and have peace of mind.
+    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
+    sliderlogo: /img/elet.png
+    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -94,5 +119,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
+botRequestURL: /request-a-demo
 ---
 

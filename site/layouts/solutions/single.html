@@ -49,7 +49,12 @@
       {{ range $el := .Params.InfoBlockFirst }}
 
       <li class="sol-info__block">
-        <img src="{{ .image }}" alt="collaborate on spreadsheets" class="sol-info__block-img" data-src="{{ .popupUrl }}">
+        <div class="sol-info__img-wrap">
+          <img src="{{ .image }}" alt="collaborate on spreadsheets" class="sol-info__block-img" data-src="{{ .popupUrl }}">
+          {{ if .popupUrl }}
+          <img src="/img/vimages/play-laptop.png" alt="play" class="sol-info__play-video">
+          {{ end }}
+        </div>
 
         <img src="/img/home/v_lines.png" alt="lines" class="sol-info__block-lines">
 
@@ -150,6 +155,33 @@
     </section>
     <!-- ./section studies -->
 
+    <!-- section customers -->
+    <section class="customers">
+      {{ if .Params.TitleCustomers }}
+      <h3 class="customers__title homepage-title">{{ .Params.TitleCustomers }}</h3>
+      {{ end }}
+
+        <ul class="customers__list">
+          {{ range $item := .Params.slider  }}
+            <li class="customers__item">
+              <figure class="customers__img-container">
+                <span class="customers__img-wrap">
+                  <img src={{ .sliderphoto }} alt="">
+                </span>
+
+                <figcaption class="customers__img-descr-wrap">
+                  <p class="customers__img-descr">{{ .sliderDescr }}</p>
+
+                  <span class="customers__img-author">{{ .slidercompany }}</span>
+                  <img src={{ .sliderlogo }} alt="" class="customers__img-company">
+                  </figcaption>
+            </figure>
+          </li>
+          {{ end }}
+      </ul>
+    </section>
+    <!-- //section customers -->
+
     <!-- section provides -->
     <div class="sol-provides">
       <section class="sol-provides__wrap">
@@ -176,7 +208,7 @@
         {{ .Params.TitleBottom }}
       </h3>
 
-      <a href="#" class="sol-link sol-link--request">
+      <a href="{{ .Params.BotRequestURL }}" class="sol-link sol-link--request">
         request a demo
       </a>
     </section>
