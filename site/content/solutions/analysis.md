@@ -1,5 +1,6 @@
 ---
-title: Analysis
+title: Spreadsheet data analysis software - Visyond
+metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data analysis\">"
 topTitle: |-
   An Elegant Solution for Analyzing Spreadsheet Data 
 
