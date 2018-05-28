@@ -46,7 +46,7 @@
 		</article>
 		<article class="contacts-page__item contacts-page__item--form">
 			<h3 class="contacts-page__title">Contact us</h3>
-			<form class="contact__form-wrap" netlify>
+			<form class="contact__form-wrap" action="https://formspree.io/support@visyond.com">
 				<div class="contact__form-item">
 					<input type="text" placeholder="Name" class="contact__form-input" name="name" required>
 					<span class="contact__form-state"></span>
@@ -56,12 +56,16 @@
 					<span class="contact__form-state"></span>
 				</div>
 				<div class="contact__form-item">
-					<textarea name="message" placeholder="Your message" name="message" class="contact__form-input contact__form-input--message" required></textarea>
+					<textarea placeholder="Your message" name="text" class="contact__form-input contact__form-input--message" required></textarea>
 					<span class="contact__form-state"></span>
 				</div>
 				<div class="contact__form-item contact__form-item--submit">
 					<button type="submit" class="contact__form-submit">contact us</button>
 				</div>
+                <input type="hidden" name="_next" value="https://visyond.com/thank-you-for-your-request/" />
+                <input type="hidden" name="_subject" value="Visyond :: support :: contactForm event" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="text" name="_gotcha" style="display:none" />
 			</form>
 		</article>
 	</section>
@@ -84,7 +88,6 @@
 </div>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
-    alert("Sorry, contacts temporary does not work");
 	google.maps.event.addDomListener(window, 'load', init);
 
 		function init() {
