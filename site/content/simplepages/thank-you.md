@@ -1,7 +1,7 @@
 ---
 url: /thank-you-for-your-request
 title: Thank You!
-image: /img/Collab 1 resized 3.jpg
+image: /img/back1.png
 ---
 > Thank you for reaching out! 
 >
