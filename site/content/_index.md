@@ -1,6 +1,6 @@
 ---
-title: Homepage
-metaTags: visyond
+title: Secure Spreadsheet Collaboration & Modeling Software
+metaTags: "<meta name=\"description\" content=\"Intelligent cloud-based secure spreadsheet collaboration, analysis and reporting software for teams who need to make decisions based on numbers.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Software, Spreadsheet\">"
 topTitle: |-
   Secure & Automated Spreadsheet Collaboration, Analysis and Reporting, 
 
