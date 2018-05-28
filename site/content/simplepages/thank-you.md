@@ -1,7 +1,7 @@
 ---
 url: /thank-you-for-your-request
 title: Thank You!
-image: /img/Калининградский собор.jpg
+image: /img/back1.png
 ---
 > Thank you for reaching out! 
 >
