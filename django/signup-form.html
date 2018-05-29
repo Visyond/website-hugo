@@ -1,0 +1,39 @@
+<form action="#" class="signup-form" method="post" id="loginform">
+    {% if form.field_errors %}
+        <div class="alert alert-danger">
+          {{ form.field_errors }}
+        </div>
+    {% endif %}
+
+    {% csrf_token %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="/dashboard?welcome">
+
+    <div class="input-wrap contactFormInput {% if form.email.errors %}error{%endif%}">
+        <input type="email" name="email" placeholder="Email address*" class="sign__textfield contactFormInput" id="id_email" required {% if form.email.value %} value="{{form.email.value}}" {%endif%}>
+    </div>
+    {% if form.email.errors %}
+    <div class="error-message">
+        {{ form.email.errors }}
+    </div>
+    {% endif %}
+    <div class="input-wrap contactFormInput {% if form.password1.errors %}error{%endif%}">
+        <input type="password" name="password1" placeholder="Password*" class="sign__textfield contactFormInput" id="id_password1" required>
+    </div>
+    {% if form.password1.errors %}
+    <div class="error-message">
+        {{ form.password1.errors }}
+    </div>
+    {% endif %}
+
+    <div class="input-wrap contactFormInput {% if form.password2.errors %}error{%endif%}">
+        <input type="password" name="password2" placeholder="Repeat password*" class="sign__textfield contactFormInput" id="id_password2" required>
+    </div>
+    {% if form.password2.errors %}
+    <div class="error-message">
+        {{ form.password2.errors }}
+    </div>
+    {% endif %}
+    <div class="input-wrap input-wrap--signup-btn">
+        <button type="submit" class="sign-submit-btn">Start Free trial</button>
+    </div>
+</form>

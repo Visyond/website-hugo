@@ -91,7 +91,7 @@
     font-size: 16px;
     border-radius: 4px;
     color: #5e6f85;
-    
+
     &::-webkit-input-placeholder {color:#5e6f85; font-weight: 300; font-family: 'Open Sans', sans-serif;}
     &::-moz-placeholder          {color:#5e6f85; font-weight: 300; font-family: 'Open Sans', sans-serif;}/* Firefox 19+ */
     &:-moz-placeholder           {color:#5e6f85; font-weight: 300; font-family: 'Open Sans', sans-serif;}/* Firefox 18- */
@@ -155,14 +155,30 @@
 
 .container--signup {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 860px;
     padding: 80px 0;
+
+    @media screen and (max-width: 800px) {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -ms-align-items: center;
+      align-items: center;
+    }
 }
 
 .sign-body--signup-social {
     width: 350px;
     border-radius: 5px;
+    margin-right: 10px;
+
+    @media screen and (max-width: 800px) {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 500px;
+      max-width: 96%;
+    }
 }
 
 .signup-social-wrap {
@@ -171,7 +187,7 @@
 }
 .signup-social__item {
     margin-bottom: 15px;
-    
+
     &:last-child {
         margin-bottom: 0;
     }
@@ -179,7 +195,7 @@
 .signup-social__list {
     margin: 30px 0 0 0;
     padding: 0;
-    list-style: none;        
+    list-style: none;
 }
 .signup-social__link--gplus {
     background: #DC483F;
@@ -203,7 +219,7 @@
     padding: 10px 0;
     text-align: center;
     transition: background .1s ease-in-out;
-   
+
     &:hover {
         color: #fff;
         text-decoration: none;
@@ -248,6 +264,7 @@
 .sign-body--signup-form-wrap {
     width: 500px;
     border-radius: 4px;
+    max-width: 96%;
 }
 
 .top-login-title {
@@ -261,10 +278,20 @@
     flex-flow: row wrap;
     justify-content: space-between;
     margin-top: 10px;
+
+    @media screen and (max-width: 500px) {
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
 }
 
 .signup-form .input-wrap {
     width: 47%;
+
+    @media screen and (max-width: 500px) {
+      width: 100%;
+    }
 }
 
 .input-wrap--signup-btn {
@@ -277,4 +304,8 @@
     padding: 14px 0 13px 0;
     text-transform: none;
     font-weight: 300;
+}
+
+.sign-submit-btn a {
+  width: 100%;
 }
