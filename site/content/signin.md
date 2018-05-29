@@ -1,5 +1,5 @@
 ---
 type: signin
-title: Sign in
+title: Sign In
 url: '/signin'
 ---
