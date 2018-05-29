@@ -1,5 +1,6 @@
 ---
-title: Analysis
+title: Spreadsheet data analysis software - Visyond
+metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data analysis\">"
 topTitle: |-
   An Elegant Solution for Analyzing Spreadsheet Data 
 
@@ -13,38 +14,51 @@ infoBlockFirst:
   - descr: >-
       Often there is a need to compare dozens of different probabilities and
       scenarios to find the optimal strategy and answer various what-if
-      questions. Visyond was designed with this goal in mind and allows you to
-      to **easily measure, compare and visualize the impact of multiple
-      coexisting inputs and scenarios from different stakeholders**.
-    image: /img/scenario.png
+      questions. 
+
+
+      Visyond was designed with this goal in mind and allows you to to **easily
+      measure, compare and visualize the impact of multiple coexisting inputs
+      and scenarios from different stakeholders**.
+    image: /img/feature 1 - scenario comparison.png
     title: Fast and Simple Scenario Comparison
   - descr: >-
       With Visyond’s Tornado Analysis you can answer difficult questions,
       easily; “by what percentage does the output changes when the drives, on by
       one, change by x%?” -- **perform these calculations without coding or
-      downloading add-ons**. Tornado analysis will tell you **how much a
-      selected output is sensitive to fixed changes in driver cells**.
-    image: /img/tornado.png
+      downloading add-ons**. 
+
+
+      Tornado analysis will tell you **how much a selected output is sensitive
+      to fixed changes in driver cells**.
+    image: /img/feature 2 - tornado.png
     title: Tornado Analysis Without Whirlwind Of Stress
   - descr: >-
       Significantly **streamline and simplify Sensitivity Analysis setup in
-      minutes**.  Sensitivity analysis will help you **understand clearly the
+      minutes**. Sensitivity analysis will help you **understand clearly the
       nature of the relationship between input and output** variables in your
-      spreadsheet or model. This allows you to **identify to what degree
-      variables impacts the outcome**, how different indicators interact &
-      affect each other, and uncover errors in your models.
-    image: /img/sensitivity.png
+      spreadsheet or model. 
+
+
+      This allows you to **identify to what degree variables impacts the
+      outcome**, how different indicators interact & affect each other, and
+      uncover errors in your models.
+    image: /img/feature 3 - sensitivity.png
     title: Sensitivity Analysis That Makes Sense
   - descr: >-
       Data analysis is a continuous process as new inputs and questions are
       constantly introduced. 
 
+
       Visyond enables you to adapt and answer them on-the-fly by providing
       **interactive dashboards and slides with customizable input fields that
       update in real time with the related data and charts without affecting the
-      underlying calculations or overriding any data**. The dashboards and
-      slides can be securely shared with other people without exposing raw data.
-    image: /img/dashboard.png
+      underlying calculations or overriding any data**. 
+
+
+      The dashboards and slides can be securely shared with other people without
+      exposing raw data.
+    image: /img/feature 4 - slides.png
     title: Secure Interactive Dashboards for Decision Making
 capabilitiesList:
   - image: /img/v_icon.png
@@ -84,6 +98,27 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+titleCustomers: ''
+slider:
+  - sliderDescr: >-
+      I have finally full control on the source and impact of any assumptions,
+      and can confidently answer what-if questions with a few clicks.
+    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
+    sliderlogo: /img/delo1.png
+    sliderphoto: /img/client_1a.jpg
+  - sliderDescr: >-
+      Since we use Visyond, everyone, regardless of their skill level, can ask
+      deeper questions to our models and prepare more informative reports in
+      real time.
+    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
+    sliderlogo: /img/jberg1.png
+    sliderphoto: /img/client_2.jpg
+  - sliderDescr: >-
+      When I use Visyond I see my accuracy and ability to answer questions about
+      my work go up. I can do more and have peace of mind.
+    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
+    sliderlogo: /img/elet.png
+    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -93,5 +128,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
+botRequestURL: /request-a-demo
 ---
 

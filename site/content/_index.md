@@ -28,7 +28,7 @@ infoBlockFirst:
       access to only certain cells, worksheets, or linked reports and slides and
       **expose only what each person has to see or interact with**!
     image: /img/v_clip_group_1.png
-    link: ''
+    link: /solutions/collaboration
     title: Transparent and Controlled Collaboration
   - descr: >-
       No overriding data or formulas. No risk of breaking the model and
@@ -39,7 +39,7 @@ infoBlockFirst:
       and give you peace of mind: **avoid data leakages, minimize errors, and
       track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_2.png
-    link: ''
+    link: /solutions/governance
     title: Data tracking and spreadsheet governance
   - descr: >-
       Empower collaborators and decision makers to **answer any questions
@@ -54,7 +54,7 @@ infoBlockFirst:
       Findings and automatic visualizations can be exported to _interactive
       dashboards and apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_3.png
-    link: ''
+    link: /solutions/analysis
     title: Collaborative analysis for decision making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
@@ -66,7 +66,7 @@ infoBlockFirst:
       make available to them**: no risk of exposing sensitive information,
       accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
-    link: ''
+    link: /solutions/presentation
     title: Interactive & secure on-the-fly reporting and presentations
 capabilitiesList:
   - image: /img/v_icon.png
@@ -98,24 +98,25 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+titleCustomers: ''
 slider:
   - sliderDescr: >-
       I have finally full control on the source and impact of any assumptions,
       and can confidently answer what-if questions with a few clicks.
-    slidercompany: '''Nina Fedorova, Senior Consultant, DELOITTE'''
+    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
     sliderlogo: /img/delo1.png
     sliderphoto: /img/client_1a.jpg
   - sliderDescr: >-
       Since we use Visyond, everyone, regardless of their skill level, can ask
       deeper questions to our models and prepare more informative reports in
       real time.
-    slidercompany: '''Edoardo Gauzolino, Founder, JEBG'''
+    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
     sliderlogo: /img/jberg1.png
     sliderphoto: /img/client_2.jpg
   - sliderDescr: >-
       When I use Visyond I see my accuracy and ability to answer questions about
       my work go up. I can do more and have peace of mind.
-    slidercompany: '''Fernando Rizzo, Area Manager, Elettronica'''
+    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
     sliderlogo: /img/elet.png
     sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes

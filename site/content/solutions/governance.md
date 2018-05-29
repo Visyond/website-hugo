@@ -1,5 +1,6 @@
 ---
-title: Governance
+title: 'Spreadsheet data tracking, governance and compliance software'
+metaTags: "<meta name=\"description\" content=\"Take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data tracking\">"
 topTitle: |-
   Data Tracking and Spreadsheet Governance 
 
@@ -11,7 +12,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/governance top 1.jpg
+bgImage: /img/governance top 3.jpg
 infoBlockFirst:
   - descr: >-
       Transform the maze of entangled, co-dependent and hard-to-read
@@ -20,7 +21,7 @@ infoBlockFirst:
       trend lines**. Drastically reduce the time & effort involved in auditing
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
-    image: /img/nice model.png
+    image: /img/feature 1 - nice model.png
     link: ''
     title: Readable and beautiful models
   - descr: >-
@@ -32,7 +33,7 @@ infoBlockFirst:
       Want to visualize how different cells are connected or know how they
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
-    image: /img/dependency.png
+    image: /img/feature 2 - dependencies.png
     link: ''
     title: Error root cause & dependencies tracking
   - descr: >-
@@ -42,7 +43,7 @@ infoBlockFirst:
       errors and measure the impact of different inputs** while dramatically
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
-    image: /img/scenario.png
+    image: /img/feature 3 - scenario comparison.png
     link: '#'
     title: Hassle-free number testing environment
   - descr: >-
@@ -52,7 +53,7 @@ infoBlockFirst:
       controlled sandbox environment to play with the numbers** without
       compromising or changing the calculations and underlying logic of the
       model.
-    image: /img/dashboard.png
+    image: /img/feature 4 - slides.png
     link: ''
     title: Secure sandbox for stress-testing
 capabilitiesList:
@@ -95,6 +96,27 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+titleCustomers: ''
+slider:
+  - sliderDescr: >-
+      I have finally full control on the source and impact of any assumptions,
+      and can confidently answer what-if questions with a few clicks.
+    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
+    sliderlogo: /img/delo1.png
+    sliderphoto: /img/client_1a.jpg
+  - sliderDescr: >-
+      Since we use Visyond, everyone, regardless of their skill level, can ask
+      deeper questions to our models and prepare more informative reports in
+      real time.
+    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
+    sliderlogo: /img/jberg1.png
+    sliderphoto: /img/client_2.jpg
+  - sliderDescr: >-
+      When I use Visyond I see my accuracy and ability to answer questions about
+      my work go up. I can do more and have peace of mind.
+    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
+    sliderlogo: /img/elet.png
+    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -104,5 +126,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
+botRequestURL: /request-a-demo
 ---
 
