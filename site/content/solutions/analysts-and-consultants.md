@@ -13,26 +13,32 @@ topSubTitle: >+
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/analysts_consultants 1.jpg
+bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
       _Put an end to the long wary hours of preparing calculations for multiple
-      scenarios!_ Visyond connects you to intelligent data that propagates your
-      formulas with swiftness and ease, graphically displays opportunities and
-      risks, aggregates data in real time, helps you easily find the source of
+      scenarios!_ 
+
+
+      Visyond connects you to intelligent data that propagates your formulas
+      with swiftness and ease, graphically displays opportunities and risks,
+      aggregates data in real time, helps you easily find the source of
       information and lets you _answer what-if questions on the fly._
     image: /img/consult1.png
     link: ''
     title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing your models and analysis_.\r It’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
+  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing your models and analysis.\r_\n\nIt’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
     image: /img/consult2.png
     link: ''
     title: Never Lose Critical Information
   - descr: >-
       Our built-in analysis tools automate typical routine tasks that would
       otherwise require expensive software, add-ons, writing macros or
-      error-prone lengthy manual setups. With Visyond you will need _just a few
-      clicks and minutes to perform analyses that used to take days._
+      error-prone lengthy manual setups. 
+
+
+      With Visyond you will need _just a few clicks and minutes to perform
+      analyses that used to take days._
     image: /img/consult3.png
     link: ''
     title: Save Time and Enhance Your Analysis and Report
@@ -40,11 +46,13 @@ infoBlockFirst:
       Every cell in Visyond can store _multiple coexisting inputs, attachments
       and conversations._ You can add different cases (i.e. optimistic &
       pessimistic forecasts) to any cells and _combine them into as many
-      scenarios as you like and then quickly compare them on-the fly._ Then,
-      with the help of powerful interactive dashboards, you can _securely share
-      the results with stakeholders allowing them to test their own assumptions
-      directly in the dashboards without the risk of breaking the underlying
-      model._
+      scenarios as you like and then quickly compare them on-the fly._ 
+
+
+      Then, with the help of powerful interactive dashboards, you can _securely
+      share the results with stakeholders allowing them to test their own
+      assumptions directly in the dashboards without the risk of breaking the
+      underlying model._
     image: /img/consult4.png
     link: ''
     title: Demonstrate Your Analysis Powerfully
