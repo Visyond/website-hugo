@@ -2,27 +2,36 @@
 title: Data Input and Consolidation
 topTitle: Eliminate the Hassles During Data Gathering
 topSubTitle: >-
-  Every month-end or end of quarter it’s a never-ending hassle gathering and
-  consolidating financial information across departments. Finance develops new
-  spreadsheet templates – hopefully error-free! And then they begin to pass
-  spreadsheets among departments to gather the numbers. This often wastes time,
-  and requires added work to verify and recheck the data’s accuracy. And during
-  the process the reasons behind each modified number often loses its visibility
-  – causing further inquiries. This all makes closing your books ceaseless
-  nightmare.
+  When a month or a quarter ends it is a never-ending hassle gathering and
+  consolidating data across departments and stakeholders. New spreadsheet
+  templates, hopefully error-free,  are created and passed around to gather the
+  numbers. This often wastes time, and requires added work to verify and check
+  the accuracy of data. During the process the reasons behind each modified
+  number often loses its visibility – causing further inquiries. This all makes
+  closing your books ceaseless nightmare.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 bgImage: /img/data input and consolidation 2.png
 infoBlockFirst:
-  - descr: "Visyond makes the data gathering process efficient allowing you to actually cut your days down to minutes.\r\nIt eliminates the need for all the manual processes that’s inherent with spreadsheets. Finance, as the document owner, maintains complete control and visibility over the entire data gathering process. This eradicates rework and manual auditing due to manually handling and linking spreadsheets. It literally slashes the time it takes to complete the work!\r\n"
+  - descr: >-
+      Visyond makes the data gathering process efficient allowing you to cut
+      days worth of effort down to minutes. It eliminates the need for all the
+      manual processes that are inherent with spreadsheets. 
+
+
+      Finance, as the document owner, maintains complete control and visibility
+      over the entire data gathering process. This eradicates rework and manual
+      auditing due to manually handling and linking spreadsheets. It literally
+      slashes the time it takes to complete the work!
     image: /img/v_clip_group_3.png
     title: Streamline Data Gathering and Knock Hours Off Your Time
-  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct.\r\n\n* Improved collaboration between financed and each business unit by notifying data requirements to each user\r\n* Configurable digital documents residing in the cloud while allowing only authorized business units to view and modify their required portion – eliminating the need to email files\r\n* Securely share documents, and specify data and conversations to only authorized users\r\n* Define cells that can be viewed and/or updated\r\n* Automatically update layout changes maintaining complete synchronization and data accuracy\r\n* Capture and store all supporting data, comments, and collaborators identification within Visyond, allowing complete transparency while eliminating risk of losing data.\r\n* Maintains versions as data gets updated during each iteration or change.\r\n* Compare data from departments, territories, sold services, or products side by side with ease.\r\n* Create multiple “what-if” scenarios with just a few clicks.\r\n"
+  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\n\n* Improve collaboration between finance and each business unit by notifying data requirements to each user\r\n* Securely share documents, and specify data and conversations to only authorized users\r\n* Create configurable digital documents residing in the cloud while allowing only authorized business units to view and modify their required portion – eliminating the need to email files\r\n* Define cells, sheets, workbooks, dashboards and slides that can be viewed and/or updated\r\n* Automatically maintain versions as data gets updated during each iteration or change\r\n"
     image: /img/v_clip_group_3.png
-    title: >-
-      With Visyond’s Technology Reduce the Risk of Errors and Dramatically Speed
-      Up Data Gathering and Consolidation
+    title: Reduce Risk of Errors
+  - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\r\n\n* Automatically update layout changes maintaining complete synchronization and data accuracy with Visyond’s Template Manager\r\n* Capture and store all supporting data, comments, and collaborators identification within Visyond, allowing complete transparency while eliminating risk of losing data\r\n* Compare data from departments, territories, sold services, or products side by side with ease\r\n* Create multiple “what-if” scenarios with just a few clicks\r\n"
+    image: /img/v_clip_group_2.png
+    title: Speed Up Data Gathering and Consolidation
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
