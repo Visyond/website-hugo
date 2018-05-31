@@ -13,7 +13,7 @@ topSubTitle: >+
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/analysts_consultants 1.jpg
+bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
       _Put an end to the long wary hours of preparing calculations for multiple
