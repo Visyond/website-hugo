@@ -1,8 +1,8 @@
 ---
 title: Analysts and consultants
 topTitle: >-
-  HELP YOUR COMPANY OR CLIENTS MAKE BETTER DECISIONS WITH INSIGHTFUL ANALYSIS
-  AND REPORTS
+  Help Your Company or Clients Make Better Decisions with Insightful Analysis
+  and Reports
 topSubTitle: >+
   As an analyst or consultant, you constantly identify areas that need
   improving. But your first step begins with the deep analysis, before
@@ -22,11 +22,11 @@ infoBlockFirst:
       risks, aggregates data in real time, helps you easily find the source of
       information and lets you answer what-if questions on the fly.
     image: /img/consult1.png
-    link: '#'
+    link: ''
     title: Transform the way you analyze and present data
   - descr: "Visyond is cloud-based so you never lose information - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by securely sharing your models and analysis.\r It’s been designed to never break formulas or lose your teams’ work, track their input and changes."
     image: /img/consult2.png
-    link: '#'
+    link: ''
     title: Never lose critical information
   - descr: >-
       Our built-in analysis tools automate typical routine tasks that would
@@ -34,7 +34,7 @@ infoBlockFirst:
       error-prone lengthy manual setups. With Visyond you will need just a few
       clicks and minutes to perform analyses that used to take days.
     image: /img/consult3.png
-    link: '#'
+    link: ''
     title: Save time and enhance your analysis and report
   - descr: >-
       Every cell in Visyond can store multiple coexisting inputs, attachments
@@ -46,12 +46,8 @@ infoBlockFirst:
       directly in the dashboards without the risk of breaking the underlying
       model.
     image: /img/consult4.png
-    link: '#'
+    link: ''
     title: Demonstrate your analysis powerfully
-  - descr: 'test test test test? test test test! test test test test test test test. '
-    image: /img/test pic 1233451241.png
-    link: '#'
-    title: test
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -79,9 +75,10 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v2.png
+    image: /img/ELearnSecurity - v3.png
     linkText: learn more
-    linkUrl: '#'
+    linkUrl: >-
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
     text: >-
       The process took 1 stressful week and I did not feel comfortable to update
       the data, fearing to break something. Now it is a 1-hour job and a few
@@ -89,7 +86,7 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
-titleCustomers: What the customers say
+titleCustomers: ''
 slider:
   - sliderDescr: >-
       I have finally full control on the source and impact of any assumptions,
