@@ -376,6 +376,22 @@
   margin-bottom: 1rem;
 }
 
+.home-info__block-descr ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-info__block-descr li:before {
+  content: "";
+  margin-right: 10px;
+  margin-bottom: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00b5b8;
+  display: inline-block;
+}
+
 .home-info__block-descr span {
   font-weight: 700;
 }
