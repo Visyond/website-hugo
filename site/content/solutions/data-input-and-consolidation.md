@@ -24,13 +24,13 @@ infoBlockFirst:
       over the entire data gathering process. This eradicates rework and manual
       auditing due to manually handling and linking spreadsheets. It literally
       slashes the time it takes to complete the work!
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: Streamline Data Gathering and Knock Hours Off Your Time
   - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\n\n* Improve collaboration between finance and each business unit by notifying data requirements to each user\r\n* Securely share documents, and specify data and conversations to only authorized users\r\n* Create configurable digital documents residing in the cloud while allowing only authorized business units to view and modify their required portion – eliminating the need to email files\r\n* Define cells, sheets, workbooks, dashboards and slides that can be viewed and/or updated\r\n* Automatically maintain versions as data gets updated during each iteration or change\r\n"
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: Reduce Risk of Errors
   - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\r\n\n* Automatically update layout changes maintaining complete synchronization and data accuracy with Visyond’s Template Manager\r\n* Capture and store all supporting data, comments, and collaborators identification within Visyond, allowing complete transparency while eliminating risk of losing data\r\n* Compare data from departments, territories, sold services, or products side by side with ease\r\n* Create multiple “what-if” scenarios with just a few clicks\r\n"
-    image: /img/v_clip_group_2.png
+    image: /img/test pic 1233451241.png
     title: Speed Up Data Gathering and Consolidation
 capabilitiesList:
   - image: /img/v_icon.png
