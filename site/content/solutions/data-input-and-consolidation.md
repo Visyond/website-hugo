@@ -1,61 +1,37 @@
 ---
-title: Analysts and consultants
-topTitle: >-
-  Help Your Company or Clients Make Better Decisions with Insightful Analysis
-  and Reports
-topSubTitle: >+
-  As an analyst or consultant, you constantly identify areas that need
-  improving. But your first step begins with the deep analysis, before
-  researching for the optimum solution. Without accurate numbers, you’ll draw
-  the wrong conclusion – and no career needs the downfall from that!
-
-
+title: Data Input and Consolidation
+topTitle: Eliminate the Hassles During Data Gathering
+topSubTitle: >-
+  When a month or a quarter ends it is a never-ending hassle gathering and
+  consolidating data across departments and stakeholders. New spreadsheet
+  templates, hopefully error-free,  are created and passed around to gather the
+  numbers. This often wastes time, and requires added work to verify and check
+  the accuracy of data. During the process the reasons behind each modified
+  number often loses its visibility – causing further inquiries. This all makes
+  closing your books ceaseless nightmare.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/data input and consolidation 2.png
 infoBlockFirst:
   - descr: >-
-      Put an end to the long wary hours of preparing calculations for _multiple
-      scenarios!_ 
+      Visyond makes the data gathering process efficient allowing you to cut
+      days worth of effort down to minutes. It eliminates the need for all the
+      manual processes that are inherent with spreadsheets. 
 
 
-      Visyond connects you to intelligent data that propagates your formulas
-      with swiftness and ease, graphically displays opportunities and risks,
-      aggregates data in real time, helps you easily find the source of
-      information and lets you _answer what-if questions on the fly._
-    image: /img/consult1.png
-    link: ''
-    title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing_ your models and analysis.\r\n\nIt’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
-    image: /img/consult2.png
-    link: ''
-    title: Never Lose Critical Information
-  - descr: >-
-      Our built-in analysis tools _automate typical routine tasks_ that would
-      otherwise require expensive software, add-ons, writing macros or
-      error-prone lengthy manual setups. 
-
-
-      With Visyond you will need _just a few clicks and minutes to perform
-      analyses that used to take days._
-    image: /img/consult3.png
-    link: ''
-    title: Save Time and Enhance Your Analysis and Report
-  - descr: >-
-      Every cell in Visyond can store _multiple coexisting inputs, attachments
-      and conversations._ You can add different cases (i.e. optimistic &
-      pessimistic forecasts) to any cells and _combine them into as many
-      scenarios as you like and then quickly compare them on-the fly._ 
-
-
-      Then, with the help of powerful interactive dashboards, you can _securely
-      share the results with stakeholders allowing them to test their own
-      assumptions directly in the dashboards without the risk of breaking the
-      underlying model._
-    image: /img/consult4.png
-    link: ''
-    title: Demonstrate Your Analysis Powerfully
+      Finance, as the document owner, maintains complete control and visibility
+      over the entire data gathering process. This eradicates rework and manual
+      auditing due to manually handling and linking spreadsheets. It literally
+      slashes the time it takes to complete the work!
+    image: /img/test pic 1233451241.png
+    title: Streamline Data Gathering and Knock Hours Off Your Time
+  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\n\n* Improve collaboration between finance and each business unit by notifying data requirements to each user\r\n* Securely share documents, and specify data and conversations to only authorized users\r\n* Create configurable digital documents residing in the cloud while allowing only authorized business units to view and modify their required portion – eliminating the need to email files\r\n* Define cells, sheets, workbooks, dashboards and slides that can be viewed and/or updated\r\n* Automatically maintain versions as data gets updated during each iteration or change\r\n"
+    image: /img/test pic 1233451241.png
+    title: Reduce Risk of Errors
+  - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\r\n\n* Automatically update layout changes maintaining complete synchronization and data accuracy with Visyond’s Template Manager\r\n* Capture and store all supporting data, comments, and collaborators identification within Visyond, allowing complete transparency while eliminating risk of losing data\r\n* Compare data from departments, territories, sold services, or products side by side with ease\r\n* Create multiple “what-if” scenarios with just a few clicks\r\n"
+    image: /img/test pic 1233451241.png
+    title: Speed Up Data Gathering and Consolidation
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -94,7 +70,6 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
-titleCustomers: ''
 slider:
   - sliderDescr: >-
       I have finally full control on the source and impact of any assumptions,
