@@ -15,7 +15,7 @@ infoBlockFirst:
   - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email and manual data consolidations. This opens the door to a massive loss of time and high risk of working with inaccurate data. Most business employ additional manual audits to protect themselves which leads to even more time lost while other departments wait for your reports!\r\n\r\nWith Visyond you can easily consolidate data, test assumptions, run analysis at an unprecedented speed and accuracy. Data is securely stored in the cloud (or on-premise), you can manage and transfer team knowledge and supporting documents easily, track all inputs, changes and versions, and eliminate dependency from the model creator by testing your assumptions from any device without risking to break the model or any formulas.\r\n"
     image: /img/test pic 1233451241.png
     title: >-
-      Shifts Your Focus from Building Dashboards to Making Sound Financial
+      Shift Your Focus from Building Dashboards to Making Sound Financial
       Decisions
   - descr: "With Visyond, you can skip the piecemealing, and zero-in on the key performance metrics that are critical. Visyond connects disparate data among spreadsheets and graphically displays the information so you can make decisions quickly:\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\r\n* Allows you to apply what-if scenarios on the fly\r\n"
     image: /img/test pic 1233451241.png
