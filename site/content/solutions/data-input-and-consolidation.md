@@ -13,7 +13,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/banner.jpg
+bgImage: /img/data input and consolidation 1.png
 infoBlockFirst:
   - descr: "Visyond makes the data gathering process efficient allowing you to actually cut your days down to minutes.\r\nIt eliminates the need for all the manual processes that’s inherent with spreadsheets. Finance, as the document owner, maintains complete control and visibility over the entire data gathering process. This eradicates rework and manual auditing due to manually handling and linking spreadsheets. It literally slashes the time it takes to complete the work!\r\n"
     image: /img/v_clip_group_3.png
