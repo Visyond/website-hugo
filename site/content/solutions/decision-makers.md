@@ -9,7 +9,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/decision makers 1.png
+bgImage: /img/decision makers 2.png
 infoBlockFirst:
   - descr: "Test assumptions, consolidate data, _run analysis at an unprecedented speed and accuracy._ With Visyond, you can skip the piecemealing, and zero-in on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and graphically displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Allows you to apply what-if scenarios on the fly\r"
     image: /img/1 - Scenarios screen.png
@@ -20,7 +20,7 @@ infoBlockFirst:
   - descr: "Visyond’s built-in analysis tools _automate typical routine tasks_ that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with _just one click._\r\n"
     image: /img/3 - request analysis.png
     title: Save Time When Requesting Analysis and Report
-  - descr: "* Add cases to any cell and _combine them in scenarios.\r_\n* Have _as many scenarios as you like_ without creating the chaos of multiple files and model versions.\r\n* Visualize and _compare all the scenarios_ with just a few clicks.\r\n* Every cell in Visyond is multi-dimensional and like a database.\r\n"
+  - descr: "* Add cases to any cell and _combine them in scenarios_.\r\n* Have _as many scenarios as you like_ without creating the chaos of multiple files and model versions.\r\n* Visualize and _compare all the scenarios_ with just a few clicks.\r\n* Every cell in Visyond is multi-dimensional and like a database.\r\n"
     image: /img/4 - multiple scenarios.png
     title: >-
       Create Multiple Scenarios and What-If Analysis On-The-Fly without Calling
