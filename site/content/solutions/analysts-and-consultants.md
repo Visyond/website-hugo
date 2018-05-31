@@ -16,7 +16,7 @@ requestURL: /request-a-demo
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
-      _Put an end to the long wary hours of preparing calculations for multiple
+      Put an end to the long wary hours of preparing calculations for _multiple
       scenarios!_ 
 
 
@@ -27,12 +27,12 @@ infoBlockFirst:
     image: /img/consult1.png
     link: ''
     title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing your models and analysis.\r_\n\nIt’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
+  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing_ your models and analysis.\r\n\nIt’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
     image: /img/consult2.png
     link: ''
     title: Never Lose Critical Information
   - descr: >-
-      Our built-in analysis tools automate typical routine tasks that would
+      Our built-in analysis tools _automate typical routine tasks_ that would
       otherwise require expensive software, add-ons, writing macros or
       error-prone lengthy manual setups. 
 
