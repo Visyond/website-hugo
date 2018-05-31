@@ -9,51 +9,22 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
-bgImage: /img/banner.jpg
+bgImage: /img/decision makers 1.png
 infoBlockFirst:
-  - descr: "Visyond is cloud-based so you never lose information, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and eliminate dependency from the model creator by testing your assumptions from any device without risking to break the model.\r\nIt’s been designed to never break formulae or lose your teams’ work, tracking their input and changes."
-    image: /img/v_clip_group_3.png
+  - descr: "Test assumptions, consolidate data, _run analysis at an unprecedented speed and accuracy._ With Visyond, you can skip the piecemealing, and zero-in on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and graphically displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Allows you to apply what-if scenarios on the fly\r"
+    image: /img/1 - Scenarios screen.png
+    title: Revolutionize the Way You Access Key Information
+  - descr: "Visyond is cloud-based so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by sharing your models and analysis.\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
+    image: /img/2 - Never lose information.png
+    title: Focus on What Matters and Never Lose Critical Information
+  - descr: "Visyond’s built-in analysis tools _automate typical routine tasks_ that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with _just one click._\r\n"
+    image: /img/3 - request analysis.png
+    title: Save Time When Requesting Analysis and Report
+  - descr: "* Add cases to any cell and _combine them in scenarios.\r_\n* Have _as many scenarios as you like_ without creating the chaos of multiple files and model versions.\r\n* Visualize and _compare all the scenarios_ with just a few clicks.\r\n* Every cell in Visyond is multi-dimensional and like a database.\r\n"
+    image: /img/4 - multiple scenarios.png
     title: >-
-      Test assumptions, consolidate data, run analysis at an unprecedented speed
-      and accuracy
-  - descr: >-
-      With Visyond, you can skip the piecemealing, and zero-in on the key
-      performance metrics that are critical. Visyond connects disparate data
-      among spreadsheets and graphically displays the information so you can
-      make decisions quickly.
-
-
-
-
-      * Graphically displays opportunities and risks
-
-      * Identifies the source of information
-
-      * Allows you to apply what-if scenarios on the fly
-    image: /img/v_clip_group_3.png
-    title: Revolutionize the way you access key information
-  - descr: "Visyond is cloud-based so you never lose information, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and eliminate dependency from the model creator by sharing your models and analysis.\r\nIt’s been designed to never break formulae or lose your teams’ work, tracking their input and changes.\r\n\r"
-    image: /img/v_clip_group_3.png
-    title: Focus on what matters and never lose critical information
-  - descr: >-
-      Visyond’s built-in analysis tools automate typical routine tasks that
-      would otherwise require expensive software, add-ons or error-prone lengthy
-      manual setups. For example, build a downloadable Analytics report with
-      just one click.
-    image: /img/v_clip_group_3.png
-    title: Save time when requesting analysis and report
-  - descr: >-
-      * Add cases to any cell and combine them in scenarios.
-
-      * Have as many scenarios as you like without creating the chaos of
-      multiple files and model versions.
-
-      * Visualize and compare all the scenarios with just a few clicks.
-
-      * Every cell in Visyond is multi-dimensional and like a database.
-    title: >-
-      Create multiple scenarios and what-if analysis on the fly without calling
-      the "model guru"
+      Create Multiple Scenarios and What-If Analysis On-The-Fly without Calling
+      the "Model Guru"
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
