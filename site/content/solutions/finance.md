@@ -13,15 +13,15 @@ requestURL: /request-a-demo
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email and manual data consolidations. This opens the door to a massive loss of time and high risk of working with inaccurate data. Most business employ additional manual audits to protect themselves which leads to even more time lost while other departments wait for your reports!\r\n\r\nWith Visyond you can easily consolidate data, test assumptions, run analysis at an unprecedented speed and accuracy. Data is securely stored in the cloud (or on-premise), you can manage and transfer team knowledge and supporting documents easily, track all inputs, changes and versions, and eliminate dependency from the model creator by testing your assumptions from any device without risking to break the model or any formulas.\r\n"
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: >-
       Shifts Your Focus from Building Dashboards to Making Sound Financial
       Decisions
   - descr: "With Visyond, you can skip the piecemealing, and zero-in on the key performance metrics that are critical. Visyond connects disparate data among spreadsheets and graphically displays the information so you can make decisions quickly:\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\r\n* Allows you to apply what-if scenarios on the fly\r\n"
-    image: /img/v_clip_group_2.png
+    image: /img/test pic 1233451241.png
     title: Revolutionize the Way You Access Key Information
   - descr: "Visyond it allows you to accelerate your reporting process by minimizing time in collecting data and building the report. As data is collected, you can secure who sees it. \r\n\r\nVisyond’s spreadsheet technology resides on the cloud eliminating the need for emailing spreadsheets. It applies natural naming conventions to making it easy build reports with speed. \r\n\r\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: Never Lose Critical Information and Streamline Your Reporting Process
   - descr: >-
       Visyond’s built-in analysis tools automate typical routine tasks that
@@ -29,10 +29,10 @@ infoBlockFirst:
       manual setups. For example, build an interactive Analytics report with
       Visyond’s interactive slides or generate Financial Statements with a few
       clicks!
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: Save Time When Requesting Analysis and Report
   - descr: "Scenario Comparison and What-If analysis often requires the “model guru” to step on the stage to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows you to easily complete these tasks without waiting on the modeler to do their job:\r\n\n* Add multiple coexisting inputs (cases) to any cell and combine them in scenarios\r\n* Attach supporting documentation and have conversations directly in the relevant cell\r\n* Have as many scenarios as you like without creating the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with just a few clicks\r\n"
-    image: /img/v_clip_group_3.png
+    image: /img/test pic 1233451241.png
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
 capabilitiesList:
   - image: /img/v_icon.png
