@@ -38,7 +38,7 @@ infoBlockFirst:
       **Granular permission control** will safeguard your sensitive information
       and give you peace of mind: **avoid data leakages, minimize errors, and
       track all inputs**, data, assumptions and analysis.
-    image: /img/v_clip_group_2.png
+    image: /img/v_clip_group_3.png
     link: /solutions/governance
     title: Data tracking and spreadsheet governance
   - descr: >-
@@ -53,7 +53,7 @@ infoBlockFirst:
 
       Findings and automatic visualizations can be exported to _interactive
       dashboards and apps_, and shared only with those who needs to see them.
-    image: /img/v_clip_group_3.png
+    image: /img/v_clip_group_2.png
     link: /solutions/analysis
     title: Collaborative analysis for decision making
   - descr: >-
