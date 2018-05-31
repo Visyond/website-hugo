@@ -29,7 +29,7 @@ infoBlockFirst:
       insights in a few clicks instead of days or weeks. Findings and automatic
       visualizations can be exported to _interactive dashboards and apps_, and
       shared only with those who needs to see them.
-    image: /img/v_clip_group_3.png
+    image: /img/v_clip_group_2.png
     link: ''
     title: 'Answer Difficult Questions, Easily'
   - descr: >-
@@ -47,7 +47,7 @@ infoBlockFirst:
       calculations. _Granular permission control_ will safeguard your sensitive
       information and give you peace of mind: _avoid data leakages, minimize
       errors, and track all inputs_, data, assumptions and analysis.
-    image: /img/v_clip_group_2.png
+    image: /img/v_clip_group_3.png
     link: '#'
     title: Data Tracking and Spreadsheet Governance
 capabilitiesList:
