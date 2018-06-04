@@ -12,6 +12,8 @@
         {{ .Params.TopSubTitle | markdownify}}
       </div>
 
+      <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img">
+
       <div class="home-top__btns-wrap">
         <a href="{{ .Params.SignUpURL }}" class="home-link home-link--sign-up">
           free sign up
@@ -27,8 +29,6 @@
           request a demo
         </a>
       </div>
-
-      <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img">
 
       <div class="home-top__popup js-popup">
         <div class="home-top__iframe-wrap">
