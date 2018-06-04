@@ -2,25 +2,25 @@
 title: Decision Makers
 topTitle: Make Fast and Accurate Decisions with Information at Your Fingertips
 topSubTitle: >-
-  As a decision maker with demanding priorities, your time is too limited to
-  collect reports from every corner within your organization and then piecemeal
-  each report into building the picture. That can be mind numbing – especially
-  when your company’s future is at stake.
+  As a decision maker with demanding priorities, your time is limited to collect
+  reports from every corner within your organization and then combine each
+  report into the big picture. That can be mind numbing – especially when your
+  company’s future is at stake.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
-  - descr: "Test assumptions, consolidate data, _run analysis at an unprecedented speed and accuracy._ With Visyond, you can skip the piecemealing, and zero-in on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and graphically displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Allows you to apply what-if scenarios on the fly\r"
+  - descr: "Test assumptions, consolidate data, run analysis at an unprecedented speed and accuracy, _on the fly, on the move, without waiting for your analysts_. With Visyond, you can focus on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Allows you to apply what-if scenarios on the fly\r\n"
     image: /img/1 - Scenarios screen.png
     title: Revolutionize the Way You Access Key Information
-  - descr: "Visyond is cloud-based so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by sharing your models and analysis.\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
+  - descr: "Visyond is cloud-based so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by enabling collaborative analysis, stress testing and interactive presentations.\r\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
     image: /img/2 - Never lose information.png
     title: Focus on What Matters and Never Lose Critical Information
   - descr: "Visyond’s built-in analysis tools _automate typical routine tasks_ that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with _just one click._\r\n"
     image: /img/3 - request analysis.png
-    title: Save Time When Requesting Analysis and Report
-  - descr: "* Add cases to any cell and _combine them in scenarios_.\r\n* Have _as many scenarios as you like_ without creating the chaos of multiple files and model versions.\r\n* Visualize and _compare all the scenarios_ with just a few clicks.\r\n* Every cell in Visyond is multi-dimensional and like a database.\r\n"
+    title: Save Time When Requesting Analysis and Reports
+  - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     image: /img/4 - multiple scenarios.png
     title: >-
       Create Multiple Scenarios and What-If Analysis On-The-Fly without Calling
