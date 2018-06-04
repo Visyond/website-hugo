@@ -1,61 +1,44 @@
 ---
 title: Analysts and consultants
 topTitle: >-
-  Help Your Company or Clients Make Better Decisions with Insightful Analysis
-  and Reports
-topSubTitle: >+
-  As an analyst or consultant, you constantly identify areas that need
-  improving. But your first step begins with the deep analysis, before
-  researching for the optimum solution. Without accurate numbers, you’ll draw
-  the wrong conclusion – and no career needs the downfall from that!
-
-
+  Create insightful analysis, visualizations and reports with a few clicks,
+  present with impact and help your Company and Clients Make Better Decisions,
+  faster
+topSubTitle: >-
+  As an analyst or consultant, you constantly analyse and recommend the best
+  course of action. Most of the time, your recommendations are based on numbers,
+  and without accurate numbers, you’ll draw the wrong conclusion.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
-  - descr: >-
-      Put an end to the long wary hours of preparing calculations for _multiple
-      scenarios!_ 
-
-
-      Visyond connects you to intelligent data that propagates your formulas
-      with swiftness and ease, graphically displays opportunities and risks,
-      aggregates data in real time, helps you easily find the source of
-      information and lets you _answer what-if questions on the fly._
+  - descr: "Put an end to the long wary hours of preparing calculations for _multiple scenarios_!\r\n\r\n\r\nVisyond connects you to intelligent data that propagates your formulas with swiftness and ease, graphically displays opportunities and risks, aggregates data in real time, helps you easily find the source of information and lets you _answer what-if questions on the fly_.\r\n"
     image: /img/consult1.png
     link: ''
     title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based so _you never lose information_ - you can manage and transfer team knowledge easily and eliminate dependency from the model creator by _securely sharing_ your models and analysis.\r\n\nIt’s been designed to never break formulas or lose your teams’ work, _track their input and changes._"
+  - descr: "Visyond is cloud-based so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_: build and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
     image: /img/consult2.png
     link: ''
-    title: Never Lose Critical Information
-  - descr: >-
-      Our built-in analysis tools _automate typical routine tasks_ that would
-      otherwise require expensive software, add-ons, writing macros or
-      error-prone lengthy manual setups. 
-
-
-      With Visyond you will need _just a few clicks and minutes to perform
-      analyses that used to take days._
+    title: Never Lose Critical Information and Reduce Error Probability
+  - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just _a few clicks and minutes to perform analyses that used to take days_.\r\n"
     image: /img/consult3.png
     link: ''
-    title: Save Time and Enhance Your Analysis and Report
+    title: Save Time and Enhance Your Analysis and Reports
   - descr: >-
       Every cell in Visyond can store _multiple coexisting inputs, attachments
-      and conversations._ You can add different cases (i.e. optimistic &
-      pessimistic forecasts) to any cells and _combine them into as many
-      scenarios as you like and then quickly compare them on-the fly._ 
+      and conversations_. You can add different cases (i.e. optimistic &
+      pessimistic forecasts) to any cells and combine them into as many
+      scenarios as you like and then _quickly compare them on-the fly_.
 
 
       Then, with the help of powerful interactive dashboards, you can _securely
       share the results with stakeholders allowing them to test their own
       assumptions directly in the dashboards without the risk of breaking the
-      underlying model._
+      underlying model and calculations._
     image: /img/consult4.png
     link: ''
-    title: Demonstrate Your Analysis Powerfully
+    title: Present with Impact
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
