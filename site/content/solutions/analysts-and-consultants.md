@@ -36,7 +36,7 @@ infoBlockFirst:
       share_ the results with stakeholders _allowing them to test their own
       assumptions directly in the dashboards_ without the risk of breaking the
       underlying model and calculations.
-    image: /img/consult4.png
+    image: /img/feature 1 - interactive dashboards.png
     link: ''
     title: Present with Impact
 capabilitiesList:
