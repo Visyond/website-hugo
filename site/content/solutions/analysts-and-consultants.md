@@ -33,9 +33,9 @@ infoBlockFirst:
 
 
       Then, with the help of powerful interactive dashboards, you can _securely
-      share the results with stakeholders allowing them to test their own
-      assumptions directly in the dashboards without the risk of breaking the
-      underlying model and calculations._
+      share_ the results with stakeholders _allowing them to test their own
+      assumptions directly in the dashboards_ without the risk of breaking the
+      underlying model and calculations.
     image: /img/consult4.png
     link: ''
     title: Present with Impact
