@@ -22,7 +22,7 @@ infoBlockFirst:
     link: ''
     title: Never Lose Critical Information and Reduce Error Probability
   - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just _a few clicks and minutes to perform analyses that used to take days_.\r\n"
-    image: /img/consult3.png
+    image: /img/feature 2 - dependencies.png
     link: ''
     title: Save Time and Enhance Your Analysis and Reports
   - descr: >-
