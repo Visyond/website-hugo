@@ -17,7 +17,7 @@ infoBlockFirst:
     image: /img/consult1.png
     link: ''
     title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_: build and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
+  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_: build and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
     image: /img/consult2.png
     link: ''
     title: Never Lose Critical Information and Reduce Error Probability
