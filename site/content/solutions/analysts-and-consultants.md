@@ -17,19 +17,19 @@ infoBlockFirst:
     image: /img/consult1.png
     link: ''
     title: Transform the Way You Analyze and Present Data
-  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_: build and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
+  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_.\n\nBuild and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
     image: /img/consult2.png
     link: ''
     title: Never Lose Critical Information and Reduce Error Probability
-  - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just _a few clicks and minutes to perform analyses that used to take days_.\r\n"
+  - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just a few clicks and minutes to _perform analyses that used to take days_.\r\n"
     image: /img/feature 2 - dependencies.png
     link: ''
     title: Save Time and Enhance Your Analysis and Reports
   - descr: >-
-      Every cell in Visyond can store _multiple coexisting inputs, attachments
-      and conversations_. You can add different cases (i.e. optimistic &
+      Every cell in Visyond can store _multiple coexisting inputs_, attachments
+      and conversations. You can add different cases (i.e. optimistic &
       pessimistic forecasts) to any cells and combine them into as many
-      scenarios as you like and then _quickly compare them on-the fly_.
+      scenarios as you like and then quickly _compare them on-the fly_.
 
 
       Then, with the help of powerful interactive dashboards, you can _securely
