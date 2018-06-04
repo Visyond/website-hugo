@@ -25,6 +25,8 @@ infoBlockFirst:
     title: >-
       Create Multiple Scenarios and What-If Analysis On-The-Fly without Calling
       the "Model Guru"
+  - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and _expose only what each person should see or interact with_!\r\n"
+    title: Handle Your Data with Unprecedented Security
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
