@@ -8,7 +8,7 @@ solutionDropdown:
     title: Data Input and Consolidation
   - path: 'https://visyond.com/solutions_finance'
     title: Finance
-  - path: 'https://visyond.com/solutions/ceo/'
+  - path: /solutions/ceo/
     title: CEO
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
