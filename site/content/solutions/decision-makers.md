@@ -12,6 +12,7 @@ requestURL: /request-a-demo
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
   - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and _expose only what each person should see or interact with_!\r\n"
+    image: /img/illusrtation 4-2.png
     link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
     title: Handle Your Data with Unprecedented Security
   - descr: "Test assumptions, consolidate data, run analysis at an unprecedented speed and accuracy, _on the fly, on the move, without waiting for your analysts_. With Visyond, you can focus on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\n* Allows you to apply what-if scenarios on the fly\r\n"
