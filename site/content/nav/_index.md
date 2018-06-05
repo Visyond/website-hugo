@@ -2,12 +2,14 @@
 solutionDropdown:
   - path: 'https://visyond.com/solutions_roles_decision-makers'
     title: Decision Makers
-  - path: 'https://visyond.com/solutions_analysts_consultants'
+  - path: /solutions/analysts-and-consultants/
     title: Analysts and Consultants
   - path: 'https://visyond.com/solutions_data-entry-consolidation'
     title: Data Input and Consolidation
   - path: 'https://visyond.com/solutions_finance'
     title: Finance
+  - path: 'https://visyond.com/solutions/ceo/'
+    title: CEO
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
