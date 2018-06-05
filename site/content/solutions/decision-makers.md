@@ -17,6 +17,8 @@ infoBlockFirst:
     title: Handle Your Data with Unprecedented Security
   - descr: "Test assumptions, consolidate data, run analysis at an unprecedented speed and accuracy, _on the fly, on the move, without waiting for your analysts_. With Visyond, you can focus on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\n* Allows you to apply what-if scenarios on the fly\r\n"
     image: /img/1 Scenarios window (in laptop) source.png
+    link: >-
+      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
     title: Revolutionize the Way You Access Key Information
   - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by enabling collaborative analysis, stress testing and interactive presentations.\r\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
     image: /img/2 Cases (in laptop) source.png
