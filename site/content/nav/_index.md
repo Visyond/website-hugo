@@ -1,6 +1,6 @@
 ---
 solDropdownCol:
-  - solutiondropdown:
+  - solution_dropdown:
       - path: 'https://visyond.com/solutions_roles_decision-makers'
         title: Decision Makers
       - path: 'https://visyond.com/solutions_analysts_consultants'
