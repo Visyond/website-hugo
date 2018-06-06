@@ -135,6 +135,9 @@ features:
     title: >-
       Complete transparency, accountability and governance for your peace of
       mind
+featured:
+  - descr: Test test test!
+    logo: /img/Deloitte.png
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
 secondPricingSubTitle: >-
