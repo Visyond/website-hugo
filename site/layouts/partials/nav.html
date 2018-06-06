@@ -25,20 +25,20 @@
 				<!-- dropdown lists links-->
 				<ul class="dropdown__lists">
 					{{ with .Site.GetPage "section" "nav" }}
-					{{ range $elem := .Params.solDropdownCol }}
-					<li class="dropdown__lists-col">
-						<h3 class="dropdown__lists-title">
-							{{ $elem.titleCol }}
-						</h3>
-						<ul class="dropdown-toggle__group-list dropdown__list">
-								{{ range $el := $elem.solutionDropdown }}
-									<li class="dropdown-toggle__group-list-item">
-										<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link dropdown__link">{{ $el.title }}</a>
-									</li>
-								{{ end }}
-						</ul>
-					</li>
-					{{ end }}
+					{{ range $element := .Params.solDropdownCol }}
+						<li class="dropdown__lists-col">
+							<h3 class="dropdown__lists-title">
+								{{ $element.title }}
+							</h3>
+							<ul class="dropdown-toggle__group-list dropdown__list">
+									{{ range $el := $element.solutiondropdown }}
+										<li class="dropdown-toggle__group-list-item">
+											<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link dropdown__link">{{ $el.title }}</a>
+										</li>
+									{{ end }}
+							</ul>
+						</li>
+						{{end}}
 					{{ end }}
 				</ul>
 				<!-- //dropdown lists links-->
