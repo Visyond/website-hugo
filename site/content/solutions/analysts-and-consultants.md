@@ -14,15 +14,15 @@ requestURL: /request-a-demo
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: "Put an end to the long wary hours of preparing calculations for _multiple scenarios_!\r\n\r\n\r\nVisyond connects you to intelligent data that propagates your formulas with swiftness and ease, graphically displays opportunities and risks, aggregates data in real time, helps you easily find the source of information and lets you _answer what-if questions on the fly_.\r\n"
-    image: /img/consult1.png
+    image: /img/Scenario Window in Browser.png
     link: ''
     title: Transform the Way You Analyze and Present Data
   - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_.\n\nBuild and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
-    image: /img/consult2.png
+    image: /img/Attachments and Comments in Browser.png
     link: ''
     title: Never Lose Critical Information and Reduce Error Probability
   - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just a few clicks and minutes to _perform analyses that used to take days_.\r\n"
-    image: /img/feature 2 - dependencies.png
+    image: /img/Dependency in Browser.png
     link: ''
     title: Save Time and Enhance Your Analysis and Reports
   - descr: >-
@@ -36,7 +36,7 @@ infoBlockFirst:
       share_ the results with stakeholders _allowing them to test their own
       assumptions directly in the dashboards_ without the risk of breaking the
       underlying model and calculations.
-    image: /img/feature 1 - interactive dashboards.png
+    image: /img/Interactive Slides in Browser.png
     link: ''
     title: Present with Impact
 capabilitiesList:
