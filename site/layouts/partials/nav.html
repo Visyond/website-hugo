@@ -7,18 +7,41 @@
 			</a>
 			<div class="dropdown-menu-wrap">
 				<div
-					class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
+					class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
 					id="solutions-toggle"
 				>
-					<ul class="dropdown-toggle__group-list">
-						{{ with .Site.GetPage "section" "nav" }}
-							{{ range $el := .Params.solutionDropdown }}
-								<li class="dropdown-toggle__group-list-item">
-									<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
-								</li>
-							{{ end }}
-						{{ end }}
-					</ul>
+				<!-- dropdown info -->
+				<div class="dropdown__info">
+					<h3 class="dropdown__info-title">
+						Answer questions in seconds
+					</h3>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWPYqVKj45YPMm7x0hYxuDfOfcoAU3ehTR6m5vRf2_E0DjXxi" alt="image" class="dropdown__info-image">
+					<div class="dropdown__info-descr">
+						Coming from finance, we know first hand all the pains of working with spreadsheets the old way - be it simple 1-page budgets.
+					</div>
+				</div>
+				<!-- //dropdown info -->
+
+				<!-- dropdown lists links-->
+				<ul class="dropdown__lists">
+					{{ with .Site.GetPage "section" "nav" }}
+					{{ range $elCol := .Params.solDropdownCol }}
+					<li class="dropdown__lists-col">
+						<h3 class="dropdown__lists-title">
+							{{ $elCol.titleCol }}
+						</h3>
+						<ul class="dropdown-toggle__group-list dropdown__list">
+								{{ range $el := $elCol.solutionDropdown }}
+									<li class="dropdown-toggle__group-list-item">
+										<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link dropdown__link">{{ $el.title }}</a>
+									</li>
+								{{ end }}
+						</ul>
+					</li>
+					{{ end }}
+					{{ end }}
+				</ul>
+				<!-- //dropdown lists links-->
 				</div>
 			</div>
 			<!-- <div class="dropdown-menu-wrap">
