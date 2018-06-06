@@ -3,13 +3,13 @@ solDropdownCol:
   - solutiondropdown:
       - path: /solutions/analysts-and-consultants/
         title: Analysts and Consultants
-      - path: 'https://visyond.com/solutions/ceo/'
+      - path: /solutions/ceo/
         title: CEO
-      - path: 'https://visyond.com/solutions/data-input-and-consolidation/'
+      - path: /solutions/data-input-and-consolidation/
         title: Data Input and Consolidation
-      - path: 'https://visyond.com/solutions/decision-makers/'
+      - path: /solutions/decision-makers/
         title: Decision Makers
-      - path: 'https://visyond.com/solutions/finance/'
+      - path: /solutions/finance/
         title: Finance
     title: Function
   - solutiondropdown:
