@@ -7,8 +7,6 @@ solDropdownCol:
         title: Analysts and Consultants
       - path: 'https://visyond.com/solutions_data-entry-consolidation'
         title: Data Input and Consolidation
-      - path: 'https://visyond.com/solutions_finance'
-        title: Finance
     titleCol: challenge
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
