@@ -272,6 +272,10 @@
   padding: 30px;
   width: 320px;
   border-right: 1px solid lightgrey;
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 
 .dropdown__info-title {
