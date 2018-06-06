@@ -1,37 +1,29 @@
 ---
 title: Data Input and Consolidation
-topTitle: Eliminate the Hassles During Data Gathering
+topTitle: Eliminate the Hassles During Data Gathering and Consolidation
 topSubTitle: >-
-  When a month or a quarter ends it is a never-ending hassle gathering and
-  consolidating data across departments and stakeholders. New spreadsheet
-  templates, hopefully error-free,  are created and passed around to gather the
-  numbers. This often wastes time, and requires added work to verify and check
-  the accuracy of data. During the process the reasons behind each modified
-  number often loses its visibility – causing further inquiries. This all makes
-  closing your books ceaseless nightmare.
+  When a month or a quarter ends or you need to gather assumptions from experts,
+  it is a never-ending hassle gathering and consolidating data across
+  departments and stakeholders. New spreadsheet templates, hopefully
+  error-free,  are created and passed around to gather the numbers. This often
+  wastes time, and requires added work to verify and check the accuracy of data.
+  During the process the reasons behind each modified number often loses its
+  visibility – causing further inquiries. This all makes the workflow a
+  ceaseless nightmare.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 bgImage: /img/data input and consolidation 2.png
 infoBlockFirst:
-  - descr: >-
-      Visyond makes the data gathering process efficient allowing you to cut
-      days worth of effort down to minutes. It eliminates the need for all the
-      manual processes that are inherent with spreadsheets. 
-
-
-      Finance, as the document owner, maintains complete control and visibility
-      over the entire data gathering process. This eradicates rework and manual
-      auditing due to manually handling and linking spreadsheets. It literally
-      slashes the time it takes to complete the work!
-    image: /img/test pic 1233451241.png
-    title: Streamline Data Gathering and Knock Hours Off Your Time
-  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\n\n* Improve collaboration between finance and each business unit by notifying data requirements to each user\r\n* Securely share documents, and specify data and conversations to only authorized users\r\n* Create configurable digital documents residing in the cloud while allowing only authorized business units to view and modify their required portion – eliminating the need to email files\r\n* Define cells, sheets, workbooks, dashboards and slides that can be viewed and/or updated\r\n* Automatically maintain versions as data gets updated during each iteration or change\r\n"
-    image: /img/test pic 1233451241.png
+  - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\n\n* Automatically _update layout changes maintaining complete synchronization_ and data accuracy with _Visyond’s Template Manager_\r\n* Capture and _store all supporting data_, comments, and collaborators identification within Visyond, allowing complete transparency while _eliminating risk of losing data_\n* Compare data from departments, territories, sold services, or products _side by side with ease_\n* Create _multiple “what-if” scenarios_ with just a few clicks\r\n\n\nThe _spreadsheet owner maintains complete control and visibility_ over the entire data gathering process. This _eradicates rework and manual auditing_ due to manually handling and linking spreadsheets. \r\n\r\n\nVisyond makes the data gathering process efficient allowing you to _cut days worth of effort down to minutes_. It _eliminates the need for all the manual processes_ that are inherent with spreadsheets. \r\n"
+    image: /img/Attachments and Comments in Browser.png
+    link: >-
+      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
+    title: Streamline Data Gathering and Consolidation and Knock Hours Off Your Time
+  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\r\n\r\n* Improve collaboration among business units by _notifying data requirements_ to each user\r\n* Securely _share only parts of the spreadsheet_ and allow only authorized business units or colleagues to view and modify their required portion – eliminating the need to email files and version chaos\r\n* Define cells, worksheets, dashboards and slides that can be viewed and/or updated\r\n* Get a _consolidated, always up to date spreadsheet_ as data gets synchronized at each iteration or change\r\n"
+    image: /img/Scenario Window in Browser.png
+    link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
     title: Reduce Risk of Errors
-  - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\r\n\n* Automatically update layout changes maintaining complete synchronization and data accuracy with Visyond’s Template Manager\r\n* Capture and store all supporting data, comments, and collaborators identification within Visyond, allowing complete transparency while eliminating risk of losing data\r\n* Compare data from departments, territories, sold services, or products side by side with ease\r\n* Create multiple “what-if” scenarios with just a few clicks\r\n"
-    image: /img/test pic 1233451241.png
-    title: Speed Up Data Gathering and Consolidation
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
