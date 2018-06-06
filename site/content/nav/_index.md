@@ -11,17 +11,7 @@ solDropdownCol:
         title: Decision Makers
       - path: /solutions/finance/
         title: Finance
-    title: Function
-  - solutiondropdown:
-      - path: /solutions/collaboration/
-        title: Spreadsheet Collaboration
-      - path: /solutions/governance/
-        title: Data Governance
-      - path: /solutions/analysis/
-        title: Collaborative Analysis
-      - path: /solutions/presentation/
-        title: 'Reports, Presentations & Visualizations'
-    title: Activity
+    title: Challenge
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
