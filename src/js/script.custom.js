@@ -263,6 +263,8 @@ $(function () {
      function PopupInfoImages() {
        this.mainBlock = document.querySelector('.js-image-block');
        this.images = this.mainBlock.querySelectorAll('.sol-info__img-wrap img');
+       this.typeImages = ['png', 'jpg', 'gif'];
+       this.typeVideos = ['mp4']
 
        for(let i = 0; i < this.images.length; i++) {
          if(this.images[i].dataset.src) {
@@ -273,14 +275,26 @@ $(function () {
        this._createPopup = (src) => {
          if(src) {
            const popup = document.createElement('div');
-           const video = document.createElement('video');
-           const source = document.createElement('source');
-           video.setAttribute('autoplay', 'autoplay');
-           source.setAttribute('src', src);
-           popup.classList.add('popup');
-           video.appendChild(source);
-           popup.appendChild(video);
-           this.mainBlock.appendChild(popup);
+           const typeFile =  src.slice(src.lastIndexOf('.') + 1);
+
+           if(this.typeVideos.includes(typeFile)) {
+             const video = document.createElement('video');
+             const source = document.createElement('source');
+             video.setAttribute('autoplay', 'autoplay');
+             source.setAttribute('src', src);
+             popup.classList.add('popup');
+             video.appendChild(source);
+             popup.appendChild(video);
+             this.mainBlock.appendChild(popup);
+           }
+           else if (this.typeImages.includes(typeFile)) {
+             const image = document.createElement('img');
+             image.setAttribute('src', src);
+             popup.classList.add('popup');
+             popup.appendChild(image);
+             this.mainBlock.appendChild(popup);
+           }
+
 
            setTimeout( () => {
              popup.style.opacity = 1;
