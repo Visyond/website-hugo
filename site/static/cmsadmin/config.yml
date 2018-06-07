@@ -400,7 +400,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: "Solutions dropdown column", name: "solDropdownCol", widget: "list", fields: [
             { label: "Title Column", name: "title", widget: string },
-            { label: "Solutions dropdown", name: "solutiondropdown", widget: "list", fields: [
+            { label: "Solutions dropdown", name: "solution_dropdown", widget: "list", fields: [
               { label: "Title", name: "title", widget: "string" },
               { label: "path", name: "path", widget: "string" }
             ]}
