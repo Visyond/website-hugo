@@ -337,6 +337,11 @@
 
 .sol-info__block-img-pointer {
   cursor: pointer;
+  transition: .1s;
+}
+
+.sol-info__block-img-pointer:hover {
+  filter: drop-shadow(0 0 3px #0086ff);
 }
 
 .sol-info__block-lines {
@@ -453,7 +458,8 @@
   transition: .5s;
 }
 
-.popup video {
+.popup video,
+.popup img {
   max-width: 90%;
   max-height: 90%;
 }
