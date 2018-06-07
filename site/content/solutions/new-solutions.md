@@ -9,6 +9,34 @@ infoBlockFirst:
     image: /img/kid-on-computer-2_tnvltp.jpg
     link: '#'
     title: Some title
+  - descr: >-
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text
+    image: /img/v_clip_group_1.png
+    popupUrl: /img/2.png
+    title: title
+  - descr: >-
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text
+    image: /img/v_clip_group_2.png
+    popupUrl: /img/4.jpg
+    title: title
+  - descr: >-
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text
+    image: /img/v_clip_group_3.png
+    popupUrl: /img/graph.gif
+    title: title
+  - descr: >-
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text text text text text text
+      text text text text text text text text text text
+    image: /img/v_clip_group_4.png
+    popupUrl: /img/Visyond.mp4
+    title: title
 capabilitiesList:
   - image: /img/v_icon.png
     text: Under icon text
