@@ -60,17 +60,17 @@ first_solution: >-
 
 
   ## [**Analysts and
-  Consultants**](https://visyond.com/solutions_analysts_consultants)
+  Consultants**](https://visyond.com/solutions/analysts-and-consultants/)
 second_solution: |
   ![Decision Makers](/img/feature-icons-v1_25.png)
 
-  ## [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)
+  ## [**Decision Makers**](https://visyond.com/solutions/decision-makers/)
 third_solution: >-
   ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
 
 
   ## [**Data Input &
-  Consolidation**](https://visyond.com/solutions_data-entry-consolidation)
+  Consolidation**](https://visyond.com/solutions/data-input-and-consolidation/)
 ---
 > The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data.
 
