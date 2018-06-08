@@ -46,6 +46,7 @@ infoBlockFirst:
       outcome**, how different indicators interact & affect each other, and
       uncover errors in your models.
     image: /img/Sensitivity in Browser.png
+    popupUrl: /img/Sensitivity in Browser.png
     title: Sensitivity Analysis That Makes Sense
   - descr: >-
       Data analysis is a continuous process as new inputs and questions are
