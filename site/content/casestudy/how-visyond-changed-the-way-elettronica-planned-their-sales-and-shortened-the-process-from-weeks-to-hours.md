@@ -107,7 +107,7 @@ This is how Fernando's job look like:
 * Visyond’s _Selective Sharing_ allows him to _share only specific elements of the model with his colleagues_. For example, he can share just a single cell with a person who needs to provide just a single number but otherwise should not have any visibility of the model. 
 * With his fellow sales managers, Fernando sometimes _shares a group of cells or an entire worksheet so that they can together verify the correctness of calculations and save time_. The comments, assumptions and supporting materials his close collaborators provide are all automatically tracked and documented so everybody sees a single version of the latest work. 
 
-![Share Selected Cells in Visyond](/img/Template Manager in Browser v2.png)
+![Share Only Selected Cells in Visyond](/img/Template Manager in Browser v2.png)
 
 * With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overriding important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers and get valuable business insights to make their decisions. Senior management is extremely happy because they do not have to interact with all the unnecessary details in the spreadsheet.
 
@@ -115,7 +115,7 @@ This is how Fernando's job look like:
 
 * Since each cell in Visyond can not only _store multiple coexisting inputs (cases/assumptions) but also conversations and attachments_, Fernando can get the reasoning behind the numbers he receives and verify them quickly.
 
-![Attachments and Conversations in a cell in Visyond](/img/Attachments and Comments in Browser v2.png)
+![Attachments and Conversations in Visyond](/img/Attachments and Comments in Browser v2.png)
 
 * When working on forecasts, Fernando had to compare how an indicator would impact the overall result if said indicator would have different values. With Visyond _he simply asks his colleagues to add different cases to the cell_ of interest (for example, ‘optimistic’ or ‘pessimistic’ cases).
 
