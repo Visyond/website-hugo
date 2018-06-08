@@ -20,7 +20,8 @@ infoBlockFirst:
       Visyond was designed with this goal in mind and allows you to to **easily
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
-    image: /img/feature 1 - scenario comparison.png
+    image: /img/Scenarios chart in Browser.png
+    popupUrl: /img/Scenarios chart in Browser.png
     title: Fast and Simple Scenario Comparison
   - descr: >-
       With Visyond’s Tornado Analysis you can answer difficult questions,
@@ -31,7 +32,8 @@ infoBlockFirst:
 
       Tornado analysis will tell you **how much a selected output is sensitive
       to fixed changes in driver cells**.
-    image: /img/feature 2 - tornado.png
+    image: /img/Tornado in Browser.png
+    popupUrl: /img/Tornado in Browser.png
     title: Tornado Analysis Without Whirlwind Of Stress
   - descr: >-
       Significantly **streamline and simplify Sensitivity Analysis setup in
@@ -58,7 +60,8 @@ infoBlockFirst:
 
       The dashboards and slides can be securely shared with other people without
       exposing raw data.
-    image: /img/feature 4 - slides.png
+    image: /img/Interactive Slides in Browser.png
+    popupUrl: /img/Interactive Slides in Browser.png
     title: Secure Interactive Dashboards for Decision Making
 capabilitiesList:
   - image: /img/v_icon.png
