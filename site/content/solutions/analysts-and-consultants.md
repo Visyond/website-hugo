@@ -41,7 +41,7 @@ infoBlockFirst:
       underlying model and calculations.
     image: /img/Interactive Slides in Browser.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    popupUrl: /img/Interactive Slides in Browser.pdn
+    popupUrl: /img/Interactive Slides in Browser.png
     title: Present with Impact
 capabilitiesList:
   - image: /img/v_icon.png
