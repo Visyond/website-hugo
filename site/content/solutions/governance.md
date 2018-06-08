@@ -46,7 +46,7 @@ infoBlockFirst:
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
     image: /img/Scenarios chart in Browser.png
-    link: '#'
+    link: ''
     popupUrl: /img/Scenarios chart in Browser.png
     title: Hassle-free number testing environment
   - descr: >-
