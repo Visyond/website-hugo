@@ -22,7 +22,8 @@ infoBlockFirst:
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
     image: /img/Nice Model in Browser.png
-    link: ''
+    link: >-
+      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     popupUrl: /img/Nice Model in Browser.png
     title: Readable and beautiful models
   - descr: >-
@@ -35,7 +36,8 @@ infoBlockFirst:
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
     image: /img/Dependency in Browser.png
-    link: ''
+    link: >-
+      https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
     popupUrl: /img/Dependency in Browser.png
     title: Error root cause & dependencies tracking
   - descr: >-
@@ -46,7 +48,7 @@ infoBlockFirst:
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
     image: /img/Scenarios chart in Browser.png
-    link: '#'
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     popupUrl: /img/Scenarios chart in Browser.png
     title: Hassle-free number testing environment
   - descr: >-
@@ -57,7 +59,7 @@ infoBlockFirst:
       compromising or changing the calculations and underlying logic of the
       model.
     image: /img/Interactive Slides in Browser.png
-    link: ''
+    link: 'https://help.visyond.com/articles/reports-and-presentations/'
     popupUrl: /img/Interactive Slides in Browser.png
     title: Secure sandbox for stress-testing
 capabilitiesList:
