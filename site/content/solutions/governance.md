@@ -33,8 +33,9 @@ infoBlockFirst:
       Want to visualize how different cells are connected or know how they
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
-    image: /img/feature 2 - dependencies.png
+    image: /img/Dependency in Browser.png
     link: ''
+    popupUrl: /img/Dependency in Browser.png
     title: Error root cause & dependencies tracking
   - descr: >-
       How would the change in one indicator affect other numbers? With inputs
@@ -43,8 +44,9 @@ infoBlockFirst:
       errors and measure the impact of different inputs** while dramatically
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
-    image: /img/feature 3 - scenario comparison.png
+    image: /img/Scenarios chart in Browser.png
     link: '#'
+    popupUrl: /img/Scenarios chart in Browser.png
     title: Hassle-free number testing environment
   - descr: >-
       Once the model and calculations are set up, it is time to stress-test the
@@ -53,8 +55,9 @@ infoBlockFirst:
       controlled sandbox environment to play with the numbers** without
       compromising or changing the calculations and underlying logic of the
       model.
-    image: /img/feature 4 - slides.png
+    image: /img/Interactive Slides in Browser.png
     link: ''
+    popupUrl: /img/Interactive Slides in Browser.png
     title: Secure sandbox for stress-testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
