@@ -107,25 +107,25 @@ This is how Fernando's job look like:
 * Visyond’s _Selective Sharing_ allows him to _share only specific elements of the model with his colleagues_. For example, he can share just a single cell with a person who needs to provide just a single number but otherwise should not have any visibility of the model. 
 * With his fellow sales managers, Fernando sometimes _shares a group of cells or an entire worksheet so that they can together verify the correctness of calculations and save time_. The comments, assumptions and supporting materials his close collaborators provide are all automatically tracked and documented so everybody sees a single version of the latest work. 
 
-![Share Group of Cells in Visyond](/img/Template Manager in Browser.png)
+![Share Selected Cells in Visyond](/img/Template Manager in Browser v2.png)
 
 * With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overriding important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers and get valuable business insights to make their decisions. Senior management is extremely happy because they do not have to interact with all the unnecessary details in the spreadsheet.
 
-![Interactive Dashboards to Test Assumptions](/img/Interactive Dashboards in Browser.png)
+![Interactive Dashboards and Reports in Visyond](/img/Interactive Dashboards in Browser v2.png)
 
 * Since each cell in Visyond can not only _store multiple coexisting inputs (cases/assumptions) but also conversations and attachments_, Fernando can get the reasoning behind the numbers he receives and verify them quickly.
 
-![Attachments and Comments in the cell in Visyond](/img/Attachments and Comments in Browser.png)
+![Attachments and Conversations in a cell in Visyond](/img/Attachments and Comments in Browser v2.png)
 
 * When working on forecasts, Fernando had to compare how an indicator would impact the overall result if said indicator would have different values. With Visyond _he simply asks his colleagues to add different cases to the cell_ of interest (for example, ‘optimistic’ or ‘pessimistic’ cases).
 
-![Different Cases in Visyond](/img/Cases in Browser.png)
+![Multiple Cases in Visyond](/img/Cases in Browser v2.png)
 
 * Then, using _Visyond’s Scenario Comparison, in a few clicks he can quickly compare multiple scenarios and observe the differences on  automatically generated charts_.  These visualizations can be easily shared with senior management without having to create and maintain different files,  unmaintainable model structures or writing macros.
 
-![One-click Scenario Comparison in Visyond](/img/Scenarios chart in Browser.png)
+![Scenario Comparison in Visyond](/img/Scenarios chart in Browser v2.png)
 
 * Visyond allowed Fernando to _greatly speed up the preparation of charts, reports and forecasts_. Previously, each presentation was linked to a specific version of the model and had to be stored together, and if there was any change in numbers in the source file the link had to be manually updated. If the file was renamed the link got broken and had to be created again. In Visyond, Fernando does not have this problem anymore as reports, charts and forecasts are part of the same model but securely located in a different layer. Charts and reports can be easily generated in a few minutes without coding, and changes to the underlying model automatically update reports and charts thus eliminating the need for maintenance.
 * In addition, he can now _prepare interactive slides with input elements like drop-down boxes or sliders where he can specify different scenarios_. Once a specific scenario is selected, charts and cells are automatically updated. This way, by sharing interactive slides (and not the spreadsheet), he can let his colleagues check how different numbers can impact the result without risking having unwanted changes in the model or exposing the inner workings of the model (unnecessarily complicated for most of the spreadsheet users let alone, at times, confidential).
 
-![Interactive Slides in Visyond](/img/Interactive Slides in Browser.png)
+![Interactive Presentations in Visyond](/img/Interactive Slides in Tablet.png)
