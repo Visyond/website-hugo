@@ -56,7 +56,7 @@ infoBlockFirst:
       spreadsheets** and let you easily export slides & dashboards you’ve
       created in Visyond.
     image: /img/package-27770_1280 even smaller.png
-    link: ''
+    link: 'https://help.visyond.com/articles/importing-from-excel/'
     title: Import and Export freely
 capabilitiesList:
   - image: /img/feature-icons-v1_03.png
