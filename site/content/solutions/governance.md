@@ -21,8 +21,9 @@ infoBlockFirst:
       trend lines**. Drastically reduce the time & effort involved in auditing
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
-    image: /img/feature 1 - nice model.png
+    image: /img/Nice Model in Browser.png
     link: ''
+    popupUrl: /img/Nice Model in Browser.pdn
     title: Readable and beautiful models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
