@@ -21,6 +21,7 @@ infoBlockFirst:
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
     image: /img/Scenarios chart in Browser.png
+    link: 'https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/'
     popupUrl: /img/Scenarios chart in Browser.png
     title: Fast and Simple Scenario Comparison
   - descr: >-
@@ -33,6 +34,7 @@ infoBlockFirst:
       Tornado analysis will tell you **how much a selected output is sensitive
       to fixed changes in driver cells**.
     image: /img/Tornado in Browser.png
+    link: 'https://help.visyond.com/articles/how-to-run-tornado-analysis-in-visyond/'
     popupUrl: /img/Tornado in Browser.png
     title: Tornado Analysis Without Whirlwind Of Stress
   - descr: >-
@@ -46,6 +48,8 @@ infoBlockFirst:
       outcome**, how different indicators interact & affect each other, and
       uncover errors in your models.
     image: /img/Sensitivity in Browser.png
+    link: >-
+      https://help.visyond.com/articles/how-to-run-sensitivity-analysis-in-visyond/
     popupUrl: /img/Sensitivity in Browser.png
     title: Sensitivity Analysis That Makes Sense
   - descr: >-
@@ -62,6 +66,7 @@ infoBlockFirst:
       The dashboards and slides can be securely shared with other people without
       exposing raw data.
     image: /img/Interactive Slides in Browser.png
+    link: 'https://help.visyond.com/articles/reports-and-presentations/'
     popupUrl: /img/Interactive Slides in Browser.png
     title: Secure Interactive Dashboards for Decision Making
 capabilitiesList:
