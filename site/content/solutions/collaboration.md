@@ -21,7 +21,8 @@ infoBlockFirst:
       interactive slides where they can **test assumptions** without breaking
       any of the carefully crafted formulas.
     image: /img/v_clip_group_4.png
-    link: ''
+    link: >-
+      https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators/
     title: Secure Selective Sharing
   - descr: >-
       Each **cell can store multiple inputs** from different people allowing you
@@ -29,7 +30,7 @@ infoBlockFirst:
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
     image: /img/v_clip_group_3.png
-    link: ''
+    link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
     title: Structured data gathring & consolidation
   - descr: >-
       In Visyond, the **spreadsheet is the central repository for all relevant
@@ -37,7 +38,7 @@ infoBlockFirst:
       status allowing you to have a knowledge management system integrated in
       your spreadsheet.
     image: /img/v_clip_group_1.png
-    link: ''
+    link: 'https://help.visyond.com/articles/chat-and-attachment-in-a-cell/'
     title: Knowledge management
   - descr: >-
       All inputs are self-documented giving you a **full audit trail** showing
@@ -45,7 +46,8 @@ infoBlockFirst:
       of the spreadsheet and compare them on the fly, or **revert any changes
       individually**, without rolling back the entire document.
     image: /img/v_clip_group_2.png
-    link: ''
+    link: >-
+      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
     title: Input tracking and version control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
