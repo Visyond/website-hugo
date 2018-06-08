@@ -23,7 +23,7 @@ infoBlockFirst:
       identification with Visyond’s **Audit Mode**.
     image: /img/Nice Model in Browser.png
     link: ''
-    popupUrl: /img/Nice Model in Browser.pdn
+    popupUrl: /img/Nice Model in Browser.png
     title: Readable and beautiful models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
