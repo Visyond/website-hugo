@@ -107,11 +107,11 @@ This is how Fernando's job look like:
 * Visyond’s _Selective Sharing_ allows him to _share only specific elements of the model with his colleagues_. For example, he can share just a single cell with a person who needs to provide just a single number but otherwise should not have any visibility of the model. 
 * With his fellow sales managers, Fernando sometimes _shares a group of cells or an entire worksheet so that they can together verify the correctness of calculations and save time_. The comments, assumptions and supporting materials his close collaborators provide are all automatically tracked and documented so everybody sees a single version of the latest work. 
 
-![Share Only Selected Cells in Visyond](/img/Template Manager in Browser v2.png)
+![Share Specific Cells in Visyond](/img/Template Manager in Browser v3.png)
 
 * With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overriding important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers and get valuable business insights to make their decisions. Senior management is extremely happy because they do not have to interact with all the unnecessary details in the spreadsheet.
 
-![Interactive Dashboards and Reports in Visyond](/img/Interactive Dashboards in Browser v2.png)
+![Share Slides with Management](/img/Slides in iPad.png)
 
 * Since each cell in Visyond can not only _store multiple coexisting inputs (cases/assumptions) but also conversations and attachments_, Fernando can get the reasoning behind the numbers he receives and verify them quickly.
 
@@ -128,4 +128,4 @@ This is how Fernando's job look like:
 * Visyond allowed Fernando to _greatly speed up the preparation of charts, reports and forecasts_. Previously, each presentation was linked to a specific version of the model and had to be stored together, and if there was any change in numbers in the source file the link had to be manually updated. If the file was renamed the link got broken and had to be created again. In Visyond, Fernando does not have this problem anymore as reports, charts and forecasts are part of the same model but securely located in a different layer. Charts and reports can be easily generated in a few minutes without coding, and changes to the underlying model automatically update reports and charts thus eliminating the need for maintenance.
 * In addition, he can now _prepare interactive slides with input elements like drop-down boxes or sliders where he can specify different scenarios_. Once a specific scenario is selected, charts and cells are automatically updated. This way, by sharing interactive slides (and not the spreadsheet), he can let his colleagues check how different numbers can impact the result without risking having unwanted changes in the model or exposing the inner workings of the model (unnecessarily complicated for most of the spreadsheet users let alone, at times, confidential).
 
-![Interactive Presentations in Visyond](/img/Interactive Slides in Tablet.png)
+![Interactive Calculator in Visyond](/img/Interactive Calculator in iPad.png)
