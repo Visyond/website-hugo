@@ -116,9 +116,8 @@
   border-radius: 5px;
   width: auto;
   position: fixed;
-  left: 50%;
+  left: 12%;
   top: 72px;
-  transform: translateX(-50%);
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0,0,0,.2);
 
@@ -207,7 +206,7 @@
 .dropdown-toggle__group-list-item-link {
     font-size: 14px;
     line-height: 16px;
-    padding: 8px 10px !important;
+    padding: 8px 10px;
     color: #52556c;
     display: block;
 }
@@ -350,6 +349,7 @@
 .dropdown__lists-title {
   text-transform: uppercase;
   font-size: 15px;
+  padding: 5px 10px;
 
   @media (max-width: 1201px) {
     font-size: 14px;
