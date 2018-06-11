@@ -20,7 +20,9 @@ infoBlockFirst:
       Visyond was designed with this goal in mind and allows you to to **easily
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
-    image: /img/feature 1 - scenario comparison.png
+    image: /img/Scenarios chart in Browser.png
+    link: 'https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/'
+    popupUrl: /img/Scenarios chart in Browser.png
     title: Fast and Simple Scenario Comparison
   - descr: >-
       With Visyond’s Tornado Analysis you can answer difficult questions,
@@ -31,7 +33,9 @@ infoBlockFirst:
 
       Tornado analysis will tell you **how much a selected output is sensitive
       to fixed changes in driver cells**.
-    image: /img/feature 2 - tornado.png
+    image: /img/Tornado in Browser.png
+    link: 'https://help.visyond.com/articles/how-to-run-tornado-analysis-in-visyond/'
+    popupUrl: /img/Tornado in Browser.png
     title: Tornado Analysis Without Whirlwind Of Stress
   - descr: >-
       Significantly **streamline and simplify Sensitivity Analysis setup in
@@ -43,7 +47,10 @@ infoBlockFirst:
       This allows you to **identify to what degree variables impacts the
       outcome**, how different indicators interact & affect each other, and
       uncover errors in your models.
-    image: /img/feature 3 - sensitivity.png
+    image: /img/Sensitivity in Browser.png
+    link: >-
+      https://help.visyond.com/articles/how-to-run-sensitivity-analysis-in-visyond/
+    popupUrl: /img/Sensitivity in Browser.png
     title: Sensitivity Analysis That Makes Sense
   - descr: >-
       Data analysis is a continuous process as new inputs and questions are
@@ -58,7 +65,9 @@ infoBlockFirst:
 
       The dashboards and slides can be securely shared with other people without
       exposing raw data.
-    image: /img/feature 4 - slides.png
+    image: /img/Interactive Slides in Browser.png
+    link: 'https://help.visyond.com/articles/reports-and-presentations/'
+    popupUrl: /img/Interactive Slides in Browser.png
     title: Secure Interactive Dashboards for Decision Making
 capabilitiesList:
   - image: /img/v_icon.png

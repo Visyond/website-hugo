@@ -19,10 +19,12 @@ infoBlockFirst:
     image: /img/Attachments and Comments in Browser.png
     link: >-
       https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
+    popupUrl: /img/Attachments and Comments in Browser.png
     title: Streamline Data Gathering and Consolidation and Knock Hours Off Your Time
   - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\r\n\r\n* Improve collaboration among business units by _notifying data requirements_ to each user\r\n* Securely _share only parts of the spreadsheet_ and allow only authorized business units or colleagues to view and modify their required portion – eliminating the need to email files and version chaos\r\n* Define cells, worksheets, dashboards and slides that can be viewed and/or updated\r\n* Get a _consolidated, always up to date spreadsheet_ as data gets synchronized at each iteration or change\r\n"
     image: /img/Scenario Window in Browser.png
     link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
+    popupUrl: /img/Scenario Window in Browser.png
     title: Reduce Risk of Errors
 capabilitiesList:
   - image: /img/v_icon.png
