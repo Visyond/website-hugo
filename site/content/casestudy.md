@@ -1,6 +1,6 @@
 ---
-type: casestudies
-casestudies:
+type: casestudy
+casestudy:
   - logo: /img/elet.png
     name: ''
     tags:

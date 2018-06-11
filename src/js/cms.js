@@ -11,7 +11,6 @@ import Landings from './cms-preview-templates/landings';
 import Home from "./cms-preview-templates/home";
 import HomeNew from "./cms-preview-templates/home-new";
 import Contacts from "./cms-preview-templates/contacts";
-import CaseStudies from "./cms-preview-templates/casestudies";
 
 
 // Example of creating a custom color widget
@@ -37,5 +36,4 @@ CMS.registerPreviewTemplate("landings", Landings);
 CMS.registerPreviewTemplate("home", Home);
 CMS.registerPreviewTemplate("home-new", HomeNew);
 CMS.registerPreviewTemplate("contacts", Contacts);
-CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerWidget("color", ColorControl);

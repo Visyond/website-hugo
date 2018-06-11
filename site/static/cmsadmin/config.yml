@@ -84,28 +84,6 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-
-  - name: "casestudy"
-    label: "Case Study"
-    folder: "site/content/casestudy"
-    create: true
-    fields: # The fields each document in this collection have
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
-      - {label: "Client image", name: "client", widget: "image", required: false}
-      - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Widget aside", name: aside, widget: list, fields: [{label: Heading, name: "content", widget: "markdown"}], required: false}
-      - {label: "First solution", name: "first_solution", widget: "markdown", required: false}
-      - {label: "Second solution", name: "second_solution", widget: "markdown", required: false}
-      - {label: "Third solution", name: "third_solution", widget: "markdown", required: false}
-
-
-
-
-
   - name: "landings"
     label: "Landings"
     folder: "site/content/landings"
@@ -446,8 +424,8 @@ collections: # A list of collections the CMS should be able to edit
       #         { label: "slider company", name: "slidercompany", widget: "string" },
       #         { label: "slider logo", name: "sliderlogo", widget: "image" },
       #     ]}
-      - file: "site/content/casestudies.md"
-        label: "Case studies"
+      - file: "site/content/casestudy.md"
+        label: "Case study"
         name: "casestudies"
         fields:
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
