@@ -25,7 +25,7 @@ solDropdownCol:
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
-  - path: /casestudies
+  - path: /casestudy
     title: Case Studies
 ---
 
