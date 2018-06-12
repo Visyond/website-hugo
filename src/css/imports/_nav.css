@@ -88,8 +88,9 @@
 .dropdown-toggle {
     width: 250px;
     position: absolute;
-    top: 42px;
+    top: 55px;
     left: 5px;
+    border-radius: 5px;
     display: none;
     background-color: #F2F3F7;
     border: 1px solid #DCDEEC;
