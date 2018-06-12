@@ -1,5 +1,6 @@
 ---
 type: casestudies
+url: '/casestudy'
 casestudies:
   - logo: /img/elet.png
     name: ''
