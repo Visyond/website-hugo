@@ -44,11 +44,12 @@ Kedar has been working with large telecom customers for many years. The business
 * Presentations had to be manually and independently updated every time there was even a minor change in the model as the links could be broken by something as simple as changing the file name.
 * For a pricing discussion with large multi-national Opco on a multi-million RFP, around 25-30 man days were spent on modeling efforts - mainly due to frequent changes requested by customers and inflexibility of Excel to deal with changes quickly.
 
-
+## 
 
 > With Excel, it took me days to prepare numbers and put them into an insightful presentation. With Visyond, I can change anything on the fly, it audits and points out errors, and I can carry out what-if analysis from interactive slides.
 
 ## After Visyond
+
 ![Grouped Waterfall Chart](/img/grouped waterfall chart.png)
 
 Visyond allowed to build reliable models, quickly perform analyses and effectively communicate with the customers in a single controlled space, while allowing the clients to test their assumptions without breaking the model or risk losing any data.  
@@ -56,6 +57,5 @@ Visyond allowed to build reliable models, quickly perform analyses and effective
 It is now very easy to carry out what-if and risk analysis.  Visyond's scenarios are an enhanced version control system allowing different stakeholders to model and test assumptions leaving the underlying core logic intact. 
 
 The interactive online slides are an outstanding and elegant way to visualise what-if scenarios with the customer. Instead of going back and forth from the customer, to the account manager, to me, things are done on the fly, empowering everybody and dramatically shortening delivery time.
-
 
 > Visyond has greatly improved my productivity by reducing modeling time by more than 70%. This allowed me to spend more time on business impact than intricacies of excel modeling.
