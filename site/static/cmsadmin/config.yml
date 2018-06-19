@@ -488,8 +488,8 @@ collections: # A list of collections the CMS should be able to edit
 
 
           - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [
-            	{label: "Bottom Column Title", name: "title", widget: string}
+            	{label: "Bottom Column Title", name: "title", widget: string},
             	{label: "Bottom Column List", name: "list", widget: list, fields: [
-            	{label: "Bottom Description", name: "descr", widget: markdown}
+            		{label: "Bottom Description", name: "descr", widget: markdown}
             	]}
             ]}
