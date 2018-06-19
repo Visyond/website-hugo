@@ -21,11 +21,11 @@ solDropdownCol:
         title: Collaborative Analysis
       - path: 'https://visyond.com/solutions/presentation/'
         title: 'Reports, Presentations and Visualizations'
-    title: activity
+    title: USE CASE
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
-  - path: /casestudies
+  - path: /casestudy
     title: Case Studies
 ---
 

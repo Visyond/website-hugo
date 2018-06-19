@@ -22,19 +22,19 @@ infoBlockFirst:
     popupUrl: /img/Scenario Window in Browser.png
     title: Revolutionize the Way You Access Key Information
   - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by enabling collaborative analysis, stress testing and interactive presentations.\r\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
-    image: /img/Cases in Browser.png
+    image: /img/Cases in Browser v2.png
     link: 'https://help.visyond.com/articles/new-to-visyond-a-visual-overview/'
-    popupUrl: /img/Cases in Browser.png
+    popupUrl: /img/Cases in Browser v2.png
     title: Focus on What Matters and Never Lose Critical Information
   - descr: "Visyond’s built-in analysis tools _automate typical routine tasks_ that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with _just one click._\r\n"
-    image: /img/Tornado in Browser.png
+    image: /img/Tornado in Browser v3.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    popupUrl: /img/Tornado in Browser.png
+    popupUrl: /img/Tornado in Browser v3.png
     title: Save Time When Requesting Analysis and Reports
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
-    image: /img/Scenarios chart in Browser.png
+    image: /img/Scenarios chart in Browser v3.png
     link: 'https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/'
-    popupUrl: /img/Scenarios chart in Browser.png
+    popupUrl: /img/Scenarios chart in Browser v3.png
     title: >-
       Create Multiple Scenarios and What-If Analysis On-The-Fly without Calling
       the "Model Guru"

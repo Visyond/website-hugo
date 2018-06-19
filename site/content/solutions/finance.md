@@ -25,10 +25,10 @@ infoBlockFirst:
     popupUrl: /img/Scenario Window in Browser.png
     title: Revolutionize the Way You Access Key Information
   - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily, accelerate your reporting process by minimizing time in collecting data and building reports. _As data is collected, you can secure who sees it_. \r\n\r\nVisyond’s spreadsheet technology resides on the cloud eliminating the need for emailing spreadsheets. It applies natural naming conventions making it easy to _build reports with speed_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
-    image: /img/Attachments and Comments in Browser.png
+    image: /img/Attachments and Comments in Browser v2.png
     link: >-
       https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
-    popupUrl: /img/Attachments and Comments in Browser.png
+    popupUrl: /img/Attachments and Comments in Browser v2.png
     title: Never Lose Critical Information and Streamline Your Reporting Process
   - descr: >-
       Visyond’s built-in analysis tools _automate time consuming tasks_ that
@@ -38,15 +38,15 @@ infoBlockFirst:
 
       For example, you can build an interactive analytics report with Visyond’s
       _interactive slides_ or generate Financial Statements with a few clicks.
-    image: /img/Tornado in Browser.png
+    image: /img/Tornado in Browser v3.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
-    popupUrl: /img/Tornado in Browser.png
+    popupUrl: /img/Tornado in Browser v3.png
     title: Save Time When Requesting Analysis and Report
   - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
-    image: /img/Scenarios chart in Browser.png
+    image: /img/Scenarios chart in Browser v3.png
     link: 'https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/'
-    popupUrl: /img/Scenarios chart in Browser.png
+    popupUrl: /img/Scenarios chart in Browser v3.png
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
 capabilitiesList:
   - image: /img/v_icon.png

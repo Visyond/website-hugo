@@ -47,9 +47,9 @@ infoBlockFirst:
       errors and measure the impact of different inputs** while dramatically
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
-    image: /img/Scenarios chart in Browser.png
+    image: /img/Scenarios chart in Browser v3.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    popupUrl: /img/Scenarios chart in Browser.png
+    popupUrl: /img/Scenarios chart in Browser v3.png
     title: Hassle-free number testing environment
   - descr: >-
       Once the model and calculations are set up, it is time to stress-test the
