@@ -1,4 +1,6 @@
 ---
+type: casestudies
+url: '/casestudy'
 title: Pricing
 topTitle: Pricing Options !!!
 topSubTitle: Sub Title
