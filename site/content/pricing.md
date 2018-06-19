@@ -1,7 +1,7 @@
 ---
 type: pricing
 title: Pricing
-topTitle: Pricing Options
+topTitle: Pricing Options !!!
 topSubTitle: Sub Title
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
