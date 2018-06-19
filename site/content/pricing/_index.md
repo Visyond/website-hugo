@@ -1,4 +1,7 @@
 ---
+type: pricing
+url: '/pricing'
+---
 title: Pricing
 topTitle: Pricing Options !
 topSubTitle: Sub Title
@@ -41,5 +44,4 @@ bottomColumns:
           selected plan and the one you were on before.
       - descr: Downgrades take place at the end of the current billing cycle.
     title: CAN I UPGRADE OR DOWNGRADE  MY PLAN AT ANY TIME?
----
 
