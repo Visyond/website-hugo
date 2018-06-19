@@ -19,9 +19,9 @@ infoBlockFirst:
     popupUrl: /img/Scenario Window in Browser.png
     title: Transform the Way You Analyze and Present Data
   - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily and _stop being called all the time just to make minor changes_.\n\nBuild and audit your solid model once, have Visyond help identify potential errors and then _securely share_ only relevant cells, charts and analysis _with only those who need to see and interact with them_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
-    image: /img/Attachments and Comments in Browser.png
+    image: /img/Attachments and Comments in Browser v2.png
     link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
-    popupUrl: /img/Attachments and Comments in Browser.png
+    popupUrl: /img/Attachments and Comments in Browser v2.png
     title: Never Lose Critical Information and Reduce Error Probability
   - descr: "Our built-in analysis tools _automate typical routine tasks_ (like scenario creation and comparison, identification of the most important model drivers) that would otherwise require expensive software, add-ons, writing macros or error-prone lengthy manual setups. \r\n\r\nWith Visyond you will need just a few clicks and minutes to _perform analyses that used to take days_.\r\n"
     image: /img/Dependency in Browser.png
