@@ -39,7 +39,7 @@ bottomColumns:
           When you upgrade you will be charged pro-rata (for the days remaining
           in the current billing period) on the price difference between the new
           selected plan and the one you were on before.
-      - descr: Downgrades take place at the end of the current billing cycle.
+      - descr: Downgrades take place at the end of the current billing cycle
     title: CAN I UPGRADE OR DOWNGRADE  MY PLAN AT ANY TIME?
 ---
 
