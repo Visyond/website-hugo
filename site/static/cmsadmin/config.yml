@@ -467,7 +467,7 @@ collections: # A list of collections the CMS should be able to edit
               ]}
           ]}
 
-      - file: "site/content/pricing/_index.md"
+      - file: "site/content/pricing.md"
         label: "Pricing"
         name: "pricing"
         fields:
