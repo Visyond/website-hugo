@@ -1,7 +1,229 @@
 {{ partial "head" . }}
 
 
+<!-- first section -->
+<div class="first-section pri-fir" style="background-image: url({{ .Params.BgImage }})">
+	
+  <h2 class="pri-fir__title">
+    {{ .Params.TopTitle }}
+  </h2>
 
+  <div class="pri-fir__under-title">
+    {{ .Params.TopSubTitle }}
+  </div>
+
+  <div class="pri-fir__btns-wrap">
+    {{ if .Params.SignUpURL }}
+    <a href="{{ .Params.SignUpURL }}" class="pri-fir__link pri-fir__link--sign-up">
+      free sign up
+    </a>
+    {{ end }}
+
+    {{ if .Params.WatchVideoURL }}
+    <button class="pri-fir__link pri-fir__link--btn js-btn-video">
+      watch video
+    </button>
+    {{ end }}
+
+    {{ if .Params.RequestURL }}
+    <a href="{{ .Params.RequestURL }}" class="pri-fir__link pri-fir__link--request">
+      request a demo
+    </a>
+    {{ end }}
+  </div>
+
+  <div class="pri-fir__popup js-popup">
+    <div class="pri-fir__iframe-wrap">
+      <button class="pri-fir__popup-close js-popup-close"></button>
+      <p>{{ .Params.WatchVideoURL }}</p>
+
+    </div>
+  </div>
+</div>
+<!-- //first section -->
+
+
+
+<!-- second section -->
+<div class="second-section pri-sec">
+	<table class="pri-sec__table">
+		<col class="col">
+		<thead class="pri-sec__table-head">
+			<tr class="pri-sec__table-header">
+				<th class="pri-sec__table-data">
+					Price:
+				</th>
+				<th class="pri-sec__table-data">
+					<div class="pri-sec__table-header-name">
+						basic
+					</div>
+					<a href="#" class="pri-sec__table-header-btn">
+						choose plan
+					</a>
+					<div class="pri-sec__table-header-price pri-sec__table-header-price--free">
+						free
+					</div>
+					<div class="pri-sec__table-header-descr">
+						
+					</div>
+				</th>
+				<th class="pri-sec__table-data">
+					<div class="pri-sec__table-header-name">
+						plus
+					</div>
+					<a href="#" class="pri-sec__table-header-btn">
+						start free trial
+					</a>
+					<div class="pri-sec__table-header-price">
+						&pound;9.95 / month
+					</div>
+					<div class="pri-sec__table-header-descr">
+						(or save paying &pound;100 / year)
+					</div>
+				</th>
+				<th class="pri-sec__table-data">
+					<div class="pri-sec__table-header-name">
+						pro
+					</div>
+					<a href="#" class="pri-sec__table-header-btn">
+						start free trial
+					</a>
+					<div class="pri-sec__table-header-price">
+						&pound;19.95 / month
+					</div>
+					<div class="pri-sec__table-header-descr">
+						(or save paying &pound;200 / year)
+					</div>
+				</th>
+				<th class="pri-sec__table-data">
+					<div class="pri-sec__table-header-name">
+						enterprise
+					</div>
+					<a href="#" class="pri-sec__table-header-btn">
+						schedule a demo
+					</a>
+					<div class="pri-sec__table-header-price">
+						or Contact us
+					</div>
+					<div class="pri-sec__table-header-descr">
+						
+					</div>
+				</th>
+			</tr>
+		</thead>
+		<tbody class="pri-sec__table-body">
+			<tr class="pri-sec__table-row">
+				<td class="pri-sec__table-data">
+					Number of models
+				</td>
+				<td class="pri-sec__table-data">
+					5
+				</td>
+				<td class="pri-sec__table-data">
+					Unlimited
+				</td>
+				<td class="pri-sec__table-data">
+					Unlimited
+				</td>
+				<td class="pri-sec__table-data">
+					Unlimited
+				</td>
+			</tr>
+			<tr class="pri-sec__table-row">
+				<td class="pri-sec__table-data">
+					Installation on Company`s servers
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					<i class="material-icons">
+						done
+					</i>
+				</td>
+			</tr>
+			<tr class="pri-sec__table-row">
+				<td class="pri-sec__table-data">
+					Custom Colors/ Brand Identity
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					
+				</td>
+				<td class="pri-sec__table-data">
+					<i class="material-icons">
+						done
+					</i>
+				</td>
+			</tr>
+			<tr class="pri-sec__table-row">
+				<td class="pri-sec__table-data">
+					Storage Limit for In-Cell Attachment
+				</td>
+				<td class="pri-sec__table-data">
+					25mn
+				</td>
+				<td class="pri-sec__table-data">
+					1gb
+				</td>
+				<td class="pri-sec__table-data">
+					5gb
+				</td>
+				<td class="pri-sec__table-data">
+					As much as needed
+				</td>
+			</tr>
+			<tr class="pri-sec__table-row">
+				<td class="pri-sec__table-data">
+					Customer Support
+				</td>
+				<td class="pri-sec__table-data">
+					Unlimited
+				</td>
+				<td class="pri-sec__table-data">
+					Priority Email
+				</td>
+				<td class="pri-sec__table-data">
+					Priority Email
+				</td>
+				<td class="pri-sec__table-data">
+					Live Support
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<!-- //second section -->
+
+<!-- third section -->
+<div class="third-section thi">
+	{{ range $el := .Params.BottomColumns }}
+	<div class="pri-thi__col">
+		<h3 class="pri-thi__col-title">
+			{{ .title }}
+		</h3>
+		<ul class="pri-thi__col-list">
+			{{ range $elem := .list }}
+			<li class="pri-thi__col-item">
+				{{ .descr | markdownify}}	
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	{{ end }}
+</div>
+<!-- //third section -->
 
 
 {{ partial "footer" . }}
