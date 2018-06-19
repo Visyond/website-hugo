@@ -454,7 +454,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: Type, name: type, widget: hidden, default: about }
-          - { label: About, name: about, widget: hidden, default: "/casestudies.html" }
+          - { label: About, name: about, widget: hidden, default: "/casestudy.html" }
           - { label: "Casy study", name: "casestudies", widget: list, fields: [
               { label: "url", name: "url", widget: "string" },
               { label: "Company logo", name: "logo", widget: "image" },
