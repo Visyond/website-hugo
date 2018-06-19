@@ -1,4 +1,6 @@
 ---
+type: pricing
+url: '/pricing'
 title: Pricing
 topTitle: Pricing Options
 topSubTitle: Sub Title
