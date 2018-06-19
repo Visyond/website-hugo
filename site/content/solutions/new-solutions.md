@@ -1,6 +1,6 @@
 ---
 title: test-solutions
-topTitle: New title
+topTitle: Change New Title
 topSubTitle: Lorem ipsum dolor
 infoBlockFirst:
   - descr: >-
