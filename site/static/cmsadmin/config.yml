@@ -393,6 +393,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Email, name: contactsEmail, widget: list, fields: [
             { label: "email", name: socialEmail, widget: "string" }
           ]}
+          
       - file: "site/content/nav/_index.md"
         label: "Navigation"
         name: "nav"
@@ -410,6 +411,7 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title", name: "title", widget: "string" },
             { label: "path", name: "path", widget: "string" }
           ]}
+
       - file: "site/content/cookies/_index.md"
         label: "Cookies"
         name: "cookies"
@@ -464,7 +466,8 @@ collections: # A list of collections the CMS should be able to edit
                 { label: "Tag title", name: "tagTitle", widget: string }
               ]}
           ]}
-      - file: "site/content/pricing.md"
+
+      - file: "site/content/pricing/_index.md"
         label: "Pricing"
         name: "pricing"
         fields:

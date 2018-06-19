@@ -211,12 +211,12 @@
 	{{ range $el := .Params.BottomColumns }}
 	<div class="pri-thi__col">
 		<h3 class="pri-thi__col-title">
-			{{ .title }}
+			{{ $el.title }}
 		</h3>
 		<ul class="pri-thi__col-list">
-			{{ range $elem := .list }}
+			{{ range $elem := $el.list }}
 			<li class="pri-thi__col-item">
-				{{ .descr | markdownify}}	
+				{{ $elem.descr | markdownify}}	
 			</li>
 			{{ end }}
 		</ul>
