@@ -1,6 +1,7 @@
 ---
-type: casestudy
-casestudy:
+type: casestudies
+url: '/casestudy'
+casestudies:
   - logo: /img/elet.png
     name: ''
     tags:
@@ -19,4 +20,3 @@ casestudy:
     url: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
-
