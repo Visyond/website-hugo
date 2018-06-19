@@ -256,7 +256,7 @@ th.pri-sec__table-data {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
