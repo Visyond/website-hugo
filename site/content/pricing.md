@@ -7,6 +7,21 @@ signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request-a-demo
 bgImage: /img/topImgPricing.jpg
+tableHead:
+  - linktext: choose plan
+    linkurl: '#'
+    name: basic
+    price: free
+  - descr: (or save paying £100 / year)
+    linktext: start free trial
+    linkurl: '#'
+    name: plus
+    price: £9.95 / month
+  - descr: (or save paying £200 / year)
+    linktext: start free trial
+    linkurl: '#'
+    name: pro
+    price: £19.95 / month
 bottomColumns:
   - list:
       - descr: >-
