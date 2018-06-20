@@ -38,13 +38,15 @@ tableBody:
           - {}
           - {}
           - {}
-          - cell: 'yes'
+          - cell: ''
+            check: true
         rowname: Installation on Company's servers
       - cells:
           - {}
           - {}
           - {}
-          - cell: 'yes'
+          - cell: ''
+            check: true
         rowname: Custom Colors / Brand Indentity
       - cells:
           - cell: 25mb
@@ -60,10 +62,14 @@ tableBody:
           - cell: Unlimited
         rowname: Collaborators per project
       - cells:
-          - cell: 'yes'
-          - cell: 'yes'
-          - cell: 'yes'
-          - cell: 'yes'
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
         rowname: Cases and Scenarios
     title: COLLABORATION & ERP INTEGRATIN
 bottomColumns:
