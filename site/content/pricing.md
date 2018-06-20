@@ -22,6 +22,10 @@ tableHead:
     linkurl: '#'
     name: pro
     price: £19.95 / month
+  - contactlink: '#'
+    contacttext: or Contact us
+    linktext: schedule a demo
+    name: enterprise
 bottomColumns:
   - list:
       - descr: >-
