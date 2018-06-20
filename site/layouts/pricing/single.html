@@ -46,7 +46,8 @@
 
 <!-- second section -->
 <div class="second-section pri-sec">
-	<table class="pri-sec__table">
+	<div class="pri-sec__table-wrapper">
+		<table class="pri-sec__table">
 		<col class="col">
 		<thead class="pri-sec__table-head">
 			<tr class="pri-sec__table-header">
@@ -117,25 +118,28 @@
 		</tbody>
 		{{ end }}
 	</table>
+	</div>
 </div>
 <!-- //second section -->
 
 <!-- third section -->
 <div class="third-section pri-thi">
-	{{ range $el := .Params.BottomColumns }}
-	<div class="pri-thi__col">
-		<h3 class="pri-thi__col-title">
-			{{ $el.title }}
-		</h3>
-		<ul class="pri-thi__col-list">
-			{{ range $elem := $el.list }}
-			<li class="pri-thi__col-item">
-				{{ $elem.descr | markdownify}}	
-			</li>
-			{{ end }}
-		</ul>
+	<div class="pri-thi__cols">
+		{{ range $el := .Params.BottomColumns }}
+		<div class="pri-thi__col">
+			<h3 class="pri-thi__col-title">
+				{{ $el.title }}
+			</h3>
+			<ul class="pri-thi__col-list">
+				{{ range $elem := $el.list }}
+				<li class="pri-thi__col-item">
+					{{ $elem.descr | markdownify}}	
+				</li>
+				{{ end }}
+			</ul>
+		</div>
+		{{ end }}
 	</div>
-	{{ end }}
 </div>
 <!-- //third section -->
 
