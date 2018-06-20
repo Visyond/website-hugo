@@ -492,6 +492,16 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Contact Us Link", name: "contactlink", widget: string, required: false},
             ]}
 
+          - {label: "Table Body", name: tableBody, widget: list, fields: [
+              {label: "Body Title", name: "title", widget: "string"},
+              {label: "Table Row", name: "row", widget: list, fields: [
+                {label: "Row Name", name: "rowname", widget: string},
+                {label: "Table Cells", name: "cells", widget: list, fields: [
+                    {label: "Table Cell", name: "cell", widget: string, required: false}
+                  ]}
+              ]}
+            ]}
+
           - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [
               {label: "Bottom Column Title", name: "title", widget: string},
               {label: "Bottom Column List", name: "list", widget: list, fields: [

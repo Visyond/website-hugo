@@ -83,97 +83,29 @@
 				{{ end }}
 			</tr>
 		</thead>
-		<!-- <tbody class="pri-sec__table-body">
+		{{ range $el := .Params.tableBody }}
+		<tbody class="pri-sec__table-body">
+			{{ if $el.title }}
 			<tr class="pri-sec__table-row">
 				<td class="pri-sec__table-data">
-					Number of models
-				</td>
-				<td class="pri-sec__table-data">
-					5
-				</td>
-				<td class="pri-sec__table-data">
-					Unlimited
-				</td>
-				<td class="pri-sec__table-data">
-					Unlimited
-				</td>
-				<td class="pri-sec__table-data">
-					Unlimited
+					{{ $el.title }}
 				</td>
 			</tr>
+			{{ end }}
+			{{ range $row := $el.row }}
 			<tr class="pri-sec__table-row">
 				<td class="pri-sec__table-data">
-					Installation on Company`s servers
+					{{ $row.rowname }}
 				</td>
+				{{ range $cells := $row.cells }}
 				<td class="pri-sec__table-data">
-					
+					{{ $cells.cell }}
 				</td>
-				<td class="pri-sec__table-data">
-					
-				</td>
-				<td class="pri-sec__table-data">
-					
-				</td>
-				<td class="pri-sec__table-data">
-					<i class="material-icons">
-						done
-					</i>
-				</td>
+				{{ end }}
 			</tr>
-			<tr class="pri-sec__table-row">
-				<td class="pri-sec__table-data">
-					Custom Colors/ Brand Identity
-				</td>
-				<td class="pri-sec__table-data">
-					
-				</td>
-				<td class="pri-sec__table-data">
-					
-				</td>
-				<td class="pri-sec__table-data">
-					
-				</td>
-				<td class="pri-sec__table-data">
-					<i class="material-icons">
-						done
-					</i>
-				</td>
-			</tr>
-			<tr class="pri-sec__table-row">
-				<td class="pri-sec__table-data">
-					Storage Limit for In-Cell Attachment
-				</td>
-				<td class="pri-sec__table-data">
-					25mn
-				</td>
-				<td class="pri-sec__table-data">
-					1gb
-				</td>
-				<td class="pri-sec__table-data">
-					5gb
-				</td>
-				<td class="pri-sec__table-data">
-					As much as needed
-				</td>
-			</tr>
-			<tr class="pri-sec__table-row">
-				<td class="pri-sec__table-data">
-					Customer Support
-				</td>
-				<td class="pri-sec__table-data">
-					Unlimited
-				</td>
-				<td class="pri-sec__table-data">
-					Priority Email
-				</td>
-				<td class="pri-sec__table-data">
-					Priority Email
-				</td>
-				<td class="pri-sec__table-data">
-					Live Support
-				</td>
-			</tr>
-		</tbody> -->
+			{{ end }}
+		</tbody>
+		{{ end }}
 	</table>
 </div>
 <!-- //second section -->
