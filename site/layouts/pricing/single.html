@@ -86,7 +86,7 @@
 		{{ range $el := .Params.tableBody }}
 		<tbody class="pri-sec__table-body">
 			{{ if $el.title }}
-			<tr class="pri-sec__table-row">
+			<tr class="pri-sec__table-row pri-sec__table-row--title">
 				<td class="pri-sec__table-data">
 					{{ $el.title }}
 				</td>
@@ -98,8 +98,17 @@
 					{{ $row.rowname }}
 				</td>
 				{{ range $cells := $row.cells }}
+				{{ if $cells.cell }}
 				<td class="pri-sec__table-data">
 					{{ $cells.cell }}
+				</td>
+				{{ else if $cells.check }}
+				<td class="pri-sec__table-data">
+					<i class="material-icons">done</i>
+				</td>
+				{{ else }}
+				<td class="pri-sec__table-data">
+					
 				</td>
 				{{ end }}
 			</tr>

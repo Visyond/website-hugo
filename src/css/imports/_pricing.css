@@ -178,6 +178,11 @@
 	display: table-row;
 }
 
+.pri-sec__table-row--title .pri-sec__table-data {
+	font-weight: 700;
+	color: #52556c;
+}
+
 .pri-sec__table-body {
 	border-top: 1px solid rgba(113,115,131,.2);
 }
