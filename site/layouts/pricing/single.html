@@ -69,6 +69,10 @@
 					<div class="pri-sec__table-header-price">
 						{{ $el.price }}
 					</div>
+					{{ else }}
+					<a href="{{ $el.contactlink }}" class="pri-sec__table-header-contact">
+						{{ $el.contacttext }}
+					</a>
 					{{ end }}
 					{{ if $el.descr }}
 					<div class="pri-sec__table-header-descr">

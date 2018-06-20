@@ -488,6 +488,8 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Link Url", name: "linkurl", widget: string, required: false},
               {label: "Price", name: "price", widget: string, required: false},
               {label: "Description", name: "descr", widget: string, required: false},
+              {label: "Contact Us Text", name: "contacttext", widget: string, required: false},
+              {label: "Contact Us Link", name: "contactlink", widget: string, required: false},
             ]}
 
           - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [

@@ -230,6 +230,12 @@ th.pri-sec__table-data {
 	text-align: left;
 }
 
+.pri-sec__table-header-contact {
+	text-decoration: underline;
+	color: #717383;
+	font-weight: 700;
+}
+
 .pri-sec__table-header-price--free {
 	color: #55cdcf;
 	text-transform: uppercase;
