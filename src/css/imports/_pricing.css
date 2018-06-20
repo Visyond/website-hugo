@@ -240,6 +240,7 @@ th.pri-sec__table-data {
 	text-decoration: underline;
 	color: #717383;
 	font-weight: 700;
+	display: block;
 }
 
 .pri-sec__table-header-price--free {
