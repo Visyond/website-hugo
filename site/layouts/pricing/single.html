@@ -53,65 +53,39 @@
 				<th class="pri-sec__table-data">
 					Price:
 				</th>
+				{{ range $el := .Params.tableHead }}
 				<th class="pri-sec__table-data">
+					{{ if $el.name }}
 					<div class="pri-sec__table-header-name">
-						basic
+						{{ $el.name }}
 					</div>
-					<a href="#" class="pri-sec__table-header-btn">
-						choose plan
+					{{ end }}
+					{{ if $el.linktext }}
+					<a href="{{ $el.linkurl }}" class="pri-sec__table-header-btn">
+						{{ $el.linktext }}
 					</a>
+					{{ end }}
+					{{ if $el.price }}
+					{{ if $el.price "==" "free" }}
 					<div class="pri-sec__table-header-price pri-sec__table-header-price--free">
-						free
+						{{ $el.price }}
 					</div>
-					<div class="pri-sec__table-header-descr">
-						
-					</div>
-				</th>
-				<th class="pri-sec__table-data">
-					<div class="pri-sec__table-header-name">
-						plus
-					</div>
-					<a href="#" class="pri-sec__table-header-btn">
-						start free trial
-					</a>
+					{{ else }}
 					<div class="pri-sec__table-header-price">
-						&pound;9.95 / month
+						{{ $el.price }}
 					</div>
+					{{ end }}
+					{{ end }}
+					{{ if $el.descr }}
 					<div class="pri-sec__table-header-descr">
-						(or save paying &pound;100 / year)
+						{{ $el.descr }}
 					</div>
+					{{ end }}
 				</th>
-				<th class="pri-sec__table-data">
-					<div class="pri-sec__table-header-name">
-						pro
-					</div>
-					<a href="#" class="pri-sec__table-header-btn">
-						start free trial
-					</a>
-					<div class="pri-sec__table-header-price">
-						&pound;19.95 / month
-					</div>
-					<div class="pri-sec__table-header-descr">
-						(or save paying &pound;200 / year)
-					</div>
-				</th>
-				<th class="pri-sec__table-data">
-					<div class="pri-sec__table-header-name">
-						enterprise
-					</div>
-					<a href="#" class="pri-sec__table-header-btn">
-						schedule a demo
-					</a>
-					<div class="pri-sec__table-header-price">
-						or Contact us
-					</div>
-					<div class="pri-sec__table-header-descr">
-						
-					</div>
-				</th>
+				{{ end }}
 			</tr>
 		</thead>
-		<tbody class="pri-sec__table-body">
+		<!-- <tbody class="pri-sec__table-body">
 			<tr class="pri-sec__table-row">
 				<td class="pri-sec__table-data">
 					Number of models
@@ -201,7 +175,7 @@
 					Live Support
 				</td>
 			</tr>
-		</tbody>
+		</tbody> -->
 	</table>
 </div>
 <!-- //second section -->
