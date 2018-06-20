@@ -49,7 +49,7 @@ infoBlockFirst:
       business decisions.
     image: /img/Scenarios chart thumbnail v3.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    popupUrl: /img/Scenarios chart in Browser v3.png
+    popupUrl: /img/Scenarios chart in Browser v4.png
     title: Hassle-free number testing environment
   - descr: >-
       Once the model and calculations are set up, it is time to stress-test the
@@ -58,9 +58,9 @@ infoBlockFirst:
       controlled sandbox environment to play with the numbers** without
       compromising or changing the calculations and underlying logic of the
       model.
-    image: /img/Interactive Slides thumbnail v2.png
+    image: /img/Interactive Slides thumbnail v3.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    popupUrl: /img/Interactive Slides in Browser v2.png
+    popupUrl: /img/Interactive Slides in Browser v3.png
     title: Secure sandbox for stress-testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
