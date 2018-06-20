@@ -10,6 +10,7 @@
   text-align: center;
   padding: 40px 10px 0;
   background-size: cover;
+  margin-bottom: 5rem;
 }
 
 .pri-fir__title {
@@ -162,7 +163,7 @@
 
 
 .pri-sec {
-	padding: 9rem 1.5rem;
+	padding: 2rem 1.5rem;
 	overflow: auto;
 }
 
@@ -265,7 +266,7 @@ th.pri-sec__table-data {
 
 
 .pri-thi {
-	padding: 30px 1.5em 100px;
+	padding: 100px 1.5rem;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
