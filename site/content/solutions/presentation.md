@@ -36,9 +36,9 @@ infoBlockFirst:
 
       The process is simple and does not require wiring a line of code or
       unmaintainable macro.
-    image: /img/Interactive Slides in Browser.png
+    image: /img/Interactive Slides thumbnail v3.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    popupUrl: /img/Interactive Slides in Browser.png
+    popupUrl: /img/Interactive Slides in Browser v3.png
     title: Apps and calculators without programming
   - descr: >-
       With Visyond’s granular permission control and secure selective sharing
