@@ -164,6 +164,11 @@
 
 .pri-sec {
 	padding: 2rem 1.5rem;
+}
+
+.pri-sec__table-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
 	overflow: auto;
 }
 
@@ -171,7 +176,7 @@
 	border-collapse: collapse;
 	table-layout: fixed;
 	width: 100%;
-	min-width: 1000px;
+	min-width: 1200px;
 }
 
 .pri-sec__table-row,
@@ -268,6 +273,11 @@ th.pri-sec__table-data {
 
 .pri-thi {
 	padding: 100px 1.5rem;
+}
+
+.pri-thi__cols {
+	max-width: 1200px;
+	margin: 0 auto;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
