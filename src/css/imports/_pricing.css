@@ -63,7 +63,7 @@
   border-radius: 2rem;
   text-align: center;
 
-  &:first-child {
+  &:not(:last-child) {
     margin-right: 2rem;
 
     @media screen and (max-width: 850px) {
@@ -179,7 +179,7 @@
 }
 
 .pri-sec__table-body {
-	border-top: 1px solid #717383;
+	border-top: 1px solid rgba(113,115,131,.2);
 }
 
 
@@ -194,9 +194,14 @@ th.pri-sec__table-data {
 	color: #5e6f85;
 	font-size: 16px;
 	font-weight: 300;
+	text-align: left;
 
 	& .material-icons {
 		color: #15babd;
+	}
+
+	&:first-child {
+		vertical-align: middle;
 	}
 }
 
@@ -211,14 +216,12 @@ th.pri-sec__table-data {
 	background: #0585ff;
 	color: #fff;
 	border: none;
-	padding: 13px;
+	padding: 10px 13px;
 	border-radius: 4px;
 	text-transform: uppercase;
 	font-weight: 300;
 	margin-bottom: 10px;
-	width: 100%;
-	text-align: center;
-	display: block;
+	display: inline-block;
 }
 
 .pri-sec__table-header-price {
@@ -229,6 +232,7 @@ th.pri-sec__table-data {
 
 .pri-sec__table-header-price--free {
 	color: #55cdcf;
+	text-transform: uppercase;
 }
 
 .pri-sec__table-header-descr {

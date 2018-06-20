@@ -481,6 +481,15 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Watch Video", name: "watchVideoURL", widget: "string", required: false}
           - {label: "Request URL", name: "requestURL", widget: "string", required: false, default: "/request-a-demo"}
           - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
+
+          - {label: "Table Head", name: "tableHead", widget: list, fields: [
+              {label: "Name Tariff", name: "name", widget: string, required: false},
+              {label: "Link Text", name: "linktext", widget: string, required: false},
+              {label: "Link Url", name: "linkurl", widget: string, required: false},
+              {label: "Price", name: "price", widget: string, required: false},
+              {label: "Description", name: "descr", widget: string, required: false},
+            ]}
+
           - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [
               {label: "Bottom Column Title", name: "title", widget: string},
               {label: "Bottom Column List", name: "list", widget: list, fields: [
