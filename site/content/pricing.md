@@ -26,6 +26,46 @@ tableHead:
     contacttext: or Contact us
     linktext: schedule a demo
     name: enterprise
+tableBody:
+  - row:
+      - cells:
+          - cell: '5'
+          - cell: Unlimited
+          - cell: Unlimited
+          - cell: Unlimited
+        rowname: Number of models
+      - cells:
+          - {}
+          - {}
+          - {}
+          - cell: 'yes'
+        rowname: Installation on Company's servers
+      - cells:
+          - {}
+          - {}
+          - {}
+          - cell: 'yes'
+        rowname: Custom Colors / Brand Indentity
+      - cells:
+          - cell: 25mb
+          - cell: 1gb
+          - cell: 5gb
+          - cell: As much as needed
+        rowname: "Storage Limit for In-Cell Attachments\t"
+  - row:
+      - cells:
+          - cell: '5'
+          - cell: Unlimited
+          - cell: Unlimited
+          - cell: Unlimited
+        rowname: Collaborators per project
+      - cells:
+          - cell: 'yes'
+          - cell: 'yes'
+          - cell: 'yes'
+          - cell: 'yes'
+        rowname: Cases and Scenarios
+    title: COLLABORATION & ERP INTEGRATIN
 bottomColumns:
   - list:
       - descr: >-
