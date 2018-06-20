@@ -21,10 +21,10 @@ infoBlockFirst:
       trend lines**. Drastically reduce the time & effort involved in auditing
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
-    image: /img/Nice Model in Browser.png
+    image: /img/Nice Model thumbnail v2.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
-    popupUrl: /img/Nice Model in Browser.png
+    popupUrl: /img/Nice Model in Browser v2.png
     title: Readable and beautiful models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
@@ -35,10 +35,10 @@ infoBlockFirst:
       Want to visualize how different cells are connected or know how they
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
-    image: /img/Dependency in Browser.png
+    image: /img/Dependency v2 thumbnail.png
     link: >-
       https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
-    popupUrl: /img/Dependency in Browser.png
+    popupUrl: /img/Dependency in Browser v2.png
     title: Error root cause & dependencies tracking
   - descr: >-
       How would the change in one indicator affect other numbers? With inputs
@@ -47,7 +47,7 @@ infoBlockFirst:
       errors and measure the impact of different inputs** while dramatically
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
-    image: /img/Scenarios chart in Browser v3.png
+    image: /img/Scenarios chart thumbnail v3.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     popupUrl: /img/Scenarios chart in Browser v3.png
     title: Hassle-free number testing environment
@@ -58,9 +58,9 @@ infoBlockFirst:
       controlled sandbox environment to play with the numbers** without
       compromising or changing the calculations and underlying logic of the
       model.
-    image: /img/Interactive Slides in Browser.png
+    image: /img/Interactive Slides thumbnail v2.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    popupUrl: /img/Interactive Slides in Browser.png
+    popupUrl: /img/Interactive Slides in Browser v2.png
     title: Secure sandbox for stress-testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
