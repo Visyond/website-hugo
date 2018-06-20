@@ -66,15 +66,9 @@
 					</a>
 					{{ end }}
 					{{ if $el.price }}
-					{{ if $el.price "==" "free" }}
-					<div class="pri-sec__table-header-price pri-sec__table-header-price--free">
-						{{ $el.price }}
-					</div>
-					{{ else }}
 					<div class="pri-sec__table-header-price">
 						{{ $el.price }}
 					</div>
-					{{ end }}
 					{{ end }}
 					{{ if $el.descr }}
 					<div class="pri-sec__table-header-descr">
