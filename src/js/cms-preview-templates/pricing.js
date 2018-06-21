@@ -117,7 +117,7 @@ export default class Pricing extends React.Component {
                     { item.get('title') }
                   </h3>
                   <ul className="pri-thi__col-list">
-                    {item.getIn('list').map((col, index) => <li className="pri-thi__col-item" key={index}>
+                    {item.get('list').map((col, index) => <li className="pri-thi__col-item" key={index}>
                         {col.get('descr')}  
                       </li>)}
                     </ul>
