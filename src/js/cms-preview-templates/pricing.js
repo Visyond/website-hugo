@@ -94,7 +94,7 @@ export default class Pricing extends React.Component {
                       <td className="pri-sec__table-data">
                         {row.get('rowname')}
                       </td>
-                      {row.get('cells').map((cell, index) => <td className="pri-sec__table-data">
+                      {row.get('cells').map((cell, index) => <td className="pri-sec__table-data" key={index}>
                           {cell.get('cell')}
                           {cell.get('check') ? 'yes' : ''}
                         </td> )}
