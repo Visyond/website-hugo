@@ -112,7 +112,7 @@ export default class Pricing extends React.Component {
 
             <div className="third-section pri-thi">
               <div className="pri-thi__cols">
-                {(entry.getIn(["data", "BottomColumns"]) || []).map((item, index) => <div className="pri-thi__col" key={index}>
+                {(entry.getIn(["data", "bottomColumns"]) || []).map((item, index) => <div className="pri-thi__col" key={index}>
                   <h3 className="pri-thi__col-title">
                     { item.get('title') }
                   </h3>
