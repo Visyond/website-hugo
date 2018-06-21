@@ -56,8 +56,7 @@ export default class Pricing extends React.Component {
                       Price:
                     </th>
 
-                    {(entry.getIn(["data", "tableHead"]) || []).map((item, index) => { return
-                    <th className="pri-sec__table-data" key={index}>
+                    {(entry.getIn(["data", "tableHead"]) || []).map((item, index) => <th className="pri-sec__table-data" key={index}>
 
                       <div className="pri-sec__table-header-name">
                         {item.get('name')}
@@ -79,11 +78,37 @@ export default class Pricing extends React.Component {
                         {item.get('descr')}
                       </div>
 
-                    </th> })}
+                    </th> )}
                   </tr>
                 </thead>
 
-                
+                {(entry.getIn(["data", "tableBody"]) || []).map((item, index) => { return
+                <tbody className="pri-sec__table-body" key={index}>
+
+                  <tr className="pri-sec__table-row pri-sec__table-row--title">
+                    <td className="pri-sec__table-data">
+                      {item.get('title')}
+                    </td>
+                  </tr>
+                  
+                  {item.get('item.row').map((row, index) => {
+                    return 
+                    <tr className="pri-sec__table-row" key={index}>
+                      <td className="pri-sec__table-data">
+                        {row.get('rowname')}
+                      </td>
+                      {row.get('row.cells').map((cell, index) => {
+                        return
+                        <td className="pri-sec__table-data">
+                          {cell.get('cell')}
+                          {cell.get('check')} ? yes : ''
+                        </td>
+                      })}
+
+                    </tr>
+                  })}
+                  
+                </tbody>})}
               </table>
               </div>
             </div>
