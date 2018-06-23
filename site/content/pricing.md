@@ -53,6 +53,7 @@ tableBody:
   - row:
       - cells:
           - cell: '5'
+            check: true
           - cell: Unlimited
           - cell: Unlimited
           - cell: Unlimited
@@ -63,20 +64,21 @@ tableBody:
           - {}
           - cell: ''
             check: true
-        rowname: Installation on Company's servers
+        rowname: On-premise Installation
       - cells:
           - {}
           - {}
           - {}
           - cell: ''
             check: true
-        rowname: Custom Colors / Brand Indentity
+        rowname: Customized Colors & Brand Identity
       - cells:
-          - cell: 25mb
-          - cell: 1gb
-          - cell: 5gb
-          - cell: As much as needed
-        rowname: "Storage Limit for In-Cell Attachments\t"
+          - cell: 100 MB
+          - cell: 5 GB
+          - cell: 5 GB
+          - cell: Unlimited
+        rowname: Storage Limit for In-Cell Attachments
+    title: GENERAL
   - row:
       - cells:
           - cell: '5'
@@ -94,7 +96,119 @@ tableBody:
           - cell: ''
             check: true
         rowname: Cases and Scenarios
-    title: COLLABORATION & ERP INTEGRATIN
+      - cells:
+          - cell: ''
+            check: true
+          - check: true
+          - check: false
+          - check: true
+        rowname: Data Consolidation
+      - cells:
+          - cell: Up to 15 days
+            check: false
+          - cell: Unlimited
+          - cell: Up to 1 month
+          - cell: Unlimited
+        rowname: History (Versions)
+    title: COLLABORATION
+  - row:
+      - cells:
+          - {}
+          - check: true
+          - {}
+          - check: true
+        rowname: Audit Mode
+    title: MODELING
+  - row:
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Auto-Analysis
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Waterfall
+      - cells:
+          - {}
+          - check: true
+          - check: true
+          - check: true
+        rowname: Dependencies
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Tornado
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Sensitivity
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Scenario
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Scenario Waterfall
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Monte-Carlo Simulation
+    title: ANALYSIS
+  - row:
+      - cells:
+          - {}
+          - check: true
+          - check: false
+          - check: true
+        rowname: Financial Statements
+      - cells:
+          - {}
+          - check: false
+          - check: true
+          - check: true
+        rowname: Interactive Slides
+    title: REPORTING
+  - row:
+      - cells:
+          - check: true
+          - check: true
+          - check: true
+          - check: true
+        rowname: Model Permissions
+      - cells:
+          - {}
+          - check: true
+          - {}
+          - check: true
+        rowname: Model Selective Sharing
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Slides Selective Sharing
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Slides Permissions
+    title: SECURITY
 bottomColumns:
   - list:
       - descr: >-
