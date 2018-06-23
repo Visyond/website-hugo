@@ -307,6 +307,7 @@
 
 .sol-info__img-wrap {
   width: 50%;
+  flex-shrink: 0;
   position: relative;
 
   @media screen and (max-width: 800px) {
@@ -392,6 +393,7 @@
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  width: 100%;
 
   @media screen and (max-width: 800px) {
     -ms-align-items: center;
@@ -406,12 +408,14 @@
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .sol-info__block-descr {
   color: #767575;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 .sol-info__block-descr ul {
