@@ -230,6 +230,7 @@ th.pri-sec__table-data {
 	-o-transition: .1s;
 	transition: .1s;
 	color: #5e6f85;
+	text-decoration: underline;
 }
 
 .pri-sec__table-data-nolink {
