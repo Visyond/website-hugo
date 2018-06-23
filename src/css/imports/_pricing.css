@@ -232,6 +232,17 @@ th.pri-sec__table-data {
 	color: #5e6f85;
 }
 
+.pri-sec__table-data-nolink {
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	-webkit-transition: .1s;
+	-o-transition: .1s;
+	transition: .1s;
+	color: #5e6f85;
+}
+
 .pri-sec__table-data-link:hover {
 	background: rgba(21, 186, 189, .1);
 }
