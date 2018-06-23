@@ -1,31 +1,54 @@
 ---
 type: pricing
 title: Pricing
-topTitle: Pricing Options
-topSubTitle: Sub Title
+topTitle: >-
+  Take control of Your Spreadsheets: Perform Better Analysis, Present with
+  Impact 
+
+
+  And Make Better Decisions Faster
+topSubTitle: >-
+  Try our free trial with all features enabled. After the trial ends we will
+  provide you a list of suggested features you might find useful based on your
+  activity during the trial which you can then customize as you see fit! You
+  will retain access to the basic, forever free, version and keep all your
+  projects and data you've created during the trial.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: ''
 requestURL: /request-a-demo
 bgImage: /img/topImgPricing.jpg
 tableHead:
-  - linktext: choose plan
+  - contacttext: ''
+    descr: >-
+      You will always have access to this base plan and will not lose any data
+      or projects you have created.
+    linktext: SIGN UP
     linkurl: '#'
     name: basic
-    price: free
-  - descr: (or save paying £100 / year)
+    price: Free Forever
+  - descr: >-
+      Modeling plan provides you with everything you'll need to start modeling
+      efficiently in Visyond. You can further personalize available features in
+      your Profile.
     linktext: start free trial
     linkurl: '#'
-    name: plus
-    price: £9.95 / month
-  - descr: (or save paying £200 / year)
+    name: Modeling
+    price: '$20/month per feature, ~$100/month on average'
+  - descr: >-
+      Analysis plan will get you access to all Visyond's analytical features
+      allowing you to perform analysis in just a few clicks. You can further
+      personalize available features in your Profile.
     linktext: start free trial
     linkurl: '#'
-    name: pro
-    price: £19.95 / month
-  - contactlink: '#'
-    contacttext: or Contact us
-    linktext: schedule a demo
-    name: enterprise
+    name: Analysis
+    price: '$20/month per feature, ~$100/month on average'
+  - contactlink: ''
+    contacttext: ''
+    descr: >-
+      All features, priority support, custom integrations and more! Contact us
+      for more information!
+    linktext: CONTACT US
+    name: Enterprise
 tableBody:
   - row:
       - cells:
