@@ -10,9 +10,9 @@ topTitle: >-
 topSubTitle: >-
   Try our free trial with all features enabled. After the trial ends we will
   provide you a list of suggested features you might find useful based on your
-  activity during the trial which you can then customize as you see fit! You
-  will retain access to the basic, forever free, version and keep all your
-  projects and data you've created during the trial.
+  activity during the trial which you can then customize (add and remove) as you
+  see fit! You will retain access to the basic, forever free, version and keep
+  all your projects and data you've created during the trial.
 signUpURL: /accounts/signup/
 watchVideoURL: ''
 requestURL: /request-a-demo
