@@ -65,6 +65,7 @@ tableBody:
           - cell: ''
             check: true
         rowname: On-premise Installation
+        titlelink: /
       - cells:
           - {}
           - {}
