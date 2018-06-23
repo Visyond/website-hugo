@@ -30,7 +30,6 @@ body > p {
 }
 
 .maincontent {
-    flex: 1 0;
     padding-top: 70px;
 }
 
