@@ -213,8 +213,8 @@ bottomColumns:
   - list:
       - descr: >-
           When you signup for a free trial you get all the features of Visyond,
-          for free, for 30 days. No credit card required. If you signup with
-          LinkedIn it only takes a click.
+          for free, for 30 days. No credit card required. If you sign up with
+          LinkedIn or Google it only takes a click.
       - descr: >-
           You can enter your billing information and choose a plan at any time
           during your trial period but you will be billed only after the trial
@@ -222,7 +222,8 @@ bottomColumns:
       - descr: >-
           If you decide not to choose a plan, your trial will simply expire and
           your account will be switched to the BASIC plan. You will be notified
-          by email before the end of your trial.
+          by email before the end of your trial. You will keep all your projects
+          and data.
     title: HOW DOES THE FREE TRIAL WORK?
   - list:
       - descr: >-
@@ -243,8 +244,8 @@ bottomColumns:
           in the current billing period) on the price difference between the new
           selected plan and the one you were on before.
       - descr: Downgrades take place at the end of the current billing cycle.
-    title: CAN I UPGRADE OR DOWNGRADE  MY PLAN AT ANY TIME?
-titleBottom: Pricing
+    title: CAN I UPGRADE OR DOWNGRADE MY PLAN OR FEATURES AT ANY TIME?
+titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/topImgTerms.png
 botRequestURL: /request-a-demo
 ---
