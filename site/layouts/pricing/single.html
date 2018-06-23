@@ -95,8 +95,10 @@
 			{{ end }}
 			{{ range $row := $el.row }}
 			<tr class="pri-sec__table-row">
-				<td class="pri-sec__table-data">
-					{{ $row.rowname }}
+				<td class="pri-sec__table-data pri-sec__table-data--title">
+					<a href="{{$row.titlelink}}" class="pri-sec__table-data-link">
+						{{ $row.rowname }}
+					</a>
 				</td>
 				{{ range $cells := $row.cells }}
 				{{ if $cells.cell }}

@@ -496,6 +496,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Body Title", name: "title", widget: "string", required: false},
               {label: "Table Row", name: "row", widget: list, fields: [
                 {label: "Row Name", name: "rowname", widget: string},
+                {label: "Link", name: "titlelink", widget: string},
                 {label: "Table Cells", name: "cells", widget: list, fields: [
                     {label: "Table Cell", name: "cell", widget: string, required: false},
                     {label: "Table Cell Check", name: "check", widget: boolean, default: false}
