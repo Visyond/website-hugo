@@ -128,7 +128,9 @@
 		{{ range $el := .Params.BottomColumns }}
 		<div class="pri-thi__col">
 			<h3 class="pri-thi__col-title">
-				{{ $el.title }}
+				<a href="#" class="pri-thi__col-link">
+					{{ $el.title }}
+				</a>
 			</h3>
 			<ul class="pri-thi__col-list">
 				{{ range $elem := $el.list }}
