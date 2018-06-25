@@ -6,12 +6,12 @@ infoBlockFirst:
   - descr: >-
       Some many many many many many many many many many many many many many many
       many many many many many many text
-    image: /img/kid-on-computer-2_tnvltp.jpg
-    link: '#'
-    popupurl:
+    files:
       - file: /img/2.png
       - file: /img/4.jpg
       - file: /img/5.jpg
+    image: /img/kid-on-computer-2_tnvltp.jpg
+    link: '#'
     title: Some title
   - descr: >-
       text text text text text text text text text text text text text text text
