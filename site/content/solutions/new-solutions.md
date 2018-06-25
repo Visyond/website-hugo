@@ -8,34 +8,34 @@ infoBlockFirst:
       many many many many many many text
     image: /img/kid-on-computer-2_tnvltp.jpg
     link: '#'
+    popupurl:
+      - file: /img/2.png
+      - file: /img/4.jpg
+      - file: /img/5.jpg
     title: Some title
   - descr: >-
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
     image: /img/v_clip_group_1.png
-    popupUrl: /img/2.png
     title: title
   - descr: >-
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
     image: /img/v_clip_group_2.png
-    popupUrl: /img/4.jpg
     title: title
   - descr: >-
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
     image: /img/v_clip_group_3.png
-    popupUrl: /img/graph.gif
     title: title
   - descr: >-
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
     image: /img/v_clip_group_4.png
-    popupUrl: /img/Visyond.mp4
     title: title
 capabilitiesList:
   - image: /img/v_icon.png
