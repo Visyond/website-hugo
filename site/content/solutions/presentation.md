@@ -20,7 +20,7 @@ infoBlockFirst:
 
       They enable you and your collaborators to play with selected important
       assumptions without interacting with the spreadsheet directly. Input
-      fields (i,e. sliders, drop-down lists, etc.) are placed on the
+      fields (i.e. sliders, drop-down lists, etc.) are placed on the
       presentations and update the output cells or charts in real-time without
       changing what is in the spreadsheet.
     image: /img/Interactive Dashboards in Browser.png
