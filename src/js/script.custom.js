@@ -266,50 +266,141 @@ $(function () {
        this.typeImages = ['png', 'jpg', 'gif'];
        this.typeVideos = ['mp4']
 
+       // Add hover for all image with attr data-src
        for(let i = 0; i < this.images.length; i++) {
          if(this.images[i].dataset.src) {
            this.images[i].classList.add('sol-info__block-img-pointer');
          }
        }
 
+       // Create popup with content
        this._createPopup = (src) => {
          if(src) {
+          const sliderArray = src.split(',');
+          console.log(sliderArray)
            const popup = document.createElement('div');
-           const typeFile =  src.slice(src.lastIndexOf('.') + 1);
-
-           if(this.typeVideos.includes(typeFile)) {
+           popup.classList.add('popup');
+           
+           // If file length equal 1
+          if(sliderArray.length === 1) {
+            const typeFile =  src.slice(src.lastIndexOf('.') + 1);
+            console.log(typeFile)
+            //  If file is video
+            if(this.typeVideos.includes(typeFile)) {
              const video = document.createElement('video');
              const source = document.createElement('source');
              video.setAttribute('autoplay', 'autoplay');
              source.setAttribute('src', src);
-             popup.classList.add('popup');
              video.appendChild(source);
              popup.appendChild(video);
              this.mainBlock.appendChild(popup);
            }
+           // If file is image
            else if (this.typeImages.includes(typeFile)) {
              const image = document.createElement('img');
              image.setAttribute('src', src);
-             popup.classList.add('popup');
              popup.appendChild(image);
              this.mainBlock.appendChild(popup);
-           }
+           } 
+
+           popup.addEventListener('click', e => {
+             popup.parentNode.removeChild(popup);
+           });
+          }
+
+          //  If files more than 1, create slider
+          else if(sliderArray.length > 1) {
+            console.log('slider');
+            const listWrap = document.createElement('div');
+            const sliderList = document.createElement('ul');
+            const prevBtn = document.createElement('button');
+            const nextBtn = document.createElement('button');
+            const closeBtn = document.createElement('button');
+            prevBtn.classList.add('js-prev');
+            nextBtn.classList.add('js-next');
+            closeBtn.classList.add('js-close');
+            prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>'
+            nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>'
+            
+            for(const slideSrc of sliderArray) {
+              const sliderItem = document.createElement('li');
+              const sliderImage = document.createElement('img');
+
+              sliderImage.setAttribute('src', slideSrc);
+              sliderItem.appendChild(sliderImage);
+              sliderList.appendChild(sliderItem);
+            }
+            listWrap.appendChild(sliderList);
+            listWrap.appendChild(prevBtn);
+            listWrap.appendChild(closeBtn);
+            listWrap.appendChild(nextBtn);
+            popup.appendChild(listWrap);
+            this.mainBlock.appendChild(popup);
+            console.log(listWrap.offsetWidth);
+            console.log(listWrap.clientWidth);
+            console.log(listWrap.getBoundingClientRect().width);
+
+            let countSlide = 0;
+
+            // operation with slider
+            function showBtn() {
+              if(countSlide === 0) {
+                prevBtn.style.display = 'none';
+              }
+              else {
+                prevBtn.style.display = 'block'; 
+              }
+
+              if(countSlide === sliderArray.length - 1) {
+                nextBtn.style.display = 'none';
+              }
+              else {
+                nextBtn.style.display = 'block'; 
+              }
+
+              const widthSlide = listWrap.getBoundingClientRect().width;
+
+              sliderList.style.transform = `translateX(-${countSlide * widthSlide}px)`;
+            }
+
+            showBtn();
+
+            nextBtn.addEventListener('click', () => {
+              if(countSlide < sliderArray.length - 1) {
+                countSlide++;
+                console.log(countSlide);
+                showBtn();
+              }
+            });
+
+            prevBtn.addEventListener('click', () => {
+              if(countSlide > 0) {
+                countSlide--;
+                showBtn();
+              }
+            });
+
+            closeBtn.addEventListener('click', () => {
+              popup.parentNode.removeChild(popup);
+            })
+
+            window.addEventListener('resize', () => {
+              showBtn();
+            })
+          };
+           
 
 
            setTimeout( () => {
              popup.style.opacity = 1;
            }, 500);
-
-           popup.addEventListener('click', e => {
-             popup.parentNode.removeChild(popup);
-           });
          }
        }
 
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
           if(e.target === this.images[i]) {
-            this._createPopup(this.images[i].dataset.src);
+            this._createPopup(this.images[i].dataset.src.slice(0, -1));
           };
         };
       });
