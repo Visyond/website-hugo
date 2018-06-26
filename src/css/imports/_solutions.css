@@ -462,10 +462,110 @@
   transition: .5s;
 }
 
-.popup video,
-.popup img {
+.popup > video,
+.popup > img {
   max-width: 90%;
   max-height: 90%;
+}
+
+.popup div {
+  width: 1440px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: hidden;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.popup div .js-prev,
+.popup div .js-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  opacity: .7;
+
+  &:hover .material-icons {
+    text-shadow: 0 5px 5px rgba(0,0,0,.5);
+  }
+}
+
+.popup div button .material-icons {
+  font-size: 8rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
+  color: #fff;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+  color: #555;
+}
+
+.js-next {
+  right: 30px;
+}
+
+.js-prev {
+  left: 30px;
+}
+
+.js-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99;
+  border: 10px solid #555;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0,0,0,.3);
+  background: linear-gradient(45deg, transparent 46%, #fff 46%, #fff 54%, transparent 54%), linear-gradient(135deg, transparent 46%, #fff 46%, #fff 54%, transparent 54%), #555;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: .7;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+
+  &:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+  }
+}
+
+.popup div ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.popup div ul li {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.popup div ul li img {
+  width: 100%;
+  display: block;
 }
 
 

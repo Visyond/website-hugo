@@ -17,6 +17,8 @@ infoBlockFirst:
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
+    files:
+      - file: /img/2.png
     image: /img/v_clip_group_1.png
     title: title
   - descr: >-
