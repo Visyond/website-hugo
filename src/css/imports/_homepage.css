@@ -668,7 +668,7 @@
 
   &:before {
     content: "";
-    background: url(/img/home/v_quote.png) center center no-repeat;
+    background: url(/img/v_quote.png) center center no-repeat;
     background-size: contain;
     width: 30px;
     height: 28px;

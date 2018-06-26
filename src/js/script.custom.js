@@ -277,14 +277,12 @@ $(function () {
        this._createPopup = (src) => {
          if(src) {
           const sliderArray = src.split(',');
-          console.log(sliderArray)
            const popup = document.createElement('div');
            popup.classList.add('popup');
            
            // If file length equal 1
           if(sliderArray.length === 1) {
             const typeFile =  src.slice(src.lastIndexOf('.') + 1);
-            console.log(typeFile)
             //  If file is video
             if(this.typeVideos.includes(typeFile)) {
              const video = document.createElement('video');
@@ -310,7 +308,6 @@ $(function () {
 
           //  If files more than 1, create slider
           else if(sliderArray.length > 1) {
-            console.log('slider');
             const listWrap = document.createElement('div');
             const sliderList = document.createElement('ul');
             const prevBtn = document.createElement('button');
@@ -336,9 +333,6 @@ $(function () {
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
-            console.log(listWrap.offsetWidth);
-            console.log(listWrap.clientWidth);
-            console.log(listWrap.getBoundingClientRect().width);
 
             let countSlide = 0;
 
