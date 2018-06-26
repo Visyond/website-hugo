@@ -65,6 +65,7 @@ tableBody:
           - cell: ''
             check: true
         rowname: On-premise Installation
+        titlelink: ''
       - cells:
           - {}
           - {}
@@ -132,18 +133,21 @@ tableBody:
           - check: true
           - check: true
         rowname: Waterfall
+        titlelink: /
       - cells:
           - {}
           - check: true
           - check: true
           - check: true
         rowname: Dependencies
+        titlelink: /
       - cells:
           - {}
           - {}
           - check: true
           - check: true
         rowname: Tornado
+        titlelink: /
       - cells:
           - {}
           - {}
