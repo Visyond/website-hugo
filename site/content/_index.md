@@ -7,7 +7,7 @@ topTitle: |-
   in Minutes Instead of Days, from Any Device
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /contacts/
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with

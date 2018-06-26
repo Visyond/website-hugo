@@ -10,9 +10,6 @@ infoBlockFirst:
       - file: /img/2.png
       - file: /img/4.jpg
       - file: /img/5.jpg
-      - file: /img/5.jpg
-      - file: /img/5.jpg
-      - file: /img/5.jpg
     image: /img/kid-on-computer-2_tnvltp.jpg
     link: '#'
     title: Some title
