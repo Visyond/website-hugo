@@ -25,6 +25,9 @@ infoBlockFirst:
       text text text text text text text text text text text text text text text
       text text text text text text text text text text text text text text text
       text text text text text text text text text text
+    files:
+      - file: /img/finger_paint-1920x1200.jpg
+      - file: /img/0035e2711cfdc8aabbd6f3d78bc6a3f3.jpg
     image: /img/v_clip_group_2.png
     title: title
   - descr: >-
