@@ -274,9 +274,9 @@ $(function () {
        }
 
        // Create popup with content
-       this._createPopup = (src) => {
+       this._createPopup = (src, title, descr) => {
          if(src) {
-          const sliderArray = src.split(',');
+          const sliderArray = src.split('::');
            const popup = document.createElement('div');
            popup.classList.add('popup');
            
@@ -308,28 +308,41 @@ $(function () {
 
           //  If files more than 1, create slider
           else if(sliderArray.length > 1) {
+            const sliderTitles = title.split('::');
+            const sliderDescrs = descr.split('::');
             const listWrap = document.createElement('div');
             const sliderList = document.createElement('ul');
             const prevBtn = document.createElement('button');
             const nextBtn = document.createElement('button');
             const closeBtn = document.createElement('button');
+            const visibilityBtn = document.createElement('button');
             prevBtn.classList.add('js-prev');
             nextBtn.classList.add('js-next');
             closeBtn.classList.add('js-close');
+            visibilityBtn.classList.add('js-visibility');
             prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>'
             nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>'
+            visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>'
             
-            for(const slideSrc of sliderArray) {
+            for(let i = 0; i < sliderArray.length; i++) {
               const sliderItem = document.createElement('li');
+              const sliderTitle = document.createElement('h3');
+              const sliderDescr = document.createElement('p');
+              sliderTitle.innerHTML = sliderTitles[i];
+              sliderDescr.innerHTML = sliderDescrs[i];
               const sliderImage = document.createElement('img');
 
-              sliderImage.setAttribute('src', slideSrc);
+              sliderImage.setAttribute('src', sliderArray[i]);
+              sliderItem.appendChild(sliderTitle);
               sliderItem.appendChild(sliderImage);
+              sliderItem.appendChild(sliderDescr);
               sliderList.appendChild(sliderItem);
             }
+
             listWrap.appendChild(sliderList);
             listWrap.appendChild(prevBtn);
             listWrap.appendChild(closeBtn);
+            listWrap.appendChild(visibilityBtn);
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
@@ -362,7 +375,6 @@ $(function () {
             nextBtn.addEventListener('click', () => {
               if(countSlide < sliderArray.length - 1) {
                 countSlide++;
-                console.log(countSlide);
                 showBtn();
               }
             });
@@ -376,10 +388,43 @@ $(function () {
 
             closeBtn.addEventListener('click', () => {
               popup.parentNode.removeChild(popup);
-            })
+            });
 
             window.addEventListener('resize', () => {
               showBtn();
+            });
+
+            let visibilityInd = true;
+            
+            //  Hidden/Show title and description
+            visibilityBtn.addEventListener('click', () => {
+              if(visibilityInd) {
+                visibilityBtn.children[0].innerHTML = 'visibility_off';
+                const h3 = popup.querySelectorAll('h3');
+                const p = popup.querySelectorAll('p');
+
+                for(const par of p) {
+                  par.classList.add('hidden');
+                }
+
+                for(const title of h3) {
+                  title.classList.add('hidden');
+                }  
+              }
+              else {
+                visibilityBtn.children[0].innerHTML = 'visibility';
+                const h3 = popup.querySelectorAll('h3');
+                const p = popup.querySelectorAll('p');
+
+                for(const par of p) {
+                  par.classList.remove('hidden');
+                }
+
+                for(const title of h3) {
+                  title.classList.remove('hidden');
+                }
+              }
+              visibilityInd = !visibilityInd;
             })
           };
            
@@ -394,7 +439,10 @@ $(function () {
        this.mainBlock.addEventListener('click', e => {
          for(let i = 0; i < this.images.length; i++) {
           if(e.target === this.images[i]) {
-            this._createPopup(this.images[i].dataset.src.slice(0, -1));
+            const src = this.images[i].dataset.src.slice(0, -2);
+            const title = this.images[i].dataset.title.slice(0, -2);
+            const descr = this.images[i].dataset.descr.slice(0, -2);
+            this._createPopup(src, title, descr);
           };
         };
       });
