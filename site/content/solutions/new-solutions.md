@@ -8,8 +8,14 @@ infoBlockFirst:
       many many many many many many text
     files:
       - file: /img/2.png
+        title: Title slide 1
+        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum itaque, veritatis non, sapiente officiis tempora earum cumque odio aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut magnam natus.
       - file: /img/4.jpg
+        title: title slide 2
+        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est minima labore ea tenetur aliquid at soluta molestias harum, voluptas officia aspernatur vitae. Ad voluptates dicta repellat labore nobis, ab!
       - file: /img/5.jpg
+        title: title slide 3
+        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste hic voluptatum soluta exercitationem necessitatibus tempore laborum eveniet. Voluptatibus porro natus ipsam amet dolores adipisci architecto maiores necessitatibus aut voluptatum.
     image: /img/kid-on-computer-2_tnvltp.jpg
     link: '#'
     title: Some title
