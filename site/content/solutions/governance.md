@@ -38,7 +38,9 @@ infoBlockFirst:
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
     files:
-      - file: /img/Dependency in Browser v2.png
+      - descr: Quickly identify relationships between cells!
+        file: /img/Dependency in Browser v2.png
+        title: Dependency Analysis
     image: /img/Dependency v2 thumbnail.png
     link: >-
       https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
