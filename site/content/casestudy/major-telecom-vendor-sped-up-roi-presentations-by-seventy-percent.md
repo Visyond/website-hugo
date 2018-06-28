@@ -37,10 +37,10 @@ third_solution: "![Data Input & Consolidation](/img/feature-icons-v1_13.png)\r\n
 Kedar has been working with large telecom customers for many years. The business environment he is immersed in requires quick turnaround in business model changes and active collaboration with the clients.  In pricing discussion, Kedar required flexibility and fast turnaround time from modeling tool without having to write complicated scripts.  Collaborating with colleagues on Excel was not efficient due to poor version control, resulting in wastage of man hours due to repetitions and misunderstanding.
 
 * Understanding the logic and calculations and debugging was troublesome at times, especially when working on complex models spanning multiple worksheets.
-* It was hard to keep track of all the changes and versions of the spreadsheet after sharing the initial version with the client. Then the client would make the changes in their copy and send it back to Kedar who had incorporate them into a single document every time and then share with the client again.
+* It was hard to keep track of all the changes and versions of the spreadsheet after sharing the initial version with the client. Then the client would make the changes in their copy and send it back to Kedar who had to incorporate them into a single document every time and then share it with the client again.
 * Building 7 Waterfall charts took on average 2 days, and an update could easily consume half a day.
 * What-if (sensitivity) analysis required writing an Excel macro, and it took a few days to ensure it was working properly.
-* Simulations and answering questions like _“can you tell me what happens if we do not get x% improvement?”_ took up to 4 man-days to complete.
+* Simulations and answering questions like _“can you tell me what happens if we do not get x% improvement?”_ required up to 4 man-days to complete.
 * Presentations had to be manually and independently updated every time there was even a minor change in the model as the links could be broken by something as simple as changing the file name.
 * For a pricing discussion with large multi-national Opco on a multi-million RFP, around 25-30 man days were spent on modeling efforts - mainly due to frequent changes requested by customers and inflexibility of Excel to deal with changes quickly.
 
@@ -56,6 +56,6 @@ Visyond allowed to build reliable models, quickly perform analyses and effective
 
 It is now very easy to carry out what-if and risk analysis.  Visyond's scenarios are an enhanced version control system allowing different stakeholders to model and test assumptions leaving the underlying core logic intact. 
 
-The interactive online slides are an outstanding and elegant way to visualise what-if scenarios with the customer. Instead of going back and forth from the customer, to the account manager, to me, things are done on the fly, empowering everybody and dramatically shortening delivery time.
+The interactive online slides are an outstanding and elegant way to visualize what-if scenarios with the customer. Instead of going back and forth from the customer, to the account manager, then back to Kedar, things are done on the fly, empowering everybody and dramatically shortening delivery time.
 
 > Visyond has greatly improved my productivity by reducing modeling time by more than 70%. This allowed me to spend more time on business impact than intricacies of excel modeling.
