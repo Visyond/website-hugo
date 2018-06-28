@@ -42,7 +42,10 @@ Kedar has been working with large telecom customers for many years. The business
 * What-if (sensitivity) analysis required writing an Excel macro, and it took a few days to ensure it was working properly.
 * Simulations and answering questions like _“can you tell me what happens if we do not get x% improvement?”_ required up to 4 man-days to complete.
 * Presentations had to be manually and independently updated every time there was even a minor change in the model as the links could be broken by something as simple as changing the file name.
-* For a pricing discussion with large multi-national Opco on a multi-million RFP, around 25-30 man days were spent on modeling efforts - mainly due to frequent changes requested by customers and inflexibility of Excel to deal with changes quickly.
+
+![Visyond On Any Device](/img/laptop + tab + phone.png)
+
+For a pricing discussion with large multi-national Opco on a multi-million RFP, around 25-30 man days were spent on modeling efforts - mainly due to frequent changes requested by customers and inflexibility of Excel to deal with changes quickly.
 
 ## 
 
