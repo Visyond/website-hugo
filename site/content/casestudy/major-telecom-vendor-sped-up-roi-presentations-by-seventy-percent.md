@@ -37,7 +37,7 @@ third_solution: "![Data Input & Consolidation](/img/feature-icons-v1_13.png)\r\n
 Kedar has been working with large telecom customers for many years. The business environment he is immersed in requires quick turnaround in business model changes and active collaboration with the clients.  In pricing discussion, Kedar required flexibility and fast turnaround time from modeling tool without having to write complicated scripts.  Collaborating with colleagues on Excel was not efficient due to poor version control, resulting in wastage of man hours due to repetitions and misunderstanding.
 
 * Understanding the logic and calculations and debugging was troublesome at times, especially when working on complex models spanning multiple worksheets.
-* It was hard to keep track of all the changes and versions of the spreadsheet after sharing the initial version with the client. Then the client would make the changes in their copy and send it back to Kedar who had incorporate them into a single document every time and then share with the client again.
+* It was hard to keep track of all the changes and versions of the spreadsheet after sharing the initial version with the client. Then the client would make the changes in their copy and send it back to Kedar who had to incorporate them into a single document every time and then share with the client again.
 * Building 7 Waterfall charts took on average 2 days, and an update could easily consume half a day.
 * What-if (sensitivity) analysis required writing an Excel macro, and it took a few days to ensure it was working properly.
 * Simulations and answering questions like _“can you tell me what happens if we do not get x% improvement?”_ took up to 4 man-days to complete.
