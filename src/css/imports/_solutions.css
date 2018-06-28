@@ -470,7 +470,7 @@
 
 .popup div {
   width: 1440px;
-  max-width: 90%;
+  max-width: 80%;
   max-height: 90%;
   overflow: hidden;
   display: -webkit-flex;
@@ -480,6 +480,10 @@
   display: flex;
   justify-content: flex-start;
   position: relative;
+
+  @media (max-width: 800px) {
+    max-width: 90%;
+  }
 }
 
 .popup div .js-prev,
