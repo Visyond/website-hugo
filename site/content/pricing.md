@@ -146,6 +146,12 @@ tableBody:
           - {}
           - {}
           - check: true
+        rowname: Custom Integrations
+      - cells:
+          - {}
+          - {}
+          - {}
+          - check: true
         rowname: Brand Identity
     title: Other
 bottomColumns:
