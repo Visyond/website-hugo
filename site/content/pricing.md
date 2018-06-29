@@ -1,18 +1,12 @@
 ---
 type: pricing
 title: Pricing
-topTitle: >-
-  Take control of Your Spreadsheets: Perform Better Analysis, Present with
-  Impact 
-
-
-  And Make Better Decisions Faster
+topTitle: Pay Only For What You Need
 topSubTitle: >-
-  Try our free trial with all features enabled. After the trial ends we will
-  provide you a list of suggested features you might find useful based on your
-  activity during the trial which you can then customize (add and remove) as you
-  see fit! You will retain access to the basic, forever free, version and keep
-  all your projects and data you've created during the trial.
+  Try our free 30-day trial with the full power of Visyond available to you.
+  After it expires, we will suggest useful features based on your activity. You
+  can add and remove any features as you see fit. You will always have access to
+  the forever free Basic version with edit access to your top 3 projects.
 signUpURL: /accounts/signup/
 watchVideoURL: ''
 requestURL: /request-a-demo
@@ -22,7 +16,7 @@ tableHead:
     descr: >-
       You will always have access to this base plan and will not lose any data
       or projects you have created.
-    linktext: SIGN UP
+    linktext: Start free trial
     linkurl: '#'
     name: basic
     price: Free Forever
@@ -30,7 +24,7 @@ tableHead:
       Modeling plan provides you with everything you'll need to start modeling
       efficiently in Visyond. You can further personalize available features in
       your Profile.
-    linktext: start free trial
+    linktext: SIGN UP
     linkurl: '#'
     name: Modeling
     price: '$20/month per feature, ~$100/month on average'
@@ -38,7 +32,7 @@ tableHead:
       Analysis plan will get you access to all Visyond's analytical features
       allowing you to perform analysis in just a few clicks. You can further
       personalize available features in your Profile.
-    linktext: start free trial
+    linktext: SIGN UP
     linkurl: '#'
     name: Analysis
     price: '$20/month per feature, ~$100/month on average'
