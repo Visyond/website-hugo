@@ -1,18 +1,12 @@
 ---
 type: pricing
 title: Pricing
-topTitle: >-
-  Take control of Your Spreadsheets: Perform Better Analysis, Present with
-  Impact 
-
-
-  And Make Better Decisions Faster
+topTitle: Pay Only For What You Need
 topSubTitle: >-
-  Try our free trial with all features enabled. After the trial ends we will
-  provide you a list of suggested features you might find useful based on your
-  activity during the trial which you can then customize (add and remove) as you
-  see fit! You will retain access to the basic, forever free, version and keep
-  all your projects and data you've created during the trial.
+  Try our free 30-day trial with the full power of Visyond available to you.
+  After it expires, we will suggest useful features based on your activity. You
+  can add and remove any features as you see fit. You will always have access to
+  the forever free Basic version with edit access to your top 3 projects.
 signUpURL: /accounts/signup/
 watchVideoURL: ''
 requestURL: /request-a-demo
@@ -20,78 +14,56 @@ bgImage: /img/topImgPricing.jpg
 tableHead:
   - contacttext: ''
     descr: >-
-      You will always have access to this base plan and will not lose any data
-      or projects you have created.
+      Hover: You will always have access to the forever free Basic version with
+      edit access to your top 3 projects.
+    linktext: START FREE TRIAL
+    linkurl: '#'
+    name: Basic
+    price: Forever Free *
+  - descr: 'Hover: Pick any the features that you need. Flexible pricing.'
     linktext: SIGN UP
     linkurl: '#'
-    name: basic
-    price: Free Forever
-  - descr: >-
-      Modeling plan provides you with everything you'll need to start modeling
-      efficiently in Visyond. You can further personalize available features in
-      your Profile.
-    linktext: start free trial
+    name: Individual
+    price: Build Your Own *
+  - descr: 'Hover: Unlock the full power of Visyond.'
+    linktext: SIGN UP
     linkurl: '#'
-    name: Modeling
-    price: '$20/month per feature, ~$100/month on average'
-  - descr: >-
-      Analysis plan will get you access to all Visyond's analytical features
-      allowing you to perform analysis in just a few clicks. You can further
-      personalize available features in your Profile.
-    linktext: start free trial
-    linkurl: '#'
-    name: Analysis
-    price: '$20/month per feature, ~$100/month on average'
+    name: Team
+    price: Everything Included *
   - contactlink: ''
     contacttext: ''
-    descr: >-
-      All features, priority support, custom integrations and more! Contact us
-      for more information!
+    descr: 'Hover: All features, priority support, custom integrations and more!'
     linktext: CONTACT US
     name: Enterprise
+    price: Serious Business *
 tableBody:
   - row:
       - cells:
-          - cell: '5'
+          - cell: '3'
             check: false
-          - cell: Unlimited
+          - cell: Customizable
           - cell: Unlimited
           - cell: Unlimited
         rowname: Number of models
       - cells:
-          - {}
-          - {}
-          - {}
-          - cell: ''
-            check: true
-        rowname: On-premise Installation
-        titlelink: ''
+          - cell: '5'
+          - cell: Customizable
+          - cell: Unlimited
+          - cell: Unlimited
+        rowname: Collaborators per project
       - cells:
-          - {}
-          - {}
-          - {}
-          - cell: ''
-            check: true
-        rowname: Customized Colors & Brand Identity
-      - cells:
-          - cell: 100 MB
-          - cell: 5 GB
-          - cell: 5 GB
+          - cell: Small
+          - cell: Customizable
+          - cell: Large
           - cell: Unlimited
         rowname: Storage Limit for In-Cell Attachments
     title: GENERAL
   - row:
       - cells:
-          - cell: '5'
-          - cell: Unlimited
-          - cell: Unlimited
-          - cell: Unlimited
-        rowname: Collaborators per project
-      - cells:
           - cell: ''
             check: true
-          - cell: ''
-            check: true
+          - cell: Customizable
+            check: false
           - cell: ''
             check: true
           - cell: ''
@@ -99,94 +71,42 @@ tableBody:
         rowname: Cases and Scenarios
       - cells:
           - cell: ''
-            check: true
-          - check: true
+            check: false
+          - cell: Customizable
+            check: false
           - check: false
           - check: true
         rowname: Data Consolidation
       - cells:
-          - cell: Up to 15 days
+          - cell: Limited
             check: false
+          - cell: Customizable
           - cell: Unlimited
-          - cell: Up to 1 month
           - cell: Unlimited
-        rowname: History (Versions)
+        rowname: Data Tracking
     title: COLLABORATION
   - row:
       - cells:
-          - {}
-          - check: true
-          - {}
-          - check: true
-        rowname: Audit Mode
-    title: MODELING
-  - row:
+          - cell: Limited
+          - cell: Customizable
+            check: false
+          - cell: Unlimited
+          - cell: Unlimited
+            check: false
+        rowname: Build
       - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Auto-Analysis
+          - cell: 'No'
+          - cell: Customizable
+          - cell: Full
+          - cell: Full
+        rowname: Analyze
       - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Waterfall
-        titlelink: /
-      - cells:
-          - {}
-          - check: true
-          - check: true
-          - check: true
-        rowname: Dependencies
-        titlelink: /
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Tornado
-        titlelink: /
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Sensitivity
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Scenario
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Scenario Waterfall
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Monte-Carlo Simulation
-    title: ANALYSIS
-  - row:
-      - cells:
-          - {}
-          - check: true
-          - check: false
-          - check: true
-        rowname: Financial Statements
-      - cells:
-          - {}
-          - check: false
-          - check: true
-          - check: true
-        rowname: Interactive Slides
-    title: REPORTING
+          - cell: 'No'
+          - cell: Customizable
+          - cell: Full
+          - cell: Full
+        rowname: Report
+    title: MODULES
   - row:
       - cells:
           - check: true
@@ -196,23 +116,38 @@ tableBody:
         rowname: Model Permissions
       - cells:
           - {}
+          - cell: Customizable
+            check: false
           - check: true
-          - {}
           - check: true
-        rowname: Model Selective Sharing
+        rowname: Model Sharing
       - cells:
           - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Slides Selective Sharing
-      - cells:
-          - {}
-          - {}
+          - cell: Customizable
           - check: true
           - check: true
         rowname: Slides Permissions
+      - cells:
+          - {}
+          - cell: Customizable
+          - check: true
+          - check: true
+        rowname: Slides Sharing
     title: SECURITY
+  - row:
+      - cells:
+          - {}
+          - {}
+          - {}
+          - check: true
+        rowname: On-premise Installation
+      - cells:
+          - {}
+          - {}
+          - {}
+          - check: true
+        rowname: Brand Identity
+    title: Other
 bottomColumns:
   - list:
       - descr: >-
