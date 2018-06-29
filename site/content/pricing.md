@@ -74,7 +74,7 @@ tableBody:
             check: false
           - cell: Customizable
             check: false
-          - check: false
+          - check: true
           - check: true
         rowname: Data Consolidation
       - cells:
@@ -97,14 +97,14 @@ tableBody:
       - cells:
           - cell: 'No'
           - cell: Customizable
-          - cell: Full
-          - cell: Full
+          - cell: Unlimited
+          - cell: Unlimited
         rowname: Analyze
       - cells:
           - cell: 'No'
           - cell: Customizable
-          - cell: Full
-          - cell: Full
+          - cell: Unlimited
+          - cell: Unlimited
         rowname: Report
     title: MODULES
   - row:
