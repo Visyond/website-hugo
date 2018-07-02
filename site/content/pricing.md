@@ -28,7 +28,7 @@ tableHead:
     price: Everything Included
   - contactlink: ''
     contacttext: ''
-    descr: 'HAll features, priority support, custom integrations and more!'
+    descr: 'All features, priority support, custom integrations and more!'
     linktext: CONTACT US
     name: Enterprise
     price: Large Teams
