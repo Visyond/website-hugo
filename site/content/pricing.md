@@ -9,41 +9,43 @@ requestURL: /request-a-demo
 bgImage: /img/topImgPricing.jpg
 tableHead:
   - contacttext: ''
-    descr: >-
-      You will always have access to the forever free Basic version with edit
-      access to your top 3 projects.
+    descr: You will always have access to the free Basic version.
     linktext: START FREE TRIAL
     linkurl: ''
     name: Basic
-    price: Forever Free
-  - descr: Pick any features that you need. Flexible pricing.
+    price: ''
+  - descr: >-
+      Recommended for individual users. You can pick any features. Visit your
+      profile page for more information on pricing.
     linktext: START FREE TRIAL
     linkurl: ''
     name: Individual
-    price: Build Your Own
-  - descr: Unlock the full power of Visyond.
+    price: ''
+  - descr: >-
+      Recommended for small and large teams. You can pick any features. Visit
+      your profile page for more information on pricing.
     linktext: START FREE TRIAL
     linkurl: ''
     name: Team
-    price: Everything Included
+    price: ''
   - contactlink: ''
     contacttext: ''
-    descr: 'All features, priority support, custom integrations and more!'
+    descr: Recommended for corporate clients. Contact us to learn more!
     linktext: CONTACT US
     name: Enterprise
-    price: Large Teams
+    price: ''
 tableBody:
   - row:
       - cells:
           - cell: '3'
             check: false
-          - cell: Customizable
+          - cell: Unlimited
           - cell: Unlimited
           - cell: Unlimited
         rowname: Number of projects
       - cells:
           - cell: '5'
-          - cell: Customizable
+          - cell: Unlimited
           - cell: Unlimited
           - cell: Unlimited
         rowname: Collaborators per project
