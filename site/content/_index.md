@@ -27,16 +27,6 @@ infoBlockFirst:
       Visyond, control versions and **enjoy secure _selective sharing_** - allow
       access to only certain cells, worksheets, charts or linked reports and
       slides and **expose only what each person has to see or interact with**!
-    files:
-      - file: /img/2.png
-        title: Title slide 1
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum itaque, veritatis non, sapiente officiis tempora earum cumque odio aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut magnam natus.
-      - file: /img/4.jpg
-        title: title slide 2
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est minima labore ea tenetur aliquid at soluta molestias harum, voluptas officia aspernatur vitae. Ad voluptates dicta repellat labore nobis, ab!
-      - file: /img/5.jpg
-        title: title slide 3
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste hic voluptatum soluta exercitationem necessitatibus tempore laborum eveniet. Voluptatibus porro natus ipsam amet dolores adipisci architecto maiores necessitatibus aut voluptatum.
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
     title: Transparent and Controlled Collaboration
@@ -48,16 +38,6 @@ infoBlockFirst:
       **Granular permission control** will safeguard your sensitive information
       and give you peace of mind: **avoid data leakages, minimize errors, and
       track all inputs**, data, assumptions and analysis.
-    files:
-      - file: /img/2.png
-        title: Title slide 1
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum itaque, veritatis non, sapiente officiis tempora earum cumque odio aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut magnam natus.
-      - file: /img/4.jpg
-        title: title slide 2
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est minima labore ea tenetur aliquid at soluta molestias harum, voluptas officia aspernatur vitae. Ad voluptates dicta repellat labore nobis, ab!
-      - file: /img/5.jpg
-        title: title slide 3
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste hic voluptatum soluta exercitationem necessitatibus tempore laborum eveniet. Voluptatibus porro natus ipsam amet dolores adipisci architecto maiores necessitatibus aut voluptatum.
     image: /img/v_clip_group_3.png
     link: /solutions/governance
     title: Data tracking and spreadsheet governance
