@@ -134,7 +134,14 @@ tableBody:
           - {}
           - check: true
         rowname: Brand Identity
-    title: Other
+      - cells:
+          - {}
+          - cell: ''
+            check: false
+          - check: false
+          - check: true
+        rowname: Priority Support
+    title: OTHER
 bottomColumns:
   - list:
       - descr: >-
