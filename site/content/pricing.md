@@ -17,12 +17,12 @@ tableHead:
     name: Basic
     price: Forever Free
   - descr: Pick any features that you need. Flexible pricing.
-    linktext: SIGN UP
+    linktext: START FREE TRIAL
     linkurl: ''
     name: Individual
     price: Build Your Own
   - descr: Unlock the full power of Visyond.
-    linktext: SIGN UP
+    linktext: START FREE TRIAL
     linkurl: ''
     name: Team
     price: Everything Included
