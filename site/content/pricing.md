@@ -2,11 +2,7 @@
 type: pricing
 title: Pricing
 topTitle: Pay Only For What You Need
-topSubTitle: >-
-  Try our free 30-day trial with the full power of Visyond available to you.
-  After it expires, we will suggest useful features based on your activity. You
-  can add and remove any features as you see fit. You will always have access to
-  the forever free Basic version with edit access to your top 3 projects.
+topSubTitle: 14-day Free Trial
 signUpURL: /accounts/signup/
 watchVideoURL: ''
 requestURL: /request-a-demo
@@ -14,28 +10,28 @@ bgImage: /img/topImgPricing.jpg
 tableHead:
   - contacttext: ''
     descr: >-
-      Hover: You will always have access to the forever free Basic version with
-      edit access to your top 3 projects.
+      You will always have access to the forever free Basic version with edit
+      access to your top 3 projects.
     linktext: START FREE TRIAL
     linkurl: '#'
     name: Basic
-    price: Forever Free *
-  - descr: 'Hover: Pick any the features that you need. Flexible pricing.'
+    price: Forever Free
+  - descr: Pick any features that you need. Flexible pricing.
     linktext: SIGN UP
     linkurl: '#'
     name: Individual
-    price: Build Your Own *
-  - descr: 'Hover: Unlock the full power of Visyond.'
+    price: Build Your Own
+  - descr: Unlock the full power of Visyond.
     linktext: SIGN UP
     linkurl: '#'
     name: Team
-    price: Everything Included *
+    price: Everything Included
   - contactlink: ''
     contacttext: ''
-    descr: 'Hover: All features, priority support, custom integrations and more!'
+    descr: 'HAll features, priority support, custom integrations and more!'
     linktext: CONTACT US
     name: Enterprise
-    price: Large Teams *
+    price: Large Teams
 tableBody:
   - row:
       - cells:
@@ -44,7 +40,7 @@ tableBody:
           - cell: Customizable
           - cell: Unlimited
           - cell: Unlimited
-        rowname: Number of models
+        rowname: Number of projects
       - cells:
           - cell: '5'
           - cell: Customizable
@@ -84,6 +80,18 @@ tableBody:
           - cell: Unlimited
           - cell: Unlimited
         rowname: Data Tracking
+      - cells:
+          - {}
+          - cell: Customizable
+          - check: true
+          - cell: 'yes'
+        rowname: Model Sharing
+      - cells:
+          - {}
+          - cell: Customizable
+          - check: true
+          - check: true
+        rowname: Slides Sharing
     title: COLLABORATION
   - row:
       - cells:
@@ -109,33 +117,6 @@ tableBody:
     title: MODULES
   - row:
       - cells:
-          - check: true
-          - check: true
-          - check: true
-          - check: true
-        rowname: Model Permissions
-      - cells:
-          - {}
-          - cell: Customizable
-            check: false
-          - check: true
-          - check: true
-        rowname: Model Sharing
-      - cells:
-          - {}
-          - cell: Customizable
-          - check: true
-          - check: true
-        rowname: Slides Permissions
-      - cells:
-          - {}
-          - cell: Customizable
-          - check: true
-          - check: true
-        rowname: Slides Sharing
-    title: SECURITY
-  - row:
-      - cells:
           - {}
           - {}
           - {}
@@ -153,12 +134,19 @@ tableBody:
           - {}
           - check: true
         rowname: Brand Identity
-    title: Other
+      - cells:
+          - {}
+          - cell: ''
+            check: false
+          - check: false
+          - check: true
+        rowname: Priority Support
+    title: OTHER
 bottomColumns:
   - list:
       - descr: >-
           When you signup for a free trial you get all the features of Visyond,
-          for free, for 30 days. No credit card required. If you sign up with
+          for free, for 14 days. No credit card required. If you sign up with
           LinkedIn or Google it only takes a click.
       - descr: >-
           You can enter your billing information and choose a plan at any time
