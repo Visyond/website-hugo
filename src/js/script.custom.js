@@ -279,12 +279,10 @@ $(function () {
           const sliderArray = src.split('::');
            const popup = document.createElement('div');
            popup.classList.add('popup');
-           
-           // If file length equal 1
-          if(sliderArray.length === 1) {
+
             const typeFile =  src.slice(src.lastIndexOf('.') + 1);
             //  If file is video
-            if(this.typeVideos.includes(typeFile)) {
+            if(this.typeVideos.includes(typeFile) && sliderArray.length === 1) {
              const video = document.createElement('video');
              const source = document.createElement('source');
              video.setAttribute('autoplay', 'autoplay');
@@ -292,22 +290,13 @@ $(function () {
              video.appendChild(source);
              popup.appendChild(video);
              this.mainBlock.appendChild(popup);
+
+             popup.addEventListener('click', e => {
+               popup.parentNode.removeChild(popup);
+             });
            }
            // If file is image
-           else if (this.typeImages.includes(typeFile)) {
-             const image = document.createElement('img');
-             image.setAttribute('src', src);
-             popup.appendChild(image);
-             this.mainBlock.appendChild(popup);
-           } 
-
-           popup.addEventListener('click', e => {
-             popup.parentNode.removeChild(popup);
-           });
-          }
-
-          //  If files more than 1, create slider
-          else if(sliderArray.length > 1) {
+           else if (this.typeImages.includes(typeFile)        || sliderArray.length > 1) {
             const sliderTitles = title.split('::');
             const sliderDescrs = descr.split('::');
             const listWrap = document.createElement('div');
@@ -316,6 +305,7 @@ $(function () {
             const nextBtn = document.createElement('button');
             const closeBtn = document.createElement('button');
             const visibilityBtn = document.createElement('button');
+
             prevBtn.classList.add('js-prev');
             nextBtn.classList.add('js-next');
             closeBtn.classList.add('js-close');
@@ -323,6 +313,7 @@ $(function () {
             prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>'
             nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>'
             visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>'
+            closeBtn.innerHTML = '<i class="material-icons">close</i>'
             
             for(let i = 0; i < sliderArray.length; i++) {
               const sliderItem = document.createElement('li');
@@ -333,20 +324,26 @@ $(function () {
               const sliderImage = document.createElement('img');
 
               sliderImage.setAttribute('src', sliderArray[i]);
-              sliderItem.appendChild(sliderTitle);
+
+              sliderTitles[i] && sliderItem.appendChild(sliderTitle);
+              
+              sliderDescrs[i] && sliderItem.appendChild(sliderDescr);
+
               sliderItem.appendChild(sliderImage);
-              sliderItem.appendChild(sliderDescr);
               sliderList.appendChild(sliderItem);
             }
+
 
             listWrap.appendChild(sliderList);
             listWrap.appendChild(prevBtn);
             listWrap.appendChild(closeBtn);
-            listWrap.appendChild(visibilityBtn);
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
 
+            (sliderList.querySelector('h3') 
+            || sliderList.querySelector('p')) 
+            && listWrap.appendChild(visibilityBtn);
             let countSlide = 0;
 
             // operation with slider
@@ -390,6 +387,12 @@ $(function () {
               popup.parentNode.removeChild(popup);
             });
 
+            document.onkeydown = function(e) {
+              if(e.keyCode === 27 && popup) {
+                popup.parentNode.removeChild(popup);
+              }
+            }
+
             window.addEventListener('resize', () => {
               showBtn();
             });
@@ -426,9 +429,7 @@ $(function () {
               }
               visibilityInd = !visibilityInd;
             })
-          };
-           
-
+           }
 
            setTimeout( () => {
              popup.style.opacity = 1;
