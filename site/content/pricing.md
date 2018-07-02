@@ -118,21 +118,9 @@ tableBody:
       - cells:
           - {}
           - {}
-          - {}
-          - check: true
-        rowname: On-premise Installation
-      - cells:
-          - {}
-          - {}
           - check: true
           - check: true
         rowname: Custom Integrations
-      - cells:
-          - {}
-          - {}
-          - check: true
-          - check: true
-        rowname: Brand Identity
       - cells:
           - check: false
           - cell: ''
@@ -140,6 +128,18 @@ tableBody:
           - check: true
           - check: true
         rowname: Priority Support
+      - cells:
+          - {}
+          - {}
+          - check: true
+          - check: true
+        rowname: Brand Identity
+      - cells:
+          - {}
+          - {}
+          - {}
+          - check: true
+        rowname: On-premise Installation
     title: OTHER
 bottomColumns:
   - list:
