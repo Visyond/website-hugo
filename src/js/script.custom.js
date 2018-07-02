@@ -262,41 +262,42 @@ $(function () {
 
      function PopupInfoImages() {
        this.mainBlock = document.querySelector('.js-image-block');
-       this.images = this.mainBlock.querySelectorAll('.sol-info__img-wrap img');
+       this.images = this.mainBlock.querySelectorAll('.info__img-wrap img');
        this.typeImages = ['png', 'jpg', 'gif'];
        this.typeVideos = ['mp4']
 
-       // Add hover for all image with attr data-src
-       for(let i = 0; i < this.images.length; i++) {
-         if(this.images[i].dataset.src) {
-           this.images[i].classList.add('sol-info__block-img-pointer');
-         }
-       }
+      // Add hover for all image with attr data-src
+      for(let i = 0; i < this.images.length; i++) {
+        if(this.images[i].dataset.src) {
+          this.images[i].classList.add('info__block-img-pointer');
+        }
+      }
 
-       // Create popup with content
-       this._createPopup = (src, title, descr) => {
-         if(src) {
+      // Create popup with content
+      this._createPopup = (src, title, descr) => {
+        if(src) {
           const sliderArray = src.split('::');
-           const popup = document.createElement('div');
-           popup.classList.add('popup');
+          const popup = document.createElement('div');
+          popup.classList.add('popup');
 
-            const typeFile =  src.slice(src.lastIndexOf('.') + 1);
+          const typeFile =  src.slice(src.lastIndexOf('.') + 1);
             //  If file is video
-            if(this.typeVideos.includes(typeFile) && sliderArray.length === 1) {
-             const video = document.createElement('video');
-             const source = document.createElement('source');
-             video.setAttribute('autoplay', 'autoplay');
-             source.setAttribute('src', src);
-             video.appendChild(source);
-             popup.appendChild(video);
-             this.mainBlock.appendChild(popup);
+          if(this.typeVideos.includes(typeFile) && sliderArray.length === 1) {
+            const video = document.createElement('video');
+            const source = document.createElement('source');
+            video.setAttribute('autoplay', 'autoplay');
+            source.setAttribute('src', src);
+            video.appendChild(source);
+            popup.appendChild(video);
+            this.mainBlock.appendChild(popup);
 
-             popup.addEventListener('click', e => {
-               popup.parentNode.removeChild(popup);
-             });
-           }
-           // If file is image
-           else if (this.typeImages.includes(typeFile)        || sliderArray.length > 1) {
+            popup.addEventListener('click', e => {
+              popup.parentNode.removeChild(popup);
+            });
+          }
+          // If file is image
+          else if (this.typeImages.includes(typeFile)        
+                    || sliderArray.length > 1) {
             const sliderTitles = title.split('::');
             const sliderDescrs = descr.split('::');
             const listWrap = document.createElement('div');
@@ -429,16 +430,16 @@ $(function () {
               }
               visibilityInd = !visibilityInd;
             })
-           }
+          }
 
-           setTimeout( () => {
-             popup.style.opacity = 1;
-           }, 500);
-         }
-       }
+          setTimeout( () => {
+            popup.style.opacity = 1;
+          }, 500);
+        }
+      }
 
-       this.mainBlock.addEventListener('click', e => {
-         for(let i = 0; i < this.images.length; i++) {
+      this.mainBlock.addEventListener('click', e => {
+        for(let i = 0; i < this.images.length; i++) {
           if(e.target === this.images[i]) {
             const src = this.images[i].dataset.src.slice(0, -2);
             const title = this.images[i].dataset.title.slice(0, -2);
@@ -449,9 +450,9 @@ $(function () {
       });
     };
 
-     if(document.querySelector('.js-image-block')) {
-       const newPopup = new PopupInfoImages();
-     }
+    if(document.querySelector('.js-image-block')) {
+      const newPopup = new PopupInfoImages();
+    }
 
 
 
