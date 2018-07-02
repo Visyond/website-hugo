@@ -79,13 +79,15 @@
     <!-- ./trusted section -->
 
     <!-- section info -->
-    <ul class="home-info">
+    <ul class="home-info js-image-block">
 
       <!-- info block -->
       {{ range $el := .Params.InfoBlockFirst }}
 
       <li class="home-info__block">
-        <img src="{{ .image }}" alt="collaborate on spreadsheets" class="home-info__block-img">
+        <div class="info__img-wrap">
+          <img src="{{ .image }}" alt="collaborate on spreadsheets" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}">
+        </div>
 
         <img src="/img/v_lines.png" alt="lines" class="home-info__block-lines">
 
