@@ -79,13 +79,7 @@ tableBody:
           - cell: Customizable
           - check: true
           - cell: 'yes'
-        rowname: Model Sharing
-      - cells:
-          - {}
-          - cell: Customizable
-          - check: true
-          - check: true
-        rowname: Slides Sharing
+        rowname: Secure Sharing
     title: COLLABORATION
   - row:
       - cells:
