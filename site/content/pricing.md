@@ -47,12 +47,6 @@ tableBody:
           - cell: Unlimited
           - cell: Unlimited
         rowname: Collaborators per project
-      - cells:
-          - cell: Small
-          - cell: Customizable
-          - cell: Large
-          - cell: Unlimited
-        rowname: Storage Limit for In-Cell Attachments
     title: GENERAL
   - row:
       - cells:
