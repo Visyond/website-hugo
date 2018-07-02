@@ -35,7 +35,7 @@ tableHead:
     descr: 'Hover: All features, priority support, custom integrations and more!'
     linktext: CONTACT US
     name: Enterprise
-    price: Serious Business *
+    price: Large Teams *
 tableBody:
   - row:
       - cells:
