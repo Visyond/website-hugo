@@ -13,17 +13,17 @@ tableHead:
       You will always have access to the forever free Basic version with edit
       access to your top 3 projects.
     linktext: START FREE TRIAL
-    linkurl: '#'
+    linkurl: ''
     name: Basic
     price: Forever Free
   - descr: Pick any features that you need. Flexible pricing.
     linktext: SIGN UP
-    linkurl: '#'
+    linkurl: ''
     name: Individual
     price: Build Your Own
   - descr: Unlock the full power of Visyond.
     linktext: SIGN UP
-    linkurl: '#'
+    linkurl: ''
     name: Team
     price: Everything Included
   - contactlink: ''
@@ -52,8 +52,8 @@ tableBody:
       - cells:
           - cell: ''
             check: true
-          - cell: Customizable
-            check: false
+          - cell: ''
+            check: true
           - cell: ''
             check: true
           - cell: ''
@@ -62,45 +62,56 @@ tableBody:
       - cells:
           - cell: ''
             check: false
-          - cell: Customizable
+          - cell: ''
             check: false
           - check: true
           - check: true
         rowname: Data Consolidation
       - cells:
-          - cell: Limited
-            check: false
-          - cell: Customizable
-          - cell: Unlimited
-          - cell: Unlimited
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
         rowname: Data Tracking
       - cells:
           - {}
-          - cell: Customizable
+          - cell: ''
           - check: true
-          - cell: 'yes'
+          - cell: ''
+            check: true
         rowname: Secure Sharing
     title: COLLABORATION
   - row:
       - cells:
-          - cell: Limited
-          - cell: Customizable
-            check: false
-          - cell: Unlimited
-          - cell: Unlimited
-            check: false
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
         rowname: Build
       - cells:
-          - cell: 'No'
-          - cell: Customizable
-          - cell: Unlimited
-          - cell: Unlimited
+          - cell: ''
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
         rowname: Analyze
       - cells:
-          - cell: 'No'
-          - cell: Customizable
-          - cell: Unlimited
-          - cell: Unlimited
+          - cell: ''
+          - cell: ''
+          - cell: ''
+            check: true
+          - cell: ''
+            check: true
         rowname: Report
     title: MODULES
   - row:
@@ -113,20 +124,20 @@ tableBody:
       - cells:
           - {}
           - {}
-          - {}
+          - check: true
           - check: true
         rowname: Custom Integrations
       - cells:
           - {}
           - {}
-          - {}
+          - check: true
           - check: true
         rowname: Brand Identity
       - cells:
-          - {}
+          - check: false
           - cell: ''
             check: false
-          - check: false
+          - check: true
           - check: true
         rowname: Priority Support
     title: OTHER
