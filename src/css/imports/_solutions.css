@@ -513,7 +513,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  opacity: .7;
+  opacity: .9;
 
   &:hover .material-icons {
     text-shadow: 0 5px 5px rgba(0,0,0,.5);
@@ -524,11 +524,10 @@
 .popup div .js-prev .material-icons  {
   font-size: 8rem;
   text-shadow: 0 5px 5px rgba(0,0,0,.3);
-  color: #fff;
   -webkit-transition: .1s;
   -o-transition: .1s;
   transition: .1s;
-  color: #555;
+  color: #0086ff;
 }
 
 .js-next {
@@ -543,11 +542,11 @@
   width: 40px;
   height: 40px;
   position: absolute;
-  opacity: .7;
+  opacity: .9;
   top: 10px;
-  right: 60px;
+  right: 70px;
   border-radius: 50%;
-  background: #555;
+  background: #0086ff;
   color: #fff;
   border: none;
   font-size: 1.6rem;
@@ -574,24 +573,36 @@
 }
 
 .js-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 99;
-  border: 10px solid #555;
-  border-radius: 50%;
-  box-shadow: 0 5px 5px rgba(0,0,0,.3);
-  background: linear-gradient(45deg, transparent 46%, #fff 46%, #fff 54%, transparent 54%), linear-gradient(135deg, transparent 46%, #fff 46%, #fff 54%, transparent 54%), #555;
   width: 40px;
   height: 40px;
+  position: absolute;
+  opacity: .9;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background: #0086ff;
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 5px rgba(0,0,0,.3);
   cursor: pointer;
-  opacity: .7;
-  -webkit-transition: .1s;
-  -o-transition: .1s;
+  outline: none;
   transition: .1s;
 
   &:hover {
     box-shadow: 0 5px 5px rgba(0,0,0,.5);
+  }
+
+  @media (max-width: 800px) {
+    display: none;
   }
 }
 
