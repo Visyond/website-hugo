@@ -57,7 +57,25 @@ infoBlockFirst:
 
       * Minimize errors with Visyond’s Auditing Mode, auto-formatting and
       readable formula names.
-    files: []
+    files:
+      - descr: >-
+          Communicate with stakeholders and attach supporting documentation
+          directly in Visyond.
+        file: /img/Attachments and Comments in Browser v2.png
+        title: No back-and-forth emails
+      - descr: >-
+          Record and track all inputs without the risk of overwriting or losing
+          the data.
+        file: /img/Cases in Browser v2.png
+        title: Track inputs
+      - descr: >-
+          With Visyond Dependency Analysis you can identify relations between
+          cells with ease.
+        file: /img/Dependency in Browser.png
+        title: Identify dependencies
+      - descr: Easily traverse formulas and visualize error root causes.
+        file: /img/root cause anim.gif
+        title: Error Root Cause identification
     image: /img/v_clip_group_3.png
     link: /solutions/governance
     title: Track Everything And Retrieve Information Fast
