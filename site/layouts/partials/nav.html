@@ -116,6 +116,9 @@
 		<!-- </div> -->
 		</li>
 		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+			<a href="/casestudy/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Case Studies</span></a>
+		</li>
+		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
 			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Resources</span></a>
 			<div class="dropdown-menu-wrap">
 				<div
@@ -135,13 +138,6 @@
 				</div>
 			</div>
 		</li>
-		{{ with .Site.GetPage "section" "nav" }}
-		{{ range $el := .Params.links }}
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="{{ $el.link }}" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>{{ $el.name }}</span></a>
-		</li>
-		{{ end }}
-		{{ end }}
 	</ul>
 
 
