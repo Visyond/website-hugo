@@ -11,7 +11,7 @@ requestURL: /contacts/
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/v_home_page_illustration_concept.png
+topImage: /img/homepage infographics new concept 2018-07-04.jpg
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
@@ -22,96 +22,84 @@ trustedLogos:
   - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
   - descr: >-
-      No back-and-forth emails. **No data chaos.** Work together on
-      spreadsheets, communicate and attach relevant documentation directly in
-      Visyond, control versions and **enjoy secure _selective sharing_** - allow
-      access to only certain cells, worksheets, charts or linked reports and
-      slides and **expose only what each person has to see or interact with**!
-    files:
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-          itaque, veritatis non, sapiente officiis tempora earum cumque odio
-          aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut
-          magnam natus.
-        file: /img/2.png
-        title: Title slide 1
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est
-          minima labore ea tenetur aliquid at soluta molestias harum, voluptas
-          officia aspernatur vitae. Ad voluptates dicta repellat labore nobis,
-          ab!
-        file: /img/4.jpg
-        title: title slide 2
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste
-          hic voluptatum soluta exercitationem necessitatibus tempore laborum
-          eveniet. Voluptatibus porro natus ipsam amet dolores adipisci
-          architecto maiores necessitatibus aut voluptatum.
-        file: /img/5.jpg
-        title: title slide 3
+      Visyond offers **a secure way to collaborate without data leaks and focus
+      only on what is important:**
+
+
+      * No more cumbersome back and forth emails and versions to reconcile
+
+      * Limit what parts of the spreadsheet people can interact with, down to a
+      single cell
+
+      * Securely store spreadsheet data; multiple assumptions, scenarios,
+      conversations and attachments directly in the relevant cells
+
+      * Keep track of inputs, changes and versions with always up-to-date
+      automatic reports and interactive presentation
+
+      * Gather assumptions and enable others to test them  through simple
+      interfaces,  without changing (and risking to break) the spreadsheet
+    files: []
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
-    title: Transparent and Controlled Collaboration
+    title: Collaborate With Simplicity And Peace of Mind
   - descr: >-
-      No overriding data or formulas. No risk of breaking the model and
-      calculations.
+      With Visyond, you have complete transparency as you **always know what is
+      going on in your spreadsheets:** 
 
 
-      **Granular permission control** will safeguard your sensitive information
-      and give you peace of mind: **avoid data leakages, minimize errors, and
-      track all inputs**, data, assumptions and analysis.
-    files:
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-          itaque, veritatis non, sapiente officiis tempora earum cumque odio
-          aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut
-          magnam natus.
-        file: /img/2.png
-        title: Title slide 1
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est
-          minima labore ea tenetur aliquid at soluta molestias harum, voluptas
-          officia aspernatur vitae. Ad voluptates dicta repellat labore nobis,
-          ab!
-        file: /img/4.jpg
-        title: title slide 2
-      - descr: >-
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste
-          hic voluptatum soluta exercitationem necessitatibus tempore laborum
-          eveniet. Voluptatibus porro natus ipsam amet dolores adipisci
-          architecto maiores necessitatibus aut voluptatum.
-        file: /img/5.jpg
-        title: title slide 3
+      * All inputs & activity history are tracked for better accountability
+
+      * With permission control, you can give full or partial access to
+      spreadsheets, analysis data and reports 
+
+      * Dependencies and error root cause analysis in one click
+
+      * Minimize errors with Visyond’s Auditing Mode, auto-formatting and
+      readable formula names.
+    files: []
     image: /img/v_clip_group_3.png
     link: /solutions/governance
-    title: Data tracking and spreadsheet governance
+    title: Track Everything And Retrieve Information Fast
   - descr: >-
-      Empower collaborators and decision makers to **answer any questions
-      on-the-fly** and **compare scenarios easily**, without calling consultants
-      or “model gurus”. 
+      In seconds, Visyond lets you and your stakeholders **analyze data
+      on-the-fly and test assumptions safely without interacting with the
+      spreadsheet directly:**
 
 
-      Visyond removes bottlenecks and everybody will get valuable insights in a
-      few clicks instead of days or weeks. 
+      * Graphically compare scenarios and answer ‘what-if’ questions in real
+      time with Visyond’s Scenario & Waterfall Analysis
 
+      * Compare relative importance of cells with instant Tornado Analysis
 
-      Findings and automatic visualizations can be exported to _interactive
-      dashboards and apps_, and shared only with those who needs to see them.
+      * Understand the relationships between input and output cells with instant
+      Sensitivity Analysis
+
+      * Run simulations on your data with instant Monte Carlo analysis
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
-    title: Collaborative analysis for decision making
+    title: Understand Your Spreadsheet Data Better
   - descr: >-
-      Create data presentations, visualizations and reports in real time, and
-      share them via **interactive dashboards & apps** powered by Visyond’s
-      spreadsheet calculation engine without writing a line of code. 
+      Visyond’s interactive presentations will help you **create powerful
+      visualizations your stakeholders can interact with without working
+      directly with the spreadsheet:**
 
 
-      **Let everybody you authorize “play” with the assumptions you selectively
-      make available to them**: no risk of exposing sensitive information,
-      accidentally corrupting data or showing unnecessary details.
+      * Present the results from your analyses data and allow stakeholders to
+      play with the numbers on-the-fly without interacting with or breaking the
+      spreadsheet
+
+      * Create interactive apps such as Sales ROI calculators, Marketing KPIs
+      based on your spreadsheet data and calculations
+
+      * Quickly generate financial statements such as Balance Sheets and Income
+      Statements 
+
+      * Share the whole or only specific parts of the presentation and report
+      for controlled information flow
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
-    title: Interactive & secure on-the-fly reporting and presentations
+    title: Report And Present Data With Impact
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
