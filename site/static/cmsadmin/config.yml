@@ -430,6 +430,11 @@ collections: # A list of collections the CMS should be able to edit
             { label: "path", name: "path", widget: "string" }
           ]}
 
+          - {label: "Links", name: "links", widget: "list", fields: [
+              {label: "Name", name: "name", widget: "string"},
+              {label: "Link", name: "link", widget: "string"},
+            ]}
+
       - file: "site/content/cookies/_index.md"
         label: "Cookies"
         name: "cookies"
