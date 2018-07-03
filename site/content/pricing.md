@@ -63,14 +63,6 @@ tableBody:
         rowname: Cases and Scenarios
       - cells:
           - cell: ''
-            check: false
-          - cell: ''
-            check: false
-          - check: true
-          - check: true
-        rowname: Data Consolidation
-      - cells:
-          - cell: ''
             check: true
           - cell: ''
             check: true
@@ -79,6 +71,14 @@ tableBody:
           - cell: ''
             check: true
         rowname: Data Tracking
+      - cells:
+          - cell: ''
+            check: false
+          - cell: ''
+            check: false
+          - check: true
+          - check: true
+        rowname: Data Consolidation
       - cells:
           - {}
           - cell: ''
