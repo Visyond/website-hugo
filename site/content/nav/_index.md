@@ -27,5 +27,8 @@ resourcesDropdown:
     title: Help
   - path: /casestudy
     title: Case Studies
+links:
+  - link: /casestudy/
+    name: Case Studies
 ---
 
