@@ -39,7 +39,17 @@ infoBlockFirst:
 
       * Gather assumptions and enable others to test them  through simple
       interfaces,  without changing (and risking to break) the spreadsheet
-    files: []
+    files:
+      - descr: >-
+          Communicate with stakeholders and attach supporting documentation
+          directly in Visyond.
+        file: /img/Attachments and Comments in Browser v2.png
+        title: No back-and-forth emails
+      - descr: >-
+          Record and track all inputs without the risk of overwriting or losing
+          the data.
+        file: /img/Cases in Browser v2.png
+        title: Track inputs
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
     title: Collaborate With Simplicity And Peace of Mind
@@ -58,19 +68,7 @@ infoBlockFirst:
       * Minimize errors with Visyond’s Auditing Mode, auto-formatting and
       readable formula names.
     files:
-      - descr: >-
-          Communicate with stakeholders and attach supporting documentation
-          directly in Visyond.
-        file: /img/Attachments and Comments in Browser v2.png
-        title: No back-and-forth emails
-      - descr: >-
-          Record and track all inputs without the risk of overwriting or losing
-          the data.
-        file: /img/Cases in Browser v2.png
-        title: Track inputs
-      - descr: >-
-          With Visyond Dependency Analysis you can identify relations between
-          cells with ease.
+      - descr: Easily export the relationships between the cells
         file: /img/Dependency in Browser.png
         title: Identify dependencies
       - descr: Easily traverse formulas and visualize error root causes.
