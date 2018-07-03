@@ -1,5 +1,5 @@
 ---
-title: Test Home Page
+title: Test Homepage
 metaTags: visyond
 topTitle: |-
   Secure & Automated Spreadsheet Collaboration, Analysis and Reporting, 
@@ -11,7 +11,7 @@ requestURL: /contacts/
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond_VS_Infographic_Alexey update 2018-05-04 v8.png
+topImage: /img/v_home_page_illustration_concept.png
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
@@ -28,15 +28,27 @@ infoBlockFirst:
       access to only certain cells, worksheets, charts or linked reports and
       slides and **expose only what each person has to see or interact with**!
     files:
-      - file: /img/2.png
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+          itaque, veritatis non, sapiente officiis tempora earum cumque odio
+          aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut
+          magnam natus.
+        file: /img/2.png
         title: Title slide 1
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum itaque, veritatis non, sapiente officiis tempora earum cumque odio aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut magnam natus.
-      - file: /img/4.jpg
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est
+          minima labore ea tenetur aliquid at soluta molestias harum, voluptas
+          officia aspernatur vitae. Ad voluptates dicta repellat labore nobis,
+          ab!
+        file: /img/4.jpg
         title: title slide 2
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est minima labore ea tenetur aliquid at soluta molestias harum, voluptas officia aspernatur vitae. Ad voluptates dicta repellat labore nobis, ab!
-      - file: /img/5.jpg
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste
+          hic voluptatum soluta exercitationem necessitatibus tempore laborum
+          eveniet. Voluptatibus porro natus ipsam amet dolores adipisci
+          architecto maiores necessitatibus aut voluptatum.
+        file: /img/5.jpg
         title: title slide 3
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste hic voluptatum soluta exercitationem necessitatibus tempore laborum eveniet. Voluptatibus porro natus ipsam amet dolores adipisci architecto maiores necessitatibus aut voluptatum.
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
     title: Transparent and Controlled Collaboration
@@ -49,15 +61,27 @@ infoBlockFirst:
       and give you peace of mind: **avoid data leakages, minimize errors, and
       track all inputs**, data, assumptions and analysis.
     files:
-      - file: /img/2.png
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+          itaque, veritatis non, sapiente officiis tempora earum cumque odio
+          aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut
+          magnam natus.
+        file: /img/2.png
         title: Title slide 1
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum itaque, veritatis non, sapiente officiis tempora earum cumque odio aliquam unde? Alias nulla tenetur, ipsam voluptatibus, magni facere ut magnam natus.
-      - file: /img/4.jpg
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est
+          minima labore ea tenetur aliquid at soluta molestias harum, voluptas
+          officia aspernatur vitae. Ad voluptates dicta repellat labore nobis,
+          ab!
+        file: /img/4.jpg
         title: title slide 2
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum est minima labore ea tenetur aliquid at soluta molestias harum, voluptas officia aspernatur vitae. Ad voluptates dicta repellat labore nobis, ab!
-      - file: /img/5.jpg
+      - descr: >-
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste
+          hic voluptatum soluta exercitationem necessitatibus tempore laborum
+          eveniet. Voluptatibus porro natus ipsam amet dolores adipisci
+          architecto maiores necessitatibus aut voluptatum.
+        file: /img/5.jpg
         title: title slide 3
-        descr: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iste hic voluptatum soluta exercitationem necessitatibus tempore laborum eveniet. Voluptatibus porro natus ipsam amet dolores adipisci architecto maiores necessitatibus aut voluptatum.
     image: /img/v_clip_group_3.png
     link: /solutions/governance
     title: Data tracking and spreadsheet governance
