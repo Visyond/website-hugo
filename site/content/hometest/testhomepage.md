@@ -94,6 +94,31 @@ infoBlockFirst:
       Sensitivity Analysis
 
       * Run simulations on your data with instant Monte Carlo analysis
+    files:
+      - descr: >-
+          Instead of managing multiple version of the spreadsheet, combine data
+          points into scenarios and switch them on-the-fly!
+        file: /img/scenarios animated.gif
+        title: Record different scenarios
+      - descr: >-
+          Comparing scenarios has never been easier - a few clicks and you are
+          ready to answer 'what-if' questions!
+        file: /img/Scenarios chart in Browser v4.png
+        title: Scenario comparison
+      - descr: 1-click Waterfall Scenario Analysis
+        file: /img/grouped waterfall chart.png
+        title: Waterfall charts
+      - descr: >-
+          Understand the relationships between input and output cells, without
+          wasting hours
+        file: /img/Sensitivity in Browser v4.png
+        title: Sensitivity Analysis
+      - descr: Compare relative importance of cells
+        file: /img/Tornado in Browser v4.png
+        title: Tornado Analysis
+      - descr: Easily run simulations on your data without long manual setups
+        file: /img/simulation.PNG
+        title: Monte Carlo simulations
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
     title: Understand Your Spreadsheet Data Better
@@ -115,6 +140,21 @@ infoBlockFirst:
 
       * Share the whole or only specific parts of the presentation and report
       for controlled information flow
+    files:
+      - descr: Preparing various financial statements is easy and fast with Visyond
+        file: /img/statements animated.gif
+        title: Financial Statements 1/2
+      - descr: >-
+          The reports are always in sync with the spreadsheet and are easy to
+          update
+        file: /img/Financial Statements in Browser.png
+        title: Financial Statements 2/2
+      - descr: >-
+          With Visyond's interactive presentations you empower your stakeholders
+          to test numbers and answer what-if questions without interacting with
+          the source spreadsheet.
+        file: /img/Interactive Slides in Browser v3.png
+        title: Interactive presentations
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
     title: Report And Present Data With Impact
