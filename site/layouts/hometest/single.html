@@ -86,6 +86,17 @@
 
       <li class="ht-info__block">
         <div class="info__img-wrap">
+          {{ if .files }}
+          <div class="info__img-pointer">
+            Click to enlarge
+            <i class="material-icons">
+              subdirectory_arrow_left
+            </i>
+          </div>
+          <!-- <i class="material-icons">
+            zoom_in
+          </i> -->
+          {{ end }}
           <img src="{{ .image }}" alt="collaborate on spreadsheets" class="ht-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}">
         </div>
 
