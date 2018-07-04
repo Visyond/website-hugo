@@ -4,13 +4,17 @@
 
     <!-- top section -->
     <div class="ftr-top" style="background-image: url({{ .Params.BgImage }})">
+      {{ with .Params.TopTitle }}
       <h2 class="ftr-top__title">
-        {{ .Params.TopTitle | markdownify}}
+        {{ . | markdownify}}
       </h2>
-
+      {{ end }}
+      
+      {{ with .Params.TopSubTitle }}
       <div class="ftr-top__under-title">
-        {{ .Params.TopSubTitle | markdownify }}
+        {{ . | markdownify }}
       </div>
+      {{ end }}
 
       <div class="ftr-top__btns-wrap">
         {{ if .Params.SignUpURL }}
