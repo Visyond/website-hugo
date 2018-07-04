@@ -12,7 +12,7 @@ infoBlockFirst:
       - descr: description
         file: /img/4.jpg
         title: title
-    image: /img/bbbbb.PNG
+    image: /img/cloud visyond.png
     link: '#'
     title: Title
 trustedTitle: title
