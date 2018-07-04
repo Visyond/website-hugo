@@ -805,10 +805,6 @@
     flex-direction: column;
   }
 
-  /* &:not(:first-child) {
-    padding-top: 14px;
-  } */
-
   &:not(:last-child) {
     margin-right: 2rem;
 
