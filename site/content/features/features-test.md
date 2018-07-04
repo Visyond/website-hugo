@@ -29,10 +29,9 @@ trustedLogos:
   - logo: /img/v_ericsson.png
 providesTitle: title
 providesList:
-  - text: |-
-      * Description
-      * Description
-      * Description
+  - text: Description
+  - text: Description
+  - text: Description
 titleBottom: title
 bgBottom: /img/banner gov resize.png
 botRequestURL: /request-a-demo
