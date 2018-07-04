@@ -1,5 +1,11 @@
 ---
 title: Features Test
+topTitle: Features title
+topSubTitle: >-
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente neque vero
+  delectus quidem recusandae praesentium nam alias ea magnam eaque in
+  consequuntur nostrum similique, quisquam, animi repellat. Perspiciatis,
+  ducimus, incidunt.
 signUpURL: /accounts/signup/
 requestURL: /request-a-demo
 bgImage: /img/banner.jpg
