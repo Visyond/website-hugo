@@ -30,11 +30,9 @@ trustedLogos:
 providesTitle: title
 providesList:
   - text: |-
-      Description
-
-      Description
-
-      Description
+      * Description
+      * Description
+      * Description
 titleBottom: title
 bgBottom: /img/banner gov resize.png
 botRequestURL: /request-a-demo
