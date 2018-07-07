@@ -510,7 +510,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: .5s;
+  transition: .3s;
 }
 
 .popup > video,

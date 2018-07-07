@@ -434,7 +434,7 @@ $(function () {
 
           setTimeout( () => {
             popup.style.opacity = 1;
-          }, 500);
+          });
         }
       }
 
