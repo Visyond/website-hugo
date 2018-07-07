@@ -415,7 +415,7 @@
   }
 }
 
-.sol-info__block:last-child .sol-info__block-lines {
+.sol-info__block:last-of-type .sol-info__block-lines {
   display: none;
 }
 
