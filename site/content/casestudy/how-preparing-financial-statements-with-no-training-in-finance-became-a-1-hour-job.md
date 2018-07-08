@@ -55,22 +55,14 @@ aside:
       * The model owner can focus on working with the operating model that he
       masters, without worrying about financial statements, as a result
       improving his productivity
-first_solution: >-
-  ![Analysts and Consultants](/img/feature-icons-v1_03.png)
-
-
-  ## [**Analysts and
-  Consultants**](https://visyond.com/solutions/analysts-and-consultants/)
-second_solution: |
-  ![Decision Makers](/img/feature-icons-v1_25.png)
-
-  ## [**Decision Makers**](https://visyond.com/solutions/decision-makers/)
-third_solution: >-
-  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
-
-
-  ## [**Data Input &
-  Consolidation**](https://visyond.com/solutions/data-input-and-consolidation/)
+solTitle: Related Solutions
+solArticle:
+  - title: Analysts & Consultants
+    image: /img/feature-icons-v1_03.png
+  - title: Decision Makers
+    image: /img/feature-icons-v1_25.png
+  - title: Data Input & Consolidation
+    image: /img/feature-icons-v1_13.png
 ---
 > The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data.
 
