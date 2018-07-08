@@ -66,22 +66,14 @@ aside:
       in real-time
 
       * Simplicity and quick turnaround for 'what-if' assumption changes
-first_solution: >
-  ![Analysts & Consultants](/img/feature-icons-v1_03.png)
-
-
-  ## [**Analysts and
-  Consultants**](https://visyond.com/solutions/analysts-and-consultants/)
-second_solution: |
-  ![Decision Makers](/img/feature-icons-v1_25.png)
-
-  ## [**Decision Makers**](https://visyond.com/solutions/decision-makers/)
-third_solution: >
-  ![Data Input & Consolidation](/img/feature-icons-v1_13.png)
-
-
-  ## [**Data Input &
-  Consolidation**](https://visyond.com/solutions/data-input-and-consolidation/)
+solTitle: Related Solutions
+solArticle:
+  - title: Analysts & Consultants
+    image: /img/feature-icons-v1_03.png
+  - title: Decisions Makers
+    image: /img/feature-icons-v1_25.png
+  - title: Data Input & Consolidation
+    image: /img/feature-icons-v1_13.png
 ---
 > It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
 
