@@ -315,6 +315,27 @@
 
 .case-study-sub-block__article {
     width: 370px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+
+        & h2 {
+            color: #0585ff;
+        }
+    }
 
     @media screen and (max-width: 1211px) {
         width: 300px;

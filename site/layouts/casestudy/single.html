@@ -46,19 +46,27 @@
     </div> <!-- ./container case-study__right-column -->
 </div>
 <div class="case-study-sub-block">
-    <h3 class="case-study-sub-block__section-title">Related Solutions</h3>
+    {{ with .Params.SolTitle }}
+    <h3 class="case-study-sub-block__section-title">{{ . }}</h3>
+    {{ end }}
     <div class="container">
         <section class="case-study-sub-block__section">
             <h3 hidden></h3>
-            <article class="case-study-sub-block__article">
-                {{ .Params.First_solution | markdownify }}
-            </article>
-            <article class="case-study-sub-block__article">
-                {{.Params.Second_solution | markdownify }}
-            </article>
-            <article class="case-study-sub-block__article">
-                {{.Params.Third_solution | markdownify }}
-            </article>
+            {{ range $block := .Params.SolArticle }}
+            <a href="{{ .link }}" class="case-study-sub-block__article">
+                <h2>
+                    {{ .title }}
+                </h2>
+
+                <img src="{{ .image }}" alt="{{ .title }}">
+                
+                {{ with .descr }}
+                <p>
+                    {{ . }}
+                </p>
+                {{ end }}
+            </a>
+            {{ end }}
 
         </section>
     </div>  

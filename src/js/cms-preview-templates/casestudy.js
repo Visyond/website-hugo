@@ -46,20 +46,29 @@ export default class CaseStudy extends React.Component {
                         }
                     </div>
                 </div>
-                <div className="case-study-sub-block">
-                    <h3 className="case-study-sub-block__section-title">Related Solutions</h3>
+                <div class="case-study-sub-block">
+                    
+                    <h3 class="case-study-sub-block__section-title">
+                        { entry.getIn(["data", "solTitle"]) }
+                    </h3>
+
                     <div className="container">
                         <section className="case-study-sub-block__section">
                             <h3 hidden></h3>
-                            <article className="case-study-sub-block__article">
-                                {widgetFor('first_solution')}
-                            </article>
-                            <article className="case-study-sub-block__article">
-                                {widgetFor('second_solution')}
-                            </article>
-                            <article className="case-study-sub-block__article">
-                                {widgetFor('third_solution')}
-                            </article>
+                            {(entry.getIn(["data","solArticle"]) || []).map((item, index) => {
+                                return <a href={item.get('link')} className="case-study-sub-block__article" key="index">
+                                    <h2>
+                                        { item.get('title') }
+                                    </h2>
+
+                                    <img src={ item.get('image') } alt="{ item.get('title') }"/>
+                                    
+                                    <p>
+                                        { item.get('descr') }
+                                    </p>
+                                </a>
+                            })}
+
                         </section>
                     </div>  
                 </div>
