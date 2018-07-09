@@ -46,9 +46,9 @@ export default class CaseStudy extends React.Component {
                         }
                     </div>
                 </div>
-                <div class="case-study-sub-block">
+                <div className="case-study-sub-block">
                     
-                    <h3 class="case-study-sub-block__section-title">
+                    <h3 className="case-study-sub-block__section-title">
                         { entry.getIn(["data", "solTitle"]) }
                     </h3>
 

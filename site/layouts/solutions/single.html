@@ -166,6 +166,35 @@
 
     </section>
     <!-- ./section studies -->
+    
+    <!-- soluions block -->
+    <div class="sol-sub-block">
+        {{ with .Params.SolTitle }}
+        <h3 class="sol-sub-block__section-title">{{ . }}</h3>
+        {{ end }}
+        <div class="container">
+            <section class="sol-sub-block__section">
+                <h3 hidden></h3>
+                {{ range $block := .Params.SolArticle }}
+                <a href="{{ .link }}" class="sol-sub-block__article">
+                    <h2>
+                        {{ .title }}
+                    </h2>
+
+                    <img src="{{ .image }}" alt="{{ .title }}">
+                    
+                    {{ with .descr }}
+                    <p>
+                        {{ . }}
+                    </p>
+                    {{ end }}
+                </a>
+                {{ end }}
+
+            </section>
+        </div>  
+    </div>
+    <!-- //soluions block -->
 
     <!-- section customers -->
     <section class="customers">
