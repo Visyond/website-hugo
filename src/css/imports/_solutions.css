@@ -1019,6 +1019,130 @@
 
 
 
+
+.sol-sub-block {
+    padding: 50px 0;
+    background: #f5f6f9;
+}
+
+.sol-sub-block__section-title {
+    text-align: center;
+    color: #898b97;
+    font-weight: 700;
+    font-size: 39px;
+    margin: 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+.sol-sub-block__section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1021px) {
+        flex-flow: column nowrap;
+        margin-top: 30px;
+    }
+}
+
+.sol-sub-block__article {
+    width: 370px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+
+        & h2 {
+            color: #0585ff;
+        }
+    }
+
+    @media screen and (max-width: 1211px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 1021px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+        &:not(last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.sol-sub-block__article-link {
+    display: block;
+    &:hover .sol-sub-block__descr-title{
+        color: #0585ff;
+    }
+}
+
+.sol-sub-block__article figure {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.sol-sub-block__article img {
+    display: block;
+    max-width: 100px;
+    margin-bottom: 30px;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 10px;
+    }
+}
+
+
+.sol-sub-block__descr-wrap {
+    color: #52556c;
+}
+
+.sol-sub-block__article h2 {
+    font-size: 16px;
+    margin-bottom: 19px;
+    transition: color .1s ease-in-out;
+    color: #52556c;
+}
+
+.sol-sub-block__article p {
+    font-weight: 300;
+    color: #52556c;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.sol-sub-block__article a {
+    transition: color .1s ease-in-out;
+    color: #52556c;
+}
+
+.sol-sub-block__article:hover a {
+    color: #0585ff;
+}
+
+
+
+
+
 .customers {
     padding: 30px 0;
     max-width: 1200px;

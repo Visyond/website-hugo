@@ -131,6 +131,33 @@ export default class Solutions extends React.Component {
                 </ul>
               </section>
 
+              <div className="sol-sub-block">
+                    
+                  <h3 className="sol-sub-block__section-title">
+                      { entry.getIn(["data", "solTitle"]) }
+                  </h3>
+
+                  <div className="container">
+                      <section className="sol-sub-block__section">
+                          <h3 hidden></h3>
+                          {(entry.getIn(["data","solArticle"]) || []).map((item, index) => {
+                              return <a href={item.get('link')} className="sol-sub-block__article" key="index">
+                                  <h2>
+                                      { item.get('title') }
+                                  </h2>
+
+                                  <img src={ item.get('image') } alt="{ item.get('title') }"/>
+                                  
+                                  <p>
+                                      { item.get('descr') }
+                                  </p>
+                              </a>
+                          })}
+
+                      </section>
+                  </div>  
+              </div>
+
               <section className="customers">
                     <h3 className="customers__title homepage-title">{ entry.getIn(['data', 'studiesTitle']) }</h3>
 
