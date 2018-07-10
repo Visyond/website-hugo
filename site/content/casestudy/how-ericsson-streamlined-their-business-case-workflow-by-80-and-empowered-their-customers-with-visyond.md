@@ -105,7 +105,7 @@ Therefore, Kedar **had to hire software developers to create a web version of hi
 * Long delays between changes in model logic or correction of errors or software bugs, and redeployment of the web page
 * Lack of flexibility if the customers or fair-goers wanted to play with assumptions that Ericsson decided not to code in the software
 
-![Encode Excel Model](/img/7 Encode Excel Model 2.png)
+![The Excel model had to be encoded into a web app](/img/7 Encode Excel Model 2.png)
 
 ## Keeping visualizations in sync with models was troublesome
 
@@ -127,7 +127,7 @@ Visyond allowed Ericsson to quickly build reliable models, perform analyses on-t
 
 **Change requests became much easier to manage** as manual data consolidation and version comparison were no longer required, which dramatically improved turnaround time and reduced the risk of errors introduced by clients and account managers.
 
-![Modeler is no longer a bottleneck](/img/2 Modeler is no longer a bottleneck.png)
+![Modeler is no longer a bottleneck](/img/2 Modeler is no longer a bottleneck 2.png)
 
 ## A single source of truth solved the data chaos
 
@@ -152,4 +152,4 @@ Analyses that used to take multiple days to set up and finalize **can be now com
 **‘What-if’ questions can now be answered in real time** without having to go back to the spreadsheet. The interactive online slides are an outstanding and elegant way to visualize different scenarios with the customer. Numbers can be tested directly in the presentation that is linked to the model without exposing it or changing its content or structure.
 Therefore, there is **no longer a need to manually maintain separate presentation layers on top of the spreadsheet** as Visyond can instantaneously adjust to changes in input, output or layout without requiring any development effort from Ericsson.
 
-![Customers are empowered to safely test assumptions](/img/6 Customers are empowered to safely test assumptions.png)
+![Customers are empowered to safely test assumptions](/img/6 Customers are empowered to safely test assumptions 2.png)
