@@ -634,4 +634,4 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: "Bckground Image", name: "image", widget: image, required: true }
           - { label: "Title", name: "title", widget: string }
-          - { label: "Description", name: "text", widget: mardown }
+          - { label: "Description", name: "text", widget: markdown }
