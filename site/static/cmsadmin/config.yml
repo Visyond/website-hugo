@@ -630,6 +630,7 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/thank-you.md"
         label: "Thank you"
         name: "thx"
+        url: "/thank-you"
         fields:
           - { label: Type, name: type, widget: hidden, default: thankyou }
           - { label: Thank-you, name: thankyou, widget: hidden, default: "/thank-you.html" }
