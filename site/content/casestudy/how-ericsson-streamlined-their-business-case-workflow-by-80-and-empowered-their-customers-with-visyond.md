@@ -65,8 +65,7 @@ The typical process with Excel involved multiple versions of the model (for each
 
 After receiving the initial spreadsheet from Kedar, Ericsson’s account managers would discuss it (in meetings) or send it to clients who would make the changes in their copy, send it back to account managers who could add more changes before sending it back to Kedar for review. 
 
-During pricing discussions with large multi-national mobile telecom operators on multi-million request for proposals (RFPs), approximately 25-30 man days were spent on modeling efforts - mainly due to **frequent changes requested by customers.
-**
+During pricing discussions with large multi-national mobile telecom operators on multi-million request for proposals (RFPs), approximately 25-30 man days were spent on modeling efforts - mainly due to **frequent changes requested by customers.**
 
 Identifying the latest ‘approved’ version for each customer was a frustrating and painstalking process. As every ‘Excel guru’, Kedar often was a bottleneck that resulted in long turnaround time to avoid accidental **costly, difficult to detect, mistakes that are typically introduced when multiple people edit a spreadsheet.**
 
