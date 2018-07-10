@@ -19,10 +19,12 @@
             <h3 class="request-demo__form-title">Request a demo</h3>
             <h4 class="request-demo__form-subtitle">Please fill in the form to recieve your invitation</h4>
 
-            <form class="request-demo__form" method="POST" action="https://api.kickofflabs.com/v1/96370/subscribe">
-               <input type="hidden" name="subject" value="Feedback">
+            <form class="request-demo__form" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">
+               <!-- <input type="hidden" name="subject" value="Feedback">
                <input type="hidden" name="api_key" value="1fd701f8c4ae64d01bf1744e91434e86aee94bd3">
 
+                -->
+                <input type="hidden" name="_cc" value="besnik.vrellaku@visyond.com,alexey.prokopovich@visyond.com" />
 
                 <div class="request-form-field request-demo__input--required">
                     <input name="first_name" type="text" class="request-demo__input" placeholder="First name" required>
@@ -45,6 +47,7 @@
                 <div class="request-form-field">
                     <input name="website" type="url" class="request-demo__input" placeholder="Company website">
                 </div>
+                <input type="text" name="_gotcha" style="display:none" />
                 <button class="request-demo__submit" type="submit">Subscribe</button>
                 <span class="required-fields"><small>*</small>Required fields</span>
             </form>

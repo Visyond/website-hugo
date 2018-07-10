@@ -13,6 +13,7 @@ import HomeTest from "./cms-preview-templates/hometest";
 import Contacts from "./cms-preview-templates/contacts";
 import CaseStudies from "./cms-preview-templates/casestudies";
 import Pricing from "./cms-preview-templates/pricing";
+import Thx from "./cms-preview-templates/thank-you";
 
 
 // Example of creating a custom color widget
@@ -40,4 +41,5 @@ CMS.registerPreviewTemplate("hometest", HomeTest);
 CMS.registerPreviewTemplate("contacts", Contacts);
 CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerPreviewTemplate("pricing", Pricing);
+CMS.registerPreviewTemplate("thank-you", Thx);
 CMS.registerWidget("color", ColorControl);

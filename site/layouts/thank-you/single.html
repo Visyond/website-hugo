@@ -1,0 +1,23 @@
+{{ partial "head" . }}
+
+<div class="thx">
+	<header class="thx__header" style="background-image: url({{ .Params.Image }}) center center no-repeat">
+
+		<h1 class="thx__header-text">
+			{{ .Params.Title }}
+		</h1>
+		
+	</header>
+
+	
+	<div class="thx__body">
+		{{ with .Params.Text }}
+		<p class="thx__text">
+			{{ . | markdownify }}
+		</p>
+		{{ end }}
+	</div>
+
+</div>
+
+{{ partial "footer" . }}
