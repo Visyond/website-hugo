@@ -624,3 +624,14 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
           - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
           - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
+
+
+
+      - file: "site/content/thank-you.md"
+        label: "Thank you"
+        name: "thankyou"
+        type: "thx"
+        fields:
+          - { label: "Bckground Image", name: "image", widget: image, required: true }
+          - { label: "Title", name: "title", widget: string }
+          - { label: "Description", name: "text", widget: mardown }
