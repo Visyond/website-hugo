@@ -632,6 +632,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "thankyou"
         type: "thx"
         fields:
+          - { label: About, name: about, widget: hidden, default: "/thank-you.html" }
+          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: "Bckground Image", name: "image", widget: image, required: true }
           - { label: "Title", name: "title", widget: string }
           - { label: "Description", name: "text", widget: markdown }
