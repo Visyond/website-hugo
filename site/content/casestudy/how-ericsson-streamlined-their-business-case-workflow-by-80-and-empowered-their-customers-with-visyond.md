@@ -36,10 +36,10 @@ client_ask: >-
   account managers are in sales meetings, Kedar is asked to be ready to help in
   case the changes required couldn’t be applied by the Account Manager.
 aside:
-  - content: '![Ericsson](/img/Ericsson_logo.png)'
+  - content: '![undefined](/img/Ericsson_logo.png)'
   - content: "**Challenge**\n\n* Workflow was complicated and hard to follow\r\n* Modeler was the main bottleneck\r\n* Visibility of information was obstructed\r\n* Debugging was painful\r\n* Too much effort was being wasted on setting analyses up\r\n* It was hard to answer ‘what-if’ questions on-the-fly\r\n* Ericsson had to encode the Excel model in a web-based app to help clients test assumptions\r\n* Keeping visualizations in sync with models was troublesome\r\n"
   - content: "**Solution**\r\n\n* Controlled secure environment to model and test assumptions\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow\r\n* Powerful debugging and auditing tools that reduces errors and time\r\n* 1-click autoanalysis\r\n* Interactive online presentations to answer ondemand questions and queries\r\n* Workflow, permission and selective-sharing management\r\n"
-  - content: "**Results at the glance\r**\n\n* Workflow became transparent\r\n* Modeler is no longer a bottleneck\r\n* Single source of truth for models was established\r\n* Error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n"
+  - content: "**Results at the glance**\n\n* Workflow became transparent\r\n* Modeler is no longer a bottleneck\r\n* Single source of truth for models was established\r\n* Error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n"
 solTitle: Related Solutions
 solArticle:
   - descr: ''
@@ -94,7 +94,7 @@ Routine analytical tasks, such as sensitivity (what-if) analysis or scenario com
 
 During meetings with the customers, Account Managers were often asked questions like _“can you tell me what happens if we do not get x% but y% improvement thank to your solution?”_. **Answering meant going back to the model to update and test it, redraw charts and update slides.** By that time Ericsson provided answers, the customer had prepared new questions. Back to square one.
 
-![Hard to answer What If](/img/6 Hard to answer What If.png)
+![Impossible to answer What If](/img/6 Hard to answer What If.png)
 
 ## Ericsson had to encode the Excel model in a web-based app to help clients test assumptions
 
