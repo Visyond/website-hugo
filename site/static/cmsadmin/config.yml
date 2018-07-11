@@ -630,10 +630,9 @@ collections: # A list of collections the CMS should be able to edit
       - file: "site/content/thank-you.md"
         label: "Thank you"
         name: "thx"
-        relativeURLs: "/thank-you"
         fields:
           - { label: Type, name: type, widget: hidden, default: thankyou }
-          - { label: Thank-you, name: thankyou, widget: hidden, default: "/thank-you.html" }
+          - {label: "Page url", name: "url", widget: "string"}
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: "Background Image", name: "image", widget: image, required: true }
           - { label: "Title", name: "title", widget: string }
