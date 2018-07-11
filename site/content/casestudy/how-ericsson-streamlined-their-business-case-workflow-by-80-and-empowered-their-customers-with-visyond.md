@@ -37,9 +37,9 @@ client_ask: >-
   case the changes required couldn’t be applied by the Account Manager.
 aside:
   - content: '![undefined](/img/Ericsson_logo.png)'
-  - content: "**Challenge**\n\n* Workflow was complicated and hard to follow\r\n* Modeler was the main bottleneck\r\n* Visibility of information was obstructed\r\n* Debugging was painful\r\n* Too much effort was being wasted on setting analyses up\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* Ericsson had to encode the Excel model in a web-based app to help clients test assumptions\r\n* Keeping visualizations in sync with models was troublesome\r\n"
+  - content: "**Challenge**\n\n* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
   - content: "**Solution**\r\n\n* Controlled secure environment to model and test assumptions\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow\r\n* Powerful debugging and auditing tools that reduces errors and time\r\n* 1-click autoanalysis\r\n* Interactive online presentations to answer ondemand questions and queries\r\n* Workflow, permission and selective-sharing management\r\n"
-  - content: "**Results at the glance**\n\n* Workflow became transparent\r\n* Modeler is no longer a bottleneck\r\n* Single source of truth for models was established\r\n* Error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n"
+  - content: "**Results at the glance**\n\n* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
 solTitle: Related Solutions
 solArticle:
   - descr: ''
@@ -55,7 +55,7 @@ solArticle:
 ---
 # Before Visyond
 
-## Workflow was complicated and hard to follow
+## Workflow was complicated
 
 The typical process with Excel involved multiple versions of the model (for each account manager) that were sent via email or shared drives. Version control was done manually, resulting in a **huge waste of time, slow responsiveness to customers and undetected errors.**
 
@@ -71,7 +71,7 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 
 ![Modeler was a bottleneck](/img/2 Modeler was a bottleneck.png)
 
-## Visibility of information was obstructed
+## Information was hard to retrieve
 
 In addition, tracking inputs and their authors was very challenging. This **information was not readily available in spreadsheets, was hard to retrieve** and was hidden in long email threads between account managers and customers.
 
@@ -83,7 +83,7 @@ With Excel, Kedar had to spend a lot of time to  ensure that the changes in the 
 
 ![Debugging was painful](/img/4 Debugging was painful.png)
 
-## Too much effort was wasted on setting analyses up
+## Analysis setup was manual and time consuming
 
 Routine analytical tasks, such as sensitivity (what-if) analysis or scenario comparison, were done manually, which **shifted the focus away from getting insights from the data** to setting up Excel.
 
@@ -95,7 +95,7 @@ During meetings with the customers, Account Managers were often asked questions 
 
 ![Impossible to answer What If](/img/6 Hard to answer What If.png)
 
-## Ericsson had to encode the Excel model in a web-based app to help clients test assumptions
+## The Excel model had to be encoded into a web app to help clients test assumptions independently
 
 Customers often asked to test assumptions by themselves. Real time assumption testing was becoming a priority, especially at trade shows where Ericsson wanted to showcase the value of their solutions and visitors needed a simple way to interact with the model.  Obviously, Ericsson could not share the Excel model on the flat screen at their boot  because it contained sensitive data, would not look professional, and would be time consuming for customers to understand and edit it.
 
@@ -105,7 +105,7 @@ Therefore, Kedar **had to hire software developers to create a web version of hi
 * Long delays between changes in model logic or correction of errors or software bugs, and redeployment of the web page
 * Lack of flexibility if the customers or fair-goers wanted to play with assumptions that Ericsson decided not to code in the software
 
-![Encode Excel Model](/img/7 Encode Excel Model.png)
+![The Excel model had to be encoded into a web app](/img/7 Encode Excel Model 2.png)
 
 ## Keeping visualizations in sync with models was troublesome
 
@@ -115,41 +115,41 @@ The work didn’t end with the preparation of the model. After each iteration Ke
 
 # After Visyond
 
-## Workflow became transparent
+> _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
+
+## Stakeholders interact only with what they are allowed to
 
 Visyond allowed Ericsson to quickly build reliable models, perform analyses on-the-fly, securely share spreadsheets and effectively communicate with the customers in a **controlled environment** where stakeholders can model and **test assumptions seeing and interacting with only what they need/can see** while leaving the underlying core logic intact.
 
-![Workflow became transparent](/img/1 Workflow became transparent.png)
+![Stakeholders interact only with what they are allowed to](/img/1 Stakeholders interact only with what they are allowed to 2.png)
 
 ## Modeler is no longer a bottleneck
 
 **Change requests became much easier to manage** as manual data consolidation and version comparison were no longer required, which dramatically improved turnaround time and reduced the risk of errors introduced by clients and account managers.
 
-![Modeler is no longer a bottleneck](/img/2 Modeler is no longer a bottleneck.png)
+![Modeler is no longer a bottleneck](/img/2 Modeler is no longer a bottleneck 2.png)
 
-## Single source of truth for models was established
+## A single source of truth solved the data chaos
 
 With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere at any time** and contains all changes, scenarios, supporting documentation and conversations. It made tracking inputs and identifying their origins simpler as well as removed the need to manage multiple versions of the same spreadsheet.
 
-![Single source of truth](/img/3 Single source of truth.png)
+![A single source of truth solved the data chaos](/img/3 A single source of truth solved the data chaos.png)
 
-## Error discovery is easier
+## Dependency analysis and error discovery is easier
 
-Since the modeler, account managers and customers are no longer bounded by emails and multiple spreadsheet versions, the occurrence of errors was greatly reduced. In addition, Visyond provided powerful debugging tools such as audit mode, error root cause and dependencies analyses that **helped understand the logic better and automate the discovery of errors.**
+Since the modeler, account managers and customers are no longer bounded by emails and multiple spreadsheet versions, the **occurrence of errors was greatly reduced.** In addition, Visyond provided **powerful debugging tools** to track dependencies and the root cause of errors.
 
-![Error discovery is easier](/img/4 Error discovery is easier.png)
+![Dependency analysis and error discovery is easier](/img/4 Dependency analysis and error discovery is easier.png)
 
 ## Analyses can be set up in minutes
 
 Analyses that used to take multiple days to set up and finalize **can be now completed with just a few clicks while also making them easy to update** if customers request so, providing great flexibility and improving turnaround time.
 
-![Analyses can be set up in minutes](/img/5 Analyses can be set up in minutes.png)
+![Analyses can be set up in minutes](/img/5 Analyses can be set up in minutes 2.png)
 
 ## Customers are empowered to safely test assumptions
 
 **‘What-if’ questions can now be answered in real time** without having to go back to the spreadsheet. The interactive online slides are an outstanding and elegant way to visualize different scenarios with the customer. Numbers can be tested directly in the presentation that is linked to the model without exposing it or changing its content or structure.
 Therefore, there is **no longer a need to manually maintain separate presentation layers on top of the spreadsheet** as Visyond can instantaneously adjust to changes in input, output or layout without requiring any development effort from Ericsson.
 
-![Customers are empowered to safely test assumptions](/img/6 Customers are empowered to safely test assumptions.png)
-
-> _Visyond has greatly improved my productivity by reducing modeling time by more than 80%. This allowed me to spend more time on business impact than intricacies of Excel modeling._
+![Customers are empowered to safely test assumptions](/img/6 Customers are empowered to safely test assumptions 2.png)
