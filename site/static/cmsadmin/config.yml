@@ -627,11 +627,11 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-      - file: "site/content/thank-you.md"
+      - file: "site/content/thx.md"
         label: "Thank you"
         name: "thx"
         fields:
-          - { label: Type, name: type, widget: hidden, default: thankyou }
+          - { label: Type, name: type, widget: hidden, default: thx }
           - {label: "Page url", name: "url", widget: "string"}
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: "Background Image", name: "image", widget: image, required: true }
