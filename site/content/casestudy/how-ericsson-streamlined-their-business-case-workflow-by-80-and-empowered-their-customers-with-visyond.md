@@ -115,13 +115,13 @@ The work didn’t end with the preparation of the model. After each iteration Ke
 
 # After Visyond
 
-> _Visyond has greatly improved my productivity by reducing modeling time by more than 80%. This allowed me to spend more time on business impact than intricacies of Excel modeling._
+> _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
 
 ## Stakeholders interact only with what they are allowed to
 
 Visyond allowed Ericsson to quickly build reliable models, perform analyses on-the-fly, securely share spreadsheets and effectively communicate with the customers in a **controlled environment** where stakeholders can model and **test assumptions seeing and interacting with only what they need/can see** while leaving the underlying core logic intact.
 
-![Stakeholders interact only with what they are allowed to](/img/1 Stakeholders interact only with what they are allowed to.png)
+![Stakeholders interact only with what they are allowed to](/img/1 Stakeholders interact only with what they are allowed to 2.png)
 
 ## Modeler is no longer a bottleneck
 
@@ -145,7 +145,7 @@ Since the modeler, account managers and customers are no longer bounded by email
 
 Analyses that used to take multiple days to set up and finalize **can be now completed with just a few clicks while also making them easy to update** if customers request so, providing great flexibility and improving turnaround time.
 
-![Analyses can be set up in minutes](/img/5 Analyses can be set up in minutes.png)
+![Analyses can be set up in minutes](/img/5 Analyses can be set up in minutes 2.png)
 
 ## Customers are empowered to safely test assumptions
 
