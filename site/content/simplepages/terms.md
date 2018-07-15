@@ -39,7 +39,7 @@ You understand and acknowledge that you are responsible for any User Content you
 Visyond Ventures Ltd. is registered in UK. Notwithstanding the disclaimer set forth in the introduction of this Agreement, by using Visyond you acknowledge that you are voluntarily transferring information (potentially including personally-identifiable information) and content also to the United Kingdom. You agree that Visyond's collection, use, storage and sharing of your information and Content is subject to the laws of the United Kingdom, not of the jurisdiction in which you are located. This Agreement is governed by the laws of England and Wales.
 <br></br>
 
-## PAYMENT AND RENEWAL
+## PAYMENTS AND RENEWALS
 
 Subscriptions to Visyond may be made available for free or paid depending on the service levels subscribed to. Not all of the features and functionalities of Visyond may be available in each version or service level. The features and functionalities of each version or service level may be changed from time to time at Visyond's sole discretion.
 
@@ -47,13 +47,13 @@ In order to subscribe to Visyond, you may be required to provide Visyond with bi
 
 Unless other payment arrangements have been agreed with Visyond, you authorize Visyond to automatically and immediately bill your Payment Source without any further action on your part or other prior notice on the part of Visyond. You assume full responsibility for such charges, even if such charges are declined or not paid by your Payment Source.
 
-Unless stated to the contrary, all charges for paid versions of Visyond are non-refundable, even if your use of the paid version of the Visyond is cancelled before the end of your current billing period.
+Unless stated to the contrary, all charges for paid versions of Visyond are non-refundable, even if your use of the paid version of Visyond is cancelled before the end of your current billing period.
 
 Unless otherwise indicated, all currency references in paid versions of Visyond are in USD.
 
-If you choose to upgrade, you will immediately have access to the new plan and you will only be charged at the start of the new billing period.
+If you choose to upgrade, you will immediately have access to the new plan or feature(s) and will be charged pro-rata during the current billing period.
 
-If you wish to suspend your premium plan or downgrade to another plan, this decision will be effective at the end of the current billing period.
+If you wish to downgrade your premium plan or feature(s), this decision will be effective at the end of the current billing period.
 
 You are solely responsible for any and all taxes, levies, charges and fees incurred or that may be payable to any taxing authority in connection with the transactions hereunder, other than any income tax incurred by Visyond. All fees stated for use of Visyond are net of any applicable taxes.
 
