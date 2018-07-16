@@ -1,0 +1,94 @@
+{{ partial "head" . }}
+
+
+<!-- first section -->
+<div class="first-section prn1st" style="background-image: url({{ .Params.BgImage }})">
+	
+  <h2 class="prn1st__title">
+    {{ .Params.TopTitle }}
+  </h2>
+
+  <div class="prn1st__under-title">
+    {{ .Params.TopSubTitle }}
+  </div>
+</div>
+<!-- //first section -->
+
+
+<!-- second section -->
+<section class="prn2nd" id="pricing">
+    <div class="container">
+        <h3 class="pnt1st-title prn1st-title--pricing">{{ .Params.PricingTitle }}</h3>
+        <h4 class="prn2nd__subtitle">{{ .Params.FirstPricingSubTitle }}
+            <p>{{ .Params.SecondPricingSubTitle }}</p>
+        </h4>
+
+        <ul class="prn2nd__list">
+            <li class="prn2nd__item prn2nd__item--left">
+                <article class="prn2nd__card">
+                    <div class="prn2nd__title-wrap">
+                        <h3 class="prn2nd__title">{{ .Params.LeftCardTitle }}</h3>
+                        <h4 class="prn2nd__card-subtitle">{{ .Params.LeftCardSubTitle }}</h4>
+                    </div>
+                    <ul>
+                        {{ range $el := .Params.LeftCardPoint }}
+                        <li>
+                            {{ $el.line }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="prn2nd-btn-wrap">
+                        <a href="/request-a-demo" class="prn2nd-btn prn2nd-btn--landing-preview" aria-label="button">quote</a>
+                    </div>
+                </article>
+            </li>
+            <li class="prn2nd__item prn2nd__item--middle">
+                <article class="prn2nd__card">
+                    <div class="prn2nd__title-wrap">
+                        <h3 class="prn2nd__title">{{ .Params.MiddleCardTitle }}</h3>
+                        <h4 class="prn2nd__card-subtitle">{{ .Params.MiddleCardSubTitle }}</h4>
+                    </div>
+                    <ul>
+                        {{ range $el := .Params.MiddleCardPoint }}
+                        <li>
+                            {{ $el.line }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="prn2nd-btn-wrap prn2nd-btn-wrap--pricing">
+                        <a href="/request-a-demo" class="prn2nd-btn prn2nd-btn--landing-preview" aria-label="button">quote</a>
+                    </div>
+                </article>
+            </li>
+            <li class="prn2nd__item prn2nd__item--right">
+                <article class="prn2nd__card">
+                    <div class="prn2nd__title-wrap">
+                        <h3 class="prn2nd__title">{{ .Params.RightCardTitle }}</h3>
+                        <h4 class="prn2nd__card-subtitle">{{ .Params.RightCardSubTitle }}</h4>
+                    </div>
+                    <ul>
+                        {{ range $el := .Params.RightCardPoint }}
+                        <li>
+                            {{ $el.line }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    <div class="prn2nd-btn-wrap prn2nd-btn-wrap--pricing">
+                        <a href="/request-a-demo" class="prn2nd-btn prn2nd-btn--landing-preview" aria-label="button">quote</a>
+                    </div>
+                </article>
+            </li>
+        </ul>
+
+        <div class="prn2nd__asked-wrap">
+            <p class="prn2nd__asked-descr">
+                {{ .Params.PriceClientAsked }}
+            </p>
+            <address class="prn2nd__asked-company">{{ .Params.PriceClientCompany }}</address>
+            <img src="{{ .Params.PriceClientCompanyLogo }}" alt="" class="prn2nd__asked-img">
+        </div>
+    </div>
+</section>
+<!-- //second section -->
+
+{{ partial "footer" . }}
