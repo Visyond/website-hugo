@@ -1,4 +1,5 @@
 ---
+url: "/pricing-new"
 type: pricing-new
 title: Pricing New
 topTitle: '## Pay Only For What You Need'
