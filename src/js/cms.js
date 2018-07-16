@@ -13,7 +13,7 @@ import HomeTest from "./cms-preview-templates/hometest";
 import Contacts from "./cms-preview-templates/contacts";
 import CaseStudies from "./cms-preview-templates/casestudies";
 import Pricing from "./cms-preview-templates/pricing";
-import PricingNew from "./cms-preview-templates/pricing-new";
+// import PricingNew from "./cms-preview-templates/pricing-new";
 // import Thx from "./cms-preview-templates/thx";
 
 
@@ -42,6 +42,6 @@ CMS.registerPreviewTemplate("hometest", HomeTest);
 CMS.registerPreviewTemplate("contacts", Contacts);
 CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerPreviewTemplate("pricing", Pricing);
-CMS.registerPreviewTemplate("pricing-new", PricingNew);
+// CMS.registerPreviewTemplate("pricing-new", PricingNew);
 // CMS.registerPreviewTemplate("thx", Thx);
 CMS.registerWidget("color", ColorControl);
