@@ -628,10 +628,11 @@ collections: # A list of collections the CMS should be able to edit
 
       - file: "site/content/pricing-new.md"
         label: "Pricing New"
-        name: "pricing-new"
-        type: "pricing-new"
+        name: "pricingnew"
+        type: "pricingnew"
+        url: "/pricing-new"
         fields:
-          - { label: Type, name: type, widget: hidden, default: pricing-new }
+          - { label: Type, name: type, widget: hidden, default: pricingnew }
           - {label: "Page title", name: "title", widget: "string", required: false,}
           - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
           - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}

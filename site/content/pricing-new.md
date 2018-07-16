@@ -1,5 +1,6 @@
 ---
 title: Pricing New
+type: pricing-new
 topTitle: '## Pay Only For What You Need'
 topSubTitle: 14-day Free Trial
 bgImage: /img/analysts_consultants 3.jpg
