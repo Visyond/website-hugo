@@ -1,5 +1,6 @@
 ---
 title: Pricing New
+url: "/pricing-new"
 type: pricing-new
 topTitle: '## Pay Only For What You Need'
 topSubTitle: 14-day Free Trial
