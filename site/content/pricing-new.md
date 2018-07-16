@@ -1,8 +1,8 @@
 ---
-title: Pricing New
 type: pricing-new
+title: Pricing New
 topTitle: '## Pay Only For What You Need'
-topSubTitle: 14-day Free Trial
+topSubTitle: 14-day Free Trial!
 bgImage: /img/analysts_consultants 3.jpg
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $25/user/month.
