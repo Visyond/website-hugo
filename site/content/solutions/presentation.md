@@ -8,7 +8,7 @@ topSubTitle: >-
   information they are authorized to see and interact with
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/presentation top 1.jpg
 infoBlockFirst:
   - descr: >-
@@ -147,6 +147,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
