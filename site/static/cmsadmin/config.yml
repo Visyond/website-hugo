@@ -405,11 +405,14 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-  - name: "npricing"
-    label: "New Pricing"
-    file: "site/content/npricing.md"
-    fields:
-      - {label: Title, name: title, widget: string}
+  - name: "single"
+    label: "Single"
+    files:
+      - file: "site/content/npricing.md"
+        label: "New Pricing"
+        name: "npricing"
+        fields:
+          - {label: Title, name: title, widget: string}
 
 
 
