@@ -8,7 +8,7 @@ topSubTitle: >-
   company’s future is at stake.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
   - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and _expose only what each person should see or interact with_!\r\n"
@@ -106,6 +106,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
