@@ -630,7 +630,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Pricing New"
         name: "pricingnew"
         fields:
-          - { label: Pricingnew, name: pricingnew, widget: hidden, default: "/pricing-new.html" }
+          - {label: "Page url", name: "url", widget: "string"}
           - { label: Type, name: type, widget: hidden, default: pricingnew }
           - {label: "Page title", name: "title", widget: "string", required: false,}
           - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
