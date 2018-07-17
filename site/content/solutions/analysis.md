@@ -8,7 +8,7 @@ topTitle: |-
 topSubTitle: "Collaboratively perform advanced and routine data analysis in minutes instead of days and securely & selectively share valuable business insights with stakeholders with the help of Visyond’s interactive dashboards and apps allowing you to test various assumptions without breaking the underlying logic and calculations.\r\n"
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/analysts_consultants 1.jpg
 infoBlockFirst:
   - descr: >-
@@ -141,6 +141,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
