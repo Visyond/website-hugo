@@ -1,5 +1,5 @@
 ---
 type: request-a-demo
-title: Request Demo
+title: Request A Demo
 url: '/request'
 ---
