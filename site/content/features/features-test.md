@@ -7,7 +7,7 @@ topSubTitle: >-
   consequuntur nostrum similique, quisquam, animi repellat. Perspiciatis,
   ducimus, incidunt.
 signUpURL: /accounts/signup/
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: Description
@@ -34,6 +34,6 @@ providesList:
   - text: Description
 titleBottom: title
 bgBottom: /img/banner gov resize.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
