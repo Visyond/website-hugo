@@ -11,7 +11,7 @@ topSubTitle: >-
   granular permissions control.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
@@ -128,6 +128,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
