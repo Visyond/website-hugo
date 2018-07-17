@@ -66,13 +66,13 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Solutions Block Title", name: solTitle, widget: string}
+      - {label: "Solutions Block Title", name: solTitle, widget: string, required: false}
       - {label: "Solutions Block Article", name: "solArticle", widget: list, fields: [
           {label: "Title", name: "title", widget: string},
           {label: "Image", name: "image", widget: image},
           {label: "Description", name: descr, widget: text, required: false},
           {label: "Link", name: "link", widget: string, default: "#"},
-        ]}
+        ], required: false}
 
       - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
       - {label: "Slider Customers", name: "slider", widget: "list", fields: [
