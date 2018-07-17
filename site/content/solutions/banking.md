@@ -4,7 +4,7 @@ topTitle: 'Better Lending Decisions, Higher Portfolio Profitability'
 topSubTitle: "A collaborative spreadsheet platform for people who need to work together to make and present decisions based on numbers.\r\n\r"
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /contacts
+requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Less Risk - more control over critical information\r\n* Fewer errors and higher productivity - Automated and standardized workflows\r\n* Better Customer Experience - Quicker turn-around and Modern collaborative interface\r\n* Lower switching costs & quick time-to-value - Ready out of the box, compatible with legacy systems, does not require full-scale transition & can be adopted incrementally\r\n"
@@ -110,6 +110,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /contacts
+botRequestURL: /request
 ---
 
