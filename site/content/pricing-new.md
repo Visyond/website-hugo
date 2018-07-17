@@ -1,4 +1,5 @@
 ---
+url: /pricing-new
 title: Pricing New
 topTitle: Top title
 topSubTitle: Top sub title
