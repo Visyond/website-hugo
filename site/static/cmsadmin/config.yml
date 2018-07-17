@@ -626,7 +626,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
 
 
-      - file: "site/content/pricing-new.md"
+
+
+
+
+      - file: "site/content/pricingnew.md"
         label: "Pricing New"
         name: "pricingnew"
         fields:
@@ -638,40 +642,51 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
           - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
 
-          - { label: "Pricing title", name: "pricingTitle", widget: "string", required: false }
-          - { label: "Pricing sub-title-1", name: "firstPricingSubTitle", widget: "string", required: false }
-          - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string", required: false }
+          # - { label: "Pricing title", name: "pricingTitle", widget: "string", required: false }
+          # - { label: "Pricing sub-title-1", name: "firstPricingSubTitle", widget: "string", required: false }
+          # - { label: "Pricing sub-title-2", name: "secondPricingSubTitle", widget: "string", required: false }
 
-          - { label: "Left card title", name: "leftCardTitle", widget: "string", required: false }
-          - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string", required: false }
-          - { label: "Left card point", name: "leftCardPoint", widget: "list",
-            fields: [
-              {label: "Line", name: "line", widget: "string"},
-            ],
-            required: false,
-          }
+          # - { label: "Left card title", name: "leftCardTitle", widget: "string", required: false }
+          # - { label: "Left card sub-title", name: "leftCardSubTitle", widget: "string", required: false }
+          # - { label: "Left card point", name: "leftCardPoint", widget: "list",
+          #   fields: [
+          #     {label: "Line", name: "line", widget: "string"},
+          #   ],
+          #   required: false,
+          # }
 
-          - { label: "Middle card title", name: "middleCardTitle", widget: "string", required: false }
-          - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: false }
-          - { label: "Middle card point", name: "middleCardPoint", widget: "list",
-            fields: [
-              {label: "Line", name: "line", widget: "string"},
-            ],
-            required: false,
-          }
+          # - { label: "Middle card title", name: "middleCardTitle", widget: "string", required: false }
+          # - { label: "middle card sub-title", name: "middleCardSubTitle", widget: "string", required: false }
+          # - { label: "Middle card point", name: "middleCardPoint", widget: "list",
+          #   fields: [
+          #     {label: "Line", name: "line", widget: "string"},
+          #   ],
+          #   required: false,
+          # }
 
-          - { label: "Right card title", name: "rightCardTitle", widget: "string", required: false }
-          - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: false }
-          - { label: "Right card point", name: "RightCardPoint", widget: "list",
-            fields: [
-              {label: "Line", name: "line", widget: "string"},
-            ],
-            required: false,
-          }
+          # - { label: "Right card title", name: "rightCardTitle", widget: "string", required: false }
+          # - { label: "Right card sub-title", name: "rightCardSubTitle", widget: "string", required: false }
+          # - { label: "Right card point", name: "RightCardPoint", widget: "list",
+          #   fields: [
+          #     {label: "Line", name: "line", widget: "string"},
+          #   ],
+          #   required: false,
+          # }
 
-          - { label: "Price client askded", name: "priceClientAsked", widget: "string", required: false }
-          - { label: "Price client company name", name: "priceClientCompany", widget: "string", required: false }
-          - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image", required: false }
+          # - { label: "Price client askded", name: "priceClientAsked", widget: "string", required: false }
+          # - { label: "Price client company name", name: "priceClientCompany", widget: "string", required: false }
+          # - { label: "Price client company logo", name: "priceClientCompanyLogo", widget: "image", required: false }
+
+
+
+
+
+
+
+
+
+
+
 
           
       # - file: "site/content/thx.md"
