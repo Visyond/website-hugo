@@ -12,7 +12,7 @@ topSubTitle: >-
   ceaseless nightmare.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/data input and consolidation 2.png
 infoBlockFirst:
   - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\n\n* Automatically _update layout changes maintaining complete synchronization_ and data accuracy with _Visyond’s Template Manager_\r\n* Capture and _store all supporting data_, comments, and collaborators identification within Visyond, allowing complete transparency while _eliminating risk of losing data_\n* Compare data from departments, territories, sold services, or products _side by side with ease_\n* Create _multiple “what-if” scenarios_ with just a few clicks\r\n\n\nThe _spreadsheet owner maintains complete control and visibility_ over the entire data gathering process. This _eradicates rework and manual auditing_ due to manually handling and linking spreadsheets. \r\n\r\n\nVisyond makes the data gathering process efficient allowing you to _cut days worth of effort down to minutes_. It _eliminates the need for all the manual processes_ that are inherent with spreadsheets. \r\n"
@@ -93,6 +93,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
