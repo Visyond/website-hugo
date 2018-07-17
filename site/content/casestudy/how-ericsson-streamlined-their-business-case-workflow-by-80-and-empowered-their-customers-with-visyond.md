@@ -1,6 +1,6 @@
 ---
 title: >-
-  How Ericsson streamlined their business case workflow by 80% and empowered
+  How Ericsson accelerates their business case workflow by 80% and empowers
   their customers with Visyond
 image: /img/topImgCase.jpg
 tooltip:
