@@ -6,9 +6,7 @@ image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Telecom'
   - title: 'Function: Sales, Strategy'
-  - title: >-
-      Use Cases: Sales negotiation, Business Impact Modeling, Analysis,
-      Presentation
+  - title: 'Use Cases: Sales negotiation, Impact Modeling, Analysis, Presentation'
 client: /img/Kedar Thakar case study image.jpg
 client_ask: >-
   Kedar Thakar is a **Principal Value Consultant** at Ericsson, a company with
