@@ -1,5 +1,7 @@
 {{ partial "head" . }}
 
-<h1>hello</h1>
+{{ with .Params.Title }}
+<h1>{{ . }}</h1>
+{{ end }}
 
 {{ partial "footer" . }}
