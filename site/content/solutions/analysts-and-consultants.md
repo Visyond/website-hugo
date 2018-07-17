@@ -10,7 +10,7 @@ topSubTitle: >-
   and without accurate numbers, you’ll draw the wrong conclusion.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: "Put an end to the long wary hours of preparing calculations for _multiple scenarios_!\r\n\r\n\r\nVisyond connects you to intelligent data that propagates your formulas with swiftness and ease, graphically displays opportunities and risks, aggregates data in real time, helps you easily find the source of information and lets you _answer what-if questions on the fly_.\r\n"
@@ -115,6 +115,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
