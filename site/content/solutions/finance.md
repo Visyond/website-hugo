@@ -9,7 +9,7 @@ topSubTitle: >-
   mistakes.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email and manual data consolidations. This opens the door to a massive loss of time and high risk of working with inaccurate data. Most business employ additional manual audits to protect themselves which leads to even more time lost while other departments wait for your reports!\r\n\r\nWith Visyond you can _easily consolidate data, test assumptions, run analysis at an unprecedented speed and accuracy_. Data is securely stored in the cloud (or on-premise), you can manage and _transfer team knowledge and supporting documents easily_, track all inputs, changes and versions, and _eliminate dependency from the model creator_ by testing your assumptions from any device _without risking to break the model or any formulas_.\r\n"
@@ -115,6 +115,6 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
