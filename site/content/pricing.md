@@ -5,7 +5,7 @@ topTitle: Pay Only For What You Need
 topSubTitle: 14-day Free Trial
 signUpURL: /accounts/signup/
 watchVideoURL: ''
-requestURL: /request-a-demo
+requestURL: /request
 bgImage: /img/topImgPricing.jpg
 tableHead:
   - contacttext: ''
@@ -181,6 +181,6 @@ bottomColumns:
     title: CAN I UPGRADE OR DOWNGRADE MY PLAN OR FEATURES AT ANY TIME?
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/topImgTerms.png
-botRequestURL: /request-a-demo
+botRequestURL: /request
 ---
 
