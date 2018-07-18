@@ -1,5 +1,16 @@
 {{ partial "head" . }}
 
-<h1>{{ .Params.TopTitle }}</h1>
+<!-- first section -->
+<div class="first-section prs1st" style="background-image: url({{ .Params.BgImage }})">
+	
+  <h2 class="prs1st__title">
+    {{ .Params.TopTitle }}
+  </h2>
+
+  <div class="prs1st__under-title">
+    {{ .Params.TopSubTitle }}
+  </div>
+</div>
+<!-- //first section -->
 
 {{ partial "footer" . }}
