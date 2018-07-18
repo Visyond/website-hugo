@@ -1,5 +1,5 @@
 ---
 url: /new-pricing
-title: New pricing page
+title: New pricing page!
 ---
 
