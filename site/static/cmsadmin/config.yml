@@ -414,6 +414,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page url", name: "url", widget: string}
       - {label: "Top Title", name: "topTitle", widget: markdown}
       - {label: "Top Sub Title", name: "topSubTitle", widget: markdown}
+      - {label: "Background Image", name: "bgImage", widget: image}
 
 
 
