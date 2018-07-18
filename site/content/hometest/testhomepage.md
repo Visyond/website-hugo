@@ -11,7 +11,7 @@ requestURL: /request
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond Inforgraphics  NEW v14.png
+topImage: /img/Visyond Inforgraphics  NEW v13 smaller.png
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
@@ -41,15 +41,25 @@ infoBlockFirst:
       interfaces,  without changing (and risking to break) the spreadsheet
     files:
       - descr: >-
-          Communicate with stakeholders and attach supporting documentation
-          directly in Visyond.
+          Securely store spreadsheet data; multiple assumptions, scenarios,
+          conversations and attachments directly in the relevant cells
         file: /img/Attachments and Comments in Browser v2.png
-        title: No back-and-forth emails
+        title: Single Source Of Truth
       - descr: >-
-          Record and track all inputs without the risk of overwriting or losing
-          the data.
+          Limit what parts of the spreadsheet people can interact with, down to
+          a single cell
+        file: /img/Nice Model in Browser v2.png
+        title: Secure Selective Sharing
+      - descr: >-
+          Keep track of inputs, changes and versions with always up-to-date
+          automatic reports and interactive presentation
         file: /img/Cases in Browser v2.png
-        title: Track inputs
+        title: Track Inputs
+      - descr: >-
+          Gather assumptions and enable others to test them through simple
+          interfaces, without changing (and risking to break) the spreadsheet
+        file: /img/Interactive Slides in Browser v3.png
+        title: Test Numbers
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
     title: Collaborate With Simplicity And Peace of Mind
