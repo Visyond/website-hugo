@@ -411,8 +411,8 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Page url", name: url, widget: string}
-      - {label: "Title", name: title, widget: string}
+      - {label: "Page url", name: "url", widget: string}
+      - {label: "Top Title", name: "topTitle", widget: string}
 
 
 
