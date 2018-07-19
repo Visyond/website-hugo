@@ -449,7 +449,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Background Bottom", name: "bgBottom", widget: "image"}
       - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-      - {label: "Link Bottom", name: "linkBottom", widget: "string", default: "https://visyond.com/contacts/"}
+      - {label: "Link Bottom", name: "linkBottom", widget: "string", default: "https://visyond.com/contacts/", required: false}
 
 
 
