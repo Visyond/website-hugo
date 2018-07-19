@@ -22,14 +22,15 @@
         </h4>
 
         <ul class="prs2nd__list">
+        	{{ $lcard := .Params.LeftCard }}
             <li class="prs2nd__item prs2nd__item--left">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ .Params.LeftCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ .Params.LeftCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $lcard.leftCardTitle }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $lcard.LeftCardSubTitle }}</h4>
                     </div>
                     <ul>
-                        {{ range $el := .Params.LeftCardPoint }}
+                        {{ range $el := $lcard.LeftCardPoint }}
                         <li>
                             {{ $el.line }}
                         </li>
@@ -40,14 +41,16 @@
                     </div>
                 </article>
             </li>
+
+            {{ $mcard := .Params.MiddleCard }}
             <li class="prs2nd__item prs2nd__item--middle">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ .Params.MiddleCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ .Params.MiddleCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $mcard.MiddleCardTitle }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $mcard.MiddleCardSubTitle }}</h4>
                     </div>
                     <ul>
-                        {{ range $el := .Params.MiddleCardPoint }}
+                        {{ range $el := $mcard.MiddleCardPoint }}
                         <li>
                             {{ $el.line }}
                         </li>
@@ -58,14 +61,16 @@
                     </div>
                 </article>
             </li>
+
+            {{ $rcard := .Params.RightCard }}
             <li class="prs2nd__item prs2nd__item--right">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ .Params.RightCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ .Params.RightCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $rcard.RightCardTitle }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $rcard.RightCardSubTitle }}</h4>
                     </div>
                     <ul>
-                        {{ range $el := .Params.RightCardPoint }}
+                        {{ range $el := $rcard.RightCardPoint }}
                         <li>
                             {{ $el.line }}
                         </li>
