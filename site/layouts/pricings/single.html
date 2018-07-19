@@ -37,7 +37,7 @@
                         {{ end }}
                     </ul>
                     <div class="prs2nd__btn-wrap">
-                        <a href="/request-a-demo" class="prs2nd__btn" aria-label="button">Contact</a>
+                        <a href="{{ $lcard.leftCardLink }}" class="prs2nd__btn" aria-label="button">Contact</a>
                     </div>
                 </article>
             </li>
@@ -57,7 +57,7 @@
                         {{ end }}
                     </ul>
                     <div class="prs2nd__btn-wrap">
-                        <a href="/request-a-demo" class="prs2nd__btn" aria-label="button">Contact</a>
+                        <a href="{{ $mcard.middleCardLink }}" class="prs2nd__btn" aria-label="button">Contact</a>
                     </div>
                 </article>
             </li>
@@ -77,7 +77,7 @@
                         {{ end }}
                     </ul>
                     <div class="prs2nd__btn-wrap">
-                        <a href="/request-a-demo" class="prs2nd__btn" aria-label="button">Trial</a>
+                        <a href="{{ $rcard.rightCardLink }}" class="prs2nd__btn" aria-label="button">Trial</a>
                     </div>
                 </article>
             </li>
@@ -93,5 +93,18 @@
     </div>
 </section>
 <!-- //second section -->
+
+<!-- third section -->
+<section class="third-section prs3rd" style="background-image: url({{ .Params.BgBottom }})">
+      <h3 class="prs3rd__title">
+        {{ .Params.TitleBottom }}
+      </h3>
+
+      <!-- <a href="{{ .Params.BotRequestURL }}" class="sol-link sol-link--request"> -->
+      <a href="https://visyond.com/contacts/" class="prs3rd__btn prs3rd__btn--request">
+        request a demo
+      </a>
+    </section>
+<!-- //third section -->
 
 {{ partial "footer" . }}
