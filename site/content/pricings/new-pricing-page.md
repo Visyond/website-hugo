@@ -41,5 +41,8 @@ priceClientAsked: >-
   can confidently answer what-if questions with a few clicks.
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/delo1.png
+bgBottom: /img/topImgTeam.jpg
+titleBottom: Find out how to improve your decision-making process today
+linkBottom: 'https://visyond.com/contacts/'
 ---
 
