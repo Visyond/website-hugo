@@ -10,7 +10,6 @@
   text-align: center;
   padding: 40px 10px 0;
   background-size: cover;
-  margin-bottom: 5rem;
 }
 
 .prs1st__title {
@@ -188,12 +187,12 @@
     display: inline-block;
     font-size: 16px;
     line-height: 18px;
-    color: #2a2c37;
-    padding: 19px 70px;
-    font-weight: 600;
-    background: #fff;
+    color: #fff;
+    padding: 15px 36px;
+    font-weight: 300;
+    background: #0585ff;
     text-transform: uppercase;
-    border-radius: 4px;
+    border-radius: 6px;
     transition: color .2s ease-in-out,
                 border .2s ease-in-out,
                 background .2s ease-in-out;
