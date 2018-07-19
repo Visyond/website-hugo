@@ -37,3 +37,228 @@
   margin-bottom: 2rem;
   text-shadow: 0 5px 5px rgba(0,0,0,.3);
 }
+
+
+
+
+
+
+
+
+.prs2nd {
+    padding: 75px 0;
+    background: #f5f6f9;
+    @media screen and (max-width: 1024px) {
+        padding: 40px 0;
+    }
+}
+.prs2nd__title {
+    color: rgba(81, 84, 107, .8);
+    font-size: 29px;
+    line-height: 42px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        font-size: 22px;
+    }
+}
+
+.prs2nd__subtitle {
+    text-align: center;
+    color: #5f6976;
+    font-size: 26px;
+    line-height: 25px;
+    font-weight: 300;
+    max-width: 876px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.prs2nd__subtitle > p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.prs2nd__list {
+    margin: 45px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 1024px) {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+}
+
+.prs2nd__item {
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(82, 85, 108, .3);
+    padding: 40px 55px 30px 55px;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+
+
+.prs2nd__item--middle {
+    padding: 40px 55px 40px 55px;
+    box-shadow: 0 7px 20px rgba(82, 85, 108, .3);
+    margin-top: -10px;
+    transform: scale(1.1);
+
+    @media screen and (max-width: 1024px) {
+        margin-top: 0;
+        transform: scale(1);
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .prs2nd__item--left {
+        order: 2;
+    }
+    .prs2nd__item--right {
+        order: 3;
+    }
+}
+
+.prs2nd__title-wrap {
+    text-align: center;
+    color: #5f6976;
+}
+
+.prs2nd__title {
+    font-size: 31px;
+    margin-bottom: -5px;
+}
+
+.prs2nd__card {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+}
+
+.prs2nd__card-subtitle {
+    font-weight: 300;
+}
+
+.prs2nd__card > ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.prs2nd__card li {
+    position: relative;
+    text-indent: 10px;
+    font-weight: 300;
+    color: #5f6976;
+    &:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    &:after {
+        content: '';
+        background: #00B5B8;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 9px;
+    }
+}
+
+.prs2nd__btn-wrap {
+    margin-top: auto;
+    text-align: center;
+}
+
+.prs2nd__btn {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 18px;
+    color: #2a2c37;
+    padding: 19px 70px;
+    font-weight: 600;
+    background: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: color .2s ease-in-out,
+                border .2s ease-in-out,
+                background .2s ease-in-out;
+    border: 2px solid #fff;
+    margin-top: 65px;
+    
+    @media screen and (max-width: 1201px) {
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 14px 60px;
+    }
+}
+
+
+
+.prs2nd__asked-wrap {
+    text-align: center;
+    width: 450px;
+    margin: 85px auto 0 auto;
+
+    @media screen and (max-width: 651px) {
+        width: 100%;
+    }
+}
+
+.prs2nd__asked-descr {
+    text-align: left;
+    position: relative;
+    padding: 0 15px;
+    color: #52556c;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    margin-bottom: 25px;
+    &:before, &:after {
+        content: "";
+        background: url(/img/vimages/quote.png) no-repeat;
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+    }
+    &:before {
+        left: 0;
+        top: 5px;
+    }
+    &:after {
+        right: 0;
+        bottom: 0;
+        transform: rotate(180deg);
+    }
+}
+
+.prs2nd__asked-company {
+    color: rgba(82, 85, 108, .8);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.prs2nd__asked-img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
