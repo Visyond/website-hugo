@@ -11,6 +11,7 @@ secondPricingSubTitle: >-
   For companies and teams the prices are custom and depend on specific use cases
   and feature requirements
 leftCard:
+  leftCardLink: /request
   leftCardPoint:
     - line: One project
     - line: 3 collaborators
@@ -20,6 +21,7 @@ leftCard:
     manage, analyse and report spreadsheet data
   leftCardTitle: Solo
 middleCard:
+  middleCardLink: /contacts
   middleCardPoint:
     - line: Custom workflows
     - line: Custom integrations
@@ -29,6 +31,7 @@ middleCard:
   middleCardSubTitle: 'The complete spreadsheet platform, for larger teams with complex models'
   middleCardTitle: Enterprise
 rightCard:
+  rightCardLink: /contacts
   rightCardPoint:
     - line: Collaboration
     - line: Analysis suite
