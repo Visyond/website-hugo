@@ -112,20 +112,7 @@
     <!-- ./section capabilities -->
 
     <!-- trusted section -->
-    <section class="sol-trusted">
-      <h3 class="sol-trusted__title">
-        {{ .Params.TrustedTitle }}
-      </h3>
-      <div class="sol-trusted__wrapper">
-        <ul class="sol-trusted__logos-wrap js-slider">
-          {{ range $el := .Params.TrustedLogos }}
-          <li class="sol-trusted__logo-item">
-            <img src="{{ .logo }}" alt="logo">
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-    </section>
+    {{ partial "trustedslider" . }}
     <!-- ./trusted section -->
 
     <!-- section studies -->
