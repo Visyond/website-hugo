@@ -554,6 +554,11 @@ collections: # A list of collections the CMS should be able to edit
             { label: "email", name: socialEmail, widget: "string" }
           ]}
           
+
+
+
+
+
       - file: "site/content/nav/_index.md"
         label: "Navigation"
         name: "nav"
@@ -572,6 +577,11 @@ collections: # A list of collections the CMS should be able to edit
             { label: "path", name: "path", widget: "string" }
           ]}
 
+
+
+
+
+
       - file: "site/content/cookies/_index.md"
         label: "Cookies"
         name: "cookies"
@@ -580,34 +590,39 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree"}
           - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more"}
           - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/"}
+
+
+
+
+
+
       - file: "site/content/counters/_index.md"
         label: "Counters"
         name: "counters"
         fields:
           - { label: "Counters scripts", name: "countersScripts", widget: markdown }
-      # - file: "site/content/_index.md"
-      #   label: "Home Page"
-      #   name: "home"
-      #   fields:
-      #     - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      #     - { label: "Page title", name: "title", widget: hidden }
-      #     - { label: "Card title", name: "cardTitle", widget: "markdown" }
-      #     - { label: Cards, name: "cards", widget: list, fields: [
-      #         { label: "Card title", name: "cardTitle", widget: "string" },
-      #         { label: "Card background", name: "cardBackground", widget: "image" },
-      #         { label: "Card icon", name: "cardIcon", widget: "image" },
-      #         { label: "Card description", name: "cardDescr", widget: "string" },
-      #         { label: "Card path", name: "cardLink", widget: "string" },
-      #     ]}
-      #     - { label: "Clients", name: "client", widget: list, fields: [
-      #       { label: "Client icon", name: "clientIcon", widget: image }
-      #     ]}
-      #     - { label: Slider, name: "slider", widget: list, fields: [
-      #         { label: "slider photo", name: "sliderphoto", widget: "image" },
-      #         { label: "slider description", name: "sliderDescr", widget: "string" },
-      #         { label: "slider company", name: "slidercompany", widget: "string" },
-      #         { label: "slider logo", name: "sliderlogo", widget: "image" },
-      #     ]}
+
+
+
+
+
+
+
+      - file: "site/content/trustedslider/_index.md"
+        label: "Trusted Slider"
+        name: "trustedslider"
+        fields:
+          - {label: "Trusted Title", name: "trustedTitle", widget: "string"}
+          - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
+            fields: [
+              {label: "Logo", name: "logo", widget: "image"},
+            ],
+          }
+
+
+
+
+
       - file: "site/content/casestudies.md"
         label: "Case studies"
         name: "casestudies"
