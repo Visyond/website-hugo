@@ -61,14 +61,8 @@
               subdirectory_arrow_left
             </i>
           </div>
-          <!-- <i class="material-icons">
-            zoom_in
-          </i> -->
           {{ end }}
           <img src="{{ .image }}" alt="collaborate on spreadsheets" class="ftr-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}">
-          <!-- {{ if .popupUrl }}
-          <img src="/img/vimages/play-laptop.png" alt="play" class="ftr-info__play-video">
-          {{ end }} -->
         </div>
 
         <img src="/img/v_lines.png" alt="lines" class="ftr-info__block-lines">
@@ -94,90 +88,9 @@
     </ul>
     <!-- ./section info -->
 
-    <!-- section capabilities -->
-    <!-- <section class="ftr-capabilities">
-
-      <ul class="ftr-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="ftr-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="ftr-capabilities__img">
-
-          <div class="ftr-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </section> -->
-    <!-- ./section capabilities -->
-
     <!-- trusted section -->
     {{ partial "trustedslider" . }}
     <!-- ./trusted section -->
-
-    <!-- section studies -->
-    <!-- <section class="ftr-studies">
-      <h3 class="ftr-studies__title">
-        {{ .Params.StudiesTitle }}
-      </h3>
-
-      <ul class="ftr-studies__blocks">
-        {{ range $el := .Params.StudiesBlock }}
-        <li class="ftr-studies__block">
-          <div class="ftr-studies__img-wrap">
-            <img src="{{ .image }}" alt="case" class="ftr-studies__img">
-          </div>
-
-          <section class="ftr-studies__text-wrap">
-            <h3 class="ftr-studies__block-title">
-              {{ .title }}
-            </h3>
-
-            <cite class="ftr-studies__block-descr">
-              {{ .text }}
-            </cite>
-
-            <div class="ftr-studies__block-author">
-              {{ .author }}
-            </div>
-
-            <a href="{{ .linkUrl }}" class="ftr-studies__block-link">
-              {{ .linkText }}>>
-            </a>
-          </section>
-        </li>
-        {{ end }}
-      </ul>
-
-    </section> -->
-    <!-- ./section studies -->
-
-    <!-- section customers -->
-    <!-- <section class="customers">
-      {{ if .Params.TitleCustomers }}
-      <h3 class="customers__title homepage-title">{{ .Params.TitleCustomers }}</h3>
-      {{ end }}
-
-        <ul class="customers__list js-customers">
-          {{ range $item := .Params.slider  }}
-            <li class="customers__item">
-              <figure class="customers__img-container">
-                <span class="customers__img-wrap">
-                  <img src={{ .sliderphoto }} alt="">
-                </span>
-
-                <figcaption class="customers__img-descr-wrap">
-                  <p class="customers__img-descr">{{ .sliderDescr }}</p>
-
-                  <span class="customers__img-author">{{ .slidercompany }}</span>
-                  <img src={{ .sliderlogo }} alt="" class="customers__img-company">
-                  </figcaption>
-            </figure>
-          </li>
-          {{ end }}
-      </ul>
-    </section> -->
-    <!-- //section customers -->
 
     <!-- section provides -->
     <div class="ftr-provides">
@@ -205,7 +118,6 @@
         {{ .Params.TitleBottom }}
       </h3>
 
-      <!-- <a href="{{ .Params.BotRequestURL }}" class="ftr-link ftr-link--request"> -->
       <a href="https://visyond.com/contacts/" class="ftr-link ftr-link--request">
         request a demo
       </a>
