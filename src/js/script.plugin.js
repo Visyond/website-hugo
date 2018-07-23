@@ -70,8 +70,8 @@ $(function () {
             ]
         })
     }
-    if($('.js-customers').length) {
-        $('.js-customers').slick({
+    if($('.js-testimonials').length) {
+        $('.js-testimonials').slick({
             fade: true,
             cssEase: 'linear',
             responsive: [
