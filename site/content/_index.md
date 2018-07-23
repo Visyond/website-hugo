@@ -18,7 +18,7 @@ trustedLogos:
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
   - logo: /img/elearn2.png
-  - logo: /img/Ericsson_logo bnw resize 3.png
+  - logo: /img/Ericsson_logo bnw resize 4 grey.png
   - logo: /img/datadvance-logo black and white 15.png
   - logo: /img/logo_cy4gate black and white 25.png
 infoBlockFirst:
