@@ -61,21 +61,7 @@
     <!-- ./section capabilities -->
 
     <!-- trusted section -->
-    <section class="ht-trusted">
-      <h3 class="ht-trusted__title">
-        {{ .Params.TrustedTitle }}
-      </h3>
-      <div class="ht-trusted__wrapper">
-        <ul class="ht-trusted__logos-wrap js-slider">
-          {{ range $el := .Params.TrustedLogos }}
-          <li class="ht-trusted__logo-item">
-            <img src="{{ .logo }}" alt="logo">
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-
-    </section>
+    {{ partial "trustedslider" . }}
     <!-- ./trusted section -->
 
     <!-- section info -->
