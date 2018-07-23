@@ -613,6 +613,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "casestudies"
         fields:
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+          - {label: "Page url", name: "url", widget: string}
           - { label: Type, name: type, widget: hidden, default: about }
           - { label: About, name: about, widget: hidden, default: "/casestudy.html" }
           - { label: "Casy study", name: "casestudies", widget: list, fields: [
