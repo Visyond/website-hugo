@@ -46,18 +46,6 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Studies Title", name: "studiesTitle", widget: "string", required: false,}
-      - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-        {label: "Image", name: "image", widget: "image"},
-        {label: "Title", name: "title", widget: "string"},
-        {label: "Text", name: "text", widget: "text"},
-        {label: "Author", name: "author", widget: "string"},
-        {label: "Link Text", name: "linkText", widget: "string"},
-        {label: "Link URL", name: "linkUrl", widget: "string"},
-        ],
-        required: false,
-      }
-
       - {label: "Solutions Block Title", name: solTitle, widget: string, required: false}
       - {label: "Solutions Block Article", name: "solArticle", widget: list, fields: [
           {label: "Title", name: "title", widget: string},
@@ -118,34 +106,6 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-
-      # - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: false,}
-      # - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
-      #   {label: "Capabilities Image", name: "image", widget: "image"},
-      #   {label: "Capabilities Text", name: "text", widget: "markdown"},
-      #   ],
-      #   required: false,
-      # }
-
-      # - {label: "Studies Title", name: "studiesTitle", widget: "string", required: false,}
-      # - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-      #   {label: "Image", name: "image", widget: "image"},
-      #   {label: "Title", name: "title", widget: "string"},
-      #   {label: "Text", name: "text", widget: "text"},
-      #   {label: "Author", name: "author", widget: "string"},
-      #   {label: "Link Text", name: "linkText", widget: "string"},
-      #   {label: "Link URL", name: "linkUrl", widget: "string"},
-      #   ],
-      #   required: false,
-      # }
-
-      # - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
-      # - {label: "Slider Customers", name: "slider", widget: "list", fields: [
-      #   {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
-      #   {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
-      #   {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
-      #   {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
-      # ]}
 
       - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
@@ -459,16 +419,6 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Capabilities Image", name: "image", widget: "image"},
             {label: "Capabilities Text", name: "text", widget: "markdown"},
             ],}
-
-          - {label: "Studies Title", name: "studiesTitle", widget: "string"}
-          - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-            {label: "Image", name: "image", widget: "image"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Text", name: "text", widget: "text"},
-            {label: "Author", name: "author", widget: "string"},
-            {label: "Link Text", name: "linkText", widget: "string"},
-            {label: "Link URL", name: "linkUrl", widget: "string"},
-          ],}
 
           - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
           - {label: "Slider Customers", name: "slider", widget: "list", fields: [

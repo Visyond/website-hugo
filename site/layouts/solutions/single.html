@@ -114,45 +114,10 @@
     <!-- trusted section -->
     {{ partial "trustedslider" . }}
     <!-- ./trusted section -->
-
-    <!-- section studies -->
-    <section class="sol-studies">
-      <h3 class="sol-studies__title">
-        {{ .Params.StudiesTitle }}
-      </h3>
-
-      <ul class="sol-studies__blocks">
-        {{ range $el := .Params.StudiesBlock }}
-        <!-- block -->
-        <li class="sol-studies__block">
-          <div class="sol-studies__img-wrap">
-            <img src="{{ .image }}" alt="case" class="sol-studies__img">
-          </div>
-
-          <section class="sol-studies__text-wrap">
-            <h3 class="sol-studies__block-title">
-              {{ .title }}
-            </h3>
-
-            <cite class="sol-studies__block-descr">
-              {{ .text }}
-            </cite>
-
-            <div class="sol-studies__block-author">
-              {{ .author }}
-            </div>
-
-            <a href="{{ .linkUrl }}" class="sol-studies__block-link">
-              {{ .linkText }}>>
-            </a>
-          </section>
-        </li>
-        <!-- ./block -->
-        {{ end }}
-      </ul>
-
-    </section>
-    <!-- ./section studies -->
+    
+    <!-- case studies section -->
+    {{ partial "casestudiessection" . }}
+    <!-- ./case studies section -->
     
     <!-- soluions block -->
     <div class="sol-sub-block">
