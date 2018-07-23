@@ -133,6 +133,14 @@ slider:
     slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
     sliderlogo: /img/elet.png
     sliderphoto: /img/client_3a.jpg
+  - sliderDescr: >-
+      Visyond has greatly improved my productivity by reducing time spent on
+      spreadsheet analysis, presentations and updates by more than 80%. This
+      allowed me to focus on business impact rather than the intricacies of
+      modeling I had to deal with in Excel.
+    slidercompany: 'Kedar Thakar, Principal Value Consultant, Ericsson'
+    sliderlogo: /img/Ericsson_logo.png
+    sliderphoto: /img/Kedar Thakar case study image.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
