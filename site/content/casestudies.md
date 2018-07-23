@@ -1,4 +1,5 @@
 ---
+url: /casestudy/
 type: casestudies
 casestudies:
   - logo: /img/Ericsson_logo.png
