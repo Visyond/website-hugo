@@ -1,7 +1,17 @@
 ---
 type: casestudies
-url: '/casestudy'
 casestudies:
+  - logo: /img/Ericsson_logo.png
+    tags:
+      - tagTitle: Impact Modeling
+      - tagTitle: Sales Negotiation
+      - tagTitle: Analysis
+      - tagTitle: Presentation
+    title: >-
+      How Ericsson accelerates their business case workflow by 80% and empowers
+      their customers with Visyond
+    url: >-
+      /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
   - logo: /img/elet.png
     name: ''
     tags:
@@ -20,3 +30,4 @@ casestudies:
     url: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
+
