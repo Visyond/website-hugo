@@ -45,7 +45,7 @@
     flex-direction: column;
   }
 
-  &:last-child {
+  &:nth-child(2n) {
     margin-bottom: 0;
     -webkit-flex-direction: row-reverse;
     -ms-flex-direction: row-reverse;
@@ -69,7 +69,7 @@
   }
 }
 
-.studies__block:last-child .studies__img-wrap {
+.studies__block:nth-child(2n) .studies__img-wrap {
   margin-right: 0;
   margin-left: 5rem;
 
