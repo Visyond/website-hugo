@@ -46,14 +46,6 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: false,}
-      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-        fields: [
-          {label: "Logo", name: "logo", widget: "image"},
-        ],
-        required: false,
-      }
-
       - {label: "Studies Title", name: "studiesTitle", widget: "string", required: false,}
       - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
         {label: "Image", name: "image", widget: "image"},
@@ -134,14 +126,6 @@ collections: # A list of collections the CMS should be able to edit
       #   ],
       #   required: false,
       # }
-
-      - {label: "Trusted Title", name: "trustedTitle", widget: "string", required: false,}
-      - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-        fields: [
-          {label: "Logo", name: "logo", widget: "image"},
-        ],
-        required: false,
-      }
 
       # - {label: "Studies Title", name: "studiesTitle", widget: "string", required: false,}
       # - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
@@ -464,13 +448,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Request URL", name: "requestURL", widget: "string"}
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown"}
           - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
-
-          - {label: "Trusted Title", name: "trustedTitle", widget: "string"}
-          - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-            fields: [
-              {label: "Logo", name: "logo", widget: "image"},
-            ],
-          }
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
