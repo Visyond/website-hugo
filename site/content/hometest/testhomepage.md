@@ -11,7 +11,7 @@ requestURL: /request
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond Inforgraphics  NEW v14 smaller.png
+topImage: /img/homepage illustration v17.PNG
 trustedTitle: trusted by
 trustedLogos:
   - logo: /img/v_elt.png
