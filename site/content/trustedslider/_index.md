@@ -1,5 +1,5 @@
 ---
-trustedTitle: Trusted Slider
+trustedTitle: Trusted By
 trustedLogos:
   - logo: /img/v_deloitte.png
   - logo: /img/v_abrt.png
