@@ -112,32 +112,9 @@
     {{ partial "casestudiessection" . }}
     <!-- ./case studies section -->
 
-    <!-- section customers -->
-    <section class="customers">
-      {{ if .Params.TitleCustomers }}
-      <h3 class="customers__title homepage-title">{{ .Params.TitleCustomers }}</h3>
-      {{ end }}
-
-        <ul class="customers__list js-customers">
-          {{ range $item := .Params.slider  }}
-            <li class="customers__item">
-              <figure class="customers__img-container">
-                <span class="customers__img-wrap">
-                  <img src={{ .sliderphoto }} alt="">
-                </span>
-
-                <figcaption class="customers__img-descr-wrap">
-                  <p class="customers__img-descr">{{ .sliderDescr }}</p>
-
-                  <span class="customers__img-author">{{ .slidercompany }}</span>
-                  <img src={{ .sliderlogo }} alt="" class="customers__img-company">
-                  </figcaption>
-            </figure>
-          </li>
-          {{ end }}
-      </ul>
-    </section>
-    <!-- //section customers -->
+    <!-- section testimonials -->
+    {{ partial "testimonials" . }}
+    <!-- //section testimonials -->
 
     <!-- section provides -->
     <div class="home-provides">
