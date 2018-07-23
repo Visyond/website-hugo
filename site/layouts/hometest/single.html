@@ -108,44 +108,9 @@
     </ul>
     <!-- ./section info -->
 
-    <!-- section studies -->
-    <section class="ht-studies">
-      <h3 class="ht-studies__title">
-        {{ .Params.StudiesTitle }}
-      </h3>
-
-      <ul class="ht-studies__blocks">
-        {{ range $el := .Params.StudiesBlock }}
-        <!-- block -->
-        <li class="ht-studies__block">
-          <div class="ht-studies__img-wrap">
-            <img src="{{ .image }}" alt="case" class="ht-studies__img">
-          </div>
-
-          <section class="ht-studies__text-wrap">
-            <h3 class="ht-studies__block-title">
-              {{ .title }}
-            </h3>
-
-            <cite class="ht-studies__block-descr">
-              {{ .text }}
-            </cite>
-
-            <div class="ht-studies__block-author">
-              {{ .author }}
-            </div>
-
-            <a href="{{ .linkUrl }}" class="ht-studies__block-link">
-              {{ .linkText }}>>
-            </a>
-          </section>
-        </li>
-        <!-- ./block -->
-        {{ end }}
-      </ul>
-
-    </section>
-    <!-- ./section studies -->
+    <!-- case studies section -->
+    {{ partial "casestudiessection" . }}
+    <!-- ./case studies section -->
 
     <!-- section customers -->
     <section class="ht-customers">

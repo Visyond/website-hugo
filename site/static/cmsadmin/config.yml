@@ -352,16 +352,6 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Capabilities Text", name: "text", widget: "markdown"},
         ],}
 
-      - {label: "Studies Title", name: "studiesTitle", widget: "string"}
-      - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-        {label: "Image", name: "image", widget: "image"},
-        {label: "Title", name: "title", widget: "string"},
-        {label: "Text", name: "text", widget: "text"},
-        {label: "Author", name: "author", widget: "string"},
-        {label: "Link Text", name: "linkText", widget: "string"},
-        {label: "Link URL", name: "linkUrl", widget: "string"},
-      ],}
-
       - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
       - {label: "Slider Customers", name: "slider", widget: "list", fields: [
         {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
@@ -588,6 +578,24 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Logo", name: "logo", widget: "image"},
             ],
           }
+
+
+
+
+
+      - file: "site/content/casestudiessection/_index.md"
+        label: "Case Studies Section"
+        name: "casestudiessection"
+        fields:
+          - {label: "Studies Title", name: "studiesTitle", widget: "string"}
+          - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
+            {label: "Image", name: "image", widget: "image"},
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Text", name: "text", widget: "text"},
+            {label: "Author", name: "author", widget: "string"},
+            {label: "Link Text", name: "linkText", widget: "string"},
+            {label: "Link URL", name: "linkUrl", widget: "string"},
+          ],}
 
 
 
