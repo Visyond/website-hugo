@@ -1,6 +1,19 @@
 ---
 studiesTitle: Featured case studies
 studiesBlock:
+  - author: 'Kedar Thakar, Principal Value Consultant, Ericsson'
+    image: /img/Ericsson - v2.png
+    linkText: Learn More
+    linkUrl: >-
+      /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+    text: >-
+      Visyond has greatly improved my productivity by reducing time spent on
+      spreadsheet analysis, presentations and updates by more than 80%. This
+      allowed me to focus on business impact rather than the intricacies of
+      modeling I had to deal with in Excel.
+    title: >-
+      How Ericsson accelerates their business case workflow by 80% and empowers
+      their customers with Visyond
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
     image: /img/Elettronica-v2.png
     linkText: learn more
