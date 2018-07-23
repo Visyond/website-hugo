@@ -79,7 +79,7 @@ capabilitiesList:
 studiesTitle: Featured case studies
 studiesBlock:
   - author: 'Kedar Thakar, Principal Value Consultant, Ericsson'
-    image: /img/Ericsson - v1.png
+    image: /img/Ericsson - v2.png
     linkText: LEARN MORE
     linkUrl: >-
       /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
