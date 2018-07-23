@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<div class="first-section prs1st" style="background-image: url({{ .Params.BgImage }})">
+<section class="first-section prs1st" style="background-image: url({{ .Params.BgImage }})">
 	
   <h2 class="prs1st__title">
     {{ .Params.TopTitle }}
@@ -10,7 +10,7 @@
   <div class="prs1st__under-title">
     {{ .Params.TopSubTitle }}
   </div>
-</div>
+</section>
 <!-- //first section -->
 
 <!-- second section -->
@@ -88,7 +88,7 @@
                 {{ .Params.PriceClientAsked }}
             </p>
             <address class="prs2nd__asked-company">{{ .Params.PriceClientCompany }}</address>
-            <img src="{{ .Params.PriceClientCompanyLogo }}" alt="" class="prs2nd__asked-img">
+            <img src="{{ .Params.PriceClientCompanyLogo }}" alt="logo" class="prs2nd__asked-img">
         </div>
     </div>
 </section>
@@ -96,15 +96,13 @@
 
 <!-- third section -->
 <section class="third-section prs3rd" style="background-image: url({{ .Params.BgBottom }})">
-      <h3 class="prs3rd__title">
-        {{ .Params.TitleBottom }}
-      </h3>
-
-      <!-- <a href="{{ .Params.BotRequestURL }}" class="sol-link sol-link--request"> -->
-      <a href=".Params.LinkBottom" class="prs3rd__btn prs3rd__btn--request">
-        request a demo
-      </a>
-    </section>
+  <h3 class="prs3rd__title">
+    {{ .Params.TitleBottom }}
+  </h3>
+  <a href="{{.Params.LinkBottom}}" class="prs3rd__btn prs3rd__btn--request">
+    request a demo
+  </a>
+</section>
 <!-- //third section -->
 
 {{ partial "footer" . }}
