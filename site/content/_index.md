@@ -91,15 +91,6 @@ studiesBlock:
     title: >-
       How Ericsson accelerates their business case workflow by 80% and empowers
       their customers with Visyond
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
     image: /img/ELearnSecurity - v3.png
     linkText: learn more
@@ -112,6 +103,15 @@ studiesBlock:
     title: >-
       How preparing Financial Statements with no training in Finance became a
       1-hour job
+  - author: 'Fernando Rizzo, Area Manager, Elettronica'
+    image: /img/Elettronica - v2.png
+    linkText: learn more
+    linkUrl: >-
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+    text: >-
+      When I used Visyond, I see my accuracy and ability to answer questions
+      about my work go up. I can do more and have peace of mind.
+    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
 titleCustomers: ''
 slider:
   - sliderDescr: >-
