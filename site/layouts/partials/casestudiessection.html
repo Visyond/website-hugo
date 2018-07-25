@@ -3,6 +3,12 @@
   <h3 class="studies__title">
     {{ .Params.StudiesTitle }}
   </h3>
+  
+  {{ with .Params.studiesLink }}
+  <a href="{{ .Params.studiesLink }}" class="studies__link">
+    {{ .Params.studiesLinkText }}
+  </a>
+  {{ end }}
 
   <ul class="studies__blocks">
     {{ range $el := .Params.StudiesBlock }}
