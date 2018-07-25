@@ -95,7 +95,7 @@ $(function () {
         $('.js-zoom').elevateZoom({
           zoomType: "lens",
           lensShape: "square",
-          lensSize: "400",
+          lensSize: "250",
           borderColour: "#0086ff"
         });
     }
