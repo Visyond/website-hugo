@@ -91,6 +91,7 @@ $(function () {
         })
     }
 
+    /*
     if($('.js-zoom').length) {
         $('.js-zoom').elevateZoom({
           zoomType: "lens",
@@ -99,4 +100,5 @@ $(function () {
           borderColour: "#0086ff"
         });
     }
+    */
 });
