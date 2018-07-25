@@ -11,7 +11,7 @@ topSubTitle: >-
 
 
   ![Visyond Equals](/img/top visyond equals.PNG)
-topImage: /img/Visyond Inforgraphics  NEW v20 fix.jpg
+topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP.jpg
 infoBlockFirst:
   - descr: >-
       Visyond offers **a secure way to collaborate without data leaks and focus
