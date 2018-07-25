@@ -514,8 +514,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "casestudiessection"
         fields:
           - {label: "Studies Title", name: "studiesTitle", widget: "string"}
-          - {label: "Studies Text Link", name: "studiesLinkText", widget: "string"}
-          - {label: "Studies Link", name: "studiesLink", widget: "string"}
+          - {label: "Studies Text Link", name: "studiesLinkText", widget: "string", required: false}
+          - {label: "Studies Link", name: "studiesLink", widget: "string", required: false}
           - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
             {label: "Image", name: "image", widget: "image"},
             {label: "Title", name: "title", widget: "string"},
