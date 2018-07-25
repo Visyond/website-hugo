@@ -78,6 +78,7 @@ $(function () {
             autoplay: true,
             autoplaySpeed: 5000,
             pauseOnFocus: false,
+            pauseOnHover: false,
             responsive: [
                 {
                   breakpoint: 768,
