@@ -59,6 +59,23 @@
   border: none;
   border-radius: 2rem;
   text-align: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+  border: 1px solid #0086ff;
+
+  & i {
+    font-size: 1.6rem;
+    margin-right: 5px;
+  }
 
   &:not(:last-child) {
     margin-right: 2rem;
@@ -91,9 +108,15 @@
   }
 
   &--btn {
-    background: #595959;
+    background: #0086ff;
     padding: 1.1rem 0;
     cursor: pointer;
+
+    &:hover {
+      background: #fff;
+      border: 1px solid #0086ff;
+      color: #0086ff;
+    }
   }
 }
 

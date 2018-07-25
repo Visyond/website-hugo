@@ -12,22 +12,26 @@
         {{ .Params.TopSubTitle | markdownify}}
       </div>
 
-      <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img">
+      <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img js-zoom" data-zoom-image="{{ .Params.TopImage }}">
 
       <div class="home-top__btns-wrap">
-        <a href="{{ .Params.SignUpURL }}" class="home-link home-link--sign-up">
+        <!-- <a href="{{ .Params.SignUpURL }}" class="home-link home-link--sign-up">
           free sign up
+        </a> -->
+        
+        <a href="{{ .Params.RequestURL }}" class="home-link home-link--request">
+          request a demo
         </a>
 
         {{ if .Params.WatchVideoURL }}
         <button class="home-link home-link--btn js-btn-video">
+          <i class="material-icons">
+            play_arrow
+          </i>
           watch video
         </button>
         {{ end }}
 
-        <a href="{{ .Params.RequestURL }}" class="home-link home-link--request">
-          request a demo
-        </a>
       </div>
 
       <div class="home-top__popup js-popup">

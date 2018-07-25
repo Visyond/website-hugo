@@ -85,4 +85,12 @@ $(function () {
             ]
         })
     }
+
+    if($('.js-zoom').length) {
+        $('.js-zoom').elevateZoom({
+          zoomType: "lens",
+          lensShape: "round",
+          lensSize: 200
+        });
+    }
 });
