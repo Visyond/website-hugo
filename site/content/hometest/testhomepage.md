@@ -10,7 +10,7 @@ topSubTitle: >-
   reduce errors and control what each collaborator can see and interact with
 
 
-  ![alt](/img/top visyond equals.PNG)
+  ![Visyond Equals](/img/top visyond equals.PNG)
 topImage: /img/Visyond Inforgraphics  NEW v20 fix.jpg
 infoBlockFirst:
   - descr: >-
