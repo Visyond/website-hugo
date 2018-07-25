@@ -130,7 +130,10 @@
     height: 22px;
     display: inline-block;
     margin: 0 5px;
-    float: right;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 }
 

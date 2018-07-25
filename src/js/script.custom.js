@@ -249,7 +249,7 @@ $(function () {
        });
      }
 
-     if(document.querySelector('.js-slider')) {
+     if(document.querySelector('.js-slider').length) {
        logoSlide();
      }
 
@@ -377,6 +377,7 @@ $(function () {
               }
             });
 
+
             prevBtn.addEventListener('click', () => {
               if(countSlide > 0) {
                 countSlide--;
@@ -384,8 +385,29 @@ $(function () {
               }
             });
 
+            window.onkeydown = function(e) {
+              if(e.keyCode === 39 && popup) {
+                if(countSlide < sliderArray.length - 1) {
+                  countSlide++;
+                  showBtn();
+                }
+              }
+              if(e.keyCode === 37 && popup) {
+                if(countSlide > 0) {
+                  countSlide--;
+                  showBtn();
+                }
+              }
+            };
+
             closeBtn.addEventListener('click', () => {
               popup.parentNode.removeChild(popup);
+            });
+
+            popup.addEventListener('click', e => {
+              if(e.target === e.currentTarget) {
+                popup.parentNode.removeChild(popup);
+              }
             });
 
             document.onkeydown = function(e) {
