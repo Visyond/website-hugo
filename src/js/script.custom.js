@@ -249,7 +249,7 @@ $(function () {
        });
      }
 
-     if(document.querySelector('.js-slider').length) {
+     if(document.querySelector('.js-slider')) {
        logoSlide();
      }
 
