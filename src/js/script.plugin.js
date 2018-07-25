@@ -74,6 +74,9 @@ $(function () {
         $('.js-testimonials').slick({
             fade: true,
             cssEase: 'linear',
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 5000,
             responsive: [
                 {
                   breakpoint: 768,
