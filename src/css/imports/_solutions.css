@@ -637,6 +637,7 @@
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+  font-size: 1.6rem;
 
   @media (max-width: 800px) {
     display: none;

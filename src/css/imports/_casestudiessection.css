@@ -110,9 +110,20 @@
     background: url(/img/v_quote.png) center center no-repeat;
     background-size: contain;
     width: 30px;
-    height: 28px;
+    height: 22px;
     margin: 0 5px;
-    float: left;
+    display: inline-block;
+  }
+
+  &:after {
+    content: "";
+    background: url(/img/v_quote.png) center center no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 22px;
+    display: inline-block;
+    margin: 0 5px;
+    float: right;
   }
 }
 
