@@ -8,6 +8,9 @@ requestURL: /request
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
+
+
+  ![alt](/img/top visyond equals.PNG)
 topImage: /img/Visyond Inforgraphics  NEW v20 fix.jpg
 infoBlockFirst:
   - descr: >-
