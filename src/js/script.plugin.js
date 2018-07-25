@@ -77,6 +77,7 @@ $(function () {
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 5000,
+            pauseOnFocus: false,
             responsive: [
                 {
                   breakpoint: 768,
