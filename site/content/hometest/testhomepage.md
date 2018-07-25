@@ -48,7 +48,7 @@ infoBlockFirst:
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet
         file: /img/Interactive Slides in Browser v3.png
-        title: Test Numbers
+        title: Test Assumptions
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
     title: Collaborate With Simplicity And Peace of Mind
