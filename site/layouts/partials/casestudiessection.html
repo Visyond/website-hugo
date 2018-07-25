@@ -4,7 +4,7 @@
     {{ .Params.StudiesTitle }}
   </h3>
   
-  {{ with .Params.studiesLink }}
+  {{ if .Params.studiesLink }}
   <a href="{{ .Params.studiesLink }}" class="studies__link">
     {{ .Params.studiesLinkText }}
   </a>
