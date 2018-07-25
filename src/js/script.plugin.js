@@ -94,8 +94,9 @@ $(function () {
     if($('.js-zoom').length) {
         $('.js-zoom').elevateZoom({
           zoomType: "lens",
-          lensShape: "round",
-          lensSize: 200
+          lensShape: "square",
+          lensSize: 400,
+          borderColour: #0086ff
         });
     }
 });
