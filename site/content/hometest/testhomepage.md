@@ -8,7 +8,7 @@ requestURL: /request
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond Inforgraphics  NEW v21 TOP fix.jpg
+topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: >-
       Visyond offers **a secure way to collaborate without data leaks and focus
