@@ -8,7 +8,7 @@ requestURL: /request
 topSubTitle: >-
   Visualize the impact of your decisions and answer any questions in real time,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
+topImage: /img/Visyond Inforgraphics  NEW v23.jpg
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. **No data chaos.** Work together on
