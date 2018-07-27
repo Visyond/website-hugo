@@ -1,35 +1,39 @@
 ---
 title: Selective Sharing
 topTitle: Share Only What They Need To See
-topSubTitle: "Visyond helps you (save time / effort) improve communications and avoid data leaks by removing the need for emailing spreadsheets, manual data consolidation, etc.\r\n\r\nInstead, you can share only specific cells or areas of the spreadsheet, whole presentations or just individual slides.\r\n\r\nYou always know who has access to what so you can avoid data leaks, unauthorized access, unwanted updates of the spreadsheet\r\n"
+topSubTitle: >-
+  Visyond allows you to communicate more efficiently while avoiding data leaks.
+  It removes the need for emailing spreadsheets, back-and-forth copy-paste
+  between PowerPoint and Excel or any other visualization tool. Instead, you can
+  share only specific areas of the spreadsheet, whole presentations or just
+  individual slides. You always know who has access to what so you can avoid
+  unauthorized access and unwanted spreadsheet updates.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
-      With Visyond’s Selective Sharing you can **share only specific parts of
-      spreadsheets**, down to a single cell, without exposing any other data,
-      conversations, attachments or calculations. With this, data gathering and
-      consolidation is much faster and less prone to errors and accidental
-      updates.
+      You can share the whole project, certain worksheets or only specific parts
+      of a worksheet, whole presentations or specific slides without exposing
+      any other data, conversations, attachments or calculations. With this,
+      data gathering and consolidation is much faster, safer and less prone to
+      errors and accidental updates.
     files:
       - descr: >-
-          Enjoy peace of mind knowing that collaborators won't accidentally gain
-          access to sensitive information without your explicit permission.
-        file: /img/cloud visyond.png
-        title: Share Only Certain Parts of Spreadsheet
-    image: /img/cloud visyond.png
-    title: Control Access To Spreadsheets
-  - descr: "Visyond’s Interactive Slides are an easy way to present data to your stakeholders - the information is always up to date, and interactive elements such as input fields and charts allow stakeholders to test their own assumptions without interacting with the spreadsheet.\r\nThey will be able to **see only what you allow them** - be it individual slides or the whole presentations."
-    files:
+          Set access on project level with different roles - Owner, Reader,
+          Coworker with different access permissions.
+        file: /img/Share Project.pdn
+        title: Share Project
       - descr: >-
-          Allow stakeholders to see only individual parts or whole presentations
-          which they can use to test their own assumptions without interacting
-          with the model dirrectly.
+          Manage who can see or can not see a specific worksheet in your
+          project.
+        file: /img/Share Worksheet.png
+        title: Share Worksheets
+      - descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser.png
-        title: Share Parts Or Whole Presentations
-    image: /img/Share Slide in Browser.png
-    title: Control Access To Presentations
+        title: Share Presentations
+    image: /img/Share Project.png
+    title: Manage Access Level
 providesTitle: Get started in minutes
 providesList:
   - text: >-
