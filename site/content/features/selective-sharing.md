@@ -22,7 +22,7 @@ infoBlockFirst:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
-        file: /img/Share Project.pdn
+        file: /img/Share Project.png
         title: Share Project
       - descr: >-
           Manage who can see or can not see a specific worksheet in your
