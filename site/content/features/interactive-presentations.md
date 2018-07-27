@@ -16,11 +16,11 @@ infoBlockFirst:
       assumptions.**
     files:
       - descr: >-
-          Empower stakeholder to test their own assumptions without interacting
+          Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v3.png
-        title: Interactive Presentations & Apps
+        title: Interactive Presentations
     image: /img/Interactive Slides in Browser v3.png
     title: Replace Boring Static Visualizations
   - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s Selective Sharing without exposing the spreadsheet or any sensitive or unnecessary information - the stakeholders can then test their own assumptions and play with the numbers  test assumptions without breaking and ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation."
@@ -30,7 +30,7 @@ infoBlockFirst:
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
         file: /img/Share Slide in Browser.png
-        title: SHARE PARTS OR WHOLE PRESENTATIONS
+        title: Selectively Share Presentations
     image: /img/Share Slide in Browser.png
     title: Share Only What They Need To See
 providesTitle: Get started in minutes
