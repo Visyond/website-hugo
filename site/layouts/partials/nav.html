@@ -21,98 +21,14 @@
 					</div>
 				</div>
 				<!-- //dropdown info -->
-
-				<!-- dropdown lists links-->
-				<ul class="dropdown__lists">
-					{{ with .Site.GetPage "section" "nav" }}
-					{{ range $element := .Params.solDropdownCol }}
-						<li class="dropdown__lists-col">
-							<h3 class="dropdown__lists-title">
-								{{ $element.title }}
-							</h3>
-							<ul class="dropdown-toggle__group-list dropdown__list">
-									{{ range $el := $element.solution_dropdown }}
-										<li class="dropdown-toggle__group-list-item">
-											<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link dropdown__link">{{ $el.title }}</a>
-										</li>
-									{{ end }}
-							</ul>
-						</li>
-						{{end}}
-					{{ end }}
-				</ul>
-				<!-- //dropdown lists links-->
+				<div class="dropdown">
+					<!-- solutions lists links-->
+						{{ partial "solutions-section" . }}
+					<!-- //solutions lists links-->
+				</div>
 				</div>
 			</div>
-			<!-- <div class="dropdown-menu-wrap">
-			<div class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}" id="solutions-toggle">
-					<div class="dropdown-toggle--left {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-left {{end}}">
-						<a href="#" class="dropdown-toggle--left__link">
-							<h3 class="dropdown-toggle--left__title">Answer questions in seconds</h3>
-							<figure class="dropdown-toggle--left__img">
-								<img src="#">
-								<figcaption class="dropdown-toggle--left__img-desc">
-									Coming from finance, we know first hand all the pains of working with spreadsheets the old way - be it simple 1-page budgets.
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<section class="dropdown-toggle--right {{ if eq .Title "Homepage"}} nav--homepage-header-dropdown-right {{end}}">
-						<h3 hidden></h3>
-						<article class="dropdown-toggle__group">
-							<h4 class="dropdown-toggle__group-title">Challenge</h4>
-							<ul class="dropdown-toggle__group-list">
-								{{ range .Site.Menus.challenge }}
-								<li class="dropdown-toggle__group-list-item">
-									<a href="{{ .URL }}" class="dropdown-toggle__group-list-item-link">{{ .Name }}</a>
-								</li>
-								{{end}}
-							</ul>
-						</article>
-						<article class="dropdown-toggle__group">
-							<h4 class="dropdown-toggle__group-title">Need</h4>
-							<ul class="dropdown-toggle__group-list">
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-							</ul>
-						</article>
-						<article class="dropdown-toggle__group">
-							<h4 class="dropdown-toggle__group-title">Industry</h4>
-							<ul class="dropdown-toggle__group-list">
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-							</ul>
-						</article>
-						<article class="dropdown-toggle__group">
-							<h4 class="dropdown-toggle__group-title">Business size</h4>
-							<ul class="dropdown-toggle__group-list">
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-								<li class="dropdown-toggle__group-list-item">
-									<a href="#" class="dropdown-toggle__group-list-item-link">Manual processes</a>
-								</li>
-							</ul>
-						</article>
-					</section>
-			</div> -->
+			
 		<!-- </div> -->
 		</li>
 		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
