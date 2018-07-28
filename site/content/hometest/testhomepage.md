@@ -111,7 +111,7 @@ infoBlockFirst:
         file: /img/Sensitivity in Browser v4.png
         title: Sensitivity Analysis
       - descr: Compare relative importance of cells
-        file: /img/Tornado in Browser v4.png
+        file: /img/it_3.jpg
         title: Tornado Analysis
       - descr: Easily run simulations on your data without long manual setups
         file: /img/it.jpg
