@@ -114,7 +114,7 @@ infoBlockFirst:
         file: /img/Tornado in Browser v4.png
         title: Tornado Analysis
       - descr: Easily run simulations on your data without long manual setups
-        file: /img/simulation.PNG
+        file: /img/it.jpg
         title: Monte Carlo simulations
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
