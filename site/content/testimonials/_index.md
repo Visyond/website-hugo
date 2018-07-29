@@ -12,8 +12,8 @@ slider:
       allowed me to focus on business impact rather than the intricacies of
       modeling I had to deal with in Excel.
     slidercompany: 'Kedar Thakar, Principal Value Consultant, Ericsson'
-    sliderlogo: /img/Ericsson_logo.png
-    sliderphoto: /img/Kedar Thakar case study image.jpg
+    sliderlogo: /img/Ericsson_logo smaller.png
+    sliderphoto: /img/Kedar Thakar case study image - smaller.jpg
   - sliderDescr: >-
       When I use Visyond I see my accuracy and ability to answer questions about
       my work go up. I can do more and have peace of mind.
