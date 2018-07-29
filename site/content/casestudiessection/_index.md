@@ -4,7 +4,7 @@ studiesLinkText: ''
 studiesLink: ''
 studiesBlock:
   - author: 'Kedar Thakar, Principal Value Consultant, Ericsson'
-    image: /img/Ericsson - v2.png
+    image: /img/Ericsson - v2 smaller.jpg
     linkText: Learn More
     linkUrl: >-
       /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
@@ -26,7 +26,7 @@ studiesBlock:
       about my work go up. I can do more and have peace of mind.
     title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
   - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v2.png
+    image: /img/ELearnSecurity - v3 smaller.jpg
     linkText: learn more
     linkUrl: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
