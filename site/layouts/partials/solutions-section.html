@@ -1,18 +1,20 @@
 {{ with .Site.GetPage "section" "solutions-section" }}
-<ul class="sol-section">
-	{{ range $element := .Params.solDropdownCol }}
-	<li class="sol-section__col">
-		<h3 class="sol-section__title">
-			{{ $element.title }}
-		</h3>
-		<ul class="sol-section__group-list sol-section__list">
-			{{ range $el := $element.solution_dropdown }}
-			<li class="sol-section__group-item">
-				<a href="{{ $el.path }}" class="sol-section__group-link">{{ $el.title }}</a>
-			</li>
-			{{ end }}
-		</ul>
-	</li>
-	{{ end }}
-</ul>
+<div class="sol-section">
+	<ul class="sol-section__cols">
+		{{ range $element := .Params.solDropdownCol }}
+		<li class="sol-section__col">
+			<h3 class="sol-section__title">
+				{{ $element.title }}
+			</h3>
+			<ul class="sol-section__group-list sol-section__list">
+				{{ range $el := $element.solution_dropdown }}
+				<li class="sol-section__group-item">
+					<a href="{{ $el.path }}" class="sol-section__group-link">{{ $el.title }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</li>
+		{{ end }}
+	</ul>
+</div>
 {{ end }}

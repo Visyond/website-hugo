@@ -1,6 +1,10 @@
 .sol-section {
   background: #f2f3f7;
-  margin: 0;
+  width: 100%;
+}
+
+.sol-section__cols {
+  margin: 0 auto;
   padding: 0;
   padding: 30px;
   display: -webkit-flex;
