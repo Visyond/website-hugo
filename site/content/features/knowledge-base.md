@@ -2,19 +2,18 @@
 title: Knowledge Base
 topTitle: Single Source of Truth for Your Spreadsheets
 topSubTitle: >-
-  Visyond offers a single place to store all your spreadsheet data, assumptions,
-  supporting documentation, conversations and approvals. Forget about back &
-  forth emails with bits of information, multiple versions of the spreadsheet
-  flying around and critical data lost along the way.
+  Visyond offers a single place to store all your spreadsheet data -
+  assumptions, supporting documentation, conversations and approvals. Forget
+  about back & forth emails with bits of information, multiple versions of the
+  spreadsheet flying around and critical data lost along the way.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
       Cells in Visyond are multidimensional and can simultaneously store
-      multiple inputs (that can be combined into scenarios) from different
-      people, attachments and conversations allowing you to have all important
-      data in one place.
+      multiple assumptions (that can be combined into scenarios), attachments
+      and conversations allowing you to have all important data in one place.
     files:
       - descr: >-
           All conversations and supporting documentation can be stored directly
@@ -37,14 +36,26 @@ infoBlockFirst:
         title: Store Multiple Assumptions Simultaneously
     image: /img/Cases in Browser v2.png
     title: Track Inputs And Control Versions
-  - descr: "Have full and granular control over who can view and edit your spreadsheets or presentations. Restrict permissions to just certain cells, worksheets, presentation slides or linked reports, no one can share your spreadsheet without your explicit approval.\r\n"
+  - descr: >-
+      Have full and granular control over who can view and edit your
+      spreadsheets or presentations. Restrict permissions to just certain cells,
+      worksheets, presentation slides or linked reports, no one can share your
+      spreadsheet without your explicit approval
     files:
       - descr: >-
-          With Visyond you can easily prevent certain stakeholders from seeing
-          certain parts of your spreadsheet.
-        file: /img/cloud visyond.png
-        title: Limit What Each Collaborator Can See
-    image: /img/cloud visyond.png
+          Set access on project level with different roles - Owner, Reader,
+          Coworker with different access permissions.
+        file: /img/Share Project.png
+        title: Share Project
+      - descr: >-
+          Manage who can see or can not see a specific worksheet in your
+          project.
+        file: /img/Share Worksheet.png
+        title: Share Worksheets
+      - descr: Share whole presentations or just individual slides.
+        file: /img/Share Slide in Browser.png
+        title: Share Presentations
+    image: /img/Share Project.png
     title: Manage Access To Information
 providesTitle: Get started in minutes
 providesList:
