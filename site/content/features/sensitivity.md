@@ -1,6 +1,6 @@
 ---
 title: Sensitivity
-topTitle: Understand How Data Is Connected With Sensitivity Analysis
+topTitle: Understand How Results Are Sensitive To Changes
 topSubTitle: >-
   Sensitivity analysis is a great way to better understand relationships between
   inputs and outputs of your spreadsheet. Visyond makes it a few-clicks-job.
@@ -30,26 +30,16 @@ infoBlockFirst:
         title: Identify Relationships Between Data Easier
     image: /img/Sensitivity in Browser v4.png
     title: Uncover Errors Faster
-  - descr: "Improve communications between modelers, analysts and decision makers by making relationships between data graphical, more understandable, persuasive and easier to present.\r\n"
+  - descr: >-
+      Improve communications with your audience through interactive data
+      visualization. 
     files:
       - descr: >-
           Visyond makes communication easier as you can support your claims
           easier with the help of Sensitivity Analysis.
         file: /img/Sensitivity in Browser v4.png
     image: /img/Sensitivity in Browser v4.png
-    title: Improve Communication
-  - descr: >-
-      Sometimes models get too complex. With Visyond you can simplify them by
-      identifying variables with no significant impact on the output and how
-      they interact with one another.
-    files:
-      - descr: >-
-          If the outcome is the same, simple models are more desirable than
-          complex ones. Make your models easier to comprehend with Visyond!
-        file: /img/Sensitivity in Browser v4.png
-        title: Make Your Models Easier to Understand
-    image: /img/Sensitivity in Browser v4.png
-    title: Simplify Models
+    title: Improve Communications
 providesTitle: Get started in minutes
 providesList:
   - text: >-
