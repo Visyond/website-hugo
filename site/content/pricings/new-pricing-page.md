@@ -3,7 +3,7 @@ url: /new-pricing
 topTitle: >-
   Simple and Modular Pricing - We Work With Companies Of All Sizes With A
   Flexible, Scalable Solution
-topSubTitle: req field
+topSubTitle: ''
 bgImage: /img/topImgPrivacy.png
 pricingTitle: Pricing
 firstPricingSubTitle: Visyond subscriptions start at $30/user/month
