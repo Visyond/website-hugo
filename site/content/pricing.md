@@ -1,8 +1,10 @@
 ---
 type: pricing
 title: Pricing
-topTitle: Pay Only For What You Need
-topSubTitle: 14-day Free Trial
+topTitle: |-
+  Pay Only For What You Need
+  14-day Free Trial
+topSubTitle: ''
 signUpURL: /accounts/signup/
 watchVideoURL: ''
 requestURL: /request
