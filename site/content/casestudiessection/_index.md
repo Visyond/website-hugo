@@ -1,7 +1,7 @@
 ---
 studiesTitle: Featured case studies
-studiesLinkText: ''
-studiesLink: ''
+studiesLinkText: Explore More Case Studies
+studiesLink: /casestudy
 studiesBlock:
   - author: 'Kedar Thakar, Principal Value Consultant, Ericsson'
     image: /img/Ericsson - v2 smaller.png
