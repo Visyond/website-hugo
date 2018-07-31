@@ -3,14 +3,15 @@ title: Scenarios
 topTitle: Compare Scenarios And Answer What-If Questions On-The-Fly
 topSubTitle: >-
   With Visyond’s Scenario Comparison you can quickly compare different
-  assumptions without depending on experts.
+  assumptions in a few clicks without depending on experts.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
       Add your assumptions along with supporting documentation and conversations
-      directly to the cells.
+      directly to the cells. Cells in Visyond can store multiple assumptions
+      (cases) simultaneously without overwriting other users' inputs.
     files:
       - descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
@@ -18,11 +19,12 @@ infoBlockFirst:
         file: /img/Cases in Browser v2.png
         title: Add Multiple Assumptions
     image: /img/Cases in Browser v2.png
-    title: 'First, Collect Assumptions'
+    title: Create and Gather Assumptions
   - descr: >-
       Select any assumptions and combine them into scenarios that are ready for
       comparison! You can create as many scenarios as you like without worrying
-      about losing data or managing multiple versions of a spreadsheet.
+      about losing data, managing multiple versions of a spreadsheet or
+      overwriting inputs.
 
 
       Visit our [help
@@ -36,9 +38,9 @@ infoBlockFirst:
         file: /img/Scenario Window in Browser.png
         title: Combine Assumptions Into Scenarios
     image: /img/Scenario Window in Browser.png
-    title: 'Second, Create Scenarios'
+    title: Create Scenarios in a few clicks
   - descr: >-
-      Compare multiple scenarios with a few clicks. Visyond will quickly build
+      Compare multiple scenarios with a few clicks. Visyond will instantly build
       an interactive chart which you can easily modify right there at the
       important meeting and answer ‘what-if’ questions in real time.
     files:
