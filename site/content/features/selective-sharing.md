@@ -1,13 +1,10 @@
 ---
 title: Selective Sharing
-topTitle: Share Only What They Need To See
+topTitle: Share Only What Collaborators Or Clients Need To See
 topSubTitle: >-
   Visyond allows you to communicate more efficiently while avoiding data leaks.
   It removes the need for emailing spreadsheets, back-and-forth copy-paste
-  between PowerPoint and Excel or any other visualization tool. Instead, you can
-  share only specific areas of the spreadsheet, whole presentations or just
-  individual slides. You always know who has access to what so you can avoid
-  unauthorized access and unwanted spreadsheet updates.
+  between PowerPoint and Excel or any other visualization tools. 
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
@@ -17,7 +14,7 @@ infoBlockFirst:
       of a worksheet, whole presentations or specific slides without exposing
       any other data, conversations, attachments or calculations. With this,
       data gathering and consolidation is much faster, safer and less prone to
-      errors and accidental updates.
+      errors, unwanted changes and accidental data leakages.
     files:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
