@@ -238,25 +238,6 @@
   }
 }
 
-/*.info__img-wrap .material-icons {
-  background: #0086ff;
-  color: #fff;
-  z-index: 10;
-  position: absolute;
-  font-size: 100px;
-  display: block;
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  box-shadow: 5px 5px 5px #fff;
-  opacity: .8;
-  pointer-events: none;
-}*/
-
 .info__img-pointer {
   position: absolute;
   left: 0;
@@ -927,9 +908,6 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  /* background: url(/img/home/v_notebook.png) -60% 50% no-repeat;
-  -webkit-background-size: 67%;
-  background-size: 67%; */
 
   @media screen and (max-width: 800px) {
     background: none;
