@@ -23,6 +23,8 @@ infoBlockFirst:
           removing the need for manual checks and audits of the calculations.
         file: /img/Financial Statements in Browser.png
         title: Auto-Generated Financial Statements
+      - file: /img/financial statement 1.gif
+      - file: /img/financial statement 2.gif
     image: /img/Financial Statements in Browser.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
