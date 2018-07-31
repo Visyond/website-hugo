@@ -367,6 +367,37 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
+
+
+
+
+
+
+  - name: "analysis"
+    label: "Analysis"
+    folder: "site/content/analysis"
+    create: true
+    fields:
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Page url", name: "url", widget: string}
+      - {label: "Top Title", name: "topTitle", widget: markdown}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: markdown}
+      - {label: "Background Image", name: "bgImage", widget: image}
+
+
+      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+          - {label: "Provides List", name: "providesList", widget: "list", fields: [
+            {label: "Provides Item", name: "text", widget: "markdown"},
+          ],}
+
+
+
+
+
+
+
+
+
   - name: "home"
     label: "Home Page"
     files:
