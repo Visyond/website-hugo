@@ -15,33 +15,16 @@ infoBlockFirst:
       and Donuts to Waterfall charts - choose cells you want to chart, select
       the chart type and easily customize the appearance with point-and-click
       interface.
-    files:
-      - descr: Manage all charts easily in a single place.
-        file: /img/cloud visyond.png
-        title: Charts
-    image: /img/cloud visyond.png
     title: Create Charts Faster
   - descr: >-
       You no longer need to manually rearrange cells to get better data
       visualization - Visyond provides a convenient interface to help you change
       charts appearance, grouping and organization.
-    files:
-      - descr: Customize your charts easily with point-and-click interface.
-        file: /img/cloud visyond.png
-        title: Beautiful Charts With Minimal Effort
-    image: /img/cloud visyond.png
     title: Customize Charts Easier
   - descr: >-
       Visyond keeps the information in your charts always up-to-date with the
       latest changes in the model - you no longer have to go through multiple
       presentations and manually update the charts!
-    files:
-      - descr: >-
-          Charts in Visyond are automatically updated with the latest changes in
-          the model - no more manual maintenance!
-        file: /img/cloud visyond.png
-        title: Always Up-To-Date
-    image: /img/cloud visyond.png
     title: Forget About Manual Updates
 providesTitle: Get started in minutes
 providesList:
