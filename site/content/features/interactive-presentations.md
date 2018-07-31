@@ -2,18 +2,16 @@
 title: Interactive Presentations
 topTitle: Create And Securely Share Powerful Interactive Presentations
 topSubTitle: >-
-  Visyond’s Interactive Slides are an elegant way to present data - the
-  information is always up to date, and interactive elements such as input
-  fields and charts allow stakeholders to test their own assumptions  through a
-  safe and simple user interface.
+  Visyond’s Interactive Slides are an elegant way to present data from your
+  spreadsheets - information is always up to date, as each slide automatically
+  syncs data with your spreadsheet. Interactive elements such as input fields
+  and charts allow stakeholders to test their own assumptions through a safe and
+  simple user interface.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      Interactive Slides will allow you not only to visualize the data but also
-      provide a **secure isolated environment for your stakeholders to play with
-      assumptions.**
+  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a **secure environment for your stakeholders to play with assumptions.\r**\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
     files:
       - descr: >-
           Empower stakeholders to test their own assumptions without interacting
@@ -22,8 +20,17 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v3.png
         title: Interactive Presentations
     image: /img/Interactive Slides in Browser v3.png
-    title: Replace Boring Static Visualizations
-  - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s Selective Sharing without exposing the spreadsheet or any sensitive or unnecessary information - the stakeholders can then test their own assumptions and play with the numbers  test assumptions without breaking and ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation."
+    title: Replace Powerpoint Static Visualizations
+  - descr: >-
+      You can **share the whole presentation or just a few individual slides**
+      with selected stakeholders using Visyond’s unique [Selective
+      Sharing](https://visyond.com/features/selective-sharing/) feature without
+      exposing the spreadsheet and any sensitive or unnecessary information.
+      Stakeholders can then safely test their own assumptions without breaking
+      or ever seeing the model and calculations.
+
+
+      And, of course, you can always export the presentation to Powerpoint.
     files:
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
@@ -32,7 +39,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser.png
         title: Selectively Share Presentations
     image: /img/Share Slide in Browser.png
-    title: Share Only What They Need To See
+    title: Share Only What Collaborators Or Clients Need To See
 providesTitle: Get started in minutes
 providesList:
   - text: >-
