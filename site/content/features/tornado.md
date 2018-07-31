@@ -9,15 +9,18 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      With Visyond, you can run Tornado Analysis without long manual setups and
-      quickly see how sensitive your data set is to changes.
+  - descr: >
+      With Visyond, you can run Impact (Tornado) Analysis without long manual
+      setups and quickly see how sensitive your data set is to changes.
+    files:
+      - descr: >-
+          Sometimes models get too complex. With Visyond you can simplify them
+          by identifying variables with no significant impact on the output and
+          how they interact with one another.
+        file: /img/Tornado in Browser v4.png
+        title: Simplify Models
+    image: /img/Tornado in Browser v4.png
     title: Stress-Test Your Data
-  - descr: >-
-      Sometimes models get too complex. With Visyond you can simplify them by
-      identifying variables with no significant impact on the output and how
-      they interact with one another.
-    title: Simplify Models
 providesTitle: Get started in minutes
 providesList:
   - text: >-
