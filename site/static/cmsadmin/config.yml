@@ -385,11 +385,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Background Image", name: "bgImage", widget: image}
 
 
-      - {label: "Provides Title", name: "providesTitle", widget: "string"}
-          - {label: "Provides List", name: "providesList", widget: "list", fields: [
-            {label: "Provides Item", name: "text", widget: "markdown"},
-          ],}
-
+      - {label: "Errors Title", name: "errorsTitle", widget: "string"}
+      - {label: "Errors List", name: "errorsList", widget: "list", fields: [
+          {label: "Errors Item", name: "text", widget: "markdown"},
+        ],}
+      - {label: "Errors Image", name: "errorsImage", widget: image}
+      - {label: "Errors Files", name: "errorsFiles", widget: list, fields: [
+          {label: "File", name: "file", widget: "file"},
+          {label: "Title", name: "title", widget: "string"},
+          {label: "Description", name: "descr", widget: "text"},
+        ]}
 
 
 
