@@ -23,7 +23,7 @@
 <div class="third-section an3rd">
     <section class="an3rd__wrap">
         <h3 class="an3rd__title">
-            {{ .Params.errosTitle }}
+            {{ .Params.errorsTitle }}
         </h3>
 
         <ul class="an3rd__list">
@@ -35,7 +35,7 @@
         </ul>
     </section>
 
-    <div class="an3rd__img-wrap">
+    <div class="an3rd__img-wrap js-img-wrap">
         {{ if .Params.errorsFiles }}
         <div class="an3rd__img-pointer">
             Click to enlarge
@@ -45,7 +45,7 @@
         </div>
         {{ end }}
 
-        <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="sol-an3rd__block-img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}">
+        <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="an3rd__block-img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}">
     </div>
 </div>
 <!-- //third section -->

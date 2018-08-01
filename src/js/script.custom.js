@@ -262,7 +262,7 @@ $(function () {
 
      function PopupInfoImages() {
        this.mainBlock = document.body;
-       this.images = this.mainBlock.querySelectorAll('.info__img-wrap img');
+       this.images = this.mainBlock.querySelectorAll('.js-img-wrap img');
        this.typeImages = ['png', 'jpg', 'gif'];
        this.typeVideos = ['mp4']
 
