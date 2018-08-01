@@ -20,7 +20,7 @@
 <!-- //second section -->
 
 <!-- third section -->
-<!-- <div class="third-section an3rd">
+<div class="third-section an3rd">
     <section class="an3rd__wrap">
         <h3 class="an3rd__title">
             {{ .Params.errosTitle }}
@@ -47,7 +47,7 @@
 
         <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="sol-an3rd__block-img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}">
     </div>
-</div> -->
+</div>
 <!-- //third section -->
 
 {{ partial "footer" . }}
