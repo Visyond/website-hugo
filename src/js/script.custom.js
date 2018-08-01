@@ -472,7 +472,7 @@ $(function () {
       });
     };
 
-    if(document.querySelector('.js-image-block')) {
+    if(document.querySelector('.js-img-wrap')) {
       const newPopup = new PopupInfoImages();
     }
 
