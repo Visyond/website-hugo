@@ -44,6 +44,23 @@
 
 
 
+.second-section {
+  height: 200px;
+  background: #fff;
+  border-bottom: 1px solid #aaa;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
 .an3rd {
   width: 100%;
   max-width: 1200px;
@@ -93,11 +110,12 @@
     width: 100%;
     left: 0;
     padding-left: 0;
+    padding-bottom: 50px;
   }
 }
 
 .an3rd__title {
-  color: #555;
+  color: #0086ff;
   font-weight: 400;
   font-size: 3rem;
   margin-bottom: 4rem;
