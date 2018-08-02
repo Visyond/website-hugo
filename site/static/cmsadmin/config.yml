@@ -521,6 +521,25 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
+
+
+      - file: "site/content/features-section/_index.md"
+        label: "Features Section"
+        name: "features-section"
+        fields:
+          - { label: "Features dropdown column", name: "feaDropdownCol", widget: "list", fields: [
+            { label: "Title Column", name: "title", widget: string },
+            { label: "Features dropdown", name: "features_dropdown", widget: "list", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "path", name: "path", widget: "string" }
+              ]}
+            ]}
+
+
+
+
+
+
       - file: "site/content/cookies/_index.md"
         label: "Cookies"
         name: "cookies"
