@@ -397,13 +397,13 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Description", name: "descr", widget: "text"},
         ]}
 
-        - {label: "Provides Title", name: "providesTitle", widget: "string"}
-        - {label: "Provides List", name: "providesList", widget: "list", fields: [
+      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+      - {label: "Provides List", name: "providesList", widget: "list", fields: [
           {label: "Provides Item", name: "text", widget: "markdown"},
         ],}
 
-        - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-        - {label: "Background Bottom", name: "bgBottom", widget: "image"}
+      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
 
 
 
