@@ -1,23 +1,28 @@
 ---
 url: /free-analysis
 topTitle: >-
-  Simple and Modular Pricing - We Work With Companies Of All Sizes With A
-  Flexible, Scalable Solution
-topSubTitle: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed accusantium est
-  ut, numquam dolor facilis aliquam dolorum reiciendis consequatur tempore
-  officia perspiciatis repudiandae modi, amet tempora hic optio, delectus
-  similique!
+  Get a Top-Consultant-level spreadsheet analysis for free powered by Visyond’s
+  technology
+topSubTitle: req field
 bgImage: /img/topImgPrivacy.png
 text: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam dolore earum
-  deserunt amet, culpa reprehenderit ipsam, ducimus facere ad quos atque qui
-  magnam nostrum possimus commodi omnis enim libero et!
-errorsTitle: Errors title
+  Visyond’s Machine intelligence allows us to analyse your spreadsheet in
+  minutes instead of days. Predict and see the future with our free spreadsheet
+  analysis report. Upload any model or spreadsheet and we will send you a free
+  report that consultants would take days and £1,000’s in fees to produce.
+errorsTitle: 'You can choose a key output in your spreadsheet and the report will show you:'
 errorsList:
-  - text: First error point
-  - text: Second error point long long long text
-  - text: Third error point
+  - text: >-
+      Find the probability of distributions that fit your historical data so you
+      can make better forecasts with Simulation Analysis
+  - text: >-
+      Spreadsheet Error checking, using Visyond’s Audit Mode, we can track
+      errors and their root cause in seconds
+  - text: Identify And Visualize Cells Dependencies
+  - text: "Know what input cells have the greatest impact on important output cells (tornado)\r\nInstantly Understand the relationship between input and output variables in a spreadsheet\r (Sensitivity)"
+  - text: >-
+      Compare Scenarios (Visyond varies each of the top 5 input by -/+ 50% and
+      create new cases with these values)
 errorsImage: /img/illusrtation 1-2.png
 errorsFiles:
   - descr: >-
@@ -44,11 +49,11 @@ errorsFiles:
 providesTitle: Get started in minutes
 providesList:
   - text: >-
-      A flexible and familiar spreadsheet interface that is **cross-compatible
-      **with Excel
+      A flexible and familiar spreadsheet interface that is **cross-compatible**
+      with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control **over your data
+  - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/data input and consolidation 2.png
+bgBottom: /img/back2.png
 ---
 
