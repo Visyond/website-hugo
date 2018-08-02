@@ -17,9 +17,9 @@ infoBlockFirst:
       - descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
-        file: /img/Sensitivity in Browser v4.png
+        file: /img/Sensitivity two-way v2.png
         title: Set Up Sensitivity Analysis In Seconds
-    image: /img/Sensitivity in Browser v4.png
+    image: /img/Sensitivity two-way v2.png
     title: Focus On What’s Important
   - descr: >-
       As models grow in size and complexity, searching for errors becomes a much
