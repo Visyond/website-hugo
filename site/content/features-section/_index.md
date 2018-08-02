@@ -7,7 +7,7 @@ feaDropdownCol:
   - features_dropdown:
       - path: /features/scenarios
         title: Scenarios
-      - path: '/features/sensitivity/ '
+      - path: /features/sensitivity/
         title: Sensitivity
     title: Analysis
   - features_dropdown:
