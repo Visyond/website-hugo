@@ -1,5 +1,5 @@
 ---
-url: /new-analysis-test
+url: /free-analysis
 topTitle: >-
   Simple and Modular Pricing - We Work With Companies Of All Sizes With A
   Flexible, Scalable Solution
