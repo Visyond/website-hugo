@@ -37,6 +37,9 @@ infoBlockFirst:
           assumptions affect the outcome.
         file: /img/Scenario Window in Browser.png
         title: Combine Assumptions Into Scenarios
+      - file: /img/record scenario.gif
+      - file: /img/scenario panel.gif
+      - file: /img/switch assumptions.gif
     image: /img/Scenario Window in Browser.png
     title: Create Scenarios in a few clicks
   - descr: >-
