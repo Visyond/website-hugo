@@ -19,7 +19,8 @@ errorsList:
       Spreadsheet Error checking, using Visyond’s Audit Mode, we can track
       errors and their root cause in seconds
   - text: Identify And Visualize Cells Dependencies
-  - text: "Know what input cells have the greatest impact on important output cells (tornado)\r\nInstantly Understand the relationship between input and output variables in a spreadsheet\r (Sensitivity)"
+  - text: "Know what input cells have the greatest impact on important output cells (Tornado)\r"
+  - text: "Instantly Understand the relationship between input and output variables in a spreadsheet\r (Sensitivity)"
   - text: >-
       Compare Scenarios (Visyond varies each of the top 5 input by -/+ 50% and
       create new cases with these values)
