@@ -500,4 +500,31 @@ $(function () {
      if(document.querySelector('.cookies')) {
        getCookies();
      }
+
+
+
+
+
+
+
+     //=====FORM=====
+
+     function customizeForm() {
+      const form = document.querySelector('.js-form');
+      const inputs = form.querySelectorAll('input');
+
+      for(const input of inputs) {
+        input.addEventListener('focus', () => {
+          input.nextElementSibling.classList.add('an5th__form-label--active');
+        });
+
+        input.addEventListener('blur', () => {
+          if(input.value.length === 0) {
+            input.nextElementSibling.classList.remove('an5th__form-label--active'); 
+          }
+        });
+      }
+     }
+
+     document.querySelector('.js-form') && customizeForm();
 });
