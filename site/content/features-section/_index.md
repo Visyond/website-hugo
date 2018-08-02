@@ -11,7 +11,7 @@ feaDropdownCol:
         title: Sensitivity
     title: Analysis
   - features_dropdown:
-      - path: /interactive-presentations
+      - path: /features/interactive-presentations
         title: Interactive Presentations
     title: Reporting
 ---
