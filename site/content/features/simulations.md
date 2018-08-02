@@ -12,6 +12,13 @@ infoBlockFirst:
   - descr: >-
       Simulation analysis is a powerful forecasting tool applicable to almost
       every field - from Finance and Sales to Engineering.
+    files:
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v2.png
+        title: Monte Carlo Simulation
+    image: /img/Monte Carlo Simulation v2.png
     link: >-
       https://help.visyond.com/articles/how-to-run-monte-carlo-simulations-in-visyond/
     title: Powerful Forecasting Tool
