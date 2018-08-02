@@ -3,7 +3,7 @@ url: /free-analysis
 topTitle: >-
   Get a Top-Consultant-level spreadsheet analysis for free powered by Visyond’s
   technology
-topSubTitle: req field
+topSubTitle: ''
 bgImage: /img/topImgPrivacy.png
 text: >-
   Visyond’s Machine intelligence allows us to analyse your spreadsheet in
