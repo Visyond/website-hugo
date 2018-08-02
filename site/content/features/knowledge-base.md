@@ -18,9 +18,12 @@ infoBlockFirst:
       - descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Attachments and Comments in Browser v2.png
+        file: /img/Single source of truth.png
         title: Never Lose Important Information
-    image: /img/Attachments and Comments in Browser v2.png
+      - descr: ''
+        file: /img/Attachments and Comments in Browser v2.png
+        title: ''
+    image: /img/Single source of truth.png
     title: Store Related Information In Cells
   - descr: >-
       No one can accidentally override data or formulas. All changes are
