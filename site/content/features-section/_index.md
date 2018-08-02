@@ -7,11 +7,11 @@ feaDropdownCol:
   - features_dropdown:
       - path: /features/scenarios
         title: Scenarios
-      - path: '/features/sensitivity/ '
+      - path: /features/sensitivity/
         title: Sensitivity
     title: Analysis
   - features_dropdown:
-      - path: /interactive-presentations
+      - path: /features/interactive-presentations
         title: Interactive Presentations
     title: Reporting
 ---
