@@ -20,6 +20,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v3.png
         title: Interactive Presentations
     image: /img/Interactive Slides in Browser v3.png
+    link: 'https://help.visyond.com/articles/reports-and-presentations/'
     title: Replace Powerpoint Static Visualizations
   - descr: >-
       You can **share the whole presentation or just a few individual slides**
