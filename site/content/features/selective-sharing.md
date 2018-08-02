@@ -13,8 +13,8 @@ infoBlockFirst:
       You can share the whole project, certain worksheets or only specific parts
       of a worksheet, whole presentations or specific slides without exposing
       any other data, conversations, attachments or calculations. With this,
-      data gathering and consolidation is much faster, safer and less prone to
-      errors, unwanted changes and accidental data leakages.
+      **data gathering and consolidation is much faster, safer and less prone to
+      errors, unwanted changes and accidental data leakages.**
     files:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
