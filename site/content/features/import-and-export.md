@@ -14,10 +14,12 @@ infoBlockFirst:
       You don’t have to build your spreadsheet from scratch when starting with
       Visyond, simply import it and you are ready to go! You can always export
       the spreadsheet from Visyond to Excel.
+    link: 'https://help.visyond.com/articles/importing-from-excel/'
     title: Import / Export Spreadsheets
   - descr: >-
       After building chars, analyses, presentations and Financial Statements you
       can always export them into various formats as required.
+    link: 'https://help.visyond.com/articles/reports-and-presentations/'
     title: Export Reports And Presentations
 providesTitle: Get started in minutes
 providesList:
