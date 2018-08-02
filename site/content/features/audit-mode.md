@@ -13,17 +13,22 @@ infoBlockFirst:
       It is often difficult to understand the formulas, especially in complex
       spreadsheets. Visyond allows you to use human-readable names that
       immediately reveal the modeler’s logic.
+    link: >-
+      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Human-Readable Names
   - descr: >-
       When Audit Model is ON, Visyond helps you understand whether a cell
       contains a number, a strings, a date or a formula by auto-formatting them
       as well as highlighting errors allowing you to immediately uncover issues
       with the model.
+    link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
     title: Auto-Formatting
   - descr: >-
       Visyond helps easily navigating the precedents and dependents of a cell.
       Just select a cell and click on their precedents or dependents listed at
       the bottom of the screen.
+    link: >-
+      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Navigating Cell Dependencies
 providesTitle: Get started in minutes
 providesList:
