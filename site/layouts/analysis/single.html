@@ -15,7 +15,9 @@
 
 <!-- second section -->
 <div class="second-section an2nd">
-	
+	<div class="an2nd__text">
+        {{ .Params.text }}
+    </div>
 </div>
 <!-- //second section -->
 
@@ -53,5 +55,91 @@
 <!-- trusted section -->
 {{ partial "trustedslider" . }}
 <!-- ./trusted section -->
+
+<!-- fifth section -->
+<div class="fifth-section an5th">
+    <h3 class="an5th__title">
+        upload your sreadsheet
+    </h3>
+
+    <div class="an5th__sub-title">
+        Please fill in the form <span>for free analysis</span>
+    </div>
+    
+    <form action="" class="an5th__form js-form">
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Full name
+            </div>
+        </div>
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Work email
+            </div>
+        </div>
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Company
+            </div>
+        </div>
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Phone number
+            </div>
+        </div>
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Upload xls file
+            </div>
+        </div>
+        <div class="an5th__form-input-wrap">
+            <input type="text" class="an5th__form-input" required>
+            <div class="an5th__form-label">
+                Output work sheet
+            </div>
+        </div>
+
+        <button class="an5th__form-submit" type="submit">get free analysis</button>
+    </form>
+</div>
+<!-- //fifth section -->
+
+<!-- sixth section -->
+<div class="six-section an6th">
+  <section class="an6th__wrap">
+    <h3 class="an6th__title">
+      {{ .Params.ProvidesTitle }}
+    </h3>
+
+    <ul class="an6th__list">
+      {{ range $el := .Params.ProvidesList }}
+      <li class="an6th__item">
+        {{ .text | markdownify }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <div class="an6th__img-wrap">
+    <img src="/img/v_notebook.png" alt="notebook" class="an6th__img">
+  </div>
+</div>
+<!-- //sixth section -->
+
+<!-- seventh section -->
+<section class="an7th" style="background-image: url({{ .Params.BgBottom }})">
+  <h3 class="an7th__title">
+    {{ .Params.TitleBottom }}
+  </h3>
+
+  <a href="/request" class="an7th__link">
+    request a demo
+  </a>
+</section>
+<!-- //seventh section -->
 
 {{ partial "footer" . }}

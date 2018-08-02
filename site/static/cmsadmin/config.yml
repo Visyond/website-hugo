@@ -384,6 +384,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Sub Title", name: "topSubTitle", widget: markdown}
       - {label: "Background Image", name: "bgImage", widget: image}
 
+      - {label: "Text", name: "text", widget: text}
 
       - {label: "Errors Title", name: "errorsTitle", widget: "string"}
       - {label: "Errors List", name: "errorsList", widget: "list", fields: [
@@ -395,6 +396,14 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
         ]}
+
+        - {label: "Provides Title", name: "providesTitle", widget: "string"}
+        - {label: "Provides List", name: "providesList", widget: "list", fields: [
+          {label: "Provides Item", name: "text", widget: "markdown"},
+        ],}
+
+        - {label: "Title Bottom", name: "titleBottom", widget: "string"}
+        - {label: "Background Bottom", name: "bgBottom", widget: "image"}
 
 
 

@@ -548,9 +548,6 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  /* background: url(/img/home/v_notebook.png) -60% 50% no-repeat;
-  -webkit-background-size: 67%;
-  background-size: 67%; */
 
   @media screen and (max-width: 800px) {
     background: none;
