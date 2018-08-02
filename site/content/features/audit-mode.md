@@ -13,6 +13,15 @@ infoBlockFirst:
       It is often difficult to understand the formulas, especially in complex
       spreadsheets. Visyond allows you to use human-readable names that
       immediately reveal the modeler’s logic.
+    files:
+      - descr: >-
+          Visyond allows you to use human-readable names that immediately reveal
+          the modeler’s logic without you having to chase precedent cryptic
+          cells (i.e., what is B7? and G41?), especially when they are on
+          different worksheets.
+        file: /img/human readable names.png
+        title: Human-Readable Names
+    image: /img/human readable names.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Human-Readable Names
@@ -21,12 +30,31 @@ infoBlockFirst:
       contains a number, a strings, a date or a formula by auto-formatting them
       as well as highlighting errors allowing you to immediately uncover issues
       with the model.
+    files:
+      - descr: >-
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/Audit Mode On.png
+        title: Audit Mode On
+      - file: /img/unit formatting.gif
+        title: Unit Formatting
+    image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
     title: Auto-Formatting
   - descr: >-
       Visyond helps easily navigating the precedents and dependents of a cell.
       Just select a cell and click on their precedents or dependents listed at
       the bottom of the screen.
+    files:
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors.png
+        title: Track Errors
+      - descr: Easily identify precedent and dependent cells.
+        file: /img/navigate dependencies.gif
+        title: Navigate Cell Dependencies
+    image: /img/track errors.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Navigating Cell Dependencies
