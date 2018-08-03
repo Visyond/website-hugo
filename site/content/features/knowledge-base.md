@@ -37,6 +37,11 @@ infoBlockFirst:
           email threads.
         file: /img/Cases in Browser v2.png
         title: Store Multiple Assumptions Simultaneously
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/Versions in Browser.png
+        title: Versions
     image: /img/Cases in Browser v2.png
     title: Track Inputs And Control Versions
   - descr: >-
