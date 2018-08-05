@@ -108,15 +108,10 @@
   }
 
   &--btn {
-    background: #0086ff;
-    padding: 1.1rem 0;
+    background: #fff;
+    border: 1px solid #0086ff;
+    color: #0086ff;
     cursor: pointer;
-
-    &:hover {
-      background: #fff;
-      border: 1px solid #0086ff;
-      color: #0086ff;
-    }
   }
 }
 
