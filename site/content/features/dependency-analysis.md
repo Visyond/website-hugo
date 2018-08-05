@@ -1,6 +1,6 @@
 ---
 title: Dependency Analysis
-topTitle: Identify And Visualize Cells Dependencies
+topTitle: Identify And Visualize Cells' Dependencies
 topSubTitle: >-
   Visyond’s Dependencies Analyses allows you to visually navigate through
   different cells and see how they impact one another, without tampering with
@@ -9,14 +9,10 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
+  - descr: >
       Dependencies Analysis is a powerful auditing tool that helps you uncover
       errors that would be otherwise painstaking to catch as well as present and
       explain your model to colleagues and clients.
-
-
-      For a step-by-step guide, please vision our [help
-      page](https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/)!
     files:
       - descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
@@ -25,6 +21,8 @@ infoBlockFirst:
         file: /img/Dependency in Browser v2.png
         title: Dependency Analysis
     image: /img/Dependency in Browser v2.png
+    link: >-
+      https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
     title: Bird’s Eye View Of Your Spreadsheet
 providesTitle: Get started in minutes
 providesList:
