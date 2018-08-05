@@ -1,7 +1,7 @@
 ---
 title: Homepage
 metaTags: visyond
-topTitle: Make Better and Faster Decisions with Spreadsheet Automation
+topTitle: Real-Time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
