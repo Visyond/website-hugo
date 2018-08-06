@@ -2,10 +2,10 @@
 title: Import And Export
 topTitle: Cross-Compatibility With Excel And PowerPoint
 topSubTitle: >-
-  Visyond was built with ease of use and flexibility in mind allowing you import
-  and export your spreadsheets in familiar Excel format with ease as well as
-  export presentations, charts and Financial Statements to PowerPoint, image or
-  .pdf formats.
+  Visyond was built with ease of use and flexibility in mind allowing you to
+  import & export your spreadsheets in familiar Excel format in a few clicks.
+  Additionally, export presentations, charts and Financial Statements to
+  PowerPoint, image or PDF formats.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
@@ -22,8 +22,13 @@ infoBlockFirst:
     link: 'https://help.visyond.com/articles/importing-from-excel/'
     title: Import / Export Spreadsheets
   - descr: >-
-      After building chars, analyses, presentations and Financial Statements you
-      can always export them into various formats as required.
+      After building charts, analyses, presentations and Financial Statements
+      you can always export them into various formats.
+
+
+      Avoid the copy-paste of static charts and embrace Visyonds [Interactive
+      Presentations](https://visyond.com/features/interactive-presentations/)
+      module.
     files:
       - descr: 'Export presentations, charts, reports to PowerPoint and other formats.'
         file: /img/Export Slides In Browser.png
