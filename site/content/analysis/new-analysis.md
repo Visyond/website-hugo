@@ -7,9 +7,10 @@ topSubTitle: ''
 bgImage: /img/analysis top 1.jpg
 text: >-
   Visyond’s Machine intelligence allows us to analyse your spreadsheet in
-  minutes instead of days. Predict and see the future with our free spreadsheet
-  analysis report. Upload any model or spreadsheet and we will send you a free
-  report that consultants would take days and £1,000’s in fees to produce.
+  minutes instead of days. Predict and see the future with our **free
+  spreadsheet analysis report**. Upload any model or spreadsheet and we will
+  send you a free report that consultants would take days and £1,000’s in fees
+  to produce.
 errorsTitle: 'You can choose a key output in your spreadsheet and the report will show you:'
 errorsList:
   - text: >-
