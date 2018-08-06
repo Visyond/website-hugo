@@ -15,9 +15,11 @@
 
 <!-- second section -->
 <div class="second-section an2nd">
+    {{ with .Params.text }}
 	<div class="an2nd__text">
-        {{ .Params.text }}
+        {{ . }}
     </div>
+    {{ end }}
 </div>
 <!-- //second section -->
 
