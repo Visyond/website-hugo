@@ -57,12 +57,8 @@
 </div>
 <!-- //third section -->
 
-<!-- trusted section -->
-{{ partial "trustedslider" . }}
-<!-- ./trusted section -->
-
 <!-- fifth section -->
-<div class="fifth-section an5th">
+<div class="fifth-section an5th" style="background-image: url({{ .Params.formImage }})">
     <h3 class="an5th__title">
         upload your sreadsheet
     </h3>
@@ -113,6 +109,10 @@
     </form>
 </div>
 <!-- //fifth section -->
+
+<!-- trusted section -->
+{{ partial "trustedslider" . }}
+<!-- ./trusted section -->
 
 <!-- sixth section -->
 <div class="six-section an6th">

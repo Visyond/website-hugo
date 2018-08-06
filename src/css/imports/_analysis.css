@@ -269,8 +269,10 @@
 }
 
 .an5th__title {
-  color: #0086ff;
   font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
   font-size: 2rem;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -288,19 +290,23 @@
   margin: 0;
   margin-bottom: 1.5rem;
   padding: 0;
-  color: #767575;
   font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
   font-size: 1.25rem;
   position: relative;
-
+/*
   & span {
     color: #0086ff;  
-  }
+  }*/
 }
 
 .an5th__form {
   max-width: 400px;
   width: 100%;
+  background: no-repeat center center;
+  background-size: cover;
 }
 
 .an5th__form-input-wrap {
@@ -329,7 +335,9 @@
   position: absolute;
   left: 5px;
   bottom: 10px;
-  color: #0086ff;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
   font-size: 1rem;
   -webkit-transition: .3s;
   -o-transition: .3s;
