@@ -21,10 +21,7 @@ infoBlockFirst:
       - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v3.png
     title: Play With The Assumptions With Ease
-  - descr: >-
-      Once the app or calculator is ready to see the light - securely share it
-      with colleagues, clients or stakeholders without worrying about exposing
-      the spreadsheet data, calculations or sensitive information.
+  - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s unique [Selective Sharing](https://visyond.com/features/selective-sharing/) feature without exposing the spreadsheet and any sensitive or unnecessary information. Stakeholders can then safely test their own assumptions without breaking or ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation to Powerpoint."
     files:
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
@@ -33,7 +30,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser.png
         title: SHARE PARTS OR WHOLE PRESENTATIONS
     image: /img/Share Slide in Browser.png
-    title: Share Only What They Need To See
+    title: Share Only What Collaborators Or Clients Need To See
 providesTitle: Get started in minutes
 providesList:
   - text: >-
