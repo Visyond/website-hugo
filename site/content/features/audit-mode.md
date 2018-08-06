@@ -7,6 +7,28 @@ requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
+      With Visyond’s intuitive interface you will be able to identify what is
+      causing errors in your spreadsheets, precedent and dependent cells with
+      just a few clicks.
+    files:
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        title: Track errors and their root cause
+      - descr: >-
+          It highlights error and circular cells clearly; The trendlines help
+          you visually identify unexpected behaviors; The Precedents Panel
+          displays on top the precedent cells that are error - this way you can
+          identify the root cause of the error propagation chain with a few
+          clicks.
+        file: /img/track errors.png
+        title: Track errors and their root cause
+    image: /img/track errors 1.png
+    link: >-
+      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
+    title: Quickly Identify Errors Root Cause
+  - descr: >-
       It is often difficult to understand the formulas, especially in complex
       spreadsheets. Visyond allows you to use human-readable names that
       immediately reveal the modeler’s logic.
@@ -59,28 +81,6 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Navigating Cell Dependencies
-  - descr: >-
-      With Visyond’s intuitive interface you will be able to identify what is
-      causing errors in your spreadsheets, precedent and dependent cells with
-      just a few clicks.
-    files:
-      - descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/track errors 1.png
-        title: Track errors and their root cause
-      - descr: >-
-          It highlights error and circular cells clearly; The trendlines help
-          you visually identify unexpected behaviors; The Precedents Panel
-          displays on top the precedent cells that are error - this way you can
-          identify the root cause of the error propagation chain with a few
-          clicks.
-        file: /img/track errors.png
-        title: Track errors and their root cause
-    image: /img/track errors 1.png
-    link: >-
-      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
-    title: Quickly Identify Errors Root Cause
 providesTitle: Get started in minutes
 providesList:
   - text: >-
