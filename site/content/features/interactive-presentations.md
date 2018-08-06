@@ -19,6 +19,7 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v3.png
         title: Interactive Presentations
+      - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v3.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
     title: Replace Powerpoint Static Visualizations
