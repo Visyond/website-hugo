@@ -81,7 +81,7 @@
     left: 50%;
     white-space: nowrap;
     font-size: 1rem;
-    color: #FF5722;
+    color: #0086ff;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -102,13 +102,13 @@
   left: 30px;
 
   &:before {
-    content: "See prev";
+    content: "See previous";
     position: absolute;
     bottom: 0;
     left: 50%;
     font-size: 1rem;
     white-space: nowrap;
-    color: #FF5722;
+    color: #0086ff;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -165,7 +165,7 @@
     bottom: -100%;
     left: 50%;
     white-space: nowrap;
-    color: #FF5722;
+    color: #0086ff;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -222,7 +222,7 @@
     bottom: -100%;
     left: 50%;
     white-space: nowrap;
-    color: #FF5722;
+    color: #0086ff;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
@@ -263,6 +263,7 @@
   flex-shrink: 0;
   position: relative;
   color: #fff;
+  background: rgba(0,0,0,.7);
   text-align: center;
   display: -webkit-flex;
   display: -moz-flex;
