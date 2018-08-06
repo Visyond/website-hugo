@@ -48,6 +48,7 @@ errorsFiles:
       delectus similique!
     file: /img/4.jpg
     title: Title
+formImage: /img/CEO landing header 3.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
