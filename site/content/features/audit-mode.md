@@ -1,10 +1,7 @@
 ---
 title: Audit Mode
 topTitle: Audit And Debug Models With Ease
-topSubTitle: >-
-  Visyond’s Audit Mode is a powerful tool that will aid you greatly in debugging
-  and auditing your spreadsheets. For more step-by-step guide how to use Audit
-  Model, check out our tutorial!
+topSubTitle: "Visyond’s Audit Mode is a powerful tool that will aid you greatly in debugging and auditing your spreadsheets.\r"
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
@@ -28,8 +25,8 @@ infoBlockFirst:
   - descr: >-
       When Audit Model is ON, Visyond helps you understand whether a cell
       contains a number, a strings, a date or a formula by auto-formatting them
-      as well as highlighting errors allowing you to immediately uncover issues
-      with the model.
+      with distinct colour codes. It also highlights errors immediately
+      uncovering issues with the model.
     files:
       - descr: >-
           In the Audit Mode each cell looks different based on the type of data
@@ -42,9 +39,13 @@ infoBlockFirst:
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
     title: Auto-Formatting
   - descr: >-
-      Visyond helps easily navigating the precedents and dependents of a cell.
+      Visyond helps easily navigate the precedents and dependents of a cell.
       Just select a cell and click on their precedents or dependents listed at
       the bottom of the screen.
+
+
+      [Learn how](https://visyond.com/features/dependency-analysis/) you can
+      visualize the structure of your spreadsheets with Visyond.
     files:
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
