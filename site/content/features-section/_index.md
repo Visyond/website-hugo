@@ -15,7 +15,7 @@ feaDropdownCol:
         title: Impact
       - path: /features/dependency-analysis
         title: Dependencies
-      - path: /features/import-and-export
+      - path: /features/simulations
         title: Simulations
     title: Analysis
   - features_dropdown:
