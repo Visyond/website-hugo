@@ -1,11 +1,12 @@
 ---
 title: Charts
-topTitle: Create Always-Up-To-Date Charts With Ease
+topTitle: Create Up-To-Date Charts With Ease
 topSubTitle: >-
   Charts are the cornerstone of a good presentation and an irreplaceable
-  analysis tool. In Visyond, charting is simple and fast and does not require
-  manual maintenance - data in charts is automatically updated, even if the
-  chart is in the presentation!
+  analysis tool. In Visyond, charting is simple, fast and does not require
+  learning complex menus - charts are automatically updated, even if the chart
+  is in Visyond’s [Interactive
+  Presentations](https://visyond.com/features/interactive-presentations/).
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
@@ -23,7 +24,7 @@ infoBlockFirst:
   - descr: >-
       You no longer need to manually rearrange cells to get better data
       visualization - Visyond provides a convenient interface to help you change
-      charts appearance, grouping and organization.
+      charts appearance, group data sets and organize information.
     files:
       - file: /img/Charts settings.png
       - file: /img/customizing-charts.gif
@@ -31,9 +32,8 @@ infoBlockFirst:
     image: /img/Charts settings.png
     title: Customize Charts Easier
   - descr: >-
-      Visyond keeps the information in your charts always up-to-date with the
-      latest changes in the model - you no longer have to go through multiple
-      presentations and manually update the charts!
+      Your charts are always in sync with multiple presentations and the
+      spreadsheet.
     files:
       - file: /img/line chart.png
       - file: /img/change series animated.gif
