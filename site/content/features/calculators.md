@@ -18,8 +18,9 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v3.png
         title: INTERACTIVE CALCULATORS & APPS
+      - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v3.png
-    title: Play With The Numbers With Ease
+    title: Play With The Assumptions With Ease
   - descr: >-
       Once the app or calculator is ready to see the light - securely share it
       with colleagues, clients or stakeholders without worrying about exposing
