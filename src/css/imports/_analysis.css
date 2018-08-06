@@ -93,6 +93,11 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
 
   @media screen and (max-width: 800px) {
     background: none;
@@ -100,6 +105,14 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+}
+
+.an3rd__wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
 .an3rd__img-wrap {
@@ -126,6 +139,7 @@
   width: 600px;
   position: relative;
   padding-left: 60px;
+  margin-right: 2rem;
 
   @media screen and (max-width: 800px) {
     width: 100%;
@@ -138,8 +152,11 @@
 .an3rd__title {
   color: #0086ff;
   font-weight: 400;
-  font-size: 3rem;
-  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 5rem;
+  text-align: center;
+  max-width: 800px;
 
   @media screen and (max-width: 800px) {
     text-align: center;

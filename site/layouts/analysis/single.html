@@ -17,7 +17,7 @@
 <div class="second-section an2nd">
     {{ with .Params.text }}
 	<div class="an2nd__text">
-        {{ . }}
+        {{ . | markdownify}}
     </div>
     {{ end }}
 </div>
@@ -25,10 +25,12 @@
 
 <!-- third section -->
 <div class="third-section an3rd">
-    <section class="an3rd__wrap">
-        <h3 class="an3rd__title">
-            {{ .Params.errorsTitle }}
-        </h3>
+    <h3 class="an3rd__title">
+        {{ .Params.errorsTitle }}
+    </h3>
+
+    <div class="an3rd__wrapper">
+        <section class="an3rd__wrap">
 
         <ul class="an3rd__list">
             {{ range $el := .Params.errorsList }}
@@ -50,6 +52,7 @@
         {{ end }}
 
         <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="an3rd__img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}">
+    </div>
     </div>
 </div>
 <!-- //third section -->
