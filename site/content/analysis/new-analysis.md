@@ -15,16 +15,21 @@ errorsTitle: 'You can choose a key output in your spreadsheet and the report wil
 errorsList:
   - text: >-
       Find the probability of distributions that fit your historical data so you
-      can make better forecasts with Simulation Analysis
+      can make better forecasts with **Simulation Analysis**
   - text: >-
-      Spreadsheet Error checking, using Visyond’s Audit Mode, we can track
+      Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
       errors and their root cause in seconds
-  - text: Identify And Visualize Cells Dependencies
-  - text: "Know what input cells have the greatest impact on important output cells (Tornado)\r"
-  - text: "Instantly Understand the relationship between input and output variables in a spreadsheet\r (Sensitivity)"
+  - text: Identify And Visualize **Cells Dependencies**
   - text: >-
-      Compare Scenarios (Visyond varies each of the top 5 input by -/+ 50% and
-      create new cases with these values)
+      Know what input cells have the greatest **impact on important output
+      cells** (Tornado)
+  - text: >-
+      Instantly **Understand the relationship between input and output
+      variables** in a spreadsheet
+       (Sensitivity)
+  - text: >-
+      **Compare Scenarios** (Visyond varies each of the top 5 input by -/+ 50%
+      and create new cases with these values)
 errorsImage: /img/illusrtation 1-2.png
 errorsFiles:
   - descr: >-
