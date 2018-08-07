@@ -14,7 +14,7 @@ import Contacts from "./cms-preview-templates/contacts";
 import CaseStudies from "./cms-preview-templates/casestudies";
 import Pricing from "./cms-preview-templates/pricing";
 import Pricings from "./cms-preview-templates/pricings";
-import Analasys from "./cms-preview-templates/analysis";
+import Analysis from "./cms-preview-templates/analysis";
 
 
 // Example of creating a custom color widget
