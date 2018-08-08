@@ -19,7 +19,7 @@ infoBlockFirst:
       - descr: >-
           In the Audit Mode each cell looks different based on the type of data
           it contains.
-        file: /img/Audit Mode Off.png
+        file: /img/Audit Mode On.png
         title: AUDIT MODE ON
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
