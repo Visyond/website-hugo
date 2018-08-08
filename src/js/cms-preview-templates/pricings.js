@@ -35,14 +35,8 @@ export default class Pricings extends React.Component {
                                   <h3 className="prs2nd__title">{entry.getIn(['data', 'leftCard.leftcardtitle'])}</h3>
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'leftCard.leftCardSubTitle'])}</h4>
                               </div>
-                              <ul>
-                                  {(entry.getIn(['data', 'leftCard.leftCardPoint']) || []).map((line, index) => <li key={index}>
-                                      {line}
-                                  </li>)
-                                  }
-                              </ul>
-                              <div className="prs2nd__btn-wrap">
-                                  <a href={leftCard.leftCardlink} className="prs2nd__btn" aria-label="button">Contact</a>
+                              <div className="prs2nd__markdown">
+                                { widgetFor('leftCard.leftCardMarkdown') }
                               </div>
                           </article>
                       </li>
@@ -53,14 +47,8 @@ export default class Pricings extends React.Component {
                                   <h3 className="prs2nd__title">{entry.getIn(['data', 'middleCard.middleCardTitle'])}</h3>
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'middleCard.middleCardSubTitle'])}</h4>
                               </div>
-                              <ul>
-                                  {(entry.getIn(['data', 'middleCard.middleCardPoint']) || []).map((line, index) => <li key={index}>
-                                      {line}
-                                  </li>)
-                                  }
-                              </ul>
-                              <div className="prs2nd__btn-wrap">
-                                  <a href={middleCard.middleCardLink} className="prs2nd__btn" aria-label="button">Contact</a>
+                              <div className="prs2nd__markdown">
+                                { widgetFor('leftCard.leftCardMarkdown') }
                               </div>
                           </article>
                       </li>
@@ -71,18 +59,16 @@ export default class Pricings extends React.Component {
                                   <h3 className="prs2nd__title">{entry.getIn(['data', 'rightCard.rightCardTitle'])}</h3>
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn('data', rightCard.rightCardSubTitle)}</h4>
                               </div>
-                              <ul>
-                                  {(entry.getIn(['data', 'rightCard.rightCardPoint']) || []).map((line, index) => <li key={index}>
-                                      {line}
-                                  </li>)
-                                  }
-                              </ul>
-                              <div className="prs2nd__btn-wrap">
-                                  <a href={entry.getIn(['data', 'rightCard.rightCardLink'])} className="prs2nd__btn" aria-label="button">Trial</a>
+                              <div className="prs2nd__markdown">
+                                { widgetFor('leftCard.leftCardMarkdown') }
                               </div>
                           </article>
                       </li>
                   </ul>
+
+                  <div class="prs2nd__btn-wrap">
+                      <a href={entry.getIn(['data', 'cardsLink'])} class="prs2nd__btn" aria-label="button">FREE 14 DAY TRIAL</a>
+                  </div>
 
                   <div className="prs2nd__asked-wrap">
                       <p className="prs2nd__asked-descr">

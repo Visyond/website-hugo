@@ -29,16 +29,11 @@
                         <h3 class="prs2nd__title">{{ $lcard.leftCardTitle }}</h3>
                         <h4 class="prs2nd__card-subtitle">{{ $lcard.LeftCardSubTitle }}</h4>
                     </div>
-                    <ul>
-                        {{ range $el := $lcard.LeftCardPoint }}
-                        <li>
-                            {{ $el.line }}
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <div class="prs2nd__btn-wrap">
-                        <a href="{{ $lcard.leftCardLink }}" class="prs2nd__btn" aria-label="button">Free 14 Day Trial</a>
+                    {{ with $lcard.leftCardMarkdown }}
+                    <div class="prs2nd__markdown">
+                        {{ . | markdownify }}
                     </div>
+                    {{ end }}
                 </article>
             </li>
 
@@ -49,16 +44,11 @@
                         <h3 class="prs2nd__title">{{ $mcard.MiddleCardTitle }}</h3>
                         <h4 class="prs2nd__card-subtitle">{{ $mcard.MiddleCardSubTitle }}</h4>
                     </div>
-                    <ul>
-                        {{ range $el := $mcard.MiddleCardPoint }}
-                        <li>
-                            {{ $el.line }}
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <div class="prs2nd__btn-wrap">
-                        <a href="{{ $mcard.middleCardLink }}" class="prs2nd__btn" aria-label="button">Contact Us</a>
+                    {{ with $mcard.middleCardMarkdown }}
+                    <div class="prs2nd__markdown">
+                        {{ . | markdownify }}
                     </div>
+                    {{ end }}
                 </article>
             </li>
 
@@ -69,19 +59,18 @@
                         <h3 class="prs2nd__title">{{ $rcard.RightCardTitle }}</h3>
                         <h4 class="prs2nd__card-subtitle">{{ $rcard.RightCardSubTitle }}</h4>
                     </div>
-                    <ul>
-                        {{ range $el := $rcard.RightCardPoint }}
-                        <li>
-                            {{ $el.line }}
-                        </li>
-                        {{ end }}
-                    </ul>
-                    <div class="prs2nd__btn-wrap">
-                        <a href="{{ $rcard.rightCardLink }}" class="prs2nd__btn" aria-label="button">Contact Us</a>
+                    {{ with $rcard.rightCardMarkdown }}
+                    <div class="prs2nd__markdown">
+                        {{ . | markdownify }}
                     </div>
+                    {{ end }}
                 </article>
             </li>
         </ul>
+
+        <div class="prs2nd__btn-wrap">
+            <a href="{{ .Params.cardsLink }}" class="prs2nd__btn" aria-label="button">FREE 14 DAY TRIAL</a>
+        </div>
 
         <div class="prs2nd__asked-wrap">
             <p class="prs2nd__asked-descr">
