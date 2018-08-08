@@ -102,7 +102,7 @@ infoBlockFirst:
       - descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.pdn
+        file: /img/Scenarios chart in Browser v4.png
         title: COMPARE SCENARIOS IN REAL TIME
       - descr: >-
           Sometimes models get too complex. With Visyond you can simplify them
