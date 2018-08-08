@@ -16,6 +16,32 @@ infoBlockFirst:
       mistakes. Automated debugging solutions such as Error Root Cause and Cell
       Dependencies Analysis will also save you countless hours that would be
       otherwise spent on tiresome manual error-hunting.
+    files:
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
+      - descr: >-
+          It highlights error and circular cells clearly; The trendlines help
+          you visually identify unexpected behaviors; The Precedents Panel
+          displays on top the precedent cells that are error - this way you can
+          identify the root cause of the error propagation chain with a few
+          clicks.
+        file: /img/track errors.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
+      - descr: >-
+          Dependency analysis gives you a bird’s eye view of your model in the
+          same way Google Maps does of a neighborhood. It’s a powerful auditing
+          tool, uncovering errors that would be otherwise painstaking to catch.
+        file: /img/Dependency in Browser v2.png
+        title: DEPENDENCY ANALYSIS
+      - descr: >-
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/Audit Mode On.png
+        title: AUDIT MODE ON
+    image: /img/track errors 1.png
     title: Streamline Modeling Tasks
   - descr: "You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders through various communication channels. \r\n\r\nVisyond solves data chaos and establishes a single source of truth by providing intuitive interface to manage scenarios and store all inputs, attachments and conversations directly in the relevant cells.\r\n"
     title: Single Source Of Truth For Your Spreadsheet
