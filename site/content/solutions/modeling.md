@@ -42,26 +42,86 @@ infoBlockFirst:
         file: /img/Audit Mode On.png
         title: AUDIT MODE ON
     image: /img/track errors 1.png
+    link: /features/audit-mode/
     title: Streamline Modeling Tasks
   - descr: "You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders through various communication channels. \r\n\r\nVisyond solves data chaos and establishes a single source of truth by providing intuitive interface to manage scenarios and store all inputs, attachments and conversations directly in the relevant cells.\r\n"
+    files:
+      - descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/Single source of truth.png
+        title: NEVER LOSE IMPORTANT INFORMATION
+      - descr: ''
+        file: /img/Attachments and Comments in Browser v2.png
+        title: ''
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/Versions in Browser.png
+        title: VERSIONS
+    image: /img/Single source of truth.png
+    link: /features/knowledge-base/
     title: Single Source Of Truth For Your Spreadsheet
   - descr: >-
       Visyond’s Selective Sharing and granular permissions control will ensure
       that sensitive information will be kept safe and only stakeholders you
       approve will have access to it.
+    files:
+      - descr: >-
+          Set access on project level with different roles - Owner, Reader,
+          Coworker with different access permissions.
+        file: /img/Share Project.png
+        title: SHARE PROJECT
+      - descr: >-
+          Manage who can see or can not see a specific worksheet in your
+          project.
+        file: /img/Share Worksheet.png
+        title: SHARE WORKSHEETS
+    image: /img/Share Project.png
+    link: /features/selective-sharing/
     title: Protect Sensitive Information And Avoid Data Leaks
   - descr: >-
       Selective Sharing will not only protect your data but also help you
       improve communications with decision makers by allowing them to see only
       parts of the model / presentations that they are interested in, without
       overwhelming them with non-relevant information and calculations.
+    files:
+      - descr: Share whole presentations or just individual slides.
+        file: /img/Share Slide in Browser.png
+        title: SHARE PRESENTATIONS
+    image: /img/Share Slide in Browser.png
+    link: /features/selective-sharing/
     title: Share Only Relevant Data
   - descr: >-
-      Our built-in analysis tools automate typical routine tasks (like scenario
-      comparison or identification of the most important model drivers) that
-      would otherwise require add-ons or writing macros. With Visyond, you can
-      focus on getting valuable insights from your data instead of error-prone
-      lengthy manual setups.
+      Our built-in analysis tools automate typical routine tasks (like [scenario
+      comparison](/features/scenarios/) or [identification of the most important
+      model drivers](/features/tornado/)) that would otherwise require add-ons
+      or writing macros. With Visyond, you can focus on getting valuable
+      insights from your data instead of error-prone lengthy manual setups.
+    files:
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        file: /img/Scenarios chart in Browser v4.pdn
+        title: COMPARE SCENARIOS IN REAL TIME
+      - descr: >-
+          Sometimes models get too complex. With Visyond you can simplify them
+          by identifying variables with no significant impact on the output and
+          how they interact with one another.
+        file: /img/Tornado in Browser v4.png
+        title: SIMPLIFY MODELS
+      - descr: >-
+          With just a few clicks Visyond allows you to run Sensitivity analysis
+          without long manual setups.
+        file: /img/Sensitivity in Browser v4.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+    image: /img/Scenarios chart in Browser v4.png
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Perform Analysis in Minutes Instead of Days
   - descr: >-
       Answer ‘what-if’ questions in real time without going back to the
@@ -70,6 +130,16 @@ infoBlockFirst:
       the presentations without exposing or changing the spreadsheet’s content
       or structure. With Visyond, you no longer need to maintain separate
       presentation layers on top of the spreadsheet.
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
+      - file: /img/Presentation With Chart in Browser.png
+    image: /img/Interactive Slides in Browser v3.png
+    link: /features/interactive-presentations/
     title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
 capabilitiesList:
   - image: /img/v_icon.png
