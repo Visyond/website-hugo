@@ -1,54 +1,52 @@
 ---
 url: /new-pricing
-topTitle: >-
-  Simple and Modular Pricing - We Work With Companies Of All Sizes With A
-  Flexible, Scalable Solution
+topTitle: Simple and Modular Pricing
 topSubTitle: ''
-bgImage: /img/topImgPrivacy.png
-pricingTitle: Pricing
+bgImage: /img/Collab 1 resized 3.jpg
+pricingTitle: 'We Work With Companies Of All Sizes With A Flexible, Scalable Solution'
 firstPricingSubTitle: Visyond subscriptions start at $30/user/month
-secondPricingSubTitle: >-
-  For companies and teams the prices are custom and depend on specific use cases
-  and feature requirements
+secondPricingSubTitle: You can combine any features from any category however you like
 leftCard:
-  leftCardLink: /request
-  leftCardPoint:
-    - line: Pay as you go modules
-    - line: + Simulations
-    - line: + Audit Mode
-    - line: + Financial Statements
-    - line: + Interactive Presentations
-    - line: + Sensitivities
-    - line: + Scenarios
-    - line: + Selective Sharing
+  leftCardMarkdown: |-
+    **Build Module:**
+
+    * [Audit Mode](/features/audit-mode/)
+
+    **Analysis Module:**
+    * [Scenario Comparison](/features/scenarios/)
+    * [Impact](/features/tornado/)
+    * and many more!
+
+    **Reporting Module:**
+    * [Interactive Presentations](/features/interactive-presentations/)
+    * [Apps & Calculators](/features/calculators/)
+    * [Financial Statements](/features/financial-statements/)
   leftCardSubTitle: >-
     Whether you are a consultant or freelancer, it’s never been easier to
     manage, analyse and report spreadsheet data
-  leftCardTitle: Solo - Self-Service Trial
+  leftCardTitle: Features For Individuals
 middleCard:
-  middleCardLink: /contacts
-  middleCardPoint:
-    - line: Custom workflows
-    - line: Custom integrations
-    - line: On-premise installation
-    - line: Dedicated account manager
-    - line: Onboarding program
-    - line: Training & workshops
+  middleCardMarkdown: |-
+    **Everything in _Individual_ & _Team_ plus:**
+    * Cusotom Workflows
+    * Custom Integrations
+    * On-Premise Installation
+    * Dedicated Account Manager
+    * Onboarding Program
+    * Training & Workshops
   middleCardSubTitle: 'The complete spreadsheet platform, for larger teams with complex models'
   middleCardTitle: Enterprise
 rightCard:
-  rightCardLink: /contacts
-  rightCardPoint:
-    - line: Unlimited projects
-    - line: Unlimited Analysis
-    - line: Unlimited tracking & versions
-    - line: Online training and on-boarding
-    - line: Analysis suite
-    - line: Reporting suite
+  rightCardMarkdown: |-
+    **Everything in _Individual_ plus:**
+    * [Selective Sharing](/features/selective-sharing/)
+    * [Knowledge Base](/features/knowledge-base/)
+    * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
   rightCardSubTitle: >-
     Seamlessly take control of your team’s spreadsheet tasks, workflow and
     business case in one platform
   rightCardTitle: Team
+cardsLink: 'https://visyond.com/accounts/login/'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
