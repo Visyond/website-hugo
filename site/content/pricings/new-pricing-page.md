@@ -8,26 +8,29 @@ firstPricingSubTitle: Visyond subscriptions start at $30/user/month
 secondPricingSubTitle: You can combine any features from any category however you like
 leftCard:
   leftCardMarkdown: |-
-    **Build Module:**
+    _Build Module:_
 
     * [Audit Mode](/features/audit-mode/)
 
-    **Analysis Module:**
+    _Analysis Module:_
+
     * [Scenario Comparison](/features/scenarios/)
     * [Impact](/features/tornado/)
     * and many more!
 
-    **Reporting Module:**
+    _Reporting Module:_
+
     * [Interactive Presentations](/features/interactive-presentations/)
     * [Apps & Calculators](/features/calculators/)
     * [Financial Statements](/features/financial-statements/)
   leftCardSubTitle: >-
     Whether you are a consultant or freelancer, it’s never been easier to
     manage, analyse and report spreadsheet data
-  leftCardTitle: Features For Individuals
+  leftCardTitle: Individual features
 middleCard:
   middleCardMarkdown: |-
-    **Everything in _Individual_ & _Team_ plus:**
+    _Everything in Individual & Team plus:_
+
     * Cusotom Workflows
     * Custom Integrations
     * On-Premise Installation
@@ -35,17 +38,18 @@ middleCard:
     * Onboarding Program
     * Training & Workshops
   middleCardSubTitle: 'The complete spreadsheet platform, for larger teams with complex models'
-  middleCardTitle: Enterprise
+  middleCardTitle: Enterprise features
 rightCard:
   rightCardMarkdown: |-
-    **Everything in _Individual_ plus:**
+    _Everything in Individual plus:_
+
     * [Selective Sharing](/features/selective-sharing/)
     * [Knowledge Base](/features/knowledge-base/)
     * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
   rightCardSubTitle: >-
     Seamlessly take control of your team’s spreadsheet tasks, workflow and
     business case in one platform
-  rightCardTitle: Team
+  rightCardTitle: Team features
 cardsLink: 'https://visyond.com/accounts/login/'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
