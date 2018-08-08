@@ -2,7 +2,7 @@
 url: /new-pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: ''
-bgImage: /img/topImgPrivacy.png
+bgImage: /img/Collab 1 resized 3.jpg
 pricingTitle: 'We Work With Companies Of All Sizes With A Flexible, Scalable Solution'
 firstPricingSubTitle: Visyond subscriptions start at $30/user/month
 secondPricingSubTitle: You can combine any features from any category however you like
