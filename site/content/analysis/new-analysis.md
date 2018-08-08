@@ -11,7 +11,7 @@ text: >-
   spreadsheet analysis report**. Upload any model or spreadsheet and we will
   send you a free report that consultants would take days and £1,000’s in fees
   to produce.
-errorsTitle: You can choose a key output in your spreadsheet and the report will show you
+errorsTitle: Analyze Your Spreadsheet
 errorsList:
   - text: >-
       Find the probability of distributions that fit your historical data so you
