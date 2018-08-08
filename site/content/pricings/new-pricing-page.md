@@ -8,17 +8,17 @@ firstPricingSubTitle: Visyond subscriptions start at $30/user/month
 secondPricingSubTitle: You can combine any features from any category however you like
 leftCard:
   leftCardMarkdown: |-
-    _Build Module:_
+    Build Module:
 
     * [Audit Mode](/features/audit-mode/)
 
-    _Analysis Module:_
+    Analysis Module:
 
     * [Scenario Comparison](/features/scenarios/)
     * [Impact](/features/tornado/)
     * and many more!
 
-    _Reporting Module:_
+    Reporting Module:
 
     * [Interactive Presentations](/features/interactive-presentations/)
     * [Apps & Calculators](/features/calculators/)
@@ -29,7 +29,7 @@ leftCard:
   leftCardTitle: Individual features
 middleCard:
   middleCardMarkdown: |-
-    _Everything in Individual & Team plus:_
+    Everything in Individual & Team plus:
 
     * Cusotom Workflows
     * Custom Integrations
@@ -41,7 +41,7 @@ middleCard:
   middleCardTitle: Enterprise features
 rightCard:
   rightCardMarkdown: |-
-    _Everything in Individual plus:_
+    Everything in Individual plus:
 
     * [Selective Sharing](/features/selective-sharing/)
     * [Knowledge Base](/features/knowledge-base/)
