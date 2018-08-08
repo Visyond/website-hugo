@@ -333,27 +333,21 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Left Card", name: "leftCard", widget: "object", fields: [
             {label: "Left Card Title", name: "leftCardTitle", widget: "string"},
             {label: "Left Card Sub Title", name: "leftCardSubTitle", widget: "string"},
-            {label: "Left Card Point", name: "leftCardPoint", widget: "list", fields: [
-                {label: "Line", name: "line", widget: "string"}
-            ]},
-            {label: "Left Card Link", name: "leftCardLink", widget: "string", default: "#"}
+            {label: "Left Card Markdown", name: "leftCardMarkdown", widget: "markdown"}
         ]}
       - {label: "Middle Card", name: "middleCard", widget: "object", fields: [
             {label: "Middle Card Title", name: "middleCardTitle", widget: "string"},
             {label: "Middle Card Sub Title", name: "middleCardSubTitle", widget: "string"},
-            {label: "Middle Card Point", name: "middleCardPoint", widget: "list", fields: [
-                {label: "Line", name: "line", widget: "string"}
-            ]},
-            {label: "Middle Card Link", name: "middleCardLink", widget: "string", default: "#"}
+            {label: "Middle Card Markdown", name: "middleCardMarkdown", widget: "markdown"}
         ]}
       - {label: "Right Card", name: "rightCard", widget: "object", fields: [
             {label: "Right Card Title", name: "rightCardTitle", widget: "string"},
             {label: "Right Card Sub Title", name: "rightCardSubTitle", widget: "string"},
-            {label: "Right Card Point", name: "rightCardPoint", widget: "list", fields: [
-                {label: "Line", name: "line", widget: "string"}
-            ]},
-            {label: "Right Card Link", name: "rightCardLink", widget: "string", default: "#"}
+            {label: "Right Card Markdown", name: "rightCardMarkdown", widget: "markdown"}
         ]}
+
+      - {label: "Cards Link", name: "cardsLink", widget: "string"}
+
       - {label: "Price Client Asked", name: "priceClientAsked", widget: "text"}
       - {label: "Price Client Company", name: "priceClientCompany", widget: "string"}
       - {label: "Price Client Company Logo", name: "priceClientCompanyLogo", widget: "image"}

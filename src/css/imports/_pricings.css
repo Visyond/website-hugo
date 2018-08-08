@@ -8,7 +8,7 @@
   -ms-align-items: center;
   align-items: center;
   text-align: center;
-  padding: 40px 10px 0;
+  padding: 80px 10px 40px;
   background-size: cover;
 }
 
@@ -149,13 +149,17 @@
     font-weight: 300;
 }
 
-.prs2nd__card > ul {
+.prs2nd__markdown {
+  color: #5f6976;
+}
+
+.prs2nd__markdown ul {
     margin: 0 0 20px 0;
     padding: 0;
     list-style: none;
 }
 
-.prs2nd__card li {
+.prs2nd__markdown li {
     position: relative;
     text-indent: 10px;
     font-weight: 300;
@@ -177,7 +181,7 @@
 }
 
 .prs2nd__btn-wrap {
-    margin-top: auto;
+    margin-top: 3rem;
     text-align: center;
 }
 
