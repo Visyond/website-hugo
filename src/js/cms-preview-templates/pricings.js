@@ -36,7 +36,7 @@ export default class Pricings extends React.Component {
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'leftCard.leftCardSubTitle'])}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { widgetFor('leftCard.leftCardMarkdown') }
+                                { entry.getIn(['data', 'leftCard.leftCardMarkdown']) }
                               </div>
                           </article>
                       </li>
@@ -48,7 +48,7 @@ export default class Pricings extends React.Component {
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'middleCard.middleCardSubTitle'])}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { widgetFor('leftCard.leftCardMarkdown') }
+                                { entry.getIn(['data', 'middleCard.middleCardMarkdown']) }
                               </div>
                           </article>
                       </li>
@@ -60,14 +60,14 @@ export default class Pricings extends React.Component {
                                   <h4 className="prs2nd__card-subtitle">{entry.getIn('data', rightCard.rightCardSubTitle)}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { widgetFor('leftCard.leftCardMarkdown') }
+                                { entry.getIn(['data', 'rightCard.rightCardMarkdown']) }
                               </div>
                           </article>
                       </li>
                   </ul>
 
-                  <div class="prs2nd__btn-wrap">
-                      <a href={entry.getIn(['data', 'cardsLink'])} class="prs2nd__btn" aria-label="button">FREE 14 DAY TRIAL</a>
+                  <div className="prs2nd__btn-wrap">
+                      <a href={entry.getIn(['data', 'cardsLink'])} className="prs2nd__btn" aria-label="button">FREE 14 DAY TRIAL</a>
                   </div>
 
                   <div className="prs2nd__asked-wrap">
