@@ -11,7 +11,7 @@ requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
-      In seconds, Visyond lets you ** perform analyses that used to take days,
+      In seconds, Visyond lets you **perform analyses that used to take days,
       automate typical routine tasks and test assumptions safely:**
 
 
