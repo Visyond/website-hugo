@@ -1,6 +1,6 @@
 ---
 title: Analysts and consultants
-topTitle: Transform The Way You Analyze Data
+topTitle: 'Transform The Way You Analyze & Present Data and Make Better Decisions, faster'
 topSubTitle: >-
   As an analyst or consultant, you constantly analyse and recommend the best
   course of action based on the numbers. Visyond makes this process smooth and
@@ -108,6 +108,17 @@ infoBlockFirst:
     image: /img/track errors 1.png
     link: /features/audit-mode/
     title: Audit And Debug Models With Ease
+  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a secure environment for your stakeholders to play with assumptions.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
+    image: /img/Interactive Slides in Browser v3.png
+    link: /features/interactive-presentations/
+    title: Present with Impact
   - descr: >-
       Visyond allows you to communicate more efficiently while avoiding data
       leaks. It removes the need for emailing spreadsheets, back-and-forth
@@ -129,17 +140,6 @@ infoBlockFirst:
     image: /img/Share Project.png
     link: /features/selective-sharing/
     title: Share Only What Collaborators Or Clients Need To See
-  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a secure environment for your stakeholders to play with assumptions.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
-    files:
-      - descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
-        file: /img/Interactive Slides in Browser v3.png
-        title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v3.png
-    link: /features/interactive-presentations/
-    title: Present with Impact
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -147,14 +147,8 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-solTitle: Related Solutions
-solArticle:
-  - image: /img/feature-icons-v1_03.png
-    title: Analysts & Consultants
-  - image: /img/feature-icons-v1_25.png
-    title: Decisions Makers
-  - image: /img/feature-icons-v1_25.png
-    title: Data Input & Consolidation
+solTitle: ''
+solArticle: []
 providesTitle: Get started in minutes
 providesList:
   - text: >-
