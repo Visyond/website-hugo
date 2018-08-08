@@ -2,30 +2,87 @@
 title: Data Input and Consolidation
 topTitle: Eliminate the Hassles During Data Gathering and Consolidation
 topSubTitle: >-
-  When a month or a quarter ends or you need to gather assumptions from experts,
-  it is a never-ending hassle gathering and consolidating data across
-  departments and stakeholders. New spreadsheet templates, hopefully
-  error-free,  are created and passed around to gather the numbers. This often
-  wastes time, and requires added work to verify and check the accuracy of data.
-  During the process the reasons behind each modified number often loses its
-  visibility – causing further inquiries. This all makes the workflow a
-  ceaseless nightmare.
+  With Visyond, the data gathering process efficient allowing you to cut days
+  worth of effort down to minutes. It eliminates the need for all the manual
+  processes that are inherent with spreadsheets.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/data input and consolidation 2.png
 infoBlockFirst:
-  - descr: "Often, during data gathering, information gets lost in the endless stream of emails, inputs are added to the wrong cells, and outdated versions of the templates are floating around leaving everyone involved in the process confused and frustrated. With Visyond  you don’t have to worry about this anymore:\n\n* Automatically _update layout changes maintaining complete synchronization_ and data accuracy with _Visyond’s Template Manager_\r\n* Capture and _store all supporting data_, comments, and collaborators identification within Visyond, allowing complete transparency while _eliminating risk of losing data_\n* Compare data from departments, territories, sold services, or products _side by side with ease_\n* Create _multiple “what-if” scenarios_ with just a few clicks\r\n\n\nThe _spreadsheet owner maintains complete control and visibility_ over the entire data gathering process. This _eradicates rework and manual auditing_ due to manually handling and linking spreadsheets. \r\n\r\n\nVisyond makes the data gathering process efficient allowing you to _cut days worth of effort down to minutes_. It _eliminates the need for all the manual processes_ that are inherent with spreadsheets. \r\n"
-    image: /img/Attachments and Comments in Browser v2.png
-    link: >-
-      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
-    popupUrl: /img/Attachments and Comments in Browser v2.png
-    title: Streamline Data Gathering and Consolidation and Knock Hours Off Your Time
-  - descr: "You used to send attachments to your collaborators. They accidentally changed layout or entered numbers in the wrong units. You had to spend days checking and rectifying all this, never being sure it was all correct. With Visyond you can:\r\n\r\n* Improve collaboration among business units by _notifying data requirements_ to each user\r\n* Securely _share only parts of the spreadsheet_ and allow only authorized business units or colleagues to view and modify their required portion – eliminating the need to email files and version chaos\r\n* Define cells, worksheets, dashboards and slides that can be viewed and/or updated\r\n* Get a _consolidated, always up to date spreadsheet_ as data gets synchronized at each iteration or change\r\n"
-    image: /img/Scenario Window in Browser.png
-    link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
-    popupUrl: /img/Scenario Window in Browser.png
-    title: Reduce Risk of Errors
+  - descr: >-
+      Visyond makes data gathering & consolidation easier by helping you avoid
+      common issues that arise when collecting inputs. You no longer need to
+      create multiple spreadsheet templates, manually distribute it among
+      stakeholders risking accidental layout and formula changes and spending
+      long hours auditing the spreadsheets once you’ve received them back with
+      data.
+    files:
+      - descr: >-
+          Set some of the input cells and only allow contributors to edit
+          certain cells.
+        file: /img/Templating - select cells.gif
+        title: SELECT CELLS TO GATHER DATA FOR
+      - descr: >-
+          Every time you invite a contributor (e.g., a colleague in a department
+          or subsidiary), Visyond creates a clone of the worksheet with a name
+          you assign.
+        file: /img/Templating - invite collaborators.gif
+        title: INVITE COLLABORATORS TO EDIT
+    image: /img/Audit Mode On.png
+    link: /features/data-input-and-consolidation/
+    title: Automate Data Gathering
+  - descr: >-
+      Visyond offers a single place to store all your spreadsheet data -
+      assumptions, supporting documentation, conversations and approvals. Forget
+      about back & forth emails with bits of information, multiple versions of
+      the spreadsheet flying around and critical data lost along the way.
+    files:
+      - descr: ''
+        file: /img/Single source of truth.png
+        title: NEVER LOSE IMPORTANT INFORMATION
+      - descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/Attachments and Comments in Browser v2.png
+        title: Conversations & Attachments
+      - descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/Cases in Browser v2.png
+        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/Versions in Browser.png
+        title: VERSIONS
+    image: /img/Single source of truth.png
+    link: /features/knowledge-base/
+    title: Single Source of Truth for Your Spreadsheets
+  - descr: >-
+      With Visyond’s Scenario Comparison you can quickly compare different
+      assumptions in a few clicks without depending on experts.
+    files:
+      - descr: >-
+          Compare multiple scenarios with a few clicks. Visyond will instantly
+          build an interactive chart which you can easily modify right there at
+          the important meeting and answer ‘what-if’ questions in real time.
+        file: /img/Scenarios chart in Browser v4.png
+        title: Answer What-If Questions Anywhere In Real Time
+    image: /img/Scenarios chart in Browser v4.png
+    link: /features/scenarios/
+    title: Compare Scenarios And Answer What-If Questions On-The-Fly
+  - descr: "Audit Mode eradicates rework and manual auditing by automating all the manual processes that are inherent with spreadsheet.\r\n\nFor example, you will be able to identify what is causing errors in your spreadsheets, precedent and dependent cells with just a few clicks.\r\n"
+    files:
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE
+    image: /img/track errors 1.png
+    link: /features/audit-mode/
+    title: Audit Models & Reduce Risk of Errors
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -33,57 +90,6 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-trustedTitle: Trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
-studiesTitle: Featured case studies
-studiesBlock:
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v3.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-    text: >-
-      The process took 1 stressful week and I did not feel comfortable to update
-      the data, fearing to break something. Now it is a 1-hour job and a few
-      clicks to update data.
-    title: >-
-      How preparing Financial Statements with no training in Finance became a
-      1-hour job
-slider:
-  - sliderDescr: >-
-      I have finally full control on the source and impact of any assumptions,
-      and can confidently answer what-if questions with a few clicks.
-    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-    sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1a.jpg
-  - sliderDescr: >-
-      Since we use Visyond, everyone, regardless of their skill level, can ask
-      deeper questions to our models and prepare more informative reports in
-      real time.
-    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
-    sliderlogo: /img/jberg1.png
-    sliderphoto: /img/client_2.jpg
-  - sliderDescr: >-
-      When I use Visyond I see my accuracy and ability to answer questions about
-      my work go up. I can do more and have peace of mind.
-    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
-    sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
