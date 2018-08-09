@@ -1,113 +1,167 @@
 ---
 title: Banking
 topTitle: 'Better Lending Decisions, Higher Portfolio Profitability'
-topSubTitle: "A collaborative spreadsheet platform for people who need to work together to make and present decisions based on numbers.\r\n\r"
+topSubTitle: >-
+  Visyond is collaborative spreadsheet platform for people who need to work
+  together to make and present decisions based on numbers.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/decision makers 2.png
 infoBlockFirst:
-  - descr: "* Less Risk - more control over critical information\r\n* Fewer errors and higher productivity - Automated and standardized workflows\r\n* Better Customer Experience - Quicker turn-around and Modern collaborative interface\r\n* Lower switching costs & quick time-to-value - Ready out of the box, compatible with legacy systems, does not require full-scale transition & can be adopted incrementally\r\n"
-    image: /img/123123123.png
-    title: Why Visyond?
-  - descr: "* Use automation to initiate a model and query data from the customer\r\n* Combination of forms, chat-bot and/or API interface to collect client information\r\n* Unified templates\r\n"
-    image: /img/123123123.png
-    title: Model Initiation
-  - descr: "* Automated and visual audit and review tools\r\n* Reduced error risk\r\n* Reduced time to understand external models \r\n* All relevant information, including comments, questions, file attachments and revisions are stored in one place\r\n* Impose unified analytical standards through a standardized review process\r\n"
-    image: /img/123123123.png
-    title: Model Review
-  - descr: "* Standardized and automated stress-testing with impact and sensitivity analysis, and monte-carlo simulations enable a unified and consistent review process\r\n* Reduced dependency on skill level of the analyst\r\n* Automated and standardized reports - online and downloadable into a custom PPT template - that go into the loan file\r\n* Unified Macro and Market scenarios applied to stress-testing of every model\r\n"
-    image: /img/123123123.png
-    title: 'Stress-Testing, Credit Analysis And Reporting'
-  - descr: "* Data is securely (on-premise if needed) stored in one place with full history of changes\r\n* All additional information is kept inside the document\r\n* Granular access/permissions management\r\n* Custom workflows synched and integrated with the bank’s BPM\r\n"
-    image: /img/123123123.png
-    title: Workflow And Data Management
-  - descr: "* Multiple contributors, including the client, can be involved in the update, having access to their isolated parts of the spreadsheet to insert their part of data without compromising the model itself\r\n* Actual data can be fed from external sources like ERP or accounting systems through an API\r\n"
-    image: /img/123123123.png
-    title: Regular Model Update & Early Warning System
-  - descr: "* Regular or ad-hoc reviews are streamlined\r\n* All data, including full audit trail is securely stored inside the spreadsheets to enable compliance\r\n"
-    image: /img/123123123.png
-    title: 'Risk Monitoring, Control And Audit'
+  - descr: >-
+      Visyond drastically increases modelers’ performance and provides a safety
+      net that helps in auditing the spreadsheet and avoiding accidental
+      mistakes. Automated debugging solutions such as Error Root Cause and Cell
+      Dependencies Analysis will also save you countless hours that would be
+      otherwise spent on tiresome manual error-hunting.
+    files:
+      - descr: >-
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/Audit Mode On.png
+        title: AUDIT MODE ON
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE
+      - descr: >-
+          Dependency analysis gives you a bird’s eye view of your model in the
+          same way Google Maps does of a neighborhood. It’s a powerful auditing
+          tool, uncovering errors that would be otherwise painstaking to catch.
+        file: /img/Dependency in Browser v2.png
+        title: DEPENDENCY ANALYSIS
+    image: /img/Audit Mode On.png
+    link: /features/audit-mode/
+    title: Streamline Financial Modeling & Reduce Risk of Errors
+  - descr: >-
+      Visyond makes data gathering & consolidation easier by helping you avoid
+      common issues that arise when collecting inputs. You no longer need to
+      create multiple spreadsheet templates, manually distribute it among
+      stakeholders risking accidental layout and formula changes and spending
+      long hours auditing the spreadsheets once you’ve received them back with
+      data.
+    files:
+      - descr: >-
+          You can share only specific cells you want stakeholders to contribute
+          data to by simply selecting the cells and inviting collaborators to
+          edit them.
+        file: /img/Templating - select cells.gif
+        title: Templating in Visyond 1/2
+      - descr: >-
+          Every time you invite a contributor (e.g., a colleague in a department
+          or subsidiary), Visyond creates a clone of the worksheet with a name
+          you assign.
+        file: /img/Templating - invite collaborators.gif
+        title: Templating in Visyond 2/2
+    image: /img/Nice Model in Browser v2.png
+    link: /features/data-input-and-consolidation/
+    title: Automate Data Gathering
+  - descr: >-
+      You can share the whole project, certain worksheets or only specific parts
+      of a worksheet, whole presentations or specific slides without exposing
+      any other data, conversations, attachments or calculations. With this,
+      data gathering and consolidation is much faster, safer and less prone to
+      errors, unwanted changes and accidental data leakages.
+    files:
+      - descr: >-
+          Set access on project level with different roles - Owner, Reader,
+          Coworker with different access permissions.
+        file: /img/Share Project.png
+        title: SHARE PROJECT
+      - descr: >-
+          Manage who can see or can not see a specific worksheet in your
+          project.
+        file: /img/Share Worksheet.png
+        title: SHARE WORKSHEETS
+      - descr: Share whole presentations or just individual slides.
+        file: /img/Share Slide in Browser.png
+        title: SHARE PRESENTATIONS
+    image: /img/Share Project.png
+    link: /features/selective-sharing/
+    title: Share Only What Collaborators Or Clients Need To See
+  - descr: >-
+      Compare multiple scenarios with a few clicks. Visyond will instantly build
+      an interactive chart which you can easily modify right there at the
+      important meeting and answer ‘what-if’ questions in real time.
+    files:
+      - descr: >-
+          Combine as many assumptions as you like into one or multiple scenarios
+          that you can switch on-the-fly and immediately see how different
+          assumptions affect the outcome.
+        file: /img/Cases in Browser v2.png
+        title: COMBINE ASSUMPTIONS INTO SCENARIOS
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        file: /img/Scenarios chart in Browser v4.png
+        title: Answer What-If Questions Anywhere In Real Time
+    image: /img/Scenarios chart in Browser v4.png
+    link: /features/scenarios/
+    title: Answer What-If Questions Anywhere In Real Time
+  - descr: >-
+      Manage risks and stress-test your models with Visyond’s automated analysis
+      module: 
+
+
+      * [Impact (Tornado)](/features/tornado/)
+
+      * [Sensitivity](/features/sensitivity/)
+
+      * [Monte Carlo Simulations](/features/simulations/)
+    files:
+      - descr: >-
+          Instantly Understand The Relationship Between Input And Output
+          Variables In A Spreadsheet
+        file: /img/Sensitivity two-way v2.png
+        title: Sensitivity Analysis
+      - descr: >-
+          Know What Input Cells Have The Greatest Impact On Important Output
+          Cells
+        file: /img/Tornado in Browser v4.png
+        title: Impact (Tornado) Analysis
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+    image: /img/Sensitivity two-way v2.png
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
+    title: Stress-Test Your Models Efficiently
+  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a secure environment for your stakeholders to play with assumptions.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
+    image: /img/Interactive Slides in Browser v3.png
+    link: /features/interactive-presentations/
+    title: Replace Powerpoint Static Visualizations
 capabilitiesList:
-  - image: /img/Automated model stress-testing.png
-    text: Automated model stress-testing
-  - image: /img/Bulk stress testing.png
-    text: Bulk stress testing
-  - image: /img/Controlled sharing and access.png
-    text: Controlled sharing and access
-  - image: /img/Easy to adopt.png
-    text: Easy to adopt
-  - image: /img/Reduced risk of errors.png
-    text: Reduced risk of errors
-  - image: /img/Single source of truth.png
-    text: Single source of truth
-  - image: /img/Transparent collaboration and workflows.png
-    text: Transparent collaboration and workflows
-  - image: /img/Unified standards for all spreadsheet models.png
-    text: Unified standards for all spreadsheet models
-trustedTitle: Trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
-studiesTitle: Featured case studies
-studiesBlock:
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v3.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-    text: >-
-      The process took 1 stressful week and I did not feel comfortable to update
-      the data, fearing to break something. Now it is a 1-hour job and a few
-      clicks to update data.
-    title: >-
-      How preparing Financial Statements with no training in Finance became a
-      1-hour job
-solTitle: Related Solutions
-solArticle:
-  - descr: todo
-    image: /img/123123123.png
-    title: Solution 1
-slider:
-  - sliderDescr: >-
-      I have finally full control on the source and impact of any assumptions,
-      and can confidently answer what-if questions with a few clicks.
-    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-    sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1a.jpg
-  - sliderDescr: >-
-      Since we use Visyond, everyone, regardless of their skill level, can ask
-      deeper questions to our models and prepare more informative reports in
-      real time.
-    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
-    sliderlogo: /img/jberg1.png
-    sliderphoto: /img/client_2.jpg
-  - sliderDescr: >-
-      When I use Visyond I see my accuracy and ability to answer questions about
-      my work go up. I can do more and have peace of mind.
-    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
-    sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3a.jpg
-providesTitle: Get started in minutes
+  - image: /img/v_icon.png
+    text: Save up to **80%** of time on routine tasks
+  - image: /img/v_icon2.png
+    text: Reduce average cost by **$420** per employee/month
+  - image: /img/v_icon3.png
+    text: '**Significantly** reduce errors'
+solTitle: ''
+solArticle: []
+providesTitle: Why Visyond?
 providesList:
+  - text: Less Risk - more control over critical information
   - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
+      Fewer errors and higher productivity - Automated and standardized
+      workflows
+  - text: >-
+      Better Customer Experience - Quicker turn-around and Modern collaborative
+      interface
+  - text: >-
+      Lower switching costs & quick time-to-value - Ready out of the box,
+      compatible with legacy systems, does not require full-scale transition &
+      can be adopted incrementally
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 botRequestURL: /request
