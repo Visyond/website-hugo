@@ -32,11 +32,11 @@ export default class Pricings extends React.Component {
                       <li className="prs2nd__item prs2nd__item--left">
                           <article className="prs2nd__card">
                               <div className="prs2nd__title-wrap">
-                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'leftCard.leftcardtitle'])}</h3>
-                                  <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'leftCard.leftCardSubTitle'])}</h4>
+                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'leftCard.title'])}</h3>
+                                  <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'leftCard.subTitle'])}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { entry.getIn(['data', 'leftCard.leftCardMarkdown']) }
+                                { entry.getIn(['data', 'leftCard.markdown']) }
                               </div>
                           </article>
                       </li>
@@ -44,11 +44,11 @@ export default class Pricings extends React.Component {
                       <li className="prs2nd__item prs2nd__item--middle">
                           <article className="prs2nd__card">
                               <div className="prs2nd__title-wrap">
-                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'middleCard.middleCardTitle'])}</h3>
-                                  <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'middleCard.middleCardSubTitle'])}</h4>
+                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'middleCard.title'])}</h3>
+                                  <h4 className="prs2nd__card-subtitle">{entry.getIn(['data', 'middleCard.subTitle'])}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { entry.getIn(['data', 'middleCard.middleCardMarkdown']) }
+                                { entry.getIn(['data', 'middleCard.markdown']) }
                               </div>
                           </article>
                       </li>
@@ -56,11 +56,11 @@ export default class Pricings extends React.Component {
                       <li className="prs2nd__item prs2nd__item--right">
                           <article className="prs2nd__card">
                               <div className="prs2nd__title-wrap">
-                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'rightCard.rightCardTitle'])}</h3>
-                                  <h4 className="prs2nd__card-subtitle">{entry.getIn('data', rightCard.rightCardSubTitle)}</h4>
+                                  <h3 className="prs2nd__title">{entry.getIn(['data', 'rightCard.title'])}</h3>
+                                  <h4 className="prs2nd__card-subtitle">{entry.getIn('data', rightCard.subTitle)}</h4>
                               </div>
                               <div className="prs2nd__markdown">
-                                { entry.getIn(['data', 'rightCard.rightCardMarkdown']) }
+                                { entry.getIn(['data', 'rightCard.markdown']) }
                               </div>
                           </article>
                       </li>
