@@ -26,10 +26,10 @@
             <li class="prs2nd__item prs2nd__item--left">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ $lcard.leftCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $lcard.LeftCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $lcard.title }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $lcard.subTitle }}</h4>
                     </div>
-                    {{ with $lcard.leftCardMarkdown }}
+                    {{ with $lcard.markdown }}
                     <div class="prs2nd__markdown">
                         {{ . | markdownify }}
                     </div>
@@ -41,10 +41,10 @@
             <li class="prs2nd__item prs2nd__item--middle">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ $mcard.MiddleCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $mcard.MiddleCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $mcard.title }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $mcard.subTitle }}</h4>
                     </div>
-                    {{ with $mcard.middleCardMarkdown }}
+                    {{ with $mcard.markdown }}
                     <div class="prs2nd__markdown">
                         {{ . | markdownify }}
                     </div>
@@ -56,10 +56,10 @@
             <li class="prs2nd__item prs2nd__item--right">
                 <article class="prs2nd__card">
                     <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__title">{{ $rcard.RightCardTitle }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $rcard.RightCardSubTitle }}</h4>
+                        <h3 class="prs2nd__title">{{ $rcard.title }}</h3>
+                        <h4 class="prs2nd__card-subtitle">{{ $rcard.subTitle }}</h4>
                     </div>
-                    {{ with $rcard.rightCardMarkdown }}
+                    {{ with $rcard.markdown }}
                     <div class="prs2nd__markdown">
                         {{ . | markdownify }}
                     </div>

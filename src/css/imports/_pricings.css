@@ -180,6 +180,11 @@
     }
 }
 
+.prs2nd__markdown a {
+  color: #0585ff;
+  text-decoration: underline;
+}
+
 .prs2nd__btn-wrap {
     margin-top: 3rem;
     text-align: center;
