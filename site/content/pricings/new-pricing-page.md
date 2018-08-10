@@ -1,4 +1,5 @@
 ---
+title: Pricing
 url: /new-pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: ''
