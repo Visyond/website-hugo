@@ -329,8 +329,8 @@ collections: # A list of collections the CMS should be able to edit
 
 
       - {label: "Pricing Title", name: "pricingTitle", widget: "string"}
-      - {label: "First Pricing Sub Title", name: "firstPricingSubTitle", widget: "string"}
-      - {label: "Second Pricing Sub Title", name: "secondPricingSubTitle", widget: "string"}
+      - {label: "First Pricing Sub Title", name: "firstPricingSubTitle", widget: "string",required: false,}
+      - {label: "Second Pricing Sub Title", name: "secondPricingSubTitle", widget: "string",required: false,}
       - {label: "Left Card", name: "leftCard", widget: "object", fields: [
             {label: "Left Card Title", name: "leftCardTitle", widget: "string"},
             {label: "Left Card Sub Title", name: "leftCardSubTitle", widget: "string"},
