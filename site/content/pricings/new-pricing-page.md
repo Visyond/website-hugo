@@ -12,38 +12,36 @@ leftCard:
     manage, analyse and report spreadsheet data
   leftCardTitle: Individual
   markdown: |-
-    **Build Module**
     [Audit Mode](/features/audit-mode/)
-
-    **Analysis Module:**
+    [Charts](/features/charts/)
     [Scenario Comparison](/features/scenarios/)
     [Impact Analysis (Tornado)](/features/tornado/)
     and many more!
-
-    **Reporting Module:**
+    [Sensitivity Analysis](/features/sensitivity/)
+    [Simulations](/features/simulations/)
+    [Dependencies Analysis](/features/dependency-analysis/)
     [Interactive Presentations](/features/interactive-presentations/)
     [Apps & Calculators](/features/calculators/)
     [Financial Statements](/features/financial-statements/)
 middleCard:
   markdown: |-
-    Everything in Individual & Team plus:
-
-    * Cusotom Workflows
-    * Custom Integrations
-    * On-Premise Installation
-    * Dedicated Account Manager
-    * Onboarding Program
-    * Training & Workshops
-  middleCardSubTitle: 'The complete spreadsheet platform, for larger teams'
+    **Everything in Individual & Team plus**
+    Custom Workflows
+    Custom Integrations
+    Custom Look & Feel
+    On-Premise Installation
+    Dedicated Account Manager
+    Onboarding Program
+    Training & Workshops
+  middleCardSubTitle: The complete spreadsheet platform
   middleCardTitle: 'Enterprise '
 rightCard:
   markdown: |-
-    Everything in Individual plus:
-
-    * [Selective Sharing](/features/selective-sharing/)
-    * [Knowledge Base](/features/knowledge-base/)
-    * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
-    * Permissions
+    **Everything in Individual plus**
+    [Selective Sharing](/features/selective-sharing/)
+    [Knowledge Base](/features/knowledge-base/)
+    [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
+    Permissions
   rightCardSubTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
   rightCardTitle: Team
 cardsLink: 'https://visyond.com/accounts/login/'
