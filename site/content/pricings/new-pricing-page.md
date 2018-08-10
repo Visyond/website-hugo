@@ -3,10 +3,14 @@ url: /new-pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: ''
 bgImage: /img/Collab 1 resized 3.jpg
-pricingTitle: 'We Work With Companies Of All Sizes With A Flexible, Scalable Solution'
-firstPricingSubTitle: Visyond subscriptions start at $30/user/month
-secondPricingSubTitle: You can combine any features from any category however you like
+pricingTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
+firstPricingSubTitle: Visyond features start at $25/user/month
+secondPricingSubTitle: You can combine any features from any of the categories below
 leftCard:
+  leftCardSubTitle: >-
+    Whether you are a consultant or freelancer, it’s never been easier to
+    manage, analyse and report spreadsheet data
+  leftCardTitle: Individual
   markdown: |-
     Build Module:
 
@@ -23,10 +27,6 @@ leftCard:
     * [Interactive Presentations](/features/interactive-presentations/)
     * [Apps & Calculators](/features/calculators/)
     * [Financial Statements](/features/financial-statements/)
-  subTitle: >-
-    Whether you are a consultant or freelancer, it’s never been easier to
-    manage, analyse and report spreadsheet data
-  title: Individual features
 middleCard:
   markdown: |-
     Everything in Individual & Team plus:
@@ -37,8 +37,8 @@ middleCard:
     * Dedicated Account Manager
     * Onboarding Program
     * Training & Workshops
-  subTitle: 'The complete spreadsheet platform, for larger teams with complex models'
-  title: Enterprise features
+  middleCardSubTitle: 'The complete spreadsheet platform, for larger teams'
+  middleCardTitle: 'Enterprise '
 rightCard:
   markdown: |-
     Everything in Individual plus:
@@ -46,10 +46,9 @@ rightCard:
     * [Selective Sharing](/features/selective-sharing/)
     * [Knowledge Base](/features/knowledge-base/)
     * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
-  subTitle: >-
-    Seamlessly take control of your team’s spreadsheet tasks, workflow and
-    business case in one platform
-  title: Team features
+    * Permissions
+  rightCardSubTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
+  rightCardTitle: Team
 cardsLink: 'https://visyond.com/accounts/login/'
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
