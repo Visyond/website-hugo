@@ -44,7 +44,7 @@ rightCard:
     Permissions
   rightCardSubTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
   rightCardTitle: Team
-cardsLink: 'https://visyond.com/accounts/login/'
+cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.
