@@ -92,7 +92,7 @@
 
 .studies__img {
   display: block;
-  width: 380px;
+  width: 280px;
 
   @media screen and (max-width: 800px) {
     max-width: 600px;
