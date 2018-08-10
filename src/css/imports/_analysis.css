@@ -272,6 +272,7 @@
   -ms-align-items: center;
   align-items: center;
   padding: 50px 15px;
+  background-size: cover;
 }
 
 .an5th__title {
