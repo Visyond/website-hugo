@@ -12,21 +12,18 @@ leftCard:
     manage, analyse and report spreadsheet data
   leftCardTitle: Individual
   markdown: |-
-    Build Module:
+    **Build Module**
+    [Audit Mode](/features/audit-mode/)
 
-    * [Audit Mode](/features/audit-mode/)
+    **Analysis Module:**
+    [Scenario Comparison](/features/scenarios/)
+    [Impact Analysis (Tornado)](/features/tornado/)
+    and many more!
 
-    Analysis Module:
-
-    * [Scenario Comparison](/features/scenarios/)
-    * [Impact](/features/tornado/)
-    * and many more!
-
-    Reporting Module:
-
-    * [Interactive Presentations](/features/interactive-presentations/)
-    * [Apps & Calculators](/features/calculators/)
-    * [Financial Statements](/features/financial-statements/)
+    **Reporting Module:**
+    [Interactive Presentations](/features/interactive-presentations/)
+    [Apps & Calculators](/features/calculators/)
+    [Financial Statements](/features/financial-statements/)
 middleCard:
   markdown: |-
     Everything in Individual & Team plus:
