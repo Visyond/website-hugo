@@ -1,7 +1,7 @@
 ---
 url: /free-analysis
 topTitle: >-
-  Get a Top-Consultant-level spreadsheet analysis for free powered by Visyond’s
+  Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
   technology
 topSubTitle: ''
 bgImage: /img/Collab 1 resized 3.jpg
