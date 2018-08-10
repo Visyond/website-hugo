@@ -5,7 +5,7 @@ topTitle: >-
   Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
   technology
 topSubTitle: ''
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/analysis top 1.jpg
 text: >-
   Visyond’s Machine intelligence allows us to analyse your spreadsheet in
   minutes instead of days. Predict and see the future with our **free
