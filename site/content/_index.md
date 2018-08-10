@@ -1,12 +1,12 @@
 ---
 title: Homepage
 metaTags: visyond
-topTitle: Real-Time Analysis and Better Decisions with Spreadsheet Automation
+topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 topSubTitle: >-
-  Visualize the impact of your decisions and answer any questions in real time,
+  Visualize the impact of your decisions and answer any questions in on-the-fly,
   reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond Inforgraphics  NEW v23 Resized To HomePage.png
 infoBlockFirst:
