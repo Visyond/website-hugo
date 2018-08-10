@@ -2,13 +2,39 @@
 title: Banking
 topTitle: 'Better Lending Decisions, Higher Portfolio Profitability'
 topSubTitle: >-
-  Visyond is collaborative spreadsheet platform for people who need to work
-  together to make and present decisions based on numbers.
+  As a banking professional, you might often face these key challenges: ad-hoc
+  model preparation & auditing requires inadequate time, lack of tracking &
+  control over data changes and inputs, manual stress-testing and workflows, and
+  having supporting information scattered around in endless threads of
+  back-and-forth emails.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
+  - descr: >-
+      Visyond makes data gathering & consolidation easier by helping you avoid
+      common issues that arise when collecting inputs. You no longer need to
+      create multiple spreadsheet templates, manually distribute it among
+      stakeholders risking accidental layout and formula changes and spending
+      long hours auditing the spreadsheets once you’ve received them back with
+      data.
+    files:
+      - descr: >-
+          You can share only specific cells you want stakeholders to contribute
+          data to by simply selecting the cells and inviting collaborators to
+          edit them.
+        file: /img/Templating - select cells.gif
+        title: Templating in Visyond 1/2
+      - descr: >-
+          Every time you invite a contributor (e.g., a colleague in a department
+          or subsidiary), Visyond creates a clone of the worksheet with a name
+          you assign.
+        file: /img/Templating - invite collaborators.gif
+        title: Templating in Visyond 2/2
+    image: /img/Nice Model in Browser v2.png
+    link: /features/data-input-and-consolidation/
+    title: Automate Data Gathering
   - descr: >-
       Visyond drastically increases modelers’ performance and provides a safety
       net that helps in auditing the spreadsheet and avoiding accidental
@@ -36,29 +62,6 @@ infoBlockFirst:
     link: /features/audit-mode/
     title: Streamline Financial Modeling & Reduce Risk of Errors
   - descr: >-
-      Visyond makes data gathering & consolidation easier by helping you avoid
-      common issues that arise when collecting inputs. You no longer need to
-      create multiple spreadsheet templates, manually distribute it among
-      stakeholders risking accidental layout and formula changes and spending
-      long hours auditing the spreadsheets once you’ve received them back with
-      data.
-    files:
-      - descr: >-
-          You can share only specific cells you want stakeholders to contribute
-          data to by simply selecting the cells and inviting collaborators to
-          edit them.
-        file: /img/Templating - select cells.gif
-        title: Templating in Visyond 1/2
-      - descr: >-
-          Every time you invite a contributor (e.g., a colleague in a department
-          or subsidiary), Visyond creates a clone of the worksheet with a name
-          you assign.
-        file: /img/Templating - invite collaborators.gif
-        title: Templating in Visyond 2/2
-    image: /img/Nice Model in Browser v2.png
-    link: /features/data-input-and-consolidation/
-    title: Automate Data Gathering
-  - descr: >-
       You can share the whole project, certain worksheets or only specific parts
       of a worksheet, whole presentations or specific slides without exposing
       any other data, conversations, attachments or calculations. With this,
@@ -80,7 +83,7 @@ infoBlockFirst:
         title: SHARE PRESENTATIONS
     image: /img/Share Project.png
     link: /features/selective-sharing/
-    title: Share Only What Collaborators Or Clients Need To See
+    title: Share Only What Each Stakeholder Has To See
   - descr: >-
       Compare multiple scenarios with a few clicks. Visyond will instantly build
       an interactive chart which you can easily modify right there at the
@@ -139,7 +142,7 @@ infoBlockFirst:
         title: INTERACTIVE PRESENTATIONS
     image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
-    title: Replace Powerpoint Static Visualizations
+    title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -151,15 +154,15 @@ solTitle: ''
 solArticle: []
 providesTitle: Why Visyond?
 providesList:
-  - text: Less Risk - more control over critical information
+  - text: '**Less Risk** - more control over critical information'
   - text: >-
-      Fewer errors and higher productivity - Automated and standardized
+      **Fewer errors and higher productivity** - Automated and standardized
       workflows
   - text: >-
-      Better Customer Experience - Quicker turn-around and Modern collaborative
-      interface
+      **Better Customer Experience** - Quicker turn-around and Modern
+      collaborative interface
   - text: >-
-      Lower switching costs & quick time-to-value - Ready out of the box,
+      **Lower switching costs & quick time-to-value** - Ready out of the box,
       compatible with legacy systems, does not require full-scale transition &
       can be adopted incrementally
 titleBottom: Find out how to improve your decision-making process today
