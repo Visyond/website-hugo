@@ -19,6 +19,8 @@ leftCard:
     [Scenario Comparison](/features/scenarios/)
     [Impact Analysis (Tornado)](/features/tornado/)
     and many more!
+    [Sensitivity Analysis](/features/sensitivity/)
+    [Dependencies Analysis](/features/dependency-analysis/)
 
     **Reporting Module:**
     [Interactive Presentations](/features/interactive-presentations/)
