@@ -5,6 +5,8 @@ feaDropdownCol:
         title: Knowledge Base
       - path: /features/selective-sharing
         title: Selective Sharing
+      - path: /features/data-input-and-consolidation/
+        title: Data Input & Consolidation
     title: Collaboration
   - features_dropdown:
       - path: /features/scenarios
