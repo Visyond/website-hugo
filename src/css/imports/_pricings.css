@@ -68,14 +68,14 @@
     text-align: center;
     color: #5f6976;
     font-size: 26px;
-    line-height: 25px;
+    line-height: 30px;
     font-weight: 300;
     max-width: 876px;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 30px auto 60px;
 }
 .prs2nd__subtitle > p {
     font-size: 16px;
+    line-height: 1.25;
     margin-top: 10px;
 }
 
@@ -134,15 +134,16 @@
     color: #5f6976;
 }
 
-.prs2nd__title {
-    font-size: 31px;
-    margin-bottom: -5px;
-}
-
 .prs2nd__card {
     display: flex;
     flex-flow: column nowrap;
     height: 100%;
+}
+
+.prs2nd__card-title {
+    margin-bottom: 1rem;
+    font-size: 24px;
+    line-height: 1;
 }
 
 .prs2nd__card-subtitle {
@@ -182,7 +183,10 @@
 
 .prs2nd__markdown a {
   color: #0585ff;
-  text-decoration: underline;
+
+  &:visited {
+    color: #609;
+  }
 }
 
 .prs2nd__btn-wrap {
