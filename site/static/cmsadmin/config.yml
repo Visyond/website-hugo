@@ -318,6 +318,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pricings"
     label: "Pricings"
     folder: "site/content/pricings"
+    hrefTargetBlank: true
     create: true
     fields:
       - {label: "Page title", name: "title", widget: "string", required: false,}
