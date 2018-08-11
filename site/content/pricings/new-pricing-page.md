@@ -8,10 +8,6 @@ pricingTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Sol
 firstPricingSubTitle: Visyond features start at $25/user/month
 secondPricingSubTitle: You can combine any features from any of the categories below
 leftCard:
-  leftCardSubTitle: >-
-    Whether you are a consultant or freelancer, it’s never been easier to
-    manage, analyse and report spreadsheet data
-  leftCardTitle: Individual
   markdown: |-
     * [Audit Mode](https://cms.visyond.com/features/audit-mode/)
     * [Charts](/features/charts/)
@@ -27,6 +23,10 @@ leftCard:
     * [Interactive Presentations](/features/interactive-presentations/)
     * [Apps & Calculators](/features/calculators/)
     * [Financial Statements](/features/financial-statements/)
+  subTitle: >-
+    Whether you are a consultant or freelancer, it’s never been easier to
+    manage, analyse and report spreadsheet data
+  title: Individual
 middleCard:
   markdown: |-
     **Everything in Individual & Team plus**
@@ -38,8 +38,8 @@ middleCard:
     * Dedicated Account Manager
     * Onboarding Program
     * Training & Workshops
-  middleCardSubTitle: The complete spreadsheet platform
-  middleCardTitle: 'Enterprise '
+  subTitle: The complete spreadsheet platform
+  title: Enterprise
 rightCard:
   markdown: |-
     **Everything in Individual plus**
@@ -49,8 +49,8 @@ rightCard:
     * [Knowledge Base](/features/knowledge-base/)
     * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
     * Permissions
-  rightCardSubTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
-  rightCardTitle: Team
+  subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
+  title: Team
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
