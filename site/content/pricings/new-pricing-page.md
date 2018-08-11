@@ -9,7 +9,7 @@ firstPricingSubTitle: Visyond features start at $25/user/month
 secondPricingSubTitle: You can combine any features from any of the categories below
 leftCard:
   markdown: |-
-    * [Audit Mode](https://cms.visyond.com/features/audit-mode/)
+    * [Audit Mode](/features/audit-mode/)
     * [Charts](/features/charts/)
     * [Scenario Comparison](/features/scenarios/)
     * [Impact Analysis (Tornado)](/features/tornado/)
