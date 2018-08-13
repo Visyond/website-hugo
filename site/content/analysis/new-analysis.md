@@ -2,8 +2,8 @@
 title: Free Spreadsheet Analysis
 url: /free-analysis
 topTitle: >-
-  Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
-  technology
+  Get a Top-Consultant-level spreadsheet analysis for **FREE** powered by
+  Visyond’s technology
 topSubTitle: ''
 bgImage: /img/analysis top 1.jpg
 text: >-
