@@ -93,12 +93,12 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
   @media screen and (max-width: 800px) {
     background: none;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
   }
 }
 
@@ -344,6 +344,7 @@
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
+  pointer-events: none;
 }
 
 .an5th__form-label--active {
@@ -366,6 +367,14 @@
 }
 
 
+iframe {
+  background: red;
+  margin: 0 auto;
+}
+
+iframe body {
+  background: #000;
+}
 
 
 
