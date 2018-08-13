@@ -13,10 +13,6 @@ leftCard:
     * [Charts](/features/charts/)
     * [Scenario Comparison](/features/scenarios/)
     * [Impact Analysis (Tornado)](/features/tornado/)
-    * and many more!
-
-
-
     * [Sensitivity Analysis](/features/sensitivity/)
     * [Simulations](/features/simulations/)
     * [Dependencies Analysis](/features/dependency-analysis/)
