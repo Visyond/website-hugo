@@ -29,7 +29,7 @@ infoBlockFirst:
       track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_3.png
     link: /solutions/governance
-    title: Data tracking and spreadsheet governance
+    title: Data Tracking and Spreadsheet Governance
   - descr: >-
       Empower collaborators and decision makers to **answer any questions
       on-the-fly** and **compare scenarios easily**, without calling consultants
@@ -44,7 +44,7 @@ infoBlockFirst:
       dashboards and apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
-    title: Collaborative analysis for decision making
+    title: Collaborative Analysis for Decision Making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
       share them via **interactive dashboards & apps** powered by Visyond’s
@@ -56,7 +56,7 @@ infoBlockFirst:
       accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
-    title: Interactive & secure on-the-fly reporting and presentations
+    title: Interactive & Secure On-The-Fly Reporting and Presentations
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
