@@ -527,4 +527,24 @@ $(function () {
      }
 
      document.querySelector('.js-form') && customizeForm();
+
+
+
+
+
+
+     //=====TARGET BLANK======
+
+     function addTargetBlank(classBlock) {
+      if(document.querySelector(classBlock)) {
+        const block = document.querySelector(classBlock);
+        const links = block.querySelectorAll('a');
+
+        for(const link of links) {
+          link.setAttribute('target', '_blank');
+        }
+      }
+     }
+
+     addTargetBlank('.prs2nd__list');
 });
