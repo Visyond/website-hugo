@@ -15,13 +15,6 @@ text: >-
 errorsTitle: Analyze Your Spreadsheet
 errorsList:
   - text: >-
-      Find the probability of distributions that fit your historical data so you
-      can make better forecasts with **Simulation Analysis**
-  - text: >-
-      Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
-      errors and their root cause in seconds
-  - text: Identify And Visualize **Cells Dependencies**
-  - text: >-
       Know what input cells have the greatest **impact on important output
       cells** (Tornado)
   - text: >-
@@ -31,6 +24,12 @@ errorsList:
   - text: >-
       **Compare Scenarios** (Visyond varies each of the top 5 input by -/+ 50%
       and create new cases with these values)
+  - text: >-
+      Find the probability of distributions that fit your historical data so you
+      can make better forecasts with **Simulation Analysis**
+  - text: >-
+      Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
+      errors and their root cause in seconds
 errorsImage: /img/Monte Carlo Simulation v3.png
 errorsFiles:
   - descr: >-
