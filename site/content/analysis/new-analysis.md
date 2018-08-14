@@ -15,15 +15,14 @@ text: >-
 errorsTitle: Analyze Your Spreadsheet
 errorsList:
   - text: >-
-      Know what input cells have the greatest **impact on important output
-      cells** (Tornado)
+      Know and visualize what input cells have the greatest **impact on
+      important output cells** (Tornado)
   - text: >-
       Instantly **Understand the relationship between input and output
-      variables** in a spreadsheet
-       (Sensitivity)
+      variables** (Sensitivity)
   - text: >-
-      **Compare Scenarios** (Visyond varies each of the top 5 input by -/+ 50%
-      and create new cases with these values)
+      **Compare Scenarios** - See a comparison of automatically generated
+      optimistic and pessimistic scenarios
   - text: >-
       Find the probability of distributions that fit your historical data so you
       can make better forecasts with **Simulation Analysis**
