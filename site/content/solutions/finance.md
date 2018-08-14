@@ -12,42 +12,173 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email and manual data consolidations. This opens the door to a massive loss of time and high risk of working with inaccurate data. Most business employ additional manual audits to protect themselves which leads to even more time lost while other departments wait for your reports!\r\n\r\nWith Visyond you can _easily consolidate data, test assumptions, run analysis at an unprecedented speed and accuracy_. Data is securely stored in the cloud (or on-premise), you can manage and _transfer team knowledge and supporting documents easily_, track all inputs, changes and versions, and _eliminate dependency from the model creator_ by testing your assumptions from any device _without risking to break the model or any formulas_.\r\n"
-    image: /img/Interactive Slides in Browser.png
-    link: 'https://help.visyond.com/articles/new-to-visyond-a-visual-overview/'
-    popupUrl: /img/Interactive Slides in Browser.png
-    title: >-
-      Shift Your Focus from Low-Level Manual Tasks and Debugging to Making Sound
-      Financial Decisions
-  - descr: "Test assumptions, consolidate data, run analysis on the fly, on the move, without waiting for your analysts. With Visyond, you can _focus on the key performance metrics that are critical_.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly:\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\r\n* Allows you to apply what-if scenarios on the fly\r\n"
-    image: /img/Scenario Window in Browser.png
-    link: 'https://help.visyond.com/articles/how-to-create-cases-in-visyond/'
-    popupUrl: /img/Scenario Window in Browser.png
-    title: Revolutionize the Way You Access Key Information
-  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_ - you can manage and transfer team knowledge easily, accelerate your reporting process by minimizing time in collecting data and building reports. _As data is collected, you can secure who sees it_. \r\n\r\nVisyond’s spreadsheet technology resides on the cloud eliminating the need for emailing spreadsheets. It applies natural naming conventions making it easy to _build reports with speed_. \r\n\r\nVisyond _never breaks formulas or loses your team's work_ while always tracking their input and changes.\r\n"
-    image: /img/Attachments and Comments in Browser v2.png
-    link: >-
-      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
-    popupUrl: /img/Attachments and Comments in Browser v2.png
-    title: Never Lose Critical Information and Streamline Your Reporting Process
   - descr: >-
-      Visyond’s built-in analysis tools _automate time consuming tasks_ that
-      would otherwise require expensive software, add-ons or error-prone lengthy
-      manual setups. 
-
-
-      For example, you can build an interactive analytics report with Visyond’s
-      _interactive slides_ or generate Financial Statements with a few clicks.
-    image: /img/Tornado in Browser v3.png
-    link: >-
-      https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
-    popupUrl: /img/Tornado in Browser v3.png
-    title: Save Time When Requesting Analysis and Report
-  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
-    image: /img/Scenarios chart in Browser v3.png
-    link: 'https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/'
-    popupUrl: /img/Scenarios chart in Browser v3.png
-    title: Create Multiple Scenarios and What-If Analysis On-The-Fly
+      With Visyond you can eliminate dependency on the model creator by testing
+      your assumptions from any device without risking to break the model or any
+      formulas.
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
+      - descr: >-
+          Allow stakeholders to see only individual parts or whole presentations
+          that they can use to test their own assumptions without interacting
+          with the spreadsheet directly.
+        file: /img/Share Slide in Browser.png
+        title: SELECTIVELY SHARE PRESENTATIONS
+    image: /img/Interactive Slides in Browser v3.png
+    link: /features/interactive-presentations/
+    title: Eliminate Dependency on the Modeler
+  - descr: >-
+      Visyond makes data gathering & consolidation easier by helping you avoid
+      common issues that arise when collecting inputs. You no longer need to
+      create multiple spreadsheet templates, manually distribute it among
+      stakeholders risking accidental layout and formula changes and spending
+      long hours auditing the spreadsheets once you’ve received them back with
+      data.
+    files:
+      - descr: >-
+          You can share only specific cells you want stakeholders to contribute
+          data to by simply selecting the cells and inviting collaborators to
+          edit them.
+        file: /img/Templating - select cells.gif
+        title: TEMPLATING IN VISYOND 1/2
+      - descr: >-
+          Every time you invite a contributor (e.g., a colleague in a department
+          or subsidiary), Visyond creates a clone of the worksheet with a name
+          you assign.
+        file: /img/Templating - invite collaborators.gif
+        title: TEMPLATING IN VISYOND 2/2
+    image: /img/Nice Model in Browser v2.png
+    link: /features/data-input-and-consolidation/
+    title: Automate Data Gathering
+  - descr: >-
+      Visyond provides a safety net that helps in auditing the spreadsheet and
+      avoiding accidental mistakes. Automated debugging solutions such as Error
+      Root Cause and Cell Dependencies Analysis will also save you countless
+      hours that would be otherwise spent on tiresome manual error-hunting.
+    files:
+      - descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE
+      - descr: >-
+          It highlights error and circular cells clearly; The trendlines help
+          you visually identify unexpected behaviors; The Precedents Panel
+          displays on top the precedent cells that are error - this way you can
+          identify the root cause of the error propagation chain with a few
+          clicks.
+        file: /img/track errors.png
+        title: TRACK ERRORS AND THEIR ROOT CAUSE
+      - descr: >-
+          Visyond allows you to use human-readable names that immediately reveal
+          the modeler’s logic without you having to chase precedent cryptic
+          cells (i.e., what is B7? and G41?), especially when they are on
+          different worksheets.
+        file: /img/human readable names.png
+        title: HUMAN-READABLE NAMES
+      - descr: Easily identify precedent and dependent cells.
+        file: /img/navigate dependencies.gif
+        title: NAVIGATE CELL DEPENDENCIES
+    image: /img/track errors 1.png
+    link: /features/audit-mode/
+    title: Reduce Risk of Errors
+  - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email. This opens the door to a massive loss of time and high risk of working with inaccurate data.\r\n\r\nIn Visyond, data is securely stored in the cloud (or on-premise), you can manage and transfer team knowledge, conversations and supporting documents easily, track all inputs, changes and versions.\r\n"
+    files:
+      - descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/Single source of truth.png
+        title: NEVER LOSE IMPORTANT INFORMATION
+      - file: /img/Attachments and Comments in Browser v2.png
+      - descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/Cases in Browser v2.png
+        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/Versions in Browser.png
+        title: VERSIONS
+    image: /img/Single source of truth.png
+    link: /features/knowledge-base/
+    title: Establish Single Source of Truth
+  - descr: "Visyond’s built-in analysis tools automate time consuming tasks that would otherwise require expensive software, add-ons or error-prone lengthy manual setups. \r\n\r\nRun analysis on the fly, on the move, without waiting for your analysts. With Visyond, you can focus on the key performance metrics that are critical.\r\n"
+    files:
+      - descr: >-
+          Sensitivity analysis is a great way to better understand relationships
+          between inputs and outputs of your spreadsheet.
+        file: /img/Sensitivity two-way v2.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Ever wondered what input cells have the greatest impact on a key
+          output so you can analyse them and understand how to reduce your
+          costs, grow your revenues or increase/decrease any important Key
+          Performance Indicator?
+        file: /img/Tornado in Browser v4.png
+        title: Impact (Tornado) Analysis
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+      - descr: >-
+          Dependency analysis gives you a bird’s eye view of your model in the
+          same way Google Maps does of a neighborhood. It’s a powerful auditing
+          tool, uncovering errors that would be otherwise painstaking to catch.
+        file: /img/Dependency in Browser v2.png
+        title: DEPENDENCY ANALYSIS
+    image: /img/Sensitivity two-way v2.png
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
+    title: Analyze And Make Better Decisions Quicker
+  - descr: >-
+      After data is gathered, you can build reports & financial statements with
+      just a few clicks or create Interactive Presentations, empowering
+      stakeholders to securely test their own assumptions.
+    files:
+      - descr: >-
+          Visyond’s financial statements greatly reduce the risk of errors and
+          time required to prepare Balance Sheets, Income and Cash Flow
+          Statements, ratios and KPIs, etc. by automating the build process and
+          removing the need for manual checks and audits of the calculations.
+        file: /img/Financial Statements in Browser.png
+        title: AUTO-GENERATED FINANCIAL STATEMENTS
+      - descr: >-
+          Empower stakeholder to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE CALCULATORS & APPS
+    image: /img/Financial Statements in Browser.png
+    link: /features/financial-statements/
+    title: Streamline Your Reporting Process
+  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
+    files:
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        file: /img/Scenarios chart in Browser v4.png
+        title: COMPARE SCENARIOS IN REAL TIME
+      - descr: >-
+          Cells in Visyond can store multiple assumptions (cases) simultaneously
+          without overwriting other users' inputs.
+        file: /img/Cases in Browser v2.png
+        title: ADD MULTIPLE ASSUMPTIONS
+      - descr: >-
+          Combine as many assumptions as you like into one or multiple scenarios
+          that you can switch on-the-fly and immediately see how different
+          assumptions affect the outcome.
+        file: /img/Scenario Window in Browser.png
+        title: COMBINE ASSUMPTIONS INTO SCENARIOS
+    image: /img/Scenarios chart in Browser v4.png
+    link: /features/scenarios/
+    title: Answer What-If Questions Anywhere In Real Time
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
@@ -55,57 +186,6 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-trustedTitle: Trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
-studiesTitle: Featured case studies
-studiesBlock:
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v3.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-    text: >-
-      The process took 1 stressful week and I did not feel comfortable to update
-      the data, fearing to break something. Now it is a 1-hour job and a few
-      clicks to update data.
-    title: >-
-      How preparing Financial Statements with no training in Finance became a
-      1-hour job
-slider:
-  - sliderDescr: >-
-      I have finally full control on the source and impact of any assumptions,
-      and can confidently answer what-if questions with a few clicks.
-    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-    sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1a.jpg
-  - sliderDescr: >-
-      Since we use Visyond, everyone, regardless of their skill level, can ask
-      deeper questions to our models and prepare more informative reports in
-      real time.
-    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
-    sliderlogo: /img/jberg1.png
-    sliderphoto: /img/client_2.jpg
-  - sliderDescr: >-
-      When I use Visyond I see my accuracy and ability to answer questions about
-      my work go up. I can do more and have peace of mind.
-    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
-    sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
