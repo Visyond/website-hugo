@@ -303,7 +303,7 @@
   }*/
 }
 
-.an5th__form {
+/*.an5th__form {
   max-width: 400px;
   width: 100%;
   background: no-repeat center center;
@@ -364,18 +364,23 @@
   text-align: center;
   width: 100%;
   cursor: pointer;
+}*/
+
+.an5th__iframe-wrap {
+  padding: 30px 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  max-width: 100%;
+
+  @media (max-width: 550px) {
+    overflow-x: scroll; 
+  }
 }
 
-
-iframe {
-  background: red;
-  margin: 0 auto;
-}
-
-iframe body {
+.an5th__iframe-wrap .b-page {
   background: #000;
 }
-
 
 
 

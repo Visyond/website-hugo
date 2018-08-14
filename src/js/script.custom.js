@@ -547,4 +547,5 @@ $(function () {
      }
 
      addTargetBlank('.prs2nd__list');
+
 });
