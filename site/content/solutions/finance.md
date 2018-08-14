@@ -1,6 +1,6 @@
 ---
 title: Finance
-topTitle: Secure and Automated  Spreadsheets to Simplify Your Workflows
+topTitle: Secure and Automated  Spreadsheets to Simplify Your Workflow
 topSubTitle: >-
   As a finance professional, using traditional spreadsheets for budgeting,
   forecasting, and financial modeling can only eat away your time in building
