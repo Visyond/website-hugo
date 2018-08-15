@@ -9,7 +9,7 @@ firstPricingSubTitle: Visyond features start at $25/user/month
 secondPricingSubTitle: ''
 leftCard:
   markdown: |-
-    **Pick any of the features in Team & Enterprise plus:**
+    **Recommended features (you can pick any):**
 
     [Audit Mode](/features/audit-mode/)
 
@@ -30,13 +30,11 @@ leftCard:
     [Apps & Calculators](/features/calculators/)
 
     [Financial Statements](/features/financial-statements/)
-  subTitle: >-
-    Whether you are a consultant or freelancer, it’s never been easier to
-    manage, analyse and report spreadsheet data
+  subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
   title: Individual
 middleCard:
   markdown: |-
-    **Pick any of the features in Individual & Team plus:**
+    **Recommended features (you can pick any):**
 
     Custom Workflows
 
@@ -55,7 +53,7 @@ middleCard:
   title: Enterprise
 rightCard:
   markdown: |-
-    **Pick any of the features in Individual & Enterprise plus:**
+    **Recommended features (you can pick any):**
 
 
     [Selective Sharing](/features/selective-sharing/)
