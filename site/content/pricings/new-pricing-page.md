@@ -4,12 +4,12 @@ url: /new-pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
 bgImage: /img/Collab 1 resized 3.jpg
-pricingTitle: You Can Combine Any Recommended Feature From Any Category
+pricingTitle: You Can Combine Any Features From Any Suggested Categories Below
 firstPricingSubTitle: Visyond features start at $25/user/month
 secondPricingSubTitle: ''
 leftCard:
   markdown: |-
-    **Pick any of the features in Team & Enterprise plus:**
+    **Recommended features (you can pick any):**
 
     [Audit Mode](/features/audit-mode/)
 
@@ -30,15 +30,13 @@ leftCard:
     [Apps & Calculators](/features/calculators/)
 
     [Financial Statements](/features/financial-statements/)
-  subTitle: >-
-    Whether you are a consultant or freelancer, it’s never been easier to
-    manage, analyse and report spreadsheet data
+  subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
   title: Individual
 middleCard:
   markdown: |-
-    **Pick any of the features in Individual & Team plus:**
+    **Recommended features (you can pick any):**
 
-    Custom Workflows
+    Custom Workflow
 
     Custom Integrations
 
@@ -55,12 +53,12 @@ middleCard:
   title: Enterprise
 rightCard:
   markdown: |-
-    **Pick any of the features in Individual & Enterprise plus:**
+    **Recommended features (you can pick any):**
 
 
     [Selective Sharing](/features/selective-sharing/)
 
-    [Knowledge Base](/features/knowledge-base/)
+    [Single Source of Truth](/features/knowledge-base/)
 
     [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
 
