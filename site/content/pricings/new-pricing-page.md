@@ -36,7 +36,7 @@ middleCard:
   markdown: |-
     **Recommended features (you can pick any):**
 
-    Custom Workflows
+    Custom Workflow
 
     Custom Integrations
 
@@ -58,7 +58,7 @@ rightCard:
 
     [Selective Sharing](/features/selective-sharing/)
 
-    [Knowledge Base](/features/knowledge-base/)
+    [Single Source of Truth](/features/knowledge-base/)
 
     [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
 
