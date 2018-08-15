@@ -9,7 +9,7 @@ firstPricingSubTitle: Visyond features start at $25/user/month
 secondPricingSubTitle: ''
 leftCard:
   markdown: |-
-    **Recommended features (you can pick any):**
+    **Recommended features (pick any):**
 
     [Audit Mode](/features/audit-mode/)
 
@@ -34,7 +34,7 @@ leftCard:
   title: Individual
 middleCard:
   markdown: |-
-    **Recommended features (you can pick any):**
+    **Recommended features (pick any):**
 
     Custom Workflow
 
@@ -53,7 +53,7 @@ middleCard:
   title: Enterprise
 rightCard:
   markdown: |-
-    **Recommended features (you can pick any):**
+    **Recommended features (pick any):**
 
 
     [Selective Sharing](/features/selective-sharing/)
