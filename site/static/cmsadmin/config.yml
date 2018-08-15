@@ -53,7 +53,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Description", name: descr, widget: text, required: false},
           {label: "Link", name: "link", widget: string, default: "#"},
         ], required: false}
-        
+
       - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
@@ -481,7 +481,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Email, name: contactsEmail, widget: list, fields: [
             { label: "email", name: socialEmail, widget: "string" }
           ]}
-          
+
 
 
 
@@ -492,7 +492,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "nav"
         fields:
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-          
+
 
           - { label: "Resources dropdown", name: "resourcesDropdown", widget: "list", fields: [
             { label: "Title", name: "title", widget: "string" },
@@ -636,12 +636,12 @@ collections: # A list of collections the CMS should be able to edit
               ]}
           ]}
 
-      - file: "site/content/pricing.md"
+      - file: "site/content/pricing-old.md"
         label: "Pricing"
-        name: "pricing"
-        type: "pricing"
+        name: "pricing-old"
+        type: "pricing-old"
         fields:
-          - { label: Type, name: type, widget: hidden, default: pricing }
+          - { label: Type, name: type, widget: hidden, default: pricing-old }
           - {label: "Page title", name: "title", widget: "string", required: false,}
           - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
           - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}
