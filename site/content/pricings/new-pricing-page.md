@@ -1,56 +1,71 @@
 ---
+title: 'Pricing '
 url: /new-pricing
 topTitle: Simple and Modular Pricing
-topSubTitle: ''
+topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
 bgImage: /img/Collab 1 resized 3.jpg
-pricingTitle: 'We Work With Companies Of All Sizes With A Flexible, Scalable Solution'
-firstPricingSubTitle: Visyond subscriptions start at $30/user/month
-secondPricingSubTitle: You can combine any features from any category however you like
+pricingTitle: You Can Combine Any Features From Any Suggested Categories Below
+firstPricingSubTitle: Visyond features start at $25/user/month
+secondPricingSubTitle: ''
 leftCard:
   markdown: |-
-    Build Module:
+    **Recommended features (you can pick any):**
 
-    * [Audit Mode](/features/audit-mode/)
+    [Audit Mode](/features/audit-mode/)
 
-    Analysis Module:
+    [Charts](/features/charts/)
 
-    * [Scenario Comparison](/features/scenarios/)
-    * [Impact](/features/tornado/)
-    * and many more!
+    [Scenario Comparison](/features/scenarios/)
 
-    Reporting Module:
+    [Impact Analysis (Tornado)](/features/tornado/)
 
-    * [Interactive Presentations](/features/interactive-presentations/)
-    * [Apps & Calculators](/features/calculators/)
-    * [Financial Statements](/features/financial-statements/)
-  subTitle: >-
-    Whether you are a consultant or freelancer, it’s never been easier to
-    manage, analyse and report spreadsheet data
-  title: Individual features
+    [Sensitivity Analysis](/features/sensitivity/)
+
+    [Simulations](/features/simulations/)
+
+    [Dependencies Analysis](/features/dependency-analysis/)
+
+    [Interactive Presentations](/features/interactive-presentations/)
+
+    [Apps & Calculators](/features/calculators/)
+
+    [Financial Statements](/features/financial-statements/)
+  subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
+  title: Individual
 middleCard:
   markdown: |-
-    Everything in Individual & Team plus:
+    **Recommended features (you can pick any):**
 
-    * Cusotom Workflows
-    * Custom Integrations
-    * On-Premise Installation
-    * Dedicated Account Manager
-    * Onboarding Program
-    * Training & Workshops
-  subTitle: 'The complete spreadsheet platform, for larger teams with complex models'
-  title: Enterprise features
+    Custom Workflow
+
+    Custom Integrations
+
+    Custom Look & Feel
+
+    On-Premise Installation
+
+    Dedicated Account Manager
+
+    Onboarding Program
+
+    Training & Workshops
+  subTitle: The complete spreadsheet platform
+  title: Enterprise
 rightCard:
   markdown: |-
-    Everything in Individual plus:
+    **Recommended features (you can pick any):**
 
-    * [Selective Sharing](/features/selective-sharing/)
-    * [Knowledge Base](/features/knowledge-base/)
-    * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
-  subTitle: >-
-    Seamlessly take control of your team’s spreadsheet tasks, workflow and
-    business case in one platform
-  title: Team features
-cardsLink: 'https://visyond.com/accounts/login/'
+
+    [Selective Sharing](/features/selective-sharing/)
+
+    [Single Source of Truth](/features/knowledge-base/)
+
+    [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
+
+    Permissions
+  subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
+  title: Team
+cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
   can confidently answer what-if questions with a few clicks.

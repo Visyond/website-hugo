@@ -1,4 +1,5 @@
 ---
+title: Case Studies
 url: /casestudy/
 type: casestudies
 casestudies:

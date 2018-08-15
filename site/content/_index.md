@@ -1,14 +1,14 @@
 ---
 title: Homepage
 metaTags: visyond
-topTitle: Real-Time Analysis and Better Decisions with Spreadsheet Automation
+topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 topSubTitle: >-
-  Visualize the impact of your decisions and answer any questions in real time,
+  Visualize the impact of your decisions and answer any questions on-the-fly,
   reduce errors and control what each collaborator can see and interact with
-topImage: /img/Visyond Inforgraphics  NEW v23 Resized To HomePage.png
+topImage: /img/Visyond Inforgraphics  NEW v23 1.5x supersample.png
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. **No data chaos.** Work together on
@@ -29,7 +29,7 @@ infoBlockFirst:
       track all inputs**, data, assumptions and analysis.
     image: /img/v_clip_group_3.png
     link: /solutions/governance
-    title: Data tracking and spreadsheet governance
+    title: Data Tracking and Spreadsheet Governance
   - descr: >-
       Empower collaborators and decision makers to **answer any questions
       on-the-fly** and **compare scenarios easily**, without calling consultants
@@ -44,7 +44,7 @@ infoBlockFirst:
       dashboards and apps_, and shared only with those who needs to see them.
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
-    title: Collaborative analysis for decision making
+    title: Collaborative Analysis for Decision Making
   - descr: >-
       Create data presentations, visualizations and reports in real time, and
       share them via **interactive dashboards & apps** powered by Visyond’s
@@ -56,7 +56,7 @@ infoBlockFirst:
       accidentally corrupting data or showing unnecessary details.
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
-    title: Interactive & secure on-the-fly reporting and presentations
+    title: Interactive & Secure On-The-Fly Reporting and Presentations
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks

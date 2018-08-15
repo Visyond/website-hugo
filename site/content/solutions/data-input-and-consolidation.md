@@ -32,11 +32,7 @@ infoBlockFirst:
     image: /img/Audit Mode On.png
     link: /features/data-input-and-consolidation/
     title: Automate Data Gathering
-  - descr: >-
-      Visyond offers a single place to store all your spreadsheet data -
-      assumptions, supporting documentation, conversations and approvals. Forget
-      about back & forth emails with bits of information, multiple versions of
-      the spreadsheet flying around and critical data lost along the way.
+  - descr: "You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders through various communication channels.\r\n\nVisyond solves data chaos and establishes a single source of truth by providing intuitive interface to manage scenarios and store all inputs, attachments and conversations directly in the relevant cells."
     files:
       - descr: ''
         file: /img/Single source of truth.png
