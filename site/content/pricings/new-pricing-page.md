@@ -1,6 +1,6 @@
 ---
 title: 'Pricing '
-url: /new-pricing
+url: /pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
 bgImage: /img/Collab 1 resized 3.jpg
