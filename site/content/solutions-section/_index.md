@@ -21,5 +21,17 @@ solDropdownCol:
         title: Collaborative Analysis
       - path: 'https://visyond.com/solutions/presentation/'
         title: 'Reports, Presentations and Visualizations'
+      - path: /solutions/modeling/
+        title: Modeling
     title: USE CASE
+  - solution_dropdown:
+      - path: /solutions/banking/
+        title: Banking
+      - title: Management Consulting
+      - title: Financial Services
+      - title: Telecommunication
+      - title: Real Estate
+      - title: Insurance
+    title: INDUSTRY
 ---
+

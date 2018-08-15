@@ -1,10 +1,11 @@
 ---
+title: Free Spreadsheet Analysis
 url: /free-analysis
 topTitle: >-
-  Get a Top-Consultant-level spreadsheet analysis for free powered by Visyond’s
+  Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
   technology
 topSubTitle: ''
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/analysis top 1.jpg
 text: >-
   Visyond’s Machine intelligence allows us to analyse your spreadsheet in
   minutes instead of days. Predict and see the future with our **free
@@ -14,22 +15,20 @@ text: >-
 errorsTitle: Analyze Your Spreadsheet
 errorsList:
   - text: >-
+      Know and visualize what input cells have the greatest **impact on
+      important output cells** (Tornado)
+  - text: >-
+      Instantly **Understand the relationship between input and output
+      variables** (Sensitivity)
+  - text: >-
+      **Compare Scenarios** - See a comparison of automatically generated
+      optimistic and pessimistic scenarios
+  - text: >-
       Find the probability of distributions that fit your historical data so you
       can make better forecasts with **Simulation Analysis**
   - text: >-
       Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
       errors and their root cause in seconds
-  - text: Identify And Visualize **Cells Dependencies**
-  - text: >-
-      Know what input cells have the greatest **impact on important output
-      cells** (Tornado)
-  - text: >-
-      Instantly **Understand the relationship between input and output
-      variables** in a spreadsheet
-       (Sensitivity)
-  - text: >-
-      **Compare Scenarios** (Visyond varies each of the top 5 input by -/+ 50%
-      and create new cases with these values)
 errorsImage: /img/Monte Carlo Simulation v3.png
 errorsFiles:
   - descr: >-

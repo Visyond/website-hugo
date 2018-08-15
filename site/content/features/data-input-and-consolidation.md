@@ -1,7 +1,7 @@
 ---
 title: Data Input and Consolidation
 topTitle: Structured Data Input and Consolidation
-topSubTitle: "Visyond makes data consolidation easier by helping you avoid common issues that arise when collecting inputs. You no longer need to create multiple spreadsheet templates, manually distribute it among stakeholders risking accidental layout and formula changes and spending long hours auditing the spreadsheets once you’ve received them back with data.\r\n"
+topSubTitle: "You no longer need to create multiple spreadsheet templates, manually distribute it among stakeholders risking accidental layout and formula changes and spending long hours auditing the spreadsheets once you’ve received them back with data.\r\n"
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg

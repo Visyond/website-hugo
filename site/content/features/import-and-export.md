@@ -1,6 +1,6 @@
 ---
 title: Import And Export
-topTitle: Cross-Compatibility With Excel And PowerPoint
+topTitle: "Cross-Compatibility with Excel And Export to PowerPoint\r"
 topSubTitle: >-
   Visyond was built with ease of use and flexibility in mind allowing you to
   import & export your spreadsheets in familiar Excel format in a few clicks.
