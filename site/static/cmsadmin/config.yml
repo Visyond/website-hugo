@@ -1,7 +1,7 @@
 backend:
-  name: github
-  repo: visyond/website-hugo
-  base_url: https://cms.visyond.com
+    name: github
+    repo: visyond/website-hugo
+    base_url: https://cms.visyond.com
 
 publish_mode: editorial_workflow
 
@@ -639,6 +639,12 @@ collections: # A list of collections the CMS should be able to edit
               ]}
           ]}
 
+
+
+
+
+
+
       - file: "site/content/pricing-old.md"
         label: "Pricing"
         name: "pricing-old"
@@ -686,3 +692,24 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
           - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
           - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
+
+
+
+
+
+
+
+
+      - file: "site/content/case-studies-section-new/_index.md"
+        label: "Case studies section new"
+        name: "case-studies-section-new"
+        fields:
+          - { label: "Case study title", name: "caseTitle", widget: "string" }
+          - { label: "Case study", name: "case", widget: "list",
+            fields: [
+              {label: "Case study link", name: "caseLink", widget: "string"},
+              {label: "Icon", name: "caseIco", widget: "image"},
+              {label: "Case study description", name: "caseDescr", widget: "string"},
+            ],
+            required: false,
+          }
