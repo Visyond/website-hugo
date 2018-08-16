@@ -17,4 +17,3 @@ case:
     caseIco: /img/elearn.png
     caseLink: '/#'
 ---
-

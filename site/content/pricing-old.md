@@ -185,4 +185,3 @@ titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/topImgTerms.png
 botRequestURL: /request
 ---
-
