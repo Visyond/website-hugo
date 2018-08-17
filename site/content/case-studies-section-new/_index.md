@@ -1,19 +1,21 @@
 ---
-caseTitle: New Casestudies Title
+caseTitle: Featured Case Studies
 case:
   - caseDescr: >-
-      Financial statements preparation: eLearnSecurity made this a 1-hour job
-      with Visyond
-    caseIco: /img/elearn.png
-    caseLink: '/#'
+      How Ericsson accelerates their business case workflow by 80% and empowers
+      their customers with Visyond
+    caseIco: /img/Ericsson_logo smaller.png
+    caseLink: >-
+      /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+  - caseDescr: Learn how Elettronica reduced its sales planning cycle from weeks to hours
+    caseIco: /img/elet.png
+    caseLink: >-
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - caseDescr: >-
       Financial statements preparation: eLearnSecurity made this a 1-hour job
       with Visyond
     caseIco: /img/elearn.png
-    caseLink: '/#'
-  - caseDescr: >-
-      Financial statements preparation: eLearnSecurity made this a 1-hour job
-      with Visyond
-    caseIco: /img/elearn.png
-    caseLink: '/#'
+    caseLink: >-
+      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
+
