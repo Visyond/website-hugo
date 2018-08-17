@@ -1,5 +1,5 @@
 ---
-caseTitle: New Casestudies Title
+caseTitle: Featured Case Studies
 case:
   - caseDescr: >-
       How Ericsson accelerates their business case workflow by 80% and empowers
