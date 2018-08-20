@@ -21,8 +21,7 @@ infoBlockFirst:
       interactive slides where they can **test assumptions** without breaking
       any of the carefully crafted formulas.
     image: /img/v_clip_group_4.png
-    link: >-
-      https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators/
+    link: /features/selective-sharing/
     title: Secure Selective Sharing
   - descr: >-
       Each **cell can store multiple inputs** from different people allowing you
@@ -30,7 +29,7 @@ infoBlockFirst:
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
     image: /img/v_clip_group_3.png
-    link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
+    link: /features/data-input-and-consolidation/
     title: Structured data gathring & consolidation
   - descr: >-
       In Visyond, the **spreadsheet is the central repository for all relevant
@@ -38,7 +37,7 @@ infoBlockFirst:
       status allowing you to have a knowledge management system integrated in
       your spreadsheet.
     image: /img/v_clip_group_1.png
-    link: 'https://help.visyond.com/articles/chat-and-attachment-in-a-cell/'
+    link: /features/knowledge-base/
     title: Knowledge management
   - descr: >-
       All inputs are self-documented giving you a **full audit trail** showing
@@ -46,8 +45,7 @@ infoBlockFirst:
       of the spreadsheet and compare them on the fly, or **revert any changes
       individually**, without rolling back the entire document.
     image: /img/v_clip_group_2.png
-    link: >-
-      https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
+    link: /features/knowledge-base/
     title: Input tracking and version control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
@@ -56,7 +54,7 @@ infoBlockFirst:
       spreadsheets** and let you easily export slides & dashboards you’ve
       created in Visyond.
     image: /img/package-27770_1280 even smaller.png
-    link: 'https://help.visyond.com/articles/importing-from-excel/'
+    link: /features/import-and-export/
     title: Import and Export freely
 capabilitiesList:
   - image: /img/feature-icons-v1_03.png
@@ -67,58 +65,6 @@ capabilitiesList:
     text: 'Know who changed what, when'
   - image: /img/v_icon.png
     text: Ensure quick turn-around
-trustedTitle: trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
-studiesTitle: Featured case studies
-studiesBlock:
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v3.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-    text: >-
-      The process took 1 stressful week and I did not feel comfortable to update
-      the data, fearing to break something. Now it is a 1-hour job and a few
-      clicks to update data.
-    title: >-
-      How preparing Financial Statements with no training in Finance became a
-      1-hour job
-titleCustomers: ''
-slider:
-  - sliderDescr: >-
-      I have finally full control on the source and impact of any assumptions,
-      and can confidently answer what-if questions with a few clicks.
-    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-    sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1a.jpg
-  - sliderDescr: >-
-      Since we use Visyond, everyone, regardless of their skill level, can ask
-      deeper questions to our models and prepare more informative reports in
-      real time.
-    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
-    sliderlogo: /img/jberg1.png
-    sliderphoto: /img/client_2.jpg
-  - sliderDescr: >-
-      When I use Visyond I see my accuracy and ability to answer questions about
-      my work go up. I can do more and have peace of mind.
-    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
-    sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
