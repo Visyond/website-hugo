@@ -25,8 +25,7 @@ infoBlockFirst:
       - file: /img/Nice Model in Browser v2.png
       - file: /img/Nice Model in Browser v2.png
     image: /img/Nice Model thumbnail v2.png
-    link: >-
-      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
+    link: /features/audit-mode/
     title: Readable and beautiful models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
@@ -42,8 +41,7 @@ infoBlockFirst:
         file: /img/Dependency in Browser v2.png
         title: Dependency Analysis
     image: /img/Dependency v2 thumbnail.png
-    link: >-
-      https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
+    link: /features/dependency-analysis/
     title: Error root cause & dependencies tracking
   - descr: >-
       How would the change in one indicator affect other numbers? With inputs
@@ -67,7 +65,7 @@ infoBlockFirst:
     files:
       - file: /img/Interactive Slides in Browser v3.png
     image: /img/Interactive Slides thumbnail v3.png
-    link: 'https://help.visyond.com/articles/reports-and-presentations/'
+    link: /features/interactive-presentations/
     title: Secure sandbox for stress-testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
@@ -78,58 +76,6 @@ capabilitiesList:
       breaking or accidentally modifying any data
   - image: /img/feature-icons-v1_09.png
     text: Ensure seamless collaboration between team members
-trustedTitle: trusted by
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/elearn2.png
-  - logo: /img/datadvance-logo black and white 15.png
-  - logo: /img/logo_cy4gate black and white 25.png
-studiesTitle: Featured case studies
-studiesBlock:
-  - author: 'Fernando Rizzo, Area Manager, Elettronica'
-    image: /img/Elettronica - v2.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-    text: >-
-      When I used Visyond, I see my accuracy and ability to answer questions
-      about my work go up. I can do more and have peace of mind.
-    title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
-  - author: 'Armando Romeo, CEO, eLearnSecurity'
-    image: /img/ELearnSecurity - v3.png
-    linkText: learn more
-    linkUrl: >-
-      /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-    text: >-
-      The process took 1 stressful week and I did not feel comfortable to update
-      the data, fearing to break something. Now it is a 1-hour job and a few
-      clicks to update data.
-    title: >-
-      How preparing Financial Statements with no training in Finance became a
-      1-hour job
-titleCustomers: ''
-slider:
-  - sliderDescr: >-
-      I have finally full control on the source and impact of any assumptions,
-      and can confidently answer what-if questions with a few clicks.
-    slidercompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-    sliderlogo: /img/delo1.png
-    sliderphoto: /img/client_1a.jpg
-  - sliderDescr: >-
-      Since we use Visyond, everyone, regardless of their skill level, can ask
-      deeper questions to our models and prepare more informative reports in
-      real time.
-    slidercompany: 'Edoardo Gauzolino, Founder, JEBG'
-    sliderlogo: /img/jberg1.png
-    sliderphoto: /img/client_2.jpg
-  - sliderDescr: >-
-      When I use Visyond I see my accuracy and ability to answer questions about
-      my work go up. I can do more and have peace of mind.
-    slidercompany: 'Fernando Rizzo, Area Manager, Elettronica'
-    sliderlogo: /img/elet.png
-    sliderphoto: /img/client_3a.jpg
 providesTitle: Get started in minutes
 providesList:
   - text: >-
