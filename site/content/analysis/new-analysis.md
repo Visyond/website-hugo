@@ -33,22 +33,6 @@ errorsList:
 errorsImage: /img/Monte Carlo Simulation v3.png
 errorsFiles:
   - descr: >-
-      Visyond generates descriptive statistics, probability density function and
-      cumulative distribution function.
-    file: /img/Monte Carlo Simulation v3.png
-    title: MONTE CARLO SIMULATION
-  - descr: >-
-      When in Audit Mode, Visyond offers simple and intuitive ways to track
-      errors and their root cause.
-    file: /img/track errors 1.png
-    title: TRACK ERRORS AND THEIR ROOT CAUSE
-  - descr: >-
-      Dependency analysis gives you a bird’s eye view of your model in the same
-      way Google Maps does of a neighborhood. It’s a powerful auditing tool,
-      uncovering errors that would be otherwise painstaking to catch.
-    file: /img/Dependency in Browser v2.png
-    title: DEPENDENCY ANALYSIS
-  - descr: >-
       With Visyond, you can run Impact (Tornado) Analysis without long manual
       setups and quickly see how sensitive your data set is to changes.
     file: /img/Tornado in Browser v4.png
@@ -63,6 +47,16 @@ errorsFiles:
       clicks!
     file: /img/Scenarios chart in Browser v4.png
     title: Answer What-If Questions Anywhere In Real Time
+  - descr: >-
+      Visyond generates descriptive statistics, probability density function and
+      cumulative distribution function.
+    file: /img/Monte Carlo Simulation v3.png
+    title: MONTE CARLO SIMULATION
+  - descr: >-
+      When in Audit Mode, Visyond offers simple and intuitive ways to track
+      errors and their root cause.
+    file: /img/track errors 1.png
+    title: TRACK ERRORS AND THEIR ROOT CAUSE
 formImage: /img/banner.jpg
 providesTitle: Get started in minutes
 providesList:
