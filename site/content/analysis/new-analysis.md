@@ -24,8 +24,9 @@ errorsList:
       **Compare Scenarios** - See a comparison of automatically generated
       optimistic and pessimistic scenarios
   - text: >-
-      Find the probability of distributions that fit your historical data so you
-      can make better forecasts with **Simulation Analysis**
+      Make better forecasts with **Simulation Analysis**. It replaces the inputs
+      with random variables in a specified range and shows how it affects the
+      output.
   - text: >-
       Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
       errors and their root cause in seconds
