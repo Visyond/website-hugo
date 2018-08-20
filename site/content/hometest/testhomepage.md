@@ -10,24 +10,7 @@ topSubTitle: >-
   reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
-  - descr: >-
-      Visyond offers **a secure way to collaborate without data leaks and focus
-      only on what is important:**
-
-
-      * No more cumbersome back and forth emails and versions to reconcile
-
-      * Limit what parts of the spreadsheet people can interact with, down to a
-      single cell
-
-      * Securely store spreadsheet data; multiple assumptions, scenarios,
-      conversations and attachments directly in the relevant cells
-
-      * Keep track of inputs, changes and versions with always up-to-date
-      automatic reports and interactive presentation
-
-      * Gather assumptions and enable others to test them  through simple
-      interfaces,  without changing (and risking to break) the spreadsheet
+  - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important:\r**\n\n* No more cumbersome back & forth emails and versions to reconcile\r\n*Securely store  and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
     files:
       - descr: >-
           Securely store spreadsheet data; multiple assumptions, scenarios,
@@ -51,21 +34,8 @@ infoBlockFirst:
         title: Test Assumptions
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
-    title: Collaborate With Simplicity And Peace of Mind
-  - descr: >-
-      With Visyond, you have complete transparency as you **always know what is
-      going on in your spreadsheets:** 
-
-
-      * All inputs & activity history are tracked for better accountability
-
-      * With permission control, you can give full or partial access to
-      spreadsheets, analysis data and reports 
-
-      * Dependencies and error root cause analysis in one click
-
-      * Minimize errors with Visyond’s Auditing Mode, auto-formatting and
-      readable formula names.
+    title: Collaborate and Build With Simplicity & Peace of Mind
+  - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets:\r**\n\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
       - descr: Easily export the relationships between the cells
         file: /img/Dependency in Browser.png
@@ -75,22 +45,8 @@ infoBlockFirst:
         title: Error Root Cause identification
     image: /img/v_clip_group_3.png
     link: /solutions/governance
-    title: Track Everything And Retrieve Information Fast
-  - descr: >-
-      In seconds, Visyond lets you and your stakeholders **analyze data
-      on-the-fly and test assumptions safely without interacting with the
-      spreadsheet directly:**
-
-
-      * Graphically compare scenarios and answer ‘what-if’ questions in real
-      time with Visyond’s Scenario & Waterfall Analysis
-
-      * Compare relative importance of cells with instant Tornado Analysis
-
-      * Understand the relationships between input and output cells with instant
-      Sensitivity Analysis
-
-      * Run simulations on your data with instant Monte Carlo analysis
+    title: Track Everything and Retrieve Information Fast
+  - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly:\r**\n\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     files:
       - descr: >-
           Instead of managing multiple version of the spreadsheet, combine data
@@ -118,25 +74,8 @@ infoBlockFirst:
         title: Monte Carlo simulations
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
-    title: Understand Your Spreadsheet Data Better
-  - descr: >-
-      Visyond’s interactive presentations will help you **create powerful
-      visualizations your stakeholders can interact with without working
-      directly with the spreadsheet:**
-
-
-      * Present the results from your analyses data and allow stakeholders to
-      play with the numbers on-the-fly without interacting with or breaking the
-      spreadsheet
-
-      * Create interactive apps such as Sales ROI calculators, Marketing KPIs
-      based on your spreadsheet data and calculations
-
-      * Quickly generate financial statements such as Balance Sheets and Income
-      Statements 
-
-      * Share the whole or only specific parts of the presentation and report
-      for controlled information flow
+    title: Instantly Understand your Spreadsheet Data
+  - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet:\r**\n\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
     files:
       - descr: Preparing various financial statements is easy and fast with Visyond
         file: /img/statements animated.gif
