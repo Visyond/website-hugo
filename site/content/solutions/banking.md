@@ -142,7 +142,7 @@ infoBlockFirst:
         title: INTERACTIVE PRESENTATIONS
     image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
-    title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
+    title: Remove Bottlenecks and Empower Stakeholders To Test Assumptions
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
