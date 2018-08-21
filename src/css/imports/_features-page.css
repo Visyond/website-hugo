@@ -160,10 +160,14 @@
 
 .fp2nd__section {
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .fp2nd__title {
   text-align: center;
+  font-size: 29px;
+  font-weight: 700;
+  color: #52556C;
 }
 
 .fp2nd__cards {
@@ -199,15 +203,37 @@
   color: #595959;
   width: 100%;
   max-width: 250px;
+  cursor: pointer;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 0 5px 40px #dbddec;
+  }
+}
+
+.fp2nd__card-image-wrap {
+  height: 100px;
+  margin-bottom: 20px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .fp2nd__card-image {
-  max-height: 100px;
+  max-height: 100%;
   margin-bottom: 20px;
 }
 
 .fp2nd__card-title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.25rem;
   font-weight: 600;
 }

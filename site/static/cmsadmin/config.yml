@@ -135,7 +135,8 @@ collections: # A list of collections the CMS should be able to edit
           {label: Cards, name: cards, widget: list, fields: [
             {label: Card Icon, name: icon, widget: image},
             {label: Card Title, name: title, widget: string},
-            {label: Card Text, name: text, widget: text}
+            {label: Card Text, name: text, widget: text},
+            {label: Card Link, name: link, widget: string}
           ]}
         ]}
 

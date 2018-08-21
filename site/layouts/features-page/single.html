@@ -55,11 +55,15 @@
 	</h2>
 	<div class="fp2nd__cards">
 	{{ range $cards := .cards }}
-		<a class="fp2nd__card">
-			<img src="{{ .icon }}" alt="icon" class="fp2nd__card-image">
+		<a href="{{ .link }}" class="fp2nd__card">
+			<div class="fp2nd__card-image-wrap">
+				<img src="{{ .icon }}" alt="icon" class="fp2nd__card-image">
+			</div>
+			
 			<h3 class="fp2nd__card-title">
 				{{ .title }}
 			</h3>
+
 			<p class="fp2nd__card-text">
 				{{ .text }}
 			</p>
