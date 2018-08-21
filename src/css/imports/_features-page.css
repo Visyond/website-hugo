@@ -1,0 +1,38 @@
+.fp1st {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 10px 40px;
+  background-size: cover;
+}
+
+.fp1st__title {
+  font-size: 2.375rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.8rem;
+  }
+}
+
+.fp1st__title p {
+  margin: 0;
+}
+
+.fp1st__under-title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  max-width: 850px;
+  margin-bottom: 2rem;
+  text-shadow: 0 5px 5px rgba(0,0,0,.3);
+}
