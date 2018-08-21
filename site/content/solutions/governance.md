@@ -26,7 +26,7 @@ infoBlockFirst:
       - file: /img/Nice Model in Browser v2.png
     image: /img/Nice Model thumbnail v2.png
     link: /features/audit-mode/
-    title: Readable and beautiful models
+    title: Readable and Beautiful Models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
       manually to find what is causing an error - our **intelligent Root Cause
@@ -42,7 +42,7 @@ infoBlockFirst:
         title: Dependency Analysis
     image: /img/Dependency v2 thumbnail.png
     link: /features/dependency-analysis/
-    title: Error root cause & dependencies tracking
+    title: Error Root Cause & Dependencies Tracking
   - descr: >-
       How would the change in one indicator affect other numbers? With inputs
       from multiple stakeholders being stored in a single place, **Visyond lets
@@ -54,7 +54,7 @@ infoBlockFirst:
       - file: /img/Scenarios chart in Browser v4.png
     image: /img/Scenarios chart thumbnail v3.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Hassle-free number testing environment
+    title: Hassle-Free Assumptions Testing Environment
   - descr: >-
       Once the model and calculations are set up, it is time to stress-test the
       data. Take advantage of Visyond’s **secure selective sharing** and
@@ -66,7 +66,7 @@ infoBlockFirst:
       - file: /img/Interactive Slides in Browser v3.png
     image: /img/Interactive Slides thumbnail v3.png
     link: /features/interactive-presentations/
-    title: Secure sandbox for stress-testing
+    title: Secure Sandbox for Stress-Testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
     text: Quickly identify the root cause of errors and relationships between cells
