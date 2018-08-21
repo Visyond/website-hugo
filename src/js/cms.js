@@ -15,6 +15,7 @@ import CaseStudies from "./cms-preview-templates/casestudies";
 import Pricing from "./cms-preview-templates/pricing";
 import Pricings from "./cms-preview-templates/pricings";
 import Analysis from "./cms-preview-templates/analysis";
+import FeaturesPage from "./cms-preview-templates/features-page";
 
 
 // Example of creating a custom color widget
@@ -44,4 +45,5 @@ CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerPreviewTemplate("pricing", Pricing);
 CMS.registerPreviewTemplate("pricings", Pricings);
 CMS.registerPreviewTemplate("analysis", Analysis);
+CMS.registerPreviewTemplate("features-page", Analysis);
 CMS.registerWidget("color", ColorControl);
