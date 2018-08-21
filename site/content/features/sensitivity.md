@@ -1,7 +1,7 @@
 ---
 title: Sensitivity
 topTitle: >-
-  Instantly Understand The Relationship Between Input And Output Variables In A
+  Instantly Understand the Relationship Between Input and Output Variables in a
   Spreadsheet
 topSubTitle: >-
   Sensitivity analysis is a great way to better understand relationships between
@@ -20,7 +20,7 @@ infoBlockFirst:
         file: /img/Sensitivity two-way v2.png
         title: Set Up Sensitivity Analysis In Seconds
     image: /img/Sensitivity two-way v2.png
-    title: Focus On What’s Important
+    title: Focus on What’s Important
   - descr: >-
       As models grow in size and complexity, searching for errors becomes a much
       more challenging task. Sensitivity Analysis will help you reduce errors by
