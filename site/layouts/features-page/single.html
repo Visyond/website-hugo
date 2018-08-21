@@ -46,6 +46,31 @@
 </div>
 <!-- //first section -->
 
+<!-- second section -->
+<div class="fp2nd">
+{{ range $el := .Params.section }}
+<section class="fp2nd__section">
+	<h2 class="fp2nd__title">
+		{{ .title }}
+	</h2>
+	<div class="fp2nd__cards">
+	{{ range $cards := .cards }}
+		<a class="fp2nd__card">
+			<img src="{{ .icon }}" alt="icon" class="fp2nd__card-image">
+			<h3 class="fp2nd__card-title">
+				{{ .title }}
+			</h3>
+			<p class="fp2nd__card-text">
+				{{ .text }}
+			</p>
+		</a>
+	{{ end }}
+	</div>
+</section>
+{{ end }}
+</div>
+<!-- //second section -->
+
 <!-- third section -->
 <section class="fp3rd" style="background-image: url({{ .Params.BgBottom }})">
 	<h3 class="fp3rd__title">
@@ -56,6 +81,6 @@
 	request a demo
 	</a>
 </section>
-<!-- third section -->
+<!-- //third section -->
 
 {{ partial "footer" . }}

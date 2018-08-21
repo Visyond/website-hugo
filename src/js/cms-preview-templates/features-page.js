@@ -54,7 +54,7 @@ export default class FeaturesPage extends React.Component {
                   request a demo
                 </a>
             </section>
-            {/*THIRD SECTION*/}
+            {/*//THIRD SECTION*/}
 			</div>
 		);
 	}
