@@ -1,6 +1,6 @@
 ---
 title: Calculators
-topTitle: Create Interactive Calculators And Apps Without A Single Line Of Code
+topTitle: Create Interactive Calculators and Apps Without a Single Line of Code
 topSubTitle: >-
   With Visyond’s Interactive Slides, in addition to powerful presentations, you
   can create interactive calculators/apps, such as ROI calculators, and securely
@@ -20,7 +20,7 @@ infoBlockFirst:
         title: INTERACTIVE CALCULATORS & APPS
       - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v3.png
-    title: Play With The Assumptions With Ease
+    title: Test Assumptions Seamlessly
   - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s unique [Selective Sharing](https://visyond.com/features/selective-sharing/) feature without exposing the spreadsheet and any sensitive or unnecessary information. Stakeholders can then safely test their own assumptions without breaking or ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation to Powerpoint."
     files:
       - descr: >-
@@ -30,7 +30,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser.png
         title: SHARE PARTS OR WHOLE PRESENTATIONS
     image: /img/Share Slide in Browser.png
-    title: Share Only What Collaborators Or Clients Need To See
+    title: Share Only What Collaborators or Clients Need To See
 providesTitle: Get started in minutes
 providesList:
   - text: >-
