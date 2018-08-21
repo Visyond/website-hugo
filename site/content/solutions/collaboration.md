@@ -30,7 +30,7 @@ infoBlockFirst:
       back-and-forth emails containing different versions of the same document.
     image: /img/v_clip_group_3.png
     link: /features/data-input-and-consolidation/
-    title: Structured data gathring & consolidation
+    title: Structured Data Gathering & Consolidation
   - descr: >-
       In Visyond, the **spreadsheet is the central repository for all relevant
       information** such as supporting files, discussions, comments and approval
@@ -38,7 +38,7 @@ infoBlockFirst:
       your spreadsheet.
     image: /img/v_clip_group_1.png
     link: /features/knowledge-base/
-    title: Knowledge management
+    title: Knowledge Management
   - descr: >-
       All inputs are self-documented giving you a **full audit trail** showing
       you who changed what and when. You can always go back to previous versions
@@ -46,7 +46,7 @@ infoBlockFirst:
       individually**, without rolling back the entire document.
     image: /img/v_clip_group_2.png
     link: /features/knowledge-base/
-    title: Input tracking and version control
+    title: Input Tracking & Version Control
   - descr: >-
       Businesses and individuals around the still rely on Excel & PowerPoint to
       cover their spreadsheet and presentation needs. That is why we built an
@@ -55,7 +55,7 @@ infoBlockFirst:
       created in Visyond.
     image: /img/package-27770_1280 even smaller.png
     link: /features/import-and-export/
-    title: Import and Export freely
+    title: Import & Export Freely
 capabilitiesList:
   - image: /img/feature-icons-v1_03.png
     text: Eliminate data chaos
