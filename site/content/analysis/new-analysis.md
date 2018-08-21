@@ -2,8 +2,8 @@
 title: Free Spreadsheet Analysis
 url: /free-analysis
 topTitle: >-
-  Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
-  technology
+  Get a Top-Consultant-Level Spreadsheet Analysis for FREE Powered by Visyond’s
+  Technology
 topSubTitle: ''
 bgImage: /img/analysis top 1.jpg
 text: >-
@@ -21,14 +21,14 @@ errorsList:
       Instantly **Understand the relationship between input and output
       variables** (Sensitivity)
   - text: >-
-      **Compare Scenarios** - See a comparison of automatically generated
+      **Compare Scenarios** - see a comparison of automatically generated
       optimistic and pessimistic scenarios
   - text: >-
       Make better forecasts with **Simulation Analysis**. It replaces the inputs
       with random variables in a specified range and shows how it affects the
-      output.
+      output. (Monte Carlo Simulation)
   - text: >-
-      Spreadsheet **Error checking**, using Visyond’s Audit Mode, we can track
+      Spreadsheet **Error checking** - using Visyond’s Audit Mode, we can track
       errors and their root cause in seconds
 errorsImage: /img/Monte Carlo Simulation v3.png
 errorsFiles:
