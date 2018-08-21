@@ -43,6 +43,18 @@ export default class FeaturesPage extends React.Component {
 				</div>
 			</div>
 			{/*//FIRST SECTION*/}
+
+			{/*THIRD SECTION*/}
+			<section className="fp3rd">
+                <h3 className="fp3rd__title">
+                  { entry.getIn(['data', 'titleBottom']) }
+                </h3>
+
+                <a href="{ entry.getIn(['data', 'botRequestURL']) }" className="fp1st fp1st--request">
+                  request a demo
+                </a>
+            </section>
+            {/*THIRD SECTION*/}
 			</div>
 		);
 	}

@@ -145,3 +145,39 @@
   background:
   linear-gradient(45deg, transparent 46%, white 46%, white 54%, transparent 54%), linear-gradient(135deg, transparent 46%, white 46%, white 54%, transparent 54%);
 }
+
+
+
+
+
+
+
+
+
+.fp3rd {
+  background: rgba(0,0,0,.5) center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 50px 10px 150px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.fp3rd__title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
+}
