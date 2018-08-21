@@ -1,6 +1,6 @@
 ---
 title: Dependency Analysis
-topTitle: Identify And Visualize Cells' Dependencies
+topTitle: Identify and Visualize Cells' Dependencies
 topSubTitle: >-
   Visyond’s Dependencies Analyses allows you to visually navigate through
   different cells and see how they impact one another, without tampering with
@@ -23,7 +23,7 @@ infoBlockFirst:
     image: /img/Dependency in Browser v2.png
     link: >-
       https://help.visyond.com/articles/how-to-run-dependency-analysis-in-visyond/
-    title: Bird’s Eye View Of Your Spreadsheet
+    title: Bird’s Eye View of Your Spreadsheet
 providesTitle: Get started in minutes
 providesList:
   - text: >-
