@@ -1,6 +1,6 @@
 ---
 title: Modeling
-topTitle: Analyze Models Faster And Make Better Decisions
+topTitle: Analyze Models Faster and Make Better Decisions
 topSubTitle: >-
   Visyond is great for modeling professionals, aiding on every step of the
   process by automating routine tasks, minimizing the risk of errors in an
@@ -61,7 +61,7 @@ infoBlockFirst:
         title: VERSIONS
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
-    title: Single Source Of Truth For Your Spreadsheet
+    title: Single Source of Truth for Your Spreadsheet
   - descr: >-
       Visyond’s Selective Sharing and granular permissions control will ensure
       that sensitive information will be kept safe and only stakeholders you
@@ -79,7 +79,7 @@ infoBlockFirst:
         title: SHARE WORKSHEETS
     image: /img/Share Project.png
     link: /features/selective-sharing/
-    title: Protect Sensitive Information And Avoid Data Leaks
+    title: Protect Sensitive Information and Avoid Data Leaks
   - descr: >-
       Selective Sharing will not only protect your data but also help you
       improve communications with decision makers by allowing them to see only
@@ -140,7 +140,7 @@ infoBlockFirst:
       - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
-    title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
+    title: Remove Bottlenecks and Empower Stakeholders To Test Assumptions
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to 80% of time on routine tasks
