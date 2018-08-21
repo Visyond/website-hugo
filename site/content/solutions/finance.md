@@ -136,7 +136,7 @@ infoBlockFirst:
         title: DEPENDENCY ANALYSIS
     image: /img/Sensitivity two-way v2.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Analyze And Make Better Decisions Quicker
+    title: Analyze and Make Better Decisions Quicker
   - descr: >-
       After data is gathered, you can build reports & financial statements with
       just a few clicks or create Interactive Presentations, empowering
@@ -178,7 +178,7 @@ infoBlockFirst:
         title: COMBINE ASSUMPTIONS INTO SCENARIOS
     image: /img/Scenarios chart in Browser v4.png
     link: /features/scenarios/
-    title: Answer What-If Questions Anywhere In Real Time
+    title: Answer What-If Questions Anywhere in Real Time
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
