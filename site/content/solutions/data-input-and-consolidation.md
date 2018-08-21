@@ -68,7 +68,7 @@ infoBlockFirst:
         title: Answer What-If Questions Anywhere In Real Time
     image: /img/Scenarios chart in Browser v4.png
     link: /features/scenarios/
-    title: Compare Scenarios And Answer What-If Questions On-The-Fly
+    title: Compare Scenarios and Answer What-If Questions On-The-Fly
   - descr: "Audit Mode eradicates rework and manual auditing by automating all the manual processes that are inherent with spreadsheet.\r\n\nFor example, you will be able to identify what is causing errors in your spreadsheets, precedent and dependent cells with just a few clicks.\r\n"
     files:
       - descr: >-
