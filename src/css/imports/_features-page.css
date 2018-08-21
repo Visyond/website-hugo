@@ -1,4 +1,4 @@
-fp1st {
+.fp1st {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -12,7 +12,7 @@ fp1st {
   background-size: cover;
 }
 
-fp1st__title {
+.fp1st__title {
   font-size: 2.375rem;
   font-weight: 400;
   color: #fff;
@@ -24,11 +24,11 @@ fp1st__title {
   }
 }
 
-fp1st__title p {
+.fp1st__title p {
   margin: 0;
 }
 
-fp1st__under-title {
+.fp1st__under-title {
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
@@ -37,7 +37,7 @@ fp1st__under-title {
   text-shadow: 0 5px 5px rgba(0,0,0,.3);
 }
 
-fp1st__btns-wrap {
+.fp1st__btns-wrap {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -101,12 +101,12 @@ fp1st__btns-wrap {
   }
 }
 
-fp1st__img {
+.fp1st__img {
   width: 100%;
   max-width: 1200px;
 }
 
-fp1st__popup {
+.fp1st__popup {
   position: fixed;
   top: 0;
   left: 0;
@@ -125,16 +125,16 @@ fp1st__popup {
   display: flex;
 }
 
-fp1st__iframe-wrap {
+.fp1st__iframe-wrap {
   position: relative;
   max-width: 100%;
 }
 
-fp1st__iframe-wrap iframe {
+.fp1st__iframe-wrap iframe {
   max-width: 100%;
 }
 
-fp1st__popup-close {
+.fp1st__popup-close {
   position: absolute;
   cursor: pointer;
   right: .5rem;
