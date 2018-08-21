@@ -107,7 +107,7 @@ infoBlockFirst:
         title: DEPENDENCY ANALYSIS
     image: /img/track errors 1.png
     link: /features/audit-mode/
-    title: Audit And Debug Models With Ease
+    title: Audit and Debug Models with Ease
   - descr: "Interactive Slides will allow you not only to visualize the data but also provide a secure environment for your stakeholders to play with assumptions.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
     files:
       - descr: >-
