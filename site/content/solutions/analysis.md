@@ -38,7 +38,7 @@ infoBlockFirst:
       - file: /img/Tornado in Browser v4.png
     image: /img/Tornado chart thumbnail v4.png
     link: /features/tornado/
-    title: Tornado Analysis Without Whirlwind Of Stress
+    title: Tornado Analysis Without Whirlwind of Stress
   - descr: >-
       Significantly **streamline and simplify Sensitivity Analysis setup in
       minutes**. Sensitivity analysis will help you **understand clearly the
