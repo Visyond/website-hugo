@@ -1,6 +1,6 @@
 ---
 title: Selective Sharing
-topTitle: Share Only What Collaborators Or Clients Need To See
+topTitle: Share Only What Collaborators or Clients Need To See
 topSubTitle: >-
   Visyond allows you to communicate more efficiently while avoiding data leaks.
   It removes the need for emailing spreadsheets, back-and-forth copy-paste
