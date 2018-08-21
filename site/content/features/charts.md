@@ -1,6 +1,6 @@
 ---
 title: Charts
-topTitle: Create Up-To-Date Charts With Ease
+topTitle: Create Up-To-Date Charts with Ease
 topSubTitle: >-
   Charts are the cornerstone of a good presentation and an irreplaceable
   analysis tool. In Visyond, charting is simple, fast and does not require
