@@ -24,7 +24,7 @@ infoBlockFirst:
         file: /img/Attachments and Comments in Browser v2.png
         title: ''
     image: /img/Single source of truth.png
-    title: Store Related Information In Cells
+    title: Store Related Information in Cells
   - descr: >-
       No one can accidentally override data or formulas. All changes are
       documented, giving you a full audit trail that is kept forever. You can
@@ -43,7 +43,7 @@ infoBlockFirst:
         file: /img/Versions in Browser.png
         title: Versions
     image: /img/Cases in Browser v2.png
-    title: Track Inputs And Control Versions
+    title: Track Inputs and Control Versions
   - descr: >-
       Have full and granular control over who can view and edit your
       spreadsheets or presentations. Restrict permissions to just certain cells,
@@ -64,7 +64,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser.png
         title: Share Presentations
     image: /img/Share Project.png
-    title: Manage Access To Information
+    title: Manage Access to Information
 providesTitle: Get started in minutes
 providesList:
   - text: >-
