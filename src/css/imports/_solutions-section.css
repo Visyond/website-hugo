@@ -67,6 +67,17 @@
   margin-right: 20px;
 }
 
+.dropdown .sol-section__col {
+  @media (max-width: 1201px) {
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
+}
+
 .sol-section__title {
   text-transform: uppercase;
   font-size: 18px;
