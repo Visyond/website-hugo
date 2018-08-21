@@ -1,6 +1,6 @@
 ---
 title: Simulations
-topTitle: Explore Probabilities Of Different Outcomes
+topTitle: Explore Probabilities of Different Outcomes
 topSubTitle: >-
   Monte Carlo Simulation replaces the inputs with random variables in a
   specified range and shows how it affects the output. With Visyond you can
