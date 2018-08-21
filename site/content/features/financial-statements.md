@@ -23,7 +23,7 @@ infoBlockFirst:
     image: /img/Financial Statements in Browser.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
-    title: Simple And Convenient Way To Build Financial Statements
+    title: Simple and Convenient Way To Build Financial Statements
 providesTitle: Get started in minutes
 providesList:
   - text: >-
