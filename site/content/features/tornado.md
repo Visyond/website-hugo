@@ -1,6 +1,6 @@
 ---
 title: Tornado
-topTitle: Know What Input Cells Have The Greatest Impact On Important Output Cells
+topTitle: Know What Input Cells Have the Greatest Impact on Important Output Cells
 topSubTitle: >-
   Ever wondered what input cells have the greatest impact on a key output so you
   can analyse them and understand how to reduce your costs, grow your revenues
