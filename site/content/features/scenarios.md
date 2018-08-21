@@ -1,6 +1,6 @@
 ---
 title: Scenarios
-topTitle: Compare Scenarios And Answer What-If Questions On-The-Fly
+topTitle: Compare Scenarios and Answer What-If Questions On-The-Fly
 topSubTitle: >-
   With Visyond’s Scenario Comparison you can quickly compare different
   assumptions in a few clicks without depending on experts.
@@ -41,7 +41,7 @@ infoBlockFirst:
       - file: /img/scenario panel.gif
       - file: /img/switch assumptions.gif
     image: /img/Scenario Window in Browser.png
-    title: Create Scenarios in a few clicks
+    title: Create Scenarios in a Few Clicks
   - descr: >-
       Compare multiple scenarios with a few clicks. Visyond will instantly build
       an interactive chart which you can easily modify right there at the
@@ -53,7 +53,7 @@ infoBlockFirst:
         file: /img/Scenarios chart in Browser v4.png
         title: Compare Scenarios In Real Time
     image: /img/Scenarios chart in Browser v4.png
-    title: Answer What-If Questions Anywhere In Real Time
+    title: Answer What-If Questions Anywhere in Real Time
 providesTitle: Get started in minutes
 providesList:
   - text: >-
