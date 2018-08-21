@@ -8,18 +8,42 @@ export default class FeaturesPage extends React.Component {
 
 		return (
 			<div>
-				<div className="first-section fp1st">
-			
-					<h2 className="fp1st__title">
-				  	{entry.getIn(['data', 'topTitle'])}
-					</h2>
+			{/*//FIRST SECTION*/}
+			<div className="fp1st">
+				<h2 className="fp1st__title">
+				{ entry.getIn(['data', 'topTitle']) }
+				</h2>
 
-					<div className="fp1st__under-title">
-				  	{entry.getIn(['data', 'topSubTitle'])}
+				<div className="fp1st__under-title">
+				{ entry.getIn(['data', 'topSubTitle']) }
+				</div>
+
+				<div className="fp1st__btns-wrap">
+					<a href={ entry.getIn(['data', 'signUpURL']) } className="fp1st__link fp1st__link--sign-up">
+					free sign up
+					</a>
+
+					<button className="fp1st__link fp1st__link--btn js-btn-video">
+					watch video
+					</button>
+
+					<a href={ entry.getIn(['data', 'requestURL']) } className="fp1st__link fp1st__link--request">
+					request a demo
+					</a>
+				</div>
+
+				<div className="fp1st__popup js-popup">
+					<div className="fp1st__iframe-wrap">
+						<button className="fp1st__popup-close js-popup-close"></button>
+						<p>
+						{ entry.getIn(['data', 'watchVideoURL']) }
+						</p>
+
 					</div>
-		  		</div>
-
-		  </div>
+				</div>
+			</div>
+			{/*//FIRST SECTION*/}
+			</div>
 		);
 	}
 }
