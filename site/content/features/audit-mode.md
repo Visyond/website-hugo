@@ -1,6 +1,6 @@
 ---
 title: Audit Mode
-topTitle: Audit And Debug Models With Ease
+topTitle: Audit and Debug Models With Ease
 topSubTitle: "Visyond’s Audit Mode is a powerful tool that will aid you greatly in debugging and auditing your spreadsheets.\r"
 signUpURL: /accounts/signup/
 requestURL: /request
