@@ -45,5 +45,5 @@ CMS.registerPreviewTemplate("casestudies", CaseStudies);
 CMS.registerPreviewTemplate("pricing", Pricing);
 CMS.registerPreviewTemplate("pricings", Pricings);
 CMS.registerPreviewTemplate("analysis", Analysis);
-CMS.registerPreviewTemplate("features-page", Analysis);
+CMS.registerPreviewTemplate("features-page", FeaturesPage);
 CMS.registerWidget("color", ColorControl);
