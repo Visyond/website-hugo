@@ -1,16 +1,49 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<section class="first-section fp1st" style="background-image: url({{ .Params.BgImage }})">
+<div class="fp1st" style="background-image: url({{ .Params.BgImage }})">
 	
-  <h2 class="fp1st__title">
-    {{ .Params.TopTitle }}
-  </h2>
+	{{ with .Params.TopTitle }}
+	<h2 class="fp1st__title">
+		{{ . | markdownify}}
+	</h2>
+	{{ end }}
 
-  <div class="fp1st__under-title">
-    {{ .Params.TopSubTitle }}
-  </div>
-</section>
+	{{ with .Params.TopSubTitle }}
+	<div class="fp1st__under-title">
+		{{ . | markdownify }}
+	</div>
+	{{ end }}
+
+	<div class="fp1st__btns-wrap">
+		{{ if .Params.SignUpURL }}
+		<a href="{{ .Params.SignUpURL }}" class="fp1st__link fp1st__link--sign-up">
+			free sign up
+		</a>
+		{{ end }}
+
+		{{ if .Params.WatchVideoURL }}
+		<button class="fp1st__link fp1st__link--btn js-btn-video">
+			watch video
+		</button>
+		{{ end }}
+
+		{{ if .Params.RequestURL }}
+		<a href="/request" class="fp1st__link fp1st__link--request">  
+			request a demo
+		</a>
+		{{ end }}
+	</div>
+
+	<div class="fp1st__popup js-popup">
+		<div class="fp1st__iframe-wrap">
+			<button class="fp1st__popup-close js-popup-close"></button>
+			<p>
+				{{ .Params.WatchVideoURL }}
+			</p>
+		</div>
+	</div>
+</div>
 <!-- //first section -->
 
 {{ partial "footer" . }}
