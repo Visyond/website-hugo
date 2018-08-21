@@ -26,7 +26,7 @@ infoBlockFirst:
         title: Invite Collaborators To Edit
     image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
-    title: Templating In Visyond
+    title: Templating in Visyond
   - descr: >-
       Once contributors have completed the data entry, you can consolidate
       information with one click - Visyond will create a consolidated worksheet
@@ -38,7 +38,7 @@ infoBlockFirst:
           cell is the summation of all the corresponding cells in the
           Contributors’ worksheets.
         file: /img/Nice Model in Browser v2.png
-        title: Consolidating Data In Visyond
+        title: Consolidating Data in Visyond
     image: /img/Nice Model in Browser v2.png
     title: Consolidating Data In Visyond
 providesTitle: Get started in minutes
