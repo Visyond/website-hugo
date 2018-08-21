@@ -1,6 +1,6 @@
 ---
 title: Interactive Presentations
-topTitle: Create And Securely Share Powerful Interactive Presentations
+topTitle: Create and Securely Share Powerful Interactive Presentations
 topSubTitle: >-
   Visyond’s Interactive Slides are an elegant way to present data from your
   spreadsheets - information is always up to date, as each slide automatically
@@ -41,7 +41,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser.png
         title: Selectively Share Presentations
     image: /img/Share Slide in Browser.png
-    title: Share Only What Collaborators Or Clients Need To See
+    title: Share Only What Collaborators or Clients Need To See
 providesTitle: Get started in minutes
 providesList:
   - text: >-
