@@ -129,7 +129,7 @@ section:
         title: Financial Statements
     title: Reporting
 titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/presentation top 1.jpg
+bgBottom: /img/back2.png
 botRequestURL: /request
 ---
 
