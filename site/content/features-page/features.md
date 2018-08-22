@@ -19,7 +19,8 @@ section:
           versions of the spreadsheet flying around and critical data lost along
           the way.
         title: Knowledge Base
-      - link: /features/selective-sharing/
+      - icon: /img/selective-sharing@2x.png
+        link: /features/selective-sharing/
         text: >-
           Visyond allows you to communicate more efficiently while avoiding data
           leaks. It removes the need for emailing spreadsheets, back-and-forth
