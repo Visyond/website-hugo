@@ -1,6 +1,12 @@
 ---
-title: Spreadsheet Automation
-metaTags: "<meta name=\"description\" content=\"Real-time Analysis and Better Decisions with Spreadsheet Automation - Visualize the impact of your decisions and answer any questions on-the-fly, reduce errors and control what each collaborator can see and interact with\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Automation\">"
+title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation'
+metaTags: >-
+  <meta name="description" content="Spreadsheet Automation Software - Visualize
+  the impact of your decisions and answer any questions on-the-fly, reduce
+  errors and control what each collaborator can see and interact with">
+
+
+  <meta name="keywords" content="Spreadsheet Automation">
 topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
