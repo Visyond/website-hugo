@@ -1,6 +1,6 @@
 ---
 title: 'Spreadsheet Data Tracking, Governance and Compliance Software'
-metaTags: "<meta name=\"description\" content=\"Take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data tracking\">"
+metaTags: "<meta name=\"description\" content=\"Take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data Tracking\">"
 topTitle: |-
   Spreadsheet Data Tracking and Governance 
 
@@ -8,7 +8,7 @@ topTitle: |-
 topSubTitle: >-
   Minimize errors when collaborating on spreadsheets, dramatically reduce the
   risks of unauthorized access, data overriding and avoid breaking the model
-  while playing with the numbers or testing assumptions.
+  while testing assumptions.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
