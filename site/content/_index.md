@@ -1,5 +1,5 @@
 ---
-title: Spreadsheet Automation
+title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation'
 metaTags: >-
   <meta name="description" content="Spreadsheet Automation Software - Visualize
   the impact of your decisions and answer any questions on-the-fly, reduce
