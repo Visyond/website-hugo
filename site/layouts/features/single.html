@@ -57,9 +57,9 @@
           {{ if .files }}
           <div class="info__img-pointer">
             Click to see more
-            <i class="material-icons">
+           <!-- <i class="material-icons">
               subdirectory_arrow_left
-            </i>
+            </i> -->
           </div>
           {{ end }}
           <img src="{{ .image }}" alt="collaborate on spreadsheets" class="ftr-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}">
