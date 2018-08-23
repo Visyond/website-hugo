@@ -1,6 +1,6 @@
 ---
-title: Homepage
-metaTags: visyond
+title: Spreadsheet Automation
+metaTags: "<meta name=\"description\" content=\"Real-time Analysis and Better Decisions with Spreadsheet Automation\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Automation\">"
 topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
