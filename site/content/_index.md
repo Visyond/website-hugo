@@ -6,7 +6,9 @@ metaTags: >-
   errors and control what each collaborator can see and interact with">
 
 
-  <meta name="keywords" content="Spreadsheet Automation Software">
+  <meta name="keywords" content="Spreadsheet Automation Software, Spreadsheet
+  Governance, Spreadsheet Data Analysis, Spreadsheet Data Reporting, Spreadsheet
+  Data Presentation">
 topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
