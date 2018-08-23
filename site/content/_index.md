@@ -9,7 +9,9 @@ metaTags: >-
   <meta name="keywords" content="Spreadsheet Automation Software, Spreadsheet
   Governance, Spreadsheet Data Analysis, Spreadsheet Data Reporting, Spreadsheet
   Data Presentation">
-topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
+topTitle: >-
+  Real-time Analysis and Better Decisions with Spreadsheet and Presentation
+  Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
