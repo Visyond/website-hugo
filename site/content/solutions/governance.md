@@ -1,5 +1,5 @@
 ---
-title: 'Spreadsheet data tracking, governance and compliance software'
+title: 'Spreadsheet Data Tracking, Governance and Compliance Software'
 metaTags: "<meta name=\"description\" content=\"Take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data tracking\">"
 topTitle: |-
   Data Tracking and Spreadsheet Governance 
