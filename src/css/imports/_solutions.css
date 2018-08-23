@@ -388,7 +388,6 @@
   position: relative;
 
   &:before {
-    content: ">>";
     position: absolute;
     right: 10px;
     top: 50%;
