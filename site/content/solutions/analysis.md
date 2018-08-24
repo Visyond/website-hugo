@@ -17,7 +17,7 @@ infoBlockFirst:
       questions. 
 
 
-      Visyond was designed with this goal in mind and allows you to to **easily
+      Visyond was designed with this goal in mind and allows you to **easily
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
     files:
