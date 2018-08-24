@@ -99,6 +99,14 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
+      - {label: "Features Title", name: "featuresTitle", widget: string}
+      - {label: "Features Cards", name: "featuresCards", widget: list, fields: [
+          {label: "Link", name: "link", widget: string},
+          {label: "Icon", name: "icon", widget: image},
+          {label: "Title", name: "title", widget: string},
+          {label: "Text", name: "text", widget: text}
+        ]}
+
       - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
