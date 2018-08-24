@@ -27,8 +27,10 @@ solDropdownCol:
   - solution_dropdown:
       - path: /solutions/banking/
         title: Banking
-      - title: Management Consulting
-      - title: Financial Services
+      - path: /solutions/analysts-and-consultants/
+        title: Management Consulting
+      - path: /solutions/finance/
+        title: Financial Services
       - title: Telecommunication
       - title: Real Estate
       - title: Insurance
