@@ -202,7 +202,7 @@
   text-align: center;
   color: #595959;
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   cursor: pointer;
   -webkit-transition: .1s;
   -o-transition: .1s;
@@ -229,7 +229,6 @@
 
 .fp2nd__card-image {
   max-height: 100%;
-  margin-bottom: 20px;
 }
 
 .fp2nd__card-title {

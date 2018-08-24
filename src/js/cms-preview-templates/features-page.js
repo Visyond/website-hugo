@@ -44,6 +44,10 @@ export default class FeaturesPage extends React.Component {
 			</div>
 			{/*//FIRST SECTION*/}
 
+			{/*SECOND SECTION*/}
+			
+			{/*//SECOND SECTION*/}
+
 			{/*THIRD SECTION*/}
 			<section className="fp3rd">
                 <h3 className="fp3rd__title">
