@@ -387,7 +387,6 @@
   position: relative;
 
   &:before {
-    content: ">>";
     display: block;
     position: absolute;
     right: 10px;

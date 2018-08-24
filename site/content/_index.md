@@ -1,7 +1,17 @@
 ---
-title: Homepage
-metaTags: visyond
-topTitle: Real-time Analysis and Better Decisions with Spreadsheet Automation
+title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation'
+metaTags: >-
+  <meta name="description" content="Spreadsheet Automation Software - Visualize
+  the impact of your decisions and answer any questions on-the-fly, reduce
+  errors and control what each collaborator can see and interact with">
+
+
+  <meta name="keywords" content="Spreadsheet Automation Software, Spreadsheet
+  Governance, Spreadsheet Data Analysis, Spreadsheet Data Reporting, Spreadsheet
+  Data Presentation">
+topTitle: >-
+  Real-time Analysis and Better Decisions with Spreadsheet and Presentation
+  Automation
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request

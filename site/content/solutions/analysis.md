@@ -1,6 +1,6 @@
 ---
 title: Spreadsheet data analysis software - Visyond
-metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data analysis\">"
+metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data Analysis\">"
 topTitle: |-
   An Elegant Solution for Analyzing Spreadsheet Data 
 
@@ -17,7 +17,7 @@ infoBlockFirst:
       questions. 
 
 
-      Visyond was designed with this goal in mind and allows you to to **easily
+      Visyond was designed with this goal in mind and allows you to **easily
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
     files:

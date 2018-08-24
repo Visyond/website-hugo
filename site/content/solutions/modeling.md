@@ -1,10 +1,11 @@
 ---
-title: Modeling
+title: Spreadsheet Modeling and Decision Making Software
+metaTags: "<meta name=\"description\" content=\"Automate Spreadsheet Modeling Tasks and Minimize the Risk of Errors with Visyond's Excel-compatible platform.\">\r\n<meta name=\"keywords\" content=\"Spreadsheet Modeling Software, Financial Modeling Software\">\r\n"
 topTitle: Analyze Models Faster And Make Better Decisions
 topSubTitle: >-
   Visyond is great for modeling professionals, aiding on every step of the
   process by automating routine tasks, minimizing the risk of errors in an
-  intuitive Excel-compatible system.
+  intuitive Excel-compatible platform.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
