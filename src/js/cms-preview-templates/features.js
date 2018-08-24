@@ -83,6 +83,27 @@ export default class Features extends React.Component {
                 </ul>
               </section>*/}
 
+              <div class="ftr-features">
+                <h2 class="ftr-features__title">
+                  { entry.getIn(['data', 'featuresTitle']) }
+                </h2>
+                <div class="ftr-features__cards">
+                {(entry.getIn(['data', 'featuresCards']) || []).map((cards, index) => {return <a href={cards.get('link')} class="ftr-features__card">
+                    <div class="ftr-features__card-image-wrap">
+                      <img src={cards.get('icon')} alt="icon" class="ftr-features__card-image" />
+                    </div>
+                    
+                    <h3 class="ftr-features__card-title">
+                      {cards.get('title')}
+                    </h3>
+
+                    <p class="ftr-features__card-text">
+                      {cards.get('text')}
+                    </p>
+                  </a>})}
+                </div>
+              </div>
+
               <section className="ftr-trusted">
                 <h3 className="ftr-trusted__title">
                   { entry.getIn(['data', 'trustedTitle']) }
