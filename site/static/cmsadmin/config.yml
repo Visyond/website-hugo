@@ -421,7 +421,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page url", name: "url", widget: string}
       - { label: Type, name: type, widget: hidden, default: press }
       - { label: About, name: about, widget: hidden, default: "/press.html" }
-      - { label: "Title", name: title, widget: string}
+      - { label: Top Title, name: topTitle, widget: string }
       - { label: "Background Image", name: bgImage, widget: image}
       - { label: "Press articles", name: "pressarticles", widget: list, fields: [
           { label: "url", name: "url", widget: "string" },
