@@ -99,6 +99,11 @@
     padding: 1.1rem 0;
     cursor: pointer;
   }
+
+  &--features {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 .ftr-top__img {

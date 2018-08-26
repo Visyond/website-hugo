@@ -14,9 +14,10 @@
 }
 
 .case-study-title-wrap  {
-    padding: 55px 0;
-    @media screen and (max-width: 768px) {
-        padding: 30px 0;
+    padding: 80px 10px;
+
+    @media (max-width: 600px) {
+        padding: 40px 10px;
     }
 }
 

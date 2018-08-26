@@ -1,0 +1,41 @@
+{{ partial "head" . }} 
+<div class="press1st" style="background-image: url({{ .Params.bgImage }})">
+    <h1 class="press1st__title">
+        {{ .Params.title }}
+    </h1>
+</div>
+<div class="press2nd">
+    <ul class="press2nd__list">
+        {{ range $el := .Params.pressarticles }}
+        <li class="press2nd__item">
+            <a href="{{ $el.url }}" class="press2nd__link">
+                <div class="press2nd__top">
+                    <span class="press2nd__company-wrap">
+                        <img src="{{ $el.logo }}">
+                    </span>
+                    <div class="press2nd__company-person-wrap">
+                        <span class="press2nd__company-person-img">
+                            <img src="{{ $el.photo }}" alt="">
+                        </span>
+                        <div>
+                            <span class="press2nd__company-person-name">{{ $el.name }}</span>
+                            <span class="press2nd__company-person-company-name">
+                                {{ $el.company }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="press2nd__bottom">
+                    <h3 class="press2nd__title">{{ $el.title }}</h3>
+                    <ul class="press2nd__tag-list">
+                        {{ range $tag := $el.tags }}
+                        <li class="press2nd__tag-item">{{ .tagTitle }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{ partial "footer" . }}
