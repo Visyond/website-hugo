@@ -1,9 +1,14 @@
-{{ partial "head" . }} 
+{{ partial "head" . }}
+
+<!-- first section  -->
 <div class="press1st" style="background-image: url({{ .Params.bgImage }})">
     <h1 class="press1st__title">
         {{ .Params.topTitle }}
     </h1>
 </div>
+<!-- //first section -->
+
+<!-- second section -->
 <div class="press2nd">
     <ul class="press2nd__list">
         {{ range $el := .Params.pressarticles }}
@@ -38,4 +43,6 @@
         {{ end }}
     </ul>
 </div>
+<!-- //second section -->
+
 {{ partial "footer" . }}
