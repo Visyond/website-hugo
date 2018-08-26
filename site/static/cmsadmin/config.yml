@@ -504,8 +504,8 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-  - name: "press"
-    label: "Press"
+  - name: "press-page"
+    label: "Press Page"
     folder: "site/content/press"
     create: true
     fields:
