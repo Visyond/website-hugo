@@ -1,6 +1,6 @@
 ---
 title: Press title
-url: /press
+url: /press/
 bgImage: /img/banner.jpg
 pressarticles:
   - company: Company
