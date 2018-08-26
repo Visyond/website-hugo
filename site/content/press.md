@@ -1,5 +1,5 @@
 ---
-title: Press title
+title: Press
 url: /press/
 bgImage: /img/banner.jpg
 pressarticles:
