@@ -504,9 +504,9 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-- label: "Press"
+- name: "press"
+  label: "Press"
   folder: "site/content/press"
-  name: "press"
   create: true
   fields:
     - {label: "Page title", name: "title", widget: "string", required: false,}
