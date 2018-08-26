@@ -21,12 +21,40 @@ infoBlockFirst:
     image: /img/cloud visyond.png
     link: '#'
     title: Title
-trustedTitle: title
-trustedLogos:
-  - logo: /img/v_elt.png
-  - logo: /img/v_deloitte.png
-  - logo: /img/v_abrt.png
-  - logo: /img/v_ericsson.png
+featuresTitle: Features title
+featuresCards:
+  - icon: /img/Controlled sharing and access.png
+    link: '#'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minus assumenda, eum obcaecati, veniam suscipit doloribus tenetur,
+      explicabo dolore nemo, quis officiis iusto consequatur at. Molestias
+      dignissimos, modi adipisci id.
+    title: features first
+  - icon: /img/Easy to adopt.png
+    link: '#'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minus assumenda, eum obcaecati, veniam suscipit doloribus tenetur,
+      explicabo dolore nemo, quis officiis iusto consequatur at. Molestias
+      dignissimos, modi adipisci id.
+    title: Features Second
+  - icon: /img/Automated model stress-testing.png
+    link: '#'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minus assumenda, eum obcaecati, veniam suscipit doloribus tenetur,
+      explicabo dolore nemo, quis officiis iusto consequatur at. Molestias
+      dignissimos, modi adipisci id.
+    title: Features Third
+  - icon: /img/feature-icons-v1_25.png
+    link: '#'
+    text: >-
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium
+      minus assumenda, eum obcaecati, veniam suscipit doloribus tenetur,
+      explicabo dolore nemo, quis officiis iusto consequatur at. Molestias
+      dignissimos, modi adipisci id.
+    title: Features fourth
 providesTitle: title
 providesList:
   - text: Description
