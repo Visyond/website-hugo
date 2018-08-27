@@ -66,6 +66,11 @@
         color: #0585ff;
     }
 
+    &--active {
+        background: #fff;
+        color: #0585ff;    
+    }
+
 
     @media screen and (max-width: 1201px) {
         padding: 0;

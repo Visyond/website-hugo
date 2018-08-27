@@ -13,6 +13,7 @@ $(function () {
         link.on('click', function (e) {
             e.preventDefault();
             let href = $(this).attr('href');
+            $(this).addClass('nav__link--active');
             $(href).toggleClass('dropdown-toggle--active');
         });
 
@@ -23,6 +24,7 @@ $(function () {
                 if (!link.is(e.target) && link.has(e.target).length === 0) {
                     let href = link.attr('href');
                     $(href).removeClass('dropdown-toggle--active');
+                    link.removeClass('nav__link--active')
                 }
             }
         })
