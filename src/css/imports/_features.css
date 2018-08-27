@@ -62,6 +62,7 @@
   border: none;
   border-radius: 2rem;
   text-align: center;
+  font-weight: 400;
 
   &:first-child {
     margin-right: 2rem;
@@ -267,7 +268,7 @@
   left: 0;
   top: -40px;
   color: #0086ff;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 20px;
 }
 
@@ -370,7 +371,7 @@
 .ftr-info__block-title {
   color: #0086ff;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 1rem;
   width: 100%;
 }
@@ -398,8 +399,9 @@
   display: inline-block;
 }
 
-.ftr-info__block-descr span {
-  font-weight: 700;
+.ftr-info__block-descr span,
+.ftr-info__block-descr strong {
+  font-weight: 600;
 }
 
 .ftr-info__link {
@@ -580,7 +582,7 @@
 
 .ftr-provides__title {
   color: #555;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 3rem;
   margin-bottom: 4rem;
 
@@ -604,7 +606,6 @@
   margin-bottom: 3rem;
   padding: 0;
   color: #595959;
-  font-weight: 400;
   font-size: 1.25rem;
   position: relative;
 
@@ -636,8 +637,9 @@
   }
 }
 
-.ftr-provides__item span {
-  font-weight: 700;
+.ftr-provides__item span,
+.ftr-provides__item strong {
+  font-weight: 600;
 }
 
 
@@ -660,7 +662,7 @@
 .ftr-bottom__title {
   color: #fff;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   width: 100%;
   max-width: 800px;

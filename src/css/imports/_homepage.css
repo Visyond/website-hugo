@@ -9,13 +9,14 @@
   align-items: center;
   text-align: center;
   padding: 40px 10px 0;
+  font-weight: 400;
 }
 
 .home-top__title {
   font-size: 2.375rem;
-  font-weight: 400;
   color: #50546d;
   margin-bottom: 1rem;
+  font-weight: 400;
 
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
@@ -28,7 +29,6 @@
 
 .home-top__under-title {
   font-size: 1.5rem;
-  font-weight: 400;
   color: #595959;
   max-width: 950px;
   margin-bottom: 2rem;
@@ -71,6 +71,7 @@
   -o-transition: .1s;
   transition: .1s;
   border: 1px solid #0086ff;
+  font-weight: 400;
 
   & i {
     font-size: 1.6rem;
@@ -341,7 +342,7 @@
 .home-info__block-title {
   color: #0086ff;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 1rem;
   width: 100%;
 }
@@ -358,19 +359,29 @@
   padding: 0;
 }
 
+.home-info__block-descr li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
 .home-info__block-descr li:before {
   content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  transform: rotate(-130deg);
   margin-right: 10px;
   margin-bottom: 3px;
   width: 8px;
-  height: 8px;
-  border-radius: 50%;
+  height: 2px;
   background: #00b5b8;
   display: inline-block;
 }
 
-.home-info__block-descr span {
-  font-weight: 700;
+.home-info__block-descr span,
+.home-info__block-descr strong {
+  font-weight: 600;
 }
 
 .home-info__link {
@@ -412,7 +423,7 @@
 }
 
 .home-capabilities__title {
-  font-weight: 400;
+  font-weight: 300;
   color: #555;
   font-size: 3rem;
   text-align: center;
@@ -503,7 +514,6 @@
 }
 
 .home-capabilities__descr {
-  font-weight: 400;
   color: #595959;
   font-size: 1.25rem;
   text-align: center;
@@ -518,8 +528,11 @@
 }
 
 .home-capabilities__descr span {
-  font-size: 1.9375rem;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.home-capabilities__descr strong {
+  font-weight: 600;
 }
 
 
@@ -585,7 +598,7 @@
 
 .home-provides__title {
   color: #555;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 3rem;
   margin-bottom: 4rem;
 
@@ -609,7 +622,6 @@
   margin-bottom: 3rem;
   padding: 0;
   color: #595959;
-  font-weight: 400;
   font-size: 1.25rem;
   position: relative;
 
@@ -642,7 +654,11 @@
 }
 
 .home-provides__item span {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.home-provides__item strong {
+  font-weight: 600;
 }
 
 
@@ -665,7 +681,7 @@
 .home-bottom__title {
   color: #fff;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
   width: 100%;
   max-width: 800px;

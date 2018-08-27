@@ -1,5 +1,5 @@
 .casestudy-new {
-    padding: 75px 0;
+    padding: 50px 0;
     background: #fff;
 	width:96%;
 	max-width: 1600px;
@@ -10,12 +10,17 @@
     }
 }
 
-.landing-title--casestudy-new {
+.casestudy-new__top-title {
     text-align: center;
+    font-weight: 300;
+    color: rgba(81,84,107,.8);
+    font-size: 29px;
+    line-height: 42px;
+    margin: 0;
 }
 
 .casestudy-new__list {
-    margin: 50px 0 0 0;
+    margin: 50px 0 30px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -59,4 +64,20 @@
     color: #52556c;
     line-height: 25px;
     margin-top: 30px;
+    font-weight: 300;
+}
+
+.casestudy-new__btn {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 1.375rem;
+    padding: 1rem 0;
+    width: 300px;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    text-align: center;
+    font-weight: 400;
+    background: #0086ff;
 }

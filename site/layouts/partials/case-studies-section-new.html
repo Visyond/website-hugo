@@ -1,7 +1,7 @@
 {{ with .Site.GetPage "section" "case-studies-section-new" }}
 <section class="casestudy-new" id="casestudies">
 
-	<h3 class="landing-title landing-title--casestudy-new">{{ .Params.caseTitle }}</h3>
+	<h3 class="casestudy-new__top-title">{{ .Params.caseTitle }}</h3>
 
 	<ul class="casestudy-new__list">
 		{{ range $el := .Params.Case }}
@@ -13,5 +13,7 @@
 		</li>
 		{{ end }}
 	</ul>
+
+	<a href="/casestudy" class="casestudy-new__btn">See All Case Studies</a>
 </section>
 {{ end }}

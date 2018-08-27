@@ -11,7 +11,7 @@
 
 .testimonials__title {
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   color: #555;
   font-size: 3rem;
 
@@ -61,7 +61,6 @@
 }
 
 .testimonials__img-descr {
-  font-weight: 400;
   font-style: italic;
   color: #767575;
   font-size: 1.3125rem;
@@ -92,7 +91,6 @@
 
 .testimonials__img-author {
   color: #595959;
-  font-weight: 400;
   font-size: 1.0625rem;
   margin-bottom: 1.5rem;
 }
