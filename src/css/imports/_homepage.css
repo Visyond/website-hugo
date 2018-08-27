@@ -17,6 +17,7 @@
   color: #50546d;
   margin-bottom: 1rem;
   font-weight: 400;
+  width: 100%;
 
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
@@ -119,6 +120,7 @@
 .home-top__img {
   width: 100%;
   max-width: 1400px;
+  flex-shrink: 0;
 }
 
 .home-top__popup {
