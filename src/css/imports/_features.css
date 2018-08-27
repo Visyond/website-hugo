@@ -13,6 +13,7 @@
 }
 
 .ftr-top__title {
+  width: 100%;
   font-size: 2.375rem;
   font-weight: 400;
   color: #fff;
@@ -30,6 +31,7 @@
 
 .ftr-top__under-title {
   font-size: 1.25rem;
+  width: 100%;
   font-weight: 400;
   color: #fff;
   max-width: 850px;

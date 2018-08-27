@@ -13,6 +13,7 @@
 }
 
 .sol-top__title {
+  width: 100%;
   font-size: 2.375rem;
   font-weight: 400;
   color: #fff;
@@ -29,6 +30,7 @@
 }
 
 .sol-top__under-title {
+  width: 100%;
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;
@@ -465,6 +467,7 @@
   -ms-align-items: center;
   align-items: center;
   max-width: 290px;
+  width: 100%;
   padding: 0;
   margin: 0;
 
@@ -519,6 +522,7 @@
   color: #595959;
   font-size: 1.25rem;
   text-align: center;
+  width: 100%;
 
   @media screen and (max-width: 800px) {
     text-align: left;
