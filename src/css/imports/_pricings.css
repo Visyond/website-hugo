@@ -182,10 +182,6 @@
 
 .prs2nd__markdown a {
   color: #0585ff;
-
-  &:visited {
-    color: #609;
-  }
 }
 
 .prs2nd__btn-wrap {
