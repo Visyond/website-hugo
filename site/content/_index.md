@@ -20,53 +20,22 @@ topSubTitle: >-
   reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond Inforgraphics  NEW v23 1.5x supersample.png
 infoBlockFirst:
-  - descr: >-
-      No back-and-forth emails. **No data chaos.** Work together on
-      spreadsheets, communicate and attach relevant documentation directly in
-      Visyond, control versions and **enjoy secure _selective sharing_** - allow
-      access to only certain cells, worksheets, charts or linked reports and
-      slides and **expose only what each person has to see or interact with**!
+  - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\r\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
-    title: Transparent and Controlled Collaboration
-  - descr: >-
-      No overriding data or formulas. No risk of breaking the model and
-      calculations.
-
-
-      **Granular permission control** will safeguard your sensitive information
-      and give you peace of mind: **avoid data leakages, minimize errors, and
-      track all inputs**, data, assumptions and analysis.
+    title: Collaborate and Build With Simplicity & Peace of Mind
+  - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     image: /img/v_clip_group_3.png
     link: /solutions/governance
-    title: Data Tracking and Spreadsheet Governance
-  - descr: >-
-      Empower collaborators and decision makers to **answer any questions
-      on-the-fly** and **compare scenarios easily**, without calling consultants
-      or “model gurus”. 
-
-
-      Visyond removes bottlenecks and everybody will get valuable insights in a
-      few clicks instead of days or weeks. 
-
-
-      Findings and automatic visualizations can be exported to _interactive
-      dashboards and apps_, and shared only with those who needs to see them.
+    title: Track Everything and Retrieve Information Fast
+  - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
-    title: Collaborative Analysis for Decision Making
-  - descr: >-
-      Create data presentations, visualizations and reports in real time, and
-      share them via **interactive dashboards & apps** powered by Visyond’s
-      spreadsheet calculation engine without writing a line of code. 
-
-
-      **Let everybody you authorize “play” with the assumptions you selectively
-      make available to them**: no risk of exposing sensitive information,
-      accidentally corrupting data or showing unnecessary details.
+    title: Instantly Understand your Spreadsheet Data
+  - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
-    title: Interactive & Secure On-The-Fly Reporting and Presentations
+    title: Report And Present Data With Impact
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
