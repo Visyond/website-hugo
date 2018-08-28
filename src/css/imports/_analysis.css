@@ -108,6 +108,8 @@
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    -ms-align-items: center;
+    align-items: center;
 
     @media (max-width: 800px) {
         -webkit-flex-direction: column;
@@ -147,7 +149,7 @@
     @media screen and (max-width: 800px) {
         width: 100%;
         left: 0;
-        padding-left: 0;
+        padding-left: 15px;
         padding-bottom: 50px;
     }
 }
