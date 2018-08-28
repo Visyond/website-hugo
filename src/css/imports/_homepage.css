@@ -381,7 +381,7 @@
   display: inline-block;
 }
 
-.ht-info__block-descr li:after {
+.home-info__block-descr li:after {
   content: "";
   position: absolute;
   top: 8px;
