@@ -67,11 +67,14 @@
     margin: 0;
     padding: 0;
     color: #767575;
-    font-weight: 400;
     font-size: 1.25rem;
     text-align: center;
     width: 100%;
     max-width: 800px;
+
+    & strong {
+        font-weight: 600;
+    }
 }
 
 
@@ -156,7 +159,7 @@
 
 .an3rd__title {
     color: #0086ff;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 2.5rem;
     line-height: 1;
     margin-bottom: 5rem;
@@ -183,7 +186,6 @@
     margin-bottom: 3rem;
     padding: 0;
     color: #595959;
-    font-weight: 400;
     font-size: 1.25rem;
     position: relative;
 
@@ -215,8 +217,9 @@
     }
 }
 
-.an3rd__item span {
-    font-weight: 700;
+.an3rd__item span,
+.an3rd__item strong {
+    font-weight: 600;
 }
 
 .an3rd__img-wrap {
@@ -273,7 +276,7 @@
 }
 
 .an5th__title {
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
     margin-bottom: 1rem;
     text-shadow: 0 5px 5px rgba(0,0,0,.3);
@@ -294,7 +297,6 @@
     margin: 0;
     margin-bottom: 1.5rem;
     padding: 0;
-    font-weight: 400;
     color: #fff;
     margin-bottom: 1rem;
     text-shadow: 0 5px 5px rgba(0,0,0,.3);
@@ -385,7 +387,7 @@
 
 .an6th__title {
     color: #555;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 3rem;
     margin-bottom: 4rem;
 
@@ -409,7 +411,6 @@
     margin-bottom: 3rem;
     padding: 0;
     color: #595959;
-    font-weight: 400;
     font-size: 1.25rem;
     position: relative;
 
@@ -441,8 +442,9 @@
     }
 }
 
-.an6th__item span {
-    font-weight: 700;
+.an6th__item span,
+.an6th__item strong {
+    font-weight: 600;
 }
 
 
@@ -471,7 +473,7 @@
 .an7th__title {
     color: #fff;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     width: 100%;
     max-width: 800px;
