@@ -11,58 +11,39 @@ leftCard:
   markdown: |-
     **Recommended features (pick any):**
 
-    [Audit Mode](/features/audit-mode/)
-
-    [Charts](/features/charts/)
-
-    [Scenario Comparison](/features/scenarios/)
-
-    [Impact Analysis (Tornado)](/features/tornado/)
-
-    [Sensitivity Analysis](/features/sensitivity/)
-
-    [Simulations](/features/simulations/)
-
-    [Dependencies Analysis](/features/dependency-analysis/)
-
-    [Interactive Presentations](/features/interactive-presentations/)
-
-    [Apps & Calculators](/features/calculators/)
-
-    [Financial Statements](/features/financial-statements/)
+    * [Audit Mode](/features/audit-mode/)
+    * [Charts](/features/charts/)
+    * [Scenario Comparison](/features/scenarios/)
+    * [Impact Analysis (Tornado)](/features/tornado/)
+    * [Sensitivity Analysis](/features/sensitivity/)
+    * [Simulations](/features/simulations/)
+    * [Dependencies Analysis](/features/dependency-analysis/)
+    * [Interactive Presentations](/features/interactive-presentations/)
+    * [Apps & Calculators](/features/calculators/)
+    * [Financial Statements](/features/financial-statements/)
   subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
   title: Individual
 middleCard:
   markdown: |-
     **Recommended features (pick any):**
 
-    Custom Workflow
-
-    Custom Integrations
-
-    Custom Look & Feel
-
-    On-Premise Installation
-
-    Dedicated Account Manager
-
-    Onboarding Program
-
-    Training & Workshops
+    * Custom Workflow
+    * Custom Integrations
+    * Custom Look & Feel
+    * On-Premise Installation
+    * Dedicated Account Manager
+    * Onboarding Program
+    * Training & Workshops
   subTitle: The complete spreadsheet platform
   title: Enterprise
 rightCard:
   markdown: |-
     **Recommended features (pick any):**
 
-
-    [Selective Sharing](/features/selective-sharing/)
-
-    [Single Source of Truth](/features/knowledge-base/)
-
-    [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
-
-    Permissions
+    * [Selective Sharing](/features/selective-sharing/)
+    * [Single Source of Truth](/features/knowledge-base/)
+    * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
+    * Permissions
   subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
   title: Team
 cardsLink: /request
