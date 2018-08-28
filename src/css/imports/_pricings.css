@@ -161,14 +161,15 @@
 
 .prs2nd__markdown li {
     position: relative;
-    text-indent: 10px;
+    padding-left: 20px;
     font-weight: 300;
     color: #5f6976;
+
     &:not(:last-child) {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 
-    &:after {
+    /*&:after {
         content: '';
         background: #00B5B8;
         width: 6px;
@@ -177,6 +178,34 @@
         position: absolute;
         left: 0;
         top: 9px;
+    }*/
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 0;
+      transform: rotate(-130deg);
+      margin-right: 10px;
+      margin-bottom: 3px;
+      width: 8px;
+      height: 2px;
+      background: #00b5b8;
+      display: inline-block;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      transform: rotate(-130deg);
+      margin-right: 10px;
+      margin-bottom: 3px;
+      width: 2px;
+      height: 12px;
+      background: #00b5b8;
+      display: inline-block;
     }
 }
 
