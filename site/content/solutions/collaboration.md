@@ -48,7 +48,14 @@ infoBlockFirst:
       to effectively work together without the risk of overriding data or
       calculations, worrying about tracking down changes in the endless
       back-and-forth emails containing different versions of the same document.
-    image: /img/v_clip_group_3.png
+    files:
+      - descr: >-
+          Combine as many assumptions as you like into one or multiple scenarios
+          that you can switch on-the-fly and immediately see how different
+          assumptions affect the outcome.
+        file: /img/Scenario Window in Browser.png
+        title: COMBINE ASSUMPTIONS INTO SCENARIOS
+    image: /img/Scenario Window in Browser.png
     link: /features/data-input-and-consolidation/
     title: Structured Data Gathering & Consolidation
   - descr: >-
@@ -56,7 +63,13 @@ infoBlockFirst:
       information** such as supporting files, discussions, comments and approval
       status allowing you to have a knowledge management system integrated in
       your spreadsheet.
-    image: /img/v_clip_group_1.png
+    files:
+      - descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/Attachments and Comments in Browser v2.png
+        title: NEVER LOSE IMPORTANT INFORMATION
+    image: /img/Attachments and Comments in Browser v2.png
     link: /features/knowledge-base/
     title: Knowledge Management
   - descr: >-
@@ -64,7 +77,14 @@ infoBlockFirst:
       you who changed what and when. You can always go back to previous versions
       of the spreadsheet and compare them on the fly, or **revert any changes
       individually**, without rolling back the entire document.
-    image: /img/v_clip_group_2.png
+    files:
+      - descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/Cases in Browser v2.png
+        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
+    image: /img/Cases in Browser v2.png
     link: /features/knowledge-base/
     title: Input Tracking and Version Control
   - descr: >-
@@ -73,7 +93,14 @@ infoBlockFirst:
       **import and export functionality that can handle even the most complex
       spreadsheets** and let you easily export slides & dashboards you’ve
       created in Visyond.
-    image: /img/package-27770_1280 even smaller.png
+    files:
+      - descr: Upload your model and continue working on it in Visyond.
+        file: /img/Import Spreadsheet.png
+        title: IMPORT EXCEL FILES
+      - descr: 'Export presentations, charts, reports to PowerPoint and other formats.'
+        file: /img/Export Slides In Browser.png
+        title: EXPORT PRESENTATIONS
+    image: /img/Import Spreadsheet.png
     link: /features/import-and-export/
     title: Import and Export Freely
 capabilitiesList:
