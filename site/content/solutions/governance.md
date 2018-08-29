@@ -23,7 +23,6 @@ infoBlockFirst:
       identification with Visyond’s **Audit Mode**.
     files:
       - file: /img/Nice Model in Browser v2.png
-      - file: /img/Nice Model in Browser v2.png
     image: /img/Nice Model thumbnail v2.png
     link: /features/audit-mode/
     title: Readable and beautiful models
