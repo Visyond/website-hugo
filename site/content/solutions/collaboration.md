@@ -1,5 +1,5 @@
 ---
-title: Secure and transparent spreadsheet collaboration software
+title: Secure and Transparent Spreadsheet Collaboration Software
 metaTags: "<meta name=\"description\" content=\"Visyond’s patent-pending secure selective sharing & collaboration software for teams to streamline and track spreadsheet data.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet collaboration software\">"
 topTitle: |-
   Secure, Transparent and Simple 
