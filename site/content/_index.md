@@ -1,14 +1,14 @@
 ---
 title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation'
 metaTags: >-
-  <meta name="description" content="Spreadsheet Automation Software - Visualize
-  the impact of your decisions and answer any questions on-the-fly, reduce
-  errors and control what each collaborator can see and interact with">
+  <meta name="description" content="Visyond’s cloud-based spreadsheet management
+  and modeling software powered by machine learning, offers an intelligent
+  approach to managing, collaborating and securing your business spreadsheets.">
 
 
-  <meta name="keywords" content="Spreadsheet Automation Software, Spreadsheet
-  Governance, Spreadsheet Data Analysis, Spreadsheet Data Reporting, Spreadsheet
-  Data Presentation">
+  <meta name="keywords" content="Spreadsheet Software, Spreadsheet Automation
+  Software, Spreadsheet Governance, Spreadsheet Data Analysis, Spreadsheet Data
+  Reporting, Spreadsheet Data Presentation">
 topTitle: >-
   Real-time Analysis and Better Decisions with Spreadsheet and Presentation
   Automation
