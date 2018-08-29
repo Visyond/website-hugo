@@ -62,10 +62,45 @@ infoBlockFirst:
     link: /solutions/governance
     title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
+    files:
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        title: COMPARE SCENARIOS IN REAL TIME
+      - descr: >-
+          With Visyond, you can run Impact (Tornado) Analysis without long
+          manual setups and quickly see how sensitive your data set is to
+          changes.
+        file: /img/Tornado in Browser v4.png
+        title: Stress-Test Your Data with Tornado Analysis
+      - descr: >-
+          Visyond’s Sensitivity Analysis lets you identify critical variables
+          easily so you can focus on what’s important to save time and effort.
+        file: /img/Sensitivity two-way v2.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
     title: Instantly Understand your Spreadsheet Data
   - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS & APPS
+      - descr: >-
+          Visyond’s financial statements greatly reduce the risk of errors and
+          time required to prepare Balance Sheets, Income and Cash Flow
+          Statements, ratios and KPIs, etc. by automating the build process and
+          removing the need for manual checks and audits of the calculations.
+        file: /img/Financial Statements in Browser.png
+        title: AUTO-GENERATED FINANCIAL STATEMENTS
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
     title: Report And Present Data With Impact
