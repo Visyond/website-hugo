@@ -8,7 +8,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/data input and consolidation 2.png
+bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
       Visyond makes data gathering & consolidation easier by helping you avoid
