@@ -10,7 +10,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
       With Visyond you can eliminate dependency on the model creator by testing
