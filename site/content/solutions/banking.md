@@ -154,12 +154,12 @@ solTitle: ''
 solArticle: []
 providesTitle: Why Visyond?
 providesList:
-  - text: '**Less Risk** - more control over critical information'
+  - text: '**Less Risk** - More control over critical information'
   - text: >-
       **Fewer errors and higher productivity** - Automated and standardized
       workflows
   - text: >-
-      **Better Customer Experience** - Quicker turn-around and Modern
+      **Better Customer Experience** - Quicker turn-around and modern
       collaborative interface
   - text: >-
       **Lower switching costs & quick time-to-value** - Ready out of the box,
