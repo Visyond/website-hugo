@@ -22,7 +22,11 @@ infoBlockFirst:
       and debugging your model whilst allowing fast and easy error
       identification with Visyond’s **Audit Mode**.
     files:
-      - file: /img/Nice Model in Browser v2.png
+      - descr: >-
+          Visyond’s Audit Mode is a powerful tool that will aid you greatly in
+          debugging and auditing your spreadsheets.
+        file: /img/Nice Model in Browser v2.png
+        title: Audit Mode
     image: /img/Nice Model thumbnail v2.png
     link: /features/audit-mode/
     title: Readable and beautiful models
@@ -36,7 +40,10 @@ infoBlockFirst:
       impact other indicators? Visyond’s **Dependences and Impact analysis**
       will help you do that in just a few clicks.
     files:
-      - descr: Quickly identify relationships between cells!
+      - descr: >-
+          Dependency analysis gives you a bird’s eye view of your model in the
+          same way Google Maps does of a neighborhood. It’s a powerful auditing
+          tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
         title: Dependency Analysis
     image: /img/Dependency v2 thumbnail.png
@@ -50,8 +57,14 @@ infoBlockFirst:
       reducing the time it takes to review all the possibilities and make smart
       business decisions.
     files:
-      - file: /img/Scenarios chart in Browser v4.png
-    image: /img/Scenarios chart thumbnail v3.png
+      - descr: >-
+          With Visyond’s Scenario Comparison you can quickly compare different
+          assumptions in a few clicks without depending on experts.
+
+          FREE SIGN UP
+        file: /img/Scenarios chart in Browser v4.png
+        title: Compare Scenarios In Real Time
+    image: /img/Scenarios chart in Browser v4.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Hassle-free number testing environment
   - descr: >-
@@ -62,7 +75,12 @@ infoBlockFirst:
       compromising or changing the calculations and underlying logic of the
       model.
     files:
-      - file: /img/Interactive Slides in Browser v3.png
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
     image: /img/Interactive Slides thumbnail v3.png
     link: /features/interactive-presentations/
     title: Secure sandbox for stress-testing
