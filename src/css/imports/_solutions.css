@@ -377,12 +377,13 @@
   display: inline-block;
 }
 
-.sol-info__block-descr span {
+.sol-info__block-descr span,
+.sol-info__block-descr strong {
   font-weight: 600;
 }
 
-.sol-info__block-descr strong {
-  font-weight: 600;
+.sol-info__block-descr a {
+  color: #0086ff;
 }
 
 .sol-info__link {
