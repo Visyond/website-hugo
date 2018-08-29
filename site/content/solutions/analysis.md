@@ -1,5 +1,5 @@
 ---
-title: Spreadsheet data analysis software - Visyond
+title: Spreadsheet Data Analysis Software - Visyond
 metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data Analysis\">"
 topTitle: |-
   An Elegant Solution for Analyzing Spreadsheet Data 
@@ -21,8 +21,12 @@ infoBlockFirst:
       measure, compare and visualize the impact of multiple coexisting inputs
       and scenarios from different stakeholders**.
     files:
-      - file: /img/Scenarios chart in Browser v4.png
-    image: /img/Scenarios chart thumbnail v3.png
+      - descr: >-
+          With Visyond’s Scenario Comparison you can quickly compare different
+          assumptions in a few clicks without depending on experts.
+        file: /img/Scenarios chart in Browser v4.png
+        title: Compare Scenarios In Real Time
+    image: /img/Scenarios chart in Browser v4.png
     link: /features/scenarios/
     title: Fast and Simple Scenario Comparison
   - descr: >-
@@ -35,8 +39,13 @@ infoBlockFirst:
       Tornado analysis will tell you **how much a selected output is sensitive
       to fixed changes in driver cells**.
     files:
-      - file: /img/Tornado in Browser v4.png
-    image: /img/Tornado chart thumbnail v4.png
+      - descr: >-
+          With Visyond, you can run Impact (Tornado) Analysis without long
+          manual setups and quickly see how sensitive your data set is to
+          changes.
+        file: /img/Tornado in Browser v4.png
+        title: Stress-Test Your Data
+    image: /img/Tornado in Browser v4.png
     link: /features/tornado/
     title: Tornado Analysis Without Whirlwind of Stress
   - descr: >-
@@ -50,8 +59,15 @@ infoBlockFirst:
       outcome**, how different indicators interact & affect each other, and
       uncover errors in your models.
     files:
-      - file: /img/Sensitivity in Browser v4.png
-    image: /img/Sensitivity thumbnail v4.png
+      - descr: >-
+          With just a few clicks Visyond allows you to run Sensitivity analysis
+          without long manual setups.
+        file: /img/Sensitivity two-way v2.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: Discover relationships between data easier and faster with Visyond.
+        file: /img/Sensitivity in Browser v4.png
+        title: Identify Relationships Between Data Easier
+    image: /img/Sensitivity two-way v2.png
     link: /features/sensitivity/
     title: Sensitivity Analysis That Makes Sense
   - descr: >-
@@ -68,10 +84,25 @@ infoBlockFirst:
       The dashboards and slides can be securely shared with other people without
       exposing raw data.
     files:
-      - file: /img/Interactive Slides in Browser v3.png
-    image: /img/Interactive Slides thumbnail v3.png
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS
+    image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
     title: Secure Interactive Dashboards for Decision Making
+  - descr: "Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output. With Visyond you can easily run Simulations without long manual setups.\r"
+    files:
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+    image: /img/Monte Carlo Simulation v3.png
+    link: /features/simulations/
+    title: Powerful Forecasting Tool
 capabilitiesList:
   - image: /img/v_icon.png
     text: Work as a team and greatly speed up analytical tasks
