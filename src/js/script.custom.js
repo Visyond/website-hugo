@@ -548,6 +548,6 @@ $(function () {
       }
      }
 
-     addTargetBlank('.prs2nd__list');
+     addTargetBlank('.target-blank');
 
 });
