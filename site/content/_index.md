@@ -52,7 +52,7 @@ infoBlockFirst:
     title: Collaborate and Build With Simplicity & Peace of Mind
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
-      - descr: Easily export the relationships between the cells
+      - descr: Easily explore the relationships between the cells.
         file: /img/Dependency in Browser v2.png
         title: Identify dependencies
       - descr: Easily traverse formulas and visualize error root causes.
