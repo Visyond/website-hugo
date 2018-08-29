@@ -93,6 +93,16 @@ infoBlockFirst:
     image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
     title: Secure Interactive Dashboards for Decision Making
+  - descr: "Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output. With Visyond you can easily run Simulations without long manual setups.\r"
+    files:
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+    image: /img/Monte Carlo Simulation v3.png
+    link: /features/simulations/
+    title: Powerful Forecasting Tool
 capabilitiesList:
   - image: /img/v_icon.png
     text: Work as a team and greatly speed up analytical tasks
