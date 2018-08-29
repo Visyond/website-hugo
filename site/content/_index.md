@@ -66,6 +66,7 @@ infoBlockFirst:
       - descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
+        file: /img/Scenarios chart in Browser v4.png
         title: COMPARE SCENARIOS IN REAL TIME
       - descr: >-
           With Visyond, you can run Impact (Tornado) Analysis without long
