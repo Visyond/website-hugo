@@ -400,6 +400,10 @@
   font-weight: 600;
 }
 
+.home-info__block-descr a {
+  color: #0086ff;
+}
+
 .home-info__link {
   color: #0086ff;
   /*background: #f2f3f7;*/

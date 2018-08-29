@@ -406,6 +406,10 @@
   font-weight: 600;
 }
 
+.ftr-info__block-descr a {
+  color: #0086ff;
+}
+
 .ftr-info__link {
   color: #0086ff;
   /*background: #f2f3f7;*/
