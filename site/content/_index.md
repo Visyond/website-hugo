@@ -87,6 +87,20 @@ infoBlockFirst:
     link: /solutions/analysis
     title: Instantly Understand your Spreadsheet Data
   - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
+    files:
+      - descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v3.png
+        title: INTERACTIVE PRESENTATIONS & APPS
+      - descr: >-
+          Visyond’s financial statements greatly reduce the risk of errors and
+          time required to prepare Balance Sheets, Income and Cash Flow
+          Statements, ratios and KPIs, etc. by automating the build process and
+          removing the need for manual checks and audits of the calculations.
+        file: /img/Financial Statements in Browser.png
+        title: AUTO-GENERATED FINANCIAL STATEMENTS
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
     title: Report And Present Data With Impact
