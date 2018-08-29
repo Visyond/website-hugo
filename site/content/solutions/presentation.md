@@ -39,7 +39,7 @@ infoBlockFirst:
       unmaintainable macro.
     files:
       - file: /img/Interactive Slides in Browser v3.png
-    image: /img/Interactive Slides thumbnail v3.png
+    image: /img/Interactive Slides in Browser v3.png
     link: /features/calculators/
     title: Apps and Calculators Without Programming
   - descr: >-
