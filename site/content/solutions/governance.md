@@ -27,7 +27,7 @@ infoBlockFirst:
           debugging and auditing your spreadsheets.
         file: /img/Nice Model in Browser v2.png
         title: Audit Mode
-    image: /img/Nice Model thumbnail v2.png
+    image: /img/Nice Model in Browser v2.png
     link: /features/audit-mode/
     title: Readable and beautiful models
   - descr: >-
@@ -46,7 +46,7 @@ infoBlockFirst:
           tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
         title: Dependency Analysis
-    image: /img/Dependency v2 thumbnail.png
+    image: /img/Dependency in Browser v2.png
     link: /features/dependency-analysis/
     title: Error root cause & dependencies tracking
   - descr: >-
@@ -81,7 +81,7 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v3.png
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides thumbnail v3.png
+    image: /img/Interactive Slides in Browser v3.png
     link: /features/interactive-presentations/
     title: Secure sandbox for stress-testing
 capabilitiesList:
