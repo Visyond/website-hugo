@@ -62,6 +62,27 @@ infoBlockFirst:
     link: /solutions/governance
     title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
+    files:
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        title: COMPARE SCENARIOS IN REAL TIME
+      - descr: >-
+          With Visyond, you can run Impact (Tornado) Analysis without long
+          manual setups and quickly see how sensitive your data set is to
+          changes.
+        file: /img/Tornado in Browser v4.png
+        title: Stress-Test Your Data with Tornado Analysis
+      - descr: >-
+          Visyond’s Sensitivity Analysis lets you identify critical variables
+          easily so you can focus on what’s important to save time and effort.
+        file: /img/Sensitivity two-way v2.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
     title: Instantly Understand your Spreadsheet Data
