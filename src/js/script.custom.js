@@ -136,11 +136,13 @@ $(function () {
      //=====COPYRIGHT=====
 
      function addCopyright() {
-       const copyright = document.querySelector('.js-copyright');
+       const copyright = document.querySelectorAll('.js-copyright');
        const date = new Date();
 
        if(copyright) {
-         copyright.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+        for(const item of copyright) {
+         item.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+        }
        }
      }
 
