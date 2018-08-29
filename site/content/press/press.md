@@ -12,6 +12,10 @@ pressarticles:
     title: 'Innovation in a business: Is it getting harder or easier to innovate?'
     url: >-
       http://www.growthbusiness.co.uk/innovation-in-a-business-is-it-getting-harder-or-easier-to-innovate-2554903/
+  - logo: /img/NatWest Logo.png
+    title: 'Leadership lessons: how to be a mentor'
+    url: >-
+      http://natwest.contentlive.co.uk/content/leadership-lessons-how-to-be-a-mentor
   - company: ''
     logo: /img/ITProPortal-logo.png
     name: ''
