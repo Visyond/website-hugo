@@ -11,7 +11,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/decision makers 2.png
 infoBlockFirst:
   - descr: >-
       No back-and-forth emails. _No data chaos._ 
