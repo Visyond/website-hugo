@@ -21,6 +21,32 @@ infoBlockFirst:
         title: Simplify Models
     image: /img/Tornado in Browser v4.png
     title: Stress-Test Your Data
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/scenarios@2x.png
+    link: /features/scenarios/
+    text: >-
+      Compare different assumptions in a few clicks without depending on
+      experts.
+    title: Scenario Comparison
+  - icon: /img/sensitivity@2x.png
+    link: /features/sensitivity/
+    text: >-
+      Instantly understand relationships between inputs and outputs of your
+      spreadsheet.
+    title: Sensitivity
+  - icon: /img/simulations@2x.png
+    link: /features/simulations/
+    text: >-
+      Easily run Monte Carlo simulations that replace the inputs with random
+      variables in a specified range and show how they affects the output.
+    title: Simulations
+  - icon: /img/dependency@2x.png
+    link: /features/dependency-analysis/
+    text: >-
+      Visually navigate through different cells and see how they impact one
+      another, without tampering with the spreadsheet.
+    title: Dependencies
 providesTitle: Get started in minutes
 providesList:
   - text: >-
