@@ -1,7 +1,7 @@
 ---
 title: Press
 url: /press/
-topTitle: Visyond in Press
+topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
   - logo: /img/GdprReport Logo.jpg
