@@ -54,6 +54,32 @@ infoBlockFirst:
         title: Compare Scenarios In Real Time
     image: /img/Scenarios chart in Browser v4.png
     title: Answer What-If Questions Anywhere in Real Time
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/sensitivity@2x.png
+    link: /features/sensitivity/
+    text: >-
+      Instantly understand relationships between inputs and outputs of your
+      spreadsheet.
+    title: Sensitivity
+  - icon: /img/impact@2x.png
+    link: /features/tornado/
+    text: >-
+      Identify which input cells have the greatest impact on key outputs of your
+      model
+    title: Impact
+  - icon: /img/simulations@2x.png
+    link: /features/simulations/
+    text: >-
+      Easily run Monte Carlo simulations that replace the inputs with random
+      variables in a specified range and show how they affects the output.
+    title: Simulations
+  - icon: /img/dependency@2x.png
+    link: /features/dependency-analysis/
+    text: >-
+      Visually navigate through different cells and see how they impact one
+      another, without tampering with the spreadsheet.
+    title: Dependencies
 providesTitle: Get started in minutes
 providesList:
   - text: >-
