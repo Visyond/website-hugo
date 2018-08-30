@@ -39,6 +39,26 @@ infoBlockFirst:
       - file: /img/change series animated.gif
     image: /img/line chart.png
     title: Forget About Manual Updates
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/interactive presentations@2x.png
+    link: /features/interactive-presentations/
+    text: >-
+      With Interactive Presentations the information is always up-to-date, and
+      you can test assumptions without interacting with the spreadsheet.
+    title: Interactive Presentations
+  - icon: /img/calculator-apps@2x.png
+    link: /features/calculators/
+    text: >-
+      Create interactive calculators & apps without a single line of code and
+      securely test assumptions.
+    title: Calculators & Apps
+  - icon: /img/financial-statement@2x.png
+    link: /features/financial-statements/
+    text: >-
+      Speed-up the creation and accuracy of Financial Statements without long
+      error-prone manual setups.
+    title: Financial Statements
 providesTitle: Get started in minutes
 providesList:
   - text: >-
