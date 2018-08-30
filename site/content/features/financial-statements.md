@@ -24,6 +24,24 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
     title: Simple and Convenient Way To Build Financial Statements
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/interactive presentations@2x.png
+    link: /features/interactive-presentations/
+    text: >-
+      With Interactive Presentations the information is always up-to-date, and
+      you can test assumptions without interacting with the spreadsheet.
+    title: Interactive Presentations
+  - icon: /img/calculator-apps@2x.png
+    link: /features/calculators/
+    text: >-
+      Create interactive calculators & apps without a single line of code and
+      securely test assumptions.
+    title: Calculators & Apps
+  - icon: /img/charts@2x.png
+    link: /features/charts/
+    text: Easily create and customize charts that are always up-to-date.
+    title: Charts
 providesTitle: Get started in minutes
 providesList:
   - text: >-
