@@ -32,6 +32,32 @@ infoBlockFirst:
         title: Identify Relationships Between Data Easier
     image: /img/Sensitivity in Browser v4.png
     title: Uncover and Fix Errors Faster
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/scenarios@2x.png
+    link: /features/scenarios/
+    text: >-
+      Compare different assumptions in a few clicks without depending on
+      experts.
+    title: Scenario Comparison
+  - icon: /img/impact@2x.png
+    link: /features/tornado/
+    text: >-
+      Identify which input cells have the greatest impact on key outputs of your
+      model.
+    title: Impact
+  - icon: /img/simulations@2x.png
+    link: /features/simulations/
+    text: >-
+      Easily run Monte Carlo simulations that replace the inputs with random
+      variables in a specified range and show how they affects the output.
+    title: Simulations
+  - icon: /img/dependency@2x.png
+    link: Dependencies
+    text: >-
+      Visually navigate through different cells and see how they impact one
+      another, without tampering with the spreadsheet.
+    title: Dependencies
 providesTitle: Get started in minutes
 providesList:
   - text: >-
