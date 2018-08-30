@@ -16,6 +16,8 @@
   font-weight: 400;
   color: #50546d;
   margin-bottom: 1rem;
+  width: 100%;
+  max-width: 1600px;
 
   @media screen and (max-width: 600px) {
     font-size: 1.8rem;
@@ -100,7 +102,7 @@
 .ht-top__img {
   width: 100%;
   /*max-width: 1200px;*/
-  max-width: 1400px;
+  max-width: 1600px;
 }
 
 .ht-top__popup {
