@@ -39,6 +39,10 @@
   text-shadow: 0 5px 5px rgba(0,0,0,.3);
 }
 
+.ftr-top__under-title a {
+  color: #0086ff;
+}
+
 .ftr-top__btns-wrap {
   display: -webkit-flex;
   display: -ms-flex;
