@@ -466,7 +466,8 @@ $(function () {
 
       this.mainBlock.addEventListener('click', e => {
         for(let i = 0; i < this.images.length; i++) {
-          if(e.target === this.images[i]) {
+          if(e.target === this.images[i]
+            || e.target === this.images[i].previousElementSibling) {
             const src = this.images[i].dataset.src.slice(0, -2);
             const title = this.images[i].dataset.title.slice(0, -2);
             const descr = this.images[i].dataset.descr.slice(0, -2);

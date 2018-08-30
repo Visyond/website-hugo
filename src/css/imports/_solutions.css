@@ -248,6 +248,14 @@
   color: #0086ff;
   font-weight: 300;
   font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
+
+  &:hover {
+    text-shadow: 0 0 3px #0086ff;
+  }
 }
 
 .info__img-pointer i {
