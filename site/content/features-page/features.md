@@ -61,7 +61,7 @@ section:
         link: /features/tornado/
         text: >-
           Identify which input cells have the greatest impact on key outputs of
-          your model
+          your model.
         title: Impact
       - icon: /img/simulations@2x.png
         link: /features/simulations/
