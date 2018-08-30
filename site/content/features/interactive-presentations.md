@@ -42,6 +42,24 @@ infoBlockFirst:
         title: Selectively Share Presentations
     image: /img/Share Slide in Browser.png
     title: Share Only What Collaborators or Clients Need To See
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/calculator-apps@2x.png
+    link: /features/calculators/
+    text: >-
+      Create interactive calculators & apps without a single line of code and
+      securely test assumptions.
+    title: Calculators & Apps
+  - icon: /img/charts@2x.png
+    link: /features/charts/
+    text: Easily create and customize charts that are always up-to-date.
+    title: Charts
+  - icon: /img/financial-statement@2x.png
+    link: /features/financial-statements/
+    text: >-
+      Speed-up the creation and accuracy of Financial Statements without long
+      error-prone manual setups.
+    title: Financial Statements
 providesTitle: Get started in minutes
 providesList:
   - text: >-
