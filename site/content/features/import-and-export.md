@@ -36,6 +36,32 @@ infoBlockFirst:
     image: /img/Export Slides In Browser.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
     title: Export Reports And Presentations
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/audit-mode@2x.png
+    link: /features/audit-mode/
+    text: >-
+      Audit spreadsheets, identify root causes of errors and understand your
+      models better with Audit Mode.
+    title: Audit Mode
+  - icon: /img/feature-icons-v1_09.png
+    link: /features/knowledge-base/
+    text: >-
+      Spreadsheet data, assumptions, attachments, conversations and approvals
+      are stored in a single place.
+    title: Knowledge Base
+  - icon: /img/selective-sharing@2x.png
+    link: /features/selective-sharing/
+    text: >-
+      Share spreadsheets and presentations fully or partially without exposing
+      any other data or calculations.
+    title: Selective Sharing
+  - icon: /img/feature-icons-v1_03.png
+    link: /features/data-input-and-consolidation/
+    text: >-
+      Automate data gathering & consolidation, reduce errors and save time
+      auditing the spreadsheets.
+    title: Data Input & Consolidation
 providesTitle: Get started in minutes
 providesList:
   - text: >-
