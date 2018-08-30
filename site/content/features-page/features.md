@@ -14,23 +14,20 @@ section:
       - icon: /img/feature-icons-v1_09.png
         link: /features/knowledge-base/
         text: >-
-          All your spreadsheet data, assumptions, supporting documentation,
-          conversations and approvals are stored in a single place. Forget about
-          back & forth emails, managing multiple versions and losing data along
-          the way.
+          Spreadsheet data, assumptions, attachments, conversations and
+          approvals are stored in a single place.
         title: Knowledge Base
       - icon: /img/selective-sharing@2x.png
         link: /features/selective-sharing/
         text: >-
-          Avoid data leaks and reduce errors by removing the need to email
-          spreadsheets and copy-paste data between PowerPoint and Excel or other
-          visualization tools.
+          Share spreadsheets and presentations fully or partially without
+          exposing any other data or calculations.
         title: Selective Sharing
       - icon: /img/feature-icons-v1_03.png
         link: /features/data-input-and-consolidation/
         text: >-
-          Automate data gathering & consolidation, reduce risk of undetected
-          errors and save time auditing the spreadsheets.
+          Automate data gathering & consolidation, reduce errors and save time
+          auditing the spreadsheets.
         title: Data Input & Consolidation
     title: Collaboration
   - cards:
@@ -64,7 +61,7 @@ section:
         link: /features/tornado/
         text: >-
           Identify which input cells have the greatest impact on key outputs of
-          your model so you can focus on what is truly important.
+          your model
         title: Impact
       - icon: /img/simulations@2x.png
         link: /features/simulations/
@@ -83,9 +80,8 @@ section:
       - icon: /img/interactive presentations@2x.png
         link: /features/interactive-presentations/
         text: >-
-          Interactive Presentations are an elegant way to present your data –
-          information is always up-to-date, and you can test assumptions without
-          interacting with the spreadsheet.
+          With Interactive Presentations the information is always up-to-date,
+          and you can test assumptions without interacting with the spreadsheet.
         title: Interactive Presentations
       - icon: /img/calculator-apps@2x.png
         link: /features/calculators/
@@ -100,8 +96,8 @@ section:
       - icon: /img/financial-statement@2x.png
         link: /features/financial-statements/
         text: >-
-          Greatly speed-up the creation and accuracy of Financial Statements
-          without long error-prone manual setups.
+          Speed-up the creation and accuracy of Financial Statements without
+          long error-prone manual setups.
         title: Financial Statements
     title: Reporting
 titleBottom: Find out how to improve your decision-making process today
