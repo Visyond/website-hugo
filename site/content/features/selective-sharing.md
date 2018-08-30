@@ -31,6 +31,26 @@ infoBlockFirst:
         title: Share Presentations
     image: /img/Share Project.png
     title: Manage Access Level
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/feature-icons-v1_09.png
+    link: /features/knowledge-base/
+    text: >-
+      Spreadsheet data, assumptions, attachments, conversations and approvals
+      are stored in a single place.
+    title: Knowledge Base
+  - icon: /img/feature-icons-v1_03.png
+    link: /features/data-input-and-consolidation/
+    text: >-
+      Automate data gathering & consolidation, reduce errors and save time
+      auditing the spreadsheets.
+    title: Data Input & Consolidation
+  - icon: /img/feature-icons-v1_21.png
+    link: /features/import-and-export/
+    text: >-
+      Import and export spreadsheets, presentations, charts and reports with
+      ease.
+    title: Import / Export
 providesTitle: Get started in minutes
 providesList:
   - text: >-
