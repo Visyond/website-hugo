@@ -41,6 +41,26 @@ infoBlockFirst:
         title: Consolidating Data in Visyond
     image: /img/Nice Model in Browser v2.png
     title: Consolidating Data In Visyond
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/feature-icons-v1_09.png
+    link: /features/knowledge-base/
+    text: >-
+      Spreadsheet data, assumptions, attachments, conversations and approvals
+      are stored in a single place.
+    title: Knowledge Base
+  - icon: /img/selective-sharing@2x.png
+    link: /features/selective-sharing/
+    text: >-
+      Share spreadsheets and presentations fully or partially without exposing
+      any other data or calculations.
+    title: Selective Sharing
+  - icon: /img/feature-icons-v1_21.png
+    link: /features/import-and-export/
+    text: >-
+      Import and export spreadsheets, presentations, charts and reports with
+      ease.
+    title: Import / Export
 providesTitle: Get started in minutes
 providesList:
   - text: >-
