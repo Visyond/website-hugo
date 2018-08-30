@@ -65,6 +65,27 @@ infoBlockFirst:
         title: Share Presentations
     image: /img/Share Project.png
     title: Manage Access To Information
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/feature-icons-v1_21.png
+    link: /features/import-and-export/
+    text: "Import and export spreadsheets, presentations, charts and reports with ease.\t\t\t"
+    title: Import / Export
+  - icon: /img/feature-icons-v1_09.png
+    link: /features/data-input-and-consolidation/
+    text: >-
+      All your spreadsheet data, assumptions, supporting documentation,
+      conversations and approvals are stored in a single place. Forget about
+      back & forth emails, managing multiple versions and losing data along the
+      way.
+    title: Data Input & Consolidation
+  - icon: /img/selective-sharing@2x.png
+    link: /features/selective-sharing/
+    text: >-
+      Avoid data leaks and reduce errors by removing the need to email
+      spreadsheets and copy-paste data between PowerPoint and Excel or other
+      visualization tools.
+    title: Selective Sharing
 providesTitle: Get started in minutes
 providesList:
   - text: >-
