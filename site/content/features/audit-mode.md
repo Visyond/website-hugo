@@ -81,6 +81,32 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Navigating Cell Dependencies
+featuresTitle: Related Features
+featuresCards:
+  - icon: /img/feature-icons-v1_21.png
+    link: /features/import-and-export/
+    text: >-
+      Import and export spreadsheets, presentations, charts and reports with
+      ease.
+    title: Import / Export
+  - icon: /img/feature-icons-v1_09.png
+    link: /features/knowledge-base/
+    text: >-
+      Spreadsheet data, assumptions, attachments, conversations and approvals
+      are stored in a single place.
+    title: Knowledge Base
+  - icon: /img/selective-sharing@2x.png
+    link: Selective Sharing
+    text: >-
+      Share spreadsheets and presentations fully or partially without exposing
+      any other data or calculations.
+    title: Selective Sharing
+  - icon: /img/feature-icons-v1_03.png
+    link: /features/data-input-and-consolidation/
+    text: >-
+      Automate data gathering & consolidation, reduce errors and save time
+      auditing the spreadsheets.
+    title: Data Input & Consolidation
 providesTitle: Get started in minutes
 providesList:
   - text: >-
