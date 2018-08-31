@@ -14,7 +14,7 @@ leftCard:
     * [Audit Mode](/features/audit-mode/)
     * [Charts](/features/charts/)
     * [Scenario Comparison](/features/scenarios/)
-    * [Impact Analysis (Tornado)](/features/tornado/)
+    * [Impact Analysis](/features/tornado/)
     * [Sensitivity Analysis](/features/sensitivity/)
     * [Simulations](/features/simulations/)
     * [Dependencies Analysis](/features/dependency-analysis/)
@@ -42,7 +42,7 @@ rightCard:
 
     * [Selective Sharing](/features/selective-sharing/)
     * [Single Source of Truth](/features/knowledge-base/)
-    * [Data Gathering & Consolidation](/features/data-input-and-consolidation/)
+    * [Data Consolidation](/features/data-input-and-consolidation/)
     * Permissions
   subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
   title: Team
