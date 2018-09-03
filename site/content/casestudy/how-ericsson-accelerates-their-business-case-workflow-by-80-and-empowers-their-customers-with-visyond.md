@@ -1,14 +1,16 @@
 ---
 metaTags: >-
-  <meta property='og:title' content="Visyond - Ericsson Case Study"/>
+  <meta property="og:title" content="Visyond - Ericsson Case Study"/>
 
-  <meta property='og:image'
-  content="https://visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/Ericsson_logo.png"/>
+  <meta property="og:type" content="website" />
 
-  <meta property='og:description' content="How Ericsson accelerates their
+  <meta property="og:image"
+  content="https://visyond.com/img/Ericsson_logo.png"/>
+
+  <meta property="og:description" content="How Ericsson accelerates their
   business case workflow by 80% and empowers their customers with Visyond"/>
 
-  <meta property='og:url'
+  <meta property="og:url"
   content="https://visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/"
   />
 title: >-
