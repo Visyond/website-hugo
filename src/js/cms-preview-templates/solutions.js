@@ -68,6 +68,42 @@ export default class Solutions extends React.Component {
                 })}
               </ul>
 
+              <div className="sol-solutions">
+                <h2 className="sol-solutions__title">
+                  { entry.getIn(['data', 'solutionsTitle']) }
+                </h2>
+                <div className="sol-solutions__cards">
+                {(entry.getIn(['data', 'solutionsCards']) || []).map((cards, index) => {return <a href={cards.get('link')} className="sol-solutions__card">
+                    <div className="sol-solutions__card-image-wrap">
+                      <img src={cards.get('icon')} alt="icon" className="sol-solutions__card-image" />
+                    </div>
+                    
+                    <h3 className="sol-solutions__card-title">
+                      {cards.get('title')}
+                    </h3>
+
+                    <p className="sol-solutions__card-text">
+                      {cards.get('text')}
+                    </p>
+                  </a>})}
+                </div>
+              </div>
+
+              <section className="ftr-trusted">
+                <h3 className="ftr-trusted__title">
+                  { entry.getIn(['data', 'trustedTitle']) }
+                </h3>
+                <div className="ftr-trusted__wrapper">
+                <ul className="ftr-trusted__logos-wrap">
+                  {(entry.getIn(["data", "trustedLogos"]) || []).map((item, index) => {
+                      return <li key={index} className="home-trusted__logo-item">
+                        <img src={ item.get('logo') } className="landing-trusted__img"/>
+                       </li>
+                  })}
+                </ul>
+                </div>
+              </section>
+
               <section className="sol-capabilities">
 
                 <ul className="sol-capabilities__modules">

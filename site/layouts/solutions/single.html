@@ -91,6 +91,34 @@
     </ul>
     <!-- ./section info -->
 
+    <!-- solutions section -->
+    <div class="sol-solutions">
+      <h2 class="sol-solutions__title">
+        {{ .Params.solutionsTitle }}
+      </h2>
+      <div class="sol-solutions__cards">
+      {{ range $cards := .Params.solutionsCards }}
+        <a href="{{ .link }}" class="sol-solutions__card">
+          <div class="sol-solutions__card-image-wrap">
+            <img src="{{ .icon }}" alt="icon" class="sol-solutions__card-image">
+          </div>
+          
+          <h3 class="sol-solutions__card-title">
+            {{ .title }}
+          </h3>
+
+          <p class="sol-solutions__card-text">
+            {{ .text }}
+          </p>
+        </a>
+      {{ end }}
+      </div>
+      <a href="/features" class="sol-link sol-link--solutions">
+        see all features
+      </a>
+    </div>
+    <!-- solutions section -->
+
     <!-- section capabilities -->
     <section class="sol-capabilities">
       <!-- <h3 class="sol-capabilities__title">
