@@ -45,6 +45,35 @@
 
     </div> <!-- ./container case-study__right-column -->
 </div>
+
+<!-- solutions section -->
+<div class="case-study-section">
+  <h2 class="case-study-section__title">
+    {{ .Params.casestudyTitle }}
+  </h2>
+  <div class="case-study-section__cards">
+  {{ range $cards := .Params.casestudyCards }}
+    <a href="{{ .link }}" class="case-study-section__card">
+      <div class="case-study-section__card-image-wrap">
+        <img src="{{ .icon }}" alt="icon" class="case-study-section__card-image">
+      </div>
+      
+      <h3 class="case-study-section__card-title">
+        {{ .title }}
+      </h3>
+
+      <p class="case-study-section__card-text">
+        {{ .text }}
+      </p>
+    </a>
+  {{ end }}
+  </div>
+  <!-- <a href="/features" class="case-study-section__btn">
+    see all solutions
+  </a> -->
+</div>
+<!-- solutions section -->
+
 <div class="case-study-sub-block">
     {{ with .Params.SolTitle }}
     <h3 class="case-study-sub-block__section-title">{{ . }}</h3>
