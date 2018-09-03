@@ -46,6 +46,28 @@ export default class CaseStudy extends React.Component {
                         }
                     </div>
                 </div>
+
+                <div className="case-study-section">
+                    <h2 className="case-study-section__title">
+                      { entry.getIn(['data', 'casestudyTitle']) }
+                    </h2>
+                    <div className="case-study-section__cards">
+                    {(entry.getIn(['data', 'casestudyCards']) || []).map((cards, index) => {return <a href={cards.get('link')} className="case-study-section__card">
+                        <div className="case-study-section__card-image-wrap">
+                          <img src={cards.get('icon')} alt="icon" className="case-study-section__card-image" />
+                        </div>
+                        
+                        <h3 className="case-study-section__card-title">
+                          {cards.get('title')}
+                        </h3>
+
+                        <p className="case-study-section__card-text">
+                          {cards.get('text')}
+                        </p>
+                      </a>})}
+                    </div>
+                </div>
+
                 <div className="case-study-sub-block">
                     
                     <h3 className="case-study-sub-block__section-title">
