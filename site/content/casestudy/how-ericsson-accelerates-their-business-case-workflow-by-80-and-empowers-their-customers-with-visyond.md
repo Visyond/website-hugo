@@ -1,5 +1,16 @@
 ---
-metaTags: "<meta property='og:title' content='Visyond - Ericsson Case Study\"/>\r\n<meta property='og:image' content='//visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/Ericsson_logo.png\"/>\r\n<meta property='og:description' content='How Ericsson accelerates their business case workflow by 80% and empowers their customers with Visyond\"/>\r\n<meta property='og:url' content='//visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/\" />"
+metaTags: >-
+  <meta property='og:title' content="Visyond - Ericsson Case Study"/>
+
+  <meta property='og:image'
+  content="https://visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/Ericsson_logo.png"/>
+
+  <meta property='og:description' content="How Ericsson accelerates their
+  business case workflow by 80% and empowers their customers with Visyond"/>
+
+  <meta property='og:url'
+  content="https://visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/"
+  />
 title: >-
   How Ericsson accelerates their business case workflow by 80% and empowers
   their customers with Visyond
