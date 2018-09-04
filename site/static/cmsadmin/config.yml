@@ -387,6 +387,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Sub Title", name: "topSubTitle", widget: markdown, required: false}
       - {label: "Background Image", name: "bgImage", widget: image}
 
+      - {label: "Outgrow Title", name: "outgrowTitle", widget: text}
+      - {label: "Outgrow ID", name: "outgrowid", widget: string}
+
 
       - {label: "Pricing Title", name: "pricingTitle", widget: "string"}
       - {label: "First Pricing Sub Title", name: "firstPricingSubTitle", widget: "string",required: false,}
