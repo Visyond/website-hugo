@@ -68,7 +68,7 @@ export default class CaseStudy extends React.Component {
                     </div>
                 </div>
 
-                <div className="case-study-sub-block">
+                {/*<div className="case-study-sub-block">
                     
                     <h3 className="case-study-sub-block__section-title">
                         { entry.getIn(["data", "solTitle"]) }
@@ -93,7 +93,7 @@ export default class CaseStudy extends React.Component {
 
                         </section>
                     </div>  
-                </div>
+                </div>*/}
             </div>
             );
     }
