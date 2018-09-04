@@ -43,6 +43,42 @@
 
 
 
+.outgrow__wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-weight: 600;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+}
+
+.outgrow__title {
+  color: #5f6976;
+  font-size: 29px;
+  line-height: 42px;
+  font-weight: 600;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
+}
+
+
+
+
+
+
+
 
 .prs2nd {
     padding: 75px 0;
