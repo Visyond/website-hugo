@@ -307,10 +307,10 @@
   font-size: 16px;
 }
 
-.dropdown__info-image {
+.dropdown__info-img {
   display: block;
-  margin-bottom: 15px;
-  border: 1px solid lightgrey;
+  max-height: 100px;
+  margin: 0 auto 15px;
 }
 
 .dropdown__info-descr {

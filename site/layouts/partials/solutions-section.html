@@ -9,12 +9,19 @@
 			<ul class="sol-section__group-list sol-section__list">
 				{{ range $el := $element.solution_dropdown }}
 				<li class="sol-section__group-item">
-					<a href="{{ $el.path }}" class="sol-section__group-link">{{ $el.title }}</a>
+					<a href="{{ $el.path }}" class="sol-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
 				</li>
 				{{ end }}
 			</ul>
 		</li>
 		{{ end }}
 	</ul>
+	{{ if .Params.allFeaturesLink }}
+	<div class="sol__all-features-wrapper">
+		<a href="{{ .Params.allFeaturesLink }}" class="sol__all-features-link">
+			{{ .Params.allFeaturesText }}
+		</a>
+	</div>
+	{{ end }}
 </div>
 {{ end }}

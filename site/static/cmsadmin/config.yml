@@ -611,9 +611,14 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title Column", name: "title", widget: string },
             { label: "Solutions dropdown", name: "solution_dropdown", widget: "list", fields: [
               { label: "Title", name: "title", widget: "string" },
-              { label: "path", name: "path", widget: "string" }
+              { label: "path", name: "path", widget: "string" },
+              { label: "image", name: "image", widget: "image" },
+              { label: "descr", name: "descr", widget: "text" }
               ]}
             ]}
+
+          - { label: "All Features Text", name: "allFeaturesText", widget: string }
+          - { label: "All Features Link", name: "allFeaturesLink", widget: string }
 
 
 
@@ -630,9 +635,14 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Title Column", name: "title", widget: string },
             { label: "Features dropdown", name: "features_dropdown", widget: "list", fields: [
               { label: "Title", name: "title", widget: "string" },
-              { label: "path", name: "path", widget: "string" }
+              { label: "path", name: "path", widget: "string" },
+              { label: "image", name: "image", widget: "image" },
+              { label: "descr", name: "descr", widget: "text" }
               ]}
             ]}
+
+          - { label: "All Features Text", name: "allFeaturesText", widget: string }
+          - { label: "All Features Link", name: "allFeaturesLink", widget: string }
 
 
 

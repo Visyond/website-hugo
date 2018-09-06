@@ -553,4 +553,54 @@ $(function () {
 
      addTargetBlank('.target-blank');
 
+
+
+
+
+
+
+
+     //=====Visible Info when Hover On Navigation Link=====
+
+     function linkHover(blockId, blockName) {
+      const block = document.querySelector(`#${blockId}`);
+      const showBlock = document.querySelector(`#${blockId} .dropdown__info`);
+
+      block.addEventListener('mouseover', e => {
+        if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
+          const showTitle = document.createElement('h3');
+          showTitle.classList.add('dropdown__info-title');
+          showTitle.innerHTML = e.target.innerHTML;
+          const showImage = document.createElement('img');
+          showImage.classList.add('dropdown__info-img');
+          showImage.setAttribute('src', e.target.dataset.image);
+          const showDescr = document.createElement('div');
+          showDescr.classList.add('dropdown__info-descr');
+          showDescr.innerHTML = e.target.dataset.descr;
+          showBlock.innerHTML = '';
+          showBlock.appendChild(showTitle);
+          showBlock.appendChild(showImage);
+          showBlock.appendChild(showDescr);
+        }
+      })
+
+      block.addEventListener('mouseout', e => {
+          if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
+            const showTitle = document.createElement('h3');
+            showTitle.classList.add('dropdown__info-title');
+            showTitle.innerHTML = 'Answer questions in seconds';
+            const showDescr = document.createElement('div');
+            showDescr.classList.add('dropdown__info-descr');
+            showDescr.innerHTML = `Explore our ${blockName} to learn more about how Visyond can help you, your team and your clients!`;
+
+            showBlock.innerHTML = '';
+            showBlock.appendChild(showTitle);
+            showBlock.appendChild(showDescr);
+        }
+      })
+     };
+
+     linkHover('features-toggle', 'Features');
+     linkHover('solutions-toggle', 'Solutions');
+
 });

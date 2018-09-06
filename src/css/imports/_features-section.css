@@ -122,3 +122,29 @@
   background: #E8E9ED;
   color: #52556c;
 }
+
+.fea__all-features-wrapper {
+  display: none;
+}
+
+.fea__all-features-link {
+  padding: 8px 10px;
+  min-width: 100px;
+  text-align: center;
+  color: #52556c;
+  font-size: 18px;
+
+  &:hover {
+    background: #E8E9ED;
+  }
+}
+
+.dropdown .fea__all-features-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px 10px;
+
+  @media (max-width: 1200px) {
+    justify-content: flex-start;
+  }
+}
