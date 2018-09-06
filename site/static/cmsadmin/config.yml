@@ -38,8 +38,8 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Solutions Title", name: "solutionsTitle", widget: string}
-      - {label: "Solutions Cards", name: "solutionsCards", widget: list, fields: [
+      - {label: "Solutions Title", name: "solutionsTitle", widget: string, required: false}
+      - {label: "Solutions Cards", name: "solutionsCards", widget: list, required: false, fields: [
           {label: "Link", name: "link", widget: string},
           {label: "Icon", name: "icon", widget: image},
           {label: "Title", name: "title", widget: string},
