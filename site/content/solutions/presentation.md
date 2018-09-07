@@ -1,7 +1,21 @@
 ---
-title: Secure Spreadsheet Reporting and Visualisation Software - Visyond
-metaTags: "<meta name=\"description\" content=\"Spreadsheet Presentation, Reporting and Visualization software. Create interactive & visual spreadsheet reports in minutes and securely share them using Visyond’s slide dashboard without any programming or add-ins.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet reporting\">"
-topTitle: 'Interactive and Secure Real-Time Presentations, Visualizations and Reporting'
+title: Secure Spreadsheet Reporting and Visualization Software - Visyond
+metaTags: >-
+  <meta name="title" content="Automate Excel Reports, Financial Data
+  Visualizations And Presentations with Visyond">
+
+
+  <meta name="description" content="Spreadsheet Presentation, Reporting and
+  Visualization software. Automate Excel Reports, Create interactive financial
+  data visualizations and presentations in minutes and securely share them using
+  Visyond’s interactive presentations without any programming or add-ins.">
+
+
+  <meta name="keywords" content="Automate Excel Reports, Financial Data
+  Visualization, Presenting Financial Data">
+topTitle: >-
+  Automate Excel Reports - Interactive and Secure Real-Time Presentation,
+  Financial Data Visualization and Reporting
 topSubTitle: >-
   Easily create insightful interactive slides based on  Visyond’s spreadsheet
   calculation engine. Enable each collaborator to test their assumptions only on
