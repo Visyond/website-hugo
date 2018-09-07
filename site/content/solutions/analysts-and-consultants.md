@@ -1,6 +1,9 @@
 ---
-title: Analysts and consultants
-topTitle: 'Transform The Way You Analyze & Present Data and Make Better Decisions, faster'
+title: Data Analysis and Business Consulting Software - Visyond
+metaTags: "<meta name=\"title\" content=\"Data Analysis and Business Consulting Software\">\r\n \r\n<meta name=\"description\" content=\"Visyond’s smart machine intelligence data analysis and business consulting software helps analysts and consultants analyze data faster and make better decisions based on the numbers.\">\r\n \r\n<meta name=\"keywords\" content=\"data analysis, business consulting software\">\r\n"
+topTitle: >-
+  Data Analysis and Business Consulting Software - Transform The Way You Analyze
+  & Present Data and Make Better Decisions, faster
 topSubTitle: >-
   As an analyst or consultant, you constantly analyse and recommend the best
   course of action based on the numbers. Visyond makes this process smooth and
