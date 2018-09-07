@@ -1,10 +1,7 @@
 ---
-title: Secure and Transparent Spreadsheet Collaboration Software
-metaTags: "<meta name=\"description\" content=\"Visyond’s patent-pending secure selective sharing & collaboration software for teams to streamline and track spreadsheet data.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet collaboration software\">"
-topTitle: |-
-  Secure, Transparent and Simple 
-
-  Spreadsheet Collaboration and Sharing
+title: Secure and Simple Spreadsheet Collaboration and Sharing
+metaTags: "<meta name=\"title\" content=\"Secure and Simple Spreadsheet Collaboration Online\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s patent-pending secure selective sharing & spreadsheet collaboration online software for teams to streamline and track spreadsheet data.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet collaboration software, spreadsheet collaboration online\">"
+topTitle: Secure and Simple Spreadsheet Collaboration and Sharing
 topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders with Visyond’s innovative selective sharing technology and
