@@ -1,10 +1,9 @@
 ---
 title: Spreadsheet Data Analysis Software - Visyond
-metaTags: "<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data Analysis\">"
-topTitle: |-
-  An Elegant Solution for Analyzing Spreadsheet Data 
-
-  as a Team and Answering Questions On-The-Fly
+metaTags: "<meta name=\"title\" content=\"Financial Analysis Software\">\n\n<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence financial analysis software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\n\r\n<meta name=\"keywords\" content=\"Financial analysis software, spreadsheet data analysis\">"
+topTitle: >-
+  Financial Analysis Software -  An Elegant Solution for Analyzing Spreadsheet
+  Data as a Team and Answering Questions On-The-Fly
 topSubTitle: "Collaboratively perform advanced and routine data analysis in minutes instead of days and securely & selectively share valuable business insights with stakeholders with the help of Visyond’s interactive dashboards and apps allowing you to test various assumptions without breaking the underlying logic and calculations.\r\n"
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
