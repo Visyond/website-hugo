@@ -1,10 +1,9 @@
 ---
 title: 'Spreadsheet Data Tracking, Governance and Compliance Software'
-metaTags: "<meta name=\"description\" content=\"Take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Data Tracking\">"
-topTitle: |-
-  Spreadsheet Data Tracking and Governance 
-
-  for You and Your Clients
+metaTags: "<meta name=\"title\" content=\"Track changes in Excel with Visyond’s Spreadsheet Governance\">\r\n\r\n<meta name=\"description\" content=\"Track changes in Excel and take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.\">\r\n\r\n<meta name=\"keywords\" content=\"track changes in excel, spreadsheet governance\">\r\n"
+topTitle: >-
+  Track changes from Excel with Visyond’s Spreadsheet Governance and Data
+  Tracking Software
 topSubTitle: >-
   Minimize errors when collaborating on spreadsheets, dramatically reduce the
   risks of unauthorized access, data overriding and avoid breaking the model
