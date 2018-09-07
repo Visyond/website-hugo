@@ -617,8 +617,8 @@ collections: # A list of collections the CMS should be able to edit
               ]}
             ]}
 
-          - { label: "All Features Text", name: "allFeaturesText", widget: string }
-          - { label: "All Features Link", name: "allFeaturesLink", widget: string }
+          - { label: "All Features Text", name: "allFeaturesText", widget: string, required: false }
+          - { label: "All Features Link", name: "allFeaturesLink", widget: string, required: false }
 
 
 
@@ -641,8 +641,8 @@ collections: # A list of collections the CMS should be able to edit
               ]}
             ]}
 
-          - { label: "All Features Text", name: "allFeaturesText", widget: string }
-          - { label: "All Features Link", name: "allFeaturesLink", widget: string }
+          - { label: "All Features Text", name: "allFeaturesText", widget: string, required: false }
+          - { label: "All Features Link", name: "allFeaturesLink", widget: string, required: false }
 
 
 
