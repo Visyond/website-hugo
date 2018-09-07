@@ -1,5 +1,5 @@
 ---
-title: Data Analysis and Business Consulting Software - Visyond
+title: Analysts and Consultants - Visyond
 metaTags: "<meta name=\"title\" content=\"Data Analysis and Business Consulting Software\">\r\n \r\n<meta name=\"description\" content=\"Visyond’s smart machine intelligence data analysis and business consulting software helps analysts and consultants analyze data faster and make better decisions based on the numbers.\">\r\n \r\n<meta name=\"keywords\" content=\"data analysis, business consulting software\">\r\n"
 topTitle: >-
   Data Analysis and Business Consulting Software - Transform The Way You Analyze
