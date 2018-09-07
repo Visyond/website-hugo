@@ -1,6 +1,9 @@
 ---
-title: Data Input and Consolidation
-topTitle: Eliminate the Hassles During Data Gathering and Consolidation
+title: Data Input and Consolidation - Visyond
+metaTags: "<meta name=\"title\" content=\"Merge Excel Spreadsheets with Smart Data Consolidation Tool\">\r\n \r\n<meta name=\"description\" content=\"Visyond offers convenient spreadsheet data consolidation tools to help you merge Excel spreadsheets, consolidate spreadsheets into one and cut days worth of effort down to minutes.\">\r\n \r\n<meta name=\"keywords\" content=\"merge excel spreadsheets, data consolidation tools, merge spreadsheets, consolidate spreadsheets into one\">\r\n"
+topTitle: >-
+  Easily Merge Spreadsheets and Eliminate the Hassles of Data Consolidation &
+  Gathering
 topSubTitle: >-
   With Visyond, the data gathering process efficient allowing you to cut days
   worth of effort down to minutes. It eliminates the need for all the manual
