@@ -1,6 +1,9 @@
 ---
-title: Decision Makers
-topTitle: Make Fast and Accurate Decisions with Information at Your Fingertips
+title: Decision Makers - Visyond
+metaTags: "<meta name=\"title\" content=\"Collaborative Decision Making Software\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s collaborative decision making software will help you visualize the impact of your spreadsheet based decisions and answer any questions in real time, reduce errors and control what each collaborator can see and interact with.\">\r\n \r\n<meta name=\"keywords\" content=\"collaborative decision making software, decision making software\">\r\n"
+topTitle: >-
+  Make Fast and Accurate Decisions with Visyond’s Collaborative Decision Making
+  Software
 topSubTitle: >-
   As a decision maker with demanding priorities, your time is limited to collect
   reports from every corner within your organization and then combine each
