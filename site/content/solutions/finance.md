@@ -161,7 +161,7 @@ infoBlockFirst:
     image: /img/Financial Statements in Browser.png
     link: /features/financial-statements/
     title: Streamline Your Reporting Process
-  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
+  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
     files:
       - descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
