@@ -5,7 +5,7 @@ metaTags: >-
   <meta property="og:type" content="website" />
 
   <meta property="og:image"
-  content="https://visyond.com/img/Ericsson_logo.png"/>
+  content="https://visyond.com/img/Ericsson_logo_250w.png"/>
 
   <meta property="og:description" content="How Ericsson accelerates their
   business case workflow by 80% and empowers their customers with Visyond"/>
@@ -48,22 +48,10 @@ client_ask: >-
   account managers are in sales meetings, Kedar is asked to be ready to help in
   case the changes required couldn’t be applied by the Account Manager.
 aside:
-  - content: '![undefined](/img/Ericsson_logo.png)'
+  - content: '![Ericsson Logo](/img/Ericsson_logo_250w.png)'
   - content: "**Challenge**\n\n* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
   - content: "**Solution**\r\n\n* Controlled secure environment to model and test assumptions\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow\r\n* Powerful debugging and auditing tools that reduces errors and time\r\n* 1-click autoanalysis\r\n* Interactive online presentations to answer ondemand questions and queries\r\n* Workflow, permission and selective-sharing management\r\n"
   - content: "**Results at the glance**\n\n* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
-solTitle: Related Solutions
-solArticle:
-  - descr: ''
-    title: Analysts & Consultants
-    image: /img/feature-icons-v1_03.png
-    link: /solutions/analysts-and-consultants/
-  - title: Decisions Makers
-    image: /img/feature-icons-v1_25.png
-    link: /solutions/decision-makers/
-  - title: Data Input & Consolidation
-    image: /img/feature-icons-v1_13.png
-    link: /solutions/data-input-and-consolidation/
 ---
 # Before Visyond
 
