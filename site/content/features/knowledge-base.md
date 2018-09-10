@@ -61,7 +61,7 @@ infoBlockFirst:
         file: /img/Share Worksheet.png
         title: Share Worksheets
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: Share Presentations
     image: /img/Share Project.png
     title: Manage Access To Information
