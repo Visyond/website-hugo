@@ -13,7 +13,7 @@ client_ask: >
   Fernando leads the preparation of forecasts and plans for the top management,
   and recommends where to allocate resources to optimise the sales process.
 aside:
-  - content: '![undefined](/img/Elettronica_logo2x.png)'
+  - content: '![Elettronica Logo](/img/Elettronica_logo2x.png)'
   - content: |-
       **Use Cases**
 
@@ -66,14 +66,6 @@ aside:
       in real-time
 
       * Simplicity and quick turnaround for 'what-if' assumption changes
-solTitle: Related Solutions
-solArticle:
-  - title: Analysts & Consultants
-    image: /img/feature-icons-v1_03.png
-  - title: Decisions Makers
-    image: /img/feature-icons-v1_25.png
-  - title: Data Input & Consolidation
-    image: /img/feature-icons-v1_13.png
 ---
 > It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
 
@@ -103,7 +95,7 @@ This is how Fernando's job look like:
 
 * With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overriding important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers and get valuable business insights to make their decisions. Senior management is extremely happy because they do not have to interact with all the unnecessary details in the spreadsheet.
 
-![Share Slides with Management](/img/Slides in iPad.png)
+![Share Slides with Management](/img/Interactive Calculator in iPad v2.png)
 
 * Since each cell in Visyond can not only _store multiple coexisting inputs (cases/assumptions) but also conversations and attachments_, Fernando can get the reasoning behind the numbers he receives and verify them quickly.
 
@@ -123,4 +115,4 @@ This is how Fernando's job look like:
 
 * In addition, he can now _prepare interactive slides with input elements like drop-down boxes or sliders where he can specify different scenarios_. Once a specific scenario is selected, charts and cells are automatically updated. This way, by sharing interactive slides (and not the spreadsheet), he can let his colleagues check how different numbers can impact the result without risking having unwanted changes in the model or exposing the inner workings of the model (unnecessarily complicated for most of the spreadsheet users let alone, at times, confidential).
 
-![Interactive Calculator in Visyond](/img/Interactive Calculator in iPad.png)
+![Interactive Calculator in Visyond](/img/Interactive Calculator in iPad v2.png)
