@@ -23,7 +23,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/presentation top 1.jpg
+bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
       Make smarter decisions faster by getting valuable insights with
