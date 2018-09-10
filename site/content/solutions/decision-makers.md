@@ -14,7 +14,7 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
-  - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and _expose only what each person should see or interact with_!\r\n"
+  - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and **expose only what each person should see or interact with**!\r\n"
     files:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
@@ -32,7 +32,7 @@ infoBlockFirst:
     image: /img/Share Project.png
     link: /features/selective-sharing/
     title: Handle Your Data with Unprecedented Security
-  - descr: "Test assumptions, consolidate data, run analysis at an unprecedented speed and accuracy, _on the fly, on the move, without waiting for your analysts_. With Visyond, you can focus on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\n* Allows you to apply what-if scenarios on the fly\r\n"
+  - descr: "Test assumptions, consolidate data, run analysis at an unprecedented speed and accuracy, **on the fly, on the move, without waiting for your analysts**. With Visyond, you can focus on the key performance metrics that are critical.\r\n\r\nVisyond connects disparate data among spreadsheets and displays the information so you can make decisions quickly.\r\n\r\n* Graphically displays opportunities and risks\r\n* Identifies the source of information\r\n* Secures confidential information to be viewed only by authorized users\n* Allows you to apply what-if scenarios on the fly\r\n"
     files:
       - descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
@@ -49,7 +49,7 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/improve-transparency-and-track-changes-always-be-in-control-of-changes-to-the-model/
     title: Revolutionize The Way You Access Key Information
-  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and _eliminate dependency from the model creator_ by enabling collaborative analysis, stress testing and interactive presentations.\r\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
+  - descr: "Visyond is cloud-based (or on-premise) so you _never lose information_, you can manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop), and **eliminate dependency from the model creator** by enabling collaborative analysis, stress testing and interactive presentations.\r\r\n\nIt’s been designed to never break formulas or lose your teams’ work, tracking their input and changes.\r\n"
     files:
       - descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
@@ -70,7 +70,7 @@ infoBlockFirst:
     image: /img/Cases in Browser v2.png
     link: /features/knowledge-base/
     title: Focus on What Matters and Never Lose Critical Information
-  - descr: "Visyond’s built-in analysis tools _automate typical routine tasks_ that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with _just one click._\r\n"
+  - descr: "Visyond’s built-in analysis tools **automate typical routine tasks** that would otherwise require expensive software, add-ons or error-prone lengthy manual setups.\r\n\nFor example, build a downloadable Analytics report with just one click.\r\n"
     files:
       - descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
