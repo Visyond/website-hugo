@@ -62,7 +62,7 @@ infoBlockFirst:
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
-        title: NTERACTIVE CALCULATORS & APPS
+        title: INTERACTIVE CALCULATORS & APPS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
     title: Apps and Calculators Without Programming
