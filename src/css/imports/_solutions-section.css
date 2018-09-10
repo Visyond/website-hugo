@@ -132,7 +132,9 @@
   min-width: 100px;
   text-align: center;
   color: #52556c;
-  font-size: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
 
   &:hover {
     background: #E8E9ED;
