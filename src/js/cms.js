@@ -16,6 +16,7 @@ import Pricing from "./cms-preview-templates/pricing";
 import Pricings from "./cms-preview-templates/pricings";
 import Analysis from "./cms-preview-templates/analysis";
 import FeaturesPage from "./cms-preview-templates/features-page";
+import SolutionsPage from "./cms-preview-templates/solutions-page";
 import Press from "./cms-preview-templates/press";
 
 
@@ -47,5 +48,6 @@ CMS.registerPreviewTemplate("pricing", Pricing);
 CMS.registerPreviewTemplate("pricings", Pricings);
 CMS.registerPreviewTemplate("analysis", Analysis);
 CMS.registerPreviewTemplate("features-page", FeaturesPage);
+CMS.registerPreviewTemplate("solutions-page", SolutionsPage);
 CMS.registerPreviewTemplate("press", Press);
 CMS.registerWidget("color", ColorControl);
