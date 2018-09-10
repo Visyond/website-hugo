@@ -52,8 +52,8 @@ infoBlockFirst:
       The process is simple and does not require wiring a line of code or
       unmaintainable macro.
     files:
-      - file: /img/Interactive Slides in Browser v3.png
-    image: /img/Interactive Slides in Browser v3.png
+      - file: /img/Interactive Slides in Browser v4.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
     title: Apps and Calculators Without Programming
   - descr: >-
@@ -73,9 +73,9 @@ infoBlockFirst:
       share just this slide with the client.
     files:
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: SHARE PRESENTATIONS
-    image: /img/Share Slide in Browser.png
+    image: /img/Share Slide in Browser v2.png
     link: /features/selective-sharing/
     title: Secure Sharing of Presentations
   - descr: >-
