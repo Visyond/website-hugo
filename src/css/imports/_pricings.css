@@ -148,7 +148,7 @@
     width: 400px;
     background: #fff;
     box-shadow: 0 5px 15px rgba(82, 85, 108, .3);
-    padding: 40px 55px 30px 55px;
+    padding: 40px 35px 30px;
 
     @media screen and (max-width: 1024px) {
         width: 100%;
@@ -160,7 +160,7 @@
 }
 
 .prs2nd__item--middle {
-    padding: 40px 55px 40px 55px;
+    padding: 40px 35px 40px;
     box-shadow: 0 7px 20px rgba(82, 85, 108, .3);
     margin-top: -10px;
     transform: scale(1.1);
