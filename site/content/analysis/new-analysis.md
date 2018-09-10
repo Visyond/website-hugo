@@ -5,7 +5,10 @@ metaTags: >-
 
   <meta property="og:type" content="website" />
 
-  <meta property="og:image" content="https://visyond.com/img/v_notebook.png"/>
+  <meta property="og:image" content="http://visyond.com/img/v_notebook.png"/>
+
+  <meta property="og:image:secure_url"
+  content="https://visyond.com/img/v_notebook.png" /> 
 
   <meta property="og:description" content="Get a Top-Consultant-level
   spreadsheet analysis for FREE powered by Visyond’s technology"/>
