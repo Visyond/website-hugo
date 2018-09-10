@@ -37,7 +37,7 @@ infoBlockFirst:
       - descr: >-
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet.
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: Test Assumptions
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
@@ -85,7 +85,7 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS & APPS
       - descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
