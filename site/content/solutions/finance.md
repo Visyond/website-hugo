@@ -24,15 +24,15 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: SELECTIVELY SHARE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v3.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Eliminate Dependency on the Modeler
   - descr: >-
@@ -156,7 +156,7 @@ infoBlockFirst:
           Empower stakeholder to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE CALCULATORS & APPS
     image: /img/Financial Statements in Browser.png
     link: /features/financial-statements/
