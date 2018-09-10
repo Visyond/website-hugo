@@ -1,6 +1,16 @@
 ---
 title: Free Spreadsheet Analysis
-metaTags: "<meta property=\"og:title\" content=\"Visyond - Free Spreadsheet Analysis\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/audit-mode@2x.png\"/>\r\n<meta property=\"og:description\" content=\"Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s technology\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/free-analysis/\" />"
+metaTags: >-
+  <meta property="og:title" content="Visyond - Free Spreadsheet Analysis"/>
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image" content="https://visyond.com/img/v_notebook.png"/>
+
+  <meta property="og:description" content="Get a Top-Consultant-level
+  spreadsheet analysis for FREE powered by Visyond’s technology"/>
+
+  <meta property="og:url" content="https://visyond.com/free-analysis/" />
 url: /free-analysis
 topTitle: >-
   Get a Top-Consultant-level spreadsheet analysis for FREE powered by Visyond’s
