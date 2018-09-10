@@ -117,9 +117,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v3.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Present with Impact
   - descr: >-
@@ -138,7 +138,7 @@ infoBlockFirst:
         file: /img/Share Worksheet.png
         title: SHARE WORKSHEETS
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: SHARE PRESENTATIONS
     image: /img/Share Project.png
     link: /features/selective-sharing/
