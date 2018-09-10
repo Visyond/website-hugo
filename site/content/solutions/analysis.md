@@ -8,7 +8,7 @@ topSubTitle: "Collaboratively perform advanced and routine data analysis in minu
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/analysts_consultants 1.jpg
+bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
       Often there is a need to compare dozens of different probabilities and
