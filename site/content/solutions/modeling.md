@@ -138,7 +138,6 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
-      - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
