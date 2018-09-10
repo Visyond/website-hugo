@@ -18,7 +18,6 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE CALCULATORS & APPS
-      - file: /img/Presentation With Chart in Browser.png
     image: /img/Interactive Slides in Browser v4.png
     title: Test Assumptions Seamlessly
   - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s unique [Selective Sharing](https://visyond.com/features/selective-sharing/) feature without exposing the spreadsheet and any sensitive or unnecessary information. Stakeholders can then safely test their own assumptions without breaking or ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation to Powerpoint."
