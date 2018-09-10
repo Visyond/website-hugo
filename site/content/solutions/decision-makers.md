@@ -12,7 +12,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/decision makers 2.png
+bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: "Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing - allow access to only certain cells, worksheets, charts or linked reports and slides, and _expose only what each person should see or interact with_!\r\n"
     files:
