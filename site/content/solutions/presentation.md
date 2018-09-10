@@ -38,7 +38,12 @@ infoBlockFirst:
       presentations and update the output cells or charts in real-time without
       changing what is in the spreadsheet.
     files:
-      - file: /img/Interactive Dashboards in Browser.png
+      - descr: >-
+          Autoanalysis transforms lengthy and error-prone manual setup for
+          routine spreadsheet analyses into a 1-click job generating insightful
+          reports ready to be presented and updated on the fly.
+        file: /img/Interactive Dashboards in Browser.png
+        title: Run Autoanalysis in Visyond
     image: /img/Interactive Dashboards in Browser.png
     link: /features/interactive-presentations/
     title: Interactive Dashboards
@@ -52,7 +57,12 @@ infoBlockFirst:
       The process is simple and does not require wiring a line of code or
       unmaintainable macro.
     files:
-      - file: /img/Interactive Slides in Browser v4.png
+      - descr: >-
+          Empower stakeholder to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v4.png
+        title: NTERACTIVE CALCULATORS & APPS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
     title: Apps and Calculators Without Programming
