@@ -4,7 +4,7 @@ feaDropdownCol:
       - descr: >-
           Spreadsheet data, assumptions, attachments, conversations and
           approvals are stored in a single place.
-        image: /img/knowledge-base@2x OLD.png
+        image: /img/knowledge-base@2x.png
         path: /features/knowledge-base
         title: Knowledge Base
       - descr: >-
