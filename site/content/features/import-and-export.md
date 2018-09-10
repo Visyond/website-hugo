@@ -44,7 +44,7 @@ featuresCards:
       Audit spreadsheets, identify root causes of errors and understand your
       models better with Audit Mode.
     title: Audit Mode
-  - icon: /img/feature-icons-v1_09.png
+  - icon: /img/knowledge-base@2x.png
     link: /features/knowledge-base/
     text: >-
       Spreadsheet data, assumptions, attachments, conversations and approvals
@@ -56,7 +56,7 @@ featuresCards:
       Share spreadsheets and presentations fully or partially without exposing
       any other data or calculations.
     title: Selective Sharing
-  - icon: /img/feature-icons-v1_03.png
+  - icon: /img/data-input@2x.png
     link: /features/data-input-and-consolidation/
     text: >-
       Automate data gathering & consolidation, reduce errors and save time
