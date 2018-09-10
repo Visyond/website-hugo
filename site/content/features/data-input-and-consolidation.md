@@ -43,7 +43,7 @@ infoBlockFirst:
     title: Consolidating Data In Visyond
 featuresTitle: Related Features
 featuresCards:
-  - icon: /img/feature-icons-v1_09.png
+  - icon: /img/knowledge-base@2x.png
     link: /features/knowledge-base/
     text: >-
       Spreadsheet data, assumptions, attachments, conversations and approvals
@@ -55,7 +55,7 @@ featuresCards:
       Share spreadsheets and presentations fully or partially without exposing
       any other data or calculations.
     title: Selective Sharing
-  - icon: /img/feature-icons-v1_21.png
+  - icon: /img/import-export@2x.png
     link: /features/import-and-export/
     text: >-
       Import and export spreadsheets, presentations, charts and reports with
