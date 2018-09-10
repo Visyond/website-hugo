@@ -178,8 +178,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Widget aside", name: aside, widget: list, fields: [{label: Heading, name: "content", widget: "markdown"}], required: false}
 
-      - {label: "Casestudy Title", name: "casestudyTitle", widget: string}
-      - {label: "Casestudy Cards", name: "casestudyCards", widget: list, fields: [
+      - {label: "Casestudy Title", name: "casestudyTitle", required: false, widget: string}
+      - {label: "Casestudy Cards", name: "casestudyCards", required: false, widget: list, fields: [
           {label: "Link", name: "link", widget: string},
           {label: "Icon", name: "icon", widget: image},
           {label: "Title", name: "title", widget: string},
