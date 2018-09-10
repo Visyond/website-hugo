@@ -28,7 +28,7 @@ infoBlockFirst:
         title: Audit Mode
     image: /img/Nice Model in Browser v2.png
     link: /features/audit-mode/
-    title: Readable and beautiful models
+    title: Readable and Beautiful Models
   - descr: >-
       You no longer need to go through dozens of cells and related calculations
       manually to find what is causing an error - our **intelligent Root Cause
@@ -65,7 +65,7 @@ infoBlockFirst:
         title: Compare Scenarios In Real Time
     image: /img/Scenarios chart in Browser v4.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Hassle-free number testing environment
+    title: Hassle-Free Number Testing Environment
   - descr: >-
       Once the model and calculations are set up, it is time to stress-test the
       data. Take advantage of Visyond’s **secure selective sharing** and
@@ -78,11 +78,11 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v3.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
-    title: Secure sandbox for stress-testing
+    title: Secure Sandbox for Stress-Testing
 capabilitiesList:
   - image: /img/feature-icons-v1_13.png
     text: Quickly identify the root cause of errors and relationships between cells
