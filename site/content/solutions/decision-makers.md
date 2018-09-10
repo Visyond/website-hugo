@@ -94,6 +94,13 @@ infoBlockFirst:
           tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
         title: DEPENDENCY ANALYSIS
+      - descr: >-
+          Visyond’s financial statements greatly reduce the risk of errors and
+          time required to prepare Balance Sheets, Income and Cash Flow
+          Statements, ratios and KPIs, etc. by automating the build process and
+          removing the need for manual checks and audits of the calculations.
+        file: /img/Financial Statements in Browser.png
+        title: AUTO-GENERATED FINANCIAL STATEMENTS
     image: /img/Sensitivity two-way v2.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Save Time When Requesting Analysis and Reports
