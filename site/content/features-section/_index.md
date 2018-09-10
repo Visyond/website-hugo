@@ -90,7 +90,7 @@ feaDropdownCol:
         path: /features/import-and-export
         title: Import / Export
     title: Modeling
-allFeaturesText: See All Features
+allFeaturesText: View All Features
 allFeaturesLink: 'https://visyond.com/features/'
 ---
 
