@@ -25,9 +25,9 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
-          # {label: "Popup URL", name: "popupUrl", widget: file},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
           ]},
@@ -94,9 +94,9 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
-          # {label: "Popup URL", name: "popupUrl", widget: file},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
           ]},
@@ -383,9 +383,9 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
-          # {label: "Popup URL", name: "popupUrl", widget: file},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
           ]},
@@ -565,9 +565,10 @@ collections: # A list of collections the CMS should be able to edit
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
-              # {label: "Popup URL", name: "popupUrl", widget: file},
+              {label: "Popup Link", name: "link", widget: string, default: "#"},
               {label: "Popup Files", name: "files", widget: list, fields: [
                 {label: "File", name: "file", widget: "file"},
+                {label: "Popup Link", name: "link", widget: string, default: "#"},
                 {label: "Title", name: "title", widget: "string"},
                 {label: "Description", name: "descr", widget: "text"},
               ]},
