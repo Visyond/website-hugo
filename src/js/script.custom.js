@@ -282,7 +282,6 @@ $(function () {
         if(src) {
           const sliderArray = src.split('::');
           const sliderHrefs = href.split('::');
-          console.log(sliderHrefs);
           const popup = document.createElement('div');
           popup.classList.add('popup');
 
@@ -319,6 +318,7 @@ $(function () {
             closeBtn.classList.add('js-close');
             linkBtn.classList.add('js-link');
             linkBtn.setAttribute('target', '_blank');
+            linkBtn.setAttribute('href', sliderHrefs[0]);
             visibilityBtn.classList.add('js-visibility');
             prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>';
             nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>';
@@ -342,8 +342,6 @@ $(function () {
 
               sliderItem.appendChild(sliderImage);
               sliderList.appendChild(sliderItem);
-
-              linkBtn.setAttribute('href', sliderHrefs[i]);
             }
 
 
@@ -387,6 +385,7 @@ $(function () {
               if(countSlide < sliderArray.length - 1) {
                 countSlide++;
                 showBtn();
+                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
               }
             });
 
@@ -395,6 +394,7 @@ $(function () {
               if(countSlide > 0) {
                 countSlide--;
                 showBtn();
+                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
               }
             });
 
@@ -403,12 +403,14 @@ $(function () {
                 if(countSlide < sliderArray.length - 1) {
                   countSlide++;
                   showBtn();
+                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
                 }
               }
               if(e.keyCode === 37 && popup) {
                 if(countSlide > 0) {
                   countSlide--;
                   showBtn();
+                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
                 }
               }
             };
