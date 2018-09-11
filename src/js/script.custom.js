@@ -278,7 +278,7 @@ $(function () {
       }
 
       // Create popup with content
-      this._createPopup = (src, title, descr) => {
+      this._createPopup = (src, href, title, descr) => {
         if(src) {
           const sliderArray = src.split('::');
           const popup = document.createElement('div');
@@ -309,16 +309,20 @@ $(function () {
             const prevBtn = document.createElement('button');
             const nextBtn = document.createElement('button');
             const closeBtn = document.createElement('button');
+            const linkBtn = document.createElement('a');
             const visibilityBtn = document.createElement('button');
 
             prevBtn.classList.add('js-prev');
             nextBtn.classList.add('js-next');
             closeBtn.classList.add('js-close');
+            linkBtn.classList.add('js-link');
+            linkBtn.setAttribute('target', '_blank');
             visibilityBtn.classList.add('js-visibility');
-            prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>'
-            nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>'
-            visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>'
-            closeBtn.innerHTML = '<i class="material-icons">close</i>'
+            prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>';
+            nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>';
+            visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>';
+            linkBtn.innerHTML = '?';
+            closeBtn.innerHTML = '<i class="material-icons">close</i>';
             
             for(let i = 0; i < sliderArray.length; i++) {
               const sliderItem = document.createElement('li');
@@ -336,12 +340,15 @@ $(function () {
 
               sliderItem.appendChild(sliderImage);
               sliderList.appendChild(sliderItem);
+
+              linkBtn.setAttribute('href', href[i]);
             }
 
 
             listWrap.appendChild(sliderList);
             listWrap.appendChild(prevBtn);
             listWrap.appendChild(closeBtn);
+            listWrap.appendChild(linkBtn);
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
@@ -469,9 +476,10 @@ $(function () {
           if(e.target === this.images[i]
             || e.target === this.images[i].previousElementSibling) {
             const src = this.images[i].dataset.src.slice(0, -2);
+            const href = this.images[i].dataset.href.slice(0, -2);
             const title = this.images[i].dataset.title.slice(0, -2);
             const descr = this.images[i].dataset.descr.slice(0, -2);
-            this._createPopup(src, title, descr);
+            this._createPopup(src, href, title, descr);
           };
         };
       });

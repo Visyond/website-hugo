@@ -83,7 +83,7 @@
             zoom_in
           </i> -->
           {{ end }}
-          <img src="{{ .image }}" alt="collaborate on spreadsheets" class="ht-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}">
+          <img src="{{ .image }}" alt="collaborate on spreadsheets" class="ht-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"  data-href="{{ range $file := .files }}{{ .link }}::{{ end }}">
         </div>
 
         <img src="/img/v_lines.png" alt="lines" class="ht-info__block-lines">
