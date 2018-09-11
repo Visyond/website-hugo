@@ -281,6 +281,8 @@ $(function () {
       this._createPopup = (src, href, title, descr) => {
         if(src) {
           const sliderArray = src.split('::');
+          const sliderHrefs = href.split('::');
+          console.log(sliderHrefs);
           const popup = document.createElement('div');
           popup.classList.add('popup');
 
@@ -341,7 +343,7 @@ $(function () {
               sliderItem.appendChild(sliderImage);
               sliderList.appendChild(sliderItem);
 
-              linkBtn.setAttribute('href', href[i]);
+              linkBtn.setAttribute('href', sliderHrefs[i]);
             }
 
 
