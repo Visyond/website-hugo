@@ -15,7 +15,7 @@ infoBlockFirst:
 
 
       * Generate descriptive statistics, probability density function and
-      cumulative distribution function.
+      cumulative distribution function
 
       * Manage uncertainty and risk and make forecasts quickly
 
