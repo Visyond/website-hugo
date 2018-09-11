@@ -4,7 +4,7 @@ feaDropdownCol:
       - descr: >-
           Spreadsheet data, assumptions, attachments, conversations and
           approvals are stored in a single place.
-        image: /img/knowledge-base@2x OLD.png
+        image: /img/knowledge-base@2x.png
         path: /features/knowledge-base
         title: Knowledge Base
       - descr: >-
@@ -82,7 +82,7 @@ feaDropdownCol:
           models better with Audit Mode.
         image: /img/audit-mode@2x.png
         path: /features/audit-mode
-        title: Audit Mode
+        title: Auditing
       - descr: >-
           Import and export spreadsheets, presentations, charts and reports with
           ease.
@@ -90,7 +90,7 @@ feaDropdownCol:
         path: /features/import-and-export
         title: Import / Export
     title: Modeling
-allFeaturesText: See All Features
+allFeaturesText: View All Features
 allFeaturesLink: 'https://visyond.com/features/'
 ---
 

@@ -27,25 +27,25 @@ infoBlockFirst:
         file: /img/Share Worksheet.png
         title: Share Worksheets
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: Share Presentations
     image: /img/Share Project.png
     title: Manage Access Level
 featuresTitle: Related Features
 featuresCards:
-  - icon: /img/feature-icons-v1_09.png
+  - icon: /img/knowledge-base@2x.png
     link: /features/knowledge-base/
     text: >-
       Spreadsheet data, assumptions, attachments, conversations and approvals
       are stored in a single place.
     title: Knowledge Base
-  - icon: /img/feature-icons-v1_03.png
+  - icon: /img/data-input@2x.png
     link: /features/data-input-and-consolidation/
     text: >-
       Automate data gathering & consolidation, reduce errors and save time
       auditing the spreadsheets.
     title: Data Input & Consolidation
-  - icon: /img/feature-icons-v1_21.png
+  - icon: /img/import-export@2x.png
     link: /features/import-and-export/
     text: >-
       Import and export spreadsheets, presentations, charts and reports with

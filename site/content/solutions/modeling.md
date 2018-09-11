@@ -88,9 +88,9 @@ infoBlockFirst:
       overwhelming them with non-relevant information and calculations.
     files:
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: SHARE PRESENTATIONS
-    image: /img/Share Slide in Browser.png
+    image: /img/Share Slide in Browser v2.png
     link: /features/selective-sharing/
     title: Share Only Relevant Data
   - descr: >-
@@ -136,10 +136,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
-      - file: /img/Presentation With Chart in Browser.png
-    image: /img/Interactive Slides in Browser v3.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
 capabilitiesList:

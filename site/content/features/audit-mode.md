@@ -55,7 +55,8 @@ infoBlockFirst:
           it contains.
         file: /img/Audit Mode On.png
         title: Audit Mode On
-      - file: /img/unit formatting.gif
+      - descr: Easily format cells with Visyond's customization tools.
+        file: /img/unit formatting.gif
         title: Unit Formatting
     image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
@@ -83,13 +84,13 @@ infoBlockFirst:
     title: Navigating Cell Dependencies
 featuresTitle: Related Features
 featuresCards:
-  - icon: /img/feature-icons-v1_21.png
+  - icon: /img/import-export@2x.png
     link: /features/import-and-export/
     text: >-
       Import and export spreadsheets, presentations, charts and reports with
       ease.
     title: Import / Export
-  - icon: /img/feature-icons-v1_09.png
+  - icon: /img/knowledge-base@2x.png
     link: /features/knowledge-base/
     text: >-
       Spreadsheet data, assumptions, attachments, conversations and approvals
@@ -101,7 +102,7 @@ featuresCards:
       Share spreadsheets and presentations fully or partially without exposing
       any other data or calculations.
     title: Selective Sharing
-  - icon: /img/feature-icons-v1_03.png
+  - icon: /img/data-input@2x.png
     link: /features/data-input-and-consolidation/
     text: >-
       Automate data gathering & consolidation, reduce errors and save time

@@ -23,7 +23,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/presentation top 1.jpg
+bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
       Make smarter decisions faster by getting valuable insights with
@@ -38,7 +38,12 @@ infoBlockFirst:
       presentations and update the output cells or charts in real-time without
       changing what is in the spreadsheet.
     files:
-      - file: /img/Interactive Dashboards in Browser.png
+      - descr: >-
+          Autoanalysis transforms lengthy and error-prone manual setup for
+          routine spreadsheet analyses into a 1-click job generating insightful
+          reports ready to be presented and updated on the fly.
+        file: /img/Interactive Dashboards in Browser.png
+        title: Run Autoanalysis in Visyond
     image: /img/Interactive Dashboards in Browser.png
     link: /features/interactive-presentations/
     title: Interactive Dashboards
@@ -52,8 +57,13 @@ infoBlockFirst:
       The process is simple and does not require wiring a line of code or
       unmaintainable macro.
     files:
-      - file: /img/Interactive Slides in Browser v3.png
-    image: /img/Interactive Slides in Browser v3.png
+      - descr: >-
+          Empower stakeholder to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/Interactive Slides in Browser v4.png
+        title: INTERACTIVE CALCULATORS & APPS
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
     title: Apps and Calculators Without Programming
   - descr: >-
@@ -73,9 +83,9 @@ infoBlockFirst:
       share just this slide with the client.
     files:
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser.png
+        file: /img/Share Slide in Browser v2.png
         title: SHARE PRESENTATIONS
-    image: /img/Share Slide in Browser.png
+    image: /img/Share Slide in Browser v2.png
     link: /features/selective-sharing/
     title: Secure Sharing of Presentations
   - descr: >-

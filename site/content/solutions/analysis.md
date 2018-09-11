@@ -8,7 +8,7 @@ topSubTitle: "Collaboratively perform advanced and routine data analysis in minu
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-bgImage: /img/analysts_consultants 1.jpg
+bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: >-
       Often there is a need to compare dozens of different probabilities and
@@ -87,9 +87,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v3.png
+        file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v3.png
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Secure Interactive Dashboards for Decision Making
   - descr: "Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output. With Visyond you can easily run Simulations without long manual setups.\r"

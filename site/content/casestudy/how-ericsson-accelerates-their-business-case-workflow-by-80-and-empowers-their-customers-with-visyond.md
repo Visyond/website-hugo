@@ -97,7 +97,7 @@ During meetings with the customers, Account Managers were often asked questions 
 
 ## The Excel model had to be encoded into a web app to help clients test assumptions independently
 
-Customers often asked to test assumptions by themselves. Real time assumption testing was becoming a priority, especially at trade shows where Ericsson wanted to showcase the value of their solutions and visitors needed a simple way to interact with the model.  Obviously, Ericsson could not share the Excel model on the flat screen at their boot  because it contained sensitive data, would not look professional, and would be time consuming for customers to understand and edit it.
+Customers often asked to test assumptions by themselves. Real time assumption testing was becoming a priority, especially at trade shows where Ericsson wanted to showcase the value of their solutions and visitors needed a simple way to interact with the model.  Obviously, Ericsson could not share the Excel model on the flat screen at their booth because it contained sensitive data, would not look professional, and would be time consuming for customers to understand and edit it.
 
 Therefore, Kedar **had to hire software developers to create a web version of his model**, sharing only certain key drivers, output cells and charts. Customers could test their assumptions in a simple and intuitive user interface without risking to break the model logic. However, this introduced various issues:
 

@@ -11,7 +11,16 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
       Simulation analysis is a powerful forecasting tool applicable to almost
-      every field - from Finance and Sales to Engineering.
+      every field - from Finance and Sales to Engineering:
+
+
+      * Generate descriptive statistics, probability density function and
+      cumulative distribution function
+
+      * Manage uncertainty and risk and make forecasts quickly
+
+      * Easily identify what probability distribution is more appropriate for
+      your data
     files:
       - descr: >-
           Visyond generates descriptive statistics, probability density function
@@ -20,8 +29,8 @@ infoBlockFirst:
         title: Monte Carlo Simulation
       - descr: >-
           If you do not know what probability distribution is more appropriate
-          for a certain input, click on the button What Distribution for my
-          Data? and paste you historical data. Visyond will show you the
+          for a certain input, click on the button 'What Distribution for my
+          Data?' and paste you historical data. Visyond will show you the
           cumulative distribution function of the historical dataset and the
           major theoretical distributions, so you can visually decide what is
           the best fit.
