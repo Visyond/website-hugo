@@ -640,6 +640,11 @@ collections: # A list of collections the CMS should be able to edit
             { label: "path", name: "path", widget: "string" }
           ]}
 
+          - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
+          - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
+          - {label: "Features Info Title", name: "featuresInfoTitle", widget: "string"}
+          - {label: "Features Info Descr", name: "featuresInfoDescr", widget: "text"}
+
 
 
       - file: "site/content/solutions-section/_index.md"
