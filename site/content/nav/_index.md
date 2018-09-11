@@ -4,5 +4,13 @@ resourcesDropdown:
     title: Help
   - path: /press/
     title: Press
+solutionsInfoTitle: Answer questions in seconds
+solutionsInfoDescr: >-
+  Explore our Solutions to learn more about how Visyond can help you, your team
+  and your clients!
+featuresInfoTitle: Answer questions in seconds
+featuresInfoDescr: >-
+  Explore our Features to learn more about how Visyond can help you, your team
+  and your clients!
 ---
 
