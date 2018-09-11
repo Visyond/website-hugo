@@ -342,8 +342,6 @@ $(function () {
 
               sliderItem.appendChild(sliderImage);
               sliderList.appendChild(sliderItem);
-
-              linkBtn.setAttribute('href', sliderHrefs[i]);
             }
 
 
@@ -387,6 +385,7 @@ $(function () {
               if(countSlide < sliderArray.length - 1) {
                 countSlide++;
                 showBtn();
+                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
               }
             });
 
@@ -395,6 +394,7 @@ $(function () {
               if(countSlide > 0) {
                 countSlide--;
                 showBtn();
+                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
               }
             });
 
@@ -403,12 +403,14 @@ $(function () {
                 if(countSlide < sliderArray.length - 1) {
                   countSlide++;
                   showBtn();
+                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
                 }
               }
               if(e.keyCode === 37 && popup) {
                 if(countSlide > 0) {
                   countSlide--;
                   showBtn();
+                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
                 }
               }
             };
