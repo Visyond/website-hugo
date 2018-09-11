@@ -77,7 +77,7 @@ infoBlockFirst:
         file: /img/Monte Carlo Simulation v3.png
         title: MONTE CARLO SIMULATION
     image: /img/v_clip_group_2.png
-    link: /solutions/analysis
+    link: ''
     title: Instantly Understand your Spreadsheet Data
   - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
     files:
