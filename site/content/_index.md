@@ -40,7 +40,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         title: Test Assumptions
     image: /img/v_clip_group_1.png
-    link: /solutions/collaboration
+    link: ''
     title: Collaborate and Build With Simplicity & Peace of Mind
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
@@ -51,7 +51,7 @@ infoBlockFirst:
         file: /img/root cause anim.gif
         title: Error Root Cause identification
     image: /img/v_clip_group_3.png
-    link: /solutions/governance
+    link: ''
     title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     files:
