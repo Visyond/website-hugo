@@ -16,21 +16,25 @@ infoBlockFirst:
           Securely store spreadsheet data; multiple assumptions, scenarios,
           conversations and attachments directly in the relevant cells
         file: /img/Attachments and Comments in Browser v2.png
+        link: /test
         title: Single Source Of Truth
       - descr: >-
           Limit what parts of the spreadsheet people can interact with, down to
           a single cell
         file: /img/Nice Model in Browser v2.png
+        link: /test2
         title: Secure Selective Sharing
       - descr: >-
           Keep track of inputs, changes and versions with always up-to-date
           automatic reports and interactive presentation
         file: /img/Cases in Browser v2.png
+        link: /test3
         title: Track Inputs
       - descr: >-
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet
         file: /img/Interactive Slides in Browser v3.png
+        link: /test4
         title: Test Assumptions
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration
@@ -39,9 +43,11 @@ infoBlockFirst:
     files:
       - descr: Easily export the relationships between the cells
         file: /img/Dependency in Browser.png
+        link: /test1
         title: Identify dependencies
       - descr: Easily traverse formulas and visualize error root causes.
         file: /img/root cause anim.gif
+        link: /test2
         title: Error Root Cause identification
     image: /img/v_clip_group_3.png
     link: /solutions/governance
@@ -52,25 +58,31 @@ infoBlockFirst:
           Instead of managing multiple version of the spreadsheet, combine data
           points into scenarios and switch them on-the-fly!
         file: /img/scenarios animated.gif
+        link: /test3
         title: Record different scenarios
       - descr: >-
           Comparing scenarios has never been easier - a few clicks and you are
           ready to answer 'what-if' questions!
         file: /img/Scenarios chart in Browser v4.png
+        link: /test4
         title: Scenario comparison
       - descr: 1-click Waterfall Scenario Analysis
         file: /img/grouped waterfall chart.png
+        link: /test5
         title: Waterfall charts
       - descr: >-
           Understand the relationships between input and output cells, without
           wasting hours
         file: /img/Sensitivity in Browser v4.png
+        link: /test6
         title: Sensitivity Analysis
       - descr: Compare relative importance of cells
         file: /img/it_3.jpg
+        link: /test7
         title: Tornado Analysis
       - descr: Easily run simulations on your data without long manual setups
         file: /img/it.jpg
+        link: /test1
         title: Monte Carlo simulations
     image: /img/v_clip_group_2.png
     link: /solutions/analysis
@@ -79,6 +91,7 @@ infoBlockFirst:
     files:
       - descr: Preparing various financial statements is easy and fast with Visyond
         file: /img/statements animated.gif
+        link: ''
         title: Financial Statements 1/2
       - descr: >-
           The reports are always in sync with the spreadsheet and are easy to
