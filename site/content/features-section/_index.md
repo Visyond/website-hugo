@@ -82,7 +82,7 @@ feaDropdownCol:
           models better with Audit Mode.
         image: /img/audit-mode@2x.png
         path: /features/audit-mode
-        title: Audit Mode
+        title: Auditing
       - descr: >-
           Import and export spreadsheets, presentations, charts and reports with
           ease.
