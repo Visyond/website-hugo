@@ -55,7 +55,8 @@ infoBlockFirst:
           it contains.
         file: /img/Audit Mode On.png
         title: Audit Mode On
-      - file: /img/unit formatting.gif
+      - descr: Easily format cells with Visyond's customization tools.
+        file: /img/unit formatting.gif
         title: Unit Formatting
     image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
