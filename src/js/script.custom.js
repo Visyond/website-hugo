@@ -591,7 +591,10 @@ $(function () {
 
      function linkHover(blockId, blockName) {
       const block = document.querySelector(`#${blockId}`);
+      const title = block.querySelector('.dropdown__info-title').innerHTML;
+      const descr = block.querySelector('.dropdown__info-descr').innerHTML;
       const showBlock = document.querySelector(`#${blockId} .dropdown__info`);
+      console.log(title, descr);
 
       block.addEventListener('mouseover', e => {
         if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
@@ -615,10 +618,10 @@ $(function () {
           if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
             const showTitle = document.createElement('h3');
             showTitle.classList.add('dropdown__info-title');
-            showTitle.innerHTML = 'Answer questions in seconds';
+            showTitle.innerHTML = title;
             const showDescr = document.createElement('div');
             showDescr.classList.add('dropdown__info-descr');
-            showDescr.innerHTML = `Explore our ${blockName} to learn more about how Visyond can help you, your team and your clients!`;
+            showDescr.innerHTML = descr;
 
             showBlock.innerHTML = '';
             showBlock.appendChild(showTitle);

@@ -5,6 +5,7 @@
 			<a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
 				<span>Solutions</span>
 			</a>
+			{{ with .Site.GetPage "section" "nav" }}
 			<div class="dropdown-menu-wrap">
 				<div
 					class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
@@ -27,6 +28,7 @@
 					<!-- //solutions lists links-->
 				</div>
 				</div>
+				{{end}}
 			</div>
 
 		<!-- </div> -->
@@ -35,6 +37,7 @@
 			<a href="#features-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
 				<span>Features</span>
 			</a>
+			{{ with .Site.GetPage "section" "nav" }}
 			<div class="dropdown-menu-wrap">
 				<div
 					class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
@@ -56,6 +59,7 @@
 				</div>
 
 				</div>
+				{{end}}
 			</div>
 
 		</li>
