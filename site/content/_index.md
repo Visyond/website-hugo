@@ -18,26 +18,31 @@ infoBlockFirst:
           Securely store spreadsheet data; multiple assumptions, scenarios,
           conversations and attachments directly in the relevant cells.
         file: /img/Attachments and Comments in Browser v2.png
+        link: /features/knowledge-base/
         title: Single Source Of Truth
       - descr: >-
           Instead of managing multiple versions of a spreadsheet, combine data
           points into scenarios and switch them on-the-fly!
         file: /img/scenario panel.gif
+        link: /features/scenarios/
         title: Record different scenarios
       - descr: >-
           Limit what parts of the spreadsheet people can interact with, down to
           a single cell.
         file: /img/Nice Model in Browser v2.png
+        link: /features/selective-sharing/
         title: Secure Selective Sharing
       - descr: >-
           Keep track of inputs, changes and versions with always up-to-date
           automatic reports and interactive presentation.
         file: /img/Cases in Browser v2.png
+        link: /features/knowledge-base/
         title: Track Inputs
       - descr: >-
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet.
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/interactive-presentations/
         title: Test Assumptions
     image: /img/v_clip_group_1.png
     link: /solutions/collaboration/
@@ -46,9 +51,11 @@ infoBlockFirst:
     files:
       - descr: Easily explore the relationships between the cells.
         file: /img/Dependency in Browser v2.png
+        link: /features/dependency-analysis/
         title: Identify dependencies
       - descr: Easily traverse formulas and visualize error root causes.
         file: /img/root cause anim.gif
+        link: /features/audit-mode/
         title: Error Root Cause identification
     image: /img/v_clip_group_3.png
     link: /solutions/governance/
@@ -59,22 +66,26 @@ infoBlockFirst:
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
+        link: /features/scenarios/
         title: COMPARE SCENARIOS IN REAL TIME
       - descr: >-
           With Visyond, you can run Impact (Tornado) Analysis without long
           manual setups and quickly see how sensitive your data set is to
           changes.
         file: /img/Tornado in Browser v4.png
+        link: /features/tornado/
         title: Stress-Test Your Data with Tornado Analysis
       - descr: >-
           Visyond’s Sensitivity Analysis lets you identify critical variables
           easily so you can focus on what’s important to save time and effort.
         file: /img/Sensitivity two-way v2.png
+        link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
       - descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
+        link: /features/simulations/
         title: MONTE CARLO SIMULATION
     image: /img/v_clip_group_2.png
     link: /solutions/analysis/
@@ -86,6 +97,7 @@ infoBlockFirst:
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS & APPS
       - descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
@@ -93,6 +105,7 @@ infoBlockFirst:
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
         file: /img/Financial Statements in Browser.png
+        link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
     image: /img/v_clip_group_4.png
     link: /solutions/presentation
