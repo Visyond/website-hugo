@@ -40,7 +40,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         title: Test Assumptions
     image: /img/v_clip_group_1.png
-    link: /solutions/collaboration
+    link: /solutions/collaboration/
     title: Collaborate and Build With Simplicity & Peace of Mind
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
@@ -51,7 +51,7 @@ infoBlockFirst:
         file: /img/root cause anim.gif
         title: Error Root Cause identification
     image: /img/v_clip_group_3.png
-    link: /solutions/governance
+    link: /solutions/governance/
     title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     files:
@@ -77,7 +77,7 @@ infoBlockFirst:
         file: /img/Monte Carlo Simulation v3.png
         title: MONTE CARLO SIMULATION
     image: /img/v_clip_group_2.png
-    link: /solutions/analysis
+    link: /solutions/analysis/
     title: Instantly Understand your Spreadsheet Data
   - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
     files:
