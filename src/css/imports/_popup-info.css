@@ -23,7 +23,7 @@
   max-height: 90%;
 }
 
-.popup div {
+.popup > div {
   width: 1440px;
   max-width: 80%;
   max-height: 90%;
@@ -149,13 +149,31 @@
   }
 }
 
+.js-btn-wrap {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  -o-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
 .js-visibility {
+  position: relative;
+  margin: 0 10px;
   width: 40px;
-  height: 40px;
+  height: 40px;/*
   position: absolute;
   opacity: .9;
   top: 10px;
-  right: 80px;
+  right: 140px;*/
   border-radius: 50%;
   background: #0086ff;
   color: #fff;
@@ -188,6 +206,7 @@
   &:before {
     content: "Hide description";
     font-size: 1rem;
+    line-height: 1.2;
     position: absolute;
     bottom: -100%;
     left: 50%;
@@ -210,13 +229,14 @@
 }
 
 .js-link {
-  display: none;
+  position: relative;
+  margin: 0 10px;
   width: 40px;
-  height: 40px;
+  height: 40px;/*
   position: absolute;
   opacity: .9;
   top: 10px;
-  right: 80px;
+  right: 80px;*/
   border-radius: 50%;
   background: #0086ff;
   color: #fff;
@@ -235,6 +255,10 @@
   outline: none;
   transition: .1s;
   font-weight: 600;
+  
+  &--hide {
+    display: none;
+  }
 
   &:hover {
     box-shadow: 0 5px 5px rgba(0,0,0,.5);
@@ -249,8 +273,9 @@
 
   &:before {
     font-weight: 400;
-    content: "Learn More";
+    content: "Learn more";
     font-size: 1rem;
+    line-height: 1.2;
     position: absolute;
     bottom: -100%;
     left: 50%;
@@ -273,12 +298,14 @@
 }
 
 .js-close {
+  position: relative;
+  margin: 0 10px;
   width: 40px;
-  height: 40px;
+  height: 40px;/*
   position: absolute;
   opacity: .9;
   top: 10px;
-  right: 20px;
+  right: 20px;*/
   border-radius: 50%;
   background: #0086ff;
   color: #fff;
@@ -311,6 +338,7 @@
   &:before {
     content: "Close";
     font-size: 1rem;
+    line-height: 1.2;
     position: absolute;
     bottom: -100%;
     left: 50%;

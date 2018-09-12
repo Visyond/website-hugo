@@ -312,13 +312,18 @@ $(function () {
             const closeBtn = document.createElement('button');
             const linkBtn = document.createElement('a');
             const visibilityBtn = document.createElement('button');
+            const btnWrap = document.createElement('div');
 
             prevBtn.classList.add('js-prev');
             nextBtn.classList.add('js-next');
             closeBtn.classList.add('js-close');
+            btnWrap.classList.add('js-btn-wrap');
             linkBtn.classList.add('js-link');
             linkBtn.setAttribute('target', '_blank');
             linkBtn.setAttribute('href', sliderHrefs[0]);
+            if(!sliderHrefs[0]) {
+              linkBtn.classList.add('js-link--hide');
+            }
             visibilityBtn.classList.add('js-visibility');
             prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>';
             nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>';
@@ -347,15 +352,16 @@ $(function () {
 
             listWrap.appendChild(sliderList);
             listWrap.appendChild(prevBtn);
-            listWrap.appendChild(closeBtn);
-            listWrap.appendChild(linkBtn);
+            listWrap.appendChild(btnWrap);
+            btnWrap.appendChild(closeBtn);
+            btnWrap.appendChild(linkBtn);
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
 
             (sliderList.querySelector('h3') 
             || sliderList.querySelector('p')) 
-            && listWrap.appendChild(visibilityBtn);
+            && btnWrap.appendChild(visibilityBtn);
             let countSlide = 0;
 
             // operation with slider
@@ -379,13 +385,22 @@ $(function () {
               sliderList.style.transform = `translateX(-${countSlide * widthSlide}px)`;
             }
 
+            function showLink(href) {
+              linkBtn.setAttribute('href', href);
+              if(href) {
+                linkBtn.classList.remove('js-link--hide');
+              } else {
+                linkBtn.classList.add('js-link--hide');
+              }
+            };
+
             showBtn();
 
             nextBtn.addEventListener('click', () => {
               if(countSlide < sliderArray.length - 1) {
                 countSlide++;
                 showBtn();
-                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
+                showLink(sliderHrefs[countSlide]);
               }
             });
 
@@ -394,7 +409,7 @@ $(function () {
               if(countSlide > 0) {
                 countSlide--;
                 showBtn();
-                linkBtn.setAttribute('href', sliderHrefs[countSlide]);
+                showLink(sliderHrefs[countSlide]);
               }
             });
 
@@ -403,14 +418,14 @@ $(function () {
                 if(countSlide < sliderArray.length - 1) {
                   countSlide++;
                   showBtn();
-                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
+                  showLink(sliderHrefs[countSlide]);
                 }
               }
               if(e.keyCode === 37 && popup) {
                 if(countSlide > 0) {
                   countSlide--;
                   showBtn();
-                  linkBtn.setAttribute('href', sliderHrefs[countSlide]);
+                  showLink(sliderHrefs[countSlide]);
                 }
               }
             };

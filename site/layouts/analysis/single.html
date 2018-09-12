@@ -51,7 +51,7 @@
         </div>
         {{ end }}
 
-        <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="an3rd__img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}">
+        <img src="{{ .Params.errorsImage }}" alt="collaborate on spreadsheets" class="an3rd__img" data-src="{{ range $file := .Params.errorsFiles }}{{ .file }}::{{ end }}" data-title="{{ range $file := .Params.errorsFiles }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .Params.errorsFiles }}{{ .descr }}::{{ end }}"  data-href="{{ range $file := .Params.errorsFiles }}{{ .link }}::{{ end }}">
     </div>
     </div>
 </div>
