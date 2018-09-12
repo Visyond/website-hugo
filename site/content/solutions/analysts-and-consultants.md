@@ -34,21 +34,25 @@ infoBlockFirst:
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
+        link: /features/scenarios/
         title: COMPARE SCENARIOS IN REAL TIME
       - descr: >-
           Know what input cells have the greatest impact on important output
           cells
         file: /img/Tornado in Browser v4.png
+        link: /features/tornado/
         title: Tornado (Impact) Analysis
       - descr: >-
           Visyond’s Sensitivity Analysis lets you identify critical variables
           easily so you can focus on what’s important to save time and effort.
         file: /img/Sensitivity two-way v2.png
+        link: /features/sensitivity/
         title: Focus On What’s Important
       - descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
+        link: /features/simulations/
         title: MONTE CARLO SIMULATION
     image: /img/Scenarios chart in Browser v4.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
@@ -67,12 +71,14 @@ infoBlockFirst:
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
         file: /img/Single source of truth.png
+        link: /features/knowledge-base/
         title: NEVER LOSE IMPORTANT INFORMATION
       - descr: >-
           Have all assumptions and numbers in a single place without worrying
           about controlling versions or chasing pieces of information in long
           email threads.
         file: /img/Cases in Browser v2.png
+        link: /features/scenarios/
         title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
@@ -88,6 +94,7 @@ infoBlockFirst:
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
         file: /img/track errors 1.png
+        link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
       - descr: >-
           It highlights error and circular cells clearly; The trendlines help
@@ -96,17 +103,20 @@ infoBlockFirst:
           identify the root cause of the error propagation chain with a few
           clicks.
         file: /img/track errors.png
+        link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
       - descr: >-
           In the Audit Mode each cell looks different based on the type of data
           it contains.
         file: /img/Audit Mode On.png
+        link: /features/audit-mode/
         title: AUDIT MODE ON
       - descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
+        link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
     image: /img/track errors 1.png
     link: /features/audit-mode/
@@ -118,6 +128,7 @@ infoBlockFirst:
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
@@ -131,14 +142,17 @@ infoBlockFirst:
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
         file: /img/Share Project.png
+        link: /features/selective-sharing/
         title: SHARE PROJECT
       - descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
         file: /img/Share Worksheet.png
+        link: /features/selective-sharing/
         title: SHARE WORKSHEETS
       - descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
+        link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
     image: /img/Share Project.png
     link: /features/selective-sharing/
