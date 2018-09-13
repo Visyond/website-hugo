@@ -15,12 +15,13 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
-  - descr: "Visyond’s built-in analysis tools automate time consuming tasks that would otherwise require expensive software, add-ons or error-prone lengthy manual setups. \r\n\r\nRun analysis on the fly, on the move, without waiting for your analysts. With Visyond, you can focus on the key performance metrics that are critical.\r\n"
+  - descr: "In seconds, Visyond lets you perform data analysis that used to take days, automate typical routine tasks and test assumptions safely:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real time with Visyond’s [Scenario](/features/scenarios/) & Waterfall Analysis\r\n* Compare relative importance of cells with instant [Tornado Analysis](/features/tornado/)\r\n* Understand the relationships between input and output cells with instant [Sensitivity Analysis](/features/sensitivity/)\r\n* Run simulations on your data with instant [Monte Carlo Simulation](/features/simulations/)"
     files:
       - descr: >-
           Sensitivity analysis is a great way to better understand relationships
           between inputs and outputs of your spreadsheet.
         file: /img/Sensitivity two-way v2.png
+        link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
       - descr: >-
           Ever wondered what input cells have the greatest impact on a key
@@ -28,95 +29,77 @@ infoBlockFirst:
           costs, grow your revenues or increase/decrease any important Key
           Performance Indicator?
         file: /img/Tornado in Browser v4.png
+        link: /features/tornado/
         title: Impact (Tornado) Analysis
       - descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
+        link: /features/simulations/
         title: MONTE CARLO SIMULATION
       - descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
+        link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
     image: /img/Sensitivity two-way v2.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Analyze And Make Better Decisions Quicker
-  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
+  - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
       - descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
+        link: /features/scenarios/
         title: COMPARE SCENARIOS IN REAL TIME
       - descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
         file: /img/Cases in Browser v2.png
+        link: /features/knowledge-base/
         title: ADD MULTIPLE ASSUMPTIONS
       - descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
         file: /img/Scenario Window in Browser.png
+        link: /features/scenarios/
         title: COMBINE ASSUMPTIONS INTO SCENARIOS
     image: /img/Scenarios chart in Browser v4.png
     link: /features/scenarios/
-    title: Answer What-If Questions Anywhere In Real Time
+    title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: >-
-      With Visyond you can eliminate dependency on the model creator by testing
-      your assumptions from any device without risking to break the model or any
-      formulas.
+      * Reduce dependency from the model creator by enabling collaborative
+      analysis and stress testing through interactive presentations and
+      calculators
     files:
       - descr: >-
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
         file: /img/Share Slide in Browser v2.png
+        link: /features/selective-sharing/
         title: SELECTIVELY SHARE PRESENTATIONS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
-    title: Eliminate Dependency on the Modeler
-  - descr: >-
-      Visyond makes data gathering & consolidation easier by helping you avoid
-      common issues that arise when collecting inputs. You no longer need to
-      create multiple spreadsheet templates, manually distribute it among
-      stakeholders risking accidental layout and formula changes and spending
-      long hours auditing the spreadsheets once you’ve received them back with
-      data.
-    files:
-      - descr: >-
-          You can share only specific cells you want stakeholders to contribute
-          data to by simply selecting the cells and inviting collaborators to
-          edit them.
-        file: /img/Templating - select cells.gif
-        title: TEMPLATING IN VISYOND 1/2
-      - descr: >-
-          Every time you invite a contributor (e.g., a colleague in a department
-          or subsidiary), Visyond creates a clone of the worksheet with a name
-          you assign.
-        file: /img/Templating - invite collaborators.gif
-        title: TEMPLATING IN VISYOND 2/2
-    image: /img/Nice Model in Browser v2.png
-    link: /features/data-input-and-consolidation/
-    title: Automate Data Gathering
-  - descr: >-
-      Visyond provides a safety net that helps in auditing the spreadsheet and
-      avoiding accidental mistakes. Automated debugging solutions such as Error
-      Root Cause and Cell Dependencies Analysis will also save you countless
-      hours that would be otherwise spent on tiresome manual error-hunting.
+    title: Remove Bottlenecks to Test Assumptions
+  - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
     files:
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
         file: /img/track errors 1.png
+        link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE
       - descr: >-
           It highlights error and circular cells clearly; The trendlines help
@@ -125,6 +108,7 @@ infoBlockFirst:
           identify the root cause of the error propagation chain with a few
           clicks.
         file: /img/track errors.png
+        link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE
       - descr: >-
           Visyond allows you to use human-readable names that immediately reveal
@@ -132,39 +116,59 @@ infoBlockFirst:
           cells (i.e., what is B7? and G41?), especially when they are on
           different worksheets.
         file: /img/human readable names.png
+        link: /features/audit-mode/
         title: HUMAN-READABLE NAMES
       - descr: Easily identify precedent and dependent cells.
         file: /img/navigate dependencies.gif
+        link: /features/dependency-analysis/
         title: NAVIGATE CELL DEPENDENCIES
     image: /img/track errors 1.png
     link: /features/audit-mode/
     title: Reduce Risk of Errors
-  - descr: "Traditional spreadsheets require lots of additional manual processes like passing data via email. This opens the door to a massive loss of time and high risk of working with inaccurate data.\r\n\r\nIn Visyond, data is securely stored in the cloud (or on-premise), you can manage and transfer team knowledge, conversations and supporting documents easily, track all inputs, changes and versions.\r\n"
+  - descr: "* You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n* Store all inputs, attachments and conversations directly in the relevant cells\r\n"
     files:
       - descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Single source of truth.png
+        file: /img/Attachments and Comments in Browser v2.png
+        link: /features/knowledge-base/
         title: NEVER LOSE IMPORTANT INFORMATION
-      - file: /img/Attachments and Comments in Browser v2.png
       - descr: >-
           Have all assumptions and numbers in a single place without worrying
           about controlling versions or chasing pieces of information in long
           email threads.
         file: /img/Cases in Browser v2.png
+        link: /features/knowledge-base/
         title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
       - descr: >-
           You can always roll-back entire versions of the spreadsheet if
           required.
         file: /img/Versions in Browser.png
+        link: /features/knowledge-base/
         title: VERSIONS
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
-  - descr: >-
-      After data is gathered, you can build reports & financial statements with
-      just a few clicks or create Interactive Presentations, empowering
-      stakeholders to securely test their own assumptions.
+  - descr: "* Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging the spreadsheets\r\n"
+    files:
+      - descr: >-
+          You can share only specific cells you want stakeholders to contribute
+          data to by simply selecting the cells and inviting collaborators to
+          edit them.
+        file: /img/Templating - select cells.gif
+        link: features/data-input-and-consolidation/
+        title: TEMPLATING IN VISYOND 1/2
+      - descr: >-
+          Every time you invite a contributor (e.g., a colleague in a department
+          or subsidiary), Visyond creates a clone of the worksheet with a name
+          you assign.
+        file: /img/Templating - invite collaborators.gif
+        link: features/data-input-and-consolidation/
+        title: TEMPLATING IN VISYOND 2/2
+    image: /img/Nice Model in Browser v2.png
+    link: /features/data-input-and-consolidation/
+    title: Automate Data Gathering
+  - descr: "* Build reports & financial statements with just a few clicks\r\n* Create Interactive Presentations, empowering stakeholders to securely test their own assumptions\r\n"
     files:
       - descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
@@ -172,12 +176,14 @@ infoBlockFirst:
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
         file: /img/Financial Statements in Browser.png
+        link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
       - descr: >-
           Empower stakeholder to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/interactive-presentations/
         title: INTERACTIVE CALCULATORS & APPS
     image: /img/Financial Statements in Browser.png
     link: /features/financial-statements/
