@@ -8,13 +8,62 @@ topSubTitle: >-
   As a finance professional, using traditional spreadsheets for budgeting,
   forecasting, and financial modeling can only eat away your time in building
   dashboards and auditing the reports. As the financial industry accelerates,
-  you need better solutions to spend minutes instead of days and avoid costly
-  mistakes.
+  you need better financial data analysis software s to spend minutes instead of
+  days and avoid costly mistakes - Visyond.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
+  - descr: "Visyond’s built-in analysis tools automate time consuming tasks that would otherwise require expensive software, add-ons or error-prone lengthy manual setups. \r\n\r\nRun analysis on the fly, on the move, without waiting for your analysts. With Visyond, you can focus on the key performance metrics that are critical.\r\n"
+    files:
+      - descr: >-
+          Sensitivity analysis is a great way to better understand relationships
+          between inputs and outputs of your spreadsheet.
+        file: /img/Sensitivity two-way v2.png
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Ever wondered what input cells have the greatest impact on a key
+          output so you can analyse them and understand how to reduce your
+          costs, grow your revenues or increase/decrease any important Key
+          Performance Indicator?
+        file: /img/Tornado in Browser v4.png
+        title: Impact (Tornado) Analysis
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/Monte Carlo Simulation v3.png
+        title: MONTE CARLO SIMULATION
+      - descr: >-
+          Dependency analysis gives you a bird’s eye view of your model in the
+          same way Google Maps does of a neighborhood. It’s a powerful auditing
+          tool, uncovering errors that would be otherwise painstaking to catch.
+        file: /img/Dependency in Browser v2.png
+        title: DEPENDENCY ANALYSIS
+    image: /img/Sensitivity two-way v2.png
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
+    title: Analyze And Make Better Decisions Quicker
+  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
+    files:
+      - descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        file: /img/Scenarios chart in Browser v4.png
+        title: COMPARE SCENARIOS IN REAL TIME
+      - descr: >-
+          Cells in Visyond can store multiple assumptions (cases) simultaneously
+          without overwriting other users' inputs.
+        file: /img/Cases in Browser v2.png
+        title: ADD MULTIPLE ASSUMPTIONS
+      - descr: >-
+          Combine as many assumptions as you like into one or multiple scenarios
+          that you can switch on-the-fly and immediately see how different
+          assumptions affect the outcome.
+        file: /img/Scenario Window in Browser.png
+        title: COMBINE ASSUMPTIONS INTO SCENARIOS
+    image: /img/Scenarios chart in Browser v4.png
+    link: /features/scenarios/
+    title: Answer What-If Questions Anywhere In Real Time
   - descr: >-
       With Visyond you can eliminate dependency on the model creator by testing
       your assumptions from any device without risking to break the model or any
@@ -112,34 +161,6 @@ infoBlockFirst:
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
-  - descr: "Visyond’s built-in analysis tools automate time consuming tasks that would otherwise require expensive software, add-ons or error-prone lengthy manual setups. \r\n\r\nRun analysis on the fly, on the move, without waiting for your analysts. With Visyond, you can focus on the key performance metrics that are critical.\r\n"
-    files:
-      - descr: >-
-          Sensitivity analysis is a great way to better understand relationships
-          between inputs and outputs of your spreadsheet.
-        file: /img/Sensitivity two-way v2.png
-        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - descr: >-
-          Ever wondered what input cells have the greatest impact on a key
-          output so you can analyse them and understand how to reduce your
-          costs, grow your revenues or increase/decrease any important Key
-          Performance Indicator?
-        file: /img/Tornado in Browser v4.png
-        title: Impact (Tornado) Analysis
-      - descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
-        title: MONTE CARLO SIMULATION
-      - descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/Dependency in Browser v2.png
-        title: DEPENDENCY ANALYSIS
-    image: /img/Sensitivity two-way v2.png
-    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Analyze And Make Better Decisions Quicker
   - descr: >-
       After data is gathered, you can build reports & financial statements with
       just a few clicks or create Interactive Presentations, empowering
@@ -161,27 +182,6 @@ infoBlockFirst:
     image: /img/Financial Statements in Browser.png
     link: /features/financial-statements/
     title: Streamline Your Reporting Process
-  - descr: "Scenario and What-If analysis often require the “model guru” to write, maintain and debug macros while continuously updating them to meet the reporting requirements. Visyond allows all collaborators to complete these tasks independently, speeding up delivery times and removing bottlenecks:\r\n\n* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n"
-    files:
-      - descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
-          few clicks!
-        file: /img/Scenarios chart in Browser v4.png
-        title: COMPARE SCENARIOS IN REAL TIME
-      - descr: >-
-          Cells in Visyond can store multiple assumptions (cases) simultaneously
-          without overwriting other users' inputs.
-        file: /img/Cases in Browser v2.png
-        title: ADD MULTIPLE ASSUMPTIONS
-      - descr: >-
-          Combine as many assumptions as you like into one or multiple scenarios
-          that you can switch on-the-fly and immediately see how different
-          assumptions affect the outcome.
-        file: /img/Scenario Window in Browser.png
-        title: COMBINE ASSUMPTIONS INTO SCENARIOS
-    image: /img/Scenarios chart in Browser v4.png
-    link: /features/scenarios/
-    title: Answer What-If Questions Anywhere In Real Time
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
