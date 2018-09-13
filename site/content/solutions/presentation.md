@@ -1,5 +1,7 @@
 ---
-title: Secure Spreadsheet Reporting and Visualization Software - Visyond
+title: >-
+  Automate Excel Reports with Interactive & Secure Real-Time Presentations,
+  Financial Data Visualization and Reporting - Visyond
 metaTags: >-
   <meta name="title" content="Automate Excel Reports, Financial Data
   Visualizations And Presentations with Visyond">
@@ -14,92 +16,51 @@ metaTags: >-
   <meta name="keywords" content="Automate Excel Reports, Financial Data
   Visualization, Presenting Financial Data">
 topTitle: >-
-  Automate Excel Reports - Interactive and Secure Real-Time Presentation,
+  Automate Excel Reports with Interactive & Secure Real-Time Presentations,
   Financial Data Visualization and Reporting
 topSubTitle: >-
-  Easily create insightful interactive slides based on  Visyond’s spreadsheet
-  calculation engine. Enable each collaborator to test their assumptions only on
-  information they are authorized to see and interact with
+  Create insightful interactive financial data visualizations  powered by
+  Visyond’s spreadsheet calculation engine. Empower each collaborator to test
+  assumptions only on information they are authorized to see or interact with.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
-  - descr: >-
-      Make smarter decisions faster by getting valuable insights with
-      **Visyond’s interactive dashboards that don’t require long manual setups
-      or programming and act as a separate sandbox environment linked to your
-      model**. 
-
-
-      They enable you and your collaborators to play with selected important
-      assumptions without interacting with the spreadsheet directly. Input
-      fields (i.e. sliders, drop-down lists, etc.) are placed on the
-      presentations and update the output cells or charts in real-time without
-      changing what is in the spreadsheet.
+  - descr: "* Make smarter decisions faster with Visyond’s interactive presentations that don’t require manual setups or programming and act as a  secure environment to test assumptions that is linked to your model\r\n* Enable your collaborators to stress-test selected important assumptions without interacting with the spreadsheet directly \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n"
     files:
       - descr: >-
-          Autoanalysis transforms lengthy and error-prone manual setup for
-          routine spreadsheet analyses into a 1-click job generating insightful
-          reports ready to be presented and updated on the fly.
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
         file: /img/Interactive Dashboards in Browser.png
-        title: Run Autoanalysis in Visyond
-    image: /img/Interactive Dashboards in Browser.png
+        link: /features/interactive-presentations/
+        title: INTERACTIVE PRESENTATIONS
+    image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
-    title: Interactive Dashboards
-  - descr: >-
-      Visyond interactive slides also let you **easily build various apps, such
-      as ROI calculators, Sales quotation calculators and many more that can be
-      shared with your colleagues, clients or embedded on a webpage with the
-      data being supplied from your spreadsheet**.
-
-
-      The process is simple and does not require wiring a line of code or
-      unmaintainable macro.
+    title: Improve Decision Making with Interactive Presentations
+  - descr: "* Easily build calculators, such as ROI, Sales quotation, KPI calculators and many more\r\n* Securely share calculators with your colleagues, clients or prospects\r\n"
     files:
       - descr: >-
           Empower stakeholder to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
+        link: /features/calculators/
         title: INTERACTIVE CALCULATORS & APPS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
-    title: Apps and Calculators Without Programming
-  - descr: >-
-      With Visyond’s granular permission control and secure selective sharing
-      you can **expose only parts of the model and presentations slides that you
-      deem necessary with only specific stakeholders**. 
-
-
-      Do you want your clients or colleagues to understand how different
-      scenarios affect the outcome but don’t want them to accidentally break the
-      calculations you’ve been working on or see unnecessary details in a
-      crowded spreadsheet?
-
-
-      With Visyond it is simple - in few clicks generate the scenarios, put them
-      on a Visyond slides with selected input / output cells and charts, and
-      share just this slide with the client.
+    title: Create Сustom Calculators Without Programming
+  - descr: "* Expose only parts of the spreadsheets and presentations that you deem necessary with only specific stakeholders, i.e. share only slide 1, 2 but not slide 3\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n* Advanced granular access permission to a cell level using using Visyond’s [selective sharing](/features/selective-sharing/) technology\r\n"
     files:
       - descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
+        link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
     image: /img/Share Slide in Browser v2.png
     link: /features/selective-sharing/
-    title: Secure Sharing of Presentations
-  - descr: >-
-      **Quickly generate financial statements directly in Visyond** - Balance
-      Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for
-      financial and management accounting. You don’t have to spend tedious time
-      for writing plugs, macros or circular references to make statements
-      balance. 
-
-
-      No more triangular depreciation schedules to be checked every time
-      something changes. No more formatting and reformatting.. All you need to
-      do is specify what data should go into each category (e.g., revenues,
-      OPEX, CAPEX, etc.) and Visyond will do the rest for you.
+    title: Secure Sharing of Presentations and Calculators
+  - descr: "* Quickly generate financial statements directly in Visyond - Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial & management accounting \r\n* You don’t have to spend time writing or adding plugs, macros or circular references to make statements balance\r\n* No more triangular depreciation schedules to be checked every time something changes \r\n* No more formatting and reformatting. All you need to do is specify what data should go into each category (e.g., revenues, OPEX, CAPEX, etc.) and Visyond will do the rest for you\r\n"
     files:
       - descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
@@ -107,13 +68,14 @@ infoBlockFirst:
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
         file: /img/Financial Statements in Browser.png
+        link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
     image: /img/Financial Statements in Browser.png
     link: /features/financial-statements/
-    title: Autogenerated Financial Statements
+    title: Auto-generated Financial Statements
 capabilitiesList:
   - image: /img/feature-icons-v1_25.png
-    text: Quickly create powerful visualizations without coding
+    text: Quickly create powerful visualizations
   - image: /img/feature-icons-v1_09.png
     text: Enable stakeholders to answer questions on-the-fly
   - image: /img/feature-icons-v1_13.png
