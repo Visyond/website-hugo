@@ -4,18 +4,15 @@ metaTags: "<meta name=\"title\" content=\"Data Analysis and Business Consulting 
 topTitle: >-
   Data Analysis and Business Consulting Software - Transform The Way You Analyze
   & Present Data and Make Better Decisions, faster
-topSubTitle: >-
-  As an analyst or consultant, you constantly analyse and recommend the best
-  course of action based on the numbers. Visyond makes this process smooth and
-  fast.
+topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
-      In seconds, Visyond lets you **perform analyses that used to take days,
-      automate typical routine tasks and test assumptions safely:**
+      In seconds, Visyond lets you perform data analysis that used to take days,
+      automate typical routine tasks and test assumptions safely:
 
 
       * Graphically compare scenarios and answer ‘what-if’ questions in real
@@ -56,16 +53,8 @@ infoBlockFirst:
         title: MONTE CARLO SIMULATION
     image: /img/Scenarios chart in Browser v4.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Analyze On-The-Fly
-  - descr: >-
-      Visyond offers a single place to store all your spreadsheet data -
-      assumptions, supporting documentation, conversations and approvals. Forget
-      about back & forth emails with bits of information, multiple versions of
-      the spreadsheet flying around and critical data lost along the way. 
-
-
-      You can manage and transfer team knowledge easily and stop being called
-      all the time just to make minor changes.
+    title: Data Analysis On-The-Fly
+  - descr: "* A single place to store all your spreadsheet data: assumptions, supporting documentation, conversations and approvals\r\n* No back & forth emails with bits of information, multiple versions of the spreadsheet flying around and critical data lost along the way\r\n* Manage and transfer team or client knowledge easily and stop being called all the time just to make minor changes\r\n"
     files:
       - descr: >-
           All conversations and supporting documentation can be stored directly
@@ -83,12 +72,7 @@ infoBlockFirst:
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
     title: Track & Never Lose Critical Information
-  - descr: >-
-      Mistakes can be costly - this is why it is imperative to ensure that the
-      source model is robust and calculations are correct. With Visyond you can
-      quickly identify the root causes of errors, [explore cell
-      dependencies](/features/dependency-analysis/) and audit the spreadsheet in
-      [Audit Mode](/features/audit-mode/).
+  - descr: "Mistakes can be costly . With Visyond you can quickly:\r\n\r\n* Identify the root causes of errors\r\n* Explore [cell dependencies](/features/dependency-analysis/)\r\n* Audit the spreadsheet in [Audit Mode](/features/audit-mode/)"
     files:
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
@@ -121,7 +105,7 @@ infoBlockFirst:
     image: /img/track errors 1.png
     link: /features/audit-mode/
     title: Audit and Debug Models with Ease
-  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a secure environment for your stakeholders to play with assumptions.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
+  - descr: "* Visualize & present the data with Interactive Presentations\r\n* Have a secure environment for your stakeholders to play with assumptions\r\n* Charts and calculations in presentations are updated and automatically synced only for you without affecting anyone else’s views or the underlying spreadsheet\r\n"
     files:
       - descr: >-
           Empower stakeholders to test their own assumptions without interacting
@@ -133,10 +117,7 @@ infoBlockFirst:
     image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
     title: Present with Impact
-  - descr: >-
-      Visyond allows you to communicate more efficiently while avoiding data
-      leaks. It removes the need for emailing spreadsheets, back-and-forth
-      copy-paste between PowerPoint and Excel or any other visualization tools.
+  - descr: "* Communicate more efficiently while avoiding data leaks\r\n* No need for emailing spreadsheets or presentations\r\n* No back-and-forth copy-paste between PowerPoint and Excel or any other visualization tools\r\n"
     files:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
