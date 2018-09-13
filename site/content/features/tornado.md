@@ -1,5 +1,5 @@
 ---
-title: Tornado
+title: Tornado Analysis - Visyond
 topTitle: Know What Input Cells Have The Greatest Impact On Important Output Cells
 topSubTitle: >-
   Ever wondered what input cells have the greatest impact on a key output so you
@@ -9,18 +9,15 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >
-      With Visyond, you can run Impact (Tornado) Analysis without long manual
-      setups and quickly see how sensitive your data set is to changes.
+  - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
       - descr: >-
-          Sometimes models get too complex. With Visyond you can simplify them
-          by identifying variables with no significant impact on the output and
-          how they interact with one another.
+          Impact (Tornado) analysis will instantly show you  what inputs have
+          the greatest impact on outputs and how they interact with one another 
         file: /img/Tornado in Browser v4.png
-        title: Simplify Models
+        title: Tornado Analysis
     image: /img/Tornado in Browser v4.png
-    title: Stress-Test Your Data
+    title: Identify Important Cells and Their Impact
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/scenarios@2x.png
