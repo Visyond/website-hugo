@@ -51,7 +51,7 @@ infoBlockFirst:
     image: /img/Interactive Slides in Browser v4.png
     link: /features/calculators/
     title: Create Сustom Calculators Without Programming
-  - descr: "* Expose only parts of the spreadsheets and presentations that you deem necessary with only specific stakeholders, i.e. share only slide 1, 2 but not slide 3\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n* Advanced granular access permission to a cell level using using Visyond’s selective sharing technology\r\n"
+  - descr: "* Expose only parts of the spreadsheets and presentations that you deem necessary with only specific stakeholders, i.e. share only slide 1, 2 but not slide 3\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n* Advanced granular access permission to a cell level using using Visyond’s [selective sharing](/features/selective-sharing/) technology\r\n"
     files:
       - descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
