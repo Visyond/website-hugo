@@ -1,7 +1,5 @@
 ---
-title: >-
-  Financial Modeling Software - Analyze & Build Models Faster and Make Better
-  Decisions - Visyond
+title: Financial Modeling Software | Visyond
 metaTags: "<meta name=\"title\" content=\"Visyond’s Spreadsheet Modeling Software\">\r\n \r\n<meta name=\"description\" content=\"Automate Spreadsheet Financial Modeling Tasks and Minimize the Risk of Errors with Visyond's Excel-compatible Spreadsheet Modeling Software..\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet Modeling Software, Financial Modeling Software\">\r\n"
 topTitle: >-
   Financial Modeling Software - Analyze & Build Models Faster and Make Better
