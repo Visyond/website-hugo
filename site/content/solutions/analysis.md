@@ -1,7 +1,5 @@
 ---
-title: >-
-  Financial Analysis Software - An Elegant Solution for Analyzing Spreadsheet
-  Data as a Team and Answering Questions On-The-Fly - Visyond
+title: Data Analysis Software | Visyond
 metaTags: "<meta name=\"title\" content=\"Financial Analysis Software\">\n\n<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence data analysis software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\n\r\n<meta name=\"keywords\" content=\"data analysis software, spreadsheet data analysis\">"
 topTitle: >-
   Financial Analysis Software - An Elegant Solution for Analyzing Spreadsheet
