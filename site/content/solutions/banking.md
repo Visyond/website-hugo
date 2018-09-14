@@ -1,5 +1,5 @@
 ---
-title: Risk Management Software for Banks | Visyond
+title: Risk Management Software for Banks
 metaTags: "<meta name=\"title\" content=\"Visyond’s Risk Management Software for Banks\">\r\n\r\n<meta name=\"description\" content=\"As a banking professional, you might often face these key challenges: ad-hoc model preparation & auditing requires inadequate time, lack of tracking & control over data changes and inputs, manual stress-testing and workflows, and having supporting information scattered around in endless threads of back-and-forth emails.\">\r\n \r\n<meta name=\"keywords\" content=\"Risk management software for banks\">\r\n"
 topTitle: >-
   Risk Management Software for Banks - Better Lending Decisions, Higher
