@@ -1,7 +1,5 @@
 ---
-title: >-
-  Automate Excel Reports with Interactive & Secure Real-Time Presentations,
-  Financial Data Visualization and Reporting - Visyond
+title: Automate Excel Reports | Visyond
 metaTags: >-
   <meta name="title" content="Automate Excel Reports, Financial Data
   Visualizations And Presentations with Visyond">
