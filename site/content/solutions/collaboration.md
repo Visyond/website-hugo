@@ -1,5 +1,5 @@
 ---
-title: Secure and Simple Spreadsheet Collaboration Software - Visyond
+title: Spreadsheet Collaboration Software | Visyond
 metaTags: "<meta name=\"title\" content=\"Secure and Simple Spreadsheet Collaboration Online\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s patent-pending secure selective sharing & spreadsheet collaboration online software for teams to streamline and track spreadsheet data.\">\r\n\r\n<meta name=\"keywords\" content=\"Spreadsheet collaboration software, spreadsheet collaboration online\">"
 topTitle: Secure and Simple Spreadsheet Collaboration Software
 topSubTitle: >-
