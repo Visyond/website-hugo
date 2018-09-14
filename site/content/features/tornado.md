@@ -1,5 +1,5 @@
 ---
-title: Tornado Analysis - Visyond
+title: Tornado Analysis
 topTitle: Know What Input Cells Have The Greatest Impact On Important Output Cells
 topSubTitle: >-
   Ever wondered what input cells have the greatest impact on a key output so you
