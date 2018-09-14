@@ -8,7 +8,7 @@ topSubTitle: >-
   As a finance professional, using traditional spreadsheets for budgeting,
   forecasting, and financial modeling can only eat away your time in building
   dashboards and auditing the reports. As the financial industry accelerates,
-  you need better financial data analysis software s to spend minutes instead of
+  you need better financial data analysis software to spend minutes instead of
   days and avoid costly mistakes - Visyond.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
