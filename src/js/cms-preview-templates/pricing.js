@@ -120,10 +120,10 @@ export default class Pricing extends React.Component {
                     {item.get('list').map((col, index) => <li className="pri-thi__col-item" key={index}>
                         {col.get('descr')}  
                       </li>)}
-                    </ul>
-                  </div>)}
-                </div>
+                  </ul>
+                </div>)}
               </div>
+            </div>
 
 
 

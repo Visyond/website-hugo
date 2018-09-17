@@ -69,27 +69,40 @@ export default class Pricings extends React.Component {
                   <div className="prs2nd__btn-wrap">
                       <a href={entry.getIn(['data', 'cardsLink'])} className="prs2nd__btn" aria-label="button">FREE 14 DAY TRIAL</a>
                   </div>
-
-                  <div className="prs2nd__asked-wrap">
-                      <p className="prs2nd__asked-descr">
-                          {entry.getIn(['data', 'priceClientAsked'])}
-                      </p>
-                      <address className="prs2nd__asked-company">{entry.getIn(['data', 'priceClientAsked'])}</address>
-                      <img src={entry.getIn(['data', 'priceClientCompanyLogo'])} alt="" className="prs2nd__asked-img" />
-                  </div>
               </div>
           </section>
 
+          <div className="third-section prs3rd">
+            <div className="prs3rd__cols">
+              {(entry.getIn(["data", "bottomColumns"]) || []).map((item, index) => <div className="prs3rd__col" key={index}>
+                <h3 className="prs3rd__col-title">
+                  { item.get('title') }
+                </h3>
+                <ul className="prs3rd__col-list">
+                  {item.get('list').map((col, index) => <li className="prs3rd__col-item" key={index}>
+                      {col.get('descr')}  
+                    </li>)}
+                </ul>
+              </div>)}
+            </div>
+          </div>
 
+          <div className="prs2nd__asked-wrap">
+              <p className="prs2nd__asked-descr">
+                  {entry.getIn(['data', 'priceClientAsked'])}
+              </p>
+              <address className="prs2nd__asked-company">{entry.getIn(['data', 'priceClientAsked'])}</address>
+              <img src={entry.getIn(['data', 'priceClientCompanyLogo'])} alt="" className="prs2nd__asked-img" />
+          </div>
 
-          <section className="third-section prs3rd">
+          {/*<section className="third-section prs3rd">
             <h3 className="prs3rd__title">
               {entry.getIn(['data', 'titleBottom'])}
             </h3>
             <a href={entry.getIn(['data', 'linkBottom'])} className="prs3rd__btn prs3rd__btn--request">
               request a demo
             </a>
-          </section>
+          </section>*/}
           </div>
         );
     }
