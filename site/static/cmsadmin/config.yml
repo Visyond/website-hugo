@@ -455,6 +455,13 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Price Client Company", name: "priceClientCompany", widget: "string"}
       - {label: "Price Client Company Logo", name: "priceClientCompanyLogo", widget: "image"}
 
+      - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [
+            {label: "Bottom Column Title", name: "title", widget: string},
+            {label: "Bottom Column List", name: "list", widget: list, fields: [
+              {label: "Bottom Description", name: "descr", widget: markdown}
+            ]}
+          ]}
+
       - {label: "Background Bottom", name: "bgBottom", widget: "image"}
       - {label: "Title Bottom", name: "titleBottom", widget: "string"}
       - {label: "Link Bottom", name: "linkBottom", widget: "string", default: "https://visyond.com/contacts/", required: false}

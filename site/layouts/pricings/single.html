@@ -84,6 +84,27 @@
 </section>
 <!-- //second section -->
 
+<!-- third section -->
+<div class="third-section prs3rd">
+    <div class="prs3rd__cols">
+        {{ range $el := .Params.BottomColumns }}
+        <div class="prs3rd__col">
+            <h3 class="prs3rd__col-title">
+                {{ $el.title }}
+            </h3>
+            <ul class="prs3rd__col-list">
+                {{ range $elem := $el.list }}
+                <li class="prs3rd__col-item">
+                    {{ $elem.descr | markdownify}}  
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+</div>
+<!-- //third section -->
+
 <!-- trusted section -->
 {{ partial "testimonials" . }}
 <!-- ./trusted section -->
