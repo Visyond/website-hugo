@@ -138,6 +138,33 @@ infoBlockFirst:
     image: /img/Share Project.png
     link: /features/selective-sharing/
     title: Share Only What Collaborators Or Clients Need To See
+solutionsTitle: Related Solutions
+solutionsCards:
+  - icon: /img/collaborative_analysis_3x.png
+    link: /solutions/analysis/
+    text: >-
+      Collaboratively perform spreadsheet data analysis and securely share
+      valuable business insights with Visyond’s data analysis software.
+    title: Collaborative Analysis
+  - icon: /img/report_presentation_visualization_3x.png
+    link: /solutions/presentation/
+    text: >-
+      Create insightful interactive data visualizations and empower
+      collaborators to test assumptions only on information they are authorized
+      to see.
+    title: 'Reports, Presentations and Visualizations'
+  - icon: /img/decision_makers_3x.png
+    link: /solutions/decision-makers/
+    text: >-
+      Make fast and accurate decisions with Visyond’s collaborative decision
+      making software.
+    title: Decision Makers
+  - icon: /img/finance_3x.png
+    link: /solutions/finance/
+    text: >-
+      Secure and automated spreadsheets to simplify your financial data analysis
+      workflow.
+    title: Finance
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
