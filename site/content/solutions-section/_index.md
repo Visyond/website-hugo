@@ -90,5 +90,7 @@ solDropdownCol:
         image: /img/insurance_3x.png
         title: Insurance
     title: INDUSTRY
+allFeaturesText: /solutions
+allFeaturesLink: View all solutions
 ---
 
