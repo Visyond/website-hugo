@@ -36,6 +36,71 @@ section:
           analysis workflow.
         title: Finance
     title: Function
+  - cards:
+      - icon: /img/spreadsheet_collaboration_3x.png
+        link: /solutions/collaboration/
+        text: >-
+          Greatly accelerate and simplify the gathering of inputs from multiple
+          stakeholders and empower online spreadsheet collaboration with
+          Visyond’s selective sharing & granular permissions control.
+        title: Spreadsheet Collaboration
+      - icon: /img/data_governance_3x.png
+        link: /solutions/governance/
+        text: >-
+          Improve your spreadsheet data tracking - minimize errors, reduce the
+          risks of unauthorized access, data overriding, track changes in an
+          Excel like environment and avoid breaking the model while testing
+          assumptions.
+        title: Data Governance
+      - icon: /img/collaborative_analysis_3x.png
+        link: /solutions/analysis/
+        text: >-
+          Collaboratively perform spreadsheet data analysis in minutes instead
+          of days and securely share valuable business insights with Visyond’s
+          data analysis software.
+        title: Collaborative Analysis
+      - icon: /img/report_presentation_visualization_3x.png
+        link: /solutions/presentation/
+        text: >-
+          Create insightful interactive financial data visualizations powered by
+          Visyond’s spreadsheet calculation engine. Empower each collaborator to
+          test assumptions only on information they are authorized to see or
+          interact with.
+        title: 'Reports, Presentations and Visualizations'
+      - icon: /img/modelling_3x.png
+        link: /solutions/modeling/
+        text: >-
+          Visyond’s spreadsheet modeling software aids modeling professionals on
+          every step of the way by automating routine tasks, minimizing the risk
+          of errors in an intuitive Excel-compatible platform.
+        title: Modeling
+    title: Use Case
+  - cards:
+      - icon: /img/banking_3x.png
+        link: /solutions/banking/
+        text: >-
+          Risk management software for banks - better lending decisions and
+          higher portfolio profitability.
+        title: Banking
+      - icon: /img/management_consulting_3x.png
+        link: /solutions/analysts-and-consultants/
+        text: Coming soon!
+        title: Management Consulting
+      - icon: /img/financial_services_3x.png
+        link: /solutions/finance/
+        text: Coming soon!
+        title: Financial Services
+      - icon: /img/telecommunication_3x.png
+        text: Coming soon!
+        title: Telecommunication
+      - icon: /img/real_estate_3x.png
+        link: ''
+        text: Coming soon!
+        title: Real Estate
+      - icon: /img/insurance_3x.png
+        text: Coming soon!
+        title: Insurance
+    title: Industry
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 botRequestURL: /request
