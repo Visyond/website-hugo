@@ -68,21 +68,21 @@ solDropdownCol:
         image: /img/banking_3x.png
         path: /solutions/banking/
         title: Banking
-      - descr: Coming soon!
+      - descr: ''
         image: /img/management_consulting_3x.png
         path: /solutions/analysts-and-consultants/
         title: Management Consulting
-      - descr: Coming soon!
+      - descr: ''
         image: /img/financial_services_3x.png
         path: /solutions/finance/
         title: Financial Services
-      - descr: Coming soon!
+      - descr: ''
         image: /img/telecommunication_3x.png
         title: Telecommunication
-      - descr: Coming soon!
+      - descr: ''
         image: /img/real_estate_3x.png
         title: Real Estate
-      - descr: Coming soon!
+      - descr: ''
         image: /img/insurance_3x.png
         title: Insurance
     title: INDUSTRY
