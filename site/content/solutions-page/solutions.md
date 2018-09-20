@@ -1,7 +1,7 @@
 ---
 title: Solutions
 url: solutions
-topTitle: Solutions For
+topTitle: Solutions
 topSubTitle: >-
   Explore our Solutions to learn more about how Visyond can help you, your team
   and your clients!
