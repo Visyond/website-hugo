@@ -165,6 +165,13 @@ solutionsCards:
       Secure and automated spreadsheets to simplify your financial data analysis
       workflow.
     title: Finance
+  - icon: /img/modelling_3x.png
+    link: /solutions/modeling/
+    text: >-
+      Visyond’s spreadsheet modeling software aids modelers by automating
+      routine tasks, minimizing the risk of errors in an intuitive
+      Excel-compatible platform.
+    title: Modeling
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
