@@ -159,12 +159,6 @@ solutionsCards:
       Make fast and accurate decisions with Visyond’s collaborative decision
       making software.
     title: Decision Makers
-  - icon: /img/finance_3x.png
-    link: /solutions/finance/
-    text: >-
-      Secure and automated spreadsheets to simplify your financial data analysis
-      workflow.
-    title: Finance
   - icon: /img/modelling_3x.png
     link: /solutions/modeling/
     text: >-
