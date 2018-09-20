@@ -40,39 +40,35 @@ section:
       - icon: /img/spreadsheet_collaboration_3x.png
         link: /solutions/collaboration/
         text: >-
-          Greatly accelerate and simplify the gathering of inputs from multiple
-          stakeholders and empower online spreadsheet collaboration with
-          Visyond’s selective sharing & granular permissions control.
+          Accelerate and simplify the gathering of inputs from multiple
+          stakeholders and empower online spreadsheet collaboration.
         title: Spreadsheet Collaboration
       - icon: /img/data_governance_3x.png
         link: /solutions/governance/
         text: >-
-          Improve your spreadsheet data tracking - minimize errors, reduce the
-          risks of unauthorized access, data overriding, track changes in an
-          Excel like environment and avoid breaking the model while testing
-          assumptions.
+          Improve spreadsheet data tracking - reduce the risks of errors,
+          unauthorized access, data overriding and breaking the model while
+          testing assumptions.
         title: Data Governance
       - icon: /img/collaborative_analysis_3x.png
         link: /solutions/analysis/
         text: >-
-          Collaboratively perform spreadsheet data analysis in minutes instead
-          of days and securely share valuable business insights with Visyond’s
-          data analysis software.
+          Collaboratively perform spreadsheet data analysis and securely share
+          valuable business insights with Visyond’s data analysis software.
         title: Collaborative Analysis
       - icon: /img/report_presentation_visualization_3x.png
         link: /solutions/presentation/
         text: >-
-          Create insightful interactive financial data visualizations powered by
-          Visyond’s spreadsheet calculation engine. Empower each collaborator to
-          test assumptions only on information they are authorized to see or
-          interact with.
+          Create insightful interactive data visualizations and empower
+          collaborators to test assumptions only on information they are
+          authorized to see.
         title: 'Reports, Presentations and Visualizations'
       - icon: /img/modelling_3x.png
         link: /solutions/modeling/
         text: >-
-          Visyond’s spreadsheet modeling software aids modeling professionals on
-          every step of the way by automating routine tasks, minimizing the risk
-          of errors in an intuitive Excel-compatible platform.
+          Visyond’s spreadsheet modeling software aids modelers by automating
+          routine tasks, minimizing the risk of errors in an intuitive
+          Excel-compatible platform.
         title: Modeling
     title: Use Case
   - cards:
