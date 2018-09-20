@@ -80,21 +80,21 @@ section:
         title: Banking
       - icon: /img/management_consulting_3x.png
         link: /solutions/analysts-and-consultants/
-        text: Coming soon!
+        text: ''
         title: Management Consulting
       - icon: /img/financial_services_3x.png
         link: /solutions/finance/
-        text: Coming soon!
+        text: ''
         title: Financial Services
       - icon: /img/telecommunication_3x.png
-        text: Coming soon!
+        text: ''
         title: Telecommunication
       - icon: /img/real_estate_3x.png
         link: ''
-        text: Coming soon!
+        text: ''
         title: Real Estate
       - icon: /img/insurance_3x.png
-        text: Coming soon!
+        text: ''
         title: Insurance
     title: Industry
 titleBottom: Find out how to improve your decision-making process today
