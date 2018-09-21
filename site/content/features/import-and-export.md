@@ -10,10 +10,7 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      You don’t have to build your spreadsheet from scratch when starting with
-      Visyond, simply import it and you are ready to go! You can always export
-      the spreadsheet from Visyond to Excel.
+  - descr: "* You don’t have to build your spreadsheet from scratch - import it to Visyond, and you are ready to go\r\n* Visyond can handle even the most complex spreadsheets and is cross-compatible with Excel\r\n* Export spreadsheets from Visyond to Excel at any time\r\n"
     files:
       - descr: Upload your model and continue working on it in Visyond.
         file: /img/Import Spreadsheet.png
@@ -21,14 +18,7 @@ infoBlockFirst:
     image: /img/Import Spreadsheet.png
     link: 'https://help.visyond.com/articles/importing-from-excel/'
     title: Import / Export Spreadsheets
-  - descr: >-
-      After building charts, analyses, presentations and Financial Statements
-      you can always export them into various formats.
-
-
-      Avoid the copy-paste of static charts and embrace Visyonds [Interactive
-      Presentations](https://visyond.com/features/interactive-presentations/)
-      module.
+  - descr: "* Export Visyond’s interactive presentations to static PowerPoint at any time\r\n* Export charts, reports and financial statements into various formats\r\n"
     files:
       - descr: 'Export presentations, charts, reports to PowerPoint and other formats.'
         file: /img/Export Slides In Browser.png
