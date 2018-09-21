@@ -1,17 +1,17 @@
 ---
-title: Data Input and Consolidation
-topTitle: Structured Data Input and Consolidation
-topSubTitle: "You no longer need to create multiple spreadsheet templates, manually distribute it among stakeholders risking accidental layout and formula changes and spending long hours auditing the spreadsheets once you’ve received them back with data.\r\n"
+title: Merge Spreadsheets & Consolidate Data with Visyond
+metaTags: "<meta name=\"title\" content=\"Merge Spreadsheets with Visyond’s Spreadsheet Data Consolidation software”>\r\n\r\n<meta name=\"description\" content=\"Easily gather & consolidate data and merge Excel spreadsheets with Visyond’s data gathering and consolidation tool.\">\r\n\r\n<meta name=\"keywords\" content=\"merge spreadsheets, merge excel spreadsheets, excel data consolidation tool\">"
+topTitle: Structured Spreadsheet Data Gathering and Consolidation
+topSubTitle: >-
+  Easily gather & consolidate data and merge spreadsheets - you no longer need
+  to create multiple spreadsheet templates, manually distribute it among
+  stakeholders risking accidental layout and formula changes and spending long
+  hours auditing the spreadsheets once you’ve received them back with data.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      You can share only specific cells you want stakeholders to contribute data
-      to by simply selecting the cells and inviting collaborators to edit them.
-      Every time you invite a contributor (e.g., a colleague in a department or
-      subsidiary), Visyond creates a clone of the worksheet with a name you
-      assign.
+  - descr: "* Share only specific cells or worksheets you want stakeholders to contribute data to\r\n* Avoid accidental layout changes or data overrides during data gathering as collaborators work with their own instances of a shared worksheet\r\n"
     files:
       - descr: >-
           Set some of the input cells and only allow contributors to edit
@@ -26,12 +26,8 @@ infoBlockFirst:
         title: Invite Collaborators To Edit
     image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/structured-data-input-and-consolidation/'
-    title: Templating in Visyond
-  - descr: >-
-      Once contributors have completed the data entry, you can consolidate
-      information with one click - Visyond will create a consolidated worksheet
-      where, by default, each cell is the summation of all the corresponding
-      cells in the Contributors’ worksheets.
+    title: Data Gathering
+  - descr: "* Consolidate data from multiple worksheets with a few clicks\r\n* Visyond will generate a consolidated worksheet where, by default, each cell is the summation of all the corresponding cells in the contributors’ worksheets\r\n"
     files:
       - descr: >-
           Visyond will create a consolidated worksheet where, by default, each
@@ -40,7 +36,7 @@ infoBlockFirst:
         file: /img/Nice Model in Browser v2.png
         title: Consolidating Data in Visyond
     image: /img/Nice Model in Browser v2.png
-    title: Consolidating Data In Visyond
+    title: Data Consolidation
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/knowledge-base@2x.png
