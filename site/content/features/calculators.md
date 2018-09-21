@@ -1,16 +1,18 @@
 ---
-title: Calculators
-topTitle: Create Interactive Calculators and Apps Without a Single Line of Code
+title: Interactive Spreadsheet Calculators
+metaTags: "<meta name=\"title\" content=\"Create Interactive Spreadsheet Calculators with Visyond\">\r\n\r\n<meta name=\"description\" content=\"Create calculators powered by your spreadsheet data, such as ROI calculators, and securely share them with stakeholders without exposing the model’s logic and calculations or sensitive information.\">\r\n\r\n<meta name=\"keywords\" content=\"spreadsheet calculator, make calculator from excel file\">"
+topTitle: Create Interactive Spreadsheet Calculators and Securely Test Assumptions
 topSubTitle: >-
   With Visyond’s Interactive Slides, in addition to powerful presentations, you
-  can create interactive calculators/apps, such as ROI calculators, and securely
-  share them with stakeholders without exposing the spreadsheet - you decide
-  what they can see or interact with!
+  can create interactive calculators powered by your spreadsheet data and
+  Visyond’s calculation engine, such as ROI calculators, and securely share them
+  with stakeholders without exposing the model’s logic and calculations or
+  sensitive information. 
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: "Interactive Calculators and apps are a **great way to let your stakeholders test their assumptions**, answer ‘what-if’ questions and play with the numbers without ever touching or modifying the carefully crafted spreadsheet. \r\n\r\nSelect input and output cells from the spreadsheet, place them on the slide, throw in some charts - and it is done!"
+  - descr: "* Quickly create various calculators powered by your spreadsheet data\r\n* Instantly see data and charts updated as you interact with the calculator, without changing anything in the spreadsheet\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n"
     files:
       - descr: >-
           Empower stakeholder to test their own assumptions without interacting
@@ -19,8 +21,8 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE CALCULATORS & APPS
     image: /img/Interactive Slides in Browser v4.png
-    title: Test Assumptions Seamlessly
-  - descr: "You can **share the whole presentation or just a few individual slides** with selected stakeholders using Visyond’s unique [Selective Sharing](https://visyond.com/features/selective-sharing/) feature without exposing the spreadsheet and any sensitive or unnecessary information. Stakeholders can then safely test their own assumptions without breaking or ever seeing the model and calculations.\r\n\r\nAnd, of course, you can always export the presentation to Powerpoint."
+    title: Build Interactive Spreadsheet Calculators
+  - descr: "* Share whole presentations or just individual slides with selected stakeholders with Visyond’s unique [Selective Sharing](/features/selective-sharing/)\r\n* Avoid the risk of exposing sensitive or unnecessary information\r\n* Protect model’s structure and layout from accidental changes when testing assumptions\r\n* Export Visyond’s presentations to static PowerPoint at any time"
     files:
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
