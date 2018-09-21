@@ -1,5 +1,5 @@
 ---
-title: Import And Export
+title: Cross-Compatibility with Excel and Export to PowerPoint
 topTitle: "Cross-Compatibility with Excel And Export to PowerPoint\r"
 topSubTitle: >-
   Visyond was built with ease of use and flexibility in mind allowing you to
