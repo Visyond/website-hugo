@@ -1,17 +1,17 @@
 ---
-title: Interactive Presentations
+title: Interactive Presentation Software
+metaTags: "<meta name=\"title\" content=\"Interactive Presentation Software\">\r\n\r\n<meta name=\"description\" content=\"Create powerful spreadsheet data visualizations and financial model presentations with Visyond’s interactive Presentation software\">\r\n\r\n<meta name=\"keywords\" content=\"interactive presentation software, financial model presentation, data visualization software\">"
 topTitle: Create and Securely Share Powerful Interactive Presentations
 topSubTitle: >-
-  Visyond’s Interactive Slides are an elegant way to present data from your
-  spreadsheets - information is always up to date, as each slide automatically
-  syncs data with your spreadsheet. Interactive elements such as input fields
-  and charts allow stakeholders to test their own assumptions through a safe and
-  simple user interface.
+  Visyond’s  Interactive Presentation software offers an elegant way to present
+  and visualize your  spreadsheet data and securely test assumptions -
+  information is always up to date, and each slide automatically syncs data with
+  your spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: "Interactive Slides will allow you not only to visualize the data but also provide a **secure environment for your stakeholders to play with assumptions**.\r\n\r\nWhen you change an input field you will see charts and calculations updated and automatically synced just for you and it will not affect anyone else’s views or the underlying spreadsheet.\r\n"
+  - descr: "* Visualize spreadsheet data with Visyond’s Interactive Slides\r\n* Populate presentations with interactive elements such as charts, sliders and dropdown fields that affect and automatically updates displayed data\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n* Changes in the slides do not affect the model or anyone else’s view\r\n"
     files:
       - descr: >-
           Empower stakeholders to test their own assumptions without interacting
@@ -21,17 +21,18 @@ infoBlockFirst:
         title: Interactive Presentations
     image: /img/Interactive Slides in Browser v4.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    title: Replace Powerpoint Static Visualizations
+    title: Replace Static Powerpoint Visualizations
   - descr: >-
-      You can **share the whole presentation or just a few individual slides**
-      with selected stakeholders using Visyond’s unique [Selective
-      Sharing](https://visyond.com/features/selective-sharing/) feature without
-      exposing the spreadsheet and any sensitive or unnecessary information.
-      Stakeholders can then safely test their own assumptions without breaking
-      or ever seeing the model and calculations.
+      * Share whole presentations or just individual slides with selected
+      stakeholders with Visyond’s unique [Selective
+      Sharing](/features/selective-sharing/)
 
+      * Avoid the risk of exposing sensitive or unnecessary information
 
-      And, of course, you can always export the presentation to Powerpoint.
+      * Protect model’s structure and layout from accidental changes when
+      testing assumptions
+
+      * Export Visyond’s presentations to static PowerPoint at any time
     files:
       - descr: >-
           Allow stakeholders to see only individual parts or whole presentations
