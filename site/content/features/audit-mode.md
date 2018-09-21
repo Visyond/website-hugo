@@ -1,15 +1,15 @@
 ---
-title: Audit Mode
-topTitle: Audit and Debug Models With Ease
-topSubTitle: "Visyond’s Audit Mode is a powerful tool that will aid you greatly in debugging and auditing your spreadsheets.\r"
+title: Spreadsheet and Formula Auditing Tool
+metaTags: "<meta name=\"title\" content=\"Find Errors in Spreadsheets with Spreadsheet and Formula Auditing Tool\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s Audit Mode offers a powerful spreadsheet auditing & error checking tool that will simplify the debugging and auditing of your spreadsheets.\">\r\n\r\n<meta name=\"keywords\" content=\"excel auditing tools, formula auditing in excel, find errors in excel, error checking tool excel\">"
+topTitle: 'Audit, Error-Check and Debug Spreadsheets With Ease'
+topSubTitle: >-
+  Audit Mode is a powerful spreadsheet auditing & error checking tool that will
+  aid you greatly in debugging and auditing your spreadsheets.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      With Visyond’s intuitive interface you will be able to identify what is
-      causing errors in your spreadsheets, precedent and dependent cells with
-      just a few clicks.
+  - descr: "* Instantly identify errors in your spreadsheets and their root cause\r\n* Instantly locate precedent and dependent cells\r\n"
     files:
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
@@ -27,11 +27,8 @@ infoBlockFirst:
     image: /img/track errors 1.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
-    title: Quickly Identify Errors Root Cause
-  - descr: >-
-      It is often difficult to understand the formulas, especially in complex
-      spreadsheets. Visyond allows you to use human-readable names that
-      immediately reveal the modeler’s logic.
+    title: Quickly Find Errors and Their Root Cause
+  - descr: "* Simplify formula auditing with human-readable names that immediately reveal modeler’s logic\r\n* Understand complex formulas & spreadsheet structure faster\r\n"
     files:
       - descr: >-
           Visyond allows you to use human-readable names that immediately reveal
@@ -43,12 +40,8 @@ infoBlockFirst:
     image: /img/human readable names.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
-    title: Human-Readable Names
-  - descr: >-
-      When Audit Model is ON, Visyond helps you understand whether a cell
-      contains a number, a strings, a date or a formula by auto-formatting them
-      with distinct colour codes. It also highlights errors immediately
-      uncovering issues with the model.
+    title: Understand Spreadsheet Logic with Human-Readable Formula Names
+  - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n* Quickly locate cells with errors\r\n"
     files:
       - descr: >-
           In the Audit Mode each cell looks different based on the type of data
@@ -61,14 +54,7 @@ infoBlockFirst:
     image: /img/Audit Mode On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
     title: Auto-Formatting
-  - descr: >-
-      Visyond helps easily navigate the precedents and dependents of a cell.
-      Just select a cell and click on their precedents or dependents listed at
-      the bottom of the screen.
-
-
-      [Learn how](https://visyond.com/features/dependency-analysis/) you can
-      visualize the structure of your spreadsheets with Visyond.
+  - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
       - descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
@@ -81,7 +67,7 @@ infoBlockFirst:
     image: /img/track errors.png
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
-    title: Navigating Cell Dependencies
+    title: Navigate & Visualize Cell Dependencies
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/import-export@2x.png
