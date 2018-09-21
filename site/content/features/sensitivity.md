@@ -1,18 +1,18 @@
 ---
-title: Sensitivity
+title: Sensitivity Analysis Tool
+metaTags: "<meta name=\"title\" content=\"Sensitivity Analysis Tool\">\r\n\r\n<meta name=\"description\" content=\"Instantly understand the relationship between input and output variables in a spreadsheet with visyond’s sensitivity analysis tool.\">\r\n\r\n<meta name=\"keywords\" content=\"sensitivity analysis tool,sensitivity analysis software\">"
 topTitle: >-
-  Instantly Understand the Relationship Between Input and Output Variables in a
-  Spreadsheet
+  Sensitivity Analysis Tool - Instantly Understand the Relationship Between
+  Input and Output Variables in a Spreadsheet
 topSubTitle: >-
-  Sensitivity analysis is a great way to better understand relationships between
-  inputs and outputs of your spreadsheet. Visyond makes it a few-clicks job.
+  Sensitivity analysis tool offers a great way to better understand
+  relationships between inputs and outputs of your spreadsheet. Visyond makes
+  sensitivity analysis setup a few-clicks job.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      Visyond’s Sensitivity Analysis lets you identify critical variables easily
-      so you can focus on what’s important to save time and effort. 
+  - descr: "* Instantly identify critical spreadsheet inputs and outputs\r\n* Isolate and focus on important variables to save time and effort\r\n* Easily setup one-way sensitivity analysis where only one input variable is changed, or a two-way sensitivity analysis where two input variables are changed at the same time\r\n* Make the most out of sensitivity analysis and run it after [Impact (Tornado) analysis](/features/tornado/) which will help you identify the most significant variables"
     files:
       - descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
@@ -21,11 +21,7 @@ infoBlockFirst:
         title: Set Up Sensitivity Analysis In Seconds
     image: /img/Sensitivity two-way v2.png
     title: Focus on What’s Important
-  - descr: >-
-      As models grow in size and complexity, searching for errors becomes a much
-      more challenging task. Sensitivity Analysis will help you reduce errors by
-      discovering unexpected relationships between inputs and outputs in your
-      model.
+  - descr: "* Reduce errors by discovering unexpected relationships between inputs and outputs of your model\r\n* Simplify models by eliminating variables which have no significant impact on the output\r\n"
     files:
       - descr: Discover relationships between data easier and faster with Visyond.
         file: /img/Sensitivity in Browser v4.png
