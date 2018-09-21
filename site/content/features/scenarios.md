@@ -1,17 +1,18 @@
 ---
-title: Scenarios
-topTitle: Compare Scenarios and Answer What-If Questions On-The-Fly
-topSubTitle: >-
-  With Visyond’s Scenario Comparison you can quickly compare different
-  assumptions in a few clicks without depending on experts.
+title: Scenario Analysis Software
+metaTags: "<meta name=\"title\" content=\"Scenario Analysis Software - Compare Scenarios and Answer What-If Questions On-The-Fly\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s scenario analysis tool - compare different scenarios easily without depending on experts.\">\r\n\r\n<meta name=\"keywords\" content=\"scenario analysis, scenario analysis software, scenario analysis tool\">"
+topTitle: >-
+  Scenario Analysis Software - Compare Scenarios and Answer What-If Questions
+  On-The-Fly
+topSubTitle: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: >-
-      Add your assumptions along with supporting documentation and conversations
-      directly to the cells. Cells in Visyond can store multiple assumptions
-      (cases) simultaneously without overwriting other users' inputs.
+      * Add multiple assumptions or cases along with supporting documentation
+      and have conversations directly in the relevant cells without overriding
+      inputs by other collaborators
     files:
       - descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
@@ -20,16 +21,7 @@ infoBlockFirst:
         title: Add Multiple Assumptions
     image: /img/Cases in Browser v2.png
     title: Create and Gather Assumptions
-  - descr: >-
-      Select any assumptions and combine them into scenarios that are ready for
-      comparison! You can create as many scenarios as you like without worrying
-      about losing data, managing multiple versions of a spreadsheet or
-      overwriting inputs.
-
-
-      Visit our [help
-      resource](https://help.visyond.com/articles/how-to-run-scenario-analysis-in-visyond/)
-      for step-by-step tutorial!
+  - descr: "* Combine assumptions or cases into scenarios that can be switched and compared at any time\r\n* Create and compare as many scenarios as you like without the risk of losing data, managing multiple versions of a spreadsheet or overwriting inputs\r\n"
     files:
       - descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
@@ -42,10 +34,7 @@ infoBlockFirst:
       - file: /img/switch assumptions.gif
     image: /img/Scenario Window in Browser.png
     title: Create Scenarios in a Few Clicks
-  - descr: >-
-      Compare multiple scenarios with a few clicks. Visyond will instantly build
-      an interactive chart which you can easily modify right there at the
-      important meeting and answer ‘what-if’ questions in real time.
+  - descr: "* Instantly compare multiple scenarios with just a few clicks\r\n* Visyond will build an interactive chart where you can compare data points side by side empowering you to answer ‘what-if’ questions in real time\r\n"
     files:
       - descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
