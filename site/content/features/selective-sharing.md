@@ -1,20 +1,19 @@
 ---
-title: Selective Sharing
-topTitle: Share Only What Collaborators Or Clients Need To See
+title: 'Share Spreadsheets, Presentations and Analysis Online'
+metaTags: "<meta name=\"title\" content=\"Share Spreadsheets, Presentations and Analysis Online\">\r\n\r\n<meta name=\"description\" content=\"Communicate and share spreadsheets, presentations and analysis more efficiently and avoid data leaks and manual back-and-forth copy-paste between Excel and Powerpoint.\">\r\n\r\n<meta name=\"keywords\" content=\"share spreadsheet online, share presentations\">"
+topTitle: >-
+  Share Spreadsheets, Presentations and Analysis Online - Only What
+  Collaborators, Clients or Prospects Need To See
 topSubTitle: >-
-  Visyond allows you to communicate more efficiently while avoiding data leaks.
-  It removes the need for emailing spreadsheets, back-and-forth copy-paste
-  between PowerPoint and Excel or any other visualization tools. 
+  Communicate more efficiently while avoiding data leaks by securely sharing
+  spreadsheets, presentations and results of analysis online. Visyond removes
+  the need for emailing spreadsheets, back-and-forth copy-paste between
+  PowerPoint and Excel.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      You can share the whole project, certain worksheets or only specific parts
-      of a worksheet, whole presentations or specific slides without exposing
-      any other data, conversations, attachments or calculations. With this,
-      **data gathering and consolidation is much faster, safer and less prone to
-      errors, unwanted changes and accidental data leakages.**
+  - descr: "* Make collaboration on spreadsheets, presentations and analysis faster, safer and less prone to errors, unwanted changes and accidental data leakages\r\n* Share whole projects and control what each collaborator gets to see\r\n* Share whole spreadsheets, certain worksheets or only specific parts of a worksheet \r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
     files:
       - descr: >-
           Set access on project level with different roles - Owner, Reader,
@@ -30,7 +29,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser v2.png
         title: Share Presentations
     image: /img/Share Project.png
-    title: Manage Access Level
+    title: 'Share Spreadsheets, Presentation and Analysis Online'
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/knowledge-base@2x.png
