@@ -1,10 +1,13 @@
 ---
-title: Tornado Analysis
-topTitle: Know What Input Cells Have The Greatest Impact On Important Output Cells
+title: Business Impact Analysis Tool
+metaTags: "<meta name=\"title\" content=\"Financial & Business Impact Analysis Tool - Tornado Analysis\">\r\n\r\n<meta name=\"description\" content=\"Measure impact of input variables on your model’s key outputs with Visyond’s impact analysis software.\">\r\n\r\n<meta name=\"keywords\" content=\"business impact analysis tool, financial impact analysis, tornado sensitivity analysis\">"
+topTitle: >-
+  Business Impact Analysis Tool - Know What Input Cells Have the Greatest Impact
+  on Important Output Cells
 topSubTitle: >-
   Ever wondered what input cells have the greatest impact on a key output so you
   can analyse them and understand how to reduce your costs, grow your revenues
-  or increase/decrease any important Key Performance Indicator? 
+  or increase/decrease any important Key Performance Indicator?
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
@@ -17,7 +20,7 @@ infoBlockFirst:
         file: /img/Tornado in Browser v4.png
         title: Tornado Analysis
     image: /img/Tornado in Browser v4.png
-    title: Identify Important Cells and Their Impact
+    title: Identify Important Cells and Their Impact with Impact Analysis
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/scenarios@2x.png
