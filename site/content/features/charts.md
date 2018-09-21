@@ -1,30 +1,23 @@
 ---
-title: Charts
-topTitle: Create Up-To-Date Charts with Ease
+title: Create Spreadsheet Charts Online
+metaTags: "<meta name=\"title\" content=\"Create Up-To-Date Spreadsheet Charts Online with Ease\">\r\n\r\n<meta name=\"description\" content=\"In Visyond, charting is simple and fast -  create spreadsheets charts online and link presentations to your model. Charts sare automatically updated and synced when changes are introduced to the source spreadsheet.\">\r\n\r\n<meta name=\"keywords\" content=\"create chart online, spreadsheet chart\">"
+topTitle: Create Always Up-To-Date Spreadsheet Charts with Ease
 topSubTitle: >-
   Charts are the cornerstone of a good presentation and an irreplaceable
-  analysis tool. In Visyond, charting is simple, fast and does not require
-  learning complex menus - charts are automatically updated, even if the chart
-  is in Visyond’s [Interactive
-  Presentations](https://visyond.com/features/interactive-presentations/).
+  analysis tool. In Visyond, charting is simple and fast - charts in
+  presentations are linked to your model and are automatically updated and
+  synced when changes are introduced to the source spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >-
-      Visyond simplifies the creation of all sort of charts, from familiar Bars
-      and Donuts to Waterfall charts - choose cells you want to chart, select
-      the chart type and easily customize the appearance with point-and-click
-      interface.
+  - descr: "* Simplify and speed-up the creation of charts with Visyond’s intuitive interface\r\n* Pick from a wide variety of chart types - from familiar Bars and Pies to Waterfall charts\r\n* Export charts or place them inside Visyond’s presentation instantly\r\n"
     files:
       - file: /img/Charts window.png
       - file: /img/create charts animated.gif
     image: /img/Charts window.png
-    title: Create Charts Faster
-  - descr: >-
-      You no longer need to manually rearrange cells to get better data
-      visualization - Visyond provides a convenient interface to help you change
-      charts appearance, group data sets and organize information.
+    title: Speed-up the Creation of Charts
+  - descr: "* Customize charts’ appearance and colors and get better data visualizations\r\n* Easily group data sets and organize data within the chart\r\n"
     files:
       - file: /img/Charts settings.png
       - file: /img/customizing-charts.gif
@@ -32,8 +25,9 @@ infoBlockFirst:
     image: /img/Charts settings.png
     title: Customize Charts Easier
   - descr: >-
-      Your charts are always in sync with multiple presentations and the
-      spreadsheet.
+      * Charts are always in sync with multiple presentations and the
+      spreadsheet so you do not need to worry about manual updates and chart
+      maintenance every time the data changes.
     files:
       - file: /img/line chart.png
       - file: /img/change series animated.gif
