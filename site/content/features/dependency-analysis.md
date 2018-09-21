@@ -1,18 +1,18 @@
 ---
-title: Dependency Analysis
-topTitle: Identify And Visualize Cells' Dependencies
+title: Trace Dependents with Spreadsheet Dependency Analysis
+metaTags: "<meta name=\"title\" content=\"Analyze spreadsheet cell dependencies and track dependent and precedent cells\">\r\n\r\n<meta name=\"description\" content=\"Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency Analysis\">\r\n\r\n<meta name=\"keywords\" content=\"spreadsheet dependency analysis, cell dependency analysis, trace dependents excel\">"
+topTitle: >-
+  Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency
+  Analysis
 topSubTitle: >-
-  Visyond’s Dependencies Analyses allows you to visually navigate through
-  different cells and see how they impact one another, without tampering with
-  the spreadsheet.
+  Visyond’s cell Dependency analysis allows you to visually navigate through
+  different cells and see how they relate and impact one another, without
+  tampering with the spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/banner.jpg
 infoBlockFirst:
-  - descr: >
-      Dependencies Analysis is a powerful auditing tool that helps you uncover
-      errors that would be otherwise painstaking to catch as well as present and
-      explain your model to colleagues and clients.
+  - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
       - descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
