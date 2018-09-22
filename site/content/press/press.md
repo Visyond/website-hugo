@@ -4,6 +4,13 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - logo: /img/GlobalBankingAndFinance logo.jpeg
+    name: ''
+    title: >-
+      Ericsson Chooses Tech Start-up Visyond to Streamline Spreadsheet Workflow
+      in Sales Operations
+    url: >-
+      https://www.globalbankingandfinance.com/ericsson-chooses-tech-start-up-visyond-to-streamline-spreadsheet-workflow-in-sales-operations/
   - logo: /img/GdprReport Logo.jpg
     title: 'Secure data sharing: How to reduce compliance risks'
     url: >-
