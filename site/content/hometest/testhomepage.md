@@ -12,7 +12,8 @@ topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store  and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
     files:
-      - descr: >-
+      - alt: image 1
+        descr: >-
           Securely store spreadsheet data; multiple assumptions, scenarios,
           conversations and attachments directly in the relevant cells
         file: /img/Attachments and Comments in Browser v2.png
@@ -24,13 +25,15 @@ infoBlockFirst:
         file: /img/Nice Model in Browser v2.png
         link: /test2
         title: Secure Selective Sharing
-      - descr: >-
+      - alt: image 2
+        descr: >-
           Keep track of inputs, changes and versions with always up-to-date
           automatic reports and interactive presentation
         file: /img/Cases in Browser v2.png
         link: /test3
         title: Track Inputs
-      - descr: >-
+      - alt: image 3
+        descr: >-
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet
         file: /img/Interactive Slides in Browser v3.png
@@ -41,11 +44,13 @@ infoBlockFirst:
     title: Collaborate and Build With Simplicity & Peace of Mind
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
-      - descr: Easily export the relationships between the cells
+      - alt: image 1
+        descr: Easily export the relationships between the cells
         file: /img/Dependency in Browser.png
         link: /test1
         title: Identify dependencies
-      - descr: Easily traverse formulas and visualize error root causes.
+      - alt: image 2
+        descr: Easily traverse formulas and visualize error root causes.
         file: /img/root cause anim.gif
         link: /test2
         title: Error Root Cause identification
@@ -60,7 +65,8 @@ infoBlockFirst:
         file: /img/scenarios animated.gif
         link: /test3
         title: Record different scenarios
-      - descr: >-
+      - alt: image 2
+        descr: >-
           Comparing scenarios has never been easier - a few clicks and you are
           ready to answer 'what-if' questions!
         file: /img/Scenarios chart in Browser v4.png
