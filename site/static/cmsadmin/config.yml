@@ -27,6 +27,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Image", name: "image", widget: image},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Alt text", name: alt, widget: string},
             {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
@@ -96,6 +97,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Image", name: "image", widget: image},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Alt text", name: alt, widget: string},
             {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
@@ -533,6 +535,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Errors Image", name: "errorsImage", widget: image}
       - {label: "Errors Files", name: "errorsFiles", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
+            {label: "Alt text", name: alt, widget: string},
             {label: "Popup Link", name: "link", widget: string, default: "#"},
             {label: "Title", name: "title", widget: "string"},
             {label: "Description", name: "descr", widget: "text"},
@@ -575,6 +578,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Info Image", name: "image", widget: image},
               {label: "Popup Files", name: "files", widget: list, fields: [
                 {label: "File", name: "file", widget: "file"},
+                {label: "Alt text", name: alt, widget: string},
                 {label: "Popup Link", name: "link", widget: string, default: "#"},
                 {label: "Title", name: "title", widget: "string"},
                 {label: "Description", name: "descr", widget: "text"},
