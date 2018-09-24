@@ -4,6 +4,10 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - logo: /img/telegraph.png
+    title: What happens when you win that first big client?
+    url: >-
+      https://www.telegraph.co.uk/connect/small-business/happens-win-first-big-client/
   - logo: /img/GlobalBankingAndFinance logo.jpeg
     name: ''
     title: >-
