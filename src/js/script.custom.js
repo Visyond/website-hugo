@@ -278,9 +278,10 @@ $(function () {
       }
 
       // Create popup with content
-      this._createPopup = (src, href, title, descr) => {
+      this._createPopup = (src, href, title, descr, alt) => {
         if(src) {
           const sliderArray = src.split('::');
+          const sliderAlt = alt.split('::');
           const sliderHrefs = href.split('::');
           const popup = document.createElement('div');
           popup.classList.add('popup');
@@ -340,6 +341,8 @@ $(function () {
               const sliderImage = document.createElement('img');
 
               sliderImage.setAttribute('src', sliderArray[i]);
+
+              sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
 
               sliderTitles[i] && sliderItem.appendChild(sliderTitle);
               
@@ -498,7 +501,8 @@ $(function () {
             const href = this.images[i].dataset.href.slice(0, -2);
             const title = this.images[i].dataset.title.slice(0, -2);
             const descr = this.images[i].dataset.descr.slice(0, -2);
-            this._createPopup(src, href, title, descr);
+            const alt = this.images[i].dataset.alt.slice(0, -2);
+            this._createPopup(src, href, title, descr, alt);
           };
         };
       });
