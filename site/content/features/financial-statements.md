@@ -13,15 +13,24 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "Greatly speed-up the creation and accuracy of Financial Statements without wasting time on long error-prone manual setups.\n\nVisyond automates the creation of:\n\n* Balance Sheets\r\n* Income Statements\r\n* Cash Flow Statements\r\n* Calculations of growth and changes against previous periods\r\n* Financial and management ratios & KPIs\r\n* Depreciation schedules\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Financial Statement Generator - Easily Create Financial Statements in
+          Visyond
+        descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
         file: /img/Financial Statements in Browser.png
         title: Auto-Generated Financial Statements
-      - file: /img/financial statement 1.gif
-      - file: /img/financial statement 2.gif
+      - alt: >-
+          Financial Statement Generator - Animated Financial Statement
+          Generation in Visyond
+        file: /img/financial statement 1.gif
+      - alt: >-
+          Financial Statement Generator - Animated Financial Statement
+          Generation in Visyond
+        file: /img/financial statement 2.gif
     image: /img/Financial Statements in Browser.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
