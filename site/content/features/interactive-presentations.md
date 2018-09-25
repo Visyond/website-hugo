@@ -13,7 +13,10 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Visualize spreadsheet data with Visyond’s Interactive Slides\r\n* Populate presentations with interactive elements such as charts, sliders and dropdown fields that affect and automatically updates displayed data\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n* Changes in the slides do not affect the model or anyone else’s view\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Interactive Presentation Software - Create Interactive Presentations
+          in Visyond
+        descr: >-
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
@@ -34,7 +37,10 @@ infoBlockFirst:
 
       * Export Visyond’s presentations to static PowerPoint at any time
     files:
-      - descr: >-
+      - alt: >-
+          Interactive Presentation Software - Selectively Share Presentations in
+          Visyond
+        descr: >-
           Allow stakeholders to see only individual parts or whole presentations
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
