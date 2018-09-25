@@ -16,14 +16,20 @@ bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Graphically identify opportunities and risks\r\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions and easily consolidate data\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Scenario Comparison in
+          Visyond
+        descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
         file: /img/Scenario Window in Browser.png
         link: /features/scenarios/
         title: COMBINE ASSUMPTIONS INTO SCENARIOS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Compare Scenarios in Real
+          Time in Visyond
+        descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
@@ -34,19 +40,24 @@ infoBlockFirst:
     title: Revolutionize The Way You Access Key Information
   - descr: "* Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing \r\n* Allow access to only certain cells, worksheets, charts or linked reports and slides, \r\n* Expose only what each collaborator should see or interact with - certain cells, worksheets, reports or individual slides in presentations\r\n"
     files:
-      - descr: >-
+      - alt: Collaborative Decision Making Software - Share Project in Visyond
+        descr: >-
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
         file: /img/Share Project.png
         link: /features/selective-sharing/
         title: SHARE PROJECT
-      - descr: >-
+      - alt: Collaborative Decision Making Software - Share Worksheets in Visyond
+        descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
         file: /img/Share Worksheet.png
         link: /features/selective-sharing/
         title: SHARE WORKSHEETS
-      - descr: Share whole presentations or just individual slides.
+      - alt: >-
+          Collaborative Decision Making Software - Share Interactive
+          Presentations in Visyond
+        descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
@@ -55,19 +66,28 @@ infoBlockFirst:
     title: Securely Handle Your Data
   - descr: "* Visyond is cloud-based (or on-premise) so you never lose information \r\n* Manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop)\r\n* Reduce dependency from the model creator by enabling collaborative analysis and stress testing through interactive presentations and calculators\r\n* Never break formulas or lose your teams’ work and track their input and changes\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Store Multiple Assumptions
+          Simultaneously in Visyond
+        descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
         file: /img/Cases in Browser v2.png
         link: /features/knowledge-base/
         title: ADD MULTIPLE ASSUMPTIONS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Store Attachments &
+          Conversations Directly in Cells in Visyond
+        descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
         file: /img/Attachments and Comments in Browser v2.png
         link: /features/knowledge-base/
         title: NEVER LOSE IMPORTANT INFORMATION
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Test Assumptions Through
+          Interactive Slides in Visyond
+        descr: >-
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
@@ -82,33 +102,48 @@ infoBlockFirst:
       otherwise require expensive software, add-ons or error-prone lengthy
       manual setups
     files:
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Setup Sensitivity Analysis in
+          Visyond
+        descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
         file: /img/Sensitivity two-way v2.png
         link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Run Impact (Tornado) Analysis
+          in Visyond
+        descr: >-
           With Visyond, you can run Impact (Tornado) Analysis without long
           manual setups and quickly see how sensitive your data set is to
           changes.
         file: /img/Tornado in Browser v4.png
         link: /features/tornado/
         title: Stress-Test Your Data
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Monte Carlo Simulations in
+          Visyond
+        descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Identify Cell Dependencies in
+          Visyond
+        descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
         file: /img/Dependency in Browser v2.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Generate Financial Statements
+          & Reports in Visyond
+        descr: >-
           Visyond’s financial statements greatly reduce the risk of errors and
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
@@ -121,26 +156,38 @@ infoBlockFirst:
     title: Save Time When Requesting Analysis and Reports
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Compare Scenarios in Real
+          Time in Visyond
+        descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
         link: /features/scenarios/
         title: COMPARE SCENARIOS IN REAL TIME
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Store Multiple Inputs &
+          Assumptions Without Overwriting in Visyond
+        descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
         file: /img/Cases in Browser v2.png
         link: /features/knowledge-base/
         title: ADD MULTIPLE ASSUMPTIONS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Combine Assumptions into
+          Scenarios in Visyond
+        descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
         file: /img/Scenario Window in Browser.png
         link: /features/scenarios/
         title: COMBINE ASSUMPTIONS INTO SCENARIOS
-      - descr: >-
+      - alt: >-
+          Collaborative Decision Making Software - Store Conversations and
+          Documentation Directly in Cells in Visyond
+        descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
         file: /img/Attachments and Comments in Browser v2.png
