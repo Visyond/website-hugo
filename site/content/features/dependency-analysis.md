@@ -14,7 +14,10 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Spreadsheet Dependency Analysis - Identify Cells Dependencies Visually
+          in Visyond
+        descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
