@@ -11,12 +11,16 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Instantly identify errors in your spreadsheets and their root cause\r\n* Instantly locate precedent and dependent cells\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Spreadsheet and Formula Auditing Tool - Track Root Causes of Errors in
+          Visyond
+        descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
         file: /img/track errors 1.png
         title: Track errors and their root cause
-      - descr: >-
+      - alt: Spreadsheet and Formula Auditing Tool - Audit Spreadsheets in Visyond
+        descr: >-
           It highlights error and circular cells clearly; The trendlines help
           you visually identify unexpected behaviors; The Precedents Panel
           displays on top the precedent cells that are error - this way you can
@@ -30,7 +34,10 @@ infoBlockFirst:
     title: Quickly Find Errors and Their Root Cause
   - descr: "* Simplify formula auditing with human-readable names that immediately reveal modeler’s logic\r\n* Understand complex formulas & spreadsheet structure faster\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Spreadsheet and Formula Auditing Tool - Human-Readable Formula Names
+          in Visyond
+        descr: >-
           Visyond allows you to use human-readable names that immediately reveal
           the modeler’s logic without you having to chase precedent cryptic
           cells (i.e., what is B7? and G41?), especially when they are on
@@ -43,12 +50,16 @@ infoBlockFirst:
     title: Understand Spreadsheet Logic with Human-Readable Formula Names
   - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n* Quickly locate cells with errors\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Spreadsheet and Formula Auditing Tool - Spreadsheet Audit Mode in
+          Visyond
+        descr: >-
           In the Audit Mode each cell looks different based on the type of data
           it contains.
         file: /img/Audit Mode On.png
         title: Audit Mode On
-      - descr: Easily format cells with Visyond's customization tools.
+      - alt: Spreadsheet and Formula Auditing Tool - Unit Formatting in Visyond
+        descr: Easily format cells with Visyond's customization tools.
         file: /img/unit formatting.gif
         title: Unit Formatting
     image: /img/Audit Mode On.png
@@ -56,12 +67,16 @@ infoBlockFirst:
     title: Auto-Formatting
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
-      - descr: >-
+      - alt: Spreadsheet and Formula Auditing Tool - Track Errors in Visyond
+        descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
         file: /img/track errors.png
         title: Track Errors
-      - descr: Easily identify precedent and dependent cells.
+      - alt: >-
+          Spreadsheet and Formula Auditing Tool - Navigate Cells Dependencies in
+          Visyond
+        descr: Easily identify precedent and dependent cells.
         file: /img/navigate dependencies.gif
         title: Navigate Cell Dependencies
     image: /img/track errors.png
