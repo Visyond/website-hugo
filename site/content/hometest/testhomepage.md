@@ -10,7 +10,8 @@ topSubTitle: >-
   reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
-  - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store  and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
+  - altText: test alt text
+    descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store  and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
     files:
       - alt: image 1
         descr: >-
@@ -57,7 +58,8 @@ infoBlockFirst:
     image: /img/v_clip_group_3.png
     link: /solutions/governance
     title: Track Everything and Retrieve Information Fast
-  - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
+  - altText: test
+    descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     files:
       - descr: >-
           Instead of managing multiple version of the spreadsheet, combine data
