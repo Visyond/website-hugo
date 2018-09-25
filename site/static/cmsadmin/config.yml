@@ -498,6 +498,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Press articles", name: "pressarticles", widget: list, fields: [
           { label: "url", name: "url", widget: "string" },
           { label: "Company logo", name: "logo", widget: "image" },
+          { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
           { label: "Photo", name: "photo", widget: "image" },
           { label: "Name", name: "name", widget: "string" },
           { label: "Company", name: "company", widget: "string" },
@@ -745,6 +746,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
             fields: [
               {label: "Logo", name: "logo", widget: "image"},
+              {label: "Alt Text", name: "alt", widget: string, default: "image"},
             ],
           }
 
@@ -782,6 +784,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
             {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
             {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
+            {label: "Slider Logo Alt Text", name: "alt", widget: "string", default: "logo"},
             {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
           ]}
 
@@ -802,6 +805,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Casy study", name: "casestudies", widget: list, fields: [
               { label: "url", name: "url", widget: "string" },
               { label: "Company logo", name: "logo", widget: "image" },
+              { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
               { label: "Photo", name: "photo", widget: "image" },
               { label: "Name", name: "name", widget: "string" },
               { label: "Company", name: "company", widget: "string" },
@@ -882,6 +886,7 @@ collections: # A list of collections the CMS should be able to edit
             fields: [
               {label: "Case study link", name: "caseLink", widget: "string"},
               {label: "Icon", name: "caseIco", widget: "image"},
+              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
               {label: "Case study description", name: "caseDescr", widget: "string"},
             ],
             required: false,

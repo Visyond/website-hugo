@@ -7,7 +7,7 @@
 		{{ range $el := .Params.Case }}
 		<li class="casestudy-new__item">
 			<a href="{{ .caseLink }}" class="casestudy-new__link">
-				<img src="{{ .caseIco }}" alt="">
+				<img src="{{ .caseIco }}" alt="{{ .alt }}">
 				<h3 class="casestudy-new__title">{{ .caseDescr }}</h3>
 			</a>
 		</li>
