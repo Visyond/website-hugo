@@ -60,11 +60,11 @@ feaDropdownCol:
         path: /features/interactive-presentations/
         title: Interactive Presentations
       - descr: >-
-          Create interactive calculators & apps without a single line of code
-          and securely test assumptions.
+          Create interactive calculators without a single line of code and
+          securely test assumptions.
         image: /img/calculator-apps@2x.png
         path: /features/calculators/
-        title: Calculators & Apps
+        title: Calculators
       - descr: Easily create and customize charts that are always up-to-date.
         image: /img/charts@2x.png
         path: /features/charts/
