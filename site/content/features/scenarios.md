@@ -14,7 +14,10 @@ infoBlockFirst:
       and have conversations directly in the relevant cells without overriding
       inputs by other collaborators
     files:
-      - descr: >-
+      - alt: >-
+          Scenario Analysis Software - Store Multiple Assumptions Simultaneously
+          in Visyond
+        descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
         file: /img/Cases in Browser v2.png
@@ -23,20 +26,27 @@ infoBlockFirst:
     title: Create and Gather Assumptions
   - descr: "* Combine assumptions or cases into scenarios that can be switched and compared at any time\r\n* Create and compare as many scenarios as you like without the risk of losing data, managing multiple versions of a spreadsheet or overwriting inputs\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Scenario Analysis Software - Combine Assumptions Into Scenarios in
+          Visyond
+        descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
         file: /img/Scenario Window in Browser.png
         title: Combine Assumptions Into Scenarios
-      - file: /img/record scenario.gif
-      - file: /img/scenario panel.gif
-      - file: /img/switch assumptions.gif
+      - alt: Scenario Analysis Software - Record Scenarios in Visyond
+        file: /img/record scenario.gif
+      - alt: Scenario Analysis Software - Manage Scenarios in Visyond
+        file: /img/scenario panel.gif
+      - alt: Scenario Analysis Software - Switch Scenarios In Real Time in Visyond
+        file: /img/switch assumptions.gif
     image: /img/Scenario Window in Browser.png
     title: Create Scenarios in a Few Clicks
   - descr: "* Instantly compare multiple scenarios with just a few clicks\r\n* Visyond will build an interactive chart where you can compare data points side by side empowering you to answer ‘what-if’ questions in real time\r\n"
     files:
-      - descr: >-
+      - alt: Scenario Analysis Software - Compare Scenarios in Visyond
+        descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
         file: /img/Scenarios chart in Browser v4.png
