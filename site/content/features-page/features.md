@@ -86,9 +86,9 @@ section:
       - icon: /img/calculator-apps@2x.png
         link: /features/calculators/
         text: >-
-          Create interactive calculators & apps without a single line of code
-          and securely test assumptions.
-        title: Calculators & Apps
+          Create interactive calculators without a single line of code and
+          securely test assumptions.
+        title: Calculators
       - icon: /img/charts@2x.png
         link: /features/charts/
         text: Easily create and customize charts that are always up-to-date.
