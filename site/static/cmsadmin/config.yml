@@ -25,6 +25,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
             {label: "Alt text", name: alt, widget: string},
@@ -95,6 +96,7 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
             {label: "Alt text", name: alt, widget: string},
@@ -535,6 +537,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Errors Item", name: "text", widget: "markdown"},
         ]}
       - {label: "Errors Image", name: "errorsImage", widget: image}
+      - {label: "Errors Image Alt Text", name: "errorsAltText", widget: string, default: "image"},
       - {label: "Errors Files", name: "errorsFiles", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
             {label: "Alt text", name: alt, widget: string},
@@ -578,6 +581,7 @@ collections: # A list of collections the CMS should be able to edit
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
+              {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
               {label: "Popup Files", name: "files", widget: list, fields: [
                 {label: "File", name: "file", widget: "file"},
                 {label: "Alt text", name: alt, widget: string},
