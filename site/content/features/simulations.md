@@ -23,12 +23,16 @@ infoBlockFirst:
       * Easily identify what probability distribution is more appropriate for
       your data
     files:
-      - descr: >-
+      - alt: Monte Carlo Simulation Software - Setup Data Simulations in Seconds
+        descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
         title: Monte Carlo Simulation
-      - descr: >-
+      - alt: >-
+          Monte Carlo Simulation Software - Visyond Will Help You Find
+          Probability Distribution for Your Data
+        descr: >-
           If you do not know what probability distribution is more appropriate
           for a certain input, click on the button 'What Distribution for my
           Data?' and paste you historical data. Visyond will show you the
