@@ -537,7 +537,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Errors Item", name: "text", widget: "markdown"},
         ]}
       - {label: "Errors Image", name: "errorsImage", widget: image}
-      - {label: "Errors Image Alt Text", name: "errorsAltText", widget: string, default: "image"},
+      - {label: "Errors Image Alt Text", name: "errorsAltText", widget: string, default: "image"}
       - {label: "Errors Files", name: "errorsFiles", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
             {label: "Alt text", name: alt, widget: string},
