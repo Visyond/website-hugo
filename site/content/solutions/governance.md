@@ -16,7 +16,8 @@ bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: "* Transform entangled, hard-to-read calculations into understandable relations between data points with the help of natural formula names, intuitive auto-formatting, and trend lines \r\n* Drastically reduce the time & effort involved in auditing and debugging your model with Visyond’s Audit Mode\r\n"
     files:
-      - descr: >-
+      - alt: Spreadsheet Governance in Visyond - Track Errors & Audit Spreadsheets
+        descr: >-
           Visyond’s Audit Mode is a powerful tool that will aid you greatly in
           debugging and auditing your spreadsheets.
         file: /img/Nice Model in Browser v2.png
@@ -27,7 +28,8 @@ infoBlockFirst:
     title: Readable and Beautiful Models
   - descr: "* Significantly reduce errors and track dependencies using Visyond’s Intelligent Root Cause Analysis - saving you time and costly mistakes \r\n* You no longer need to go through dozens of cells and calculations manually to find what is causing errors - we will show you exactly where the problem is\r\n* Visyond’s Dependencies and Impact analysis will visualize how different cells are connected and impact one another in just a few clicks\r\n"
     files:
-      - descr: >-
+      - alt: Spreadsheet Governance in Visyond - Identify Cells Dependencies
+        descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
@@ -39,7 +41,8 @@ infoBlockFirst:
     title: Error Root Cause & Dependencies Tracking
   - descr: "* Easily test assumptions, identify inconsistencies, reduce risk of errors and measure the impact of different inputs \r\n* Dramatically reduce the time it takes to review all the possibilities and make smart business decisions\r\n"
     files:
-      - descr: >
+      - alt: Compare Scenarios in Visyond
+        descr: >
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks without depending on experts.
         file: /img/Scenarios chart in Browser v4.png
@@ -50,15 +53,22 @@ infoBlockFirst:
     title: Hassle-Free Number Testing Environment
   - descr: "* Visyond’s secure selective sharing and interactive presentations & calculators provide a safe, secure and controlled environment for testing assumptions\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Spreadsheet Governance in Visyond - Test Assumptions Without Directly
+          Interacting with the Spreadsheet
+        descr: >-
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
-        title: INTERACTIVE PRESENTATIONS
-      - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
         link: /features/interactive-presentations/
+        title: INTERACTIVE PRESENTATIONS
+      - alt: >-
+          Spreadsheet Governance in Visyond - Securely Share Interactive
+          Presentations
+        descr: Share whole presentations or just individual slides.
+        file: /img/Share Slide in Browser v2.png
+        link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
     image: /img/Interactive Slides in Browser v4.png
     link: /features/interactive-presentations/
