@@ -15,18 +15,27 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Make collaboration on spreadsheets, presentations and analysis faster, safer and less prone to errors, unwanted changes and accidental data leakages\r\n* Share whole projects and control what each collaborator gets to see\r\n* Share whole spreadsheets, certain worksheets or only specific parts of a worksheet \r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Share Spreadsheets, Presentations and Analysis Online - Share Projects
+          in Visyond
+        descr: >-
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
         file: /img/Share Project.png
         title: Share Project
-      - descr: >-
+      - alt: >-
+          Share Spreadsheets, Presentations and Analysis Online - Share
+          Worksheets in Visyond
+        descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
         file: /img/Share Worksheet.png
         title: Share Worksheets
       - descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
+        link: >-
+          Share Spreadsheets, Presentations and Analysis Online - Share
+          Presentations in Visyond
         title: Share Presentations
     image: /img/Share Project.png
     title: 'Share Spreadsheets, Presentation and Analysis Online'
