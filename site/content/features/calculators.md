@@ -14,17 +14,23 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Quickly create various calculators powered by your spreadsheet data\r\n* Instantly see data and charts updated as you interact with the calculator, without changing anything in the spreadsheet\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Interactive Spreadsheet Calculators - Create Spreadsheet Calculators
+          without Programming in Visyond
+        descr: >-
           Empower stakeholder to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
-        title: INTERACTIVE CALCULATORS & APPS
+        title: INTERACTIVE CALCULATORS
     image: /img/Interactive Slides in Browser v4.png
     title: Build Interactive Spreadsheet Calculators
   - descr: "* Share whole presentations or just individual slides with selected stakeholders with Visyond’s unique [Selective Sharing](/features/selective-sharing/)\r\n* Avoid the risk of exposing sensitive or unnecessary information\r\n* Protect model’s structure and layout from accidental changes when testing assumptions\r\n* Export Visyond’s presentations to static PowerPoint at any time"
     files:
-      - descr: >-
+      - alt: >-
+          Interactive Spreadsheet Calculators - Share Calculators Securely with
+          Collaborators in Visyond
+        descr: >-
           Allow stakeholders to see only individual parts or whole presentations
           which they can use to test their own assumptions without interacting
           with the model dirrectly.
