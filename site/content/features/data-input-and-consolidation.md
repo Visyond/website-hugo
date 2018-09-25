@@ -13,12 +13,18 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Share only specific cells or worksheets you want stakeholders to contribute data to\r\n* Avoid accidental layout changes or data overrides during data gathering as collaborators work with their own instances of a shared worksheet\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Merge Spreadsheets & Consolidate Data in Visyond - Select and Share
+          Cells to Gather Data for
+        descr: >-
           Set some of the input cells and only allow contributors to edit
           certain cells.
         file: /img/Templating - select cells.gif
         title: Select Cells To Gather Data For
-      - descr: >-
+      - alt: >-
+          Merge Spreadsheets & Consolidate Data in Visyond - Invite
+          Collaborators to Edit
+        descr: >-
           Every time you invite a contributor (e.g., a colleague in a department
           or subsidiary), Visyond creates a clone of the worksheet with a name
           you assign.
