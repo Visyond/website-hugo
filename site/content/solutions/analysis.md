@@ -1,9 +1,19 @@
 ---
 title: Data Analysis Software
-metaTags: "<meta name=\"title\" content=\"Financial Analysis Software\">\n\n<meta name=\"description\" content=\"Start spreadsheet data analysis in minutes with Visyond’s smart machine intelligence data analysis software; scenario comparison, tornado analysis and sensitivity analysis.\">\r\n\n\r\n<meta name=\"keywords\" content=\"data analysis software, spreadsheet data analysis\">"
+metaTags: >-
+  <meta name="title" content="Data Analysis Software">
+
+
+  <meta name="description" content="Start spreadsheet data analysis in minutes
+  with Visyond’s smart machine intelligence data analysis software; scenario
+  comparison, tornado analysis and sensitivity analysis.">
+
+
+  <meta name="keywords" content="data analysis software, spreadsheet data
+  analysis">
 topTitle: >-
-  Financial Analysis Software - An Elegant Solution for Analyzing Spreadsheet
-  Data as a Team and Answering Questions On-The-Fly
+  Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
+  a Team and Answering Questions On-The-Fly
 topSubTitle: >-
   Collaboratively perform spreadsheet data analysis in minutes instead of days
   and securely share valuable business insights with Visyond’s data analysis
@@ -17,7 +27,8 @@ bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
-      - descr: >-
+      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
+        descr: >-
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks without depending on experts.
         file: /img/Scenarios chart in Browser v4.png
@@ -28,7 +39,8 @@ infoBlockFirst:
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
-      - descr: >-
+      - alt: Data Analysis Software - Run Impact (Tornado) Analysis in Visyond
+        descr: >-
           With Visyond, you can run Impact (Tornado) Analysis without long
           manual setups and quickly see how sensitive your data set is to
           changes.
@@ -40,13 +52,15 @@ infoBlockFirst:
     title: Identify Important Cells and Their Impact
   - descr: "* Simplify Sensitivity Analysis setup  - clearly understand the relationships between input and output variables in your spreadsheets\r\n* Instantly identify to what degree variables impacts the outcome, how different indicators interact & affect each other, and uncover errors in your models\r\n"
     files:
-      - descr: >-
+      - alt: Data Analysis Software - Two-Way Sensitivity Analysis in Visyond
+        descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
         file: /img/Sensitivity two-way v2.png
         link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - descr: Discover relationships between data easier and faster with Visyond.
+      - alt: Data Analysis Software - One-Way Sensitivity Analysis in Visyond
+        descr: Discover relationships between data easier and faster with Visyond.
         file: /img/Sensitivity in Browser v4.png
         link: /features/sensitivity/
         title: Identify Relationships Between Data Easier
@@ -55,7 +69,8 @@ infoBlockFirst:
     title: Understand Relationships Between Cells with Instant Sensitivity Analysis
   - descr: "* Answer questions on-the-fly with spreadsheet-driven interactive dashboards and presentations linked directly into your spreadsheets. \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n* The dashboards and slides can be securely shared with other people without exposing confidential information\r\n"
     files:
-      - descr: >-
+      - alt: Data Analysis Software - Interactive Presentations in Visyond
+        descr: >-
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
@@ -67,7 +82,8 @@ infoBlockFirst:
     title: Secure Interactive Dashboards for Decision Making
   - descr: "* Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output\r\n* Instantly generate descriptive statistics, probability density function and cumulative distribution function\r\n* Manage uncertainty & risk and make forecasts quickly\r\n* Easily identify what probability distribution is more appropriate for your data\r\n"
     files:
-      - descr: >-
+      - alt: Data Analysis Software - Monte Carlo Simulations in Visyond
+        descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/Monte Carlo Simulation v3.png
