@@ -14,7 +14,10 @@ bgImage: /img/banner.jpg
 infoBlockFirst:
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
-      - descr: >-
+      - alt: >-
+          Business Impact Analysis Tool - Setup Impact (Tornado) Analysis in
+          Seconds
+        descr: >-
           Impact (Tornado) analysis will instantly show you  what inputs have
           the greatest impact on outputs and how they interact with one another 
         file: /img/Tornado in Browser v4.png
