@@ -19,9 +19,11 @@
                         <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
                     </span>
                     <div class="press2nd__company-person-wrap">
+                        {{ if $el.photo }}
                         <span class="press2nd__company-person-img">
                             <img src="{{ $el.photo }}" alt="photo">
                         </span>
+                        {{ end }}
                         <div>
                             <span class="press2nd__company-person-name">{{ $el.name }}</span>
                             <span class="press2nd__company-person-company-name">
