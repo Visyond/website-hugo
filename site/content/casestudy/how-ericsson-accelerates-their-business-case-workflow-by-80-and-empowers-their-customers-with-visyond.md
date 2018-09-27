@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: /ericsson_case_study
 metaTags: >-
   <meta property="og:title" content="Visyond - Ericsson Case Study"/>
 
