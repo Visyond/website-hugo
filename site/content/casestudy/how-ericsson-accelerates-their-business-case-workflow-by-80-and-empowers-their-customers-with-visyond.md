@@ -1,5 +1,7 @@
 ---
-Alias: ''
+Aliases:
+  - Alias: /ericsson
+  - Alias: /ericsson1
 metaTags: >-
   <meta property="og:title" content="Visyond - Ericsson Case Study"/>
 
