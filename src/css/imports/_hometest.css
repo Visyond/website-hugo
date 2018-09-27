@@ -8,13 +8,46 @@
   -ms-align-items: center;
   align-items: center;
   text-align: center;
+  position: relative;
+  max-width: 1600px;
+  overflow: hidden;
+}
+
+.ht-top__video {
+  width: 100%;
+
+  @media (max-width: 850px) {
+    width: 180%;
+  }
+}
+
+.ht-top__content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
   padding: 10px 10px 0;
+  background: rgba(0,0,0,.5);
 }
 
 .ht-top__title {
   font-size: 2.375rem;
   font-weight: 400;
-  color: #50546d;
+  color: #fff;
   margin-bottom: 1rem;
   width: 100%;
   max-width: 1600px;
@@ -31,7 +64,7 @@
 .ht-top__under-title {
   font-size: 1.5rem;
   font-weight: 400;
-  color: #595959;
+  color: #fff;
   max-width: 900px;
   margin-bottom: 2rem;
 }
@@ -43,7 +76,6 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  margin-bottom: 7rem;
 
   @media screen and (max-width: 850px) {
     -webkit-flex-direction: column;
@@ -55,12 +87,17 @@
 .ht-link {
   text-transform: uppercase;
   font-size: 1.375rem;
-  padding: 1rem 0;
+  line-height: 3.5rem;
   width: 250px;
   color: #fff;
   border: none;
   border-radius: 2rem;
   text-align: center;
+  font-weight: 400;
+  border: 1px solid #fff;
+  -webkit-transition: .1s;
+  -o-transition: .1s;
+  transition: .1s;
 
   &:not(:last-child) {
     margin-right: 2rem;
@@ -71,15 +108,20 @@
     }
   }
 
+  &:hover {
+    color: #000;
+    background: #fff;
+  }
+
   &--sign-up {
-    background: #0086ff;
+    /*background: #0086ff;*/
     position: relative;
 
     &:before {
       content: "* no credit card required";
       position: absolute;
-      color: #595959;
-      bottom: -1.5rem;
+      color: #fff;
+      bottom: -3rem;
       left: 0;
       width: 100%;
       text-align: center;
@@ -89,12 +131,12 @@
   }
 
   &--request {
-    background: #0086ff;
+    /*background: #0086ff;*/
   }
 
   &--btn {
-    background: #0086ff;
-    padding: 1.1rem 0;
+    /*background: #0086ff;*/
+    background: none;
     cursor: pointer;
   }
 }

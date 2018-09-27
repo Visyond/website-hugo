@@ -4,17 +4,39 @@
 
     <!-- top section -->
     <div class="ht-top">
-      <h2 class="ht-top__title">
-        {{ .Params.TopTitle | markdownify}}
-      </h2>
+      <video src="/img/preview.mp4" class="ht-top__video" autoplay loop>
+        <source src="/img/preview.mp4" type="video/mp4">
+      </video>
+      
+      <div class="ht-top__content">    
+        <h2 class="ht-top__title">
+          {{ .Params.TopTitle | markdownify}}
+        </h2>
 
-      <div class="ht-top__under-title">
-        {{ .Params.TopSubTitle | markdownify}}
+        <div class="ht-top__under-title">
+          {{ .Params.TopSubTitle | markdownify}}
+        </div>
+
+        <div class="ht-top__btns-wrap">
+          <a href="{{ .Params.SignUpURL }}" class="ht-link ht-link--sign-up">
+            free sign up
+          </a>
+
+          {{ if .Params.WatchVideoURL }}
+          <a href="#" class="ht-link ht-link--btn js-btn-video">
+            watch video
+          </a>
+          {{ end }}
+
+          <a href="{{ .Params.RequestURL }}" class="ht-link ht-link--request">
+            request a demo
+          </a>
+        </div>
       </div>
 
-      <img src="{{ .Params.TopImage }}" alt="image" class="ht-top__img">
+      <!-- <img src="{{ .Params.TopImage }}" alt="image" class="ht-top__img"> -->
 
-      <div class="ht-top__btns-wrap">
+      <!-- <div class="ht-top__btns-wrap">
         <a href="{{ .Params.SignUpURL }}" class="ht-link ht-link--sign-up">
           free sign up
         </a>
@@ -28,7 +50,7 @@
         <a href="{{ .Params.RequestURL }}" class="ht-link ht-link--request">
           request a demo
         </a>
-      </div>
+      </div> -->
 
       <div class="ht-top__popup js-popup">
         <div class="ht-top__iframe-wrap">
