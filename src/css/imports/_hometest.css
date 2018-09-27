@@ -11,6 +11,7 @@
   position: relative;
   max-width: 1600px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .ht-top__video {

@@ -207,6 +207,19 @@ $(function () {
 
 
 
+      // ===== AUTOPLAY VIDEO =====
+     if(document.querySelector('.js-background-video')) {
+      const video = document.querySelector('.js-background-video');
+      video.addEventListener('canplay', () => {
+        video.play();
+      })
+     }
+
+
+
+
+
+
      //=====LOGO TRUSTED SLIDER=====
 
      function logoSlide() {
@@ -599,7 +612,6 @@ $(function () {
       const title = block.querySelector('.dropdown__info-title').innerHTML;
       const descr = block.querySelector('.dropdown__info-descr').innerHTML;
       const showBlock = document.querySelector(`#${blockId} .dropdown__info`);
-      console.log(title, descr);
 
       block.addEventListener('mouseover', e => {
         if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
