@@ -608,6 +608,17 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Provides Item", name: "text", widget: "markdown"},
           ],}
 
+          - { label: "Featured Background", name: "featuredBg", widget: image}
+          - { label: "Featured Title", name: "featuredTitle", widget: string}
+          - { label: "Featured Hover", name: "featured", widget: "list",
+              fields: [
+                {label: "Logo", name: "logo", widget: "image"},
+                {label: "Logo Alt Text", name: "alt", widget: "string"},
+                {label: "Description", name: "descr", widget: "string"},
+              ],
+              required: false,
+            }
+
           - {label: "Title Bottom", name: "titleBottom", widget: "string"}
           - {label: "Background Bottom", name: "bgBottom", widget: "image"}
 
