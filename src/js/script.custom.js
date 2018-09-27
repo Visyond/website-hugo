@@ -182,6 +182,7 @@ $(function () {
 
 
        btn.addEventListener('click', e => {
+        e.preventDefault();
          popup.classList.add('popup--show');
          createIframe();
        });
