@@ -175,7 +175,8 @@ export default class Home extends React.Component {
 
 							<section className="home-featured">
 								<div className="container">
-									<h3 className="home-title home-title--home-featured">As featured in
+									<h3 className="home-title home-title--home-featured">
+										{ entry.getIn(['data', 'featuredTitle']) }
 									</h3>
 
 									<ul className="home-featured__list">
