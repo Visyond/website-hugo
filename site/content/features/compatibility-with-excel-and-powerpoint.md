@@ -1,4 +1,5 @@
 ---
+aliases: /features/import-and-export/
 title: Cross-Compatibility with Excel and Export to PowerPoint
 topTitle: "Cross-Compatibility with Excel And Export to PowerPoint\r"
 topSubTitle: >-
