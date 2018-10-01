@@ -3,7 +3,8 @@ title: Case Studies
 url: /casestudy/
 type: casestudies
 casestudies:
-  - logo: /img/Ericsson_logo.png
+  - alt: Ericsson Logo
+    logo: /img/Ericsson_logo.png
     tags:
       - tagTitle: Impact Modeling
       - tagTitle: Sales Negotiation
@@ -14,7 +15,8 @@ casestudies:
       Their Customers with Visyond
     url: >-
       /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
-  - logo: /img/elet.png
+  - alt: Elettronica Logo
+    logo: /img/elet.png
     name: ''
     tags:
       - tagTitle: Sales planning
@@ -22,7 +24,8 @@ casestudies:
     title: How Elettronica Reduced the Sales Planning Cycle from Weeks to Hours
     url: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
-  - logo: /img/elearn.png
+  - alt: eLearnSecurity Logo
+    logo: /img/elearn.png
     tags:
       - tagTitle: Reporting
       - tagTitle: Financial Statements
