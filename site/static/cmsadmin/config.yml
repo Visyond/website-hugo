@@ -363,7 +363,6 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/simplepages"
     create: true
     fields:
-      - { label: "Scripts", name: "countersScripts", widget: markdown, required: false }
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Page url", name: "url", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
