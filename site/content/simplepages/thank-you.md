@@ -1,4 +1,5 @@
 ---
+scripts: <script>console.log('thank you!')</script>
 url: /thank-you-for-your-request
 title: Thank You!
 image: /img/back1.png
