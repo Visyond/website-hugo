@@ -4,6 +4,11 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: cfi.co Logo
+    logo: /img/cfico logo.png
+    name: ''
+    title: Is AI the Future for Spreadsheets?
+    url: 'https://cfi.co/europe/2018/10/is-ai-the-future-for-spreadsheets/'
   - alt: The Telegraph Logo
     logo: /img/telegraph.png
     title: What happens when you win that first big client?
