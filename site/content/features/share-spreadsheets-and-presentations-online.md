@@ -1,5 +1,5 @@
 ---
-aliases: /features/selective-sharing/
+aliases: ''
 title: 'Share Spreadsheets, Presentations and Analysis Online'
 metaTags: "<meta name=\"title\" content=\"Share Spreadsheets, Presentations and Analysis Online\">\r\n\r\n<meta name=\"description\" content=\"Communicate and share spreadsheets, presentations and analysis more efficiently and avoid data leaks and manual back-and-forth copy-paste between Excel and Powerpoint.\">\r\n\r\n<meta name=\"keywords\" content=\"share spreadsheet online, share presentations\">"
 topTitle: >-
