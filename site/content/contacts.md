@@ -5,7 +5,7 @@ topImage: /img/topImgTerms.png
 mail: Visyond Ventures Ltd 86-90 Paul Street London  EC2A 4NE United Kingdom
 contactsSocial:
   - socialIcon: /img/tw1.png
-    socialLink: 'https://twitter.com/visyond'
+    socialLink: 'https://twitter.com/visyond/'
   - socialIcon: /img/linkdn.png
     socialLink: 'https://www.linkedin.com/company/visyond/'
   - socialIcon: /img/facebook.png
