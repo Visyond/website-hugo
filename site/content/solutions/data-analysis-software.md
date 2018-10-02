@@ -1,5 +1,5 @@
 ---
-aliases: /solutions/analysis
+aliases: ''
 title: Data Analysis Software
 metaTags: >-
   <meta name="title" content="Data Analysis Software">
