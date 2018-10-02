@@ -1,5 +1,8 @@
 ---
-scripts: <script>console.log('thank you!')</script>
+scripts: |-
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-982164483/VHbZCKjpuIoBEIPIqtQD'});
+  </script>
 url: /thank-you-for-your-request
 title: Thank You!
 image: /img/back1.png
