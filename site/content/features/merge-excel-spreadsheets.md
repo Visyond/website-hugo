@@ -1,5 +1,5 @@
 ---
-aliases: /features/data-input-and-consolidation/
+aliases: ''
 title: Merge Spreadsheets & Consolidate Data
 metaTags: "<meta name=\"title\" content=\"Merge Spreadsheets with Visyond’s Spreadsheet Data Consolidation software”>\r\n\r\n<meta name=\"description\" content=\"Easily gather & consolidate data and merge Excel spreadsheets with Visyond’s data gathering and consolidation tool.\">\r\n\r\n<meta name=\"keywords\" content=\"merge spreadsheets, merge excel spreadsheets, excel data consolidation tool\">"
 topTitle: Structured Spreadsheet Data Gathering and Consolidation
