@@ -1,5 +1,5 @@
 ---
-aliases: ''
+aliases: /features/calculators/
 title: Interactive Spreadsheet Calculators
 metaTags: "<meta name=\"title\" content=\"Create Interactive Spreadsheet Calculators with Visyond\">\r\n\r\n<meta name=\"description\" content=\"Create calculators powered by your spreadsheet data, such as ROI calculators, and securely share them with stakeholders without exposing the model’s logic and calculations or sensitive information.\">\r\n\r\n<meta name=\"keywords\" content=\"spreadsheet calculator, make calculator from excel file\">"
 topTitle: Create Interactive Spreadsheet Calculators and Securely Test Assumptions
