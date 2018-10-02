@@ -1,5 +1,5 @@
 ---
-aliases: /solutions/finance
+aliases: ''
 title: Financial Data Analysis Software
 metaTags: "<meta name=\"title\" content=\"Financial Data analysis software\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s financial data analysis software is a great Excel alternative for budgeting, forecasting and financial modeling. Make better financial decisions, reduce errors and cut days worth of effort down to minutes.\">\r\n \r\n<meta name=\"keywords\" content=\"financial data analysis software\">"
 topTitle: >-
