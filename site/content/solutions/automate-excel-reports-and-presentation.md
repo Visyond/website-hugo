@@ -1,5 +1,5 @@
 ---
-aliases: /solutions/presentation
+aliases: ''
 title: Automate Excel Reports
 metaTags: >-
   <meta name="title" content="Automate Excel Reports, Financial Data
