@@ -735,12 +735,17 @@
     margin-bottom: 40px;
 }
 
-.home-featured__item > img {
+.home-featured__item a {
+  display: block;
+}
+
+.home-featured__item img {
     max-width: 70%;
     display: block;
     filter: grayscale(100%);
     transition: filter .1s ease-in-out;
     cursor: pointer;
+    
     &:hover {
         filter: grayscale(0);
     }
