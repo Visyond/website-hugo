@@ -737,15 +737,17 @@
 
 .home-featured__item a {
   display: block;
+  max-width: 70%;
 }
 
 .home-featured__item img {
-    max-width: 70%;
+    /*max-width: 70%;*/
+    width: 100%;
     display: block;
     filter: grayscale(100%);
     transition: filter .1s ease-in-out;
     cursor: pointer;
-    
+
     &:hover {
         filter: grayscale(0);
     }

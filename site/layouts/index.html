@@ -155,7 +155,7 @@
             <ul class="home-featured__list">
                 {{ range $el := .Params.Featured }}
                 <li class="home-featured__item">
-                  <a href="{{ $el.link }}">
+                  <a href="{{ $el.link }}" target="_blank">
                     <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
                   </a>
                 </li>
