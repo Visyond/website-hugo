@@ -617,6 +617,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Featured Hover", name: "featured", widget: "list",
               fields: [
                 {label: "Logo", name: "logo", widget: "image"},
+                {label: "Link", name: "link", widget: "string"},
                 {label: "Logo Alt Text", name: "alt", widget: "string"},
                 {label: "Description", name: "descr", widget: "string"},
               ],
