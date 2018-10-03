@@ -139,6 +139,13 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
+featuredBg: /img/errors.jpg
+featuredTitle: As Featured In
+featured:
+  - alt: The Telegraph Logo
+    link: >-
+      https://www.telegraph.co.uk/connect/small-business/happens-win-first-big-client/
+    logo: /img/telegraph.png
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 ---
