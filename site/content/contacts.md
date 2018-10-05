@@ -12,7 +12,10 @@ contactsSocial:
     socialLink: 'https://www.facebook.com/Visyond/'
 contactsPhone:
   - socialPhone: +44 20 3868 7298
+  - socialPhone: +27 03 1765 2312
+  - socialPhone: +27 08 2789 1915
 contactsEmail:
   - socialEmail: info@visyond.com
+  - socialEmail: corinne@get.visyond.com
 ---
 
