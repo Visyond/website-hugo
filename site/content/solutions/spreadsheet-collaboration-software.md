@@ -12,7 +12,8 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
-  - descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
+  - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
+    descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Interactive Presentations in
@@ -48,7 +49,10 @@ infoBlockFirst:
     image: /img/Interactive Slides in Browser v4.png
     link: /features/selective-sharing/
     title: Secure Selective Sharing
-  - descr: "Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging  spreadsheets\r\n"
+  - altText: >-
+      Spreadsheet Collaboration Software - Combine Multiple Assumptions into
+      Scenarios in Visyond
+    descr: "Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging  spreadsheets\r\n"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Combine Multiple Assumptions into
@@ -63,7 +67,10 @@ infoBlockFirst:
     image: /img/Scenario Window in Browser.png
     link: /features/data-input-and-consolidation/
     title: Structured Data Gathering & Consolidation
-  - descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
+  - altText: >-
+      Spreadsheet Collaboration Software - Store Conversations and Relevant
+      Documentation Directly in Cells in Visyond
+    descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -77,7 +84,10 @@ infoBlockFirst:
     image: /img/Attachments and Comments in Browser v2.png
     link: /features/knowledge-base/
     title: Single Source of Truth for Your Spreadsheets
-  - descr: "* All inputs are self-documented giving you a full audit trail showing you who changed what and when \r\n* You can always go back to previous versions of the spreadsheet and compare them on the fly, or revert any changes individually, without rolling back the entire document\r\n"
+  - altText: >-
+      Spreadsheet Collaboration Software - Store Multiple Assumptions
+      Simultaneously in Visyond
+    descr: "* All inputs are self-documented giving you a full audit trail showing you who changed what and when \r\n* You can always go back to previous versions of the spreadsheet and compare them on the fly, or revert any changes individually, without rolling back the entire document\r\n"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Store Multiple Assumptions
@@ -92,7 +102,10 @@ infoBlockFirst:
     image: /img/Cases in Browser v2.png
     link: /features/knowledge-base/
     title: Input Tracking and Version Control
-  - descr: "* Start with Visyond by simply importing your Excel spreadsheet, no matter the model complexity and you are ready to go\r\n* You can always export the spreadsheet from Visyond to Excel\r\n* Export charts, analyses, presentations and financial statements into various formats\r\n"
+  - altText: >-
+      Spreadsheet Collaboration Software - Import and Export Spreadsheets in
+      Visyond
+    descr: "* Start with Visyond by simply importing your Excel spreadsheet, no matter the model complexity and you are ready to go\r\n* You can always export the spreadsheet from Visyond to Excel\r\n* Export charts, analyses, presentations and financial statements into various formats\r\n"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Import and Export Spreadsheets in
