@@ -4,39 +4,65 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
-  - logo: /img/GdprReport Logo.jpg
+  - alt: cfi.co Logo
+    logo: /img/cfico logo.png
+    name: ''
+    title: Is AI the Future for Spreadsheets?
+    url: 'https://cfi.co/europe/2018/10/is-ai-the-future-for-spreadsheets/'
+  - alt: The Telegraph Logo
+    logo: /img/telegraph.png
+    title: What happens when you win that first big client?
+    url: >-
+      https://www.telegraph.co.uk/connect/small-business/happens-win-first-big-client/
+  - alt: Global Banking and Finance Logo
+    logo: /img/GlobalBankingAndFinance logo.jpeg
+    name: ''
+    title: >-
+      Ericsson Chooses Tech Start-up Visyond to Streamline Spreadsheet Workflow
+      in Sales Operations
+    url: >-
+      https://www.globalbankingandfinance.com/ericsson-chooses-tech-start-up-visyond-to-streamline-spreadsheet-workflow-in-sales-operations/
+  - alt: GDPR Report Logo
+    logo: /img/GdprReport Logo.jpg
     title: 'Secure data sharing: How to reduce compliance risks'
     url: >-
       https://gdpr.report/news/2018/08/27/secure-data-sharing-how-to-reduce-compliance-risks/
-  - logo: /img/GrowthBusiness Logo.png
+  - alt: GrowthBusiness Logo
+    logo: /img/GrowthBusiness Logo.png
     title: 'Innovation in a business: Is it getting harder or easier to innovate?'
     url: >-
       http://www.growthbusiness.co.uk/innovation-in-a-business-is-it-getting-harder-or-easier-to-innovate-2554903/
-  - logo: /img/NatWest Logo.png
+  - alt: NatWest Logo
+    logo: /img/NatWest Logo.png
     title: 'Leadership lessons: how to be a mentor'
     url: >-
       http://natwest.contentlive.co.uk/content/leadership-lessons-how-to-be-a-mentor
-  - company: ''
+  - alt: ITProPortal Logo
+    company: ''
     logo: /img/ITProPortal-logo.png
     name: ''
     tags: []
     title: Can AI play a disruptive role in the spreadsheet ecosystem?
     url: >-
       https://www.itproportal.com/features/can-ai-play-a-disruptive-role-in-the-spreadsheet-ecosystem/
-  - logo: /img/JustEntrepreneurs logo.png
+  - alt: Just Entrepreneurs Logo
+    logo: /img/JustEntrepreneurs logo.png
     title: 'Drastically Simplify Financial Planning: From Weeks of Work to Hours'
     url: >-
       https://justentrepreneurs.co.uk/blog/drastically-simplify-financial-planning-from-weeks-of-work-to-hours?rq=visyond
-  - logo: /img/GlobalBankingAndFinance logo.jpeg
+  - alt: Global Banking and Finance Logo
+    logo: /img/GlobalBankingAndFinance logo.jpeg
     tags: []
     title: Improve Investor Relations With 5 Simple Changes
     url: >-
       https://www.globalbankingandfinance.com/improve-investor-relations-with-5-simple-changes/
-  - logo: /img/MyCustomer logo.jpg
+  - alt: MyCustomer Logo
+    logo: /img/MyCustomer logo.jpg
     title: 7 ways sales and marketing teams can drastically improve their forecasting
     url: >-
       https://www.mycustomer.com/selling/sales-performance/7-ways-sales-and-marketing-teams-can-drastically-improve-their-forecasting
-  - logo: /img/Medium logo.png
+  - alt: Medium Logo
+    logo: /img/Medium logo.png
     title: Why Lenders Need Digital Transformation For Financing Proposals
     url: >-
       https://medium.com/fintech-weekly-magazine/why-lenders-need-digital-transformation-for-financing-proposals-85d1f9fb9101
