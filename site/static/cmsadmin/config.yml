@@ -646,17 +646,20 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Contact, name: contact, widget: hidden, default: "/contact.html" }
           - { label: Title, name: title, widget: string }
           - { label: "Top image", name: topImage, widget: "image" }
-          - { label: Mail, name: mail, widget: markdown }
-          - { label: Social, name: contactsSocial, widget: list, fields: [
-            { label: "Icon", name: socialIcon, widget: "image" },
-            { label: "Link", name: socialLink, widget: "string" }
-          ]}
-          - { label: Phone, name: contactsPhone, widget: list, fields: [
-            { label: "number", name: socialPhone, widget: "string" }
-          ]}
-          - { label: Email, name: contactsEmail, widget: list, fields: [
-            { label: "email", name: socialEmail, widget: "string" }
-          ]}
+          - { label: "Locations", name: locations, widget: list, fields: [
+              { label: Locations Title, name: title, widget: string },
+              { label: Mail, name: mail, widget: markdown },
+              { label: Social, name: contactsSocial, widget: list, fields: [
+                { label: "Icon", name: socialIcon, widget: "image" },
+                { label: "Link", name: socialLink, widget: "string" }
+              ]},
+              { label: Phone, name: contactsPhone, widget: list, fields: [
+                { label: "number", name: socialPhone, widget: "string" }
+              ]},
+              { label: Email, name: contactsEmail, widget: list, fields: [
+                { label: "email", name: socialEmail, widget: "string" }
+              ]}
+            ]}
 
 
 
