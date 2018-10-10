@@ -15,35 +15,47 @@
 </div>
 <div class="container">
 	<section class="contacts-page">
-		<article class="contacts-page__item contacts-page__item--mail">
-			<h3 class="contacts-page__title">Mail</h3>
-			<span class="contacts-page__address">{{ .Params.Mail | markdownify }}</span>
+		<div class="contact-page__contacts-wrapper">
+			{{ range $location := .Params.locations }}
+			{{ with $location.title }}
+			<h3 class="contact-page__location-title">
+				{{ . }}
+			</h3>
+			{{ end }}
+			<div class="contact-page__location">
+				<article class="contacts-page__item contacts-page__item--mail">
+					<h3 class="contacts-page__title">Mail</h3>
+					<span class="contacts-page__address">{{ $location.Mail | markdownify }}</span>
 
-			<div class="contacts-page__social-wrap">
-				{{ partial "social" (dict "data" .Params.ContactsSocial) }}
+					<div class="contacts-page__social-wrap">
+						{{ partial "social" (dict "data" $location.ContactsSocial) }}
+					</div>
+				</article>
+				<article class="contacts-page__item contacts-page__item--phone">
+					<h3 class="contacts-page__title">Telephone</h3>
+					<ul class="contacts-page__list">
+						{{ range $element := $location.contactsPhone }}
+						<li class="contacts-page__item">
+							<a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialPhone }}</a>
+						</li>
+						{{ end }}
+					</ul>
+				</article>
+
+				<article class="contacts-page__item contacts-page__item--email">
+					<h3 class="contacts-page__title">Email</h3>
+					<ul class="contacts-page__list">
+						{{ range $element := $location.contactsEmail }}
+						<li class="contacts-page__item">
+							<a href="mailto:{{ .socialEmail }}" class="contacts-page__link">{{ .socialEmail }}</a>
+						</li>
+						{{end}}
+					</ul>
+				</article>
 			</div>
-		</article>
-		<article class="contacts-page__item contacts-page__item--phone">
-			<h3 class="contacts-page__title">Telephone</h3>
-			<ul class="contacts-page__list">
-				{{ range $element := .Params.contactsPhone }}
-				<li class="contacts-page__item">
-					<a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialPhone }}</a>
-				</li>
-				{{ end }}
-			</ul>
-		</article>
-
-		<article class="contacts-page__item contacts-page__item--email">
-			<h3 class="contacts-page__title">Email</h3>
-			<ul class="contacts-page__list">
-				{{ range $element := .Params.contactsEmail }}
-				<li class="contacts-page__item">
-					<a href="mailto:{{ .socialEmail }}" class="contacts-page__link">{{ .socialEmail }}</a>
-				</li>
-				{{end}}
-			</ul>
-		</article>
+			{{ end }}
+		</div>
+		
 		<article class="contacts-page__item contacts-page__item--form">
 			<h3 class="contacts-page__title">Contact us</h3>
 			<form class="contact__form-wrap" action="https://formspree.io/support@visyond.com" method="POST">
