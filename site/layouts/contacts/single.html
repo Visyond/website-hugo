@@ -36,7 +36,7 @@
 					<ul class="contacts-page__list">
 						{{ range $element := $location.contactsPhone }}
 						<li class="contacts-page__item">
-							<a href=tel:{{replace $element.socialPhone " " "" }} class="contacts-page__link">{{ $element.socialPhone }}</a>
+							<a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialphone }}</a>
 						</li>
 						{{ end }}
 					</ul>

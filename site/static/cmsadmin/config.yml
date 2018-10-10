@@ -651,10 +651,10 @@ collections: # A list of collections the CMS should be able to edit
                 { label: "Link", name: socialLink, widget: "string" }
               ]},
               { label: Phone, name: contactsPhone, widget: list, fields: [
-                { label: "number", name: socialPhone, widget: "string" }
+                { label: "number", name: socialphone, widget: "string" }
               ]},
-              { label: Email, name: contactsEmail, widget: list, fields: [
-                { label: "email", name: socialEmail, widget: "string" }
+              { label: Email, name: contactsemail, widget: list, fields: [
+                { label: "email", name: socialemail, widget: "string" }
               ]}
             ]}
 
