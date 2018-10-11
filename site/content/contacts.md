@@ -4,7 +4,7 @@ type: contacts
 title: Contact us
 topImage: /img/topImgTerms.png
 locations:
-  - contactsPhone:
+  - contactsphone:
       - socialphone: +44 20 3868 7298
     contactsSocial:
       - socialIcon: /img/linkdn.png
@@ -17,7 +17,7 @@ locations:
       - socialemail: info@visyond.com
     mail: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
     title: United Kingdom
-  - contactsPhone:
+  - contactsphone:
       - socialphone: +27 03 1765 2312
       - socialphone: +27 08 2789 1915
     contactsemail:
