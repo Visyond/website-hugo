@@ -8,13 +8,7 @@ locations:
       - socialemail: info@visyond.com
     contactsphone:
       - socialphone: +44 20 3868 7298
-    contactssocial:
-      - socialicon: /img/linkdn.png
-        sociallink: 'https://www.linkedin.com/company/visyond'
-      - socialicon: /img/twitter.png
-        sociallink: 'https://twitter.com/visyond'
-      - socialicon: /img/facebook.png
-        sociallink: 'https://www.facebook.com/Visyond'
+    contactssocial: []
     mail: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
     title: United Kingdom
   - contactsemail:
@@ -23,6 +17,13 @@ locations:
     contactsphone:
       - socialphone: +27 03 1765 2312
       - socialphone: +27 08 2789 1915
+    contactssocial:
+      - socialicon: /img/linkdn.png
+        sociallink: 'https://www.linkedin.com/company/visyond'
+      - socialicon: /img/twitter.png
+        sociallink: 'https://twitter.com/visyond'
+      - socialicon: /img/facebook.png
+        sociallink: 'https://www.facebook.com/Visyond'
     mail: |-
       4 Hilldene Road 
 
