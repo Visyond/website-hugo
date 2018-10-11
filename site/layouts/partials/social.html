@@ -4,8 +4,8 @@
         {{ range $el := .data }}
         <li class="social__item">
             <a 
-                href={{$el.socialLink}} class="social__link"
-                style="background: url({{$el.socialIcon}}) center center no-repeat; background-size:cover;"
+                href={{$el.sociallink}} class="social__link"
+                style="background: url({{$el.socialicon}}) center center no-repeat; background-size:cover;"
             ></a>
         </li>
         {{ end }}
