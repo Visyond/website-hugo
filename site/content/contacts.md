@@ -4,7 +4,9 @@ type: contacts
 title: Contact us
 topImage: /img/topImgTerms.png
 locations:
-  - contactsphone:
+  - contactsemail:
+      - socialemail: info@visyond.com
+    contactsphone:
       - socialphone: +44 20 3868 7298
     contactssocial:
       - socialicon: /img/linkdn.png
@@ -13,19 +15,20 @@ locations:
         sociallink: 'https://twitter.com/visyond'
       - socialicon: /img/facebook.png
         sociallink: 'https://www.facebook.com/Visyond'
-    contactsemail:
-      - socialemail: info@visyond.com
     mail: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
     title: United Kingdom
-  - contactsphone:
+  - contactsemail:
+      - socialemail: corinne@get.visyond.com
+    contactsphone:
       - socialphone: +27 03 1765 2312
       - socialphone: +27 08 2789 1915
-    contactsemail:
-      - socialemail: corinne@get.visyond.com
     mail: |-
-      4 Hilldene Road
-      Hillcrest
-      Durban KZN 3610
+      4 Hilldene Road 
+
+      Hillcrest 
+
+      Durban KZN 3610 
+
       South Africa
     title: South Africa
 ---
