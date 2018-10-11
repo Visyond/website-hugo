@@ -6,13 +6,13 @@ topImage: /img/topImgTerms.png
 locations:
   - contactsphone:
       - socialphone: +44 20 3868 7298
-    contactsSocial:
-      - socialIcon: /img/linkdn.png
-        socialLink: 'https://www.linkedin.com/company/visyond'
-      - socialIcon: /img/twitter.png
-        socialLink: 'https://twitter.com/visyond'
-      - socialIcon: /img/facebook.png
-        socialLink: 'https://www.facebook.com/Visyond'
+    contactssocial:
+      - socialicon: /img/linkdn.png
+        sociallink: 'https://www.linkedin.com/company/visyond'
+      - socialicon: /img/twitter.png
+        sociallink: 'https://twitter.com/visyond'
+      - socialicon: /img/facebook.png
+        sociallink: 'https://www.facebook.com/Visyond'
     contactsemail:
       - socialemail: info@visyond.com
     mail: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
