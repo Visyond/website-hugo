@@ -10,7 +10,7 @@ topSubTitle: >-
   your spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: "* Visualize spreadsheet data with Visyond’s Interactive Slides\r\n* Populate presentations with interactive elements such as charts, sliders and dropdown fields that affect and automatically updates displayed data\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n* Changes in the slides do not affect the model or anyone else’s view\r\n"
     files:
