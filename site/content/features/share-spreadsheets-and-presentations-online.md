@@ -38,7 +38,7 @@ infoBlockFirst:
           Share Spreadsheets, Presentations and Analysis Online - Share
           Presentations in Visyond
         title: Share Presentations
-    image: /img/Share Project.png
+    image: /img/Interactive Slides in Browser v4.png
     title: 'Share Spreadsheets, Presentation and Analysis Online'
 featuresTitle: Related Features
 featuresCards:
