@@ -8,7 +8,7 @@ topTitle: >-
 topSubTitle: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: >-
       * Add multiple assumptions or cases along with supporting documentation
