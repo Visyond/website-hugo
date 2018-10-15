@@ -10,7 +10,7 @@ topSubTitle: >-
   synced when changes are introduced to the source spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: "* Simplify and speed-up the creation of charts with Visyond’s intuitive interface\r\n* Pick from a wide variety of chart types - from familiar Bars and Pies to Waterfall charts\r\n* Export charts or place them inside Visyond’s presentation instantly\r\n"
     files:
