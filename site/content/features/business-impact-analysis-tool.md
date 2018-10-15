@@ -11,7 +11,7 @@ topSubTitle: >-
   or increase/decrease any important Key Performance Indicator?
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
