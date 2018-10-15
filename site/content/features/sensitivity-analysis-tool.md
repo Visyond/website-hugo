@@ -11,7 +11,7 @@ topSubTitle: >-
   sensitivity analysis setup a few-clicks job.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: "* Instantly identify critical spreadsheet inputs and outputs\r\n* Isolate and focus on important variables to save time and effort\r\n* Easily setup one-way sensitivity analysis where only one input variable is changed, or a two-way sensitivity analysis where two input variables are changed at the same time\r\n* Make the most out of sensitivity analysis and run it after [Impact (Tornado) analysis](/features/tornado/) which will help you identify the most significant variables"
     files:
