@@ -11,7 +11,7 @@ topSubTitle: >-
   sensitive information. 
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/banner dark.jpg
 infoBlockFirst:
   - descr: "* Quickly create various calculators powered by your spreadsheet data\r\n* Instantly see data and charts updated as you interact with the calculator, without changing anything in the spreadsheet\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n"
     files:
