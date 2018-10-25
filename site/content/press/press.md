@@ -4,6 +4,11 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: Angel News Logo
+    logo: /img/Angel News.png
+    title: Why being lean is more attractive to potential investors
+    url: >-
+      https://www.angelnews.co.uk/blog/perspectives/-why-being-lean-is-more-attractive-to-potential-investors/
   - alt: cfi.co Logo
     logo: /img/cfico logo.png
     name: ''
