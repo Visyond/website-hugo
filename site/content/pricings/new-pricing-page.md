@@ -6,8 +6,8 @@ topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solu
 bgImage: /img/Collab 1 resized 3.jpg
 outgrowTitle: ''
 outgrowid: ''
-pricingTitle: You Can Combine Any Features From Any Suggested Categories Below
-firstPricingSubTitle: Visyond features start at $25 per FEATURE per user/month
+pricingTitle: Visyond features start at $25 per FEATURE per user/month
+firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories Below
 secondPricingSubTitle: ''
 leftCard:
   markdown: |-
