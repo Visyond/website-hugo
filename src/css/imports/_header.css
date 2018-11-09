@@ -88,3 +88,21 @@
     }
     
 }
+
+.header-section {
+    width: 600px;
+    color: #50546d;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.header-section--divider {
+    width: 48px;
+    height: 4px;
+    background-color: #0685ff;
+    margin: 2em auto;
+    border-radius: 2px;
+}
+
+
