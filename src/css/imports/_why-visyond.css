@@ -1,14 +1,19 @@
+.cover {
+    background: url('/img/why-visyond-cover.png') center center no-repeat;
+    background-size: cover;
+    padding: 8em 0;
+}
+
 .cover-header {
     margin: 0.5em 0;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 300;
     color: #fff;
     color: #ffffff;
-    text-align: center;
 }
 
 .cover-header--sub {
-    font-size: 21px;
+    font-size: 1.3em;
     font-weight: 400;
     line-height: 40px;
     text-align: center;
@@ -20,4 +25,14 @@
         margin-top: 50px;
     }
 }
+
+.primary {
+    background: #eef6ff;
+}
+
+.section {
+    padding: 4em 0;
+    text-align: center;
+}
+
 

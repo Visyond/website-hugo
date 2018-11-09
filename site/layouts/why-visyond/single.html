@@ -1,13 +1,5 @@
 {{ partial "head" . }}
-<div class="about-page">
-  <div class="case-study-title-wrap contacts-title-wrap">
-    <style>
-      .case-study-title-wrap {
-          background: url('/img/why-visyond-cover.png') center center no-repeat;
-          background-size: cover;
-      }
-    </style>
-    <div class="container">
+  <section class="cover">
       <h1 class="cover-header">
         What is Visyond?
       </h1>
@@ -21,14 +13,18 @@
           We're introducing spreadsheet collaboration the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it.
         </p>
       </div>
-    </div>
-  </div>
+  </section>
 
-  <!-- try -->
-  <section class="container">
-    <h2 class="header-section centered">Visyond is the only solution commited
+  <section class="section primary">
+    <h2 class="header-section">Visyond is the only solution commited
       to bring you the best of worlds</h2>
     <div class="header-section--divider"></div>
+    <img src="/img/what-is-visyond-infographic.png">
   </section>
+
+  <section class="section">
+    <h2 class="header-section">Benefits</h2>
+    <div class="header-section--divider"></div>
+    </section>
 
 {{ partial "footer" . }}
