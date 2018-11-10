@@ -163,199 +163,231 @@
   <div class="header-section--divider"></div>
 
   <div class="comparation-table">
-  <table>
-    <thead>
-      <tr>
-        <td>
+    <table>
+      <thead>
+        <tr>
+          <td>
 
-        </td>
+          </td>
 
-        <td>
-          Visyond
-        </td>
+          <td>
+            Visyond
+          </td>
 
-        <td>
-          SPREADSHEETS + ADDONS
-        </td>
+          <td>
+            SPREADSHEETS + ADDONS
+          </td>
 
-        <td>
-          COLLABORATIVE SPREADSHEETS
-        </td>
+          <td>
+            COLLABORATIVE SPREADSHEETS
+          </td>
 
-        <td>
-          FILE SHARING
-          TOOLS
-        </td>
+          <td>
+            FILE SHARING
+            TOOLS
+          </td>
 
-        <td>
-          DATA
-          VISUALIZATION
-        </td>
+          <td>
+            DATA
+            VISUALIZATION
+          </td>
 
-        <td>
-          FINANCIAL
-          APPS
-        </td>
+          <td>
+            FINANCIAL
+            APPS
+          </td>
+          
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            Spreadsheet, debug and audit
+          </td>
+          <td>
+            +
+          </td>
+
+          <td>
+            + / -
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            -
+          </td>
+          
+        </tr>
+
+        <tr>
+          <td>
+            Selective sharing and workflows on a single source of truth
+          </td>
+          <td>
+            +
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            + / -
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            -
+          </td>
+
+          <td>
+            + / -
+          </td>
+          
+        </tr>
+
         
-      </tr>
-    </thead>
+        <tr>
+          <td>
+            Collaborative what-if analysis in real time
+          </td>
+          <td>
+            +
+          </td>
 
-    <tbody>
-      <tr>
-        <td>
-          Spreadsheet, debug and audit
-        </td>
-        <td>
-          +
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          + / -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            + / -
+          </td>
+          
+        </tr>
 
-        <td>
-          -
-        </td>
-        
-      </tr>
+        <tr>
+          <td>
+            Spreadsheet driven interactive present ations and reports
 
-      <tr>
-        <td>
-          Selective sharing and workflows on a single source of truth
-        </td>
-        <td>
-          +
-        </td>
+          </td>
+          <td>
+            +
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          + / -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            -
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            + / -
+          </td>
 
-        <td>
-          + / -
-        </td>
-        
-      </tr>
+          <td>
+            -
+          </td>
+          
+        </tr>
 
-      
-      <tr>
-        <td>
-          Collaborative what-if analysis in real time
-        </td>
-        <td>
-          +
-        </td>
+        <tr>
+          <td>
+            Cost / Value
 
-        <td>
-          -
-        </td>
+          </td>
+          <td>
+            $$ / ++++
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            $ / +
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            $$ / +
+          </td>
 
-        <td>
-          -
-        </td>
+          <td>
+            $$ / -
+          </td>
 
-        <td>
-          + / -
-        </td>
-        
-      </tr>
+          <td>
+            $$$ / +
+          </td>
 
-      <tr>
-        <td>
-          Spreadsheet driven interactive present ations and reports
-
-        </td>
-        <td>
-          +
-        </td>
-
-        <td>
-          -
-        </td>
-
-        <td>
-          -
-        </td>
-
-        <td>
-          -
-        </td>
-
-        <td>
-          + / -
-        </td>
-
-        <td>
-          -
-        </td>
-        
-      </tr>
-
-      <tr>
-        <td>
-          Cost / Value
-
-        </td>
-        <td>
-          $$ / ++++
-        </td>
-
-        <td>
-          $ / +
-        </td>
-
-        <td>
-          $$ / +
-        </td>
-
-        <td>
-          $$ / -
-        </td>
-
-        <td>
-          $$$ / +
-        </td>
-
-        <td>
-          $$$$ / ++
-        </td>
-        
-      </tr>
-    </tbody>
-  </table>
+          <td>
+            $$$$ / ++
+          </td>
+          
+        </tr>
+      </tbody>
+    </table>
   </div>
 </section>
+
+<section class="section primary">
+  <div class="home-provides">
+    <section class="home-provides__wrap">
+      <h3 class="home-provides__title">
+        {{ .Params.ProvidesTitle }}
+      </h3>
+      <ul class="home-provides__list">
+        {{ range $el := .Params.ProvidesList }}
+        <li class="home-provides__item">
+          {{ .text | markdownify }}
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <div class="home-provides__img-wrap">
+      <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
+    </div>
+  </div>
+</section>
+
+<section class="home-bottom" style="background-image: url({{ .Params.BgBottom }})">
+  <h3 class="home-bottom__title">
+    {{ .Params.TitleBottom }}
+  </h3>
+
+  <a href="/request" class="home-link home-link--request">
+    request a demo
+  </a>
+</section>
+
+</div>
 
 {{ partial "footer" . }}
