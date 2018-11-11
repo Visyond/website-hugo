@@ -206,27 +206,29 @@
             Spreadsheet, debug and audit
           </td>
           <td>
-            +
+            <i class="icon compare plus"></i>
           </td>
 
           <td>
-            + / -
+            <i class="icon compare plus"></i>
+            <i class="icon compare divider"></i>
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
           
         </tr>
@@ -236,27 +238,31 @@
             Selective sharing and workflows on a single source of truth
           </td>
           <td>
-            +
+            <i class="icon compare plus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            + / -
+            <i class="icon compare plus"></i>
+            <i class="icon compare divider"></i>
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            + / -
+            <i class="icon compare plus"></i>
+            <i class="icon compare divider"></i>
+            <i class="icon compare minus"></i>
           </td>
           
         </tr>
@@ -267,27 +273,29 @@
             Collaborative what-if analysis in real time
           </td>
           <td>
-            +
+            <i class="icon compare plus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            + / -
+            <i class="icon compare plus"></i>
+            <i class="icon compare divider"></i>
+            <i class="icon compare minus"></i>
           </td>
           
         </tr>
@@ -298,29 +306,31 @@
 
           </td>
           <td>
-            +
+            <i class="icon compare plus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            + / -
+            <i class="icon compare plus"></i>
+            <i class="icon compare divider"></i>
+            <i class="icon compare minus"></i>
           </td>
 
           <td>
-            -
+            <i class="icon compare minus"></i>
           </td>
-          
+
         </tr>
 
         <tr>
@@ -329,27 +339,100 @@
 
           </td>
           <td>
-            $$ / ++++
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+                <i class="icon compare plus"></i>
+                <i class="icon compare plus"></i>
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
           </td>
 
           <td>
-            $ / +
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
           </td>
 
           <td>
-            $$ / +
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
           </td>
 
           <td>
-            $$ / -
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
           </td>
 
           <td>
-            $$$ / +
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
           </td>
 
           <td>
-            $$$$ / ++
+            <span class="icon stacked">
+              <span class="icon stacked">
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+                <i class="icon compare dollar"></i>
+              </span>
+              
+              <i class="icon compare divider"></i>
+
+              <span class="icon stacked">
+                <i class="icon compare plus"></i>
+                <i class="icon compare plus"></i>
+              </span>
+            </span>
+
           </td>
           
         </tr>
@@ -358,23 +441,23 @@
   </div>
 </section>
 
-  <div class="home-provides">
-    <section class="home-provides__wrap">
-      <h3 class="home-provides__title">
-        {{ .Params.ProvidesTitle }}
-      </h3>
-      <ul class="home-provides__list">
-        {{ range $el := .Params.ProvidesList }}
-        <li class="home-provides__item">
-          {{ .text | markdownify }}
-        </li>
-        {{ end }}
-      </ul>
-    </section>
-    <div class="home-provides__img-wrap">
-      <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
-    </div>
+<div class="home-provides">
+  <section class="home-provides__wrap">
+    <h3 class="home-provides__title">
+      {{ .Params.ProvidesTitle }}
+    </h3>
+    <ul class="home-provides__list">
+      {{ range $el := .Params.ProvidesList }}
+      <li class="home-provides__item">
+        {{ .text | markdownify }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <div class="home-provides__img-wrap">
+    <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
   </div>
+</div>
 
 <section class="home-bottom" style="background-image: url({{ .Params.BgBottom }})">
   <h3 class="home-bottom__title">
