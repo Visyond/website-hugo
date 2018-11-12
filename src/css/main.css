@@ -21,6 +21,7 @@
 @import "./imports/_homepage-header.css";
 @import "./imports/_footer.css";
 @import "./imports/_cookies.css";
+@import "./imports/_icons.css";
 @import "./imports/_trustedslider.css";
 @import "./imports/_casestudiessection.css";
 @import "./imports/_case-studies-section-new.css";
@@ -51,6 +52,7 @@
 @import "./imports/_analysis.css";
 @import "./imports/_features-page.css";
 @import "./imports/_solutions-page.css";
+@import "./imports/_why-visyond.css";
 
 /* @import "./imports/_responsive.css"; */
 /**
