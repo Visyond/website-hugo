@@ -57,7 +57,7 @@
   font-size: 1.375rem;
   padding: 1rem 0;
   width: 250px;
-  color: #fff;
+  color: #52546c;
   border: none;
   border-radius: 2rem;
   text-align: center;
@@ -72,7 +72,6 @@
   -webkit-transition: .1s;
   -o-transition: .1s;
   transition: .1s;
-  border: 1px solid #0086ff;
   font-weight: 400;
 
   & i {
@@ -107,7 +106,7 @@
   }
 
   &--request {
-    background: #0086ff;
+    background: #ffffff;
   }
 
   &--btn {
