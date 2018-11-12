@@ -60,7 +60,7 @@
   font-size: 1.375rem;
   padding: 1rem 0;
   width: 250px;
-  color: #fff;
+  color: #52546c;
   border: none;
   border-radius: 2rem;
   text-align: center;
@@ -94,7 +94,7 @@
   }
 
   &--request {
-    background: #0086ff;
+    background: #ffffff;
   }
 
   &--btn {
