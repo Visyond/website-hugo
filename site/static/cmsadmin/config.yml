@@ -910,3 +910,15 @@ collections: # A list of collections the CMS should be able to edit
             ],
             required: false,
           }
+
+
+
+
+
+
+      - file: "site/content/why-visyond.md"
+        label: "Why Visyon"
+        name: "Why Visyond"
+        fields:
+          - {label: "Page title", name: "title", widget: "string", required: false,}
+          - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
