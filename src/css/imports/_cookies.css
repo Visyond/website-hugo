@@ -41,7 +41,7 @@
 .cookies__yes {
   border: none;
   background: none;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #0086ff;
   background: #0086ff;
   border-radius: 5px;
@@ -65,7 +65,7 @@
   border: none;
   border-radius: 5px;
   background: none;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border: 1px solid #0086ff;
   background: #0086ff;
   color: #fff;

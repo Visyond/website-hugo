@@ -83,7 +83,7 @@
   font-size: 18px;
   padding: 5px 10px;
   font-weight: 700;
-  color: #52556C;
+  color: #52556c;
 }
 
 .dropdown .fea-section__title {
@@ -102,7 +102,6 @@
 }
 
 .fea-section__group-item {
-  
 }
 
 .fea-section__group-link {
@@ -119,7 +118,7 @@
 }
 
 .fea-section__group-link:hover {
-  background: #E8E9ED;
+  background: #e8e9ed;
   color: #52556c;
 }
 
@@ -137,7 +136,7 @@
   font-weight: 600;
 
   &:hover {
-    background: #E8E9ED;
+    background: #e8e9ed;
   }
 }
 

@@ -1,12 +1,12 @@
 .testimonials {
-    padding: 30px 0;
-    /*max-width: 1200px;*/
-    max-width: 1400px;
-    margin: 0 auto;
+  padding: 30px 0;
+  /*max-width: 1200px;*/
+  max-width: 1400px;
+  margin: 0 auto;
 
-    @media screen and (max-width: 768px) {
-        padding: 40px 20px;
-    }
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+  }
 }
 
 .testimonials__title {
@@ -21,43 +21,43 @@
 }
 
 .testimonials .slick-dots {
-    bottom: -40px;
+  bottom: -40px;
 }
 
 .testimonials .slick-dots li button:before {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .testimonials__list {
-    margin: 60px 0 0 0;
-    padding: 0;
-    list-style: none;
+  margin: 60px 0 0 0;
+  padding: 0;
+  list-style: none;
 }
 
 .testimonials__item {
-    text-align: center;
+  text-align: center;
 }
 
 .testimonials__img-container {
-    max-width: 580px;
-    margin: 0 auto;
+  max-width: 580px;
+  margin: 0 auto;
 }
 
 .testimonials__img-wrap {
-    border-radius: 50%;
-    width: 140px;
-    /* height: 140px; */
-    overflow: hidden;
-    display: block;
-    margin: 0 auto;
+  border-radius: 50%;
+  width: 140px;
+  /* height: 140px; */
+  overflow: hidden;
+  display: block;
+  margin: 0 auto;
 }
 
 .testimonials__img-wrap img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .testimonials__img-descr-wrap {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 
 .testimonials__img-descr {
@@ -65,28 +65,28 @@
   color: #767575;
   font-size: 1.3125rem;
   position: relative;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   padding: 0 15px;
   display: inline-block;
 
-    &:before, &:after {
-        content: '';
-        background: url('/img/vimages/quote.png') no-repeat;
-        background-size: 10px;
-        width: 10px;
-        height: 10px;
-        position: absolute;
-
-    }
-    &:before {
-        left: 5px;
-        top: 5px;
-    }
-    &:after {
-        right: 5px;
-        bottom: 0;
-        transform: rotate(180deg);
-    }
+  &:before,
+  &:after {
+    content: "";
+    background: url("/img/vimages/quote.png") no-repeat;
+    background-size: 10px;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+  }
+  &:before {
+    left: 5px;
+    top: 5px;
+  }
+  &:after {
+    right: 5px;
+    bottom: 0;
+    transform: rotate(180deg);
+  }
 }
 
 .testimonials__img-author {
@@ -96,36 +96,34 @@
 }
 
 .testimonials__img-company {
-    max-width: 140px;
-    display: block;
-    margin: 1rem auto 0;
+  max-width: 140px;
+  display: block;
+  margin: 1rem auto 0;
 }
 
+.testimonials__list .slick-next,
+.testimonials__list .slick-prev {
+  z-index: 9;
+  background: url("/img/vimages/arrowL.png") no-repeat;
+  background-size: 70px;
+  height: 139px;
+  width: 70px;
+  transition: background 0.2s ease-in-out;
 
-.testimonials__list .slick-next, .testimonials__list .slick-prev {
-    z-index: 9;
-    background:url("/img/vimages/arrowL.png") no-repeat;
+  &:before {
+    content: "";
+  }
+
+  &:hover {
     background-size: 70px;
-    height: 139px;
-    width: 70px;
-    transition: background .2s ease-in-out;
-
-    &:before {
-        content: '';
-    }
-
-    &:hover {
-        background-size: 70px;
-    }
+  }
 }
 
 .testimonials__list .slick-prev {
-    left: 0;
+  left: 0;
 }
 
 .testimonials__list .slick-next {
-    right: 0;
-    transform: rotate(180deg) translateY(50%);
+  right: 0;
+  transform: rotate(180deg) translateY(50%);
 }
-
-

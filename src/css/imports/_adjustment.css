@@ -3,10 +3,10 @@
 }
 
 /**
-*
-* Adjustment settings
-*
-**/
+ *
+ * Adjustment settings
+ *
+ **/
 
 html,
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 body > p {
-  margin: 0;
+    margin: 0;
 }
 
 .wrapper {
@@ -52,14 +52,19 @@ body > p {
     @media screen and (max-width: 784px) {
         width: auto;
     }
-
 }
 
 a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin-top: 0;
 }
 
@@ -89,8 +94,8 @@ h1, h2, h3, h4, h5, h6, p {
     background: #9f4bcc;
     padding: 15px 130px;
     border-radius: 4px;
-    transition: background .1s ease-in-out;
-    letter-spacing: .5px;
+    transition: background 0.1s ease-in-out;
+    letter-spacing: 0.5px;
     &:hover {
         background: #8334ad;
     }

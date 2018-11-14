@@ -1,44 +1,44 @@
 .simplepage-title-wrap {
-    text-align: center;
-    padding: 90px 0;
+  text-align: center;
+  padding: 90px 0;
 
-    @media screen and (max-width: 1024px) {
-        padding: 40px 0;
-    }
+  @media screen and (max-width: 1024px) {
+    padding: 40px 0;
+  }
 }
 
 .simplepage__title {
-    font-size: 54px;
-    color: #fff;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 0;
-    @media screen and (max-width: 1024px) {
-        font-size: 40px;
-    }
+  font-size: 54px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  @media screen and (max-width: 1024px) {
+    font-size: 40px;
+  }
 }
 
 .simplepage-content {
-    width: 780px;
-    margin: 0 auto;
-    padding: 50px 0;
-    @media screen and (max-width: 1024px) {
-        width: 100%;
-        padding: 40px 10px;
-    }
+  width: 780px;
+  margin: 0 auto;
+  padding: 50px 0;
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    padding: 40px 10px;
+  }
 }
 
 .simplepage-content {
-    color: #52556c;
+  color: #52556c;
 }
 .simplepage-content h3 {
-    font-weight: 700;
-    font-size: 16px;
-    letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .simplepage-content p,
 .simplepage-content ul {
-    font-weight: 100;
-    line-height: 30px;
+  font-weight: 100;
+  line-height: 30px;
 }
