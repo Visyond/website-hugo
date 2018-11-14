@@ -1,68 +1,44 @@
 {{ partial "head" . }} 
 <div class="case-study-title-wrap casestudies-title-wrap">
-    <div class="container container--case-study-title-wrap">
-        <h1 class="case-studies__title">
-            Case studies
-        </h1>
-    </div>
+  <div class="container container--case-study-title-wrap">
+    <h1 class="case-studies__title">
+      Case studies
+    </h1>
+  </div>
 </div>
 <div class="container">
-    <ul class="casestudies__list">
-        {{ range $el := .Params.Casestudies }}
-        <li class="casestudies__item">
-            <a href="{{ $el.url }}" class="casestudies__link">
-                <div class="casestudies__top">
-                    <span class="casestudies__company-wrap">
-                        <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
-                    </span>
-                    <div class="casestudies__company-person-wrap">
-                        <span class="casestudies__company-person-img">
-                            <img src="{{ $el.photo }}" alt="">
-                        </span>
-                        <div>
-                            <span class="casestudies__company-person-name">{{ $el.name }}</span>
-                            <span class="casestudies__company-person-company-name">
-                                {{ $el.company }}
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="casestudies__bottom">
-                    <h3 class="casestudies__title">{{ $el.title }}</h3>
-                    <ul class="casestudies__tag-list">
-                        {{ range $tag := $el.tags }}
-                        <li class="casestudies__tag-item">{{ .tagTitle }}</li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </a>
-        </li>
-        {{ end }}
-    </ul>
+  <ul class="casestudies__list">
+    {{ range $el := .Params.Casestudies }}
+    <li class="casestudies__item">
+      <a href="{{ $el.url }}" class="casestudies__link">
+        <div class="casestudies__top">
+          <span class="casestudies__company-wrap">
+            <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
+          </span>
+          <div class="casestudies__company-person-wrap">
+            <span class="casestudies__company-person-img">
+              <img src="{{ $el.photo }}" alt="">
+            </span>
+            <div>
+              <span class="casestudies__company-person-name">{{ $el.name }}</span>
+              <span class="casestudies__company-person-company-name">
+                {{ $el.company }}
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="casestudies__bottom">
+          <h3 class="casestudies__title">{{ $el.title }}</h3>
+          <ul class="casestudies__tag-list">
+            {{ range $tag := $el.tags }}
+            <li class="casestudies__tag-item">{{ .tagTitle }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
 
-    <!-- <div class="paginations">
-        <ul class="paginations__list">
-            <li class="paginations__item">
-                <a href="" class="paginations__link paginations__link--prev">
-                    <i class="material-icons">keyboard_arrow_left</i>
-                </a>
-            </li>
-            
-            <li class="paginations__item paginations__item--active">
-                <a href="" class="paginations__link">1</a>
-            </li>
-            <li class="paginations__item">
-                <a href="" class="paginations__link">2</a>
-            </li>
-            <li class="paginations__item">
-                <a href="" class="paginations__link">3</a>
-            </li>
-            <li class="paginations__item">
-                <a href="" class="paginations__link paginations__link--next">
-                    <i class="material-icons">keyboard_arrow_right</i>
-                </a>
-            </li>
-        </ul>
-    </div> -->
 </div>
 {{ partial "footer" . }}

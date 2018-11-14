@@ -61,8 +61,7 @@
     line-height: 18px;
     padding: 16px 30px;
     border-radius: 2px;
-}
-.case-study-params__item {
+
     &:not(:last-child) {
         margin-right: 30px;
         @media screen and (max-width: 1021px) {

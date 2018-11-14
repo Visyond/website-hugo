@@ -1,49 +1,49 @@
 {{ partial "head" . }} 
 <div class="case-study-title-wrap">
-    <style>
-        .case-study-title-wrap {
-            background: url({{ .Params.Image }}) center center no-repeat;
-            background-size: cover;
-        }
-    </style>
-    <div class="container container--case-study-title-wrap">
-        <h1 class="case-study__title">
-            {{ .Title }}
-        </h1>
-        <ul class="case-study-params__list">
-            {{ range $element := .Params.Tooltip }}
-                <li class="case-study-params__item">{{ $element.title }}</li>
-            {{ end }}
-        </ul>
-    </div>
+  <style>
+    .case-study-title-wrap {
+        background: url({{ .Params.Image }}) center center no-repeat;
+        background-size: cover;
+    }
+  </style>
+  <div class="container container--case-study-title-wrap">
+    <h1 class="case-study__title">
+      {{ .Title }}
+    </h1>
+    <ul class="case-study-params__list">
+      {{ range $element := .Params.Tooltip }}
+      <li class="case-study-params__item">{{ $element.title }}</li>
+      {{ end }}
+    </ul>
+  </div>
 </div>
 <div class="container container--case-study case-study--maincontent">
+  
+  <!-- container case-study__left-column -->
+  <div class="container--case-study__left-column">
     
-    <!-- container case-study__left-column -->
-    <div class="container--case-study__left-column">
-        
-        <figure class="case-study__person">
-            <div class="case-study__person-img">
-                <img src={{.Params.Client}} alt="client">
-            </div>
+    <figure class="case-study__person">
+      <div class="case-study__person-img">
+        <img src={{.Params.Client}} alt="client">
+      </div>
 
-            <figcaption class="cast-study__person-comment">
-                    <p>{{.Params.Client_ask | markdownify}}</p>
-            </figcaption>
-        </figure>
-        {{ .Content | markdownify }}
-        
-    </div> <!-- ./container case-study__left-column -->
+      <figcaption class="cast-study__person-comment">
+        <p>{{.Params.Client_ask | markdownify}}</p>
+      </figcaption>
+    </figure>
+    {{ .Content | markdownify }}
     
-    <!-- container case-study__right-column -->
-    <div class="container--case-study__right-column">
-        {{ range $itemAside := .Params.Aside }}
-        <section class="case-study__widget">
-            {{ $itemAside.content | markdownify }}
-        </section>
-        {{ end }}
+  </div> <!-- ./container case-study__left-column -->
+  
+  <!-- container case-study__right-column -->
+  <div class="container--case-study__right-column">
+    {{ range $itemAside := .Params.Aside }}
+    <section class="case-study__widget">
+      {{ $itemAside.content | markdownify }}
+    </section>
+    {{ end }}
 
-    </div> <!-- ./container case-study__right-column -->
+  </div> <!-- ./container case-study__right-column -->
 </div>
 
 <!-- solutions section -->
@@ -52,7 +52,7 @@
     {{ .Params.casestudyTitle }}
   </h2>
   <div class="case-study-section__cards">
-  {{ range $cards := .Params.casestudyCards }}
+    {{ range $cards := .Params.casestudyCards }}
     <a href="{{ .link }}" class="case-study-section__card">
       <div class="case-study-section__card-image-wrap">
         <img src="{{ .icon }}" alt="icon" class="case-study-section__card-image">
@@ -66,38 +66,9 @@
         {{ .text }}
       </p>
     </a>
-  {{ end }}
+    {{ end }}
   </div>
-  <!-- <a href="/features" class="case-study-section__btn">
-    see all solutions
-  </a> -->
 </div>
 <!-- solutions section -->
 
-<!-- <div class="case-study-sub-block">
-    {{ with .Params.SolTitle }}
-    <h3 class="case-study-sub-block__section-title">{{ . }}</h3>
-    {{ end }}
-    <div class="container">
-        <section class="case-study-sub-block__section">
-            <h3 hidden></h3>
-            {{ range $block := .Params.SolArticle }}
-            <a href="{{ .link }}" class="case-study-sub-block__article">
-                <h2>
-                    {{ .title }}
-                </h2>
-
-                <img src="{{ .image }}" alt="{{ .title }}">
-                
-                {{ with .descr }}
-                <p>
-                    {{ . }}
-                </p>
-                {{ end }}
-            </a>
-            {{ end }}
-
-        </section>
-    </div>  
-</div> -->
 {{ partial "footer" . }}

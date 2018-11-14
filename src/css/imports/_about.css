@@ -19,10 +19,10 @@
 
 
 /**
-*
-* TRY
-*
-**/
+ *
+ * TRY
+ *
+ **/
 
 
 .try {
@@ -121,7 +121,6 @@
 
 .try-after__link {
     padding: 35px;
-    display: block;
     position: relative;
     &:after {
         content: '';
@@ -245,7 +244,6 @@
 .leader__img-position {
     font-weight: 300;
     color: #5e6f85;
-    font-weight: 16px;
 }
 
 .leader__descr {
