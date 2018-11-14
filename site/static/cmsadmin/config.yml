@@ -922,3 +922,17 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Page title", name: "title", widget: "string", required: false,}
           - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
+          - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+          - {label: "Section 1: Header", name: "sectionOneHeader", widget: "string", required: false}
+          - {label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
+          - {label: "Section 2: Header", name: "sectionTwoHeader", widget: "string", required: false}
+          - label: "Benefits"
+            name: "sectionTwoCards"
+            widget: "list"
+            fields:
+              - {label: "Icon", name: "icon" , widget: "image" }
+              - {label: "Header", name: "header", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
+              - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Section 3: Header", name: "sectionThreeHeader", widget: "string", required: fals}
+          - {label: "Footer Header", name: "providesTitle", widget: "string", required: false}
