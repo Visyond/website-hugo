@@ -76,11 +76,6 @@
   }
 }
 
-.nav__link--active {
-  background: #fff;
-  color: #0585ff;
-}
-
 .dropdown-arrow {
   height: 19px;
   transform: translateY(-2px);
@@ -196,7 +191,6 @@
 }
 
 .dropdown-toggle__group-title {
-  margin: 0;
   color: #52556c;
   font-size: 12px;
   text-transform: uppercase;
@@ -238,7 +232,6 @@
   top: 0;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
-  display: block;
   height: 100vh;
   z-index: 999;
   display: none;

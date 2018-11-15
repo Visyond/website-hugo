@@ -110,10 +110,6 @@
   }
 }
 
-.request-demo__submit {
-  margin-top: 25px;
-}
-
 .request-demo__input {
   width: 100%;
   border: 1px solid #d6d6d6;
@@ -121,28 +117,24 @@
   font-size: 14px;
   padding: 10px 14px;
   &::-webkit-input-placeholder {
-    color: rgba(94, 111, 133, 0.8);
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 300;
   }
   &::-moz-placeholder {
-    color: rgba(94, 111, 133, 0.8);
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 300;
   } /* Firefox 19+ */
   &:-moz-placeholder {
-    color: rgba(94, 111, 133, 0.8);
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 300;
   } /* Firefox 18- */
   &:-ms-input-placeholder {
-    color: rgba(94, 111, 133, 0.8);
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
@@ -164,6 +156,7 @@
 
 .request-demo__submit {
   width: 100%;
+  margin-top: 25px;
   background: rgb(159, 75, 204);
   text-transform: uppercase;
   color: #ffffff;

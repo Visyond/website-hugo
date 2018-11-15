@@ -47,8 +47,8 @@
 
     &.dollar {
       width: 10px;
-      background-size: 10px !important;
       background: url("/img/icons/compare-dollar.svg") center center no-repeat;
+      background-size: 10px;
     }
 
     &.divider {

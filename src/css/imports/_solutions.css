@@ -344,7 +344,6 @@
 }
 
 .sol-info__text-wrap {
-  width: 50%;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
@@ -732,7 +731,7 @@
     width: 100%;
   }
   @media screen and (max-width: 768px) {
-    &:not(last-child) {
+    &:not(:last-child) {
       margin-bottom: 30px;
     }
   }
