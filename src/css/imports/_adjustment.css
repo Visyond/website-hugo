@@ -21,7 +21,7 @@ body {
 }
 
 body > p {
-  margin: 0;
+    margin: 0;
 }
 
 .wrapper {
@@ -110,4 +110,8 @@ p {
 
 .centered {
   margin: 0 auto !important;
+}
+
+img {
+    max-width: 100%;
 }

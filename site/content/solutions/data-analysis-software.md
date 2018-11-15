@@ -11,7 +11,7 @@ metaTags: >-
 
 
   <meta name="keywords" content="data analysis software, spreadsheet data
-  analysis">
+  analysis, spreadsheet analysis software">
 topTitle: >-
   Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
   a Team and Answering Questions On-The-Fly
