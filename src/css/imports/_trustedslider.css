@@ -53,7 +53,13 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(to right, #f1f6fb 0, transparent 5%, transparent 95%, #f1f6fb 100%);
+  background: linear-gradient(
+    to right,
+    #f1f6fb 0,
+    transparent 5%,
+    transparent 95%,
+    #f1f6fb 100%
+  );
   z-index: 99;
 }
 

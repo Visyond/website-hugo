@@ -10,50 +10,59 @@ import webpackConfig from "./webpack.conf";
 import svgstore from "gulp-svgstore";
 import svgmin from "gulp-svgmin";
 import inject from "gulp-inject";
-import replace from "gulp-replace";
-import cssnano from "cssnano";
-import imagemin from 'gulp-imagemin';
-import pngquant from 'imagemin-pngquant';
-import csso from 'postcss-csso';
+import imagemin from "gulp-imagemin";
+import pngquant from "imagemin-pngquant";
+import csso from "postcss-csso";
 
 const browserSync = BrowserSync.create();
-const hugoBin = `./bin/hugo.${process.platform === "win32" ? "exe" : process.platform}`;
+const hugoBin = `./bin/hugo.${
+  process.platform === "win32" ? "exe" : process.platform
+}`;
 const defaultArgs = ["-d", "../dist", "-s", "site"];
 
-gulp.task("hugo", (cb) => buildSite(cb));
-gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
+gulp.task("hugo", cb => buildSite(cb));
+gulp.task("hugo-preview", cb =>
+  buildSite(cb, ["--buildDrafts", "--buildFuture"])
+);
 gulp.task("build", ["css", "js", "cms-assets", "hugo", "img"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
-gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
-    .pipe(postcss([
-      cssImport({from: "./src/css/main.css"}),
-      cssnext(),
-      csso({
-        forceMediaMerge: true,
-        clone: true,
-        comments: false,
-      }),
-    ]))
+gulp.task("css", () =>
+  gulp
+    .src("./src/css/*.css")
+    .pipe(
+      postcss([
+        cssImport({ from: "./src/css/main.css" }),
+        cssnext(),
+        csso({
+          forceMediaMerge: true,
+          clone: true,
+          comments: false
+        })
+      ])
+    )
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
-));
+);
 
-gulp.task("cms-assets", () => (
-  gulp.src("./node_modules/netlify-cms/dist/*.{woff,eot,woff2,ttf,svg,png}")
+gulp.task("cms-assets", () =>
+  gulp
+    .src("./node_modules/netlify-cms/dist/*.{woff,eot,woff2,ttf,svg,png}")
     .pipe(gulp.dest("./dist/css"))
-))
+);
 
-gulp.task("js", (cb) => {
+gulp.task("js", cb => {
   const myConfig = Object.assign({}, webpackConfig);
 
   webpack(myConfig, (err, stats) => {
     if (err) throw new gutil.PluginError("webpack", err);
-    gutil.log("[webpack]", stats.toString({
-      colors: true,
-      progress: true
-    }));
+    gutil.log(
+      "[webpack]",
+      stats.toString({
+        colors: true,
+        progress: true
+      })
+    );
     browserSync.reload();
     cb();
   });
@@ -63,7 +72,7 @@ gulp.task("svg", () => {
   const svgs = gulp
     .src("site/static/img/vimages/*.svg")
     .pipe(svgmin())
-    .pipe(svgstore({inlineSvg: true}));
+    .pipe(svgstore({ inlineSvg: true }));
 
   function fileContents(filePath, file) {
     return file.contents.toString();
@@ -71,21 +80,24 @@ gulp.task("svg", () => {
 
   return gulp
     .src("site/layouts/partials/svg.html")
-    .pipe(inject(svgs, {transform: fileContents}))
+    .pipe(inject(svgs, { transform: fileContents }))
     .pipe(gulp.dest("site/layouts/partials/"));
 });
 
-gulp.task('img', () => {
-  return gulp.src('site/static/source-img/*')
-    .pipe(imagemin({
-      interlaced: true,
-      progressive: true,
-      svgoPlugins: [{removeViewBox: false}],
-      use: [pngquant()]
-  }))
-    .pipe(gulp.dest('site/static/img'))
-    .pipe(browserSync.stream())
-})
+gulp.task("img", () => {
+  return gulp
+    .src("site/static/source-img/*")
+    .pipe(
+      imagemin({
+        interlaced: true,
+        progressive: true,
+        svgoPlugins: [{ removeViewBox: false }],
+        use: [pngquant()]
+      })
+    )
+    .pipe(gulp.dest("site/static/img"))
+    .pipe(browserSync.stream());
+});
 
 gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
   browserSync.init({
@@ -102,7 +114,7 @@ gulp.task("server", ["hugo", "css", "cms-assets", "js", "svg"], () => {
 function buildSite(cb, options) {
   const args = options ? defaultArgs.concat(options) : defaultArgs;
 
-  return cp.spawn(hugoBin, args, {stdio: "inherit"}).on("close", (code) => {
+  return cp.spawn(hugoBin, args, { stdio: "inherit" }).on("close", code => {
     if (code === 0) {
       browserSync.reload("notify:false");
       cb();

@@ -1,65 +1,64 @@
 .icon {
+  display: inline-block;
+
+  &.stacked {
     display: inline-block;
-    
-    &.stacked {
-        display: inline-block;
-        white-space: nowrap;
-        & > i {
-            width: 15px;
-            background-size: 15px !important;
-            margin: 0 !important;
-            position: relative;
+    white-space: nowrap;
+    & > i {
+      width: 15px;
+      background-size: 15px !important;
+      margin: 0 !important;
+      position: relative;
 
-            &.dollar {
-                &:not(:first-child) {
-                    margin-left: -2px !important;
-                }
-            }
-
-            &.plus {
-
-                &:first-child {
-                    margin-right: 2px !important;
-                }
-
-                &:not(:first-child) {
-                    background: url("/img/icons/compare-plus-stacked.svg") center center no-repeat;
-                    background-size: 12px !important;
-                    margin-left: -10px !important;
-                }
-            }
-
+      &.dollar {
+        &:not(:first-child) {
+          margin-left: -2px !important;
         }
+      }
+
+      &.plus {
+        &:first-child {
+          margin-right: 2px !important;
+        }
+
+        &:not(:first-child) {
+          background: url("/img/icons/compare-plus-stacked.svg") center center
+            no-repeat;
+          background-size: 12px !important;
+          margin-left: -10px !important;
+        }
+      }
     }
-    
-    &.compare {
-        margin: 0 2px;
-        width: 30px;
-        height: 2em;
-        background-size: 2em;
+  }
 
-        &.plus {
-            background: url("/img/icons/compare-plus.svg") center center no-repeat;
-        }
+  &.compare {
+    margin: 0 2px;
+    width: 30px;
+    height: 2em;
+    background-size: 2em;
 
-        &.minus {
-            background: url("/img/icons/compare-minus.svg") center center no-repeat;
-        }
-
-        &.dollar {
-            width: 10px;
-            background-size: 10px !important;
-            background: url("/img/icons/compare-dollar.svg") center center no-repeat;
-        }
-
-        &.divider {
-            display: inline-block;
-            position: relative;
-            width: 3px;
-            height: 2em;
-            border-radius: 2px;
-            background: rgba(82, 84, 108, .25);
-            transform: rotate(20deg);
-        }
+    &.plus {
+      background: url("/img/icons/compare-plus.svg") center center no-repeat;
     }
+
+    &.minus {
+      background: url("/img/icons/compare-minus.svg") center center no-repeat;
+    }
+
+    &.dollar {
+      width: 10px;
+      background: url("/img/icons/compare-dollar.svg") center center no-repeat;
+      background-size: 10px;
+    }
+
+    &.divider {
+      display: inline-block;
+      position: relative;
+      width: 3px;
+      height: 2em;
+      border-radius: 2px;
+      background: rgba(82, 84, 108, 0.25);
+      transform: rotate(20deg);
+    }
+  }
 }

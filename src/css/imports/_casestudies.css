@@ -1,194 +1,195 @@
 .casestudies-title-wrap {
-    background: url('/img/vimages/casestudies.jpg') center center no-repeat;
-    background-size: cover;
+  background: url("/img/vimages/casestudies.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 .case-studies__title {
-    text-align: center;
-    color: #fff;
-    font-size: 2.375rem;
-    font-weight: 400;
-    text-shadow: 0 5px 5px rgba(0,0,0,.3);
-    margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 2.375rem;
+  font-weight: 400;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0;
 
-    @media (max-width: 600px) {
-        font-size: 1.8rem;
-    }
+  @media (max-width: 600px) {
+    font-size: 1.8rem;
+  }
 }
 
 .casestudies__list {
-    margin: 50px 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
 }
 .casestudies__item {
-    border: 1px solid #DBDDEC;
-    border-radius: 5px;
-    width: calc(50% - 30px);
-    margin-bottom: 30px;
-    &:not(:nth-child(2n)) {
-        margin-right: 30px;
-    }
-    transition: box-shadow .2s ease-in-out;
-    &:hover {
-        box-shadow: 0 5px 40px #DBDDEC;
-    }
+  border: 1px solid #dbddec;
+  border-radius: 5px;
+  width: calc(50% - 30px);
+  margin-bottom: 30px;
+  &:not(:nth-child(2n)) {
+    margin-right: 30px;
+  }
+  transition: box-shadow 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 5px 40px #dbddec;
+  }
 
-    @media screen and (max-width: 1021px) {
-        width: 100%;
-        &:not(:nth-child(2n)) {
-            margin-right: 0;
-        }
-        &:last-child {
-            margin-bottom: 0;
-        }
+  @media screen and (max-width: 1021px) {
+    width: 100%;
+    &:not(:nth-child(2n)) {
+      margin-right: 0;
     }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .casestudies__link {
-    width: 100%;
-    display: block;
-    padding: 20px 30px;
+  width: 100%;
+  display: block;
+  padding: 20px 30px;
 
-    @media screen and (max-width: 768px) {
-        padding: 20px;
-    }
+  @media screen and (max-width: 768px) {
+    padding: 20px;
+  }
 }
 
 .casestudies__top {
-    border-bottom: 2px solid #DBDDEC;    
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 57px;
+  border-bottom: 2px solid #dbddec;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 57px;
 }
 
 .casestudies__company-wrap {
-    display: block;
-    width: 20%;
+  display: block;
+  width: 20%;
 }
 .casestudies__company-wrap > img {
-    display: block;
-    max-width: 100%;
-    max-height: 35px;
+  display: block;
+  max-width: 100%;
+  max-height: 35px;
 }
 
 .casestudies__company-person-wrap {
-    display: flex;
-    align-items: center;
-    max-width: 300px;
+  display: flex;
+  align-items: center;
+  max-width: 300px;
 }
 
 .casestudies__company-person-img {
-    width: 60px;
-    display: block;
-    border-radius: 50%;
+  width: 60px;
+  display: block;
+  border-radius: 50%;
 }
 .casestudies__company-person-img > img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 .casestudies__company-person-img + div {
-    display: flex;
-    flex-flow: column nowrap;
-    margin-left: 20px;
-    flex: 1 0;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 20px;
+  flex: 1 0;
 }
 
 .casestudies__company-person-name {
-    color: #52556c;
-    font-size: 16px;
-    font-weight: 700;
+  color: #52556c;
+  font-size: 16px;
+  font-weight: 700;
 }
 .casestudies__company-person-company-name {
-    font-weight: 300;
-    color: #5e6f85;
-    font-size: 16px;
+  font-weight: 300;
+  color: #5e6f85;
+  font-size: 16px;
 }
 
 .casestudies__bottom {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .casestudies__title {
-    color: #52556c;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 25px;
+  color: #52556c;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 25px;
 }
 
 .casestudies__tag-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .casestudies__tag-item {
-    margin-top: 5px;
-    &:not(:last-child) {
-        margin-right: 15px;
-    }
-    position: relative;
-    background: #eef1f6;
-    color: #717e91;
-    font-size: 14px;
-    line-height: 16px;
-    padding: 5px 10px;
-    &:after {
-        content: '';
-        border: 13px solid transparent;	border-left: 10px solid rgb(238, 241, 246);
-        position: absolute;
-        right: -22px;
-        top: 0;
-    }
+  margin-top: 5px;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+  position: relative;
+  background: #eef1f6;
+  color: #717e91;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 5px 10px;
+  &:after {
+    content: "";
+    border: 13px solid transparent;
+    border-left: 10px solid rgb(238, 241, 246);
+    position: absolute;
+    right: -22px;
+    top: 0;
+  }
 }
 
 .paginations {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .paginations__list {
-    display: flex;
-    list-style: none;
-    margin: 0 0 50px 0;
-    padding: 0;
-    justify-content: center;
+  display: flex;
+  list-style: none;
+  margin: 0 0 50px 0;
+  padding: 0;
+  justify-content: center;
 }
 
 .paginations__item {
-    width: 42px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #eef1f6;
-    border-radius: 5px;
-    margin: 0 2.5px;
-    border: 1px solid transparent;
-    &:hover {
-        border-color: #3EBABB;
-    }
-    &:hover .paginations__link {
-        color: #3EBABB;
-    }
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eef1f6;
+  border-radius: 5px;
+  margin: 0 2.5px;
+  border: 1px solid transparent;
+  &:hover {
+    border-color: #3ebabb;
+  }
+  &:hover .paginations__link {
+    color: #3ebabb;
+  }
 }
 .paginations__item--active {
-    border-color: #3EBABB;
+  border-color: #3ebabb;
 }
 .paginations__item--active .paginations__link {
-    color: #3EBABB;    
+  color: #3ebabb;
 }
 .paginations__link {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    color: #717e91;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: #717e91;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
 }
