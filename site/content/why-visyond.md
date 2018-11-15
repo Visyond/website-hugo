@@ -55,6 +55,7 @@ cards:
     link: /features/selective-sharing/
     description: |
         Track sources of assumptions and inputs as well as conversations and relevant documentation in a single controlled environment.
+sectionThreeHeader: How We Compare to Others?
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/back2.png
 providesTitle: Get started in minutes
