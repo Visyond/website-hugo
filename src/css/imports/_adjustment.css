@@ -16,8 +16,12 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  font-size: 100%;
   display: flex;
   flex-flow: column nowrap;
+  @media screen and (max-width:600px) {
+      font-size: 12px;
+  }
 }
 
 body > p {
@@ -30,32 +34,28 @@ body > p {
   min-height: 100vh;
 }
 
-.maincontent {
-  padding-top: 48px;
-}
-
 .container {
-  width: 100%;
-  max-width: 1400px;
-  padding: 0 15px;
-  margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
 
-  @media screen and (max-width: 1211px) {
-    width: 1024px;
-  }
-  @media screen and (max-width: 1051px) {
-    width: 992px;
-  }
-  @media screen and (max-width: 1021px) {
-    width: 768px;
-  }
-  @media screen and (max-width: 784px) {
-    width: auto;
-  }
+    @media screen and (max-width: 1211px) {
+        width: 1024px;
+    }
+    @media screen and (max-width: 1051px) {
+        width: 992px;
+    }
+    @media screen and (max-width: 1021px) {
+        width: 768px;
+    }
+    @media screen and (max-width: 784px) {
+        width: auto;
+    }
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h1,
@@ -65,51 +65,51 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .column-wrap {
-  display: flex;
-  flex-flow: row nowrap;
+    display: flex;
+    flex-flow: row nowrap;
 }
 
 .column-6 {
-  width: 50%;
+    width: 50%;
 }
 
 .slick-slide {
-  outline: none;
+    outline: none;
 }
 
 .try__btn-wrap {
-  text-align: center;
+    text-align: center;
 }
 
 .purple-vbtn {
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 18px;
-  background: #9f4bcc;
-  padding: 15px 130px;
-  border-radius: 4px;
-  transition: background 0.1s ease-in-out;
-  letter-spacing: 0.5px;
-  &:hover {
-    background: #8334ad;
-  }
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    background: #9f4bcc;
+    padding: 15px 130px;
+    border-radius: 4px;
+    transition: background 0.1s ease-in-out;
+    letter-spacing: 0.5px;
+    &:hover {
+        background: #8334ad;
+    }
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    display: block;
-  }
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
 }
 
 .centered {
-  margin: 0 auto !important;
+    margin: 0 auto !important;
 }
 
 img {

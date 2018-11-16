@@ -54,10 +54,9 @@
 @import "./imports/_solutions-page.css";
 @import "./imports/_why-visyond.css";
 
-/* @import "./imports/_responsive.css"; */
 /**
-*
-* Components
-*
-**/
+ *
+ * Components
+ *
+ **/
 @import "./imports/_card.css";
