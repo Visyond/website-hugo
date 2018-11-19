@@ -204,7 +204,6 @@ providesList:
       compatible with legacy systems, does not require full-scale transition &
       can be adopted incrementally
 titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/back2.png
 botRequestURL: /request
 ---
 
