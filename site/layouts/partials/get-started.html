@@ -17,14 +17,13 @@
 </div>
 
 
-
-<section class="home-bottom" style="background-image: url(
-{{ if isset .Params "BgBottom" }}
-{{ .Params.BgBottom }}
+{{ with .Params.bgBottom }}
+<section class="home-bottom" style="background-image: url(' {{ . }} ')">
 {{ else }}
-/img/vimages/footer-bg.png
+<section class="home-bottom" style="background-image: url('/img/vimages/footer-bg.png')">
 {{ end }}
-);">
+
+
   <h3 class="home-bottom__title">
     {{ .Params.TitleBottom }}
   </h3>
@@ -33,5 +32,3 @@
     request a demo
   </a>
 </section>
-
-

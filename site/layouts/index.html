@@ -154,39 +154,6 @@
     </section>
     {{ end }}
     
-    <!-- section provides -->
-    <div class="home-provides">
-      <section class="home-provides__wrap">
-        <h3 class="home-provides__title">
-          {{ .Params.ProvidesTitle }}
-        </h3>
-
-        <ul class="home-provides__list">
-          {{ range $el := .Params.ProvidesList }}
-          <li class="home-provides__item">
-            {{ .text | markdownify }}
-          </li>
-          {{ end }}
-        </ul>
-      </section>
-      <div class="home-provides__img-wrap">
-        <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
-      </div>
-    </div>
-    <!-- ./section provides -->
-
-
-
-    <section class="home-bottom" style="background-image: url({{ .Params.BgBottom }})">
-      <h3 class="home-bottom__title">
-        {{ .Params.TitleBottom }}
-      </h3>
-
-      <a href="/request" class="home-link home-link--request">
-        request a demo
-      </a>
-    </section>
-
-  </div>
-
+{{ partial "get-started" . }}
+    
 {{ partial "footer" . }}
