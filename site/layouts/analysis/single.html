@@ -73,37 +73,6 @@
 {{ partial "trustedslider" . }}
 <!-- ./trusted section -->
 
-<!-- sixth section -->
-<div class="six-section an6th">
-  <section class="an6th__wrap">
-    <h3 class="an6th__title">
-      {{ .Params.ProvidesTitle }}
-    </h3>
-
-    <ul class="an6th__list">
-      {{ range $el := .Params.ProvidesList }}
-      <li class="an6th__item">
-        {{ .text | markdownify }}
-      </li>
-      {{ end }}
-    </ul>
-  </section>
-  <div class="an6th__img-wrap">
-    <img src="/img/v_notebook.png" alt="notebook" class="an6th__img">
-  </div>
-</div>
-<!-- //sixth section -->
-
-<!-- seventh section -->
-<section class="an7th" style="background-image: url({{ .Params.BgBottom }})">
-  <h3 class="an7th__title">
-    {{ .Params.TitleBottom }}
-  </h3>
-
-  <a href="/request" class="an7th__link">
-    request a demo
-  </a>
-</section>
-<!-- //seventh section -->
+{{ partial "get-started" . }}
 
 {{ partial "footer" . }}

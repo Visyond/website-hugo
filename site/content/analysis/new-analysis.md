@@ -80,6 +80,5 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/back2.png
 ---
 
