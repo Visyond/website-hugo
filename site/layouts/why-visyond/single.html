@@ -23,7 +23,7 @@
   <div class="header-section--divider"></div>
 
   <div class="ftr-features__cards">
-    {{ range .Params.sectionTwoCards}}
+    {{ range .Params.cards}}
     <a href="{{.link}}" class="ftr-features__card">
       <div class="ftr-features__card-image-wrap">
         <img src="{{.icon}}" alt="icon" class="ftr-features__card-image">
@@ -322,34 +322,6 @@
   </div>
 </section>
 
-<div class="home-provides">
-  <section class="home-provides__wrap">
-    <h3 class="home-provides__title">
-      {{ .Params.ProvidesTitle }}
-    </h3>
-    <ul class="home-provides__list">
-      {{ range $el := .Params.ProvidesList }}
-      <li class="home-provides__item">
-        {{ .text | markdownify }}
-      </li>
-      {{ end }}
-    </ul>
-  </section>
-  <div class="home-provides__img-wrap">
-    <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
-  </div>
-</div>
-
-<section class="home-bottom" style="background-image: url({{ .Params.BgBottom }})">
-  <h3 class="home-bottom__title">
-    {{ .Params.TitleBottom }}
-  </h3>
-
-  <a href="/request" class="home-link home-link--request">
-    request a demo
-  </a>
-</section>
-
-</div>
+{{ partial "get-started" . }}
 
 {{ partial "footer" . }}

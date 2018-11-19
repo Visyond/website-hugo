@@ -1,0 +1,35 @@
+{{ if and (isset .Params "providestitle") (isset .Params "provideslist") }}
+<div class="home-provides">
+  <section class="home-provides__wrap">
+    <h3 class="home-provides__title">
+      {{ .Params.ProvidesTitle }}
+    </h3>
+    <ul class="home-provides__list">
+      {{ range $el := .Params.ProvidesList }}
+      <li class="home-provides__item">
+        {{ .text | markdownify }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  <div class="home-provides__img-wrap">
+    <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
+  </div>
+</div>
+{{ end }}
+
+{{ with .Params.bgBottom }}
+<section class="home-bottom" style="background-image: url(' {{ . }} ')">
+{{ else }}
+<section class="home-bottom" style="background-image: url('/img/vimages/footer-bg.png')">
+{{ end }}
+
+
+  <h3 class="home-bottom__title">
+    {{ .Params.TitleBottom }}
+  </h3>
+
+  <a href="/request" class="button-contrast">
+    request a demo
+  </a>
+</section>

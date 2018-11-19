@@ -120,37 +120,8 @@
     {{ partial "trustedslider" . }}
     <!-- ./trusted section -->
 
-    <!-- section provides -->
-    <div class="ftr-provides">
-      <section class="ftr-provides__wrap">
-        <h3 class="ftr-provides__title">
-          {{ .Params.ProvidesTitle }}
-        </h3>
-
-        <ul class="ftr-provides__list">
-          {{ range $el := .Params.ProvidesList }}
-          <li class="ftr-provides__item">
-            {{ .text | markdownify }}
-          </li>
-          {{ end }}
-        </ul>
-      </section>
-      <div class="ftr-provides__img-wrap">
-        <img src="/img/v_notebook.png" alt="notebook" class="ftr-provides__img">
-      </div>
-    </div>
-    <!-- ./section provides -->
-
-    <section class="ftr-bottom" style="background-image: url({{ .Params.BgBottom }})">
-      <h3 class="ftr-bottom__title">
-        {{ .Params.TitleBottom }}
-      </h3>
-
-      <a href="/request" class="ftr-link ftr-link--request">
-        request a demo
-      </a>
-    </section>
-
   </div>
 
+{{ partial "get-started" . }}
+  
 {{ partial "footer" . }}
