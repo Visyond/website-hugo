@@ -75,16 +75,6 @@
 </div>
 <!-- //second section -->
 
-<!-- third section -->
-<section class="fp3rd" style="background-image: url({{ .Params.BgBottom }})">
-	<h3 class="fp3rd__title">
-	{{ .Params.TitleBottom }}
-	</h3>
-
-	<a href="/request" class="fp1st__link fp1st__link--request">
-	request a demo
-	</a>
-</section>
-<!-- //third section -->
+{{ partial "get-started" . }}
 
 {{ partial "footer" . }}

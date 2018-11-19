@@ -180,38 +180,8 @@
     {{ partial "testimonials" . }}
     <!-- //section testimonials -->
 
-    <!-- section provides -->
-    <div class="sol-provides">
-      <section class="sol-provides__wrap">
-        <h3 class="sol-provides__title">
-          {{ .Params.ProvidesTitle }}
-        </h3>
-
-        <ul class="sol-provides__list">
-          {{ range $el := .Params.ProvidesList }}
-          <li class="sol-provides__item">
-            {{ .text | markdownify }}
-          </li>
-          {{ end }}
-        </ul>
-      </section>
-      <div class="sol-provides__img-wrap">
-        <img src="/img/v_notebook.png" alt="notebook" class="sol-provides__img">
-      </div>
-    </div>
-    <!-- ./section provides -->
-
-    <section class="sol-bottom" style="background-image: url({{ .Params.BgBottom }})">
-      <h3 class="sol-bottom__title">
-        {{ .Params.TitleBottom }}
-      </h3>
-
-      <!-- <a href="{{ .Params.BotRequestURL }}" class="sol-link sol-link--request"> -->
-      <a href="/request" class="sol-link sol-link--request">
-        request a demo
-      </a>
-    </section>
-
   </div>
+
+{{ partial "get-started" . }}
 
 {{ partial "footer" . }}
