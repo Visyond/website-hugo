@@ -1,5 +1,5 @@
 ---
-title: 'How Visyond helps accounting, tax and business consultants'
+title: 'How Visyond helps accounting, tax and business consultants...'
 image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Business Consulting'
@@ -60,9 +60,6 @@ aside:
 
       * Can quickly answer any business questions thanks to Visyond's in-build
       collaborative analytics.
-first_solution: "![Analysts & Consultants](/img/feature-icons-v1_03.png)\r\n\r\n## [**Analysts and Consultants**](https://visyond.com/solutions_analysts_consultants)\r\n"
-second_solution: "![Decision Makers](/img/feature-icons-v1_25.png)\r\n\r\n## [**Decision Makers**](https://visyond.com/solutions_roles_decision-makers)\r\n"
-third_solution: "![Data Input & Consolidation](/img/feature-icons-v1_13.png)\r\n\r\n## [**Data Input & Consolidation**](https://visyond.com/solutions_data-entry-consolidation)"
 ---
 ## Before Visyond
 
