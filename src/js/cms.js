@@ -18,6 +18,7 @@ import Analysis from "./cms-preview-templates/analysis";
 import FeaturesPage from "./cms-preview-templates/features-page";
 import SolutionsPage from "./cms-preview-templates/solutions-page";
 import Press from "./cms-preview-templates/press";
+import WhyPage from "./cms-preview-templates/why-visyond"
 
 
 // Example of creating a custom color widget
@@ -50,4 +51,5 @@ CMS.registerPreviewTemplate("analysis", Analysis);
 CMS.registerPreviewTemplate("features-page", FeaturesPage);
 CMS.registerPreviewTemplate("solutions-page", SolutionsPage);
 CMS.registerPreviewTemplate("press", Press);
+CMS.registerPreviewTemplate("why-visyond", WhyPage);
 CMS.registerWidget("color", ColorControl);
