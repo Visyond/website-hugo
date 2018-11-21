@@ -33,11 +33,11 @@ export default class WhyPage extends React.Component {
           <div className="ftr-features__cards">
             {widgetsFor("cards").map((card, index) => {
               const header = card.getIn(["data", "header"]);
-              const icon = card.getIn(["data", "icon"]);
-              const link = card.getIn(["data", "link"]);
-              const description = card.getIn(["description"]);
+                const icon = card.getIn(["data", "icon"]);
+                const link = card.getIn(["data", "link"]);
+                const description = card.getIn(["data", "description"]);
 
-              return (
+                return (
                 <a href={link} className="ftr-features__card" key={index}>
                   <div className="ftr-features__card-image-wrap">
                     <img
