@@ -1,5 +1,6 @@
 ---
 title: Why Visyond
+type: why-visyond
 coverHeader: What is Visyond?
 coverDescription: >-
   Visyond is a cloud-based secure, collaborative and automated value analysis
