@@ -9,7 +9,7 @@ coverDescription: >-
 
   We're introducing spreadsheet collaboration, the level of control,
   transparency and accountability that can be compared to those of modern
-  blockchains, but without all the limitations and drawbacks of it...
+  blockchains, but without all the limitations and drawbacks of it.
 sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
 sectionOneImg: /img/what-is-visyond-infographic.png
 sectionTwoHeader: Benefits
