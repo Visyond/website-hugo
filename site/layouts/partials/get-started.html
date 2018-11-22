@@ -25,8 +25,12 @@
 {{ end }}
 
 
-  <h3 class="home-bottom__title">
-    {{ .Params.TitleBottom }}
+<h3 class="home-bottom__title">
+  {{ with .Params.TitleBottom }}
+  {{ . }}
+  {{ else }}
+  Find out how to improve your decision-making process today
+  {{ end }}
   </h3>
 
   <a href="/request" class="button-contrast">

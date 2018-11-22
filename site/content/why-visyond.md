@@ -53,5 +53,11 @@ cards:
     link: ''
 sectionThreeHeader: How We Compare to Others?
 providesTitle: Get started in minutes
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
 

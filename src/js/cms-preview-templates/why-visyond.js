@@ -306,8 +306,8 @@ export default class WhyPage extends React.Component {
               </tbody>
             </table>
           </div>
-        </section>
-      </div>
+            </section>
+            </div>
     );
   }
 }
