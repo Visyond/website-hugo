@@ -3,18 +3,18 @@
   <div class="home">
 
     <!-- top section -->
-    <div class="home-top">
-      <h2 class="home-top__title">
+    <div class="cover nobg">
+      <h2 class="cover-header">
         {{ .Params.TopTitle | markdownify}}
       </h2>
 
-      <div class="home-top__under-title">
+      <div class="cover-header--sub">
         {{ .Params.TopSubTitle | markdownify}}
       </div>
 
       <img src="{{ .Params.TopImage }}" alt="image" class="home-top__img js-zoom" data-zoom-image="{{ .Params.TopImage }}">
 
-      <div class="home-top__btns-wrap">
+      <div class="cover-buttons--wrap">
         <!-- <a href="{{ .Params.SignUpURL }}" class="home-link home-link--sign-up">
           free sign up
         </a> -->
