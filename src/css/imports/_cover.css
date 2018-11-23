@@ -2,7 +2,7 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    margin: 0 -2em;
+    margin: 0 -var(--global-padding);
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
