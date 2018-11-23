@@ -1,11 +1,7 @@
 .sol-section {
   background: #f2f3f7;
-  margin: 0 -var(--global-padding);
+  margin: 0;
   position: relative;
-
-  @media screen and (--mobile) {
-      margin: 0;
-  }
 }
 
 .sol-section__cols {
@@ -31,11 +27,11 @@
 }
 
 .dropdown .sol-section {
-  @media (max-width: 1201px) {
-    padding: 5px 0 0 5px;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    @media (max-width: 1201px) {
+        padding: 5px 0 0 5px;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
   }
 }
 
