@@ -1,22 +1,20 @@
 /* @import './imports/_cms'; */
 
 /**
-*
-* Plugins css
-*
-**/
+ * Plugins css
+ **/
 
 @import "./imports/slick-theme.css";
 @import "./imports/slick.css";
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 /**
-*
-* Basic page needs
-*
-**/
+ * Basic page needs
+ **/
 
 @import "./imports/_adjustment.css";
 @import "./imports/_buttons.css";
+@import "./imports/_cover.css";
 @import "./imports/_header.css";
 @import "./imports/_nav.css";
 @import "./imports/_homepage-header.css";
@@ -30,11 +28,11 @@
 @import "./imports/_solutions-section.css";
 @import "./imports/_features-section.css";
 @import "./imports/_popup-info.css";
+
 /**
-*
-* Pages
-*
-**/
+ * Pages
+ **/
+
 @import "./imports/_simplepage.css";
 @import "./imports/_casestudy.css";
 @import "./imports/_casestudies.css";
@@ -56,8 +54,7 @@
 @import "./imports/_why-visyond.css";
 
 /**
- *
  * Components
- *
  **/
+
 @import "./imports/_card.css";
