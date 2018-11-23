@@ -1,5 +1,6 @@
 .primary {
     background: #eef6ff;
+    margin: 0 -var(--global-padding);
 }
 
 .section {
