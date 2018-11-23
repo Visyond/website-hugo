@@ -667,6 +667,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "why-visyond"
         fields:
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+          - { label: Type, name: type, widget: hidden, default: why-visyond }
           - { label: "Page title", name: "title", widget: "string", required: false,}
           - { label: "Cover Header", name: "coverHeader", widget: "string", required: false}
           - { label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
