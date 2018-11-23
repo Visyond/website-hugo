@@ -2,6 +2,7 @@
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
+    margin: 0 -2em;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -11,7 +12,11 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 4em 0;
+    padding: 4em 2em;
+
+    @media screen and (--mobile) {
+        margin: 0;
+    }
 
     & > img {
         max-width: 1000px;

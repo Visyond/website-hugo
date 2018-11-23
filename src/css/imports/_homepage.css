@@ -675,9 +675,14 @@
   background: url("/img/vimages/errors.jpg") center center no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0 -var(--global-padding);
+
+  @media screen and (--mobile) {
+      margin: 0;
+  }
 
   @media screen and (max-width: 768px) {
-    padding-top: 25px;
+      padding-top: 25px;
   }
 }
 
@@ -797,6 +802,7 @@
 .home-bottom {
   background: rgba(0, 0, 0, 0.5) center center no-repeat;
   -webkit-background-size: cover;
+  margin: 0 -var(--global-padding);
   background-size: cover;
   padding: 50px 10px 150px;
   display: -webkit-flex;
@@ -807,6 +813,10 @@
   flex-direction: column;
   -ms-align-items: center;
   align-items: center;
+
+  @media screen and (--mobile) {
+      margin: 0;
+  }
 }
 
 .home-bottom__title {

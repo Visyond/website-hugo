@@ -1,28 +1,33 @@
 .sol-section {
   background: #f2f3f7;
-  width: 100%;
+  margin: 0 -var(--global-padding);
+  position: relative;
+
+  @media screen and (--mobile) {
+      margin: 0;
+  }
 }
 
 .sol-section__cols {
-  margin: 0 auto;
-  padding: 0;
-  padding: 30px;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  list-style: none;
-  width: 100%;
-  justify-content: center;
-  max-width: 1400px;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  -o-flex-wrap: wrap;
-  flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+    padding: 30px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    max-width: 1400px;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
 
-  @media (max-width: 1000px) {
-    justify-content: space-between;
-  }
+    @media (max-width: 1000px) {
+        justify-content: space-between;
+    }
 }
 
 .dropdown .sol-section {

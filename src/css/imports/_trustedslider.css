@@ -1,14 +1,19 @@
 .trusted {
-  background: #f1f6fb;
-  padding: 20px 10px;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
+    background: #f1f6fb;
+    margin: 0 -var(--global-padding);
+    padding: 20px 10px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    @media screen and (--mobile) {
+        margin: 0;
+    }
 }
 
 .trusted__title {
