@@ -95,7 +95,6 @@
       & tr td:nth-child(3) {
         width: 33% !important;
         overflow: hidden;
-        word-break: break-word;
         font-size: 12px;
       }
     }
