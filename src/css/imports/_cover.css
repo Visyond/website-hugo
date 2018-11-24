@@ -19,7 +19,7 @@
     }
 
     & > img {
-        max-width: 1000px;
+        max-width: 100%;
         transition: all 0.1s;
        /* &:hover {
             max-width: 100%;
