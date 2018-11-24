@@ -21,10 +21,10 @@
     & > img {
         max-width: 1000px;
         transition: all 0.1s;
-        &:hover {
+       /* &:hover {
             max-width: 100%;
 
-        }
+        } */
     }
 
     &.nobg {
