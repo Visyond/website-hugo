@@ -8,7 +8,12 @@
 
 
 :root {
-    --global-padding: 4em;
+    --global-padding: 8em;
+    --padding-hd: 4em;
+    
+    @custom-media --fullhd (max-width: 1920px);
+    @custom-media --hd (max-width: 1280px);
+    @custom-media --tablet (max-width: 800px);
     @custom-media --mobile (max-width: 450px);
 }
 
@@ -23,6 +28,7 @@ body {
     font-size: 100%;
     display: flex;
     flex-flow: column nowrap;
+    
     @media screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -42,7 +48,11 @@ body > p {
 .maincontent {
     padding: 48px var(--global-padding) 0 var(--global-padding);
 
-    @media screen and (--mobile) {
+    @media screen and (--hd) {
+        padding: 48px var(--padding-hd) 0 var(--padding-hd);
+    }
+
+    @media screen and (--tablet) {
         padding: 48px 0 0 0;
     }
 }

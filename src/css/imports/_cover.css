@@ -12,55 +12,69 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 4em 2em;
+    padding: 4em 0;
 
-    @media screen and (--mobile) {
+    @media screen and (--hd) {
+        margin: 0 -var(--padding-hd);
+    }
+
+    @media screen and (--tablet) {
         margin: 0;
     }
 
-    & > img {
-        max-width: 100%;
-        transition: all 0.1s;
-       /* &:hover {
-            max-width: 100%;
-
-        } */
-    }
-
     &.nobg {
+        padding: 2em 0;
+
+        & > img {
+            max-height: 750px;
+
+            @media screen and (--hd) {
+                max-height: 500px;
+            }
+        }
 
         
         & > .cover-header,
         & > .cover-header--sub {
             color: #50546d;
             text-shadow: none;
+            padding: 0;
         }
     }
 }
 
 .cover-header {
-    font-size: 2.375em;
     font-weight: 400;
-    color: #fff;
     color: #ffffff;
     text-align: center;
-    font-size: 2.25em;
-    max-width: 1000px;
+    font-size: 2.5em;
     text-shadow: 0 1px 3px rgba(0,0,0,.3);
+    padding: 0 var(--global-padding);
+    margin: 0;
+    
+    @media screen and (--hd) {
+        font-size: 2em;
+        padding: 0 var(--padding-hd);
+    }
 }
 
 .cover-header--sub {
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 400;
-    line-height: 1.8em;
+    display: block;
     text-align: center;
     color: #fff;
-    max-width: 800px;
-    margin: 0 auto;
     text-shadow: 0 2px 3px rgba(0,0,0,.3);
+    padding: 0 var(--global-padding);
+    margin-top: 1em;
+
+    @media screen and (--hd) {
+        font-size: 1.2em;
+        padding: 0 var(--padding-hd);
+    }
 
     & > p {
-        margin-top: 1.8em;
+        margin-top: 1.5em;
     }
 }
 
