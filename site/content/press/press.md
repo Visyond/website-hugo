@@ -4,6 +4,11 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: Amba Logo
+    logo: /img/amba.png
+    title: 'My MBA Story: Gianluca Bisceglie'
+    url: >-
+      https://community.mbaworld.com/blog/b/weblog/posts/my-mba-story-gianluca-bisceglie
   - alt: Angel News Logo
     logo: /img/Angel News.png
     title: Why being lean is more attractive to potential investors
