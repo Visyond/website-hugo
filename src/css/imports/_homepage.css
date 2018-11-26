@@ -259,23 +259,24 @@
 }
 
 .home-info__block:nth-child(2n + 1) .home-info__block-img {
-  @media screen and (max-width: 800px) {
-    margin-bottom: 3rem;
-  }
+    @media screen and (max-width: 800px) {
+        margin-bottom: 3rem;
+    }
 }
 
 .home-info__block:nth-child(2n) .home-info__block-img {
-  @media screen and (max-width: 800px) {
-    margin-bottom: 3rem;
-  }
+    @media screen and (max-width: 800px) {
+        margin-bottom: 3rem;
+    }
 }
 
 .home-info__block-img {
-  width: 100%;
+    display: block;
+    margin: 0 auto;
 
-  @media screen and (max-width: 800px) {
-    width: 80%;
-  }
+    @media screen and (max-width: 800px) {
+        width: 80%;
+    }
 }
 
 .info__block-img-pointer {
@@ -687,136 +688,136 @@
 }
 
 .home-title {
-  color: rgba(81, 84, 107, 0.8);
-  font-size: 29px;
-  line-height: 42px;
-  font-weight: 400;
-  margin: 0;
+    color: rgba(81, 84, 107, 0.8);
+    font-size: 29px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 0;
 
-  @media screen and (max-width: 768px) {
-    font-size: 22px;
-  }
+    @media screen and (max-width: 768px) {
+        font-size: 22px;
+    }
 }
 
 .home-title--home-featured {
-  text-align: center;
-  color: #393e4b;
+    text-align: center;
+    color: #393e4b;
 }
 
 .home-featured__list {
-  display: flex;
-  align-items: center;
-  flex-flow: row wrap;
-  margin: 50px 0 0 0;
-  list-style: none;
-  justify-content: center;
-  padding-left: 0;
-  @media screen and (max-width: 768px) {
-    margin-top: 25px;
-  }
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 50px 0 0 0;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+    @media screen and (max-width: 768px) {
+        margin-top: 25px;
+    }
 }
 .home-featured__item {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 .home-featured__item a {
-  display: block;
-  max-width: 70%;
+    display: block;
+    max-width: 70%;
 }
 
 .home-featured__item img {
-  /*max-width: 70%;*/
-  width: 100%;
-  display: block;
-  filter: grayscale(100%);
-  transition: filter 0.1s ease-in-out;
-  cursor: pointer;
+    /*max-width: 70%;*/
+    width: 100%;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.1s ease-in-out;
+    cursor: pointer;
 
-  &:hover {
-    filter: grayscale(0);
-  }
+    &:hover {
+        filter: grayscale(0);
+    }
 
-  @media screen and (max-width: 768px) {
-    max-width: 150px;
-  }
+    @media screen and (max-width: 768px) {
+        max-width: 150px;
+    }
 }
 
 .home-featured__list-comment {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
 
-  position: absolute;
-  width: 100%;
-  bottom: 50px;
-  left: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    left: 0;
 }
 .home-featured__list-comment-item {
-  margin-top: 15px;
-  width: 560px;
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out;
-  position: absolute;
-  left: 50%;
-  bottom: 50px;
-  transform: translateX(-50%);
+    margin-top: 15px;
+    width: 560px;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
 
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .home-featured__list-comment-item > p {
-  position: relative;
-  padding: 0 15px;
-  text-align: center;
-  color: #292b38;
-  font-style: italic;
-  line-height: 25px;
-  font-weight: 300;
+    position: relative;
+    padding: 0 15px;
+    text-align: center;
+    color: #292b38;
+    font-style: italic;
+    line-height: 25px;
+    font-weight: 300;
 
-  &:before,
-  &:after {
-    content: "";
-    transform: scale(1.5);
-    display: block;
-    background: url(/img/vimages/quote.png) no-repeat;
-    background-size: 10px;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: 50%;
-  }
-  &:before {
-    top: -25px;
-  }
-  &:after {
-    bottom: -25px;
-  }
+    &:before,
+    &:after {
+        content: "";
+        transform: scale(1.5);
+        display: block;
+        background: url(/img/vimages/quote.png) no-repeat;
+        background-size: 10px;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 50%;
+    }
+    &:before {
+        top: -25px;
+    }
+    &:after {
+        bottom: -25px;
+    }
 }
 
 .home-bottom {
-  background: rgba(0, 0, 0, 0.5) center center no-repeat;
-  -webkit-background-size: cover;
-  margin: 0 -var(--global-padding);
-  background-size: cover;
-  padding: 50px 10px 150px;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-align-items: center;
-  align-items: center;
+    background: rgba(0, 0, 0, 0.5) center center no-repeat;
+    -webkit-background-size: cover;
+    margin: 0 -var(--global-padding);
+    background-size: cover;
+    padding: 50px 10px 150px;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
 
-  @media screen and (--mobile) {
-      margin: 0;
-  }
+    @media screen and (--mobile) {
+        margin: 0;
+    }
 }
 
 .home-bottom__title {
