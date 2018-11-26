@@ -346,16 +346,16 @@
 
 .home-info__block-title {
   color: #0086ff;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: 300;
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
   width: 100%;
 }
 
 .home-info__block-descr {
   color: #767575;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.2em;
+  margin-bottom: 1em;
   width: 100%;
 }
 
@@ -411,7 +411,7 @@
   color: #0086ff;
   /*background: #f2f3f7;*/
   text-align: center;
-  font-size: 1.3125rem;
+  font-size: 1.5em;
   padding: 10px 20px 10px 20px;
   text-transform: uppercase;
   position: relative;
