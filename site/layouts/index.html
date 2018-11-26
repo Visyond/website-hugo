@@ -113,7 +113,34 @@
     <!-- ./section info -->
 
     <!-- solutions section -->
-      {{ partial "solutions-section" . }}
+{{ with .Site.GetPage "section" "solutions-section" }}
+<div class="sol-section full-width">
+	<ul class="sol-section__cols">
+		{{ range $element := .Params.solDropdownCol }}
+		<li class="sol-section__col">
+			<h3 class="sol-section__title">
+				{{ $element.title }}
+			</h3>
+			<ul class="sol-section__group-list sol-section__list">
+				{{ range $el := $element.solution_dropdown }}
+				<li class="sol-section__group-item">
+					<a href="{{ $el.path }}" class="sol-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
+				</li>
+				{{ end }}
+			</ul>
+		</li>
+		{{ end }}
+	</ul>
+	{{ if .Params.allFeaturesLink }}
+	<div class="sol__all-features-wrapper">
+		<a href="{{ .Params.allFeaturesLink }}" class="sol__all-features-link">
+			{{ .Params.allFeaturesText }}
+		</a>
+	</div>
+	{{ end }}
+</div>
+{{ end }}
+
     <!-- //solutions section -->
 
     <!-- case studies section -->

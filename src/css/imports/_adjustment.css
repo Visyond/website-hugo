@@ -57,6 +57,18 @@ body > p {
     }
 }
 
+.full-width {
+    margin: 0 -var(--global-padding) !important;
+
+    @media screen and (--hd) {
+        margin: 0 -var(--hd) !important;
+    }
+
+    @media screen and (--tablet) {
+        margin: 0 !important;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 1400px;
