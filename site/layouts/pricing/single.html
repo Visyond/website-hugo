@@ -2,17 +2,17 @@
 
 
 <!-- first section -->
-<div class="first-section pri-fir" style="background-image: url({{ .Params.BgImage }})">
+<div class="cover" style="background-image: url({{ .Params.BgImage }})">
 	
-  <h2 class="pri-fir__title">
+  <h2 class="cover-header">
     {{ .Params.TopTitle }}
   </h2>
 
-  <div class="pri-fir__under-title">
+  <div class="cover-header--sub">
     {{ .Params.TopSubTitle }}
   </div>
 
-  <div class="pri-fir__btns-wrap">
+  <div class="cover-buttons--wrap">
     {{ if .Params.SignUpURL }}
     <a href="{{ .Params.SignUpURL }}" class="pri-fir__link pri-fir__link--sign-up">
       free sign up

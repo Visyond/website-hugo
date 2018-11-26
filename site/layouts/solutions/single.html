@@ -1,18 +1,18 @@
 {{ partial "head" . }}
 
-  <div class="sol">
+  <div>
 
     <!-- top section -->
-    <div class="sol-top" style="background-image: url({{ .Params.BgImage }})">
-      <h2 class="sol-top__title">
+    <div class="cover" style="background-image: url({{ .Params.BgImage }})">
+      <h2 class="cover-header">
         {{ .Params.TopTitle | markdownify}}
       </h2>
 
-      <div class="sol-top__under-title">
+      <div class="cover-header--sub">
         {{ .Params.TopSubTitle | markdownify }}
       </div>
 
-      <div class="sol-top__btns-wrap">
+      <div class="cover-buttons--wrap">
         {{ if .Params.SignUpURL }}
         <a href="{{ .Params.SignUpURL }}" class="sol-link sol-link--sign-up">
           free sign up

@@ -1,13 +1,13 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<section class="first-section prs1st" style="background-image: url({{ .Params.BgImage }})">
+<section class="cover" style="background-image: url({{ .Params.BgImage }})">
 	
-  <h2 class="prs1st__title">
+  <h2 class="cover-header">
     {{ .Params.TopTitle }}
   </h2>
 
-  <div class="prs1st__under-title">
+  <div class="cover-header--sub">
     {{ .Params.TopSubTitle }}
   </div>
 </section>
@@ -23,7 +23,7 @@
 {{ end }}
 
 <!-- second section -->
-<section class="second-section prs2nd">
+<section class="section gray">
     <div class="container">
         <h3 class="prs2nd__title">{{ .Params.PricingTitle }}</h3>
         <h4 class="prs2nd__subtitle">{{ .Params.FirstPricingSubTitle }}

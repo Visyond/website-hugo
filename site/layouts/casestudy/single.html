@@ -1,12 +1,7 @@
 {{ partial "head" . }} 
-<div class="case-study-title-wrap">
-  <style>
-    .case-study-title-wrap {
-        background: url({{ .Params.Image }}) center center no-repeat;
-    }
-  </style>
-  <div class="container container--case-study-title-wrap">
-    <h1 class="case-study__title">
+<div class="cover" style="background-image: url({{ .Params.Image }});">
+
+    <h1 class="cover-header">
       {{ .Title }}
     </h1>
     <ul class="case-study-params__list">
@@ -14,7 +9,7 @@
       <li class="case-study-params__item">{{ $element.title }}</li>
       {{ end }}
     </ul>
-  </div>
+
 </div>
 <div class="container container--case-study case-study--maincontent">
   
