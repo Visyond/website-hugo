@@ -38,13 +38,13 @@ body {
 }
 
 body > p {
-  margin: 0;
+    margin: 0;
 }
 
 .wrapper {
-  display: flex;
-  flex-flow: column nowrap;
-  min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
 }
 
 .maincontent {
@@ -69,6 +69,28 @@ body > p {
 
     @media screen and (--tablet) {
         margin: 0 !important;
+    }
+}
+
+.primary {
+    background: #eef6ff;
+}
+
+.gray {
+    background: #f5f6f9;
+}
+
+.section {
+    padding: 6em 0;
+    text-align: center;
+    margin: 0 -var(--global-padding);
+    
+    @media screen and (--hd) {
+        margin: 0 -var(--padding-hd);
+    }
+
+    @media screen and (--tablet) {
+        margin: 0;
     }
 }
 
