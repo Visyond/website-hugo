@@ -44,6 +44,12 @@
     }
 }
 
+#presentation {
+    @media screen and (--tablet) {
+        display: none;
+    }
+}
+
 .cover-header {
     font-weight: 400;
     color: #ffffff;
