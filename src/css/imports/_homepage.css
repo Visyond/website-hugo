@@ -412,20 +412,9 @@
   /*background: #f2f3f7;*/
   text-align: center;
   font-size: 1.3125rem;
-  padding: 10px 35px 10px 0;
+  padding: 10px 20px 10px 20px;
   text-transform: uppercase;
   position: relative;
-
-  &:before {
-    display: block;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
 }
 
 .home-capabilities {
