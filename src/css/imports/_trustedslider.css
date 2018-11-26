@@ -11,7 +11,11 @@
     -ms-flex-direction: column;
     flex-direction: column;
 
-    @media screen and (--mobile) {
+    @media screen and (--hd) {
+        margin: 0 -var(--padding-hd);
+    }
+
+    @media screen and (--tablet) {
         margin: 0;
     }
 }

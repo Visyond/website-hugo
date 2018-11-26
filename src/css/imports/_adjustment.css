@@ -61,7 +61,7 @@ body > p {
     margin: 0 -var(--global-padding) !important;
 
     @media screen and (--hd) {
-        margin: 0 -var(--hd) !important;
+        margin: 0 -var(--padding-hd) !important;
     }
 
     @media screen and (--tablet) {

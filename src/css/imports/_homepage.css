@@ -678,7 +678,11 @@
   position: relative;
   margin: 0 -var(--global-padding);
 
-  @media screen and (--mobile) {
+  @media screen and (--hd) {
+      margin: 0 -var(--padding-hd);
+  }
+
+  @media screen and (--tablet) {
       margin: 0;
   }
 
@@ -815,7 +819,11 @@
     -ms-align-items: center;
     align-items: center;
 
-    @media screen and (--mobile) {
+    @media screen and (--hd) {
+        margin: 0 -var(--padding-hd);
+    }
+
+    @media screen and (--tablet) {
         margin: 0;
     }
 }
