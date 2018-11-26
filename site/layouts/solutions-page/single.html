@@ -1,21 +1,21 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<div class="sp1st" style="background-image: url({{ .Params.BgImage }})">
-	
+<div class="cover" style="background-image: url({{ .Params.BgImage }})">
+
 	{{ with .Params.TopTitle }}
-	<h2 class="sp1st__title">
+	<h2 class="cover-header">
 		{{ . | markdownify}}
 	</h2>
 	{{ end }}
 
 	{{ with .Params.TopSubTitle }}
-	<div class="sp1st__under-title">
+	<div class="cover-header--sub">
 		{{ . | markdownify }}
 	</div>
 	{{ end }}
 
-	<div class="sp1st__btns-wrap">
+	<div class="cover-buttons--wrap">
 		{{ if .Params.SignUpURL }}
 		<a href="{{ .Params.SignUpURL }}" class="sp1st__link sp1st__link--sign-up">
 			free sign up
