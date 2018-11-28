@@ -1,18 +1,22 @@
 .main-header {
-  padding: 15px 35px 15px 35px;
-  background: #f2f3f7;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 999;
+    padding: 0.5em var(--global-padding);
+    background: #f2f3f7;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
 
-  @media screen and (max-width: 1201px) {
-    z-index: 9999;
-    padding: 15px;
-  }
+    @media screen and (--hd) {
+        padding: 0.5em var(--padding-hd);
+    }
+
+    @media screen and (max-width: 1201px) {
+        z-index: 9999;
+        padding: 15px;
+    }
 }
 
 .responsive-btn {

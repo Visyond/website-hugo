@@ -4,3 +4,34 @@ title = "Homepage"
 
 paginage = 10
 paginatePath ="casestudies"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = '<img src="/img/vimages/logoColor.png" alt="Logo">'
+    url = "/"
+  [[menu.main]]
+    identifier = "solutions"
+    name = "Solutions"
+    url = "/solutions/"
+  [[menu.main]]
+    identifier = "test"
+    name = "Solutions"
+    url = "/solutions/"
+    parent = "solutions"
+  [[menu.main]]
+    identifier = "features"
+    name = "Features"
+    url = "/features/"
+  [[menu.main]]
+    identifier = "casestudy"
+    name = "Case Studies"
+    url = "/casestudy/"
+  [[menu.main]]
+    identifier = "pricing"
+    name = "Pricing"
+    url = "/pricing/"
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
