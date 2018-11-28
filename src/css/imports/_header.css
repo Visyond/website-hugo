@@ -1,5 +1,6 @@
 .main-header {
-    padding: 0.5em var(--global-padding);
+    padding: 0.5em 1.5em;
+
     background: #f2f3f7;
     display: flex;
     justify-content: space-between;
@@ -7,11 +8,8 @@
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 999;
 
-    @media screen and (--hd) {
-        padding: 0.5em var(--padding-hd);
-    }
+    z-index: 999;
 
     @media screen and (max-width: 1201px) {
         z-index: 9999;
