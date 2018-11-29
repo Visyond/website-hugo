@@ -169,17 +169,15 @@ featuredBg: /img/errors.jpg
 featuredTitle: As Featured In
 featured:
   - alt: The Telegraph Logo
-    link: >-
-      https://www.telegraph.co.uk/connect/small-business/happens-win-first-big-client/
+    link: ''
     logo: /img/telegraph.png
   - alt: NatWest Logo
-    link: >-
-      http://natwest.contentlive.co.uk/content/leadership-lessons-how-to-be-a-mentor
+    link: ''
     logo: /img/NatWest Logo.png
   - alt: GrowthBusiness Logo
-    link: >-
-      http://www.growthbusiness.co.uk/innovation-in-a-business-is-it-getting-harder-or-easier-to-innovate-2554903/
+    link: ''
     logo: /img/GrowthBusiness Logo.png
 titleBottom: Find out how to improve your decision-making process today
+bgBottom: /img/footer-bg.png
 ---
 
