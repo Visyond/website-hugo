@@ -1,5 +1,23 @@
 ---
-metaTags: "\r<meta name=\"description\" content=\"Visyond’s cloud-based secure, collaborative and automated spreadsheet-based value analysis and decision platform.\">\r\n\r<meta name=\"keywords\" content=\"why visyond, visyond comparison, visyond vs\">\n\n<meta property=\"og:title\" content=\"Why You Should Choose Visyond\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/why%20visyond%20infographic.png\"/>\r\n<meta property=\"og:description\" content=\"Cloud-based secure, collaborative and automated spreadsheet-based value analysis and decision platform.\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/why-visyond/\" />\r\n\r\n"
+metaTags: >-
+  <meta name="description" content="Visyond’s cloud-based secure, collaborative
+  and automated spreadsheet-based value analysis and decision platform.">
+
+
+  <meta name="keywords" content="why visyond, visyond comparison, visyond vs">
+
+
+  <meta property="og:title" content="Why You Should Choose Visyond"/>
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image"
+  content="https://visyond.com/img/why%20visyond%20infographic%20w500.png"/>
+
+  <meta property="og:description" content="Cloud-based secure, collaborative and
+  automated spreadsheet-based value analysis and decision platform."/>
+
+  <meta property="og:url" content="https://visyond.com/why-visyond/" />
 type: why-visyond
 title: Why Visyond
 coverHeader: What is Visyond?
