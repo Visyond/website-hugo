@@ -1,27 +1,27 @@
 {{ with .Site.GetPage "section" "solutions-section" }}
-<div class="sol-section">
-	<ul class="sol-section__cols">
-		{{ range $element := .Params.solDropdownCol }}
-		<li class="sol-section__col">
-			<h3 class="sol-section__title">
-				{{ $element.title }}
-			</h3>
-			<ul class="sol-section__group-list sol-section__list">
-				{{ range $el := $element.solution_dropdown }}
-				<li class="sol-section__group-item">
-					<a href="{{ $el.path }}" class="sol-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
-				</li>
-				{{ end }}
-			</ul>
-		</li>
-		{{ end }}
-	</ul>
-	{{ if .Params.allFeaturesLink }}
-	<div class="sol__all-features-wrapper">
-		<a href="{{ .Params.allFeaturesLink }}" class="sol__all-features-link">
-			{{ .Params.allFeaturesText }}
-		</a>
-	</div>
-	{{ end }}
+<div class="dropdown-section">
+  <ul class="dropdown-section__cols">
+    {{ range $element := .Params.solDropdownCol }}
+    <li class="dropdown-section__col">
+      <h3 class="dropdown-section__title">
+        {{ $element.title }}
+      </h3>
+      <ul class="dropdown-section__group-list dropdown-section__list">
+        {{ range $el := $element.solution_dropdown }}
+        <li class="dropdown-section__group-item">
+          <a href="{{ $el.path }}" class="dropdown-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </li>
+    {{ end }}
+  </ul>
+  {{ if .Params.allFeaturesLink }}
+  <div class="dropdown__all-wrapper">
+    <a href="{{ .Params.allFeaturesLink }}" class="dropdown__all-link">
+      {{ .Params.allFeaturesText }}
+    </a>
+  </div>
+  {{ end }}
 </div>
 {{ end }}

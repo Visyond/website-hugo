@@ -1,15 +1,15 @@
 {{ with .Site.GetPage "section" "features-section" }}
-<div class="fea-section">
-	<ul class="fea-section__cols">
+<div class="dropdown-section">
+	<ul class="dropdown-section__cols">
 		{{ range $element := .Params.feaDropdownCol }}
-		<li class="fea-section__col">
-			<h3 class="fea-section__title">
+		<li class="dropdown-section__col">
+			<h3 class="dropdown-section__title">
 				{{ $element.title }}
 			</h3>
-			<ul class="fea-section__group-list fea-section__list">
+			<ul class="dropdown-section__group-list dropdown-section__list">
 				{{ range $el := $element.features_dropdown }}
-				<li class="fea-section__group-item">
-					<a href="{{ $el.path }}" class="fea-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
+				<li class="dropdown-section__group-item">
+					<a href="{{ $el.path }}" class="dropdown-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
 				</li>
 				{{ end }}
 			</ul>
@@ -17,8 +17,8 @@
 		{{ end }}
 	</ul>
 	{{ if .Params.allFeaturesLink }}
-	<div class="fea__all-features-wrapper">
-		<a href="{{ .Params.allFeaturesLink }}" class="fea__all-features-link">
+	<div class="dropdown__all-wrapper">
+		<a href="{{ .Params.allFeaturesLink }}" class="dropdown__all-link">
 			{{ .Params.allFeaturesText }}
 		</a>
 	</div>

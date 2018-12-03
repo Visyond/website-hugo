@@ -1,110 +1,112 @@
-<nav class="nav {{ if eq .Title "Homepage Some"}} nav--homepage-header {{end}}">
-	<ul class="nav__list {{ if eq .Title "Homepage Some"}} nav--homepage-header__list {{end}}">
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
-				<span>Solutions</span>
-			</a>
-			{{ with .Site.GetPage "section" "nav" }}
-			<div class="dropdown-menu-wrap">
-				<div
-					class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
-					id="solutions-toggle"
-				>
-				<!-- dropdown info -->
-				<div class="dropdown__info">
-					<h3 class="dropdown__info-title">
-						{{ .Params.solutionsInfoTitle }}
-					</h3>
-					<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvWPYqVKj45YPMm7x0hYxuDfOfcoAU3ehTR6m5vRf2_E0DjXxi" alt="image" class="dropdown__info-image"> -->
-					<div class="dropdown__info-descr">
-						{{ .Params.solutionsInfoDescr }}
-					</div>
-				</div>
-				<!-- //dropdown info -->
-				<div class="dropdown">
-					<!-- solutions lists links-->
-						{{ partial "solutions-section" . }}
-					<!-- //solutions lists links-->
-				</div>
-				</div>
-				{{end}}
-			</div>
+<nav class="nav">
+  <ul class="nav__list">
 
-		<!-- </div> -->
-		</li>
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="#features-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
-				<span>Features</span>
-			</a>
-			{{ with .Site.GetPage "section" "nav" }}
-			<div class="dropdown-menu-wrap">
-				<div
-					class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
-					id="features-toggle"
-				>
+    <li class="nav__item">
+      <a href="/" class="nav__link">
+        <span><img src="/img/vimages/logoColor.png" alt="Logo"></span>
+      </a>
+    </li>
 
-				<div class="dropdown__info">
-					<h3 class="dropdown__info-title">
-						{{ .Params.featuresInfoTitle }}
-					</h3>
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="#solutions-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
+        <span>Solutions</span>
+      </a>
+      {{ with .Site.GetPage "section" "nav" }}
+      <div class="dropdown-menu-wrap">
+        <div
+          class="dropdown-toggle dropdown-toggle--multicol"
+          id="solutions-toggle"
+          >
+          <div class="dropdown__info">
+            <h3 class="dropdown__info-title">
+              {{ .Params.solutionsInfoTitle }}
+            </h3>
+            <div class="dropdown__info-descr">
+              {{ .Params.solutionsInfoDescr }}
+            </div>
+          </div>
+          <div class="dropdown">
+            {{ partial "solutions-section" . }}
+          </div>
+        </div>
+        {{end}}
+      </div>
 
-					<div class="dropdown__info-descr">
-						{{ .Params.featuresInfoDescr }}
-					</div>
-				</div>
+    </li>
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="#features-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
+        <span>Features</span>
+      </a>
+      {{ with .Site.GetPage "section" "nav" }}
+      <div class="dropdown-menu-wrap">
+        <div
+          class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
+          id="features-toggle"
+          >
 
-				<div class="dropdown">
-						{{ partial "features-section" . }}
-				</div>
+          <div class="dropdown__info">
+            <h3 class="dropdown__info-title">
+              {{ .Params.featuresInfoTitle }}
+            </h3>
 
-				</div>
-				{{end}}
-			</div>
+            <div class="dropdown__info-descr">
+              {{ .Params.featuresInfoDescr }}
+            </div>
+          </div>
 
-		</li>
-		<!-- <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="/features/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Features</span></a>
-		</li> -->
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="/casestudy/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Case Studies</span></a>
-		</li>
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="/pricing/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Pricing</span></a>
-		</li>
-		<li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-			<a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Resources</span></a>
-			<div class="dropdown-menu-wrap">
-				<div
-					class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
-					id="resources-toggle"
+          <div class="dropdown">
+            {{ partial "features-section" . }}
+          </div>
 
-				>
-					<ul class="dropdown-toggle__group-list">
-						{{ with .Site.GetPage "section" "nav" }}
-							{{ range $el := .Params.resourcesDropdown }}
-							<li class="dropdown-toggle__group-list-item">
-								<a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
-							</li>
-							{{ end }}
-						{{ end }}
-					</ul>
-				</div>
-			</div>
-		</li>
-		<!-- <li class="nav__item {{ if eq .Title "Why Visyond"}} nav__link--active {{end}}">
-			<a href="/why-visyond/" class="nav__link {{ if eq .Title "Why Visyond"}} nav__link--active {{end}}"><span>Why us</span></a>
-		</li> -->
-	</ul>
+        </div>
+        {{end}}
+      </div>
 
+    </li>
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="/casestudy/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Case Studies</span></a>
+    </li>
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="/pricing/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Pricing</span></a>
+    </li>
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="#resources-toggle" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}"><span>Resources</span></a>
+      <div class="dropdown-menu-wrap">
+        <div
+          class="dropdown-toggle {{ if eq .Title "Homepage Some"}} nav--homepage-header-dropdown-toggle {{end}}"
+          id="resources-toggle"
 
+          >
+          <ul class="dropdown-toggle__group-list">
+            {{ with .Site.GetPage "section" "nav" }}
+            {{ range $el := .Params.resourcesDropdown }}
+            <li class="dropdown-toggle__group-list-item">
+              <a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
 
-	<ul class="homepage__user-nav-list">
-		<li class="homepage__user-nav-item"><a href="/accounts/login" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} white-page-menu {{end}}">log in</a></li>
-		<li class="homepage__user-nav-item"><a href="/accounts/signup" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} white-page-menu {{end}}">sign up</a></li>
-		<!-- <li class="homepage__user-nav-item"><a href="/request-a-demo" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} blue-request {{end}} homepage__user-nav-link--request">request a demo</a></li> -->
-		<li class="homepage__user-nav-item"><a href="/request" class="homepage__user-nav-link {{ if ne .Title "Homepage Some" }} blue-request {{end}} homepage__user-nav-link--request">request a demo</a></li>
-	</ul>
-
-
+  <ul class="homepage__user-nav-list">
+    <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
+      <a href="/accounts/login" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
+        LOG IN
+      </a>
+    </li>
+    <li class="nav-item">
+        <a href="/accounts/signup/" class="nav__link {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
+          SIGN UP
+        </a>
+    </li>
+    <li class="nav-item">
+      <a href="/request" class="nav__link nav__link--primary {{ if eq .Title "Homepage Some"}} nav--homepage-header__link {{end}}">
+        REQUEST A DEMO
+      </a>
+    </li>
+  </ul>
 
 </nav>
