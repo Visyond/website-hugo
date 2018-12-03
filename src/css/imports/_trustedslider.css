@@ -76,6 +76,10 @@
     -ms-align-items: center;
     align-items: center;
     justify-content: center;
+
+    @media screen and (--tablet) {
+        margin: 0 1em;
+    }
 }
 
 .trusted__logos-wrap img {

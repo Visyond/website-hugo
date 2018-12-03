@@ -231,44 +231,32 @@ $(function () {
        let pause = false;
 
        let sliderInterval = setInterval(() => {
-         if(document.documentElement.clientWidth > 800) {
            if(!pause) {
-             step = sliders[0].offsetWidth;
-             sliders = slidersBlock.children;
-             slidersBlock = document.querySelector('.js-slider')
-             let cloneNode = sliders[count].cloneNode(true);
-             slidersBlock.appendChild(cloneNode);
-             count++;
-             slidersBlock.style.transform = `translateX(-${step * count}px)`;
+               step = sliders[0].offsetWidth;
+               sliders = slidersBlock.children;
+               slidersBlock = document.querySelector('.js-slider')
+               let cloneNode = sliders[count].cloneNode(true);
+               slidersBlock.appendChild(cloneNode);
+               count++;
+               slidersBlock.style.transform = `translateX(-${step * count}px)`;
            }
-         }
-         else {
-           for(let i = slidersBlock.children.length - 1; i > 0 ; i--) {
-             if(i >= slidersNumber) {
-               slidersBlock.removeChild(slidersBlock.children[i]);
-             }
-           }
-           count = 0;
-           slidersBlock.style.transform = `translateX(-${step * count}px)`;
-         }
-
        }, 5000);
 
-       window.addEventListener('blur', () => {
-         pause = true;
-       })
+         window.addEventListener('blur', () => {
+             pause = true;
+         })
 
-       window.addEventListener('focus', () => {
-         pause = false;
-       })
+         window.addEventListener('focus', () => {
+             pause = false;
+         })
 
-       window.addEventListener('resize', () => {
-         step = sliders[0].offsetWidth;
-       });
+         window.addEventListener('resize', () => {
+             step = sliders[0].offsetWidth;
+         });
      }
 
-     if(document.querySelector('.js-slider')) {
-       logoSlide();
+    if(document.querySelector('.js-slider')) {
+        logoSlide();
      }
 
 
