@@ -1,8 +1,5 @@
 {{ with .Site.GetPage "section" "trustedslider" }}
 <section class="trusted">
-	<h3 class="trusted__title">
-	{{ .Params.trustedTitle }}
-	</h3>
 	<div class="trusted__wrapper">
 	    <ul class="trusted__logos-wrap js-slider">
 		    {{ range $el := .Params.trustedLogos }}

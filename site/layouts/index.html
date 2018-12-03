@@ -118,35 +118,7 @@
 {{ partial "case-studies-section-new" . }}
 <!-- //case studies section -->
 
-{{ if .Params.Featured }}
-<section class="home-featured" style="background-image: url({{ .Params.featuredBg }})">
-  <div class="container">
-    <h3 class="home-title home-title--home-featured">
-      {{ .Params.featuredTitle }}
-    </h3>
-
-    <ul class="home-featured__list">
-      {{ range $el := .Params.Featured }}
-      <li class="home-featured__item">
-        <a href="{{ $el.link }}" target="_blank">
-          <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-
-    <ul class="home-featured__list-comment">
-      {{ range $el := .Params.Featured }}
-      <li class="home-featured__list-comment-item">
-        <p>
-          {{ $el.descr }}
-        </p>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-</section>
-{{ end }}
+{{ partial "featured" . }}
 
 {{ partial "get-started" . }}
 

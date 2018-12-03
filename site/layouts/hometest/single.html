@@ -87,12 +87,12 @@
     <!-- ./trusted section -->
 
     <!-- section info -->
-    <ul class="ht-info js-image-block">
+    <ul class="home-info js-image-block">
 
       <!-- info block -->
       {{ range $el := .Params.InfoBlockFirst }}
 
-      <li class="ht-info__block">
+      <li class="home-info__block">
         <div class="info__img-wrap js-img-wrap">
           {{ if .files }}
           <div class="info__img-pointer">
@@ -105,21 +105,21 @@
             zoom_in
           </i> -->
           {{ end }}
-          <img src="{{ .image }}" alt="{{ .altText }}" class="ht-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
+          <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
         </div>
 
-        <img src="/img/v_lines.png" alt="lines" class="ht-info__block-lines">
+        <img src="/img/v_lines.png" alt="lines" class="home-info__block-lines">
 
-        <section class="ht-info__text-wrap">
-          <h3 class="ht-info__block-title">
+        <section class="home-info__text-wrap">
+          <h3 class="home-info__block-title">
             {{ .title }}
           </h3>
 
-          <div class="ht-info__block-descr">
+          <div class="home-info__block-descr">
             {{ .descr | markdownify }}
           </div>
           {{ if .link }}
-          <a href="{{ .link }}" class="ht-info__link">
+          <a href="{{ .link }}" class="home-info__link">
             learn more
           </a>
           {{ end }}
@@ -130,48 +130,13 @@
     </ul>
     <!-- //section info -->
 
-    <!-- solutions section -->
-      {{ partial "solutions-section" . }}
-    <!-- //solutions section -->
-
     <!-- case studies section -->
     {{ partial "case-studies-section-new" . }}
     <!-- //case studies section -->
 
-    <!-- section testimonials -->
-    {{ partial "testimonials" . }}
-    <!-- //section testimonials -->
+    {{ partial "featured" . }}
 
-    <!-- section provides -->
-    <div class="ht-provides">
-      <section class="ht-provides__wrap">
-        <h3 class="ht-provides__title">
-          {{ .Params.ProvidesTitle }}
-        </h3>
-
-        <ul class="ht-provides__list">
-          {{ range $el := .Params.ProvidesList }}
-          <li class="ht-provides__item">
-            {{ .text | markdownify }}
-          </li>
-          {{ end }}
-        </ul>
-      </section>
-      <div class="ht-provides__img-wrap">
-        <img src="/img/v_notebook.png" alt="notebook" class="ht-provides__img">
-      </div>
-    </div>
-    <!-- ./section provides -->
-
-    <section class="ht-bottom" style="background-image: url({{ .Params.BgBottom }})">
-      <h3 class="ht-bottom__title">
-        {{ .Params.TitleBottom }}
-      </h3>
-
-      <a href="https://visyond.com/contacts" class="ht-link ht-link--request">
-        request a demo
-      </a>
-    </section>
+    {{ partial "get-started" . }}
 
   </div>
 

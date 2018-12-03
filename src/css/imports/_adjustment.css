@@ -12,6 +12,8 @@
     --padding-hd: 8em;
     --padding-tablet: 4em;
     --pading-mobile: 1em;
+
+    --vertical-padding: 3.2em;
     
     @custom-media --fullhd (max-width: 1920px);
     @custom-media --hd (max-width: 1376px);
@@ -48,14 +50,15 @@ body > p {
 }
 
 .maincontent {
-    padding: 48px var(--global-padding) 0 var(--global-padding);
+    
+    padding: var(--vertical-padding) var(--global-padding) 0 var(--global-padding);
 
     @media screen and (--hd) {
-        padding: 48px var(--padding-hd) 0 var(--padding-hd);
+        padding: var(--vertical-padding) var(--padding-hd) 0 var(--padding-hd);
     }
 
     @media screen and (--tablet) {
-        padding: 48px 0 0 0;
+        padding: var(--vertical-padding) 0 0 0;
     }
 }
 
