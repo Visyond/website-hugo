@@ -1,14 +1,26 @@
-.button-contrast {
-  background: #fff;
-  color: #52546c;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  padding: 1em 3em;
-  border-radius: 2em;
-  transition: all 0.1s;
+.button {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 1rem 3em;
+    border: none;
+    border-radius: 2em;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.1s;
 
-  &:hover {
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  }
+    &-primary {
+        color: #fff;
+        background: #0086ff;
+    }
+
+    &-contrast {
+        background: #fff;
+        color: #52546c;
+    }
+
+    &:hover {
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    }
 }
+
+
