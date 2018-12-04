@@ -12,7 +12,7 @@ metaTags: >-
   <meta property="og:type" content="website" />
 
   <meta property="og:image"
-  content="https://visyond.com/img/why_visyond_infographic_linkedin.png">
+  content="https://visyond.com/img/why_visyond_infographic_linkedin_small.png">
 
   <meta property="og:description" content="Cloud-based secure, collaborative and
   automated spreadsheet-based value analysis and decision platform."/>
