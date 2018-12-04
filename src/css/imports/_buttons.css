@@ -1,10 +1,9 @@
 .button {
-    --btn-padding: 3em;
     position: relative;
     text-transform: uppercase;
     font-size: 1.1em;
-    padding: 1em var(--btn-padding);
-    border: 1px solid #0086ff;
+    padding: 1em 3em;
+    border: 2px solid #0086ff;
     border-radius: 2em;
     text-align: center;
     font-weight: 600;
@@ -43,6 +42,11 @@
 
     &:hover {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    &:active {
+        top: 2px;
+        box-shadow: none;
     }
 }
 
