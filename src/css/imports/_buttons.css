@@ -1,25 +1,48 @@
 .button {
+    --btn-padding: 3em;
+    position: relative;
     text-transform: uppercase;
     font-size: 1.1em;
-    padding: 1rem 3em;
-    border: none;
+    padding: 1em var(--btn-padding);
+    border: 1px solid #0086ff;
     border-radius: 2em;
     text-align: center;
     font-weight: 600;
     transition: all 0.1s;
+    cursor: pointer;
+    background: none;
+    color: #0086ff;
+    vertical-align: middle;
+    display: inline-block;
 
     &-primary {
         color: #fff;
         background: #0086ff;
+        border: none;
     }
 
     &-contrast {
         background: #fff;
         color: #52546c;
+        border: none;
+    }
+
+    &-icon {
+        padding-left: 4.5em;
+                          
+        & > i {
+            position: absolute;
+            font-size: 1.8em;
+            top: 50%;
+            left: 1.5em;
+            transform: translate(-50%, -50%);
+        }
+
+        
     }
 
     &:hover {
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
 }
 
