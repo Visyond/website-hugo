@@ -1,50 +1,6 @@
 {{ partial "head" . }}
 
-<!-- first section -->
-<div class="cover" style="background-image: url({{ .Params.BgImage }})">
-
-	{{ with .Params.TopTitle }}
-	<h2 class="cover-header">
-		{{ . | markdownify}}
-	</h2>
-	{{ end }}
-
-	{{ with .Params.TopSubTitle }}
-	<div class="cover-header--sub">
-		{{ . | markdownify }}
-	</div>
-	{{ end }}
-
-	<div class="cover-buttons--wrap">
-		{{ if .Params.SignUpURL }}
-		<a href="{{ .Params.SignUpURL }}" class="sp1st__link sp1st__link--sign-up">
-			free sign up
-		</a>
-		{{ end }}
-
-		{{ if .Params.WatchVideoURL }}
-		<button class="sp1st__link sp1st__link--btn js-btn-video">
-			watch video
-		</button>
-		{{ end }}
-
-		{{ if .Params.RequestURL }}
-		<a href="/request" class="sp1st__link sp1st__link--request">  
-			request a demo
-		</a>
-		{{ end }}
-	</div>
-
-	<div class="sp1st__popup js-popup">
-		<div class="sp1st__iframe-wrap">
-			<button class="sp1st__popup-close js-popup-close"></button>
-			<p>
-				{{ .Params.WatchVideoURL }}
-			</p>
-		</div>
-	</div>
-</div>
-<!-- //first section -->
+{{ partial "cover" . }}
 
 <!-- second section -->
 <div class="sp2nd">

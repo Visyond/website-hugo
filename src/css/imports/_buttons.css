@@ -9,7 +9,7 @@
     font-weight: 600;
     transition: all 0.1s;
     cursor: pointer;
-    background: none;
+    background: #fff;
     color: #0086ff;
     vertical-align: middle;
     display: inline-block;
