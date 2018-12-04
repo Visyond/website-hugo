@@ -23,7 +23,7 @@
     &-contrast {
         background: #fff;
         color: #52546c;
-        border: none;
+        border: 1px solid #fff;
     }
 
     &-icon {
@@ -38,6 +38,17 @@
         }
 
         
+    }
+
+    &-basic {
+        border: 1px solid #fff;
+        color: #fff;
+        background: none;
+
+        &:hover {
+            background: #fff;
+            color: rgba(0,0,0,.8);
+        }
     }
 
     &:hover {
