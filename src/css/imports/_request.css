@@ -6,17 +6,27 @@
   @media screen and (max-width: 1211px) {
     padding: 50px 0;
   }
+
+  margin: 0 -var(--global-padding);
+
+  @media screen and (--hd) {
+      margin: 0 -var(--padding-hd);
+  }
+
+  @media screen and (--tablet) {
+      margin: 0;
+  }
 }
 
 .container--request-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 
-  @media screen and (max-width: 1211px) {
-    flex-flow: column nowrap;
-    align-items: center;
-  }
+    @media screen and (max-width: 1211px) {
+        flex-flow: column nowrap;
+        align-items: center;
+    }
 }
 
 .request-demo__client-asked-wrap {
