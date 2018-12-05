@@ -1,12 +1,8 @@
 .cover {
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
+    position: relative;
     margin: 0 -var(--global-padding);
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -ms-align-items: center;
     align-items: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -21,6 +17,29 @@
 
     @media screen and (--tablet) {
         margin: 0;
+    }
+
+    &-video {
+        width: 100%;
+        margin: -4em 0;
+    }
+
+    &-video--content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        top: 0;
+        background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.75));
+
+        & > .cover-header,
+        & > .cover-header--sub {
+            padding: 0 var(--pading-hd);
+        }
     }
 
     &.nobg {
