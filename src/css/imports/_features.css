@@ -316,65 +316,61 @@
   transition: 0.1s;
 }
 
-.info__block-img-pointer:hover {
-  filter: drop-shadow(0 0 3px #0086ff);
-}
-
 .ftr-info__block-lines {
-  position: absolute;
-  bottom: -30%;
-  left: 48%;
-  z-index: -1;
+    position: absolute;
+    bottom: -30%;
+    left: 48%;
+    z-index: -1;
 
-  @media screen and (max-width: 800px) {
-    bottom: -25%;
-    left: 40%;
-  }
+    @media screen and (max-width: 800px) {
+        bottom: -25%;
+        left: 40%;
+    }
 
-  @media screen and (max-width: 400px) {
-    left: 20%;
-  }
+    @media screen and (max-width: 400px) {
+        left: 20%;
+    }
 }
 
 .ftr-info__block:nth-child(2n) .ftr-info__block-lines {
-  left: auto;
-  right: 44%;
-  bottom: -42%;
-  transform: rotateY(180deg);
+    left: auto;
+    right: 44%;
+    bottom: -42%;
+    transform: rotateY(180deg);
 
-  @media screen and (max-width: 800px) {
-    left: 40%;
-    right: auto;
-    bottom: -25%;
-    transform: rotateY(0);
-  }
+    @media screen and (max-width: 800px) {
+        left: 40%;
+        right: auto;
+        bottom: -25%;
+        transform: rotateY(0);
+    }
 
-  @media screen and (max-width: 400px) {
-    left: 20%;
-  }
+    @media screen and (max-width: 400px) {
+        left: 20%;
+    }
 }
 
 .ftr-info__block:last-child .ftr-info__block-lines {
-  display: none;
+    display: none;
 }
 
 .ftr-info__text-wrap {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -ms-align-items: flex-start;
-  align-items: flex-start;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 100%;
-
-  @media screen and (max-width: 800px) {
-    -ms-align-items: center;
-    align-items: center;
-    text-align: center;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     width: 100%;
-  }
+
+    @media screen and (max-width: 800px) {
+        -ms-align-items: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
 }
 
 .ftr-info__block-title {
