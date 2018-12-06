@@ -1,13 +1,16 @@
 ---
 title: Test Homepage
 metaTags: visyond
-topTitle: Make Better and Faster Decisions with Spreadsheet Automation
+topTitle: >-
+  The Combined Power of Spreadsheet, BI and Presentation Multiplied by
+  Next-level Collaboration
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 topSubTitle: >-
-  Visualize the impact of your decisions and answer any questions in real time,
-  reduce errors and control what each collaborator can see and interact with
+  Visualize the impact of your decisions, answer questions in real time, and
+  control what each stakeholder can interact with in a secure collaborative
+  environment 
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\r\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
@@ -130,18 +133,6 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-featuredBg: /img/errors.jpg
-featuredTitle: As Featured In
-featured:
-  - alt: The Telegraph Logo
-    link: ''
-    logo: /img/telegraph.png
-  - alt: NatWest Logo
-    link: ''
-    logo: /img/NatWest Logo.png
-  - alt: GrowthBusiness Logo
-    link: ''
-    logo: /img/GrowthBusiness Logo.png
 providesTitle: Get started in minutes
 providesList:
   - text: >-
