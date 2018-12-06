@@ -1,12 +1,8 @@
 .cover {
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
+    position: relative;
     margin: 0 -var(--global-padding);
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -ms-align-items: center;
     align-items: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -21,6 +17,46 @@
 
     @media screen and (--tablet) {
         margin: 0;
+    }
+
+    &-video {
+        width: 100%;
+        margin: -4em 0;
+        background: #000;
+    }
+
+    &-video--content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        top: 0;
+        background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.75));
+
+        & > .cover-header {
+            @media screen and (max-width: 600px) {
+                font-size: 1.6em;
+                font-weight: 900;
+            }
+        }
+
+        & > .cover-header--sub {
+            @media screen and (max-width: 600px) {
+                font-size: 1.2em;
+            }
+        }
+
+        & .cover-buttons--wrap {
+            @media screen and (max-width: 600px) {
+                font-size: 0.9em;
+                flex-direction: row;
+            }
+        }
+
     }
 
     &.nobg {
@@ -56,7 +92,6 @@
     text-align: center;
     font-size: 2.5em;
     text-shadow: 2px 2px 0px rgba(0,0,0,.35);
-    padding: 0 var(--global-padding);
     margin: 0;
 
     @media screen and (--hd) {
@@ -104,9 +139,7 @@
         margin: 1em;
     }
 
-    @media screen and (max-width: 850px) {
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
+    @media screen and (max-width: 500px) {
         flex-direction: column;
     }
 }

@@ -36,9 +36,10 @@
   margin-bottom: 30px;
   box-shadow: 0 5px 15px rgba(82, 85, 108, 0.3);
   transition: box-shadow 0.1s ease-in-out;
+  text-align: center;
 
   &:hover {
-    box-shadow: 0 10px 15px rgba(82, 85, 108, 0.3);
+      box-shadow: 0 10px 15px rgba(82, 85, 108, 0.3);
   }
 
   @media screen and (max-width: 1000px) {
@@ -58,6 +59,7 @@
 .casestudy-new__link > img {
   display: block;
   max-height: 70px;
+  margin: 0 auto;
 }
 
 .casestudy-new__title {

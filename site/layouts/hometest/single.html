@@ -3,12 +3,11 @@
 <div class="hometest ht">
 
   <!-- top section -->
-  <div class="ht-top">
-    <video src="/img/preview.mp4" class="ht-top__video js-background-video" autoplay muted loop>
+  <div class="cover">
+    <video src="/img/preview.mp4" class="cover-video js-background-video" autoplay muted loop>
       <!-- <source src="/img/preview.mp4" type="video/mp4"> -->
     </video>
-    
-    <div class="cover">
+    <div class="cover-video--content">    
       <h2 class="cover-header">
         {{ .Params.TopTitle | markdownify}}
       </h2>
@@ -97,21 +96,17 @@
 
     <li class="home-info__block">
       <div class="info__img-wrap js-img-wrap">
-        {{ if .files }}
-        <div class="info__img-pointer">
-          Click to see more
-          <i class="material-icons">
-            subdirectory_arrow_left
-          </i>
-        </div>
-        <!-- <i class="material-icons">
-             zoom_in
-             </i> -->
-        {{ end }}
-        <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
-      </div>
 
-      <img src="/img/v_lines.png" alt="lines" class="home-info__block-lines">
+        <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
+        
+<a class="button button-icon button-primary">
+          <i class="material-icons">
+            play_arrow
+          </i>
+          See in action
+        </a>
+
+</div>
 
       <section class="home-info__text-wrap">
         <h3 class="home-info__block-title">
