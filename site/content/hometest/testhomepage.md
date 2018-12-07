@@ -77,7 +77,7 @@ infoBlockFirst:
         file: /img/root cause anim.gif
         link: /features/audit-mode/
         title: Error Root Cause identification
-    image: /img/v_clip_group_3.png
+    image: /img/testhome_collaboration_example_2.JPG
     link: /solutions/governance/
     title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
