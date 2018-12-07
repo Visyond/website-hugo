@@ -64,7 +64,7 @@ infoBlockFirst:
         title: Test Assumptions
     image: /img/testhome_collaboration_example.JPG
     link: /solutions/collaboration/
-    title: Collaborate and Build With Simplicity & Peace of Mind
+    title: Joint Your Organization
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Analyze Cell Dependencies
