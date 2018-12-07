@@ -13,7 +13,19 @@ topSubTitle: >-
   environment 
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
-  - descr: "Visyond offers **a secure way to collaborate without data leaks and focus only on what’s important**:\r\n\r\n* No more cumbersome back & forth emails and versions to reconcile\r\n* Securely store and collaborate on spreadsheet data; multiple assumptions, scenarios, conversations and attachments directly in the relevant cells\r\n* Gather assumptions and enable others to test them through simple interfaces, without changing or risk breaking the spreadsheet\r\n"
+  - descr: >-
+      Efficiently collaborate across multiple workstreams and levels by
+      introducing a single secure environment **connecting all links of the
+      chain together** - from decision makers, analysts and modelers to
+      consultants, clients and prospects.
+
+
+      * Share only specific parts of your spreadsheets, analyses and
+      presentations
+
+      * Test assumptions in real time & ensure quick turn-around of changes 
+
+      * Always know the history & reason behind any change or contribution
     files:
       - alt: Spreadsheet Governance in Visyond - Single Source of Truth
         descr: >-
@@ -50,7 +62,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         link: /features/interactive-presentations/
         title: Test Assumptions
-    image: /img/v_clip_group_1.png
+    image: /img/testhome_collaboration_example.JPG
     link: /solutions/collaboration/
     title: Collaborate and Build With Simplicity & Peace of Mind
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
