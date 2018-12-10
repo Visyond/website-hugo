@@ -384,7 +384,7 @@
 }
 
 .home-info__block-descr li {
-    padding-left: 20px;
+    padding-left: 30px;
     position: relative;
     margin-bottom: 15px;
 }
@@ -395,11 +395,9 @@
     top: 15px;
     left: 0;
     transform: rotate(-130deg);
-    margin-right: 10px;
-    margin-bottom: 3px;
     width: 8px;
     height: 2px;
-    background: #00b5b8;
+    background: #0086ff;
     display: inline-block;
 }
 
