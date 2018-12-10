@@ -1,20 +1,11 @@
 ---
 title: Test Homepage
 metaTags: visyond
-topTitle: >-
-  The Combined Power of Spreadsheet, BI and Presentation Multiplied by
-  Next-level Collaboration
+topTitle: 'The Combined Power of Spreadsheet, BI and Presentation'
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-topSubTitle: >-
-  Visualize the impact of your decisions, answer questions in real time, 
-
-
-
-
-  and control what each stakeholder can interact with in a secure collaborative
-  environment
+topSubTitle: Multiplied by the Next-level Collaboration
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Efficiently collaborate across multiple workstreams and levels by introducing a single secure environment connecting all links of the chain together - from decision makers, analysts and modelers to consultants, clients and prospects.\r\n\n* Share **only specific parts** of your spreadsheets, analyses and presentations\r\n* Test **assumptions on-the-fly** & ensure quick turn-around of changes \r\n* Always **know the history & reasons** behind any change or contribution"
