@@ -62,7 +62,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         link: /features/interactive-presentations/
         title: Test Assumptions
-    image: /img/testhome_collaboration_example.JPG
+    image: /img/Homepage Collaboration v1 small.png
     link: /solutions/collaboration/
     title: Joint Your Organization
   - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
