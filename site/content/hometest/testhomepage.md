@@ -118,7 +118,7 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-providesTitle: Get started in minutes
+providesTitle: Get Started in Minutes
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
