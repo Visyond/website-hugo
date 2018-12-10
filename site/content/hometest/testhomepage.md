@@ -118,6 +118,18 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
+featuredBg: /img/errors.jpg
+featuredTitle: As Featured In
+featured:
+  - alt: The Telegraph Logo
+    link: ''
+    logo: /img/telegraph.png
+  - alt: NatWest Logo
+    link: ''
+    logo: /img/NatWest Logo.png
+  - alt: GrowthBusiness Logo
+    link: ''
+    logo: /img/GrowthBusiness Logo.png
 providesTitle: Get started in minutes
 providesList:
   - text: >-

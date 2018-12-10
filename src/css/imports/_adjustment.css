@@ -13,7 +13,7 @@
     --padding-tablet: 4em;
     --pading-mobile: 1em;
 
-    --vertical-padding: 3.4em;
+    --vertical-padding: 3.3em;
     
     @custom-media --fullhd (max-width: 1920px);
     @custom-media --hd (max-width: 1376px);
@@ -84,7 +84,7 @@ body > p {
 }
 
 .section {
-    padding: 6em 0;
+    padding: 4em 0;
     text-align: center;
     margin: 0 -var(--global-padding);
     

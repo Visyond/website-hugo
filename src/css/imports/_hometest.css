@@ -550,20 +550,18 @@
 
 .ht-capabilities__img {
     margin-bottom: 1.5rem;
-    height: 100px;
+    height: 6em;
 
     @media screen and (max-width: 800px) {
         margin-right: 3rem;
         margin-bottom: 0;
-        width: 100px;
-        height: auto;
+        height: 4em;
     }
 
     @media screen and (max-width: 400px) {
         margin-right: 0;
         margin-bottom: 2rem;
-        height: 100px;
-        width: auto;
+
     }
 }
 
