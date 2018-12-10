@@ -13,7 +13,7 @@
     --padding-tablet: 4em;
     --pading-mobile: 1em;
 
-    --vertical-padding: 3.4em;
+    --vertical-padding: 3.3em;
     
     @custom-media --fullhd (max-width: 1920px);
     @custom-media --hd (max-width: 1376px);
