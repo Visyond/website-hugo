@@ -712,6 +712,9 @@
     }
 }
 .home-featured__item {
+    flex-grow: 1;
+    flex-basis: 0;
+
     margin: 1em;
 
     &:hover img {
@@ -725,7 +728,6 @@
 }
 
 .home-featured__item img {
-    border-radius: 0.5em;
     background: rgba(255,255,255,.3);
     padding: 2em;
     border: 1px solid rgba(0,0,0,.2);
