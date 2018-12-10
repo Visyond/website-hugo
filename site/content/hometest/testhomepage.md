@@ -65,21 +65,6 @@ infoBlockFirst:
     image: /img/Homepage Collaboration v1 small.png
     link: /solutions/collaboration/
     title: Joint Your Organization
-  - descr: "With Visyond, you have complete transparency as you **always know what is going on in your spreadsheets**:\r\n\r\n* All inputs & activity history are tracked for better accountability\r\n* With permission control, you can give full or partial access to spreadsheets, worksheets and to individual cells, including analysis data and reports\r\n* Minimize errors with Visyond’s Auditing Mode, auto-formatting and readable formula names.\r\n"
-    files:
-      - alt: Spreadsheet Data Analysis in Visyond - Analyze Cell Dependencies
-        descr: Easily explore the relationships between the cells.
-        file: /img/Dependency in Browser v2.png
-        link: /features/dependency-analysis/
-        title: Identify dependencies
-      - alt: Spreadsheet Automation Software - Audit Spreadsheets in Visyond
-        descr: Easily traverse formulas and visualize error root causes.
-        file: /img/root cause anim.gif
-        link: /features/audit-mode/
-        title: Error Root Cause identification
-    image: /img/testhome_collaboration_example_2.JPG
-    link: /solutions/governance/
-    title: Track Everything and Retrieve Information Fast
   - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
