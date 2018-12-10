@@ -13,19 +13,7 @@ topSubTitle: >-
   environment 
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
-  - descr: >-
-      Efficiently collaborate across multiple workstreams and levels by
-      introducing a single secure environment **connecting all links of the
-      chain together** - from decision makers, analysts and modelers to
-      consultants, clients and prospects.
-
-
-      * Share only specific parts of your spreadsheets, analyses and
-      presentations
-
-      * Test assumptions in real time & ensure quick turn-around of changes 
-
-      * Always know the history & reason behind any change or contribution
+  - descr: "Efficiently collaborate across multiple workstreams and levels by introducing a single secure environment connecting all links of the chain together - from decision makers, analysts and modelers to consultants, clients and prospects.\r\n\n* Share **only specific parts** of your spreadsheets, analyses and presentations\r\n* Test **assumptions on-the-fly** & ensure quick turn-around of changes \r\n* Always **know the history & reasons** behind any change or contribution"
     files:
       - alt: Spreadsheet Governance in Visyond - Single Source of Truth
         descr: >-
@@ -64,8 +52,8 @@ infoBlockFirst:
         title: Test Assumptions
     image: /img/Homepage Collaboration v1 small.png
     link: /solutions/collaboration/
-    title: Joint Your Organization
-  - descr: "In seconds, Visyond lets you and your stakeholders **analyze data on-the-fly and test assumptions safely without interacting with the spreadsheet directly**:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real-time with Visyond’s Scenario & Waterfall Analysis\r\n* Compare relative importance of cells with instant Tornado Analysis\r\n* Understand the relationships between input and output cells with instant Sensitivity Analysis\r\n* Run Simulations on your data with instant Monte Carlo analysis\r\n"
+    title: Connect Your Organization
+  - descr: "Analyze data on-the-fly and and instantly gain valuable business insights without relying on experts:\r\n\n* Compare scenarios and answer ‘what-if’ questions with **Scenario analysis\r**\n* Predict the outcome of your decisions with **Sensitivity & Impact analyses\r**\n* Manage uncertainty with instant **Monte Carlo simulations\r**\n* Streamline reporting with **auto-generated Financial Statements**"
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
         descr: >-
@@ -96,10 +84,10 @@ infoBlockFirst:
         file: /img/Monte Carlo Simulation v3.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-    image: /img/v_clip_group_2.png
+    image: /img/Homepage Analysis v1 small.png
     link: /solutions/analysis/
-    title: Instantly Understand your Spreadsheet Data
-  - descr: "Visyond’s interactive presentations will help you **create powerful visualizations your stakeholders can interact with without working directly with the spreadsheet**:\r\n\r\n* Present the results from your analyses data and allow stakeholders to play with the numbers on-the-fly without interacting with or breaking the spreadsheet\r\n* Create interactive apps such as Sales ROI calculators, Marketing KPIs based on your spreadsheet data and calculations\r\n* Quickly generate financial statements such as Balance Sheets and Income & Cashflow Statements\r\n* Control information flow by sharing the whole or only specific parts of the presentations and reports\r\n"
+    title: Automate Analysis & Reporting
+  - descr: "Create powerful interactive visualizations your stakeholders can use to independently test assumptions and query the model:\r\n\n* Empower stakeholders to independently answer ‘what-if’ questions with **Interactive Presentations\r**\n* Create & share **calculators driven by your spreadsheet data** and formulae\r\n* Control information flow by **sharing only specific parts** of the presentations and reports"
     files:
       - alt: Spreadsheet Data Presentation in Visyond - Interactive Presentations
         descr: >-
@@ -120,9 +108,9 @@ infoBlockFirst:
         file: /img/Financial Statements in Browser.png
         link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
-    image: /img/v_clip_group_4.png
+    image: /img/Homepage Presentation v1 small.png
     link: /solutions/presentation
-    title: Report And Present Data With Impact
+    title: Present Data With Impact
 capabilitiesList:
   - image: /img/v_icon.png
     text: Save up to **80%** of time on routine tasks
