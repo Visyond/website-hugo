@@ -50,6 +50,25 @@
         }
     }
 
+    &-round-icon {
+        color: #fff;
+        background: #0086ff;
+        border: none;
+        width: 4em;
+        height: 4em;
+        padding: 0;
+        border-radius: 50%;
+        position: relative;
+
+        & > i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3em;
+        }
+    }
+
     &:hover {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }

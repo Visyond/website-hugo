@@ -5,21 +5,27 @@
     {{ .Params.ProvidesTitle }}
   </h2>
 
-<div class="home-provides">
-  <section class="home-provides__wrap">
-    <ul class="home-provides__list">
-      {{ range $el := .Params.ProvidesList }}
-      <li class="home-provides__item">
-        {{ .text | markdownify }}
-      </li>
-      {{ end }}
-    </ul>
-  </section>
-  <div class="home-provides__img-wrap">
-    <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
+  <div class="home-provides">
+    <section class="home-provides__wrap">
+      <ul class="home-provides__list">
+        {{ range $el := .Params.ProvidesList }}
+        <li class="home-provides__item">
+          {{ .text | markdownify }}
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <div class="home-provides__img-wrap">
+      <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
+
+      <a class="button button-round-icon play-video">
+        <i class="material-icons">
+          play_arrow
+        </i>
+      </a>
+    </div>
   </div>
-</div>
-{{ end }}
+  {{ end }}
 </section>
 
 {{ with .Params.bgBottom }}
