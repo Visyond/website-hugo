@@ -108,7 +108,7 @@ infoBlockFirst:
         file: /img/Financial Statements in Browser.png
         link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
-    image: /img/v_clip_group_4.png
+    image: /img/Homepage Presentation v1 small.png
     link: /solutions/presentation
     title: Present Data With Impact
 capabilitiesList:
