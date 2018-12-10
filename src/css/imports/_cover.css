@@ -33,29 +33,35 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        justify-content: center;
+        justify-content: flex-end;
+        padding: 8em 0;
         top: 0;
         background: linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.75));
 
+        @media screen and (max-width: 1500px) {
+            padding: 4em 0;
+        }
+
         & > .cover-header {
+            padding: 0;
             @media screen and (max-width: 600px) {
                 font-size: 1.6em;
                 font-weight: 900;
             }
         }
 
-        & > .cover-header--sub {
-            @media screen and (max-width: 600px) {
-                font-size: 1.2em;
-            }
-        }
+                           & > .cover-header--sub {
+                               @media screen and (max-width: 600px) {
+                                   font-size: 1.2em;
+                               }
+                           }
 
-        & .cover-buttons--wrap {
-            @media screen and (max-width: 600px) {
-                font-size: 0.9em;
-                flex-direction: row;
-            }
-        }
+                           & .cover-buttons--wrap {
+                               @media screen and (max-width: 600px) {
+                                   font-size: 0.9em;
+                                   flex-direction: row;
+                               }
+                           }
 
     }
 
