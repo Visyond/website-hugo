@@ -53,7 +53,7 @@ infoBlockFirst:
     image: /img/Homepage Collaboration v1 small.png
     link: /solutions/collaboration/
     title: Connect Your Organization
-  - descr: "Analyze data on-the-fly and and instantly gain valuable business insights without relying on experts:\r\n\n* Compare scenarios and answer ‘what-if’ questions with **Scenario analysis\r**\n* Predict the outcome of your decisions with **Sensitivity & Impact analyses\r**\n* Manage uncertainty with instant **Monte Carlo simulations\r**\n* Streamline reporting with **auto-generated Financial Statements**"
+  - descr: "Analyze data on-the-fly and and instantly gain valuable business insights without relying on experts:\r\n\n* Compare scenarios and answer ‘what-if’ questions with **Scenario analysis**\n* Predict the outcome of your decisions with **Sensitivity & Impact analyses**\n* Manage uncertainty with instant **Monte Carlo simulations**\n* Streamline reporting with **auto-generated Financial Statements**"
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
         descr: >-
@@ -87,7 +87,7 @@ infoBlockFirst:
     image: /img/Homepage Analysis v1 small.png
     link: /solutions/analysis/
     title: Automate Analysis & Reporting
-  - descr: "Create powerful interactive visualizations your stakeholders can use to independently test assumptions and query the model:\r\n\n* Empower stakeholders to independently answer ‘what-if’ questions with **Interactive Presentations\r**\n* Create & share **calculators driven by your spreadsheet data** and formulae\r\n* Control information flow by **sharing only specific parts** of the presentations and reports"
+  - descr: "Create powerful interactive visualizations your stakeholders can use to independently test assumptions and query the model:\r\n\n* Empower stakeholders to independently answer ‘what-if’ questions with **Interactive Presentations**\n* Create & share **calculators driven by your spreadsheet data** and formulae\r\n* Control information flow by **sharing only specific parts** of the presentations and reports"
     files:
       - alt: Spreadsheet Data Presentation in Visyond - Interactive Presentations
         descr: >-
@@ -118,18 +118,6 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-featuredBg: /img/errors.jpg
-featuredTitle: As Featured In
-featured:
-  - alt: The Telegraph Logo
-    link: ''
-    logo: /img/telegraph.png
-  - alt: NatWest Logo
-    link: ''
-    logo: /img/NatWest Logo.png
-  - alt: GrowthBusiness Logo
-    link: ''
-    logo: /img/GrowthBusiness Logo.png
 providesTitle: Get started in minutes
 providesList:
   - text: >-
