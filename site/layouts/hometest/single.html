@@ -98,9 +98,11 @@
           {{ .descr | markdownify }}
         </div>
         {{ if .link }}
+        <div class="button-wrap">
         <a href="{{ .link }}" class="button button-primary">
           LEARN MORE
         </a>
+        </div>
         {{ end }}
       </section>
     </li>

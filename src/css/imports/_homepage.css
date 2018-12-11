@@ -228,6 +228,7 @@
       flex-direction: column;
     }
   }
+
 }
 
 .home-info__block:nth-child(2n + 1) .info__img-wrap {
@@ -359,12 +360,14 @@
   }
 }
 
-.home-info__text-wrap .button {
+.home-info__text-wrap .button-wrap {
+    width: 100%;
     display: flex;
+    flex-direction: row;
     margin: 2em 0;
 
     @media screen and (max-width: 800px) {
-        align-items: flex-end;
+        justify-content: flex-end;
     }
 }
 
