@@ -16,9 +16,9 @@
       </ul>
     </section>
     <div class="home-provides__img-wrap">
-      <img src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
+      <img id="play-video" src="/img/v_notebook.png" alt="notebook" class="home-provides__img">
 
-      <a class="button button-round-icon play-video">
+      <a class="button button-round-icon">
         <i class="material-icons">
           play_arrow
         </i>
@@ -47,3 +47,28 @@
       request a demo
     </a>
   </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tubeplayer/2.1.0/jquery.tubeplayer.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+        $("#play-video").click(function() {
+
+            $(".overlay").addClass("overlay--active");
+
+            const video = $(".overlay").tubeplayer({
+                width: 854,
+                height: 480,
+                initialVideo: "mIOudZrtVRs",
+                autoplay: true
+            });
+            
+            $(".overlay--active").click(function() {
+                $(".overlay")
+                    .removeClass("overlay--active");
+                video.destroy();
+            })
+
+        })
+    });
+  </script>

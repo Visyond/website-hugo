@@ -1,5 +1,7 @@
 $(function () {
 
+    window.$ = $;
+
     /**
      *
      * dropdown navigation
@@ -195,65 +197,67 @@ $(function () {
        })
      };
 
-     if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
-       const videoBtn = document.querySelector('.js-btn-video');
-       const videoPopup = document.querySelector('.js-popup');
+    if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
+        const videoBtn = document.querySelector('.js-btn-video');
+        const videoPopup = document.querySelector('.js-popup');
 
-       watchVideo(videoBtn, videoPopup);
-     }
+        watchVideo(videoBtn, videoPopup);
+    }
 
-
-
-
-
-
-      // ===== AUTOPLAY VIDEO =====
-     if(document.querySelector('.js-background-video')) {
-      const video = document.querySelector('.js-background-video');
-      video.addEventListener('canplay', () => {
-        video.play();
-      })
-     }
+    
 
 
 
 
 
 
-     //=====LOGO TRUSTED SLIDER=====
+    // ===== AUTOPLAY VIDEO =====
+    if(document.querySelector('.js-background-video')) {
+        const video = document.querySelector('.js-background-video');
+        video.addEventListener('canplay', () => {
+            video.play();
+        })
+    }
 
-     function logoSlide() {
-       let slidersBlock = document.querySelector(`.js-slider`);
-       let sliders = slidersBlock.children;
-       const slidersNumber = sliders.length;
-       let count = 0;
-       let step = sliders[0].offsetWidth;
-       let pause = false;
 
-       let sliderInterval = setInterval(() => {
-           if(!pause) {
-               step = sliders[0].offsetWidth;
-               sliders = slidersBlock.children;
-               slidersBlock = document.querySelector('.js-slider')
-               let cloneNode = sliders[count].cloneNode(true);
-               slidersBlock.appendChild(cloneNode);
-               count++;
-               slidersBlock.style.transform = `translateX(-${step * count}px)`;
-           }
-       }, 5000);
 
-         window.addEventListener('blur', () => {
-             pause = true;
-         })
 
-         window.addEventListener('focus', () => {
-             pause = false;
-         })
 
-         window.addEventListener('resize', () => {
-             step = sliders[0].offsetWidth;
-         });
-     }
+
+    //=====LOGO TRUSTED SLIDER=====
+
+    function logoSlide() {
+        let slidersBlock = document.querySelector(`.js-slider`);
+        let sliders = slidersBlock.children;
+        const slidersNumber = sliders.length;
+        let count = 0;
+        let step = sliders[0].offsetWidth;
+        let pause = false;
+
+        let sliderInterval = setInterval(() => {
+            if(!pause) {
+                step = sliders[0].offsetWidth;
+                sliders = slidersBlock.children;
+                slidersBlock = document.querySelector('.js-slider')
+                let cloneNode = sliders[count].cloneNode(true);
+                slidersBlock.appendChild(cloneNode);
+                count++;
+                slidersBlock.style.transform = `translateX(-${step * count}px)`;
+            }
+        }, 5000);
+
+        window.addEventListener('blur', () => {
+            pause = true;
+        })
+
+        window.addEventListener('focus', () => {
+            pause = false;
+        })
+
+        window.addEventListener('resize', () => {
+            step = sliders[0].offsetWidth;
+        });
+    }
 
     if(document.querySelector('.js-slider')) {
         logoSlide();
