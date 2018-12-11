@@ -355,12 +355,17 @@
   @media screen and (max-width: 800px) {
     -ms-align-items: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
   }
 }
 
 .home-info__text-wrap .button {
+    display: flex;
     margin: 2em 0;
+
+    @media screen and (max-width: 800px) {
+        align-items: flex-end;
+    }
 }
 
 .home-info__block-title {

@@ -40,13 +40,14 @@
     }
 
     &-basic {
-        border: 1px solid #fff;
-        color: #fff;
-        background: none;
-
+        background: #fff;
+        color: rgba(0,0,0,.8);
+        border: 2px solid none;
+        
         &:hover {
-            background: #fff;
-            color: rgba(0,0,0,.8);
+            border: 2px solid #fff;
+            color: #fff;
+            background: none;
         }
     }
 

@@ -19,9 +19,6 @@
       </div>
 
       <div class="cover-buttons--wrap">
-        <!-- <a href="{{ .Params.SignUpURL }}" class="ht-link ht-link--sign-up">
-             free sign up
-             </a> -->
 
         {{ if .Params.WatchVideoURL }}
         <a href="#" class="button button-icon button-basic js-btn-video">
@@ -37,24 +34,6 @@
         </a>
       </div>
     </div>
-
-    <!-- <img src="{{ .Params.TopImage }}" alt="image" class="ht-top__img"> -->
-
-    <!-- <div class="ht-top__btns-wrap">
-         <a href="{{ .Params.SignUpURL }}" class="ht-link ht-link--sign-up">
-           free sign up
-         </a>
-
-         {{ if .Params.WatchVideoURL }}
-         <button class="ht-link ht-link--btn js-btn-video">
-           watch video
-         </button>
-         {{ end }}
-
-         <a href="{{ .Params.RequestURL }}" class="ht-link ht-link--request">
-           request a demo
-         </a>
-    </div> -->
 
     <div class="ht-top__popup js-popup">
       <div class="ht-top__iframe-wrap">
@@ -119,7 +98,7 @@
           {{ .descr | markdownify }}
         </div>
         {{ if .link }}
-        <a href="{{ .link }}" class="button button-primary centered">
+        <a href="{{ .link }}" class="button button-primary">
           LEARN MORE
         </a>
         {{ end }}

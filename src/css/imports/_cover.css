@@ -41,7 +41,7 @@
         justify-content: flex-end;
         padding: 8em 0;
         top: -4.8em;
-        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,1));
+        background: rgba(0,0,0,.7);
 
         @media screen and (max-width: 1500px) {
             padding: 4em 0;
