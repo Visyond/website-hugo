@@ -19,9 +19,14 @@
         margin: 0;
     }
 
+    &--compact {
+        padding: 0;
+    }
+
     &-video {
         width: 100%;
-        margin: -4em 0;
+        position: relative;
+        top: -4.8em;
         background: #000;
     }
 
@@ -35,7 +40,7 @@
         text-align: center;
         justify-content: flex-end;
         padding: 8em 0;
-        top: 0;
+        top: -4.8em;
         background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,1));
 
         @media screen and (max-width: 1500px) {
@@ -59,12 +64,12 @@
             }
         }
 
-                           & .cover-buttons--wrap {
-                               @media screen and (max-width: 600px) {
-                                   font-size: 0.9em;
-                                   flex-direction: row;
-                               }
-                           }
+        & .cover-buttons--wrap {
+            @media screen and (max-width: 600px) {
+                font-size: 0.9em;
+                flex-direction: row;
+            }
+        }
 
     }
 
