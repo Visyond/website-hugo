@@ -5,7 +5,7 @@ topTitle: 'The Combined Power of Spreadsheet, BI and Presentation'
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
-topSubTitle: Multiplied by the Next-level Collaboration
+topSubTitle: Enhanced with the Next-level Collaboration
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Efficiently collaborate across multiple workstreams and levels by introducing a single secure environment connecting all links of the chain together - from decision makers, analysts and modelers to consultants, clients and prospects.\r\n\n* Share **only specific parts** of your spreadsheets, analyses and presentations\r\n* Test **assumptions on-the-fly** & ensure quick turn-around of changes \r\n* Always **know the history & reasons** behind any change or contribution"
@@ -45,7 +45,7 @@ infoBlockFirst:
         file: /img/Interactive Slides in Browser v4.png
         link: /features/interactive-presentations/
         title: Test Assumptions
-    image: /img/Homepage Collaboration v1 small.png
+    image: /img/Homepage Collaboration v2 small.png
     link: /solutions/collaboration/
     title: Connect Your Organization
   - descr: "Analyze data on-the-fly and and instantly gain valuable business insights without relying on experts:\r\n\n* Compare scenarios and answer ‘what-if’ questions with **Scenario analysis**\n* Predict the outcome of your decisions with **Sensitivity & Impact analyses**\n* Manage uncertainty with instant **Monte Carlo simulations**\n* Streamline reporting with **auto-generated Financial Statements**"
@@ -79,7 +79,7 @@ infoBlockFirst:
         file: /img/Monte Carlo Simulation v3.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-    image: /img/Homepage Analysis v1 small.png
+    image: /img/Homepage Analysis v2 small.png
     link: /solutions/analysis/
     title: Automate Analysis & Reporting
   - descr: "Create powerful interactive visualizations your stakeholders can use to independently test assumptions and query the model:\r\n\n* Empower stakeholders to independently answer ‘what-if’ questions with **Interactive Presentations**\n* Create & share **calculators driven by your spreadsheet data** and formulae\r\n* Control information flow by **sharing only specific parts** of the presentations and reports"
@@ -113,18 +113,6 @@ capabilitiesList:
     text: Reduce average cost by **$420** per employee/month
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
-featuredBg: /img/errors.jpg	
-featuredTitle: As Featured In	
-featured:	
-  - alt: The Telegraph Logo	
-    link: ''	
-    logo: /img/telegraph.png	
-  - alt: NatWest Logo	
-    link: ''	
-    logo: /img/NatWest Logo.png	
-  - alt: GrowthBusiness Logo	
-    link: ''	
-    logo: /img/GrowthBusiness Logo.png
 providesTitle: Get Started in Minutes
 providesList:
   - text: >-
@@ -134,5 +122,17 @@ providesList:
   - text: Full **transparency and control** over your data
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/footer-bg.png
+featuredBg: /img/errors.jpg
+featuredTitle: As Featured In
+featured:
+  - alt: The Telegraph Logo
+    link: ''
+    logo: /img/telegraph.png
+  - alt: NatWest Logo
+    link: ''
+    logo: /img/NatWest Logo.png
+  - alt: GrowthBusiness Logo
+    link: ''
+    logo: /img/GrowthBusiness Logo.png
 ---
 
