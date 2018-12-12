@@ -42,9 +42,9 @@
     &-basic {
         background: #fff;
         color: rgba(0,0,0,.8);
-        border: 2px solid none;
-        
-        &:hover {
+        border: 2px solid #fff;
+
+        &--active {
             border: 2px solid #fff;
             color: #fff;
             background: none;
@@ -71,7 +71,8 @@
     }
 
     &:hover {
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        top: -2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
 
     &:active {
