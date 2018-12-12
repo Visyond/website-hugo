@@ -21,12 +21,12 @@
 
     &--compact {
         padding: 0;
+        top: -4.8em;
     }
 
     &-video {
         width: 100%;
         position: relative;
-        top: -4.8em;
         background: #000;
     }
 
@@ -40,7 +40,6 @@
         text-align: center;
         justify-content: center;
         padding-top: 16em;
-        top: -4.8em;
         background: rgba(0,0,0,.7);
 
         & > .cover-header {

@@ -77,6 +77,7 @@ body > p {
 
 .primary {
     background: #eef6ff;
+    margin: 0 -var(--global-padding);
 }
 
 .gray {
@@ -86,7 +87,6 @@ body > p {
 .section {
     padding: 4em 0;
     text-align: center;
-    margin: 0 -var(--global-padding);
     
     @media screen and (--hd) {
         margin: 0 -var(--padding-hd);
