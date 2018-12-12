@@ -254,8 +254,12 @@
   flex-shrink: 0;
   position: relative;
 
-  @media screen and (max-width: 800px) {
-    width: 100%;
+  @media screen and (--tablet) {
+      width: 100%;
+
+      & img {
+          filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
+      }
   }
 
   &:hover .info__block-img-pointer {
@@ -263,28 +267,43 @@
   }
 
   &:hover .button {
-      top: 50%;
-      left: 50%;
-      padding-left: 5em;
-      padding-right: 3em;
+      bottom: 50%;
+      right: 50%;
+      transform: translate(50%, 50%);
+      padding: 1em;
+      padding-left: 4.5em;
+      padding-right: 2em;
+      border-radius: 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,.3);
+      background: #0086ff;
   }
 
   &:hover .button span {
       display: block;
   }
 
+  &:hover .button i.material-icons:before {
+      content: '\e039';
+  }
+
   & .button {
       border-radius: 0.5em;
       opacity: 1;
-      transition: 0.2s;
       position: absolute;
-      top: 100%;
-      left: 100%;
-      transform: translate(-50%, -50%);
+      bottom: 0;
+      right: 0;
       font-size: 1.2em;
-      padding: 1.5em;
-      padding-right: 4em;
+      padding: 1.2em;
+      padding-right: 4.5em;
       pointer-events: none;
+      overflow: hidden;
+      word-wrap: none;
+      background: rgba(0,0,0,.3);
+      color: #fff;
+
+      & i.material-icons:before {
+          content: '\e913';
+      }
 
       & > span {
           display: none;

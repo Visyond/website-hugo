@@ -28,6 +28,10 @@
         width: 100%;
         position: relative;
         background: #000;
+
+        @media screen and (--tablet) {
+            display: none;
+        }
     }
 
     &-video--content {
@@ -41,9 +45,17 @@
         justify-content: center;
         padding-top: 16em;
         background: rgba(0,0,0,.7);
+        background-image: none;
 
         @media screen and (--tablet) {
-            padding-top: 4.8em;
+            padding: 4em;
+            padding-top: 10em;
+            position: relative;
+        }
+
+        @media screen and (--mobile) {
+            padding: 2em;
+            padding-top: 8em;
         }
 
         & > .cover-header {
