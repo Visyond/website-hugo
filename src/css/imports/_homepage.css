@@ -269,6 +269,7 @@
   &:hover .button.over {
       bottom: 55%;
       right: 50%;
+      margin-bottom: 0;
       transform: translate(50%, 50%);
       padding: 1em;
       padding-left: 4.5em;
@@ -290,28 +291,30 @@
       opacity: 0;
   }
 
-      & .button.over {
-          border-radius: 0.5em;
-          opacity: 1;
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          font-size: 1.2em;
-          padding: 1.2em;
-          padding-right: 4.5em;
-          pointer-events: none;
-          overflow: hidden;
-          word-wrap: none;
-          background: rgba(0,0,0,.3);
-          color: #fff;
+  & .button.over {
+      margin-bottom: 3em;
+      border-radius: 0.25em;
+      opacity: 1;
+      position: absolute;
+      padding: 0;
+      bottom: 0;
+      right: 0;
+      font-size: 1.2em;
+      padding: 1.2em;
+      padding-right: 4.5em;
+      pointer-events: none;
+      overflow: hidden;
+      word-wrap: none;
+      color: #fff;
+      background: rgba(0,0,0,.5);
 
-          & i.material-icons:before {
-              content: '\e913';
-          }
+      & i.material-icons:before {
+          content: '\e913';
+      }
 
-          & > span {
-              display: none;
-          }
+      & > span {
+          display: none;
+      }
   }
 }
 

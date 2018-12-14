@@ -1,18 +1,20 @@
 {{ with .Site.GetPage "section" "case-studies-section-new" }}
-<section class="casestudy-new" id="casestudies">
-  <h3 class="casestudy-new__top-title">{{ .Params.caseTitle }}</h3>
+<section class="section primary" id="casestudies">
+  <div class="container">
+    <h3 class="casestudy-new__top-title">{{ .Params.caseTitle }}</h3>
 
-  <ul class="casestudy-new__list">
-    {{ range $el := .Params.Case }}
-    <li class="casestudy-new__item">
-      <a href="{{ .caseLink }}" class="casestudy-new__link">
-        <img src="{{ .caseIco }}" alt="{{ .alt }}">
-        <h3 class="casestudy-new__title">{{ .caseDescr }}</h3>
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+    <ul class="casestudy-new__list">
+      {{ range $el := .Params.Case }}
+      <li class="casestudy-new__item">
+        <a href="{{ .caseLink }}" class="casestudy-new__link">
+          <img src="{{ .caseIco }}" alt="{{ .alt }}">
+          <h3 class="casestudy-new__title">{{ .caseDescr }}</h3>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
 
-  <a href="/casestudy" class="button button-primary centered">See All Case Studies</a>
+    <a href="/casestudy" class="button button-primary">See All Case Studies</a>
+  </div>
 </section>
 {{ end }}
