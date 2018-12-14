@@ -189,6 +189,7 @@ img {
     overflow: auto;
     height: 550px;
     width: 854px;
+    max-width: 100%;
 }
 
 .close-yt {

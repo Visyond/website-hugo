@@ -267,6 +267,7 @@
   }
 
   &:hover .button.over {
+      opacity: 1;
       bottom: 55%;
       right: 50%;
       margin-bottom: 0;
@@ -284,17 +285,13 @@
   }
 
   &:hover .button.over i.material-icons:before {
-      content: '\e039';
-  }
 
-  &:hover .button-basic--nobg {
-      opacity: 0;
   }
 
   & .button.over {
       margin-bottom: 3em;
       border-radius: 0.25em;
-      opacity: 1;
+      opacity: 0;
       position: absolute;
       padding: 0;
       bottom: 0;
