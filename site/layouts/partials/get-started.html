@@ -56,17 +56,22 @@
 
             $(".overlay").addClass("overlay--active");
 
-            const video = $(".overlay").tubeplayer({
+            const wrap = '<div class="yt-wrap"><a class="close-yt"><i class="material-icons">close</i></a></div>'
+
+            $(".overlay").prepend(wrap);
+            
+            $(".overlay .yt-wrap").tubeplayer({
                 width: 854,
                 height: 480,
                 initialVideo: "mIOudZrtVRs",
                 autoplay: true
             });
-            
+
             $(".overlay--active").click(function() {
                 $(".overlay")
                     .removeClass("overlay--active");
-                video.destroy();
+                $(".overlay .yt-wrap").tubeplayer("destroy");
+                $(".overlay .yt-wrap").remove();
             })
 
         })
