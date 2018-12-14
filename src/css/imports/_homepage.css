@@ -420,8 +420,8 @@
 }
 
 .home-info__block-descr {
-    color: #767575;
-    font-size: 1.2em;
+    color: rgba(0,0,0,.8);
+    font-size: 1.35em;
     margin-bottom: 1em;
     width: 100%;
 }
@@ -439,7 +439,7 @@
     &:before {
         content: "";
         position: absolute;
-        top: 1em;
+        top: 1.2em;
         left: 0;
         transform: rotate(-130deg);
         width: 0.5em;
@@ -451,7 +451,7 @@
     &:after {
         content: "";
         position: absolute;
-        top: 0.65em;
+        top: 0.85em;
         left: 0.55em;
         transform: rotate(-130deg);
         margin-right: 10px;
