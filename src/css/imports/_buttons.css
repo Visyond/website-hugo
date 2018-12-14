@@ -44,6 +44,17 @@
         color: rgba(0,0,0,.8);
         border: 2px solid #fff;
 
+        &--nobg {
+            background: none;
+            color: rgba(0,0,0,.6);
+            border: none;
+
+            &:hover {
+                box-shadow: none !important;
+                top: 0 !important;
+            }
+        }
+
         &--active {
             border: 2px solid #fff;
             color: #fff;
