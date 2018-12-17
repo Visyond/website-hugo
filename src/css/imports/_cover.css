@@ -21,13 +21,17 @@
 
     &--compact {
         padding: 0;
+        top: -4.8em;
     }
 
     &-video {
         width: 100%;
         position: relative;
-        top: -4.8em;
         background: #000;
+
+        @media screen and (--tablet) {
+            display: none;
+        }
     }
 
     &-video--content {
@@ -38,19 +42,26 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        justify-content: flex-end;
-        padding: 8em 0;
-        top: -4.8em;
+        justify-content: center;
+        padding-top: 16em;
         background: rgba(0,0,0,.7);
+        background-image: none;
 
-        @media screen and (max-width: 1500px) {
-            padding: 4em 0;
+        @media screen and (--tablet) {
+            padding: 4em;
+            padding-top: 10em;
+            position: relative;
+        }
+
+        @media screen and (--mobile) {
+            padding: 2em;
+            padding-top: 8em;
         }
 
         & > .cover-header {
             padding: 0;
             font-size: 3em;
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 800px) {
                 font-size: 1.6em;
                 font-weight: 900;
             }
@@ -59,15 +70,19 @@
         & > .cover-header--sub {
             padding: 0;
             font-size: 1.8em;
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 800px) {
                 font-size: 1.2em;
             }
         }
 
         & .cover-buttons--wrap {
-            @media screen and (max-width: 600px) {
+            @media screen and (max-width: 800px) {
                 font-size: 0.9em;
                 flex-direction: row;
+            }
+
+            @media screen and (max-width: 500px) {
+                display: none;
             }
         }
 

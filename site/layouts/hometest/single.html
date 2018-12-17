@@ -3,42 +3,45 @@
 <div class="hometest ht">
 
   <!-- top section -->
-  <div class="cover cover--compact">
-      <video src="/img/Visyond Homepage background video no loop v1.webm" class="cover-video js-background-video" autoplay muted loop>
-    </video>
-    <div class="cover-video--content">    
-      <h2 class="cover-header">
-        {{ .Params.TopTitle | markdownify}}
-      </h2>
+  <div class="cover cover--compact" style="background-image: url(' {{ .Params.bgImage }}');">
+    <!-- <video src="/img/preview.mp4" class="cover-video js-background-video" autoplay muted loop> -->
+      <!-- <video src="/img/Visyond Homepage background video loop zoom.webm" class="cover-video js-background-video" autoplay muted loop>  -->
+        <video src="/img/Visyond Homepage background video v1.webm" class="cover-video js-background-video" autoplay muted loop>
+          <!-- <source src="/img/preview.mp4" type="video/mp4"> -->
+        </video>
+        <div class="cover-video--content">    
+          <h2 class="cover-header">
+            {{ .Params.TopTitle | markdownify}}
+          </h2>
 
-      <div class="cover-header--sub">
-        {{ .Params.TopSubTitle | markdownify}}
-      </div>
+          <div class="cover-header--sub">
+            {{ .Params.TopSubTitle | markdownify}}
+          </div>
 
-      <div class="cover-buttons--wrap">
+          <div class="cover-buttons--wrap">
 
-        {{ if .Params.WatchVideoURL }}
-        <a href="#" class="button button-icon button-basic js-btn-video">
-          <i class="material-icons">
-            play_arrow
-          </i>
-          watch video
-        </a>
-        {{ end }}
+            {{ if .Params.WatchVideoURL }}
+            <a href="#" class="button button-icon button-basic--active js-btn-video">
+              <i class="material-icons">
+                play_arrow
+              </i>
+              watch video
+            </a>
+            {{ end }}
 
-        <a href="{{ .Params.RequestURL }}" class="button button-basic">
-          request a demo
-        </a>
-      </div>
-    </div>
+            <a href="{{ .Params.RequestURL }}" class="button button-basic">
+              request a demo
+            </a>
+          </div>
+        </div>
 
-    <div class="ht-top__popup js-popup">
-      <div class="ht-top__iframe-wrap">
-        <button class="ht-top__popup-close js-popup-close"></button>
-        <p>{{ .Params.WatchVideoURL }}</p>
+        <div class="ht-top__popup js-popup">
+          <div class="ht-top__iframe-wrap">
+            <button class="ht-top__popup-close js-popup-close"></button>
+            <p>{{ .Params.WatchVideoURL }}</p>
 
-      </div>
-    </div>
+          </div>
+        </div>
   </div>
   <!-- ./top section -->
 
@@ -77,14 +80,23 @@
 
         <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
         
-<a class="button button-icon button-primary">
+        <a class="button button-icon button-primary over">
           <i class="material-icons">
-            play_arrow
-          </i>
-          See in action
-        </a>
 
-</div>
+          </i>
+          <span>
+            See in action
+          </span>
+        </a>
+        <div class="button button-basic--nobg button-icon centered">
+          <i class="material-icons">
+            play_circle_outline
+          </i>
+          <span>
+            See in action
+          </span>
+        </div>
+      </div>
 
       <section class="home-info__text-wrap">
         <h3 class="home-info__block-title">
@@ -96,9 +108,9 @@
         </div>
         {{ if .link }}
         <div class="button-wrap">
-        <a href="{{ .link }}" class="button button-primary">
-          LEARN MORE
-        </a>
+          <a href="{{ .link }}" class="button button-primary">
+            LEARN MORE
+          </a>
         </div>
         {{ end }}
       </section>
