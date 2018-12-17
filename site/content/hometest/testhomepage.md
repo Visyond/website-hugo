@@ -7,6 +7,7 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 topSubTitle: Enhanced with the Next-level Collaboration
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
+bgImage: /img/why-visyond-cover.png
 infoBlockFirst:
   - descr: "Efficiently collaborate across multiple workstreams and levels by introducing a single secure environment connecting all links of the chain together - from decision makers, analysts and modelers to consultants, clients and prospects.\r\n\n* Share **only specific parts** of your spreadsheets, analyses and presentations\r\n* Test **assumptions on-the-fly** & ensure quick turn-around of changes \r\n* Always **know the history & reasons** behind any change or contribution"
     files:
