@@ -197,6 +197,7 @@ img {
     z-index: 999;
     right: 0;
     color: #fff !important;
+    cursor: pointer;
 
     & i {
         font-size: 2.75em;
