@@ -80,10 +80,6 @@
                 font-size: 0.9em;
                 flex-direction: row;
             }
-
-            @media screen and (max-width: 500px) {
-                display: none;
-            }
         }
 
     }
