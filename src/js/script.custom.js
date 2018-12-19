@@ -503,11 +503,11 @@ $(function () {
              $(".show-slides").click(e => {
                  const img = $(e.currentTarget).find("img").get(0);
 
-                 const src = $(img).attr("data-src");
-                 const href = $(img).attr("data-href");
-                 const title= $(img).attr("data-title");
-                 const descr = $(img).attr("data-descr");
-                 const alt = $(img).attr("data-alt");
+                 const src = $(img).attr("data-src").slice(0, -2);
+                 const href = $(img).attr("data-href").slice(0, -2);
+                 const title= $(img).attr("data-title").slice(0, -2);
+                 const descr = $(img).attr("data-descr").slice(0, -2);
+                 const alt = $(img).attr("data-alt").slice(0, -2);
 
                  this._createPopup(src, href, title, descr, alt);
              })
