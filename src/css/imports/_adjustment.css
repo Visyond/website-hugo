@@ -97,6 +97,15 @@ body > p {
     }
 }
 
+.section-header {
+    text-align: center;
+    font-weight: 300;
+    color: rgba(81,84,107,.8);
+    font-size: 2.75em;
+    line-height: 3em;
+    margin: 0;
+}
+
 .container {
     width: 100%;
     max-width: 1400px;
@@ -193,15 +202,15 @@ img {
         padding-bottom: calc(894px / 100 * 56.25);
     }
 
-& iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 894px;
-    max-height: 500px;
-    width: 100%;
-    height: 100%;
-}
+    & iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 894px;
+        max-height: 500px;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .close-yt {
