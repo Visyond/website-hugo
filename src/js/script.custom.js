@@ -272,11 +272,11 @@ $(function () {
 
      function PopupInfoImages() {
        this.mainBlock = document.body;
-       this.images = this.mainBlock.querySelectorAll('.js-img-wrap img');
-       this.typeImages = ['png', 'jpg', 'gif'];
-       this.typeVideos = ['mp4']
+         this.images = this.mainBlock.querySelectorAll('.js-img-wrap img');
+         this.typeImages = ['png', 'jpg', 'gif'];
+         this.typeVideos = ['mp4']
 
-      // Add hover for all image with attr data-src
+         // Add hover for all image with attr data-src
       for(let i = 0; i < this.images.length; i++) {
         if(this.images[i].dataset.src) {
           this.images[i].classList.add('info__block-img-pointer');
@@ -498,21 +498,22 @@ $(function () {
           });
         }
       }
+         
+         if(document.querySelector('.show-slides')) {
+             $(".show-slides").click(e => {
+                 const img = $(e.currentTarget).find("img").get(0);
 
-      this.mainBlock.addEventListener('click', e => {
-        for(let i = 0; i < this.images.length; i++) {
-          if(e.target === this.images[i]
-            || e.target === this.images[i].previousElementSibling) {
-            const src = this.images[i].dataset.src.slice(0, -2);
-            const href = this.images[i].dataset.href.slice(0, -2);
-            const title = this.images[i].dataset.title.slice(0, -2);
-            const descr = this.images[i].dataset.descr.slice(0, -2);
-            const alt = this.images[i].dataset.alt.slice(0, -2);
-            this._createPopup(src, href, title, descr, alt);
-          };
-        };
-      });
-    };
+                 const src = $(img).attr("data-src");
+                 const href = $(img).attr("data-href");
+                 const title= $(img).attr("data-title");
+                 const descr = $(img).attr("data-descr");
+                 const alt = $(img).attr("data-alt");
+
+                 this._createPopup(src, href, title, descr, alt);
+             })
+         }
+
+     };
 
     if(document.querySelector('.js-img-wrap')) {
       const newPopup = new PopupInfoImages();
