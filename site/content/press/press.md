@@ -4,6 +4,10 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: Be The Business Logo
+    logo: /img/BeTheBusiness.png
+    title: Six business leaders share their favourite productivity tools
+    url: 'https://www.bethebusiness.com/insights/productivity-tools/'
   - alt: Amba Logo
     logo: /img/amba.png
     title: 'My MBA Story: Gianluca Bisceglie'
