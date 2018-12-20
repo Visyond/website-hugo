@@ -1,134 +1,126 @@
 {{ partial "head" . }}
 
-<div class="hometest ht">
+<div class="home">
 
   <!-- top section -->
-  <div class="cover cover--compact" style="background-image: url(' {{ .Params.bgImage }}');">
-    <!-- <video src="/img/preview.mp4" class="cover-video js-background-video" autoplay muted loop> -->
-      <!-- <video src="/img/Visyond Homepage background video loop zoom.webm" class="cover-video js-background-video" autoplay muted loop>  -->
-        <video src="/img/Visyond Homepage background video v1.webm" class="cover-video js-background-video" autoplay muted loop>
-          <!-- <source src="/img/preview.mp4" type="video/mp4"> -->
-        </video>
-        <div class="cover-video--content">    
-          <h2 class="cover-header">
-            {{ .Params.TopTitle | markdownify}}
-          </h2>
+  <div class="cover nobg">
+    <h2 class="cover-header">
+      {{ .Params.TopTitle | markdownify}}
+    </h2>
 
-          <div class="cover-header--sub">
-            {{ .Params.TopSubTitle | markdownify}}
-          </div>
+    <div class="cover-header--sub">
+      {{ .Params.TopSubTitle | markdownify}}
+    </div>
 
-          <div class="cover-buttons--wrap">
+    <img id="presentation" src="{{ .Params.TopImage }}" alt="image" data-zoom-image="{{ .Params.TopImage }}">
 
-            {{ if .Params.WatchVideoURL }}
-            <a href="#" class="button button-icon button-basic--active js-btn-video">
-              <i class="material-icons">
-                play_arrow
-              </i>
-              watch video
-            </a>
-            {{ end }}
+    <div class="cover-buttons--wrap">
+      <!-- <a href="{{ .Params.SignUpURL }}" class="home-link home-link--sign-up">
+           free sign up
+           </a> -->
 
-            <a href="{{ .Params.RequestURL }}" class="button button-basic">
-              request a demo
-            </a>
-          </div>
-        </div>
+      <a href="{{ .Params.RequestURL }}" class="button button-primary">
+        request a demo
+      </a>
 
-        <div class="ht-top__popup js-popup">
-          <div class="ht-top__iframe-wrap">
-            <button class="ht-top__popup-close js-popup-close"></button>
-            <p>{{ .Params.WatchVideoURL }}</p>
+      {{ if .Params.WatchVideoURL }}
+      <button class="button button-icon js-btn-video">
+        <i class="material-icons">
+          play_arrow
+        </i>
+        watch video
+      </button>
+      {{ end }}
 
-          </div>
-        </div>
+    </div>
+
+    <div class="home-top__popup js-popup">
+      <div class="home-top__iframe-wrap">
+        <button class="home-top__popup-close js-popup-close"></button>
+        <p>{{ .Params.WatchVideoURL }}</p>
+
+      </div>
+    </div>
   </div>
   <!-- ./top section -->
 
-    <!-- trusted section -->
-  {{ partial "trustedslider" . }}
-  <!-- ./trusted section -->
-
   <!-- section capabilities -->
-  <section class="section">
-    <div class="container">
+  <section class="home-capabilities">
+    <!-- <h3 class="home-capabilities__title">
+         With Visyond you can
+         </h3> -->
 
-      <ul class="ht-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="ht-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
+    <ul class="home-capabilities__modules">
+      {{ range $el := .Params.CapabilitiesList }}
+      <li class="home-capabilities__block">
+        <img src="{{ .image }}" alt="save time" class="home-capabilities__img">
 
-          <div class="ht-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
+        <div class="home-capabilities__descr">
+          {{ .text | markdownify }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
   </section>
   <!-- ./section capabilities -->
 
+  <!-- trusted section -->
+  {{ partial "trustedslider" . }}
+  <!-- ./trusted section -->
+
   <!-- section info -->
-  <section class="section">
   <ul class="home-info js-image-block">
 
     <!-- info block -->
     {{ range $el := .Params.InfoBlockFirst }}
 
     <li class="home-info__block">
-      <div class="info__img-wrap js-img-wrap show-slides">
-
-        <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
-        
-        <a class="button button-icon button-primary over">
-          <i class="material-icons">
-
-          </i>
-          <span>
-            See in action
-          </span>
-        </a>
-        <div class="button button-basic--nobg button-icon centered">
-          <i class="material-icons">
-            play_circle_outline
-          </i>
-          <span>
-            See in action
-          </span>
-        </div>
-      </div>
-
-      <section class="home-info__text-wrap">
-        <h3 class="home-info__block-title">
-          {{ .title }}
-        </h3>
-
-        <div class="home-info__block-descr">
-          {{ .descr | markdownify }}
-        </div>
-        {{ if .link }}
-        <div class="button-wrap">
-          <a href="{{ .link }}" class="button button-primary centered">
-            LEARN MORE
-          </a>
-        </div>
-        {{ end }}
-      </section>
-    </li>
-    {{ end }}
-    <!-- //info block -->
-  </ul>
-  </section>
-  <!-- //section info -->
-
-  <!-- case studies section -->
-  {{ partial "case-studies-section-new" . }}
-  <!-- //case studies section -->
-
-  {{ partial "featured" . }}
-
-  {{ partial "get-started" . }}
-
+      <div class="info__img-wrap js-img-wrap">
+        {{ if .files }}
+        <div class="info__img-pointer">
+          Click to see more
+          <!-- <i class="material-icons">
+               subdirectory_arrow_left
+               </i></i> -->
+</div>
+<!-- <i class="material-icons">
+     zoom_in
+     </i> -->
+{{ end }}
+<img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
 </div>
 
+<img src="/img/v_lines.png" alt="lines" class="home-info__block-lines">
+
+<section class="home-info__text-wrap">
+  <h3 class="home-info__block-title">
+    {{ .title }}
+  </h3>
+
+  <div class="home-info__block-descr">
+    {{ .descr | markdownify }}
+  </div>
+  {{ if .link }}
+  <a href="{{ .link }}" class="home-info__link">
+    learn more
+  </a>
+  {{ end }}
+</section>
+</li>
+{{ end }}
+<!-- ./info block -->
+</ul>
+<!-- ./section info -->
+
+<!-- //solutions section -->
+
+<!-- case studies section -->
+{{ partial "case-studies-section-new" . }}
+<!-- //case studies section -->
+
+{{ partial "featured" . }}
+
+{{ partial "get-started" . }}
+
+</div>
 {{ partial "footer" . }}
