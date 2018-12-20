@@ -29,13 +29,13 @@
 </section>
 
 {{ with .Params.bgBottom }}
-<section class="home-bottom" style="background-image: url(' {{ . }} ')">
+<section class="section--padded no-margin center-align" style="background-image: url(' {{ . }} ')">
   {{ else }}
-  <section class="home-bottom" style="background-image: url('/img/vimages/footer-bg.png')">
+  <section class="section--padded no-margin center-align" style="background-image: url('/img/vimages/footer-bg.png')">
     {{ end }}
 
 
-    <h3 class="home-bottom__title">
+    <h3 class="section-header contrast-text">
       {{ with .Params.TitleBottom }}
       {{ . }}
       {{ else }}

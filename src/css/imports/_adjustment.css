@@ -96,9 +96,17 @@ body > p {
     background: #f5f6f9;
 }
 
+.center-align {
+    text-align: center;
+}
+
 .section {
     padding: 4em 0;
     background-size: cover;
+
+    &--padded {
+        padding: 8em 0;
+    }
 }
 
 .no-margin {
@@ -118,8 +126,12 @@ body > p {
     font-weight: 300;
     color: rgba(81,84,107,.8);
     font-size: 2.75em;
-    line-height: 3em;
+    padding: 0;
     margin: 0;
+}
+
+.contrast-text {
+    color: #fff;
 }
 
 .container {

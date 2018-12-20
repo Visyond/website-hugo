@@ -800,6 +800,7 @@
     background: rgba(255,255,255,.3);
     border: 1px solid rgba(0,0,0,.2);
     cursor: pointer;
+    
 
     &:hover {
         box-shadow: 0 2px 4px rgba(0,0,0,.3);
@@ -807,6 +808,10 @@
 
     &:hover img {
         filter: grayscale(0);
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 100%;
     }
 
 }
@@ -822,6 +827,7 @@
     transition: filter 0.2s ease-in-out;
 
     @media screen and (max-width: 800px) {
+        position: relative;
         height: 100%;
         width: auto;
     }
