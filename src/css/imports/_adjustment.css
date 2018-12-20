@@ -87,13 +87,26 @@ body > p {
 .section {
     padding: 4em 0;
     text-align: center;
-    
+    background-size: cover;
+
     @media screen and (--hd) {
         margin: 0 -var(--padding-hd);
     }
 
     @media screen and (--tablet) {
         margin: 0;
+    }
+}
+
+.no-margin {
+    margin: 0 -var(--global-padding);
+    
+    @media screen and (--hd) {
+        margin: 0 -var(--padding-hd) !important;
+    }
+
+    @media screen and (--tablet) {
+        margin: 0 !important;
     }
 }
 
