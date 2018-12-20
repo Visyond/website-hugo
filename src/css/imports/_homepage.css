@@ -256,19 +256,14 @@
 
   @media screen and (--tablet) {
       width: 100%;
-
-      & img {
-          filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
-      }
   }
 
   &:hover .info__block-img-pointer {
       filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
   }
 
-  &:hover .button.over {
+  &:hover .over {
       opacity: 1;
-      margin-bottom: 0;
       padding: 1em;
       padding-left: 4.5em;
       padding-right: 2em;
@@ -277,16 +272,11 @@
       background: #0086ff;
   }
 
-  &:hover .button.over span {
+  &:hover .over span {
       display: block;
   }
 
-  &:hover .button.over i.material-icons:before {
-
-  }
-
-  & .button.over {
-      margin-bottom: 3em;
+  & .over {
       border-radius: 0.25em;
       opacity: 0;
       position: absolute;
@@ -309,6 +299,16 @@
 
       & > span {
           display: none;
+      }
+  }
+
+  & .button-basic--nobg {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: -4em;
+
+      @media screen and (max-width: 800px) {
+          margin-bottom: -2em;
       }
   }
 }
