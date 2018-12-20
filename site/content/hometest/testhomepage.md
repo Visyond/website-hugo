@@ -5,6 +5,7 @@ topTitle: 'The Combined Power of Spreadsheets, BI and Presentations'
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+noContentPadding: true
 requestURL: /request
 topSubTitle: >-
   Answer Questions in Real Time | Visualize the Impact of Decisions | Establish

@@ -29,9 +29,6 @@
 </head>
 <body>
 
-    {{ if eq .Title "Homepage Some" }}
-        {{ partial "homepage-header" . }}
-    {{ else }}
-        {{ partial "header" . }}
-    {{ end }}
-    <div class="maincontent {{ if eq .Title "Homepage Some"}} no-padding {{end}}">
+    {{ partial "header" . }}
+
+    <div class="{{ if .Params.noContentPadding }} maincontent--nopadding {{ else }} maincontent {{ end }}">

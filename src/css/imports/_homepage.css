@@ -643,10 +643,6 @@
         filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
     }
 
-    &:hover .button {
-        opacity: 1;
-    }
-
     & .button {
         position: absolute;
         left: 50%;
@@ -800,7 +796,6 @@
     position: relative;
     flex-grow: 1;
     height: 8em;
-    width: 32em;
     margin: 1em;
     background: rgba(255,255,255,.3);
     border: 1px solid rgba(0,0,0,.2);

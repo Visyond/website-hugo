@@ -60,6 +60,18 @@ body > p {
     @media screen and (--tablet) {
         padding: var(--vertical-padding) 0 0 0;
     }
+
+    &--nopadding {
+        padding: 0 var(--global-padding) 0 var(--global-padding);
+
+        @media screen and (--hd) {
+            padding: 0 var(--padding-hd) 0 var(--padding-hd);
+        }
+
+        @media screen and (--tablet) {
+            padding: var(--vertical-padding) 0 0 0;
+        }
+    }
 }
 
 .full-width {
@@ -86,16 +98,7 @@ body > p {
 
 .section {
     padding: 4em 0;
-    text-align: center;
     background-size: cover;
-
-    @media screen and (--hd) {
-        margin: 0 -var(--padding-hd);
-    }
-
-    @media screen and (--tablet) {
-        margin: 0;
-    }
 }
 
 .no-margin {
@@ -121,7 +124,7 @@ body > p {
 
 .container {
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 

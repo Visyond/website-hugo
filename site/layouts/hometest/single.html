@@ -45,31 +45,31 @@
   </div>
   <!-- ./top section -->
 
-  <!-- section capabilities -->
-  <section class="ht-capabilities">
-    <!-- <h3 class="ht-capabilities__title">
-         With Visyond you can
-         </h3> -->
-
-    <ul class="ht-capabilities__modules">
-      {{ range $el := .Params.CapabilitiesList }}
-      <li class="ht-capabilities__block">
-        <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
-
-        <div class="ht-capabilities__descr">
-          {{ .text | markdownify }}
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-  </section>
-  <!-- ./section capabilities -->
-
-  <!-- trusted section -->
+    <!-- trusted section -->
   {{ partial "trustedslider" . }}
   <!-- ./trusted section -->
 
+  <!-- section capabilities -->
+  <section class="section">
+    <div class="container">
+
+      <ul class="ht-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="ht-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
+
+          <div class="ht-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  <!-- ./section capabilities -->
+
   <!-- section info -->
+  <section class="section">
   <ul class="home-info js-image-block">
 
     <!-- info block -->
@@ -118,6 +118,7 @@
     {{ end }}
     <!-- //info block -->
   </ul>
+  </section>
   <!-- //section info -->
 
   <!-- case studies section -->
