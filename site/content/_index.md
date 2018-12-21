@@ -34,8 +34,7 @@ watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 noContentPadding: true
 requestURL: /request
 topSubTitle: >-
-  Answer Questions in Real Time | Visualize the Impact of Decisions | Establish
-  a Single Source of Truth
+  Answer Questions in Real Time | Visualize the Impact of Decisions | Securely Interact with Data
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
