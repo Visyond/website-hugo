@@ -126,9 +126,12 @@ body > p {
     font-weight: 300;
     color: rgba(81,84,107,.8);
     font-size: 2.75em;
-    line-height: 3em;
-    padding: 0;
+    padding: 1em 0;
     margin: 0;
+
+    @media screen and (max-width: 800px) {
+        line-height: 1.5em;
+    }
 }
 
 .contrast-text {
