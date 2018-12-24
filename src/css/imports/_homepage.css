@@ -195,39 +195,38 @@
 }
 
 .home-info__block {
-  width: 90%;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  position: relative;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
 
-  &:not(:last-child) {
-    margin-bottom: 8rem;
-  }
-
-  &:nth-child(2n) {
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
-    align-self: flex-end;
-
-    @media screen and (max-width: 800px) {
-      align-self: center;
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
+    &:not(:last-child) {
+        margin-bottom: 8rem;
     }
-  }
 
-  &:nth-child(2n + 1) {
-    @media screen and (max-width: 800px) {
-      -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
+    &:nth-child(2n) {
+        -webkit-flex-direction: row-reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        align-self: flex-end;
+
+        @media screen and (max-width: 800px) {
+            align-self: center;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
     }
-  }
+
+    &:nth-child(2n + 1) {
+        @media screen and (max-width: 800px) {
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    }
 
 }
 
@@ -254,7 +253,10 @@
   flex-shrink: 0;
   position: relative;
 
+  margin-top: 5em;
+
   @media screen and (--tablet) {
+      margin-top: 0;
       width: 100%;
   }
 
@@ -788,35 +790,26 @@
     list-style: none;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 2em auto;
+    margin: 0 auto;
     padding: 0;
-    
-    @media screen and (--tablet) {
-        flex-direction: column;
-    }
+    flex-wrap: wrap;
 }
 .home-featured__item {
     display: block;
     position: relative;
     flex-grow: 1;
+    margin: 0.5em;
+    flex-wrap: wrap;
     height: 8em;
-    margin: 1em;
     background: rgba(255,255,255,.3);
     border: 1px solid rgba(0,0,0,.2);
     cursor: pointer;
-    
-
-    &:hover {
-        box-shadow: 0 2px 4px rgba(0,0,0,.3);
-    }
-
-    &:hover img {
-        filter: grayscale(0);
-    }
 
     @media screen and (max-width: 800px) {
-        width: 100%;
+        height: 6em;
     }
+
+    
 
 }
 
