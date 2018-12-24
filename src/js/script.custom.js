@@ -55,6 +55,9 @@ $(function () {
             $('body').removeClass('body-fixed');
             $('.overlay').removeClass('overlay--active');
             btn.removeAttr('disabled');
+            $('.overlay').removeClass("overlay--active");
+            $(".overlay").empty();
+
         });
     }
     responsiveNav();

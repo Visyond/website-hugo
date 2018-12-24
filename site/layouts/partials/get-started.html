@@ -62,16 +62,8 @@
             
             $(".overlay .yt-wrap").tubeplayer({
                 initialVideo: "mIOudZrtVRs",
-                autoplay: true,
                 playsinline: true
             });
-
-            $(".overlay--active").click(function() {
-                $(".overlay")
-                    .removeClass("overlay--active");
-                $(".overlay .yt-wrap").tubeplayer("destroy");
-                $(".overlay .yt-wrap").remove();
-            })
 
         })
     });
