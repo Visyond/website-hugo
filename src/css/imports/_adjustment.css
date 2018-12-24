@@ -107,6 +107,14 @@ body > p {
     &--padded {
         padding: 8em 0;
     }
+
+    &--compact {
+        padding: 1em 0;
+    }
+
+    @media screen and (--tablet) {
+        padding: 2em 0;
+    }
 }
 
 .no-margin {
