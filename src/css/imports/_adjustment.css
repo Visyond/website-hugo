@@ -8,10 +8,10 @@
 
 
 :root {
-    --global-padding: 8em;
-    --padding-hd: 8em;
-    --padding-tablet: 2em;
-    --pading-mobile: 1em;
+    --global-padding: 0em;
+    --padding-hd: 0em;
+    --padding-tablet: 0em;
+    --pading-mobile: 0em;
 
     --vertical-padding: 3.3em;
     
