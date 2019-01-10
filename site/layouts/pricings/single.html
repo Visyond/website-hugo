@@ -2,7 +2,7 @@
 
 <!-- first section -->
 <section class="cover cover--large" style="background-image: url({{ .Params.BgImage }})">
-	
+  
   <h2 class="cover-header">
     {{ .Params.TopTitle }}
   </h2>
@@ -15,111 +15,113 @@
 
 {{ if .Params.outgrowid}}
 <div class="outgrow__wrapper" id="outgrow">
-    <h2 class="outgrow__title">
-        {{ .Params.outgrowTitle }}  
-    </h2>
-    <div id='{{.Params.outgrowid}}' data-embedCookieDays='10' data-embedScheduling='false' data-embedTimed='true' data-embedExit='false' data-embedTimeFormat='0' data-embedTimeValue='5' data-embedBorderRadius='32' data-embedFontSize='24' data-textcolor='#fff' data-bgcolor='#fff' data-prop='outgrow-p' data-type='outgrow-l' data-url='https://visyondtest.outgrow.us/{{.Params.outgrowid}}?q=1&header=0&footer=0' data-text='Start'></div><script src='//dyv6f9ner1ir9.cloudfront.net/assets/js/nploader.js'></script><script>initIframe('{{.Params.outgrowid}}');</script>
+  <h2 class="outgrow__title">
+    {{ .Params.outgrowTitle }}  
+  </h2>
+  <div id='{{.Params.outgrowid}}' data-embedCookieDays='10' data-embedScheduling='false' data-embedTimed='true' data-embedExit='false' data-embedTimeFormat='0' data-embedTimeValue='5' data-embedBorderRadius='32' data-embedFontSize='24' data-textcolor='#fff' data-bgcolor='#fff' data-prop='outgrow-p' data-type='outgrow-l' data-url='https://visyondtest.outgrow.us/{{.Params.outgrowid}}?q=1&header=0&footer=0' data-text='Start'></div><script src='//dyv6f9ner1ir9.cloudfront.net/assets/js/nploader.js'></script><script>initIframe('{{.Params.outgrowid}}');</script>
 </div>
 {{ end }}
 
 <!-- second section -->
 <section class="section gray">
-    <div class="container">
-        <h3 class="prs2nd__title">{{ .Params.PricingTitle }}</h3>
-        <h4 class="prs2nd__subtitle">{{ .Params.FirstPricingSubTitle }}
-            <p>{{ .Params.SecondPricingSubTitle }}</p>
-        </h4>
 
-        <ul class="prs2nd__list target-blank">
-        	{{ $lcard := .Params.LeftCard }}
-            <li class="prs2nd__item prs2nd__item--left">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $lcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $lcard.subTitle }}</h4>
-                    </div>
-                    {{ with $lcard.markdown }}
-                    <div class="prs2nd__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                    {{ end }}
-                </article>
-            </li>
+  <div class="container">
+    <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
+    <div class="header-section--divider"></div>
 
-            {{ $mcard := .Params.MiddleCard }}
-            <li class="prs2nd__item prs2nd__item--middle">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $mcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $mcard.subTitle }}</h4>
-                    </div>
-                    {{ with $mcard.markdown }}
-                    <div class="prs2nd__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                    {{ end }}
-                </article>
-            </li>
+    <ul class="prs2nd__list target-blank">
+      {{ $lcard := .Params.LeftCard }}
+      <li class="prs2nd__item prs2nd__item">
+        <article class="prs2nd__card">
+          <div class="prs2nd__title-wrap">
+            <img src="/img/icons/individual-icon.svg">
+            <h3 class="prs2nd__card-title">{{ $lcard.title }}</h3>
+            <h4 class="prs2nd__card-subtitle">{{ $lcard.subTitle }}</h4>
+          </div>
+          {{ with $lcard.markdown }}
+          <div class="prs2nd__markdown">
+            {{ . | markdownify }}
+          </div>
+          {{ end }}
+        </article>
+      </li>
 
-            {{ $rcard := .Params.RightCard }}
-            <li class="prs2nd__item prs2nd__item--right">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $rcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $rcard.subTitle }}</h4>
-                    </div>
-                    {{ with $rcard.markdown }}
-                    <div class="prs2nd__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                    {{ end }}
-                </article>
-            </li>
-        </ul>
+      {{ $mcard := .Params.MiddleCard }}
+      <li class="prs2nd__item prs2nd__item">
+        <article class="prs2nd__card">
+          <div class="prs2nd__title-wrap">
+            <img src="/img/icons/team-icon.svg">
+            <h3 class="prs2nd__card-title">{{ $mcard.title }}</h3>
+            <h4 class="prs2nd__card-subtitle">{{ $mcard.subTitle }}</h4>
+          </div>
+          {{ with $mcard.markdown }}
+          <div class="prs2nd__markdown">
+            {{ . | markdownify }}
+          </div>
+          {{ end }}
+        </article>
+      </li>
 
-        <div class="prs2nd__btn-wrap">
-            <a href="{{ .Params.cardsLink }}" class="prs2nd__btn" aria-label="button">REQUEST A DEMO</a>
-        </div>
+      {{ $rcard := .Params.RightCard }}
+      <li class="prs2nd__item prs2nd__item">
+        <article class="prs2nd__card">
+          <div class="prs2nd__title-wrap">
+            <img src="/img/icons/enterprise-icon.svg">
+            <h3 class="prs2nd__card-title">{{ $rcard.title }}</h3>
+            <h4 class="prs2nd__card-subtitle">{{ $rcard.subTitle }}</h4>
+          </div>
+          {{ with $rcard.markdown }}
+          <div class="prs2nd__markdown">
+            {{ . | markdownify }}
+          </div>
+          {{ end }}
+        </article>
+      </li>
+    </ul>
+
+    <div class="prs2nd__btn-wrap">
+      <a href="{{ .Params.cardsLink }}" class="prs2nd__btn" aria-label="button">REQUEST A DEMO</a>
     </div>
+  </div>
 </section>
 <!-- //second section -->
 
 <!-- third section -->
 <!--
-<div class="third-section prs3rd">
-    <div class="prs3rd__cols">
+    <div class="third-section prs3rd">
+      <div class="prs3rd__cols">
         {{ range $el := .Params.BottomColumns }}
         <div class="prs3rd__col">
-            <h3 class="prs3rd__col-title">
-                {{ $el.title }}
-            </h3>
-            <ul class="prs3rd__col-list">
-                {{ range $elem := $el.list }}
-                <li class="prs3rd__col-item">
-                    {{ $elem.descr | markdownify}}  
-                </li>
-                {{ end }}
-            </ul>
+          <h3 class="prs3rd__col-title">
+            {{ $el.title }}
+          </h3>
+          <ul class="prs3rd__col-list">
+            {{ range $elem := $el.list }}
+            <li class="prs3rd__col-item">
+              {{ $elem.descr | markdownify}}  
+            </li>
+            {{ end }}
+          </ul>
         </div>
         {{ end }}
-    </div>
-</div> 
--->
-<!-- //third section -->
+      </div>
+    </div> 
+    -->
+    <!-- //third section -->
 
-<!-- trusted section -->
-{{ partial "testimonials" . }}
-<!-- ./trusted section -->
+    <!-- trusted section -->
+    {{ partial "testimonials" . }}
+    <!-- ./trusted section -->
 
-<!-- third section -->
-<!-- <section class="third-section prs3rd" style="background-image: url({{ .Params.BgBottom }})">
-  <h3 class="prs3rd__title">
-    {{ .Params.TitleBottom }}
-  </h3>
-  <a href="{{.Params.LinkBottom}}" class="prs3rd__btn prs3rd__btn--request">
-    request a demo
-  </a>
-</section> -->
-<!-- //third section -->
+    <!-- third section -->
+    <!-- <section class="third-section prs3rd" style="background-image: url({{ .Params.BgBottom }})">
+         <h3 class="prs3rd__title">
+           {{ .Params.TitleBottom }}
+         </h3>
+         <a href="{{.Params.LinkBottom}}" class="prs3rd__btn prs3rd__btn--request">
+           request a demo
+         </a>
+    </section> -->
+    <!-- //third section -->
 
-{{ partial "footer" . }}
+    {{ partial "footer" . }}

@@ -6,7 +6,7 @@ topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solu
 bgImage: /img/pricing-cover.png
 outgrowTitle: ''
 outgrowid: ''
-pricingTitle: Visyond features start at $25 per FEATURE per user/month
+pricingTitle: Visyond for…
 firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories Below
 secondPricingSubTitle: ''
 leftCard:

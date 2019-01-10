@@ -136,13 +136,14 @@
   background: #fff;
   box-shadow: 0 5px 15px rgba(82, 85, 108, 0.3);
   padding: 40px 35px 30px;
+  margin: 0 1em;
 
   @media screen and (max-width: 1024px) {
-    width: 100%;
+      width: 100%;
 
-    &:not(:last-child) {
-      margin-bottom: 25px;
-    }
+      &:not(:last-child) {
+          margin-bottom: 25px;
+      }
   }
 }
 
@@ -171,20 +172,25 @@
 .prs2nd__title-wrap {
   text-align: center;
   color: #5f6976;
+
+  & > img {
+      margin: 2em 0;
+      filter: contrast(0);
+  }
 }
 
 .prs2nd__card {
-  display: flex;
-  flex-flow: column nowrap;
-  height: 100%;
-  font-size: 1.2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    font-size: 1.2em;
 }
 
 .prs2nd__card-title {
   margin-bottom: 1rem;
-  font-size: 24px;
-  line-height: 1;
-  font-weight: 600;
+  font-size: 2em;
+  font-weight: 300;
+  color: #0e2639;
 }
 
 .prs2nd__card-subtitle {
