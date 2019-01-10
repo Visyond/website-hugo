@@ -8,6 +8,7 @@
     max-width: 1200px;
     margin: 0 auto;
     overflow-x: auto;
+    
     & > table {
         border-collapse: separate !important;
         border-spacing: 0;
@@ -49,6 +50,10 @@
             font-size: 14px;
             font-weight: 600;
             word-break: keep-all;
+        }
+
+        & tr td:not(:first-child) {
+            text-align: center;
         }
 
         @media screen and (max-width: 400px) {
