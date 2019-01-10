@@ -21,8 +21,15 @@
 
     &--compact {
         padding: 0;
+    }
 
-        
+    &--large {
+        padding: 16em 0;
+
+        & .cover-header {
+            font-size: 3.5em;
+            font-weight: 300;
+        }
     }
 
     &-video {
@@ -117,8 +124,8 @@
     color: #ffffff;
     text-align: center;
     font-size: 2.5em;
-    text-shadow: 2px 2px 0px rgba(0,0,0,.35);
     margin: 0;
+    padding: 0;
 
     @media screen and (--hd) {
         padding: 0 var(--padding-hd);
@@ -135,9 +142,8 @@
     display: block;
     text-align: center;
     color: #fff;
-    text-shadow: 0 2px 3px rgba(0,0,0,.3);
     padding: 0 var(--global-padding);
-    margin-top: 1em;
+    margin-top: 0.5em;
 
     @media screen and (--hd) {
         padding: 0 var(--padding-hd);
