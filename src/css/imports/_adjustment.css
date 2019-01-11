@@ -87,19 +87,6 @@ body > p {
     }
 }
 
-.primary {
-    background: #eef6ff;
-    margin: 0 -var(--global-padding);
-}
-
-.gray {
-    background: #f5f6f9;
-}
-
-.center-align {
-    text-align: center;
-}
-
 .section {
     padding: 4em 0;
     background-size: cover;
@@ -115,6 +102,23 @@ body > p {
     @media screen and (--tablet) {
         padding: 2em 0;
     }
+}
+
+.primary {
+    background: #eef6ff;
+    margin: 0 -var(--global-padding);
+}
+
+.gray {
+    background: #f5f6f9;
+}
+
+.half-gray {
+    background: linear-gradient(to bottom, #f8f8f9 380px, #feffff 380px);
+}
+
+.center-align {
+    text-align: center;
 }
 
 .no-margin {
