@@ -11,18 +11,11 @@ firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories
 secondPricingSubTitle: ''
 leftCard:
   markdown: |-
-    **Recommended features (pick any):**
-
-    * [Audit Mode](/features/audit-mode/)
-    * [Charts](/features/charts/)
-    * [Scenario Comparison](/features/scenarios/)
-    * [Impact Analysis](/features/tornado/)
-    * [Sensitivity Analysis](/features/sensitivity/)
-    * [Simulations](/features/simulations/)
-    * [Dependencies Analysis](/features/dependency-analysis/)
-    * [Interactive Presentations](/features/interactive-presentations/)
-    * [Apps & Calculators](/features/calculators/)
-    * [Financial Statements](/features/financial-statements/)
+    * Import your Excel file to start
+    * What-if Analysis
+    * Auto-Analysis & Simulations
+    * Financial Statements
+    * Model Auditing & Debugging
   subTitleList:
     - Pay only for what you need
     - Get value immediately
@@ -30,35 +23,24 @@ leftCard:
   title: Individual
 middleCard:
   markdown: |-
-    **Recommended features (pick any):**
-
-    * Custom Workflow
-    * Custom Integrations
-    * Custom Look & Feel
-    * On-Premise Installation
-    * Dedicated Account Manager
-    * Onboarding Program
-    * Training & Workshops
+    * [Selective Sharing](/features/selective-sharing/)
+    * Presentations & Reporting
+    * [Data Consolidation](/features/data-input-and-consolidation/)
+    * Permissions & Access
+    * Audit Trail
   subTitleList:
     - Internal & External Collaboration
     - Shared Work Environment
     - Control & Accountablilty
-  title: Enterprise
+  title: Team
 rightCard:
-  markdown: |-
-    **Recommended features (pick any):**
-
-    * [Selective Sharing](/features/selective-sharing/)
-    * [Single Source of Truth](/features/knowledge-base/)
-    * [Data Consolidation](/features/data-input-and-consolidation/)
-    * Permissions
   subTitleList:
     - Custom Workflow
     - Custom Intergrations
     - On-Premise / Cloud Installation
     - Branding
     - Onboarding Program
-  title: Team
+  title: Enterprise
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and

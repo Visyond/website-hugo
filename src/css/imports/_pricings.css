@@ -186,10 +186,9 @@
 }
 
 .prs2nd__card-title {
-  margin-bottom: 1rem;
-  font-size: 2em;
-  font-weight: 300;
-  color: #0e2639;
+    font-size: 2em;
+    font-weight: 300;
+    color: #0e2639;
 }
 
 .prs2nd__card-subtitle {
@@ -216,13 +215,17 @@
 
 .prs2nd__markdown li {
     position: relative;
-    padding-left: 20px;
-    font-weight: 300;
-    color: #5f6976;
+    padding-left: 2em;
+    font-weight: 400;
+    color: #0e2639;
     font-size: 1.2rem;
 
     &:not(:last-child) {
         margin-bottom: 15px;
+    }
+
+    & > a {
+        color: inherit;
     }
 
     /*&:after {
@@ -239,28 +242,28 @@
     &:before {
         content: "";
         position: absolute;
-        top: 15px;
+        top: 0.7em;
         left: 0;
         transform: rotate(-130deg);
         margin-right: 10px;
         margin-bottom: 3px;
         width: 8px;
-        height: 2px;
-        background: #00b5b8;
+        height: 3px;
+        background: #0685ff;
         display: inline-block;
     }
 
     &:after {
         content: "";
         position: absolute;
-        top: 8px;
+        top: 0.25em;
         left: 10px;
         transform: rotate(-130deg);
         margin-right: 10px;
         margin-bottom: 3px;
-        width: 2px;
-        height: 12px;
-        background: #00b5b8;
+        width: 3px;
+        height: 16px;
+        background: #0685ff;
         display: inline-block;
     }
 }
