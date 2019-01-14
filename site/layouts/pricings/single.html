@@ -49,6 +49,10 @@
             {{ . | markdownify }}
           </div>
           {{ end }}
+          
+          <div class="prs2nd__btn-wrap">
+            <a href="/request" class="prs2nd__btn" aria-label="button">START FREE TRIAL</a>
+          </div>
         </article>
       </li>
 
@@ -71,6 +75,10 @@
             {{ . | markdownify }}
           </div>
           {{ end }}
+
+          <div class="prs2nd__btn-wrap">
+            <a href="/contacts" class="prs2nd__btn" aria-label="button">REQUEST A DEMO</a>
+          </div>
         </article>
       </li>
 
@@ -93,13 +101,13 @@
             {{ . | markdownify }}
           </div>
           {{ end }}
+          <div class="prs2nd__btn-wrap">
+            <a href="/request" class="prs2nd__btn" aria-label="button">CONTACT US</a>
+          </div>
         </article>
       </li>
     </ul>
-
-    <div class="prs2nd__btn-wrap">
-      <a href="{{ .Params.cardsLink }}" class="prs2nd__btn" aria-label="button">REQUEST A DEMO</a>
-    </div>
+    
   </div>
 </section>
 <!-- //second section -->
