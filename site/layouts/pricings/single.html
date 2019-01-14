@@ -36,7 +36,11 @@
           <div class="prs2nd__title-wrap">
             <img src="/img/icons/individual-icon.svg">
             <h3 class="prs2nd__card-title">{{ $lcard.title }}</h3>
-            <h4 class="prs2nd__card-subtitle">{{ $lcard.subTitle }}</h4>
+            <ul class="prs2nd__card-subtitle">
+              {{ range $lcard.subTitleList }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </div>
           {{ with $lcard.markdown }}
           <div class="prs2nd__markdown">
@@ -52,7 +56,11 @@
           <div class="prs2nd__title-wrap">
             <img src="/img/icons/team-icon.svg">
             <h3 class="prs2nd__card-title">{{ $mcard.title }}</h3>
-            <h4 class="prs2nd__card-subtitle">{{ $mcard.subTitle }}</h4>
+            <ul class="prs2nd__card-subtitle">
+              {{ range $mcard.subTitleList }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </div>
           {{ with $mcard.markdown }}
           <div class="prs2nd__markdown">
@@ -68,7 +76,11 @@
           <div class="prs2nd__title-wrap">
             <img src="/img/icons/enterprise-icon.svg">
             <h3 class="prs2nd__card-title">{{ $rcard.title }}</h3>
-            <h4 class="prs2nd__card-subtitle">{{ $rcard.subTitle }}</h4>
+            <ul class="prs2nd__card-subtitle">
+              {{ range $rcard.subTitleList }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </div>
           {{ with $rcard.markdown }}
           <div class="prs2nd__markdown">

@@ -115,6 +115,10 @@ body > p {
 
 .half-gray {
     background: linear-gradient(to bottom, #f8f8f9 380px, #feffff 380px);
+
+    @media screen and (--tablet) {
+        background: #f5f6f9;
+    }
 }
 
 .center-align {

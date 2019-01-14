@@ -23,7 +23,10 @@ leftCard:
     * [Interactive Presentations](/features/interactive-presentations/)
     * [Apps & Calculators](/features/calculators/)
     * [Financial Statements](/features/financial-statements/)
-  subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
+  subTitleList:
+    - Pay only for what you need
+    - Get value immediately
+    - Import your Excel file to start
   title: Individual
 middleCard:
   markdown: |-
@@ -36,7 +39,10 @@ middleCard:
     * Dedicated Account Manager
     * Onboarding Program
     * Training & Workshops
-  subTitle: The complete spreadsheet platform
+  subTitleList:
+    - Internal & External Collaboration
+    - Shared Work Environment
+    - Control & Accountablilty
   title: Enterprise
 rightCard:
   markdown: |-
@@ -46,7 +52,12 @@ rightCard:
     * [Single Source of Truth](/features/knowledge-base/)
     * [Data Consolidation](/features/data-input-and-consolidation/)
     * Permissions
-  subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
+  subTitleList:
+    - Custom Workflow
+    - Custom Intergrations
+    - On-Premise / Cloud Installation
+    - Branding
+    - Onboarding Program
   title: Team
 cardsLink: /request
 priceClientAsked: >-
