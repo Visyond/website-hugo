@@ -37,31 +37,31 @@ cards:
   - description: 'Always know who contributed what, when and why'
     header: Full Transparency and Control Over Your Data
     icon: /img/icons/computer.png
-    link: ''
+    link: /solutions/data-tracking-software/
   - description: Manage access and share projects fully or partially
     header: Secure Collaborative Environment
     icon: /img/icons/society.png
-    link: ''
+    link: /solutions/spreadsheet-collaboration-software/
   - description: Automate routine analytical tasks and their setup without experts
     header: Data Analysis in Minutes
     icon: /img/icons/graph.png
-    link: ''
+    link: /solutions/data-analysis-software/
   - description: Quickly get insights from your data through interactive presentations
     header: Testing Assumptions in Real Time
     icon: /img/icons/presentation.png
-    link: ''
+    link: /solutions/automate-excel-reports-and-presentation/
   - description: Have a single source of truth for your data & documentation
     header: Streamlined Communications
     icon: /img/icons/chat.png
-    link: ''
+    link: /solutions/spreadsheet-collaboration-software/
   - description: Easily generate financial statements and KPI reports
     header: Automated Financial Statements
     icon: /img/icons/finance_doc.png
-    link: ''
+    link: /features/interactive-presentation-software/
   - description: Start getting value immediately by importing your Excel file
     header: Familiar Excel-Compatible Experience
     icon: /img/icons/excel_comp.png
-    link: ''
+    link: /features/compatibility-with-excel-and-powerpoint/
   - description: 'Access at any time, from any place, using any device'
     header: Cloud-based Global Accessibility
     icon: /img/icons/cloud.png
@@ -69,7 +69,7 @@ cards:
   - description: Audit spreadsheets and explore your models
     header: Reduction of Errors
     icon: /img/icons/graph_and_man.png
-    link: ''
+    link: /solutions/financial-modeling-software/
 sectionThreeHeader: How We Compare to Others?
 providesTitle: Get started in minutes
 titleBottom: Find out how to improve your decision-making process today
