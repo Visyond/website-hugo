@@ -4,6 +4,8 @@ resourcesDropdown:
     title: Help
   - path: /press/
     title: Press
+  - path: /why-visyond/
+    title: Why Visyond
 solutionsInfoTitle: Answer questions in seconds
 solutionsInfoDescr: >-
   Explore our Solutions to learn more about how Visyond can help you, your team
