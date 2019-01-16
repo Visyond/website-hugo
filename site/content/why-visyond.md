@@ -35,7 +35,7 @@ sectionOneImg: /img/why visyond infographic.png
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
-    header: Full Transparency and Control Over Your Data
+    header: Full Transparency and Data Governance
     icon: /img/icons/computer.png
     link: /solutions/data-tracking-software/
   - description: Manage access and share projects fully or partially
