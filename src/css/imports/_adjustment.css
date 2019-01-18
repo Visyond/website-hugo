@@ -115,6 +115,10 @@ body > p {
     background: #f5f6f9;
 }
 
+.dark {
+    background: #414250;
+}
+
 .half-gray {
     background: linear-gradient(to bottom, #f8f8f9 380px, #feffff 380px);
 

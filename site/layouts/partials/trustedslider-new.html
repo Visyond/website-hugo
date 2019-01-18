@@ -1,0 +1,15 @@
+{{ with .Site.GetPage "section" "trustedslider" }}
+<section class="section--padded dark">
+  <div class="container">
+    <div class="trusted__wrapper-dark">
+      <ul class="trusted__logos-wrap js-slider">
+        {{ range $el := .Params.trustedLogos }}
+        <li class="trusted__logo-item">
+          <img src="{{ .logo }}" alt="{{ .alt }}">
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
+{{ end }}

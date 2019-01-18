@@ -56,7 +56,6 @@ whyCards:
         icon: /img/icons/payment.svg
         description:
           - Making it quick & easy to full manage business expenses on the go with our expenses app
-
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
@@ -64,7 +63,7 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/delo1.png
 bottomColumns: []
-bgBottom: /img/topImgTeam.jpg
+bgBottom: /img/footer-cover.png
 titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
 providesTitle: Get started in minutes
