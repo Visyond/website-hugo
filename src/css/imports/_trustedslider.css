@@ -57,7 +57,10 @@
 	#414250 100%
     );
     z-index: 99;
+  }
 
+  & img {
+      filter: contrast(20%) brightness(200%);
   }
 }
 
