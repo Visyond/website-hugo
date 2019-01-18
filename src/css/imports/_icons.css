@@ -62,3 +62,22 @@
     }
   }
 }
+
+.rounded-icon-wrap {
+    position: relative;
+    padding: 2em;
+    width: 120px;
+    height: 120px;
+    background: rgba(82,84,108,.11);
+    border-radius: 50%;
+    margin: 2em auto;
+
+    & > img {
+	position: absolute;
+	height: 3.5em;
+	max-width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    }
+}

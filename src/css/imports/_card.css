@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
     @media screen and (max-width: 1024px) {
         flex-flow: column nowrap;
@@ -14,7 +14,8 @@
 .card__list-item {
     width: 400px;
     background: #fff;
-    box-shadow: 0 5px 15px rgba(82, 85, 108, 0.3);
+    box-shadow: 0 1em 2.5em rgba(107, 133, 187, 0.33);    
+
     padding: 40px 35px 30px;
     margin: 0 1em;
 
@@ -24,6 +25,10 @@
         &:not(:last-child) {
             margin-bottom: 25px;
         }
+    }
+
+    &.primary {
+	border-bottom: 4px solid #0685ff;
     }
 }
 

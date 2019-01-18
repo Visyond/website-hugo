@@ -1,91 +1,31 @@
 {{ with .Params.WhyCards }}
 
 <section class="section half-gray">
+    <div class="container">
+	
+	<h2 class="header-section">{{ .title | markdownify }}</h2>
+	<div class="header-section--divider"></div>
 
-  <div class="container">
-    <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
-    <div class="header-section--divider"></div>
-
-    <ul class="card__list target-blank">
-      {{ $lcard := .Params.LeftCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/individual-icon.svg">
-            <h3 class="card__title">{{ $lcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $lcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
-
-          {{ with $lcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
-          
-          <div class="card__btn-wrap">
-            <a href="/request" class="card__btn" aria-label="button">START FREE TRIAL</a>
-          </div>
-        </article>
-      </li>
-
-      {{ $mcard := .Params.MiddleCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/team-icon.svg">
-            <h3 class="card__title">{{ $mcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $mcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
-
-          {{ with $mcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
-
-          <div class="card__btn-wrap">
-            <a href="/contacts" class="card__btn" aria-label="button">REQUEST A DEMO</a>
-          </div>
-        </article>
-      </li>
-
-      {{ $rcard := .Params.RightCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/enterprise-icon.svg">
-            <h3 class="card__title">{{ $rcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $rcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
-          
-          {{ with $rcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
-          <div class="card__btn-wrap">
-            <a href="/request" class="card__btn" aria-label="button">CONTACT US</a>
-          </div>
-        </article>
-      </li>
-    </ul>
-    
-  </div>
+	<ul class="card__list">
+	    {{ range .cards }}
+	    <li class="card__list-item primary">
+		<article class="card">
+		    <div class="card__title-wrap">
+		      <div class="rounded-icon-wrap">
+			<img src="{{ .icon }}">
+		      </div>
+			<h3 class="card__title">{{ .title }}</h3>
+			<ul class="card__subtitle">
+			    {{ range .description }}
+			    <li>{{ . }}</li>
+			    {{ end }}
+			</ul>
+		    </div>
+		</article>
+	    </li>
+	    {{ end }}
+	</ul>	
+    </div>
 </section>
 
 {{ end }}

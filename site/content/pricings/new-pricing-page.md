@@ -42,7 +42,21 @@ rightCard:
     - Onboarding Program
   title: Enterprise
 whyCards:
-    - test
+    title: Why Visyond
+    cards:
+      - title: The Software
+        icon: /img/icons/desktop.svg
+        description:
+          - Everything you need for effective business expense management
+      - title: Case Studies
+        icon: /img/icons/knowledge.svg
+        description:
+          - Meet some of our clients and see how web expenses improved their business expenses process
+      - title: Mobile App
+        icon: /img/icons/payment.svg
+        description:
+          - Making it quick & easy to full manage business expenses on the go with our expenses app
+
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
