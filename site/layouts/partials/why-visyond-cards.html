@@ -1,28 +1,5 @@
-{{ partial "head" . }}
+{{ with .Params.WhyCards }}
 
-<!-- first section -->
-<section class="cover cover--large" style="background-image: url({{ .Params.BgImage }})">
-  
-  <h2 class="cover-header">
-    {{ .Params.TopTitle }}
-  </h2>
-
-  <div class="cover-header--sub">
-    {{ .Params.TopSubTitle }}
-  </div>
-</section>
-<!-- //first section -->
-
-{{ if .Params.outgrowid}}
-<div class="outgrow__wrapper" id="outgrow">
-  <h2 class="outgrow__title">
-    {{ .Params.outgrowTitle }}  
-  </h2>
-  <div id='{{.Params.outgrowid}}' data-embedCookieDays='10' data-embedScheduling='false' data-embedTimed='true' data-embedExit='false' data-embedTimeFormat='0' data-embedTimeValue='5' data-embedBorderRadius='32' data-embedFontSize='24' data-textcolor='#fff' data-bgcolor='#fff' data-prop='outgrow-p' data-type='outgrow-l' data-url='https://visyondtest.outgrow.us/{{.Params.outgrowid}}?q=1&header=0&footer=0' data-text='Start'></div><script src='//dyv6f9ner1ir9.cloudfront.net/assets/js/nploader.js'></script><script>initIframe('{{.Params.outgrowid}}');</script>
-</div>
-{{ end }}
-
-<!-- second section -->
 <section class="section half-gray">
 
   <div class="container">
@@ -111,10 +88,4 @@
   </div>
 </section>
 
-{{ partial "trustedslider" . }}
-
-{{ partial "why-visyond-cards" . }}
-
-{{ partial "get-started" . }}
-
-{{ partial "footer" . }}
+{{ end }}

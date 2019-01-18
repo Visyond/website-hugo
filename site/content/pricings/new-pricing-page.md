@@ -41,6 +41,8 @@ rightCard:
     - Branding
     - Onboarding Program
   title: Enterprise
+whyCards:
+    - test
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
@@ -51,5 +53,13 @@ bottomColumns: []
 bgBottom: /img/topImgTeam.jpg
 titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
+providesTitle: Get started in minutes
+titleBottom: Find out how to improve your decision-making process today
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
 
