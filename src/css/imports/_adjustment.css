@@ -93,10 +93,12 @@ body > p {
 
     &--padded {
         padding: 8em 0;
+	background-size: cover;
     }
 
     &--compact {
         padding: 1em 0;
+	background-size: cover;
     }
 
     @media screen and (--tablet) {
