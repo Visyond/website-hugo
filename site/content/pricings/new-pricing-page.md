@@ -3,51 +3,71 @@ title: 'Pricing '
 url: /pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/pricing-cover.png
 outgrowTitle: ''
 outgrowid: ''
-pricingTitle: Visyond features start at $25 per FEATURE per user/month
+pricingTitle: Visyond for…
 firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories Below
 secondPricingSubTitle: ''
-leftCard:
-  markdown: |-
-    **Recommended features (pick any):**
-
-    * [Audit Mode](/features/audit-mode/)
-    * [Charts](/features/charts/)
-    * [Scenario Comparison](/features/scenarios/)
-    * [Impact Analysis](/features/tornado/)
-    * [Sensitivity Analysis](/features/sensitivity/)
-    * [Simulations](/features/simulations/)
-    * [Dependencies Analysis](/features/dependency-analysis/)
-    * [Interactive Presentations](/features/interactive-presentations/)
-    * [Apps & Calculators](/features/calculators/)
-    * [Financial Statements](/features/financial-statements/)
-  subTitle: 'It’s never been easier to manage, analyse and report spreadsheet data'
-  title: Individual
-middleCard:
-  markdown: |-
-    **Recommended features (pick any):**
-
-    * Custom Workflow
-    * Custom Integrations
-    * Custom Look & Feel
-    * On-Premise Installation
-    * Dedicated Account Manager
-    * Onboarding Program
-    * Training & Workshops
-  subTitle: The complete spreadsheet platform
-  title: Enterprise
-rightCard:
-  markdown: |-
-    **Recommended features (pick any):**
-
-    * [Selective Sharing](/features/selective-sharing/)
-    * [Single Source of Truth](/features/knowledge-base/)
-    * [Data Consolidation](/features/data-input-and-consolidation/)
-    * Permissions
-  subTitle: Seamlessly take control of your team’s spreadsheet tasks and workflow
-  title: Team
+pricingCards:
+  title: Visyond for
+  cards:
+    - markdown: |
+        * Import your Excel file to start
+        * What-if Analysis
+        * Auto-Analysis & Simulations
+        * Financial Statements
+        * Model Auditing & Debugging
+      subTitleList:
+        - Pay only for what you need
+        - Get value immediately
+        - Import your Excel file to start
+      title: Individual
+      cta:
+        url: /accounts/signup/
+        text: Start Free Trial
+    - markdown: |
+        * Selective Sharing
+        * Presentations & Reporting
+        * Data Consolidation
+        * Permissions & Access
+        * Audit Trail
+      subTitleList:
+        - Internal & External Collaboration
+        - Shared Work Environment
+        - Control & Accountablilty
+      title: Team
+      cta:
+        url: /request
+        text: Request a demo
+    - subTitleList:
+        - Internal & External Collaboratio
+        - Custom Integrations
+        - On-Premise / Cloud Installation
+        - Branding
+        - Onboarding Program
+      title: Team
+      cta:
+        url: /request
+        text: Request a demo
+whyCards:
+    title: Why Visyond
+    cards:
+      - title: The Software
+        icon: /img/icons/desktop.svg
+        description:
+          - Everything you need for effective business expense management
+      - title: Case Studies
+        icon: /img/icons/knowledge.svg
+        description:
+          - Meet some of our clients and see how web expenses improved their business expenses process
+      - title: Mobile App
+        icon: /img/icons/payment.svg
+        description:
+          - Making it quick & easy to full manage business expenses on the go with our expenses app
+    cta:
+      url: /why-visyond/
+      text: Learn More About Visyond
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
@@ -55,8 +75,16 @@ priceClientAsked: >-
 priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
 priceClientCompanyLogo: /img/delo1.png
 bottomColumns: []
-bgBottom: /img/topImgTeam.jpg
+bgBottom: /img/footer-cover.png
 titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
+providesTitle: Get started in minutes
+titleBottom: Find out how to improve your decision-making process today
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
 

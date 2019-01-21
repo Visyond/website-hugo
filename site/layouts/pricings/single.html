@@ -1,15 +1,15 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<section class="cover" style="background-image: url({{ .Params.BgImage }})">
-	
-  <h2 class="cover-header">
-    {{ .Params.TopTitle }}
-  </h2>
+<section class="cover cover--large" style="background-image: url({{ .Params.BgImage }})">
+    
+    <h2 class="cover-header">
+        {{ .Params.TopTitle }}
+    </h2>
 
-  <div class="cover-header--sub">
-    {{ .Params.TopSubTitle }}
-  </div>
+    <div class="cover-header--sub">
+        {{ .Params.TopSubTitle }}
+    </div>
 </section>
 <!-- //first section -->
 
@@ -23,103 +23,56 @@
 {{ end }}
 
 <!-- second section -->
-<section class="section gray">
+<section class="section half-gray">
+
     <div class="container">
-        <h3 class="prs2nd__title">{{ .Params.PricingTitle }}</h3>
-        <h4 class="prs2nd__subtitle">{{ .Params.FirstPricingSubTitle }}
-            <p>{{ .Params.SecondPricingSubTitle }}</p>
-        </h4>
+        <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
+        <div class="header-section--divider"></div>
 
-        <ul class="prs2nd__list target-blank">
-        	{{ $lcard := .Params.LeftCard }}
-            <li class="prs2nd__item prs2nd__item--left">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $lcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $lcard.subTitle }}</h4>
+        {{ with .Params.pricingCards }}
+
+        <ul class="card__list target-blank">
+            {{ range .cards }}
+            <li class="card__list-item">
+                <article class="card">
+                    <div class="card__title-wrap">
+                        <img src="/img/icons/individual-icon.svg">
+                        <h3 class="card__title">{{ .title }}</h3>
+                        <ul class="card__subtitle">
+                            {{ range .subTitleList }}
+                            <li>{{ . }}</li>
+                            {{ end }}
+                        </ul>
                     </div>
-                    {{ with $lcard.markdown }}
-                    <div class="prs2nd__markdown">
+
+                    {{ with .markdown }}
+                    <hr class="divider-thin">
+                    <div class="card__markdown">
                         {{ . | markdownify }}
                     </div>
                     {{ end }}
-                </article>
-            </li>
 
-            {{ $mcard := .Params.MiddleCard }}
-            <li class="prs2nd__item prs2nd__item--middle">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $mcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $mcard.subTitle }}</h4>
+                    <div class="btn-wrap">
+                        <a href="{{ .cta.url }}"
+                           class="btn-primary fluid"
+                           aria-label="button"
+                        >
+                            {{ .cta.text }}
+                        </a>
                     </div>
-                    {{ with $mcard.markdown }}
-                    <div class="prs2nd__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                    {{ end }}
                 </article>
             </li>
+            {{ end }}
 
-            {{ $rcard := .Params.RightCard }}
-            <li class="prs2nd__item prs2nd__item--right">
-                <article class="prs2nd__card">
-                    <div class="prs2nd__title-wrap">
-                        <h3 class="prs2nd__card-title">{{ $rcard.title }}</h3>
-                        <h4 class="prs2nd__card-subtitle">{{ $rcard.subTitle }}</h4>
-                    </div>
-                    {{ with $rcard.markdown }}
-                    <div class="prs2nd__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                    {{ end }}
-                </article>
-            </li>
         </ul>
-
-        <div class="prs2nd__btn-wrap">
-            <a href="{{ .Params.cardsLink }}" class="prs2nd__btn" aria-label="button">REQUEST A DEMO</a>
-        </div>
-    </div>
-</section>
-<!-- //second section -->
-
-<!-- third section -->
-<!--
-<div class="third-section prs3rd">
-    <div class="prs3rd__cols">
-        {{ range $el := .Params.BottomColumns }}
-        <div class="prs3rd__col">
-            <h3 class="prs3rd__col-title">
-                {{ $el.title }}
-            </h3>
-            <ul class="prs3rd__col-list">
-                {{ range $elem := $el.list }}
-                <li class="prs3rd__col-item">
-                    {{ $elem.descr | markdownify}}  
-                </li>
-                {{ end }}
-            </ul>
-        </div>
         {{ end }}
     </div>
-</div> 
--->
-<!-- //third section -->
+</section>
 
-<!-- trusted section -->
-{{ partial "testimonials" . }}
-<!-- ./trusted section -->
+{{ partial "trustedslider-dark" . }}
 
-<!-- third section -->
-<!-- <section class="third-section prs3rd" style="background-image: url({{ .Params.BgBottom }})">
-  <h3 class="prs3rd__title">
-    {{ .Params.TitleBottom }}
-  </h3>
-  <a href="{{.Params.LinkBottom}}" class="prs3rd__btn prs3rd__btn--request">
-    request a demo
-  </a>
-</section> -->
-<!-- //third section -->
+{{ partial "why-visyond-cards" . }}
+
+{{ partial "get-started" . }}
 
 {{ partial "footer" . }}

@@ -36,6 +36,34 @@
   position: relative;
 }
 
+.trusted__wrapper-dark {
+  width: 100%;
+  max-width: 1400px;
+  overflow: hidden;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        to right,
+        #414250 0,
+        transparent 5%,
+        transparent 95%,
+	#414250 100%
+    );
+    z-index: 99;
+  }
+
+  & img {
+      filter: contrast(20%) brightness(200%);
+  }
+}
+
 .trusted__logos-wrap {
   display: -webkit-flex;
   display: -ms-flex;

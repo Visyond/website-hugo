@@ -8,10 +8,10 @@
 
 
 :root {
-    --global-padding: 8em;
-    --padding-hd: 8em;
-    --padding-tablet: 2em;
-    --pading-mobile: 1em;
+    --global-padding: 0em;
+    --padding-hd: 0em;
+    --padding-tablet: 0em;
+    --pading-mobile: 0qem;
 
     --vertical-padding: 3.3em;
     
@@ -87,6 +87,29 @@ body > p {
     }
 }
 
+.fluid {
+    display: block !important;
+}
+
+.section {
+    padding: 4em 0;
+    background-size: cover;
+
+    &--padded {
+        padding: 8em 0;
+	background-size: cover;
+    }
+
+    &--compact {
+        padding: 1em 0;
+	background-size: cover;
+    }
+
+    @media screen and (--tablet) {
+        padding: 2em 0;
+    }
+}
+
 .primary {
     background: #eef6ff;
     margin: 0 -var(--global-padding);
@@ -96,25 +119,20 @@ body > p {
     background: #f5f6f9;
 }
 
-.center-align {
-    text-align: center;
+.dark {
+    background: #414250;
 }
 
-.section {
-    padding: 4em 0;
-    background-size: cover;
-
-    &--padded {
-        padding: 8em 0;
-    }
-
-    &--compact {
-        padding: 1em 0;
-    }
+.half-gray {
+    background: linear-gradient(to bottom, #f8f8f9 380px, #feffff 380px);
 
     @media screen and (--tablet) {
-        padding: 2em 0;
+        background: #f5f6f9;
     }
+}
+
+.center-align {
+    text-align: center;
 }
 
 .no-margin {
@@ -264,4 +282,19 @@ img {
     & i {
         font-size: 2.75em;
     }
+}
+
+.divider-thin {
+    width: 100%;
+    border-style: inset;
+    border-width: 1px;
+    height: 1px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #e5e5e9;
+    margin: 2em 0;
+}
+
+.fluid {
+
 }
