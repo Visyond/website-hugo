@@ -87,8 +87,8 @@
         margin-bottom: 15px;
     }
 
-    & > a {
-        color: inherit;
+    @media screen and (max-width: 1024px) {
+        text-align: center;
     }
 
     &:before {
@@ -137,7 +137,7 @@
     text-transform: uppercase;
     border-radius: 5px;
     transition: color 0.2s ease-in-out, border 0.2s ease-in-out,
-                background 0.2s ease-in-out;
+    background 0.2s ease-in-out;
     border: 2px solid #fff;
 
     @media screen and (max-width: 768px) {
