@@ -87,6 +87,10 @@ body > p {
     }
 }
 
+.fluid {
+    display: block !important;
+}
+
 .section {
     padding: 4em 0;
     background-size: cover;

@@ -2,113 +2,71 @@
 
 <!-- first section -->
 <section class="cover cover--large" style="background-image: url({{ .Params.BgImage }})">
-  
-  <h2 class="cover-header">
-    {{ .Params.TopTitle }}
-  </h2>
+    
+    <h2 class="cover-header">
+        {{ .Params.TopTitle }}
+    </h2>
 
-  <div class="cover-header--sub">
-    {{ .Params.TopSubTitle }}
-  </div>
+    <div class="cover-header--sub">
+        {{ .Params.TopSubTitle }}
+    </div>
 </section>
 <!-- //first section -->
 
 {{ if .Params.outgrowid}}
 <div class="outgrow__wrapper" id="outgrow">
-  <h2 class="outgrow__title">
-    {{ .Params.outgrowTitle }}  
-  </h2>
-  <div id='{{.Params.outgrowid}}' data-embedCookieDays='10' data-embedScheduling='false' data-embedTimed='true' data-embedExit='false' data-embedTimeFormat='0' data-embedTimeValue='5' data-embedBorderRadius='32' data-embedFontSize='24' data-textcolor='#fff' data-bgcolor='#fff' data-prop='outgrow-p' data-type='outgrow-l' data-url='https://visyondtest.outgrow.us/{{.Params.outgrowid}}?q=1&header=0&footer=0' data-text='Start'></div><script src='//dyv6f9ner1ir9.cloudfront.net/assets/js/nploader.js'></script><script>initIframe('{{.Params.outgrowid}}');</script>
+    <h2 class="outgrow__title">
+        {{ .Params.outgrowTitle }}  
+    </h2>
+    <div id='{{.Params.outgrowid}}' data-embedCookieDays='10' data-embedScheduling='false' data-embedTimed='true' data-embedExit='false' data-embedTimeFormat='0' data-embedTimeValue='5' data-embedBorderRadius='32' data-embedFontSize='24' data-textcolor='#fff' data-bgcolor='#fff' data-prop='outgrow-p' data-type='outgrow-l' data-url='https://visyondtest.outgrow.us/{{.Params.outgrowid}}?q=1&header=0&footer=0' data-text='Start'></div><script src='//dyv6f9ner1ir9.cloudfront.net/assets/js/nploader.js'></script><script>initIframe('{{.Params.outgrowid}}');</script>
 </div>
 {{ end }}
 
 <!-- second section -->
 <section class="section half-gray">
 
-  <div class="container">
-    <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
-    <div class="header-section--divider"></div>
+    <div class="container">
+        <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
+        <div class="header-section--divider"></div>
 
-    <ul class="card__list target-blank">
-      {{ $lcard := .Params.LeftCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/individual-icon.svg">
-            <h3 class="card__title">{{ $lcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $lcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
+        {{ with .Params.pricingCards }}
 
-          {{ with $lcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
-          
-          <div class="card__btn-wrap">
-            <a href="/accounts/signup" class="card__btn" aria-label="button">START FREE TRIAL</a>
-          </div>
-        </article>
-      </li>
+        <ul class="card__list target-blank">
+            {{ range .cards }}
+            <li class="card__list-item">
+                <article class="card">
+                    <div class="card__title-wrap">
+                        <img src="/img/icons/individual-icon.svg">
+                        <h3 class="card__title">{{ .title }}</h3>
+                        <ul class="card__subtitle">
+                            {{ range .subTitleList }}
+                            <li>{{ . }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
 
-      {{ $mcard := .Params.MiddleCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/team-icon.svg">
-            <h3 class="card__title">{{ $mcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $mcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
+                    {{ with .markdown }}
+                    <hr class="divider-thin">
+                    <div class="card__markdown">
+                        {{ . | markdownify }}
+                    </div>
+                    {{ end }}
 
-          {{ with $mcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
+                    <div class="btn-wrap">
+                        <a href="{{ .cta.url }}"
+                           class="btn-primary fluid"
+                           aria-label="button"
+                        >
+                            {{ .cta.text }}
+                        </a>
+                    </div>
+                </article>
+            </li>
+            {{ end }}
 
-          <div class="card__btn-wrap">
-            <a href="/request" class="card__btn" aria-label="button">REQUEST A DEMO</a>
-          </div>
-        </article>
-      </li>
-
-      {{ $rcard := .Params.RightCard }}
-      <li class="card__list-item">
-        <article class="card">
-          <div class="card__title-wrap">
-            <img src="/img/icons/enterprise-icon.svg">
-            <h3 class="card__title">{{ $rcard.title }}</h3>
-            <ul class="card__subtitle">
-              {{ range $rcard.subTitleList }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
-          </div>
-          
-          {{ with $rcard.markdown }}
-          <hr class="divider-thin">
-          <div class="card__markdown">
-            {{ . | markdownify }}
-          </div>
-          {{ end }}
-          <div class="card__btn-wrap">
-            <a href="/request" class="card__btn" aria-label="button">CONTACT US</a>
-          </div>
-        </article>
-      </li>
-    </ul>
-    
-  </div>
+        </ul>
+        {{ end }}
+    </div>
 </section>
 
 {{ partial "trustedslider-dark" . }}

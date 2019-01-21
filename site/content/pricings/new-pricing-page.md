@@ -9,38 +9,47 @@ outgrowid: ''
 pricingTitle: Visyond for…
 firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories Below
 secondPricingSubTitle: ''
-leftCard:
-  markdown: |-
-    * Import your Excel file to start
-    * What-if Analysis
-    * Auto-Analysis & Simulations
-    * Financial Statements
-    * Model Auditing & Debugging
-  subTitleList:
-    - Pay only for what you need
-    - Get value immediately
-    - Import your Excel file to start
-  title: Individual
-middleCard:
-  markdown: |-
-    * [Selective Sharing](/features/selective-sharing/)
-    * Presentations & Reporting
-    * [Data Consolidation](/features/data-input-and-consolidation/)
-    * Permissions & Access
-    * Audit Trail
-  subTitleList:
-    - Internal & External Collaboration
-    - Shared Work Environment
-    - Control & Accountablilty
-  title: Team
-rightCard:
-  subTitleList:
-    - Custom Workflow
-    - Custom Intergrations
-    - On-Premise / Cloud Installation
-    - Branding
-    - Onboarding Program
-  title: Enterprise
+pricingCards:
+  title: Visyond for
+  cards:
+    - markdown: |
+        * Import your Excel file to start
+        * What-if Analysis
+        * Auto-Analysis & Simulations
+        * Financial Statements
+        * Model Auditing & Debugging
+      subTitleList:
+        - Pay only for what you need
+        - Get value immediately
+        - Import your Excel file to start
+      title: Individual
+      cta:
+        url: /accounts/signup/
+        text: Start Free Trial
+    - markdown: |
+        * Selective Sharing
+        * Presentations & Reporting
+        * Data Consolidation
+        * Permissions & Access
+        * Audit Trail
+      subTitleList:
+        - Internal & External Collaboration
+        - Shared Work Environment
+        - Control & Accountablilty
+      title: Team
+      cta:
+        url: /request
+        text: Request a demo
+    - subTitleList:
+        - Internal & External Collaboratio
+        - Custom Integrations
+        - On-Premise / Cloud Installation
+        - Branding
+        - Onboarding Program
+      title: Team
+      cta:
+        url: /request
+        text: Request a demo
 whyCards:
     title: Why Visyond
     cards:
@@ -56,6 +65,9 @@ whyCards:
         icon: /img/icons/payment.svg
         description:
           - Making it quick & easy to full manage business expenses on the go with our expenses app
+    cta:
+      url: /why-visyond/
+      text: Learn More About Visyond
 cardsLink: /request
 priceClientAsked: >-
   I have finally full control on the source and impact of any assumptions, and
