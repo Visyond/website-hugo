@@ -1,7 +1,7 @@
 {{ partial "head" . }}
 
 <!-- first section -->
-<section class="cover cover--large" style="background-image: url({{ .Params.BgImage }})">
+<section class="cover" style="background-image: url({{ .Params.BgImage }})">
     
     <h2 class="cover-header">
         {{ .Params.TopTitle }}
@@ -36,7 +36,7 @@
             <li class="card__list-item">
                 <article class="card">
                     <div class="card__title-wrap">
-                        <img src="/img/icons/individual-icon.svg">
+                        <img src="{{ .img }}">
                         <h3 class="card__title">{{ .title }}</h3>
                         <ul class="card__subtitle">
                             {{ range .subTitleList }}

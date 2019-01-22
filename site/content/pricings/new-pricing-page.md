@@ -1,5 +1,5 @@
 ---
-title: 'Pricing '
+title: 'Pricing'
 url: /pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
@@ -23,6 +23,7 @@ pricingCards:
         - Get value immediately
         - Import your Excel file to start
       title: Individual
+      img: /img/icons/individual-icon.svg
       cta:
         url: /accounts/signup/
         text: Start Free Trial
@@ -37,6 +38,7 @@ pricingCards:
         - Shared Work Environment
         - Control & Accountablilty
       title: Team
+      img: /img/icons/team-icon.svg
       cta:
         url: /request
         text: Request a demo
@@ -46,10 +48,11 @@ pricingCards:
         - On-Premise / Cloud Installation
         - Branding
         - Onboarding Program
-      title: Team
+      title: Enterprise
+      img: /img/icons/enterprise-icon.svg
       cta:
         url: /request
-        text: Request a demo
+        text: Contact Us
 whyCards:
     title: Why Visyond
     cards:
