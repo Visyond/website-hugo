@@ -26,10 +26,10 @@
 <section class="section half-gray">
 
     <div class="container">
-        <h2 class="header-section">{{ .Params.PricingTitle | markdownify }}</h2>
-        <div class="header-section--divider"></div>
-
         {{ with .Params.pricingCards }}
+
+        <h2 class="header-section">{{ .title | markdownify }}</h2>
+        <div class="header-section--divider"></div>
 
         <ul class="card__list target-blank">
             {{ range .cards }}

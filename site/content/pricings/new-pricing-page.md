@@ -4,11 +4,6 @@ url: /pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
 bgImage: /img/pricing-cover.png
-outgrowTitle: ''
-outgrowid: ''
-pricingTitle: Visyond for…
-firstPricingSubTitle: You Can Combine Any Features From Any Suggested Categories Below
-secondPricingSubTitle: ''
 pricingCards:
   title: Visyond for
   cards:
@@ -72,14 +67,7 @@ whyCards:
       url: /why-visyond/
       text: Learn More About Visyond
 cardsLink: /request
-priceClientAsked: >-
-  I have finally full control on the source and impact of any assumptions, and
-  can confidently answer what-if questions with a few clicks.
-priceClientCompany: 'Nina Fedorova, Senior Consultant, DELOITTE'
-priceClientCompanyLogo: /img/delo1.png
-bottomColumns: []
 bgBottom: /img/footer-cover.png
-titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
 providesTitle: Get started in minutes
 titleBottom: Find out how to improve your decision-making process today
@@ -90,4 +78,3 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
-
