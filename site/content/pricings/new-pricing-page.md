@@ -13,10 +13,10 @@ pricingCards:
         * Auto-Analysis & Simulations
         * Financial Statements
         * Model Auditing & Debugging
-      subTitleList:
-        - Pay only for what you need
-        - Get value immediately
-        - Import your Excel file to start
+      subTitleList: |
+        * Pay only for what you need
+        * Get value immediately
+        * Import your Excel file to start
       title: Individual
       img: /img/icons/individual-icon.svg
       cta:
@@ -28,21 +28,21 @@ pricingCards:
         * Data Consolidation
         * Permissions & Access
         * Audit Trail
-      subTitleList:
-        - Internal & External Collaboration
-        - Shared Work Environment
-        - Control & Accountablilty
+      subTitleList: |
+        * Internal & External Collaboration
+        * Shared Work Environment
+        * Control & Accountablilty
       title: Team
       img: /img/icons/team-icon.svg
       cta:
         url: /request
         text: Request a demo
-    - subTitleList:
-        - Internal & External Collaboratio
-        - Custom Integrations
-        - On-Premise / Cloud Installation
-        - Branding
-        - Onboarding Program
+    - subTitleList: |
+        * Internal & External Collaboratio
+        * Custom Integrations
+        * On-Premise / Cloud Installation
+        * Branding
+        * Onboarding Program
       title: Enterprise
       img: /img/icons/enterprise-icon.svg
       cta:

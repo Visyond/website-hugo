@@ -61,7 +61,13 @@
     opacity: 0.5;
     color: #0e2639;
 
-    & > li {
+    & > ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    & ul > li {
+
         margin: 1em 0;
     }
 }

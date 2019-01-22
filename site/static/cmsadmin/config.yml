@@ -440,57 +440,27 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page title", name: "title", widget: "string", required: false,}
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
       - {label: "Page url", name: "url", widget: string}
-      - {label: "Top Title", name: "topTitle", widget: markdown}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: markdown, required: false}
+      - {label: "Top Title", name: "topTitle", widget: string}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: string, required: false}
       - {label: "Background Image", name: "bgImage", widget: image}
-
-      - {label: "Outgrow Title", name: "outgrowTitle", widget: text, required: false}
-      - {label: "Outgrow ID", name: "outgrowid", widget: string, required: false}
-
-
-      - {label: "Pricing Title", name: "pricingTitle", widget: "string"}
-      - {label: "First Pricing Sub Title", name: "firstPricingSubTitle", widget: "string",required: false,}
-      - {label: "Second Pricing Sub Title", name: "secondPricingSubTitle", widget: "string",required: false,}
-      - {label: "Left Card", name: "leftCard", widget: "object", fields: [
-            {label: "Left Card Title", name: "title", widget: "string"},
-            {label: "Left Card Sub Title", name: "subTitle", widget: "string"},
-            {label: "Left Card Markdown", name: "markdown", widget: "markdown"}
+      - {label: "Pricing Cards", name: "pricingCards", widget: "object", fields: [
+        {label: "Title", name: "title", widget: "string"},
+        {label: "Cards", name: "cards", widget: "list", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Description", name: "subTitleList", widget: "markdown"},
+                {label: "Features", name: "markdown", widget: "markdown", required: false},
+                {label: "CTA Button", name: "cta", widget: "object", fields: [
+                        {label: "URL", name: "url", widget: "string"},
+                        {label: "Text", name: "text", widget: "string"}
+                ]}
         ]}
-      - {label: "Middle Card", name: "middleCard", widget: "object", fields: [
-            {label: "Middle Card Title", name: "title", widget: "string"},
-            {label: "Middle Card Sub Title", name: "subTitle", widget: "string"},
-            {label: "Middle Card Markdown", name: "markdown", widget: "markdown"}
-        ]}
-      - {label: "Right Card", name: "rightCard", widget: "object", fields: [
-            {label: "Right Card Title", name: "title", widget: "string"},
-            {label: "Right Card Sub Title", name: "subTitle", widget: "string"},
-            {label: "Right Card Markdown", name: "markdown", widget: "markdown"}
-        ]}
-
-      - {label: "Cards Link", name: "cardsLink", widget: "string"}
-
-      - {label: "Price Client Asked", name: "priceClientAsked", widget: "text"}
-      - {label: "Price Client Company", name: "priceClientCompany", widget: "string"}
-      - {label: "Price Client Company Logo", name: "priceClientCompanyLogo", widget: "image"}
-
-      - {label: "Bottom columns", name: "bottomColumns", widget: list, fields: [
-            {label: "Bottom Column Title", name: "title", widget: string},
-            {label: "Bottom Column List", name: "list", widget: list, fields: [
-              {label: "Bottom Description", name: "descr", widget: markdown}
-            ]}
-          ]}
+      ]}
 
       - {label: "Background Bottom", name: "bgBottom", widget: "image"}
       - {label: "Title Bottom", name: "titleBottom", widget: "string"}
       - {label: "Link Bottom", name: "linkBottom", widget: "string", default: "https://visyond.com/contacts/", required: false}
-
-
-
-
-
-
 
 
 
