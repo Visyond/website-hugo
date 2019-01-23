@@ -22,7 +22,7 @@ topSubTitle: >-
   calculations and underlying logic of the model through interactive
   presentations and calculators.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
