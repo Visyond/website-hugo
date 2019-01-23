@@ -30,7 +30,7 @@ metaTags: >-
 topTitle: 'The Combined Power of Spreadsheets, BI and Presentations'
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 noContentPadding: true
 requestURL: /request
 topSubTitle: >-
