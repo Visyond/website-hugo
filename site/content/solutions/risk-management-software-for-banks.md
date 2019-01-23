@@ -12,7 +12,7 @@ topSubTitle: >-
   having supporting information scattered around in endless threads of
   back-and-forth emails.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
