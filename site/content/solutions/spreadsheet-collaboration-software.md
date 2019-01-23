@@ -8,7 +8,7 @@ topSubTitle: >-
   stakeholders and empower spreadsheet collaboration online with Visyond’s
   innovative selective sharing technology & granular permissions control.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
