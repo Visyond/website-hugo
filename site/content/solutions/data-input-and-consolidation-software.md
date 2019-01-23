@@ -10,7 +10,7 @@ topSubTitle: >-
   down to minutes - seamlessly merge spreadsheets into one and automate manual
   data consolidation processes.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
