@@ -11,7 +11,7 @@ topSubTitle: >-
   overriding, track changes in a Excel like environment and avoid breaking the
   model while testing assumptions.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
