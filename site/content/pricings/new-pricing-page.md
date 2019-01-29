@@ -1,8 +1,8 @@
 ---
 title: Pricing
 url: /pricing
-topTitle: Simple and Modular Pricing
-topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
+topTitle: Simple Pricing
+topSubTitle: Flexible and Scalable Solution for Companies of All Sizes
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
@@ -57,27 +57,23 @@ pricingCards:
         * Visualize the impact of decisions
         * Securely interact with data
       title: Enterprise
-  title: Visyond for
+  title: Visyond for...
 whyCards:
   cards:
     - description:
-        - Everything you need for effective business expense management
+        - S
       icon: /img/icons/desktop.svg
-      title: The Software
+      title: Solutions
     - description:
-        - >-
-          Meet some of our clients and see how web expenses improved their
-          business expenses process
+        - a
       icon: /img/icons/knowledge.svg
       title: Case Studies
     - description:
-        - >-
-          Making it quick & easy to full manage business expenses on the go with
-          our expenses appp
+        - L
       icon: /img/icons/payment.svg
-      title: Mobile App
+      title: Features
   cta:
-    text: Learn More About Visyond
+    text: How we compare to others
     url: /why-visyond/
   title: Why Visyond
 bgBottom: /img/footer-cover.png
