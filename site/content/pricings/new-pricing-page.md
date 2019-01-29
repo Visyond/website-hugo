@@ -61,15 +61,15 @@ pricingCards:
 whyCards:
   cards:
     - description:
-        - S
+        - Explore the variety of solutions Visyond offers
       icon: /img/icons/desktop.svg
       title: Solutions
     - description:
-        - a
+        - Find out how Visyond helps companies of all sizes
       icon: /img/icons/knowledge.svg
       title: Case Studies
     - description:
-        - L
+        - Learn more about Visyond's features
       icon: /img/icons/payment.svg
       title: Features
   cta:
