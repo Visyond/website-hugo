@@ -62,7 +62,7 @@ whyCards:
       - title: Mobile App
         icon: /img/icons/payment.svg
         description:
-          - Making it quick & easy to full manage business expenses on the go with our expenses app
+          - Making it quick & easy to full manage business expenses on the go with our expenses appp
     cta:
       url: /why-visyond/
       text: Learn More About Visyond
