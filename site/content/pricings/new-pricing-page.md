@@ -1,80 +1,87 @@
 ---
-title: 'Pricing'
+title: Pricing
 url: /pricing
 topTitle: Simple and Modular Pricing
 topSubTitle: 'We Work with Companies of All Sizes with a Flexible, Scalable Solution'
 bgImage: /img/pricing-cover.png
 pricingCards:
-  title: Visyond for
   cards:
-    - markdown: |
-        * Import your Excel file to start
-        * What-if Analysis
-        * Auto-Analysis & Simulations
-        * Financial Statements
-        * Model Auditing & Debugging
-      subTitleList: |
-        * Pay only for what you need
-        * Get value immediately
-        * Import your Excel file to start
-      title: Individual
-      img: /img/icons/individual-icon.svg
-      cta:
-        url: /accounts/signup/
+    - cta:
         text: Start Free Trial
-    - markdown: |
-        * Selective Sharing
-        * Presentations & Reporting
-        * Data Consolidation
-        * Permissions & Access
-        * Audit Trail
+        url: /accounts/signup/
+      img: /img/icons/individual-icon.svg
+      markdown: |-
+        * **Spreadsheet & Charts**
+        * **What-if & Scenario Analysis**
+        * **Interactive Presentations**
+        * Modeling & Error-detection
+        * Auto-analysis & Simulations
+        * Auto Financial Statements
+        * **From $25 per user/month**
       subTitleList: |
-        * Internal & External Collaboration
-        * Shared Work Environment
-        * Control & Accountablilty
-      title: Team
-      img: /img/icons/team-icon.svg
-      cta:
-        url: /request
+        * Import your Excel file to start
+        * Get value immediately
+        * Pay only for what you need
+      title: Individual
+    - cta:
         text: Request a demo
-    - subTitleList: |
-        * Internal & External Collaboratio
-        * Custom Integrations
-        * On-Premise / Cloud Installation
-        * Branding
-        * Onboarding Program
-      title: Enterprise
-      img: /img/icons/enterprise-icon.svg
-      cta:
         url: /request
+      img: /img/icons/team-icon.svg
+      markdown: |-
+        * **Share parts of projects**
+        * **Collaborate w/o overwriting**
+        * **Keep audit trail**
+        * Manage permissions
+        * Customize analysis
+        * Query Self-service BI
+        * **Request a demo**
+      subTitleList: |
+        * Invite Colleagues & Clients
+        * Control what they see
+        * Track what they do
+      title: Team
+    - cta:
         text: Contact Us
+        url: /request
+      img: /img/icons/enterprise-icon.svg
+      markdown: |-
+        * **Custom integrations**
+        * **On-premise installation**
+        * **Personalized workflow**
+        * Brand Identity
+        * Onboarding program
+        * Dedicated account manager
+        * **Contact Us**
+      subTitleList: |-
+        * Answer questions in real time
+        * Visualize the impact of decisions
+        * Securely interact with data
+      title: Enterprise
+  title: Visyond for
 whyCards:
-    title: Why Visyond
-    cards:
-      - title: The Software
-        icon: /img/icons/desktop.svg
-        description:
-          - Everything you need for effective business expense management
-      - title: Case Studies
-        icon: /img/icons/knowledge.svg
-        description:
-          - Meet some of our clients and see how web expenses improved their business expenses process
-      - title: Mobile App
-        icon: /img/icons/payment.svg
-        description:
-          - Making it quick & easy to full manage business expenses on the go with our expenses appp
-    cta:
-      url: /why-visyond/
-      text: Learn More About Visyond
-cardsLink: /request
+  cards:
+    - description:
+        - Everything you need for effective business expense management
+      icon: /img/icons/desktop.svg
+      title: The Software
+    - description:
+        - >-
+          Meet some of our clients and see how web expenses improved their
+          business expenses process
+      icon: /img/icons/knowledge.svg
+      title: Case Studies
+    - description:
+        - >-
+          Making it quick & easy to full manage business expenses on the go with
+          our expenses appp
+      icon: /img/icons/payment.svg
+      title: Mobile App
+  cta:
+    text: Learn More About Visyond
+    url: /why-visyond/
+  title: Why Visyond
 bgBottom: /img/footer-cover.png
-linkBottom: /request
-providesTitle: Get started in minutes
 titleBottom: Find out how to improve your decision-making process today
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
+linkBottom: /request
 ---
+
