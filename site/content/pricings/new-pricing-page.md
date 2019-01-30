@@ -10,6 +10,7 @@ pricingCards:
         text: Start Free Trial
         url: /accounts/signup/
       img: /img/icons/individual-icon.svg
+      url: /accounts/signup/
       markdown: |-
         * **Spreadsheet & Charts**
         * **What-if & Scenario Analysis**
@@ -27,6 +28,7 @@ pricingCards:
         text: Request a demo
         url: /request
       img: /img/icons/team-icon.svg
+      url: /request/
       markdown: |-
         * **Share parts of projects**
         * **Collaborate w/o overwriting**
@@ -44,6 +46,7 @@ pricingCards:
         text: Contact Us
         url: /request
       img: /img/icons/enterprise-icon.svg
+      url: /request/
       markdown: |-
         * **Custom integrations**
         * **On-premise installation**
@@ -63,14 +66,17 @@ whyCards:
     - description:
         - Explore the variety of solutions Visyond offers
       icon: /img/icons/desktop.svg
+      url: /solutions/
       title: Solutions
     - description:
         - Find out how Visyond helps companies of all sizes
       icon: /img/icons/knowledge.svg
       title: Case Studies
+      url: /casestudy/
     - description:
         - Learn more about Visyond's features
       icon: /img/icons/payment.svg
+      url: /features/
       title: Features
   cta:
     text: How we compare to others

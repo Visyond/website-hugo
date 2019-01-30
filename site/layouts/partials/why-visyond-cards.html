@@ -8,21 +8,23 @@
 
         <ul class="card__list">
             {{ range .cards }}
-            <li class="card__list-item primary">
-                <article class="card">
-                    <div class="card__title-wrap">
-                        <div class="rounded-icon-wrap">
-                            <img src="{{ .icon }}">
+            <a href="{{.url}}">
+                <li class="card__list-item primary">
+                    <article class="card">
+                        <div class="card__title-wrap">
+                            <div class="rounded-icon-wrap">
+                                <img src="{{ .icon }}">
+                            </div>
+                            <h3 class="card__title">{{ .title }}</h3>
+                            <ul class="card__subtitle">
+                                {{ range .description }}
+                                <li>{{ . }}</li>
+                                {{ end }}
+                            </ul>
                         </div>
-                        <h3 class="card__title">{{ .title }}</h3>
-                        <ul class="card__subtitle">
-                            {{ range .description }}
-                            <li>{{ . }}</li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                </article>
-            </li>
+                    </article>
+                </li>
+            </a>
             {{ end }}
         </ul>
 

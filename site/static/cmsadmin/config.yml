@@ -449,6 +449,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Title", name: "title", widget: "string"},
         {label: "Cards", name: "cards", widget: "list", fields: [
                 {label: "Title", name: "title", widget: "string"},
+                {label: "URL", name: "url", widget: "string"},
                 {label: "Icon", name: "img", widget: "image"},
                 {label: "Description", name: "subTitleList", widget: "markdown"},
                 {label: "Features", name: "markdown", widget: "markdown", required: false},
@@ -462,6 +463,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Title", name: "title", widget: "string"},
         {label: "Cards", name: "cards", widget: "list", fields: [
                 {label: "Title", name: "title", widget: "string"},
+                {label: "URL", name: "url", widget: "string"},
                 {label: "Icon", name: "icon", widget: "image"},
                 {label: "Description items", name: "description", widget: "list", field: {name: "desc-str", widget: "string"}}
         ]},
