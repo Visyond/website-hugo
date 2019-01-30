@@ -19,6 +19,10 @@
     padding: 40px 35px 30px;
     margin: 0 1em;
 
+    @media screen and (--hd) {
+        width: 300px;
+    }
+
     @media screen and (max-width: 1024px) {
         width: 100%;
 
