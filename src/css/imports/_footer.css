@@ -125,17 +125,17 @@
   @media screen and (max-width: 768px) {
     text-align: center;
     padding: 0;
-    justify-content: center;
+    justify-content: center; 
     margin-bottom: 30px;
   }
 }
 
 .footer-section-group:not(:first-child) {
-  margin-left: 70px;
+    margin-left: 70px;
 
-  @media screen and (max-width: 1211px) {
-    margin-left: 15px;
-  }
+    @media screen and (max-width: 1211px) {
+        margin-left: 15px;
+    }
 }
 
 .footer-section-group__title {
@@ -211,4 +211,18 @@
 .social__link--tw {
   background: url("/img/vimages/tw.png") center center no-repeat;
   background-size: cover;
+}
+
+.footer-section-partners {
+    & img {
+        background: rgba(255,255,255,.05);
+        border: 1px solid rgba(255,255,255,.05);
+        max-width: 15em;
+        padding: 1em;
+        margin-top: 1em;
+
+        &:first-child {
+            margin: 0;
+        }
+    }
 }
