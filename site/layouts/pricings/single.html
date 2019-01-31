@@ -22,44 +22,43 @@
         <h2 class="header-section">{{ .title | markdownify }}</h2>
         <div class="header-section--divider"></div> 
 
-        <ul class="card__list">
+        <div class="card__list">
             {{ range .cards }}
-            <a href="{{.url}}">
-                <li class="card__list-item">
+            <a href="{{.url}}" class="card__list-item">
 
-                    <article class="card">
-                        <div class="card__title-wrap">
-                            <img src="{{ .img }}">
-                            <h3 class="card__title">{{ .title }}</h3>
-                            {{ with .subTitleList }}
-                            <div class="card__subtitle">
-                                {{ . | markdownify }} 
-                            </div>
-                            {{ end }}
-                        </div>
-
-                        {{ with .markdown }}
-                        <hr class="divider-thin">
-                        <div class="card__markdown">
-                            {{ . | markdownify }}
+                <article class="card">
+                    <div class="card__title-wrap">
+                        <img src="{{ .img }}">
+                        <h3 class="card__title">{{ .title }}</h3>
+                        {{ with .subTitleList }}
+                        <div class="card__subtitle">
+                            {{ . | markdownify }} 
                         </div>
                         {{ end }}
+                    </div>
 
-                        {{ with .cta }}
-                        <div class="btn-wrap">
-                            <div
-                                class="btn-primary fluid"
-                                aria-label="button">
-                                {{ .text }}
-                            </div>
+                    {{ with .markdown }}
+                    <hr class="divider-thin">
+                    <div class="card__markdown">
+                        {{ . | markdownify }}
+                    </div>
+                    {{ end }}
+
+                    {{ with .cta }}
+                    <div class="btn-wrap">
+                        <div
+                            class="btn-primary fluid"
+                            aria-label="button">
+                            {{ .text }}
                         </div>
-                        {{ end }}
-                    </article>
-                </li>
+                    </div>
+                    {{ end }}
+                </article>
+
             </a>
             {{ end }}
 
-        </ul>
+        </div>
         {{ end }}
     </div>
 </section>
