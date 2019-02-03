@@ -50,24 +50,6 @@ infoBlockFirst:
     link: /features/selective-sharing/
     title: Secure Selective Sharing
   - altText: >-
-      Spreadsheet Collaboration Software - Combine Multiple Assumptions into
-      Scenarios in Visyond
-    descr: "Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging  spreadsheets\r\n"
-    files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Combine Multiple Assumptions into
-          Scenarios in Visyond
-        descr: >-
-          Combine as many assumptions as you like into one or multiple scenarios
-          that you can switch on-the-fly and immediately see how different
-          assumptions affect the outcome.
-        file: /img/Scenario Window in Browser.png
-        link: /features/scenarios/
-        title: COMBINE ASSUMPTIONS INTO SCENARIOS
-    image: /img/Scenario Window in Browser.png
-    link: /features/data-input-and-consolidation/
-    title: Structured Data Gathering & Consolidation
-  - altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
       Documentation Directly in Cells in Visyond
     descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
