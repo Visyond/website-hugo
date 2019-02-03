@@ -155,7 +155,7 @@ infoBlockFirst:
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Save Time When Requesting Analysis and Reports
-  - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
+  - descr: "* Add multiple assumptions without overwriting to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
       - alt: >-
           Collaborative Decision Making Software - Compare Scenarios in Real
