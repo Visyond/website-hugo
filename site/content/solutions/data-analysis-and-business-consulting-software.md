@@ -13,7 +13,7 @@ bgImage: /img/analysts_consultants 3.jpg
 infoBlockFirst:
   - descr: >-
       In seconds, Visyond lets you perform data analysis that used to take days,
-      automate typical routine tasks and test assumptions safely:
+      automate routine tasks and test assumptions safely:
 
 
       * Graphically compare scenarios and answer ‘what-if’ questions in real
@@ -116,7 +116,7 @@ infoBlockFirst:
     image: /img/2019-02 Error Root Cause.png
     link: /features/audit-mode/
     title: Audit and Debug Models with Ease
-  - descr: "* Visualize & present the data with Interactive Presentations\r\n* Have a secure environment for your stakeholders to play with assumptions\r\n* Charts and calculations in presentations are updated and automatically synced only for you without affecting anyone else’s views or the underlying spreadsheet\r\n"
+  - descr: "* Visualize & present the data with Interactive Presentations\r\n* Have a secure environment for your stakeholders to test assumptions\r\n* Charts and calculations in presentations are updated and automatically synced only for you without affecting anyone else’s views or the underlying spreadsheet\r\n"
     files:
       - alt: Business Consulting Software - Interactive Presentations in Visyond
         descr: >-
