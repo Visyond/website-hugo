@@ -13,12 +13,6 @@ feaDropdownCol:
         image: /img/selective-sharing@2x.png
         path: /features/share-spreadsheets-and-presentations-online/
         title: Selective Sharing
-      - descr: >-
-          Automate data gathering & consolidation, reduce errors and save time
-          auditing the spreadsheets.
-        image: /img/data-input@2x.png
-        path: /features/merge-excel-spreadsheets/
-        title: Data Input & Consolidation
     title: Collaboration
   - features_dropdown:
       - descr: >-
