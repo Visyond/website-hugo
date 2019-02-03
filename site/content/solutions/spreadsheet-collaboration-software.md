@@ -22,9 +22,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS
+        title: Interactive Presentations
       - alt: Spreadsheet Collaboration Software - Share Projects in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
