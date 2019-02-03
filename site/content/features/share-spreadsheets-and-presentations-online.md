@@ -48,12 +48,6 @@ featuresCards:
       Spreadsheet data, assumptions, attachments, conversations and approvals
       are stored in a single place.
     title: Knowledge Base
-  - icon: /img/data-input@2x.png
-    link: /features/data-input-and-consolidation/
-    text: >-
-      Automate data gathering & consolidation, reduce errors and save time
-      auditing the spreadsheets.
-    title: Data Input & Consolidation
   - icon: /img/import-export@2x.png
     link: /features/import-and-export/
     text: >-
