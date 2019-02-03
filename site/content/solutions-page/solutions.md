@@ -17,12 +17,6 @@ section:
           Transform the way you analyze & present spreadsheet data and make
           better decisions, faster.
         title: Analysts & Consultants
-      - icon: /img/data_input_3x.png
-        link: /solutions/data-input-and-consolidation-software
-        text: >-
-          Easily merge spreadsheets and eliminate the hassles of data
-          consolidation & gathering.
-        title: Data Input & Consolidation
       - icon: /img/decision_makers_3x.png
         link: /solutions/collaborative-decision-making-software
         text: >-
