@@ -23,12 +23,6 @@ section:
           Share spreadsheets and presentations fully or partially without
           exposing any other data or calculations.
         title: Selective Sharing
-      - icon: /img/data-input@2x.png
-        link: /features/merge-excel-spreadsheets
-        text: >-
-          Automate data gathering & consolidation, reduce errors and save time
-          auditing the spreadsheets.
-        title: Data Input & Consolidation
     title: Collaboration
   - cards:
       - icon: /img/audit-mode@2x.png
