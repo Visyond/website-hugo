@@ -22,9 +22,9 @@ infoBlockFirst:
         descr: >-
           Sensitivity analysis is a great way to better understand relationships
           between inputs and outputs of your spreadsheet.
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
-        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+        title: Set Up Sensitivity Analysis in Seconds
       - alt: >-
           Financial Data analysis Software - Impact (Tornado) Analysis in
           Visyond
@@ -33,16 +33,16 @@ infoBlockFirst:
           output so you can analyse them and understand how to reduce your
           costs, grow your revenues or increase/decrease any important Key
           Performance Indicator?
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Impact (Tornado) Analysis
       - alt: Financial Data analysis Software - Monte Carlo Simulations in Visyond
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
-        title: MONTE CARLO SIMULATION
+        title: Monte Carlo Simulation
       - alt: >-
           Financial Data analysis Software - Cell Dependencies Analysis in
           Visyond
@@ -50,10 +50,10 @@ infoBlockFirst:
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/Dependency in Browser v2.png
+        file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
-        title: DEPENDENCY ANALYSIS
-    image: /img/Sensitivity two-way v2.png
+        title: Dependency Analysis
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Analyze And Make Better Decisions Quicker
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
@@ -62,27 +62,27 @@ infoBlockFirst:
         descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
         link: /features/scenarios/
-        title: COMPARE SCENARIOS IN REAL TIME
+        title: Compare & Analyze Scenarios
       - alt: >-
           Financial Data analysis Software - Single Source of Truth for Your
           Spreadsheets
         descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
-        title: ADD MULTIPLE ASSUMPTIONS
+        title: Add Multiple Assumptions
       - alt: Financial Data analysis Software - Multiple Inputs/Cases in Visyond
         descr: >-
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
-        file: /img/Scenario Window in Browser.png
+        file: /img/2019-02 Share Project Panel.png
         link: /features/scenarios/
-        title: COMBINE ASSUMPTIONS INTO SCENARIOS
-    image: /img/Scenarios chart in Browser v4.png
+        title: Combine Assumptions into Scenarios
+    image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: >-
@@ -95,20 +95,20 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS
+        title: Interactive Presentations
       - alt: >-
           Financial Data analysis Software - Share Interactive Presentations in
           Visyond
         descr: >-
-          Allow stakeholders to see only individual parts or whole presentations
+          Allow stakeholders to see only individual slides or whole presentations
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
-        title: SELECTIVELY SHARE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v4.png
+        title: Selective Sharing
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks to Test Assumptions
   - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
@@ -119,7 +119,7 @@ infoBlockFirst:
           errors and their root cause.
         file: /img/track errors 1.png
         link: /features/audit-mode/
-        title: TRACK ERRORS AND THEIR ROOT CAUSE
+        title: Track Errors and Their Root Cause
       - alt: Financial Data analysis Software - Audit Spreadsheets in Visyond
         descr: >-
           It highlights error and circular cells clearly; The trendlines help
@@ -129,7 +129,7 @@ infoBlockFirst:
           clicks.
         file: /img/track errors.png
         link: /features/audit-mode/
-        title: TRACK ERRORS AND THEIR ROOT CAUSE
+        title: Track Errors and Their Root Cause
       - alt: >-
           Financial Data analysis Software - Human-Readable Formula Names in
           Visyond
@@ -140,15 +140,15 @@ infoBlockFirst:
           different worksheets.
         file: /img/human readable names.png
         link: /features/audit-mode/
-        title: HUMAN-READABLE NAMES
+        title: Natural Names
       - alt: >-
           Financial Data analysis Software - Navigate Cell Dependencies in
           Visyond
         descr: Easily identify precedent and dependent cells.
-        file: /img/navigate dependencies.gif
+        file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
-        title: NAVIGATE CELL DEPENDENCIES
-    image: /img/track errors 1.png
+        title: Navigate Cell Dependencies
+    image: /img/2019-02 Dependency Analysis.png
     link: /features/audit-mode/
     title: Reduce Risk of Errors
   - descr: "* You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n* Store all inputs, attachments and conversations directly in the relevant cells\r\n"
@@ -159,9 +159,9 @@ infoBlockFirst:
         descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Attachments and Comments in Browser v2.png
+        file: /img/2019-02 Comments in Cells.png
         link: /features/knowledge-base/
-        title: NEVER LOSE IMPORTANT INFORMATION
+        title: Never Lose Important Information
       - alt: >-
           Financial Data analysis Software - Store Multiple Assumptions Without
           Overwriting in Visyond
@@ -169,18 +169,18 @@ infoBlockFirst:
           Have all assumptions and numbers in a single place without worrying
           about controlling versions or chasing pieces of information in long
           email threads.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
-        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
+        title: Store Multiple Assumptions Simultaneously
       - alt: >-
           Financial Data analysis Software - Manage Spreadsheet Versions in
           Visyond
         descr: >-
           You can always roll-back entire versions of the spreadsheet if
           required.
-        file: /img/Versions in Browser.png
+        file: /img/2019-02 Versions Panel.png
         link: /features/knowledge-base/
-        title: VERSIONS
+        title: Versions
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
@@ -194,9 +194,9 @@ infoBlockFirst:
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
-        file: /img/Financial Statements in Browser.png
+        file: /img/2019-02 Financial Statements.png
         link: /features/financial-statements/
-        title: AUTO-GENERATED FINANCIAL STATEMENTS
+        title: Auto-Generated Financial Statements
       - alt: >-
           Financial Data analysis Software - Test Assumptions Through
           Interactive Slides in Visyond
@@ -204,10 +204,10 @@ infoBlockFirst:
           Empower stakeholder to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE CALCULATORS
-    image: /img/Financial Statements in Browser.png
+        title: Interactive Presentations
+    image: /img/2019-02 Financial Statements.png
     link: /features/financial-statements/
     title: Streamline Your Reporting Process
 capabilitiesList:
