@@ -32,18 +32,18 @@ infoBlockFirst:
           Business Consulting Software - Compare Scenarios in Real Time in
           Visyond
         descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
+          Compare scenarios and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
         link: /features/scenarios/
-        title: COMPARE SCENARIOS IN REAL TIME
+        title: Compare & Analyze Scenarios
       - alt: >-
           Business Consulting Software - Run Impact (Tornado) Analysis in
           Seconds in Visyond
         descr: >-
           Know what input cells have the greatest impact on important output
           cells
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Tornado (Impact) Analysis
       - alt: >-
@@ -52,17 +52,17 @@ infoBlockFirst:
         descr: >-
           Visyond’s Sensitivity Analysis lets you identify critical variables
           easily so you can focus on what’s important to save time and effort.
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: Focus On What’s Important
       - alt: Business Consulting Software - Run Monte Carlo Simulations in Visyond
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
-        title: MONTE CARLO SIMULATION
-    image: /img/Scenarios chart in Browser v4.png
+        title: Monte Carlo Simulation
+    image: /img/2019-02 Scenarios Waterfall Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Data Analysis On-The-Fly
   - descr: "* A single place to store all your spreadsheet data: assumptions, supporting documentation, conversations and approvals\r\n* No back & forth emails with bits of information, multiple versions of the spreadsheet flying around and critical data lost along the way\r\n* Manage and transfer team or client knowledge easily and stop being called all the time just to make minor changes\r\n"
@@ -73,9 +73,9 @@ infoBlockFirst:
         descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Single source of truth.png
+        file: /img/2019-02 Comments in Cells.png
         link: /features/knowledge-base/
-        title: NEVER LOSE IMPORTANT INFORMATION
+        title: Never Lose Important Information
       - alt: >-
           Business Consulting Software - Store Multiple Assumptions
           Simultaneously in Visyond
@@ -83,10 +83,10 @@ infoBlockFirst:
           Have all assumptions and numbers in a single place without worrying
           about controlling versions or chasing pieces of information in long
           email threads.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/scenarios/
-        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
-    image: /img/Single source of truth.png
+        title: Store Multiple Assumptions Simultaneously
+    image: /img/2019-02 Overview Panel.png
     link: /features/knowledge-base/
     title: Track & Never Lose Critical Information
   - descr: "Mistakes can be costly . With Visyond you can quickly:\r\n\r\n* Identify the root causes of errors\r\n* Explore [cell dependencies](/features/dependency-analysis/)\r\n* Audit the spreadsheet in [Audit Mode](/features/audit-mode/)"
@@ -133,10 +133,10 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v4.png
+        title: Interactive Presentations
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Present with Impact
   - descr: "* Communicate more efficiently while avoiding data leaks\r\n* No need for emailing spreadsheets or presentations\r\n* No back-and-forth copy-paste between PowerPoint and Excel or any other visualization tools\r\n"
@@ -162,7 +162,7 @@ infoBlockFirst:
         file: /img/Share Slide in Browser v2.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
-    image: /img/Share Project.png
+    image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Share Only What Collaborators Or Clients Need To See
 solutionsTitle: Related Solutions
