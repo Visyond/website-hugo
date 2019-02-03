@@ -95,19 +95,9 @@ infoBlockFirst:
         descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
-        file: /img/track errors 1.png
+        file: /img/2019-02 Error Root Cause.png
         link: /features/audit-mode/
-        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
-      - alt: Business Consulting Software - Audit Spreadsheets in Visyond
-        descr: >-
-          It highlights error and circular cells clearly; The trendlines help
-          you visually identify unexpected behaviors; The Precedents Panel
-          displays on top the precedent cells that are error - this way you can
-          identify the root cause of the error propagation chain with a few
-          clicks.
-        file: /img/track errors.png
-        link: /features/audit-mode/
-        title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
+        title: Track Errors and their Root Cause
       - alt: Business Consulting Software - Audit Mode in Visyond
         descr: >-
           In the Audit Mode each cell looks different based on the type of data
