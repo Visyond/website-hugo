@@ -84,12 +84,6 @@ featuresCards:
       Import and export spreadsheets, presentations, charts and reports with
       ease.
     title: Import / Export
-  - icon: /img/data-input@2x.png
-    link: /features/data-input-and-consolidation/
-    text: >-
-      Automate data gathering & consolidation, reduce errors and save time
-      auditing the spreadsheets.
-    title: Data Input & Consolidation
   - icon: /img/selective-sharing@2x.png
     link: /features/selective-sharing/
     text: >-
