@@ -16,27 +16,6 @@ watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/decision makers 2.png
 infoBlockFirst:
-  - descr: "* Make data gathering & consolidation easier by avoiding common issues that arise when collecting inputs \r\n* You no longer need to create multiple spreadsheet templates, manually distribute it among stakeholders risking accidental layout and formula changes\r\n* Forget about spending long hours auditing the spreadsheets once you’ve received them back with data\r\n"
-    files:
-      - alt: Risk Management Software for Banks - Gather Data in Visyond
-        descr: >-
-          You can share only specific cells you want stakeholders to contribute
-          data to by simply selecting the cells and inviting collaborators to
-          edit them.
-        file: /img/Templating - select cells.gif
-        link: /features/data-input-and-consolidation/
-        title: Templating in Visyond 1/2
-      - alt: Risk Management Software for Banks - Consolidate Data in Visyond
-        descr: >-
-          Every time you invite a contributor (e.g., a colleague in a department
-          or subsidiary), Visyond creates a clone of the worksheet with a name
-          you assign.
-        file: /img/Templating - invite collaborators.gif
-        link: /features/data-input-and-consolidation/
-        title: Templating in Visyond 2/2
-    image: /img/Nice Model in Browser v2.png
-    link: /features/data-input-and-consolidation/
-    title: Automate Data Gathering
   - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
     files:
       - alt: Risk Management Software for Banks - Audit Spreadsheets in Visyond
