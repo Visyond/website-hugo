@@ -113,7 +113,7 @@ infoBlockFirst:
         file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
         title: Dependency Analysis
-    image: /img/track errors 1.png
+    image: /img/2019-02 Error Root Cause.png
     link: /features/audit-mode/
     title: Audit and Debug Models with Ease
   - descr: "* Visualize & present the data with Interactive Presentations\r\n* Have a secure environment for your stakeholders to play with assumptions\r\n* Charts and calculations in presentations are updated and automatically synced only for you without affecting anyone else’s views or the underlying spreadsheet\r\n"
