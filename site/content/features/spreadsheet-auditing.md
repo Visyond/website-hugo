@@ -104,12 +104,6 @@ featuresCards:
       Share spreadsheets and presentations fully or partially without exposing
       any other data or calculations.
     title: Selective Sharing
-  - icon: /img/data-input@2x.png
-    link: /features/data-input-and-consolidation/
-    text: >-
-      Automate data gathering & consolidation, reduce errors and save time
-      auditing the spreadsheets.
-    title: Data Input & Consolidation
 providesTitle: Get started in minutes
 providesList:
   - text: >-
