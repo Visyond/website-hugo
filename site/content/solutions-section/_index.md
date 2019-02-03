@@ -8,12 +8,6 @@ solDropdownCol:
         path: /solutions/data-analysis-and-business-consulting-software/
         title: Analysts and Consultants
       - descr: >-
-          Easily merge spreadsheets and eliminate the hassles of data
-          consolidation & gathering.
-        image: /img/data_input_3x.png
-        path: /solutions/data-input-and-consolidation-software/
-        title: Data Input and Consolidation
-      - descr: >-
           Make fast and accurate decisions with Visyond’s collaborative decision
           making software.
         image: /img/decision_makers_3x.png
