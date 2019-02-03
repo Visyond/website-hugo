@@ -184,27 +184,6 @@ infoBlockFirst:
     image: /img/Single source of truth.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
-  - descr: "* Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging the spreadsheets\r\n"
-    files:
-      - alt: Financial Data analysis Software - Consolidate Data in Visyond
-        descr: >-
-          You can share only specific cells you want stakeholders to contribute
-          data to by simply selecting the cells and inviting collaborators to
-          edit them.
-        file: /img/Templating - select cells.gif
-        link: features/data-input-and-consolidation/
-        title: TEMPLATING IN VISYOND 1/2
-      - alt: Financial Data analysis Software - Gather Data in Visyond
-        descr: >-
-          Every time you invite a contributor (e.g., a colleague in a department
-          or subsidiary), Visyond creates a clone of the worksheet with a name
-          you assign.
-        file: /img/Templating - invite collaborators.gif
-        link: features/data-input-and-consolidation/
-        title: TEMPLATING IN VISYOND 2/2
-    image: /img/Nice Model in Browser v2.png
-    link: /features/data-input-and-consolidation/
-    title: Automate Data Gathering
   - descr: "* Build reports & financial statements with just a few clicks\r\n* Create Interactive Presentations, empowering stakeholders to securely test their own assumptions\r\n"
     files:
       - alt: >-
