@@ -43,35 +43,34 @@ infoBlockFirst:
         descr: >-
           Securely store spreadsheet data; multiple assumptions, scenarios,
           conversations and attachments directly in the relevant cells.
-        file: /img/Attachments and Comments in Browser v2.png
+        file: /img/2019-02 Comments in Cells.png
         link: /features/knowledge-base/
-        title: Single Source Of Truth
+        title: Single Source of Truth
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
         descr: >-
           Instead of managing multiple versions of a spreadsheet, combine data
           points into scenarios and switch them on-the-fly!
-        file: /img/scenario panel.gif
+        file: /img/2019-02 Scenario Management Panel.png
         link: /features/scenarios/
-        title: Record different scenarios
+        title: Manage Multiple Scenarios
       - alt: Spreadsheet Governance in Visyond - Selective Sharing
         descr: >-
-          Limit what parts of the spreadsheet people can interact with, down to
-          a single cell.
-        file: /img/Nice Model in Browser v2.png
+          Limit what parts of the spreadsheet people can see or interact with.
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Secure Selective Sharing
       - alt: Spreadsheet Governance in Visyond - Track Changes and Inputs
         descr: >-
           Keep track of inputs, changes and versions with always up-to-date
           automatic reports and interactive presentation.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
-        title: Track Inputs
+        title: Track Inputs & Changes
       - alt: Spreadsheet Data Presentation - Interactive Presentations
         descr: >-
           Gather assumptions and enable others to test them through simple
           interfaces, without changing (and risking to break) the spreadsheet.
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: Test Assumptions
     image: /img/Homepage Collaboration v2 small.png
@@ -98,31 +97,31 @@ infoBlockFirst:
         descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
-        title: COMPARE SCENARIOS IN REAL TIME
+        title: Compare & Analyze Scenarios
       - alt: Spreadsheet Data Analysis in Visyond - Impact (Tornado) Analysis
         descr: >-
           With Visyond, you can run Impact (Tornado) Analysis without long
           manual setups and quickly see how sensitive your data set is to
           changes.
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Stress-Test Your Data with Tornado Analysis
       - alt: Spreadsheet Data Analysis in Visyond - Sensitivity Analysis
         descr: >-
           Visyond’s Sensitivity Analysis lets you identify critical variables
           easily so you can focus on what’s important to save time and effort.
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
-        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+        title: Set Up Sensitivity Analysis in Seconds
       - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
-        title: MONTE CARLO SIMULATION
+        title: Monte Carlo Simulations
     image: /img/Homepage Analysis v2 small.png
     link: /solutions/analysis/
     title: Automate Analysis & Reporting
@@ -146,9 +145,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS & APPS
+        title: Interactive Presentations
       - alt: >-
           Spreadsheet Data Reporting in Visyond - Financial Statements, Reports
           and KPIs
@@ -157,9 +156,9 @@ infoBlockFirst:
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
-        file: /img/Financial Statements in Browser.png
+        file: /img/2019-02 Financial Statements.png
         link: /features/financial-statements/
-        title: AUTO-GENERATED FINANCIAL STATEMENTS
+        title: Auto-Generated Financial Statements
     image: /img/Homepage Presentation v1 small.png
     link: /solutions/presentation
     title: Present Interactive Data With Impact
