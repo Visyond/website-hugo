@@ -33,7 +33,7 @@ infoBlockFirst:
         descr: Share whole presentations or just individual slides.
         file: /img/Share Slide in Browser v2.png
         link: /features/selective-sharing/
-        title: SHARE PRESENTATIONS
+        title: Share Presentations
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Securely Handle Your Data
@@ -68,10 +68,10 @@ infoBlockFirst:
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/Dependency in Browser v2.png
+        file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
-    image: /img/track errors 1.png
+    image: /img/2019-02 Dependency Analysis.png
     link: /features/audit-mode/
     title: Audit Models & Reduce Risk of Errors
   - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions in real time\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
@@ -96,7 +96,7 @@ infoBlockFirst:
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
     image: /img/2019-02 Scenario Management Panel.png
-    link: ''
+    link: /features/scenario-analysis-software/
     title: Revolutionize The Way You Access Key Information
   - descr: "* Visyond is cloud-based (or on-premise) so you never lose information \r\n* Manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop)\r\n* Reduce dependency from the model creator by enabling collaborative analysis and stress testing through interactive presentations and calculators\r\n* Never break formulas or lose your teams’ work and track their input and changes\r\n"
     files:
@@ -127,7 +127,7 @@ infoBlockFirst:
           Presentations!
         file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS
+        title: Interactive Presentations
     image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Focus on What Matters and Never Lose Critical Information
