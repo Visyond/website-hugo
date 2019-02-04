@@ -43,7 +43,7 @@ infoBlockFirst:
           Spreadsheet Collaboration Software - Share Interactive Presentations
           in Visyond
         descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/selective-sharing/
         title: Share Presentations
     image: /img/Interactive Slides in Browser v4.png
