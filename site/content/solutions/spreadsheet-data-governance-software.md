@@ -60,7 +60,7 @@ infoBlockFirst:
         descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
-        file: /img/track errors 1.png
+        file: /img/2019-02 Error Root Cause.png
         link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE
       - alt: Merge Spreadsheets in Visyond - Analyze Cells Dependencies
@@ -71,7 +71,7 @@ infoBlockFirst:
         file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
-    image: /img/2019-02 Dependency Analysis.png
+    image: /img/2019-02 Error Root Cause.png
     link: /features/audit-mode/
     title: Audit Models & Reduce Risk of Errors
   - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions in real time\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
