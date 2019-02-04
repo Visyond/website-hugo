@@ -27,5 +27,8 @@ pressarticles:
       with leading retailers provide a solid foundation for creating
       well-defined business and marketing solutions.
     url: 'https://www.ovsa.co.za/'
+  - logo: /img/logo_color.png
+    title: Contact Us to become Visyond Partner!
+    url: /contacts
 ---
 
