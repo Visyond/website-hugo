@@ -9,6 +9,7 @@ pressarticles:
   - alt: GF Accord logo
     company: ''
     logo: /img/GF Accord.jpg
+    name: ''
     title: >-
       Mincomes SA offers the GF-ACCORD services and products originally
       conceived by Georgios Fradelos, PhD: 1. Global Business Consulting
@@ -18,5 +19,13 @@ pressarticles:
       Business, Finance and Technology Professionals 3. AI-CHATBOTS replacing
       first points of contact 4. Promotion of websites and Facebook pages
     url: 'https://www.gf-accord.biz/'
+  - alt: Orion Ventures Logo
+    logo: /img/Orion Ventures.png
+    title: >-
+      Orion Ventures is a business solutions provider based in Hillcrest, 
+      KZN.    Our systems and business background as well as our  experience
+      with leading retailers provide a solid foundation for creating
+      well-defined business and marketing solutions.
+    url: 'https://www.ovsa.co.za/'
 ---
 
