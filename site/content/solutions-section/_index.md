@@ -33,7 +33,7 @@ solDropdownCol:
           testing assumptions.
         image: /img/data_governance_3x.png
         path: /solutions/data-tracking-software/
-        title: Data Governance
+        title: Data Tracking
       - descr: >-
           Collaboratively perform spreadsheet data analysis and securely share
           valuable business insights with Visyond’s data analysis software.
