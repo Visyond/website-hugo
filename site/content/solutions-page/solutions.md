@@ -43,7 +43,7 @@ section:
           Improve spreadsheet data tracking - reduce the risks of errors,
           unauthorized access, data overriding and breaking the model while
           testing assumptions.
-        title: Data Governance
+        title: Data Tracking
       - icon: /img/collaborative_analysis_3x.png
         link: /solutions/data-analysis-software
         text: >-
