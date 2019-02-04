@@ -46,7 +46,7 @@ infoBlockFirst:
         file: /img/2019-02 Interactive Presentation.png
         link: /features/selective-sharing/
         title: Share Presentations
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/selective-sharing/
     title: Secure Selective Sharing
   - altText: >-
@@ -60,10 +60,10 @@ infoBlockFirst:
         descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Attachments and Comments in Browser v2.png
+        file: /img/2019-02 Comments in Cells.png
         link: /features/knowledge-base/
-        title: NEVER LOSE IMPORTANT INFORMATION
-    image: /img/Attachments and Comments in Browser v2.png
+        title: Never Lose Important Information
+    image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
     title: Single Source of Truth for Your Spreadsheets
   - altText: >-
@@ -78,10 +78,10 @@ infoBlockFirst:
           Have all assumptions and numbers in a single place without worrying
           about controlling versions or chasing pieces of information in long
           email threads.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
-        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
-    image: /img/Cases in Browser v2.png
+        title: Store Multiple Assumptions Simultaneously
+    image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Input Tracking and Version Control
   - altText: >-
