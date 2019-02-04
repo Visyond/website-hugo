@@ -1,11 +1,11 @@
 ---
 title: Spreadsheet Data Governance Software
 metaTags: "<meta name=\"title\" content=\"\">\r\n\r\n<meta name=\"description\" content=\"\">\r\n\r\n<meta name=\"keywords\" content=\"\">\r\n"
-topTitle: >-
-  Spreadsheet Data Governance & Sharing
+topTitle: Spreadsheet Data Governance & Sharing
 topSubTitle: >-
-  Improve your data governance & sharing, dramatically reduce risk of unauthorized access, 
-  establish single source of truth and have full control over it with Visyond
+  Improve your data governance & sharing, dramatically reduce risk of
+  unauthorized access,  establish single source of truth and have full control
+  over it with Visyond
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
@@ -13,27 +13,14 @@ bgImage: /img/Collab 1 resized 3.jpg
 infoBlockFirst:
   - descr: "* Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing \r\n* Expose only what each collaborator should see or interact with - certain worksheets, reports or individual slides in presentations\r\n"
     files:
-      - alt: Collaborative Decision Making Software - Share Project in Visyond
+      - alt: Collaborative Decision Making Software - Sharing in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions. Manage who can see or can
+          not see specific worksheets and slides in your project.
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
-        title: SHARE PROJECT
-      - alt: Collaborative Decision Making Software - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        link: /features/selective-sharing/
-        title: SHARE WORKSHEETS
-      - alt: >-
-          Collaborative Decision Making Software - Share Interactive
-          Presentations in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
-        link: /features/selective-sharing/
-        title: Share Presentations
+        title: Selective Sharing
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Securely Handle Your Data
@@ -54,7 +41,15 @@ infoBlockFirst:
     image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
     title: Single Source of Truth for Your Spreadsheets
-  - descr: "* Avoid manual auditing and automate spreadsheet error-checking in a few clicks \r\n* Quickly identify root causes of errors\r\n* Visually navigate cell dependencies\r\n* Enjoy auto-formatting and human-readable formula names\r\n"
+  - descr: >-
+      * Avoid manual auditing and automate spreadsheet error-checking in a few
+      clicks 
+
+      * Quickly identify root causes of errors
+
+      * Visually navigate cell dependencies
+
+      * Enjoy auto-formatting and human-readable formula names
     files:
       - alt: Merge Spreadsheets in Visyond - Track Root Causes of Errors
         descr: >-
@@ -89,9 +84,7 @@ infoBlockFirst:
       - alt: >-
           Collaborative Decision Making Software - Compare Scenarios in Real
           Time in Visyond
-        descr: >-
-          Compare scenarios and gain valuable insights in just a
-          few clicks!
+        descr: Compare scenarios and gain valuable insights in just a few clicks!
         file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
@@ -143,7 +136,7 @@ infoBlockFirst:
         title: Dependency Analysis
     image: /img/2019-02 Dependency Analysis.png
     link: /features/dependency-analysis/
-    title: Error Root Cause & Dependencies Tracking    
+    title: Error Root Cause & Dependencies Tracking
   - descr: "* Visyond’s secure selective sharing and interactive presentations & calculators provide a safe, secure and controlled environment for testing assumptions\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n"
     files:
       - alt: >-
@@ -163,7 +156,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Share Presentations
-    image: /img/2019-02 Interactive Presentation.png
+    image: /img/2019-02 Share Project Panel.png
     link: /features/interactive-presentations/
     title: Secure Selective Sharing
 capabilitiesList:
@@ -185,3 +178,4 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 botRequestURL: /request
 ---
+
