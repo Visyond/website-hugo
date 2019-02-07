@@ -1,5 +1,6 @@
 ---
 title: Lorem Ipsum
+date: 2019-02-07T00:00:00+02:00
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula quam tortor. Nunc lacinia congue leo et auctor. Duis varius nibh diam. Vivamus at vehicula est, in consectetur est. Maecenas eget quam sed nunc congue mattis. Nullam auctor nunc et purus vehicula cursus. Aliquam eu suscipit massa, egestas scelerisque velit. Sed tellus mauris, ultricies tincidunt diam a, pharetra vehicula neque. Pellentesque pharetra justo in velit placerat dictum. Nulla at convallis ante. Quisque ut pulvinar lacus. Integer ante lectus, hendrerit mollis nibh vel, finibus porttitor dolor. Sed at velit maximus ex viverra malesuada ac facilisis augue. Suspendisse potenti.
