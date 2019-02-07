@@ -1,7 +1,8 @@
 ---
 title: Lorem Ipsum
-date: 2019-02-07T00:00:00+02:00
+date: 2019-02-06T22:00:00.000Z
 ---
+![undefined](/img/2019-02 Dependency Analysis.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula quam tortor. Nunc lacinia congue leo et auctor. Duis varius nibh diam. Vivamus at vehicula est, in consectetur est. Maecenas eget quam sed nunc congue mattis. Nullam auctor nunc et purus vehicula cursus. Aliquam eu suscipit massa, egestas scelerisque velit. Sed tellus mauris, ultricies tincidunt diam a, pharetra vehicula neque. Pellentesque pharetra justo in velit placerat dictum. Nulla at convallis ante. Quisque ut pulvinar lacus. Integer ante lectus, hendrerit mollis nibh vel, finibus porttitor dolor. Sed at velit maximus ex viverra malesuada ac facilisis augue. Suspendisse potenti.
 
@@ -11,4 +12,4 @@ Duis sit amet eleifend neque. Curabitur a quam vel enim tempor sagittis. Maecena
 
 Aliquam pellentesque quam a commodo vulputate. Phasellus ac turpis mattis, varius mauris et, vehicula sapien. Integer a justo dictum, dignissim neque et, eleifend nunc. Sed metus quam, finibus non lorem id, consequat pellentesque nulla. Vestibulum maximus dolor vitae ipsum venenatis iaculis. Donec faucibus sed felis a euismod. Fusce sed congue nisi. Integer congue metus vestibulum orci volutpat blandit. Etiam at ipsum nec ligula malesuada aliquet. Donec et pellentesque nisi, vel varius velit. Maecenas semper odio mi, eu aliquet libero iaculis vitae. Vivamus volutpat efficitur sagittis. Fusce eget sem ut metus ultricies vulputate. Vivamus vitae diam scelerisque, sodales justo ac, lacinia velit. Praesent tincidunt tempor neque, eget efficitur enim lacinia a. Etiam porttitor lorem mauris, eu pretium lorem volutpat vel.
 
-Sed molestie maximus libero, vel varius tellus dapibus eu. Nam nec diam hendrerit, feugiat neque ac, accumsan nunc. Donec sit amet nisl pulvinar, tristique mauris in, dignissim enim. Donec dui mi, pretium gravida tincidunt nec, laoreet eget risus. Fusce fringilla elementum rutrum. Integer convallis auctor tempus. Aliquam lacinia euismod enim, egestas hendrerit elit. 
+Sed molestie maximus libero, vel varius tellus dapibus eu. Nam nec diam hendrerit, feugiat neque ac, accumsan nunc. Donec sit amet nisl pulvinar, tristique mauris in, dignissim enim. Donec dui mi, pretium gravida tincidunt nec, laoreet eget risus. Fusce fringilla elementum rutrum. Integer convallis auctor tempus. Aliquam lacinia euismod enim, egestas hendrerit elit.
