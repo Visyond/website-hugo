@@ -5,6 +5,8 @@ backend:
 
 publish_mode: editorial_workflow
 
+enableRobotsTXT: true
+
 media_folder: "site/static/source-img" # Folder where user uploaded files should go
 public_folder: "img"
 
