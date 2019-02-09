@@ -5,6 +5,8 @@ title = "Homepage"
 paginage = 10
 paginatePath ="casestudies"
 
+enableRobotsTXT = true
+
 [menu]
   [[menu.main]]
     identifier = "home"
