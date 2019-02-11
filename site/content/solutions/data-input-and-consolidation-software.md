@@ -1,7 +1,7 @@
 ---
 aliases: /solutions/data-input-and-consolidation/
 title: Data Input and Consolidation Software
-metaTags: "<meta name=\"title\" content=\"Merge Excel Spreadsheets with Smart Data Consolidation Tool\">\r\n \r\n<meta name=\"description\" content=\"Visyond offers convenient spreadsheet data consolidation tools to help you merge Excel spreadsheets, consolidate spreadsheets into one and cut days worth of effort down to minutes.\">\r\n \r\n<meta name=\"keywords\" content=\"merge excel spreadsheets, data consolidation tools, merge spreadsheets, consolidate spreadsheets into one\">\r\n"
+metaTags: "<meta name=\"robots\" content=\"noindex\">\n\n<meta name=\"title\" content=\"Merge Excel Spreadsheets with Smart Data Consolidation Tool\">\r\n \r\n<meta name=\"description\" content=\"Visyond offers convenient spreadsheet data consolidation tools to help you merge Excel spreadsheets, consolidate spreadsheets into one and cut days worth of effort down to minutes.\">\r\n \r\n<meta name=\"keywords\" content=\"merge excel spreadsheets, data consolidation tools, merge spreadsheets, consolidate spreadsheets into one\">\r\n"
 topTitle: >-
   Easily Merge Excel Spreadsheets and Eliminate the Hassles of Data
   Consolidation & Gathering
