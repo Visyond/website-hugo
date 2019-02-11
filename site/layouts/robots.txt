@@ -1,0 +1,45 @@
+User-agent: *
+
+Disallow: /solutions/data-input-and-consolidation-software/
+Disallow: /solutions/data-input-and-consolidation/
+Disallow: /features/merge-excel-spreadsheets/
+Disallow: /features/data-input-and-consolidation/
+Disallow: /cases/
+Disallow: /solutions_analysts_consultants/
+Disallow: /hometest/
+Disallow: /hometest/testhomepage/
+Disallow: /values/
+Disallow: /npricing/
+Disallow: /tags/
+Disallow: /solutions-page/
+Disallow: /features-page/
+Disallow: /pricings/
+Disallow: /pricing-old/
+Disallow: /categories/
+Disallow: /analysis/
+Disallow: /trustedslider/
+Disallow: /trustedslider-dark/
+Disallow: /testimonials/
+Disallow: /solutions-section/
+Disallow: /features-section/
+Disallow: /nav/
+Disallow: /home/
+Disallow: /counters/
+Disallow: /cookies/
+Disallow: /casestudiessection/
+Disallow: /case-studies-section-new/
+Disallow: /blog/
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sitemap: 
