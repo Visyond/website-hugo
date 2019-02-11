@@ -29,17 +29,3 @@ Disallow: /cookies/
 Disallow: /casestudiessection/
 Disallow: /case-studies-section-new/
 Disallow: /blog/
-
-
-
-
-
-
-
-
-
-
-
-
-
-Sitemap: 
