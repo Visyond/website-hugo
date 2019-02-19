@@ -9,8 +9,6 @@ trustedLogos:
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
     logo: /img/elearn2.png
-  - alt: Ericsson Logo
-    logo: /img/v_ericsson.png
   - alt: Datadvance Logo
     logo: /img/datadvance-logo black and white 15.png
   - alt: CY4GATE Logo
