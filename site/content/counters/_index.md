@@ -111,8 +111,8 @@ countersScripts: >-
 
 
   <script type="text/javascript">
-    var pageName = location.pathname;
-    window.onload = function(){Intercom('trackEvent', 'Page Visit: ${pageName}');}
+    var eventName = 'Page Visit: ' + location.pathname;
+    window.onload = function(){Intercom('trackEvent', 'eventName');}
   </script>
 ---
 
