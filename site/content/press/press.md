@@ -4,6 +4,13 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: Finance Digest Logo
+    logo: /img/Finance Digest Logo.png
+    title: >-
+      Finance Transformation: How Cloud Solutions Can Be A Catalyst For Process
+      Improvement As Well As A Driver Of Business Transformation
+    url: >-
+      https://www.financedigest.com/finance-transformation-cloud-solutions-can-catalyst-process-improvement-well-driver-business-transformation.html
   - alt: Be The Business Logo
     logo: /img/BeTheBusiness.png
     title: Six business leaders share their favourite productivity tools
