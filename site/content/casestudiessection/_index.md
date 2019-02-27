@@ -3,18 +3,18 @@ studiesTitle: Featured case studies
 studiesLinkText: Explore More Case Studies
 studiesLink: /casestudy
 studiesBlock:
-  - author: 'Kedar Thakar, Principal Value Consultant'
-    image: /img/logo_small.png
+  - author: 'Chief Modeler'
+    image: /img/telecommunication_3x.png
     linkText: Learn More
     linkUrl: >-
-      /casestudy/how-a-leading-telecom-vendor-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+      /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
     text: >-
       Visyond has greatly improved my productivity by reducing time spent on
       spreadsheet analysis, presentations and updates by more than 80%. This
       allowed me to focus on business impact rather than the intricacies of
       modeling I had to deal with in Excel.
     title: >-
-      How a Leading Telecom Vendor accelerates their business case workflow by
+      How a Leading Telecom Company accelerates their business case workflow by
       80% and empowers their customers with Visyond
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
     image: /img/elet2.png
