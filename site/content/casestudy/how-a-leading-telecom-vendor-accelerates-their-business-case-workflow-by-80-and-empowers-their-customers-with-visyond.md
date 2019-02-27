@@ -118,7 +118,7 @@ Therefore, the Chief Modeler **had to hire software developers to create a web v
 * Long delays between changes in model logic or correction of errors or software bugs, and redeployment of the web page
 * Lack of flexibility if the customers or fair-goers wanted to play with assumptions that Company decided not to code in the software
 
-![The Excel model had to be encoded into a web app](/img/7b Encode Excel Model 2.png)
+![The Excel model had to be encoded into a web app](/img/7b Encode Excel Model.png)
 
 ## Keeping visualizations in sync with models was troublesome
 
