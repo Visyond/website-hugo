@@ -4,6 +4,10 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - logo: /img/Compare the Cloud logo.png
+    title: What Does an Augmented Workforce Really Look Like?
+    url: >-
+      https://www.comparethecloud.net/articles/what-does-an-augmented-workforce-really-look-like/
   - alt: Finance Digest Logo
     logo: /img/Finance Digest Logo.png
     title: >-
