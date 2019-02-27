@@ -1,20 +1,24 @@
 ---
-aliases: /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+aliases: >-
+  /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
 metaTags: >-
-  <meta property="og:title" content="Visyond - Leading Telecom Vendor Case Study"/>
+  <meta property="og:title" content="Visyond - Leading Telecom Vendor Case
+  Study"/>
 
   <meta property="og:type" content="website" />
 
-  <meta property="og:image"
-  content="https://visyond.com/img/logo_small.png"/>
+  <meta property="og:image" content="https://visyond.com/img/logo_small.png"/>
 
-  <meta property="og:description" content="How a Leading Telecom Vendor accelerates their
-  business case workflow by 80% and empowers their customers with Visyond"/>
+  <meta property="og:description" content="How a Leading Telecom Vendor
+  accelerates their business case workflow by 80% and empowers their customers
+  with Visyond"/>
 
-  <meta property="og:url" content="https://visyond.com/how-a-leading-telecom-vendor-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond" />
+  <meta property="og:url"
+  content="https://visyond.com/how-a-leading-telecom-vendor-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond"
+  />
 title: >-
-  How a Leading Telecom Vendor accelerates their business case workflow by 80% and empowers
-  their customers with Visyond
+  How a Leading Telecom Company accelerates their business case workflow by 80%
+  and empowers their customers with Visyond
 image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Telecom'
@@ -22,25 +26,40 @@ tooltip:
   - title: 'Use Cases: Sales Negotiation, Impact Modeling, Analysis, Presentation'
 client: /img/Chief Modeler Portrait.png
 client_ask: >-
-  Every time a telecom company has to prepare a business case to display the value of their solutions or an investment ROI, most likely 
-  they use spreadsheets, business intelligence tools and presentations.
-  
-  The business environment of our Client, requires quick turnaround in model changes and active collaboration with their clients
-  and internal stakeholders.
+  Every time a telecom company has to prepare a business case to display the
+  value of their solutions or an investment ROI, most likely they use
+  spreadsheets, business intelligence tools and presentations.
 
-  When account managers are in sales meetings, the modeler is asked to be ready to help in case changes to the model are required.
 
-  The stakeholders for this workflow are:
-  * the Chief Modeler: before Visyond he had to maintain many copies of the spreadsheets and presentations
-  
+  The business environment of our Client requires quick turnaround in model
+  changes and active collaboration with their clients and internal stakeholders.
+
+
+  When account managers are in sales meetings, the modeler is asked to be ready
+  to help in case changes to the model are required.
+
+
+  The stakeholders for this workflow are: 
+
+
+  **The Chief Modeler** - before Visyond he had to maintain many copies of the
+  spreadsheets and presentations
+
+
   > _I have been doing business impact modeling for many years. Since it is an
   iterative process, I needed quick turnaround in testing and presenting changes
   after client interactions._
 
-  * the Account Managers: responsible for presenting to our Client's clients the value of their solutions
-  
-  * our Client's clients: requesting to test different scenarios and assumptions to better understand the value of the solution
 
+  **The Account Managers** - responsible for presenting to our Client's clients
+  the value of their solutions
+
+
+  **Our Client's clients** - requesting to test different scenarios and
+  assumptions to better understand the value of the solution
+
+
+  ![undefined](/img/0 Hierarchy.png)
 aside:
   - content: '![Company Logo](/img/telecommunication_3x.png)'
   - content: "**Challenge**\n\n* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
