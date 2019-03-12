@@ -83,7 +83,7 @@ gulp.task("svg", () => {
   return gulp
     .src("site/layouts/partials/svg.html")
     .pipe(inject(svgs, { transform: fileContents }))
-    .pipe(gulp.dest("site/layouts/partials/"));
+    .pipe(gulp.dest("./dist/img"));
 });
 
 gulp.task("img", () => {
@@ -99,7 +99,7 @@ gulp.task("img", () => {
         use: [pngquant()]
       })
     )
-    .pipe(gulp.dest("site/static/img"))
+    .pipe(gulp.dest("./dist/img"))
     .pipe(browserSync.stream());
 });
 
