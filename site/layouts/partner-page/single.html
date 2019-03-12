@@ -1,0 +1,18 @@
+{{ partial "head" . }}
+
+<!-- first section -->
+<section class="cover" style="background-image: url({{ .Params.BgImage }})">
+
+    <h1 class="cover-header">
+        {{ .Params.TopTitle }}
+    </h1>
+
+    <div class="cover-header--sub">
+        {{ .Params.TopSubTitle }}
+    </div>
+</section>
+<!-- //first section -->
+
+{{ partial "get-started" . }}
+
+{{ partial "footer" . }}

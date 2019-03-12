@@ -11,6 +11,33 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "partner-page"
+    label: "Partner page"
+    folder: "site/content/partner-page"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Background Image", name: "bgImage", widget: "image", required: false,}
+      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+      - {label: "Provides List", name: "providesList", widget: "list", fields: [
+        {label: "Provides Item", name: "text", widget: "markdown"},
+      ],}
+      - { label: "Featured Background", name: "featuredBg", widget: image}
+      - { label: "Featured Title", name: "featuredTitle", widget: string}
+      - { label: "Featured Hover", name: "featured", widget: "list",
+          fields: [
+            {label: "Logo", name: "logo", widget: "image"},
+            {label: "Link", name: "link", widget: "string"},
+            {label: "Logo Alt Text", name: "alt", widget: "string"},
+            {label: "Description", name: "descr", widget: "string"},
+          ],
+          required: false,
+        }
+      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
+
   - name: "blog"
     label: "Blog"
     folder: "site/content/blog"
