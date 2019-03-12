@@ -13,6 +13,8 @@ import inject from "gulp-inject";
 import imagemin from "gulp-imagemin";
 import pngquant from "imagemin-pngquant";
 import csso from "postcss-csso";
+import changed from "gulp-changed";
+import debug from "gulp-debug";
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${
@@ -87,6 +89,8 @@ gulp.task("svg", () => {
 gulp.task("img", () => {
   return gulp
     .src("site/static/source-img/*")
+    .pipe(changed("site/static/img"))
+    .pipe(debug())
     .pipe(
       imagemin({
         interlaced: true,
