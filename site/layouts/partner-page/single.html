@@ -1,18 +1,83 @@
 {{ partial "head" . }}
 
-<!-- first section -->
-<section class="cover" style="background-image: url({{ .Params.BgImage }})">
+<div class="partners-page">
+    <!-- first section -->
+    <section class="cover" style="background-image: url({{ .Params.BgImage }})">
 
-    <h1 class="cover-header">
-        {{ .Params.TopTitle }}
-    </h1>
+        <h1 class="cover-header">
+            {{ .Params.TopTitle }}
+        </h1>
 
-    <div class="cover-header--sub">
-        {{ .Params.TopSubTitle }}
-    </div>
-</section>
-<!-- //first section -->
+        <div class="cover-header--sub">
+            {{ .Params.TopSubTitle }}
+        </div>
+    </section>
+    <!-- //first section -->
 
-{{ partial "get-started" . }}
+    <!-- second section -->
+    <section class="benefits-section half-light-blue">
+
+        <div class="container">
+            <h2 class="header-section">
+                <!--{{ .Params.BenefitsHeader }}-->
+                Partner Benefits
+            </h2>
+            <div class="header-section--divider"></div>
+
+            <div class="benefits-items">
+                {{ range .Params.benefitsItems }}
+                <div class="benefit">
+
+                    <img src="{{ .img }}" alt="" class="benefit-icon">
+                    <h5 class="benefit-headline">
+                        {{ .title }}
+                    </h5>
+                    <p class="benefit-text">
+                        {{ .subTitle | markdownify }}
+                    </p>
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+    </section>
+    <!-- //second section -->
+
+    <!-- second section -->
+    <section class="types-section">
+        {{ with .Params.typesSection }}
+        <div class="container">
+            <h2 class="header-section">
+                {{ .benefitsHeader }}
+            </h2>
+            <div class="header-section--divider"></div>
+            <div class="types-items">
+                {{ range .types }}
+                <div class="type">
+                    <img src="{{ .icon }}" alt="" class="type-icon">
+                    <h5 class="type-headline">
+                        {{ .title }}
+                    </h5>
+                    <p class="type-text">
+                        {{ .subTitle | markdownify}}
+                    </p>
+                </div>
+                {{ end }}
+            </div>
+            {{ with .cta }}
+            <div class="btn-wrap">
+                <a class="btn-primary" href="{{ .url }}">
+                    {{ .text }}
+                </a>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </section>
+    <!-- //second section -->
+
+    {{ partial "get-started" . }}
+</div>
 
 {{ partial "footer" . }}

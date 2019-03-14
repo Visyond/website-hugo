@@ -19,24 +19,49 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Top Title", name: "topTitle", widget: "string", required: true}
       - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Background Image", name: "bgImage", widget: "image", required: false,}
-      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+      - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
+
+      - { label: "Benefits items", name: "benefitsItems", widget: "list",
+        fields: [
+          {label: "Icon", name: "img", widget: "image", required: false,},
+          {label: "Title", name: "title", widget: "string", required: false,},
+          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ],
+        required: false,
+      }
+
+      - { label: "Types section", name: "typesSection", widget: "object", fields: [
+              { label: "Benefits header", name: "benefitsHeader", widget: "string", required: false,},
+              { label: "Type", name: "types", widget: "list", fields: [
+                { label: "Icon", name: "icon", widget: "image", required: false,},
+                { label: "Title", name: "title", widget: "string", required: false,},
+                { label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+              ], required: false,},
+              {label: "CTA Button", name: "cta", widget: "object", fields: [
+                {label: "URL", name: "url", widget: "string"},
+                {label: "Text", name: "text", widget: "string"}
+              ]}
+            ], required: false,}
+
+      - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
-      ],}
-      - { label: "Featured Background", name: "featuredBg", widget: image}
-      - { label: "Featured Title", name: "featuredTitle", widget: string}
+        {label: "Provides Item", name: "text", widget: "markdown", required: false,},
+      ], required: false,}
+      - { label: "Featured Background", name: "featuredBg", widget: image, required: false,}
+      - { label: "Featured Title", name: "featuredTitle", widget: string, required: false,}
       - { label: "Featured Hover", name: "featured", widget: "list",
           fields: [
-            {label: "Logo", name: "logo", widget: "image"},
-            {label: "Link", name: "link", widget: "string"},
-            {label: "Logo Alt Text", name: "alt", widget: "string"},
-            {label: "Description", name: "descr", widget: "string"},
+            {label: "Logo", name: "logo", widget: "image", required: false,},
+            {label: "Link", name: "link", widget: "string", required: false,},
+            {label: "Logo Alt Text", name: "alt", widget: "string", required: false,},
+            {label: "Description", name: "descr", widget: "string", required: false,},
           ],
           required: false,
         }
-      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
+
+      - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
+
 
   - name: "blog"
     label: "Blog"

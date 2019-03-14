@@ -1,0 +1,125 @@
+/*benefit section*/
+.benefits-section{
+    padding: 70px 0;
+}
+.benefits-items{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(2, minmax(445px, 1fr));
+    justify-content: center;
+}
+.benefit {
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 13px 7px 41px 0 rgba(107,133,187,0.33);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.benefit-icon{
+    max-width: 141px;
+    height: auto;
+}
+.benefit-headline{
+    color: #0E2639;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+}
+.benefit-text{
+    opacity: 0.5;
+    color: #0E2639;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+@media screen and (max-width: 1021px) {
+    .benefits-items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 700px) {
+    .benefits-items{
+        grid-template-columns: 1fr;
+    }
+}
+
+/*types section*/
+.types-section{
+    padding: 70px 0 120px;
+}
+.types-items{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.type-icon{
+    max-width: 125px;
+    height: auto;
+}
+.type-headline{
+    color: #0E2639;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.type-text{
+    opacity: 0.5;
+    color: #0E2639;
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+}
+@media screen and (max-width: 1021px) {
+    .types-items{
+        grid-template-columns: 1fr;
+    }
+}
+
+/*COVER section*/
+.partners-page .cover{
+    padding: 140px 0;
+    background-position: center 20%;
+}
+.partners-page .cover-header{
+    font-size: 56px;
+    font-weight: 300;
+}
+.partners-page .cover-header--sub{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+
+/*mixed styles*/
+.partners-page .header-section{
+    color: #50546D;
+    font-size: 32px;
+    font-weight: 300;
+}
+.half-light-blue{
+    background: linear-gradient(to bottom, rgba(6, 133, 255, 0.04) 380px, #ffffff 380px);
+}
+
+/*demo section*/
+.partners-page .demoSection .section-header{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+.partners-page .demoSection .button{
+    border-radius: 25px;
+}
