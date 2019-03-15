@@ -1,27 +1,8 @@
 ---
-title: test title
+title: Partner page
 topTitle: Partner with Visyond
 topSubTitle: Grow your business and build new revenue stream
 bgImage: /img/partners-hero.jpg
-providesTitle: Get started in minutes
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
-featured:
-  - alt: The Telegraph Logo
-    link: ''
-    logo: /img/telegraph.png
-  - alt: NatWest Logo
-    link: ''
-    logo: /img/NatWest Logo.png
-  - alt: GrowthBusiness Logo
-    link: ''
-    logo: /img/GrowthBusiness Logo.png
-titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/footer-bg.png
 BenefitsHeader: Partner Benefits
 benefitsItems:
   - img: /img/icons/flexible.png
@@ -51,13 +32,19 @@ typesSection:
     cta:
         text: Become a Partner
         url: #
-
 formHeader:  Find Out More About Our Partner Programs
 submitButtonTitle: Submit Inquiries
 radio: 
     - labelRadioButton: Independent Sales
     - labelRadioButton: Channel Partners
     - labelRadioButton: Integration & Software
-        
-  
+providesTitle: Get started in minutes
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
+titleBottom: Find out how to improve your decision-making process today
+bgBottom: /img/footer-bg.png
 ---
