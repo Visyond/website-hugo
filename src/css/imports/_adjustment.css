@@ -218,12 +218,12 @@ p {
 .purple-vbtn {
     text-transform: uppercase;
     color: #fff;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 1.1em;
     line-height: 18px;
     background: #0585ff;
     padding: 1em 3em;
-    border-radius: 4px;
+    border-radius: 0px;
     transition: background 0.1s ease-in-out;
     letter-spacing: 0.5px;
     &:hover {
