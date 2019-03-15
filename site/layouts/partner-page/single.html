@@ -19,20 +19,19 @@
 
         <div class="container">
             <h2 class="header-section">
-                <!--{{ .Params.BenefitsHeader }}-->
-                Partner Benefits
+                {{ .Params.BenefitsHeader }}
             </h2>
             <div class="header-section--divider"></div>
 
-            <div class="benefits-items">
+            <div class="benefits">
                 {{ range .Params.benefitsItems }}
-                <div class="benefit">
+                <div class="benefit__item">
 
-                    <img src="{{ .img }}" alt="" class="benefit-icon">
-                    <h5 class="benefit-headline">
+                    <img src="{{ .img }}" alt="" class="benefit__icon">
+                    <h5 class="benefit__headline">
                         {{ .title }}
                     </h5>
-                    <p class="benefit-text">
+                    <p class="benefit__text">
                         {{ .subTitle | markdownify }}
                     </p>
 
@@ -46,20 +45,20 @@
 
     <!-- second section -->
     <section class="types-section">
-        {{ with .Params.typesSection }}
         <div class="container">
             <h2 class="header-section">
-                {{ .benefitsHeader }}
+                {{ .Params.typesHeader }}
             </h2>
             <div class="header-section--divider"></div>
-            <div class="types-items">
+            {{ with .Params.typesSection }}
+            <div class="types">
                 {{ range .types }}
-                <div class="type">
-                    <img src="{{ .icon }}" alt="" class="type-icon">
-                    <h5 class="type-headline">
+                <div class="types__item">
+                    <img src="{{ .icon }}" alt="" class="types__icon">
+                    <h5 class="types__headline">
                         {{ .title }}
                     </h5>
-                    <p class="type-text">
+                    <p class="types__text">
                         {{ .subTitle | markdownify}}
                     </p>
                 </div>
@@ -76,6 +75,49 @@
         {{ end }}
     </section>
     <!-- //second section -->
+
+    <!-- form section -->
+    <section class="form">
+        <div class="container">
+            <h2 class="header-section">
+                {{.Params.formHeader }}
+            </h2>
+            <div class="header-section--divider"></div>
+            <form class = "form__inputs-container" action="">
+                <div class="form__left-column">
+                    <input class="form__input" type="text" placeholder="Full name">
+                    <input class="form__input" type="text" placeholder="Email Address">
+                    <input class="form__input" type="text" placeholder="Company name">
+                    <input class="form__input" type="text" placeholder="Location">
+                </div>
+                <div class="form__right-column">
+                    <div class="form__checked">
+                        <p class="form__checked-title">Partner Type</p>
+                        <div class="form__radio-buttons-container">
+                            {{ range .Params.radio }}
+                            <label class="radio-button">
+                                <input class='radio-button__check-button' type="radio" name="radio" checked="checked">
+                                <span class="radio-button__label">
+                                    {{.labelRadioButton}}
+                                </span>
+                                <span class="radio-button__checkmark"></span>
+                            </label>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <input class="form__input" type="phone" placeholder="Phone Number">
+                    <div class="form__textarea-container">
+                        <textarea class="form__textarea" placeholder="Message" rows = '1'></textarea>
+                        <span class = "form__textarea_optional">Optional</span>
+                    </div>
+                </div>
+            </form>
+            <button class="form__submit">
+                {{ .Params.submitButtonTitle }}
+            </button>
+        </div>
+    </section>
+    <!-- form section -->
 
     {{ partial "get-started" . }}
 </div>

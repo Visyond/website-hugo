@@ -21,6 +21,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
       - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
 
+      - {label: "Benefits Header", name: "BenefitsHeader", widget: "string", required: false}
       - { label: "Benefits items", name: "benefitsItems", widget: "list",
         fields: [
           {label: "Icon", name: "img", widget: "image", required: false,},
@@ -29,9 +30,8 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
-
+      - {label: "Types header", name: "typesHeader", widget: "string", required: false,}
       - { label: "Types section", name: "typesSection", widget: "object", fields: [
-              { label: "Benefits header", name: "benefitsHeader", widget: "string", required: false,},
               { label: "Type", name: "types", widget: "list", fields: [
                 { label: "Icon", name: "icon", widget: "image", required: false,},
                 { label: "Title", name: "title", widget: "string", required: false,},
@@ -61,6 +61,12 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
       - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
+      - {label: "Form Title", name: "formHeader", widget: "string", required: false,}
+      - {label: "Submit Button Title", name: "submitButtonTitle", widget: "string", required: false,}
+      - {label: "Radio Buttons", name: "radio", widget: "list",
+         fields: [
+            {label: "Label Radio Button", name: "labelRadioButton", widget: "string", required: false,}
+         ], required: false,}
 
 
   - name: "blog"

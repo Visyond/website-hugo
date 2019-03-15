@@ -22,6 +22,7 @@ featured:
     logo: /img/GrowthBusiness Logo.png
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/footer-bg.png
+BenefitsHeader: Partner Benefits
 benefitsItems:
   - img: /img/icons/flexible.png
     title: Flexible Partnership
@@ -35,6 +36,7 @@ benefitsItems:
   - img: /img/icons/idea.png
     title: Strong New Value Proposition
     subTitle: Our partners benefit from offering an incremental value added service to their clients from our new lucrative solution.
+typesHeader: Types of Partners
 typesSection:
     types:
         - icon: /img/icons/bag-man.png
@@ -46,8 +48,16 @@ typesSection:
         - icon: /img/icons/gear-man.png
           title: Integration & Software Partners
           subTitle: For those that want to integrate with Visyond to expand their solution or technology.
-    benefitsHeader: Types of Partners
     cta:
         text: Become a Partner
         url: #
+
+formHeader:  Find Out More About Our Partner Programs
+submitButtonTitle: Submit Inquiries
+radio: 
+    - labelRadioButton: Independent Sales
+    - labelRadioButton: Channel Partners
+    - labelRadioButton: Integration & Software
+        
+  
 ---
