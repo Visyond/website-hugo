@@ -1,5 +1,5 @@
 .about-title {
-  background: -webkit-linear-gradient(45deg, #7b4fad 0, #c4518e 100%);
+  background: #0585ff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -187,7 +187,7 @@
 }
 
 .leader {
-  padding: 100px 0;
+  padding: 20px 0;
 
   @media screen and (max-width: 768px) {
     padding: 50px 0;
@@ -195,7 +195,7 @@
 }
 
 .about-title--leader {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .leader__list {
