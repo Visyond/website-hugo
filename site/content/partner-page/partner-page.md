@@ -6,38 +6,55 @@ bgImage: /img/partners-hero.jpg
 BenefitsHeader: Partner Benefits
 benefitsItems:
   - img: /img/icons/flexible.png
+    subTitle: >-
+      We want to tailor and personalize our partnership in a way that works for
+      you. From referrals and introductions to end-to-end management.
     title: Flexible Partnership
-    subTitle: We want to tailor and personalise our partnership in a way that works for you. From referrals and introductions to end-to-end management.  
   - img: /img/icons/competitive.png
+    subTitle: >-
+      Your growth is ours and we take it upon ourselves to offer an attractive
+      proposition with our technology for exponential growth.
     title: Competitive Partner Benefits
-    subTitle: your growth is ours and we take it upon ourselves to offer an attractive proposition with our technology for exponential growth.
   - img: /img/icons/rumor.png
+    subTitle: >-
+      Deploying a new solution to your existing offering entails time
+      commitment. Therefore, we’ve created the right support and sales
+      collateral so you can focus on winning new clients.
     title: Marketing and Sales Support
-    subTitle: Deploying a new solution to your existing offering entails time commitment. Therefore, we’ve created the right support and sales collateral so you can focus on winning new clients.
   - img: /img/icons/idea.png
+    subTitle: >-
+      Our partners benefit from offering an incremental value added service to
+      their clients from our new lucrative solution.
     title: Strong New Value Proposition
-    subTitle: Our partners benefit from offering an incremental value added service to their clients from our new lucrative solution.
 typesHeader: Types of Partners
 typesSection:
-    types:
-        - icon: /img/icons/bag-man.png
-          title: Independent Sales Partners
-          subTitle: Whether you are a managing consultant, technology advocate or a self-employed sales professional. Visyond works with variety of specialists.
-        - icon: /img/icons/handshake.png
-          title: Channel Partners & Resellers
-          subTitle: If you are an established reseller and looking to add a new portfolio of offerings then this is right for you. Typically, resellers will offer end-to-end solution for clients  in their markets whilst providing your with the right support.
-        - icon: /img/icons/gear-man.png
-          title: Integration & Software Partners
-          subTitle: For those that want to integrate with Visyond to expand their solution or technology.
-    cta:
-        text: Become a Partner
-        url: #
-formHeader:  Find Out More About Our Partner Programs
+  cta:
+    text: Become a Partner
+  types:
+    - icon: /img/icons/bag-man.png
+      subTitle: >-
+        Whether you are a managing consultant, technology advocate or a
+        self-employed sales professional. Visyond works with variety of
+        specialists.
+      title: Independent Sales Partners
+    - icon: /img/icons/handshake.png
+      subTitle: >-
+        If you are an established reseller and looking to add a new portfolio of
+        offerings then this is right for you. Typically, resellers will offer
+        end-to-end solution for clients  in their markets whilst providing your
+        with the right support.
+      title: Channel Partners & Resellers
+    - icon: /img/icons/gear-man.png
+      subTitle: >-
+        For those that want to integrate with Visyond to expand their solution
+        or technology.
+      title: Integration & Software Partners
+formHeader: Find Out More About Our Partner Programs
+radio:
+  - labelRadioButton: Independent Sales
+  - labelRadioButton: Channel Partners
+  - labelRadioButton: Integration & Software
 submitButtonTitle: Submit Inquiries
-radio: 
-    - labelRadioButton: Independent Sales
-    - labelRadioButton: Channel Partners
-    - labelRadioButton: Integration & Software
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -48,3 +65,4 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/footer-bg.png
 ---
+
