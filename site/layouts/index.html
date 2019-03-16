@@ -72,51 +72,10 @@
   <section class="section">
   <ul class="home-info js-image-block">
 
-    <!-- info block -->
-    {{ range $el := .Params.InfoBlockFirst }}
+    <!-- list of info blocks with blue button -->
+    {{ partial "info-block-list" . }}
+    <!-- // list of info blocks with blue button -->
 
-    <li class="home-info__block">
-      <div class="info__img-wrap js-img-wrap show-slides">
-
-        <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
-        
-        <a class="button button-icon button-primary over">
-          <i class="material-icons">
-
-          </i>
-          <span>
-            See in action
-          </span>
-        </a>
-        <div class="button button-basic--nobg button-icon centered">
-          <i class="material-icons">
-            play_circle_outline
-          </i>
-          <span>
-            See in action
-          </span>
-        </div>
-      </div>
-
-      <section class="home-info__text-wrap">
-        <h3 class="home-info__block-title">
-          {{ .title }}
-        </h3>
-
-        <div class="home-info__block-descr">
-          {{ .descr | markdownify }}
-        </div>
-        {{ if .link }}
-        <div class="button-wrap">
-          <a href="{{ .link }}" class="button button-primary">
-            LEARN MORE
-          </a>
-        </div>
-        {{ end }}
-      </section>
-    </li>
-    {{ end }}
-    <!-- //info block -->
   </ul>
   </section>
   <!-- //section info -->
