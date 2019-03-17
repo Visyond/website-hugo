@@ -102,9 +102,9 @@ infoBlockFirst:
           Financial Data analysis Software - Share Interactive Presentations in
           Visyond
         descr: >-
-          Allow stakeholders to see only individual slides or whole presentations
-          that they can use to test their own assumptions without interacting
-          with the spreadsheet directly.
+          Allow stakeholders to see only individual slides or whole
+          presentations that they can use to test their own assumptions without
+          interacting with the spreadsheet directly.
         file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Selective Sharing
@@ -181,7 +181,7 @@ infoBlockFirst:
         file: /img/2019-02 Versions Panel.png
         link: /features/knowledge-base/
         title: Versions
-    image: /img/Single source of truth.png
+    image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
   - descr: "* Build reports & financial statements with just a few clicks\r\n* Create Interactive Presentations, empowering stakeholders to securely test their own assumptions\r\n"
