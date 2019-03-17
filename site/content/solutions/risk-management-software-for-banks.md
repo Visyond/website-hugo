@@ -14,7 +14,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/decision makers 2.png
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
     files:
