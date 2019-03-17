@@ -33,33 +33,20 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Dashboards in Browser.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Dashboards in Browser v2.png
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Improve Decision Making with Interactive Presentations
-  - descr: "* Easily build calculators, such as ROI, Sales quotation, KPI calculators and many more\r\n* Securely share calculators with your colleagues, clients or prospects\r\n"
-    files:
-      - alt: Financial Data Visualization in Visyond - Calculators
-        descr: >-
-          Empower stakeholder to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
-        file: /img/Interactive Slides in Browser v4.png
-        link: /features/calculators/
-        title: INTERACTIVE CALCULATORS
-    image: /img/Interactive Slides in Browser v4.png
-    link: /features/calculators/
-    title: Create Сustom Calculators Without Programming
   - descr: "* Expose only parts of the spreadsheets and presentations that you deem necessary with only specific stakeholders, i.e. share only slide 1, 2 but not slide 3\r\n* Safely test assumptions without compromising or changing the calculations and underlying logic of the model\r\n* Advanced granular access permission to a cell level using using Visyond’s [selective sharing](/features/selective-sharing/) technology\r\n"
     files:
       - alt: Presenting Financial Data in Visyond - Secure Selective Sharing
         descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
-    image: /img/Share Slide in Browser v2.png
+    image: /img/2019-02 Share Project Panel Slide Expanded.png
     link: /features/selective-sharing/
     title: Secure Sharing of Presentations and Calculators
   - descr: "* Quickly generate financial statements directly in Visyond - Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial & management accounting \r\n* You don’t have to spend time writing or adding plugs, macros or circular references to make statements balance\r\n* No more triangular depreciation schedules to be checked every time something changes \r\n* No more formatting and reformatting. All you need to do is specify what data should go into each category (e.g., revenues, OPEX, CAPEX, etc.) and Visyond will do the rest for you\r\n"
@@ -72,10 +59,10 @@ infoBlockFirst:
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
-        file: /img/Financial Statements in Browser.png
+        file: /img/2019-02 Financial Statements.png
         link: /features/financial-statements/
         title: AUTO-GENERATED FINANCIAL STATEMENTS
-    image: /img/Financial Statements in Browser.png
+    image: /img/2019-02 Financial Statements.png
     link: /features/financial-statements/
     title: Auto-generated Financial Statements
 capabilitiesList:
