@@ -28,24 +28,11 @@ infoBlockFirst:
       - alt: Spreadsheet Collaboration Software - Share Projects in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: Share Project
-      - alt: Spreadsheet Collaboration Software - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        link: /features/selective-sharing/
-        title: Share Worksheets
-      - alt: >-
-          Spreadsheet Collaboration Software - Share Interactive Presentations
-          in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/2019-02 Interactive Presentation.png
-        link: /features/selective-sharing/
-        title: Share Presentations
     image: /img/2019-02 Interactive Presentation.png
     link: /features/selective-sharing/
     title: Secure Selective Sharing
@@ -81,6 +68,12 @@ infoBlockFirst:
         file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
         title: Store Multiple Assumptions Simultaneously
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/2019-02 Versions Panel.png
+        link: /features/track-changes-from-an-excel-file/
+        title: VERSIONS
     image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Input Tracking and Version Control
