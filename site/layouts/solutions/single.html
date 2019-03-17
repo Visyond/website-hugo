@@ -7,48 +7,10 @@
     <!-- section info -->
     <ul class="sol-info js-image-block">
 
-      <!-- info block -->
-      {{ range $el := .Params.InfoBlockFirst }}
+      <!-- list of info blocks with blue button -->
+      {{ partial "info-block-list" . }}
+      <!-- // list of info blocks with blue button -->
 
-      <li class="sol-info__block">
-        <div class="info__img-wrap js-img-wrap">
-          {{ if .files }}
-          <div class="info__img-pointer">
-            Click to see more
-           <!-- <i class="material-icons">
-              subdirectory_arrow_left
-            </i> </i> -->
-          </div>
-          <!-- <i class="material-icons">
-            zoom_in
-          </i> -->
-          {{ end }}
-          <img src="{{ .image }}" alt="{{ .altText }}" class="sol-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"  data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
-          <!-- {{ if .popupUrl }}
-          <img src="/img/vimages/play-laptop.png" alt="play" class="sol-info__play-video">
-          {{ end }} -->
-        </div>
-
-        <img src="/img/v_lines.png" alt="lines" class="sol-info__block-lines">
-
-        <section class="sol-info__text-wrap">
-          <h3 class="sol-info__block-title">
-            {{ .title }}
-          </h3>
-
-          <div class="sol-info__block-descr">
-            {{ .descr | markdownify }}
-          </div>
-
-          {{ if .link }}
-          <a href="{{ .link }}" class="sol-info__link">
-            learn more
-          </a>
-          {{ end }}
-        </section>
-      </li>
-      {{ end }}
-      <!-- ./info block -->
     </ul>
     <!-- ./section info -->
 
