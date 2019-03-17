@@ -24,7 +24,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
