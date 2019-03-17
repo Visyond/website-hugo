@@ -10,7 +10,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
     descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
