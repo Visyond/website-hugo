@@ -24,7 +24,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Make smarter decisions faster with Visyond’s interactive presentations that don’t require manual setups or programming and act as a  secure environment to test assumptions that is linked to your model\r\n* Enable your collaborators to stress-test selected important assumptions without interacting with the spreadsheet directly \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n"
     files:
