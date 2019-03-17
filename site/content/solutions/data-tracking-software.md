@@ -13,7 +13,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Transform entangled, hard-to-read calculations into understandable relations between data points with the help of natural formula names, intuitive auto-formatting, and trend lines \r\n* Drastically reduce the time & effort involved in auditing and debugging your model with Visyond’s Audit Mode\r\n"
     files:
