@@ -32,10 +32,12 @@ infoBlockFirst:
         descr: >-
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks without depending on experts.
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare Scenarios In Real Time
-    image: /img/Scenarios chart in Browser v4.png
+      - file: /img/2019-02 Scenarios Waterfall Analysis.png
+        title: Scenario Waterfall
+    image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
@@ -45,10 +47,10 @@ infoBlockFirst:
           With Visyond, you can run Impact (Tornado) Analysis without long
           manual setups and quickly see how sensitive your data set is to
           changes.
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Stress-Test Your Data
-    image: /img/Tornado in Browser v4.png
+    image: /img/2019-02 Impact Analysis.png
     link: /features/tornado/
     title: Identify Important Cells and Their Impact
   - descr: "* Simplify Sensitivity Analysis setup  - clearly understand the relationships between input and output variables in your spreadsheets\r\n* Instantly identify to what degree variables impacts the outcome, how different indicators interact & affect each other, and uncover errors in your models\r\n"
@@ -57,15 +59,10 @@ infoBlockFirst:
         descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - alt: Data Analysis Software - One-Way Sensitivity Analysis in Visyond
-        descr: Discover relationships between data easier and faster with Visyond.
-        file: /img/Sensitivity in Browser v4.png
-        link: /features/sensitivity/
-        title: Identify Relationships Between Data Easier
-    image: /img/Sensitivity two-way v2.png
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: /features/sensitivity/
     title: Understand Relationships Between Cells with Instant Sensitivity Analysis
   - descr: "* Answer questions on-the-fly with spreadsheet-driven interactive dashboards and presentations linked directly into your spreadsheets. \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n* The dashboards and slides can be securely shared with other people without exposing confidential information\r\n"
@@ -75,10 +72,10 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Secure Interactive Dashboards for Decision Making
   - descr: "* Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output\r\n* Instantly generate descriptive statistics, probability density function and cumulative distribution function\r\n* Manage uncertainty & risk and make forecasts quickly\r\n* Easily identify what probability distribution is more appropriate for your data\r\n"
@@ -87,10 +84,10 @@ infoBlockFirst:
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-    image: /img/Monte Carlo Simulation v3.png
+    image: /img/2019-02 Simulation Monte Carlo.png
     link: /features/simulations/
     title: Simplify Simulation Setup
 capabilitiesList:
