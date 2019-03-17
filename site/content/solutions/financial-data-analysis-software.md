@@ -14,7 +14,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "In seconds, Visyond lets you perform data analysis that used to take days, automate typical routine tasks and test assumptions safely:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real time with Visyond’s [Scenario](/features/scenarios/) & Waterfall Analysis\r\n* Compare relative importance of cells with instant [Tornado Analysis](/features/tornado/)\r\n* Understand the relationships between input and output cells with instant [Sensitivity Analysis](/features/sensitivity/)\r\n* Run simulations on your data with instant [Monte Carlo Simulation](/features/simulations/)"
     files:
