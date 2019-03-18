@@ -4,6 +4,13 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - logo: /img/techradar logo.jpg
+    name: ''
+    title: >-
+      Data intelligence: why Data Protection Day is becoming increasingly
+      important
+    url: >-
+      https://www.techradar.com/uk/news/data-intelligence-why-data-protection-day-is-becoming-increasingly-important
   - logo: /img/Compare the Cloud logo.png
     title: What Does an Augmented Workforce Really Look Like?
     url: >-
@@ -91,12 +98,5 @@ pressarticles:
     title: Why Lenders Need Digital Transformation For Financing Proposals
     url: >-
       https://medium.com/fintech-weekly-magazine/why-lenders-need-digital-transformation-for-financing-proposals-85d1f9fb9101
-  - logo: /img/techradar logo.jpg
-    name: ''
-    title: >-
-      Data intelligence: why Data Protection Day is becoming increasingly
-      important
-    url: >-
-      https://www.techradar.com/uk/news/data-intelligence-why-data-protection-day-is-becoming-increasingly-important
 ---
 
