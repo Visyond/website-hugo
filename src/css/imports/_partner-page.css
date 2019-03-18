@@ -210,6 +210,7 @@
 }
 .radio-button__label {
     display: inline-block;
+    width: 100%;
     font-size: 16px;
     color: rgba(14,38,57,0.5);
     overflow: hidden;
@@ -250,19 +251,8 @@
 .radio-button__check-button:checked + .radio-button__label{
     color: #0E2639;
 }
-
-.form__submit {
-    display: block;
-    color: #fff;
-    font-weight: 700;
-    background: #0585ff;
-    padding: 14px 30px 17px 30px;
-    text-aling: center;
-    font-size: 16px;
-    border: none;
-    border-radius: 7px;
-    margin: 70px auto 0 auto;
-    cursor: pointer;
+.form .btn-wrap {
+    margin-top: 70px;
 }
 .form__textarea-container {
     position: relative;

@@ -38,7 +38,6 @@ collections: # A list of collections the CMS should be able to edit
                 { label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
               ], required: false,},
               {label: "CTA Button", name: "cta", widget: "object", fields: [
-                {label: "URL", name: "url", widget: "string"},
                 {label: "Text", name: "text", widget: "string"}
               ]}
             ], required: false,}

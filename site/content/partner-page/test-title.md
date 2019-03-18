@@ -50,7 +50,6 @@ typesSection:
           subTitle: For those that want to integrate with Visyond to expand their solution or technology.
     cta:
         text: Become a Partner
-        url: #
 
 formHeader:  Find Out More About Our Partner Programs
 submitButtonTitle: Submit Inquiries
