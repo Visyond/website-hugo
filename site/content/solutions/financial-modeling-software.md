@@ -12,17 +12,17 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Save countless hours with Visyond’s automated debugging solutions - Error Root Cause and Cell Dependencies Analysis in a few clicks\r\n"
     files:
-      - alt: Spreadsheet Modeling Software - Track Errors in Visyond
+      - alt: Financial Modeling Software - Audit Models in Visyond
         descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/track errors 1.png
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/2019-02 Audit On.png
         link: /features/audit-mode/
-        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
+        title: AUDIT MODE ON
       - alt: Spreadsheet Modeling Software - Audit Spreadsheets in Visyond
         descr: >-
           It highlights error and circular cells clearly; The trendlines help
@@ -33,21 +33,21 @@ infoBlockFirst:
         file: /img/track errors.png
         link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
+      - alt: Spreadsheet Modeling Software - Track Errors in Visyond
+        descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        link: /features/audit-mode/
+        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
       - alt: Spreadsheet Modeling Software - Identify Cells Dependencies in Visyond
         descr: >-
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/Dependency in Browser v2.png
+        file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
-      - alt: Financial Modeling Software - Audit Models in Visyond
-        descr: >-
-          In the Audit Mode each cell looks different based on the type of data
-          it contains.
-        file: /img/Audit Mode On.png
-        link: /features/audit-mode/
-        title: AUDIT MODE ON
     image: /img/track errors 1.png
     link: /features/audit-mode/
     title: Streamline Modeling Tasks
@@ -57,22 +57,25 @@ infoBlockFirst:
         descr: >-
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
-        file: /img/Single source of truth.png
+        file: /img/2019-02 Comments in Cells.png
         link: /features/knowledge-base/
         title: NEVER LOSE IMPORTANT INFORMATION
       - alt: Spreadsheet Modeling Software - Attachments & Conversations in Visyond
-        descr: ''
-        file: /img/Attachments and Comments in Browser v2.png
-        link: /features/knowledge-base/
-        title: ''
+        descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        link: /features/track-changes-from-an-excel-file/
+        title: STORE MULTIPLE ASSUMPTIONS SIMULTANEOUSLY
       - alt: Spreadsheet Modeling Software - Control Versions in Visyond
         descr: >-
           You can always roll-back entire versions of the spreadsheet if
           required.
-        file: /img/Versions in Browser.png
+        file: /img/2019-02 Versions Panel.png
         link: /features/knowledge-base/
         title: VERSIONS
-    image: /img/Single source of truth.png
+    image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
     title: Single Source Of Truth For Your Spreadsheet
   - descr: >-
@@ -84,8 +87,9 @@ infoBlockFirst:
       - alt: Spreadsheet Modeling Software - Share Spreadsheets in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: SHARE PROJECT
       - alt: Spreadsheet Modeling Software - Share Worksheets in Visyond
@@ -95,7 +99,7 @@ infoBlockFirst:
         file: /img/Share Worksheet.png
         link: /features/selective-sharing/
         title: SHARE WORKSHEETS
-    image: /img/Share Project.png
+    image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Protect Sensitive Information And Avoid Data Leaks
   - descr: >-
@@ -105,10 +109,10 @@ infoBlockFirst:
     files:
       - alt: Spreadsheet Modeling Software - Share Presentations in Visyond
         descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
-    image: /img/Share Slide in Browser v2.png
+    image: /img/2019-02 Share Project Panel Slide Expanded.png
     link: /features/selective-sharing/
     title: Share Only Relevant Data
   - descr: "* Automate typical routine tasks (like [scenario comparison](/features/scenarios/), [impact](/features/tornado/), [simulation](/features/simulations/) or [sensitivity](/features/sensitivity/) analysis) that would otherwise require add-ons or writing macros \r\n* Focus on getting valuable insights from your data instead of error-prone lengthy manual setups\r\n* Run Visyond’s intelligent auto-analysis for complete analysis in seconds\r\n"
@@ -117,7 +121,7 @@ infoBlockFirst:
         descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: COMPARE SCENARIOS IN REAL TIME
       - alt: >-
@@ -126,24 +130,24 @@ infoBlockFirst:
         descr: >-
           Impact (Tornado) analysis will instantly show you  what inputs have
           the greatest impact on outputs and how they interact with one another 
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Tornado Analysis
       - alt: Spreadsheet Modeling Software - Sensitivity Analysis in Visyond
         descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
-        file: /img/Sensitivity in Browser v4.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
       - alt: Spreadsheet Modeling Software - Monte Carlo Simulations in Visyond
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-    image: /img/Scenarios chart in Browser v4.png
+    image: /img/2019-02 Scenario Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Perform Analysis in Minutes Instead of Days
   - descr: "* Answer ‘what-if’ questions in real time without going back to the spreadsheet or the modeler. \r\n* Visualize different scenarios with Visyond’s interactive presentations- assumptions can be tested directly in the slides without exposing or changing the spreadsheet’s content or structure. \r\n* With Visyond, you no longer need to maintain separate presentation layers on top of the spreadsheet\r\n"
@@ -155,10 +159,10 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks And Empower Stakeholders To Test Assumptions
 capabilitiesList:

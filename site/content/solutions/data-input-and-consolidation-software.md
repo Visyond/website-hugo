@@ -12,7 +12,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Visyond makes data gathering & consolidation easier by helping you avoid common issues that arise when collecting inputs:\r\n* Easily manage and work from one, single spreadsheet template\r\n* Instantly distribute templates among stakeholders without risking accidental data changes\r\n* You no longer need to spend long hours auditing and merging the spreadsheets\r\n"
     files:

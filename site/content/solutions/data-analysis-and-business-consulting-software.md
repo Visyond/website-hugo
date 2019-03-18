@@ -9,7 +9,7 @@ topSubTitle: "As an analyst or consultant, you constantly analyse and recommend 
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: >-
       In seconds, Visyond lets you perform data analysis that used to take days,

@@ -13,7 +13,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Transform entangled, hard-to-read calculations into understandable relations between data points with the help of natural formula names, intuitive auto-formatting, and trend lines \r\n* Drastically reduce the time & effort involved in auditing and debugging your model with Visyond’s Audit Mode\r\n"
     files:
@@ -46,9 +46,28 @@ infoBlockFirst:
         descr: >
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks without depending on experts.
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
+      - descr: >-
+          With Visyond, you can run Impact (Tornado) Analysis without long
+          manual setups and quickly see how sensitive your data set is to
+          changes.
+        file: /img/2019-02 Impact Analysis.png
+        link: /features/business-impact-analysis-tool/
+        title: STRESS-TEST YOUR DATA
+      - descr: >-
+          With just a few clicks Visyond allows you to run Sensitivity analysis
+          without long manual setups.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        link: /features/sensitivity-analysis-tool/
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/2019-02 Simulation Monte Carlo.png
+        link: /features/monte-carlo-simulation-software/
+        title: MONTE CARLO SIMULATION
     image: /img/2019-02 Scenario Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Hassle-Free Number Testing Environment

@@ -51,28 +51,28 @@
             </h2>
             <div class="header-section--divider"></div>
             {{ with .Params.typesSection }}
-            <div class="types">
-                {{ range .types }}
-                <div class="types__item">
-                    <img src="{{ .icon }}" alt="" class="types__icon">
-                    <h5 class="types__headline">
-                        {{ .title }}
-                    </h5>
-                    <p class="types__text">
-                        {{ .subTitle | markdownify}}
-                    </p>
+                <div class="types">
+                    {{ range .types }}
+                    <div class="types__item">
+                        <img src="{{ .icon }}" alt="" class="types__icon">
+                        <h5 class="types__headline">
+                            {{ .title }}
+                        </h5>
+                        <p class="types__text">
+                            {{ .subTitle | markdownify}}
+                        </p>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ with .cta }}
+                <div class="btn-wrap">
+                    <a class="btn-primary" id="down-to-form">
+                        {{ .text }}
+                    </a>
                 </div>
                 {{ end }}
-            </div>
-            {{ with .cta }}
-            <div class="btn-wrap">
-                <a class="btn-primary" id="down-to-form">
-                    {{ .text }}
-                </a>
-            </div>
             {{ end }}
         </div>
-        {{ end }}
     </section>
     <!-- //second section -->
 
@@ -83,7 +83,7 @@
                 {{.Params.formHeader }}
             </h2>
             <div class="header-section--divider"></div>
-            <form class = "form__inputs-container" action="">
+            <form class="form__inputs-container" method="POST" action="">
                 <div class="form__left-column">
                     <input class="form__input" type="text" placeholder="Full name">
                     <input class="form__input" type="text" placeholder="Email Address">
