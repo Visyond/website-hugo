@@ -1,5 +1,6 @@
 ---
 title: Partner page
+url: /partner-with-visyond
 topTitle: Partner with Visyond
 topSubTitle: Grow your business and build new revenue stream
 bgImage: /img/partners-hero.jpg
