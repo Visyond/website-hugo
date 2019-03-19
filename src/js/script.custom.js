@@ -646,13 +646,14 @@ $(function () {
      linkHover('features-toggle', 'Features');
      linkHover('solutions-toggle', 'Solutions');
 
+});
 
-
+$(document).ready(function(){
     //=====Scroll down to Form section=====
     $('#down-to-form').on('click',()=> {
         var position = $(".form").offset().top;
         $("body, html").animate({
-        scrollTop: position
+            scrollTop: position
         }, 500)
     });
-});
+})

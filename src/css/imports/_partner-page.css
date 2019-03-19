@@ -154,6 +154,9 @@
 .form__left-column {
     margin-right: 30px;
 }
+.form__input, .form__checked-title, .form__textarea-container{
+    height: 78px;
+}
 .form__input, .form__checked-title, .form__textarea {
     font-family: "Open Sans";
     border: none;
@@ -161,13 +164,13 @@
     padding: 25px 0 20px;
     background: rgba(6,133,255, 0);
     font-size: 18px;
-    line-height: 28px;
 }
 .form__textarea-container {
     border-bottom: 2px solid rgba(82,84,108, 0.25);
     padding: 25px 0 20px;
 }
 .form__textarea {
+    overflow: hidden;
     resize: none;
     border: none;
     padding: 0 50px 0 0;
@@ -198,7 +201,6 @@
 .form__checked-title {
     border: none;
     margin-bottom: 0;
-    padding-bottom: 19px;
 }
 .form__radio-buttons-container {
     display: flex;
@@ -218,6 +220,7 @@
     -ms-user-select: none;
     user-select: none;
 }
+
 .radio-button__label, .radio-button__checkmark {
     cursor: pointer;
 }
