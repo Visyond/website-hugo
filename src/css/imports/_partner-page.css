@@ -63,8 +63,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    flex-grow: 1;
-    flex-basis: 33%;
+    width: 33%;
 }
 .types__item:not(:last-child) {
     margin-right: 50px;
@@ -92,10 +91,10 @@
 @media screen and (max-width: 1021px) {
     .types{
         flex-wrap: wrap;
-        flex-direction: column;
     }
     .types__item {
         margin-bottom: 25px;
+        width: 100%;
     }
     .types__item:not(:last-child) {
         margin-right: 0;
