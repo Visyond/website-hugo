@@ -3,10 +3,9 @@
     padding: 70px 0;
 }
 .benefits{
-    display: grid;
-    grid-gap: 50px;
-    grid-template-columns: repeat(2, minmax(445px, 1fr));
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .benefit__item {
     padding: 30px;
@@ -16,6 +15,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 47%;
+    min-width: 450px;
+    margin-bottom: 60px;
+}
+.benefit__item:nth-child(2n + 1) {
+    margin-right: 50px;
 }
 .benefit__icon{
     max-width: 141px;
@@ -34,15 +39,14 @@
     font-size: 16px;
     line-height: 1.8;
     text-align: center;
+    width: 100%;
 }
 @media screen and (max-width: 1021px) {
-    .benefits{
-        grid-template-columns: 1fr 1fr;
+    .benefit__item{
+        width: 100%;
     }
-}
-@media screen and (max-width: 700px) {
-    .benefits{
-        grid-template-columns: 1fr;
+    .benefit__item:nth-child(2n + 1) {
+        margin-right: 0;
     }
 }
 
@@ -51,40 +55,50 @@
     padding: 70px 0 120px;
 }
 .types{
-    display: grid;
-    grid-gap: 40px;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: center;
 }
 .types__item{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    flex-grow: 1;
+    flex-basis: 33%;
+}
+.types__item:not(:last-child) {
+    margin-right: 50px;
 }
 .types__icon{
     max-width: 125px;
     height: auto;
 }
-.types__headline{
-    color: #0E2639;
+.types__headline, .types__text {
+    width: 100%;
     font-family: "Open Sans";
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 1.8;
+    color: #0E2639;
     text-align: center;
+    line-height: 1.8;
+}
+.types__headline{
+    font-size: 24px;
+    font-weight: 400;
     margin-bottom: 15px;
 }
 .types__text{
-    opacity: 0.5;
-    color: #0E2639;
-    font-family: "Open Sans";
     font-size: 16px;
-    line-height: 1.8;
-    text-align: center;
+    opacity: 0.5;
 }
 @media screen and (max-width: 1021px) {
     .types{
-        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .types__item {
+        margin-bottom: 25px;
+    }
+    .types__item:not(:last-child) {
+        margin-right: 0;
     }
 }
 
@@ -262,12 +276,15 @@
     position: relative;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1021px) {
     .form__inputs-container {
         flex-wrap: wrap;
     }
     .form__left-column, .form__right-column {
         width: 100%;
         margin-right: 0;
+    }
+    .radio-button {
+        width: 100%;
     }
 }
