@@ -4,6 +4,13 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - logo: /img/techradar logo.jpg
+    name: ''
+    title: >-
+      Data intelligence: why Data Protection Day is becoming increasingly
+      important
+    url: >-
+      https://www.techradar.com/uk/news/data-intelligence-why-data-protection-day-is-becoming-increasingly-important
   - logo: /img/Compare the Cloud logo.png
     title: What Does an Augmented Workforce Really Look Like?
     url: >-
