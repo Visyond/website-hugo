@@ -5,7 +5,7 @@
 .benefits{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .benefit__item {
     padding: 30px;
@@ -15,12 +15,15 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 47%;
+    width: calc(50% - 25px);
     min-width: 450px;
     margin-bottom: 60px;
 }
 .benefit__item:nth-child(2n + 1) {
-    margin-right: 50px;
+    margin-right: 25px;
+}
+.benefit__item:nth-child(2n) {
+    margin-left: 25px;
 }
 .benefit__icon{
     max-width: 141px;
@@ -47,6 +50,9 @@
     }
     .benefit__item:nth-child(2n + 1) {
         margin-right: 0;
+    }
+    .benefit__item:nth-child(2n) {
+        margin-left: 0;
     }
 }
 
@@ -142,17 +148,24 @@
     padding: 105px 0 100px 0;
     background: rgba(6,133,255, 0.04);
 }
+.form .btn-wrap {
+    width: 100%;
+}
 .form__inputs-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .form__left-column, .form__right-column {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: calc(50% - 15px);
 }
 .form__left-column {
-    margin-right: 30px;
+    margin-right: 15px;
+}
+.form__right-column {
+    margin-left: 15px;
 }
 .form__input, .form__checked-title, .form__textarea-container{
     height: 78px;
@@ -279,12 +292,10 @@
 }
 
 @media screen and (max-width: 1021px) {
-    .form__inputs-container {
-        flex-wrap: wrap;
-    }
     .form__left-column, .form__right-column {
         width: 100%;
         margin-right: 0;
+        margin-left: 0;
     }
     .radio-button {
         width: 100%;

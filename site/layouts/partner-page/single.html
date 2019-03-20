@@ -83,10 +83,10 @@
                 {{.Params.formHeader }}
             </h2>
             <div class="header-section--divider"></div>
-            <form class="form__inputs-container" method="POST" action="">
+            <form class="form__inputs-container" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">
                 <div class="form__left-column">
-                    <input class="form__input" type="text" placeholder="Full name">
-                    <input class="form__input" type="text" placeholder="Email Address">
+                    <input class="form__input" type="text" placeholder="Full name" required>
+                    <input class="form__input" type="text" placeholder="Email Address" required>
                     <input class="form__input" type="text" placeholder="Company name">
                     <input class="form__input" type="text" placeholder="Location">
                 </div>
@@ -105,18 +105,16 @@
                             {{ end }}
                         </div>
                     </div>
-                    <input class="form__input" type="phone" placeholder="Phone Number">
+                    <input class="form__input" type="phone" placeholder="Phone Number" required>
                     <div class="form__textarea-container">
                         <textarea class="form__textarea" placeholder="Message" rows = '1'></textarea>
                         <span class = "form__textarea_optional">Optional</span>
                     </div>
                 </div>
+                <div class="btn-wrap">
+                    <input type="submit" value={{ .Params.submitButtonTitle }} class="btn-primary"/>
+                </div>
             </form>
-            <div class="btn-wrap">
-                <button class="btn-primary">
-                    {{ .Params.submitButtonTitle }}
-                </button>
-            </div>
         </div>
     </section>
     <!-- form section -->
