@@ -3,7 +3,7 @@ url: /terms
 title: Terms of Use
 image: /img/terms.jpg
 ---
-**Visyond** is a Software as a Service provider. As such it offers a service (“Visyond”) for public use, to individual users, companies, organizations and or legal entities worldwide.
+**Visyond** is a Software2 as a Service provider. As such it offers a service (“Visyond”) for public use, to individual users, companies, organizations and or legal entities worldwide.
 
 These terms of use constitute at all effect an Agreement between you and Visyond Ventures Ltd (“Visyond” or “the Company”). By accessing this Website, by registering with it and by using Visyond, you confirm and acknowledge that you have (i) read these terms of use and that you understand their content, and (ii) that you agree to be bound by this Agreement between you and Visyond. We may change the terms of this Agreement at any time and at our discretion, without us being obliged to notify you. You are advised to periodically check this document in case there were changes. If you do not agree to be bound by the terms and conditions laid out herein, do not use or access the Website nor the Services offered therein. By accessing this Website, you are agreeing to be bound by all applicable international laws and domestic regulations of the jurisdiction from where you are accessing this Website and its content. The materials contained in this Website are protected by the applicable copyright and trade mark law.
 <br></br>
