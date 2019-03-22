@@ -89,10 +89,10 @@
                 <input type="hidden" name="_cc" value="gianluca@get.visyond.com,gianluca.bisceglie@gmail.com,besnik@get.visyond.com,alex@get.visyond.com,alexey.prokopovich@visyond.com,support@visyond.com" />
                
                 <div class="form__left-column">
-                    <input class="form__input" type="text" placeholder="Full name" required>
-                    <input class="form__input" type="text" placeholder="Email Address" required>
-                    <input class="form__input" type="text" placeholder="Company name">
-                    <input class="form__input" type="text" placeholder="Location">
+                    <input name="Full name" class="form__input" type="text" placeholder="Full name" required>
+                    <input name="Email Address" class="form__input" type="text" placeholder="Email Address" required>
+                    <input name="Company name" class="form__input" type="text" placeholder="Company name">
+                    <input name="Location" class="form__input" type="text" placeholder="Location">
                 </div>
                 <div class="form__right-column">
                     <div class="form__checked">
@@ -109,9 +109,9 @@
                             {{ end }}
                         </div>
                     </div>
-                    <input class="form__input" type="phone" placeholder="Phone Number" required>
+                    <input name="Phone Number" class="form__input" type="phone" placeholder="Phone Number" required>
                     <div class="form__textarea-container">
-                        <textarea class="form__textarea" placeholder="Message" rows = '1'></textarea>
+                        <textarea name="Message" class="form__textarea" placeholder="Message" rows = '1'></textarea>
                         <span class = "form__textarea_optional">Optional</span>
                     </div>
                 </div>
