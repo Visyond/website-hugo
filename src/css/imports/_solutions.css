@@ -543,7 +543,7 @@
 }
 
 .sol-capabilities {
-    background: linear-gradient(to bottom, #f1f5fa, #fff 25%);
+    background: #fff;
     padding: 50px 10px;
     display: -webkit-flex;
     display: -ms-flex;
