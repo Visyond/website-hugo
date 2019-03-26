@@ -8,7 +8,7 @@ topSubTitle: >-
   aid you greatly in debugging and auditing your spreadsheets.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Instantly identify errors in your spreadsheets and their root cause\r\n* Instantly locate precedent and dependent cells\r\n"
     files:
