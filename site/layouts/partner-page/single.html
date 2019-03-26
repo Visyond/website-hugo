@@ -100,7 +100,7 @@
                         <div class="form__radio-buttons-container">
                             {{ range .Params.radio }}
                             <label class="radio-button">
-                                <input class='radio-button__check-button' type="radio" name="Partner Type" checked="checked">
+                                <input class='radio-button__check-button' type="radio" name="Partner Type" checked="checked" value={{.labelRadioButton}} >
                                 <span class="radio-button__label">
                                     {{.labelRadioButton}}
                                 </span>
