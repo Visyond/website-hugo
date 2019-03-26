@@ -12,7 +12,7 @@ topSubTitle: >-
   PowerPoint and Excel.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Make collaboration on spreadsheets, presentations and analysis faster, safer and less prone to errors, unwanted changes and accidental data leakages\r\n* Share whole projects and control what each collaborator gets to see\r\n* Share whole spreadsheets, certain worksheets or only specific parts of a worksheet \r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
     files:
