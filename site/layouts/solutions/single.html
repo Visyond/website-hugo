@@ -8,7 +8,26 @@
   {{ partial "trustedslider" . }}
   <!-- ./trusted section -->
 
+    <!-- section capabilities -->
+    <section class="sol-capabilities">
+      <!-- <h3 class="sol-capabilities__title">
+        With Visyond you can
+      </h3> -->
 
+      <ul class="sol-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="sol-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="sol-capabilities__img">
+
+          <div class="sol-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </section>
+    <!-- ./section capabilities -->
+  
   <!-- section info -->
     <ul class="sol-info js-image-block">
 
@@ -47,25 +66,7 @@
    <!-- </div> -->
     <!-- solutions section -->
 
-    <!-- section capabilities -->
-    <section class="sol-capabilities">
-      <!-- <h3 class="sol-capabilities__title">
-        With Visyond you can
-      </h3> -->
 
-      <ul class="sol-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="sol-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="sol-capabilities__img">
-
-          <div class="sol-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
-    <!-- ./section capabilities -->
     
     <!-- case studies section -->
     {{ partial "case-studies-section-new" . }}
