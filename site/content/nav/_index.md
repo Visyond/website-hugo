@@ -6,6 +6,8 @@ resourcesDropdown:
     title: Press
   - path: /why-visyond/
     title: Why Visyond
+  - path: /partner-with-visyond/
+    title: Partner with Visyond
 solutionsInfoTitle: Answer questions in seconds
 solutionsInfoDescr: >-
   Explore our Solutions to learn more about how Visyond can help you, your team
