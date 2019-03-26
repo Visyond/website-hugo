@@ -6,9 +6,9 @@ topSubTitle: >-
   Explore our Features to learn more about how Visyond can help you, your team
   and your clients!
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/banner.jpg
+bgImage: /img/partners-hero cut.jpg
 section:
   - cards:
       - icon: /img/knowledge-base@2x.png
