@@ -11,8 +11,7 @@ metaTags: >-
   business case workflow by 80% and empowers their customers with Visyond"/>
 
   <meta property="og:url"
-  content="https://visyond.com/casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/"
-  />
+  content="https://visyond.com/casestudy/major-telecom-vendor/" />
 title: >-
   How Ericsson accelerates their business case workflow by 80% and empowers
   their customers with Visyond
