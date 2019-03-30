@@ -1,15 +1,19 @@
 ---
 metaTags: >-
-  <meta property="og:title" content="Visyond - Ericsson Case Study" />
+  <meta property="og:title" content="Visyond - Ericsson Case
+  Study"/>
 
   <meta property="og:type" content="website" />
 
-  <meta property="og:image" content="https://visyond.com/img/Ericsson_logo_250w.png" />
+  <meta property="og:image" content="https://visyond.com/img/logo_small.png"/>
 
-  <meta property="og:description" content="How Ericsson accelerates their
-  business case workflow by 80% and empowers their customers with Visyond" />
+  <meta property="og:description" content="How Ericsson
+  accelerates their business case workflow by 80% and empowers their customers
+  with Visyond"/>
 
-  <meta property="og:url" content="https://visyond.com/casestudy/major-telecom-vendor/" />
+  <meta property="og:url"
+  content="https://visyond.com/casestudy/major-telecom-vendor/"
+  />
 title: >-
   How Ericsson accelerates their business case workflow by 80% and empowers
   their customers with Visyond
