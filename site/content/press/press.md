@@ -4,6 +4,11 @@ url: /press/
 topTitle: Press
 bgImage: /img/banner.jpg
 pressarticles:
+  - alt: Finance Derivative Logo
+    logo: /img/Finance Derivative Logo.png
+    title: The Importance Of Data Visibility For Successful Digital Transformation
+    url: >-
+      https://www.financederivative.com/the-importance-of-data-visibility-for-successful-digital-transformation/
   - logo: /img/techradar logo.jpg
     name: ''
     title: >-
