@@ -1,3 +1,21 @@
+.hometest > section[style^=background-image] {
+    background-repeat: no-repeat;
+    @media screen and (min-width: 1602px) {
+        width: 100%;
+        background-size: 100%;
+        height: 452px;
+    }
+}
+
+.hometest > section {
+    border: 4px;
+
+}
+
+.hometest {
+    border: 1px;
+}
+
 .ht-top {
     display: -webkit-flex;
     display: -ms-flex;
