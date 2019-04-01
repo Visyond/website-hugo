@@ -27,14 +27,15 @@ metaTags: >-
 
 
   <meta name="yandex-verification" content="7dfc91ce5829221e" />
-topTitle: 'The Combined Power of Spreadsheets, BI and Presentations'
+topTitle: 'The Combined Power of Spreadsheets, BI and Presentation'
+noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-noContentPadding: true
 requestURL: /request
 topSubTitle: >-
-  Answer Questions in Real Time | Visualize the Impact of Decisions | Securely Interact with Data
+  Answer Questions in Real Time | Visualize the Impact of Decisions | Securely
+  Interact with Data
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
@@ -54,8 +55,7 @@ infoBlockFirst:
         link: /features/scenarios/
         title: Manage Multiple Scenarios
       - alt: Spreadsheet Governance in Visyond - Selective Sharing
-        descr: >-
-          Limit what parts of the spreadsheet people can see or interact with.
+        descr: Limit what parts of the spreadsheet people can see or interact with.
         file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Secure Selective Sharing
