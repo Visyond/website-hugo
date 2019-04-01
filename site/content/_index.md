@@ -27,7 +27,7 @@ metaTags: >-
 
 
   <meta name="yandex-verification" content="7dfc91ce5829221e" />
-topTitle: 'The Combined Power of Spreadsheets, BI and Presentation'
+topTitle: 'The Combined Power of Spreadsheets, BI and Presentations'
 noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
