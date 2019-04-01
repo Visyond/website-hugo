@@ -1,5 +1,5 @@
 ---
-title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation'
+title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation0'
 metaTags: >-
   <meta property="og:title" content="Visyond - Real-time Analysis and Better
   Decisions with Spreadsheet and Presentation Automation"/>
@@ -29,7 +29,7 @@ metaTags: >-
   <meta name="yandex-verification" content="7dfc91ce5829221e" />
 topTitle: >-
   Real-time Analysis and Better Decisions with Spreadsheet and Presentation
-  Automation
+  Automation0
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
@@ -180,3 +180,4 @@ featured:
 titleBottom: Find out how to improve your decision-making process today
 bgBottom: /img/footer-bg.png
 ---
+
