@@ -292,33 +292,12 @@ $(function () {
         }
       }
 
-      function createMediaContainer(listElement, src, type) {
-          const sliderItem = document.createElement('li');
-          const sliderTitle = document.createElement('h3');
-          const sliderDescr = document.createElement('p');
-          sliderTitle.innerHTML = sliderTitles[i];
-          sliderDescr.innerHTML = sliderDescrs[i];
-          const sliderImage = document.createElement('img');
-
-          sliderImage.setAttribute('src', sliderArray[i]);
-
-          //sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
-
-          sliderTitles[i] && sliderItem.appendChild(sliderTitle);
-
-          sliderDescrs[i] && sliderItem.appendChild(sliderDescr);
-
-          sliderItem.appendChild(sliderImage);
-          sliderList.appendChild(sliderItem);
-      };
       function getMediaType(fileName) {
           var r = 'image';
           var ext = fileName.slice(fileName.lastIndexOf('.')+1);
           if ( ext === 'mp4' || ext === 'webm') r = 'video';
           return r;
       };
-
-
 
       // Create popup with content
       this._createPopup = (src, href, title, descr, alt) => {
@@ -524,7 +503,7 @@ $(function () {
             })
 
 
-          //}  // todo remove when video is ok
+
 
           setTimeout( () => {
             popup.style.opacity = 1;

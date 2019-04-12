@@ -33,9 +33,7 @@ infoBlockFirst:
         descr: >-
           Compare scenarios and gain valuable insights in just a
           few clicks!
-        file22: /img/2019-02 Scenario Analysis.png
-        file33: /img/Visyond Homepage background video no loop v1.webm
-        file: /img/Visyond.mp4
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
     image: /img/2019-02 Scenario Management Panel.png
