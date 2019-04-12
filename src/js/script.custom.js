@@ -1,5 +1,5 @@
-$(function () {
 
+$(function () {
     window.$ = $;
 
     /**
@@ -145,8 +145,13 @@ $(function () {
        const date = new Date();
 
        if(copyright) {
+           for (var i; i<copyright.length; i++) {
+               copyright[i].innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+           /*
         for(const item of copyright) {
          item.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+         */
+
         }
        }
      }
@@ -159,7 +164,7 @@ $(function () {
 
 
      //=====POPUP WITH YOUTUBE VIDEO=====
-     function watchVideo(btn, popup) {
+     function watchVideo2(btn, popup) {
        const closePopup = document.querySelector('.js-popup-close');
        const srcIframe = popup.querySelector('p').innerHTML;
        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
@@ -203,11 +208,12 @@ $(function () {
     if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
         const videoBtn = document.querySelector('.js-btn-video');
         const videoPopup = document.querySelector('.js-popup');
-
+/*
         watchVideo(videoBtn, videoPopup);
+        */
     }
 
-    
+
 
 
 
@@ -277,7 +283,7 @@ $(function () {
        this.mainBlock = document.body;
          this.images = this.mainBlock.querySelectorAll('.js-img-wrap img');
          this.typeImages = ['png', 'jpg', 'gif'];
-         this.typeVideos = ['mp4']
+         this.typeVideos = ['mp4', 'webm'];
 
          // Add hover for all image with attr data-src
       for(let i = 0; i < this.images.length; i++) {
@@ -286,33 +292,23 @@ $(function () {
         }
       }
 
+      function getMediaType(fileName) {
+          var r = 'image';
+          var ext = fileName.slice(fileName.lastIndexOf('.')+1);
+          if ( ext === 'mp4' || ext === 'webm') r = 'video';
+          return r;
+      };
+
       // Create popup with content
       this._createPopup = (src, href, title, descr, alt) => {
-        if(src) {
-          const sliderArray = src.split('::');
-          const sliderAlt = alt.split('::');
-          const sliderHrefs = href.split('::');
-          const popup = document.createElement('div');
-          popup.classList.add('popup');
-
-          const typeFile =  src.slice(src.lastIndexOf('.') + 1);
-            //  If file is video
-          if(this.typeVideos.includes(typeFile) && sliderArray.length === 1) {
-            const video = document.createElement('video');
-            const source = document.createElement('source');
-            video.setAttribute('autoplay', 'autoplay');
-            source.setAttribute('src', src);
-            video.appendChild(source);
-            popup.appendChild(video);
-            this.mainBlock.appendChild(popup);
-
-            popup.addEventListener('click', e => {
-              popup.parentNode.removeChild(popup);
-            });
-          }
-          // If file is image
-          else if (this.typeImages.includes(typeFile)        
-                    || sliderArray.length > 1) {
+          var prevSlideIndex=0;
+          if(src) {
+            const sliderArray = src.split('::');
+            const sliderAlt = alt.split('::');
+            const sliderHrefs = href.split('::');
+            const popup = document.createElement('div');
+            popup.classList.add('popup');
+            const typeFile =  src.slice(src.lastIndexOf('.') + 1);
             const sliderTitles = title.split('::');
             const sliderDescrs = descr.split('::');
             const listWrap = document.createElement('div');
@@ -323,6 +319,7 @@ $(function () {
             const linkBtn = document.createElement('a');
             const visibilityBtn = document.createElement('button');
             const btnWrap = document.createElement('div');
+            var sliderImage;
 
             prevBtn.classList.add('js-prev');
             nextBtn.classList.add('js-next');
@@ -343,21 +340,24 @@ $(function () {
             
             for(let i = 0; i < sliderArray.length; i++) {
               const sliderItem = document.createElement('li');
+              const sliderItemDiv = document.createElement('div');
               const sliderTitle = document.createElement('h3');
               const sliderDescr = document.createElement('p');
               sliderTitle.innerHTML = sliderTitles[i];
               sliderDescr.innerHTML = sliderDescrs[i];
-              const sliderImage = document.createElement('img');
-
+              if (getMediaType(sliderArray[i]) === 'image') { // if image
+                  sliderImage = document.createElement('img');
+              } else { // if video
+                  sliderImage = document.createElement('video');
+                  //sliderImage.setAttribute('autoplay', 'autoplay');
+                  sliderImage.loop = true;
+              };
               sliderImage.setAttribute('src', sliderArray[i]);
-
               sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
-
-              sliderTitles[i] && sliderItem.appendChild(sliderTitle);
-              
-              sliderDescrs[i] && sliderItem.appendChild(sliderDescr);
-
-              sliderItem.appendChild(sliderImage);
+              sliderItem.appendChild(sliderItemDiv);
+              sliderTitles[i] && sliderItemDiv.appendChild(sliderTitle);
+              sliderItemDiv.appendChild(sliderImage);
+              sliderDescrs[i] && sliderItemDiv.appendChild(sliderDescr);
               sliderList.appendChild(sliderItem);
             }
 
@@ -366,7 +366,7 @@ $(function () {
             listWrap.appendChild(prevBtn);
             listWrap.appendChild(btnWrap);
             btnWrap.appendChild(closeBtn);
-            btnWrap.appendChild(linkBtn);
+            //btnWrap.appendChild(linkBtn);
             listWrap.appendChild(nextBtn);
             popup.appendChild(listWrap);
             this.mainBlock.appendChild(popup);
@@ -393,8 +393,13 @@ $(function () {
               }
 
               const widthSlide = listWrap.getBoundingClientRect().width;
-
               sliderList.style.transform = `translateX(-${countSlide * widthSlide}px)`;
+              const prevSliderElement = sliderList.children[prevSlideIndex];
+              const currSliderElement = sliderList.children[countSlide];
+              var prevMediaElement = prevSliderElement.querySelector('video');
+              var currMediaElement = currSliderElement.querySelector('video');
+              if (prevMediaElement) prevMediaElement.pause();
+              if (currMediaElement) currMediaElement.play();
             }
 
             function showLink(href) {
@@ -409,6 +414,7 @@ $(function () {
             showBtn();
 
             nextBtn.addEventListener('click', () => {
+                prevSlideIndex = countSlide;
               if(countSlide < sliderArray.length - 1) {
                 countSlide++;
                 showBtn();
@@ -418,6 +424,7 @@ $(function () {
 
 
             prevBtn.addEventListener('click', () => {
+                prevSlideIndex = countSlide;
               if(countSlide > 0) {
                 countSlide--;
                 showBtn();
@@ -494,14 +501,15 @@ $(function () {
               }
               visibilityInd = !visibilityInd;
             })
-          }
+
+
+
 
           setTimeout( () => {
             popup.style.opacity = 1;
           });
         }
       }
-         
          if(document.querySelector('.show-slides')) {
              $(".show-slides").click(e => {
                  const img = $(e.currentTarget).find("img").get(0);
@@ -521,9 +529,6 @@ $(function () {
     if(document.querySelector('.js-img-wrap')) {
       const newPopup = new PopupInfoImages();
     }
-
-
-
 
 
 
@@ -550,9 +555,6 @@ $(function () {
 
 
 
-
-
-
      //=====FORM=====
 
      function customizeForm() {
@@ -575,10 +577,6 @@ $(function () {
      document.querySelector('.js-form') && customizeForm();
 
 
-
-
-
-
      //=====TARGET BLANK======
 
      function addTargetBlank(classBlock) {
@@ -593,10 +591,6 @@ $(function () {
      }
 
      addTargetBlank('.target-blank');
-
-
-
-
 
 
 
@@ -645,7 +639,6 @@ $(function () {
 
      linkHover('features-toggle', 'Features');
      linkHover('solutions-toggle', 'Solutions');
-
 });
 
 $(document).ready(function(){
