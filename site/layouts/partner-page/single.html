@@ -1,0 +1,129 @@
+{{ partial "head" . }}
+
+<div class="partners-page">
+    <!-- first section -->
+    <section class="cover" style="background-image: url({{ .Params.BgImage }})">
+
+        <h1 class="cover-header">
+            {{ .Params.TopTitle }}
+        </h1>
+
+        <div class="cover-header--sub">
+            {{ .Params.TopSubTitle }}
+        </div>
+    </section>
+    <!-- //first section -->
+
+    <!-- second section -->
+    <section class="benefits-section half-light-blue">
+
+        <div class="container">
+            <h2 class="header-section">
+                {{ .Params.BenefitsHeader }}
+            </h2>
+            <div class="header-section--divider"></div>
+
+            <div class="benefits">
+                {{ range .Params.benefitsItems }}
+                <div class="benefit__item">
+
+                    <img src="{{ .img }}" alt="" class="benefit__icon">
+                    <h5 class="benefit__headline">
+                        {{ .title }}
+                    </h5>
+                    <p class="benefit__text">
+                        {{ .subTitle | markdownify }}
+                    </p>
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+    </section>
+    <!-- //second section -->
+
+    <!-- second section -->
+    <section class="types-section">
+        <div class="container">
+            <h2 class="header-section">
+                {{ .Params.typesHeader }}
+            </h2>
+            <div class="header-section--divider"></div>
+            {{ with .Params.typesSection }}
+                <div class="types">
+                    {{ range .types }}
+                    <div class="types__item">
+                        <img src="{{ .icon }}" alt="" class="types__icon">
+                        <h5 class="types__headline">
+                            {{ .title }}
+                        </h5>
+                        <p class="types__text">
+                            {{ .subTitle | markdownify}}
+                        </p>
+                    </div>
+                    {{ end }}
+                </div>
+                {{ with .cta }}
+                <div class="btn-wrap">
+                    <a class="btn-primary" id="down-to-form">
+                        {{ .text }}
+                    </a>
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    <!-- //second section -->
+
+    <!-- form section -->
+    <section class="form">
+        <div class="container">
+            <h2 class="header-section">
+                {{.Params.formHeader }}
+            </h2>
+            <div class="header-section--divider"></div>
+            <form class="form__inputs-container" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">
+                
+                <input type="hidden" name="_next" value="https://visyond.com/partner-with-visyond/" />
+                <input type="hidden" name="_cc" value="gianluca@get.visyond.com,gianluca.bisceglie@gmail.com,besnik@get.visyond.com,alex@get.visyond.com,alexey.prokopovich@visyond.com,support@visyond.com" />
+               
+                <div class="form__left-column">
+                    <input name="Full name" class="form__input" type="text" placeholder="Full name" required>
+                    <input name="Email Address" class="form__input" type="text" placeholder="Email Address" required>
+                    <input name="Company name" class="form__input" type="text" placeholder="Company name">
+                    <input name="Location" class="form__input" type="text" placeholder="Location">
+                </div>
+                <div class="form__right-column">
+                    <div class="form__checked">
+                        <p class="form__checked-title">Partner Type</p>
+                        <div class="form__radio-buttons-container">
+                            {{ range .Params.radio }}
+                            <label class="radio-button">
+                                <input class='radio-button__check-button' type="radio" name="Partner Type" checked="checked" value={{.labelRadioButton}} >
+                                <span class="radio-button__label">
+                                    {{.labelRadioButton}}
+                                </span>
+                                <span class="radio-button__checkmark"></span>
+                            </label>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <input name="Phone Number" class="form__input" type="phone" placeholder="Phone Number" required>
+                    <div class="form__textarea-container">
+                        <textarea name="Message" class="form__textarea" placeholder="Message" rows = '1'></textarea>
+                        <span class = "form__textarea_optional">Optional</span>
+                    </div>
+                </div>
+                <div class="btn-wrap">
+                    <input type="submit" value={{ .Params.submitButtonTitle }} class="btn-primary"/>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- form section -->
+
+    {{ partial "get-started" . }}
+</div>
+
+{{ partial "footer" . }}

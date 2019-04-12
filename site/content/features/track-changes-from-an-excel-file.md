@@ -11,7 +11,7 @@ topSubTitle: >-
   conversations and approvals, allowing to track changes from an Excel file.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: >-
       * Simultaneously store multiple assumptions that can be combined into

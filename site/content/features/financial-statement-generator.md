@@ -10,7 +10,7 @@ topSubTitle: >-
   setups.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "Greatly speed-up the creation and accuracy of Financial Statements without wasting time on long error-prone manual setups.\n\nVisyond automates the creation of:\n\n* Balance Sheets\r\n* Income Statements\r\n* Cash Flow Statements\r\n* Calculations of growth and changes against previous periods\r\n* Financial and management ratios & KPIs\r\n* Depreciation schedules\r\n"
     files:

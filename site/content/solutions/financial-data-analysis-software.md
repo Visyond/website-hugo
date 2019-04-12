@@ -14,7 +14,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "In seconds, Visyond lets you perform data analysis that used to take days, automate typical routine tasks and test assumptions safely:\r\n\r\n* Graphically compare scenarios and answer ‘what-if’ questions in real time with Visyond’s [Scenario](/features/scenarios/) & Waterfall Analysis\r\n* Compare relative importance of cells with instant [Tornado Analysis](/features/tornado/)\r\n* Understand the relationships between input and output cells with instant [Sensitivity Analysis](/features/sensitivity/)\r\n* Run simulations on your data with instant [Monte Carlo Simulation](/features/simulations/)"
     files:
@@ -102,9 +102,9 @@ infoBlockFirst:
           Financial Data analysis Software - Share Interactive Presentations in
           Visyond
         descr: >-
-          Allow stakeholders to see only individual slides or whole presentations
-          that they can use to test their own assumptions without interacting
-          with the spreadsheet directly.
+          Allow stakeholders to see only individual slides or whole
+          presentations that they can use to test their own assumptions without
+          interacting with the spreadsheet directly.
         file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Selective Sharing
@@ -181,7 +181,7 @@ infoBlockFirst:
         file: /img/2019-02 Versions Panel.png
         link: /features/knowledge-base/
         title: Versions
-    image: /img/Single source of truth.png
+    image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Establish Single Source of Truth
   - descr: "* Build reports & financial statements with just a few clicks\r\n* Create Interactive Presentations, empowering stakeholders to securely test their own assumptions\r\n"

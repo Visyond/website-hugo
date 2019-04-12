@@ -11,6 +11,53 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "partner-page"
+    label: "Partner page"
+    folder: "site/content/partner-page"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Page url", name: "url", widget: string}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
+
+      - {label: "Benefits Header", name: "BenefitsHeader", widget: "string", required: false}
+      - { label: "Benefits items", name: "benefitsItems", widget: "list",
+        fields: [
+          {label: "Icon", name: "img", widget: "image", required: false,},
+          {label: "Title", name: "title", widget: "string", required: false,},
+          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ],
+        required: false,
+      }
+      - { label: "Types header", name: "typesHeader", widget: "string", required: false,}
+      - { label: "Types section", name: "typesSection", widget: "object", fields: [
+        { label: "Type", name: "types", widget: "list", fields: [
+          { label: "Icon", name: "icon", widget: "image", required: false,},
+          { label: "Title", name: "title", widget: "string", required: false,},
+          { label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ], required: false,},
+        {label: "CTA Button", name: "cta", widget: "object", fields: [
+          {label: "Text", name: "text", widget: "string"}
+        ]}
+      ], required: false,}
+
+      - {label: "Form Title", name: "formHeader", widget: "string", required: false,}
+      - {label: "Radio Buttons", name: "radio", widget: "list",
+        fields: [
+          {label: "Label Radio Button", name: "labelRadioButton", widget: "string", required: false,}
+        ], required: false,}
+      - {label: "Submit Button Title", name: "submitButtonTitle", widget: "string", required: false,}
+
+      - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
+      - {label: "Provides List", name: "providesList", widget: "list", fields: [
+        {label: "Provides Item", name: "text", widget: "markdown", required: false,},
+      ], required: false,}
+
+      - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
+
   - name: "blog"
     label: "Blog"
     folder: "site/content/blog"
