@@ -21,6 +21,9 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: Selective Sharing
+      - descr: test vid
+        file: /img/Visyond Homepage background video loop v1.webm
+        title: test vid
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Securely Handle Your Data
