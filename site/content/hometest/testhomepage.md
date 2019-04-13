@@ -1,5 +1,5 @@
 ---
-title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation0'
+title: 'Spreadsheet Automation, Data Tracking, Analysis, Reporting and Presentation00'
 metaTags: >-
   <meta property="og:title" content="Visyond - Real-time Analysis and Better
   Decisions with Spreadsheet and Presentation Automation"/>
