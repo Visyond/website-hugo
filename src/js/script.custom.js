@@ -164,7 +164,7 @@ $(function () {
 
 
      //=====POPUP WITH YOUTUBE VIDEO=====
-     function watchVideo2(btn, popup) {
+     function watchVideo(btn, popup) {
        const closePopup = document.querySelector('.js-popup-close');
        const srcIframe = popup.querySelector('p').innerHTML;
        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
@@ -208,9 +208,9 @@ $(function () {
     if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
         const videoBtn = document.querySelector('.js-btn-video');
         const videoPopup = document.querySelector('.js-popup');
-/*
+
         watchVideo(videoBtn, videoPopup);
-        */
+
     }
 
 
