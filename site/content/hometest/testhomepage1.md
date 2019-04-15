@@ -34,7 +34,7 @@ signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
 topSubTitle: >-
-  Visualize the impact of your decisions and answer any questions on-the-fly,
+  Visualize2 the impact of your decisions and answer any questions on-the-fly,
   reduce errors and control what each collaborator can see and interact with
 topImage: /img/Visyond Inforgraphics  NEW v23 1.5x supersample.png
 infoBlockFirst:
