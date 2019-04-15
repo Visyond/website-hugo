@@ -205,6 +205,7 @@ $(function () {
         const videoPopup = document.querySelector('.js-popup');
 
         watchVideo(videoBtn, videoPopup);
+
     }
 
     
