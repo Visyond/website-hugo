@@ -29,7 +29,7 @@ metaTags: >-
   <meta name="yandex-verification" content="7dfc91ce5829221e" />
 topTitle: >-
   Real-time Analysis and Better Decisions with Spreadsheet and Presentation
-  Automation0
+  Automation00
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/mIOudZrtVRs'
 requestURL: /request
