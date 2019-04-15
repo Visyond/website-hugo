@@ -24,6 +24,12 @@ infoBlockFirst:
           Presentations!
         file: /img/Interactive Slides in Browser v4.png
         title: INTERACTIVE CALCULATORS
+      - descr: test webm
+        file: /img/Visyond Homepage background video loop v1.webm
+        title: test webm
+      - descr: test mp4
+        file: /img/Part 7.mp4
+        title: test mp4
     image: /img/Interactive Slides in Browser v4.png
     title: Build Interactive Spreadsheet Calculators
   - descr: "* Share whole presentations or just individual slides with selected stakeholders with Visyond’s unique [Selective Sharing](/features/selective-sharing/)\r\n* Avoid the risk of exposing sensitive or unnecessary information\r\n* Protect model’s structure and layout from accidental changes when testing assumptions\r\n* Export Visyond’s presentations to static PowerPoint at any time"
