@@ -11,7 +11,7 @@ topSubTitle: >-
   tampering with the spreadsheet.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:

@@ -111,6 +111,7 @@
     transition: color 0.2s ease-in-out, border 0.2s ease-in-out,
     background 0.2s ease-in-out;
     border: 2px solid #fff;
+    cursor: pointer;
 
     @media screen and (max-width: 768px) {
         padding: 14px 60px;

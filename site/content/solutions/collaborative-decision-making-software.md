@@ -13,7 +13,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/analysts_consultants 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions in real time\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
     files:
@@ -30,9 +30,7 @@ infoBlockFirst:
       - alt: >-
           Collaborative Decision Making Software - Compare Scenarios in Real
           Time in Visyond
-        descr: >-
-          Compare scenarios and gain valuable insights in just a
-          few clicks!
+        descr: Compare scenarios and gain valuable insights in just a few clicks!
         file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
@@ -44,24 +42,11 @@ infoBlockFirst:
       - alt: Collaborative Decision Making Software - Share Project in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: SHARE PROJECT
-      - alt: Collaborative Decision Making Software - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        link: /features/selective-sharing/
-        title: SHARE WORKSHEETS
-      - alt: >-
-          Collaborative Decision Making Software - Share Interactive
-          Presentations in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
-        link: /features/selective-sharing/
-        title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Securely Handle Your Data
@@ -160,9 +145,7 @@ infoBlockFirst:
       - alt: >-
           Collaborative Decision Making Software - Compare Scenarios in Real
           Time in Visyond
-        descr: >-
-          Compare scenarios and gain valuable insights in just a
-          few clicks!
+        descr: Compare scenarios and gain valuable insights in just a few clicks!
         file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios

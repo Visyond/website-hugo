@@ -10,7 +10,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
     descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
@@ -28,24 +28,11 @@ infoBlockFirst:
       - alt: Spreadsheet Collaboration Software - Share Projects in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: Share Project
-      - alt: Spreadsheet Collaboration Software - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        link: /features/selective-sharing/
-        title: Share Worksheets
-      - alt: >-
-          Spreadsheet Collaboration Software - Share Interactive Presentations
-          in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/2019-02 Interactive Presentation.png
-        link: /features/selective-sharing/
-        title: Share Presentations
     image: /img/2019-02 Interactive Presentation.png
     link: /features/selective-sharing/
     title: Secure Selective Sharing
@@ -81,6 +68,12 @@ infoBlockFirst:
         file: /img/2019-02 Cases Panel and Dropdown.png
         link: /features/knowledge-base/
         title: Store Multiple Assumptions Simultaneously
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/2019-02 Versions Panel.png
+        link: /features/track-changes-from-an-excel-file/
+        title: VERSIONS
     image: /img/2019-02 Cases Panel and Dropdown.png
     link: /features/knowledge-base/
     title: Input Tracking and Version Control

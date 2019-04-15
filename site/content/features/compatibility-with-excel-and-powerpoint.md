@@ -9,7 +9,7 @@ topSubTitle: >-
   PowerPoint, image or PDF formats.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* You don’t have to build your spreadsheet from scratch - import it to Visyond, and you are ready to go\r\n* Visyond can handle even the most complex spreadsheets and is cross-compatible with Excel\r\n* Export spreadsheets from Visyond to Excel at any time\r\n"
     files:

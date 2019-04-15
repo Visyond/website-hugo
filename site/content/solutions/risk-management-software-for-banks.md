@@ -14,7 +14,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/decision makers 2.png
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
     files:
@@ -22,7 +22,7 @@ infoBlockFirst:
         descr: >-
           In the Audit Mode each cell looks different based on the type of data
           it contains.
-        file: /img/Audit Mode On.png
+        file: /img/2019-02 Audit On.png
         link: /features/audit-mode/
         title: AUDIT MODE ON
       - alt: >-
@@ -44,7 +44,7 @@ infoBlockFirst:
         file: /img/Dependency in Browser v2.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
-    image: /img/Audit Mode On.png
+    image: /img/2019-02 Audit On.png
     link: /features/audit-mode/
     title: Streamline Financial Modeling & Reduce Risk of Errors
   - descr: "* Share the whole project, certain worksheets or only specific parts of a worksheet, whole presentations or specific slides without exposing any other data, conversations, attachments or calculations \r\n* With this, data gathering and consolidation is much faster, safer and less prone to errors, unwanted changes or accidental data leakages\r\n"
@@ -52,25 +52,19 @@ infoBlockFirst:
       - alt: Risk Management Software for Banks - Share Projects in Visyond
         descr: >-
           Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/Share Project.png
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: SHARE PROJECT
-      - alt: Risk Management Software for Banks - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        link: /features/selective-sharing/
-        title: SHARE WORKSHEETS
       - alt: >-
           Risk Management Software for Banks - Share Interactive Presentations
           in Visyond
         descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
-    image: /img/Share Project.png
+    image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Share Only What Each Stakeholder Has To See
   - descr: >-
@@ -84,7 +78,7 @@ infoBlockFirst:
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Scenario Management Panel.png
         link: /features/scenarios/
         title: COMBINE ASSUMPTIONS INTO SCENARIOS
       - alt: >-
@@ -93,10 +87,10 @@ infoBlockFirst:
         descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Answer What-If Questions Anywhere In Real Time
-    image: /img/Scenarios chart in Browser v4.png
+    image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
     title: Answer What-If Questions Anywhere In Real Time
   - descr: >-
@@ -123,7 +117,7 @@ infoBlockFirst:
         descr: >-
           Instantly Understand The Relationship Between Input And Output
           Variables In A Spreadsheet
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: Sensitivity Analysis
       - alt: >-
@@ -132,7 +126,7 @@ infoBlockFirst:
         descr: >-
           Impact (Tornado) analysis will instantly show you  what inputs have
           the greatest impact on outputs and how they interact with one another 
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Tornado Analysis
       - alt: >-
@@ -141,10 +135,10 @@ infoBlockFirst:
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: MONTE CARLO SIMULATION
-    image: /img/Sensitivity two-way v2.png
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Stress-Test Your Models Efficiently
   - descr: "* Answer ‘what-if’ questions in real time without going back to the spreadsheet or the modeler. \r\n* Visualize different scenarios with Visyond’s interactive presentations - assumptions can be tested directly in the slides without exposing or changing the spreadsheet’s content or structure. \r\n* With Visyond, you no longer need to maintain separate presentation layers on top of the spreadsheet\r\n"
@@ -156,10 +150,10 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks and Empower Stakeholders To Test Assumptions
 capabilitiesList:

@@ -9,7 +9,7 @@ topSubTitle: >-
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
-bgImage: /img/Collab 1 resized 3.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing \r\n* Expose only what each collaborator should see or interact with - certain worksheets, reports or individual slides in presentations\r\n"
     files:

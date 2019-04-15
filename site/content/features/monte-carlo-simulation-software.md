@@ -9,7 +9,7 @@ topSubTitle: >-
   easily run Simulations without long manual setups.
 signUpURL: /accounts/signup/
 requestURL: /request
-bgImage: /img/banner dark.jpg
+bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: >-
       Simulation analysis is a powerful forecasting tool applicable to almost

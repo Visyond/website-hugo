@@ -1,0 +1,303 @@
+/*benefit section*/
+.benefits-section{
+    padding: 70px 0;
+}
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.benefit__item {
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 13px 7px 41px 0 rgba(107,133,187,0.33);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(50% - 25px);
+    min-width: 450px;
+    margin-bottom: 60px;
+}
+.benefit__item:nth-child(2n + 1) {
+    margin-right: 25px;
+}
+.benefit__item:nth-child(2n) {
+    margin-left: 25px;
+}
+.benefit__icon{
+    max-width: 141px;
+    height: auto;
+}
+.benefit__headline{
+    color: #0E2639;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-align: center;
+}
+.benefit__text{
+    opacity: 0.5;
+    color: #0E2639;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 1021px) {
+    .benefit__item{
+        width: 100%;
+    }
+    .benefit__item:nth-child(2n + 1) {
+        margin-right: 0;
+    }
+    .benefit__item:nth-child(2n) {
+        margin-left: 0;
+    }
+}
+
+/*types section*/
+.types-section{
+    padding: 70px 0 120px;
+}
+.types{
+    display: flex;
+    justify-content: center;
+}
+.types__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33%;
+}
+.types__item:not(:last-child) {
+    margin-right: 50px;
+}
+.types__icon{
+    max-width: 125px;
+    height: auto;
+}
+.types__headline, .types__text {
+    width: 100%;
+    font-family: "Open Sans";
+    color: #0E2639;
+    text-align: center;
+    line-height: 1.8;
+}
+.types__headline{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.types__text{
+    font-size: 16px;
+    opacity: 0.5;
+}
+@media screen and (max-width: 1021px) {
+    .types{
+        flex-wrap: wrap;
+    }
+    .types__item {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+    .types__item:not(:last-child) {
+        margin-right: 0;
+    }
+}
+
+/*COVER section*/
+.partners-page .cover{
+    padding: 140px 0;
+    background-position: center 20%;
+}
+.partners-page .cover-header{
+    font-size: 56px;
+    font-weight: 300;
+}
+.partners-page .cover-header--sub{
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+
+/*mixed styles*/
+.partners-page .header-section{
+    color: #50546D;
+    font-size: 32px;
+    font-weight: 300;
+}
+.half-light-blue{
+    background: linear-gradient(to bottom, rgba(6, 133, 255, 0.04) 380px, #ffffff 380px);
+}
+
+/*demo section*/
+.partners-page .demoSection .section-header{
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 0;
+}
+.partners-page .demoSection .button{
+    border-radius: 25px;
+}
+
+/*form section*/
+.form   {
+    padding: 105px 0 100px 0;
+    background: rgba(6,133,255, 0.04);
+}
+.form .btn-wrap {
+    width: 100%;
+}
+.form__inputs-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form__left-column, .form__right-column {
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 15px);
+}
+.form__left-column {
+    margin-right: 15px;
+}
+.form__right-column {
+    margin-left: 15px;
+}
+.form__input, .form__checked-title, .form__textarea-container{
+    height: 78px;
+}
+.form__input, .form__checked-title, .form__textarea {
+    font-family: "Open Sans";
+    border: none;
+    border-bottom: 2px solid rgba(82,84,108, 0.25);
+    padding: 25px 0 20px;
+    background: rgba(6,133,255, 0);
+    font-size: 18px;
+}
+.form__textarea-container {
+    border-bottom: 2px solid rgba(82,84,108, 0.25);
+    padding: 25px 0 20px;
+}
+.form__textarea {
+    overflow: hidden;
+    resize: none;
+    border: none;
+    padding: 0 50px 0 0;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.form__textarea_optional {
+    position: absolute;
+    color: rgba(14,38,57,0.5);
+    font-style: italic;
+    font-size: 14px;
+    right: 0;
+    left: initial;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.form__input:focus, .form__textarea:focus  {
+    outline: none;
+}
+.form__input::placeholder, .form__checked-title {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(82,84,108,0.9);
+    font-weight: 400;
+}
+.form__checked-title {
+    border: none;
+    margin-bottom: 0;
+}
+.form__radio-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*style to radio button*/
+.radio-button {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 14px;
+    margin-right: 30px;
+    width: 40%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.radio-button__label, .radio-button__checkmark {
+    cursor: pointer;
+}
+.radio-button__label {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: rgba(14,38,57,0.5);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.radio-button__check-button {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.radio-button__checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    border: 1px solid rgba(82,84,108, 0.7);
+    border-radius: 50%;
+}
+.radio-button__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-button__check-button:checked ~ .radio-button__checkmark:after {
+    display: block;
+}
+.radio-button__checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #0685FF;
+}
+.radio-button__check-button:checked + .radio-button__label{
+    color: #0E2639;
+}
+.form .btn-wrap {
+    margin-top: 70px;
+}
+.form__textarea-container {
+    position: relative;
+}
+
+@media screen and (max-width: 1021px) {
+    .form__left-column, .form__right-column {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .radio-button {
+        width: 100%;
+    }
+}
