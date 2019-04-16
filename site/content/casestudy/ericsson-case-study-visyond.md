@@ -1,6 +1,5 @@
 ---
 aliases: >-
-  /casestudy/how-ericsson-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
 metaTags: >-
   <meta property="og:title" content="Visyond - Leading Telecom Vendor Case
   Study"/>
