@@ -2,7 +2,6 @@
 title: Ericsson Case Study Visyond
 image: /img/package-27770_1280.png
 tooltip:
-  - title: asdasd
   - title: dddd
 client: /img/package-27770_1280.png
 client_ask: sdfsdfsdf
