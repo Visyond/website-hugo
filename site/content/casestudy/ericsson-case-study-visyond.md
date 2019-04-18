@@ -100,16 +100,16 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 ![Modeler is no longer a bottleneck](/img/2b Modeler is no longer a bottleneck 2.png)
 
 #
-# Single Source of Truth & Data Consolidation
+# Data Tracking & Consolidation
 ## Information was Hard to Retrieve
 
-In addition, tracking inputs and their authors was very challenging. This **information was not readily available in spreadsheets, was hard to retrieve** and was hidden in long email threads between account managers and customers.
+In addition, tracking inputs and their authors was very challenging. This **information was not readily available in spreadsheets, was hard to retrieve** and was hidden in long email threads between account managers and customers making manual data gathering and consolidation process even more painful.
 
 ![Visibility was obstructed](/img/3b Visibility was obstructed.png)
 
 ## With Visyond, a Single Source of Truth Solved the Data Chaos
 
-With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere at any time** and contains all changes, scenarios, supporting documentation and conversations. It made tracking inputs and identifying their origins simpler as well as removed the need to manage multiple versions of the same spreadsheet.
+With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere at any time** and contains all changes, multiple co-existing scenarios, supporting documentation and conversations. It made tracking inputs and identifying their origins simpler as well as removed the need to manage multiple versions of the same spreadsheet during data gathering and consolidation.
 
 ![A single source of truth solved the data chaos](/img/3b A single source of truth solved the data chaos.png)
 
