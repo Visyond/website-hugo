@@ -159,7 +159,7 @@ The work didn’t end with the preparation of the model. After each iteration th
 
 ![Visualizations in sync with the models](/img/8b Visualizations in sync with the models.png)
 
-## After Customers are empowered to safely test assumptions
+## After - Customers are empowered to safely test assumptions
 
 **‘What-if’ questions can now be answered in real time** without having to go back to the spreadsheet. The interactive online slides are an outstanding and elegant way to visualize different scenarios with the customer. Numbers can be tested directly in the presentation that is linked to the model without exposing it or changing its content or structure.
 Therefore, there is **no longer a need to manually maintain separate presentation layers on top of the spreadsheet** as Visyond can instantaneously adjust to changes in input, output or layout without requiring any development effort from Ericsson.
