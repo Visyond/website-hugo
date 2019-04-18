@@ -6,8 +6,7 @@ topImage: /img/topImgTerms.png
 locations:
   - contactsemail:
       - socialemail: info@visyond.com
-    contactsphone:
-      - socialphone: +44 20 3868 7298
+    contactsphone: []
     contactssocial: []
     mail: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
     title: United Kingdom
