@@ -67,7 +67,7 @@ aside:
 
 > _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
 
-<html><br/></html>
+<div><br></div>
 
 # Collaboration & Access Management
 ## Workflow Was Complicated
@@ -82,7 +82,7 @@ Visyond helped Ericsson to quickly build reliable models, perform analyses on-th
 
 ![Stakeholders interact only with what they are allowed to](/img/1b Stakeholders interact only with what they are allowed to 2.png)
 
-<html><br/></html>
+<div><br></div>
 
 # Change Management & Version Control
 ## Modeler Was the Main Bottleneck
@@ -101,7 +101,7 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 
 ![Modeler is no longer a bottleneck](/img/2b Modeler is no longer a bottleneck 2.png)
 
-<html><br/></html>
+<div><br></div>
 
 # Data Tracking & Consolidation
 ## Information was Hard to Retrieve
@@ -116,7 +116,7 @@ With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere a
 
 ![A single source of truth solved the data chaos](/img/3b A single source of truth solved the data chaos.png)
 
-<html><br/></html>
+<div><br></div>
 
 # Error Detection & Model Audit
 ## Debugging was Painful
@@ -131,7 +131,7 @@ Since the modeler, account managers and customers are no longer bounded by email
 
 ![Dependency analysis and error discovery is easier](/img/4b Dependency analysis and error discovery is easier.png)
 
-<html><br/></html>
+<div><br></div>
 
 # Automated Data Analysis
 ## All 'What-if' Analysis and Stress-testing was Manual and Time Consuming
@@ -146,7 +146,7 @@ Analyses that used to take multiple days to set up and finalize **can be now com
 
 ![Analyses can be set up in minutes](/img/5b Analyses can be set up in minutes 2.png)
 
-<html><br/></html>
+<div><br></div>
 
 # Collaborative Self-Service ‘What-If’ Analysis
 ## It was Impossible to Answer ‘What-if’ Questions On-The-Fly
