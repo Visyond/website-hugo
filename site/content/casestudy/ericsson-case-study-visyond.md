@@ -57,7 +57,7 @@ client_ask: >-
   assumptions to better understand the value of the solution
 
 
-  ![undefined](/img/0 Hierarchy.png)
+  ![undefined](/img/0 Hierarchy fix.png)
 aside:
   - content: '![Ericsson Logo](/img/Ericsson_logo_250w.png)'
   - content: "**Challenge**\n\n* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
@@ -65,20 +65,22 @@ aside:
   - content: "**Results at the glance**\n\n* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
 ---
 
-# Collaboration & Management of Access to Models
+> _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
+
+# Collaboration & Access Management
 ## Before - Workflow was complicated
 
 The typical process with Excel involved multiple versions of the model (for each account manager) that were sent via email or shared drives. Version control was done manually, resulting in a **huge waste of time, slow responsiveness to customers and undetected errors.**
 
 ![Workflow Was Complicated](/img/1b Workflow Was Complicated.png)
 
-## After - Stakeholders interact only with what they are allowed to
+## After - Wach stakeholder interacts with the parts of the project they are allowed to
 
-Visyond allowed Ericsson to quickly build reliable models, perform analyses on-the-fly, securely share spreadsheets and effectively communicate with the customers in a **controlled environment** where stakeholders can model and **test assumptions seeing and interacting with only what they need/can see** while leaving the underlying core logic intact.
+Visyond helped Ericsson to quickly build reliable models, perform analyses on-the-fly, securely share spreadsheets and effectively communicate with the customers in a **controlled environment** where stakeholders can model and **test assumptions seeing and interacting with only what they need/can see** while leaving the underlying core logic intact.
 
 ![Stakeholders interact only with what they are allowed to](/img/1b Stakeholders interact only with what they are allowed to 2.png)
 
-# Data Consolidation, Change Management & Version Control
+# Change Management & Version Control
 ## Before - Modeler was the main bottleneck
 
 After receiving the initial spreadsheet from the Chief Modeler, Ericsson’s account managers would discuss it (in meetings) or send it to clients who would make the changes in their copy, send it back to account managers who could add more changes before sending it back to the Chief Modeler for review. 
@@ -95,7 +97,7 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 
 ![Modeler is no longer a bottleneck](/img/2b Modeler is no longer a bottleneck 2.png)
 
-# Single Source of Truth & Access to Information
+# Single Source of Truth & Data Consolidation
 ## Before - Information was hard to retrieve
 
 In addition, tracking inputs and their authors was very challenging. This **information was not readily available in spreadsheets, was hard to retrieve** and was hidden in long email threads between account managers and customers.
@@ -108,7 +110,7 @@ With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere a
 
 ![A single source of truth solved the data chaos](/img/3b A single source of truth solved the data chaos.png)
 
-# Error Detection & Data Compliance
+# Error Detection & Model Audit
 ## Before - Debugging was painful
 
 With Excel, the Chief Modeler had to spend a lot of time to  ensure that the changes in the continuous back-and-forth communications did not accidentally break the model logic or override key assumptions. Obviously, this process carried a **high risk of undetected errors.**
@@ -117,7 +119,7 @@ With Excel, the Chief Modeler had to spend a lot of time to  ensure that the cha
 
 ## After - Dependency analysis and error discovery is easier
 
-Since the modeler, account managers and customers are no longer bounded by emails and multiple spreadsheet versions, the **occurrence of errors was greatly reduced.** In addition, Visyond provided **powerful debugging tools** to track dependencies and the root cause of errors.
+Since the modeler, account managers and customers are no longer bounded by emails and multiple spreadsheet versions, the **occurrence of errors was greatly reduced.** In addition, Visyond provided **powerful debugging and auditing tools** to track dependencies and the root cause of errors.
 
 ![Dependency analysis and error discovery is easier](/img/4b Dependency analysis and error discovery is easier.png)
 
@@ -166,4 +168,3 @@ Therefore, there is **no longer a need to manually maintain separate presentatio
 
 ![Customers are empowered to safely test assumptions](/img/6b Customers are empowered to safely test assumptions 2.png)
 
-> _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
