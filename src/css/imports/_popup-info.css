@@ -409,10 +409,13 @@
 .popup div ul li img {
     max-width: 101%;
     max-height: 100%;
+    object-fit: contain;
+
 @media (max-width: 800px) {
     width: 100%;
     max-width: 100%;
     margin: 0px;
+
 }
 
 }
