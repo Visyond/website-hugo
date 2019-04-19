@@ -340,6 +340,7 @@ $(function () {
                 for(let i = 0; i < sliderArray.length; i++) {
                     const sliderItem = document.createElement('li');
                     const sliderItemDiv = document.createElement('div');
+                    const sliderImageDiv = document.createElement('div');
                     const sliderTitle = document.createElement('h3');
                     const sliderDescr = document.createElement('p');
                     sliderTitle.innerHTML = sliderTitles[i];
@@ -353,11 +354,14 @@ $(function () {
                     };
                     sliderImage.setAttribute('src', sliderArray[i]);
                     sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
-                    sliderItem.appendChild(sliderItemDiv);
+
+
                     sliderTitles[i] && sliderItemDiv.appendChild(sliderTitle);
-                    sliderItemDiv.appendChild(sliderImage);
+                    sliderItemDiv.appendChild(sliderImageDiv);
+                    sliderImageDiv.appendChild(sliderImage);
                     sliderDescrs[i] && sliderItemDiv.appendChild(sliderDescr);
                     sliderList.appendChild(sliderItem);
+                    sliderItem.appendChild(sliderItemDiv);
                 }
 
 
