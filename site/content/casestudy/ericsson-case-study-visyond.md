@@ -1,22 +1,20 @@
 ---
 metaTags: >-
-  <meta property="og:title" content="Visyond - Ericsson Case
-  Study"/>
+  <meta property="og:title" content="Visyond - Ericsson Case Study"/>
 
   <meta property="og:type" content="website" />
 
-  <meta property="og:image" content="https://visyond.com/img/Ericsson_logo_250w.png"/>
+  <meta property="og:image"
+  content="https://visyond.com/img/Ericsson_logo_250w.png"/>
 
-  <meta property="og:description" content="How Ericsson
-  accelerates their business case workflow by 80% and empowers their customers
-  with Visyond"/>
+  <meta property="og:description" content="How Ericsson accelerates their
+  business case workflow by 80% and empowers their customers with Visyond"/>
 
   <meta property="og:url"
-  content="https://visyond.com/casestudy/ericsson-case-study-visyond"
-  />
+  content="https://visyond.com/casestudy/ericsson-case-study-visyond" />
 title: >-
-  How Ericsson accelerates their business case workflow by 80%
-  and empowers their customers with Visyond
+  How Ericsson accelerates their business case workflow by 80% and empowers
+  their customers with Visyond
 image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Telecom'
@@ -64,7 +62,6 @@ aside:
   - content: "**Solution**\r\n\n* Controlled secure environment to model and test assumptions\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow\r\n* Powerful debugging and auditing tools that reduces errors and time\r\n* 1-click autoanalysis\r\n* Interactive online presentations to answer ondemand questions and queries\r\n* Workflow, permission and selective-sharing management\r\n"
   - content: "**Results at the glance**\n\n* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
 ---
-
 > _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
 
 <br />
@@ -72,7 +69,8 @@ aside:
 <br />
 <br />
 
-# Collaboration & Access Management
+# [Collaboration & Access Management](/solutions/spreadsheet-collaboration-software/)
+
 ## Workflow Was Complicated
 
 The typical process with Excel involved multiple versions of the model (for each account manager) that were sent via email or shared drives. Version control was done manually, resulting in a **huge waste of time, slow responsiveness to customers and undetected errors.**
@@ -92,7 +90,8 @@ Visyond helped Ericsson to quickly build reliable models, perform analyses on-th
 <br />
 <br />
 
-# Change Management & Version Control
+# [Change Management & Version Control](/solutions/financial-modeling-software/)
+
 ## Modeler Was the Main Bottleneck
 
 After receiving the initial spreadsheet from the Chief Modeler, Ericsson’s account managers would discuss it (in meetings) or send it to clients who would make the changes in their copy, send it back to account managers who could add more changes before sending it back to the Chief Modeler for review. 
@@ -116,7 +115,8 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 <br />
 <br />
 
-# Data Tracking & Consolidation
+# [Data Tracking & Consolidation](/solutions/data-tracking-software/)
+
 ## Information was Hard to Retrieve
 
 In addition, tracking inputs and their authors was very challenging. This **information was not readily available in spreadsheets, was hard to retrieve** and was hidden in long email threads between account managers and customers making manual data gathering and consolidation process even more painful.
@@ -136,7 +136,8 @@ With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere a
 <br />
 <br />
 
-# Error Detection & Model Audit
+# [Error Detection & Model Audit](/solutions/financial-modeling-software/)
+
 ## Debugging was Painful
 
 With Excel, the Chief Modeler had to spend a lot of time to  ensure that the changes in the continuous back-and-forth communications did not accidentally break the model logic or override key assumptions. Obviously, this process carried a **high risk of undetected errors.**
@@ -156,7 +157,8 @@ Since the modeler, account managers and customers are no longer bounded by email
 <br />
 <br />
 
-# Automated Data Analysis
+# [Automated Data Analysis](/solutions/data-analysis-software/)
+
 ## All 'What-if' Analysis and Stress-testing was Manual and Time Consuming
 
 Routine analytical tasks, such as sensitivity (what-if) analysis or scenario comparison, were done manually, which **shifted the focus away from getting insights from the data** to setting up Excel.
@@ -176,7 +178,8 @@ Analyses that used to take multiple days to set up and finalize **can be now com
 <br />
 <br />
 
-# Collaborative Self-Service ‘What-If’ Analysis
+# [Collaborative Self-Service ‘What-If’ Analysis](/solutions/automate-excel-reports-and-presentation/)
+
 ## It was Impossible to Answer ‘What-if’ Questions On-The-Fly
 
 During meetings with the customers, Account Managers were often asked questions like _“can you tell me what happens if we do not get x% but y% improvement thank to your solution?”_. **Answering meant going back to the model to update and test it, redraw charts and update slides.** By the time Ericsson provided answers, the customer had prepared new questions. Back to square one.
@@ -213,4 +216,3 @@ The work didn’t end with the preparation of the model. After each iteration, t
 Therefore, there is **no longer a need to manually maintain separate presentation layers on top of the spreadsheet** as Visyond can instantaneously adjust to changes in input, output or layout without requiring any development effort from Ericsson.
 
 ![Customers are empowered to safely test assumptions](/img/6b Customers are empowered to safely test assumptions 2.png)
-
