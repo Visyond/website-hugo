@@ -4,7 +4,13 @@
 <li class="home-info__block">
     <div class="info__img-wrap js-img-wrap show-slides">
 
-        <img src="{{ .image }}" alt="{{ .altText }}" class="home-info__block-img" data-src="{{ range $file := .files }}{{ .file }}::{{ end }}" data-title="{{ range $file := .files }}{{ .title }}::{{ end }}" data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}" data-href="{{ range $file := .files }}{{ .link }}::{{ end }}" data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
+        <img src="{{ .image }}" alt="{{ .altText }}"
+             class="home-info__block-img"
+             data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
+             data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
+             data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
+             data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
+             data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
 
         <a class="button button-icon button-primary over">
             <i class="material-icons">
