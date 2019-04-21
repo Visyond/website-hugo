@@ -223,6 +223,7 @@ $(function () {
     if(document.querySelector('.js-background-video')) {
         const video = document.querySelector('.js-background-video');
         video.addEventListener('canplay', () => {
+            debugger;
             video.play();
         })
     }
@@ -348,6 +349,17 @@ $(function () {
                 linkBtn.innerHTML = '?';
                 closeBtn.innerHTML = '<i class="material-icons">close</i>';
 
+                function getVideoElementProcessor(i) {
+                    return function (e) {
+                        console.log('wow e:', e);
+                        console.log('e.height', e.target.videoHeight);
+                        sliderElementsArray[i].ih = e.target.videoHeight;
+                        sliderElementsArray[i].iw = e.target.videoWidth;
+                        console.log('e', Date.now());
+                        showBtn();
+                    }
+                }
+
                 for(let i = 0; i < sliderArray.length; i++) {
                     const sliderItem = document.createElement('li');
                     const sliderItemDiv = document.createElement('div');
@@ -367,16 +379,15 @@ $(function () {
                         //sliderImage.setAttribute('autoplay', 'autoplay');
                         sliderImage.loop = true;
                         console.log('b', Date.now());
-                        sliderImage.addEventListener('loadeddata', (e) => {
-                            console.log('wow e:', e);
-                            console.log('e.height', e.target.videoHeight);
-                            e.target.naturalHeight2 = e.target.videoHeight;
-                            e.target.naturalWidth2 = e.target.videoWidth;
-                            console.log('e', Date.now());
-                            showBtn();
-                        })
+                        sliderImage.addEventListener('loadeddata', getVideoElementProcessor(i));
                     };
                     console.log('a', Date.now());
+                    sliderElementsArray.push({li: sliderItem, img: sliderImage, ih: 0, iw: 0});
+                    if (getMediaType(sliderArray[i]) === 'image') {
+                        sliderElementsArray[i].ih = sliderImage.naturalHeight;
+                        sliderElementsArray[i].iw = sliderImage.naturalWidth;
+                    }
+
                     sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
 
 
@@ -389,7 +400,7 @@ $(function () {
                     sliderDescrs[i] && sliderItemDiv.appendChild(sliderDescr);
                     sliderList.appendChild(sliderItem);
                     sliderItem.appendChild(sliderItemDiv);
-                    sliderElementsArray.push({li: sliderItem, img: sliderImage});
+
                 }
 
 
@@ -414,8 +425,12 @@ $(function () {
 
                     let ch = window.innerHeight * 0.6;
                     let cw = window.innerWidth * 0.9;
+                    /*
                     let ih = img.naturalHeight2;
                     let iw = img.naturalWidth2;
+                    */
+                    let ih = sliderElementsArray[count].ih;
+                    let iw = sliderElementsArray[count].iw;
                     console.log('img', img);
                     console.log(ih, iw);
                     let h = getMediaHeight(ch, cw, ih, iw);
@@ -703,4 +718,11 @@ $(function () {
 
     linkHover('features-toggle', 'Features');
     linkHover('solutions-toggle', 'Solutions');
+
+    var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    if (isIE) {
+        var cover = document.querySelector('.cover-video--content');
+        cover.style.top = '0px'; // left: 200px;';
+        cover.style.left = '0px';
+    }
 });
