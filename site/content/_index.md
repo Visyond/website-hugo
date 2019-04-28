@@ -170,6 +170,19 @@ capabilitiesList:
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 providesTitle: Get Started in Minutes
+videoIcons:
+  - image: /img/home_video_icon_budgeting.png
+    text: Cashflow forecasting
+  - image: /img/home_video_icon_business.png
+    text: Scenario analysis
+  - image: /img/home_video_icon_cashflow.png
+    text: Budgeting
+  - image: /img/home_video_icon_dcf.png
+    text: Buisness planning
+  - image: /img/home_video_icon_investment.png
+    text: Investment
+  - image: /img/home_video_icon_scenario.png
+    text: DCF modeling
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is

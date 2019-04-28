@@ -27,6 +27,7 @@ gulp.task("hugo-preview", cb =>
   buildSite(cb, ["--buildDrafts", "--buildFuture"])
 );
 gulp.task("build", ["css", "js", "cms-assets", "hugo", "img"]);
+gulp.task("build2", ["css", "js", "cms-assets", "hugo"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
 gulp.task("css", () =>
@@ -88,7 +89,7 @@ gulp.task("svg", () => {
 
 gulp.task("img", () => {
   return gulp
-    .src("site/static/source-img/*")
+    .src("site/static/img/*")
     .pipe(changed("site/static/img"))
     .pipe(debug())
     .pipe(
