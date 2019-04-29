@@ -167,6 +167,7 @@
     }
 }
 
+
 .cover-buttons--wrap {
     display: -webkit-flex;
     display: -ms-flex;
@@ -175,7 +176,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 2em;
-
     & > * {
         margin: 1em;
     }
