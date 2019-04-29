@@ -152,7 +152,7 @@ infoBlockFirst:
           Spreadsheet Data Reporting in Visyond - Financial Statements, Reports
           and KPIs
         descr: >-
-          Visyond’s financial statements greatly reduce the risk of errors and
+          Visyond’s financial statements  greatly reduce the risk of errors and
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
