@@ -223,7 +223,6 @@ $(function () {
     if(document.querySelector('.js-background-video')) {
         const video = document.querySelector('.js-background-video');
         video.addEventListener('canplay', () => {
-            debugger;
             video.play();
         })
     }

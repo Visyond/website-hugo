@@ -51,13 +51,21 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding-top: 16em;
+    /*
+        padding-top: 6em;
+        */
+        padding: 10em 4 em 6em;
         background: rgba(0,21,61,.7);
         background-image: none;
+
+        @media screen and (max-width: 800px) {
+            padding-top: 3em;
+        }
 
         @media screen and (--tablet) {
             padding: 4em;
             padding-top: 10em;
+            padding-bottom: 6em;
             position: relative;
         }
 
@@ -87,6 +95,7 @@
             @media screen and (max-width: 800px) {
                 font-size: 0.9em;
                 flex-direction: row;
+                margin-top: 1px;
             }
         }
 
