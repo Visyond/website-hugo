@@ -90,7 +90,7 @@ gulp.task("svg", () => {
 gulp.task("img", () => {
   return gulp
     .src("site/static/img/*")
-    .pipe(changed("site/static/img"))
+    .pipe(changed("./dist/img"))
     .pipe(debug())
     .pipe(
       imagemin({
