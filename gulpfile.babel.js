@@ -88,8 +88,8 @@ gulp.task("svg", () => {
 
 gulp.task("img", () => {
   return gulp
-    .src("site/static/source-img/*")
-    .pipe(changed("site/static/img"))
+    .src("site/static/img/*")
+    .pipe(changed("./dist/img"))
     .pipe(debug())
     .pipe(
       imagemin({
