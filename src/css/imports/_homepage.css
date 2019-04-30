@@ -922,6 +922,7 @@
     }
 }
 
+
 .home_video_icons {
     display: flex;
     flex-direction: row;
@@ -951,8 +952,6 @@
     max-height: 64px;
     width: 64px;
     color: white;
-
-
 }
 
 .home_video_icons > span > div > img {
