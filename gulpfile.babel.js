@@ -27,11 +27,11 @@ gulp.task("hugo-preview", cb =>
   buildSite(cb, ["--buildDrafts", "--buildFuture"])
 );
 gulp.task("build", ["css", "js", "cms-assets", "hugo", "img"]);
-gulp.task("css", ["css"]);
-gulp.task("js", ["js"]);
-gulp.task("cms", ["cms-assets"]);
-gulp.task("hugo", ["hugo"]);
-gulp.task("img", ["img"]);
+gulp.task("css2", ["css"]);
+gulp.task("js2", ["js"]);
+gulp.task("cms2", ["cms-assets"]);
+gulp.task("hugo2", ["hugo"]);
+gulp.task("img2", ["img"]);
 gulp.task("build2", ["css", "js", "cms-assets"]);
 gulp.task("build-preview", ["css", "js", "cms-assets", "hugo-preview"]);
 
