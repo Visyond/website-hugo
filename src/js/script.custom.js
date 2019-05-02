@@ -348,10 +348,9 @@ $(function () {
                 linkBtn.innerHTML = '?';
                 closeBtn.innerHTML = '<i class="material-icons">close</i>';
 
-                function getVideoElementProcessor(i) {
+                function getVideoElementProcessor(i, divi, imgi) {
                     return function (e) {
-                        console.log('wow e:', e);
-                        console.log('e.height', e.target.videoHeight);
+                        divi.appendChild(imgi);
                         sliderElementsArray[i].ih = e.target.videoHeight;
                         sliderElementsArray[i].iw = e.target.videoWidth;
                         console.log('e', Date.now());
@@ -360,6 +359,7 @@ $(function () {
                 }
 
                 for(let i = 0; i < sliderArray.length; i++) {
+                    sliderElementsArray.push({li: {}, img: {}, ih: 0, iw: 0});
                     const sliderItem = document.createElement('li');
                     const sliderItemDiv = document.createElement('div');
                     const sliderImageDiv = document.createElement('div');
@@ -372,21 +372,33 @@ $(function () {
                         sliderImage.setAttribute('src', sliderArray[i]);
                         sliderImage.naturalHeight2 = sliderImage.naturalHeight;
                         sliderImage.naturalWidth2 = sliderImage.naturalWidth;
+                        sliderImage.onload = ((ii, sliderItemi, sliderItemDivi) => {
+                            return (e) => {
+                                sliderElementsArray[ii].ih = e.target.naturalHeight;
+                                sliderElementsArray[ii].iw = e.target.naturalWidth;
+                                sliderItemi.appendChild(sliderItemDivi);
+                                resizeImage(ii);
+                            }
+                        })(i, sliderImageDiv, sliderImage);
+
                     } else { // if video
                         sliderImage = document.createElement('video');
                         sliderImage.setAttribute('src', sliderArray[i]);
                         //sliderImage.setAttribute('autoplay', 'autoplay');
                         sliderImage.loop = true;
                         console.log('b', Date.now());
-                        sliderImage.addEventListener('loadeddata', getVideoElementProcessor(i));
+                        sliderImage.addEventListener('loadeddata', getVideoElementProcessor(i, sliderImageDiv, sliderImage));
                     };
                     console.log('a', Date.now());
-                    sliderElementsArray.push({li: sliderItem, img: sliderImage, ih: 0, iw: 0});
+                    //sliderElementsArray.push({li: sliderItem, img: sliderImage, ih: 0, iw: 0});
+                    sliderElementsArray[i].li = sliderItem;
+                    sliderElementsArray[i].img = sliderImage;
+                    /*
                     if (getMediaType(sliderArray[i]) === 'image') {
                         sliderElementsArray[i].ih = sliderImage.naturalHeight;
                         sliderElementsArray[i].iw = sliderImage.naturalWidth;
                     }
-
+*/
                     sliderImage.setAttribute('alt', (sliderAlt[i] || 'image'));
 
 
@@ -395,12 +407,12 @@ $(function () {
                     sliderImageDiv.style.justifyContent = "center";
                     sliderImageDiv.style.display = "flex";
                     sliderImageDiv.style["flex-direction"] = "row";
-                    sliderImageDiv.appendChild(sliderImage);
+                    //sliderImageDiv.appendChild(sliderImage);
                     sliderDescrs[i] && sliderItemDiv.appendChild(sliderDescr);
                     sliderList.appendChild(sliderItem);
                     sliderItem.appendChild(sliderItemDiv);
 
-                }
+                }; // i < sliderArray.length;
 
 
                 listWrap.appendChild(sliderList);
@@ -439,7 +451,7 @@ $(function () {
                     console.log(img.naturalHeight2);
                 };
 
-                resizeImage(countSlide);
+
 
                 function resize2() {
                     resizeImage(countSlide);
@@ -487,6 +499,7 @@ $(function () {
                 };
 
                 showBtn();
+                //setTimeout(showBtn, 3000);
 
                 nextBtn.addEventListener('click', () => {
                     prevSlideIndex = countSlide;
@@ -583,8 +596,8 @@ $(function () {
                 setTimeout( () => {
                     popup.style.opacity = 1;
                 });
-                
 
+                resizeImage(countSlide);
                 
             } // if (src)
         } // this.createPopup
