@@ -744,7 +744,10 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Cover Header", name: "coverHeader", widget: "string", required: false}
           - { label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
           - { label: "Section 1: Header", name: "sectionOneHeader", widget: "string", required: false}
+          - { label: "Text Area 1 title", name: "textArea1title", widget: "string", required: false}
+          - { label: "Text Area 1 describtion", name: "textArea1descr", widget: "markdown", required: false}
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
+          - { label: "Text Area 2", name: "textArea2", widget: "markdown", required: false}
           - { label: "Section 2: Header", name: "sectionTwoHeader", widget: "string", required: false}
           - { label: "Benefits", name: "cards", widget: "list", fields: [
               {label: "Icon", name: "icon" , widget: "image" },
@@ -755,9 +758,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Footer Header", name: "providesTitle", widget: "string", required: false}
           - {label: "Title Bottom", name: "titleBottom", widget: "string"}
           - {label: "Provides List", name: "providesList", widget: "list", fields: [{label: "Provides Item", name: "text", widget: "markdown"}],}
-
-
-
 
       - file: "site/content/nav/_index.md"
         label: "Navigation"
