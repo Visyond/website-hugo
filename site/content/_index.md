@@ -41,7 +41,7 @@ videoIcons:
   - image: /img/home_video_icon_business.png
     text: Planning & Modeling
   - image: /img/home_video_icon_cashflow.png
-    text: Budgeting & Forecasting
+    text: Forecasting & Budgeting
   - image: /img/home_video_icon_dcf.png
     text: Financial Statements
   - image: /img/home_video_icon_investment.png
