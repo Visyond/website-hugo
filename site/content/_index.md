@@ -168,6 +168,19 @@ capabilitiesList:
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 providesTitle: Get Started in Minutes
+videoIcons:
+  - image: /img/home_video_icon_budgeting.png
+    text: Risk Management
+  - image: /img/home_video_icon_business.png
+    text: Planning & Modeling
+  - image: /img/home_video_icon_cashflow.png
+    text: Budgeting & Forecasting
+  - image: /img/home_video_icon_dcf.png
+    text: Financial Statements
+  - image: /img/home_video_icon_investment.png
+    text: Investment Analysis
+  - image: /img/home_video_icon_scenario.png
+    text: Scenario Analysis
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
