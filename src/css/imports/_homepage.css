@@ -931,16 +931,19 @@
     margin-right: 10%;
     justify-content: space-between;
     position: relative;
-    bottom: 100px;
+    bottom: 110px;
     height: 0px;
+    font-size: 130%;
     @media screen and (max-width: 990px) and (min-width: 860px){
-        bottom: 80px;
+        bottom: 90px;
+
     }
     @media screen and (max-width: 859px) and (min-width: 801px){
-        bottom: 70px;
+        bottom: 80px;
+
     }
     @media screen and (max-width: 800px) {
-        bottom: 65px;
+        bottom: 75px;
     }
 }
 
@@ -953,6 +956,7 @@
     width: 64px;
     color: white;
 }
+
 
 .home_video_icons > span > div > img {
     min-height: 64px;
