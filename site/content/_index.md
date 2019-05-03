@@ -1,5 +1,5 @@
 ---
-title: 'Beyond Spreadsheets, Ana1ytics and Presentations'
+title: 'Beyond Spreadsheets, Analytics and Presentations'
 metaTags: >-
   <meta property="og:title" content="Visyond - Real-time Analysis and Better
   Decisions with Spreadsheet and Presentation Automation"/>
@@ -37,7 +37,7 @@ topSubTitle: Automate Analysis | Visualize the Impact of Decisions | Securely Co
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
-    text: '## Risk **_Management_**'
+    text: Risk Management
   - image: /img/home_video_icon_business.png
     text: Planning & Modeling
   - image: /img/home_video_icon_cashflow.png
