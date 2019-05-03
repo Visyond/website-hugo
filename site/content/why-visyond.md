@@ -21,22 +21,14 @@ metaTags: >-
 type: why-visyond
 title: Why Visyond
 coverHeader: What is Visyond?
-coverDescription: >-
-  Visyond is a cloud-based secure, collaborative and automated value analysis
-  and decision platform that reduces security threats & errors, and speeds up
-  the decision making process.
-
-
+coverDescription: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\r\n\nWe're introducing spreadsheet collaboration, the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it."
+sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
+textArea1descr: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\n"
+sectionOneImg: /img/why visyond infographic.png
+textArea2: >-
   We're introducing spreadsheet collaboration, the level of control,
   transparency and accountability that can be compared to those of modern
   blockchains, but without all the limitations and drawbacks of it.
-sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
-textArea11: Collaborative and automated value analysis and decision platform that reduces security threats & errors
-textArea1:
-  - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
-    title: Connect Your Organization
-sectionOneImg: /img/why visyond infographic.png
-textArea2: Automated value analysis and decision platform that reduces security threats & errors
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
