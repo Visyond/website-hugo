@@ -37,7 +37,7 @@ topSubTitle: Automate Analysis | Visualize the Impact of Decisions | Securely Co
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
-    text: Risk Management
+    text: '## Risk Management'
   - image: /img/home_video_icon_business.png
     text: Planning & Modeling
   - image: /img/home_video_icon_cashflow.png
