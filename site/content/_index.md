@@ -172,17 +172,17 @@ capabilitiesList:
 providesTitle: Get Started in Minutes
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
-    text: Cashflow forecasting
+    text: Financial Risk Management
   - image: /img/home_video_icon_business.png
-    text: Scenario analysis
+    text: Planning & Budgeting
   - image: /img/home_video_icon_cashflow.png
-    text: Budgeting
+    text: Cashflow Forecasting
   - image: /img/home_video_icon_dcf.png
-    text: Buisness planning
+    text: Management Consulting
   - image: /img/home_video_icon_investment.png
-    text: Investment
+    text: Investment Analysis
   - image: /img/home_video_icon_scenario.png
-    text: DCF modeling
+    text: Financial Modeling
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
