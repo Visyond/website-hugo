@@ -660,6 +660,10 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Request URL", name: "requestURL", widget: "string"}
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown"}
           - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
+          - {label: "Video Icons", name: "videoIcons", widget: "list", fields: [
+              {label: "Icon Image", name: "image", widget: "image"},
+              {label: "Icon Describtion", name: "text", widget: "markdown"}
+          ], required: false}
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
