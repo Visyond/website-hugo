@@ -1,5 +1,5 @@
 ---
-title: 'The Combined Power of Spreadsheets, BI and Presentations'
+title: 'Beyond Spreadsheets, Analytics and Presentations'
 metaTags: >-
   <meta property="og:title" content="Visyond - Real-time Analysis and Better
   Decisions with Spreadsheet and Presentation Automation"/>
@@ -35,6 +35,19 @@ watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 topSubTitle: Automate Analysis | Visualize the Impact of Decisions | Securely Collaborate
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
+videoIcons:
+  - image: /img/home_video_icon_budgeting.png
+    text: Risk Management
+  - image: /img/home_video_icon_business.png
+    text: Planning & Modeling
+  - image: /img/home_video_icon_cashflow.png
+    text: Budgeting & Forecasting
+  - image: /img/home_video_icon_dcf.png
+    text: Financial Statements
+  - image: /img/home_video_icon_investment.png
+    text: Investment Analysis
+  - image: /img/home_video_icon_scenario.png
+    text: Scenario Analysis
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
     files:
@@ -168,19 +181,6 @@ capabilitiesList:
   - image: /img/v_icon3.png
     text: '**Significantly** reduce errors'
 providesTitle: Get Started in Minutes
-videoIcons:
-  - image: /img/home_video_icon_budgeting.png
-    text: Risk Management
-  - image: /img/home_video_icon_business.png
-    text: Planning & Modeling
-  - image: /img/home_video_icon_cashflow.png
-    text: Budgeting & Forecasting
-  - image: /img/home_video_icon_dcf.png
-    text: Financial Statements
-  - image: /img/home_video_icon_investment.png
-    text: Investment Analysis
-  - image: /img/home_video_icon_scenario.png
-    text: Scenario Analysis
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
