@@ -10,6 +10,7 @@ topSubTitle: >-
   with stakeholders without exposing the model’s logic and calculations or
   sensitive information. 
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/xCJT4vkskq8'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
