@@ -96,7 +96,7 @@ infoBlockFirst:
         descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
-        file: /img/Share Worksheet.png
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: SHARE WORKSHEETS
     image: /img/2019-02 Share Project Panel.png
