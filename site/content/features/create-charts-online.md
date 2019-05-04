@@ -14,9 +14,9 @@ bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Simplify and speed-up the creation of charts with Visyond’s intuitive interface\r\n* Pick from a wide variety of chart types - from familiar Bars and Pies to Waterfall charts\r\n* Export charts or place them inside Visyond’s presentation instantly\r\n* Charts are always in sync with presentations and spreadsheets so you do not need to worry about manual updates\n"
     files:
-      - alt: Create Spreadsheet Charts Online in Visyond - Charts Window
-        descr: 'desc '
-        file: /img/2019-02 Charts.png
+      - alt: Creat and Customize Charts
+        descr: 'Customize charts’ appearance and colors and get better data visualizations. Easily group data sets and organize data                     within the chart.'
+        file: /img/2019-02 Charts Customize.png
         title: chart
     image: /img/2019-02 Charts.png
     title: Speed-up the Creation of Charts
