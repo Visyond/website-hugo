@@ -135,21 +135,21 @@ infoBlockFirst:
         descr: >-
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
-        file: /img/Share Project.png
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: SHARE PROJECT
       - alt: Business Consulting Software - Share Worksheets in Visyond
         descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
-        file: /img/Share Worksheet.png
+        file: /img/2019-02 Share Project Panel.png
         link: /features/selective-sharing/
         title: SHARE WORKSHEETS
       - alt: >-
           Business Consulting Software - Share Interactive Presentations in
           Visyond
         descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: /features/selective-sharing/
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
