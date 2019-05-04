@@ -49,6 +49,7 @@ infoBlockFirst:
       Visyond combines models and their outputs directly with OLAP tables and
       charts, allowing for flexible, on-the-fly multidimensional analysis:
 
+
       * Structure your worksheet to have consistent structures (e.g., each
       worksheet is the operating model or P&L of a business unit) and have your
       finance cube automatically built
@@ -57,9 +58,6 @@ infoBlockFirst:
 
       * Customize structure by adding rows, columns and dimensions in real time
       without long data preparation, processing and exports to other platforms
-
-      * Easily switch between scenarios without having to create separate
-      reports for each scenario
     files:
       - alt: ''
         descr: TESTTESTTEST
