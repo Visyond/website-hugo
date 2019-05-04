@@ -36,9 +36,9 @@ infoBlockFirst:
           Allow stakeholders to see only individual parts or whole presentations
           which they can use to test their own assumptions without interacting
           with the model dirrectly.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: SHARE PARTS OR WHOLE PRESENTATIONS
-    image: /img/Share Slide in Browser v2.png
+    image: /img/2019-02 Share Project Panel Slide Expanded.png
     title: Share Only What Collaborators or Clients Need To See
 featuresTitle: Related Features
 featuresCards:
