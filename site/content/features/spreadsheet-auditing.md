@@ -57,13 +57,9 @@ infoBlockFirst:
         descr: >-
           In the Audit Mode each cell looks different based on the type of data
           it contains.
-        file: /img/Audit Mode On.png
+        file: /img/2019-02 Audit On.png
         title: Audit Mode On
-      - alt: Spreadsheet and Formula Auditing Tool - Unit Formatting in Visyond
-        descr: Easily format cells with Visyond's customization tools.
-        file: /img/unit formatting.gif
-        title: Unit Formatting
-    image: /img/Audit Mode On.png
+    image: /img/2019-02 Audit On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
     title: Auto-Formatting
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
