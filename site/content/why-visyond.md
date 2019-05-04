@@ -30,9 +30,19 @@ textArea1List:
   - listItem: '**Dana anlisys** in minutes'
 sectionOneImg: /img/why visyond infographic.png
 textArea2: >-
+  ### Header2
+
+
   We're introducing spreadsheet collaboration, the level of control,
   transparency and accountability that can be compared to those of modern
   blockchains, but without all the limitations and drawbacks of it.
+
+
+
+  * item1
+
+  * item2
+
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
