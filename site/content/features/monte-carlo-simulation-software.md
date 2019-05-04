@@ -8,6 +8,7 @@ topSubTitle: >-
   specified range and shows how it affects the output. With Visyond you can
   easily run Simulations without long manual setups.
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
