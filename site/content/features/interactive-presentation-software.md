@@ -22,9 +22,9 @@ infoBlockFirst:
           Empower stakeholders to test their own assumptions without interacting
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
-        file: /img/Interactive Slides in Browser v4.png
+        file: /img/2019-02 Interactive Presentation.png
         title: Interactive Presentations
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Interactive Presentation.png
     link: 'https://help.visyond.com/articles/reports-and-presentations/'
     title: Replace Static Powerpoint Visualizations
   - descr: >-
@@ -46,9 +46,9 @@ infoBlockFirst:
           Allow stakeholders to see only individual parts or whole presentations
           that they can use to test their own assumptions without interacting
           with the spreadsheet directly.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Selectively Share Presentations
-    image: /img/Share Slide in Browser v2.png
+    image: /img/2019-02 Share Project Panel Slide Expanded.png
     title: Share Only What Collaborators or Clients Need To See
 featuresTitle: Related Features
 featuresCards:
