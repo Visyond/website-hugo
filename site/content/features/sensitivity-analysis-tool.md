@@ -22,20 +22,10 @@ infoBlockFirst:
         descr: >-
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
-        file: /img/Sensitivity two-way v2.png
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
         title: Set Up Sensitivity Analysis In Seconds
-    image: /img/Sensitivity two-way v2.png
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     title: Focus on What’s Important
-  - descr: "* Reduce errors by discovering unexpected relationships between inputs and outputs of your model\r\n* Simplify models by eliminating variables which have no significant impact on the output\r\n"
-    files:
-      - alt: >-
-          Sensitivity Analysis Tool - Setup One-Way Sensitivity Analysis in
-          Visyond
-        descr: Discover relationships between data easier and faster with Visyond.
-        file: /img/Sensitivity in Browser v4.png
-        title: Identify Relationships Between Data Easier
-    image: /img/Sensitivity in Browser v4.png
-    title: Uncover and Fix Errors Faster
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/scenarios@2x.png
