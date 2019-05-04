@@ -10,6 +10,7 @@ topSubTitle: >-
   relationships between inputs and outputs of your spreadsheet. Visyond makes
   sensitivity analysis setup a few-clicks job.
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
