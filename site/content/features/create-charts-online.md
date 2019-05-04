@@ -16,9 +16,9 @@ infoBlockFirst:
     files:
       - alt: Create Spreadsheet Charts Online in Visyond - Charts Window
         descr: 'desc '
-        file: /img/Charts window.png
+        file: /img/2019-02 Charts.png
         title: chart
-    image: /img/Charts window.png
+    image: /img/2019-02 Charts.png
     title: Speed-up the Creation of Charts
 featuresTitle: Related Features
 featuresCards:
