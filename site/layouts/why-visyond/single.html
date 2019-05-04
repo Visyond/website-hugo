@@ -24,7 +24,7 @@
     {{ .Params.textArea1title }}
   </h3>
 
-  <div class="home-info__block-descr">
+  <div class="home-info__block-descr" style="width: 50%;">
     {{ .Params.textArea1descr | markdownify }}
   </div>
   <p></p>
@@ -32,7 +32,7 @@
     {{ range .Params.textArea1List}}
     <li>
       ::before
-      {{ .text | markdownify }}
+      {{ .listItem | markdownify }}
       ::after
     </li>
     {{ end }}
