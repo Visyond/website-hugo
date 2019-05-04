@@ -10,6 +10,7 @@ topSubTitle: >-
   can analyse them and understand how to reduce your costs, grow your revenues
   or increase/decrease any important Key Performance Indicator?
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
