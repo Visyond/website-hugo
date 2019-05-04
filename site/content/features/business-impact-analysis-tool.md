@@ -22,9 +22,9 @@ infoBlockFirst:
         descr: >-
           Impact (Tornado) analysis will instantly show you  what inputs have
           the greatest impact on outputs and how they interact with one another 
-        file: /img/Tornado in Browser v4.png
+        file: /img/2019-02 Impact Analysis.png
         title: Tornado Analysis
-    image: /img/Tornado in Browser v4.png
+    image: /img/2019-02 Impact Analysis.png
     title: Identify Important Cells and Their Impact with Impact Analysis
 featuresTitle: Related Features
 featuresCards:
