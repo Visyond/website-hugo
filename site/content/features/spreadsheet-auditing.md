@@ -49,7 +49,7 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
     title: Understand Spreadsheet Logic with Human-Readable Formula Names
-  - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n* Quickly locate cells with errors\r\n"
+  - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n"
     files:
       - alt: >-
           Spreadsheet and Formula Auditing Tool - Spreadsheet Audit Mode in
@@ -61,7 +61,7 @@ infoBlockFirst:
         title: Audit Mode On
     image: /img/2019-02 Audit On.png
     link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
-    title: Auto-Formatting
+    title: Quickly Identify Data Type
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
       - alt: Spreadsheet and Formula Auditing Tool - Track Errors in Visyond
