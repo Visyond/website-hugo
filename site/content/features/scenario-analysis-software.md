@@ -7,6 +7,7 @@ topTitle: >-
   On-The-Fly
 topSubTitle: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
@@ -21,9 +22,9 @@ infoBlockFirst:
         descr: >-
           Cells in Visyond can store multiple assumptions (cases) simultaneously
           without overwriting other users' inputs.
-        file: /img/Cases in Browser v2.png
+        file: /img/2019-02 Cases Panel and Dropdown.png
         title: Add Multiple Assumptions
-    image: /img/Cases in Browser v2.png
+    image: /img/2019-02 Cases Panel and Dropdown.png
     title: Create and Gather Assumptions
   - descr: "* Combine assumptions or cases into scenarios that can be switched and compared at any time\r\n* Create and compare as many scenarios as you like without the risk of losing data, managing multiple versions of a spreadsheet or overwriting inputs\r\n"
     files:
@@ -34,15 +35,9 @@ infoBlockFirst:
           Combine as many assumptions as you like into one or multiple scenarios
           that you can switch on-the-fly and immediately see how different
           assumptions affect the outcome.
-        file: /img/Scenario Window in Browser.png
+        file: /img/2019-02 Scenario Management Panel.png
         title: Combine Assumptions Into Scenarios
-      - alt: Scenario Analysis Software - Record Scenarios in Visyond
-        file: /img/record scenario.gif
-      - alt: Scenario Analysis Software - Manage Scenarios in Visyond
-        file: /img/scenario panel.gif
-      - alt: Scenario Analysis Software - Switch Scenarios In Real Time in Visyond
-        file: /img/switch assumptions.gif
-    image: /img/Scenario Window in Browser.png
+    image: /img/2019-02 Scenario Management Panel.png
     title: Create Scenarios in a Few Clicks
   - descr: "* Instantly compare multiple scenarios with just a few clicks\r\n* Visyond will build an interactive chart where you can compare data points side by side empowering you to answer ‘what-if’ questions in real time\r\n"
     files:
@@ -50,9 +45,9 @@ infoBlockFirst:
         descr: >-
           Compare scenarios with Visyond and gain valuable insights in just a
           few clicks!
-        file: /img/Scenarios chart in Browser v4.png
+        file: /img/2019-02 Scenario Analysis.png
         title: Compare Scenarios In Real Time
-    image: /img/Scenarios chart in Browser v4.png
+    image: /img/2019-02 Scenario Analysis.png
     title: Answer What-If Questions Anywhere in Real Time
 featuresTitle: Related Features
 featuresCards:

@@ -22,7 +22,7 @@ infoBlockFirst:
         descr: >-
           Set access on project level with different roles - Owner, Reader,
           Coworker with different access permissions.
-        file: /img/Share Project.png
+        file: /img/2019-02 Share Project Panel.png
         title: Share Project
       - alt: >-
           Share Spreadsheets, Presentations and Analysis Online - Share
@@ -30,15 +30,15 @@ infoBlockFirst:
         descr: >-
           Manage who can see or can not see a specific worksheet in your
           project.
-        file: /img/Share Worksheet.png
+        file: /img/2019-02 Share Project Panel.png
         title: Share Worksheets
       - descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
         link: >-
           Share Spreadsheets, Presentations and Analysis Online - Share
           Presentations in Visyond
         title: Share Presentations
-    image: /img/Interactive Slides in Browser v4.png
+    image: /img/2019-02 Share Project Panel Slide Expanded.png
     title: 'Share Spreadsheets, Presentation and Analysis Online'
 featuresTitle: Related Features
 featuresCards:

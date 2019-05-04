@@ -21,13 +21,24 @@ metaTags: >-
 type: why-visyond
 title: Why Visyond
 coverHeader: What is Visyond?
-coverDescription: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\r\n\nWe're introducing spreadsheet collaboration, the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it."
+coverDescription: ''
 sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
-textArea1title: Visyond is Here !
-textArea1descr: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\n"
+textArea1title: what is?
+textArea1descr: >
+  Visyond is a cloud-based secure, collaborative and automated value analysis
+  and decision platform that reduces security threats & errors, and speeds up
+  the decision making process:
+
+  * im bullet point inside first area
+
+  * and im another bullet point so the first one is not so lonely.
 textArea1List:
-  - listItem: '**Colaborative work** with your everyone in your company.'
-  - listItem: '**Dana anlisys** in minutes'
+  - listItem: >-
+      Test 1 test 1 test 1 Test 1 test 1 test 1Test 1 test 1 test 1Test 1 test 1
+      test 1Test 1 test 1 test 1Test 1 test 1 test 1Test 1 test 1 test 1Test 1
+      test 1 test 1
+  - listItem: Test 2 test 2 test 2Test 2 test 2 test 2Test 2 test 2 test 2
+  - listItem: Test 3Test 3Test 3
 sectionOneImg: /img/why visyond infographic.png
 textArea2: >-
   ### Header2
@@ -42,6 +53,7 @@ textArea2: >-
   * item1
 
   * item2
+
 
 sectionTwoHeader: Benefits
 cards:

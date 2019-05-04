@@ -8,6 +8,7 @@ topSubTitle: >-
   specified range and shows how it affects the output. With Visyond you can
   easily run Simulations without long manual setups.
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
@@ -28,21 +29,9 @@ infoBlockFirst:
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
-        file: /img/Monte Carlo Simulation v3.png
+        file: /img/2019-02 Simulation Monte Carlo.png
         title: Monte Carlo Simulation
-      - alt: >-
-          Monte Carlo Simulation Software - Visyond Will Help You Find
-          Probability Distribution for Your Data
-        descr: >-
-          If you do not know what probability distribution is more appropriate
-          for a certain input, click on the button 'What Distribution for my
-          Data?' and paste you historical data. Visyond will show you the
-          cumulative distribution function of the historical dataset and the
-          major theoretical distributions, so you can visually decide what is
-          the best fit.
-        file: /img/Distribution fitting.gif
-        title: How to choose a probability distribution for your input cells
-    image: /img/Monte Carlo Simulation v3.png
+    image: /img/2019-02 Simulation Monte Carlo.png
     link: >-
       https://help.visyond.com/articles/how-to-run-monte-carlo-simulations-in-visyond/
     title: Powerful Forecasting Tool

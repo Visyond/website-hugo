@@ -22,7 +22,7 @@ topSubTitle: >-
   Visyond’s spreadsheet calculation engine. Empower each collaborator to test
   assumptions only on information they are authorized to see or interact with.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL: 'https://www.youtube.com/embed/xCJT4vkskq8'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
