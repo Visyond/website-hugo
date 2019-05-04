@@ -12,33 +12,14 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "* Simplify and speed-up the creation of charts with Visyond’s intuitive interface\r\n* Pick from a wide variety of chart types - from familiar Bars and Pies to Waterfall charts\r\n* Export charts or place them inside Visyond’s presentation instantly\r\n"
+  - descr: "* Simplify and speed-up the creation of charts with Visyond’s intuitive interface\r\n* Pick from a wide variety of chart types - from familiar Bars and Pies to Waterfall charts\r\n* Export charts or place them inside Visyond’s presentation instantly\r\n* Charts are always in sync with presentations and spreadsheets so you do not need to worry about manual updates\n"
     files:
       - alt: Create Spreadsheet Charts Online in Visyond - Charts Window
+        descr: 'desc '
         file: /img/Charts window.png
-      - alt: Create Spreadsheet Charts Online in Visyond - Animated Chart
-        file: /img/create charts animated.gif
+        title: chart
     image: /img/Charts window.png
     title: Speed-up the Creation of Charts
-  - descr: "* Customize charts’ appearance and colors and get better data visualizations\r\n* Easily group data sets and organize data within the chart\r\n"
-    files:
-      - alt: Create Spreadsheet Charts Online in Visyond - Charts Settings
-        file: /img/Charts settings.png
-      - alt: Create Spreadsheet Charts Online in Visyond - Charts Customization
-        file: /img/customizing-charts.gif
-      - alt: Create Spreadsheet Charts Online in Visyond - Charts Types
-        file: /img/chart types animated.gif
-    image: /img/Charts settings.png
-    title: Customize Charts Easier
-  - descr: >-
-      * Charts are always in sync with multiple presentations and the
-      spreadsheet so you do not need to worry about manual updates and chart
-      maintenance every time the data changes.
-    files:
-      - file: /img/line chart.png
-      - file: /img/change series animated.gif
-    image: /img/line chart.png
-    title: Forget About Manual Updates
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/interactive presentations@2x.png
