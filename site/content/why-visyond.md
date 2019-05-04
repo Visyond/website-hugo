@@ -27,7 +27,7 @@ textArea1title: Visyond is Here !
 textArea1descr: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\n"
 textArea1List:
   - listItem: '**Colaborative work** with your everyone in your company.'
-  - listItem: '**Dana anlisys **in minutes'
+  - listItem: '**Dana anlisys** in minutes'
 sectionOneImg: /img/why visyond infographic.png
 textArea2: >-
   We're introducing spreadsheet collaboration, the level of control,
