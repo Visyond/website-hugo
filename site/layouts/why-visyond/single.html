@@ -27,6 +27,16 @@
   <div class="home-info__block-descr">
     {{ .Params.textArea1descr | markdownify }}
   </div>
+  <p></p>
+  <ul>
+    {{ range .Params.textArea1List}}
+    <li>
+      ::before
+      {{ .text | markdownify }}
+      ::after
+    </li>
+    {{ end }}
+  </ul>
 
 </section>
 
