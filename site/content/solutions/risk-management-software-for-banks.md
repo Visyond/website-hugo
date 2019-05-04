@@ -41,7 +41,7 @@ infoBlockFirst:
           Dependency analysis gives you a bird’s eye view of your model in the
           same way Google Maps does of a neighborhood. It’s a powerful auditing
           tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/Dependency in Browser v2.png
+        file: /img/2019-02 Dependency Analysis.png
         link: /features/dependency-analysis/
         title: DEPENDENCY ANALYSIS
     image: /img/2019-02 Audit On.png
