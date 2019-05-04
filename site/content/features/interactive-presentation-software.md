@@ -9,6 +9,7 @@ topSubTitle: >-
   information is always up to date, and each slide automatically syncs data with
   your spreadsheet.
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/xCJT4vkskq8'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
