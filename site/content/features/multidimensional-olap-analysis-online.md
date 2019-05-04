@@ -1,78 +1,80 @@
 ---
 title: Multidimensional OLAP Analysis Online
 topTitle: >-
-  Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional Analysis Online 
-  (aka Pivot / Cube / OLAP Analysis)
+  Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
+  Analysis Online
+
+  <br />
+   (aka Pivot / Cube / OLAP Analysis)
 topSubTitle: >-
-  Find actionable insights and improve descriptive analytics with Visyond’s Online OLAP Analysis and pivot tables that are synchronized with your spreadsheets in real time 
-  and grant you flexibility other BI tools don’t.
+  Find actionable insights and improve descriptive analytics with Visyond’s
+  Online OLAP Analysis and pivot tables that are synchronized with your
+  spreadsheets in real time  and grant you flexibility other BI tools don’t.
 signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
-      * Simultaneously store multiple assumptions that can be combined into
-      [scenarios](/features/scenarios/) in a single cell without overriding
-      inputs by other collaborators
+  - descr: >
+      Gain new business insights and understand your data better:
 
-      * Store supporting documentation,  conversations and approvals directly in
-      the relevant cells
+      * Aggregate historical & transactional data to see the big picture
+
+      * Slice & Dice, Drill Up & Down the summarized data and have access to
+      underlying assumptions
+
+      * Sort, group and filter data based on different parameters 
     files:
-      - alt: Track Changes from an Excel File - Never Lose Important Information
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
+      - alt: ''
+        descr: TESTTESTTEST
         file: /img/Single source of truth.png
-        title: Never Lose Important Information
-      - alt: >-
-          Track Changes from an Excel File - Store Attachments and Conversations
-          Directly in Cells in Visyond
-        descr: ''
-        file: /img/Attachments and Comments in Browser v2.png
-        title: ''
+        title: TEST
     image: /img/Single source of truth.png
-    title: Store Related Information In Cells
-  - descr: "* All changes are documented, giving you a full audit trail - so you are aware of all modifications made to the spreadsheet\r\n* Revert individual changes or roll-back entire versions with Visyond’s enhanced spreadsheet version control\r\n"
+    title: View Data From Different Angles
+  - descr: >-
+      Visyond’s self-service OLAP analysis is connected directly to your
+      spreadsheet models without additional data preparation, processing and
+      migrations:
+
+
+      * Have secure access not only to numbers behind aggregations but also to
+      calculations behind the data
+
+      * Test assumptions, build forward-looking projections and forecasts based
+      not only on raw data but also on formulas from your spreadsheet models
+
+      * Collaborate on and securely share OLAP analysis & reports with
+      stakeholders with [Selective
+      Sharing](/features/share-spreadsheets-and-presentations-online/): like any
+      other module in Visyond
     files:
-      - alt: >-
-          Track Changes from an Excel File - Store Multiple Assumptions
-          Simultaneously
-        descr: >-
-          Have all assumptions and numbers in a single place without worrying
-          about controlling versions or chasing pieces of information in long
-          email threads.
+      - alt: ''
+        descr: TESTTESTTEST
         file: /img/Cases in Browser v2.png
-        title: Store Multiple Assumptions Simultaneously
-      - alt: >-
-          Track Changes from an Excel File - Manage Spreadsheet Versions in
-          Visyond
-        descr: >-
-          You can always roll-back entire versions of the spreadsheet if
-          required.
-        file: /img/Versions in Browser.png
-        title: Versions
+        title: TEST TEST
     image: /img/Cases in Browser v2.png
-    title: Track Inputs And Control Versions
-  - descr: "* Have full and granular control over who can view, interact or edit your spreadsheet and presentations with Visyond’s Selective Sharing.\r\n* Share the whole spreadsheet, certain worksheets or only specific parts of a worksheet and avoid errors & unwanted changes\r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
+    title: Go Beyond Flat Numerical Data
+  - descr: >-
+      Visyond combines models and their outputs directly with OLAP tables and
+      charts, allowing for flexible, on-the-fly multidimensional analysis:
+
+      * Structure your worksheet to have consistent structures (e.g., each
+      worksheet is the operating model or P&L of a business unit) and have your
+      finance cube automatically built
+
+      * Easily apply custom calculations and transformations to your reports
+
+      * Customize structure by adding rows, columns and dimensions in real time
+      without long data preparation, processing and exports to other platforms
+
+      * Easily switch between scenarios without having to create separate
+      reports for each scenario
     files:
-      - alt: Track Changes from an Excel File - Share Projects in Visyond
-        descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
+      - alt: ''
+        descr: TESTTESTTEST
         file: /img/Share Project.png
-        title: Share Project
-      - alt: Track Changes from an Excel File - Share Worksheets in Visyond
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/Share Worksheet.png
-        title: Share Worksheets
-      - alt: Track Changes from an Excel File - Share Slides in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/Share Slide in Browser v2.png
-        title: Share Presentations
+        title: TEST
     image: /img/Share Project.png
-    title: Manage Access To Information
+    title: Flexible Ad-Hoc OLAP Analysis and Reporting
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/import-export@2x.png
