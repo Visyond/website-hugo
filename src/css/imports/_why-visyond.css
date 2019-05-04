@@ -67,3 +67,11 @@
         }
     }
 }
+
+.home-info__block-descr > h3 {
+    color: #0086ff;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    width: 100%;
+}

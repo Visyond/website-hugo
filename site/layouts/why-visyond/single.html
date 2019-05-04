@@ -41,25 +41,13 @@
   <div class="header-section--divider"></div>
   <img src="{{ .Params.sectionOneImg }}">
 
-  <!--            textArea   -->
+  <!--            textArea2   -->
   <section class="home-info__text-wrap"
            style="width: 60%; margin: 0 20% 0 20%;">
     <p></p>
-    <h3 class="home-info__block-title">
-      {{ .Params.textArea1title }}
-    </h3>
 
-    <div class="home-info__block-descr" >
-      {{ .Params.textArea1descr | markdownify }}
-
-      <p></p>
-      <ul>
-        {{ range .Params.textArea1List}}
-        <li>
-          {{ .listItem | markdownify }}
-        </li>
-        {{ end }}
-      </ul>
+    <div class="home-info__block-descr" style="text-align: left">
+      {{ .Params.textArea2 | markdownify }}
     </div>
   </section>
   <!--            textArea   -->

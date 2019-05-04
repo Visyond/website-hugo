@@ -40,7 +40,21 @@ textArea1List:
   - listItem: Test 2 test 2 test 2Test 2 test 2 test 2Test 2 test 2 test 2
   - listItem: Test 3Test 3Test 3
 sectionOneImg: /img/why visyond infographic.png
-textArea2: "\rWe're introducing spreadsheet collaboration, the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it."
+textArea2: >-
+  ### Header2
+
+
+  We're introducing spreadsheet collaboration, the level of control,
+  transparency and accountability that can be compared to those of modern
+  blockchains, but without all the limitations and drawbacks of it.
+
+
+
+  * item1
+
+  * item2
+
+
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
