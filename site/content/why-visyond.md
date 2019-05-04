@@ -23,9 +23,11 @@ title: Why Visyond
 coverHeader: What is Visyond?
 coverDescription: ''
 sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
-textArea1title: ''
+textArea1title: what is?
 textArea1descr: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\n"
-textArea1List: []
+textArea1List:
+  - listItem: Test 1 test 1 test 1
+  - listItem: Test 2 test 2 test 2
 sectionOneImg: /img/why visyond infographic.png
 textArea2: "\rWe're introducing spreadsheet collaboration, the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it."
 sectionTwoHeader: Benefits
