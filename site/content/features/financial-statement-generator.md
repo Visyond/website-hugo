@@ -22,17 +22,9 @@ infoBlockFirst:
           time required to prepare Balance Sheets, Income and Cash Flow
           Statements, ratios and KPIs, etc. by automating the build process and
           removing the need for manual checks and audits of the calculations.
-        file: /img/Financial Statements in Browser.png
+        file: /img/2019-02 Financial Statements.png
         title: Auto-Generated Financial Statements
-      - alt: >-
-          Financial Statement Generator - Animated Financial Statement
-          Generation in Visyond
-        file: /img/financial statement 1.gif
-      - alt: >-
-          Financial Statement Generator - Animated Financial Statement
-          Generation in Visyond
-        file: /img/financial statement 2.gif
-    image: /img/Financial Statements in Browser.png
+    image: /img/2019-02 Financial Statements.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
     title: Simple and Convenient Way To Build Financial Statements
