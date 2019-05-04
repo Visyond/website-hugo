@@ -14,15 +14,7 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >
-      Gain new business insights and understand your data better:
-
-      * Aggregate historical & transactional data to see the big picture
-
-      * Slice & Dice, Drill Up & Down the summarized data and have access to
-      underlying assumptions
-
-      * Sort, group and filter data based on different parameters 
+  - descr: sdf
     files:
       - alt: ''
         descr: TESTTESTTEST
