@@ -7,6 +7,7 @@ topTitle: >-
   On-The-Fly
 topSubTitle: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
 signUpURL: /accounts/signup/
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
