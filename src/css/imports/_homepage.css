@@ -943,8 +943,11 @@
 
     }
     @media screen and (max-width: 800px) {
+        display: none;
         bottom: 75px;
     }
+
+
 }
 
 .home_video_icons > span {
