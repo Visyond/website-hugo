@@ -751,6 +751,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
           - { label: "Section 1: Header", name: "sectionOneHeader", widget: "string", required: false}
           - { label: "Text Area 1", name: "textArea1", widget: "markdown", required: false}
+          - { label: "Section 1: Header 2", name: "sectionOneHeaderTwo", widget: "string", required: false}
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
           - { label: "Text Area 2", name: "textArea2", widget: "markdown", required: false}
           - { label: "Section 2: Header", name: "sectionTwoHeader", widget: "string", required: false}
