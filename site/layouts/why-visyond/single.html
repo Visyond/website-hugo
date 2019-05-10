@@ -22,7 +22,7 @@
            style="width: 60%; margin: 0 20% 0 20%;">
     <p></p>
 
-    <div class="home-info__block-descr" style="text-align: left">
+    <div class="home-info__block-descr" style="text-align: center">
       {{ .Params.textArea1 | markdownify }}
     </div>
   </section>
@@ -31,19 +31,34 @@
 
   <h2 class="header-section">{{ .Params.sectionOneHeaderTwo | markdownify }}</h2>
   <div class="header-section--divider"></div>
-  <img src="{{ .Params.sectionOneImg }}">
 
   <!--            textArea2   -->
   <section class="home-info__text-wrap"
            style="width: 60%; margin: 0 20% 0 20%;">
     <p></p>
 
-    <div class="home-info__block-descr" style="text-align: left">
+    <div class="home-info__block-descr" style="text-align: center">
       {{ .Params.textArea2 | markdownify }}
     </div>
   </section>
   <!--            textArea2   -->
 
+  <h2 class="header-section">{{ .Params.sectionOneHeaderThree | markdownify }}</h2>
+  <div class="header-section--divider"></div>
+  
+  <img src="{{ .Params.sectionOneImg }}">
+  
+    <!--            textArea3   -->
+  <section class="home-info__text-wrap"
+           style="width: 60%; margin: 0 20% 0 20%;">
+    <p></p>
+
+    <div class="home-info__block-descr" style="text-align: center">
+      {{ .Params.textArea3 | markdownify }}
+    </div>
+  </section>
+  <!--            textArea3   -->
+  
 </section>
 
 
