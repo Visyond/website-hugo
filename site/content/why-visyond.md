@@ -14,40 +14,35 @@ metaTags: >-
   <meta property="og:image"
   content="https://visyond.com/img/why_visyond_infographic_linkedin_small.png">
 
-  <meta property="og:description" content="Cloud-based secure, collaborative and
-  automated spreadsheet-based value analysis and decision platform."/>
+  <meta property="og:description" content="Single collaborative spreadsheet,
+  analysis and presentation platform connecting, automating and tracking
+  everything whilst safeguarding sensitive information."/>
 
   <meta property="og:url" content="https://visyond.com/why-visyond/" />
 type: why-visyond
 title: Why Visyond
 coverHeader: What is Visyond?
-coverDescription: "Visyond is a cloud-based secure, collaborative and automated value analysis and decision platform that reduces security threats & errors, and speeds up the decision making process.\r\r\n\nWe're introducing spreadsheet collaboration, the level of control, transparency and accountability that can be compared to those of modern blockchains, but without all the limitations and drawbacks of it."
-sectionOneHeader: Visyond Is the Only Solution Committed to Bring You the Best of All Worlds
+coverDescription: >
+  Single collaborative spreadsheet, analysis and presentation platform
+  **connecting, automating and tracking everything** whilst **safeguarding
+  sensitive information**.
+sectionOneHeader: Why Visyond?
 textArea1: >-
-  ### Workflow
+  **Decision making** requires **modeling, analytics, knowledge management, data
+  visualization** and **reporting tools**:  analysts, experts, clients, CxOs
+  must collaborate with strict requirements on **data security and governance**
+
+  .
 
 
-  We're introducing spreadsheet collaboration, the level of control,
-  transparency and accountability that can be compared to those of modern
-  blockchains, but without all the limitations and drawbacks of it.
+  **Before Visyond**, the process required multiple platforms and caused the
+  following problems...
 
 
-  * spreadsheet collaboration
-
-  * transparency and accountability
+  ![Current Problems with Spreadsheets & Data Governance](/img/Why Visond
+  Inforgraphic Circle.png)
 sectionOneImg: /img/why visyond infographic.png
-textArea2: >-
-  ### Spreadsheets
-
-
-  We're introducing spreadsheet collaboration, the level of control,
-  transparency and accountability that can be compared to those of modern
-  blockchains, but without all the limitations and drawbacks of it.
-
-
-  * modern blockchains
-
-  * without all the limitations
+textArea2: '###'
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
