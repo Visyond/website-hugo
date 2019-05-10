@@ -26,46 +26,43 @@ coverDescription: >
   Single collaborative spreadsheet, analysis and presentation platform
   connecting, automating and tracking everything whilst safeguarding sensitive
   information
-sectionOneHeader: Why Visyond?
+sectionOneHeader: Before Visyond
 textArea1: >-
   **Decision making requires modeling, analytics, knowledge management, data
   visualization and reporting tools**:  analysts, experts, clients, CxOs must
-  collaborate with strict requirements on data security and governance.
+  collaborate with strict requirements on data security and governance
 
 
-  **Before Visyond, the process required multiple platforms and caused the
-  following problems:**
+  ### Before Visyond, the process required multiple platforms and caused the
+  following problems
 sectionOneImg: /img/Why Visond Inforgraphic Circle.png
 sectionOneHeaderTwo: What is Special and Unique?
 textArea2: "### Secure Selective Sharing of a Single Source of Truth\n\n* Secure data by sharing only sub-parts each collaborator needs to interact with\n\n* Track all changes, comments, support information in one place.\n\n* Transparency, governance, accountability, knowledge management\n\n<br />\n\n### Collaborative Automatic What-if Analysis in Real Time\n\n* Do in minutes what takes you days now\n\n* Collaborators contribute analyses in one document, not their version \r\n\n* Data Visualization in the same place where you carry out calculations\n\n* Automatic, spreadsheet-driven presentations and reporting\n\n<br />\n\n### Minimum Learning Curve and Compatibility with Excel\n\n* Keep your work habits & leverage Excel skills in a familiar environment\n\n* Custom workflows, integrations and on-premise installation available\n\n* Automated and standardized workflows\n"
-sectionOneHeaderThree: >-
-  Visyond is the only integrated solution enabling collaboration, security and
-  automation at every step of modeling, analysis and presentation for decision
-  making
+sectionOneHeaderThree: Why Visyond?
 sectionOneImgTwo: /img/why visyond infographic.png
 textArea3: >-
-  Competitors (spreadsheets, add-ons, slides, forecasting & visualization tools,
-  cube/pivot analytics, governance platforms, etc.) tackle problems separately,
-  forcing workarounds with inevitable data chaos, inaccuracy and leakage.
+  ### Visyond is the only integrated solution enabling collaboration, security
+  and automation at every step of modeling, analysis and presentation for
+  decision making
 
 
-  ### With Visyond
+  * **Collaborators view or edit only selected elements** through interactive
+  web interfaces that hide complexity, unnecessary details and sensitive data.
+  All becomes simple and secure. **Nobody can overwrite others’ work**
 
 
-  * Collaborators view or edit only selected elements through interactive web
-  interfaces that hide complexity, unnecessary details and sensitive data. All
-  becomes simple and secure. Nobody can overwrite others’ work.
-
-
-  * Single source of truth is established: history & impact of changes,
+  * **Single source of truth** is established: history & impact of changes,
   alternative input versions & scenarios, sensitivities, simulations, comments,
-  supporting documents in one place that tells a story.
+  supporting documents **in one place that tells a story**
 
 
-  * Analyses, calculators, dashboards and reports are dynamically driven by
-  spreadsheets, built and shared in minutes without experts or moving data
-  across tools. No more lengthy processes and programmers. Reduce error risk.
-  Real time what-if, financial statements, KPIs, Pivot tables and Cubes.
+  * **Analyses, calculators, dashboards and reports are dynamically driven by
+  spreadsheets**, built and shared in minutes without experts or moving data
+  across tools. **No more lengthy processes and programmers**
+
+
+  * **Reduce error risk** with real time 'What-if', Financial Statements, KPIs,
+  Pivot Tables and Cubes
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
