@@ -28,16 +28,28 @@ coverDescription: >
   sensitive information**.
 sectionOneHeader: Why Visyond?
 textArea1: >-
+  <br />
+
+  <br />
+
+  <br />
+
+
   **Decision making** requires **modeling, analytics, knowledge management, data
   visualization** and **reporting tools**:  analysts, experts, clients, CxOs
-  must collaborate with strict requirements on **data security and governance**
-
-  .
+  must collaborate with strict requirements on **data security and governance**.
 
 
   **Before Visyond**, the process required multiple platforms and caused the
   following problems...
 
+  <br />
+
+  <br />
+
+  <br />
+
+  <br />
 
   ![Current Problems with Spreadsheets & Data Governance](/img/Why Visond
   Inforgraphic Circle.png)
