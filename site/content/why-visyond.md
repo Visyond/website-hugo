@@ -25,13 +25,9 @@ coverHeader: What is Visyond?
 coverDescription: >
   Single collaborative spreadsheet, analysis and presentation platform
   **connecting, automating and tracking everything** whilst **safeguarding
-  sensitive information**.
+  sensitive information**
 sectionOneHeader: Why Visyond?
 textArea1: >-
-  <br />
-
-  <br />
-
   <br />
 
 
