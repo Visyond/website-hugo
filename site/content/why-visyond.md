@@ -41,6 +41,12 @@ textArea2: "### Secure Selective Sharing of a Single Source of Truth\n\n* Secure
 sectionOneHeaderThree: Why Visyond?
 sectionOneImgTwo: /img/why visyond infographic.png
 textArea3: >-
+
+  <br />
+
+  <br />
+
+
   ### Visyond is the only integrated solution enabling collaboration, security
   and automation at every step of modeling, analysis and presentation for
   decision making
