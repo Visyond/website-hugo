@@ -40,20 +40,44 @@ textArea1: >-
 
   <br />
 
-  <br />
-
-  <br />
-
   ![Current Problems with Spreadsheets & Data Governance](/img/Why Visond
   Inforgraphic Circle.png)
 sectionOneHeaderTwo: What is Special and Unique?
-textArea2: "**Secure Selective Sharing of a Single Source of Truth**\n\nSecure data by sharing only sub-parts each collaborator needs to interact with\n\nTrack all changes, comments, support information in one place.\n\nTransparency, governance, accountability, knowledge management\n\n\n**Collaborative Automatic What-if Analysis in Real Time**\n\nDo in minutes what takes you days now\n\nCollaborators contribute analyses in one document, not their version \r\n\nData Visualization in the same place where you carry out calculations\n\nAutomatic, spreadsheet-driven presentations and reporting\n\n\n**Minimum Learning Curve and Compatibility with Excel**\n\nKeep your work habits & leverage Excel skills in a familiar environment\n\nCustom workflows, integrations and on-premise installation available\n\nAutomated and standardized workflows\n\n"
+textArea2: "**Secure Selective Sharing of a Single Source of Truth**\n\nSecure data by sharing only sub-parts each collaborator needs to interact with\n\nTrack all changes, comments, support information in one place.\n\nTransparency, governance, accountability, knowledge management\n\n<br />\n<br />\n\n**Collaborative Automatic What-if Analysis in Real Time**\n\nDo in minutes what takes you days now\n\nCollaborators contribute analyses in one document, not their version \r\n\nData Visualization in the same place where you carry out calculations\n\nAutomatic, spreadsheet-driven presentations and reporting\n\n<br />\n<br />\n\n**Minimum Learning Curve and Compatibility with Excel**\n\nKeep your work habits & leverage Excel skills in a familiar environment\n\nCustom workflows, integrations and on-premise installation available\n\nAutomated and standardized workflows\n\n"
 sectionOneHeaderThree: >-
   Visyond is the only integrated solution enabling collaboration, security and
   automation at every step of modeling, analysis and presentation for decision
   making
 sectionOneImg: /img/why visyond infographic.png
-textArea3: "**Competitors** (spreadsheets, add-ons, slides, forecasting & visualization tools, cube/pivot analytics, governance platforms, etc.) **tackle problems separately, forcing workarounds with inevitable data chaos, inaccuracy and leakage\r**.\n\n\n\n**With Visyond**, collaborators **view or edit only selected elements** through interactive web interfaces that hide complexity, unnecessary details and sensitive data. **All becomes simple and secure. Nobody can overwrite others’ work.**\n\n**With Visyond**, **single source of truth is established**: history & impact of changes, alternative input versions & scenarios, sensitivities, simulations, comments, supporting documents in one place that tells a story.\n\n**With Visyond**, analyses, calculators, dashboards and reports are **dynamically driven** by spreadsheets, built and shared in minutes without experts or moving data across tools. **No more lengthy processes and programmers**. Reduce error risk. Real time what-if, financial statements, KPIs, Pivot tables and Cubes."
+textArea3: >-
+  Competitors (spreadsheets, add-ons, slides, forecasting & visualization tools,
+  cube/pivot analytics, governance platforms, etc.) **tackle problems
+  separately, forcing workarounds with inevitable data chaos, inaccuracy and
+  leakage.
+
+
+  With Visyond, collaborators **view or edit only selected elements** through
+  interactive web interfaces that hide complexity, unnecessary details and
+  sensitive data. **All becomes simple and secure. Nobody can overwrite others’
+  work.**
+
+
+  <br />
+
+
+  With Visyond, **single source of truth is established**: history & impact of
+  changes, alternative input versions & scenarios, sensitivities, simulations,
+  comments, supporting documents in one place that tells a story.
+
+
+  <br />
+
+
+  With Visyond, analyses, calculators, dashboards and reports are **dynamically
+  driven** by spreadsheets, built and shared in minutes without experts or
+  moving data across tools. **No more lengthy processes and programmers**.
+  Reduce error risk. Real time what-if, financial statements, KPIs, Pivot tables
+  and Cubes.
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
