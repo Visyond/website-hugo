@@ -28,6 +28,8 @@
   width: 100%;
   font-size: 1.2rem;
   color: #52556c;
+  margin-top: 20px;
+  border-top: 1px solid black;
 }
 
 .contact-page__location {
@@ -38,6 +40,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .contacts-page__item--mail {
@@ -88,6 +91,7 @@
 .contacts-page__item {
   display: flex;
   flex-flow: column nowrap;
+  min-width: 200px;
   &:not(:last-child) {
     margin-bottom: 10px;
   }
