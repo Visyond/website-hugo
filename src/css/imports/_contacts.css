@@ -262,3 +262,23 @@
   width: 100%;
   display: block;
 }
+
+.grid_container {
+  max-width: 1440px;
+  grid-template-columns: repeat(2,1fr);
+  display: grid;
+  @media screen and (max-width: 800px){
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
+.grid_container > div {
+  padding: 4em 1em;
+}
+
+.grid_container > div > div {
+  /*
+  border: 1px solid grey;
+  */
+  height: 100%;
+}
