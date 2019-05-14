@@ -19,16 +19,18 @@
     </div>
 </section>
 {{ .Content}}
-
+<div class="grid_container">
 {{ range .Pages.ByDate.Reverse }}
 <div class="section">
-    <div class="ui text container">
+    <div class="ui text container2">
         <div class="ui grid">
             <div class="ui row">
                 <div class="ui column">
                     <div class="ui segment">
                         <a href="{{.URL}}" class="ui large header">
+                            {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
                             {{.Title}}
+
                             <div class="sub header">author: <b>{{ .Params.author }}</b></div>
                             <div class="sub header">
                                 <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
@@ -36,7 +38,7 @@
                             </div>
                         </a>
 
-                        {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+
                         <p>
                             {{ .Summary | markdownify }}
                         </p>
@@ -50,5 +52,5 @@
     </div>
 </div>
 {{ end }}
-
+</div>
 {{ partial "footer" . }}
