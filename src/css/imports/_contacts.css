@@ -269,6 +269,9 @@
   */
   grid-template-columns: repeat(2,1fr);
   display: grid;
+  max-width: 1400px;
+  margin: 0 auto;
+
   @media screen and (max-width: 800px){
     grid-template-columns: repeat(1,1fr);
   }
@@ -277,12 +280,29 @@
 
 
 .grid_container2 > div {
+  /*
   padding: 4em 1em;
+  */
+  margin: 4em 2em;
+
+  transition: box-shadow 0.2s ease-in-out;
+&:hover {
+   box-shadow: 0 5px 40px #dbddec;
+ }
 }
 
 .grid_container2 > div > div {
 
-  border: 1px solid red;
+  border: 1px solid lightgrey;
 
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.overlined2 {
+  margin: 10px;
+  border-top: 1px solid grey;
+  padding: 5px;
 }

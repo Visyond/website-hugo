@@ -21,12 +21,12 @@
 {{ .Content}}
 <div class="grid_container grid_container2">
 {{ range .Pages.ByDate.Reverse }}
-<div class="section" style="padding: 4em 1em">
+<div class="section" style="padding: 0px;">
     <div class="ui text container2">
         <div class="ui grid">
             <div class="ui row">
                 <div class="ui column">
-                    <div class="ui segment">
+                    <div class="ui segment" style="border: none; box-shadow: none;">
                         <a href="{{.URL}}" class="ui large header">
                             {{ if .Params.image }}
                                 <img src="{{ .Params.image }}"
@@ -36,13 +36,14 @@
 
                             <div class="sub header">author: <b>{{ .Params.author }}</b></div>
                             <div class="sub header">
-                                <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
+
                                 <p>Read in {{ .ReadingTime }} minutes</p>
                             </div>
                         </a>
 
 
-                        <p>
+                        <p >
+
                             {{ truncate 200 .Summary | markdownify }}
                         </p>
                         
@@ -52,6 +53,7 @@
             </div>
             </div>
         </div>
+        <p class="overlined2" >{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
     </div>
 </div>
 {{ end }}
