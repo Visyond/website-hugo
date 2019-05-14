@@ -263,8 +263,10 @@
   display: block;
 }
 
-.grid_container {
+.grid_container2 {
+  /*
   max-width: 1440px;
+  */
   grid-template-columns: repeat(2,1fr);
   display: grid;
   @media screen and (max-width: 800px){
@@ -272,13 +274,15 @@
   }
 }
 
-.grid_container > div {
+
+
+.grid_container2 > div {
   padding: 4em 1em;
 }
 
-.grid_container > div > div {
-  /*
-  border: 1px solid grey;
-  */
+.grid_container2 > div > div {
+
+  border: 1px solid red;
+
   height: 100%;
 }
