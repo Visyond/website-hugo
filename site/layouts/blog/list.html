@@ -28,7 +28,10 @@
                 <div class="ui column">
                     <div class="ui segment">
                         <a href="{{.URL}}" class="ui large header">
-                            {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
+                            {{ if .Params.image }}
+                                <img src="{{ .Params.image }}"
+                                     alt="{{ .Title }}" style="width: 100%;"/>
+                            {{ end }}
                             {{.Title}}
 
                             <div class="sub header">author: <b>{{ .Params.author }}</b></div>
@@ -40,7 +43,7 @@
 
 
                         <p>
-                            {{ .Summary | markdownify }}
+                            {{ truncate 200 .Summary | markdownify }}
                         </p>
                         
                         <a href="{{.URL}}" class="ui button">Read</a>
