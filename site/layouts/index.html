@@ -20,10 +20,7 @@
 
           <div class="cover-buttons--wrap">
 
-            <a href="/why-visyond" class="button button-basic">
-              Why Visyond
-            </a>
-            
+           
             {{ if .Params.WatchVideoURL }}
             <a href="#" class="button button-icon button-basic--active js-btn-video">
               <i class="material-icons">
@@ -33,9 +30,20 @@
             </a>
             {{ end }}
 
+            <!-- 
             <a href="{{ .Params.RequestURL }}" class="button button-basic">
               request a demo
             </a>
+             -->
+            
+            {{ if .Params.WatchVideoURL2 }}
+            <a href="#" class="button button-icon button-basic--active js-btn-video">
+              <i class="material-icons">
+                play_arrow
+              </i>
+              Watch Demo
+            </a>
+            {{ end }}
             
           </div>
 
