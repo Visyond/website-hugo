@@ -149,23 +149,19 @@ infoBlockFirst:
         title: Compare & Analyze Scenarios
       - alt: Spreadsheet Data Analysis in Visyond - Impact (Tornado) Analysis
         descr: >-
-          With Visyond, you can run Impact (Tornado) Analysis without long
-          manual setups and quickly see how sensitive your data set is to
-          changes.
+          Impact (Tornado) Analysis lets you identify critical variables easily so you can focus on what’s important to save time and             effort.
         file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Stress-Test Your Data with Tornado Analysis
       - alt: Spreadsheet Data Analysis in Visyond - Sensitivity Analysis
         descr: >-
-          Visyond’s Sensitivity Analysis lets you identify critical variables
-          easily so you can focus on what’s important to save time and effort.
+          Run Sensitivity Analysis without long manual setups and quickly see how sensitive your data set is to changes.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: Set Up Sensitivity Analysis in Seconds
       - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
         descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
+          Get handle on your risk factors for all your risk management needs.
         file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: Monte Carlo Simulations
