@@ -79,10 +79,6 @@ cards:
     header: Familiar Excel-Compatible Experience
     icon: /img/icons/excel_comp.png
     link: /features/compatibility-with-excel-and-powerpoint/
-  - description: 'Access at any time, from any place, using any device'
-    header: Cloud-based Global Accessibility
-    icon: /img/icons/cloud.png
-    link: ''
   - description: Audit spreadsheets and explore your models
     header: Reduction of Errors
     icon: /img/icons/graph_and_man.png
