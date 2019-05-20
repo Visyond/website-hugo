@@ -34,7 +34,7 @@ signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 watchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
-topSubTitle: Automate Analysis | Visualize the Impact of Decisions | Securely Collaborate
+topSubTitle: Automate Workflow | Track Changes | Reduce Errors | Collaborate Securely
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
@@ -42,9 +42,9 @@ videoIcons:
   - image: /img/home_video_icon_business.png
     text: Planning & Modeling
   - image: /img/home_video_icon_cashflow.png
-    text: Forecasting & Budgeting
+    text: 'Budgeting & Forecasting '
   - image: /img/home_video_icon_dcf.png
-    text: Financial Statements
+    text: Financial Reporting
   - image: /img/home_video_icon_investment.png
     text: Investment Analysis
   - image: /img/home_video_icon_scenario.png
