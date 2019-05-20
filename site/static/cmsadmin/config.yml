@@ -668,6 +668,12 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Icon Image", name: "image", widget: "image"},
               {label: "Icon Describtion", name: "text", widget: "markdown"}
           ], required: false}
+          
+          - { label: "Benefits", name: "cards", widget: "list", fields: [
+              {label: "Icon", name: "icon" , widget: "image" },
+              {label: "Header", name: "header", widget: "string"},
+              {label: "Link", name: "link", widget: "string"},
+              {label: "Description", name: "description", widget: "markdown"}] }
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
