@@ -90,7 +90,7 @@
   {{ partial "trustedslider" . }}
   <!-- ./trusted section -->
 
-  <!-- section capabilities -->
+  <!-- section capabilities 
   <section class="section">
     <div class="container">
 
@@ -107,8 +107,41 @@
       </ul>
     </div>
   </section>
-  <!-- ./section capabilities -->
+  ./section capabilities -->
 
+  <!-- Why V section -->
+  <section class="section">
+    
+    <h3 class="section-header">Why Visyond?</h3>
+    <p>
+      Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance
+    </p>
+    
+    <div class="ftr-features__cards">
+    {{ range .Params.cards}}
+    <a
+      {{ with .link }}
+      href="{{.}}"
+      {{ end }}
+      class="ftr-features__card">
+      <div class="ftr-features__card-image-wrap">
+        <img src="{{.icon}}" alt="icon" class="ftr-features__card-image">
+      </div>
+      <h3 class="ftr-features__card-title">
+        {{ .header | markdownify }}
+      </h3>
+      <p class="ftr-features__card-text">
+        {{ .description | markdownify }}
+      </p>
+    </a>
+    {{ end }}
+  </div>
+    
+    <a href="/why-visyond" class="button button-primary centered">Learn More</a>
+    
+  </section>  
+  <!-- Why V section -->
+  
   <!-- section info -->
   <section class="section">
   <ul class="home-info js-image-block">
