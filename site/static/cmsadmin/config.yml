@@ -660,6 +660,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
           - {label: "Sign Up URL", name: "signUpURL", widget: "string"}
           - {label: "Watch Video", name: "watchVideoURL", widget: "string", required: false}
+          - {label: "Watch Video", name: "watchVideoURL2", widget: "string", required: false}
           - {label: "Request URL", name: "requestURL", widget: "string"}
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown"}
           - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
