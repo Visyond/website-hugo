@@ -42,7 +42,7 @@ client_ask: >-
   The stakeholders for this workflow are: 
 
 
-  **The Chief Modeler** - before Visyond he had to maintain many copies of the
+  **Chief Modeler** - before Visyond he had to maintain many copies of the
   spreadsheets and presentations
 
 
@@ -51,15 +51,15 @@ client_ask: >-
   after client interactions._
 
 
-  **The Account Managers** - responsible for presenting to our Client's clients
+  **Account Managers** - responsible for presenting to our Client's clients
   the value of their solutions
 
 
-  **Our Client's clients** - requesting to test different scenarios and
+  **Clients** - requesting to test different scenarios and
   assumptions to better understand the value of the solution
 
 
-  ![undefined](/img/0 Hierarchy.png)
+  ![undefined](/img/0 Hierarchy fix.png)
 aside:
   - content: '![Company Logo](/img/telecommunication_3x.png)'
   - content: "**Challenge**\n\n* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
