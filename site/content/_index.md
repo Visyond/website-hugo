@@ -49,6 +49,45 @@ videoIcons:
     text: Investment Analysis
   - image: /img/home_video_icon_scenario.png
     text: Scenario Analysis
+    
+cards:
+  - description: 'Always know who contributed what, when and why'
+    header: Full Transparency and Data Governance
+    icon: /img/icons/computer.png
+    link: /solutions/data-tracking-software/
+  - description: Manage access and share projects fully or partially
+    header: Secure Collaborative Environment
+    icon: /img/icons/society.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Automate routine analytical tasks and their setup without experts
+    header: Data Analysis in Minutes
+    icon: /img/icons/graph.png
+    link: /solutions/data-analysis-software/
+  - description: Quickly get insights from your data through interactive presentations
+    header: Testing Assumptions in Real Time
+    icon: /img/icons/presentation.png
+    link: /solutions/automate-excel-reports-and-presentation/
+  - description: Have a single source of truth for your data & documentation
+    header: Streamlined Communications
+    icon: /img/icons/chat.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Easily generate financial statements and KPI reports
+    header: Automated Financial Statements
+    icon: /img/icons/finance_doc.png
+    link: /features/interactive-presentation-software/
+  - description: Start getting value immediately by importing your Excel file
+    header: Familiar Excel-Compatible Experience
+    icon: /img/icons/excel_comp.png
+    link: /features/compatibility-with-excel-and-powerpoint/
+  - description: 'Access at any time, from any place, using any device'
+    header: Cloud-based Global Accessibility
+    icon: /img/icons/cloud.png
+    link: ''
+  - description: Audit spreadsheets and explore your models
+    header: Reduction of Errors
+    icon: /img/icons/graph_and_man.png
+    link: /solutions/financial-modeling-software/   
+    
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
     files:
