@@ -161,7 +161,7 @@ infoBlockFirst:
         title: Set Up Sensitivity Analysis in Seconds
       - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
         descr: >-
-          Get handle on your risk factors for all your risk management needs.
+          Get a handle on your risk factors for all your risk management needs.
         file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: Monte Carlo Simulations
