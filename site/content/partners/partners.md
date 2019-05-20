@@ -38,7 +38,7 @@ pressarticles:
       well-defined business and marketing solutions.
     url: 'https://www.ovsa.co.za/'
   - logo: /img/logo_color.png
-    title: Contact Us to become Visyond Partner!
-    url: /contacts
+    title: Click here to fiind out more about our partner programs!
+    url: /partner-with-visyond/
 ---
 
