@@ -32,6 +32,7 @@ noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 topSubTitle: Automate Analysis | Visualize the Impact of Decisions | Securely Collaborate
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
