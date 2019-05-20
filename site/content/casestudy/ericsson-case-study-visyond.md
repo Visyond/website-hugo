@@ -51,7 +51,7 @@ client_ask: >-
   the value of their solutions
 
 
-  **Our Client's clients** - requesting to test different scenarios and
+  **Clients** - requesting to test different scenarios and
   assumptions to better understand the value of the solution
 
 
