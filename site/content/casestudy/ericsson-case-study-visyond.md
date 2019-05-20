@@ -38,7 +38,7 @@ client_ask: >-
   The stakeholders for this workflow are: 
 
 
-  **The Chief Modeler** - before Visyond he had to maintain many copies of the
+  **Chief Modeler** - before Visyond he had to maintain many copies of the
   spreadsheets and presentations
 
 
@@ -47,7 +47,7 @@ client_ask: >-
   after client interactions._
 
 
-  **The Account Managers** - responsible for presenting to our Client's clients
+  **Account Managers** - responsible for presenting to our Client's clients
   the value of their solutions
 
 
