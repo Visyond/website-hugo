@@ -10,10 +10,10 @@ pressarticles:
     title: >-
       ERM Office is Egype & UAE based management consulting firm that provides
       Training and Certification, Consulting and Implementation, Value Added
-      Reseller (VAR). </br> ERM Office are specialized in Enterprise Risk
-      Management (ERM), Operational Risk Management (ORM), IT Risk Management
-      (ITRM), Supply Chain Risk Management (SCRM), Cybersecurity Risk Management
-      (CsRM), Enterprise Project Risk Management (EPRM), Governance, Risk, and
+      Reseller (VAR). ERM Office are specialized in Enterprise Risk Management
+      (ERM), Operational Risk Management (ORM), IT Risk Management (ITRM),
+      Supply Chain Risk Management (SCRM), Cybersecurity Risk Management (CsRM),
+      Enterprise Project Risk Management (EPRM), Governance, Risk, and
       Compliance (GRC)
     url: 'https://www.ermoffice.com/'
   - alt: GF Accord logo
