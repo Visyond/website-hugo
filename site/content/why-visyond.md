@@ -56,16 +56,19 @@ textArea3: >-
   without being exposed to unnecessary details or sensitive information.
 
 
+  <br />
   **Single source of truth** is established by tracking inputs, history of changes, scenarios, sensitivities, simulations,
   <br />
   conversations, and supporting documentation in a single place that tells a story where **nobody can overwrite other’s work.**
 
 
+  <br />
   Analyses, presentations and  calculators, dashboards and reports are dynamically driven by spreadsheets, 
   <br />
   **built and shared in minutes   without experts or moving data across tools.**
 
 
+  <br />
   **Risk of errors is reduced** with on-the-fly ‘What-If’ analysis, Financial Statements, KPIs, Pivot Tables and Cubes
 sectionTwoHeader: Benefits
 cards:
