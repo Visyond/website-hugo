@@ -29,8 +29,9 @@ coverDescription: >
 sectionOneHeader: Why Visyond
 textArea1: >-
   **Decision making requires modeling, analytics, knowledge management, data
-  visualization and reporting tools**:  analysts, experts, clients, CxOs must
-  collaborate with strict requirements on data security and governance
+  visualization and reporting tools**:
+  <br />
+  analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance
 
 
   ### Without Visyond, the process required multiple platforms and caused the
@@ -50,13 +51,19 @@ textArea3: >-
   ### Visyond Enables Collaboration, Security and Automation at Every Step of Modeling, Analysis & Presentation for Decision Making
 
 
-  Collaborators **view or edit only selected parts of projects** without being exposed to unnecessary details or sensitive information.
+  Collaborators **view or edit only selected parts of projects**
+  <br />
+  without being exposed to unnecessary details or sensitive information.
 
 
-  **Single source of truth** is established by tracking inputs, history of changes, scenarios, sensitivities, simulations,                 conversations,  and supporting documentation in a single place that tells a story where **nobody can overwrite other’s work.**
+  **Single source of truth** is established by tracking inputs, history of changes, scenarios, sensitivities, simulations,
+  <br />
+  conversations, and supporting documentation in a single place that tells a story where **nobody can overwrite other’s work.**
 
 
-  Analyses, presentations and  calculators, dashboards and reports are dynamically driven by spreadsheets, **built and shared in minutes   without experts or moving data across tools.**
+  Analyses, presentations and  calculators, dashboards and reports are dynamically driven by spreadsheets, 
+  <br />
+  **built and shared in minutes   without experts or moving data across tools.**
 
 
   **Risk of errors is reduced** with on-the-fly ‘What-If’ analysis, Financial Statements, KPIs, Pivot Tables and Cubes
