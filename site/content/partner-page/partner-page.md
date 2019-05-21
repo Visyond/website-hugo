@@ -2,7 +2,7 @@
 title: Partner page
 url: /partner-with-visyond
 topTitle: Partner with Visyond
-topSubTitle: Grow your business and build new revenue stream
+topSubTitle: Grow your business and build new revenue streams
 bgImage: /img/partners-hero.jpg
 BenefitsHeader: Partner Benefits
 benefitsItems:
@@ -25,7 +25,7 @@ benefitsItems:
   - img: /img/icons/idea.png
     subTitle: >-
       Our partners benefit from offering an incremental value added service to
-      their clients from our new lucrative solution.
+      their clients.
     title: Strong New Value Proposition
 typesHeader: Types of Partners
 typesSection:
@@ -34,20 +34,17 @@ typesSection:
   types:
     - icon: /img/icons/bag-man.png
       subTitle: >-
-        Whether you are a managing consultant, technology advocate or a
-        self-employed sales professional. Visyond works with variety of
+        Whether you are a management consultant, technology advocate or a
+        self-employed sales professional. Visyond works with a variety of
         specialists.
       title: Independent Sales Partners
     - icon: /img/icons/handshake.png
       subTitle: >-
-        If you are an established reseller and looking to add a new portfolio of
-        offerings then this is right for you. Typically, resellers will offer
-        end-to-end solution for clients  in their markets whilst providing your
-        with the right support.
+        If you are an established reseller and looking to add a new offer to your portfolio then this is right for you.  Typically,             resellers will offer end-to-end solutions for clients in their markets whilst providing support.
       title: Channel Partners & Resellers
     - icon: /img/icons/gear-man.png
       subTitle: >-
-        For those that want to integrate with Visyond to expand their solution
+        For those who want to integrate with Visyond to expand their solution
         or technology.
       title: Integration & Software Partners
 formHeader: Find Out More About Our Partner Programs
