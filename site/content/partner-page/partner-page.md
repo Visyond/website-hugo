@@ -35,7 +35,7 @@ typesSection:
     - icon: /img/icons/bag-man.png
       subTitle: >-
         Whether you are a management consultant, technology advocate or a
-        self-employed sales professional. Visyond works with a variety of
+        self-employed sales professional, Visyond works with a variety of
         specialists.
       title: Independent Sales Partners
     - icon: /img/icons/handshake.png
