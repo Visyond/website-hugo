@@ -47,28 +47,19 @@ textArea3: >-
   <br />
 
 
-  ### Visyond is the only integrated solution enabling collaboration, security
-  and automation at every step of modeling, analysis and presentation for
-  decision making
+  ### Visyond Enables Collaboration, Security and Automation at Every Step of Modeling, Analysis & Presentation for Decision Making
 
 
-  **Collaborators view or edit only selected elements** through interactive web
-  interfaces that hide complexity, unnecessary details and sensitive data. All
-  becomes simple and secure. **Nobody can overwrite others’ work**
+  Collaborators **view or edit only selected parts of projects** without being exposed to unnecessary details or sensitive information.
 
 
-  **Single source of truth** is established: history & impact of changes,
-  alternative input versions & scenarios, sensitivities, simulations, comments,
-  supporting documents **in one place that tells a story**
+  **Single source of truth** is established by tracking inputs, history of changes, scenarios, sensitivities, simulations,                 conversations,  and supporting documentation in a single place that tells a story where **nobody can overwrite other’s work.**
 
 
-  **Analyses, calculators, dashboards and reports are dynamically driven by
-  spreadsheets**, built and shared in minutes without experts or moving data
-  across tools. **No more lengthy processes and programmers**
+  Analyses, presentations and  calculators, dashboards and reports are dynamically driven by spreadsheets, **built and shared in minutes   without experts or moving data across tools.**
 
 
-  **Reduce error risk** with real time 'What-if', Financial Statements, KPIs,
-  Pivot Tables and Cubes
+  **Risk of errors is reduced** with on-the-fly ‘What-If’ analysis, Financial Statements, KPIs, Pivot Tables and Cubes
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
