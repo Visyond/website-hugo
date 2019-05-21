@@ -48,7 +48,7 @@ textArea3: >-
   <br />
 
 
-  ### Visyond Enables Collaboration, Security and Automation at Every Step of Modeling, Analysis & Presentation for Decision Making
+  ### Visyond Enables Collaboration, Security and Automation at <br /> Every Step of Modeling, Analysis & Presentation for Decision Making
 
 
   Collaborators **view or edit only selected parts of projects**
