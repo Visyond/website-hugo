@@ -26,15 +26,24 @@
               <i class="material-icons">
                 play_arrow
               </i>
-              watch video
+              watch introduction
             </a>
             {{ end }}
 
-            
+            {{ if .Params.WatchVideoURL2 }}
+            <a href="#" class="button button-icon button-basic--active js-btn-video2">
+              <i class="material-icons">
+                play_arrow
+              </i>
+              watch demo
+            </a>
+            {{ end }}
+
+<!--
             <a href="{{ .Params.RequestURL }}" class="button button-basic">
               request a demo
             </a>
-            
+    -->
             <!-- 
             {{ if .Params.WatchVideoURL2 }}
             <a href="#" class="button button-icon button-basic--active js-btn-video">
@@ -53,6 +62,13 @@
           <div class="ht-top__iframe-wrap">
             <button class="ht-top__popup-close js-popup-close"></button>
             <p>{{ .Params.WatchVideoURL }}</p>
+          </div>
+        </div>
+
+        <div class="ht-top__popup js-popup2">
+          <div class="ht-top__iframe-wrap">
+            <button class="ht-top__popup-close js-popup-close2"></button>
+            <p>{{ .Params.WatchVideoURL2 }}</p>
           </div>
         </div>
         

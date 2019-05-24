@@ -164,8 +164,8 @@ $(function () {
 
 
     //=====POPUP WITH YOUTUBE VIDEO=====
-    function watchVideo(btn, popup) {
-        const closePopup = document.querySelector('.js-popup-close');
+    function watchVideo(btn, popup, closePopup) {
+        //const closePopup = document.querySelector('.js-popup-close');
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
@@ -208,7 +208,16 @@ $(function () {
     if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
         const videoBtn = document.querySelector('.js-btn-video');
         const videoPopup = document.querySelector('.js-popup');
-        watchVideo(videoBtn, videoPopup);
+        const closePopup = document.querySelector('.js-popup-close');
+        watchVideo(videoBtn, videoPopup, closePopup);
+
+    }
+
+    if(document.querySelector('.js-btn-video2') && document.querySelector('.js-popup2')) {
+        const videoBtn2 = document.querySelector('.js-btn-video2');
+        const videoPopup2 = document.querySelector('.js-popup2');
+        const closePopup2 = document.querySelector('.js-popup-close2');
+        watchVideo(videoBtn2, videoPopup2, closePopup2);
 
     }
 
