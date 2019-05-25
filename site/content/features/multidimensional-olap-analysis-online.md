@@ -1,5 +1,5 @@
 ---
-title: Multidimensional OLAP Analysis Online
+title: 'Multidimensional Analysis Online OLAP '
 topTitle: >-
   Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
   Analysis Online
@@ -15,11 +15,7 @@ requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "Gain new business insights and understand your data better:\r\n\n* Aggregate historical & transactional data to see the big picture\r\n* Slice & Dice, Drill Up & Down the summarized data and have access to underlying assumptions\r\n* Sort, group and filter data based on different parameters\r"
-    files:
-      - alt: ''
-        descr: TESTTESTTEST
-        file: /img/Single source of truth.png
-        title: TEST
+    files: []
     image: /img/Single source of truth.png
     title: View Data From Different Angles
   - descr: >-
@@ -38,11 +34,7 @@ infoBlockFirst:
       stakeholders with [Selective
       Sharing](/features/share-spreadsheets-and-presentations-online/): like any
       other module in Visyond
-    files:
-      - alt: ''
-        descr: TESTTESTTEST
-        file: /img/Cases in Browser v2.png
-        title: TEST TEST
+    files: []
     image: /img/Cases in Browser v2.png
     title: Go Beyond Flat Numerical Data
   - descr: >-
@@ -58,27 +50,11 @@ infoBlockFirst:
 
       * Customize structure by adding rows, columns and dimensions in real time
       without long data preparation, processing and exports to other platforms
-    files:
-      - alt: ''
-        descr: TESTTESTTEST
-        file: /img/Share Project.png
-        title: TEST
+    files: []
     image: /img/Share Project.png
     title: Flexible Ad-Hoc OLAP Analysis and Reporting
-featuresTitle: Related Features
-featuresCards:
-  - icon: /img/import-export@2x.png
-    link: /features/import-and-export/
-    text: >-
-      Import and export spreadsheets, presentations, charts and reports with
-      ease.
-    title: Import / Export
-  - icon: /img/selective-sharing@2x.png
-    link: /features/selective-sharing/
-    text: >-
-      Share spreadsheets and presentations fully or partially without exposing
-      any other data or calculations.
-    title: Selective Sharing
+featuresTitle: a
+featuresCards: []
 providesTitle: Get started in minutes
 providesList:
   - text: >-
