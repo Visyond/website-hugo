@@ -53,7 +53,7 @@ infoBlockFirst:
     files: []
     image: /img/Share Project.png
     title: Flexible Ad-Hoc OLAP Analysis and Reporting
-featuresTitle: a
+featuresTitle: ''
 featuresCards: []
 providesTitle: Get started in minutes
 providesList:
