@@ -58,8 +58,14 @@
         background: rgba(0,21,61,.7);
         background-image: none;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 900px) {
+            /*
             padding-top: 3em;
+            */
+            padding: 4em;
+            padding-top: 10em;
+            padding-bottom: 6em;
+            position: relative;
         }
 
         @media screen and (--tablet) {
@@ -77,7 +83,7 @@
         & > .cover-header {
             padding: 0;
             font-size: 3em;
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 900px) {
                 font-size: 1.6em;
                 font-weight: 900;
             }
@@ -86,13 +92,13 @@
         & > .cover-header--sub {
             padding: 0;
             font-size: 1.8em;
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 900px) {
                 font-size: 1.2em;
             }
         }
 
         & .cover-buttons--wrap {
-            @media screen and (max-width: 800px) {
+            @media screen and (max-width: 900px) {
                 font-size: 0.9em;
                 flex-direction: row;
                 margin-top: 1px;

@@ -746,4 +746,46 @@ $(function () {
         cover.style.top = '0px'; // left: 200px;';
         cover.style.left = '0px';
     }
+
+    var prevRatio = 0;
+    function onresize2() {
+        var ratio = window.innerWidth / window.innerHeight;
+        var els = document.querySelectorAll(".video-wrapper");
+        var border = 1.6;
+        border = 2180 / 1244;
+        var changed = false;
+        if (prevRatio === 0) changed = true;
+        if ( (ratio > border) && (prevRatio  < border)) changed = true;
+        if ( (ratio < border) && (prevRatio  > border)) changed = true;
+        if (changed) {
+            if (border > ratio) {
+                for (var i = 0; i < els.length; i++) {
+                    els[i].style.width = null;
+                    els[i].style.height = "calc(100vh - 20px)";
+                }
+            } else {
+                for (var i = 0; i < els.length; i++) {
+                    els[i].style.height = null;
+                    els[i].style.width = "100%";
+                    //els[i].style.height = "calc(100vh + 70px);";
+                }
+
+            }
+
+        } // changed
+        prevRatio = ratio;
+        els[1].style.width = "100%";
+        if (window.innerWidth < 900) {
+            els[1].style.height = null;
+        } else {
+            els[1].style.height = "calc(100vh - 20px)";
+        }
+
+        els[0].style.width = null;
+        els[0].style.height = null;
+
+    }; // onresize2
+    onresize2();
+    window.addEventListener("resize", onresize2);
+
 });
