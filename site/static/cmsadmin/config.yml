@@ -174,7 +174,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
       }
 
-      - {label: "Features Title", name: "featuresTitle", widget: string}
+      - {label: "Features Title", name: "featuresTitle", widget: string, required: false}
       - {label: "Features Cards", name: "featuresCards", widget: list, fields: [
           {label: "Link", name: "link", widget: string},
           {label: "Icon", name: "icon", widget: image},
