@@ -3,12 +3,15 @@
 <div class="hometest ht">
 
   <!-- top section -->
-  <div class="cover cover--compact" style="background-image: url(' {{ .Params.bgImage }}');">
+  <div class="cover cover--compact video-wrapper" style="background-image: url(' {{ .Params.bgImage }}');">
     <!-- <video src="/img/preview.mp4" class="cover-video js-background-video" autoplay muted loop> -->
       <!-- <video src="/img/Visyond Homepage background video loop zoom.webm" class="cover-video js-background-video" autoplay muted loop>  -->
-        <video src="/img/Visyond Homepage background video loop v1.mp4" class="cover-video js-background-video" autoplay muted loop>
-          <!-- <source src="/img/preview.mp4" type="video/mp4"> -->
+    <div class = 'video-wrapper' style="widows: 100%; height: 100%">
+        <video src="/img/VisyondBackLoopV1.mp4"
+               class="video-wrapper js-background-video" autoplay muted loop>
+          <!-- <source src="/img/preview.mp4" type="video/mp4">   -->
         </video>
+    </div>
         <div class="cover-video--content">    
           <h1 class="cover-header">
             {{ .Params.TopTitle | markdownify}}
