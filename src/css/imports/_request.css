@@ -35,8 +35,8 @@
   color: #ffffff;
   background: linear-gradient(
     300deg,
-    rgba(8, 200, 202, 0.7) 0%,
-    rgba(111, 38, 191, 0.7) 100%
+    rgba(8, 200, 202, 0.7) 50%,
+    #0585ff 100%
   );
   margin-bottom: 80px;
 
@@ -158,7 +158,7 @@
     position: absolute;
     right: 5px;
     top: 0px;
-    color: #9f4bcc;
+    color: #0585ff;
     font-weight: 300;
     font-size: 18px;
   }
@@ -178,7 +178,7 @@
   transition: background 0.1s ease-in-out;
   cursor: pointer;
   &:hover {
-    background: rgb(123, 51, 161);
+    background: #2090fc;
   }
 }
 
