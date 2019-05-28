@@ -24,7 +24,7 @@ infoBlockFirst:
       - descr: >-
           Pivot tables are directly connected to the spreadsheet, you can have
           access not only to flat numbers (as in other database-driven BI) tools
-          but also to calculations and assumptions behind the numbers
+          but also to calculations and assumptions behind the numbers.
         file: /img/2019-05 Pivot Model Grid.png
         title: See assumptions behind numbers
       - descr: >-
@@ -57,7 +57,7 @@ infoBlockFirst:
           modules.
         file: /img/2019-05 Pivot Model.png
         title: Pivot Analysis On-the-Fly
-    image: /img/2019-05 Pivot Model Grid.png
+    image: /img/2019-05 Pivot Model.png
     title: Go Beyond Flat Numerical Data
   - descr: >-
       Visyond combines models and their outputs directly with OLAP tables and
