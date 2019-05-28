@@ -140,7 +140,7 @@
     text-align: center;
     font-size: 2.5em;
     margin: 0;
-    padding: 0;
+    padding: 0em 5em 0em 5em;
 
     @media screen and (--hd) {
         padding: 0 var(--padding-hd);
