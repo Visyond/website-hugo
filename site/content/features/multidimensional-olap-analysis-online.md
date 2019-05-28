@@ -15,8 +15,24 @@ requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "Gain new business insights and understand your data better:\r\n\n* Aggregate historical & transactional data to see the big picture\r\n* Slice & Dice, Drill Up & Down the summarized data and have access to underlying assumptions\r\n* Sort, group and filter data based on different parameters\r"
-    files: []
-    image: /img/Single source of truth.png
+    files:
+      - descr: >-
+          Easily setup custom dimensions & use them to filter and explore your
+          spreadsheet data.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: Slice & Dice and Filter
+      - descr: >-
+          Pivot tables are directly connected to the spreadsheet, you can have
+          access not only to flat numbers (as in other database-driven BI) tools
+          but also to calculations and assumptions behind the numbers
+        file: /img/2019-05 Pivot Model Grid.png
+        title: See assumptions behind numbers
+      - descr: >-
+          Select among various mathematical functions that will be used to build
+          the pivot.
+        file: /img/2019-05 Pivot Orders Functions.png
+        title: Aggregation Functions
+    image: /img/2019-05 Pivot Model Filter.png
     title: View Data From Different Angles
   - descr: >-
       Visyond’s self-service OLAP analysis is connected directly to your
@@ -34,8 +50,14 @@ infoBlockFirst:
       stakeholders with [Selective
       Sharing](/features/share-spreadsheets-and-presentations-online/): like any
       other module in Visyond
-    files: []
-    image: /img/Cases in Browser v2.png
+    files:
+      - descr: >-
+          Visyond brings to pivot and cube analysis its signature automated
+          point & click approach you may have experienced in all Visyond
+          modules.
+        file: /img/2019-05 Pivot Model.png
+        title: Pivot Analysis On-the-Fly
+    image: /img/2019-05 Pivot Model Grid.png
     title: Go Beyond Flat Numerical Data
   - descr: >-
       Visyond combines models and their outputs directly with OLAP tables and
@@ -50,8 +72,16 @@ infoBlockFirst:
 
       * Customize structure by adding rows, columns and dimensions in real time
       without long data preparation, processing and exports to other platforms
-    files: []
-    image: /img/Share Project.png
+    files:
+      - descr: >-
+          View the data in your pivot table in different table modes or
+          visualize it using a variety of charts.
+        file: /img/2019-05 Pivot Model Stacked Barchart.png
+        title: Visualize pivots
+      - descr: Select among a variety of charts and pivot visualization options.
+        file: /img/2019-05 Pivot Model Heatmap.png
+        title: Pick the right visualization
+    image: /img/2019-05 Pivot Model Stacked Barchart.png
     title: Flexible Ad-Hoc OLAP Analysis and Reporting
 featuresTitle: ''
 featuresCards: []
