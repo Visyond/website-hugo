@@ -32,7 +32,6 @@ noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-watchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 topSubTitle: Automate Workflow | Track Changes | Reduce Errors | Collaborate Securely
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
@@ -49,7 +48,8 @@ videoIcons:
     text: Investment Analysis
   - image: /img/home_video_icon_scenario.png
     text: Scenario Analysis
-    
+WhyVisyondTitle: Why Visyond?
+BenefitsTitle: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
     header: Full Transparency and Data Governance
@@ -82,8 +82,8 @@ cards:
   - description: Audit spreadsheets and explore your models
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
-    link: /solutions/financial-modeling-software/   
-    
+    link: /solutions/financial-modeling-software/
+FeaturesTitle: What's So Special?
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
     files:
@@ -149,19 +149,21 @@ infoBlockFirst:
         title: Compare & Analyze Scenarios
       - alt: Spreadsheet Data Analysis in Visyond - Impact (Tornado) Analysis
         descr: >-
-          Impact (Tornado) Analysis lets you identify critical variables easily so you can focus on what’s important to save time and             effort.
+          Impact (Tornado) Analysis lets you identify critical variables easily
+          so you can focus on what’s important to save time and            
+          effort.
         file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Stress-Test Your Data with Tornado Analysis
       - alt: Spreadsheet Data Analysis in Visyond - Sensitivity Analysis
         descr: >-
-          Run Sensitivity Analysis without long manual setups and quickly see how sensitive your data set is to changes.
+          Run Sensitivity Analysis without long manual setups and quickly see
+          how sensitive your data set is to changes.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: Set Up Sensitivity Analysis in Seconds
       - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
-        descr: >-
-          Get a handle on your risk factors for all your risk management needs.
+        descr: Get a handle on your risk factors for all your risk management needs.
         file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: Monte Carlo Simulations
