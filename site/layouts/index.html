@@ -131,7 +131,9 @@
   <!-- Why V section -->
   <section class="section">
     
-    <h3 class="section-header">Why Visyond?</h3>
+    <h3 class="section-header">{{ .Params.WhyVisyondTitle }}</h3>
+    <div class="header-section--divider"></div>
+    
     <section class="home-info__text-wrap"
            style="width: 80%; margin: 0 10% 0 10%; text-align: center;">
      <div class="home-info__block-descr">
@@ -149,8 +151,10 @@
   <!-- Why V section -->
   
   <!-- Benefits -->
-  <section class="section" >
-    <h3 class="section-header">Benefits</h3>  
+  <section class="section" style="background:#eef6ff">
+    <h3 class="section-header">{{ .Params.BenefitsTitle }}</h3>
+    <div class="header-section--divider"></div>
+    
     <div class="ftr-features__cards">
     {{ range .Params.cards}}
     <a
@@ -176,6 +180,10 @@
   
   <!-- section info -->
   <section class="section">
+    
+   <h3 class="section-header">{{ .Params.FeaturesTitle }}</h3> 
+   <div class="header-section--divider"></div>
+    
   <ul class="home-info js-image-block">
 
     <!-- list of info blocks with blue button -->
