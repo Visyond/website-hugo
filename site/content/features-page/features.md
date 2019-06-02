@@ -16,7 +16,7 @@ section:
         text: >-
           Spreadsheet data, assumptions, attachments, conversations and
           approvals are stored in a single place.
-        title: Knowledge Base
+        title: Knowledge Management
       - icon: /img/selective-sharing@2x.png
         link: /features/share-spreadsheets-and-presentations-online
         text: >-
