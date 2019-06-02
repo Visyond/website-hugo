@@ -6,7 +6,7 @@ feaDropdownCol:
           approvals are stored in a single place.
         image: /img/knowledge-base@2x.png
         path: /features/track-changes-from-an-excel-file/
-        title: Knowledge Base
+        title: Knowledge Management
       - descr: >-
           Share spreadsheets and presentations fully or partially without
           exposing any other data or calculations.
