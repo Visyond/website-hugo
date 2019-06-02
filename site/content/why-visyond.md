@@ -82,7 +82,7 @@ cards:
     link: /solutions/spreadsheet-collaboration-software/
   - description: Automate routine analytical tasks and their setup without experts
     header: Data Analysis in Minutes
-    icon: img/scenarios@2x.png
+    icon: /img/scenarios@2x.png
     link: /solutions/data-analysis-software/
   - description: Quickly get insights from your data through interactive presentations
     header: Testing Assumptions in Real Time
