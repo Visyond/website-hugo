@@ -42,12 +42,14 @@
                         </a>
 
 
-                        <p >
-
+                        <p class="home-info__block-descr">
+<!--
                             {{ truncate 200 .Summary | markdownify }}
+                            -->
+                            {{ .Params.annotation }}
                         </p>
                         
-                        <a href="{{.URL}}" class="ui button">Read</a>
+                        <a href="{{.URL}}" class="button button-primary">Read</a>
 
                     </div>
             </div>

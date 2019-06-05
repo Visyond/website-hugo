@@ -68,6 +68,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Author", name: "author", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
       - {label: "Date", name: "date", widget: "datetime", required: false}
+      - {label: "Annotation", name: "annotation", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
 
   - name: "solutions"
