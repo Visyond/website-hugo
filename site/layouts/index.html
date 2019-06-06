@@ -129,19 +129,20 @@
   ./section capabilities -->
 
   <!-- Why V section -->
-  <section class="section">
+  <section class="section" style="text-align: center;">
     
     <h3 class="section-header">{{ .Params.WhyVisyondHeader }}</h3>
     <div class="header-section--divider"></div>
     
     <section class="home-info__text-wrap"
            style="width: 80%; margin: 0 10% 0 10%; text-align: center;">
-     <div class="home-info__block-descr" style="text-align: center">
+     <div class="home-info__block-descr" style="text-align: center;">
         {{ .Params.WhyVisyondText | markdownify }}
      </div>
     </section> 
     <img src="{{ .Params.WhyVisyondImage }}">
     <a href="/why-visyond" class="button button-primary centered">Learn more</a>
+    
   </section>  
   <!-- Why V section -->
   
