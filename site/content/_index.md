@@ -79,6 +79,14 @@ cards:
     header: Familiar Excel-Compatible Experience
     icon: /img/import-export@2x.png
     link: /features/compatibility-with-excel-and-powerpoint/
+  - description: 'Access at any time, from any place, using any device'
+    header: Cloud-based Global Accessibility
+    icon: /img/icons/cloud.png
+    link: ''
+  - description: 'Keep all data on your server for better regulatory compliance'
+    header: On-Premise Installation
+    icon: /img/data_governance_3x.png
+    link: ''     
   - description: Audit spreadsheets and explore your models
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
