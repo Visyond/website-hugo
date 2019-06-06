@@ -102,7 +102,7 @@ cards:
     link: /features/compatibility-with-excel-and-powerpoint/
   - description: 'Access at any time, from any place, using any device'
     header: Cloud-based Global Accessibility
-    icon: /img/icons/data_input_3x.png
+    icon: /img/data_input_3x.png
     link: ''
   - description: 'Keep all data on your server for better regulatory compliance'
     header: On-Premise Installation
