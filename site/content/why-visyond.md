@@ -36,7 +36,7 @@ textArea1: >-
 
   ### Without Visyond, the process required multiple platforms and caused the
   following problems
-sectionOneImg: /img/Why Visond Inforgraphic Circle.png
+sectionOneImg: /img/Why Visond Inforgraphic 3 v3.png
 sectionOneHeaderTwo: Enter Visyond
 textArea2: "### Secure Selective Sharing of a Single Source of Truth\n\nSecure data by sharing only sub-parts each collaborator needs to interact with\n\nTrack all changes, comments, support information in one place.\n\nTransparency, governance, accountability, knowledge management\n\n<br />\n\n### Collaborative Automatic What-if Analysis in Real Time\n\nDo in minutes what takes you days now\n\nCollaborators contribute analyses in one document, not their version \r\n\nData Visualization in the same place where you carry out calculations\n\nAutomatic, spreadsheet-driven presentations and reporting\n\n<br />\n\n### Minimum Learning Curve and Compatibility with Excel\n\nKeep your work habits & leverage Excel skills in a familiar environment\n\nCustom workflows, integrations and on-premise installation available\n\nAutomated and standardized workflows\n"
 
