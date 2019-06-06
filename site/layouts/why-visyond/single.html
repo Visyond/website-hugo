@@ -53,6 +53,25 @@
   
   <img src="{{ .Params.sectionOneImgTwo }}">
   
+    <!-- section capabilities -->
+  <section class="section">
+    <div class="container">
+
+      <ul class="ht-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="ht-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
+
+          <div class="ht-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  <!-- /section capabilities -->
+  
     <!--            textArea3   -->
   <section class="home-info__text-wrap"
            style="width: 80%; margin: 0 10% 0 10%;">
