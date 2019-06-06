@@ -768,12 +768,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
           - { label: "Section 1: Header 2", name: "sectionOneHeaderTwo", widget: "string", required: false}
           - { label: "Text Area 2", name: "textArea2", widget: "markdown", required: false}
-          - { label: "Section 1: Header 3", name: "sectionOneHeaderThree", widget: "string", required: false} 
-          - { label: "Section 1: Image", name: "sectionOneImgTwo", widget: "image", required: false}
           - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
             {label: "Capabilities Image", name: "image", widget: "image"},
             {label: "Capabilities Text", name: "text", widget: "markdown"},
-            ],}       
+            ],}  
+          - { label: "Section 1: Header 3", name: "sectionOneHeaderThree", widget: "string", required: false} 
+          - { label: "Section 1: Image", name: "sectionOneImgTwo", widget: "image", required: false}     
           - { label: "Text Area 3", name: "textArea3", widget: "markdown", required: false}
           - { label: "Section 2: Header", name: "sectionTwoHeader", widget: "string", required: false}
           - { label: "Benefits", name: "cards", widget: "list", fields: [
