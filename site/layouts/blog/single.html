@@ -25,22 +25,25 @@
         <div class="ui grid">
             <div class="ui row">
                 <div class="ui column">
-                    <div class="ui segment">
-                        <a href="{{.URL}}" class="ui large header">
+
+                        <a href="{{.URL}}" class="ui large header"
+                           style="font-weight: 700; "
+                        >
+                            <div style="text-align: center; letter-spacing: 2px;">
                             {{.Title}}
+                            </div>
                             <div class="sub header">
                                 <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
                                 <p>Read in {{ .ReadingTime }} minutes</p>
                             </div>
                         </a>
 
-                        <p>
+                        <p class="home-info__block">
                             {{ .Content }}
                         </p>
 
-                        <a href="/blog/" class="ui button">Back to Blog</a>
-                        
-                    </div>
+                        <a href="/blog/" class="button button-primary">Back to Blog</a>
+
                 </div>
             </div>
         </div>
