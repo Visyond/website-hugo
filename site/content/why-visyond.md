@@ -39,6 +39,15 @@ textArea1: >-
 sectionOneImg: /img/Why Visond Inforgraphic Circle.png
 sectionOneHeaderTwo: Enter Visyond
 textArea2: "### Secure Selective Sharing of a Single Source of Truth\n\nSecure data by sharing only sub-parts each collaborator needs to interact with\n\nTrack all changes, comments, support information in one place.\n\nTransparency, governance, accountability, knowledge management\n\n<br />\n\n### Collaborative Automatic What-if Analysis in Real Time\n\nDo in minutes what takes you days now\n\nCollaborators contribute analyses in one document, not their version \r\n\nData Visualization in the same place where you carry out calculations\n\nAutomatic, spreadsheet-driven presentations and reporting\n\n<br />\n\n### Minimum Learning Curve and Compatibility with Excel\n\nKeep your work habits & leverage Excel skills in a familiar environment\n\nCustom workflows, integrations and on-premise installation available\n\nAutomated and standardized workflows\n"
+
+capabilitiesList:
+  - image: /img/v_icon.png
+    text: Save up to **80%** of time on routine tasks
+  - image: /img/v_icon2.png
+    text: Reduce average cost by **$420** per employee/month
+  - image: /img/v_icon3.png
+    text: '**Significantly** reduce errors'
+
 sectionOneHeaderThree: So Why Visyond?
 sectionOneImgTwo: /img/why visyond infographic.png
 textArea3: >-
