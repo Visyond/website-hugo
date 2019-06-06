@@ -671,6 +671,8 @@ collections: # A list of collections the CMS should be able to edit
           ], required: false}
 
           - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string"}
+          - { label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
+          - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
 
           - {label: "Benefits Title", name: "BenefitsHeader", widget: "string"}
           - { label: "Benefits", name: "cards", widget: "list", fields: [
