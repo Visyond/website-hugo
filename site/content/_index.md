@@ -53,7 +53,9 @@ WhyVisyondHeader: What is Visyond
 WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
 </br>
 </br>
-**Without Visyond, the process requires multiple platforms and causes numerous problems:**"
+**Without Visyond, the process requires multiple platforms and causes numerous problems:**
+</br>
+</br>"
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v3 short.png
 BenefitsHeader: Benefits    
 cards:
