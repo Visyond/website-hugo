@@ -9,7 +9,10 @@
 
 <section class="cover" style="background-image: url('/img/why-visyond-cover.png');">
     <h1 class="cover-header">
+        Blog
+        <!--
         {{ .Params.coverHeader | markdownify }}
+        -->
     </h1>
 
     <div class="cover-header--sub">
@@ -21,13 +24,14 @@
 {{ .Content}}
 <div class="grid_container grid_container2">
 {{ range .Pages.ByDate.Reverse }}
-<div class="section" style="padding: 0px;">
+<div class="section" style="padding: 0px; font-family: 'Open Sans', sans-serif">
     <div class="ui text container2">
         <div class="ui grid">
             <div class="ui row">
                 <div class="ui column">
                     <div class="ui segment" style="border: none; box-shadow: none;">
-                        <a href="{{.URL}}" class="ui large header">
+                        <a href="{{.URL}}" class="ui large header"
+                           style="font-family: 'Open Sans', sans-serif">
                             {{ if .Params.image }}
                                 <img src="{{ .Params.image }}"
                                      alt="{{ .Title }}" style="width: 100%;"/>
