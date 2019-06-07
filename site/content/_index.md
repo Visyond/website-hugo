@@ -39,16 +39,22 @@ topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
     text: Risk Management
+    url: /features/track-changes-from-an-excel-file/
   - image: /img/home_video_icon_business.png
     text: Planning & Modeling
+    url: /features/track-changes-from-an-excel-file/
   - image: /img/home_video_icon_cashflow.png
     text: 'Budgeting & Forecasting '
+    url: /features/track-changes-from-an-excel-file/
   - image: /img/home_video_icon_dcf.png
     text: Financial Reporting
+    url: /features/track-changes-from-an-excel-file/
   - image: /img/home_video_icon_investment.png
     text: Investment Analysis
+    url: /features/track-changes-from-an-excel-file/
   - image: /img/home_video_icon_scenario.png
     text: Scenario Analysis
+    url: /features/track-changes-from-an-excel-file/
     
 cards:
   - description: 'Always know who contributed what, when and why'

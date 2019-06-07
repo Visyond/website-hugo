@@ -668,6 +668,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Video Icons", name: "videoIcons", widget: "list", fields: [
               {label: "Icon Image", name: "image", widget: "image"},
               {label: "Icon Describtion", name: "text", widget: "markdown"}
+              {label: "Icon URL", name: "url", widget: "string"}
           ], required: false}
 
           - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string"}
