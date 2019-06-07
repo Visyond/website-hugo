@@ -3,7 +3,8 @@
 <div class="hometest ht">
 
   <!-- top section -->
-  <div class="cover cover--compact video-wrapper" style="background-image: url(' {{ .Params.bgImage }}');">
+  <div class="cover cover--compact video-wrapper"
+       style="background-image: url(' {{ .Params.bgImage }}');">
     <!-- <video src="/img/preview.mp4" class="cover-video js-background-video" autoplay muted loop> -->
       <!-- <video src="/img/Visyond Homepage background video loop zoom.webm" class="cover-video js-background-video" autoplay muted loop>  -->
     <div class = 'video-wrapper' style="widows: 100%; height: 100%">
@@ -98,7 +99,9 @@
     -->
     <div class="home_video_icons">
       {{ range $el := .Params.videoIcons }}
+      <a href="{{ .url }}">
       <span><div><img src="{{ .image }}"></div><div>{{ .text | markdownify }}</div></span>
+      </a>
       {{ end }}
     </div>
 

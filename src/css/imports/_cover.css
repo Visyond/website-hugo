@@ -11,6 +11,10 @@
     padding: 4em 0;
     min-height: 14em;
 
+    @media screen and (max-width: 900px) {
+        position: none;
+    }
+
     @media screen and (--hd) {
         margin: 0 -var(--padding-hd);
     }
