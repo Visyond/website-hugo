@@ -5,7 +5,7 @@ author: Alex From Visyond
 date: 2019-06-07T00:16:14.212Z
 annotation: This is not published yet. Read more!
 ---
-\### The Header
+### The Header
 
 So, you've found this blog somehow, even though it is not published. But there is nothing here.
 
@@ -19,11 +19,12 @@ BUT WAIT! THERE IS MORE!
 
 1. List 1
 2. List 2
-3. List3
-
-> How about quotes?
->
-> Everybody gets a quote.
+3. List 3
 
 Even **MORE**!
 
+![undefined](/img/Why Visond Inforgraphic 3 v3.png)
+
+AND MORE? WHAT IS THIS???
+
+![undefined](/img/data_input_3x.png)
