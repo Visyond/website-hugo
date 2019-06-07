@@ -132,24 +132,25 @@
   ./section capabilities -->
 
   <!-- Why V section -->
-  <section class="section">
+  <section class="section primary center-align" style="background-color: #ffffff">
     
     <h3 class="section-header">{{ .Params.WhyVisyondHeader }}</h3>
     <div class="header-section--divider"></div>
     
     <section class="home-info__text-wrap"
            style="width: 80%; margin: 0 10% 0 10%; text-align: center;">
-     <div class="home-info__block-descr">
-        Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
-        </br>
-        </br>
-        Without Visyond, the process requires multiple platforms and causes numerous problems.
-        </br>
-        </br>
-        </br>
+     <div class="home-info__block-descr" style="text-align: center;">
+        {{ .Params.WhyVisyondText | markdownify }}
      </div>
-    </section> 
-    <a href="/why-visyond" class="button button-primary centered">Learn more</a>
+    </section>
+    
+    <div>
+    <img src="{{ .Params.WhyVisyondImage }}">
+    </div>
+    
+    <div style="margin-top: 4em;">
+    <a href="/why-visyond" class="button button-primary">Learn more</a>
+    </div>
   </section>  
   <!-- Why V section -->
   
