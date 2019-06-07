@@ -56,7 +56,7 @@ WhyVisyondText: "Decision making requires modeling, analytics, knowledge managem
 **Without Visyond, the process requires multiple platforms and causes numerous problems:**
 </br>
 </br>"
-WhyVisyondImage: /img/Why Visond Inforgraphic 3 v3 short.png
+WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
 BenefitsHeader: Benefits    
 cards:
   - description: 'Always know who contributed what, when and why'
