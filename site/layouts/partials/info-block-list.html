@@ -39,10 +39,23 @@
             {{ .descr | markdownify }}
         </div>
         {{ if .link }}
-        <div class="button-wrap">
-            <a href="{{ .link }}" class="button button-primary">
+        <div class="button-wrap" style="justify-content: space-around">
+            <a href="{{ .link323 }}" class="button button-primary">
                 LEARN MORE
             </a>
+            <a href="" class="button button-primary btn-video4">
+                <span>
+                WATCH DEMO
+                    </span>
+                <div class="ht-top__popup js-popup">
+                    <div class="ht-top__iframe-wrap">
+                        <button class="ht-top__popup-close js-popup-close"></button>
+                        <p>{{ .linkyoutube }}</p>
+                        <div>tetessd</div>
+                    </div>
+                </div>
+            </a>
+
         </div>
         {{ end }}
     </section>

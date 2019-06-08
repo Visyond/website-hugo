@@ -142,6 +142,7 @@ infoBlockFirst:
         title: Test Assumptions
     image: /img/Homepage Collaboration v2 small.png
     link: /solutions/collaboration/
+    linkyoutube: 'https://www.youtube.com/embed/7Q2C9MB-YH4'
     title: Connect Your Organization
   - descr: >-
       Analyze data on-the-fly in a self-service mode and instantly gain valuable
@@ -187,6 +188,7 @@ infoBlockFirst:
         title: Monte Carlo Simulations
     image: /img/Homepage Analysis v2 small.png
     link: /solutions/analysis/
+    linkyoutube: https://www.youtube.com/embed/ZS_kXvOeQ5Y
     title: Automate Analysis & Reporting
   - descr: >-
       Create visual interactive presentations your stakeholders can use to
@@ -224,6 +226,7 @@ infoBlockFirst:
         title: Auto-Generated Financial Statements
     image: /img/Homepage Presentation v1 small.png
     link: /solutions/presentation
+    linkyoutube: https://www.youtube.com/embed/sSm2dRarhPo
     title: Present Interactive Data With Impact
 capabilitiesList:
   - image: /img/v_icon.png
