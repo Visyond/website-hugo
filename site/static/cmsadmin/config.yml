@@ -671,16 +671,18 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Icon URL", name: "url", widget: "string"}
           ], required: false}
 
-          - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string"}
+          - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
+          - { label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
+          - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
 
-          - {label: "Benefits Title", name: "BenefitsHeader", widget: "string"}
+          - {label: "Benefits Title", name: "BenefitsHeader", widget: "string", required: false}
           - { label: "Benefits", name: "cards", widget: "list", fields: [
               {label: "Icon", name: "icon" , widget: "image" },
               {label: "Header", name: "header", widget: "string"},
               {label: "Link", name: "link", widget: "string"},
               {label: "Description", name: "description", widget: "markdown"}] }
 
-          - {label: "Features Title", name: "FeaturesHeader", widget: "string"}
+          - {label: "Features Title", name: "FeaturesHeader", widget: "string", required: false}
 
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
               {label: "Info Image", name: "image", widget: image},
@@ -770,8 +772,12 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
           - { label: "Section 1: Header 2", name: "sectionOneHeaderTwo", widget: "string", required: false}
           - { label: "Text Area 2", name: "textArea2", widget: "markdown", required: false}
+          - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
+            {label: "Capabilities Image", name: "image", widget: "image"},
+            {label: "Capabilities Text", name: "text", widget: "markdown"},
+            ],}  
           - { label: "Section 1: Header 3", name: "sectionOneHeaderThree", widget: "string", required: false} 
-          - { label: "Section 1: Image", name: "sectionOneImgTwo", widget: "image", required: false}
+          - { label: "Section 1: Image", name: "sectionOneImgTwo", widget: "image", required: false}     
           - { label: "Text Area 3", name: "textArea3", widget: "markdown", required: false}
           - { label: "Section 2: Header", name: "sectionTwoHeader", widget: "string", required: false}
           - { label: "Benefits", name: "cards", widget: "list", fields: [

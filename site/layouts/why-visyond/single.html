@@ -47,11 +47,31 @@
   <!--            textArea2   -->
 </section>
 
-<section class="section primary center-align">
+    <!-- section capabilities -->
+  <section class="section primary center-align">
+    <div class="container">
+
+      <ul class="ht-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="ht-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
+
+          <div class="ht-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  <!-- /section capabilities -->
+
+<section class="section primary center-align" style="background-color: #ffffff">
   <h2 class="header-section">{{ .Params.sectionOneHeaderThree | markdownify }}</h2>
   <div class="header-section--divider"></div>
   
   <img src="{{ .Params.sectionOneImgTwo }}">
+  
   
     <!--            textArea3   -->
   <section class="home-info__text-wrap"

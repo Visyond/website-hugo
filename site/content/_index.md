@@ -56,6 +56,15 @@ videoIcons:
     text: Scenario Analysis
     url: /features/track-changes-from-an-excel-file/
     
+WhyVisyondHeader: What is Visyond
+WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
+</br>
+</br>
+**Without Visyond, the process requires multiple platforms and causes numerous problems:**
+</br>
+</br>"
+WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
+BenefitsHeader: Benefits    
 cards:
   - description: 'Always know who contributed what, when and why'
     header: Full Transparency and Data Governance
@@ -87,7 +96,7 @@ cards:
     link: /features/compatibility-with-excel-and-powerpoint/
   - description: 'Access at any time, from any place, using any device'
     header: Cloud-based Global Accessibility
-    icon: /img/icons/cloud.png
+    icon: /img/data_input_3x.png
     link: ''
   - description: 'Keep all data on your server for better regulatory compliance'
     header: On-Premise Installation
@@ -97,13 +106,7 @@ cards:
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
     link: /solutions/financial-modeling-software/   
-
-WhyVisyondHeader: What is Visyond
-
-BenefitsHeader: Benefits
-
 FeaturesHeader: Enter Visyond
-
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
     files:
