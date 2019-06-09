@@ -1040,3 +1040,9 @@
         position: relative;
     }
 }
+
+.button-wrap a {
+    @media screen and (max-width: 1000px) {
+        padding: 1em 1.5em;
+    }
+}

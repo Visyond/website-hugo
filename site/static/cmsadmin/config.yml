@@ -667,9 +667,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
           - {label: "Video Icons", name: "videoIcons", widget: "list", fields: [
               {label: "Icon Image", name: "image", widget: "image"},
-              {label: "Icon Describtion", name: "text", widget: "markdown"}
-              {label: "Icon URL", name: "url", widget: "string"}
-          ], required: false}
+              {label: "Icon Describtion", name: "text", widget: "markdown"},
+              {label: "Icon URL", name: "url", widget: "string"}], required: false}
 
           - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string"}
 
@@ -1000,7 +999,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Bottom Column Title", name: "title", widget: string},
               {label: "Bottom Column List", name: "list", widget: list, fields: [
                 {label: "Bottom Description", name: "descr", widget: markdown}
-            	]}
+                ]}
             ]}
 
           - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
