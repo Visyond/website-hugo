@@ -697,6 +697,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Info Title", name: "title", widget: "string"},
               {label: "Info Description", name: "descr", widget: "markdown"},
               {label: "Info Link", name: "link", widget: "string"},
+              {label: "Youtube Link", name: "linkyoutube", widget: "string"}
             ],
             required: false,
           }

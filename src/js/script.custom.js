@@ -171,8 +171,6 @@ $(function () {
 
         popup.children[0].removeChild(popup.querySelector('p'));
 
-        // console.log(srcPart);
-
         const iframeBlock = document.createElement('iframe');
         iframeBlock.setAttribute('width', '894');
         iframeBlock.setAttribute('height', '500');
@@ -192,12 +190,14 @@ $(function () {
 
 
         btn.addEventListener('click', e => {
+            var tt = e.target;
             e.preventDefault();
             popup.classList.add('popup--show');
             createIframe();
         });
 
         popup.addEventListener('click', e => {
+            e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopup) {
                 popup.classList.remove('popup--show');
                 removeIframe();
@@ -205,11 +205,18 @@ $(function () {
         })
     };
 
-    if(document.querySelector('.js-btn-video') && document.querySelector('.js-popup')) {
-        const videoBtn = document.querySelector('.js-btn-video');
-        const videoPopup = document.querySelector('.js-popup');
-        const closePopup = document.querySelector('.js-popup-close');
-        watchVideo(videoBtn, videoPopup, closePopup);
+    function watchVideo5(videoBtn) {
+        const videoSpan = videoBtn.querySelector('span');
+        const videoPopup = videoBtn.querySelector('div');
+        const closePopup = videoBtn.querySelector('button');
+        watchVideo(videoSpan, videoPopup, closePopup);
+    }
+
+    if(document.querySelector('.js-btn-video3') && document.querySelector('.js-popup3')) {
+        const videoBtn3 = document.querySelector('.js-btn-video3');
+        const videoPopup3 = document.querySelector('.js-popup3');
+        const closePopup3 = document.querySelector('.js-popup-close3');
+        watchVideo(videoBtn3, videoPopup3, closePopup3);
 
     }
 
@@ -220,6 +227,15 @@ $(function () {
         watchVideo(videoBtn2, videoPopup2, closePopup2);
 
     }
+
+    var btn5 = [];
+
+    var blocks5 = document.querySelectorAll('.home-info__block');
+    for (var i = 0; i<blocks5.length; i++) {
+        btn5[i] = blocks5[i].querySelector('.btn-video4');
+        watchVideo5(btn5[i]);
+    }
+
 
 
 
