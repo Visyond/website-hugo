@@ -34,7 +34,7 @@ textArea1: >-
   analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
 
 
-  ### Without Visyond, the process requireы multiple platforms and causeы the following problems:
+  ### Without Visyond, the process requireы multiple platforms and causeы the following problems
 sectionOneImg: /img/Why Visond Inforgraphic 3 v4.png
 sectionOneHeaderTwo: Enter Visyond
 textArea2: "### Secure Selective Sharing of a Single Source of Truth\n\nSecure data by sharing only sub-parts each collaborator needs to interact with.\n\nTrack all changes, comments, support information in one place.\n\nTransparency, governance, accountability, knowledge management.\n\n<br />\n\n### Collaborative Automatic What-if Analysis in Real Time\n\nDo in minutes what takes you days now.\n\nCollaborators contribute analyses in one document, not their version. \r\n\nData Visualization in the same place where you carry out calculations.\n\nAutomatic, spreadsheet-driven presentations and reporting.\n\n<br />\n\n### Minimum Learning Curve and Compatibility with Excel\n\nKeep your work habits & leverage Excel skills in a familiar environment.\n\nCustom workflows, integrations and on-premise installation available.\n\nAutomated and standardized workflows.\n"
@@ -56,7 +56,7 @@ textArea3: >-
   <br />
 
 
-  ### Visyond Enables Collaboration, Security and Automation at <br /> Every Step of Modeling, Analysis & Presentation for Decision Making:
+  ### Visyond Enables Collaboration, Security and Automation at <br /> Every Step of Modeling, Analysis & Presentation for Decision Making
 
 
   Collaborators **view or edit only selected parts of projects**
