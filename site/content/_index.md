@@ -32,7 +32,7 @@ noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-watchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
+WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 topSubTitle: Automate Workflow | Track Changes | Reduce Errors | Collaborate Securely
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
@@ -49,6 +49,50 @@ videoIcons:
     text: Investment Analysis
   - image: /img/home_video_icon_scenario.png
     text: Scenario Analysis
+WhyVisyondHeader: What Visyond Solves
+WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems:**\r\n</br>\r\n</br>"
+WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
+BenefitsHeader: Benefits
+cards:
+  - description: 'Always know who contributed what, when and why'
+    header: Full Transparency and Data Governance
+    icon: /img/audit-mode@2x.png
+    link: /solutions/data-tracking-software/
+  - description: Manage access and share projects fully or partially
+    header: Secure Collaborative Environment
+    icon: /img/selective-sharing@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Automate routine analytical tasks and their setup without experts
+    header: Data Analysis in Minutes
+    icon: /img/scenarios@2x.png
+    link: /solutions/data-analysis-software/
+  - description: Quickly get insights from your data through interactive presentations
+    header: Testing Assumptions in Real Time
+    icon: /img/interactive presentations@2x.png
+    link: /solutions/automate-excel-reports-and-presentation/
+  - description: Have a single source of truth for your data & documentation
+    header: Streamlined Communications
+    icon: /img/knowledge-base@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Easily generate financial statements and KPI reports
+    header: Automated Financial Statements
+    icon: /img/financial-statement@2x.png
+    link: /features/interactive-presentation-software/
+  - description: Start getting value immediately by importing your Excel file
+    header: Familiar Excel-Compatible Experience
+    icon: /img/import-export@2x.png
+    link: /features/compatibility-with-excel-and-powerpoint/
+  - description: 'Access at any time, from any place, using any device'
+    header: Cloud-based Global Accessibility
+    icon: /img/data_input_3x.png
+  - description: Keep all data on your server for better regulatory compliance
+    header: On-Premise Installation
+    icon: /img/data_governance_3x.png
+  - description: Audit spreadsheets and explore your models
+    header: Reduction of Errors
+    icon: /img/analyst_and_consultant_3x.png
+    link: '/solutions/financial-modeling-software/ '
+FeaturesHeader: Enter Visyond
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects.\n\n* **Share only specific parts** of your spreadsheets, analyses and presentations\r\n* **Test assumptions on-the-fly** & ensure quick turn-around of changes \r\n* **Always know the history & reasons** behind any change or contribution\n* **No more back and forth emails**, file versions to reconcile and data leakage"
     files:
@@ -87,6 +131,7 @@ infoBlockFirst:
         title: Test Assumptions
     image: /img/Homepage Collaboration v2 small.png
     link: /solutions/collaboration/
+    linkyoutube: 'https://www.youtube.com/embed/uufPL_qXvaI'
     title: Connect Your Organization
   - descr: >-
       Analyze data on-the-fly in a self-service mode and instantly gain valuable
@@ -114,28 +159,26 @@ infoBlockFirst:
         title: Compare & Analyze Scenarios
       - alt: Spreadsheet Data Analysis in Visyond - Impact (Tornado) Analysis
         descr: >-
-          With Visyond, you can run Impact (Tornado) Analysis without long
-          manual setups and quickly see how sensitive your data set is to
-          changes.
+          Impact (Tornado) Analysis lets you identify critical variables easily
+          so you can focus on what’s important to save time and effort.
         file: /img/2019-02 Impact Analysis.png
         link: /features/tornado/
         title: Stress-Test Your Data with Tornado Analysis
       - alt: Spreadsheet Data Analysis in Visyond - Sensitivity Analysis
         descr: >-
-          Visyond’s Sensitivity Analysis lets you identify critical variables
-          easily so you can focus on what’s important to save time and effort.
+          Run Sensitivity Analysis without long manual setups and quickly see
+          how sensitive your data set is to changes.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: /features/sensitivity/
         title: Set Up Sensitivity Analysis in Seconds
       - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
+        descr: Get a handle on your risk factors for all your risk management needs.
         file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: Monte Carlo Simulations
     image: /img/Homepage Analysis v2 small.png
     link: /solutions/analysis/
+    linkyoutube: 'https://www.youtube.com/embed/4uZ7bKc91WE'
     title: Automate Analysis & Reporting
   - descr: >-
       Create visual interactive presentations your stakeholders can use to
@@ -173,6 +216,7 @@ infoBlockFirst:
         title: Auto-Generated Financial Statements
     image: /img/Homepage Presentation v1 small.png
     link: /solutions/presentation
+    linkyoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
 capabilitiesList:
   - image: /img/v_icon.png
