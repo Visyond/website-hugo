@@ -76,27 +76,17 @@
           </div>
         </div>
         
-        <!-- 
-        <div class="ht-top__popup js-popup">
-          <div class="ht-top__iframe-wrap">
-            <button class="ht-top__popup-close js-popup-close"></button>
-            <p>{{ .Params.WatchVideoURL2 }}</p>
-          </div>
-        </div>
-        -->
     
-<!--
-    <div class="home_video_icons" >
-
+<!-- <div class="home_video_icons" >
       <span><div><img src="img/home_video_icon_budgeting.png"></div><div>Cashflow forecasting</div></span>
       <span><div><img src="img/home_video_icon_business.png"></div><div>Scenario analysis</div></span>
       <span><div><img src="img/home_video_icon_cashflow.png"></div><div>Budgeting</div></span>
       <span><div><img src="img/home_video_icon_dcf.png"></div><div>Buisness planning</div></span>
       <span><div><img src="img/home_video_icon_investment.png"></div><div>Investment analysis</div></span>
       <span><div><img src="img/home_video_icon_scenario.png"></div><div>DCF modeling</div></span>
-
     </div>
     -->
+    
     <div class="home_video_icons">
       {{ range $el := .Params.videoIcons }}
       <a href="{{ .url }}">
@@ -112,7 +102,7 @@
   {{ partial "trustedslider" . }}
   <!-- ./trusted section -->
 
-  <!-- section capabilities 
+  <!-- section capabilities -->
   <section class="section">
     <div class="container">
 
@@ -129,7 +119,7 @@
       </ul>
     </div>
   </section>
-  ./section capabilities -->
+ <!-- ./section capabilities -->
 
   <!-- Why V section -->
   <section class="section primary center-align" style="background-color: #ffffff">
@@ -153,8 +143,24 @@
     </div>
   </section>  
   <!-- Why V section -->
-  
-  <!-- Benefits -->
+   
+  <!-- section info -->
+  <section class="section">
+    
+   <h3 class="section-header">{{ .Params.FeaturesHeader }}</h3> 
+   <div class="header-section--divider"></div>
+    
+  <ul class="home-info js-image-block">
+
+    <!-- list of info blocks with blue button -->
+    {{ partial "info-block-list" . }}
+    <!-- // list of info blocks with blue button -->
+
+  </ul>
+  </section>
+  <!-- //section info -->
+
+    <!-- Benefits -->
   <section class="section" style="background:#eef6ff">
     <h3 class="section-header">{{ .Params.BenefitsHeader }}</h3>
     <div class="header-section--divider"></div>
@@ -181,23 +187,6 @@
   </section>    
   <!-- Benefits -->
   
-  
-  <!-- section info -->
-  <section class="section">
-    
-   <h3 class="section-header">{{ .Params.FeaturesHeader }}</h3> 
-   <div class="header-section--divider"></div>
-    
-  <ul class="home-info js-image-block">
-
-    <!-- list of info blocks with blue button -->
-    {{ partial "info-block-list" . }}
-    <!-- // list of info blocks with blue button -->
-
-  </ul>
-  </section>
-  <!-- //section info -->
-
   <!-- case studies section -->
   {{ partial "case-studies-section-new" . }}
   <!-- //case studies section -->
