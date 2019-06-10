@@ -1,5 +1,5 @@
 .trusted {
-    background: #f1f6fb;
+    background: #fff;
     margin: 0 -var(--global-padding);
     padding: 20px 10px;
     display: -webkit-flex;
@@ -87,10 +87,10 @@
     left: 0;
     background: linear-gradient(
         to right,
-        #f1f6fb 0,
+        #fff 0,
         transparent 5%,
         transparent 95%,
-        #f1f6fb 100%
+        #fff 100%
     );
     z-index: 99;
 }
