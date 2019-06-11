@@ -220,13 +220,13 @@ infoBlockFirst:
     title: Present Interactive Data With Impact
 capabilitiesList:
   - image: /img/analyst_and_consultant_3x.png
-    text: Analysts & Consultants
+    text: '**Analysts & Consultants**'
   - image: /img/decision_makers_3x.png
-    text: CFOs & CEOs
+    text: '**CFOs & CEOs**'
   - image: /img/spreadsheet_collaboration_3x.png
-    text: Modelers
+    text: '**Modelers**'
   - image: /img/report_presentation_visualization_3x.png
-    text: Planners & Forecasters
+    text: '**Planners & Forecasters**'
 providesTitle: Get Started in Minutes
 providesList:
   - text: >-
