@@ -38,17 +38,19 @@
         <div class="home-info__block-descr">
             {{ .descr | markdownify }}
         </div>
-        {{ if .link }}
+
         <div class="button-wrap" style="justify-content: space-around">
+            {{ if .link }}
             <a href="{{ .link }}" class="button button-primary" style="display: flex; align-items: center;">
                 <div style="vertical-align: middle;">
                 LEARN MORE
                 </div>
             </a>
+            {{ end }}
             <span class="button button-primary btn-video4"
 
             {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
-            style = 'display:none;'
+            style="display: none;"
             {{ end }}
 
             >
@@ -68,7 +70,7 @@
             </span>
 
         </div>
-        {{ end }}
+
     </section>
 </li>
 {{ end }}
