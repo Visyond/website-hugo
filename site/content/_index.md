@@ -219,12 +219,14 @@ infoBlockFirst:
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
 capabilitiesList:
-  - image: /img/v_icon.png
-    text: Save up to **80%** of time on routine tasks
-  - image: /img/v_icon2.png
-    text: Reduce average cost by **$420** per employee/month
-  - image: /img/v_icon3.png
-    text: '**Significantly** reduce errors'
+  - image: /img/analyst_and_consultant_3x.png
+    text: Analysts & Consultants
+  - image: /img/decision_makers_3x.png
+    text: CFOs & CEOs
+  - image: /img/spreadsheet_collaboration_3x.png
+    text: Modelers
+  - image: /img/report_presentation_visualization_3x.png
+    text: Planners & Forecasters
 providesTitle: Get Started in Minutes
 providesList:
   - text: >-
