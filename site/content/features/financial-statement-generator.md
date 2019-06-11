@@ -17,11 +17,11 @@ infoBlockFirst:
       wasting time on long error-prone manual setups:
 
 
-      1. Import your data from Excel
+      * Import your data from Excel
 
-      2. Select cells you want to use in your statements
+      * Select cells you want to use in your statements
 
-      3. Press 'Run'
+      * Press 'Run'
 
 
       Visyond automates the creation of:
