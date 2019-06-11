@@ -49,7 +49,7 @@ infoBlockFirst:
           removing the need for manual checks and audits of the calculations.
         file: /img/2019-02 Financial Statements.png
         title: Auto-Generated Financial Statements
-    image: /img/2019-02 Financial Statements.png
+    image: /img/2019-06-11 Financial Statements zoom.png
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
     title: Simple and Convenient Way To Build Financial Statements
