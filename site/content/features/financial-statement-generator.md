@@ -12,7 +12,32 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "Greatly speed-up the creation and accuracy of Financial Statements without wasting time on long error-prone manual setups.\n\nVisyond automates the creation of:\n\n* Balance Sheets\r\n* Income Statements\r\n* Cash Flow Statements\r\n* Calculations of growth and changes against previous periods\r\n* Financial and management ratios & KPIs\r\n* Depreciation schedules\r\n"
+  - descr: >-
+      Greatly speed-up the creation and accuracy of Financial Statements without
+      wasting time on long error-prone manual setups:
+
+
+      1. Import your data from Excel
+
+      2. Select cells you want to use in your statements
+
+      3. Press 'Run'
+
+
+      Visyond automates the creation of:
+
+
+      * Balance Sheets
+
+      * Income Statements
+
+      * Cash Flow Statements
+
+      * Calculations of growth and changes against previous periods
+
+      * Financial and management ratios & KPIs
+
+      * Depreciation schedules
     files:
       - alt: >-
           Financial Statement Generator - Easily Create Financial Statements in
