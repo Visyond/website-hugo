@@ -178,8 +178,7 @@ infoBlockFirst:
         title: Monte Carlo Simulations
     image: /img/Homepage Analysis v2 small.png
     link: /solutions/analysis/
-    linkYoutube2: 'https://www.youtube.com/embed/4uZ7bKc91WE'
-    linkYoutube34: ''
+    linkYoutube: 'https://www.youtube.com/embed/4uZ7bKc91WE'
     title: Automate Analysis & Reporting
   - descr: >-
       Create visual interactive presentations your stakeholders can use to
