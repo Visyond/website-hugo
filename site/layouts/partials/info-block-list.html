@@ -40,20 +40,32 @@
         </div>
         {{ if .link }}
         <div class="button-wrap" style="justify-content: space-around">
-            <a href="{{ .link }}" class="button button-primary">
+            <a href="{{ .link }}" class="button button-primary" style="display: flex; align-items: center;">
+                <div style="vertical-align: middle;">
                 LEARN MORE
+                </div>
             </a>
-            <a href="" class="button button-primary btn-video4">
-                <span>
-                WATCH DEMO
+            <span class="button button-primary btn-video4"
+
+            {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
+            style = 'display:none;'
+            {{ end }}
+
+            >
+                <span style="display: flex; align-items: center;">
+                    <i class="material-icons">
+                play_arrow
+              </i><span>
+                    WATCH DEMO</span>
+
                     </span>
                 <div class="ht-top__popup js-popup">
                     <div class="ht-top__iframe-wrap">
-                        <button class="ht-top__popup-close js-popup-close"></button>
-                        <p>{{ .linkyoutube }}</p>
+                        <button class="ht-top__popup-close js-popup-close">X</button>
+                        <p>{{ .linkYoutube }}</p>
                     </div>
                 </div>
-            </a>
+            </span>
 
         </div>
         {{ end }}

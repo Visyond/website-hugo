@@ -208,7 +208,7 @@ $(function () {
     function watchVideo5(videoBtn) {
         const videoSpan = videoBtn.querySelector('span');
         const videoPopup = videoBtn.querySelector('div');
-        const closePopup = videoBtn.querySelector('button');
+        const closePopup = videoBtn.querySelector('.js-popup-close');
         watchVideo(videoSpan, videoPopup, closePopup);
     }
 
@@ -232,7 +232,7 @@ $(function () {
 
     var blocks5 = document.querySelectorAll('.home-info__block');
     for (var i = 0; i<blocks5.length; i++) {
-        btn5[i] = blocks5[i].querySelector('.btn-video4');
+        btn5[i] = (blocks5[i].querySelector('.btn-video4'));
         watchVideo5(btn5[i]);
     }
 

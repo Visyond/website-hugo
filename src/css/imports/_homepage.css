@@ -999,6 +999,10 @@
     transform: scale(0.95);
 }
 
+.home_video_icons button:hover {
+    transform: scale(0.95);
+}
+
 
 
 .video-wrapper {
@@ -1042,6 +1046,14 @@
 
 .button-wrap a {
     @media screen and (max-width: 1000px) {
-        padding: 1em 1.5em;
+        padding: 1em 1.2em;
     }
+}
+
+.button-wrap > span {
+@media screen and (max-width: 1000px) {
+
+    padding: 1em 1.2em;
+
+}
 }
