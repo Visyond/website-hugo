@@ -31,7 +31,7 @@ infoBlockFirst:
         title: Track errors and their root cause
     image: /img/track errors 1.png
     link: >-
-      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
+      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
     title: Quickly Find Errors and Their Root Cause
   - descr: "* Simplify formula auditing with human-readable names that immediately reveal modeler’s logic\r\n* Understand complex formulas & spreadsheet structure faster\r\n"
     files:
@@ -47,7 +47,7 @@ infoBlockFirst:
         title: Human-Readable Names
     image: /img/human readable names.png
     link: >-
-      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
+      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
     title: Understand Spreadsheet Logic with Human-Readable Formula Names
   - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n"
     files:
@@ -60,7 +60,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: Audit Mode On
     image: /img/2019-02 Audit On.png
-    link: 'https://help.visyond.com/articles/how-to-use-audit-mode-in-visyond/'
+    link: 'https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/'
     title: Quickly Identify Data Type
   - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
     files:
@@ -78,7 +78,7 @@ infoBlockFirst:
         title: Navigate Cell Dependencies
     image: /img/track errors.png
     link: >-
-      https://help.visyond.com/articles/debugging-and-auditing-a-model-reduce-human-errors/
+      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
     title: Navigate & Visualize Cell Dependencies
 featuresTitle: Related Features
 featuresCards:
