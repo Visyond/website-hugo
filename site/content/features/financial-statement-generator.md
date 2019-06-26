@@ -12,31 +12,20 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
-      Greatly speed-up the creation and accuracy of Financial Statements without
-      wasting time on long error-prone manual setups:
+  - descr: |-
+      Automate creation and accuracy of Financial Statements in 3 steps:
 
-
-      * Import your data from Excel
-
-      * Select cells you want to use in your statements
-
+      * Import your data from Excel (or use Visyond)
+      * Select driver cells you want to use in your statements
       * Press 'Run'
 
-
-      Visyond automates the creation of:
-
+      **Visyond automates the creation of:**
 
       * Balance Sheets
-
       * Income Statements
-
       * Cash Flow Statements
-
       * Calculations of growth and changes against previous periods
-
       * Financial and management ratios & KPIs
-
       * Depreciation schedules
     files:
       - alt: >-
