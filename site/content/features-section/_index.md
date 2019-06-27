@@ -40,18 +40,18 @@ feaDropdownCol:
         path: /features/monte-carlo-simulation-software/
         title: Simulations
       - descr: >-
-          Visually navigate through different cells and see how they impact one
-          another, without tampering with the spreadsheet.
-        image: /img/dependency@2x.png
-        path: /features/spreadsheet-dependency-analysis/
-        title: Dependencies
-      - descr: >-
           Find actionable insights and improve descriptive analytics with
           OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
           in real time.
         image: /img/spreadsheet_collaboration_3x.png
         path: /features/multidimensional-olap-analysis-online/
         title: OLAP/Cube/Pivot
+      - descr: >-
+          Visually navigate through different cells and see how they impact one
+          another, without tampering with the spreadsheet.
+        image: /img/dependency@2x.png
+        path: /features/spreadsheet-dependency-analysis/
+        title: Dependencies
     title: Analysis
   - features_dropdown:
       - descr: >-
