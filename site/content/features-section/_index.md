@@ -45,6 +45,12 @@ feaDropdownCol:
         image: /img/dependency@2x.png
         path: /features/spreadsheet-dependency-analysis/
         title: Dependencies
+      - descr: >-
+          Find actionable insights and improve descriptive analytics with
+          Visyond’s Online OLAP Analysis and pivot tables t
+        image: /img/spreadsheet_collaboration_3x.png
+        path: /features/multidimensional-olap-analysis-online/
+        title: OLAP/Cube/Pivot
     title: Analysis
   - features_dropdown:
       - descr: >-
