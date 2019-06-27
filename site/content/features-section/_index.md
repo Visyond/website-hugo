@@ -47,7 +47,8 @@ feaDropdownCol:
         title: Dependencies
       - descr: >-
           Find actionable insights and improve descriptive analytics with
-          Visyond’s Online OLAP Analysis and pivot tables t
+          OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
+          in real time.
         image: /img/spreadsheet_collaboration_3x.png
         path: /features/multidimensional-olap-analysis-online/
         title: OLAP/Cube/Pivot
