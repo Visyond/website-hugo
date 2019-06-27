@@ -69,6 +69,13 @@ section:
           Visually navigate through different cells and see how they impact one
           another, without tampering with the spreadsheet.
         title: Dependencies
+      - icon: /img/spreadsheet_collaboration_3x.png
+        link: /features/multidimensional-olap-analysis-online/
+        text: >-
+          Find actionable insights and improve descriptive analytics with
+          OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
+          in real time.
+        title: OLAP/Cube/Pivot/Multidimensional analysis
     title: Analysis
   - cards:
       - icon: /img/interactive presentations@2x.png
