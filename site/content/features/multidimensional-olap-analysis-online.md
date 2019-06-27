@@ -5,7 +5,7 @@ topTitle: >-
   Analysis Online
 
   <br />
-   (aka Pivot / Cube / OLAP Analysis)
+   (Pivot / Cube / OLAP Analysis)
 topSubTitle: >-
   Find actionable insights and improve descriptive analytics with Visyond’s
   Online OLAP Analysis and pivot tables that are synchronized with your
