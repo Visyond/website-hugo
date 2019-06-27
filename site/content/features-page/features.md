@@ -63,6 +63,13 @@ section:
           Easily run Monte Carlo simulations that replace the inputs with random
           variables in a specified range and show how they affects the output.
         title: Simulations
+      - icon: /img/spreadsheet_collaboration_3x.png
+        link: /features/multidimensional-olap-analysis-online/
+        text: >-
+          Find actionable insights and improve descriptive analytics with
+          OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
+          in real time.
+        title: OLAP/Cube/Pivot/Multidimensional analysis
       - icon: /img/dependency@2x.png
         link: /features/spreadsheet-dependency-analysis
         text: >-
