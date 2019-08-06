@@ -1,5 +1,5 @@
 ---
-title: 'Beyond Spreadsheets, Analytics and Presentations'
+title: 'Understand Your Data and Make Better Decisions, Faster'
 metaTags: >-
   <meta property="og:title" content="Visyond - Real-time Analysis and Better
   Decisions with Spreadsheet and Presentation Automation"/>
@@ -27,14 +27,14 @@ metaTags: >-
 
 
   <meta name="yandex-verification" content="7dfc91ce5829221e" />
-topTitle: 'Beyond Spreadsheets, Analytics and Presentations'
+topTitle: 'Understand Your Data and Make Better Decisions, Faster'
 noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
-topSubTitle: Automate Workflow | Track Changes | Reduce Errors | Collaborate Securely
+topSubTitle: Secure collaboration, fewer errors, interactive reports for all your business planning, intelligence and reporting needs
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
