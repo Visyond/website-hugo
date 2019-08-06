@@ -34,7 +34,7 @@ signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
-topSubTitle: Secure collaboration, fewer errors, interactive reports for all your business planning, intelligence and reporting needs
+topSubTitle: Secure collaboration, fewer errors, interactive reports for all your business planning, visualizations and reporting needs
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
 videoIcons:
   - image: /img/home_video_icon_budgeting.png
