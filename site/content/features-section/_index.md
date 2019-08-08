@@ -46,12 +46,6 @@ feaDropdownCol:
         image: /img/spreadsheet_collaboration_3x.png
         path: /features/multidimensional-olap-analysis-online/
         title: OLAP/Cube/Pivot
-      - descr: >-
-          Visually navigate through different cells and see how they impact one
-          another, without tampering with the spreadsheet.
-        image: /img/dependency@2x.png
-        path: /features/spreadsheet-dependency-analysis/
-        title: Dependencies
     title: Analysis
   - features_dropdown:
       - descr: >-
