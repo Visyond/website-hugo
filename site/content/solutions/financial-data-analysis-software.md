@@ -43,16 +43,6 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         link: /features/simulations/
         title: Monte Carlo Simulation
-      - alt: >-
-          Financial Data analysis Software - Cell Dependencies Analysis in
-          Visyond
-        descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: Dependency Analysis
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
     title: Analyze And Make Better Decisions Quicker
@@ -111,7 +101,7 @@ infoBlockFirst:
     image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Remove Bottlenecks to Test Assumptions
-  - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
+  - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause Analysis will save you hours\r\n"
     files:
       - alt: Financial Data analysis Software - Track Errors in Visyond
         descr: >-
@@ -141,14 +131,7 @@ infoBlockFirst:
         file: /img/human readable names.png
         link: /features/audit-mode/
         title: Natural Names
-      - alt: >-
-          Financial Data analysis Software - Navigate Cell Dependencies in
-          Visyond
-        descr: Easily identify precedent and dependent cells.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: Navigate Cell Dependencies
-    image: /img/2019-02 Dependency Analysis.png
+    image: /img/track errors.png
     link: /features/audit-mode/
     title: Reduce Risk of Errors
   - descr: "* You do not need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n* Store all inputs, attachments and conversations directly in the relevant cells\r\n"
