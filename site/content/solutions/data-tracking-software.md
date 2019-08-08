@@ -27,18 +27,10 @@ infoBlockFirst:
     image: /img/2019-02 Audit On.png
     link: /features/audit-mode/
     title: Readable and Beautiful Models
-  - descr: "* Significantly reduce errors and track dependencies using Visyond’s Intelligent Root Cause Analysis - saving you time and costly mistakes \r\n* You no longer need to go through dozens of cells and calculations manually to find what is causing errors - we will show you exactly where the problem is\r\n* Visyond’s Dependencies and Impact analysis will visualize how different cells are connected and impact one another in just a few clicks\r\n"
-    files:
-      - alt: Spreadsheet Governance in Visyond - Identify Cells Dependencies
-        descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: Dependency Analysis
-    image: /img/2019-02 Dependency Analysis.png
-    link: /features/dependency-analysis/
+  - descr: "* Significantly reduce errors and track dependencies using Visyond’s Intelligent Root Cause Analysis - saving you time and costly mistakes \r\n* You no longer need to go through dozens of cells and calculations manually to find what is causing errors - we will show you exactly where the problem is\r\n* Impact analysis will visualize how different cells affect one another in just a few clicks\r\n"
+    files: []
+    image: /img/track errors.png
+    link: ''
     title: Error Root Cause & Dependencies Tracking
   - descr: "* Easily test assumptions, identify inconsistencies, reduce risk of errors and measure the impact of different inputs \r\n* Dramatically reduce the time it takes to review all the possibilities and make smart business decisions\r\n"
     files:
