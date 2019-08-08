@@ -117,16 +117,6 @@ infoBlockFirst:
         link: /features/simulations/
         title: Monte Carlo Simulation
       - alt: >-
-          Collaborative Decision Making Software - Identify Cell Dependencies in
-          Visyond
-        descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: Dependency Analysis
-      - alt: >-
           Collaborative Decision Making Software - Generate Financial Statements
           & Reports in Visyond
         descr: >-
