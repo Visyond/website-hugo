@@ -31,9 +31,7 @@ infoBlockFirst:
       - alt: >-
           Business Consulting Software - Compare Scenarios in Real Time in
           Visyond
-        descr: >-
-          Compare scenarios and gain valuable insights in just a
-          few clicks!
+        descr: Compare scenarios and gain valuable insights in just a few clicks!
         file: /img/2019-02 Scenarios Waterfall Analysis.png
         link: /features/scenarios/
         title: Compare & Analyze Scenarios
@@ -89,7 +87,7 @@ infoBlockFirst:
     image: /img/2019-02 Overview Panel.png
     link: /features/knowledge-base/
     title: Track & Never Lose Critical Information
-  - descr: "Mistakes can be costly . With Visyond you can quickly:\r\n\r\n* Identify the root causes of errors\r\n* Explore [cell dependencies](/features/dependency-analysis/)\r\n* Audit the spreadsheet in [Audit Mode](/features/audit-mode/)"
+  - descr: "Mistakes can be costly . With Visyond you can quickly:\r\n\r\n* Identify the root causes of errors\r\n* Audit the spreadsheet in [Audit Mode](/features/audit-mode/)"
     files:
       - alt: Business Consulting Software - Track Root Causes of Errors in Visyond
         descr: >-
@@ -105,14 +103,6 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         link: /features/audit-mode/
         title: Audit On
-      - alt: Business Consulting Software - Track Cells Dependencies in Visyond
-        descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: Dependency Analysis
     image: /img/2019-02 Error Root Cause.png
     link: /features/audit-mode/
     title: Audit and Debug Models with Ease
