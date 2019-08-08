@@ -70,12 +70,6 @@ section:
           OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
           in real time.
         title: OLAP/Cube/Pivot/Multidimensional analysis
-      - icon: /img/dependency@2x.png
-        link: /features/spreadsheet-dependency-analysis
-        text: >-
-          Visually navigate through different cells and see how they impact one
-          another, without tampering with the spreadsheet.
-        title: Dependencies
     title: Analysis
   - cards:
       - icon: /img/interactive presentations@2x.png
