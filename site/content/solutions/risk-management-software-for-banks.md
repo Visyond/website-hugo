@@ -16,7 +16,7 @@ watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause and Cell Dependencies Analysis will save you hours\r\n"
+  - descr: "* Visyond provides a safety net that helps in auditing the spreadsheet, improving the quality of your models and avoiding accidental mistakes \r\n* Automated debugging solutions such as Error Root Cause Analysis will save you hours\r\n"
     files:
       - alt: Risk Management Software for Banks - Audit Spreadsheets in Visyond
         descr: >-
@@ -34,16 +34,6 @@ infoBlockFirst:
         file: /img/track errors 1.png
         link: /features/audit-mode/
         title: TRACK ERRORS AND THEIR ROOT CAUSE
-      - alt: >-
-          Risk Management Software for Banks - Identify Cells Dependencies in
-          Visyond
-        descr: >-
-          Dependency analysis gives you a bird’s eye view of your model in the
-          same way Google Maps does of a neighborhood. It’s a powerful auditing
-          tool, uncovering errors that would be otherwise painstaking to catch.
-        file: /img/2019-02 Dependency Analysis.png
-        link: /features/dependency-analysis/
-        title: DEPENDENCY ANALYSIS
     image: /img/2019-02 Audit On.png
     link: /features/audit-mode/
     title: Streamline Financial Modeling & Reduce Risk of Errors
