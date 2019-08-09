@@ -24,7 +24,7 @@ Business drivers may vary from industry to industry, but they all share the same
 
 Financial models come in different shapes - from income statements and balance sheets to forecasting and advanced risk analysis models.
 
-**All financial models have one goal, which is to answer the ultimate question **that constantly arises in different forms: ‘Does it make sense to do this? Is this profitable? What are the risks? Are there more advantages than disadvantages? What will be the impact of these decisions or those external factors?’
+**All financial models have one goal, which is to answer the ultimate question** that constantly arises in different forms: ‘Does it make sense to do this? Is this profitable? What are the risks? Are there more advantages than disadvantages? What will be the impact of these decisions or those external factors?’
 
 A well-made financial model that is driven by reasonable assumptions will improve your decision making. A poorly-built model or invalid assumptions are unreliable and will produce inaccurate results, which will hamper your decision making.
 
@@ -32,8 +32,7 @@ A well-made financial model that is driven by reasonable assumptions will improv
 
 A model is as good as the mind structuring it and the assumptions you put in. 
 
-**The old principle of  ‘garbage in - garbage out’ applies to models as well. 
-**
+**The old principle of  ‘garbage in - garbage out’ applies to models as well.**
 
 Do not start building the model before you have thought about the following:
 
@@ -65,7 +64,7 @@ We will review tools and techniques for spreadsheet auditing and debugging in th
 
 Model maintenance and updating is an ongoing process and can be as simple as updating a single value or adjusting dozens of formulae based on new requirements.
 
-This may sometimes feel tedious but do not let your guard down as the main purpose of an update is to improve the quality of the model, not to break it. [JPMorgan learned this the hard way](https://www.reuters.com/article/us-jpmorgan-risk/analysis-jpmorgan-to-be-haunted-by-change-in-risk-model-idUSBRE84H15120120518)after losing billions of dollars due to changes in its value-at-risk model.
+This may sometimes feel tedious but do not let your guard down as the main purpose of an update is to improve the quality of the model, not to break it. [JPMorgan learned this the hard way](https://www.reuters.com/article/us-jpmorgan-risk/analysis-jpmorgan-to-be-haunted-by-change-in-risk-model-idUSBRE84H15120120518) after losing billions of dollars due to changes in its value-at-risk model.
 
 If you are a single person who does the update, it is rather straightforward - you go in, make changes and test them. If you are using Excel, create a copy of the initial model and remember to have understandable naming convention and version control.
 
