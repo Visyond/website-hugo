@@ -29,10 +29,16 @@
                         <a href="{{.URL}}" class="ui large header"
                            style="font-weight: 700; font-family: 'Open Sans', sans-serif"
                         >
-                            <div style="text-align: center; letter-spacing: 2px;">
-                            {{.Title}}
+                            <div style="text-align: center;">
+                                {{ if .Params.image }}
+                                <img src="{{ .Params.image }}"
+                                     alt="{{ .Title }}" style="width: 100%;"/>
                             </div>
-                            <div class="sub header" style="font-family: 'Open Sans', sans-serif">
+                            
+                            <div align="center">
+                                <title>{{.Title}}</title>
+                            </div>
+                            <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
                                 <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
                                 <p>Author: {{ .Params.author }} </p>
                             </div>
