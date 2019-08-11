@@ -1,12 +1,13 @@
 {{ partial "head" . }}
 
 <!-- Import Fomantic UI components -->
+<!--
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.7.2/components/grid.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.7.2/components/container.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.7.2/components/segment.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.7.2/components/header.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.7.2/components/button.min.css" />
-
+-->
 <section class="cover" style="background-image: url('/img/why-visyond-cover.png');">
     <h1 class="cover-header">
         Blog
@@ -26,12 +27,17 @@
             <div class="ui row">
                 <div class="ui column" style="font-family: 'Open Sans', sans-serif">
                     
-                        
+                        <!--
                         <div class="ui large header">
                             <div align="center">
                                 {{.Title}}
                             </div>
-                            
+                            -->
+                    
+                        <div class="blog_entry" align="center">
+                            {{.Title}}
+                        </div>
+                    
                             <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
                                 <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
                                 <p>Author: {{ .Params.author }} </p>
