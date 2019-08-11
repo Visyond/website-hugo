@@ -50,3 +50,11 @@
 .blog_entry a {
     color: #0086ff;
 }
+
+.blog_entry h2 {
+    color: #0086ff;
+    font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    width: 100%;
+}
