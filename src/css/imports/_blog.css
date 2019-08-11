@@ -1,6 +1,6 @@
 .blog_entry {
     color: rgba(0,0,0,.8);
-    font-size: 1em;
+    font-size: 1.1em;
     margin-bottom: 1em;
     width: 100%;
 }
@@ -49,11 +49,20 @@
 
 .blog_entry a {
     color: #0086ff;
+    text-decoration: underline;
 }
 
 .blog_entry h2 {
     color: #0086ff;
     font-size: 2em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.blog_entry h2 {
+    color: #0086ff;
+    font-size: 1.5em;
     font-weight: 300;
     margin-bottom: 1em;
     width: 100%;
