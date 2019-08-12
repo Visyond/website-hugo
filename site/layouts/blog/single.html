@@ -48,8 +48,8 @@
                     
                     
                             <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
-                                <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-                                <p>Author: {{ .Params.author }} </p>
+                                {{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }}
+                               <!-- {{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }} -->
                             </div>               
                             
                         </div>
