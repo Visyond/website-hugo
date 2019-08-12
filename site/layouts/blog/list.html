@@ -36,9 +36,13 @@
                                 <img src="{{ .Params.image }}"
                                      alt="{{ .Title }}" style="width: 100%;"/>
                             {{ end }}
-                            {{.Title}}
+                            
+                            <div class="blog_list">
+                                <h2> {{.Title}} </h2>
+                            </div>
+                            
 
-                            <div class="sub header">Author: <b>{{ .Params.author }}</b></div>
+                            <div class="sub header">by {{ .Params.author }}</div>
                             <div class="sub header">
 
                                 <p>Read in {{ .ReadingTime }} minutes</p>
@@ -46,10 +50,7 @@
                         </a>
 
 
-                        <p class="home-info__block-descr">
-<!--
-                            {{ truncate 200 .Summary | markdownify }}
-                            -->
+                        <p class="blog_entry">
                             {{ .Params.annotation }}
                         </p>
                         
