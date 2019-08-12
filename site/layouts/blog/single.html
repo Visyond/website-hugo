@@ -27,13 +27,6 @@
             <div class="ui row">
                 <div class="ui column" style="font-family: 'Open Sans', sans-serif">
                     
-                        <!--
-                        <div class="ui large header">
-                            <div align="center">
-                                {{.Title}}
-                            </div>
-                            -->
-                    
                         <div class="blog_entry" align="center">
                             <h1> {{.Title}} </h1>
                         </div>
@@ -48,8 +41,7 @@
                     
                     
                             <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
-                                {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
-                               <!-- {{ .Date.Format "Mon, Jan 2, 2006" }} by {{ .Params.author }} -->
+                                <p> {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }} </p>
                             </div>               
                             
                         </div>
@@ -57,9 +49,13 @@
                         <div class="blog_entry">
                             {{ .Content }}
                         </div>
+                
+                        <div class="section" align="center">
+                            <a href="/blog/" class="button button-primary">Back to Blog</a>
+                        </div>
                     
-
-                        <a href="/blog/" class="button button-primary">Back to Blog</a>
+    
+                        
 
                 </div>
             </div>
