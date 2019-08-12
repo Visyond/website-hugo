@@ -30,7 +30,7 @@ A well-made financial model that is driven by reasonable assumptions will improv
 
 ## Building Financial Models: What Makes a Good Spreadsheet Model?
 
-![Building Financial Models: What Makes a Good Spreadsheet Model?](question-mark-2123967_1920.jpg)
+![Building Financial Models: What Makes a Good Spreadsheet Model?](/img/question-mark-2123967_1920.jpg)
 
 A model is as good as the mind structuring it and the assumptions you put in. 
 
@@ -44,7 +44,7 @@ Do not start building the model before you have thought about the following:
 
 ## Spreadsheet Modeling Basics
 
-![Spreadsheet Modeling Basics](toys-950148_1920.jpg)
+![Spreadsheet Modeling Basics](/img/toys-950148_1920.jpg)
 
 Generally, a spreadsheet model can be broken down into three parts:
 
@@ -56,7 +56,7 @@ Generally, a spreadsheet model can be broken down into three parts:
 
 ## Errors in Spreadsheets Are Your Worst Enemies
 
-![Errors in Spreadsheets Are Your Worst Enemies](mistake-3085712_1920.jpg)
+![Errors in Spreadsheets Are Your Worst Enemies](/img/mistake-3085712_1920.jpg)
 
 After the model has been built, you need to audit and debug it to make sure all the data and calculations are correct and produce accurate results. 
 
@@ -68,7 +68,7 @@ We will review tools and techniques for spreadsheet auditing and debugging in th
 
 ## Updates to Models Should Not Create New Errors
 
-![Updates to Models Should Not Create New Errors](update-1672363_1920.jpg)
+![Updates to Models Should Not Create New Errors](/img/update-1672363_1920.jpg)
 
 Model maintenance and updating is an ongoing process and can be as simple as updating a single value or adjusting dozens of formulae based on new requirements.
 
