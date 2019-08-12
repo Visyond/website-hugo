@@ -8,8 +8,6 @@ annotation: >-
   modeling? What are the common analysis techniques? How to present the results
   of your work with impact? 
 ---
-# Spreadsheet Modeling and Decision Making
-
 What is good spreadsheet design?  What are the best practices of spreadsheet modeling? What are the common analysis techniques? How to present the results of your work with impact? 
 
 In this Spreadsheet Modeling and Decision Making blog series, we’ll explore what makes a good spreadsheet model, how to build proper financial model, how to effectively communicate value to your collaborators, and how to make better decisions, faster.
