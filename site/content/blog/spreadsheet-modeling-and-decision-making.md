@@ -16,6 +16,8 @@ If you are an experienced decision maker,  or a power user building complex spre
 
 ## How to Connect Numbers with Decisions?
 
+![How to Connect Numbers with Decisions?](/img/decision-making-3566980_1920.jpg)
+
 With [financial models](https://en.wikipedia.org/wiki/Financial_modeling), mathematical representations of financial situations, that will assist you in gauging the future performance of a business and making better, informed decisions.
 
 Business drivers may vary from industry to industry, but they all share the same goal - enable you and your audience to make confident decisions based on the numbers and reports your model produces.
@@ -27,6 +29,8 @@ Financial models come in different shapes - from income statements and balance s
 A well-made financial model that is driven by reasonable assumptions will improve your decision making. A poorly-built model or invalid assumptions are unreliable and will produce inaccurate results, which will hamper your decision making.
 
 ## Building Financial Models: What Makes a Good Spreadsheet Model?
+
+![Building Financial Models: What Makes a Good Spreadsheet Model?](question-mark-2123967_1920.jpg)
 
 A model is as good as the mind structuring it and the assumptions you put in. 
 
@@ -40,6 +44,8 @@ Do not start building the model before you have thought about the following:
 
 ## Spreadsheet Modeling Basics
 
+![Spreadsheet Modeling Basics](toys-950148_1920.jpg)
+
 Generally, a spreadsheet model can be broken down into three parts:
 
 * **Input sheets** where stakeholders add assumptions and values to be processed by your financial model. This can be done either manually or by importing data from external sources such as ERP systems. 
@@ -50,6 +56,8 @@ Generally, a spreadsheet model can be broken down into three parts:
 
 ## Errors in Spreadsheets Are Your Worst Enemies
 
+![Errors in Spreadsheets Are Your Worst Enemies](mistake-3085712_1920.jpg)
+
 After the model has been built, you need to audit and debug it to make sure all the data and calculations are correct and produce accurate results. 
 
 This is an important step of the financial modeling process as mistakes can be difficult to detect, and errors can be costly. According to MarketWatch, [88% of spreadsheets contain errors](https://www.marketwatch.com/story/88-of-spreadsheets-have-errors-2013-04-17). Your goal is to be in the other 12%.
@@ -59,6 +67,8 @@ Best practice is to test the financial model on historical data. To automate thi
 We will review tools and techniques for spreadsheet auditing and debugging in the upcoming blog posts.
 
 ## Updates to Models Should Not Create New Errors
+
+![Updates to Models Should Not Create New Errors](update-1672363_1920.jpg)
 
 Model maintenance and updating is an ongoing process and can be as simple as updating a single value or adjusting dozens of formulae based on new requirements.
 
