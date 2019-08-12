@@ -38,6 +38,15 @@
                             <h1> {{.Title}} </h1>
                         </div>
                     
+                        <div>
+                        {{ if .Params.image }}
+                                <img src="{{ .Params.image }}"
+                                     alt="{{ .Title }}" style="width: 100%;"/>
+                            {{ end }}
+                        </div>
+                    
+                    
+                    
                             <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
                                 <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
                                 <p>Author: {{ .Params.author }} </p>
