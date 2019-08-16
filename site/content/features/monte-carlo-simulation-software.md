@@ -1,7 +1,10 @@
 ---
 aliases: /features/simulations/
 title: Online Monte Carlo Simulation Software
-metaTags: "<meta name=\"title\" content=\"Online Monte Carlo Simulation Software\">\r\n\r\n<meta name=\"description\" content=\"Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.\">\r\n\r\n<meta name=\"keywords\" content=”monte carlo simulation software, online monte carlo simulation tool\">"
+metaTags: >-
+  <meta name="title" content="Online Monte Carlo Simulation Software">
+  <meta name="description" content="Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.">
+  <meta name="keywords" content=”monte carlo simulation software, online monte carlo simulation tool">
 topTitle: Monte Carlo Simulation Software - Explore Probabilities of Different Outcomes
 topSubTitle: >-
   Monte Carlo Simulation replaces the inputs with random variables in a
