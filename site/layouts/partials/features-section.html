@@ -3,9 +3,9 @@
 	<ul class="dropdown-section__cols">
 		{{ range $element := .Params.feaDropdownCol }}
 		<li class="dropdown-section__col">
-			<h3 class="dropdown-section__title">
+			<p class="dropdown-section__title">
 				{{ $element.title }}
-			</h3>
+			</p>
 			<ul class="dropdown-section__group-list dropdown-section__list">
 				{{ range $el := $element.features_dropdown }}
 				<li class="dropdown-section__group-item">
