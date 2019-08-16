@@ -1,6 +1,7 @@
 ---
 title: Spreadsheet Data Governance Software
-metaTags: "<meta name=\"title\" content=\"\">\r\n\r\n<meta name=\"description\" content=\"\">\r\n\r\n<meta name=\"keywords\" content=\"\">\r\n"
+metaTags: >-
+  <meta name="robots" content="noindex">
 topTitle: Spreadsheet Data Governance & Sharing
 topSubTitle: >-
   Improve your data governance & sharing, dramatically reduce risk of
