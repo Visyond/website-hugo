@@ -1,7 +1,10 @@
 ---
 aliases: /features/financial-statements/
 title: Online Financial Statement Generator
-metaTags: "<meta name=\"title\" content=\"Online Financial Statement Generator\">\r\n\r\n<meta name=\"description\" content=\"Automate financial statements and generate Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial and management accounting.\">\r\n\r\n<meta name=\"keywords\" content=\"financial statement generator, generate report from excel spreadsheet, online financial statement generator\">"
+metaTags: >-
+  <meta name="title" content="Online Financial Statement Generator">
+  <meta name="description" content="Automate financial statements and generate Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial and management accounting.">
+  <meta name="keywords" content="financial statement generator, generate report from excel spreadsheet, online financial statement generator">
 topTitle: Auto-generated Financial Statements Driven by Spreadsheets
 topSubTitle: >-
   Automate financial statements and generate Balance Sheets, Income Statements,
