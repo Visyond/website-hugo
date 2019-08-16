@@ -1,7 +1,10 @@
 ---
 aliases: /features/audit-mode/
 title: Spreadsheet and Formula Auditing Tool
-metaTags: "<meta name=\"title\" content=\"Find Errors in Spreadsheets with Spreadsheet and Formula Auditing Tool\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s Audit Mode offers a powerful spreadsheet auditing & error checking tool that will simplify the debugging and auditing of your spreadsheets.\">\r\n\r\n<meta name=\"keywords\" content=\"excel auditing tools, formula auditing in excel, find errors in excel, error checking tool excel\">"
+metaTags: >-
+  <meta name="title" content="Find Errors in Spreadsheets with Spreadsheet and Formula Auditing Tool">
+  <meta name="description" content="Visyond’s Audit Mode offers a powerful spreadsheet auditing & error checking tool that will simplify the debugging and auditing of your spreadsheets.">
+  <meta name="keywords" content="excel auditing tools, formula auditing in excel, find errors in excel, error checking tool excel">
 topTitle: 'Audit, Error-Check and Debug Spreadsheets With Ease'
 topSubTitle: >-
   Audit Mode is a powerful spreadsheet auditing & error checking tool that will
