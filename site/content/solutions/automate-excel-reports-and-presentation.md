@@ -4,14 +4,10 @@ title: Automate Excel Reports
 metaTags: >-
   <meta name="title" content="Automate Excel Reports, Financial Data
   Visualizations And Presentations with Visyond">
-
-
   <meta name="description" content="Spreadsheet Presentation, Reporting and
   Visualization software. Automate Excel Reports, Create interactive financial
   data visualizations and presentations in minutes and securely share them using
   Visyond’s interactive presentations without any programming or add-ins.">
-
-
   <meta name="keywords" content="Automate Excel Reports, Financial Data
   Visualization, Presenting Financial Data">
 topTitle: >-
