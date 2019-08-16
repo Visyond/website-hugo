@@ -2,9 +2,9 @@
 aliases: /solutions/modeling/
 title: Financial Modeling Software
 metaTags: >-
-<meta name="title" content="Visyond’s Spreadsheet Modeling Software">
-<meta name="description" content="Automate Spreadsheet Financial Modeling Tasks and Minimize the Risk of Errors with Visyond's Excel-compatible Spreadsheet Modeling Software.">
-<meta name="keywords" content="Spreadsheet Modeling Software, Financial Modeling Software">
+  <meta name="title" content="Visyond’s Spreadsheet Modeling Software">
+  <meta name="description" content="Automate Spreadsheet Financial Modeling Tasks and Minimize the Risk of Errors with Visyond's Excel-compatible Spreadsheet Modeling Software.">
+  <meta name="keywords" content="Spreadsheet Modeling Software, Financial Modeling Software">
 topTitle: >-
   Financial Modeling Software - Analyze & Build Models Faster and Make Better
   Decisions
