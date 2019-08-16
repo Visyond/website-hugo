@@ -1,7 +1,10 @@
 ---
 aliases: /features/dependency-analysis/
 title: Trace Dependents with Spreadsheet Dependency Analysis
-metaTags: "<meta name=\"title\" content=\"Analyze spreadsheet cell dependencies and track dependent and precedent cells\">\r\n\r\n<meta name=\"description\" content=\"Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency Analysis\">\r\n\r\n<meta name=\"keywords\" content=\"spreadsheet dependency analysis, cell dependency analysis, trace dependents excel\">"
+metaTags: >-
+  <meta name="title" content="Analyze spreadsheet cell dependencies and track dependent and precedent cells">
+  <meta name="description" content="Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency Analysis">
+  <meta name="keywords" content="spreadsheet dependency analysis, cell dependency analysis, trace dependents excel">
 topTitle: >-
   Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency
   Analysis
