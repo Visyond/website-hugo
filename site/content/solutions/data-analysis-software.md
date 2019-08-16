@@ -3,15 +3,10 @@ aliases: /solutions/analysis/
 title: Data Analysis Software
 metaTags: >-
   <meta name="title" content="Data Analysis Software">
-
-
   <meta name="description" content="Start spreadsheet data analysis in minutes
   with Visyond’s smart machine intelligence data analysis software; scenario
   comparison, tornado analysis and sensitivity analysis.">
-
-
-  <meta name="keywords" content="data analysis software, spreadsheet data
-  analysis, spreadsheet analysis software">
+  <meta name="keywords" content="data analysis software, spreadsheet data analysis, spreadsheet analysis software">
 topTitle: >-
   Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
   a Team and Answering Questions On-The-Fly
