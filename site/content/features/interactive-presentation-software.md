@@ -1,7 +1,10 @@
 ---
 aliases: /features/interactive-presentations/
 title: Interactive Presentation Software
-metaTags: "<meta name=\"title\" content=\"Interactive Presentation Software\">\r\n\r\n<meta name=\"description\" content=\"Create powerful spreadsheet data visualizations and financial model presentations with Visyond’s interactive Presentation software\">\r\n\r\n<meta name=\"keywords\" content=\"interactive presentation software, financial model presentation, data visualization software\">"
+metaTags: >-
+  <meta name="title" content="Interactive Presentation Software">
+  <meta name="description" content="Create powerful spreadsheet data visualizations and financial model presentations with Visyond’s interactive Presentation software">
+  <meta name="keywords" content="interactive presentation software, financial model presentation, data visualization software">
 topTitle: Create and Securely Share Powerful Interactive Presentations
 topSubTitle: >-
   Visyond’s  Interactive Presentation software offers an elegant way to present
