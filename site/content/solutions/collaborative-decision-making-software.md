@@ -2,7 +2,10 @@
 aliases: /solutions/decision-makers/
 title: Collaborative Decision Making Software
 metaTags: >-
-  <meta name="title" content="Collaborative Decision Making Software"> <meta name="description" content="Visyond’s collaborative decision making software will help you visualize the impact of your spreadsheet based decisions and answer any questions in real time, reduce errors and control what each collaborator can see and interact with"> <meta name="keywords" content="collaborative decision making software, decision making software">
+  <meta name="title" content="Collaborative Decision Making Software">
+  <meta name="description" content="Visualize the impact of your spreadsheet based decisions
+  and answer any questions in real time, reduce errors and control what each collaborator can see and interact with">
+  <meta name="keywords" content="collaborative decision making software, decision making software">  
 topTitle: >-
   Make Fast and Accurate Decisions with Visyond’s Collaborative Decision Making
   Software
