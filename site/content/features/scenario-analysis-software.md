@@ -1,7 +1,10 @@
 ---
 aliases: /features/scenarios/
 title: Scenario Analysis Software
-metaTags: "<meta name=\"title\" content=\"Scenario Analysis Software - Compare Scenarios and Answer What-If Questions On-The-Fly\">\r\n\r\n<meta name=\"description\" content=\"Visyond’s scenario analysis tool - compare different scenarios easily without depending on experts.\">\r\n\r\n<meta name=\"keywords\" content=\"scenario analysis, scenario analysis software, scenario analysis tool\">"
+metaTags: >-
+  <meta name="title" content="Scenario Analysis Software - Compare Scenarios and Answer What-If Questions On-The-Fly">
+  <meta name="description" content="Visyond’s scenario analysis tool - compare different scenarios easily without depending on experts.">
+  <meta name="keywords" content="scenario analysis, scenario analysis software, scenario analysis tool">
 topTitle: >-
   Scenario Analysis Software - Compare Scenarios and Answer What-If Questions
   On-The-Fly
