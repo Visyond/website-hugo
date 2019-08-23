@@ -8,7 +8,7 @@ annotation: >-
 ---
 What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact? 
 
-In this Spreadsheet Modeling and Decision Making blog series, we’ll explore what makes a good spreadsheet model, how to build proper financial model, how to effectively communicate value to your collaborators, and **how to make better decisions, faster.**
+In this Spreadsheet Modeling and Decision Making blog series, we’ll explore financial modeling basics and what makes a good spreadsheet model, how to effectively communicate value to your collaborators, and **how to make better decisions, faster.**
 
 If you are an experienced decision maker, or a power user building complex spreadsheet models, you might already know the answers. If you are also looking for a way to increase your and your team’s efficiency then read further as we will also review ways to **automate various parts of what constitutes number-driven decision making.**
 
