@@ -33,6 +33,11 @@
                         <div class="blog_entry">
                             <h1> {{.Title}} </h1>
                         </div>
+                    
+                        <div class="blog_entry">
+                            <p> {{ .Params.author }} </p>
+                            <p> {{ .Date.Format "Jan 2, 2006" }} </p>
+                        </div>
                         
                     
                         <div>
@@ -43,10 +48,11 @@
                         </div>
                     
                     
-                    
+                            <!--
                             <div class="sub header" style="font-family: 'Open Sans', sans-serif; margin-top: 1em" align="center">
                                 <p> {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }} </p>
-                            </div>               
+                            </div> 
+                            -->
                             
                         </div>
                     
