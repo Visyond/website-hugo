@@ -71,6 +71,10 @@
     width: 100%;
 }
 
+.blog_entry p {
+    line-height: 1.65em;
+}
+
 .blog_list {
 }
 
