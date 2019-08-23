@@ -5,18 +5,15 @@ author: Visyond
 date: 2019-08-09T19:43:44.747Z
 annotation: >-
   What is good spreadsheet design?  What are the best practices of spreadsheet
-  modeling? What are the common analysis techniques? How to present the results
-  of your work with impact? 
+  modeling? How to present the results of your work with impact? 
 ---
-What is good spreadsheet design?  What are the best practices of spreadsheet modeling? What are the common analysis techniques? How to present the results of your work with impact? 
+What is good spreadsheet design?  What are the best practices of spreadsheet modeling? How to present the results of your work with impact? 
 
-In this Spreadsheet Modeling and Decision Making blog series, we’ll explore what makes a good spreadsheet model, how to build proper financial model, how to effectively communicate value to your collaborators, and how to make better decisions, faster.
+In this Spreadsheet Modeling and Decision Making blog series, we’ll explore what makes a good spreadsheet model, how to build proper financial model, how to effectively communicate value to your collaborators, and **how to make better decisions, faster.**
 
-If you are an experienced decision maker,  or a power user building complex spreadsheet models, you might already know the answers. If you are also looking for a way to increase your and your team’s efficiency then read further as we will also review ways to automate various parts of what constitutes number-driven decision making. 
+If you are an experienced decision maker, or a power user building complex spreadsheet models, you might already know the answers. If you are also looking for a way to increase your and your team’s efficiency then read further as we will also review ways to **automate various parts of what constitutes number-driven decision making.**
 
 ## How to Connect Numbers with Decisions?
-
-![How to Connect Numbers with Decisions?](/img/decision-making-3566980_1920.jpg)
 
 With [financial models](https://en.wikipedia.org/wiki/Financial_modeling), mathematical representations of financial situations, that will assist you in gauging the future performance of a business and making better, informed decisions.
 
@@ -30,8 +27,6 @@ A well-made financial model that is driven by reasonable assumptions will improv
 
 ## Building Financial Models: What Makes a Good Spreadsheet Model?
 
-![Building Financial Models: What Makes a Good Spreadsheet Model?](/img/question-mark-2123967_1920.jpg)
-
 A model is as good as the mind structuring it and the assumptions you put in. 
 
 **The old principle of  ‘garbage in - garbage out’ applies to models as well.**
@@ -44,8 +39,6 @@ Do not start building the model before you have thought about the following:
 
 ## Spreadsheet Modeling Basics
 
-![Spreadsheet Modeling Basics](/img/toys-950148_1920.jpg)
-
 Generally, a spreadsheet model can be broken down into three parts:
 
 * **Input sheets** where stakeholders add assumptions and values to be processed by your financial model. This can be done either manually or by importing data from external sources such as ERP systems. 
@@ -56,30 +49,20 @@ Generally, a spreadsheet model can be broken down into three parts:
 
 ## Errors in Spreadsheets Are Your Worst Enemies
 
-![Errors in Spreadsheets Are Your Worst Enemies](/img/mistake-3085712_1920.jpg)
-
 After the model has been built, you need to audit and debug it to make sure all the data and calculations are correct and produce accurate results. 
 
-This is an important step of the financial modeling process as mistakes can be difficult to detect, and errors can be costly. According to MarketWatch, [88% of spreadsheets contain errors](https://www.marketwatch.com/story/88-of-spreadsheets-have-errors-2013-04-17). Your goal is to be in the other 12%.
+This is an important step of the financial modeling process as **mistakes can be difficult to detect, and errors can be costly.** According to MarketWatch, [88% of spreadsheets contain errors](https://www.marketwatch.com/story/88-of-spreadsheets-have-errors-2013-04-17). Your goal is to be in the other 12%.
 
-Best practice is to test the financial model on historical data. To automate this process, you can use such means as data validation but make sure to not trust it blindly. 
+**Best practice is to test the financial model on historical data.** To automate this process, you can use such means as data validation but make sure to not trust it blindly. 
 
 We will review tools and techniques for spreadsheet auditing and debugging in the upcoming blog posts.
 
 ## Updates to Models Should Not Create New Errors
 
-![Updates to Models Should Not Create New Errors](/img/update-1672363_1920.jpg)
-
 Model maintenance and updating is an ongoing process and can be as simple as updating a single value or adjusting dozens of formulae based on new requirements.
 
-This may sometimes feel tedious but do not let your guard down as the main purpose of an update is to improve the quality of the model, not to break it. [JPMorgan learned this the hard way](https://www.reuters.com/article/us-jpmorgan-risk/analysis-jpmorgan-to-be-haunted-by-change-in-risk-model-idUSBRE84H15120120518) after losing billions of dollars due to changes in its value-at-risk model.
+This may sometimes feel tedious but do not let your guard down as **the main purpose of an update is to improve the quality of the model, not to break it.** [JPMorgan learned this the hard way](https://www.reuters.com/article/us-jpmorgan-risk/analysis-jpmorgan-to-be-haunted-by-change-in-risk-model-idUSBRE84H15120120518) after losing billions of dollars due to changes in its value-at-risk model.
 
 If you are a single person who does the update, it is rather straightforward - you go in, make changes and test them. If you are using Excel, create a copy of the initial model and remember to have understandable naming convention and version control.
 
 If there are multiple people working on the update then it becomes much more complicated as Excel was not built as a scalable collaboration tool. You will have to either manually control every contributor and keep track of their changes or rely on software solutions that can help you document inputs and assumptions and manage versions.
-
-## Financial Model Assumptions
-
-Assumptions must be gathered from personal research or subject matter experts. Your assumptions may be overly optimistic or pessimistic. Some of them are more important than others and even slight variations may heavily affect the final result. 
-
-The way you gather and consolidate assumptions for your financial model highly depends on the tools available to you. With Excel, make sure you send the latest actual version to each contributor with instructions on how to complete it even if the model is 'self-explanatory'. It will be a good idea to send only the input sheet, without sending the calculation sheets.
