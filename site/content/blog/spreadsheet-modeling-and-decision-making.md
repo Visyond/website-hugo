@@ -66,7 +66,7 @@ If you are a single person who does the update, it is rather straightforward - y
 
 If there are multiple people working on the update then it becomes much more complicated as Excel was not built as a scalable collaboration tool. You will have to either manually control every contributor and keep track of their changes or rely on software solutions that can help you document inputs and assumptions and manage versions.
 
-## Choose the Right Tool for Building Financial Models
+## Pick the Right Tool for Building Financial Models
 
 **Excel** is the most famous spreadsheet, developed by Microsoft, and is the de-facto the standard and most commonly used spreadsheet software in the world.
 
