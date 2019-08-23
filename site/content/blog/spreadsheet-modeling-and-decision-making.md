@@ -68,12 +68,13 @@ If there are multiple people working on the update then it becomes much more com
 
 ## Choose the Right Tool for Building Financial Models
 
-Decision making requires a combination of modeling, analytics, knowledge management, data visualization and reporting tools with strict requirements on data security and governance. 
+**Excel** is the most famous spreadsheet, developed by Microsoft, and is the de-facto the standard and most commonly used spreadsheet software in the world.
 
-This process requires multiple platforms and causes the following problems:
+It is a very powerful and extremely flexible tool supported by a built-in VBA editor which lets you transform and analyze data in any way you like. 
 
-![Choose the Right Tool for Building Financial Models](/img/Why Visond Inforgraphic 3 v4.png)
+However, there are some disadvantages:
 
-Visyond solves these problems and streamlines modeling, analysis, presentation and collaboration activities in a familiar environment that lets you **keep your work habits and leverage Excel skills, whether you are a beginner or a professional.**
+* First and foremost, **Excel was designed as a single-user solution.** When multiple people work on the same spreadsheet, it quickly turns into entangled chaos as different versions of the model are sent via email with no means to control who has access to what information, and tracking changes and inputs becomes a nightmare.
+* It can be complicated. Now, there are a lot of online tutorials on every aspect of Excel and it requires a very significant degree of dedication to master it. VBA editor is a powerful tool but requires progressively stronger programming skills the more advanced the functionality (such as Simulations) you want to implement is.
 
-[Sign up](/accounts/signup/) and see for yourself! 
+Visyond is a collaboration-first spreadsheet, analysis and presentation platform that features automation tools that will help you with building better financial models faster, analyze data without long manual setups or writing macros, and present it to the audience in a way that enables them to answer ‘what-if’ questions in self-service mode while letting you **keep your work habits and leverage Excel skills.** [Sign up](/accounts/signup/) and see for yourself! 
