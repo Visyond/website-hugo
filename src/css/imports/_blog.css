@@ -4,7 +4,8 @@
 
 .blog_entry {
     color: rgba(0,0,0,.8);
-    font-size: 1.85em;
+    font-size: 1.5em;
+    font-weight: 400;
     margin-bottom: 1em;
     width: 100%;
 }
@@ -60,7 +61,6 @@
     font-size: 2em;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 1em;
     margin-top: 0.5em;
     width: 100%;
 }
@@ -75,13 +75,13 @@
 }
 
 .blog_entry p {
-    line-height: 1.6em;
+    line-height: 2.1em;
 }
 
 .blog_entry_author {
-    font-size: 1.3em;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .blog_list {
