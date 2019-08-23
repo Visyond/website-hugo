@@ -18,7 +18,8 @@
 .blog_entry li {
     padding-left: 30px;
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 1.5em;
+    line-height: 2.1em;
 
     &:before {
         content: "";
