@@ -41,10 +41,12 @@
                         </div>
                         
                     
-                        <div>
+                        <div class="blog_entry">
                         {{ if .Params.image }}
-                                <img src="{{ .Params.image }}"
+                            <p>    
+                            <img src="{{ .Params.image }}"
                                      alt="{{ .Title }}" style="width: 100%;"/>
+                            </p>
                             {{ end }}
                         </div>
                     
