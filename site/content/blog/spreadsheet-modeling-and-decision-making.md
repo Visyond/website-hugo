@@ -65,3 +65,15 @@ This may sometimes feel tedious but do not let your guard down as **the main pur
 If you are a single person who does the update, it is rather straightforward - you go in, make changes and test them. If you are using Excel, create a copy of the initial model and remember to have understandable naming convention and version control.
 
 If there are multiple people working on the update then it becomes much more complicated as Excel was not built as a scalable collaboration tool. You will have to either manually control every contributor and keep track of their changes or rely on software solutions that can help you document inputs and assumptions and manage versions.
+
+## Choose the Right Tool for Building Financial Models
+
+Decision making requires a combination of modeling, analytics, knowledge management, data visualization and reporting tools with strict requirements on data security and governance. 
+
+This process requires multiple platforms and causes the following problems:
+
+![Choose the Right Tool for Building Financial Models](/img/Why Visond Inforgraphic 3 v4.png)
+
+Visyond solves these problems and streamlines modeling, analysis, presentation and collaboration activities in a familiar environment that lets you **keep your work habits and leverage Excel skills, whether you are a beginner or a professional.**
+
+[Sign up](/accounts/signup/) and see for yourself! 
