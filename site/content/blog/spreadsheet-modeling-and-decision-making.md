@@ -1,5 +1,5 @@
 ---
-title: 'Quick Guide: Things You Should Know About Building Financial Models'
+title: 'Things You Should Know About Building Financial Models'
 image: /img/banner.jpg
 author: Visyond
 date: 2019-08-09T19:43:44.747Z
@@ -65,18 +65,3 @@ This may sometimes feel tedious but do not let your guard down as **the main pur
 If you are a single person who does the update, it is rather straightforward - you go in, make changes and test them. If you are using Excel, create a copy of the initial model and remember to have understandable naming convention and version control.
 
 If there are multiple people working on the update then it becomes much more complicated as Excel was not built as a scalable collaboration tool. You will have to either manually control every contributor and keep track of their changes or rely on software solutions that can help you document inputs and assumptions and manage versions.
-
-## Pick the Right Tool for Building Financial Models
-
-**Excel** is the most famous spreadsheet, developed by Microsoft, and is the de-facto the standard and most commonly used spreadsheet software in the world.
-
-It is a very powerful and extremely flexible tool supported by a built-in VBA editor which lets you transform and analyze data in any way you like. 
-
-However, there are some disadvantages:
-
-* First and foremost, **Excel was designed as a single-user solution.** When multiple people work on the same spreadsheet, it quickly turns into entangled chaos as different versions of the model are sent via email with no means to control who has access to what information, and tracking changes and inputs becomes a nightmare.
-* It can be complicated. Now, there are a lot of online tutorials on every aspect of Excel and **it requires a very significant degree of dedication to master it.** VBA editor is a powerful tool but requires progressively stronger programming skills the more advanced the functionality (such as Simulations) you want to implement is.
-
-Visyond is a collaboration-first spreadsheet, analysis and presentation platform that features automation tools that will help you with building better financial models faster, analyze data without long manual setups or writing macros, and present it to the audience in a way that enables them to answer ‘what-if’ questions in self-service mode while letting you **keep your work habits and leverage Excel skills.** 
-
-[Sign up](/accounts/signup/) and see for yourself! 
