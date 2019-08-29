@@ -11,6 +11,17 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "home-hex"
+      label: "Home Hex"
+      folder: "site/content/home-hex"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", required: true}
+        "Page url", name: "url", widget: string}
+        - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+        - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+        - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
+        - {label: "Benefits Title", name: "BenefitsHeader", widget: "string", required: false}
   - name: "partner-page"
     label: "Partner page"
     folder: "site/content/partner-page"

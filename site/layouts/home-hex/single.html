@@ -5,15 +5,19 @@
   <!-- top section -->
   <section class="home-hero" style="background-image: url('/img/home/rect-hero-blue.png');">
     <div class="home-hero__container">
-      <div class="home-hero__text-wrap">
+      <div class="home-hero__half-width-wrap">
         <h1 class="home-hero__title">Spreadsheet, Analytics <br> & Reporting <br> Collaboration -</h1>
         <ul class="home-hero__main-features">
           <li>Automate Workflow</li>
           <li>Track Changes</li>
           <li>Reduce Errors</li>
-          <li>Collaborate Securely</li>
+          <li>{{ .Params.BenefitsHeader }}</li>
         </ul>
-        <img class="home-hero__laptop-image home-hero__laptop-mobile" src="/img/home/laptop.png" alt="Laptop">
+      </div>
+      <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
+        <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
+      </div>
+      <div class="home-hero__half-width-wrap">
         <div class="home-hero__buttons-section">
           <a href="#" class="button button-primary button-asterisk">
             Free Sign Up
@@ -29,19 +33,13 @@
           <a href="#" class="home-hero__demo-link">Request a Demo</a>
         </div>
       </div>
-      <div class="home-hero__image-wrap">
-        <img class="home-hero__laptop-image home-hero__laptop-desktop" src="/img/home/laptop.png" alt="Laptop">
-      </div>
-      <div class="home-hero__text-wrap">
+      <div class="home-hero__full-width-wrap">
         <ul class="home-hero__other-features">
           <li>Excel Compatible</li>
           <li>Intuitive, Familiar, & Easy to Use</li>
           <li><i class="material-icons">hourglass_empty</i>Get Started in Minutes</li>
         </ul>
-      </div>
-      <div class="home-hero__image-wrap">
         <a class="home-hero__gartner" href="https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond">
-          <img class="home-hero__gartner-desktop" src="/img/home/gartner.png">
           <img class="home-hero__gartner-mobile" src="/img/home/gartner-mobile.png">
         </a>
       </div>
