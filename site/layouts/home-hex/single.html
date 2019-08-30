@@ -6,42 +6,50 @@
   <section class="home-hero" style="background-image: url('/img/home/rect-hero-blue.png');">
     <div class="home-hero__container">
       <div class="home-hero__half-width-wrap">
-        <h1 class="home-hero__title">Spreadsheet, Analytics <br> & Reporting <br> Collaboration -</h1>
+        <h1 class="home-hero__title">{{ .Params.heroTitle | markdownify }}</h1>
         <ul class="home-hero__main-features">
-          <li>Automate Workflow</li>
-          <li>Track Changes</li>
-          <li>Reduce Errors</li>
-          <li>{{ .Params.BenefitsHeader }}</li>
+          {{ range .Params.mainFeatures }}
+            <li>{{ .feature }}</li>
+          {{ end }}
         </ul>
       </div>
       <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
-        <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
+        <img class="home-hero__laptop-image" src="{{ .Params.laptop }}" alt="Laptop">
       </div>
       <div class="home-hero__half-width-wrap">
         <div class="home-hero__buttons-section">
-          <a href="#" class="button button-primary button-asterisk">
-            Free Sign Up
-            <span>*No credit card required</span>
-          </a>
-          <button class="button button-icon js-btn-video">
-            <i class="material-icons">
-              play_arrow
-            </i>
-            See Demo
-          </button>
+            <a href="{{ .Params.heroPrimaryButtonLink }}" class="button button-primary button-asterisk">
+              {{ .Params.heroPrimaryButton }}
+              <span>*No credit card required</span>
+            </a>
+          {{ if .Params.WatchVideoURL2 }}
+            <button class="button button-icon js-btn-video2">
+              <i class="material-icons">
+                play_arrow
+              </i>
+              {{ .Params.heroPlayButton }}
+            </button>
+          {{ end }}
           <span class="home-hero__or">or</span>
-          <a href="#" class="home-hero__demo-link">Request a Demo</a>
+          <a href="{{ .Params.heroDemoButtonLink }}" class="home-hero__demo-link">{{ .Params.heroDemoButton }}</a>
         </div>
       </div>
       <div class="home-hero__full-width-wrap">
         <ul class="home-hero__other-features">
-          <li>Excel Compatible</li>
-          <li>Intuitive, Familiar, & Easy to Use</li>
-          <li><i class="material-icons">hourglass_empty</i>Get Started in Minutes</li>
+          {{ range .Params.otherFeatures }}
+            <li>{{ .feature | markdownify}}</li>
+          {{ end }}
         </ul>
-        <a class="home-hero__gartner" href="https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond">
-          <img class="home-hero__gartner-mobile" src="/img/home/gartner-mobile.png">
+        <a class="home-hero__gartner" href="{{ .Params.gartnerLink }}">
+          <img class="home-hero__gartner-mobile" src="{{ .Params.gartnerImage }}">
         </a>
+      </div>
+    </div>
+
+    <div class="ht-top__popup js-popup2">
+      <div class="ht-top__iframe-wrap">
+        <button class="ht-top__popup-close js-popup-close2"></button>
+        <p>{{ .Params.WatchVideoURL2 }}</p>
       </div>
     </div>
   </section>
