@@ -8,6 +8,8 @@ resourcesDropdown:
     title: Why Visyond
   - path: /partner-with-visyond/
     title: Partner with Visyond
+  - path: /blog/
+    title: Blog
 solutionsInfoTitle: Answer questions in seconds
 solutionsInfoDescr: >-
   Explore our Solutions to learn more about how Visyond can help you, your team
