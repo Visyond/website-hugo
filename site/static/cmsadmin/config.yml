@@ -11,6 +11,37 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
+  - name: "home-hex"
+      label: "Home Hex"
+      folder: "site/content/home-hex"
+      create: true
+      fields:
+        - {label: "Title", name: "title", widget: "string", required: true}
+        - {label: "Page url", name: "url", widget: string}
+        - {label: "Hero title", name: "heroTitle", widget: "markdown", required: true}
+        - { label: "Main features list", name: "mainFeatures", widget: "list",
+          fields: [
+            {label: "Feature", name: "feature", widget: "string", required: false,},
+          ],
+          required: false,
+        }
+        - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
+        - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
+        - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "url", required: true}
+        - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
+        - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
+        - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "url", required: true}
+        - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
+        - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
+        - { label: "Other features", name: "otherFeatures", widget: "list",
+          fields: [
+            {label: "Feature", name: "feature", widget: "markdown", required: false,},
+          ],
+          required: false,
+        }
+        - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
+        - {label: "Gartner link", name: "gartnerLink", widget: "url", required: true}
+
   - name: "partner-page"
     label: "Partner page"
     folder: "site/content/partner-page"
