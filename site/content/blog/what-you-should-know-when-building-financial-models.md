@@ -1,24 +1,24 @@
 ---
 metaTags: >-
-  <meta name="description" content="What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact?">
+  <meta name="description" content="What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact?">
   
-  <meta property="og:title" content="What You Should Know About Building Financial Models"/>
+  <meta property="og:title" content="What You Should Know When Building Financial Models"/>
 
   <meta property="og:type" content="article" />
 
   <meta property="og:image" content="https://visyond.com/img/banner.jpg">
 
-  <meta property="og:description" content="What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact?"/>
+  <meta property="og:description" content="What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact?"/>
 
-  <meta property="og:url" content="https://visyond.com/blog/what-you-should-know-about-building-financial-models/" />
-title: 'What You Should Know About Building Financial Models'
+  <meta property="og:url" content="https://visyond.com/blog/what-you-should-know-when-building-financial-models/" />
+title: 'What You Should Know When Building Financial Models'
 image: /img/banner.jpg
 author: Visyond
 date: 2019-08-30T14:00:00.000Z
 annotation: >-
-  What is good spreadsheet design?  What are the best practices of spreadsheet modeling? How to present the results of your work with   impact? 
+  What is good spreadsheet design? What are the best practices of spreadsheet modeling? How to present the results of your work with impact? 
 ---
-What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact? 
+What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact? 
 
 In this Spreadsheet Modeling and Decision Making blog series, we’ll explore financial modeling basics and what makes a good spreadsheet model, how to effectively communicate value to your collaborators, and **how to make better decisions, faster.**
 
@@ -40,7 +40,7 @@ A well-made financial model that is driven by reasonable assumptions will improv
 
 A model is as good as the mind structuring it and the assumptions you put in. 
 
-**The old principle of  ‘garbage in - garbage out’ applies to models as well.**
+**The old principle of ‘garbage in - garbage out’ applies to models as well.**
 
 Do not start typing and building the model before you have thought about the following:
 
