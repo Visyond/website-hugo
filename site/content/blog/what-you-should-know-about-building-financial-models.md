@@ -1,5 +1,5 @@
 ---
-title: 'Things You Should Know About Building Financial Models'
+title: 'What You Should Know About Building Financial Models'
 image: /img/banner.jpg
 author: Visyond
 date: 2019-08-30T14:00:00.000Z
