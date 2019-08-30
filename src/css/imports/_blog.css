@@ -90,6 +90,11 @@
 }
 
 .blog_list {
+    color: black;
+    font-size: 1.35em;
+    font-weight: 300;
+    margin-bottom: 1em;
+    width: 100%;  
 }
 
 .blog_list h2 {
