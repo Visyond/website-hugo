@@ -1,22 +1,30 @@
 ---
+title: What You Should Know When Building Financial Models
+image: /img/banner.jpg
+author: Visyond
 metaTags: >-
-  <meta name="description" content="What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact?">
-  
-  <meta property="og:title" content="What You Should Know When Building Financial Models"/>
+  <meta name="description" content="What is good spreadsheet design? What are
+  the best practices of building financial models? How to present the results of
+  your work with impact?">
+
+  <meta property="og:title" content="What You Should Know When Building
+  Financial Models"/>
 
   <meta property="og:type" content="article" />
 
   <meta property="og:image" content="https://visyond.com/img/banner.jpg">
 
-  <meta property="og:description" content="What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact?"/>
+  <meta property="og:description" content="What is good spreadsheet design? What
+  are the best practices of building financial models? How to present the
+  results of your work with impact?"/>
 
-  <meta property="og:url" content="https://visyond.com/blog/what-you-should-know-when-building-financial-models/" />
-title: 'What You Should Know When Building Financial Models'
-image: /img/banner.jpg
-author: Visyond
-date: 2019-08-30T14:00:00.000Z
+  <meta property="og:url"
+  content="https://visyond.com/blog/what-you-should-know-when-building-financial-models/"
+  />
+date: 08/30/2019 3:00 PM
 annotation: >-
-  What is good spreadsheet design? What are the best practices of spreadsheet modeling? How to present the results of your work with impact? 
+  What is good spreadsheet design? What are the best practices of spreadsheet
+  modeling? How to present the results of your work with impact? 
 ---
 What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact? 
 
