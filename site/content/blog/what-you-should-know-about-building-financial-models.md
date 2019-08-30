@@ -1,4 +1,16 @@
 ---
+metaTags: >-
+  <meta name="description" content="What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact?">
+  
+  <meta property="og:title" content="What You Should Know About Building Financial Models"/>
+
+  <meta property="og:type" content="article" />
+
+  <meta property="og:image" content="https://visyond.com/img/banner.jpg">
+
+  <meta property="og:description" content="What is good spreadsheet design?  What are the best practices of building financial models? How to present the results of your work with impact?"/>
+
+  <meta property="og:url" content="https://visyond.com/blog/what-you-should-know-about-building-financial-models/" />
 title: 'What You Should Know About Building Financial Models'
 image: /img/banner.jpg
 author: Visyond
