@@ -2,7 +2,7 @@
 title: 'Things You Should Know About Building Financial Models'
 image: /img/banner.jpg
 author: Visyond
-date: 2019-08-30T15:00:00.000Z
+date: 2019-08-30T14:00:00.000Z
 annotation: >-
   What is good spreadsheet design?  What are the best practices of spreadsheet modeling? How to present the results of your work with   impact? 
 ---
