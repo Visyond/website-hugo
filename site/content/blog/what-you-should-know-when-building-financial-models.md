@@ -21,7 +21,7 @@ metaTags: >-
   <meta property="og:url"
   content="https://visyond.com/blog/what-you-should-know-when-building-financial-models/"
   />
-date: 2019-08-30T14:00:00.000Z
+date: 08/30/2019 3:00 PM
 annotation: >-
   What is good spreadsheet design? What are the best practices of spreadsheet
   modeling? How to present the results of your work with impact? 
