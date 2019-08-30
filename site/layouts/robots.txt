@@ -28,5 +28,4 @@ Disallow: /counters/
 Disallow: /cookies/
 Disallow: /casestudiessection/
 Disallow: /case-studies-section-new/
-Disallow: /blog/
 Disallow: /features/spreadsheet-dependency-analysis/
