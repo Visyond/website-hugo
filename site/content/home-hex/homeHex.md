@@ -1,7 +1,7 @@
 ---
 title: HomeHex
 url: /homehex/
-heroTitle: Spreadsheet, Analytics <br> & Reporting <br> Collaboration -
+heroTitle: Content test for cms admin
 mainFeatures:
     - feature: Automate Workflow
     - feature: Track Changes
