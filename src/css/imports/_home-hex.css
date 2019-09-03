@@ -12,6 +12,37 @@
     box-shadow: 0 20px 20px 0 rgba(56, 93, 200, 0.25);
     padding: 1em 2em;
 }
+.homehex img{
+    height: auto;
+}
+.homehex .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 576px) {
+    .homehex .container {
+        max-width: 540px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .homehex .container {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .homehex .container {
+        max-width: 960px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .homehex .container {
+        max-width: 1120px;
+    }
+}
+
 /*button with note*/
 .homehex .button-asterisk span{
     font-size: 10px;
@@ -35,11 +66,17 @@
     background-position-x: 60vw;
     background-position-y: 60%;
     background-repeat: no-repeat;
+    background-color: rgb(250, 250, 250);
+}
+@media screen and (min-width: 1700px){
+    .home-hero{
+        background-size: 150%;
+        background-position-x: 55vw;
+        background-position-y: 65%;
+    }
 }
 .home-hero__container{
-    padding: 5rem 3rem 3rem;
-    max-width: 1400px;
-    margin: 0 auto;
+    padding: 5rem 0 4rem;
 }
 
 .home-hero__laptop-image{
@@ -65,11 +102,12 @@
     font-size: 40px;
     line-height: 50px;
     color: #383e4d;
+    font-weight: 400;
 }
 
 /*features list*/
 .home-hero__main-features{
-    font-size: 14px;
+    font-size: 15px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -82,7 +120,7 @@
     white-space: nowrap;
 }
 .home-hero__main-features li:not(:last-child):after {
-    margin: 0 10px;
+    margin: 0 5px;
     content: '|';
 }
 
@@ -90,10 +128,14 @@
 .home-hero__buttons-section{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     width: 90%;
     margin-bottom: 30px;
+}
+@media screen and (min-width: 1025px) {
+    .home-hero__buttons-section > *:not(:last-child) {
+        margin-right: 20px;
+    }
 }
 .home-hero__demo-link{
     color: #0086ff;
@@ -105,26 +147,30 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     padding: 0;
-    opacity: .5;
-    color: #383e4d;
+    color: rgba(56, 62, 77, 0.5);
     flex-grow: 2;
-}
-.home-hero__gartner{
-    flex-grow: 1;
-    text-align: center;
 }
 .home-hero__other-features li{
     display: flex;
     align-items: center;
     white-space: nowrap;
+    margin-right: 30px;
 }
-.home-hero__other-features i {
-    opacity: 1;
-    color: black;
+.home-hero__other-features img {
+    margin-right: 15px;
+    display: inline-block;
 }
+.home-hero__gartner{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+}
+.home-hero__gartner svg{
+    width: 80%;
+}
+
 
 /*full width row*/
 .home-hero__full-width-wrap{
@@ -142,14 +188,22 @@
     .home-hero__full-width-wrap{
         padding: 0;
     }
+    .home-hero{
+        background-position-x: 65vw;
+    }
+}
+@media screen and (max-width: 1200px)  and (min-width: 1025px){
+    .home-hero__gartner{
+        justify-content: flex-end;
+    }
 }
 @media screen and (max-width: 1024px) {
     .home-hero {
-        background-position-y: calc(100% + -15vh);
+        background-position-y: calc(100% - 15vh);
         background-position-x: 70vw;
     }
     .home-hero__container{
-        padding: 2rem;
+        padding: 2rem 0;
     }
     .home-hero__title{
         text-align: center;
@@ -161,6 +215,7 @@
     }
     .home-hero__other-features{
         flex-wrap: wrap;
+        justify-content: space-around;
     }
     .home-hero__other-features li{
         margin: 10px 0;
@@ -176,6 +231,22 @@
         height: auto;
         width: 100%;
     }
+    .home-hero__gartner svg{
+        max-width: 300px;
+        width: 100%;
+    }
+    .home-hero__gartner{
+        justify-content: center;
+    }
+    .home-hero__gartner .rate-number{
+        stroke: rgb(56, 62, 77);
+    }
+    .home-hero__gartner .star{
+        fill: rgb(255, 167, 115);
+    }
+    .home-hero__gartner #gartnerText{
+        fill: rgb(153, 156, 163);
+    }
 
     /*According to design those 2 links dissapeared on mobile*/
     .home-hero__or, .home-hero__demo-link, .button-asterisk span{
@@ -186,13 +257,10 @@
     .home-hero__other-features, .home-hero__gartner{
         width: 100%;
     }
-    .home-hero__gartner{
-        text-align: center;
-    }
 }
 @media screen and (max-width: 480px) {
     .home-hero__container {
-        padding: 1rem;
+        padding: 1rem 0;
     }
     .home-hero__other-features li{
         width: 100%;

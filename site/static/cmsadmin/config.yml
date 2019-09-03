@@ -34,11 +34,12 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
       - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
       - { label: "Other features", name: "otherFeatures", widget: "list",
-          fields: [
-            {label: "Feature", name: "feature", widget: "markdown", required: false,},
-          ],
-          required: false,
-      }
+        fields: [
+          {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
+          {label: "Feature", name: "feature", widget: "markdown", required: false,},
+        ],
+        required: false,
+        }
       - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
       - {label: "Gartner link", name: "gartnerLink", widget: "url", required: true}
 
