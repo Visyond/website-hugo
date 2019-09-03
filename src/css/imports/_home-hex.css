@@ -167,10 +167,6 @@
     display: flex;
     justify-content: flex-start;
 }
-.home-hero__gartner svg{
-    width: 80%;
-}
-
 
 /*full width row*/
 .home-hero__full-width-wrap{
@@ -189,7 +185,7 @@
         padding: 0;
     }
     .home-hero{
-        background-position-x: 65vw;
+        background-position-x: 63vw;
     }
 }
 @media screen and (max-width: 1200px)  and (min-width: 1025px){
@@ -239,7 +235,7 @@
         justify-content: center;
     }
     .home-hero__gartner .rate-number{
-        stroke: rgb(56, 62, 77);
+        fill: #383e4d !important;
     }
     .home-hero__gartner .star{
         fill: rgb(255, 167, 115);
@@ -256,6 +252,11 @@
 @media screen and (max-width: 991px) {
     .home-hero__other-features, .home-hero__gartner{
         width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .home-hero{
+        background-position-y: calc(100% - 30vh);
     }
 }
 @media screen and (max-width: 480px) {
