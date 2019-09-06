@@ -926,6 +926,16 @@ collections: # A list of collections the CMS should be able to edit
             ],
           }
 
+      - file: "site/content/hexSlider/_index.md"
+        label: "Hex slider"
+        name: "hexSlider"
+        fields:
+          - { label: "Hex Logos", name: "hexSliderLogos", widget: "list",
+            fields: [
+              {label: "Logo", name: "logo", widget: "image"},
+              {label: "Alt Text", name: "alt", widget: string, default: "image"},
+            ],
+          }
 
 
 
