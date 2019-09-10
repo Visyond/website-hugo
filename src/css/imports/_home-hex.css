@@ -346,11 +346,12 @@
         background-image: none !important;
     }
     .visFor__column {
-        width: 100%;
+        width: auto;
         padding: 40px 30px;
     }
     .visFor__row{
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 }
 /*END VIS */

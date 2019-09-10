@@ -42,6 +42,27 @@ collections: # A list of collections the CMS should be able to edit
         }
       - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
       - {label: "Gartner link", name: "gartnerLink", widget: "url", required: true}
+      - { label: "Functions list", name: "functionList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - { label: "Cases list", name: "caseTitle", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - { label: "Industries list", name: "industryTitle", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
 
   - name: "partner-page"
     label: "Partner page"

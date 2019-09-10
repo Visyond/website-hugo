@@ -29,38 +29,38 @@ functionTitle: FUNCTION
 caseTitle: USE CASE
 industryTitle: INDUSTRY
 functionList:
-  - image: /img/v_icon.png
+  - image: /img/home/visForColumn1/function2.png
     text: Analysts and Modelers
-  - image: /img/v_icon2.png
+  - image: /img/home/visForColumn1/function1.png
     text: CxOs & Decision Makers
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn1/function3.png
     text: Sales & Communication
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn1/function4.png
     text: Consultants
 caseList:
-  - image: /img/v_icon.png
+  - image: /img/home/visForColumn2/case1.png
     text: Risk Management
-  - image: /img/v_icon2.png
+  - image: /img/home/visForColumn2/case2.png
     text: Planning & Modelling
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn2/case3.png
     text: Budgeting & Forecasting
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn2/case4.png
     text: Financial Reporting
-  - image: /img/v_icon.png
+  - image: /img/home/visForColumn2/case5.png
     text: Investment Analysis
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn2/case6.png
     text: Scenario Analysis
 industryList:
-  - image: /img/v_icon.png
+  - image: /img/home/visForColumn3/industry1.png
     text: Banking
-  - image: /img/v_icon2.png
+  - image: /img/home/visForColumn3/industry5.png
     text: Management Consulting
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn3/industry2.png
     text: Financial Services
-  - image: /img/v_icon2.png
+  - image: /img/home/visForColumn3/industry6.png
     text: Telecommunication
-  - image: /img/v_icon3.png
+  - image: /img/home/visForColumn3/industry3.png
     text: Real Estate
-  - image: /img/v_icon.png
+  - image: /img/home/visForColumn3/industry4.png
     text: Insurance
 ---
