@@ -1,7 +1,7 @@
 ---
 title: HomeHex
 url: /homehex/
-heroTitle: Spreadsheet, Analytics <br> & Reporting <br> Collaboration -
+heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
     - feature: Automate Workflow
     - feature: Track Changes
@@ -9,10 +9,10 @@ mainFeatures:
     - feature: Collaborate Securely
 laptop: /img/home/laptop.png
 heroPrimaryButton: Free Sign Up
-heroPrimaryButtonLink: link
+heroPrimaryButtonLink: /accounts/signup/
 heroPlayButton: See Demo
 heroDemoButton: Request a Demo
-heroDemoButtonLink: link
+heroDemoButtonLink: /request/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
