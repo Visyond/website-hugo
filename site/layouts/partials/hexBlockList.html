@@ -1,0 +1,80 @@
+<!-- info block -->
+{{ range $el := .Params.InfoBlockFirst }}
+
+<li class="enterSections__block">
+    <div class="info__img-wrap js-img-wrap show-slides">
+
+        <img src="{{ .image }}" alt="{{ .altText }}"
+             class="enterSections__block-img"
+             data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
+             data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
+             data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
+             data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
+             data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
+
+        <a class="button button-icon button-primary over">
+            <i class="material-icons">
+
+            </i>
+            <span>
+            See in action
+          </span>
+        </a>
+        <div class="button button-basic--nobg button-icon centered">
+            <i class="material-icons">
+                play_circle_outline
+            </i>
+            <span>
+            See in action
+          </span>
+        </div>
+    </div>
+
+    <section class="enterSections__text-wrap">
+        <h2 class="enterSections__block-title">
+            {{ .title }}
+        </h2>
+
+        <div class="enterSections__block-descr">
+            {{ .descr | markdownify }}
+            <div class="enterSections__benefits">
+                <div class="enterSections__benefits--title">See All Benefits</div>
+                <ul>
+                    {{ range $list := .benefitsList }}
+                    <li class="whyV__benefit-item">
+                        {{ .text | markdownify }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+
+        <div class="button-wrap">
+            {{ if .link }}
+            <a href="{{ .link }}" class="button button-primary">LEARN MORE</a>
+            {{ end }}
+            <span class="button button-icon btn-video4"
+
+                  {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
+            style="display: none;"
+            {{ end }}
+
+            >
+            <i class="material-icons">
+                play_arrow
+            </i>
+            SEE DEMO
+            <div class="ht-top__popup js-popup">
+                <div class="ht-top__iframe-wrap">
+                    <button class="ht-top__popup-close js-popup-close">X</button>
+                    <p>{{ .linkYoutube }}</p>
+                </div>
+            </div>
+            </span>
+
+        </div>
+
+    </section>
+</li>
+{{ end }}
+<!-- //info block -->
