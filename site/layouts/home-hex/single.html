@@ -59,6 +59,101 @@
   </section>
   <!-- ./top section -->
 
+  {{ partial "hexSlider" . }}
+
+  <!-- section capabilities  -->
+  <section class="visFor" style="background-image: url('/img/home/visForBg.svg');">
+      <div class="container">
+          <h2 class="visFor-header">{{ .Params.visForHeader }}</h2>
+          <ul class="visFor__row">
+              <li class="visFor__column">
+                  <h4 class="visFor__column--title">{{ .Params.functionTitle }}</h4>
+                  <ul class="visFor__list">
+                      {{ range $el := .Params.functionList }}
+                      <li class="visFor__list-item">
+                          <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                          <div>{{ .text | markdownify }}</div>
+                      </li>
+                      {{ end }}
+                  </ul>
+              </li>
+              <li class="visFor__column">
+                  <h4 class="visFor__column--title">{{ .Params.caseTitle }}</h4>
+                  <ul class="visFor__list">
+                      {{ range $el := .Params.caseList }}
+                      <li class="visFor__list-item">
+                          <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                          <div>{{ .text | markdownify }}</div>
+                      </li>
+                      {{ end }}
+                  </ul>
+              </li>
+              <li class="visFor__column">
+                  <h4 class="visFor__column--title">{{ .Params.industryTitle }}</h4>
+                  <ul class="visFor__list">
+                      {{ range $el := .Params.industryList }}
+                      <li class="visFor__list-item">
+                          <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                          <div>{{ .text | markdownify }}</div>
+                      </li>
+                      {{ end }}
+                  </ul>
+              </li>
+          </ul>
+      </div>
+  </section>
+  <!-- ./section capabilities -->
+
+    <!-- Why V section -->
+    <section class="whyV">
+        <div class="container">
+            <div class="whyV__row">
+                <div class="whyV__half-width-wrap">
+                    <h2 class="whyV__headline">{{ .Params.WhyVisyondHeader }}</h2>
+                </div>
+
+                <div class="whyV__half-width-wrap whyV__image-wrap">
+                    <div>
+                        <img src="{{ .Params.WhyVisyondImage }}">
+                    </div>
+                </div>
+
+                <ul class="whyV__list-wrap">
+                    {{ range $el := .Params.solvesList }}
+                    <li class="whyV__list-item">
+                        <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                        <span>{{ .text | markdownify }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+
+                <div class="whyV__half-width-wrap">
+                    <div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
+                    <div>
+                        <a href="/why-visyond" class="button button-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why V section -->
+
+    <!-- section info -->
+    <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+        <div class="container">
+
+            <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+
+            <ul class="enterSections js-image-block">
+
+                <!-- list of info blocks with blue button -->
+                {{ partial "hexBlockList" . }}
+                <!-- // list of info blocks with blue button -->
+
+            </ul>
+        </div>
+    </section>
+    <!-- //section info -->
 </div>
 
 {{ partial "footer" . }}
