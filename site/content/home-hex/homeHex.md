@@ -121,7 +121,7 @@ infoBlockFirst:
         file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: Test Assumptions
-    image: /img/Homepage Collaboration v2 small.png
+    image: /img/home/laptop.png
     link: /solutions/collaboration/
     linkYoutube: 'https://www.youtube.com/embed/uufPL_qXvaI'
     title: Single Secure Environment
