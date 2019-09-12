@@ -395,12 +395,6 @@
     .whyV__half-width-wrap, .whyV__text{
         width: 100%;
     }
-    .whyV__image-wrap{
-        display: none;
-    }
-    .whyV__list-wrap{
-        display: block;
-    }
     .whyV__list-item{
         font-size: 15px;
         font-weight: 600;
@@ -415,6 +409,14 @@
         margin-right: 15px;
         width: 40px;
         height: auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    .whyV__image-wrap{
+        display: none;
+    }
+    .whyV__list-wrap{
+        display: block;
     }
 }
 /* WHY V END*/
@@ -667,6 +669,9 @@
 }
 .enterSections__text-wrap .button-wrap .button:not(:last-child){
     margin-right: 15px;
+@media screen and (max-width: 991px) and (min-width: 801px) {
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 340px) {
     margin-right: 0;
     margin-bottom: 15px;
