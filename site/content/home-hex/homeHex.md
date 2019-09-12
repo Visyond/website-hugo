@@ -127,7 +127,7 @@ infoBlockFirst:
     title: Single Secure Environment
   - descr: >-
       Analyze data on-the-fly in a self-service mode and instantly gain valuable
-      business insights without waiting for experts to be available:
+      business insights without waiting for experts to be available
 
     benefitsList:
           - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
@@ -169,7 +169,7 @@ infoBlockFirst:
   - descr: >-
       Create visual interactive presentations your stakeholders can use to
       independently test assumptions and interact with the spreadsheet in an
-      elegant and simple way:
+      elegant and simple way
 
     benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions with Interactive Presentations
