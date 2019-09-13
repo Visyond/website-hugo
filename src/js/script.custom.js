@@ -236,6 +236,15 @@ $(function () {
         watchVideo5(btn5[i]);
     }
 
+    var btn6 = [];
+
+    var blocks6 = document.querySelectorAll('.enterSections__block');
+    for (var i = 0; i<blocks6.length; i++) {
+        btn6[i] = (blocks6[i].querySelector('.btn-video4'));
+        watchVideo5(btn6[i]);
+        console.log(123);
+    }
+
 
 
 

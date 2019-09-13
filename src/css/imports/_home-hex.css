@@ -19,6 +19,14 @@
     margin-right: auto;
     margin-left: auto;
 }
+.homehex .button-icon i {
+    position: absolute;
+    font-size: 1.8em;
+    top: 50%;
+    left: 1.5em;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
 .homehex .button-basic--nobg{
     box-shadow: none !important;
 }
@@ -429,6 +437,9 @@
     background-repeat: no-repeat;
     background-position-x: calc(100% - 80vw), calc(100% + 55vw);
     background-position-y: 5%, 55%;
+@media screen and (max-width: 800px) {
+    background-image: none !important;
+}
 }
 .enterV__headline{
     font-size: 32px;

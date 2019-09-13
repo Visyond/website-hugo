@@ -53,9 +53,37 @@
         </div>
     </section>
     <section class="enterSections__text-wrap">
+        <!--<div class="button-wrap">-->
+            <!--{{ if .link }}-->
+            <!--<a href="{{ .link }}" class="button button-primary">Learn More</a>-->
+            <!--{{ end }}-->
+            <!--<span class="button button-icon btn-video4"-->
+
+                  <!--{{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}-->
+            <!--style="display: none;"-->
+            <!--{{ end }}-->
+
+            <!--&gt;-->
+            <!--<i class="material-icons">-->
+                <!--play_arrow-->
+            <!--</i>-->
+            <!--See Demo-->
+            <!--<div class="ht-top__popup js-popup">-->
+                <!--<div class="ht-top__iframe-wrap">-->
+                    <!--<button class="ht-top__popup-close js-popup-close">X</button>-->
+                    <!--<p>{{ .linkYoutube }}</p>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--</span>-->
+
+        <!--</div>-->
         <div class="button-wrap">
             {{ if .link }}
-            <a href="{{ .link }}" class="button button-primary">Learn More</a>
+            <a href="{{ .link }}" class="button button-primary">
+                <div>
+                    Learn More
+                </div>
+            </a>
             {{ end }}
             <span class="button button-icon btn-video4"
 
@@ -64,10 +92,13 @@
             {{ end }}
 
             >
-            <i class="material-icons">
+            <span style="display: flex; align-items: center;">
+                    <i class="material-icons">
                 play_arrow
-            </i>
-            See Demo
+              </i><span>
+                    See Demo</span>
+
+                    </span>
             <div class="ht-top__popup js-popup">
                 <div class="ht-top__iframe-wrap">
                     <button class="ht-top__popup-close js-popup-close">X</button>
