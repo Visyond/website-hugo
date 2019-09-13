@@ -1,8 +1,8 @@
 ---
 title: Pricing
 url: /pricing
-topTitle: Simple Pricing
-topSubTitle: Flexible and Scalable Solution for Companies of All Sizes
+topTitle: Scalable Solution That Grows With You
+topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
@@ -10,7 +10,6 @@ pricingCards:
         text: Start Free Trial
         url: /accounts/signup/
       img: /img/icons/individual-icon.svg
-      url: /accounts/signup/
       markdown: |-
         * **Spreadsheet & Charts**
         * **What-if & Scenario Analysis**
@@ -24,11 +23,11 @@ pricingCards:
         * Get value immediately
         * Pay only for what you need
       title: Individual
+      url: /accounts/signup/
     - cta:
         text: Request a demo
         url: /request
       img: /img/icons/team-icon.svg
-      url: /request/
       markdown: |-
         * **Share parts of projects**
         * **Collaborate w/o overwriting**
@@ -42,11 +41,11 @@ pricingCards:
         * Control what they see
         * Track what they do
       title: Team
+      url: /request/
     - cta:
         text: Contact Us
         url: /request
       img: /img/icons/enterprise-icon.svg
-      url: /request/
       markdown: |-
         * **Custom integrations**
         * **On-premise installation**
@@ -60,14 +59,15 @@ pricingCards:
         * Visualize the impact of decisions
         * Securely interact with data
       title: Enterprise
+      url: /request/
   title: Visyond for...
 whyCards:
   cards:
     - description:
         - Explore the variety of solutions Visyond offers
       icon: /img/icons/desktop.svg
-      url: /solutions/
       title: Solutions
+      url: /solutions/
     - description:
         - Find out how Visyond helps companies of all sizes
       icon: /img/icons/knowledge.svg
@@ -76,8 +76,8 @@ whyCards:
     - description:
         - Learn more about Visyond's features
       icon: /img/icons/payment.svg
-      url: /features/
       title: Features
+      url: /features/
   cta:
     text: How we compare to others
     url: /why-visyond/
