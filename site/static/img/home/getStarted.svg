@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="225" viewBox="0 0 1366 225">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="1366" height="225" transform="translate(0 0.938)" fill="#0086ff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="2795.82" height="1693.82" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.499" x2="0.499" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#81daf6" stop-opacity="0.196"/>
+      <stop offset="1" stop-color="#4ab3ea" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_Copy" data-name="Rectangle Copy" transform="translate(0 -0.938)" clip-path="url(#clip-path)">
+    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(-418.758 -342.062)" clip-path="url(#clip-path-2)">
+      <path id="Rectangle_Copy-2" data-name="Rectangle Copy" d="M0,50A50,50,0,0,0-50,0H-592.156a50,50,0,0,0-49.967,51.81l31.687,874.652a50,50,0,0,0,14.64,33.574l115.534,115.348A50,50,0,0,0-444.935,1090H-50a50,50,0,0,0,50-50Z" transform="translate(1087.073 148) rotate(-45)" fill="url(#linear-gradient)"/>
+      <path id="Rectangle_Copy_15" data-name="Rectangle Copy 15" d="M0,50A50,50,0,0,0-50,0H-592.156a50,50,0,0,0-49.967,51.81l31.687,874.652a50,50,0,0,0,14.64,33.574l115.534,115.348A50,50,0,0,0-444.935,1090H-50a50,50,0,0,0,50-50Z" transform="translate(2025.073 0) rotate(-45)" fill="url(#linear-gradient)"/>
+      <path id="Rectangle_Copy_14" data-name="Rectangle Copy 14" d="M0,50A50,50,0,0,0-50,0H-592.156a50,50,0,0,0-49.967,51.81l31.687,874.652a50,50,0,0,0,14.64,33.574l115.534,115.348A50,50,0,0,0-444.935,1090H-50a50,50,0,0,0,50-50Z" transform="translate(454.073 469) rotate(-45)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
