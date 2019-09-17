@@ -98,10 +98,20 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
         ],
         required: false,
-      }
+        }
       - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
       - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
       - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
+      - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
+      - {label: Benefits cards, name: cards, widget: list,
+        fields: [
+          {label: Card Icon, name: icon, widget: image},
+          {label: Card Title, name: header, widget: string},
+          {label: Card Text, name: description, widget: text},
+          {label: Card Link, name: link, widget: string}
+        ],
+        required: false,
+        }
 
   - name: "partner-page"
     label: "Partner page"

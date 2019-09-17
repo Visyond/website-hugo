@@ -157,6 +157,34 @@
             <a href="{{ .Params.getHexStartedButtonURL }}" class="button button-contrast">{{ .Params.getHexStartedButton }}</a>
         </div>
     </section>
+
+    <!-- Benefits -->
+    <section class="homeBenefits" >
+        <div class="container">
+            <h2 class="homeBenefits__header">{{ .Params.BenefitsHeader }}</h2>
+
+            <div class="homeBenefits__cards">
+                {{ range .Params.cards}}
+                <a
+                        {{ with .link }}
+                        href="{{.}}"
+                        {{ end }}
+                        class="homeBenefits__card">
+                    <div class="homeBenefits__card-image-wrap">
+                        <img src="{{.icon}}" alt="icon" class="homeBenefits__card-image">
+                    </div>
+                    <h3 class="homeBenefits__card-title">
+                        {{ .header | markdownify }}
+                    </h3>
+                    <p class="homeBenefits__card-text">
+                        {{ .description | markdownify }}
+                    </p>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- Benefits -->
 </div>
 
 {{ partial "footer" . }}
