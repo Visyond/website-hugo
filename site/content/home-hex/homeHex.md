@@ -237,4 +237,24 @@ cards:
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
     link: /solutions/financial-modeling-software/
+featuredTitle: As Featured In
+featured:
+  - alt: The Telegraph Logo
+    link: ''
+    logo: /img/telegraph.png
+  - alt: NatWest Logo
+    link: ''
+    logo: /img/NatWest Logo.png
+  - alt: BeTheBusiness Logo
+    logo: /img/BeTheBusiness.png
+  - alt: GrowthBusiness Logo
+    link: ''
+    logo: /img/GrowthBusiness Logo.png
+providesTitle: Get Started in Minutes
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
