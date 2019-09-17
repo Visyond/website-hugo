@@ -186,11 +186,18 @@
     </section>
     <!-- Benefits -->
 
-    <!-- case studies section -->
-    {{ partial "case-studies-section-new" . }}
-    <!-- //case studies section -->
+    <section class="homeFeatured" style="background-image: url('/img/home/visForBg.svg'), url('/img/home/blueRectangle.svg');">
 
-    {{ partial "hexFeatured" . }}
+        <!-- case studies section -->
+        {{ partial "hexCaseStudies" . }}
+        <!-- //case studies section -->
+
+        {{ partial "hexFeatured" . }}
+
+    </section>
+
+    {{ partial "get-started" . }}
+
 </div>
 
 {{ partial "footer" . }}

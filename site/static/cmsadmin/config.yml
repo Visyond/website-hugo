@@ -1150,6 +1150,32 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
+      - file: "site/content/hexFeatured/_index.md"
+        label: "Hex featured"
+        name: "hexFeatured"
+        fields:
+          - { label: "Featured title", name: "featuredTitle", widget: "string" }
+          - { label: "Featured list", name: "featured", widget: "list",
+            fields: [
+              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+              {label: "Link", name: "link", widget: "string"},
+              {label: "Logo", name: "logo", widget: "image"},
+            ],
+            required: false,
+          }
 
 
-
+      - file: "site/content/hexCaseStudies/_index.md"
+        label: "Hex Case studies"
+        name: "hexCaseStudies"
+        fields:
+          - { label: "Case study title", name: "caseTitle", widget: "string" }
+          - { label: "Case study", name: "case", widget: "list",
+            fields: [
+              {label: "Case study link", name: "caseLink", widget: "string"},
+              {label: "Icon", name: "caseIco", widget: "image"},
+              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+              {label: "Case study description", name: "caseDescr", widget: "string"},
+            ],
+            required: false,
+          }

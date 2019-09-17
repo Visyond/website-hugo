@@ -65,6 +65,10 @@
     border: 0;
     color: #383e4d;
     padding-left: 4.5em;
+    font-weight: 700;
+}
+.homehex .button-contrast{
+    font-weight: 700;
 }
 /* GLOBAL END*/
 
@@ -777,6 +781,9 @@
     background-color: #0086FF;
     text-align: center;
     padding: 50px 0;
+@media screen and (max-width: 420px) {
+    padding: 100px 0;
+}
 }
 .getHexStarted__title{
     font-size: 32px;
@@ -807,7 +814,7 @@
 .homeBenefits__header{
     font-size: 32px;
     line-height: 1.6;
-    font-weight: 500;
+    font-weight: 700;
     color: #383E4D;
     text-align: center;
 }
@@ -844,6 +851,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+@media screen and (max-width: 420px) {
+    height: 50px;
+}
 }
 
 .homeBenefits__card-image {
@@ -872,6 +882,19 @@
 }
 /*------------END BENEFITS---------------*/
 
-/*------------END BENEFITS---------------*/
-
-/*------------END BENEFITS---------------*/
+/*------------home Featured---------------*/
+.homeFeatured {
+    padding: 50px 0;
+    background-color: #fafafa;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 80vw),calc(100% + 85vw);
+    background-position-y: 70%,130%;
+@media screen and (min-width: 1700px) {
+    background-position-y: 50%,100%;
+}
+@media screen and (max-width: 800px) {
+    background-image: none !important;
+}
+}
+/*------------END homeFeatured---------------*/
