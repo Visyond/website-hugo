@@ -1,0 +1,18 @@
+{{ with .Site.GetPage "section" "hexCaseStudies" }}
+<section class="hexCaseStudy">
+    <div class="container">
+        <h2 class="hexCaseStudy__header">{{ .Params.caseTitle }}</h2>
+
+        <ul class="hexCaseStudy__list">
+            {{ range $el := .Params.Case }}
+            <li class="hexCaseStudy__item">
+                <a href="{{ .caseLink }}" class="hexCaseStudy__link">
+                    <img src="{{ .caseIco }}" alt="{{ .alt }}">
+                    <h3 class="hexCaseStudy__title">{{ .caseDescr }}</h3>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}

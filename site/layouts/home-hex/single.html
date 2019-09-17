@@ -185,6 +185,19 @@
         </div>
     </section>
     <!-- Benefits -->
+
+    <section class="homeFeatured" style="background-image: url('/img/home/visForBg.svg'), url('/img/home/blueRectangle.svg');">
+
+        <!-- case studies section -->
+        {{ partial "hexCaseStudies" . }}
+        <!-- //case studies section -->
+
+        {{ partial "hexFeatured" . }}
+
+    </section>
+
+    {{ partial "get-started" . }}
+
 </div>
 
 {{ partial "footer" . }}
