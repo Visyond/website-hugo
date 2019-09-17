@@ -27,10 +27,10 @@ collections: # A list of collections the CMS should be able to edit
         }
       - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
       - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
-      - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "url", required: true}
+      - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
       - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
       - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
-      - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "url", required: true}
+      - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "string", required: true}
       - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
       - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
       - { label: "Other features", name: "otherFeatures", widget: "list",
@@ -41,7 +41,11 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }
       - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
-      - {label: "Gartner link", name: "gartnerLink", widget: "url", required: true}
+      - {label: "Gartner link", name: "gartnerLink", widget: "string", required: true}
+      - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
+      - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
+      - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
+      - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
       - { label: "Functions list", name: "functionList", widget: "list",
         fields: [
           {label: "image", name: "image", widget: "image", required: false,},
@@ -60,6 +64,51 @@ collections: # A list of collections the CMS should be able to edit
         fields: [
           {label: "image", name: "image", widget: "image", required: false,},
           {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
+      - {label: "Why Visyond text", name: "WhyVisyondText", widget: "string", required: true}
+      - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
+      - { label: "Visyond solves, list", name: "solvesList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "EnterV section title", name: "FeaturesHeader", widget: "string", required: true}
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+        fields: [
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "file"},
+          ]},
+          {label: "Popup Files", name: "files", widget: list, fields: [
+            {label: "File", name: "file", widget: "file"},
+            {label: "Alt text", name: alt, widget: string},
+            {label: "Popup Link", name: "link", widget: string, default: "#"},
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Description", name: "descr", widget: "text"},
+          ]},
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Link", name: "link", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"}
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+        ],
+        required: false,
+        }
+      - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
+      - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
+      - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
+      - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
+      - {label: Benefits cards, name: cards, widget: list,
+        fields: [
+          {label: Card Icon, name: icon, widget: image},
+          {label: Card Title, name: header, widget: string},
+          {label: Card Text, name: description, widget: text},
+          {label: Card Link, name: link, widget: string}
         ],
         required: false,
         }

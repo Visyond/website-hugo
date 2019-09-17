@@ -121,20 +121,19 @@ infoBlockFirst:
         file: /img/2019-02 Interactive Presentation.png
         link: /features/interactive-presentations/
         title: Test Assumptions
-    image: /img/Homepage Collaboration v2 small.png
+    image: /img/home/laptop.png
     link: /solutions/collaboration/
     linkYoutube: 'https://www.youtube.com/embed/uufPL_qXvaI'
     title: Single Secure Environment
   - descr: >-
-      Analyze data on-the-fly in a self-service mode and instantly gain valuable
-      business insights without waiting for experts to be available
+      Analyze data on-the-fly in a self-service mode and instantly gain valuable business insights without waiting for experts to be available
 
     benefitsList:
-          - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
-          - text: Stress-test your decisions with Sensitivity & Impact analyses
-          - text: Manage risk with Monte Carlo simulations
-          - text: Streamline reporting with auto-generated Financial Statements
-          - text: Extract key information in self-service mode and democratize spreadsheet data analysis
+      - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
+      - text: Stress-test your decisions with Sensitivity & Impact analyses
+      - text: Manage risk with Monte Carlo simulations
+      - text: Streamline reporting with auto-generated Financial Statements
+      - text: Extract key information in self-service mode and democratize spreadsheet data analysis
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
         descr: >-
@@ -170,7 +169,6 @@ infoBlockFirst:
       Create visual interactive presentations your stakeholders can use to
       independently test assumptions and interact with the spreadsheet in an
       elegant and simple way
-
     benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions with Interactive Presentations
       - text: Create & share interactive and embeddable business case calculators driven by your spreadsheet without any technical know-how
@@ -199,4 +197,44 @@ infoBlockFirst:
     link: /solutions/presentation
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
+getHexStartedTitle: Get Started in Minutes
+getHexStartedButton: Sign up
+getHexStartedButtonURL: /why-visyond
+BenefitsHeader: Benefits
+cards:
+  - description: 'Always know who contributed what, when and why'
+    header: Full Transparency and Data Governance
+    icon: /img/audit-mode@2x.png
+    link: /solutions/data-tracking-software/
+  - description: Manage access and share projects fully or partially
+    header: Secure Collaborative Environment
+    icon: /img/selective-sharing@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Automate routine analytical tasks and their setup without experts
+    header: Data Analysis in <br> Minutes
+    icon: /img/scenarios@2x.png
+    link: /solutions/data-analysis-software/
+  - description: Quickly get insights from your data through interactive presentations
+    header: Testing Assumptions in Real Time
+    icon: /img/interactive presentations@2x.png
+    link: /solutions/automate-excel-reports-and-presentation/
+  - description: Have a single source of truth for your data & documentation
+    header: Streamlined Communications
+    icon: /img/knowledge-base@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Easily generate financial statements and KPI reports
+    header: Automated Financial Statements
+    icon: /img/financial-statement@2x.png
+    link: /features/interactive-presentation-software/
+  - description: Start getting value immediately by importing your Excel file
+    header: Familiar Excel-Compatible Experience
+    icon: /img/import-export@2x.png
+    link: /features/compatibility-with-excel-and-powerpoint/
+  - description: 'Access at any time, from any place, using any device'
+    header: Cloud-based Global Accessibility
+    icon: /img/data_input_3x.png
+  - description: Audit spreadsheets and explore your models
+    header: Reduction of Errors
+    icon: /img/analyst_and_consultant_3x.png
+    link: /solutions/financial-modeling-software/
 ---

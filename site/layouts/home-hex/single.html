@@ -141,19 +141,50 @@
     <!-- section info -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
-
             <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
-
             <ul class="enterSections js-image-block">
-
                 <!-- list of info blocks with blue button -->
                 {{ partial "hexBlockList" . }}
                 <!-- // list of info blocks with blue button -->
-
             </ul>
         </div>
     </section>
     <!-- //section info -->
+
+    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+        <div class="container">
+            <h2 class="getHexStarted__title">{{ .Params.getHexStartedTitle }}</h2>
+            <a href="{{ .Params.getHexStartedButtonURL }}" class="button button-contrast">{{ .Params.getHexStartedButton }}</a>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="homeBenefits" >
+        <div class="container">
+            <h2 class="homeBenefits__header">{{ .Params.BenefitsHeader }}</h2>
+
+            <div class="homeBenefits__cards">
+                {{ range .Params.cards}}
+                <a
+                        {{ with .link }}
+                        href="{{.}}"
+                        {{ end }}
+                        class="homeBenefits__card">
+                    <div class="homeBenefits__card-image-wrap">
+                        <img src="{{.icon}}" alt="icon" class="homeBenefits__card-image">
+                    </div>
+                    <h3 class="homeBenefits__card-title">
+                        {{ .header | markdownify }}
+                    </h3>
+                    <p class="homeBenefits__card-text">
+                        {{ .description | markdownify }}
+                    </p>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+    <!-- Benefits -->
 </div>
 
 {{ partial "footer" . }}
