@@ -1,8 +1,7 @@
 ---
 title: Pricing
 url: /pricing
-topTitle: Simple Pricing
-topSubTitle: Flexible and Scalable Solution for Companies of All Sizes
+topTitle: Scalable Solution That Grows With You
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:

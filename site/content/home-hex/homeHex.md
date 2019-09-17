@@ -1,7 +1,7 @@
 ---
 title: HomeHex
 url: /homehex/
-heroTitle: Spreadsheet, Analytics <br> & Reporting <br> Collaboration -
+heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
     - feature: Automate Workflow
     - feature: Track Changes
@@ -9,10 +9,10 @@ mainFeatures:
     - feature: Collaborate Securely
 laptop: /img/home/laptop.png
 heroPrimaryButton: Free Sign Up
-heroPrimaryButtonLink: link
+heroPrimaryButtonLink: /accounts/signup/
 heroPlayButton: See Demo
 heroDemoButton: Request a Demo
-heroDemoButtonLink: link
+heroDemoButtonLink: /request/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
@@ -126,8 +126,8 @@ infoBlockFirst:
     linkYoutube: 'https://www.youtube.com/embed/uufPL_qXvaI'
     title: Single Secure Environment
   - descr: >-
-      Analyze data on-the-fly in a self-service mode and instantly gain valuable
-      business insights without waiting for experts to be available:
+      Analyze data on-the-fly in a self-service mode and instantly gain valuable business insights without waiting for experts to be available
+
     benefitsList:
       - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
       - text: Stress-test your decisions with Sensitivity & Impact analyses
@@ -168,7 +168,7 @@ infoBlockFirst:
   - descr: >-
       Create visual interactive presentations your stakeholders can use to
       independently test assumptions and interact with the spreadsheet in an
-      elegant and simple way:
+      elegant and simple way
     benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions with Interactive Presentations
       - text: Create & share interactive and embeddable business case calculators driven by your spreadsheet without any technical know-how
