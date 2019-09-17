@@ -859,12 +859,16 @@
     font-weight: 700;
     line-height: 1.4;
     color: #0E2639;
+    width: 100%;
+    max-width: 100%;
 }
 
 .homeBenefits .homeBenefits__card-text {
     font-size: 16px;
     line-height: 1.4;
     color: #383E4D;
+    width: 100%;
+    max-width: 100%;
 }
 /*------------END BENEFITS---------------*/
 
