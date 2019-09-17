@@ -141,15 +141,11 @@
     <!-- section info -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
-
             <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
-
             <ul class="enterSections js-image-block">
-
                 <!-- list of info blocks with blue button -->
                 {{ partial "hexBlockList" . }}
                 <!-- // list of info blocks with blue button -->
-
             </ul>
         </div>
     </section>
@@ -157,8 +153,8 @@
 
     <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
         <div class="container">
-            <h2 class="getHexStarted__title">Get Started in Minutes</h2>
-            <a href="/why-visyond" class="button button-contrast">Sign up</a>
+            <h2 class="getHexStarted__title">{{ .Params.getHexStartedTitle }}</h2>
+            <a href="{{ .Params.getHexStartedButtonURL }}" class="button button-contrast">{{ .Params.getHexStartedButton }}</a>
         </div>
     </section>
 </div>

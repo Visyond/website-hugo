@@ -128,13 +128,12 @@ infoBlockFirst:
   - descr: >-
       Analyze data on-the-fly in a self-service mode and instantly gain valuable
       business insights without waiting for experts to be available:
-
     benefitsList:
-          - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
-          - text: Stress-test your decisions with Sensitivity & Impact analyses
-          - text: Manage risk with Monte Carlo simulations
-          - text: Streamline reporting with auto-generated Financial Statements
-          - text: Extract key information in self-service mode and democratize spreadsheet data analysis
+      - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
+      - text: Stress-test your decisions with Sensitivity & Impact analyses
+      - text: Manage risk with Monte Carlo simulations
+      - text: Streamline reporting with auto-generated Financial Statements
+      - text: Extract key information in self-service mode and democratize spreadsheet data analysis
     files:
       - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
         descr: >-
@@ -170,7 +169,6 @@ infoBlockFirst:
       Create visual interactive presentations your stakeholders can use to
       independently test assumptions and interact with the spreadsheet in an
       elegant and simple way:
-
     benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions with Interactive Presentations
       - text: Create & share interactive and embeddable business case calculators driven by your spreadsheet without any technical know-how
@@ -199,4 +197,7 @@ infoBlockFirst:
     link: /solutions/presentation
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
+getHexStartedTitle: Get Started in Minutes
+getHexStartedButton: Sign up
+getHexStartedButtonURL: /why-visyond
 ---

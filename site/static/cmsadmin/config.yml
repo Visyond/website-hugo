@@ -99,6 +99,9 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }
+      - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
+      - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
+      - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
 
   - name: "partner-page"
     label: "Partner page"
