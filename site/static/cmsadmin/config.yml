@@ -112,6 +112,10 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }
+      - {label: "Provides Title", name: "providesTitle", widget: "string"}
+      - {label: "Provides List", name: "providesList", widget: "list", fields: [
+        {label: "Provides Item", name: "text", widget: "markdown"},
+      ],}
 
   - name: "partner-page"
     label: "Partner page"

@@ -1,0 +1,116 @@
+.homeHex-provides {
+    padding: 100px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 0;
+
+@media screen and (max-width: 800px) {
+    background: none;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+}
+}
+
+.homeHex-provides__header{
+    margin-top: 15px;
+    font-size: 40px;
+    line-height: 1.4;
+    color: #fff;
+    text-align: left;
+    font-weight: 600;
+@media screen and (max-width: 800px) {
+    text-align: center;
+    font-size: 24px;
+}
+}
+
+.homeHex-provides__img-wrap {
+    width: 48%;
+    position: relative;
+    transition: all 0.3s;
+
+@media screen and (max-width: 800px) {
+    width: 100%;
+    justify-content: center;
+}
+
+&:hover img {
+     filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
+ }
+
+& .button {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transition: all 0.3s;
+      transform: translate(-50%, -50%);
+      font-size: 1.2em;
+      pointer-events: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,.3);
+  }
+}
+
+.homeHex-provides__img {
+    transition: all 0.2s;
+    width: 100%;
+    cursor: pointer;
+}
+
+.homeHex-provides__wrap {
+    width: 48%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+@media screen and (max-width: 800px) {
+    width: 100%;
+    align-items: center;
+}
+}
+
+.homeHex-provides__list {
+    list-style: none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+.homeHex-provides__item {
+    position: relative;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 40px;
+
+&:before {
+     content: "";
+     position: absolute;
+     top: 0.6em;
+     left: 0;
+     transform: rotate(-130deg);
+     width: 0.5em;
+     height: 0.2em;
+     background: #fff;
+     display: inline-block;
+ }
+
+&:after {
+     content: "";
+     position: absolute;
+     left: 0.55em;
+     top: 0.25em;
+     transform: rotate(-130deg);
+     margin-right: 10px;
+     margin-bottom: 3px;
+     width: 0.2em;
+     height: 0.8em;
+     background: #fff;
+     display: inline-block;
+ }
+
+}
