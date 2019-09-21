@@ -61,6 +61,72 @@ $(function () {
         });
     }
     responsiveNav();
+
+
+    //=====HEXUP=====
+    //=====FIXED HEADER ADD BACKGROUND COLOR WHEN SCROLLED=====
+
+    (function () {
+        window.addEventListener('scroll', function() {
+            const distanceY = window.pageYOffset || document.documentElement.scrollTop;
+            const shrinkOn = 100;
+            const header = document.querySelector('.hexHeader');
+            if (distanceY > shrinkOn) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        });
+    })();
+
+    function hexDropdown (e) {
+        let link = $('.hexNav__item').has('.dropdown-menu-wrap').find('.hexNav__link');
+        let parent = $('.hexNav__item').has('.dropdown-menu-wrap').find('.hexNav__link').find('span').after('<i class="material-icons dropdown-arrow">arrow_drop_down</i>');
+
+        link.on('click', function (e) {
+            e.preventDefault();
+            let href = $(this).attr('href');
+            $(this).addClass('hexNav__link--active');
+            $(href).toggleClass('dropdown-toggle--active');
+        });
+
+        $(document).on('click', function (e) {
+            let parent = $('.nav__item');
+            for (let i = 0; i < parent.length; i++) {
+                let link = $(parent[i]).has('.dropdown-menu-wrap').find('.nav__link');
+                if (!link.is(e.target) && link.has(e.target).length === 0) {
+                    let href = link.attr('href');
+                    $(href).removeClass('dropdown-toggle--active');
+                    link.removeClass('nav__link--active')
+                }
+            }
+        })
+    }
+    hexDropdown();
+    function mobileNav() {
+        let nav = $('.hexNav');
+        let btn = $('.responsive-btn');
+        btn.on('click', function() {
+            nav.toggleClass('nav--active');
+            $('body').addClass('body-fixed');
+            $('.overlay').addClass('overlay--active');
+
+            $(this).attr('disabled', true);
+        });
+
+        $('.overlay').on('click touchstart', function() {
+            nav.removeClass('nav--active');
+            $('body').removeClass('body-fixed');
+            $('.overlay').removeClass('overlay--active');
+            btn.removeAttr('disabled');
+            $('.overlay').removeClass("overlay--active");
+            $(".overlay").empty();
+
+        });
+    }
+    mobileNav();
+    //=====HEXUP END=====
+
     /**
      *
      * Modal
@@ -242,7 +308,6 @@ $(function () {
     for (var i = 0; i<blocks6.length; i++) {
         btn6[i] = (blocks6[i].querySelector('.btn-video4'));
         watchVideo5(btn6[i]);
-        console.log(123);
     }
 
 
@@ -812,5 +877,6 @@ $(function () {
     }; // onresize2
     onresize2();
     window.addEventListener("resize", onresize2);
+
 
 });

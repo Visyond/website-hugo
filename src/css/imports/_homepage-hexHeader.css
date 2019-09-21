@@ -1,0 +1,116 @@
+.homepage-header {
+    background: #182130;
+    padding: 25px 30px 25px 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+@media screen and (max-width: 1201px) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 15px;
+}
+}
+
+.hexNav--homepage-header {
+    margin-left: 0;
+}
+
+.hexNav--homepage-header__item {
+&:not(:last-child) {
+     margin-right: 0;
+ }
+}
+
+.hexNav--homepage-header__link {
+    color: #fff;
+    text-transform: uppercase;
+
+&:hover {
+     color: #0585ff;
+ }
+
+@media screen and (max-width: 1201px) {
+    color: #52556c !important;
+}
+}
+
+.hexNav--homepage-header__link.hexNav__link--active {
+    color: #0585ff;
+}
+
+.hexNav--homepage-header-dropdown-left {
+    background: #1c232e;
+}
+.hexNav--homepage-header-dropdown-left .dropdown-toggle--left__title,
+.hexNav--homepage-header-dropdown-left .dropdown-toggle--left__img-desc {
+    color: #fff;
+}
+
+.hexNav--homepage-header-dropdown-toggle {
+    background: #1f2733;
+    border: none;
+
+@media screen and (max-width: 1201px) {
+    background: none;
+    border-left: 1px solid #1f2733;
+}
+}
+.hexNav--homepage-header-dropdown-right {
+    border-color: #000;
+}
+
+.hexNav--homepage-header-dropdown-right .dropdown-toggle__group-title,
+.hexNav--homepage-header-dropdown-right .dropdown-toggle__group-list-item-link {
+    color: #fff;
+}
+
+.homepage__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepage__user-hexNav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+@media screen and (max-width: 1201px) {
+    flex-flow: column nowrap;
+}
+}
+
+.homepage__user-hexNav-item {
+&:not(:last-child) {
+     margin-right: 30px;
+ }
+}
+
+.homepage__user-hexNav-link {
+    text-transform: uppercase;
+    color: #52556c;
+    font-size: 14px;
+    transition: color 0.1s ease-in-out;
+
+&:hover {
+     color: #0585ff;
+ }
+
+@media screen and (max-width: 1201px) {
+    color: #52556c;
+    font-weight: 400;
+}
+}
+
+.homepage__user-hexNav-link--request {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

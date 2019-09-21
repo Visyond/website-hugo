@@ -11,13 +11,6 @@
     box-shadow: 0 20px 20px 0 rgba(56, 93, 200, 0.25);
     padding: 1em 2em;
 }
-.homehex .container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
 .homehex .button-icon i {
     position: absolute;
     font-size: 1.8em;
@@ -28,6 +21,13 @@
 }
 .homehex .button-basic--nobg{
     box-shadow: none !important;
+}
+.homehex .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 @media screen and (min-width: 576px) {
     .homehex .container {
