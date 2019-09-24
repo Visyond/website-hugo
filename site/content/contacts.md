@@ -22,13 +22,6 @@ locations:
     contactsphone:
       - socialphone: +27 03 1765 2312
       - socialphone: +27 08 2789 1915
-    contactssocial:
-      - socialicon: /img/linkdn.png
-        sociallink: 'https://www.linkedin.com/company/visyond'
-      - socialicon: /img/twitter.png
-        sociallink: 'https://twitter.com/visyond'
-      - socialicon: /img/facebook.png
-        sociallink: 'https://www.facebook.com/Visyond'
     mail: |-
       4 Hilldene Road 
 
