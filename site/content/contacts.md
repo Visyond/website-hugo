@@ -32,5 +32,13 @@ locations:
 
       South Africa
     title: South Africa
+  - contactsemail:
+      - socialemail: amr.elgarhy@get.visyond.com
+    mail: "The Polygon Business Park, \r\n\r\nFloor 4, Building 3,\r\n\r\nSODIC West, El Sheikh Zayed, 12451\r\n\r\nGiza, Egypt"
+    title: Egypt
+  - contactsemail:
+      - socialemail: amr.elgarhy@get.visyond.com
+    mail: "Sheikh Rashid Tower, Floor 26, \r\n\r\nDubai World Trade Centre, \r\n\r\nP.O. Box 340662, \r\n\r\nDubai, UAE\r\n"
+    title: United Arab Emirates
 ---
 
