@@ -154,10 +154,11 @@
     width: auto;
     position: fixed;
     left: 12%;
-    top: 5em;
+    top: 85px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     background-color: #f2f3f7;
+    transition: top .2s linear;
 
 @media (max-width: 1201px) {
     border-radius: 0;
@@ -167,6 +168,9 @@
     transform: none;
     margin: 0;
 }
+}
+.hexHeader.scrolled .dropdown-toggle--multicol {
+    top: 70px;
 }
 
 .dropdown-toggle--left {

@@ -85,14 +85,14 @@
                 </div>
             </a>
             {{ end }}
-            <span class="button button-icon btn-video4"
+            <span style="padding: 0" class="button button-icon btn-video4"
 
                   {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
             style="display: none;"
             {{ end }}
 
             >
-            <span style="display: flex; align-items: center;">
+            <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
                     <i class="material-icons">
                 play_arrow
               </i><span>

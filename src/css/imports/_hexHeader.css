@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 1201px) {
     z-index: 9999;
-    padding: 15px;
+    padding: 15px 0;
 }
 }
 .hexHeader + .maincontent{
