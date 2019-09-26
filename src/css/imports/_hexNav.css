@@ -124,7 +124,7 @@
 .dropdown-toggle {
     width: 250px;
     position: absolute;
-    top: 5em;
+    top: 50px;
     left: 5px;
     border-radius: 5px;
     display: none;
@@ -144,7 +144,9 @@
     overflow-y: scroll !important;
 }
 }
-
+.hexHeader.scrolled .dropdown-toggle {
+    top: 55px;
+}
 .dropdown-toggle--active {
     display: flex;
 }

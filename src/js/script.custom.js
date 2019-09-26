@@ -129,6 +129,17 @@ $(function () {
         });
     }
     mobileNav();
+
+    //=====Toggle opening of benefits lists=====
+    (function () {
+        let toggles = $('.enterSections__benefits--title');
+        toggles.each(function () {
+            $(this).click(function () {
+                $(this).toggleClass('opened');
+            })
+        });
+    })();
+
     //=====HEXUP END=====
 
     /**
