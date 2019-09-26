@@ -70,10 +70,12 @@ $(function () {
         let shrinkOn = 70;
         if (screen.width < 1200) { shrinkOn = 30 }
         const header = document.querySelector('.hexHeader');
-        if (distanceY > shrinkOn) {
-            header.classList.add("scrolled");
-        } else {
-            header.classList.remove("scrolled");
+        if(header){
+            if (distanceY > shrinkOn) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
         }
     }
     (function () {
