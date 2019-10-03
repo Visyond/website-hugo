@@ -21,6 +21,7 @@
     transition: transform 0.1s ease-in-out;
     max-height: 100vh;
     overflow-y: scroll;
+    top: 78px;
 
 & > ul {
       width: 100%;
@@ -30,14 +31,8 @@
 & > ul > li {
       padding: 0.25em 2em;
 
-
-
 &:not(:last-child) {
      border-bottom: 1px solid rgba(0,0,0,.2);
- }
-
-&:last-child {
-
  }
 }
 }
@@ -289,6 +284,17 @@
 .overlay--active {
     display: block;
 }
+.body-fixed .hexHeader{
+    background-color: white;
+    transition: all .3s linear;
+& > .container {
+     max-width: 100%;
+ }
+& #logo{
+      padding-left: 10px;
+
+  }
+}
 
 @media screen and (max-width: 1201px) {
     .body-fixed {
@@ -301,6 +307,7 @@
         transform: translateX(0);
         z-index: 99999;
         box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+        top: 78px;
     }
 }
 

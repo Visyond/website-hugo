@@ -111,23 +111,20 @@ $(function () {
     hexDropdown();
     function mobileNav() {
         let nav = $('.hexNav');
-        let btn = $('.responsive-btn');
+        let btn = $('#menu-toggle');
+        let overlay = $('.overlay');
         btn.on('click', function() {
             nav.toggleClass('nav--active');
-            $('body').addClass('body-fixed');
-            $('.overlay').addClass('overlay--active');
-
-            $(this).attr('disabled', true);
+            $('body').toggleClass('body-fixed');
+            overlay.toggleClass('overlay--active');
         });
 
-        $('.overlay').on('click touchstart', function() {
+        overlay.on('click touchstart', function() {
             nav.removeClass('nav--active');
             $('body').removeClass('body-fixed');
-            $('.overlay').removeClass('overlay--active');
+            overlay.removeClass('overlay--active');
             btn.removeAttr('disabled');
-            $('.overlay').removeClass("overlay--active");
-            $(".overlay").empty();
-
+            overlay.empty();
         });
     }
     mobileNav();
