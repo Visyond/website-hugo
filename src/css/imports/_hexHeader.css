@@ -4,6 +4,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    transition: all .2s linear;
 }
 @media screen and (min-width: 576px) {
     .hexHeader .container {
@@ -43,7 +44,7 @@
 
 @media screen and (max-width: 1201px) {
     z-index: 9999;
-    padding: 15px;
+    padding: 15px 0;
 }
 }
 .hexHeader + .maincontent{
@@ -60,7 +61,7 @@
     box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.34);
     padding: 15px 0;
 }
-.responsive-btn {
+#menu-toggle {
     border: none;
     background: none;
     padding: 0;
@@ -69,19 +70,48 @@
 
 @media screen and (max-width: 1201px) {
     display: block;
-    margin-left: auto;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 400px) {
+    margin-left: 0;
 }
 }
 .menu{
     display: flex;
     align-items: center;
 }
+#trialButton{
+    white-space: nowrap;
+@media screen and (max-width: 1201px) {
+    margin-left: auto;
+    & .nav__link--primary {
+          color: #fff !important;
+          font-weight: 700 !important;
+          background: #0585ff !important;
+          padding: .5em 2em !important;
+      }
+}
+@media screen and (max-width: 400px) {
+& .nav__link--primary {
+    padding: 8px 5px !important;
+    line-height: 1;
+    font-size: 12px;
+    height: auto;
+}
+}
+}
 #logo{
     font-size: 0;
     display: flex;
     align-items: center;
+    transition: all .2s linear;
 @media screen and (max-width: 1201px) {
     padding: 10px 23px;
+}
+
+@media screen and (max-width: 400px) {
+    padding: 10px 5px;
 }
 }
 .logo__link {

@@ -65,17 +65,23 @@ $(function () {
 
     //=====HEXUP=====
     //=====FIXED HEADER ADD BACKGROUND COLOR WHEN SCROLLED=====
-
-    (function () {
-        window.addEventListener('scroll', function() {
-            const distanceY = window.pageYOffset || document.documentElement.scrollTop;
-            const shrinkOn = 100;
-            const header = document.querySelector('.hexHeader');
+    function scrolledHeader(){
+        const distanceY = window.pageYOffset || document.documentElement.scrollTop;
+        let shrinkOn = 70;
+        if (screen.width < 1200) { shrinkOn = 30 }
+        const header = document.querySelector('.hexHeader');
+        if(header){
             if (distanceY > shrinkOn) {
                 header.classList.add("scrolled");
             } else {
                 header.classList.remove("scrolled");
             }
+        }
+    }
+    (function () {
+        scrolledHeader();
+        window.addEventListener('scroll', function() {
+            scrolledHeader();
         });
     })();
 
@@ -91,13 +97,13 @@ $(function () {
         });
 
         $(document).on('click', function (e) {
-            let parent = $('.nav__item');
+            let parent = $('.hexNav__item');
             for (let i = 0; i < parent.length; i++) {
-                let link = $(parent[i]).has('.dropdown-menu-wrap').find('.nav__link');
+                let link = $(parent[i]).has('.dropdown-menu-wrap').find('.hexNav__link');
                 if (!link.is(e.target) && link.has(e.target).length === 0) {
                     let href = link.attr('href');
                     $(href).removeClass('dropdown-toggle--active');
-                    link.removeClass('nav__link--active')
+                    link.removeClass('hexNav__link--active')
                 }
             }
         })
@@ -105,26 +111,34 @@ $(function () {
     hexDropdown();
     function mobileNav() {
         let nav = $('.hexNav');
-        let btn = $('.responsive-btn');
+        let btn = $('#menu-toggle');
+        let overlay = $('.overlay');
         btn.on('click', function() {
             nav.toggleClass('nav--active');
-            $('body').addClass('body-fixed');
-            $('.overlay').addClass('overlay--active');
-
-            $(this).attr('disabled', true);
+            $('body').toggleClass('body-fixed');
+            overlay.toggleClass('overlay--active');
         });
 
-        $('.overlay').on('click touchstart', function() {
+        overlay.on('click touchstart', function() {
             nav.removeClass('nav--active');
             $('body').removeClass('body-fixed');
-            $('.overlay').removeClass('overlay--active');
+            overlay.removeClass('overlay--active');
             btn.removeAttr('disabled');
-            $('.overlay').removeClass("overlay--active");
-            $(".overlay").empty();
-
+            overlay.empty();
         });
     }
     mobileNav();
+
+    //=====Toggle opening of benefits lists=====
+    (function () {
+        let toggles = $('.enterSections__benefits--title');
+        toggles.each(function () {
+            $(this).click(function () {
+                $(this).toggleClass('opened');
+            })
+        });
+    })();
+
     //=====HEXUP END=====
 
     /**
@@ -207,18 +221,12 @@ $(function () {
     //=====COPYRIGHT=====
 
     function addCopyright() {
-        const copyright = document.querySelectorAll('.js-copyright');
+        const copyrights = document.querySelectorAll('.js-copyright');
         const date = new Date();
-
-        if(copyright) {
-            for (var i; i<copyright.length; i++) {
-                copyright[i].innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
-                /*
-                 for(const item of copyright) {
-                 item.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
-                 */
-
-            }
+        if(copyrights) {
+            copyrights.forEach(function (copyright) {
+                copyright.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+            })
         }
     }
 

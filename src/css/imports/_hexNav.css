@@ -21,6 +21,7 @@
     transition: transform 0.1s ease-in-out;
     max-height: 100vh;
     overflow-y: scroll;
+    top: 78px;
 
 & > ul {
       width: 100%;
@@ -30,14 +31,8 @@
 & > ul > li {
       padding: 0.25em 2em;
 
-
-
 &:not(:last-child) {
      border-bottom: 1px solid rgba(0,0,0,.2);
- }
-
-&:last-child {
-
  }
 }
 }
@@ -124,7 +119,7 @@
 .dropdown-toggle {
     width: 250px;
     position: absolute;
-    top: 5em;
+    top: 50px;
     left: 5px;
     border-radius: 5px;
     display: none;
@@ -144,7 +139,9 @@
     overflow-y: scroll !important;
 }
 }
-
+.hexHeader.scrolled .dropdown-toggle {
+    top: 55px;
+}
 .dropdown-toggle--active {
     display: flex;
 }
@@ -154,10 +151,11 @@
     width: auto;
     position: fixed;
     left: 12%;
-    top: 5em;
+    top: 85px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
     background-color: #f2f3f7;
+    transition: top .2s linear;
 
 @media (max-width: 1201px) {
     border-radius: 0;
@@ -167,6 +165,9 @@
     transform: none;
     margin: 0;
 }
+}
+.hexHeader.scrolled .dropdown-toggle--multicol {
+    top: 70px;
 }
 
 .dropdown-toggle--left {
@@ -283,6 +284,17 @@
 .overlay--active {
     display: block;
 }
+.body-fixed .hexHeader{
+    background-color: white;
+    transition: all .3s linear;
+& > .container {
+     max-width: 100%;
+ }
+& #logo{
+      padding-left: 10px;
+
+  }
+}
 
 @media screen and (max-width: 1201px) {
     .body-fixed {
@@ -295,6 +307,7 @@
         transform: translateX(0);
         z-index: 99999;
         box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+        top: 78px;
     }
 }
 

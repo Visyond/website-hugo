@@ -82,7 +82,7 @@
 
             >
             <ul class="dropdown-toggle__group-list">
-                {{ with .Site.GetPage "section" "nav" }}
+                {{ with .Site.GetPage "section" "hexNav" }}
                 {{ range $el := .Params.resourcesDropdown }}
                 <li class="dropdown-toggle__group-list-item">
                     <a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
@@ -104,11 +104,6 @@
         <li class="hexNav-item">
             <a href="/accounts/signup/" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
             Free Trial
-            </a>
-        </li>
-        <li class="hexNav-item">
-            <a href="/request" class="hexNav__link nav__link--primary {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
-            Request a Demo
             </a>
         </li>
     </ul>

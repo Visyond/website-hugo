@@ -1,0 +1,226 @@
+/*delete after merge*/
+.hexFooter .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media screen and (min-width: 576px) {
+    .hexFooter .container {
+        max-width: 540px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hexFooter .container {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .hexFooter .container {
+        max-width: 960px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    .hexFooter .container {
+        max-width: 1120px;
+    }
+}
+/*end*/
+
+.hexFooter {
+    background: #F1F4FC;
+    padding: 50px 0;
+}
+
+.hexFooter--container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hexFooter__left {
+    width: 440px;
+    display: flex;
+    flex-flow: column nowrap;
+
+@media screen and (max-width: 768px) {
+    width: 100%;
+}
+}
+
+.logo__link--hexFooter img{
+    height: 28px;
+    width: auto;
+}
+.hexContacts {
+    font-style: normal;
+    margin-top: 25px;
+    padding-right: 60px;
+@media screen and (max-width: 768px) {
+    padding: 0;
+}
+@media screen and (max-width: 651px) {
+    margin-top: 15px;
+}
+}
+
+.hexContacts__desc {
+    color: #383E4D;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.hexContacts__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.hexContacts__item {
+    margin-bottom: 12px;
+    color: #383E4D;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.hexContacts__link {
+    font-weight: 900;
+    color: #383E4D;
+    letter-spacing: 0.06em;
+    transition: color 0.1s ease-in-out;
+&:hover {
+     color: #0585ff;
+ }
+
+@media (max-width: 768px) {
+    justify-content: center;
+}
+}
+
+.hexContacts__link-desc {
+    margin-left: 5px;
+}
+
+.hexCopyright {
+    color: #383E4D;
+    font-weight: 400;
+    font-size: 14px;
+@media screen and (max-width: 600px) {
+    margin-bottom: 30px;
+}
+}
+
+.hexFooter__right {
+    flex: 1 0;
+    margin-top: 50px;
+    padding: 0;
+    border-left: 1px solid rgba(83, 101, 155, .25);
+    display: flex;
+
+@media screen and (max-width: 1211px) {
+    padding-left: 45px;
+}
+@media screen and (max-width: 1025px){
+    width: 100%;
+    border-left: 0;
+}
+@media screen and (max-width: 768px) {
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+@media screen and (max-width: 600px) {
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(83, 101, 155, .25);
+}
+}
+
+.hexFooter-section-group {
+    margin-left: 10%;
+
+@media screen and (max-width: 1211px) {
+    margin-left: 0;
+&:not(:last-child){
+    margin-right: 15px;
+}
+}
+@media screen and (max-width: 600px) {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 30px;
+    text-align: center;
+}
+}
+
+.hexFooter-section-group__title {
+    color: #383E4D;
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.hexFooter-section-group__list {
+    list-style: none;
+    margin: 28px 0 0 0;
+    padding: 0;
+}
+
+.hexFooter-section-group__social-list{
+    display: flex;
+    margin: 0;
+@media screen and (max-width: 600px) {
+    justify-content: center;
+}
+}
+.hexFooter-section-group__social-list li:not(:last-child){
+     margin-right: 20px
+ }
+.hexFooter-section-group__social-link{
+    display: inline-block;
+    transition: all .2s linear;
+&:hover svg path{
+    fill: #0585ff;
+}
+}
+
+.hexFooter-section-group__item {
+&:not(:first-child) {
+     margin-top: 15px;
+ }
+}
+
+.hexFooter-section-group__link {
+    color: #383E4D;
+    font-size: 14px;
+
+&:hover {
+     text-decoration: underline;
+ }
+}
+
+.hexFooter-section-partners {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+@media screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+}
+}
+.hexFooter-section-partners .rate-number{
+    fill: #383e4d !important;
+}
+.hexFooter-section-partners .star{
+    fill: rgb(255, 167, 115);
+}
+.hexFooter-section-partners #gartnerText{
+    fill: rgb(153, 156, 163);
+}
