@@ -914,7 +914,22 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Features Info Title", name: "featuresInfoTitle", widget: "string"}
           - {label: "Features Info Descr", name: "featuresInfoDescr", widget: "text"}
 
+      - file: "site/content/hexNav/_index.md"
+        label: "Navigation"
+        name: "nav"
+        fields:
+          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
 
+
+          - { label: "Resources dropdown", name: "resourcesDropdown", widget: "list", fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "path", name: "path", widget: "string" }
+          ]}
+
+          - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
+          - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
+          - {label: "Features Info Title", name: "featuresInfoTitle", widget: "string"}
+          - {label: "Features Info Descr", name: "featuresInfoDescr", widget: "text"}
 
       - file: "site/content/solutions-section/_index.md"
         label: "Solutions Section"
