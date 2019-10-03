@@ -199,7 +199,7 @@ infoBlockFirst:
     title: Present Interactive Data With Impact
 getHexStartedTitle: Get Started in Minutes
 getHexStartedButton: Sign up
-getHexStartedButtonURL: /why-visyond
+getHexStartedButtonURL: /accounts/signup
 BenefitsHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
