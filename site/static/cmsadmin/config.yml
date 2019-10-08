@@ -26,6 +26,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }
       - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
+      - {label: "Hero laptop video", name: "homepageAnimation", widget: "string", required: false,}
       - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
       - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
       - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
