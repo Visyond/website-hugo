@@ -8,6 +8,7 @@ mainFeatures:
     - feature: Reduce Errors
     - feature: Collaborate Securely
 laptop: /img/home/laptop.png
+homepageAnimation: /img/home/HomepageAnimation.mp4
 heroPrimaryButton: Free Sign Up
 heroPrimaryButtonLink: /accounts/signup/
 heroPlayButton: See Demo

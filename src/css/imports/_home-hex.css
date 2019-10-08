@@ -94,6 +94,29 @@
     display: inline-block;
     max-width: 100%;
 }
+.home-hero__half-width-wrap--image{
+    position: relative;
+    z-index: 1;
+}
+.home-hero__video{
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 82.4%;
+    transform: translateX(-50%);
+    z-index: -1;
+    background: white;
+    transition: all .3s linear;
+}
+.home-hero__video-container{
+    height: 100%;
+    width: 76%;
+    position: absolute;
+    top: calc(5% + 3px);
+    left: 11.8%;
+    overflow: hidden;
+}
 @media screen and (min-width: 1025px){
     .home-hero__half-width-wrap{
         width: 50%;
@@ -208,6 +231,7 @@
     }
     .home-hero__container{
         padding: 2rem 0;
+        text-align: center;
     }
     .home-hero__full-width-wrap {
         flex-wrap: wrap;
@@ -231,7 +255,7 @@
         justify-content: space-around;
     }
     .home-hero__half-width-wrap--image{
-        text-align: center;
+        display: inline-block;
         margin-bottom: 45px;
     }
     .home-hero__laptop-image{
