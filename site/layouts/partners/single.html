@@ -48,3 +48,20 @@
 <!-- //second section -->
 
 {{ partial "footer" . }}
+
+<script>
+
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.ww.min.js', { scope: '/' }).then(function(reg) {
+
+            if(reg.active) {
+                reg.update();
+            }
+
+        }).catch(function(error) {
+            // registration failed
+            console.log('Registration failed with ' + error);
+        });
+    }
+
+</script>
