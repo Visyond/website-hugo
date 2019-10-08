@@ -1,7 +1,7 @@
 {{ with .Params.bgBottom }}
 <section style="background-image: url(' {{ . }} '); background-repeat: no-repeat; background-size: cover;">
     {{ else }}
-    <section style="background-image: url('/img/vimages/footer-bg.png'); background-repeat: no-repeat; background-size: cover;">
+    <section style="background-image: url('/img/vimages/footer-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
         {{ end }}
 
         {{ if and (isset .Params "providestitle") (isset .Params "provideslist") }}
