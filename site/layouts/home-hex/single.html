@@ -17,7 +17,9 @@
           <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
               <img class="home-hero__laptop-image" src="{{ .Params.laptop }}" alt="Laptop">
               <div class="home-hero__video-container">
-                  <video src="{{ .Params.homepageAnimation }}" class="home-hero__video" autoplay muted loop></video>
+                  <video poster="/img/home/videoPoster.jpg" class="home-hero__video" autoplay muted loop>
+                      <source src="{{ .Params.homepageAnimation }}" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+                  </video>
               </div>
           </div>
           <div class="home-hero__half-width-wrap">
