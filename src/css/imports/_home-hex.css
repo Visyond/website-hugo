@@ -302,8 +302,9 @@
     .home-hero__other-features li{
         width: 100%;
         text-align: center;
-        display: inline;
+        display: inline-flex;
         margin: 10px;
+        justify-content: center;
     }
 }
 @media screen and (max-width: 360px) {
