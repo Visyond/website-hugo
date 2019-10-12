@@ -6,8 +6,7 @@
   <div class="cover-header--sub">
     {{ .Params.TopSubTitle | markdownify }}
   </div>
-  
-  <!--
+
   <div class="cover-buttons--wrap">
     {{ if .Params.SignUpURL }}
     <a href="{{ .Params.SignUpURL }}" class="button button-basic">
@@ -25,12 +24,12 @@
     {{ end }}
 
     {{ if .Params.RequestURL }}
+    <!-- <a href="{{ .Params.RequestURL }}" class="sol-link sol-link--request"> -->
       <a href="/request" class="button button-basic">  
         Request a Demo
       </a>
       {{ end }}
   </div>
- 
 
   <div class="sol-top__popup js-popup">
     <div class="sol-top__iframe-wrap">
@@ -38,6 +37,5 @@
       <p>{{ .Params.WatchVideoURL }}</p>
 
     </div>
-    -->
   </div>
 </div>

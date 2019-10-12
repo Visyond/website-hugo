@@ -22,7 +22,7 @@ noContentPadding: true
 bgImage: /img/why-visyond-cover.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
+WatchVideoURL22: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 topSubTitle: Secure collaboration, fewer errors, interactive analysis for all your business planning, visualizations and reporting needs
 topImage: /img/Visyond Inforgraphics  NEW v21 NO TOP fix.jpg
