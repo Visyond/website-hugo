@@ -2,7 +2,7 @@
 title: Pricing
 url: /pricing
 topTitle: Scalable Solution That Grows With You
-bgImage: /img/pricing-cover.png
+bgImage: /img/pricing-cover.jpg
 pricingCards:
   cards:
     - cta:
