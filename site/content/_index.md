@@ -2,8 +2,7 @@
 title: Understand Your Data and Make Better Decisions, Faster
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 metaTags: >-
-  <meta property="og:title" content="Visyond - Real-time Analysis and Better
-  Decisions with Spreadsheet and Presentation Automation">
+  <meta property="og:title" content="Visyond - Understand Your Data and Make Better Decisions, Faster">
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png">
