@@ -844,6 +844,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Title", name: "title", widget: "string", required: true}
           - {label: "Page url", name: "url", widget: string}
+          - { label: "Meta tags", name: "metaTags", widget: "markdown"}
           - {label: "Hero title", name: "heroTitle", widget: "markdown", required: true}
           - { label: "Main features list", name: "mainFeatures", widget: "list",
             fields: [
