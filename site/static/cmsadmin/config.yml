@@ -11,8 +11,8 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "oldhomeName"
-    label: "OldHomeLabel"
+  - name: "oldhome"
+    label: "Old Home Slides Vid"
     folder: "site/content/oldhome"
     create: true
     fields:
@@ -838,7 +838,7 @@ collections: # A list of collections the CMS should be able to edit
     #folder: "site/content/_index.md"
     create: true
     files:
-      - label: "Home page label"
+      - label: "Home page CURRENT"
         name: "homeName"
         file: "site/content/_index.md"
         fields:
