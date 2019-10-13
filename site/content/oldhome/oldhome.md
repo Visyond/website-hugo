@@ -1,5 +1,6 @@
 ---
 title: 'Understand Your Data and Make Better Decisions, Faster'
+url: /oldhome
 topTitle: 'Understand Your Data and Make Better Decisions, Faster'
 noContentPadding: true
 bgImage: /img/why-visyond-cover.png
