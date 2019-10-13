@@ -23,12 +23,6 @@
     <!--{{ end }}-->
     <!--{{ end }}-->
     <!--false false-->
-    
-    {{ with .Site.GetPage "section" "counters" }}
-      {{ range $el := .Params }}
-          {{ $el | markdownify}}
-      {{ end }}
-    {{ end }}
 
     {{ with .Params.scripts }}
     {{ . | markdownify }}
