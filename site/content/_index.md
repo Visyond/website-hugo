@@ -1,6 +1,5 @@
 ---
-title: HomeHex
-url: /homehex/
+title: Understand Your Data and Make Better Decisions, Faster
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
     - feature: Automate Workflow
