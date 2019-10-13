@@ -81,7 +81,7 @@ whyCards:
     text: How we compare to others
     url: /why-visyond/
   title: Why Visyond
-bgBottom: /img/footer-cover.png
+bgBottom: /img/footer-bg.jpg
 titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
 ---
