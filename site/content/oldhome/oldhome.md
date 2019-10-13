@@ -1,22 +1,5 @@
 ---
 title: 'Understand Your Data and Make Better Decisions, Faster'
-metaTags: >-
-  <meta property="og:title" content="Visyond - Real-time Analysis and Better
-  Decisions with Spreadsheet and Presentation Automation">
-  <meta property="og:type" content="website">
-  <meta property="og:image"
-  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png">
-  <meta property="og:description" content="Visualize the impact of your
-  decisions and answer any questions on-the-fly, reduce errors and control what
-  each collaborator can see and interact with">
-  <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visyond’s cloud-based spreadsheet management
-  and modeling software powered by machine learning, offers an intelligent
-  approach to managing, collaborating and securing your business spreadsheets.">
-  <meta name="keywords" content="Spreadsheet Software, Spreadsheet Automation
-  Software, Spreadsheet Governance, Spreadsheet Data Analysis, Spreadsheet Data
-  Reporting, Spreadsheet Data Presentation">
-  <meta name="yandex-verification" content="7dfc91ce5829221e">
 topTitle: 'Understand Your Data and Make Better Decisions, Faster'
 noContentPadding: true
 bgImage: /img/why-visyond-cover.png
