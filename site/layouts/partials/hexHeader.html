@@ -23,6 +23,8 @@
     <!--{{ end }}-->
     <!--{{ end }}-->
     <!--false false-->
+    
+    {{ partial "scripts" . }}
 
     {{ with .Params.scripts }}
     {{ . | markdownify }}
