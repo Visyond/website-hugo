@@ -19,8 +19,8 @@ hexSliderLogos:
   - alt: ABRT Logo
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
-    logo: /img/elearn2.png  
+    logo: /img/elearn2.png
   - alt: National Research Council Italy
-    logo: /img/cnr_logo.png  
+    logo: /img/cnr_logo.png
 ---
 
