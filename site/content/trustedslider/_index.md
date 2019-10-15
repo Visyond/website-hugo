@@ -13,7 +13,5 @@ trustedLogos:
     logo: /img/datadvance-logo black and white 15.png
   - alt: CY4GATE Logo
     logo: /img/logo_cy4gate black and white 25.png
-  - alt: National Research Council Italy
-    logo: /img/cnr_logo.png
 ---
 
