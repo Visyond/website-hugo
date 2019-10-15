@@ -47,6 +47,9 @@
     padding: 15px 0;
 }
 }
+.homeHeader{
+    position: relative;
+}
 .hexHeader + .maincontent{
     padding-top: 0 !important;
 }
@@ -60,6 +63,7 @@
     background-color: #fafafa;
     box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.34);
     padding: 15px 0;
+    position: fixed;
 }
 #menu-toggle {
     border: none;
