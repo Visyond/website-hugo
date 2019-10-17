@@ -4,49 +4,18 @@
 
 {{ partial "cover" . }}
 
-    <!-- trusted section -->
-    <!-- {{ partial "trustedslider" . }} -->
-    <!-- ./trusted section -->
-
     <!-- section info -->
-    <ul class="ftr-info js-image-block">
-
-      <!-- list of info blocks with blue button -->
-      {{ partial "info-block-list" . }}
-      <!-- // list of info blocks with blue button -->
-
-    </ul>
-    <!-- ./section info -->
-
-    <!-- features section -->
-   <!-- <div class="ftr-features">
-      <h2 class="ftr-features__title">
-        {{ .Params.featuresTitle }}
-      </h2>
-      <div class="ftr-features__cards">
-      {{ range $cards := .Params.featuresCards }}
-        <a href="{{ .link }}" class="ftr-features__card">
-          <div class="ftr-features__card-image-wrap">
-            <img src="{{ .icon }}" alt="icon" class="ftr-features__card-image">
-          </div>
-          
-          <h3 class="ftr-features__card-title">
-            {{ .title }}
-          </h3>
-
-          <p class="ftr-features__card-text">
-            {{ .text }}
-          </p>
-        </a>
-      {{ end }}
-      </div>
-      <a href="/features" class="ftr-link ftr-link--features">
-        see all features
-      </a>
-    </div> -->
-    <!-- features section -->
-
-  </div>
+    <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+        <div class="container">
+            <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+            <ul class="enterSections js-image-block">
+                <!-- list of info blocks with blue button -->
+                {{ partial "hexBlockList" . }}
+                <!-- // list of info blocks with blue button -->
+            </ul>
+        </div>
+    </section>
+    <!-- //section info -->
 
 {{ partial "get-started" . }}
   
