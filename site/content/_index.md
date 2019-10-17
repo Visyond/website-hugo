@@ -23,7 +23,7 @@ mainFeatures:
     - feature: Reduce Errors
     - feature: Collaborate Securely
 laptop: /img/home/laptop.png
-homepageAnimation: /img/home/2019-10-14 Homapege animation v3.mp4
+homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
 heroPrimaryButton: Free Sign Up
 heroPrimaryButtonLink: /accounts/signup/
 heroPlayButton: See Demo
