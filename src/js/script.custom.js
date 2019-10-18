@@ -221,11 +221,13 @@ $(function () {
     //=====COPYRIGHT=====
 
     function addCopyright() {
-        const copyrights = document.querySelectorAll('.js-copyright');
+        const copyrights = $('.js-copyright');
         const date = new Date();
         if(copyrights) {
-            copyrights.forEach(function (copyright) {
-                copyright.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+            copyrights.each(function () {
+                $(this).html(function(  ) {
+                    return '2011-' + date.getFullYear() + '&copy; Visyond. All rights reserved'
+                });
             })
         }
     }
