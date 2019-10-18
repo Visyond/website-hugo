@@ -67,9 +67,14 @@ $(function () {
     //=====FIXED HEADER ADD BACKGROUND COLOR WHEN SCROLLED=====
     function scrolledHeader(){
         const distanceY = window.pageYOffset || document.documentElement.scrollTop;
-        let shrinkOn = 70;
-        if (screen.width < 1200) { shrinkOn = 30 }
-        const header = document.querySelector('.hexHeader');
+        let shrinkOn = 20;
+        const homeHeader = document.querySelector('.homeHeader');
+        let header = document.querySelector('.hexHeader');
+        if( homeHeader ) {
+            header = homeHeader;
+            shrinkOn = 70;
+            if (screen.width < 1200) { shrinkOn = 30 }
+        }
         if(header){
             if (distanceY > shrinkOn) {
                 header.classList.add("scrolled");
@@ -221,11 +226,13 @@ $(function () {
     //=====COPYRIGHT=====
 
     function addCopyright() {
-        const copyrights = document.querySelectorAll('.js-copyright');
+        const copyrights = $('.js-copyright');
         const date = new Date();
         if(copyrights) {
-            copyrights.forEach(function (copyright) {
-                copyright.innerHTML = `2011-${date.getFullYear()} &copy; Visyond. All rights reserved`
+            copyrights.each(function () {
+                $(this).html(function(  ) {
+                    return '2011-' + date.getFullYear() + '&copy; Visyond. All rights reserved'
+                });
             })
         }
     }
