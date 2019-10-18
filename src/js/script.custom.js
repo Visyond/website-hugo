@@ -67,9 +67,14 @@ $(function () {
     //=====FIXED HEADER ADD BACKGROUND COLOR WHEN SCROLLED=====
     function scrolledHeader(){
         const distanceY = window.pageYOffset || document.documentElement.scrollTop;
-        let shrinkOn = 70;
-        if (screen.width < 1200) { shrinkOn = 30 }
-        const header = document.querySelector('.hexHeader');
+        let shrinkOn = 20;
+        const homeHeader = document.querySelector('.homeHeader');
+        let header = document.querySelector('.hexHeader');
+        if( homeHeader ) {
+            header = homeHeader;
+            shrinkOn = 70;
+            if (screen.width < 1200) { shrinkOn = 30 }
+        }
         if(header){
             if (distanceY > shrinkOn) {
                 header.classList.add("scrolled");
