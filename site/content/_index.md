@@ -35,7 +35,7 @@ otherFeatures:
     - featureIcon: /img/home/excel.svg
       feature: Excel Compatible
     - featureIcon: /img/home/finger.svg
-      feature: Intuitive, Familiar, & Easy to Use
+      feature: Flexible, Familiar, & Easy to Use
     - featureIcon: /img/home/sandWatch.svg
       feature: Get Started in Minutes
 gartnerImage: /img/home/gartner-mobile.png
