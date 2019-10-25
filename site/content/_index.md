@@ -18,10 +18,10 @@ metaTags: >-
   Reporting, Spreadsheet Data Presentation">
   <meta name="yandex-verification" content="7dfc91ce5829221e">
 mainFeatures:
-    - feature: Automate Workflow
-    - feature: Track Changes
-    - feature: Reduce Errors
-    - feature: Collaborate Securely
+    - feature: Planning automation
+    - feature: Quick adoption
+    - feature: Secure collaboration
+    - feature: Error reduction
 laptop: /img/home/laptop.png
 homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
 heroPrimaryButton: Free Sign Up
@@ -213,8 +213,8 @@ infoBlockFirst:
     link: /solutions/presentation
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
-getHexStartedTitle: Get Started in Minutes
-getHexStartedButton: Sign up
+getHexStartedTitle: Flexible. Familiar. Scalable.
+getHexStartedButton: Get started in minutes
 getHexStartedButtonURL: /accounts/signup
 BenefitsHeader: Benefits
 cards:
