@@ -14,5 +14,7 @@ hexSliderLogos:
     logo: /img/logo_cy4gate black and white 25.png
   - alt: National Research Council Italy Logo
     logo: /img/cnr_logo.png
+  - alt: Catholic Memorial School Logo
+    logo: /img/catholic memorial school logo.png
 ---
 
