@@ -15,7 +15,7 @@ topSubTitle: >-
   making software this is no longer unpredictable - especially when your
   company’s future is at stake.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL: 'https://www.youtube.com/embed/uufPL_qXvaI'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
