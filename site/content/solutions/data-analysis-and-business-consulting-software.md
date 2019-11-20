@@ -10,7 +10,7 @@ topTitle: >-
   & Present Data and Make Better Decisions, faster
 topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
