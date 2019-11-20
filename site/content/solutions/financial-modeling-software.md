@@ -13,7 +13,7 @@ topSubTitle: >-
   step of the way by automating routine tasks, minimizing the risk of errors in
   an intuitive Excel-compatible platform.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
