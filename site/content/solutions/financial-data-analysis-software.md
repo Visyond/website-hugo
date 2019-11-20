@@ -15,7 +15,7 @@ topSubTitle: >-
   you need better financial data analysis software to spend minutes instead of
   days and avoid costly mistakes - Visyond.
 signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
