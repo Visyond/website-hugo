@@ -15,7 +15,7 @@
     </a>
     {{ end }}
     
-    
+    <!--
     {{ if .Params.WatchVideoURL }}
     <button class="button button-icon button-basic--active js-btn-video">
       <i class="material-icons">
@@ -24,7 +24,7 @@
       2 min demo
     </button>
     {{ end }}
-    
+    --> 
 
     <!--
     {{ if .Params.RequestURL }}
@@ -33,18 +33,8 @@
       </a>
       {{ end }}
     --> 
-  </div>
-
-  
-  <div class="sol-top__popup js-popup">
-    <div class="sol-top__iframe-wrap">
-      <button class="sol-top__popup-close js-popup-close"></button>
-      <p>{{ .Params.WatchVideoURL }}</p>
-    </div>
-  </div>
- 
-  
-  <!-- VIDEO BUTTON FROM HOME (HEX) PAGE 
+    
+  <!-- VIDEO BUTTON FROM HOME (HEX) PAGE -->
   {{ if .Params.WatchVideoURL }}
     <button class="button button-icon js-btn-video2">
       <i class="material-icons">
@@ -53,14 +43,28 @@
       2 min demo
     </button>
   {{ end }}
+  <!-- //VIDEO BUTTON FROM HOME (HEX) PAGE -->
+    
+  </div>
+
+  <!--
+  <div class="sol-top__popup js-popup">
+    <div class="sol-top__iframe-wrap">
+      <button class="sol-top__popup-close js-popup-close"></button>
+      <p>{{ .Params.WatchVideoURL }}</p>
+    </div>
+  </div>
+  --> 
   
+  
+  <!-- //VIDEO CLOSE FROM HOME (HEX) PAGE -->
   <div class="ht-top__popup js-popup2">
     <div class="ht-top__iframe-wrap">
       <button class="ht-top__popup-close js-popup-close2"></button>
         <p>{{ .Params.WatchVideoURL }}</p>
     </div>
   </div>
-  //VIDEO BUTTON FROM HOME (HEX) PAGE -->  
+  <!-- //VIDEO CLOSE FROM HOME (HEX) PAGE -->  
   
   
 </div>
