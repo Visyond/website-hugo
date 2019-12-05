@@ -214,8 +214,8 @@ infoBlockFirst:
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
 getHexStartedTitle: Flexible. Familiar. Scalable.
-getHexStartedButton: Get started in minutes
-getHexStartedButtonURL: /accounts/signup
+getHexStartedButton: Request Demo
+getHexStartedButtonURL: /request
 BenefitsHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
