@@ -7,14 +7,15 @@
     {{ .Params.TopSubTitle | markdownify }}
   </div>
   
-  
+  <!--
   <div class="cover-buttons--wrap">
     {{ if .Params.SignUpURL }}
     <a href="{{ .Params.SignUpURL }}" class="button button-basic">
       Sign Up
     </a>
     {{ end }}
-    
+   --> 
+  
     <!--
     {{ if .Params.WatchVideoURL }}
     <button class="button button-icon button-basic--active js-btn-video">
@@ -26,13 +27,13 @@
     {{ end }}
     --> 
 
-    <!--
+    
     {{ if .Params.RequestURL }}
       <a href="/request" class="button button-basic">  
-        Request a Demo
+        Request demo
       </a>
       {{ end }}
-    --> 
+    
     
   <!-- VIDEO BUTTON FROM HOME (HEX) PAGE -->
   {{ if .Params.WatchVideoURL }}
