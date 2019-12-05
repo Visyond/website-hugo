@@ -24,11 +24,11 @@ mainFeatures:
     - feature: Error reduction
 laptop: /img/home/laptop.png
 homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
-heroPrimaryButton: Free Sign Up
-heroPrimaryButtonLink: /accounts/signup/
+heroPrimaryButton: Request Demo
+heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
-heroDemoButton: Request a Demo
-heroDemoButtonLink: /request/
+heroDemoButton: Sign Up
+heroDemoButtonLink: /accounts/signup
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
