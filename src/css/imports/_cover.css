@@ -35,6 +35,7 @@
             font-weight: 300;
             display: inline-block;
             width: 70%;
+            text-shadow: 1px 1px 6px #383e4d;
         }
     }
 
@@ -162,6 +163,7 @@
     font-weight: 400;
     display: inline-block;
     width: 70%;
+    text-shadow: 1px 1px 6px #383e4d;
     text-align: center;
     color: #fff;
     padding: 0 var(--global-padding);
