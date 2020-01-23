@@ -10,9 +10,7 @@ metaTags: >-
   decisions and answer any questions on-the-fly, reduce errors and control what
   each collaborator can see and interact with">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visyond’s cloud-based spreadsheet management
-  and modeling software powered by machine learning, offers an intelligent
-  approach to managing, collaborating and securing your business spreadsheets.">
+  <meta name="description" content="Visyond’s cloud-based spreadsheet and financial modeling platform offers an intelligent approach to managing, collaborating and securing your spreadsheets.">
   <meta name="keywords" content="Spreadsheet Software, Spreadsheet Automation
   Software, Spreadsheet Governance, Spreadsheet Data Analysis, Spreadsheet Data
   Reporting, Spreadsheet Data Presentation">
