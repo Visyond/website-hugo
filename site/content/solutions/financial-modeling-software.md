@@ -52,7 +52,7 @@ infoBlockFirst:
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
     image: /img/track errors 1.png
     link: /features/audit-mode/
-    title: Automate Audit of Financial Models
+    title: Automate Financial Modeling Audit
   - descr: >
       * Don’t worry about managing versions of the model while tracking inputs
       from contributors - we do it for you
