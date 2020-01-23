@@ -145,7 +145,7 @@
     font-size: 2.5em;
     margin: 0;
     padding: 0;
-    text-shadow: 1px 1px 6px #383e4d;
+    text-shadow: 1px 1px 6px #000;
     display: inline-block;
     width: 70%;
 
@@ -163,7 +163,7 @@
     font-weight: 400;
     display: inline-block;
     width: 70%;
-    text-shadow: 1px 1px 6px #383e4d;
+    text-shadow: 1px 1px 6px #000;
     text-align: center;
     color: #fff;
     padding: 0 var(--global-padding);
