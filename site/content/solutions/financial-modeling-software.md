@@ -7,13 +7,11 @@ metaTags: >-
   scenarios,  automate analysis, present models with Visyond’s Excel-compatible
   financial modeling software."> <meta name="keywords" content="Financial
   Modeling Software, Financial Modeling Tools, Spreadsheet Modeling">
-topTitle: >-
-  Automate Financial Modeling Tasks: Build, Analyze, Audit, and Present Models
-  Faster
+topTitle: 'Financial Modeling Software: Build, Analyze, Audit, and Present Models Faster'
 topSubTitle: >-
-  Visyond’s financial modeling software aids modeling professionals on every
-  step on the way by providing financial modeling tools that automate routine
-  tasks, minimize risk of introducing errors, and help make better decisions.
+  Visyond’s financial modeling software aids professionals on every step on the
+  way by providing financial modeling tools that automate routine tasks,
+  minimize risk of introducing errors, and help make better decisions.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
@@ -52,10 +50,10 @@ infoBlockFirst:
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
     image: /img/track errors 1.png
     link: /features/audit-mode/
-    title: Automate Financial Modeling Audit
+    title: Automate Financial Modeling Tasks
   - descr: >
       * Don’t worry about managing versions of the model while tracking inputs
-      from contributors - we do it for you
+      from contributors - our financial modeling software does it for you
 
       * Contributors can’t overwrite each others’ inputs - they are stored in
       parallel
