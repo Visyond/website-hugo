@@ -207,7 +207,9 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
+titleBottom: >-
+  Find out how Visyond's financial modeling software can transform your
+  decision-making process today
 botRequestURL: /request
 ---
 
