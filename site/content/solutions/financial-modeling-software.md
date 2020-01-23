@@ -10,14 +10,15 @@ metaTags: >-
 topTitle: 'Financial Modeling Software: Build, Analyze, Audit, and Present Models Faster'
 topSubTitle: >-
   Visyond’s financial modeling software aids professionals on every step on the
-  way by providing financial modeling tools that automate routine tasks,
-  minimize risk of introducing errors, and help make better decisions.
+  way by providing easy-to-use financial modeling tools that automate routine
+  tasks, minimize risk of introducing errors, and help make better decisions.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
+  - altText: Financial Modeling Software - Audit Financial Models
+    descr: >-
       * Streamline audit of financial models and spreadsheets, improve quality
       of your models and reduce the probability of accidental human errors
 
@@ -51,7 +52,10 @@ infoBlockFirst:
     image: /img/track errors 1.png
     link: /features/audit-mode/
     title: Automate Financial Modeling Tasks
-  - descr: >
+  - altText: >-
+      Financial Modeling Software - Single Source of Truth for Your Financial
+      Model
+    descr: >
       * Don’t worry about managing versions of the model while tracking inputs
       from contributors - our financial modeling software does it for you
 
@@ -92,7 +96,8 @@ infoBlockFirst:
     image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
     title: Single Source of Truth For Your Financial Model
-  - descr: >-
+  - altText: Financial Modeling Software - Share Only Relevant Data Pieces
+    descr: >-
       * Keep sensitive information safe - only stakeholders you approve will
       have access to it
 
@@ -125,7 +130,8 @@ infoBlockFirst:
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
     title: Share Only Relevant Data Pieces
-  - descr: "* Automate typical analytical tasks - [compare scenarios](/features/scenarios/), [run Monte Carlo Simulations](/features/simulations/) or [sensitivity](/features/sensitivity/) analysis) - without add-ons/macros or coding\n* Focus on on getting insights from your data instead of preparing data\n* Run Visyond’s intelligent auto-analysis for complete analysis in seconds\r\n"
+  - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
+    descr: "* Automate typical analytical tasks - [compare Scenarios](/features/scenarios/), [run Monte Carlo Simulations](/features/simulations/) or [Sensitivity](/features/sensitivity/) analysis) - without add-ons/macros or coding\n* Focus on on getting insights from your data instead of preparing data\n* Take advantage of financial modeling tools such as Visyond's auto-analysis for complete analysis in seconds\r\n\n"
     files:
       - alt: Financial Modeling Software - Compare Scenarios in Financial Models
         descr: >-
@@ -163,8 +169,9 @@ infoBlockFirst:
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Scenario Analysis.png
     link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Automate Financial Modeling Analysis
-  - descr: >-
+    title: Automate Spreadsheet Modeling Analysis
+  - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
+    descr: >-
       * Empower stakeholders to answer ‘what-if’ questions by themselves without
       going back to the model or the modeler
 
