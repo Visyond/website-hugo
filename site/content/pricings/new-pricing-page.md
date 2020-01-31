@@ -17,7 +17,7 @@ pricingCards:
         * Modeling & Error-detection
         * Auto-analysis & Simulations
         * Auto Financial Statements
-        * **From $25 per user/month**
+        * **From $250 per user/year**
       subTitleList: |
         * Import your Excel file to start
         * Get value immediately
