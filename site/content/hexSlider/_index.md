@@ -9,7 +9,7 @@ hexSliderLogos:
   - alt: eLearnSecuiry Logo
     logo: /img/elearn2.png
   - alt: Ericsson Logo
-    logo: Ericsson_logo bnw resize 4 grey.png  
+    logo: /img/Ericsson_logo bnw resize 4 grey.png  
   - alt: Datadvance Logo
     logo: /img/datadvance-logo black and white 15.png
   - alt: CY4GATE Logo
