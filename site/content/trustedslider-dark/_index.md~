@@ -10,10 +10,14 @@ trustedLogos:
   - alt: eLearnSecuiry Logo
     logo: /img/elearn2.png
   - alt: Ericsson Logo
-    logo: /img/v_ericsson.png
+    logo: Ericsson_logo bnw resize 4 grey.png  
   - alt: Datadvance Logo
     logo: /img/datadvance-logo black and white 15.png
   - alt: CY4GATE Logo
     logo: /img/logo_cy4gate black and white 25.png
+  - alt: National Research Council Italy Logo
+    logo: /img/cnr italy logo 2.png
+  - alt: Catholic Memorial School Logo
+    logo: /img/catholic memorial school logo.png
 ---
 
