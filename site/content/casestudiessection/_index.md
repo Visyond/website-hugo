@@ -7,7 +7,7 @@ studiesBlock:
     image: /img/Ericsson_logo_250w.png
     linkText: Learn More
     linkUrl: >-
-      /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+      /casestudy/ericsson-case-study-visyond/
     text: >-
       Visyond has greatly improved my productivity by reducing time spent on
       spreadsheet analysis, presentations and updates by more than 80%. This
