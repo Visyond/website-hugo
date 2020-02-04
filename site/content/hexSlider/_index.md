@@ -13,7 +13,7 @@ hexSliderLogos:
   - alt: CY4GATE Logo
     logo: /img/logo_cy4gate black and white 25.png
   - alt: Ericsson Logo
-    logo: /img/erricsson horizontal bnw.png
+    logo: /img/erricsson horizontal grey.png
   - alt: National Research Council Italy Logo
     logo: /img/cnr italy logo 2.png
   - alt: Catholic Memorial School Logo
