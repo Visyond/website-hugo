@@ -3,9 +3,9 @@ caseTitle: Featured Case Studies
 case:
   - alt: Telecom Vendor Logo
     caseDescr: >-
-      How a Leading Telecom Company Accelerates Their Business Case Workflow by
+      How a Leading Ericsson Accelerates Their Business Case Workflow by
       80% and Empowers Their Customers with Visyond
-    caseIco: /img/telecommunication_3x.png
+    caseIco: /img/Ericsson_logo_250w.png
     caseLink: >-
       /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
   - alt: Elettronica Logo
