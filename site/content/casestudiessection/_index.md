@@ -4,7 +4,7 @@ studiesLinkText: Explore More Case Studies
 studiesLink: /casestudy
 studiesBlock:
   - author: 'Chief Modeler'
-    image: /img/telecommunication_3x.png
+    image: /img/Ericsson_logo_250w.png
     linkText: Learn More
     linkUrl: >-
       /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
@@ -14,7 +14,7 @@ studiesBlock:
       allowed me to focus on business impact rather than the intricacies of
       modeling I had to deal with in Excel.
     title: >-
-      How a Leading Telecom Company accelerates their business case workflow by
+      How Ericsson accelerates their business case workflow by
       80% and empowers their customers with Visyond
   - author: 'Fernando Rizzo, Area Manager, Elettronica'
     image: /img/elet2.png
