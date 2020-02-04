@@ -22,7 +22,7 @@ tooltip:
   - title: 'Use Cases: Sales Negotiation, Impact Modeling, Analysis, Presentation'
 client: /img/Chief Modeler Portrait.png
 client_ask: >-
-  Every time a telecom company has to prepare a business case to display the
+  Every time Ericsson has to prepare a business case to display the
   value of their solutions or an investment ROI, most likely they use
   spreadsheets, business intelligence tools and presentations.
 
