@@ -15,7 +15,7 @@ hexSliderLogos:
   - alt: Ericsson Logo
     logo: /img/erricsson horizontal grey.png
   - alt: National Research Council Italy Logo
-    logo: /img/cnr italy logo 2.png
+    logo: /img/CNR Italy logo grey.png
   - alt: Catholic Memorial School Logo
     logo: /img/catholic memorial school logo.png
 ---
