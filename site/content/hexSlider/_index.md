@@ -8,12 +8,12 @@ hexSliderLogos:
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
     logo: /img/elearn2.png
-  - alt: Ericsson Logo
-    logo: /img/erricsson horizontal bnw.png
   - alt: Datadvance Logo
     logo: /img/datadvance-logo black and white 15.png
   - alt: CY4GATE Logo
     logo: /img/logo_cy4gate black and white 25.png
+   - alt: Ericsson Logo
+    logo: /img/erricsson horizontal bnw.png
   - alt: National Research Council Italy Logo
     logo: /img/cnr italy logo 2.png
   - alt: Catholic Memorial School Logo
