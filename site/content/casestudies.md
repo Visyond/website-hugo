@@ -3,18 +3,18 @@ title: Case Studies
 url: /casestudy/
 type: casestudies
 casestudies:
-  - alt: Leading Telecom Company Logo
-    logo: /img/telecommunication_3x.png
+  - alt: Ericsson Logo
+    logo: /img/Ericsson_logo_250w.png
     tags:
       - tagTitle: Impact Modeling
       - tagTitle: Sales Negotiation
       - tagTitle: Analysis
       - tagTitle: Presentation
     title: >-
-      How a Leading Telecom Company Accelerates Their Business Case Workflow by
+      How Ericsson Accelerates Their Business Case Workflow by
       80% and Empowers Their Customers with Visyond
     url: >-
-      /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+      /casestudy/ericsson-case-study-visyond/
   - alt: Elettronica Logo
     logo: /img/elet.png
     name: ''
