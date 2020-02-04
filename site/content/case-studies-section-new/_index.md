@@ -7,7 +7,7 @@ case:
       80% and Empowers Their Customers with Visyond
     caseIco: /img/Ericsson_logo_250w.png
     caseLink: >-
-      /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
+      /casestudy/ericsson-case-study-visyond/
   - alt: Elettronica Logo
     caseDescr: How Elettronica Reduced the Sales Planning Cycle from Weeks to Hours
     caseIco: /img/elet.png
