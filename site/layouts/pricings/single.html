@@ -51,7 +51,7 @@
 
         <div class="card__list">
             {{ range .cards }}
-            <a href="{{.url}}" class="card__list-item">
+            <div href="{{.url}}" class="card__list-item">
 
                 <article class="card">
                     <div class="card__title-wrap">
@@ -82,7 +82,7 @@
                     {{ end }}
                 </article>
 
-            </a>
+            </div>
             {{ end }}
 
         </div>
