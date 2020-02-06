@@ -18,5 +18,7 @@ hexSliderLogos:
     logo: /img/CNR Italy logo grey.png
   - alt: Catholic Memorial School Logo
     logo: /img/catholic memorial school logo.png
+  - alt: SGM Shipping Services logo
+    logo: /img/SGM logo bnw.png
 ---
 
