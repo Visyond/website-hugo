@@ -2,71 +2,48 @@
 title: Pricing
 url: /pricing
 topTitle: Scalable Solution That Grows With You
-bgImage: /img/pricing-cover.jpg
+topSubTitle: ''
+bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
     - cta:
-        text: Start Free Trial
-        url: /accounts/signup/
+        text: Request a Demo
+        url: /request/
       img: /img/icons/individual-icon.svg
-      url: /accounts/signup/
-      markdown: |-
-        * **Spreadsheet & Charts**
-        * **What-if & Scenario Analysis**
-        * **Interactive Presentations**
-        * Modeling & Error-detection
-        * Auto-analysis & Simulations
-        * Auto Financial Statements
-        * **From $250 per user/year**
-      subTitleList: |
-        * Import your Excel file to start
-        * Get value immediately
-        * Pay only for what you need
-      title: Individual
+      markdown: "* Edit without overwriting others’ inputs\r\n* Share only specific worksheets\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r\n"
+      subTitleList: >-
+        Import or build models, understand spreadsheet structure and identify
+        errors and anomalies 
+      title: Model Architect
+      url: ''
     - cta:
         text: Request a demo
         url: /request
       img: /img/icons/team-icon.svg
-      url: /request/
-      markdown: |-
-        * **Share parts of projects**
-        * **Collaborate w/o overwriting**
-        * **Keep audit trail**
-        * Manage permissions
-        * Customize analysis
-        * Query Self-service BI
-        * **Request a demo**
-      subTitleList: |
-        * Invite Colleagues & Clients
-        * Control what they see
-        * Track what they do
-      title: Team
+      markdown: "* Create, compare and analyze scenarios\r\n* Find important cells with Sensitivity analysis\r\n\r* Run Monte Carlo Simulations\r\n* Analyze w/o using external tools\r\n"
+      subTitleList: >-
+        Automate analytical tasks, answer ‘what-if’ questions and present
+        results on the fly
+      title: Master Analyst
+      url: ''
     - cta:
-        text: Contact Us
+        text: Request a Demo
         url: /request
       img: /img/icons/enterprise-icon.svg
-      url: /request/
-      markdown: |-
-        * **Custom integrations**
-        * **On-premise installation**
-        * **Personalized workflow**
-        * Brand Identity
-        * Onboarding program
-        * Dedicated account manager
-        * **Contact Us**
-      subTitleList: |-
-        * Answer questions in real time
-        * Visualize the impact of decisions
-        * Securely interact with data
-      title: Enterprise
-  title: Visyond for...
+      markdown: "* Generate and link Financial Statements to model\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Share only specific slides\r\n"
+      subTitleList: >-
+        Effectively communicate results of your work to both technical and
+        non-technical audience
+      title: Agile Presenter
+      url: ''
+  title: Pick Modules You Need
 whyCards:
   cards:
     - description:
         - Explore the variety of solutions Visyond offers
       icon: /img/icons/desktop.svg
-      url: /solutions/
       title: Solutions
+      url: /solutions/
     - description:
         - Find out how Visyond helps companies of all sizes
       icon: /img/icons/knowledge.svg
@@ -75,13 +52,13 @@ whyCards:
     - description:
         - Learn more about Visyond's features
       icon: /img/icons/payment.svg
-      url: /features/
       title: Features
+      url: /features/
   cta:
     text: How we compare to others
     url: /why-visyond/
   title: Why Visyond
-bgBottom: /img/footer-bg.jpg
+bgBottom: /img/footer-cover.png
 titleBottom: Find out how to improve your decision-making process today
 linkBottom: /request
 ---
