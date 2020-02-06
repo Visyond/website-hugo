@@ -9,7 +9,7 @@ pricingCards:
     - cta:
         text: Request a Demo
         url: /request/
-      img: /img/icons/individual-icon.svg
+      img: /img/spreadsheet_collaboration_3x.png
       markdown: "* Edit without overwriting others’ inputs\r\n* Share only specific worksheets\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r\n"
       subTitleList: >-
         Import or build models, understand spreadsheet structure and identify
@@ -19,7 +19,7 @@ pricingCards:
     - cta:
         text: Request a demo
         url: /request
-      img: /img/icons/team-icon.svg
+      img: /img/report_presentation_visualization_3x.png
       markdown: "* Create, compare and analyze scenarios\r\n* Find important cells with Sensitivity analysis\r\n\r* Run Monte Carlo Simulations\r\n* Analyze w/o using external tools\r\n"
       subTitleList: >-
         Automate analytical tasks, answer ‘what-if’ questions and present
@@ -29,7 +29,7 @@ pricingCards:
     - cta:
         text: Request a Demo
         url: /request
-      img: /img/icons/enterprise-icon.svg
+      img: /img/analyst_and_consultant_3x.png
       markdown: "* Generate and link Financial Statements to model\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Share only specific slides\r\n"
       subTitleList: >-
         Effectively communicate results of your work to both technical and
