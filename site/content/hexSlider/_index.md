@@ -2,8 +2,6 @@
 hexSliderLogos:
   - alt: Elettronica Logo
     logo: /img/v_elt.png
-  - alt: Deloitte Logo
-    logo: /img/v_deloitte.png
   - alt: ABRT Logo
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
