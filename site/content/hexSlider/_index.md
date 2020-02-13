@@ -2,12 +2,12 @@
 hexSliderLogos:
   - alt: Elettronica Logo
     logo: /img/v_elt.png
-  - alt: Ericsson Logo
-    logo: /img/erricsson horizontal grey.png
   - alt: ABRT Logo
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
     logo: /img/elearn2.png
+  - alt: Ericsson Logo
+    logo: /img/erricsson horizontal grey.png
   - alt: Datadvance Logo
     logo: /img/datadvance logo grey.png
   - alt: CY4GATE Logo
