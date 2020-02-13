@@ -463,7 +463,7 @@
 }
 @media screen and (max-width: 550px) {
     .whyV__image-wrap{
-        display: none;
+        /* display: none; */
     }
     .whyV__list-wrap{
         display: inline-block;
