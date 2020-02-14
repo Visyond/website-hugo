@@ -43,7 +43,7 @@ header.scrolled + .headerFix{
 }
 .hexHeader {
     padding: 37px 0;
-    background: white;
+    background: #fafafa;
     display: flex;
     justify-content: space-between;
     position: fixed;
