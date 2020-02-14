@@ -6,7 +6,10 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - cta:
+    - PricePrimary: $1000
+      PricePrimaryPeriod: user/year
+      PriceSecondary: or $100 user/month
+      cta:
         text: Request a Demo
         url: /request/
       img: /img/spreadsheet_collaboration_3x.png
@@ -16,7 +19,10 @@ pricingCards:
         errors and anomalies 
       title: Model Architect
       url: ''
-    - cta:
+    - PricePrimary: $1000
+      PricePrimaryPeriod: user/year
+      PriceSecondary: or $100 user/month
+      cta:
         text: Request a demo
         url: /request
       img: /img/report_presentation_visualization_3x.png
@@ -26,7 +32,10 @@ pricingCards:
         results on the fly
       title: Master Analyst
       url: ''
-    - cta:
+    - PricePrimary: $1100
+      PricePrimaryPeriod: user/year
+      PriceSecondary: or $110 user/month
+      cta:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
