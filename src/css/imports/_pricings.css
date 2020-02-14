@@ -291,6 +291,32 @@ font-size: 1em;
 /* END ANNUAL/MONTHLY PRICE */
 
 
+/* CARDS FOR CONTACT US IF YOU NEED... SECTION */
+.pricing__cards {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 20px 10px;
+  text-align: center;
+  color: #595959;
+  width: 100%;
+  max-width: 300px;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  border-radius: 5px;
+}
+/* END CARDS FOR CONTACT US IF YOU NEED... SECTION */
 
 /*.prs3rd {
   background: rgba(0,0,0,.5) center center no-repeat;
