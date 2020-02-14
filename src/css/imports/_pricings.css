@@ -260,6 +260,37 @@
   }
 }
 
+
+/* ANNUAL/MONTHLY PRICE */
+.price-wrapper {
+	margin-top: 1em;
+}
+
+.price-primary-value {
+font-weight: 400;
+color: #0585ff;
+font-size: 2.2em;
+display: inline;
+}
+
+
+.price-primary-period {
+font-weight: 400; 
+color: #0585ff;
+font-size: 1.3em;
+display: inline;
+}
+
+
+.price-secondary {
+font-weight: 400;
+color: #5f6976;
+font-size: 1em;
+}
+/* END ANNUAL/MONTHLY PRICE */
+
+
+
 /*.prs3rd {
   background: rgba(0,0,0,.5) center center no-repeat;
   -webkit-background-size: cover;
