@@ -264,6 +264,7 @@
 /* ANNUAL/MONTHLY PRICE */
 .price-wrapper {
 	margin-top: 1em;
+	text-align: center;
 }
 
 .price-primary-value {
