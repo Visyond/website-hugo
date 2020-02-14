@@ -124,7 +124,7 @@ body > p {
 }
 
 .half-gray {
-    background: linear-gradient(to bottom, #fafafa 380px, #feffff 380px);
+    background: linear-gradient(to bottom,#fafafa 100px,#feffff 450px);
 
     @media screen and (--tablet) {
         background: #fafafa;
