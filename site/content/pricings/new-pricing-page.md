@@ -13,7 +13,7 @@ pricingCards:
         text: Request a Demo
         url: /request/
       img: /img/spreadsheet_collaboration_3x.png
-      markdown: "* **This module includes everything in the BUILD tab**\n* Edit without overwriting others’ inputs\r\n* Share only specific worksheets\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
+      markdown: "* This module includes everything in the BUILD tab\n* Edit without overwriting others’ inputs\r\n* Share only specific worksheets\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
       subTitleList: >-
         Import or build models, understand spreadsheet structure and identify
         errors and anomalies 
@@ -27,7 +27,7 @@ pricingCards:
         url: /request
       img: /img/report_presentation_visualization_3x.png
       markdown: |-
-        * **This module includes everything in the ANALYZE tab**
+        * This module includes everything in the ANALYZE tab
         * Create, compare and analyze scenarios
         * Find important cells with Sensitivity analysis
         * Run Monte Carlo Simulations
@@ -44,7 +44,7 @@ pricingCards:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
-      markdown: "* **This module includes everything in the REPORT tab**\n* Generate and link Financial Statements to model\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Share only specific slides\r\n"
+      markdown: "* This module includes everything in the REPORT tab\n* Generate and link Financial Statements to model\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Share only specific slides\r\n"
       subTitleList: >-
         Effectively communicate results of your work to both technical and
         non-technical audience
