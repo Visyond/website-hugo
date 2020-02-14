@@ -52,6 +52,7 @@ header.scrolled + .headerFix{
     width: 100%;
     transition: padding .3s ease-in-out, background-color .3s ease-in-out;
     z-index: 999;
+    font-weight: 400;
 
 @media screen and (max-width: 1201px) {
     z-index: 9999;
