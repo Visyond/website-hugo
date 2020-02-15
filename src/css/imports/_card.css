@@ -68,6 +68,12 @@
     color: #0e2639;
 }
 
+.card__title__pricing {
+    font-size: 2em;
+    font-weight: 400;
+    color: #383e4d;
+}
+
 .card__subtitle {
     font-weight: 400;
     list-style-type: none;
