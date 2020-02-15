@@ -105,8 +105,11 @@
 		    </div>
 			
 			    
-                    {{ with .markdown }}
+                    
                     <hr class="divider-thin">
+		<div class="before-bullet-points">{{ .BeforeBulletPoints }}</div>
+			
+		{{ with .markdown }}
                     <div class="card__markdown">
                         {{ . | markdownify }}
                     </div>
