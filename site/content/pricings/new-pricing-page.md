@@ -30,8 +30,8 @@ pricingCards:
         * This module includes everything in the ANALYZE tab
         * Create, compare and analyze scenarios
         * Find important cells with Sensitivity analysis
-        * Run Monte Carlo Simulations
-        * Analyze w/o using external tools
+        * Manage risk with Monte Carlo Simulations
+        * Visualize data without exporting to external tools
       subTitleList: >-
         Automate analytical tasks, answer ‘what-if’ questions and present
         results on the fly
