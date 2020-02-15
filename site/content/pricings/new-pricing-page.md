@@ -6,20 +6,20 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - PricePrimary: $1,000
+    - PricePrimary: '$1,000'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $100 user/month
       cta:
         text: Request a Demo
         url: /request/
       img: /img/spreadsheet_collaboration_3x.png
-      markdown: "* This module includes everything in the BUILD tab\n* Edit without overwriting others’ inputs\r\n* Share only specific worksheets\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
+      markdown: "* Share only specific worksheets\r\n* Edit without overwriting others’ inputs\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
       subTitleList: >-
         Import or build models, understand spreadsheet structure and identify
         errors and anomalies 
       title: Model Architect
       url: ''
-    - PricePrimary: $1,000
+    - PricePrimary: '$1,000'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $100 user/month
       cta:
@@ -27,24 +27,23 @@ pricingCards:
         url: /request
       img: /img/report_presentation_visualization_3x.png
       markdown: |-
-        * This module includes everything in the ANALYZE tab
         * Create, compare and analyze scenarios
         * Find important cells with Sensitivity analysis
         * Manage risk with Monte Carlo Simulations
-        * Visualize data without exporting to external tools
+        * Visualize data without exporting to dedicated tools
       subTitleList: >-
         Automate analytical tasks, answer ‘what-if’ questions and present
         results on the fly
       title: Master Analyst
       url: ''
-    - PricePrimary: $1,100
+    - PricePrimary: '$1,100'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $110 user/month
       cta:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
-      markdown: "* This module includes everything in the REPORT tab\n* Generate and link Financial Statements to model\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Share only specific slides\r\n"
+      markdown: "* Share only specific slides\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Generate and link Financial Statements to model\r"
       subTitleList: >-
         Effectively communicate results of your work to both technical and
         non-technical audience
