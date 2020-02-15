@@ -6,7 +6,8 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - PricePrimary: '$1,000'
+    - BeforeBulletPoints: Includes everything in BUILD tab
+      PricePrimary: '$1,000'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $100 user/month
       cta:
@@ -19,7 +20,8 @@ pricingCards:
         errors and anomalies 
       title: Model Architect
       url: ''
-    - PricePrimary: '$1,000'
+    - BeforeBulletPoints: Includes everything in ANALYZE tab
+      PricePrimary: '$1,000'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $100 user/month
       cta:
@@ -36,7 +38,8 @@ pricingCards:
         results on the fly
       title: Master Analyst
       url: ''
-    - PricePrimary: '$1,100'
+    - BeforeBulletPoints: Includes everything in REPORT tab
+      PricePrimary: '$1,100'
       PricePrimaryPeriod: user/year
       PriceSecondary: or $110 user/month
       cta:
