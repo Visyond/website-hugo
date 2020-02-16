@@ -1316,12 +1316,12 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "homeplayground"
     label: "Homeplayground"
-    #folder: "site/content/_index.md"
+    #folder: "site/content/homeplayground/"
     create: true
-    files:
-      - label: "Home page PLAYGROUND"
-        name: "homeName"
-        file: "site/content/homeplayground/_index.md"
+    #files:
+      #- label: "Home page PLAYGROUND"
+        #name: "homeName"
+        #file: "site/content/homeplayground/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", required: true}
           - {label: "Page url", name: "url", widget: string}
