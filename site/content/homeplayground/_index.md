@@ -1,39 +1,26 @@
 ---
-title: Understand Your Data and Make Better Decisions, Faster
+title: homeplayground
+url: /homeplayground/
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
-metaTags: >-
-  <meta property="og:title" content="Visyond - Understand Your Data and Make Better Decisions, Faster">
-  <meta property="og:type" content="website">
-  <meta property="og:image"
-  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png">
-  <meta property="og:description" content="Visualize the impact of your
-  decisions and answer any questions on-the-fly, reduce errors and control what
-  each collaborator can see and interact with">
-  <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visyond’s cloud-based spreadsheet and financial modeling platform offers an intelligent approach to managing, collaborating and securing your spreadsheets.">
-  <meta name="keywords" content="Spreadsheet Software, Spreadsheet Automation
-  Software, Spreadsheet Governance, Spreadsheet Data Analysis, Spreadsheet Data
-  Reporting, Spreadsheet Data Presentation">
-  <meta name="yandex-verification" content="7dfc91ce5829221e">
 mainFeatures:
-    - feature: Planning automation
-    - feature: Quick adoption
-    - feature: Secure collaboration
-    - feature: Error reduction
+    - feature: Automate Workflow
+    - feature: Track Changes
+    - feature: Reduce Errors
+    - feature: Collaborate Securely
 laptop: /img/home/laptop.png
-homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
-heroPrimaryButton: Request Demo
-heroPrimaryButtonLink: /request
+homepageAnimation: /img/home/2019-10-08 Homepage Animation v2_5.mp4
+heroPrimaryButton: Free Sign Up
+heroPrimaryButtonLink: /accounts/signup/
 heroPlayButton: See Demo
-heroDemoButton: Sign Up
-heroDemoButtonLink: /accounts/signup
+heroDemoButton: Request a Demo
+heroDemoButtonLink: /request/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
     - featureIcon: /img/home/excel.svg
       feature: Excel Compatible
     - featureIcon: /img/home/finger.svg
-      feature: Flexible, Familiar, & Easy to Use
+      feature: Intuitive, Familiar, & Easy to Use
     - featureIcon: /img/home/sandWatch.svg
       feature: Get Started in Minutes
 gartnerImage: /img/home/gartner-mobile.png
@@ -77,7 +64,7 @@ industryList:
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance
-WhyVisyondHeader: What Visyond Solves
+WhyVisyondHeader: What Visyond Solves?
 WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
 solvesList:
@@ -93,7 +80,7 @@ solvesList:
     text: Long Manual Setup
   - image: /img/home/solvesList/Group96.png
     text: Data Gets Lost
-FeaturesHeader: Enter Visyond (TEST)
+FeaturesHeader: Enter Visyond
 infoBlockFirst:
   - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects."
     benefitsList:
@@ -211,9 +198,9 @@ infoBlockFirst:
     link: /solutions/presentation
     linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
     title: Present Interactive Data With Impact
-getHexStartedTitle: Flexible. Familiar. Scalable.
-getHexStartedButton: Request Demo
-getHexStartedButtonURL: /request
+getHexStartedTitle: Get Started in Minutes
+getHexStartedButton: Sign up
+getHexStartedButtonURL: /accounts/signup
 BenefitsHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
