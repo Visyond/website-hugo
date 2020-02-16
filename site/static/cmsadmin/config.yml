@@ -1319,7 +1319,7 @@ collections: # A list of collections the CMS should be able to edit
     #folder: "site/content/_index.md"
     create: true
     files:
-      - label: "Home page CURRENT"
+      - label: "Home page PLAYGROUND"
         name: "homeName"
         file: "site/content/homeplayground/_index.md"
         fields:
