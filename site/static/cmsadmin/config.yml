@@ -1313,7 +1313,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false,
           }
 
-  - name: "home-playground"
+  - name: "homeplayground"
     label: "home playground"
     folder: "site/content/homeplayground"
     create: true
