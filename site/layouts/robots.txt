@@ -30,4 +30,5 @@ Disallow: /casestudiessection/
 Disallow: /case-studies-section-new/
 Disallow: /features/spreadsheet-dependency-analysis/
 Disallow: /oldhome/
-Disallow: /homeplayground/  
+Disallow: /homeupdate/
+
