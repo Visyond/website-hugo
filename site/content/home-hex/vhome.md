@@ -9,8 +9,8 @@ mainFeatures:
   - feature: Error reduction
 laptop: /img/home/laptop.png
 homepageAnimation: /img/home/2019-10-08 Homepage Animation v2_5.mp4
-heroPrimaryButton: Free Sign Up
-heroPrimaryButtonLink: /accounts/signup/
+heroPrimaryButton: Request Demo
+heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
 heroDemoButton:  Request a Demo
 heroDemoButtonLink: /request/
