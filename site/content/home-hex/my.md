@@ -1,30 +1,132 @@
 ---
-title: my
+title: vHome
 url: vhome
-heroTitle: vhomevhome
+heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
-  - feature: vhome
-  - feature: vhome
-  - feature: vhome
-heroPrimaryButton: vhome
-heroPrimaryButtonLink: vhome
-heroPlayButton: vhome
-heroDemoButton: vhome
-heroDemoButtonLink: vhome
-gartnerImage: /img/SGM logo bnw.png
-gartnerLink: vhome
-visForHeader: vhome
-functionTitle: vhome
-WhyVisyondHeader: vhome
-WhyVisyondText: vhome
-WhyVisyondImage: /img/CNR Italy logo grey.png
-FeaturesHeader: vhome
-getHexStartedTitle: vhome
-getHexStartedButton: vhome
-getHexStartedButtonURL: vhome
-BenefitsHeader: vhome
-providesTitle: vhome
+  - feature: Automate Workflow
+  - feature: Track Changes
+  - feature: Reduce Errors
+  - feature: Collaborate Securel
+laptop: /img/home/laptop.png
+homepageAnimation: /img/home/2019-10-08 Homepage Animation v2_5.mp4
+heroPrimaryButton: Free Sign Up
+heroPrimaryButtonLink: /accounts/signup/
+heroPlayButton: See Demo
+heroDemoButton:  Request a Demo
+heroDemoButtonLink: /request/
+watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
+WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
+otherFeatures:
+    - featureIcon: /img/home/excel.svg
+      feature: Excel Compatible
+    - featureIcon: /img/home/finger.svg
+      feature: Intuitive, Familiar, & Easy to Use
+    - featureIcon: /img/home/sandWatch.svg
+      feature: Get Started in Minutes
+gartnerImage: /img/home/gartner-mobile.png
+gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
+visForHeader: Visyond is for...
+functionTitle: FUNCTION
+caseTitle: USE CASE
+industryTitle: INDUSTRY
+functionList:
+  - image: /img/home/visForColumn1/function2.png
+    text: Analysts and Modelers
+  - image: /img/home/visForColumn1/function1.png
+    text: CxOs & Decision Makers
+  - image: /img/home/visForColumn1/function3.png
+    text: Sales & Communication
+  - image: /img/home/visForColumn1/function4.png
+    text: Consultants
+caseList:
+  - image: /img/home/visForColumn2/case1.png
+    text: Risk Management
+  - image: /img/home/visForColumn2/case2.png
+    text: Planning & Modelling
+  - image: /img/home/visForColumn2/case3.png
+    text: Budgeting & Forecasting
+  - image: /img/home/visForColumn2/case4.png
+    text: Financial Reporting
+  - image: /img/home/visForColumn2/case5.png
+    text: Investment Analysis
+  - image: /img/home/visForColumn2/case6.png
+    text: Scenario Analysis
+industryList:
+  - image: /img/home/visForColumn3/industry1.png
+    text: Banking
+  - image: /img/home/visForColumn3/industry5.png
+    text: Management Consulting
+  - image: /img/home/visForColumn3/industry2.png
+    text: Financial Services
+  - image: /img/home/visForColumn3/industry6.png
+    text: Telecommunication
+  - image: /img/home/visForColumn3/industry3.png
+    text: Real Estate
+  - image: /img/home/visForColumn3/industry4.png
+    text: Insurance
+WhyVisyondHeader: What Visyond Solves?
+WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
+WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
+solvesList:
+  - image: /img/home/solvesList/Group89.png
+    text: Data Leaks & Security Threats
+  - image: /img/home/solvesList/Group92.png
+    text: Messy Collaboration
+  - image: /img/home/solvesList/Group93.png
+    text: Governance is Difficult
+  - image: /img/home/solvesList/Group94.png
+    text: Hard to Trace Changes
+  - image: /img/home/solvesList/Group95.png
+    text: Long Manual Setup
+  - image: /img/home/solvesList/Group96.png
+    text: Data Gets Lost
+FeaturesHeader: Enter Visyond
+getHexStartedTitle: Get Started in Minutes
+getHexStartedButton: Sign up
+getHexStartedButtonURL: /accounts/signup
+BenefitsHeader: Benefits
+cards:
+  - description: 'Always know who contributed what, when and why'
+    header: Full Transparency and Data Governance
+    icon: /img/audit-mode@2x.png
+    link: /solutions/data-tracking-software/
+  - description: Manage access and share projects fully or partially
+    header: Secure Collaborative Environment
+    icon: /img/selective-sharing@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Automate routine analytical tasks and their setup without experts
+    header: Data Analysis in <br> Minutes
+    icon: /img/scenarios@2x.png
+    link: /solutions/data-analysis-software/
+  - description: Quickly get insights from your data through interactive presentations
+    header: Testing Assumptions in Real Time
+    icon: /img/interactive presentations@2x.png
+    link: /solutions/automate-excel-reports-and-presentation/
+  - description: Have a single source of truth for your data & documentation
+    header: Streamlined Communications
+    icon: /img/knowledge-base@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Easily generate financial statements and KPI reports
+    header: Automated Financial Statements
+    icon: /img/financial-statement@2x.png
+    link: /features/interactive-presentation-software/
+  - description: Start getting value immediately by importing your Excel file
+    header: Familiar Excel-Compatible Experience
+    icon: /img/import-export@2x.png
+    link: /features/compatibility-with-excel-and-powerpoint/
+  - description: 'Access at any time, from any place, using any device'
+    header: Cloud-based Global Accessibility
+    icon: /img/data_input_3x.png
+  - description: Audit spreadsheets and explore your models
+    header: Reduction of Errors
+    icon: /img/analyst_and_consultant_3x.png
+    link: /solutions/financial-modeling-software/
+providesTitle: Get Started in Minutes
 providesList:
-  - text: vhome
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
 
