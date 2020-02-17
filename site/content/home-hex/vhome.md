@@ -3,10 +3,10 @@ title: vHome
 url: vhome
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
-  - feature: Automate Workflow
-  - feature: Track Changes
-  - feature: Reduce Errors
-  - feature: Collaborate Securel
+  - feature: Planning automation
+  - feature: Quick adoption
+  - feature: Secure collaboration
+  - feature: Error reduction
 laptop: /img/home/laptop.png
 homepageAnimation: /img/home/2019-10-08 Homepage Animation v2_5.mp4
 heroPrimaryButton: Free Sign Up
@@ -81,9 +81,9 @@ solvesList:
   - image: /img/home/solvesList/Group96.png
     text: Data Gets Lost
 FeaturesHeader: Enter Visyond
-getHexStartedTitle: Get Started in Minutes
-getHexStartedButton: Sign up
-getHexStartedButtonURL: /accounts/signup
+getHexStartedTitle: Flexible. Familiar. Scalable.
+getHexStartedButton: Request Demo
+getHexStartedButtonURL: /request
 BenefitsHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
