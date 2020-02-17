@@ -67,19 +67,6 @@ industryList:
 WhyVisyondHeader: What Visyond Solves?
 WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
-solvesList:
-  - image: /img/home/solvesList/Group89.png
-    text: Data Leaks & Security Threats
-  - image: /img/home/solvesList/Group92.png
-    text: Messy Collaboration
-  - image: /img/home/solvesList/Group93.png
-    text: Governance is Difficult
-  - image: /img/home/solvesList/Group94.png
-    text: Hard to Trace Changes
-  - image: /img/home/solvesList/Group95.png
-    text: Long Manual Setup
-  - image: /img/home/solvesList/Group96.png
-    text: Data Gets Lost
 FeaturesHeader: Enter Visyond
 getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Request Demo
