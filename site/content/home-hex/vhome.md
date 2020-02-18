@@ -27,15 +27,6 @@ visForHeader: Visyond is for...
 functionTitle: FUNCTION
 caseTitle: USE CASE
 industryTitle: INDUSTRY
-functionList:
-  - image: /img/home/visForColumn1/function2.png
-    text: Analysts and Modelers
-  - image: /img/home/visForColumn1/function1.png
-    text: CxOs & Decision Makers
-  - image: /img/home/visForColumn1/function3.png
-    text: Sales & Communication
-  - image: /img/home/visForColumn1/function4.png
-    text: Consultants
 WhyVisyondHeader: What Visyond Solves
 WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
