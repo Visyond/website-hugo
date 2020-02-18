@@ -1,12 +1,12 @@
 ---
 title: vHome
 url: /vhome
-heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
+heroTitle: 'Understand Your Data <br> and Make Better Decisions, <br> Faster'
 mainFeatures:
-    - feature: Planning automation
-    - feature: Quick adoption
-    - feature: Secure collaboration
-    - feature: Error reduction
+  - feature: Planning automation
+  - feature: Quick adoption
+  - feature: Secure collaboration
+  - feature: Error reduction
 laptop: /img/home/laptop.png
 homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
 heroPrimaryButton: Request Demo
@@ -17,14 +17,15 @@ heroDemoButtonLink: /accounts/signup
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
-    - featureIcon: /img/home/excel.svg
-      feature: Excel Compatible
-    - featureIcon: /img/home/finger.svg
-      feature: Intuitive, Familiar, & Easy to Use
-    - featureIcon: /img/home/sandWatch.svg
-      feature: Get Started in Minutes
+  - feature: Excel Compatible
+    featureIcon: /img/home/excel.svg
+  - feature: 'Intuitive, Familiar, & Easy to Use'
+    featureIcon: /img/home/finger.svg
+  - feature: Get Started in Minutes
+    featureIcon: /img/home/sandWatch.svg
 gartnerImage: /img/home/gartner-mobile.png
-gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
+gartnerLink: >-
+  https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
 functionTitle: FUNCTION
 caseTitle: USE CASE
@@ -81,123 +82,7 @@ solvesList:
   - image: /img/home/solvesList/Group96.png
     text: Data Gets Lost
 FeaturesHeader: Enter Visyond
-infoBlockFirst:
-  - descr: "Efficiently collaborate across departments and multiple workstreams with a single secure environment connecting decision makers, analysts, modelers, consultants, clients and prospects."
-    benefitsList:
-      - text: Share only specific parts of your spreadsheets, analyses and presentations
-      - text: Test assumptions on-the-fly & ensure quick turn-around of changes
-      - text: Always know the history & reasons behind any change or contribution
-      - text: No more back and forth emails, file versions to reconcile and data leakage
-    files:
-      - alt: Spreadsheet Governance in Visyond - Single Source of Truth
-        descr: >-
-          Securely store spreadsheet data; multiple assumptions, scenarios,
-          conversations and attachments directly in the relevant cells.
-        file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
-        title: Single Source of Truth
-      - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
-        descr: >-
-          Instead of managing multiple versions of a spreadsheet, combine data
-          points into scenarios and switch them on-the-fly!
-        file: /img/2019-02 Scenario Management Panel.png
-        link: /features/scenarios/
-        title: Manage Multiple Scenarios
-      - alt: Spreadsheet Governance in Visyond - Selective Sharing
-        descr: Limit what parts of the spreadsheet people can see or interact with.
-        file: /img/2019-02 Share Project Panel.png
-        link: /features/selective-sharing/
-        title: Secure Selective Sharing
-      - alt: Spreadsheet Governance in Visyond - Track Changes and Inputs
-        descr: >-
-          Keep track of inputs, changes and versions with always up-to-date
-          automatic reports and interactive presentation.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        link: /features/knowledge-base/
-        title: Track Inputs & Changes
-      - alt: Spreadsheet Data Presentation - Interactive Presentations
-        descr: >-
-          Gather assumptions and enable others to test them through simple
-          interfaces, without changing (and risking to break) the spreadsheet.
-        file: /img/2019-02 Interactive Presentation.png
-        link: /features/interactive-presentations/
-        title: Test Assumptions
-    image: /img/home/laptopWithPic.png
-    link: /solutions/collaboration/
-    linkYoutube: 'https://www.youtube.com/embed/uufPL_qXvaI'
-    title: Single Secure Environment
-  - descr: >-
-      Analyze data on-the-fly in a self-service mode and instantly gain valuable business insights without waiting for experts to be available
-
-    benefitsList:
-      - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
-      - text: Stress-test your decisions with Sensitivity & Impact analyses
-      - text: Manage risk with Monte Carlo simulations
-      - text: Streamline reporting with auto-generated Financial Statements
-      - text: Extract key information in self-service mode and democratize spreadsheet data analysis
-    files:
-      - alt: Spreadsheet Data Analysis in Visyond - Compare Scenarios
-        descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
-          few clicks!
-        file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
-        title: Compare & Analyze Scenarios
-      - alt: Spreadsheet Data Analysis in Visyond - Impact (Tornado) Analysis
-        descr: >-
-          Impact (Tornado) Analysis lets you identify critical variables easily
-          so you can focus on what’s important to save time and effort.
-        file: /img/2019-02 Impact Analysis.png
-        link: /features/tornado/
-        title: Stress-Test Your Data with Tornado Analysis
-      - alt: Spreadsheet Data Analysis in Visyond - Sensitivity Analysis
-        descr: >-
-          Run Sensitivity Analysis without long manual setups and quickly see
-          how sensitive your data set is to changes.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: /features/sensitivity/
-        title: Set Up Sensitivity Analysis in Seconds
-      - alt: Spreadsheet Data Analysis in Visyond - Monte Carlo Simulations
-        descr: Get a handle on your risk factors for all your risk management needs.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        link: /features/simulations/
-        title: Monte Carlo Simulations
-    image: /img/Homepage Analysis v2 small.png
-    link: /solutions/analysis/
-    linkYoutube: 'https://www.youtube.com/embed/4uZ7bKc91WE'
-    title: Automate Analysis & Reporting
-  - descr: >-
-      Create visual interactive presentations your stakeholders can use to
-      independently test assumptions and interact with the spreadsheet in an
-      elegant and simple way
-    benefitsList:
-      - text: Empower stakeholders to independently answer ‘what-if’ questions with Interactive Presentations
-      - text: Create & share interactive and embeddable business case calculators driven by your spreadsheet without any technical know-how
-      - text: Control information flow by sharing only specific parts of the presentations and reports
-    files:
-      - alt: Spreadsheet Data Presentation in Visyond - Interactive Presentations
-        descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
-        file: /img/2019-02 Interactive Presentation.png
-        link: /features/interactive-presentations/
-        title: Interactive Presentations
-      - alt: >-
-          Spreadsheet Data Reporting in Visyond - Financial Statements, Reports
-          and KPIs
-        descr: >-
-          Visyond’s financial statements  greatly reduce the risk of errors and
-          time required to prepare Balance Sheets, Income and Cash Flow
-          Statements, ratios and KPIs, etc. by automating the build process and
-          removing the need for manual checks and audits of the calculations.
-        file: /img/2019-02 Financial Statements.png
-        link: /features/financial-statements/
-        title: Auto-Generated Financial Statements
-    image: /img/Homepage Presentation v1 small.png
-    link: /solutions/presentation
-    linkYoutube: 'https://www.youtube.com/embed/xCJT4vkskq8'
-    title: Present Interactive Data With Impact
+infoBlockFirst: []
 getHexStartedTitle: Get Started in Minutes
 getHexStartedButton: Sign up
 getHexStartedButtonURL: /accounts/signup
@@ -246,3 +131,4 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
+
