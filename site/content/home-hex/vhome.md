@@ -17,19 +17,19 @@ heroDemoButtonLink: /accounts/signup
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
-  - feature: Excel Compatible
-    featureIcon: /img/home/excel.svg
-  - feature: 'Flexible, Familiar, & Easy to Use'
-    featureIcon: /img/home/finger.svg
-  - feature: Get Started in Minutes
-    featureIcon: /img/home/sandWatch.svg
+  - featureIcon: /img/home/excel.svg
+    feature: Excel Compatible
+  - featureIcon: /img/home/finger.svg
+    feature: 'Flexible, Familiar, & Easy to Use'
+  - featureIcon: /img/home/sandWatch.svg
+    feature: Get Started in Minutes
 gartnerImage: /img/issues.png
 gartnerLink: >-
   https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
-functionTitle: Function
-caseTitle: Use Case
-industryTitle: Industry
+functionTitle: FUNCTION
+caseTitle: USE CASE
+industryTitle: INDUSTRY
 functionList:
   - image: /img/home/visForColumn1/function2.png
     text: Analysts and Modelers
