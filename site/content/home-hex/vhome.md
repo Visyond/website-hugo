@@ -1,26 +1,30 @@
 ---
-title: vHome
+title: Understand Your Data and Make Better Decisions, Faster
 url: vhome
-heroTitle: vhome
-heroPrimaryButton: vhome
-heroPrimaryButtonLink: vhome
-heroPlayButton: vhome
-heroDemoButton: vhome
-heroDemoButtonLink: vhome
+heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
+heroPrimaryButton: Request Demo
+heroPrimaryButtonLink: /request
+heroPlayButton: See Demo
+heroDemoButton: Sign Up
+heroDemoButtonLink: /accounts/signup
 gartnerImage: /img/issues.png
-gartnerLink: vhome
-visForHeader: vhome
-functionTitle: vhome
-WhyVisyondHeader: vhome
-WhyVisyondText: vhome
-WhyVisyondImage: /img/SGM logo bnw.png
-FeaturesHeader: vhome
-getHexStartedTitle: vhome
-getHexStartedButton: vhome
-getHexStartedButtonURL: vhome
-BenefitsHeader: vhome
-providesTitle: vhome
+gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
+visForHeader: Visyond is for...
+functionTitle: FUNCTION
+WhyVisyondHeader: What Visyond Solves
+WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
+WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
+FeaturesHeader: Enter Visyond
+getHexStartedTitle: Flexible. Familiar. Scalable.
+getHexStartedButton: Request Demo
+getHexStartedButtonURL: /request
+BenefitsHeader: Benefits
+providesTitle: Get Started in Minutes
 providesList:
-  - text: vhome
+ - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
 
