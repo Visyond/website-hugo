@@ -39,6 +39,7 @@ functionList:
     text: Sales & Communication
   - image: /img/home/visForColumn1/function4.png
     text: Consultants
+  - {}
 caseList:
   - image: /img/home/visForColumn2/case1.png
     text: Risk Management
@@ -81,8 +82,64 @@ solvesList:
     text: Long Manual Setup
   - image: /img/home/solvesList/Group96.png
     text: Data Gets Lost
-FeaturesHeader: Enter Visyond
-infoBlockFirst: []
+FeaturesHeader: 'With Visyond, You and Your Team Can:'
+infoBlockFirst:
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: Track Changes & Edit Without Overwriting Others’ Work/Contributions
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: Share Only Specific Worksheets and Reports
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: 'Understand Model Structure, Detect Errors and Anomalies'
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: Analyze Data Without Exporting it to External Analysis Tools
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: 'Organize Assumptions, Documents and Conversations In the Cell'
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: Generate Financial Statements Linked To Your Model
+  - descr: >-
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book.
+    image: /img/laptopWithPic.png
+    title: Test Assumptions and Present Model with Spreadsheet-driven Calculators
 getHexStartedTitle: Get Started in Minutes
 getHexStartedButton: Sign up
 getHexStartedButtonURL: /accounts/signup
