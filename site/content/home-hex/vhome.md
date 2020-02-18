@@ -25,7 +25,7 @@ gartnerImage: /img/issues.png
 gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
 functionTitle: FUNCTION
-caseTitle: USE CASE
+caseTitle: USECASE
 WhyVisyondHeader: What Visyond Solves
 WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
