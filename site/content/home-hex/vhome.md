@@ -14,6 +14,13 @@ heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
 heroDemoButton: Sign Up
 heroDemoButtonLink: /accounts/signup
+otherFeatures:
+  - featureIcon: /img/home/excel.svg
+    feature: Excel Compatible
+  - featureIcon: /img/home/finger.svg
+    feature: 'Flexible, Familiar, & Easy to Use'
+  - featureIcon: /img/home/sandWatch.svg
+    feature: Get Started in Minutes
 gartnerImage: /img/issues.png
 gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
