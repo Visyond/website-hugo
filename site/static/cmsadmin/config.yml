@@ -133,14 +133,14 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }
-      - { label: "Cases list", name: "caseTitle", widget: "list",
+      - { label: "Cases list", name: "caseList", widget: "list",
         fields: [
           {label: "image", name: "image", widget: "image", required: false,},
           {label: "text", name: "text", widget: "string", required: false,},
         ],
         required: false,
         }
-      - { label: "Industries list", name: "industryTitle", widget: "list",
+      - { label: "Industries list", name: "industryList", widget: "list",
         fields: [
           {label: "image", name: "image", widget: "image", required: false,},
           {label: "text", name: "text", widget: "string", required: false,},
