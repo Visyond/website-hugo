@@ -2,6 +2,13 @@
 title: Understand Your Data and Make Better Decisions, Faster
 url: vhome
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
+mainFeatures:
+  - feature: Planning automation
+  - feature: Quick adoption
+  - feature: Secure collaboration
+  - feature: Error reduction
+laptop: /img/home/laptop.png
+homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
 heroPrimaryButton: Request Demo
 heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
