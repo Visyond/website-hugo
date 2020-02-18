@@ -2,26 +2,11 @@
 title: Understand Your Data and Make Better Decisions, Faster
 url: vhome
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
-mainFeatures:
-  - feature: Planning automation
-  - feature: Quick adoption
-  - feature: Secure collaboration
-  - feature: Error reduction
-laptop: /img/home/laptop.png
-homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
 heroPrimaryButton: Request Demo
 heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
 heroDemoButton: Sign Up
 heroDemoButtonLink: /accounts/signup
-otherFeatures:
-  - featureIcon: /img/home/excel.svg
-    feature: Excel Compatible
-  - featureIcon: /img/home/finger.svg
-    feature: 'Flexible, Familiar, & Easy to Use'
-  - featureIcon: /img/home/sandWatch.svg
-    feature: Get Started in Minutes
-gartnerImage: /img/issues.pngup
 gartnerImage: /img/issues.png
 gartnerLink: https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
