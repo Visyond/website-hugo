@@ -1,19 +1,19 @@
 ---
-title: HomeHex
-url: /homehex/
+title: vHome
+url: /vhome
 heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
-    - feature: Automate Workflow
-    - feature: Track Changes
-    - feature: Reduce Errors
-    - feature: Collaborate Securely
+    - feature: Planning automation
+    - feature: Quick adoption
+    - feature: Secure collaboration
+    - feature: Error reduction
 laptop: /img/home/laptop.png
-homepageAnimation: /img/home/2019-10-08 Homepage Animation v2_5.mp4
-heroPrimaryButton: Free Sign Up
-heroPrimaryButtonLink: /accounts/signup/
+homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
+heroPrimaryButton: Request Demo
+heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
-heroDemoButton: Request a Demo
-heroDemoButtonLink: /request/
+heroDemoButton: Sign Up
+heroDemoButtonLink: /accounts/signup
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
