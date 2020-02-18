@@ -14,8 +14,6 @@ heroPrimaryButtonLink: /request
 heroPlayButton: See Demo
 heroDemoButton: Sign Up
 heroDemoButtonLink: /accounts/signup
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
 otherFeatures:
   - featureIcon: /img/home/excel.svg
     feature: Excel Compatible
