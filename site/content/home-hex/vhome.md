@@ -1,7 +1,7 @@
 ---
-title: 'Understand Your Data and Make Better Decisions, Faster'
+title: Understand Your Data and Make Better Decisions, Faster
 url: vhome
-heroTitle: 'Understand Your Data <br> and Make Better Decisions, <br> Faster'
+heroTitle: Understand Your Data <br> and Make Better Decisions, <br> Faster
 mainFeatures:
   - feature: Planning automation
   - feature: Quick adoption
