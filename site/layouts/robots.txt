@@ -31,4 +31,4 @@ Disallow: /case-studies-section-new/
 Disallow: /features/spreadsheet-dependency-analysis/
 Disallow: /oldhome/
 Disallow: /homeupdate/
-
+Disallow: /vhome/
