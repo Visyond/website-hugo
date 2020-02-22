@@ -548,7 +548,7 @@
     text-align: right;
 
     &:not(:last-child) {
-         margin-bottom: 8rem;
+         margin-bottom: 10rem;
      }
 
     &:nth-child(2n) {
@@ -580,7 +580,7 @@
     width: 55%;
     flex-shrink: 0;
     position: relative;
-    margin-top: 5em;
+    margin-top: 0em;
     margin-bottom: 8em;
 
 @media screen and (--tablet) {
@@ -743,7 +743,7 @@
 
 .enterSections__block-title {
     color: #383E4D;
-    font-size: 36px;
+    font-size: 2em;
     line-height: 1.1;
     font-weight: 600;
     margin-bottom: 30px;
