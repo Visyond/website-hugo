@@ -973,7 +973,7 @@
     }
 }
 
-.enterSectionsA__block:nth-child(2n + 1) .info__img-wrap {
+.enterSectionsA__block:nth-child(2n + 1) .infoA__img-wrap {
     margin-right: 5%;
     float: left;
 
@@ -983,7 +983,7 @@
 }
 }
 
-.enterSectionsA__block:nth-child(2n) .info__img-wrap {
+.enterSectionsA__block:nth-child(2n) .infoA__img-wrap {
     margin-left: 5%;
     float: right;
 
