@@ -140,7 +140,7 @@ infoBlockFirst:
       make a type specimen book.
     image: /img/vHome image draft (8).png
     title: Test Assumptions and Present Model with Spreadsheet-driven Calculators
-getHexStartedTitle: Get Started in Minutes
+getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Sign up
 getHexStartedButtonURL: /accounts/signup
 BenefitsHeader: Benefits
