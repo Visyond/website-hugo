@@ -1,20 +1,20 @@
 <!-- info block -->
 {{ range $el := .Params.InfoBlockFirst }}
 
-<li class="enterSections__block">
-    <section class="enterSections__text-wrap">
-        <h2 class="enterSections__block-title">
+<li class="enterSectionsA__block">
+    <section class="enterSectionsA__text-wrap">
+        <h2 class="enterSectionsA__block-title">
             {{ .title }}
         </h2>
 
-        <div class="enterSections__block-descr">
+        <div class="enterSectionsA__block-descr">
             {{ .descr | markdownify }}
         </div>
     </section>
-    <div class="info__img-wrap js-img-wrap show-slides">
+    <div class="infoA__img-wrap js-img-wrap show-slides">
 
         <img src="{{ .image }}" alt="{{ .altText }}"
-             class="enterSections__block-img"
+             class="enterSectionsA__block-img"
              data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
              data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
              data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
@@ -38,8 +38,8 @@
           </span>
         </div>
     </div>
-    <section class="enterSections__text-wrap">
-        <div class="enterSections__block-descr">
+    <section class="enterSectionsA__text-wrap">
+        <div class="enterSectionsA__block-descr">
             <div class="enterSections__benefits">
                 <div class="enterSections__benefits--title">See All Benefits</div>
                 <ul>
@@ -52,7 +52,7 @@
             </div>
         </div>
     </section>
-    <section class="enterSections__text-wrap">
+    <section class="enterSectionsA__text-wrap">
         <!--<div class="button-wrap">-->
             <!--{{ if .link }}-->
             <!--<a href="{{ .link }}" class="button button-primary">Learn More</a>-->
