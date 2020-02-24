@@ -997,7 +997,7 @@
     width: 55%;
     flex-shrink: 0;
     position: relative;
-    margin-top: 5em;
+    margin-top: 0em;
     margin-bottom: 8em;
 
 @media screen and (--tablet) {
