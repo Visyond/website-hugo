@@ -965,7 +965,7 @@
     text-align: right;
 
     &:not(:last-child) {
-         margin-bottom: 8rem;
+         margin-bottom: 4rem;
      }
 
     &:nth-child(2n) {
