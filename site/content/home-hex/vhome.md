@@ -71,7 +71,7 @@ WhyVisyondText: >-
   Visyond is a secure spreadsheet modeling, auditing, analysis and interactive
   reporting software that will aid your decision making and planning
   process.<br><br>Visyond works in the browser, is Excel-compatible with a
-  familiar spreadsheet interface, and can be deployed on-premise.
+  familiar spreadsheet interface, and can be deployed on-premise.<br><br>
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 solvesList:
   - image: /img/home/solvesList/Group89.png
