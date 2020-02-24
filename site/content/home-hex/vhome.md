@@ -125,7 +125,7 @@ infoBlockFirst:
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     image: /img/vHome image draft (6).png
-    title: 'Organize Assumptions, Documents and Conversations In the Cell'
+    title: 'Organize Assumptions, Documents and Chats In Cells'
   - descr: >-
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
