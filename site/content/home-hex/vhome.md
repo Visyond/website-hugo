@@ -139,7 +139,7 @@ infoBlockFirst:
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     image: /img/vHome image draft (8).png
-    title: Test Assumptions and Present Model with Spreadsheet-driven Calculators
+    title: Present Models with Spreadsheet-driven Calculators
 getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Sign up
 getHexStartedButtonURL: /accounts/signup
