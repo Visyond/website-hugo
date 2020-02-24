@@ -98,60 +98,106 @@ infoBlockFirst:
           Consolidate data without trouble of going through email threads and
           attachments
     descr: >-
-      Unlike other spreadsheets, multiple values can coexist in a cell as
-      opposed to last input overwriting the existing one. Nobody, including the
+      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
+      opposed to last value overwriting the existing one. Nobody, including the
       project owner, can modify data entered by others. Multiple collaborators
       can work on the same project, and Visyond will track and report who added
       assumptions, when and why.
     image: /img/vHome image draft (1).png
     title: Track Changes and Edit Without Overwriting
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks
+      - text: >-
+          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          information
+    descr: >-
+      Besides setting permissions for collaborators (editor, viewer), you can
+      share only specific worksheets, reports and presentation slides with
+      specific people for better control over information flow and data privacy.
     image: /img/vHome image draft (2).png
     title: Share Only Specific Worksheets and Reports
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: Instantly identify errors and their root cause
+      - text: >-
+          Understand complex formulas & spreadsheet structure with
+          human-readable formula names
+      - text: >-
+          Make your spreadsheets easier to visualize and explain to
+          collaborators
+    descr: >-
+      Highlight spreadsheet structure, errors and potential data inconsistencies
+      in real time, understand complex formulas at a glance and save countless
+      hours of tedious work tracing errors and typos.
     image: /img/vHome image draft (3).png
     title: 'Understand Model Structure, Detect Errors and Anomalies'
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: >-
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
+      - text: >-
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
+    descr: >-
+      Create and visually compare scenarios on the fly, during meetings or
+      presentations without depending on experts. Switching between scenarios
+      automatically updates all linked cells, charts and presentations without
+      compromising integrity of data.
     image: /img/vHome image draft (4).png
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: >-
+          Analyze data in real time in a self-service mode without relying on
+          experts
+      - text: Visualize impact of key drivers with Sensitivity analysis
+      - text: Answer ‘what-if’ questions with Scenario analysis
+      - text: Manage risk with Monte Carlo simulations
+    descr: >-
+      Carry out analyses in minutes that skilled professionals prepare for hours
+      or days without worrying about deleting or changing your collaborators’
+      work or exporting data every time there is a change in the model.
     image: /img/vHome image draft (5).png
     title: Automate Analysis Without External Tools
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: >-
+      Visyond will document the model automatically as you and your
+      collaborators work on it. You do not need to save support documents on
+      different platforms or try to remember where something is or who provided
+      certain assumptions.
     image: /img/vHome image draft (6).png
     title: 'Organize Assumptions, Documents and Chats In Cells'
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
+      - text: >-
+          Create calculations of growth and changes against previous periods,
+          financial and management ratios & KPIs, and depreciation schedules
+    descr: >-
+      Visyond creates forward looking predictive financial statements, driven by
+      assumptions in your spreadsheet. The  statements can adapt to any
+      reporting/accounting standard and automate the preparation of reports
+      based on your settings.
     image: /img/vHome image draft (7).png
     title: Generate Financial Statements Linked To Your Model
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList:
+      - text: Empower stakeholders to independently answer ‘what-if’ questions
+      - text: >-
+          Reduce risk of accidental changes in the model when testing
+          assumptions
+      - text: >-
+          Create & share interactive business case calculators without technical
+          know-how
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+    descr: >-
+      Create visual interactive presentations and spreadsheet-driven calculators
+      your stakeholders can use to independently test assumptions without
+      touching the spreadsheet. Changing data on the slide does not make changes
+      to the spreadsheet.
     image: /img/vHome image draft (8).png
     title: Present Models with Spreadsheet-driven Calculators
 getHexStartedTitle: Flexible. Familiar. Scalable.
