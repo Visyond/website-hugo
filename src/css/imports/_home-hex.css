@@ -376,6 +376,7 @@
     font-size: 16px;
     line-height: 22px;
     color: #383E4D;
+    font-weigth: 400;
 }
 .visFor__list-item:not(:last-child){
     margin-bottom: 20px;
@@ -428,6 +429,7 @@
     line-height: 1.44;
     color: #383E4D;
     width: 80%;
+    font-weight: 400;
 }
 .whyV__image-wrap{
     float: right;
@@ -1177,6 +1179,7 @@
     font-size: 16px;
     margin-bottom: 1em;
     width: 100%;
+    font-weigth: 400;
 }
 
 .enterSectionsA__block-descr ul {
