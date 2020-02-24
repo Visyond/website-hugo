@@ -118,7 +118,7 @@ infoBlockFirst:
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     image: /img/vHome image draft (5).png
-    title: Analyze Data Without Exporting it to External Analysis Tools
+    title: Automate Analysis Without External Tools
   - descr: >-
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
