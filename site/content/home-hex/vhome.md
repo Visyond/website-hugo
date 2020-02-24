@@ -201,8 +201,8 @@ infoBlockFirst:
     image: /img/vHome image draft (8).png
     title: Present Models with Spreadsheet-driven Calculators
 getHexStartedTitle: Flexible. Familiar. Scalable.
-getHexStartedButton: Sign up
-getHexStartedButtonURL: /accounts/signup
+getHexStartedButton: Request Demo
+getHexStartedButtonURL: /request
 BenefitsHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
