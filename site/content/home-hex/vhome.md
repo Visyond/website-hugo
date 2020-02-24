@@ -88,11 +88,13 @@ solvesList:
     text: Data Gets Lost
 FeaturesHeader: 'With Visyond, You Can:'
 infoBlockFirst:
-  - descr: >-
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book.
+  - benefitsList: []
+    descr: >-
+      Unlike other spreadsheets, multiple values can coexist in a cell as
+      opposed to last input overwriting the existing one. Nobody, including the
+      project owner, can modify data entered by others. Multiple collaborators
+      can work on the same project, and Visyond will track and report who added
+      assumptions, when and why.
     image: /img/vHome image draft (1).png
     title: Track Changes and Edit Without Overwriting
   - descr: >-
