@@ -99,10 +99,10 @@ infoBlockFirst:
           attachments
     descr: >-
       Unlike other spreadsheets, multiple assumptions can coexist in a cell as
-      opposed to last value overwriting the existing one. Nobody, including the
-      project owner, can modify data entered by others. Multiple collaborators
-      can work on the same project, and Visyond will track and report who added
-      assumptions, when and why.
+      opposed to last value overwriting the existing one.<br><br> Nobody,
+      including the project owner, can modify data entered by others.<br><br>
+      Multiple collaborators can work on the same project, and Visyond will
+      track and report who added assumptions, when and why.
     image: /img/vHome image draft (1).png
     title: Track Changes and Edit Without Overwriting
   - benefitsList:
