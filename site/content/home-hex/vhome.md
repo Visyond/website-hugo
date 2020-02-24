@@ -141,9 +141,9 @@ infoBlockFirst:
           clicks
     descr: >-
       Create and visually compare scenarios on the fly, during meetings or
-      presentations without depending on experts. Switching between scenarios
-      automatically updates all linked cells, charts and presentations without
-      compromising integrity of data.
+      presentations without depending on experts.<br><br> Switching between
+      scenarios automatically updates all linked cells, charts and presentations
+      without compromising integrity of data.
     image: /img/vHome image draft (4).png
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
@@ -165,9 +165,9 @@ infoBlockFirst:
           assumptions, documents and conversations
     descr: >-
       Visyond will document the model automatically as you and your
-      collaborators work on it. You do not need to save support documents on
-      different platforms or try to remember where something is or who provided
-      certain assumptions.
+      collaborators work on it.<br><br> You do not need to save support
+      documents on different platforms or try to remember where something is or
+      who provided certain assumptions.
     image: /img/vHome image draft (6).png
     title: 'Organize Assumptions, Documents and Chats In Cells'
   - benefitsList:
@@ -177,7 +177,7 @@ infoBlockFirst:
           financial and management ratios & KPIs, and depreciation schedules
     descr: >-
       Visyond creates forward looking predictive financial statements, driven by
-      assumptions in your spreadsheet. The  statements can adapt to any
+      assumptions in your spreadsheet.<br><br> The statements can adapt to any
       reporting/accounting standard and automate the preparation of reports
       based on your settings.
     image: /img/vHome image draft (7).png
@@ -196,8 +196,8 @@ infoBlockFirst:
     descr: >-
       Create visual interactive presentations and spreadsheet-driven calculators
       your stakeholders can use to independently test assumptions without
-      touching the spreadsheet. Changing data on the slide does not make changes
-      to the spreadsheet.
+      touching the spreadsheet.<br><br> Changing data on the slide does not make
+      changes to the spreadsheet.
     image: /img/vHome image draft (8).png
     title: Present Models with Spreadsheet-driven Calculators
 getHexStartedTitle: Flexible. Familiar. Scalable.
