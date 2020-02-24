@@ -82,7 +82,7 @@ solvesList:
     text: Long Manual Setup
   - image: /img/home/solvesList/Group96.png
     text: Data Gets Lost
-FeaturesHeader: 'With Visyond, You and Your Team Can:'
+FeaturesHeader: 'With Visyond, You Can:'
 infoBlockFirst:
   - descr: >-
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
