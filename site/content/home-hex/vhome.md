@@ -88,7 +88,15 @@ solvesList:
     text: Data Gets Lost
 FeaturesHeader: 'With Visyond, You Can:'
 infoBlockFirst:
-  - benefitsList: []
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of architectural changes in the model
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
     descr: >-
       Unlike other spreadsheets, multiple values can coexist in a cell as
       opposed to last input overwriting the existing one. Nobody, including the
