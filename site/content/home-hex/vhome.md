@@ -90,7 +90,7 @@ infoBlockFirst:
       1500s, when an unknown printer took a galley of type and scrambled it to
       make a type specimen book.
     image: /img/vHome image draft (1).png
-    title: Track Changes & Edit Without Overwriting Others’ Work/Contributions
+    title: Track Changes and Edit Without Overwriting
   - descr: >-
       Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       Lorem Ipsum has been the industry's standard dummy text ever since the
