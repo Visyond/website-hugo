@@ -67,7 +67,11 @@ industryList:
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance
 WhyVisyondHeader: What Is Visyond
-WhyVisyondText: "Decision making requires modeling, analytics, knowledge management, data visualization and reporting tools: analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.\r\n</br>\r\n</br>\r\n**Without Visyond, the process requires multiple platforms and causes numerous problems...**\r\n</br>\r\n</br>"
+WhyVisyondText: >-
+  Visyond is a secure spreadsheet modeling, auditing, analysis and interactive
+  reporting software that will aid your decision making and planning
+  process.<br><br>Visyond works in the browser, is Excel-compatible with a
+  familiar spreadsheet interface, and can be deployed on-premise.
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
 solvesList:
   - image: /img/home/solvesList/Group89.png
