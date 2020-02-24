@@ -161,18 +161,6 @@ infoBlockFirst:
     image: /img/vHome image draft (3).png
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
-      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-      - text: >-
-          Create calculations of growth and changes against previous periods,
-          financial and management ratios & KPIs, and depreciation schedules
-    descr: >-
-      Visyond creates forward looking predictive financial statements, driven by
-      assumptions in your spreadsheet.<br><br> The statements can adapt to any
-      reporting/accounting standard and automate the preparation of reports
-      based on your settings.
-    image: /img/vHome image draft (7).png
-    title: Generate Financial Statements Linked To Your Model
-  - benefitsList:
       - text: >-
           Collaborate on spreadsheets and know who contributed what, when and
           why
@@ -200,6 +188,18 @@ infoBlockFirst:
       who provided certain assumptions.
     image: /img/vHome image draft (6).png
     title: 'Organize Assumptions, Documents and Chats In Cells'
+  - benefitsList:
+      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
+      - text: >-
+          Create calculations of growth and changes against previous periods,
+          financial and management ratios & KPIs, and depreciation schedules
+    descr: >-
+      Visyond creates forward looking predictive financial statements, driven by
+      assumptions in your spreadsheet.<br><br> The statements can adapt to any
+      reporting/accounting standard and automate the preparation of reports
+      based on your settings.
+    image: /img/vHome image draft (7).png
+    title: Generate Financial Statements Linked To Your Model
 getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Request Demo
 getHexStartedButtonURL: /request
