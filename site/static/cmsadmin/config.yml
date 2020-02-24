@@ -162,7 +162,7 @@ collections: # A list of collections the CMS should be able to edit
         fields: [
           {label: "Info Description", name: "descr", widget: "markdown"},
           {label: "Benefits list", name: "benefitsList", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "file"},
+            {label: "Benefit item", name: "text", widget: "string"},
           ]},
           {label: "Popup Files", name: "files", widget: list, fields: [
             {label: "File", name: "file", widget: "file"},
