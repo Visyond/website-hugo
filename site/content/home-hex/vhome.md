@@ -68,7 +68,7 @@ industryList:
     text: Insurance
 WhyVisyondHeader: What Is Visyond
 WhyVisyondText: >-
-  Visyond is a secure spreadsheet modeling, auditing, analysis and interactive
+  Visyond is a secure Excel-compatible spreadsheet modeling, auditing, analysis and interactive
   reporting software that will aid your decision making and planning
   process.<br><br>Visyond works in the browser, is Excel-compatible with a
   familiar spreadsheet interface, and can be deployed on-premise.<br><br>
@@ -105,7 +105,7 @@ infoBlockFirst:
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
       - text: >-
-          Reduce risk of accidental changes in the model when testing
+          Eliminate risk of accidental changes in the model when testing
           assumptions
       - text: >-
           Create & share interactive business case calculators without technical
@@ -116,7 +116,7 @@ infoBlockFirst:
     descr: >-
       Create visual interactive presentations and spreadsheet-driven calculators
       your stakeholders can use to independently test assumptions without
-      touching the spreadsheet.<br><br> Changing data on the slide does not make
+      touching the spreadsheet.<br><br> Changing data on the slides does not make
       changes to the spreadsheet.
     image: /img/vHome image draft (8).png
     title: Present Models with Spreadsheet-driven Calculators
@@ -132,7 +132,7 @@ infoBlockFirst:
       or days without worrying about deleting or changing your collaborators’
       work or exporting data every time there is a change in the model.
     image: /img/vHome image draft (5).png
-    title: Automate Analysis Without External Tools
+    title: Instantly visualize the impact of important cells
   - benefitsList:
       - text: >-
           Let collaborators see or interact only with what they need and let
@@ -150,7 +150,7 @@ infoBlockFirst:
       - text: Instantly identify errors and their root cause
       - text: >-
           Understand complex formulas & spreadsheet structure with
-          human-readable formula names
+          human-readable names
       - text: >-
           Make your spreadsheets easier to visualize and explain to
           collaborators
@@ -187,7 +187,7 @@ infoBlockFirst:
       documents on different platforms or try to remember where something is or
       who provided certain assumptions.
     image: /img/vHome image draft (6).png
-    title: 'Organize Assumptions, Documents and Chats In Cells'
+    title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
       - text: >-
