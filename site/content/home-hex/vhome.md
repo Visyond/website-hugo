@@ -130,6 +130,7 @@ infoBlockFirst:
       - text: Visualize impact of key drivers with Sensitivity analysis
       - text: Answer ‘what-if’ questions with Scenario analysis
       - text: Manage risk with Monte Carlo simulations
+      - text: View data from different angles with customizable pivots
     descr: >-
       Carry out, in minutes, analyses that skilled professionals prepare in
       hours or days  without worrying about deleting or changing your
