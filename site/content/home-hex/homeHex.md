@@ -130,7 +130,6 @@ infoBlockFirst:
       Analyze data on-the-fly in a self-service mode and instantly gain valuable business insights without waiting for experts to be available
 
     benefitsList:
-      - text: <b>Visyond is a collaborative scenario planning platform</b>
       - text: Compare scenarios and answer ‘what-if’ questions with Scenario analysis
       - text: Stress-test your decisions with Sensitivity & Impact analyses
       - text: Manage risk with Monte Carlo simulations
