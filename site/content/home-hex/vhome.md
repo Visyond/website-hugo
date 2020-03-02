@@ -68,10 +68,10 @@ industryList:
     text: Insurance
 WhyVisyondHeader: What Is Visyond
 WhyVisyondText: >-
-  Visyond is a secure Excel-compatible spreadsheet modeling, auditing, analysis and interactive
-  reporting software that will aid your decision making and planning
-  process.<br><br>Visyond works in the browser, is Excel-compatible with a
-  familiar spreadsheet interface, and can be deployed on-premise.<br><br>
+  Visyond is a secure Excel-compatible spreadsheet modeling, auditing, analysis
+  and interactive reporting software that will aid your decision making and
+  planning process.<br><br>Visyond works in the browser, is Excel-compatible
+  with a familiar spreadsheet interface, and can be deployed on-premise.<br><br>
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 solvesList:
   - image: /img/home/solvesList/Group89.png
@@ -96,6 +96,8 @@ infoBlockFirst:
           Instantly compare and generate scenario comparison charts with a few
           clicks
     descr: >-
+      **Visyond is a collaborative scenario planning platform:**
+
       Create and visually compare scenarios on the fly, during meetings or
       presentations without depending on experts.<br><br> Switching between
       scenarios automatically updates all linked cells, charts and presentations
@@ -114,10 +116,12 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
     descr: >-
+      **Visyond is a data visualization platform:**\
+
       Create visual interactive presentations and spreadsheet-driven calculators
       your stakeholders can use to independently test assumptions without
-      touching the spreadsheet.<br><br> Changing data on the slides does not make
-      changes to the spreadsheet.
+      touching the spreadsheet.<br><br> Changing data on the slides does not
+      make changes to the spreadsheet.
     image: /img/vHome image draft (8).png
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
@@ -128,6 +132,8 @@ infoBlockFirst:
       - text: Answer ‘what-if’ questions with Scenario analysis
       - text: Manage risk with Monte Carlo simulations
     descr: >-
+      **Visyond is an analysis automation platform:**\
+
       Carry out analyses in minutes that skilled professionals prepare for hours
       or days without worrying about deleting or changing your collaborators’
       work or exporting data every time there is a change in the model.
@@ -141,6 +147,8 @@ infoBlockFirst:
           Avoid exposing sensitive data and shield stakeholders from unnecessary
           information
     descr: >-
+      **Visyond is a secure data sharing platform:**\
+
       Besides setting permissions for collaborators (editor, viewer), you can
       share only specific worksheets, reports and presentation slides with
       specific people for better control over information flow and data privacy.
@@ -155,6 +163,8 @@ infoBlockFirst:
           Make your spreadsheets easier to visualize and explain to
           collaborators
     descr: >-
+      **Visyond is a spreadsheet auditing & modeling platform:**\
+
       Highlight spreadsheet structure, errors and potential data inconsistencies
       in real time, understand complex formulas at a glance and save countless
       hours of tedious work tracing errors and typos.
@@ -170,6 +180,8 @@ infoBlockFirst:
           Consolidate data without trouble of going through email threads and
           attachments
     descr: >-
+      **Visyond is a spreadsheet governance & data tracking platform:**\
+
       Unlike other spreadsheets, multiple assumptions can coexist in a cell as
       opposed to last value overwriting the existing one.<br><br> Nobody,
       including the project owner, can modify data entered by others.<br><br>
@@ -182,6 +194,9 @@ infoBlockFirst:
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
     descr: >-
+      **Visyond is a single source of truth and knowledge management
+      platform:**\
+
       Visyond will document the model automatically as you and your
       collaborators work on it.<br><br> You do not need to save support
       documents on different platforms or try to remember where something is or
@@ -194,6 +209,8 @@ infoBlockFirst:
           Create calculations of growth and changes against previous periods,
           financial and management ratios & KPIs, and depreciation schedules
     descr: >-
+      **Visyond is a report automation platform:**\
+
       Visyond creates forward looking predictive financial statements, driven by
       assumptions in your spreadsheet.<br><br> The statements can adapt to any
       reporting/accounting standard and automate the preparation of reports
