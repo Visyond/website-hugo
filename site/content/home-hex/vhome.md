@@ -95,6 +95,8 @@ infoBlockFirst:
       - text: >-
           Instantly compare and generate scenario comparison charts with a few
           clicks
+      - text: >-
+          <b>Visyond is a collaborative scenario planning platform</b>
     descr: >-
       Create and visually compare scenarios on the fly, during meetings or
       presentations without depending on experts.<br><br> Switching between
