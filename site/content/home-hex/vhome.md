@@ -97,7 +97,7 @@ infoBlockFirst:
           Instantly compare and generate scenario comparison charts with a few
           clicks
     descr: >-
-      Create and visually compare scenarios on the fly, during meetings or
+      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or
       presentations without depending on experts.<br><br> Switching between
       scenarios automatically updates all linked cells, charts and presentations
       without compromising integrity of data.
@@ -130,7 +130,7 @@ infoBlockFirst:
       - text: Visualize impact of key drivers with Sensitivity analysis
       - text: Answer ‘what-if’ questions with Scenario analysis
       - text: Manage risk with Monte Carlo simulations
-      - text: View data from different angles with customizable pivots
+      - text: View data from different angles with customizable Pivots
     descr: >-
       Carry out, in minutes, analyses that skilled professionals prepare in
       hours or days  without worrying about deleting or changing your
