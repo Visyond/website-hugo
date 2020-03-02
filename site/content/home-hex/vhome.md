@@ -131,9 +131,10 @@ infoBlockFirst:
       - text: Answer ‘what-if’ questions with Scenario analysis
       - text: Manage risk with Monte Carlo simulations
     descr: >-
-      Carry out analyses in minutes that skilled professionals prepare for hours
-      or days without worrying about deleting or changing your collaborators’
-      work or exporting data every time there is a change in the model.
+      Carry out, in minutes, analyses that skilled professionals prepare in
+      hours or days  without worrying about deleting or changing your
+      collaborators’ work or exporting data every time there is a change in the
+      spreadsheet.
     image: /img/vHome image draft (5).png
     subtitle: Analysis automation
     title: Instantly visualize the impact of important cells
