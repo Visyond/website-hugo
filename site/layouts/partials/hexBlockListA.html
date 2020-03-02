@@ -6,6 +6,12 @@
         <h2 class="enterSectionsA__block-title">
             {{ .title }}
         </h2>
+        
+        {{ if .subtitle }}
+        <div class="enterSectionsA__block-subtitle">
+            {{ .subtitle }}
+        </div>
+        {{ end }}
 
         <div class="enterSectionsA__block-descr">
             {{ .descr | markdownify }}
