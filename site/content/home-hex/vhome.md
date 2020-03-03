@@ -97,13 +97,13 @@ infoBlockFirst:
           Instantly compare and generate scenario comparison charts with a few
           clicks
     descr: >-
-      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or
-      presentations without depending on experts.<br><br> Switching between
-      scenarios automatically updates all linked cells, charts and presentations
-      without compromising integrity of data.
+      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly,
+      during meetings or presentations without depending on experts.<br><br>
+      Switching between scenarios automatically updates all linked cells, charts
+      and presentations without compromising integrity of data.
     image: /img/vHome image draft (4).png
     subtitle: Collaborative scenario planning
-    title: 'Create, Compare and Analyze Scenarios On-the-fly'
+    title: Compare Budget vs. Actual and Analyze Scenarios On-the-fly
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
       - text: >-
