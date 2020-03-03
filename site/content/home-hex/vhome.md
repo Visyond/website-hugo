@@ -103,7 +103,7 @@ infoBlockFirst:
       and presentations without compromising integrity of data.
     image: /img/vHome image draft (4).png
     subtitle: Collaborative scenario planning
-    title: Compare Budget vs. Actual and Analyze Scenarios On-the-fly
+    title: Create, Compare and Analyze Scenarios On-the-fly
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
       - text: >-
