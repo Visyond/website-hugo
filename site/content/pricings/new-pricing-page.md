@@ -18,7 +18,7 @@ pricingCards:
       subTitleList: >-
         Import or build models, understand spreadsheet structure and identify
         errors and anomalies 
-      title: Model Architect
+      title: Smart Modeler
       url: ''
     - BeforeBulletPoints: Includes everything in ANALYZE tab
       PricePrimary: '$1,000'
