@@ -20,7 +20,7 @@ client_ask: >+
   a common language with finance people.
 
 aside:
-  - content: '![eLearnSecurity](/img/elearnsec logo.png)'
+  - content: '![eLearnSecurity](/img/elearn new.png)'
   - content: |-
       **Use Cases**
 
