@@ -25,7 +25,7 @@ casestudies:
     url: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - alt: eLearnSecurity Logo
-    logo: /img/elearn.png
+    logo: /img/elearn new.png
     tags:
       - tagTitle: Reporting
       - tagTitle: Financial Statements
