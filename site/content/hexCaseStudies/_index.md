@@ -17,7 +17,7 @@ case:
     caseDescr: >-
       How eLearnSecurity Made Financial Statements Preparation a 1-hour Job with
       Visyond
-    caseIco: /img/elearn.png
+    caseIco: /img/elearn new.png
     caseLink: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
 ---
