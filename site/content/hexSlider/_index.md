@@ -5,7 +5,7 @@ hexSliderLogos:
   - alt: ABRT Logo
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
-    logo: /img/elearn3.png
+    logo: /img/elearn4.png
   - alt: Datadvance Logo
     logo: /img/datadvance logo grey.png
   - alt: CY4GATE Logo
