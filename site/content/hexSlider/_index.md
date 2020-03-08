@@ -1,7 +1,7 @@
 ---
 hexSliderLogos:
   - alt: Elettronica Logo
-    logo: /img/v_elt.png
+    logo: /img/elet.png
   - alt: ABRT Logo
     logo: /img/v_abrt.png
   - alt: eLearnSecuiry Logo
