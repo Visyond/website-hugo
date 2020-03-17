@@ -47,10 +47,9 @@
     <section class="enterSectionsA__text-wrap">
         <div class="enterSectionsA__block-descr">
             <div class="enterSections__benefits">
-                {{ if .benefitsList }}
+                {{ if range $list := .benefitsList }}
                 <div class="enterSections__benefits--title">Learn more</div>
                 <ul>
-                    {{ range $list := .benefitsList }}
                     <li class="whyV__benefit-item">
                         {{ .text | markdownify }}
                     </li>
