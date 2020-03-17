@@ -76,42 +76,6 @@
 
   {{ partial "hexSlider" . }}
 
-    <!-- Why V section -->
-    <section class="whyV">
-        <div class="container">
-            <div class="whyV__row">
-                <div class="whyV__half-width-wrap">
-                    <h2 class="whyV__headline">{{ .Params.WhyVisyondHeader }}</h2>
-                </div>
-
-                <div class="whyV__half-width-wrap whyV__image-wrap">
-                    <div>
-                        <img src="{{ .Params.WhyVisyondImage }}">
-                    </div>
-                </div>
-
-                <!--
-                <ul class="whyV__list-wrap">
-                    {{ range $el := .Params.solvesList }}
-                    <li class="whyV__list-item">
-                        <img src="{{ .image }}" alt="{{ .text | markdownify }}">
-                        <span>{{ .text | markdownify }}</span>
-                    </li>
-                    {{ end }}
-                </ul>
-                -->
-      
-                <div class="whyV__half-width-wrap">
-                    <div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
-                    <div>
-                        <a href="/why-visyond" class="button button-primary">Why Visyond</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Why V section -->
-
     <!-- section info -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
