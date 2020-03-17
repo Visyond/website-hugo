@@ -27,12 +27,10 @@ infoBlockFirst:
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks without depending on experts.
         file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
         title: Compare Scenarios In Real Time
       - file: /img/2019-02 Scenarios Waterfall Analysis.png
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
-    link: /features/scenarios/
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
@@ -42,10 +40,8 @@ infoBlockFirst:
           manual setups and quickly see how sensitive your data set is to
           changes.
         file: /img/2019-02 Impact Analysis.png
-        link: /features/tornado/
         title: Stress-Test Your Data
     image: /img/2019-02 Impact Analysis.png
-    link: /features/tornado/
     title: Identify Important Cells and Their Impact
   - descr: "* Simplify Sensitivity Analysis setup  - clearly understand the relationships between input and output variables in your spreadsheets\r\n* Instantly identify to what degree variables impacts the outcome, how different indicators interact & affect each other, and uncover errors in your models\r\n"
     files:
@@ -54,10 +50,8 @@ infoBlockFirst:
           With just a few clicks Visyond allows you to run Sensitivity analysis
           without long manual setups.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: /features/sensitivity/
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    link: /features/sensitivity/
     title: Understand Relationships Between Cells with Instant Sensitivity Analysis
   - descr: "* Answer questions on-the-fly with spreadsheet-driven interactive dashboards and presentations linked directly into your spreadsheets. \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n* The dashboards and slides can be securely shared with other people without exposing confidential information\r\n"
     files:
@@ -67,10 +61,8 @@ infoBlockFirst:
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/2019-02 Interactive Presentation.png
-        link: /features/interactive-presentations/
         title: INTERACTIVE PRESENTATIONS
     image: /img/2019-02 Interactive Presentation.png
-    link: /features/interactive-presentations/
     title: Secure Interactive Dashboards for Decision Making
   - descr: "* Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output\r\n* Instantly generate descriptive statistics, probability density function and cumulative distribution function\r\n* Manage uncertainty & risk and make forecasts quickly\r\n* Easily identify what probability distribution is more appropriate for your data\r\n"
     files:
@@ -79,10 +71,8 @@ infoBlockFirst:
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/2019-02 Simulation Monte Carlo.png
-        link: /features/simulations/
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Simulation Monte Carlo.png
-    link: /features/simulations/
     title: Simplify Simulation Setup
 capabilitiesList:
   - image: /img/v_icon.png
@@ -101,4 +91,3 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 botRequestURL: /request
 ---
-
