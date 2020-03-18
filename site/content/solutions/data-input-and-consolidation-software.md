@@ -13,6 +13,7 @@ topSubTitle: >-
   Make data gathering workflow more efficient and reduce days worth of effort
   down to minutes - seamlessly merge spreadsheets into one and automate manual
   data consolidation processes.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
