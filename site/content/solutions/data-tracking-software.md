@@ -13,6 +13,7 @@ topSubTitle: >-
   spreadsheets, dramatically reduce the risks of unauthorized access, data
   overriding, track changes in a Excel like environment and avoid breaking the
   model while testing assumptions.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
