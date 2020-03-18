@@ -455,10 +455,10 @@ $(function () {
                 if(!sliderHrefs[0]) {
                     linkBtn.classList.add('js-link--hide');
                 }
-                visibilityBtn.classList.add('js-visibility');
+                //visibilityBtn.classList.add('js-visibility');
                 prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>';
                 nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>';
-                visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>';
+                //visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>';
                 linkBtn.innerHTML = '?';
                 closeBtn.innerHTML = '<i class="material-icons">close</i>';
 
