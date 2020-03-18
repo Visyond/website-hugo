@@ -10,6 +10,7 @@ topSubTitle: >-
   Greatly accelerate and simplify the gathering of inputs from multiple
   stakeholders and empower spreadsheet collaboration online with Visyond’s
   innovative selective sharing technology & granular permissions control.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/uufPL_qXvaI'
 requestURL: /request
