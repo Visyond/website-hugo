@@ -440,7 +440,7 @@ $(function () {
                 const nextBtn = document.createElement('button');
                 const closeBtn = document.createElement('button');
                 const linkBtn = document.createElement('a');
-                //const visibilityBtn = document.createElement('button');
+                const visibilityBtn = document.createElement('button');
                 const btnWrap = document.createElement('div');
                 var sliderImage;
                 var sliderElementsArray = [];
