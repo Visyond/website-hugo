@@ -17,9 +17,7 @@ topSubTitle: >-
   Create insightful interactive financial data visualizations  powered by
   Visyond’s spreadsheet calculation engine. Empower each collaborator to test
   assumptions only on information they are authorized to see or interact with.
-signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/xCJT4vkskq8'
-requestURL: /request
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "* Make smarter decisions faster with Visyond’s interactive presentations that don’t require manual setups or programming and act as a  secure environment to test assumptions that is linked to your model\r\n* Enable your collaborators to stress-test selected important assumptions without interacting with the spreadsheet directly \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n"
@@ -75,7 +73,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 
