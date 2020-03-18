@@ -16,6 +16,7 @@ topSubTitle: >-
   software. Empower stakeholders to test assumptions without changing the
   calculations and underlying logic of the model through interactive
   presentations and calculators.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
