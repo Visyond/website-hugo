@@ -1324,12 +1324,14 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
       - {label: "Page title", name: "title", widget: "string", required: false,}
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
-      - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}
       - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
       - {label: "Sign Up URL", name: "signUpURL", widget: "string", required: false, default: "/accounts/signup/"}
       - {label: "Watch Video", name: "watchVideoURL", widget: "string", required: false}
       - {label: "Request URL", name: "requestURL", widget: "string", required: false, default: "/request"}
       - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
+
+      - {label: "Why Visyond Text", name: "topTitle", widget: "markdown", required: false,}
+      - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
           {label: "Info Image", name: "image", widget: image},
