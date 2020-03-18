@@ -14,6 +14,7 @@ topSubTitle: >-
   dashboards and auditing the reports. As the financial industry accelerates,
   you need better financial data analysis software to spend minutes instead of
   days and avoid costly mistakes - Visyond.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
