@@ -1322,7 +1322,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields: # The fields each document in this collection have
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
-	  - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
       - {label: "Page title", name: "title", widget: "string", required: false,}
 
       - {label: "Why Visyond Text", name: "topSubTitle", widget: "markdown", required: false,}
