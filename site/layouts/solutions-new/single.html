@@ -8,7 +8,7 @@
       <div class="home-hero__container">
           <div class="home-hero__half-width-wrap">
               <h1 class="home-hero__title">{{ .Params.TopTitle | markdownify }}</h1>
-		<div class="enterSectionsA__block-descr">{{ .Params.TopSubTitle | markdownify }}</div>
+
               <ul class="home-hero__main-features">
                   <li>Planning automation</li>
                   <li>Quick adoption</li>
@@ -76,10 +76,47 @@
 
   {{ partial "hexSlider" . }}
 
+      <!-- Why V section -->
+    <section class="whyV">
+        <div class="container">
+            <div class="whyV__row">
+                <div class="whyV__half-width-wrap">
+                    <h2 class="whyV__headline">Why Visyond</h2>
+                </div>
+
+                <div class="whyV__half-width-wrap whyV__image-wrap">
+                    <div>
+                        <img src="{{ .Params.WhyVisyondImage }}">
+                    </div>
+                </div>
+
+                <!--
+                <ul class="whyV__list-wrap">
+                    {{ range $el := .Params.solvesList }}
+                    <li class="whyV__list-item">
+                        <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                        <span>{{ .text | markdownify }}</span>
+                    </li>
+                    {{ end }}
+                </ul>
+                -->
+      
+                <div class="whyV__half-width-wrap">
+                    <div class="whyV__text">{{ .Params.TopSubTitle | markdownify }}</div>
+                   <!-- <div>
+                        <a href="/why-visyond" class="button button-primary">Why Visyond</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why V section -->
+	
+	
     <!-- section info -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
-            <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+            <h2 class="enterV__headline">With Visyond, You Can:</h2>
             <ul class="enterSections js-image-block">
                 <!-- list of info blocks with blue button -->
                 {{ partial "hexBlockListA" . }}
