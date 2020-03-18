@@ -12,6 +12,7 @@ topSubTitle: >-
   Visyond’s financial modeling software aids professionals on every step on the
   way by providing easy-to-use financial modeling tools that automate routine
   tasks, minimize risk of introducing errors, and help make better decisions
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/re6E106dISo'
 requestURL: /request
