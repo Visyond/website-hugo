@@ -14,6 +14,7 @@ topSubTitle: >-
   organization and combine them into the big picture. With Visyond’s decision
   making software this is no longer unpredictable - especially when your
   company’s future is at stake.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/uufPL_qXvaI'
 requestURL: /request
