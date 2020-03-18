@@ -440,7 +440,7 @@ $(function () {
                 const nextBtn = document.createElement('button');
                 const closeBtn = document.createElement('button');
                 const linkBtn = document.createElement('a');
-                //const visibilityBtn = document.createElement('button');
+                const visibilityBtn = document.createElement('button');
                 const btnWrap = document.createElement('div');
                 var sliderImage;
                 var sliderElementsArray = [];
@@ -455,10 +455,10 @@ $(function () {
                 if(!sliderHrefs[0]) {
                     linkBtn.classList.add('js-link--hide');
                 }
-                //visibilityBtn.classList.add('js-visibility');
+                visibilityBtn.classList.add('js-visibility');
                 prevBtn.innerHTML = '<i class="material-icons">navigate_before</i>';
                 nextBtn.innerHTML = '<i class="material-icons">navigate_next</i>';
-                //visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>';
+                visibilityBtn.innerHTML = '<i class="material-icons">visibility</i>';
                 linkBtn.innerHTML = '?';
                 closeBtn.innerHTML = '<i class="material-icons">close</i>';
 
