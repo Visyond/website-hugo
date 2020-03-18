@@ -270,7 +270,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page title", name: "title", widget: "string", required: false,}
 
       - {label: "Why Visyond Text", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false, default: "/img/2020-02-24 new homepage infographic What Is Visyond.png"}
+      - {label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
