@@ -1,14 +1,11 @@
 ---
 title: Data Analysis Software
 metaTags: >-
-  <meta name="title" content="Data Analysis Software">
-  <meta name="description" content="Start spreadsheet data analysis in minutes
-  with Visyond’s smart machine intelligence data analysis software; scenario
-  comparison, tornado analysis and sensitivity analysis.">
-  <meta name="keywords" content="data analysis software, spreadsheet data analysis, spreadsheet analysis software">
-topTitle: >-
-  Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
-  a Team and Answering Questions On-The-Fly
+  <meta name="title" content="Data Analysis Software"> <meta name="description"
+  content="Start spreadsheet data analysis in minutes with Visyond’s smart
+  machine intelligence data analysis software; scenario comparison, tornado
+  analysis and sensitivity analysis."> <meta name="keywords" content="data
+  analysis software, spreadsheet data analysis, spreadsheet analysis software">
 topSubTitle: >-
   Collaboratively perform spreadsheet data analysis in minutes instead of days
   and securely share valuable business insights with Visyond’s data analysis
@@ -19,6 +16,10 @@ signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
+topTitle: >-
+  Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
+  a Team and Answering Questions On-The-Fly
+WhyVisyondImage: /img/vhome designer image draft (3).png
 infoBlockFirst:
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
@@ -31,6 +32,7 @@ infoBlockFirst:
       - file: /img/2019-02 Scenarios Waterfall Analysis.png
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
+    subtitle: Collaborative scenario planning
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
   - descr: "* Impact (Tornado) analysis will instantly show you  what inputs have the greatest impact on outputs and how they interact with one another \r\n* Answer difficult questions, easily - such as “by what percentage does the output changes when the drives, on by one, change by x%?”\r\n* Simplify and streamline your models by identifying variables with no significant impact\r\n"
     files:
@@ -42,6 +44,7 @@ infoBlockFirst:
         file: /img/2019-02 Impact Analysis.png
         title: Stress-Test Your Data
     image: /img/2019-02 Impact Analysis.png
+    subtitle: Analysis automation
     title: Identify Important Cells and Their Impact
   - descr: "* Simplify Sensitivity Analysis setup  - clearly understand the relationships between input and output variables in your spreadsheets\r\n* Instantly identify to what degree variables impacts the outcome, how different indicators interact & affect each other, and uncover errors in your models\r\n"
     files:
@@ -52,6 +55,7 @@ infoBlockFirst:
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
         title: SET UP SENSITIVITY ANALYSIS IN SECONDS
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    subtitle: Analysis automation
     title: Understand Relationships Between Cells with Instant Sensitivity Analysis
   - descr: "* Answer questions on-the-fly with spreadsheet-driven interactive dashboards and presentations linked directly into your spreadsheets. \r\n* Use customizable input fields that update visualizations in real time  without compromising or changing the calculations and underlying logic of the model\r\n* The dashboards and slides can be securely shared with other people without exposing confidential information\r\n"
     files:
@@ -63,6 +67,7 @@ infoBlockFirst:
         file: /img/2019-02 Interactive Presentation.png
         title: INTERACTIVE PRESENTATIONS
     image: /img/2019-02 Interactive Presentation.png
+    subtitle: Data visualization & presentation
     title: Secure Interactive Dashboards for Decision Making
   - descr: "* Monte Carlo Simulation replaces the inputs with random variables in a specified range and shows how it affects the output\r\n* Instantly generate descriptive statistics, probability density function and cumulative distribution function\r\n* Manage uncertainty & risk and make forecasts quickly\r\n* Easily identify what probability distribution is more appropriate for your data\r\n"
     files:
@@ -73,6 +78,7 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Simulation Monte Carlo.png
+    subtitle: Analysis automation
     title: Simplify Simulation Setup
 capabilitiesList:
   - image: /img/v_icon.png
@@ -91,3 +97,4 @@ providesList:
 titleBottom: Find out how to improve your decision-making process today
 botRequestURL: /request
 ---
+
