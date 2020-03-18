@@ -9,6 +9,7 @@ topTitle: >-
   Data Analysis and Business Consulting Software - Transform The Way You Analyze
   & Present Data and Make Better Decisions, faster
 topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
