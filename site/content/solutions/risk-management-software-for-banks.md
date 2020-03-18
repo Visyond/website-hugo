@@ -14,6 +14,7 @@ topSubTitle: >-
   control over data changes and inputs, manual stress-testing and workflows, and
   having supporting information scattered around in endless threads of
   back-and-forth emails.
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
