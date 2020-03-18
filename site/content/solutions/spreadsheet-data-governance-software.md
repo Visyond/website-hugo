@@ -7,6 +7,7 @@ topSubTitle: >-
   Improve your data governance & sharing, dramatically reduce risk of
   unauthorized access,  establish single source of truth and have full control
   over it with Visyond
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
