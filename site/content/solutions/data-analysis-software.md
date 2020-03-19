@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/analysis/
 title: Data Analysis Software
+topImage: /img/solutions/solutions_collaborative_analysis_top.png
 metaTags: >-
   <meta name="title" content="Data Analysis Software">
   <meta name="description" content="Start spreadsheet data analysis in minutes
