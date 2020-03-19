@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/decision-makers/
 title: Collaborative Decision Making Software
+topImage: /img/solutions/solutions_decision_makers_top.png
 metaTags: >-
   <meta name="title" content="Collaborative Decision Making Software">
   <meta name="description" content="Visualize the impact of your spreadsheet based decisions
