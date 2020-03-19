@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/governance/
 title: Data Tracking Software
+topImage: /img/solutions/solutions_data_tracking_top.png
 metaTags: >-
   <meta name="title" content="Track changes in Excel with Visyond’s Spreadsheet Governance">
   <meta name="description" content="Track changes in Excel and take control of your spreadsheets by using Visyond’s smart spreadsheet governance and compliance data tracking software.">
