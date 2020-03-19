@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/presentation/
 title: Automate Excel Reports
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Automate Excel Reports, Financial Data
   Visualizations And Presentations with Visyond">
