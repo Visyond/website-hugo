@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/analysts-and-consultants/
 title: Business Consulting Software
+topImage: /img/solutions/solutions_analysts_consultants_top.png
 metaTags: >-
   <meta name="title" content="Data Analysis and Business Consulting Software">
   <meta name="description" content="Visyond’s smart machine intelligence data analysis and business consulting software helps analysts and consultants analyze data faster and make better decisions based on the numbers.">
