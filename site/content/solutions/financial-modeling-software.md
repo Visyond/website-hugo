@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/modeling/
 title: 'Financial Modeling Software: Flexible, Familiar, Scalable'
+topImage: /img/solutions/solutions_modeling_top.png
 metaTags: >-
   <meta name="title" content="Visyond’s Financial Modeling Software"> <meta
   name="description" content="Automate financial modeling. Audit models, create
