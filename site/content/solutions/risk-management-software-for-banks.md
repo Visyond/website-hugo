@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/banking/
 title: Risk Management Software for Banks
+topImage: /img/solutions/solutions_banking_top.png
 metaTags: >-
   <meta name="title" content="Visyond’s Risk Management Software for Banks">
   <meta name="description" content="As a banking professional, you might often face these key challenges: ad-hoc model preparation & auditing requires inadequate time, lack of tracking & control over data changes and inputs, manual stress-testing and workflows, and having supporting information scattered around in endless threads of back-and-forth emails.">
