@@ -1,6 +1,7 @@
 ---
 aliases: /solutions/collaboration/
 title: Spreadsheet Collaboration Software
+topImage: /img/solutions/solutions_collaboration_top.png
 metaTags: >-
   <meta name="title" content="Secure and Simple Spreadsheet Collaboration Online">
   <meta name="description" content="Visyond’s patent-pending secure selective sharing & spreadsheet collaboration online software for teams to streamline and track spreadsheet data.">
