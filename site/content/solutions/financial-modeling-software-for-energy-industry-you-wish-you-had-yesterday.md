@@ -1,5 +1,5 @@
 ---
-Page title: Financial Modeling Software for Energy Industry You Wish You Had Yesterday
+title: Financial Modeling Software for Energy Industry
 topTitle: Financial Modeling Software for Energy Industry You Wish You Had Yesterday
 topSubTitle: "Visyond is a secure Excel-compatible spreadsheet modeling, auditing, analysis and interactive reporting software that will aid your decision making and planning process.\r\n<br><br>\r\nVisyond works in the browser, is Excel-compatible with a familiar spreadsheet interface, and can be deployed on-premise."
 infoBlockFirst:
