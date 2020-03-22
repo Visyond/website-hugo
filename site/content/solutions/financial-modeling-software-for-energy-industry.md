@@ -73,6 +73,7 @@ infoBlockFirst:
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
     descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nUnlike other spreadsheets, multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r\n"
+    image: /img/home/laptop.png
     subtitle: 'Secure data sharing, Data gathering, Knowledge base'
     title: Streamline Data Gathering from Experts
   - benefitsList:
