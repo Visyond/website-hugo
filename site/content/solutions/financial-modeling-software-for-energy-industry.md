@@ -34,7 +34,7 @@ infoBlockFirst:
       professionals prepare in hours or days without worrying about deleting or
       changing your collaborators’ work or exporting data every time there is a
       change in the spreadsheet.
-    image: /img/laptop.png
+    image: /img/home/laptop.png
     subtitle: 'Data governance, Scenario planning, Analysis automation'
     title: Improve Project Analysis and Reporting
   - benefitsList:
@@ -59,7 +59,7 @@ infoBlockFirst:
       You will be able to generate forward looking predictive financial
       statements, driven by assumptions in your spreadsheet, and automate the
       preparation of reports based on your settings and accounting standards.
-    image: /img/laptop.png
+    image: /img/home/laptop.png
     subtitle: Data visualization & interactive reports
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
@@ -86,7 +86,7 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
     descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the spreadsheet.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
-    image: /img/laptop.png
+    image: /img/home/laptop.png
     subtitle: 'Stress-testing, presentation, secure sharing'
     title: Let the Spreadsheet Do Things It Couldn’t Before
 bgBottom: /img/back2.png
