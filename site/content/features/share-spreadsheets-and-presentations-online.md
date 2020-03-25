@@ -1,7 +1,7 @@
 ---
 aliases: /features/selective-sharing/
 title: 'Share Spreadsheets, Presentations and Analysis Online'
-topImage: /img/solutions/solutions_reports_and_presentations_top.png
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Share Spreadsheets, Presentations and Analysis Online">
   <meta name="description" content="Communicate and share spreadsheets, presentations and analysis more efficiently and avoid data leaks and manual back-and-forth copy-paste between Excel and Powerpoint.">
