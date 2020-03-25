@@ -1,7 +1,7 @@
 ---
 aliases: /features/simulations/
 title: Online Monte Carlo Simulation Software
-topImage: /img/solutions/solutions_reports_and_presentations_top.png
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Online Monte Carlo Simulation Software">
   <meta name="description" content="Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.">
