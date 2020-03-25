@@ -1,7 +1,7 @@
 ---
 aliases: /features/charts/
 title: Create Spreadsheet Charts Online
-topImage: /img/solutions/solutions_reports_and_presentations_top.png
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Create Up-To-Date Spreadsheet Charts Online with Ease">
   <meta name="description" content="In Visyond, charting is simple and fast -  create spreadsheets charts online and link presentations to your model. Charts sare automatically updated and synced when changes are introduced to the source spreadsheet.">
