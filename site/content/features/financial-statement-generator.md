@@ -1,6 +1,7 @@
 ---
 aliases: /features/financial-statements/
 title: Online Financial Statement Generator
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Online Financial Statement Generator">
   <meta name="description" content="Automate financial statements and generate Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial and management accounting.">
