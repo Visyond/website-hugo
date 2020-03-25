@@ -1,6 +1,7 @@
 ---
 aliases: /features/knowledge-base/
 title: Track Changes from an Excel File
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Single Source of Truth for Your Spreadsheets - Track Changes from an Excel File">
   <meta name="description" content="Track changes in Excel, enjoy enhanced spreadsheet version control, store supporting documentation, conversations and approvals directly in relevant cells with Visyond">
