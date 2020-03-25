@@ -1,7 +1,7 @@
 ---
 aliases: /features/interactive-presentations/
 title: Interactive Presentation Software
-topImage: /img/solutions/solutions_reports_and_presentations_top.png
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Interactive Presentation Software">
   <meta name="description" content="Create powerful spreadsheet data visualizations and financial model presentations with Visyond’s interactive Presentation software">
