@@ -1,6 +1,6 @@
 ---
 title: 'Multidimensional Analysis Online OLAP '
-topImage: /img/solutions/solutions_reports_and_presentations_top.png
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 topTitle: >-
   Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
   Analysis Online
