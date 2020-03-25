@@ -1,6 +1,7 @@
 ---
 aliases: /features/tornado/
 title: Business Impact Analysis Tool
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Financial & Business Impact Analysis Tool - Tornado Analysis">
   <meta name="description" content="Measure impact of input variables on your model’s key outputs with Visyond’s impact analysis software.">
