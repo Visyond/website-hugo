@@ -1,6 +1,7 @@
 ---
 aliases: /features/sensitivity/
 title: Sensitivity Analysis Tool
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Sensitivity Analysis Tool">
   <meta name="description" content="Instantly understand the relationship between input and output variables in a spreadsheet with visyond’s sensitivity analysis tool.">
