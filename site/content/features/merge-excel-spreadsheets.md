@@ -1,6 +1,7 @@
 ---
 aliases: /features/data-input-and-consolidation/
 title: Merge Spreadsheets & Consolidate Data
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="robots" content="noindex">
   <meta name="title" content="Merge Spreadsheets with Visyond’s Spreadsheet Data Consolidation software”>
