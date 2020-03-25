@@ -1,5 +1,6 @@
 ---
 title: 'Multidimensional Analysis Online OLAP '
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 topTitle: >-
   Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
   Analysis Online
