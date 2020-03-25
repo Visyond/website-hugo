@@ -1,6 +1,7 @@
 ---
 aliases: /features/calculators/
 title: Interactive Spreadsheet Calculators
+topImage: /img/solutions/solutions_reports_and_presentations_top.png
 metaTags: >-
   <meta name="title" content="Create Interactive Spreadsheet Calculators with Visyond">
   <meta name="description" content="Create calculators powered by your spreadsheet data, such as ROI calculators, and securely share them with stakeholders without exposing the model’s logic and calculations or sensitive information.">
