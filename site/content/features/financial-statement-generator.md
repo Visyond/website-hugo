@@ -14,19 +14,7 @@ topSubTitle: >-
   Cash Flow Statements, ratios and KPIs for financial and management accounting.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - descr: |-
-      Make financial statements in 3 easy steps:
-      * Import data from Excel (or use Visyond)
-      * Select driver cells to be used in your statements
-      * Press 'Run'
-
-      Visyond automates the creation of:
-      * Balance Sheets
-      * Income Statements
-      * Cash Flow Statements
-      * Calculations of growth and changes against previous periods
-      * Financial and management ratios & KPIs
-      * Depreciation schedules
+  - descr: "Make financial statements in 3 easy steps:\r\n- Import data from Excel (or use Visyond)\r\n- Select driver cells to be used in your statements\r\n- Press 'Run'\r\n\r\nVisyond automates the creation of:\r\n- Balance Sheets\r\n- Income Statements\r\n- Cash Flow Statements\r\n- Calculations of growth and changes against previous periods\r\n- Financial and management ratios & KPIs\r\n- Depreciation schedules"
     files:
       - alt: >-
           Financial Statement Generator - Easily Create Financial Statements in
