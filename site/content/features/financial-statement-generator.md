@@ -15,12 +15,12 @@ topSubTitle: >-
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - descr: |-
-      **Make financial statements in 3 easy steps:** <br>
+      **Make financial statements in 3 easy steps:**
       * Import data from Excel (or use Visyond)
       * Select driver cells to be used in your statements
       * Press 'Run'
 
-      **Visyond automates the creation of:** <br>
+      **Visyond automates the creation of:**
       * Balance Sheets
       * Income Statements
       * Cash Flow Statements
