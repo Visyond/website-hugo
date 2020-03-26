@@ -103,7 +103,7 @@ infoBlockFirst:
       and presentations without compromising integrity of data.
     image: /img/vhome designer image draft (1).png
     subtitle: Collaborative scenario planning
-    title: Create, Compare and Analyze Scenarios On-the-fly
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
       - text: >-
@@ -128,7 +128,7 @@ infoBlockFirst:
           Analyze data in real time in a self-service mode without relying on
           experts
       - text: Visualize impact of key drivers with Sensitivity analysis
-      - text: Answer ‘what-if’ questions with Scenario analysis
+      - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
       - text: Manage risk with Monte Carlo simulations
       - text: View data from different angles with customizable Pivots
     descr: >-
@@ -138,7 +138,7 @@ infoBlockFirst:
       spreadsheet.
     image: /img/vhome designer image draft (3).png
     subtitle: Analysis automation
-    title: Instantly visualize the impact of important cells
+    title: Instantly Visualize the Impact of Important Cells
   - benefitsList:
       - text: >-
           Let collaborators see or interact only with what they need and let
