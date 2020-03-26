@@ -1,28 +1,26 @@
 ---
 aliases: /features/financial-statements/
-title: Online Financial Statement Generator
-WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
-  <meta name="title" content="Online Financial Statement Generator">
-  <meta name="description" content="Automate financial statements and generate Balance Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial and management accounting.">
-  <meta name="keywords" content="financial statement generator, generate report from excel spreadsheet, online financial statement generator">
+  <meta name="title" content="Online Financial Statement Generator"> <meta
+  name="description" content="Automate financial statements and generate Balance
+  Sheets, Income Statements, Cash Flow Statements, ratios and KPIs for financial
+  and management accounting."> <meta name="keywords" content="financial
+  statement generator, generate report from excel spreadsheet, online financial
+  statement generator">
+title: Online Financial Statement Generator
 topTitle: Auto-generated Financial Statements Driven by Spreadsheets
 topSubTitle: >-
   Automate financial statements and generate Balance Sheets, Income Statements,
   Cash Flow Statements, ratios and KPIs for financial and management accounting.
-signUpURL: /accounts/signup/
-requestURL: /request
-bgImage: /img/partners-hero cut.jpg
+WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - descr: |-
-      Make financial statements in 3 easy steps:
-
+      **Make financial statements in 3 easy steps:** <br>
       * Import data from Excel (or use Visyond)
       * Select driver cells to be used in your statements
       * Press 'Run'
 
-      **Visyond automates the creation of:**
-
+      **Visyond automates the creation of:** <br>
       * Balance Sheets
       * Income Statements
       * Cash Flow Statements
@@ -44,24 +42,6 @@ infoBlockFirst:
     link: >-
       https://help.visyond.com/articles/how-to-build-financial-statements-in-visyond/
     title: Simple Way to Make Financial Statements
-featuresTitle: Related Features
-featuresCards:
-  - icon: /img/interactive presentations@2x.png
-    link: /features/interactive-presentations/
-    text: >-
-      With Interactive Presentations the information is always up-to-date, and
-      you can test assumptions without interacting with the spreadsheet.
-    title: Interactive Presentations
-  - icon: /img/calculator-apps@2x.png
-    link: /features/calculators/
-    text: >-
-      Create interactive calculators without a single line of code and securely
-      test assumptions.
-    title: Calculators
-  - icon: /img/charts@2x.png
-    link: /features/charts/
-    text: Easily create and customize charts that are always up-to-date.
-    title: Charts
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -69,7 +49,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 
