@@ -9,15 +9,15 @@ metaTags: >-
 topImage: /img/solutions/solutions_analysts_consultants_top.png
 title: Business Consulting Software
 topTitle: >-
-  Data Analysis and Business Consulting Software - Transform The Way You Analyze
-  & Present Data and Make Better Decisions, faster
+  Transform Data Analysis and Presentation with Visyond’s Business Consulting
+  Software
 topSubTitle: >-
   As an analyst or consultant, you constantly analyze and recommend the best
-  course of action to clients or stakeholders based on the numbers. Visyond’s
-  business consulting software simplifies communications and information
-  exchange with clients, automates routine analytical tasks, helps you present
-  the results of your work in a visual way, and allows your clients to
-  self-serve on ‘what-if’ questions without touching or even seeing the model.
+  course of action to clients or stakeholders based on the
+  numbers.<br><br>Visyond’s business consulting software automates routine
+  analytical tasks, helps you present the results of your work in a visual and
+  interactive way, and allows your clients to self-serve on ‘what-if’ questions
+  without touching the model.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
