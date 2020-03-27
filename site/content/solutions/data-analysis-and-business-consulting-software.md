@@ -15,60 +15,6 @@ topSubTitle: "As an analyst or consultant, you constantly analyse and recommend 
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
-      - text: Budget vs. Actual
-      - text: >-
-          Combine assumptions into scenarios that can be switched and compared
-          at any time
-      - text: >-
-          Instantly compare and generate scenario comparison charts with a few
-          clicks
-    descr: >-
-      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly,
-      during meetings or presentations without depending on
-      experts.<br><br>Switching between scenarios automatically updates all
-      linked cells, charts and presentations without compromising integrity of
-      data.
-    files:
-      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
-        descr: >-
-          With Visyond’s Scenario Comparison you can quickly compare different
-          assumptions in a few clicks.
-        file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
-        title: Compare Scenarios In Real Time
-      - file: /img/2019-02 Scenarios Waterfall Analysis.png
-        title: Scenario Waterfall
-    image: /img/2019-02 Scenario Analysis.png
-    link: /features/scenarios/
-    subtitle: Collaborative scenario planning
-    title: 'Create, Compare and Analyze Scenarios On-the-fly'
-  - altText: >-
-      Spreadsheet Collaboration Software - Store Conversations and Relevant
-      Documentation Directly in Cells in Visyond
-    benefitsList:
-      - text: >-
-          Establish a single place to store all your spreadsheet data - changes,
-          assumptions, documents and conversations
-    descr: >-
-      Visyond will document the model automatically as you and your
-      collaborators work on it.<br><br>You do not need to save support documents
-      on different platforms or try to remember where something is or who
-      provided certain assumptions.
-    files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Store Conversations and Relevant
-          Documentation Directly in Cells in Visyond
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
-        file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
-        title: Never Lose Important Information
-    image: /img/2019-02 Comments in Cells.png
-    link: /features/knowledge-base/
-    subtitle: Single source of truth and knowledge management
-    title: 'Organize Assumptions, Documents and Conversations In Cells'
-  - benefitsList:
       - text: >-
           Analyze data in real time in a self-service mode without relying on
           experts
@@ -119,75 +65,33 @@ infoBlockFirst:
     subtitle: Analysis automation
     title: Instantly Visualize the Impact of Important Cells
   - benefitsList:
+      - text: Budget vs. Actual
       - text: >-
-          Collaborate on spreadsheets and know who contributed what, when and
-          why
-      - text: Prevent version chaos and see history of changes
-      - text: Reduce risk of architectural changes in the model
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
       - text: >-
-          Consolidate data without trouble of going through email threads and
-          attachments
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
     descr: >-
-      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
-      opposed to last value overwriting the existing one.<br><br>Nobody,
-      including the project owner, can modify data entered by
-      others.<br><br>Multiple collaborators can work on the same project, and
-      Visyond will track and report who added assumptions, when and why.
+      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly,
+      during meetings or presentations without depending on
+      experts.<br><br>Switching between scenarios automatically updates all
+      linked cells, charts and presentations without compromising integrity of
+      data.
     files:
-      - alt: >-
-          Business Consulting Software - Never Lose Important Information in
-          Visyond
+      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
         descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
-        file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
-        title: Never Lose Important Information
-      - alt: >-
-          Business Consulting Software - Store Multiple Assumptions
-          Simultaneously in Visyond
-        descr: >-
-          Have all assumptions and numbers in a single place without worrying
-          about controlling versions or chasing pieces of information in long
-          email threads.
-        file: /img/2019-02 Cases Panel and Dropdown.png
+          With Visyond’s Scenario Comparison you can quickly compare different
+          assumptions in a few clicks.
+        file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
-        title: Store Multiple Assumptions Simultaneously
-    image: /img/2019-02 Overview Panel.png
+        title: Compare Scenarios In Real Time
+      - file: /img/2019-02 Scenarios Waterfall Analysis.png
+        title: Scenario Waterfall
+    image: /img/2019-02 Scenario Analysis.png
     link: ''
-    subtitle: Spreadsheet governance & data tracking
-    title: Track Changes and Edit Without Overwriting
-  - benefitsList:
-      - text: Instantly identify errors and their root cause
-      - text: >-
-          Understand complex formulas & spreadsheet structure with
-          human-readable names
-      - text: >-
-          Make your spreadsheets easier to visualize and explain to
-          collaborators
-    descr: >-
-      Highlight spreadsheet structure, errors and potential data inconsistencies
-      in real time, understand complex formulas at a glance and save countless
-      hours of tedious work tracing errors and typos.
-    files:
-      - alt: Business Consulting Software - Track Root Causes of Errors in Visyond
-        descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/2019-02 Error Root Cause.png
-        link: /features/audit-mode/
-        title: Track Errors and their Root Cause
-      - alt: Business Consulting Software - Audit Mode in Visyond
-        descr: >-
-          In the Audit Mode each cell looks different based on the type of data
-          it contains.
-        file: /img/2019-02 Audit On.png
-        link: /features/audit-mode/
-        title: Audit On
-    image: /img/2019-02 Error Root Cause.png
-    link: ''
-    subtitle: Spreadsheet auditing & modeling
-    title: 'Understand Model Structure, Detect Errors and Anomalies'
+    subtitle: Collaborative scenario planning
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
       - text: >-
@@ -250,6 +154,102 @@ infoBlockFirst:
     link: /features/selective-sharing/
     subtitle: Secure data sharing
     title: Share Only Specific Worksheets and Reports
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of architectural changes in the model
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
+    descr: >-
+      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
+      opposed to last value overwriting the existing one.<br><br>Nobody,
+      including the project owner, can modify data entered by
+      others.<br><br>Multiple collaborators can work on the same project, and
+      Visyond will track and report who added assumptions, when and why.
+    files:
+      - alt: >-
+          Business Consulting Software - Never Lose Important Information in
+          Visyond
+        descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/2019-02 Comments in Cells.png
+        link: /features/knowledge-base/
+        title: Never Lose Important Information
+      - alt: >-
+          Business Consulting Software - Store Multiple Assumptions
+          Simultaneously in Visyond
+        descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        link: /features/scenarios/
+        title: Store Multiple Assumptions Simultaneously
+    image: /img/2019-02 Overview Panel.png
+    link: ''
+    subtitle: Spreadsheet governance & data tracking
+    title: Track Changes and Edit Without Overwriting
+  - altText: >-
+      Spreadsheet Collaboration Software - Store Conversations and Relevant
+      Documentation Directly in Cells in Visyond
+    benefitsList:
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: >-
+      Visyond will document the model automatically as you and your
+      collaborators work on it.<br><br>You do not need to save support documents
+      on different platforms or try to remember where something is or who
+      provided certain assumptions.
+    files:
+      - alt: >-
+          Spreadsheet Collaboration Software - Store Conversations and Relevant
+          Documentation Directly in Cells in Visyond
+        descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/2019-02 Comments in Cells.png
+        link: /features/knowledge-base/
+        title: Never Lose Important Information
+    image: /img/2019-02 Comments in Cells.png
+    link: ''
+    subtitle: Single source of truth and knowledge management
+    title: 'Organize Assumptions, Documents and Conversations In Cells'
+  - benefitsList:
+      - text: Instantly identify errors and their root cause
+      - text: >-
+          Understand complex formulas & spreadsheet structure with
+          human-readable names
+      - text: >-
+          Make your spreadsheets easier to visualize and explain to
+          collaborators
+    descr: >-
+      Highlight spreadsheet structure, errors and potential data inconsistencies
+      in real time, understand complex formulas at a glance and save countless
+      hours of tedious work tracing errors and typos.
+    files:
+      - alt: Business Consulting Software - Track Root Causes of Errors in Visyond
+        descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/2019-02 Error Root Cause.png
+        link: /features/audit-mode/
+        title: Track Errors and their Root Cause
+      - alt: Business Consulting Software - Audit Mode in Visyond
+        descr: >-
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/2019-02 Audit On.png
+        link: /features/audit-mode/
+        title: Audit On
+    image: /img/2019-02 Error Root Cause.png
+    link: ''
+    subtitle: Spreadsheet auditing & modeling
+    title: 'Understand Model Structure, Detect Errors and Anomalies'
 providesTitle: Get started in minutes
 providesList:
   - text: >-
