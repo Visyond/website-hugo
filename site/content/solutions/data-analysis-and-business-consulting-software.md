@@ -14,7 +14,7 @@ topTitle: >-
 topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
+- descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
     files:
       - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
         descr: >-
@@ -28,7 +28,7 @@ infoBlockFirst:
     image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
-  - altText: >-
+- altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
       Documentation Directly in Cells in Visyond
     descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
