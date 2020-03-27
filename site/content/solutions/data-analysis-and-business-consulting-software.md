@@ -14,12 +14,25 @@ topTitle: >-
 topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
+  - benefitsList:
+      - text: Budget vs. Actual
+      - text: >-
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
+      - text: >-
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
+    descr: >-
+      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly,
+      during meetings or presentations without depending on
+      experts.<br><br>Switching between scenarios automatically updates all
+      linked cells, charts and presentations without compromising integrity of
+      data.
     files:
       - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
         descr: >-
           With Visyond’s Scenario Comparison you can quickly compare different
-          assumptions in a few clicks without depending on experts.
+          assumptions in a few clicks.
         file: /img/2019-02 Scenario Analysis.png
         link: /features/scenarios/
         title: Compare Scenarios In Real Time
@@ -27,11 +40,20 @@ infoBlockFirst:
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
-    title: Create Multiple Scenarios and What-If Analysis On-The-Fly
+    subtitle: Collaborative scenario planning
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
       Documentation Directly in Cells in Visyond
-    descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
+    benefitsList:
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: >-
+      Visyond will document the model automatically as you and your
+      collaborators work on it.<br><br>You do not need to save support documents
+      on different platforms or try to remember where something is or who
+      provided certain assumptions.
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -44,7 +66,8 @@ infoBlockFirst:
         title: Never Lose Important Information
     image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
-    title: Single Source of Truth for Your Spreadsheets
+    subtitle: Single source of truth and knowledge management
+    title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:
       - text: >-
           Analyze data in real time in a self-service mode without relying on
