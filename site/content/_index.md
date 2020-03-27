@@ -251,7 +251,7 @@ cards:
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
     link: /solutions/financial-modeling-software/
-providesTitle: Get Started in Minutes
+providesTitle: Visyond for remote work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
