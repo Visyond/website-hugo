@@ -1,37 +1,32 @@
 ---
 aliases: /solutions/analysts-and-consultants/
-title: Business Consulting Software
-topImage: /img/solutions/solutions_analysts_consultants_top.png
 metaTags: >-
   <meta name="title" content="Data Analysis and Business Consulting Software">
-  <meta name="description" content="Visyond’s smart machine intelligence data analysis and business consulting software helps analysts and consultants analyze data faster and make better decisions based on the numbers.">
-  <meta name="keywords" content="data analysis, business consulting software">
+  <meta name="description" content="Visyond’s smart machine intelligence data
+  analysis and business consulting software helps analysts and consultants
+  analyze data faster and make better decisions based on the numbers."> <meta
+  name="keywords" content="data analysis, business consulting software">
+topImage: /img/solutions/solutions_analysts_consultants_top.png
+title: Business Consulting Software
 topTitle: >-
   Data Analysis and Business Consulting Software - Transform The Way You Analyze
   & Present Data and Make Better Decisions, faster
 topSubTitle: "As an analyst or consultant, you constantly analyse and recommend the best course of action based on the numbers. Visyond’s business consulting software makes data analysis smooth and fast.\r\n"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
-requestURL: /request
-bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
-      In seconds, Visyond lets you perform data analysis that used to take days,
-      automate routine tasks and test assumptions safely:
-
-
-      * Graphically compare scenarios and answer ‘what-if’ questions in real
-      time with Visyond’s [Scenario](/features/scenarios/) & Waterfall Analysis
-
-      * Compare relative importance of cells with instant [Tornado
-      Analysis](/features/tornado/)
-
-      * Understand the relationships between input and output cells with instant
-      [Sensitivity Analysis](/features/sensitivity/)
-
-      * Run simulations on your data with instant [Monte Carlo
-      Simulation](/features/simulations/)
+  - benefitsList:
+      - text: >-
+          Analyze data in real time in a self-service mode without relying on
+          experts
+      - text: Visualize impact of key drivers with Sensitivity analysis
+      - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
+      - text: Manage risk with Monte Carlo simulations
+      - text: View data from different angles with customizable Pivots
+    descr: >-
+      Carry out, in minutes, analyses that skilled professionals prepare in
+      hours or days without worrying about deleting or changing your
+      collaborators’ work or exporting data every time there is a change in the
+      spreadsheet.
     files:
       - alt: >-
           Business Consulting Software - Compare Scenarios in Real Time in
@@ -66,9 +61,24 @@ infoBlockFirst:
         link: /features/simulations/
         title: Monte Carlo Simulation
     image: /img/2019-02 Scenarios Waterfall Analysis.png
-    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Data Analysis On-The-Fly
-  - descr: "* A single place to store all your spreadsheet data: assumptions, supporting documentation, conversations and approvals\r\n* No back & forth emails with bits of information, multiple versions of the spreadsheet flying around and critical data lost along the way\r\n* Manage and transfer team or client knowledge easily and stop being called all the time just to make minor changes\r\n"
+    link: ''
+    subtitle: Analysis automation
+    title: Instantly Visualize the Impact of Important Cells
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of architectural changes in the model
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
+    descr: >-
+      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
+      opposed to last value overwriting the existing one.<br><br>Nobody,
+      including the project owner, can modify data entered by
+      others.<br><br>Multiple collaborators can work on the same project, and
+      Visyond will track and report who added assumptions, when and why.
     files:
       - alt: >-
           Business Consulting Software - Never Lose Important Information in
@@ -90,9 +100,21 @@ infoBlockFirst:
         link: /features/scenarios/
         title: Store Multiple Assumptions Simultaneously
     image: /img/2019-02 Overview Panel.png
-    link: /features/knowledge-base/
-    title: Track & Never Lose Critical Information
-  - descr: "Mistakes can be costly . With Visyond you can quickly:\r\n\r\n* Identify the root causes of errors\r\n* Audit the spreadsheet in [Audit Mode](/features/audit-mode/)"
+    link: ''
+    subtitle: Spreadsheet governance & data tracking
+    title: Track Changes and Edit Without Overwriting
+  - benefitsList:
+      - text: Instantly identify errors and their root cause
+      - text: >-
+          Understand complex formulas & spreadsheet structure with
+          human-readable names
+      - text: >-
+          Make your spreadsheets easier to visualize and explain to
+          collaborators
+    descr: >-
+      Highlight spreadsheet structure, errors and potential data inconsistencies
+      in real time, understand complex formulas at a glance and save countless
+      hours of tedious work tracing errors and typos.
     files:
       - alt: Business Consulting Software - Track Root Causes of Errors in Visyond
         descr: >-
@@ -109,9 +131,21 @@ infoBlockFirst:
         link: /features/audit-mode/
         title: Audit On
     image: /img/2019-02 Error Root Cause.png
-    link: /features/audit-mode/
-    title: Audit and Debug Models with Ease
-  - descr: "* Visualize & present the data with Interactive Presentations\r\n* Have a secure environment for your stakeholders to test assumptions\r\n* Charts and calculations in presentations are updated and automatically synced only for you without affecting anyone else’s views or the underlying spreadsheet\r\n"
+    link: ''
+    subtitle: Spreadsheet auditing & modeling
+    title: 'Understand Model Structure, Detect Errors and Anomalies'
+  - benefitsList:
+      - text: Empower stakeholders to independently answer ‘what-if’ questions
+      - text: >-
+          Eliminate risk of accidental changes in the model when testing
+          assumptions
+      - text: >-
+          Create & share interactive business case calculators without technical
+          know-how
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+    descr: "Create visual interactive presentations and spreadsheet-driven calculators your stakeholders can use to independently test assumptions without touching the spreadsheet.\r<br><br>Changing data on the slides does not make changes to the spreadsheet.\r"
     files:
       - alt: Business Consulting Software - Interactive Presentations in Visyond
         descr: >-
@@ -122,9 +156,20 @@ infoBlockFirst:
         link: /features/interactive-presentations/
         title: Interactive Presentations
     image: /img/2019-02 Interactive Presentation.png
-    link: /features/interactive-presentations/
-    title: Present with Impact
-  - descr: "* Communicate more efficiently while avoiding data leaks\r\n* No need for emailing spreadsheets or presentations\r\n* No back-and-forth copy-paste between PowerPoint and Excel or any other visualization tools\r\n"
+    link: ''
+    subtitle: Data visualization & presentation
+    title: Present Models with Spreadsheet-driven Calculators
+  - benefitsList:
+      - text: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks
+      - text: >-
+          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          information
+    descr: >-
+      Besides setting permissions for collaborators (editor, viewer), you can
+      share only specific worksheets, reports and presentation slides with
+      specific people for better control over information flow and data privacy.
     files:
       - alt: Business Consulting Software - Share Projects in Visyond
         descr: >-
@@ -149,42 +194,8 @@ infoBlockFirst:
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
     link: /features/selective-sharing/
-    title: Share Only What Collaborators Or Clients Need To See
-solutionsTitle: Related Solutions
-solutionsCards:
-  - icon: /img/collaborative_analysis_3x.png
-    link: /solutions/analysis/
-    text: >-
-      Collaboratively perform spreadsheet data analysis and securely share
-      valuable business insights with Visyond’s data analysis software.
-    title: Collaborative Analysis
-  - icon: /img/report_presentation_visualization_3x.png
-    link: /solutions/presentation/
-    text: >-
-      Create insightful interactive data visualizations and empower
-      collaborators to test assumptions only on information they are authorized
-      to see.
-    title: 'Reports, Presentations and Visualizations'
-  - icon: /img/decision_makers_3x.png
-    link: /solutions/decision-makers/
-    text: >-
-      Make fast and accurate decisions with Visyond’s collaborative decision
-      making software.
-    title: Decision Makers
-  - icon: /img/modelling_3x.png
-    link: /solutions/modeling/
-    text: >-
-      Visyond’s spreadsheet modeling software aids modelers by automating
-      routine tasks, minimizing the risk of errors in an intuitive
-      Excel-compatible platform.
-    title: Modeling
-capabilitiesList:
-  - image: /img/v_icon.png
-    text: Save up to **80%** of time on routine tasks
-  - image: /img/v_icon2.png
-    text: Reduce average cost by **$420** per employee/month
-  - image: /img/v_icon3.png
-    text: '**Significantly** reduce errors'
+    subtitle: Secure data sharing
+    title: Share Only Specific Worksheets and Reports
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -192,7 +203,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 
