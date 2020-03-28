@@ -67,7 +67,7 @@ infoBlockFirst:
         link: ''
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Scenario Analysis.png
-    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
+    link: ''
     subtitle: Analysis automation
     title: Identify Key Drivers of Your Financial Models
   - benefitsList:
@@ -90,7 +90,7 @@ infoBlockFirst:
           With Visyond’s Scenario Comparison you can quickly compare different
           assumptions in a few clicks.
         file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
+        link: ''
         title: Compare Scenarios In Real Time
       - file: /img/2019-02 Scenarios Waterfall Analysis.png
         title: Scenario Waterfall
@@ -128,7 +128,7 @@ infoBlockFirst:
         link: ''
         title: INTERACTIVE PRESENTATIONS
     image: /img/2019-02 Interactive Presentation.png
-    link: /features/interactive-presentations/
+    link: ''
     subtitle: Data visualization & presentation
     title: Present Financial Models with Spreadsheet-driven Calculators
   - altText: Financial Modeling Software - Share Only Relevant Data Pieces
@@ -165,7 +165,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
-    link: /features/selective-sharing/
+    link: ''
     subtitle: Secure data sharing
     title: Share Only Specific Parts of Financial Models
   - altText: Financial Modeling Software - Audit Financial Models
@@ -208,7 +208,7 @@ infoBlockFirst:
         link: ''
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
     image: /img/track errors 1.png
-    link: /features/audit-mode/
+    link: ''
     subtitle: Financial models audit and debugging
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
@@ -290,7 +290,7 @@ infoBlockFirst:
         link: ''
         title: VERSIONS
     image: /img/2019-02 Comments in Cells.png
-    link: /features/knowledge-base/
+    link: ''
     subtitle: Single source of truth and knowledge management
     title: 'Organize Assumptions, Documents and Conversations In Cells'
 providesTitle: Financial Modeling Software for Remote Work
