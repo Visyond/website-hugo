@@ -22,7 +22,7 @@ infoBlockFirst:
   - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
     benefitsList:
       - text: Analyze data in real time in a self-service mode
-      - text: Visualize the impact of important cells
+      - text: Visualize the impact of important cells with Sensitivity analysis
       - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
       - text: Manage risk with Monte Carlo simulations
       - text: View data from different angles with customizable Pivots
@@ -68,8 +68,8 @@ infoBlockFirst:
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Scenario Analysis.png
     link: ''
-    subtitle: Analysis automation
-    title: Identify Key Drivers of Your Financial Models
+    subtitle: Analysis and stress-testing automation
+    title: Instantly Identify Key Drivers of Your Financial Models
   - benefitsList:
       - text: >-
           Combine assumptions into scenarios that can be switched and compared
@@ -96,7 +96,7 @@ infoBlockFirst:
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
     link: ''
-    subtitle: Collaborative scenario planning
+    subtitle: Collaborative scenario planning and analysis
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
     benefitsList:
@@ -116,8 +116,9 @@ infoBlockFirst:
     descr: >-
       Create visual interactive presentations and spreadsheet-driven calculators
       your clients and stakeholders can use to independently test assumptions
-      without touching the financial model. <br><br>Changing data on the slides
-      does not make changes to the spreadsheet.
+      without touching or seeing the underlying financial model.
+      <br><br>Changing data on the slides does not make changes to the
+      spreadsheet.
     files:
       - alt: Financial Modeling Software - Share Financial Modeling Presentations
         descr: >-
