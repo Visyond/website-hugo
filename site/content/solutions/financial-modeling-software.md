@@ -293,7 +293,7 @@ infoBlockFirst:
     link: /features/knowledge-base/
     subtitle: Single source of truth and knowledge management
     title: 'Organize Assumptions, Documents and Conversations In Cells'
-providesTitle: Get started in minutes
+providesTitle: Financial Modeling Software for Remote Work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
