@@ -19,6 +19,57 @@ topSubTitle: >-
   **helping decision makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
+  - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
+    benefitsList:
+      - text: Analyze data in real time in a self-service mode
+      - text: Visualize the impact of important cells
+      - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
+      - text: Manage risk with Monte Carlo simulations
+      - text: View data from different angles with customizable Pivots
+    descr: >-
+      Automate routine analytical tasks and, in minutes, carry out analyses that
+      used to take hours or days to prepare. You don’t need to worry about
+      deleting or changing your collaborators’ work or exporting data every time
+      there is a change in the model.
+    files:
+      - alt: Financial Modeling Software - Compare Scenarios in Financial Models
+        descr: >-
+          Compare scenarios with Visyond and gain valuable insights in just a
+          few clicks!
+        file: /img/2019-02 Scenario Analysis.png
+        link: ''
+        title: COMPARE SCENARIOS IN REAL TIME
+      - alt: >-
+          Financial Modeling Software - Set up Impact (Tornado) Analysis in
+          Financial Model
+        descr: >-
+          Impact (Tornado) analysis will instantly show you  what inputs have
+          the greatest impact on outputs and how they interact with one another 
+        file: /img/2019-02 Impact Analysis.png
+        link: ''
+        title: Tornado Analysis
+      - alt: >-
+          Spreadsheet Modeling Software - Sensitivity Analysis in Financial
+          Model
+        descr: >-
+          With just a few clicks Visyond allows you to run Sensitivity analysis
+          without long manual setups.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        link: ''
+        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
+      - alt: >-
+          Spreadsheet Modeling Software - Monte Carlo Simulations in Financial
+          Model
+        descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/2019-02 Simulation Monte Carlo.png
+        link: ''
+        title: MONTE CARLO SIMULATION
+    image: /img/2019-02 Scenario Analysis.png
+    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
+    subtitle: Analysis automation
+    title: Identify Key Drivers of Your Financial Models
   - benefitsList:
       - text: >-
           Combine assumptions into scenarios that can be switched and compared
@@ -47,6 +98,119 @@ infoBlockFirst:
     link: ''
     subtitle: Collaborative scenario planning
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
+  - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
+    benefitsList:
+      - text: >-
+          Create & share interactive business case calculators without technical
+          know-how
+      - text: Have an independent presentation layer driven by your model
+      - text: >-
+          Empower stakeholders to self-serve on ‘what-if’ questions and
+          visualize different scenarios
+      - text: >-
+          Eliminate risk of accidental changes in the spreadsheet when
+          stakeholders test assumptions
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+    descr: >-
+      Create visual interactive presentations and spreadsheet-driven calculators
+      your clients and stakeholders can use to independently test assumptions
+      without touching the financial model. <br><br>Changing data on the slides
+      does not make changes to the spreadsheet.
+    files:
+      - alt: Financial Modeling Software - Share Financial Modeling Presentations
+        descr: >-
+          Empower stakeholders to test their own assumptions without interacting
+          directly with the spreadsheet by using Visyond's Interactive
+          Presentations!
+        file: /img/2019-02 Interactive Presentation.png
+        link: ''
+        title: INTERACTIVE PRESENTATIONS
+    image: /img/2019-02 Interactive Presentation.png
+    link: /features/interactive-presentations/
+    subtitle: Data visualization & presentation
+    title: Present Financial Models with Spreadsheet-driven Calculators
+  - altText: Financial Modeling Software - Share Only Relevant Data Pieces
+    benefitsList:
+      - text: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks
+      - text: >-
+          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          information
+    descr: >-
+      Share only specific worksheets, presentation slides and reports with
+      specific clients for better control over information flows and data
+      privacy, shield stakeholders from unnecessary information, and protect
+      your models and intellectual property.
+    files:
+      - alt: Financial Modeling Software - Share Financial Models
+        descr: >-
+          Set access on project level with different roles - Owner, Reader,
+          Coworker with different access permissions and share only specific
+          worksheets and slides.
+        file: /img/2019-02 Share Project Panel.png
+        link: ''
+        title: SHARE PROJECT
+      - alt: Financial Modeling Software - Share Worksheets in Financial Models
+        descr: >-
+          Manage who can see or can not see a specific worksheet in your
+          project.
+        file: /img/2019-02 Share Project Panel.png
+        link: ''
+        title: SHARE WORKSHEETS
+      - alt: Financial Modeling Software - Share Financial Modeling Presentations
+        descr: Share whole presentations or just individual slides.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: SHARE PRESENTATIONS
+    image: /img/2019-02 Share Project Panel.png
+    link: /features/selective-sharing/
+    subtitle: Secure data sharing
+    title: Share Only Specific Parts of Financial Models
+  - altText: Financial Modeling Software - Audit Financial Models
+    benefitsList:
+      - text: Instantly identify errors and their root cause
+      - text: >-
+          Understand complex formulas & spreadsheet structure with
+          human-readable names
+      - text: >-
+          Make your financial models easier to visualize and explain to
+          collaborators
+    descr: >-
+      Visualize the structure of your financial models, highlight errors and
+      potential data inconsistencies as you type, understand complex formulas at
+      a glance, and save countless hours of tedious work tracing errors and
+      typos.
+    files:
+      - alt: Financial Modeling Software - Audit Financial Models
+        descr: >-
+          In the Audit Mode each cell looks different based on the type of data
+          it contains.
+        file: /img/2019-02 Audit On.png
+        link: ''
+        title: AUDIT MODE ON
+      - alt: Financial Modeling Software - Track Errors in Financial Models
+        descr: >-
+          When in Audit Mode, Visyond offers simple and intuitive ways to track
+          errors and their root cause.
+        file: /img/track errors 1.png
+        link: ''
+        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
+      - alt: Financial Modeling Software - Audit Spreadsheets
+        descr: >-
+          It highlights error and circular cells clearly; The trendlines help
+          you visually identify unexpected behaviors; The Precedents Panel
+          displays on top the precedent cells that are error - this way you can
+          identify the root cause of the error propagation chain with a few
+          clicks.
+        file: /img/track errors.png
+        link: ''
+        title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
+    image: /img/track errors 1.png
+    link: /features/audit-mode/
+    subtitle: Financial models audit and debugging
+    title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
           Collaborate on spreadsheets and know who contributed what, when and
@@ -85,21 +249,19 @@ infoBlockFirst:
     image: /img/2019-02 Overview Panel.png
     link: ''
     subtitle: Spreadsheet governance & data tracking
-    title: Track Changes and Edit Without Overwriting    
+    title: Track Changes and Edit Without Overwriting
   - altText: >-
       Financial Modeling Software - Single Source of Truth for Your Financial
       Model
-    descr: >
-      * Don’t worry about managing versions of the model while tracking inputs
-      from contributors - our financial modeling software does it for you
-
-      * Contributors can’t overwrite each others’ inputs - they are stored in
-      parallel
-
-      * Easily create, modify, combine and compare scenarios
-
-      * Store all assumptions, attachments and conversations directly in the
-      relevant cells
+    benefitsList:
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: >-
+      Visyond will document your financial model automatically as you and your
+      collaborators work on it. <br><br>You do not need to save support
+      documents on different platforms or try to remember where something is or
+      who provided certain assumptions – everything is stored inside the cells.
     files:
       - alt: >-
           Financial Modeling Software - Never Lose Information in Financial
@@ -129,139 +291,8 @@ infoBlockFirst:
         title: VERSIONS
     image: /img/2019-02 Comments in Cells.png
     link: /features/knowledge-base/
-    title: Single Source of Truth For Your Financial Model
-  - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
-    descr: "* Automate typical analytical tasks - [compare Scenarios](/features/scenarios/), [run Monte Carlo Simulations](/features/simulations/) or [Sensitivity](/features/sensitivity/) analysis) - without add-ons/macros or coding\n* Focus on on getting insights from your data instead of preparing data\n* Take advantage of financial modeling tools such as Visyond's auto-analysis for complete analysis in seconds\r\n\n"
-    files:
-      - alt: Financial Modeling Software - Compare Scenarios in Financial Models
-        descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
-          few clicks!
-        file: /img/2019-02 Scenario Analysis.png
-        link: ''
-        title: COMPARE SCENARIOS IN REAL TIME
-      - alt: >-
-          Financial Modeling Software - Set up Impact (Tornado) Analysis in
-          Financial Model
-        descr: >-
-          Impact (Tornado) analysis will instantly show you  what inputs have
-          the greatest impact on outputs and how they interact with one another 
-        file: /img/2019-02 Impact Analysis.png
-        link: ''
-        title: Tornado Analysis
-      - alt: >-
-          Spreadsheet Modeling Software - Sensitivity Analysis in Financial
-          Model
-        descr: >-
-          With just a few clicks Visyond allows you to run Sensitivity analysis
-          without long manual setups.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: ''
-        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - alt: >-
-          Spreadsheet Modeling Software - Monte Carlo Simulations in Financial
-          Model
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        link: ''
-        title: MONTE CARLO SIMULATION
-    image: /img/2019-02 Scenario Analysis.png
-    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Automate Spreadsheet Modeling Analysis
-  - altText: Financial Modeling Software - Share Only Relevant Data Pieces
-    descr: >-
-      * Keep sensitive information safe - only stakeholders you approve will
-      have access to it
-
-      * Give access only to specific parts of your financial model, analysis and
-      presentations with [Selective Sharing](/features/selective-sharing/) and
-      granular permission control
-
-      * Improve communications with decision makers without overwhelming them
-      with non-relevant data and calculations
-    files:
-      - alt: Financial Modeling Software - Share Financial Models
-        descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions and share only specific
-          worksheets and slides.
-        file: /img/2019-02 Share Project Panel.png
-        link: ''
-        title: SHARE PROJECT
-      - alt: Financial Modeling Software - Share Worksheets in Financial Models
-        descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/2019-02 Share Project Panel.png
-        link: ''
-        title: SHARE WORKSHEETS
-      - alt: Financial Modeling Software - Share Financial Modeling Presentations
-        descr: Share whole presentations or just individual slides.
-        file: /img/2019-02 Share Project Panel Slide Expanded.png
-        title: SHARE PRESENTATIONS
-    image: /img/2019-02 Share Project Panel.png
-    link: /features/selective-sharing/
-    title: Share Only Relevant Data Pieces
-  - altText: Financial Modeling Software - Audit Financial Models
-    descr: >-
-      * Streamline audit of financial models and spreadsheets, improve quality
-      of your models and reduce the probability of accidental human errors
-
-      * Save countless hours with automated model debugging tool - Error Root
-      Cause Analysis
-    files:
-      - alt: Financial Modeling Software - Audit Financial Models
-        descr: >-
-          In the Audit Mode each cell looks different based on the type of data
-          it contains.
-        file: /img/2019-02 Audit On.png
-        link: ''
-        title: AUDIT MODE ON
-      - alt: Financial Modeling Software - Track Errors in Financial Models
-        descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/track errors 1.png
-        link: ''
-        title: TRACK ERRORS AND THEIR ROOT CAUSE 1/2
-      - alt: Financial Modeling Software - Audit Spreadsheets
-        descr: >-
-          It highlights error and circular cells clearly; The trendlines help
-          you visually identify unexpected behaviors; The Precedents Panel
-          displays on top the precedent cells that are error - this way you can
-          identify the root cause of the error propagation chain with a few
-          clicks.
-        file: /img/track errors.png
-        link: ''
-        title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
-    image: /img/track errors 1.png
-    link: /features/audit-mode/
-    title: Automate Financial Modeling Tasks
-  - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
-    descr: >-
-      * Empower stakeholders to answer ‘what-if’ questions by themselves without
-      going back to the model or the modeler
-
-      * Visualize different scenarios and test assumptions directly in the
-      slides without exposing or changing the financial model’s data or
-      structure
-
-      * Don’t worry about maintaining separate presentation layer on top of your
-      financial model
-    files:
-      - alt: Financial Modeling Software - Share Financial Modeling Presentations
-        descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
-        file: /img/2019-02 Interactive Presentation.png
-        link: ''
-        title: INTERACTIVE PRESENTATIONS
-    image: /img/2019-02 Interactive Presentation.png
-    link: /features/interactive-presentations/
-    title: Remove Financial Modeling Bottlenecks
+    subtitle: Single source of truth and knowledge management
+    title: 'Organize Assumptions, Documents and Conversations In Cells'
 providesTitle: Get started in minutes
 providesList:
   - text: >-
