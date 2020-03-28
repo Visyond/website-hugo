@@ -19,6 +19,73 @@ topSubTitle: >-
   **helping decision makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
+  - benefitsList:
+      - text: >-
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
+      - text: >-
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
+      - text: Manage assumptions for different clients on the same model
+      - text: Compare Budget vs. Actual figures
+    descr: >-
+      Create and visually compare scenarios on the fly, during meetings or
+      presentations.<br><br>Switching between scenarios automatically updates
+      all linked cells, charts and presentations without compromising integrity
+      of data.
+    files:
+      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
+        descr: >-
+          With Visyond’s Scenario Comparison you can quickly compare different
+          assumptions in a few clicks.
+        file: /img/2019-02 Scenario Analysis.png
+        link: /features/scenarios/
+        title: Compare Scenarios In Real Time
+      - file: /img/2019-02 Scenarios Waterfall Analysis.png
+        title: Scenario Waterfall
+    image: /img/2019-02 Scenario Analysis.png
+    link: ''
+    subtitle: Collaborative scenario planning
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of architectural changes in the model
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
+    descr: >-
+      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
+      opposed to last value overwriting the existing one.<br><br>Nobody,
+      including the project owner, can modify data entered by
+      others.<br><br>Multiple collaborators can work on the same project, and
+      Visyond will track and report who added assumptions, when and why.
+    files:
+      - alt: >-
+          Business Consulting Software - Never Lose Important Information in
+          Visyond
+        descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/2019-02 Comments in Cells.png
+        link: ''
+        title: Never Lose Important Information
+      - alt: >-
+          Business Consulting Software - Store Multiple Assumptions
+          Simultaneously in Visyond
+        descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        link: ''
+        title: Store Multiple Assumptions Simultaneously
+    image: /img/2019-02 Overview Panel.png
+    link: ''
+    subtitle: Spreadsheet governance & data tracking
+    title: Track Changes and Edit Without Overwriting    
   - altText: >-
       Financial Modeling Software - Single Source of Truth for Your Financial
       Model
