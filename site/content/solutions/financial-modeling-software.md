@@ -1,23 +1,23 @@
 ---
 aliases: /solutions/modeling/
-title: 'Financial Modeling Software: Flexible, Familiar, Scalable'
-topImage: /img/solutions/solutions_modeling_top.png
 metaTags: >-
   <meta name="title" content="Visyond’s Financial Modeling Software"> <meta
   name="description" content="Automate financial modeling. Audit models, create
   scenarios,  automate analysis, present models with Visyond’s Excel-compatible
   financial modeling software."> <meta name="keywords" content="Financial
   Modeling Software, Financial Modeling Tools, Spreadsheet Modeling">
-topTitle: 'Financial Modeling Software: Build, Analyze, Audit, and Present Models Faster'
+topImage: /img/solutions/solutions_modeling_top.png
+title: Financial Modeling Software You Wish You Had Yesterday
+topTitle: Financial Modeling Software You Wish You Had Yesterday
 topSubTitle: >-
-  Visyond’s financial modeling software aids professionals on every step on the
-  way by providing easy-to-use financial modeling tools that automate routine
-  tasks, minimize risk of introducing errors, and help make better decisions
+  Visyond’s Financial Modeling Software combines the best of both worlds: the
+  flexibility and the look-and-feel of Excel and the structured approach to
+  managing data characteristic of ERP systems.<br><br>With Visyond, you will be
+  able to understand and visualize the structure of your financial models
+  better, save countless hours by automating routine analytical tasks, and
+  present the results of your work in an impactful and interactive way,
+  **helping decision makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/re6E106dISo'
-requestURL: /request
-bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - altText: >-
       Financial Modeling Software - Single Source of Truth for Your Financial
@@ -195,13 +195,6 @@ infoBlockFirst:
     image: /img/2019-02 Interactive Presentation.png
     link: /features/interactive-presentations/
     title: Remove Financial Modeling Bottlenecks
-capabilitiesList:
-  - image: /img/v_icon.png
-    text: Save up to 80% of time on routine tasks
-  - image: /img/v_icon2.png
-    text: Reduce average cost by $420 per employee/month
-  - image: /img/v_icon3.png
-    text: Significantly reduce errors
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -209,7 +202,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Transform your decision-making with Visyond's financial modeling software
-botRequestURL: /request
 ---
 
