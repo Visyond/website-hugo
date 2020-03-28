@@ -28,9 +28,9 @@ infoBlockFirst:
       - text: View data from different angles with customizable Pivots
     descr: >-
       Automate routine analytical tasks and, in minutes, carry out analyses that
-      used to take hours or days to prepare. You don't need to write or maintain
-      macros, worry about deleting or changing your collaborators’ work or
-      exporting data every time there is a change in the model.
+      used to take hours or days to prepare. You don't need to worry about
+      deleting or changing your collaborators’ work or exporting data every time
+      there is a change in the model.
     files:
       - alt: >-
           Business Consulting Software - Compare Scenarios in Real Time in
