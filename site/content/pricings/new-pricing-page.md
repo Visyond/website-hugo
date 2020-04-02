@@ -14,7 +14,7 @@ pricingCards:
         text: Request a Demo
         url: /request/
       img: /img/spreadsheet_collaboration_3x.png
-      markdown: "* Share only specific worksheets\r\n* Edit without overwriting others’ inputs\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
+      markdown: "* Create, manage and merge Scenarios\n* Share only specific worksheets\r\n* Edit without overwriting others’ inputs\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
       subTitleList: >-
         Import or build models, understand spreadsheet structure and identify
         errors and anomalies 
@@ -29,7 +29,7 @@ pricingCards:
         url: /request
       img: /img/report_presentation_visualization_3x.png
       markdown: |-
-        * Create, compare and analyze scenarios
+        * Visually compare and analyze scenarios
         * Find important cells with Sensitivity analysis
         * Manage risk with Monte Carlo Simulations
         * Visualize data without exporting to dedicated tools
