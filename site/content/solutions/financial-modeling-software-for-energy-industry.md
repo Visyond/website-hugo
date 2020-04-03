@@ -41,12 +41,46 @@ infoBlockFirst:
       changing your collaborators’ work or exporting data every time there is a
       change in the spreadsheet.
     files:
-      - file: /img/2019-02 Sensitivity Two-Way Analysis.png
-      - file: /img/2019-02 Scenario Management Panel.png
-      - file: /img/2019-02 Scenario Analysis.png
-      - file: /img/2019-02 Cases Panel and Dropdown.png
-      - file: /img/2019-02 Comments in Cells.png
-      - file: /img/2019-02 Audit On.png
+      - descr: >-
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        title: Focus on what's important
+      - descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet
+      - descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Track Changes and Edit Without Overwriting
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     subtitle: 'Data governance, Scenario planning, Analysis automation'
     title: Improve Project Analysis and Reporting
@@ -73,9 +107,25 @@ infoBlockFirst:
       statements, driven by assumptions in your spreadsheet, and automate the
       preparation of reports based on your settings and accounting standards.
     files:
-      - file: /img/2019-02 Interactive Presentation.png
-      - file: /img/2019-02 Share Project Panel Slide Expanded.png
-      - file: /img/2019-02 Financial Statements.png
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
+        file: /img/2019-02 Interactive Presentation.png
+        title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: Share Only Specific Worksheets and Reports
+      - descr: >-
+          Visyond creates forward looking predictive financial statements,
+          driven by assumptions in your spreadsheet.The statements can adapt to
+          any reporting/accounting standard and automate the preparation of
+          reports based on your settings.
+        file: /img/2019-02 Financial Statements.png
+        title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Interactive Presentation.png
     subtitle: Data visualization & interactive reports
     title: Present Models with Spreadsheet-driven Calculators
