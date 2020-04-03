@@ -141,10 +141,28 @@ infoBlockFirst:
           assumptions, documents and conversations
     descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nUnlike other spreadsheets, multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r\n"
     files:
-      - file: /img/2019-02 Cases Panel and Dropdown.png
-      - file: /img/2019-02 Comments in Cells.png
-      - file: /img/2019-02 Share Project Panel.png
-      - file: /img/2019-02 Share Project Panel Slide Expanded.png
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Streamline Data Gathering from Experts
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: 'Secure data sharing, Data gathering, Knowledge base'
     title: Streamline Data Gathering from Experts
@@ -160,8 +178,19 @@ infoBlockFirst:
           presentations
     descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the spreadsheet.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
-      - file: /img/2019-02 Audit On.png
-      - file: /img/2019-02 Interactive Presentation.png
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
+        file: /img/2019-02 Interactive Presentation.png
+        title: Present Models with Spreadsheet-driven Calculators
     image: /img/2019-02 Audit On.png
     subtitle: 'Stress-testing, presentation, secure sharing'
     title: Let the Spreadsheet Do Things It Couldn’t Before
