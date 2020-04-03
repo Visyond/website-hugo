@@ -72,7 +72,11 @@ infoBlockFirst:
       You will be able to generate forward looking predictive financial
       statements, driven by assumptions in your spreadsheet, and automate the
       preparation of reports based on your settings and accounting standards.
-    image: /img/home/laptop.png
+    files:
+      - file: /img/2019-02 Interactive Presentation.png
+      - file: /img/2019-02 Share Project Panel Slide Expanded.png
+      - file: /img/2019-02 Financial Statements.png
+    image: /img/2019-02 Interactive Presentation.png
     subtitle: Data visualization & interactive reports
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
@@ -86,7 +90,12 @@ infoBlockFirst:
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
     descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nUnlike other spreadsheets, multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r\n"
-    image: /img/home/laptop.png
+    files:
+      - file: /img/2019-02 Cases Panel and Dropdown.png
+      - file: /img/2019-02 Comments in Cells.png
+      - file: /img/2019-02 Share Project Panel.png
+      - file: /img/2019-02 Share Project Panel Slide Expanded.png
+    image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: 'Secure data sharing, Data gathering, Knowledge base'
     title: Streamline Data Gathering from Experts
   - benefitsList:
@@ -100,7 +109,10 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
     descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the spreadsheet.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
-    image: /img/home/laptop.png
+    files:
+      - file: /img/2019-02 Audit On.png
+      - file: /img/2019-02 Interactive Presentation.png
+    image: /img/2019-02 Audit On.png
     subtitle: 'Stress-testing, presentation, secure sharing'
     title: Let the Spreadsheet Do Things It Couldn’t Before
 bgBottom: /img/back2.png
