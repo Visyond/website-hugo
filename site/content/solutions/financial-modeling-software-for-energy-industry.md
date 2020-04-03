@@ -40,7 +40,14 @@ infoBlockFirst:
       professionals prepare in hours or days without worrying about deleting or
       changing your collaborators’ work or exporting data every time there is a
       change in the spreadsheet.
-    image: /img/home/laptop.png
+    files:
+      - file: /img/2019-02 Sensitivity Two-Way Analysis.png
+      - file: /img/2019-02 Scenario Management Panel.png
+      - file: /img/2019-02 Scenario Analysis.png
+      - file: /img/2019-02 Cases Panel and Dropdown.png
+      - file: /img/2019-02 Comments in Cells.png
+      - file: /img/2019-02 Audit On.png
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     subtitle: 'Data governance, Scenario planning, Analysis automation'
     title: Improve Project Analysis and Reporting
   - benefitsList:
