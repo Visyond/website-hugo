@@ -1,6 +1,6 @@
 ---
-title: Financial Modeling Software for Energy Industry
-topTitle: Financial Modeling Software for Energy Industry You Wish You Had Yesterday
+title: 'Make Better Energy and Utility Decisions, Faster'
+topTitle: 'Make Better Energy and Utility Decisions, Faster'
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis and interactive reporting software that works in the browser and
@@ -28,7 +28,7 @@ infoBlockFirst:
       - text: Prevent version chaos and see history of changes
       - text: Reduce risk of errors and architectural changes in the model
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
+    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
