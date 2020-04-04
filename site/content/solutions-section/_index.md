@@ -62,6 +62,12 @@ solDropdownCol:
         image: /img/banking_3x.png
         path: /solutions/risk-management-software-for-banks/
         title: Banking
+      - descr: >-
+          Cloud collaboration, planning, and self-service analytics for energy
+          and utilities projects.
+        image: /img/collaborative_analysis_3x.png
+        path: /solutions/energy-and-utilities
+        title: Energy and Utilities
       - descr: ''
         image: /img/management_consulting_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/
