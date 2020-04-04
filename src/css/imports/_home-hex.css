@@ -1185,10 +1185,12 @@ margin-bottom: 30px;
 
 .enterSectionsA__block-subtitle {
 margin-bottom: 20px;
-font-size: 1.3em;
+font-size: 1.2em;
 font-weight: 600;
 color: #8e8e8e;
-line-height: 1.2em;
+line-height: 1.4em;
+border-left: 3px solid #0086ff;
+padding-left: 10px;    
 @media screen and (max-width: 800px) {
     margin-bottom: 16px;
     font-size: 16px;
