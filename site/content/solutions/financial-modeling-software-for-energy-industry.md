@@ -49,6 +49,12 @@ infoBlockFirst:
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Analysis.png
         title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
           as opposed to last value overwriting the existing one. Nobody,
@@ -71,7 +77,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: "Cloud-based Budgeting and Forecasting\r\n<br>\r\nSelf-Service Planning and Analysis\r\n<br>\r\nData Governance and Automated Spreadsheet Audit"
+    subtitle: "Cloud-based budgeting and forecasting \r\n<br> \r\nSelf-service planning and analysis \r\n<br> \r\nData governance and spreadsheet audit\r"
     title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
       - text: >-
@@ -97,15 +103,8 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
-      - descr: >-
-          Visyond creates forward looking predictive financial statements,
-          driven by assumptions in your spreadsheet.The statements can adapt to
-          any reporting/accounting standard and automate the preparation of
-          reports based on your settings.
-        file: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: "Interactive Data Visualizations\r\n<br>\r\nSelf-service on ‘What-If’ Questions\r\n<br>\r\nSpreadsheet-driven Calculators \r"
+    subtitle: "Interactive data visualizations \r\n<br> \r\nSelf-service on ‘what-if’ questions \r\n<br> \r\nSpreadsheet-driven calculators"
     title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
@@ -117,7 +116,7 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
@@ -141,8 +140,12 @@ infoBlockFirst:
           privacy.
         file: /img/2019-02 Share Project Panel.png
         title: Share Only Specific Worksheets and Reports
+      - descr: >-
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet
+        title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: "Single Source of Truth for Projects\r\n<br>\r\nData Gathering Without Version Chaos\r\n<br>\r\nSecure Data Sharing of Specific Project Parts\r"
+    subtitle: "Single source of truth for projects \r\n<br> \r\nData gathering without version chaos \r\n<br> \r\nSecure and granular data sharing"
     title: Streamline Data Gathering from Experts
   - benefitsList:
       - text: >-
@@ -158,20 +161,21 @@ infoBlockFirst:
     descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
     files:
       - descr: >-
-          Highlight spreadsheet structure, errors and potential data
-          inconsistencies in real time, understand complex formulas at a glance
-          and save countless hours of tedious work tracing errors and typos.
-        file: /img/2019-02 Audit On.png
-        title: 'Understand Model Structure, Detect Errors and Anomalies'
-      - descr: >-
           Create visual interactive presentations and spreadsheet-driven
           calculators your stakeholders can use to independently test
           assumptions without touching the spreadsheet. Changing data on the
           slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
         title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Visyond creates forward looking predictive financial statements,
+          driven by assumptions in your spreadsheet.The statements can adapt to
+          any reporting/accounting standard and automate the preparation of
+          reports based on your settings.
+        file: /img/2019-02 Financial Statements.png
+        title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
-    subtitle: "Always Up-to-date Independent Presentation Layer \r\n<br>\r\nCloud-based Reports Linked to Your Model\r\n<br>\r\nControl Over Who Sees and Interacts With What\r"
+    subtitle: "Always up-to-date presentation layer \r\n<br> \r\nReports driven by your model \r\n<br> \r\nControl over who sees what"
     title: Provide Actionable Insights in Digestible Format
 bgBottom: /img/back2.png
 ---
