@@ -2,9 +2,9 @@
 title: Financial Modeling Software for Energy Industry
 topTitle: Financial Modeling Software for Energy Industry You Wish You Had Yesterday
 topSubTitle: >-
-  Visyond is a secure Excel-compatible spreadsheet modeling, analysis and
-  interactive reporting software that works in the browser and focuses on data
-  security and digital innovation.
+  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
+  analysis and interactive reporting software that works in the browser and
+  focuses on data security and digital innovation.
 
   <br><br>
 
@@ -28,7 +28,7 @@ infoBlockFirst:
       - text: Prevent version chaos and see history of changes
       - text: Reduce risk of errors and architectural changes in the model
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: "Have **complete control over your energy and utility projects at every step of the way**, while Visyond ensures data security and integrity of your models, identifies errors in your spreadsheets, tracks collaborators work, and documents the information flows.\r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, automate self-service analytics and, in minutes, carry out analyses that skilled professionals prepare in hours or days, without exporting data every time there is a change in the model.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and analytics without the fear of deleting or changing your collaborators’ work.\r\n"
+    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
@@ -84,17 +84,7 @@ infoBlockFirst:
           Avoid exposing sensitive data and shield stakeholders from unnecessary
           information
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-    descr: >
-      You will be able to create interactive presentations and
-      spreadsheet-driven calculators without technical know-how that will enable
-      you and your stakeholders to **independently answer 'what-if' questions**
-      without fear of breaking the model.
-
-      <br><br>
-
-      You will be able to generate forward looking predictive financial
-      statements, driven by assumptions in your spreadsheet, and automate the
-      preparation of reports based on your settings and accounting standards.
+    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -116,10 +106,8 @@ infoBlockFirst:
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: >-
-      Self-service on ‘what-if’ questions, Interactive data visualization,
-      Cloud-based reporting
-    title: Present Models with Spreadsheet-driven Calculators
+    subtitle: "Interactive Data Visualizations\r\n<br>\r\nSelf-service on ‘What-If’ Questions\r\n<br>\r\nAlways Up-to-date Model Presentation Layer \r"
+    title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
           Collaborate on spreadsheets and know who contributed what, when and
