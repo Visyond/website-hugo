@@ -72,6 +72,12 @@ section:
           Risk management software for banks - better lending decisions and
           higher portfolio profitability.
         title: Banking
+      - icon: /img/collaborative_analysis_3x.png
+        link: /solutions/energy-and-utilities/
+        text: >-
+          Cloud collaboration, planning, and self-service analytics for energy
+          and utilities projects.
+        title: Energy and Utilities
       - icon: /img/management_consulting_3x.png
         link: /solutions/data-analysis-and-business-consulting-software
         text: ''
