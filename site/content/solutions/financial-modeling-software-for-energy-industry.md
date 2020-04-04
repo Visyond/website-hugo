@@ -28,18 +28,7 @@ infoBlockFirst:
       - text: Prevent version chaos and see history of changes
       - text: Reduce risk of errors and architectural changes in the model
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: >-
-      You will have **complete control over your projects at every step of the
-      way**, while Visyond ensures data security and integrity, identifies
-      errors, tracks changes, and documents the information flows.
-
-      <br><br>
-
-      You will be able to compare scenarios on-the-fly, identify the most
-      important cells, and carry out, in minutes, analyses that skilled
-      professionals prepare in hours or days without worrying about deleting or
-      changing your collaborators’ work or exporting data every time there is a
-      change in the spreadsheet.
+    descr: "Have **complete control over your energy and utility projects at every step of the way**, while Visyond ensures data security and integrity of your models, identifies errors in your spreadsheets, tracks collaborators work, and documents the information flows.\r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, automate self-service analytics and, in minutes, carry out analyses that skilled professionals prepare in hours or days, without exporting data every time there is a change in the model.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and analytics without the fear of deleting or changing your collaborators’ work.\r\n"
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
@@ -82,13 +71,8 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: |-
-      Budgeting and Expense management
-      <br>
-      Self-service analysis and planning
-      <br>
-      Data governance
-    title: Improve Project Analysis and Reporting
+    subtitle: "Cloud-based Budgeting and Forecasting\r\n<br>\r\nSelf-Service Planning and Analysis\r\n<br>\r\nData Governance and Tracking"
+    title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
       - text: >-
           Eliminate risk of accidental changes in the model when testing
