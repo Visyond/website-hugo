@@ -9,7 +9,7 @@
         
         {{ if .subtitle }}
         <div class="enterSectionsA__block-subtitle">
-            {{ .subtitle }}
+            {{ .subtitle | markdownify }}
         </div>
         {{ end }}
 
