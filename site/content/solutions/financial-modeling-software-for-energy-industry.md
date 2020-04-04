@@ -82,7 +82,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: 'Data governance, Scenario planning, Analysis automation'
+    subtitle: 'Budgeting and Expense management, Self-service planning, Data governance'
     title: Improve Project Analysis and Reporting
   - benefitsList:
       - text: >-
@@ -127,7 +127,9 @@ infoBlockFirst:
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: Data visualization & interactive reports
+    subtitle: >-
+      Self-service on ‘what-if’ questions, Interactive data visualization,
+      Cloud-based reporting
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
       - text: >-
@@ -164,7 +166,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel.png
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: 'Secure data sharing, Data gathering, Knowledge base'
+    subtitle: 'Data gathering, Secure data sharing, Single source of truth'
     title: Streamline Data Gathering from Experts
   - benefitsList:
       - text: >-
