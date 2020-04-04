@@ -83,7 +83,6 @@ infoBlockFirst:
       - text: >-
           Avoid exposing sensitive data and shield stakeholders from unnecessary
           information
-      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
     descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
       - descr: >-
@@ -106,7 +105,7 @@ infoBlockFirst:
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: "Interactive Data Visualizations\r\n<br>\r\nSelf-service on ‘What-If’ Questions\r\n<br>\r\nAlways Up-to-date Model Presentation Layer \r"
+    subtitle: "Interactive Data Visualizations\r\n<br>\r\nSelf-service on ‘What-If’ Questions\r\n<br>\r\nSpreadsheet-driven Calculators \r"
     title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
@@ -118,7 +117,7 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nUnlike other spreadsheets, multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r\n"
+    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. You do not need to save support documents on different platforms or try to remember where something is or who provided certain assumptions.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
@@ -143,7 +142,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel.png
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: 'Data gathering, Secure data sharing, Single source of truth'
+    subtitle: "Single Source of Truth for Projects\r\n<br>\r\nData Gathering Without Version Chaos\r\n<br>\r\nSecure Data Sharing of Specific Project Parts\r"
     title: Streamline Data Gathering from Experts
   - benefitsList:
       - text: >-
@@ -155,7 +154,8 @@ infoBlockFirst:
       - text: >-
           Control information flow by sharing only specific parts of
           presentations
-    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the spreadsheet.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
+      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
+    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
     files:
       - descr: >-
           Highlight spreadsheet structure, errors and potential data
@@ -171,8 +171,8 @@ infoBlockFirst:
         file: /img/2019-02 Interactive Presentation.png
         title: Present Models with Spreadsheet-driven Calculators
     image: /img/2019-02 Audit On.png
-    subtitle: 'Stress-testing, presentation, secure sharing'
-    title: Let the Spreadsheet Do Things It Couldn’t Before
+    subtitle: "Always Up-to-date Independent Presentation Layer \r\n<br>\r\nCloud-based Reports Linked to Your Model\r\n<br>\r\nControl Over Who Sees and Interacts With What\r"
+    title: Provide Actionable Insights in Digestible Format
 bgBottom: /img/back2.png
 ---
 
