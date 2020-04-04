@@ -82,9 +82,12 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: >-
-      Budgeting and Expense management<br> Self-service analysis and
-      planning<br> Data governance
+    subtitle: |-
+      Budgeting and Expense management
+      <br>
+      Self-service analysis and planning
+      <br>
+      Data governance
     title: Improve Project Analysis and Reporting
   - benefitsList:
       - text: >-
