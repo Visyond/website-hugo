@@ -1,6 +1,6 @@
 ---
-title: 'Make Better Energy and Utility Decisions, Faster'
-topTitle: 'Make Better Energy and Utility Decisions, Faster'
+title: Cloud Collaboration and Planning for Energy Projects
+topTitle: Cloud Collaboration and Planning for Energy Projects
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis and interactive reporting software that works in the browser and
@@ -146,7 +146,7 @@ infoBlockFirst:
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: "Single source of truth for projects \r\n<br> \r\nData gathering without version chaos \r\n<br> \r\nSecure and granular data sharing"
-    title: Streamline Data Gathering from Experts
+    title: Streamline Data Gathering
   - benefitsList:
       - text: >-
           Empower stakeholders to independently answer ‘what-if’ questions and
@@ -176,7 +176,7 @@ infoBlockFirst:
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer \r\n<br> \r\nReports driven by your model \r\n<br> \r\nControl over who sees what"
-    title: Provide Actionable Insights in Digestible Format
+    title: Present Actionable Insights
 bgBottom: /img/back2.png
 ---
 
