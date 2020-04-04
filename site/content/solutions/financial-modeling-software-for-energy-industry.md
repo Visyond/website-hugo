@@ -71,7 +71,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: "Cloud-based Budgeting and Forecasting\r\n<br>\r\nSelf-Service Planning and Analysis\r\n<br>\r\nData Governance and Tracking"
+    subtitle: "Cloud-based Budgeting and Forecasting\r\n<br>\r\nSelf-Service Planning and Analysis\r\n<br>\r\nData Governance and Automated Spreadsheet Audit"
     title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
       - text: >-
