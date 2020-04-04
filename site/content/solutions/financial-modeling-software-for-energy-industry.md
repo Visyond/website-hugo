@@ -84,9 +84,9 @@ infoBlockFirst:
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     subtitle: |-
       Budgeting and Expense management
-      <br><br>
+      <br>
       Self-service analysis and planning
-      <br><br>
+      <br>
       Data governance
     title: Improve Project Analysis and Reporting
   - benefitsList:
