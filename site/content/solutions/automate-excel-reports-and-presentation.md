@@ -12,8 +12,8 @@ metaTags: >-
   <meta name="keywords" content="Automate Excel Reports, Financial Data
   Visualization, Presenting Financial Data">
 topTitle: >-
-  Automate Excel Reports with Interactive & Secure Real-Time Presentations,
-  Financial Data Visualization and Reporting
+  Automate Reporting with Interactive Real-Time Presentations
+  and Data Visualizations
 topSubTitle: >-
   Create insightful interactive financial data visualizations  powered by
   Visyond’s spreadsheet calculation engine. Empower each collaborator to test
