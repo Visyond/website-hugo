@@ -7,9 +7,9 @@ bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
     - BeforeBulletPoints: Includes everything in BUILD tab
-      PricePrimary: '$1,000'
-      PricePrimaryPeriod: user/year
-      PriceSecondary: or $100 user/month
+      PricePrimary: $100
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $1,000 user/year'
       cta:
         text: Request a Demo
         url: /request/
@@ -21,9 +21,9 @@ pricingCards:
       title: Smart Modeler
       url: ''
     - BeforeBulletPoints: Includes everything in ANALYZE tab
-      PricePrimary: '$1,000'
-      PricePrimaryPeriod: user/year
-      PriceSecondary: or $100 user/month
+      PricePrimary: $100
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $1,000 user/year'
       cta:
         text: Request a demo
         url: /request
@@ -39,9 +39,9 @@ pricingCards:
       title: Master Analyst
       url: ''
     - BeforeBulletPoints: Includes everything in REPORT tab
-      PricePrimary: '$1,100'
-      PricePrimaryPeriod: user/year
-      PriceSecondary: or $110 user/month
+      PricePrimary: $110
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $1,100 user/year'
       cta:
         text: Request a Demo
         url: /request
