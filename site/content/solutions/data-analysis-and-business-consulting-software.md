@@ -66,7 +66,7 @@ infoBlockFirst:
         title: Monte Carlo Simulation
     image: /img/2019-02 Scenarios Waterfall Analysis.png
     link: ''
-    subtitle: Analysis automation
+    subtitle: Analysis automation.
     title: Instantly Visualize the Impact of Key Drivers
   - benefitsList:
       - text: >-
@@ -94,7 +94,7 @@ infoBlockFirst:
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
     link: ''
-    subtitle: Collaborative scenario planning
+    subtitle: Collaborative scenario planning.
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
@@ -119,7 +119,7 @@ infoBlockFirst:
         title: Interactive Presentations
     image: /img/2019-02 Interactive Presentation.png
     link: ''
-    subtitle: Data visualization & presentation
+    subtitle: Data visualization & presentation.
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
       - text: >-
@@ -158,7 +158,7 @@ infoBlockFirst:
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
     link: ''
-    subtitle: Secure data sharing
+    subtitle: Secure data sharing.
     title: Share Only Specific Worksheets and Reports
   - benefitsList:
       - text: >-
@@ -197,7 +197,7 @@ infoBlockFirst:
         title: Store Multiple Assumptions Simultaneously
     image: /img/2019-02 Overview Panel.png
     link: ''
-    subtitle: Spreadsheet governance & data tracking
+    subtitle: Spreadsheet governance & data tracking.
     title: Track Changes and Edit Without Overwriting
   - altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -223,7 +223,7 @@ infoBlockFirst:
         title: Never Lose Important Information
     image: /img/2019-02 Comments in Cells.png
     link: ''
-    subtitle: Single source of truth and knowledge management
+    subtitle: Single source of truth and knowledge management.
     title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:
       - text: Instantly identify errors and their root cause
@@ -254,7 +254,7 @@ infoBlockFirst:
         title: Audit On
     image: /img/2019-02 Error Root Cause.png
     link: ''
-    subtitle: Spreadsheet auditing & modeling
+    subtitle: Spreadsheet auditing & modeling.
     title: 'Understand Model Structure, Detect Errors and Anomalies'
 providesTitle: Visyond for remote work
 providesList:
