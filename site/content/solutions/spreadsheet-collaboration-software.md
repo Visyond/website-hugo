@@ -103,7 +103,7 @@ infoBlockFirst:
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: ''
-    subtitle: "Cloud-based budgeting and forecasting\r\n<br>\nSelf-service planning and analysis\r\n<br>\nData governance and spreadsheet audit\r"
+    subtitle: "Cloud-based budgeting and forecasting.\r\n<br>\nSelf-service planning and analysis.\r\n<br>\nData governance and spreadsheet audit.\r"
     title: Work Remotely and Remove Bottlenecks
   - altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -157,7 +157,7 @@ infoBlockFirst:
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
     link: ''
-    subtitle: "Single source of truth for projects\r\n<br>\nData gathering without version chaos\r\n<br>\nSecure and granular data sharing\r"
+    subtitle: "Single source of truth for projects.\r\n<br>\nData gathering without version chaos.\r\n<br>\nSecure and granular data sharing.\r"
     title: Streamline Data Gathering
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
     benefitsList:
@@ -186,7 +186,7 @@ infoBlockFirst:
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
     link: ''
-    subtitle: "Interactive data visualizations\n<br>\r\nSelf-service on ‘what-if’ questions\r\n<br>\nSpreadsheet-driven calculators\r"
+    subtitle: "Interactive data visualizations.\n<br>\r\nSelf-service on ‘what-if’ questions.\r\n<br>\nSpreadsheet-driven calculators.\r"
     title: Democratize Decision Making
 providesTitle: Visyond for remote work
 providesList:
