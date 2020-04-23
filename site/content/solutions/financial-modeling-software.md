@@ -68,7 +68,7 @@ infoBlockFirst:
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: ''
-    subtitle: Analysis and stress-testing automation
+    subtitle: Analysis and stress-testing automation.
     title: Instantly Identify Key Drivers of Your Financial Models
   - benefitsList:
       - text: >-
@@ -96,7 +96,7 @@ infoBlockFirst:
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
     link: ''
-    subtitle: Collaborative scenario planning and analysis
+    subtitle: Collaborative scenario planning and analysis.
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
     benefitsList:
@@ -130,7 +130,7 @@ infoBlockFirst:
         title: INTERACTIVE PRESENTATIONS
     image: /img/2019-02 Interactive Presentation.png
     link: ''
-    subtitle: Data visualization & presentation
+    subtitle: Data visualization & presentation.
     title: Present Financial Models with Spreadsheet-driven Calculators
   - altText: Financial Modeling Software - Share Only Relevant Data Pieces
     benefitsList:
@@ -167,7 +167,7 @@ infoBlockFirst:
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
     link: ''
-    subtitle: Secure data sharing
+    subtitle: Secure data sharing.
     title: Share Only Specific Parts of Financial Models
   - altText: Financial Modeling Software - Audit Financial Models
     benefitsList:
@@ -210,7 +210,7 @@ infoBlockFirst:
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
     image: /img/track errors 1.png
     link: ''
-    subtitle: Financial models audit and debugging
+    subtitle: Financial models audit and debugging.
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
@@ -249,7 +249,7 @@ infoBlockFirst:
         title: Store Multiple Assumptions Simultaneously
     image: /img/2019-02 Overview Panel.png
     link: ''
-    subtitle: Spreadsheet governance & data tracking
+    subtitle: Spreadsheet governance & data tracking.
     title: Track Changes and Edit Without Overwriting
   - altText: >-
       Financial Modeling Software - Single Source of Truth for Your Financial
@@ -292,7 +292,7 @@ infoBlockFirst:
         title: VERSIONS
     image: /img/2019-02 Comments in Cells.png
     link: ''
-    subtitle: Single source of truth and knowledge management
+    subtitle: Single source of truth and knowledge management.
     title: 'Organize Assumptions, Documents and Conversations In Cells'
 providesTitle: Financial Modeling Software for Remote Work
 providesList:
