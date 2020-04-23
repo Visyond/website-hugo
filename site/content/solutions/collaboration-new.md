@@ -41,7 +41,18 @@ infoBlockFirst:
       - text: Prevent version chaos and see history of changes
       - text: Reduce risk of errors and architectural changes in the model
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: "Have **complete control over your projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n\r<br><br>\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work.\r\n\r<br><br>\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r"
+    descr: >-
+      Have **complete control over your projects at every step of the way** and
+      ensure data security, correctness and integrity of your models, identify
+      errors, track changes, and document the information flows.<br><br>
+
+      Empower collaborative self-service planning, budgeting, forecasting and
+      automated analytics without the fear of deleting or changing your
+      collaborators’ work.<br><br>
+
+      Instantly identify the impact of the important business drivers, visualize
+      and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you
+      are.
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Store Multiple Assumptions
@@ -76,7 +87,15 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n\r<br><br>\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+    descr: >-
+      Have experts fill shared worksheets with their data, and use the data to
+      update any predictive model you have. Data-entry people will only see
+      their specific data entry worksheets and add supporting documents and
+      comments directly inside the relevant cells.<br><br>
+
+      Multiple assumptions can coexist in a cell as opposed to last value
+      overwriting the existing one, and nobody, including the project owner, can
+      modify data entered by others.
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -102,7 +121,7 @@ infoBlockFirst:
       - text: >-
           Avoid exposing sensitive data and shield stakeholders from unnecessary
           information
-    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n\r<br><br>\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
+    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r<br><br>\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Interactive Presentations in
