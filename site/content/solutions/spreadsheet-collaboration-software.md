@@ -172,24 +172,18 @@ infoBlockFirst:
           information
     descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r<br><br>\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Interactive Presentations in
-          Visyond
-        descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
-        link: ''
-        title: Interactive Presentations
-      - alt: Spreadsheet Collaboration Software - Share Projects in Visyond
-        descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions and share only specific
-          worksheets and slides.
+        title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
-        link: ''
-        title: Share Project
+        title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
     link: ''
     subtitle: "Interactive data visualizations\n<br>\r\nSelf-service on ‘what-if’ questions\r\n<br>\nSpreadsheet-driven calculators\r"
