@@ -36,7 +36,7 @@ infoBlockFirst:
           directly with the spreadsheet by using Visyond's Interactive
           Presentations!
         file: /img/2019-02 Interactive Presentation.png
-        link: /features/interactive-presentations/
+        link: ''
         title: Interactive Presentations
       - alt: Spreadsheet Collaboration Software - Share Projects in Visyond
         descr: >-
@@ -44,10 +44,10 @@ infoBlockFirst:
           Coworker with different access permissions and share only specific
           worksheets and slides.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
-        link: /features/selective-sharing/
+        link: ''
         title: Share Project
     image: /img/2019-02 Interactive Presentation.png
-    link: /features/selective-sharing/
+    link: ''
     title: Secure Selective Sharing
   - altText: >-
       Spreadsheet Collaboration Software - Store Conversations and Relevant
@@ -61,10 +61,10 @@ infoBlockFirst:
           All conversations and supporting documentation can be stored directly
           in relevant cells so that you always know where the data comes from.
         file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
+        link: ''
         title: Never Lose Important Information
     image: /img/2019-02 Comments in Cells.png
-    link: /features/knowledge-base/
+    link: ''
     title: Single Source of Truth for Your Spreadsheets
   - altText: >-
       Spreadsheet Collaboration Software - Store Multiple Assumptions
@@ -79,16 +79,16 @@ infoBlockFirst:
           about controlling versions or chasing pieces of information in long
           email threads.
         file: /img/2019-02 Cases Panel and Dropdown.png
-        link: /features/knowledge-base/
+        link: ''
         title: Store Multiple Assumptions Simultaneously
       - descr: >-
           You can always roll-back entire versions of the spreadsheet if
           required.
         file: /img/2019-02 Versions Panel.png
-        link: /features/track-changes-from-an-excel-file/
+        link: ''
         title: VERSIONS
     image: /img/2019-02 Cases Panel and Dropdown.png
-    link: /features/knowledge-base/
+    link: ''
     title: Input Tracking and Version Control
   - altText: >-
       Spreadsheet Collaboration Software - Import and Export Spreadsheets in
@@ -100,19 +100,19 @@ infoBlockFirst:
           Visyond
         descr: Upload your model and continue working on it in Visyond.
         file: /img/Import Spreadsheet.png
-        link: /features/import-and-export/
+        link: ''
         title: IMPORT EXCEL FILES
       - alt: >-
           Spreadsheet Collaboration Software - Export Presentations to
           PowerPoint in Visyond
         descr: 'Export presentations, charts, reports to PowerPoint and other formats.'
         file: /img/Export Slides In Browser.png
-        link: /features/import-and-export/
+        link: ''
         title: EXPORT PRESENTATIONS
     image: /img/Import Spreadsheet.png
-    link: /features/import-and-export/
+    link: ''
     title: Easily Export and Import from Excel
-providesTitle: Get started in minutes
+providesTitle: Visyond for remote work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
