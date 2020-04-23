@@ -25,8 +25,84 @@ topSubTitle: >-
   makers do their job.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
+  - altText: >-
+      Spreadsheet Collaboration Software - Store Multiple Assumptions
+      Simultaneously in Visyond
+    benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and analyses, and know who contributed
+          what, when and why
+      - text: >-
+          Create, compare and analyze scenarios on-the-fly without depending on
+          experts
+      - text: >-
+          Instantly visualize the impact of important business drivers in
+          self-service mode
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of errors and architectural changes in the model
+      - text: 'Understand spreadsheet structure, detect errors and anomalies'
+    descr: "Have **complete control over your projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n\r<br><br>\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work.\r\n\r<br><br>\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r"
+    files:
+      - alt: >-
+          Spreadsheet Collaboration Software - Store Multiple Assumptions
+          Simultaneously in Visyond
+        descr: >-
+          Have all assumptions and numbers in a single place without worrying
+          about controlling versions or chasing pieces of information in long
+          email threads.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        link: ''
+        title: Store Multiple Assumptions Simultaneously
+      - descr: >-
+          You can always roll-back entire versions of the spreadsheet if
+          required.
+        file: /img/2019-02 Versions Panel.png
+        link: ''
+        title: VERSIONS
+    image: /img/2019-02 Cases Panel and Dropdown.png
+    link: ''
+    subtitle: "Cloud-based budgeting and forecasting\r\n<br>\nSelf-service planning and analysis\r\n<br>\nData governance and spreadsheet audit\r"
+    title: Work Remotely and Remove Bottlenecks
+  - altText: >-
+      Spreadsheet Collaboration Software - Store Conversations and Relevant
+      Documentation Directly in Cells in Visyond
+    benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n\r<br><br>\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+    files:
+      - alt: >-
+          Spreadsheet Collaboration Software - Store Conversations and Relevant
+          Documentation Directly in Cells in Visyond
+        descr: >-
+          All conversations and supporting documentation can be stored directly
+          in relevant cells so that you always know where the data comes from.
+        file: /img/2019-02 Comments in Cells.png
+        link: ''
+        title: Never Lose Important Information
+    image: /img/2019-02 Comments in Cells.png
+    link: ''
+    subtitle: "Single source of truth for projects\r\n<br>\nData gathering without version chaos\r\n<br>\nSecure and granular data sharing\r"
+    title: Streamline Data Gathering
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
-    descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
+    benefitsList:
+      - text: >-
+          Eliminate risk of accidental changes in the model when testing
+          assumptions
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+      - text: >-
+          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          information
+    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n\r<br><br>\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
     files:
       - alt: >-
           Spreadsheet Collaboration Software - Interactive Presentations in
@@ -48,70 +124,8 @@ infoBlockFirst:
         title: Share Project
     image: /img/2019-02 Interactive Presentation.png
     link: ''
-    title: Secure Selective Sharing
-  - altText: >-
-      Spreadsheet Collaboration Software - Store Conversations and Relevant
-      Documentation Directly in Cells in Visyond
-    descr: "* A central repository for all relevant information such as supporting files, discussions, comments and approval status\r\n* One unified spreadsheet - no need to worry about juggling multiple versions of the spreadsheet while tracking inputs from multiple stakeholders\r\n* Solve data chaos and establish a single source of truth with Visyond’s intuitive scenario management interface\r\n"
-    files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Store Conversations and Relevant
-          Documentation Directly in Cells in Visyond
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
-        file: /img/2019-02 Comments in Cells.png
-        link: ''
-        title: Never Lose Important Information
-    image: /img/2019-02 Comments in Cells.png
-    link: ''
-    title: Single Source of Truth for Your Spreadsheets
-  - altText: >-
-      Spreadsheet Collaboration Software - Store Multiple Assumptions
-      Simultaneously in Visyond
-    descr: "* All inputs are self-documented giving you a full audit trail showing you who changed what and when \r\n* You can always go back to previous versions of the spreadsheet and compare them on the fly, or revert any changes individually, without rolling back the entire document\r\n"
-    files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Store Multiple Assumptions
-          Simultaneously in Visyond
-        descr: >-
-          Have all assumptions and numbers in a single place without worrying
-          about controlling versions or chasing pieces of information in long
-          email threads.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        link: ''
-        title: Store Multiple Assumptions Simultaneously
-      - descr: >-
-          You can always roll-back entire versions of the spreadsheet if
-          required.
-        file: /img/2019-02 Versions Panel.png
-        link: ''
-        title: VERSIONS
-    image: /img/2019-02 Cases Panel and Dropdown.png
-    link: ''
-    title: Input Tracking and Version Control
-  - altText: >-
-      Spreadsheet Collaboration Software - Import and Export Spreadsheets in
-      Visyond
-    descr: "* Start with Visyond by simply importing your Excel spreadsheet, no matter the model complexity and you are ready to go\r\n* You can always export the spreadsheet from Visyond to Excel\r\n* Export charts, analyses, presentations and financial statements into various formats\r\n"
-    files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Import and Export Spreadsheets in
-          Visyond
-        descr: Upload your model and continue working on it in Visyond.
-        file: /img/Import Spreadsheet.png
-        link: ''
-        title: IMPORT EXCEL FILES
-      - alt: >-
-          Spreadsheet Collaboration Software - Export Presentations to
-          PowerPoint in Visyond
-        descr: 'Export presentations, charts, reports to PowerPoint and other formats.'
-        file: /img/Export Slides In Browser.png
-        link: ''
-        title: EXPORT PRESENTATIONS
-    image: /img/Import Spreadsheet.png
-    link: ''
-    title: Easily Export and Import from Excel
+    subtitle: "Interactive data visualizations\n<br>\r\nSelf-service on ‘what-if’ questions\r\n<br>\nSpreadsheet-driven calculators\r"
+    title: Democratize Decision Making
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
