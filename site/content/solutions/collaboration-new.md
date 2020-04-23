@@ -9,9 +9,20 @@ metaTags: >-
   stakeholders."> <meta name="keywords" content="Spreadsheet collaboration
   software, spreadsheet collaboration online">
 topImage: /img/solutions/solutions_collaboration_top.png
-title: Spreadsheet Collaboration Software
+title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
 topTitle: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
-topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.\r\n<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers do their job.\r**\n"
+topSubTitle: >-
+  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
+  analysis automation and interactive reporting platform that works in the
+  browser and focuses on data security and digital innovation.
+
+  <br><br>
+
+  Visyond offers a unique yet familiar all-in-one integrated solution that
+  connects all steps of your business workflow in a single platform: from data
+  gathering from subject-matter experts and subsequent analysis of this data to
+  preparation of interactive visualizations and reports to **help decision
+  makers do their job.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
