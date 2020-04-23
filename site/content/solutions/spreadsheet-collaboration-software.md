@@ -54,23 +54,54 @@ infoBlockFirst:
       and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you
       are.
     files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Store Multiple Assumptions
-          Simultaneously in Visyond
-        descr: >-
-          Have all assumptions and numbers in a single place without worrying
-          about controlling versions or chasing pieces of information in long
-          email threads.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        link: ''
-        title: Store Multiple Assumptions Simultaneously
+    files:
       - descr: >-
-          You can always roll-back entire versions of the spreadsheet if
-          required.
-        file: /img/2019-02 Versions Panel.png
-        link: ''
-        title: VERSIONS
-    image: /img/2019-02 Cases Panel and Dropdown.png
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        title: Focus on what's important
+      - descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet
+      - descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Track Changes and Edit Without Overwriting
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: ''
     subtitle: "Cloud-based budgeting and forecasting\r\n<br>\nSelf-service planning and analysis\r\n<br>\nData governance and spreadsheet audit\r"
     title: Work Remotely and Remove Bottlenecks
