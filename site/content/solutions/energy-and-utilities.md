@@ -143,6 +143,7 @@ infoBlockFirst:
       - descr: >-
           All changes are documented, giving you a full audit trail - so you are
           aware of all modifications made to the spreadsheet
+        file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: "Single source of truth for projects \r\n<br> \r\nData gathering without version chaos \r\n<br> \r\nSecure and granular data sharing"
