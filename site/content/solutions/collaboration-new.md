@@ -1,19 +1,18 @@
 ---
-aliases: /solutions/collaboration/
-title: Spreadsheet Collaboration Software
-topImage: /img/solutions/solutions_collaboration_top.png
+aliases: ''
 metaTags: >-
-  <meta name="title" content="Collaborate Remotely on Spreadsheets, Analysis, and Reports">
-  <meta name="description" content="Visyond is a secure Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that will help you democratize decision-making, remove bottlenecks, and empower efficient and transparent collaboration between stakeholders.">
-  <meta name="keywords" content="Spreadsheet collaboration software, spreadsheet collaboration online">
-topTitle: Collaborate Remotely on Spreadsheets, Analysis, and Reports
-topSubTitle: >-
-  Visyond is a secure Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that will help you democratize decision-making, remove bottlenecks, and empower efficient and transparent collaboration between stakeholders.
+  <meta name="title" content="Collaborate Remotely on Spreadsheets, Analysis,
+  and Reports"> <meta name="description" content="Visyond is a secure
+  Excel-compatible spreadsheet modeling, analysis automation and interactive
+  reporting platform that will help you democratize decision-making, remove
+  bottlenecks, and empower efficient and transparent collaboration between
+  stakeholders."> <meta name="keywords" content="Spreadsheet collaboration
+  software, spreadsheet collaboration online">
+topImage: /img/solutions/solutions_collaboration_top.png
+title: Spreadsheet Collaboration Software
+topTitle: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
+topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.\r\n<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers do their job.\r**\n"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/uufPL_qXvaI'
-requestURL: /request
-bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
     descr: "Full control over who can view or edit what parts of the spreadsheets: \r\n\r\n* Manage spreadsheet permissions down to individual cell level \r\n* Allow stakeholders only to interact with selected reports and presentations\r\n* Present with [interactive slides](/features/interactive-presentations/) empowering stakeholders to test assumptions without breaking any formulas\r\n"
@@ -102,15 +101,6 @@ infoBlockFirst:
     image: /img/Import Spreadsheet.png
     link: /features/import-and-export/
     title: Easily Export and Import from Excel
-capabilitiesList:
-  - image: /img/feature-icons-v1_03.png
-    text: Eliminate data chaos
-  - image: /img/feature-icons-v1_13.png
-    text: Keep up to date with the latest changes
-  - image: /img/feature-icons-v1_09.png
-    text: 'Know who changed what, when'
-  - image: /img/v_icon.png
-    text: Ensure quick turn-around
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -118,7 +108,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 
