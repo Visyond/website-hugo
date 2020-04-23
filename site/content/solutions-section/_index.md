@@ -26,7 +26,7 @@ solDropdownCol:
           stakeholders and empower online spreadsheet collaboration.
         image: /img/spreadsheet_collaboration_3x.png
         path: /solutions/spreadsheet-collaboration-software/
-        title: Spreadsheet Collaboration
+        title: Remote Collaboration
       - descr: >-
           Improve spreadsheet data tracking - reduce the risks of errors,
           unauthorized access, data overriding and breaking the model while
