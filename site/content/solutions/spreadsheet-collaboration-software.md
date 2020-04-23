@@ -128,16 +128,33 @@ infoBlockFirst:
       overwriting the existing one, and nobody, including the project owner, can
       modify data entered by others.
     files:
-      - alt: >-
-          Spreadsheet Collaboration Software - Store Conversations and Relevant
-          Documentation Directly in Cells in Visyond
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Streamline Data Gathering from Experts
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
         file: /img/2019-02 Comments in Cells.png
-        link: ''
-        title: Never Lose Important Information
-    image: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets and Reports
+      - descr: >-
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet
+        title: Know What Is Happening in Your Projects
+    image: /img/2019-02 Cases Panel and Dropdown.png
     link: ''
     subtitle: "Single source of truth for projects\r\n<br>\nData gathering without version chaos\r\n<br>\nSecure and granular data sharing\r"
     title: Streamline Data Gathering
