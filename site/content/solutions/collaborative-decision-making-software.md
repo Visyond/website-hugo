@@ -12,162 +12,170 @@ topTitle: 'Get Valuable and Reliable Business Insights and Make Better Decisions
 topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers make better decisions, faster.**\r"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions in real time\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and analyses, and know who contributed
+          what, when and why
+      - text: >-
+          Create, compare and analyze scenarios on-the-fly without depending on
+          experts
+      - text: >-
+          Instantly visualize the impact of important business drivers in
+          self-service mode
+      - text: Prevent version chaos and see history of changes
+      - text: Reduce risk of errors and architectural changes in the model
+      - text: 'Understand spreadsheet structure, detect errors and anomalies'
+    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
     files:
-      - alt: >-
-          Collaborative Decision Making Software - Scenario Comparison in
-          Visyond
-        descr: >-
-          Combine as many assumptions as you like into one or multiple scenarios
-          that you can switch on-the-fly and immediately see how different
-          assumptions affect the outcome.
-        file: /img/2019-02 Scenario Management Panel.png
-        link: /features/scenarios/
-        title: Combine Assumptions into Scenarios
-      - alt: >-
-          Collaborative Decision Making Software - Compare Scenarios in Real
-          Time in Visyond
-        descr: Compare scenarios and gain valuable insights in just a few clicks!
-        file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
-        title: Compare & Analyze Scenarios
-    image: /img/2019-02 Scenario Management Panel.png
-    link: ''
-    title: Revolutionize The Way You Access Key Information
-  - descr: "* Avoid data leakages and safeguard your sensitive information with Visyond’s innovative selective sharing \r\n* Expose only what each collaborator should see or interact with - certain worksheets, reports or individual slides in presentations\r\n"
-    files:
-      - alt: Collaborative Decision Making Software - Share Project in Visyond
-        descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions and share only specific
-          worksheets and slides.
-        file: /img/2019-02 Share Project Panel Slide Expanded.png
-        link: /features/selective-sharing/
-        title: SHARE PROJECT
-    image: /img/2019-02 Share Project Panel.png
-    link: /features/selective-sharing/
-    title: Securely Handle Your Data
-  - descr: "* Visyond is cloud-based (or on-premise) so you never lose information \r\n* Manage and transfer team knowledge easily (no more spreadsheets kept on someone’s desktop)\r\n* Reduce dependency from the model creator by enabling collaborative analysis and stress testing through interactive presentations and calculators\r\n* Never break formulas or lose your teams’ work and track their input and changes\r\n"
-    files:
-      - alt: >-
-          Collaborative Decision Making Software - Store Multiple Assumptions
-          Simultaneously in Visyond
-        descr: >-
-          Cells in Visyond can store multiple assumptions (cases) simultaneously
-          without overwriting other users' inputs.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        link: /features/knowledge-base/
-        title: Add multiple assumptions
-      - alt: >-
-          Collaborative Decision Making Software - Store Attachments &
-          Conversations Directly in Cells in Visyond
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
-        file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
-        title: Never Lose Important Information
-      - alt: >-
-          Collaborative Decision Making Software - Test Assumptions Through
-          Interactive Slides in Visyond
-        descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
-        file: /img/2019-02 Interactive Presentation.png
-        link: /features/interactive-presentations/
-        title: INTERACTIVE PRESENTATIONS
-    image: /img/2019-02 Cases Panel and Dropdown.png
-    link: /features/knowledge-base/
-    title: Focus on What Matters and Never Lose Critical Information
-  - descr: >-
-      * Visyond’s auto-analysis tools automate routine tasks that would
-      otherwise require expensive software, add-ons or error-prone lengthy
-      manual setups
-    files:
-      - alt: >-
-          Collaborative Decision Making Software - Setup Sensitivity Analysis in
-          Visyond
-        descr: >-
-          With just a few clicks Visyond allows you to run Sensitivity analysis
-          without long manual setups.
+      - descr: >-
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: /features/sensitivity/
-        title: Set Up Sensitivity Analysis in Seconds
-      - alt: >-
-          Collaborative Decision Making Software - Run Impact (Tornado) Analysis
-          in Visyond
-        descr: >-
-          With Visyond, you can run Impact (Tornado) Analysis without long
-          manual setups and quickly see how sensitive your data set is to
-          changes.
-        file: /img/2019-02 Impact Analysis.png
-        link: /features/tornado/
-        title: Stress-Test Your Data
-      - alt: >-
-          Collaborative Decision Making Software - Monte Carlo Simulations in
-          Visyond
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        link: /features/simulations/
-        title: Monte Carlo Simulation
-      - alt: >-
-          Collaborative Decision Making Software - Generate Financial Statements
-          & Reports in Visyond
-        descr: >-
-          Visyond’s financial statements greatly reduce the risk of errors and
-          time required to prepare Balance Sheets, Income and Cash Flow
-          Statements, ratios and KPIs, etc. by automating the build process and
-          removing the need for manual checks and audits of the calculations.
-        file: /img/2019-02 Financial Statements.png
-        link: /features/financial-statements/
-        title: Auto-Generated Financial Statements
-    image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    link: 'https://help.visyond.com/articles/how-to-run-autoanalysis-in-visyond/'
-    title: Save Time When Requesting Analysis and Reports
-  - descr: "* Add multiple assumptions without overwriting to any cell and combine them in scenarios\r\n* Have as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
-    files:
-      - alt: >-
-          Collaborative Decision Making Software - Compare Scenarios in Real
-          Time in Visyond
-        descr: Compare scenarios and gain valuable insights in just a few clicks!
-        file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
-        title: Compare & Analyze Scenarios
-      - alt: >-
-          Collaborative Decision Making Software - Store Multiple Inputs &
-          Assumptions Without Overwriting in Visyond
-        descr: >-
-          Cells in Visyond can store multiple assumptions (cases) simultaneously
-          without overwriting other users' inputs.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        link: /features/knowledge-base/
-        title: Add Multiple Assumptions
-      - alt: >-
-          Collaborative Decision Making Software - Combine Assumptions into
-          Scenarios in Visyond
-        descr: >-
-          Combine as many assumptions as you like into one or multiple scenarios
-          that you can switch on-the-fly and immediately see how different
-          assumptions affect the outcome.
+        title: Focus on what's important
+      - descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
-        link: /features/scenarios/
-        title: Combine Assumptions into Scenarios
-      - alt: >-
-          Collaborative Decision Making Software - Store Conversations and
-          Documentation Directly in Cells in Visyond
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
+        title: Seamlessly switch between different scenarios in the spreadsheet
+      - descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Track Changes and Edit Without Overwriting
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
         file: /img/2019-02 Comments in Cells.png
-        link: /features/knowledge-base/
-        title: Never Lose Important Information
-    image: /img/2019-02 Scenario Analysis.png
-    link: /features/scenarios/
-    title: Create Multiple Scenarios and What-If Analysis On-The-Fly
-providesTitle: Get started in minutes
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
+    image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    subtitle: "Cloud-based budgeting and forecasting.\r\n<br> \r\nSelf-service planning and analysis.\r\n<br> \r\nData governance and spreadsheet audit.\r"
+    title: 'Improve Project Planning, Analysis and Reporting'
+  - benefitsList:
+      - text: >-
+          Eliminate risk of accidental changes in the model when testing
+          assumptions
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+      - text: >-
+          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          information
+    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
+    files:
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
+        file: /img/2019-02 Interactive Presentation.png
+        title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: Share Only Specific Worksheets and Reports
+    image: /img/2019-02 Interactive Presentation.png
+    subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven calculators."
+    title: Visualize How Changes Affect KPIs
+  - benefitsList:
+      - text: >-
+          Collaborate on spreadsheets and know who contributed what, when and
+          why
+      - text: >-
+          Consolidate data without trouble of going through email threads and
+          attachments
+      - text: >-
+          Establish a single place to store all your spreadsheet data - changes,
+          assumptions, documents and conversations
+    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+    files:
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Streamline Data Gathering from Experts
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets and Reports
+      - descr: >-
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects
+    image: /img/2019-02 Cases Panel and Dropdown.png
+    subtitle: "Single source of truth for projects.\r\n<br> \r\nData gathering without version chaos.\r\n<br> \r\nSecure and granular data sharing."
+    title: Streamline Data Gathering
+  - benefitsList:
+      - text: >-
+          Empower stakeholders to independently answer ‘what-if’ questions and
+          stress-test the model
+      - text: >-
+          Eliminate risk of accidental changes in the model when testing
+          assumptions
+      - text: >-
+          Control information flow by sharing only specific parts of
+          presentations
+      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
+    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
+    files:
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
+        file: /img/2019-02 Interactive Presentation.png
+        title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Visyond creates forward looking predictive financial statements,
+          driven by assumptions in your spreadsheet.The statements can adapt to
+          any reporting/accounting standard and automate the preparation of
+          reports based on your settings.
+        file: /img/2019-02 Financial Statements.png
+        title: Generate Financial Statements Linked To Your Model
+    image: /img/2019-02 Audit On.png
+    subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
+    title: Present Actionable Insights
+providesTitle: Visyond for remote work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
