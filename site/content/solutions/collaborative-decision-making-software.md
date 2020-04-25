@@ -1,25 +1,16 @@
 ---
 aliases: /solutions/decision-makers/
-title: Collaborative Decision Making Software
-topImage: /img/solutions/solutions_decision_makers_top.png
 metaTags: >-
-  <meta name="title" content="Collaborative Decision Making Software">
-  <meta name="description" content="Visualize the impact of your spreadsheet based decisions
-  and answer any questions in real time, reduce errors and control what each collaborator can see and interact with">
-  <meta name="keywords" content="collaborative decision making software, decision making software">  
-topTitle: >-
-  Get Valuable and Reliable Business Insights to Make Better Decisions
-  Software
-topSubTitle: >-
-  As a decision maker, your time is limited to collect reports within your
-  organization and combine them into the big picture. With Visyond’s decision
-  making software this is no longer unpredictable - especially when your
-  company’s future is at stake.
+  <meta name="title" content="Collaborative Decision Making Software"> <meta
+  name="description" content="Visualize the impact of your spreadsheet based
+  decisions and answer any questions in real time, reduce errors and control
+  what each collaborator can see and interact with"> <meta name="keywords"
+  content="collaborative decision making software, decision making software">  
+topImage: /img/solutions/solutions_decision_makers_top.png
+title: Collaborative Decision Making Software
+topTitle: 'Get Valuable and Reliable Business Insights and Make Better Decisions, Faster'
+topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers make better decisions, faster.**\r"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-signUpURL: /accounts/signup/
-watchVideoURL: 'https://www.youtube.com/embed/uufPL_qXvaI'
-requestURL: /request
-bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
   - descr: "Visyond connects disparate data points among spreadsheets and displays the information to support your decision making:\r\n\n* Secure confidential information to be viewed only by authorized users\r\n* Test assumptions in real time\r\n* Run analysis at an unprecedented speed and accuracy\r\n"
     files:
@@ -176,13 +167,6 @@ infoBlockFirst:
     image: /img/2019-02 Scenario Analysis.png
     link: /features/scenarios/
     title: Create Multiple Scenarios and What-If Analysis On-The-Fly
-capabilitiesList:
-  - image: /img/v_icon.png
-    text: Save up to **80%** of time on routine tasks
-  - image: /img/v_icon2.png
-    text: Reduce average cost by **$420** per employee/month
-  - image: /img/v_icon3.png
-    text: '**Significantly** reduce errors'
 providesTitle: Get started in minutes
 providesList:
   - text: >-
@@ -190,7 +174,5 @@ providesList:
       **cross-compatible**  with Excel
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 
