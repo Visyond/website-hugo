@@ -1,13 +1,13 @@
 ---
 aliases: /solutions/analysts-and-consultants/
 metaTags: >-
-  <meta name="title" content="Data Analysis and Business Consulting Software">
+  <meta name="title" content="Automate Business Consulting Workflow">
   <meta name="description" content="Visyond’s smart machine intelligence data
   analysis and business consulting software helps analysts and consultants
   analyze data faster and make better decisions based on the numbers."> <meta
   name="keywords" content="data analysis, business consulting software">
 topImage: /img/solutions/solutions_analysts_consultants_top.png
-title: Business Consulting Software
+title: Automate Business Consulting Workflow
 topTitle: 'Automate Data Analysis, Presentation and Business Consulting Workflow'
 topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
