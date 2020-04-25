@@ -22,7 +22,7 @@ topSubTitle: >-
   connects all steps of your business workflow in a single platform: from data
   gathering from subject-matter experts and subsequent analysis of this data to
   preparation of interactive visualizations and reports to **help decision
-  makers do their job.**
+  makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - altText: >-
