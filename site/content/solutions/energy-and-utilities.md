@@ -1,6 +1,6 @@
 ---
-title: Work Remotely and Securely Collaborate on Energy Projects
-topTitle: Work Remotely and Securely Collaborate on Energy Projects
+title: Collaborate Remotely on Energy Projects
+topTitle: Collaborate Remotely on Energy Projects
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
