@@ -8,15 +8,8 @@ metaTags: >-
   name="keywords" content="data analysis, business consulting software">
 topImage: /img/solutions/solutions_analysts_consultants_top.png
 title: Business Consulting Software
-topTitle: >-
-  Automate Data Analysis, Presentation and Business Consulting Workflow
-topSubTitle: >-
-  As an analyst or consultant, you constantly analyze and recommend the best
-  course of action to clients or stakeholders based on the
-  numbers.<br><br>Visyond automates routine
-  analytical tasks, helps you present the results of your work in a visual and
-  interactive way, and allows your clients to self-serve on ‘what-if’ questions
-  without touching the model.
+topTitle: 'Automate Data Analysis, Presentation and Business Consulting Workflow'
+topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
