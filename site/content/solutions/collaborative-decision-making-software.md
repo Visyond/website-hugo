@@ -25,7 +25,7 @@ infoBlockFirst:
       - text: Prevent version chaos and see history of changes
       - text: Reduce risk of errors and architectural changes in the model
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
+    descr: "Have **complete control over your projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
@@ -144,7 +144,7 @@ infoBlockFirst:
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: "Single source of truth for projects.\r\n<br> \r\nData gathering without version chaos.\r\n<br> \r\nSecure and granular data sharing."
-    title: Streamline Data Gathering
+    title: Base Decisions on Reliable Assumptions
   - benefitsList:
       - text: >-
           Empower stakeholders to independently answer ‘what-if’ questions and
@@ -156,7 +156,7 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
+    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of your projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -174,7 +174,7 @@ infoBlockFirst:
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
-    title: Present Actionable Insights
+    title: 'View Clear, Actionable Insights'
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
