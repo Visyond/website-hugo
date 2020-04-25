@@ -8,7 +8,7 @@ metaTags: >-
   and answer any questions in real time, reduce errors and control what each collaborator can see and interact with">
   <meta name="keywords" content="collaborative decision making software, decision making software">  
 topTitle: >-
-  Make Fast and Accurate Decisions with Visyond’s Collaborative Decision Making
+  Get Valuable and Reliable Business Insights to Make Better Decisions
   Software
 topSubTitle: >-
   As a decision maker, your time is limited to collect reports within your
