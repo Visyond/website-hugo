@@ -178,6 +178,11 @@ infoBlockFirst:
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Present Actionable Insights
-bgBottom: /img/back2.png
+providesTitle: Visyond for remote work
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data
 ---
-
