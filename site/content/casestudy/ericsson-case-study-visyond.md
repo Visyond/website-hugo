@@ -22,9 +22,9 @@ tooltip:
   - title: 'Use Cases: Sales Negotiation, Impact Modeling, Analysis, Presentation'
 client: /img/Chief Modeler Portrait.png
 client_ask: >-
-  Every time Ericsson has to prepare a business case to display the
-  value of their solutions or an investment ROI, most likely they use
-  spreadsheets, business intelligence tools and presentations.
+  Every time Ericsson has to prepare a business case to display the value of
+  their solutions or an investment ROI, most likely they use spreadsheets,
+  business intelligence tools and presentations.
 
 
   The business environment of Ericsson requires quick turnaround in model
@@ -47,12 +47,12 @@ client_ask: >-
   after client interactions._
 
 
-  **Account Managers** - responsible for presenting to our Client's clients
-  the value of their solutions
+  **Account Managers** - responsible for presenting to our Client's clients the
+  value of their solutions
 
 
-  **Clients** - requesting to test different scenarios and
-  assumptions to better understand the value of the solution
+  **Clients** - requesting to test different scenarios and assumptions to better
+  understand the value of the solution
 
 
   ![undefined](/img/0 Hierarchy fix.png)
@@ -69,7 +69,7 @@ aside:
 <br />
 <br />
 
-# [Collaboration & Access Management](/solutions/spreadsheet-collaboration-software/)
+# Collaboration & Access Management
 
 ## Workflow Was Complicated
 
@@ -90,7 +90,7 @@ Visyond helped Ericsson to quickly build reliable models, perform analyses on-th
 <br />
 <br />
 
-# [Change Management & Version Control](/solutions/financial-modeling-software/)
+# Change Management & Version Control
 
 ## Modeler Was the Main Bottleneck
 
@@ -115,7 +115,7 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 <br />
 <br />
 
-# [Data Tracking & Consolidation](/solutions/data-tracking-software/)
+# Data Tracking & Consolidation
 
 ## Information was Hard to Retrieve
 
@@ -136,7 +136,7 @@ With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere a
 <br />
 <br />
 
-# [Error Detection & Model Audit](/solutions/financial-modeling-software/)
+# Error Detection & Model Audit
 
 ## Debugging was Painful
 
@@ -157,7 +157,7 @@ Since the modeler, account managers and customers are no longer bounded by email
 <br />
 <br />
 
-# [Automated Data Analysis](/solutions/data-analysis-software/)
+# Automated Data Analysis
 
 ## All 'What-if' Analysis and Stress-testing was Manual and Time Consuming
 
@@ -178,7 +178,7 @@ Analyses that used to take multiple days to set up and finalize **can be now com
 <br />
 <br />
 
-# [Collaborative Self-Service ‘What-If’ Analysis](/solutions/automate-excel-reports-and-presentation/)
+# Collaborative Self-Service ‘What-If’ Analysis
 
 ## It was Impossible to Answer ‘What-if’ Questions On-The-Fly
 
