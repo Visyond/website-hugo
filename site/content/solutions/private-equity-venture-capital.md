@@ -25,7 +25,7 @@ metaTags: >-
   software, venture fund software, VC software, portfolio management software,
   investment software">
 title: Improve the Quality of Your Investment Decisions
-ThisSolutionIsFor: 'Visyond for: Private Equity and Venture Capital'
+ThisSolutionIsFor: 'For Private Equity and Venture Capital'
 topTitle: Improve the Quality of Your Investment Decisions
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
