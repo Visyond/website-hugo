@@ -1,6 +1,6 @@
 ---
-title: Collaborate Remotely on Energy Projects
-topTitle: Collaborate Remotely on Energy Projects
+title: Improve Quality of Your Investment Decisions
+topTitle: Improve Quality of Your Investment Decisions
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
@@ -16,19 +16,13 @@ topSubTitle: >-
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
-      - text: >-
-          Collaborate on spreadsheets and analyses, and know who contributed
-          what, when and why
-      - text: >-
-          Create, compare and analyze scenarios on-the-fly without depending on
-          experts
-      - text: >-
-          Instantly visualize the impact of important business drivers in
-          self-service mode
-      - text: Prevent version chaos and see history of changes
-      - text: Reduce risk of errors and architectural changes in the model
+      - text: Instantly identify errors and their root cause
       - text: 'Understand spreadsheet structure, detect errors and anomalies'
-    descr: "Have **complete control over your energy projects at every step of the way** and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r\n<br><br>\r\nEmpower collaborative self-service planning, budgeting, forecasting and automated analytics without the fear of deleting or changing your collaborators’ work. \r\n<br><br>\r\nInstantly identify the impact of the important business drivers, visualize and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you are.\r\n"
+      - text: >-
+          Control information flow by sharing only specific parts of your
+          projects
+      - text: Prevent version chaos and see history of changes
+    descr: "Quickly check correctness of spreadsheets provided by portfolio companies, and improve the quality of your investment decisions by insuring that you take action based on accurate, up-to-date numbers and audited, error-free financial models.<br><br>\r\nHave complete control over your projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r"
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
@@ -77,19 +71,20 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: "Cloud-based budgeting and forecasting.\r\n<br> \r\nSelf-service planning and analysis.\r\n<br> \r\nData governance and spreadsheet audit.\r"
-    title: 'Improve Project Planning, Analysis and Reporting'
+    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nExchange information without version chaos."
+    title: Improve Investment Analysis and Reporting
   - benefitsList:
       - text: >-
-          Eliminate risk of accidental changes in the model when testing
+          Automate Sensitivity, Scenario and Waterfall analyses, and Monte Carlo
+          simulations
+      - text: >-
+          Answer ‘what-if’ questions by combining assumptions into scenarios
+          that can be switched on-the-fly and visually compared at any time with
+          a few clicks
+      - text: >-
+          Eliminate risk of accidental changes in the spreadsheet when testing
           assumptions
-      - text: >-
-          Control information flow by sharing only specific parts of
-          presentations
-      - text: >-
-          Avoid exposing sensitive data and shield stakeholders from unnecessary
-          information
-    descr: "Create interactive dashboards and spreadsheet-driven calculators without technical know-how and enable your stakeholders to **independently answer ‘what-if’ questions** without fear of breaking the model or exposing sensitive information.\r\n<br><br>\r\nChanging data on the slides does not make changes to the spreadsheet, so you don’t have to worry about losing important information or introducing architectural changes to the model.\r"
+    descr: "Instantly visualize the impact of key business drivers, automate analytical tasks and, in minutes, carry out analyses that used to take hours or days to prepare without worrying about deleting previous work.  <br><br>\r\nCreate, compare and switch between scenarios on the fly, and see all linked cells, charts and presentations update accordingly without losing existing information or compromising integrity of data. <br><br>\r\nGenerate spreadsheet-driven interactive dashboards to test assumptions and self-serve on ‘what-if’ questions without the risk of changing or breaking the spreadsheet.\r"
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -104,21 +99,22 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven dashboards."
-    title: Visualize How Changes Affect KPIs
+    subtitle: "Self-service analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
+    title: Understand KPIs and Their Response to Change
   - benefitsList:
       - text: >-
-          Collaborate on spreadsheets and know who contributed what, when and
-          why
+          Collaborate on investment projects and know who contributed what, when
+          and why
       - text: >-
-          Consolidate data without trouble of going through email threads and
+          Gather data without trouble of going through email threads and
           attachments
       - text: >-
-          Avoid exposing sensitive data and shield collaborators from unnecessary information        
+          Avoid exposing sensitive data and shield collaborators from
+          unnecessary information
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+    descr: "Have portfolio companies fill shared worksheets with their data, and use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. <br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
@@ -148,8 +144,8 @@ infoBlockFirst:
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: "Single source of truth for projects.\r\n<br> \r\nData gathering without version chaos.\r\n<br> \r\nSecure and granular data sharing."
-    title: Streamline Data Gathering
+    subtitle: "Single source of truth for investments projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
+    title: Simplify Data Gathering from Portfolio Companies
   - benefitsList:
       - text: >-
           Empower stakeholders to independently answer ‘what-if’ questions and
@@ -161,7 +157,7 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of energy projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching, changing or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
+    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing. Distribute interactive presentations to LPs or relevant stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching, changing or seeing the model.<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -188,3 +184,4 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
+
