@@ -6,16 +6,17 @@
   <section class="home-hero" style="background-image: url('/img/home/grayRectangle2.svg');">
     <div class="container">
       <div class="home-hero__container">
-          <div class="home-hero__half-width-wrap">
+          <div class="home-hero__half-width-wrap" style="width: 100%; text-align: center;">
               <h1 class="home-hero__title">{{ .Params.TopTitle | markdownify }}</h1>
-	      <div class="home-hero__topSubtitle">Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.</div>
-              <ul class="home-hero__main-features">
+	      <div class="home-hero__topSubtitle">Get what no other spreadsheet-based technology stack can give you.<br>Anywhere you are, on any platform.</div>
+              <ul class="home-hero__main-features" style="-webkit-box-pack: center; justify-content: center;">
                   <li>Planning automation</li>
                   <li>Quick adoption</li>
                   <li>Secure collaboration</li>
                   <li>Error reduction</li>
               </ul>
           </div>
+	  <!--    
           <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
               <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
               <div class="home-hero__video-container">
@@ -24,8 +25,9 @@
                   </video>
               </div>
           </div>
-          <div class="home-hero__half-width-wrap">
-              <div class="home-hero__buttons-section">
+	  -->
+          <div class="home-hero__half-width-wrap" style="width: 100%; text-align: center;">
+              <div class="home-hero__buttons-section" style="display: inline-block;">
                         <button class="button button-icon js-btn-video3" style="color: #ffffff;background-color: #0086ff;">
                             <i class="material-icons">
                                 play_arrow
