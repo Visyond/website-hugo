@@ -58,7 +58,7 @@ infoBlockFirst:
         title: Monte Carlo Simulation
     image: /img/2019-02 Scenarios Waterfall Analysis.png
     link: ''
-    subtitle: Analysis automation.
+    subtitle: Self-service analysis automation.
     title: Instantly Visualize the Impact of Key Drivers
   - benefitsList:
       - text: >-
