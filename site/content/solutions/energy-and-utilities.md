@@ -114,6 +114,8 @@ infoBlockFirst:
           Consolidate data without trouble of going through email threads and
           attachments
       - text: >-
+          Avoid exposing sensitive data and shield collaborators from unnecessary information        
+      - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
     descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
