@@ -53,7 +53,7 @@ solDropdownCol:
         path: /solutions/financial-data-analysis-software/
         title: Financial Services
       - descr: Improve the quality of your investment decisions.
-        image: /img/analyst_and_consultant_3x.png
+        image: /img/audit-mode@2x.png
         path: /solutions/private-equity-venture-capital
         title: Private Equity / Venture Capital
       - descr: >-
