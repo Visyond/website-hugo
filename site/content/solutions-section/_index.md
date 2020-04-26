@@ -18,7 +18,7 @@ solDropdownCol:
           analysis workflow.
         image: /img/finance_3x.png
         path: /solutions/financial-data-analysis-software/
-        title: Financial Services
+        title: Finance
     title: function
   - solution_dropdown:
       - descr: >-
