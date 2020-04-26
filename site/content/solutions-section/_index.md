@@ -46,7 +46,7 @@ solDropdownCol:
           authorized to see.
         image: /img/report_presentation_visualization_3x.png
         path: /solutions/automate-excel-reports-and-presentation/
-        title: 'Reports, Presentations and Visualizations'
+        title: 'Interactive Reports'
       - descr: >-
           Visyond’s spreadsheet modeling software aids modelers by automating
           routine tasks, minimizing the risk of errors in an intuitive
