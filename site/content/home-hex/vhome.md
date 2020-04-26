@@ -102,7 +102,7 @@ infoBlockFirst:
       Switching between scenarios automatically updates all linked cells, charts
       and presentations without compromising integrity of data.
     image: /img/vhome designer image draft (1).png
-    subtitle: Collaborative scenario planning
+    subtitle: Collaborative scenario planning.
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: Empower stakeholders to independently answer ‘what-if’ questions
@@ -121,7 +121,7 @@ infoBlockFirst:
       touching the spreadsheet.<br><br> Changing data on the slides does not
       make changes to the spreadsheet.
     image: /img/vhome designer image draft (2).png
-    subtitle: Data visualization & presentation
+    subtitle: Data visualization & presentation.
     title: Present Models with Spreadsheet-driven Calculators
   - benefitsList:
       - text: >-
@@ -137,7 +137,7 @@ infoBlockFirst:
       collaborators’ work or exporting data every time there is a change in the
       spreadsheet.
     image: /img/vhome designer image draft (3).png
-    subtitle: Analysis automation
+    subtitle: Self-service analysis automation.
     title: Instantly Visualize the Impact of Important Cells
   - benefitsList:
       - text: >-
@@ -151,7 +151,7 @@ infoBlockFirst:
       share only specific worksheets, reports and presentation slides with
       specific people for better control over information flow and data privacy.
     image: /img/vhome designer image draft (4).png
-    subtitle: Secure data sharing
+    subtitle: Secure data sharing.
     title: Share Only Specific Worksheets and Reports
   - benefitsList:
       - text: Instantly identify errors and their root cause
@@ -166,7 +166,7 @@ infoBlockFirst:
       in real time, understand complex formulas at a glance and save countless
       hours of tedious work tracing errors and typos.
     image: /img/vhome designer image draft (5).png
-    subtitle: Spreadsheet auditing & modeling
+    subtitle: Spreadsheet auditing & modeling.
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
@@ -184,7 +184,7 @@ infoBlockFirst:
       Multiple collaborators can work on the same project, and Visyond will
       track and report who added assumptions, when and why.
     image: /img/vhome designer image draft (6).png
-    subtitle: Spreadsheet governance & data tracking
+    subtitle: Spreadsheet governance & data tracking.
     title: Track Changes and Edit Without Overwriting
   - benefitsList:
       - text: >-
@@ -196,7 +196,7 @@ infoBlockFirst:
       documents on different platforms or try to remember where something is or
       who provided certain assumptions.
     image: /img/vhome designer image draft (7).png
-    subtitle: Single source of truth and knowledge management
+    subtitle: Single source of truth and knowledge management.
     title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
@@ -209,7 +209,7 @@ infoBlockFirst:
       reporting/accounting standard and automate the preparation of reports
       based on your settings.
     image: /img/vhome designer image draft (8).png
-    subtitle: Report automation
+    subtitle: Report automation.
     title: Generate Financial Statements Linked To Your Model
 getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Request Demo
