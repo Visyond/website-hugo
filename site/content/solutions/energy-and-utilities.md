@@ -1,4 +1,5 @@
 ---
+metaTags: "<meta property=\"og:title\" content=\"Collaborate Remotely on Energy Projects\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/energy-and-utilities/\"> \r\n\r\n<meta name=\"title\" content=\"Collaborate Remotely on Energy Projects\">\r\n<meta name=\"description\" content=\"Have complete control over your energy projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\"> \r\n<meta name=\"keywords\" content=\"Energy Management Software, energy software, EMS\"> "
 title: Collaborate Remotely on Energy Projects
 topTitle: Collaborate Remotely on Energy Projects
 topSubTitle: >-
@@ -114,7 +115,8 @@ infoBlockFirst:
           Consolidate data without trouble of going through email threads and
           attachments
       - text: >-
-          Avoid exposing sensitive data and shield collaborators from unnecessary information        
+          Avoid exposing sensitive data and shield collaborators from
+          unnecessary information        
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
@@ -188,3 +190,4 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
+
