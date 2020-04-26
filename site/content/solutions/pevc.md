@@ -1,4 +1,5 @@
 ---
+metaTags: "<meta property=\"og:title\" content=\"Improve Quality of Your Investment Decisions\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/pevc\"> \r\n\r\n<meta name=\"title\" content=\"Improve Quality of Your Investment Decisions\">\r\n<meta name=\"description\" content=\"Improve investment analysis and reporting, Understand KPIs and their response to change, Simplify data gathering from portfolio companies.\"> \r\n<meta name=\"keywords\" content=\"private equity software, venture capital software, venture fund software, VC software, portfolio management software, investment software\"> "
 title: Improve Quality of Your Investment Decisions
 topTitle: Improve Quality of Your Investment Decisions
 topSubTitle: >-
