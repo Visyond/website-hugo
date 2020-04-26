@@ -37,10 +37,7 @@ solDropdownCol:
         image: /img/report_presentation_visualization_3x.png
         path: /solutions/automate-excel-reports-and-presentation/
         title: Interactive Reports
-      - descr: >-
-          Visyond’s spreadsheet modeling software aids modelers by automating
-          routine tasks, minimizing the risk of errors in an intuitive
-          Excel-compatible platform.
+      - descr: Automate spreadsheet modeling workflow.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
         title: Spreadsheet Modeling
