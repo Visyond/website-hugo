@@ -1,23 +1,19 @@
 ---
 solDropdownCol:
   - solution_dropdown:
-      - descr: >-
-          Transform the way you analyze & present spreadsheet data and make
-          better decisions, faster.
+      - descr: 'Automate data analysis, reporting and business consulting workflow.'
         image: /img/analyst_and_consultant_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/
         title: Analysts and Consultants
       - descr: >-
-          Make fast and accurate decisions with Visyond’s collaborative decision
-          making software.
+          Get valuable and reliable business insights and make better decisions,
+          faster.
         image: /img/decision_makers_3x.png
         path: /solutions/collaborative-decision-making-software/
         title: Decision Makers
     title: function
   - solution_dropdown:
-      - descr: >-
-          Accelerate and simplify the gathering of inputs from multiple
-          stakeholders and empower online spreadsheet collaboration.
+      - descr: 'Collaborate remotely on spreadsheets, analysis, and reports.'
         image: /img/spreadsheet_collaboration_3x.png
         path: /solutions/spreadsheet-collaboration-software/
         title: Remote Collaboration
@@ -56,6 +52,10 @@ solDropdownCol:
         image: /img/finance_3x.png
         path: /solutions/financial-data-analysis-software/
         title: Financial Services
+      - descr: Improve the quality of your investment decisions.
+        image: /img/analyst_and_consultant_3x.png
+        path: /solutions/private-equity-venture-capital
+        title: Private Equity / Venture Capital
       - descr: >-
           Risk management software for banks - better lending decisions and
           higher portfolio profitability.
