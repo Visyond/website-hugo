@@ -156,7 +156,7 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of your projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
+    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing of your projects. Distribute interactive presentations to investors or stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching, changing or seeing the model.\r\n<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
