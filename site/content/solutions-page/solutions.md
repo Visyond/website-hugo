@@ -2,9 +2,7 @@
 title: Solutions
 url: solutions
 topTitle: Solutions
-topSubTitle: >-
-  Explore our Solutions to learn more about how Visyond can help you, your team
-  and your clients!
+topSubTitle: Explore Visyond's Solutions
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
@@ -13,30 +11,20 @@ section:
   - cards:
       - icon: /img/analyst_and_consultant_3x.png
         link: /solutions/data-analysis-and-business-consulting-software
-        text: >-
-          Transform the way you analyze & present spreadsheet data and make
-          better decisions, faster.
-        title: Analysts & Consultants
+        text: 'Automate data analysis, reporting and business consulting workflow.'
+        title: Analysts and Consultants
       - icon: /img/decision_makers_3x.png
         link: /solutions/collaborative-decision-making-software
         text: >-
-          Make fast and accurate decisions with Visyond’s collaborative decision
-          making software.
+          Get valuable and reliable business insights and make better decisions,
+          faster.
         title: Decision Makers
-      - icon: /img/finance_3x.png
-        link: /solutions/financial-data-analysis-software
-        text: >-
-          Secure and automated spreadsheets to simplify your financial data
-          analysis workflow.
-        title: Finance
     title: Function
   - cards:
       - icon: /img/spreadsheet_collaboration_3x.png
         link: /solutions/spreadsheet-collaboration-software
-        text: >-
-          Accelerate and simplify the gathering of inputs from multiple
-          stakeholders and empower online spreadsheet collaboration.
-        title: Spreadsheet Collaboration
+        text: 'Collaborate remotely on spreadsheets, analysis, and reports.'
+        title: Remote Collaboration
       - icon: /img/data_governance_3x.png
         link: /solutions/data-tracking-software
         text: >-
@@ -56,16 +44,23 @@ section:
           Create insightful interactive data visualizations and empower
           collaborators to test assumptions only on information they are
           authorized to see.
-        title: 'Reports, Presentations and Visualizations'
+        title: Interactive Reports
       - icon: /img/modelling_3x.png
         link: /solutions/financial-modeling-software
-        text: >-
-          Visyond’s spreadsheet modeling software aids modelers by automating
-          routine tasks, minimizing the risk of errors in an intuitive
-          Excel-compatible platform.
+        text: Automate spreadsheet modeling workflow.
         title: Modeling
     title: Use Case
   - cards:
+      - icon: /img/finance_3x.png
+        link: /solutions/financial-data-analysis-software/
+        text: >-
+          Secure and automated spreadsheets to simplify your financial data
+          analysis workflow.
+        title: Financial Services
+      - icon: /img/audit-mode@2x.png
+        link: /solutions/private-equity-venture-capital
+        text: Improve the quality of your investment decisions.
+        title: Private Equity / Venture Capital
       - icon: /img/banking_3x.png
         link: /solutions/risk-management-software-for-banks
         text: >-
@@ -82,10 +77,6 @@ section:
         link: /solutions/data-analysis-and-business-consulting-software
         text: ''
         title: Management Consulting
-      - icon: /img/financial_services_3x.png
-        link: /solutions/financial-data-analysis-software
-        text: ''
-        title: Financial Services
       - icon: /img/telecommunication_3x.png
         text: ''
         title: Telecommunication
