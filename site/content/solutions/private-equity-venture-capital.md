@@ -1,7 +1,31 @@
 ---
-metaTags: "<meta property=\"og:title\" content=\"Improve Quality of Your Investment Decisions\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/pevc\"> \r\n\r\n<meta name=\"title\" content=\"Improve Quality of Your Investment Decisions\">\r\n<meta name=\"description\" content=\"Improve investment analysis and reporting, Understand KPIs and their response to change, Simplify data gathering from portfolio companies.\"> \r\n<meta name=\"keywords\" content=\"private equity software, venture capital software, venture fund software, VC software, portfolio management software, investment software\"> "
-title: Improve Quality of Your Investment Decisions
-topTitle: Improve Quality of Your Investment Decisions
+metaTags: >-
+  <meta property="og:title" content="Improve the Quality of Your Investment
+  Decisions"> 
+
+  <meta property="og:type" content="website"> 
+
+  <meta property="og:image"
+  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
+
+  <meta property="og:description" content="Get what no other spreadsheet-based
+  technology stack can give you. Anywhere you are, on any platform."> 
+
+  <meta property="og:url"
+  content="https://visyond.com/solutions/private-equity-venture-capital/"> 
+
+
+  <meta name="title" content="Improve the Quality of Your Investment Decisions">
+
+  <meta name="description" content="Improve investment analysis and reporting,
+  Understand KPIs and their response to change, Simplify data gathering from
+  portfolio companies."> 
+
+  <meta name="keywords" content="private equity software, venture capital
+  software, venture fund software, VC software, portfolio management software,
+  investment software">
+title: Improve the Quality of Your Investment Decisions
+topTitle: Improve the Quality of Your Investment Decisions
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
@@ -72,7 +96,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nExchange information without version chaos."
+    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
     title: Improve Investment Analysis and Reporting
   - benefitsList:
       - text: >-
@@ -101,7 +125,7 @@ infoBlockFirst:
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
     subtitle: "Self-service analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
-    title: Understand KPIs and Their Response to Change
+    title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
           Collaborate on investment projects and know who contributed what, when
@@ -176,7 +200,7 @@ infoBlockFirst:
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
-    title: Present Actionable Insights
+    title: Share Actionable Insights on Investment Strategy
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
