@@ -11,6 +11,7 @@ metaTags: >-
   Visyond’s interactive presentations without any programming or add-ins.">
   <meta name="keywords" content="Automate Excel Reports, Financial Data
   Visualization, Presenting Financial Data">
+ThisSolutionIsFor: 'Visyond for: Interactive Reports and Dashboards'
 topTitle: >-
   Automate Reporting with Interactive Real-Time Presentations
   and Data Visualizations
