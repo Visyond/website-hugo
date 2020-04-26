@@ -10,7 +10,7 @@ metaTags: >-
   software, spreadsheet collaboration online"> <meta property="og:title" content="Collaborate Remotely on Spreadsheets, Analysis, and   Reports"> <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> <meta property="og:description" content="Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software">  
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
-ThisSolutionIsFor: 'Visyond for: Remote Work and Collaboration'
+ThisSolutionIsFor: 'For Remote Work and Collaboration'
 topTitle: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
