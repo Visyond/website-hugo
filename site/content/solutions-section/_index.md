@@ -13,12 +13,6 @@ solDropdownCol:
         image: /img/decision_makers_3x.png
         path: /solutions/collaborative-decision-making-software/
         title: Decision Makers
-      - descr: >-
-          Secure and automated spreadsheets to simplify your financial data
-          analysis workflow.
-        image: /img/finance_3x.png
-        path: /solutions/financial-data-analysis-software/
-        title: Finance
     title: function
   - solution_dropdown:
       - descr: >-
@@ -46,16 +40,22 @@ solDropdownCol:
           authorized to see.
         image: /img/report_presentation_visualization_3x.png
         path: /solutions/automate-excel-reports-and-presentation/
-        title: 'Interactive Reports'
+        title: Interactive Reports
       - descr: >-
           Visyond’s spreadsheet modeling software aids modelers by automating
           routine tasks, minimizing the risk of errors in an intuitive
           Excel-compatible platform.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
-        title: Modeling
+        title: Spreadsheet Modeling
     title: USE CASE
   - solution_dropdown:
+      - descr: >-
+          Secure and automated spreadsheets to simplify your financial data
+          analysis workflow.
+        image: /img/finance_3x.png
+        path: /solutions/financial-data-analysis-software/
+        title: Financial Services
       - descr: >-
           Risk management software for banks - better lending decisions and
           higher portfolio profitability.
@@ -72,10 +72,6 @@ solDropdownCol:
         image: /img/management_consulting_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/
         title: Management Consulting
-      - descr: ''
-        image: /img/financial_services_3x.png
-        path: /solutions/financial-data-analysis-software/
-        title: Financial Services
       - descr: ''
         image: /img/telecommunication_3x.png
         title: Telecommunication
