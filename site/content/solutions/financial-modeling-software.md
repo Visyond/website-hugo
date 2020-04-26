@@ -68,7 +68,7 @@ infoBlockFirst:
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     link: ''
-    subtitle: Analysis and stress-testing automation.
+    subtitle: Self-service analysis and stress-testing automation.
     title: Instantly Identify Key Drivers of Your Financial Models
   - benefitsList:
       - text: >-
