@@ -1,10 +1,8 @@
 ---
 title: Features
 url: /features
-topTitle: Visyond's Features & Functionality
-topSubTitle: >-
-  Explore our Features to learn more about how Visyond can help you, your team
-  and your clients!
+topTitle: Features
+topSubTitle: Explore Visyond's Features
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
 requestURL: /request
