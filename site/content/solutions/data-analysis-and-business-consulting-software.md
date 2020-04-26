@@ -1,14 +1,9 @@
 ---
 aliases: /solutions/analysts-and-consultants/
-metaTags: >-
-  <meta name="title" content="Automate Data Analysis and Business Consulting Workflow">
-  <meta name="description" content="Visyond’s smart machine intelligence data
-  analysis and business consulting software helps analysts and consultants
-  analyze data faster and make better decisions based on the numbers."> <meta
-  name="keywords" content="data analysis, business consulting software">
+metaTags: "<meta name=\"title\" content=\"Automate Data Analysis, Reporting and Business Consulting Workflow\"> <meta name=\"description\" content=\"Understand the structure of your financial models, automate analytical tasks, and present the results of your work in an interactive way, help decision makers make better decisions, faster.\"> <meta name=\"keywords\" content=\"data analysis, business consulting software\">\n\n<meta property=\"og:title\" content=\"Automate Data Analysis, Reporting and Business Consulting Workflow\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-analysis-and-business-consulting-software\"></p>"
 topImage: /img/solutions/solutions_analysts_consultants_top.png
-title: Automate Data Analysis and Business Consulting Workflow
-topTitle: 'Automate Data Analysis, Presentation and Business Consulting Workflow'
+title: 'Automate Data Analysis, Reporting and Business Consulting Workflow'
+topTitle: 'Automate Data Analysis, Reporting and Business Consulting Workflow'
 topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
