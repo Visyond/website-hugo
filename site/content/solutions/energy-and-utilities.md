@@ -104,7 +104,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven calculators."
+    subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven dashboards."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
