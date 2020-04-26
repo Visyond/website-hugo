@@ -1,11 +1,6 @@
 ---
 aliases: /solutions/decision-makers/
-metaTags: >-
-  <meta name="title" content="Collaborative Decision Making Software"> <meta
-  name="description" content="Visualize the impact of your spreadsheet based
-  decisions and answer any questions in real time, reduce errors and control
-  what each collaborator can see and interact with"> <meta name="keywords"
-  content="collaborative decision making software, decision making software">  
+metaTags: "<meta name=\"title\" content=\"Collaborative Decision Making Software\"> <meta name=\"description\" content=\"Visualize the impact of your spreadsheet based decisions and answer any questions in real time, reduce errors and control what each collaborator can see and interact with\"> <meta name=\"keywords\" content=\"collaborative decision making software, decision making software\">\n\n<meta property=\"og:title\" content=\"Get Valuable and Reliable Business Insights and Make Better Decisions, Faster\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/collaborative-decision-making-software\">  "
 topImage: /img/solutions/solutions_decision_makers_top.png
 title: Collaborative Decision Making Software
 topTitle: 'Get Valuable and Reliable Business Insights and Make Better Decisions, Faster'
