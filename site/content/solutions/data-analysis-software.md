@@ -8,6 +8,7 @@ metaTags: >-
   with Visyond’s smart machine intelligence data analysis software; scenario
   comparison, tornado analysis and sensitivity analysis.">
   <meta name="keywords" content="data analysis software, spreadsheet data analysis, spreadsheet analysis software">
+ThisSolutionIsFor: 'Visyond for: Analysis Automation'
 topTitle: >-
   Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
   a Team and Answering Questions On-The-Fly
