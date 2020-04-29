@@ -4,7 +4,7 @@ metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish Y
 topImage: /img/solutions/solutions_modeling_top.png
 title: Financial Modeling Software You Wish You Had Yesterday
 ThisSolutionIsFor: 'For Financial Modeling'
-topTitle: Financial Modeling Software You Wish You Had Yesterday
+topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
 topSubTitle: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
   flexibility and the look-and-feel of Excel and the structured approach to
