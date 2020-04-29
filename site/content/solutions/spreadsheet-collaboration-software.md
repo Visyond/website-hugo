@@ -11,7 +11,7 @@ metaTags: >-
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
 ThisSolutionIsFor: 'For Remote Work and Collaboration'
-topTitle: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
+topTitle: 'Collaborate Remotely on Spreadsheets, <br> Analysis, and Reports'
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
