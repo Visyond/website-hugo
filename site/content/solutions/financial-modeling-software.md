@@ -1,10 +1,10 @@
 ---
 aliases: /solutions/modeling/
-metaTags: "<meta name=\"title\" content=\"Automate Modeling Workflow with Visyond’s Financial Modeling Software\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Automate Financial Modeling Workflow\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
+metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Automate Financial Modeling Workflow\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
 topImage: /img/solutions/solutions_modeling_top.png
-title: Automate Modeling Workflow with Visyond’s Financial Modeling Software
+title: Financial Modeling Software You Wish You Had Yesterday
 ThisSolutionIsFor: 'For Financial Modeling'
-topTitle: Automate Modeling Workflow with Visyond’s Financial Modeling Software
+topTitle: Financial Modeling Software You Wish You Had Yesterday
 topSubTitle: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
   flexibility and the look-and-feel of Excel and the structured approach to
