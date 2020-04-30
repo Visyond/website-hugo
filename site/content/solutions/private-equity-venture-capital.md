@@ -25,7 +25,7 @@ metaTags: >-
   software, venture fund software, VC software, portfolio management software,
   investment software">
 title: Improve the Quality of Your Investment Decisions
-ThisSolutionIsFor: 'For Private Equity and Venture Capital'
+ThisSolutionIsFor: For Private Equity and Venture Capital
 topTitle: Improve the Quality of Your Investment Decisions
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
@@ -140,7 +140,11 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have portfolio companies fill shared worksheets with their data, and use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells. <br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+      - text: >-
+          Multiple assumptions can coexist in a cell as opposed to last value
+          overwriting the existing one, and nobody, including the project owner,
+          can modify data entered by others.
+    descr: "Have portfolio companies fill shared worksheets with their data, and use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets without seeing the rest of the model. <br><br>\r Have portfolio companies add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information.\r"
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
@@ -170,7 +174,7 @@ infoBlockFirst:
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: "Single source of truth for investments projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
+    subtitle: "Knowledge management for investments projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
     title: Simplify Data Gathering from Portfolio Companies
   - benefitsList:
       - text: >-
