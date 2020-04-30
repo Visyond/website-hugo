@@ -125,7 +125,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
     image: /img/2019-02 Interactive Presentation.png
-    subtitle: "Self-service analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
+    subtitle: "Self-service stress-testing and analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
       - text: >-
