@@ -174,7 +174,7 @@ infoBlockFirst:
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
-    subtitle: "Knowledge management for investments projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
+    subtitle: "Knowledge management for investment projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
     title: Simplify Data Gathering from Portfolio Companies
   - benefitsList:
       - text: >-
