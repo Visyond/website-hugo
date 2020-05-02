@@ -1,7 +1,7 @@
 ---
 metaTags: "<meta property=\"og:title\" content=\"Collaborate Remotely on Energy Projects\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/energy-and-utilities/\"> \r\n\r\n<meta name=\"title\" content=\"Collaborate Remotely on Energy Projects\">\r\n<meta name=\"description\" content=\"Have complete control over your energy projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\"> \r\n<meta name=\"keywords\" content=\"Energy Management Software, energy software, EMS\"> "
 title: Collaborate Remotely on Energy Projects
-ThisSolutionIsFor: 'For Energy and Utilities'
+ThisSolutionIsFor: For Energy and Utilities
 topTitle: Collaborate Remotely on Energy Projects
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
@@ -121,7 +121,11 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+      - text: >-
+          Multiple assumptions can coexist in a cell as opposed to last value
+          overwriting the existing one, and nobody, including the project owner,
+          can modify data entered by others.
+    descr: "Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets without seeing the rest of the model.\n<br><br>\r Data-entry people can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
