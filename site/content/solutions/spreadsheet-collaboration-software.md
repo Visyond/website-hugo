@@ -119,15 +119,12 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
+      - text: >-
+          Multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody,   including the project owner, can modify data entered by others.        
     descr: >-
-      Have experts fill shared worksheets with their data, and use the data to
-      update any predictive model you have. Data-entry people will only see
-      their specific data entry worksheets and add supporting documents and
-      comments directly inside the relevant cells.<br><br>
+      Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update   any predictive model you have. Data-entry people will only see their specific data entry worksheets without seeing the rest of the model.<br><br>
 
-      Multiple assumptions can coexist in a cell as opposed to last value
-      overwriting the existing one, and nobody, including the project owner, can
-      modify data entered by others.
+      Data-entry people can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information.
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
