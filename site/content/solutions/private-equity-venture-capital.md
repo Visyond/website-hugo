@@ -144,7 +144,7 @@ infoBlockFirst:
           Multiple assumptions can coexist in a cell as opposed to last value
           overwriting the existing one, and nobody, including the project owner,
           can modify data entered by others.
-    descr: "Have portfolio companies fill shared worksheets with their data, and use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets without seeing the rest of the model. <br><br>\r Have portfolio companies add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information.\r"
+    descr: "Share special data-entry worksheets with portfolio companies where they can input data. Then use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets without seeing the rest of the model. <br><br>\r Portfolio companies can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
