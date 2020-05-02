@@ -3,7 +3,7 @@ aliases: /solutions/decision-makers/
 metaTags: "<meta name=\"title\" content=\"Collaborative Decision Making Software\"> <meta name=\"description\" content=\"Visualize the impact of your spreadsheet based decisions and answer any questions in real time, reduce errors and control what each collaborator can see and interact with\"> <meta name=\"keywords\" content=\"collaborative decision making software, decision making software\">\n\n<meta property=\"og:title\" content=\"Get Valuable and Reliable Business Insights and Make Better Decisions, Faster\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/collaborative-decision-making-software\">  "
 topImage: /img/solutions/solutions_decision_makers_top.png
 title: Collaborative Decision Making Software
-ThisSolutionIsFor: 'For Decision Makers'
+ThisSolutionIsFor: For Decision Makers
 topTitle: 'Get Reliable Business Insights <br> and Make Better Decisions, Faster'
 topSubTitle: "Visyond is a secure cloud-based Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers make better decisions, faster.**\r"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
@@ -109,7 +109,11 @@ infoBlockFirst:
       - text: >-
           Establish a single place to store all your spreadsheet data - changes,
           assumptions, documents and conversations
-    descr: "Have experts fill shared worksheets with their data, and use the data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets and add supporting documents and comments directly inside the relevant cells.\r\n<br><br>\r\nMultiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody, including the project owner, can modify data entered by others.\r"
+      - text: >-
+          Multiple assumptions can coexist in a cell as opposed to last value
+          overwriting the existing one, and nobody, including the project owner,
+          can modify data entered by others.
+    descr: "Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets without seeing the rest of the model.\n<br><br> \rData-entry people can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
