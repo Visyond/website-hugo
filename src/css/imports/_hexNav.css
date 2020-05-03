@@ -475,12 +475,14 @@
     border-radius: 0.5em;
 
 &:hover {
-     background: #e8e9ed;
+     background: #f9f9f9;
  }
 
 @media screen and (max-width: 1201px) {
     margin: 0.5em auto;
-    background: rgba(0,0,0,.05);
+    /* background: rgba(0,0,0,.05); */
+    font-size: 1.1em;
+    color: #0585ff;
 }
 }
 
