@@ -421,6 +421,7 @@
     padding: 0.5em 1em;
     font-weight: 600;
     color: #52556c;
+    margin-bottom: 0em;
 
 @media screen and (max-width: 1201px) {
     display: block;
