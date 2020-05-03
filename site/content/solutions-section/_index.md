@@ -11,7 +11,7 @@ solDropdownCol:
         image: /img/decision_makers_3x.png
         path: /solutions/collaborative-decision-making-software/
         title: Decision Makers
-    title: function
+    title: Function
   - solution_dropdown:
       - descr: 'Collaborate remotely on spreadsheets, analysis, and reports.'
         image: /img/spreadsheet_collaboration_3x.png
@@ -41,7 +41,7 @@ solDropdownCol:
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
         title: Spreadsheet Modeling
-    title: USE CASE
+    title: Use Case
   - solution_dropdown:
       - descr: >-
           Secure and automated spreadsheets to simplify your financial data
@@ -78,7 +78,7 @@ solDropdownCol:
       - descr: ''
         image: /img/insurance_3x.png
         title: Insurance
-    title: INDUSTRY
+    title: Industry
 allFeaturesText: View all solutions
 allFeaturesLink: /solutions
 ---
