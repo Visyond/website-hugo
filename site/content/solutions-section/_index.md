@@ -41,7 +41,7 @@ solDropdownCol:
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
         title: Spreadsheet Modeling
-    title: Use Case
+    title: Use case
   - solution_dropdown:
       - descr: >-
           Secure and automated spreadsheets to simplify your financial data
