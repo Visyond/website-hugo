@@ -342,7 +342,7 @@
 
 .dropdown__info-title {
     color: #717383;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .dropdown__info-img {
@@ -416,8 +416,8 @@
 }
 
 .dropdown-section__title {
-    text-transform: uppercase;
-    font-size: 1.2em;
+    text-transform: none;
+    font-size: 1em;
     padding: 0.5em 1em;
     font-weight: 600;
     color: #52556c;
@@ -440,7 +440,7 @@
 
 .dropdown-section__group-link {
     font-size: 1em;
-    line-height: 1em;
+    line-height: 0.5em;
     padding: 1em;
     border-radius: 0.5em;
     color: #52556c;
@@ -455,7 +455,7 @@
 
 .dropdown-section__group-link:hover {
     background: #e8e9ed;
-    color: #52556c;
+    color: #0585ff;
 }
 
 .dropdown__wrapper {
