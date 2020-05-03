@@ -363,7 +363,7 @@
 }
 
 .dropdown-section {
-    background: #f2f3f7;
+    background: #ffffff;
     margin: 0;
     position: relative;
 
@@ -426,9 +426,10 @@
 @media screen and (max-width: 1201px) {
     display: block;
     width: 100%;
-    background: rgba(0,0,0,.05);
+    background: #ffffff;
     margin: 0 !important;
-    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-bottom: none;
+    font-size: 1.1em;
 }
 }
 
@@ -448,14 +449,14 @@
     display: block;
 
 @media screen and (max-width: 1201px){
-    padding: 1.5em 1em;
+    padding: 1.2em 1em;
     border-radius: 0;
-    border-bottom: 1px solid rgba(0,0,0,.2);
+    border-bottom: none;
 }
 }
 
 .dropdown-section__group-link:hover {
-    background: #e8e9ed;
+    background: #f9f9f9;
     color: #0585ff;
 }
 
