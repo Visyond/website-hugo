@@ -132,7 +132,7 @@
     position: static;
     background: transparent;
     width: auto;
-    margin: 0 1em;
+    margin: 0 0em;
     border: none;
     box-shadow: none;
     border-radius: 0.5em !important;
@@ -258,8 +258,8 @@
 }
 
 .dropdown-toggle__group-list-item-link:hover {
-    background: #e8e9ed;
-    color: #52556c !important;
+    background: #f9f9f9;
+    color: #0585ff;
 }
 
 .overlay {
