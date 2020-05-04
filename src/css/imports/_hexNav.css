@@ -248,7 +248,12 @@
     padding: 8px 10px;
     color: #52556c;
     display: block;
+    
+    @media screen and (max-width: 1201px) {
+        padding: 0.71em 0.3em;
+    }
 }
+
 
 .nav--homepage-header .dropdown-toggle__group-list-item-link {
     color: #fff;
