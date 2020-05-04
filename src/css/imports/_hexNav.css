@@ -404,6 +404,7 @@
 @media (max-width: 1201px) {
     text-align: left !important;
     width: 100%;
+    margin-bottom: 1.5em;
 }
 
 @media (max-width: 1201px) {
@@ -430,6 +431,7 @@
     margin: 0 !important;
     border-bottom: none;
     font-size: 1.1em;
+    padding: 0.5em 0.2em;
 }
 }
 
@@ -449,7 +451,7 @@
     display: block;
 
 @media screen and (max-width: 1201px){
-    padding: 1.2em 1em;
+    padding: 1.2em 0.2em;
     border-radius: 0;
     border-bottom: none;
 }
