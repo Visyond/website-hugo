@@ -10,13 +10,15 @@ resourcesDropdown:
     title: Partner with Visyond
   - path: /blog/
     title: Blog
-solutionsInfoTitle: Answer questions in seconds
+solutionsInfoTitle: Get what no other spreadsheet-based technology stack can give you
 solutionsInfoDescr: >-
-  Explore our Solutions to learn more about how Visyond can help you, your team
-  and your clients!
-featuresInfoTitle: Answer questions in seconds
+  Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
+  solution that connects all steps of your business workflow in a single
+  platform
+featuresInfoTitle: Get what no other spreadsheet-based technology stack can give you
 featuresInfoDescr: >-
-  Explore our Features to learn more about how Visyond can help you, your team
-  and your clients!
+  Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
+  solution that connects all steps of your business workflow in a single
+  platform
 ---
 
