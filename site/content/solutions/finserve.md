@@ -1,7 +1,6 @@
 ---
 metaTags: >-
-  <meta property="og:title" content="Improve the Quality of Your Investment
-  Decisions"> 
+  <meta property="og:title" content="FINANCIAL SERVICES"> 
 
   <meta property="og:type" content="website"> 
 
@@ -15,18 +14,14 @@ metaTags: >-
   content="https://visyond.com/solutions/private-equity-venture-capital/"> 
 
 
-  <meta name="title" content="Improve the Quality of Your Investment Decisions">
+  <meta name="title" content="FINANCIAL SERVICES">
 
-  <meta name="description" content="Improve investment analysis and reporting,
-  Understand KPIs and their response to change, Simplify data gathering from
-  portfolio companies."> 
+  <meta name="description" content="FINANCIAL SERVICES"> 
 
-  <meta name="keywords" content="private equity software, venture capital
-  software, venture fund software, VC software, portfolio management software,
-  investment software">
-title: Improve the Quality of Your Investment Decisions
-ThisSolutionIsFor: For Private Equity and Venture Capital
-topTitle: Improve the Quality of Your Investment Decisions
+  <meta name="keywords" content="FINANCIAL SERVICES">
+title: FINANCIAL SERVICES
+ThisSolutionIsFor: For Financial Services
+topTitle: Financial Services Solution Title
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
@@ -214,3 +209,4 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
+
