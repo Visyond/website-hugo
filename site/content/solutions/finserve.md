@@ -202,11 +202,7 @@ infoBlockFirst:
       slides for live presentations and stress-testing. Distribute interactive
       presentations to internal and external stakeholders, which they can use to
       ask the spreadsheet ‘what-if’ questions using sliders and dropdowns
-      without actually touching, changing or seeing the model.<br><br>
-
-      Generate forward looking predictive financial statements, driven by
-      assumptions in your spreadsheet, and automate the preparation of reports
-      based on your settings and accounting standards.
+      without actually touching, changing or seeing the model.
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -239,6 +235,20 @@ infoBlockFirst:
       <br>
       Scenario analysis automation.
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
+  - benefitsList:
+      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
+      - text: >-
+          Create calculations of growth and changes against previous periods,
+          financial and management ratios & KPIs, and depreciation schedules
+    descr: >-
+      Generate forward looking predictive financial statements, driven by
+      assumptions in your spreadsheet, and automate the preparation of reports
+      based on your settings and accounting standards.
+    subtitle: |-
+      KPI reports automation.
+      <br>
+      Financial statements generation.
+    title: Generate Financial Statements Linked To Your Model
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
