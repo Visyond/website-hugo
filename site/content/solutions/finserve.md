@@ -20,7 +20,7 @@ metaTags: >-
 
   <meta name="keywords" content="FINANCIAL SERVICES">
 title: FINANCIAL SERVICES
-ThisSolutionIsFor: For Financial Services
+ThisSolutionIsFor: For Financial Services and FP&A
 topTitle: Financial Services Solution Title
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
@@ -225,6 +225,20 @@ infoBlockFirst:
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights
+  - benefitsList:
+      - text: Budget vs. Actual
+      - text: >-
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
+      - text: >-
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
+    descr: "Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or presentations without depending on experts. <br><br> \rSwitching between scenarios automatically updates all linked cells, charts and presentations without compromising integrity of data."
+    subtitle: |
+      Collaborative budgeting and forecasting.
+      <br>
+      Scenario analysis automation.
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
