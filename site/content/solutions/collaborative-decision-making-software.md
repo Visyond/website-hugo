@@ -113,7 +113,7 @@ infoBlockFirst:
           Multiple assumptions can coexist in a cell as opposed to last value
           overwriting the existing one, and nobody, including the project owner,
           can modify data entered by others.
-    descr: "Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update any predictive model you have. Data-entry people will only see their specific data entry worksheets without seeing the rest of the model.\n<br><br> \rData-entry people can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
+    descr: "Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update any predictive model you have. Data-entry collaborators will only see their specific data entry worksheets without seeing the rest of the model.\n<br><br> \rData-entry collaborators can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
