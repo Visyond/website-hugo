@@ -14,11 +14,11 @@ solutionsInfoTitle: Get what no other spreadsheet-based technology stack can giv
 solutionsInfoDescr: >-
   Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
   solution that connects all steps of your business workflow in a single
-  platform
+  platform.
 featuresInfoTitle: Get what no other spreadsheet-based technology stack can give you
 featuresInfoDescr: >-
   Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
   solution that connects all steps of your business workflow in a single
-  platform
+  platform.
 ---
 
