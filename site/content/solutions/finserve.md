@@ -43,7 +43,14 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of your
           projects
       - text: Prevent version chaos and see history of changes
-    descr: "Quickly check correctness of spreadsheets provided by portfolio companies, and improve the quality of your investment decisions by insuring that you take action based on accurate, up-to-date numbers and audited, error-free financial models.<br><br>\r\nHave complete control over your projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r"
+    descr: >-
+      Quickly check correctness of spreadsheets and improve the quality of your
+      decisions by insuring that you take action based on accurate, up-to-date
+      numbers and audited, error-free financial models.<br><br>
+
+      Have complete control over your projects at every step of the way and
+      ensure data security, correctness and integrity of your models, identify
+      errors, track changes, and document the information flows.
     files:
       - descr: >-
           Instantly visualize the impact of important business drivers with
@@ -93,7 +100,7 @@ infoBlockFirst:
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
-    title: Improve Investment Analysis and Reporting
+    title: Improve Project Analysis and Reporting
   - benefitsList:
       - text: >-
           Automate Sensitivity, Scenario and Waterfall analyses, and Monte Carlo
@@ -139,7 +146,15 @@ infoBlockFirst:
           Multiple assumptions can coexist in a cell as opposed to last value
           overwriting the existing one, and nobody, including the project owner,
           can modify data entered by others.
-    descr: "Share special data-entry worksheets with portfolio companies where they can input data. Then use that data to update the fund performance according to any predictive model you have. Each portfolio company will only see their specific data entry worksheets without seeing the rest of the model. <br><br>\r Portfolio companies can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information."
+    descr: >-
+      Share special data-entry worksheets with subject-matter experts where they
+      can input data. Then use that data to update any predictive model you
+      have. Data-entry collaborators will only see their specific data entry
+      worksheets without seeing the rest of the model. <br><br>
+
+      Collaborators can add supporting documents, attachments and comments
+      directly inside the relevant cells so you can easily locate the source of
+      information.
     files:
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
@@ -170,7 +185,7 @@ infoBlockFirst:
         title: Know What Is Happening in Your Projects
     image: /img/2019-02 Cases Panel and Dropdown.png
     subtitle: "Knowledge management for investment projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
-    title: Simplify Data Gathering from Portfolio Companies
+    title: Simplify Data Gathering and Consolidation
   - benefitsList:
       - text: >-
           Empower stakeholders to independently answer ‘what-if’ questions and
@@ -182,7 +197,16 @@ infoBlockFirst:
           Control information flow by sharing only specific parts of
           presentations
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
-    descr: "Have the always up-to-date and audited spreadsheet drive the interactive slides for live presentations and stress-testing. Distribute interactive presentations to LPs or relevant stakeholders, which they can use to ask the spreadsheet ‘what-if’ questions using sliders and dropdowns without actually touching, changing or seeing the model.<br><br>\r\nGenerate forward looking predictive financial statements, driven by assumptions in your spreadsheet, and automate the preparation of reports based on your settings and accounting standards.\r"
+    descr: >-
+      Have the always up-to-date and audited spreadsheet drive the interactive
+      slides for live presentations and stress-testing. Distribute interactive
+      presentations to internal and external stakeholders, which they can use to
+      ask the spreadsheet ‘what-if’ questions using sliders and dropdowns
+      without actually touching, changing or seeing the model.<br><br>
+
+      Generate forward looking predictive financial statements, driven by
+      assumptions in your spreadsheet, and automate the preparation of reports
+      based on your settings and accounting standards.
     files:
       - descr: >-
           Create visual interactive presentations and spreadsheet-driven
@@ -200,7 +224,7 @@ infoBlockFirst:
         title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
-    title: Share Actionable Insights on Investment Strategy
+    title: Share Actionable Insights
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
