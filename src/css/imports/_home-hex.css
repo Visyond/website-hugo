@@ -1075,6 +1075,22 @@ margin-bottom: 30px;
      top: auto !important;
  }
 }
+    
+& .button-basicA--nobg {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: -4em;
+
+@media screen and (max-width: 800px) {
+    margin-bottom: -3.5em;
+    white-space: nowrap;
+}
+
+&:hover {
+     top: auto !important;
+ }
+}    
+    
 }
 
 .enterSectionsA__block:nth-child(2n + 1) .enterSections__block-img {
