@@ -230,6 +230,20 @@ infoBlockFirst:
           Instantly compare and generate scenario comparison charts with a few
           clicks
     descr: "Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or presentations without depending on experts. <br><br> \rSwitching between scenarios automatically updates all linked cells, charts and presentations without compromising integrity of data."
+    files:
+      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
+        descr: >-
+          With Scenario analysis you can quickly compare different assumptions
+          in a few clicks.
+        file: /img/2019-02 Scenario Analysis.png
+        link: /features/scenarios/
+        title: Compare Scenarios In Real Time
+      - descr: >-
+          With Scenario Waterfall analysis you can clearly see what cells
+          changed between scenarios and by how much.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        title: Scenario Waterfall    
+    image: /img/2019-02 Scenario Analysis.png
     subtitle: |
       Collaborative budgeting and forecasting.
       <br>
