@@ -258,6 +258,15 @@ infoBlockFirst:
       Generate forward looking predictive financial statements, driven by
       assumptions in your spreadsheet, and automate the preparation of reports
       based on your settings and accounting standards.
+    files:
+      - descr: >-
+          Visyond creates forward looking predictive financial statements,
+          driven by assumptions in your spreadsheet.The statements can adapt to
+          any reporting/accounting standard and automate the preparation of
+          reports based on your settings.
+        file: /img/2019-02 Financial Statements.png
+        image: /img/2019-02 Financial Statements.png
+        title: Generate Financial Statements Linked To Your Model    
     subtitle: |-
       KPI reports automation.
       <br>
