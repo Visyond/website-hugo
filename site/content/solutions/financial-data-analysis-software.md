@@ -1,7 +1,8 @@
 ---
 aliases: /solutions/finance/
 metaTags: >-
-  <meta property="og:title" content="Financial Data analysis software"> 
+  <meta property="og:title" content="Automate Financial Planning, Analysis and
+  Reporting"> 
 
   <meta property="og:type" content="website"> 
 
@@ -14,12 +15,14 @@ metaTags: >-
   <meta property="og:url"
   content="https://visyond.com/solutions/financial-data-analysis-software/"> 
 
-  <meta name="title" content="Financial Data analysis software">
-  <meta name="description" content="Visyond’s financial data analysis software is a great Excel alternative for budgeting, forecasting and financial modeling. Make better financial decisions, reduce errors and cut days worth of effort down to minutes.">
-  <meta name="keywords" content="financial data analysis software">
-title: Financial Data Analysis Software
+  <meta name="title" content="Automate Financial Planning, Analysis and
+  Reporting"> <meta name="description" content=" Automate Financial Planning,
+  Analysis, Forecasting, and Reporting with Visyond’s  Excel-compatible
+  spreadsheet modeling, analysis automation and interactive reporting
+  platform."> <meta name="keywords" content="financial data analysis software">
+title: 'Automate Financial Planning, Analysis and Reporting'
 ThisSolutionIsFor: For Financial Services and FP&A
-topTitle: Financial Services Solution Title
+topTitle: 'Automate Financial Planning, Analysis and Reporting'
 topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
@@ -271,3 +274,4 @@ providesList:
   - text: Low entry barrier - Visyond is easy **to use and learn**
   - text: Full **transparency and control** over your data
 ---
+
