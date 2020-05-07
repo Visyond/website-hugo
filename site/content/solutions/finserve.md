@@ -211,13 +211,6 @@ infoBlockFirst:
           slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
         title: Present Models with Spreadsheet-driven Calculators
-      - descr: >-
-          Visyond creates forward looking predictive financial statements,
-          driven by assumptions in your spreadsheet.The statements can adapt to
-          any reporting/accounting standard and automate the preparation of
-          reports based on your settings.
-        file: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model
     image: /img/2019-02 Audit On.png
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights
@@ -242,7 +235,7 @@ infoBlockFirst:
           With Scenario Waterfall analysis you can clearly see what cells
           changed between scenarios and by how much.
         file: /img/2019-02 Scenarios Waterfall Analysis.png
-        title: Scenario Waterfall    
+        title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
     subtitle: |
       Collaborative budgeting and forecasting.
@@ -265,12 +258,12 @@ infoBlockFirst:
           any reporting/accounting standard and automate the preparation of
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model      
+        title: Generate Financial Statements Linked To Your Model
+    image: /img/2019-02 Financial Statements.png
     subtitle: |-
       KPI reports automation.
       <br>
       Financial statements generation.
-    image: /img/2019-02 Financial Statements.png  
     title: Generate Financial Statements Linked To Your Model
 providesTitle: Visyond for remote work
 providesList:
