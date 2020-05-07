@@ -265,12 +265,12 @@ infoBlockFirst:
           any reporting/accounting standard and automate the preparation of
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
-        image: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model    
+        title: Generate Financial Statements Linked To Your Model      
     subtitle: |-
       KPI reports automation.
       <br>
       Financial statements generation.
+    image: /img/2019-02 Financial Statements.png  
     title: Generate Financial Statements Linked To Your Model
 providesTitle: Visyond for remote work
 providesList:
