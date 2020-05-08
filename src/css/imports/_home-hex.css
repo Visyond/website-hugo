@@ -22,6 +22,9 @@
 .homehex .button-basic--nobg{
     box-shadow: none !important;
 }
+.homehex .button-basicA--nobg{
+    box-shadow: none !important;
+}
 .homehex .container {
     width: 100%;
     padding-right: 15px;
