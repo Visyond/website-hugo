@@ -22,9 +22,7 @@
 .homehex .button-basic--nobg{
     box-shadow: none !important;
 }
-.homehex .button-basicA--nobg{
-    box-shadow: none !important;
-}
+
 .homehex .container {
     width: 100%;
     padding-right: 15px;
@@ -1083,6 +1081,8 @@ margin-bottom: 30px;
       position: absolute;
       bottom: 0;
       margin-bottom: -4em;
+      box-shadow: none !important;
+      background: 0 0;
 
 @media screen and (max-width: 800px) {
     margin-bottom: -3.5em;
