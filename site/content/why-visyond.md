@@ -112,10 +112,6 @@ cards:
     header: Cloud-based Global Accessibility
     icon: /img/data_input_3x.png
     link: ''
-  - description: 'Keep all data on your server for better regulatory compliance'
-    header: On-Premise Installation
-    icon: /img/data_governance_3x.png
-    link: ''    
   - description: Audit spreadsheets and explore your models
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
