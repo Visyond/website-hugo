@@ -1,7 +1,9 @@
 ---
 metaTags: >-
-  <meta name="description" content="Visyond’s cloud-based secure, collaborative
-  and automated spreadsheet-based value analysis and decision platform.">
+  <meta name="description" content="Visyond is a secure cloud-based
+  Excel-compatible spreadsheet modeling, analysis automation and interactive
+  reporting platform that works in the browser and focuses on data security and
+  digital innovation.">
 
 
   <meta name="keywords" content="why visyond, visyond comparison, visyond vs">
@@ -14,9 +16,10 @@ metaTags: >-
   <meta property="og:image"
   content="https://visyond.com/img/why_visyond_infographic_linkedin_small.png">
 
-  <meta property="og:description" content="Single collaborative spreadsheet,
-  analysis and presentation platform connecting, automating and tracking
-  everything whilst safeguarding sensitive information."/>
+  <meta property="og:description" content="Visyond is a secure cloud-based
+  Excel-compatible spreadsheet modeling, analysis automation and interactive
+  reporting platform that works in the browser and focuses on data security and
+  digital innovation."/>
 
   <meta property="og:url" content="https://visyond.com/why-visyond/" />
 type: why-visyond
