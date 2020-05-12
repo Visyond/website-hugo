@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: center;
     width: calc(50% - 25px);
-    min-width: 450px;
+    min-width: 350px;
     margin-bottom: 60px;
 }
 .benefit__item:nth-child(2n + 1) {
