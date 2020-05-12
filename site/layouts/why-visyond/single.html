@@ -107,43 +107,7 @@ END: OLD TOP SECTION -->
 
   <img src="{{ .Params.sectionOneImg }}">
 </section>
-  
-<section class="section">
-  <h2 class="header-section">{{ .Params.sectionOneHeaderTwo | markdownify }}</h2>
-  <div class="header-section--divider"></div>
-
-
-  <section class="home-info__text-wrap"
-           style="width: 80%; margin: 0 10% 0 10%;">
-    <p></p>
-
-    <div class="home-info__block-descr" style="text-align: center">
-      {{ .Params.textArea2 | markdownify }}
-    </div>
-  </section>
-</section>
 <!-- END WHAT VISYOND SOLVES -->
-
-
-
-    <!-- section capabilities -->
-  <section class="section primary center-align">
-    <div class="container">
-
-      <ul class="ht-capabilities__modules">
-        {{ range $el := .Params.CapabilitiesList }}
-        <li class="ht-capabilities__block">
-          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
-
-          <div class="ht-capabilities__descr">
-            {{ .text | markdownify }}
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-  </section>
-  <!-- /section capabilities -->
 
 <!-- ENTER V -->
 <section class="types-section">
@@ -198,7 +162,46 @@ END: OLD TOP SECTION -->
 </section>	
 <!--END ENTER V -->
 
-<!--OLD ENTER V
+<!-- OLD ENTER V
+<section class="section">
+  <h2 class="header-section">{{ .Params.sectionOneHeaderTwo | markdownify }}</h2>
+  <div class="header-section--divider"></div>
+
+
+  <section class="home-info__text-wrap"
+           style="width: 80%; margin: 0 10% 0 10%;">
+    <p></p>
+
+    <div class="home-info__block-descr" style="text-align: center">
+      {{ .Params.textArea2 | markdownify }}
+    </div>
+  </section>
+</section>
+<!-- END: OLD ENTER V -->
+
+
+
+    <!-- section capabilities -->
+  <section class="section primary center-align">
+    <div class="container">
+
+      <ul class="ht-capabilities__modules">
+        {{ range $el := .Params.CapabilitiesList }}
+        <li class="ht-capabilities__block">
+          <img src="{{ .image }}" alt="save time" class="ht-capabilities__img">
+
+          <div class="ht-capabilities__descr">
+            {{ .text | markdownify }}
+          </div>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+  <!-- /section capabilities -->
+
+
+<!--OLD ENTER V -->
 <section class="section primary center-align" style="background-color: #ffffff">
   <h2 class="header-section">{{ .Params.sectionOneHeaderThree | markdownify }}</h2>
   <div class="header-section--divider"></div>
@@ -217,7 +220,7 @@ END: OLD TOP SECTION -->
   
 </section>
 
-END: OLD ENTER V -->
+<!-- END: OLD ENTER V -->
 
 
 <section class="homeBenefits" >
