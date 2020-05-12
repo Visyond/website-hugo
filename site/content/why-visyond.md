@@ -23,10 +23,10 @@ type: why-visyond
 title: Why Visyond
 coverHeader: What is Visyond?
 coverDescription: >
-  Single collaborative spreadsheet, analysis and presentation platform
-  connecting, automating and tracking everything whilst safeguarding sensitive
-  information
-sectionOneHeader: Why Visyond
+  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
+  analysis automation and interactive reporting platform that works in the
+  browser and focuses on data security and digital innovation.
+sectionOneHeader: What Visyond Solves?
 textArea1: >-
   **Decision making requires modeling, analytics, knowledge management, data
   visualization and reporting tools**: <br /> analysts, experts, clients, CxOs
