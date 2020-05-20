@@ -22,7 +22,15 @@
       <video style="width: 90%; height: auto;" poster="{{ .infoVideoPoster }}" class="enterSectionsA__block-img" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
 			  <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 	  	</video> 
-	 
+
+       <img src="{{ .image }}" alt="{{ .altText }}"
+             class="enterSectionsA__block-img"
+             data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
+             data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
+             data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
+             data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
+             data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">	    
+	    
 	<!--
         <a class="button button-icon button-primary over">
             <i class="material-icons">
