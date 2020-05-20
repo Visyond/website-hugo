@@ -152,6 +152,19 @@ infoBlockFirst:
       with.<br><br>**Empower collaborators to test assumptions independently**
       and self-serve on ‘what-if’ questions, while shielding them from sensitive
       or unnecessary information.
+    files:
+      - descr: >-
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
+        file: /img/2019-02 Interactive Presentation.png
+        title: Present Models with Spreadsheet-driven Calculators
+      - descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: Share Only Specific Worksheets and Reports    
     image: /img/vhome designer image draft (2).png
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
