@@ -119,7 +119,7 @@ infoBlockFirst:
     files:
       - alt: >-
           Create and Manage Scenarios in Visyond
-      descr: >-
+        descr: >-
           Switching between scenarios automatically updates all linked cells,
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
