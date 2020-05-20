@@ -17,9 +17,9 @@
             {{ .descr | markdownify }}
         </div>
     </section>
-    <div class="infoA__img-wrap js-img-wrap show-slides">
-
-        <img src="{{ .image }}" alt="{{ .altText }}"
+    <div class="infoA__img-wrap js-img-wrap show-slides">  
+        
+        <img src="{{ .imageNOPE }}" alt="{{ .altText }}"
              class="enterSectionsA__block-img"
              data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
              data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
