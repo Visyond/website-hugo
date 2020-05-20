@@ -116,6 +116,27 @@ infoBlockFirst:
       meetings or presentations, and quickly identify which business drivers
       change between scenarios.
     image: /img/vhome designer image draft (1).png
+    files:
+      - alt: >-
+          Create and Manage Scenarios in Visyond
+      descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet    
+      - alt: >-
+          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
+        descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time    
+      - alt: >-
+          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
+        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        link: ''
+        title: Quickly identify which cells change between scenarios
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
@@ -184,6 +205,13 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         link: ''
         title: Manage Risk with Monte Carlo Simulations
+      - alt: View Data From Different Angles with OLAP/Cube/Pivot Analysis in Visyond
+        descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles    
     image: /img/2019-02 Scenarios Waterfall Analysis.png       
     image: /img/vhome designer image draft (3).png
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
