@@ -90,140 +90,169 @@ solvesList:
 FeaturesHeader: 'With Visyond, You Can'
 infoBlockFirst:
   - benefitsList:
-      - text: Budget vs. Actual
       - text: >-
-          Combine assumptions into scenarios that can be switched and compared
-          at any time
+          Switch between scenarios to visualize how changes affect KPIs without
+          the risk of breaking the model
       - text: >-
-          Instantly compare and generate scenario comparison charts with a few
-          clicks
+          Answer ‘what-if’ questions and quickly compare scenarios with
+          user-friendly interfaces
+      - text: Visualize the drivers that change between scenarios
+      - text: >-
+          Share your insights with stakeholders via interactive dashboards,
+          shielding them from sensitive or unnecessary information
     descr: >-
-      Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly,
-      during meetings or presentations without depending on experts.<br><br>
-      Switching between scenarios automatically updates all linked cells, charts
-      and presentations without compromising integrity of data.
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
     image: /img/vhome designer image draft (1).png
-    infoVideo: /video/Video 1.mp4
-    infoVideoPoster: /video/video1poster.jpg
-    subtitle: Collaborative scenario planning.
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
-      - text: Empower stakeholders to independently answer ‘what-if’ questions
+      - text: Change assumptions and visualize how changes affect KPIs
       - text: >-
-          Eliminate risk of accidental changes in the model when testing
-          assumptions
-      - text: >-
-          Create & share interactive business case calculators without technical
-          know-how
-      - text: >-
-          Control information flow by sharing only specific parts of
-          presentations
+          Don’t worry about introducing accidental errors since changing data on
+          the dashboard does not change the model
     descr: >-
-      Create visual interactive presentations and spreadsheet-driven calculators
-      your stakeholders can use to independently test assumptions without
-      touching the spreadsheet.<br><br> Changing data on the slides does not
-      make changes to the spreadsheet.
+      **Create interactive, spreadsheet-driven calculators and dashboards,** and
+      share with each stakeholder only what they need to see or interact
+      with.<br><br>**Empower collaborators to test assumptions independently**
+      and self-serve on ‘what-if’ questions, while shielding them from sensitive
+      or unnecessary information.
     image: /img/vhome designer image draft (2).png
-    infoVideo: /video/Video 2.mp4
-    infoVideoPoster: /video/video2poster.jpg
-    subtitle: Data visualization & presentation.
-    title: Present Models with Spreadsheet-driven Calculators
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
+    title: Share Insights with Spreadsheet-driven Dashboards
   - benefitsList:
+      - text: Visualize the impact of important cells
+      - text: Answer ‘what-if’ questions and compare scenarios
+      - text: Visualize the drivers that change between scenarios
+      - text: 'Manage risk, run simulations and create forecasts '
       - text: >-
-          Analyze data in real time in a self-service mode without relying on
-          experts
-      - text: Visualize impact of key drivers with Sensitivity analysis
-      - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
-      - text: Manage risk with Monte Carlo simulations
-      - text: View data from different angles with customizable Pivots
-    descr: >-
-      Carry out, in minutes, analyses that skilled professionals prepare in
-      hours or days  without worrying about deleting or changing your
-      collaborators’ work or exporting data every time there is a change in the
-      spreadsheet.
+          Slice and dice your data with customizable Pivots without additional
+          data preparation
+      - text: >-
+          Share the results of your analysis with stakeholders via interactive
+          dashboards, shielding them from sensitive or unnecessary information
+    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
     image: /img/vhome designer image draft (3).png
-    infoVideo: /video/Video 3.mp4
-    infoVideoPoster: /video/video3poster.jpg
-    subtitle: Self-service analysis automation.
-    title: Instantly Visualize the Impact of Important Cells
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
+    title: Visualize the Impact of Important Business Drivers
   - benefitsList:
+      - text: Have better control over information flow and data privacy
       - text: >-
-          Let collaborators see or interact only with what they need and let
-          everybody focus on their tasks
-      - text: >-
-          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          Shield specific collaborators from sensitive or unnecessary
           information
+      - text: >-
+          Empower stakeholders to self-serve on ‘what-if’ questions  without
+          interacting with the spreadsheet directly
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with
+          collaborators without having them see the rest of the spreadsheet
     descr: >-
-      Besides setting permissions for collaborators (editor, viewer), you can
-      share only specific worksheets, reports and presentation slides with
-      specific people for better control over information flow and data privacy.
+      **Make collaboration easier, safer and less error-prone.** Eliminate the
+      risk of accidental changes and data leakages by sharing only specific
+      worksheets, reports and interactive dashboards with specific people.
     image: /img/vhome designer image draft (4).png
-    infoVideo: /video/Video 4.mp4
-    infoVideoPoster: /video/video4poster.jpg
-    subtitle: Secure data sharing.
-    title: Share Only Specific Worksheets and Reports
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
+    subtitle: "Secure data sharing and IP protection.\r\n<br>\nGranular access control.\r"
+    title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
   - benefitsList:
-      - text: Instantly identify errors and their root cause
       - text: >-
-          Understand complex formulas & spreadsheet structure with
-          human-readable names
-      - text: >-
-          Make your spreadsheets easier to visualize and explain to
-          collaborators
+          Instantly identify errors, their propagation chain and root cause, and
+          navigate precedent and dependent cells
+      - text: Understand spreadsheet structure with natural language formulas
+      - text: Make your models easier to explain
     descr: >-
-      Highlight spreadsheet structure, errors and potential data inconsistencies
-      in real time, understand complex formulas at a glance and save countless
-      hours of tedious work tracing errors and typos.
+      **Save countless hours of tracking errors in the spreadsheet.** Visualize
+      model structure, detect errors and potential data inconsistencies in real
+      time, and easily understand formulas.
     image: /img/vhome designer image draft (5).png
-    infoVideo: /video/Video 5.mp4
-    infoVideoPoster: /video/video5poster.jpg
-    subtitle: Spreadsheet auditing & modeling.
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.jpg
+    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r\n<br>\nBird’s-eye view of model structure.\r"
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
-          Collaborate on spreadsheets and know who contributed what, when and
-          why
-      - text: Prevent version chaos and see history of changes
-      - text: Reduce risk of architectural changes in the model
+          Multiple assumptions can coexist in the same cell. The last added
+          value does not overwrite the existing ones. Nobody, including the
+          project owner, can modify data entered by others
       - text: >-
-          Consolidate data without trouble of going through email threads and
-          attachments
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added which assumptions, when and why
+      - text: >-
+          Share only specific worksheets, reports and dashboards with specific
+          people for better control over information flow and data privacy
     descr: >-
-      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
-      opposed to last value overwriting the existing one.<br><br> Nobody,
-      including the project owner, can modify data entered by others.<br><br>
-      Multiple collaborators can work on the same project, and Visyond will
-      track and report who added assumptions, when and why.
+      **Track changes and collaborate across multiple departments and
+      workstreams in a single secure environment** connecting decision makers,
+      analysts, modelers, consultants, clients and prospects.
     image: /img/vhome designer image draft (6).png
-    infoVideo: /video/Video 6.mp4
-    infoVideoPoster: /video/video6poster.jpg
-    subtitle: Spreadsheet governance & data tracking.
-    title: Track Changes and Edit Without Overwriting
+    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
+    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
+    title: Track What Is Happening in Your Projects
   - benefitsList:
       - text: >-
-          Establish a single place to store all your spreadsheet data - changes,
-          assumptions, documents and conversations
+          Add supporting documents, attachments and comments directly inside the
+          relevant cells so you can easily retrieve them and know who provided
+          them
+      - text: >-
+          Automatically document the model as you and your collaborators work on
+          it
     descr: >-
-      Visyond will document the model automatically as you and your
-      collaborators work on it.<br><br> You do not need to save support
-      documents on different platforms or try to remember where something is or
-      who provided certain assumptions.
+      **Establish a single place to store all your spreadsheet data** - changes,
+      assumptions, documents and conversations - in the same environment where
+      you carry out calculations, analyses and visualizations.
     image: /img/vhome designer image draft (7).png
-    subtitle: Single source of truth and knowledge management.
+    infoVideo: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.jpg
+    subtitle: "Single source of truth and knowledge management.\r\n<br>\nModel documentation at your fingertips.\r\n<br>\nData sharing without external tools.\r"
     title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:
-      - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
       - text: >-
-          Create calculations of growth and changes against previous periods,
-          financial and management ratios & KPIs, and depreciation schedules
+          Automate Balance Sheets, Income Statements and Cash Flow statements -
+          just select the drivers and depreciation parameters and Visyond will
+          do the rest
+      - text: >-
+          Visyond will automatically calculate growth and changes against
+          previous periods, financial and management ratios 
+      - text: >-
+          The statements will remain up-to-date when you change the numbers in
+          the spreadsheet or the settings
+      - text: >-
+          Find out if your operations require additional funding in any specific
+          period of the forecast
     descr: >-
-      Visyond creates forward looking predictive financial statements, driven by
-      assumptions in your spreadsheet.<br><br> The statements can adapt to any
-      reporting/accounting standard and automate the preparation of reports
-      based on your settings.
+      **Generate always up-to-date, forward-looking financial statements,**
+      driven by the spreadsheet, and automate the preparation of reports based
+      on your settings and accounting standards.
     image: /img/vhome designer image draft (8).png
-    subtitle: Report automation.
-    title: Generate Financial Statements Linked To Your Model
+    infoVideo: >-
+      /video/Auto-generate Financial Statements Driven by Your Model -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Auto-generate Financial Statements Driven by Your Model -
+      Visyond.jpg
+    subtitle: Reports automation.
+    title: Auto-generate Financial Statements Driven by Your Model
 getHexStartedTitle: Flexible. Familiar. Scalable.
 getHexStartedButton: Request Demo
 getHexStartedButtonURL: /request
