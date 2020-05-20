@@ -1385,7 +1385,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }
       - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
-      - {label: "Why Visyond text", name: "WhyVisyondText", widget: "string", required: true}
+      - {label: "Why Visyond text", name: "WhyVisyondText", widget: "markdown", required: true}
       - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
       - { label: "Visyond solves, list", name: "solvesList", widget: "list",
         fields: [
@@ -1398,7 +1398,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
           {label: "Info Title", name: "title", widget: "string"},
-          {label: "Info Subtitle", name: "subtitle", widget: "string"},
+          {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
           {label: "Info Video", name: "infoVideo", widget: "string"},
           {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
           {label: "Info Description", name: "descr", widget: "markdown"},
