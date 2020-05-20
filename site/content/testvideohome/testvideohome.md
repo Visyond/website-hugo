@@ -72,7 +72,7 @@ WhyVisyondText: >-
   analytics, knowledge management, data visualization and reporting
   tools.<br><br>Analysts, experts, clients, CxOs must collaborate with strict
   requirements on data security and governance.<br><br>Without Visyond, the
-  process requires multiple platforms and causes numerous problems.
+  process requires multiple platforms and causes numerous problems.<br><br>
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
 solvesList:
   - image: /img/home/solvesList/Group89.png
@@ -293,7 +293,7 @@ cards:
     header: Reduction of Errors
     icon: /img/analyst_and_consultant_3x.png
     link: /solutions/financial-modeling-software/
-providesTitle: Get Started in Minutes
+providesTitle: Visyond For Remote Work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
