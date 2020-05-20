@@ -148,11 +148,6 @@ infoBlockFirst:
           Share the results of your analysis with stakeholders via interactive
           dashboards, shielding them from sensitive or unnecessary information
     descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
-    image: /img/vhome designer image draft (3).png
-    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
-    title: Visualize the Impact of Important Business Drivers
     files:
       - alt: >-
           Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
@@ -189,7 +184,12 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         link: ''
         title: Manage Risk with Monte Carlo Simulations
-    image: /img/2019-02 Scenarios Waterfall Analysis.png    
+    image: /img/2019-02 Scenarios Waterfall Analysis.png       
+    image: /img/vhome designer image draft (3).png
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
+    title: Visualize the Impact of Important Business Drivers 
   - benefitsList:
       - text: Have better control over information flow and data privacy
       - text: >-
