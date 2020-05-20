@@ -153,6 +153,43 @@ infoBlockFirst:
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
     title: Visualize the Impact of Important Business Drivers
+    files:
+      - alt: >-
+          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
+        descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time    
+      - alt: >-
+          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
+        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        link: ''
+        title: Quickly identify which cells change between scenarios
+      - alt: >-
+          Run Impact (Tornado) Analysis in Seconds in Visyond
+        descr: >-
+          Know which input cells have the greatest impact on important output.
+          cells.
+        file: /img/2019-02 Impact Analysis.png
+        link: ''
+        title: Visualize the Impact of Important Cells
+      - alt: >-
+          Easily Setup Sensitivity Analysis in Visyond
+        descr: >-
+          Instantly visualize the impact of important business drivers with automated Sensitivity analysis without worrying about deleting or changing your collaborators’ work or exporting data every time there is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        link: ''
+        title: Focus On What’s Important
+      - alt: Run Monte Carlo Simulations in Visyond
+        descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/2019-02 Simulation Monte Carlo.png
+        link: ''
+        title: Manage Risk with Monte Carlo Simulations
+    image: /img/2019-02 Scenarios Waterfall Analysis.png    
   - benefitsList:
       - text: Have better control over information flow and data privacy
       - text: >-
