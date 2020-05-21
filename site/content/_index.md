@@ -153,14 +153,18 @@ infoBlockFirst:
       and self-serve on ‘what-if’ questions, while shielding them from sensitive
       or unnecessary information.
     files:
-      - descr: >-
+      - alt: >-
+          Create interactive dashboards and calculators in Visyond 
+        descr: >-
           Create visual interactive presentations and spreadsheet-driven
           calculators your stakeholders can use to independently test
           assumptions without touching the spreadsheet. Changing data on the
           slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
         title: Present Models with Spreadsheet-driven Calculators
-      - descr: >-
+      - alt: >-
+          Share interactive dashboards and calculators in Visyond 
+        descr: >-
           Let collaborators see or interact only with what they need and let
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
@@ -246,6 +250,29 @@ infoBlockFirst:
       **Make collaboration easier, safer and less error-prone.** Eliminate the
       risk of accidental changes and data leakages by sharing only specific
       worksheets, reports and interactive dashboards with specific people.
+      - alt: >-
+          Know What Is Happening in Your Projects in Visyond
+		descr: >-
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects		
+      - alt: >-
+          Share Only Specific Dashboards and Reports in Visyond
+		descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: Share Only Specific Dashboards and Reports   
+      - alt: >-
+          Share Only Specific Worksheets in Visyond
+		descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets    
     image: /img/vhome designer image draft (4).png
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
