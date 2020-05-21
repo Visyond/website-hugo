@@ -296,7 +296,7 @@ infoBlockFirst:
     files:		
       - alt: >-
           Understand Model Structure, Detect Errors and Anomalies in Visyond
-		descr: >-
+	descr: >-
           Highlight spreadsheet structure, errors and potential data
           inconsistencies in real time, understand complex formulas at a glance
           and save countless hours of tedious work tracing errors and typos.
