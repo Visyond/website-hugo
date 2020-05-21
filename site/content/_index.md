@@ -330,6 +330,31 @@ infoBlockFirst:
       **Track changes and collaborate across multiple departments and
       workstreams in a single secure environment** connecting decision makers,
       analysts, modelers, consultants, clients and prospects.
+    files:
+      - alt: >-
+          Collaborate without overwriting in Visyond
+        descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+      - alt: >-
+          Know What Is Happening in Your Projects in Visyond
+        descr: >-
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet.
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects
+      - alt: >-
+          Create and Manage Scenarios in Visyond
+        descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet   
+        title: Streamline Data Gathering from Experts        
     image: /img/vhome designer image draft (6).png
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
