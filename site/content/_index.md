@@ -410,6 +410,16 @@ infoBlockFirst:
       driven by the spreadsheet, and automate the preparation of reports based
       on your settings and accounting standards.
     image: /img/vhome designer image draft (8).png
+    files:
+      - alt: >-
+          Generate Financial Statements Linked To Your Model
+        descr: >-
+          Visyond creates forward looking predictive financial statements,
+          driven by assumptions in your spreadsheet.The statements can adapt to
+          any reporting/accounting standard and automate the preparation of
+          reports based on your settings.
+        file: /img/2019-02 Financial Statements.png
+        title: Generate Financial Statements Linked To Your Model    
     infoVideo: >-
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.mp4
