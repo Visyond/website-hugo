@@ -228,8 +228,7 @@ infoBlockFirst:
           spreadsheet models without additional data preparation, processing and
           migrations.
         file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles    
-    image: /img/2019-02 Scenarios Waterfall Analysis.png       
+        title: View Data From Different Angles         
     image: /img/vhome designer image draft (3).png
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
