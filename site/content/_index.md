@@ -253,19 +253,19 @@ infoBlockFirst:
     files:     
      - alt: >-
           Know What Is Happening in Your Projects in Visyond
-		descr: >-
+	descr: >-
           All changes are documented, giving you a full audit trail - so you are
           aware of all modifications made to the spreadsheet
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects		
-      - alt: >-
+     - alt: >-
           Share Only Specific Dashboards and Reports in Visyond
 		descr: >-
           Let collaborators see or interact only with what they need and let
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Dashboards and Reports   
-      - alt: >-
+     - alt: >-
           Share Only Specific Worksheets in Visyond
 		descr: >-
           Besides setting permissions for collaborators (editor, viewer), you
