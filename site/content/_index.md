@@ -302,12 +302,12 @@ infoBlockFirst:
           and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
-      - alt: Track Root Causes of Errors in Visyond
+      - alt: >-
+          Track Root Causes of Errors in Visyond
         descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
         file: /img/2019-02 Error Root Cause.png
-        link: ''
         title: Track Errors and their Root Cause	    
     image: /img/vhome designer image draft (5).png
     infoVideo: >-
