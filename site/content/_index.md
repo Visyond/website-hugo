@@ -293,25 +293,9 @@ infoBlockFirst:
       **Save countless hours of tracking errors in the spreadsheet.** Visualize
       model structure, detect errors and potential data inconsistencies in real
       time, and easily understand formulas.
-    files:		
-      - alt: >-
-          Understand Model Structure, Detect Errors and Anomalies in Visyond
-	descr: >-
-          Highlight spreadsheet structure, errors and potential data
-          inconsistencies in real time, understand complex formulas at a glance
-          and save countless hours of tedious work tracing errors and typos.
-        file: /img/2019-02 Audit On.png
-        title: 'Understand Model Structure, Detect Errors and Anomalies'
-      - alt: >-
-          Track Root Causes of Errors in Visyond
-        descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/2019-02 Error Root Cause.png
-        title: Track Errors and their Root Cause	    
     image: /img/vhome designer image draft (5).png
     infoVideo: /video/Understand Model Structure, Detect Errors and Anomalies -Visyond.mp4
-    infoVideoPoster: video/Understand Model Structure, Detect Errors and Anomalies -Visyond.jpg
+    infoVideoPoster: /video/Understand Model Structure, Detect Errors and Anomalies -Visyond.jpg
     subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r\n<br>\nBird’s-eye view of model structure.\r"
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
