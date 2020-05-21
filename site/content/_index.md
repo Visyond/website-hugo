@@ -123,7 +123,7 @@ infoBlockFirst:
           Switching between scenarios automatically updates all linked cells,
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
-        title: Seamlessly switch between different scenarios in the spreadsheet    
+        title: Switch between different scenarios   
       - alt: >-
           Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
         descr: >-
@@ -340,6 +340,7 @@ infoBlockFirst:
           Multiple collaborators can work on the same project, and Visyond will
           track and report who added assumptions, when and why.
         file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Streamline Data Gathering from Experts 
       - alt: >-
           Know What Is Happening in Your Projects in Visyond
         descr: >-
@@ -353,8 +354,7 @@ infoBlockFirst:
           Switching between scenarios automatically updates all linked cells,
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
-        title: Seamlessly switch between different scenarios in the spreadsheet   
-        title: Streamline Data Gathering from Experts        
+        title: Switch between different scenario          
     image: /img/vhome designer image draft (6).png
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
@@ -372,6 +372,16 @@ infoBlockFirst:
       **Establish a single place to store all your spreadsheet data** - changes,
       assumptions, documents and conversations - in the same environment where
       you carry out calculations, analyses and visualizations.
+    files:      
+      - alt: >-
+          Organize Assumptions, Documents and Conversations In Cells in Visyond
+        descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: Organize Assumptions, Documents and Conversations In Cells    
     image: /img/vhome designer image draft (7).png
     infoVideo: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
