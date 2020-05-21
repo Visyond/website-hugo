@@ -250,7 +250,8 @@ infoBlockFirst:
       **Make collaboration easier, safer and less error-prone.** Eliminate the
       risk of accidental changes and data leakages by sharing only specific
       worksheets, reports and interactive dashboards with specific people.
-      - alt: >-
+    files:     
+     - alt: >-
           Know What Is Happening in Your Projects in Visyond
 		descr: >-
           All changes are documented, giving you a full audit trail - so you are
