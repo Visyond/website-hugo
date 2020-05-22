@@ -52,7 +52,7 @@ pricingCards:
         non-technical audience
       title: Agile Presenter
       url: ''
-  title: Pick One or More Modules
+  title: Or Pick the Modules You Need
 whyCards:
   cards:
     - description:
