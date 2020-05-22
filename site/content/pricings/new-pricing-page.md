@@ -71,7 +71,7 @@ whyCards:
       title: Features
       url: /features/
   cta:
-    text: How we compare to others
+    text: Why Visyond
     url: /why-visyond/
   title: Why Visyond
 bgBottom: /img/footer-cover.png
