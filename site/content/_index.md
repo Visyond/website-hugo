@@ -376,9 +376,6 @@ infoBlockFirst:
           provided certain assumptions.
         file: /img/2019-02 Comments in Cells.png
         title: Organize Assumptions, Documents and Conversations In Cells    
-    infoVideo: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.mp4
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.jpg
