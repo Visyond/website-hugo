@@ -376,9 +376,7 @@ infoBlockFirst:
           provided certain assumptions.
         file: /img/2019-02 Comments in Cells.png
         title: Organize Assumptions, Documents and Conversations In Cells
-    infoVideo: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.mp4        
+    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4        
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.jpg
@@ -412,9 +410,7 @@ infoBlockFirst:
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
-    infoVideo: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.mp4        
+    infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
     infoVideoPoster: >-
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg
