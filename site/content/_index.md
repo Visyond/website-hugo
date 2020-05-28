@@ -115,7 +115,6 @@ infoBlockFirst:
       **Create and compare scenarios on-the-fly with just a few clicks** during
       meetings or presentations, and quickly identify which business drivers
       change between scenarios.
-    image: /img/vhome designer image draft (1).png
     files:
       - alt: >-
           Create and Manage Scenarios in Visyond
@@ -169,7 +168,6 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports    
-    image: /img/vhome designer image draft (2).png
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
@@ -229,7 +227,6 @@ infoBlockFirst:
           migrations.
         file: /img/2019-05 Pivot Model Filter.png
         title: View Data From Different Angles         
-    image: /img/vhome designer image draft (3).png
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
@@ -273,7 +270,6 @@ infoBlockFirst:
           privacy.
         file: /img/2019-02 Share Project Panel.png
         title: Share Only Specific Worksheets	
-    image: /img/vhome designer image draft (4).png
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
@@ -308,7 +304,6 @@ infoBlockFirst:
           errors and their root cause.
         file: /img/2019-02 Error Root Cause.png
         title: Track Errors and their Root Cause        
-    image: /img/vhome designer image draft (5).png
     infoVideo: >-
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
     infoVideoPoster: >-
@@ -355,7 +350,6 @@ infoBlockFirst:
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
         title: Switch between different scenario          
-    image: /img/vhome designer image draft (6).png
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
     subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
@@ -382,7 +376,6 @@ infoBlockFirst:
           provided certain assumptions.
         file: /img/2019-02 Comments in Cells.png
         title: Organize Assumptions, Documents and Conversations In Cells    
-    image: /img/vhome designer image draft (7).png
     infoVideo: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.mp4
