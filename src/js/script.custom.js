@@ -539,8 +539,8 @@ $(function () {
                 this.mainBlock.appendChild(popup);
 
                 (sliderList.querySelector('h3')
-                || sliderList.querySelector('p'))
-                && btnWrap.appendChild(visibilityBtn);
+                || sliderList.querySelector('p'));
+                //&& btnWrap.appendChild(visibilityBtn); //don't want visibility button displayed
                 let countSlide = 0;
 
                 function resizeImage(count) {
