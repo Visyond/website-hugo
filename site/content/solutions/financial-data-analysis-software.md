@@ -9,7 +9,9 @@ metaTags: >-
   <meta property="og:image"
   content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
 
-  <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> 
+  <meta property="og:description" content="Get what no other spreadsheet-based
+  technology can give you. Carry out, in minutes, what takes experts hours or
+  days to do."> 
 
   <meta property="og:url"
   content="https://visyond.com/solutions/financial-data-analysis-software/"> 
@@ -37,73 +39,34 @@ topSubTitle: >-
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
-      - text: Instantly identify errors and their root cause
-      - text: 'Understand spreadsheet structure, detect errors and anomalies'
+      - text: Budget vs. Actual
       - text: >-
-          Control information flow by sharing only specific parts of your
-          projects
-      - text: Prevent version chaos and see history of changes
-    descr: >-
-      Quickly check correctness of spreadsheets and improve the quality of your
-      decisions by insuring that you take action based on accurate, up-to-date
-      numbers and audited, error-free financial models.<br><br>
-
-      Have complete control over your projects at every step of the way and
-      ensure data security, correctness and integrity of your models, identify
-      errors, track changes, and document the information flows.
+          Combine assumptions into scenarios that can be switched and compared
+          at any time
+      - text: >-
+          Instantly compare and generate scenario comparison charts with a few
+          clicks
+    descr: "Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or presentations without depending on experts. <br><br> \rSwitching between scenarios automatically updates all linked cells, charts and presentations without compromising integrity of data."
     files:
-      - descr: >-
-          Instantly visualize the impact of important business drivers with
-          automated Sensitivity analysis without worrying about deleting or
-          changing your collaborators’ work or exporting data every time there
-          is a change in the spreadsheet.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        title: Focus on what's important
-      - descr: >-
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
-        file: /img/2019-02 Scenario Management Panel.png
-        title: Seamlessly switch between different scenarios in the spreadsheet
-      - descr: >-
-          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
-          fly, during meetings or presentations without depending on experts.
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
+      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
+        descr: >-
+          With Scenario analysis you can quickly compare different assumptions
+          in a few clicks.
         file: /img/2019-02 Scenario Analysis.png
-        title: Answer ‘What-if’ questions anywhere in real time
-      - descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
+        link: /features/scenarios/
+        title: Compare Scenarios In Real Time
       - descr: >-
-          Unlike other spreadsheets, multiple assumptions can coexist in a cell
-          as opposed to last value overwriting the existing one. Nobody,
-          including the project owner, can modify data entered by others.
-          Multiple collaborators can work on the same project, and Visyond will
-          track and report who added assumptions, when and why.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        title: Track Changes and Edit Without Overwriting
-      - descr: >-
-          Visyond will document the model automatically as you and your
-          collaborators work on it. You do not need to save support documents on
-          different platforms or try to remember where something is or who
-          provided certain assumptions.
-        file: /img/2019-02 Comments in Cells.png
-        title: 'Organize Assumptions, Documents and Conversations In Cells'
-      - descr: >-
-          Highlight spreadsheet structure, errors and potential data
-          inconsistencies in real time, understand complex formulas at a glance
-          and save countless hours of tedious work tracing errors and typos.
-        file: /img/2019-02 Audit On.png
-        title: 'Understand Model Structure, Detect Errors and Anomalies'
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
-    title: Improve Project Analysis and Reporting
+          With Scenario Waterfall analysis you can clearly see what cells
+          changed between scenarios and by how much.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        title: Scenario Waterfall
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    subtitle: |
+      Collaborative budgeting and forecasting.
+      <br>
+      Scenario analysis automation.
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: >-
           Automate Sensitivity, Scenario and Waterfall analyses, and Monte Carlo
@@ -225,34 +188,75 @@ infoBlockFirst:
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights
   - benefitsList:
-      - text: Budget vs. Actual
+      - text: Instantly identify errors and their root cause
+      - text: 'Understand spreadsheet structure, detect errors and anomalies'
       - text: >-
-          Combine assumptions into scenarios that can be switched and compared
-          at any time
-      - text: >-
-          Instantly compare and generate scenario comparison charts with a few
-          clicks
-    descr: "Create and visually compare scenarios (i.e. Budget vs. Actual) on the fly, during meetings or presentations without depending on experts. <br><br> \rSwitching between scenarios automatically updates all linked cells, charts and presentations without compromising integrity of data."
+          Control information flow by sharing only specific parts of your
+          projects
+      - text: Prevent version chaos and see history of changes
+    descr: >-
+      Quickly check correctness of spreadsheets and improve the quality of your
+      decisions by insuring that you take action based on accurate, up-to-date
+      numbers and audited, error-free financial models.<br><br>
+
+      Have complete control over your projects at every step of the way and
+      ensure data security, correctness and integrity of your models, identify
+      errors, track changes, and document the information flows.
     files:
-      - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
-        descr: >-
-          With Scenario analysis you can quickly compare different assumptions
-          in a few clicks.
-        file: /img/2019-02 Scenario Analysis.png
-        link: /features/scenarios/
-        title: Compare Scenarios In Real Time
       - descr: >-
-          With Scenario Waterfall analysis you can clearly see what cells
-          changed between scenarios and by how much.
-        file: /img/2019-02 Scenarios Waterfall Analysis.png
-        title: Scenario Waterfall
-    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    subtitle: |
-      Collaborative budgeting and forecasting.
-      <br>
-      Scenario analysis automation.
-    title: 'Create, Compare and Analyze Scenarios On-the-fly'
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        title: Focus on what's important
+      - descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet
+      - descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Track Changes and Edit Without Overwriting
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.jpg
+    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
+    title: Improve Project Analysis and Reporting
   - benefitsList:
       - text: 'Automate creation of Balance Sheets, Income and Cash Flow statements'
       - text: >-
@@ -270,7 +274,9 @@ infoBlockFirst:
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
-    infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+    infoVideo: >-
+      /video/Auto-generate Financial Statements Driven by Your Model -
+      Visyond.mp4
     infoVideoPoster: >-
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg
