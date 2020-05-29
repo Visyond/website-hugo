@@ -317,6 +317,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
       - {label: "Top image (laptop-sized)", name: "topImage", widget: "image", required: false}
       - {label: "Page title", name: "title", widget: "string", required: false,}
+      - {label: "This Feature is For", name: "ThisFeatureIsFor", widget: "string", required: false,}      
       - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
 
       - {label: "Why Visyond Text", name: "topSubTitle", widget: "markdown", required: false,}
