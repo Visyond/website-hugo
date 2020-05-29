@@ -53,13 +53,13 @@ feaDropdownCol:
           and you can test assumptions without interacting with the spreadsheet.
         image: /img/interactive presentations@2x.png
         path: /features/interactive-presentation-software/
-        title: Interactive Presentations
+        title: Interactive Dashboards
       - descr: >-
           Create interactive calculators without a single line of code and
           securely test assumptions.
         image: /img/calculator-apps@2x.png
         path: /features/spreadsheet-calculators/
-        title: Calculators
+        title: Spreadsheet-driven Calculators
       - descr: Easily create and customize charts that are always up-to-date.
         image: /img/charts@2x.png
         path: /features/create-charts-online/
