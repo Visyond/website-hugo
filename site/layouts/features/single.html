@@ -6,8 +6,9 @@
   <section class="home-hero" style="background-image: url('/img/home/cyanRectangle.svg');">
     <div class="container">
       <div class="home-hero__container">
-          <div class="home-hero__half-width-wrap">
-              <h1 class="home-hero__title">{{ .Params.TopTitle | markdownify }}</h1>
+          <div class="home-hero__half-width-wrap" style="width: 100%;/* text-align: center;*/">
+          <div class="home-hero__topSubtitle" style="margin-bottom: 10px; font-weight: 600; font-size: 1.4em; color: #0086ff;">{{ .Params.ThisFeatureIsFor }}</div>		  
+              <h1 class="home-hero__title" style="margin-top: 20px;">{{ .Params.TopTitle | markdownify }}</h1>
 	      <div class="home-hero__topSubtitle">Get what no other spreadsheet-based technology can give you.<br> Carry out, in minutes, what takes experts hours or days to do.</div>
               <ul class="home-hero__main-features">
                   <li>Planning automation</li>
@@ -16,6 +17,7 @@
                   <li>Error reduction</li>
               </ul>
           </div>
+	  <!--    
           <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
               <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
               <div class="home-hero__video-container">
@@ -24,8 +26,9 @@
                   </video>
               </div>
           </div>
-          <div class="home-hero__half-width-wrap">
-              <div class="home-hero__buttons-section">
+	  -->    
+          <div class="home-hero__half-width-wrap" style="width: 100%;/* text-align: center;*/">
+              <div class="home-hero__buttons-section" style="display: inline-block;">
                         <button class="button button-icon js-btn-video3" style="color: #ffffff;background-color: #0086ff;">
                             <i class="material-icons">
                                 play_arrow
