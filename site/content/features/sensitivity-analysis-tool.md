@@ -6,6 +6,7 @@ metaTags: >-
   <meta name="title" content="Sensitivity Analysis Tool">
   <meta name="description" content="Instantly understand the relationship between input and output variables in a spreadsheet with visyond’s sensitivity analysis tool.">
   <meta name="keywords" content="sensitivity analysis tool,sensitivity analysis software">
+ThisFeatureIsFor: 'Sensitivity Analysis'
 topTitle: >-
   Sensitivity Analysis Tool - Instantly Understand the Relationship Between
   Input and Output Variables in a Spreadsheet
