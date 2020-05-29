@@ -27,42 +27,50 @@ infoBlockFirst:
       - text: >-
           Share the results of your analysis with stakeholders via interactive
           dashboards, shielding them from sensitive or unnecessary information
-    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
+    descr: "**Automate and carry out, in minutes, analyses that used to take hours or days to prepare,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
     files:
-      - alt: Financial Modeling Software - Compare Scenarios in Financial Models
+      - alt: >-
+          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
         descr: >-
           Create and visually compare scenarios (i.e. Budget vs. Actual) on the
           fly, during meetings or presentations without depending on experts.
         file: /img/2019-02 Scenario Analysis.png
-        link: ''
-        title: Answer ‘What-if’ questions anywhere in real time
+        title: Answer ‘What-if’ questions anywhere in real time    
       - alt: >-
-          Financial Modeling Software - Set up Impact (Tornado) Analysis in
-          Financial Model
+          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
+        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        link: ''
+        title: Quickly identify which cells change between scenarios
+      - alt: >-
+          Run Impact (Tornado) Analysis in Seconds in Visyond
         descr: >-
-          Impact (Tornado) analysis will instantly show you  what inputs have
-          the greatest impact on outputs and how they interact with one another 
+          Know which input cells have the greatest impact on important output.
+          cells.
         file: /img/2019-02 Impact Analysis.png
         link: ''
-        title: Tornado Analysis
+        title: Visualize the Impact of Important Cells
       - alt: >-
-          Spreadsheet Modeling Software - Sensitivity Analysis in Financial
-          Model
+          Easily Setup Sensitivity Analysis in Visyond
         descr: >-
-          With just a few clicks Visyond allows you to run Sensitivity analysis
-          without long manual setups.
+          Instantly visualize the impact of important business drivers with automated Sensitivity analysis without worrying about deleting or changing your collaborators’ work or exporting data every time there is a change in the spreadsheet.
         file: /img/2019-02 Sensitivity Two-Way Analysis.png
         link: ''
-        title: SET UP SENSITIVITY ANALYSIS IN SECONDS
-      - alt: >-
-          Spreadsheet Modeling Software - Monte Carlo Simulations in Financial
-          Model
+        title: Focus On What’s Important
+      - alt: Run Monte Carlo Simulations in Visyond
         descr: >-
           Visyond generates descriptive statistics, probability density function
           and cumulative distribution function.
         file: /img/2019-02 Simulation Monte Carlo.png
         link: ''
-        title: MONTE CARLO SIMULATION
+        title: Manage Risk with Monte Carlo Simulations
+      - alt: View Data From Different Angles with OLAP/Cube/Pivot Analysis in Visyond
+        descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
