@@ -1,29 +1,5 @@
 ---
-metaTags: >-
-  <meta property="og:title" content="Improve the Quality of Your Investment
-  Decisions"> 
-
-  <meta property="og:type" content="website"> 
-
-  <meta property="og:image"
-  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
-
-  <meta property="og:description" content="Get what no other spreadsheet-based
-  technology stack can give you. Anywhere you are, on any platform."> 
-
-  <meta property="og:url"
-  content="https://visyond.com/solutions/private-equity-venture-capital/"> 
-
-
-  <meta name="title" content="Improve the Quality of Your Investment Decisions">
-
-  <meta name="description" content="Improve investment analysis and reporting,
-  Understand KPIs and their response to change, Simplify data gathering from
-  portfolio companies."> 
-
-  <meta name="keywords" content="private equity software, venture capital
-  software, venture fund software, VC software, portfolio management software,
-  investment software">
+metaTags: "<meta property=\"og:title\" content=\"Improve the Quality of Your Investment Decisions\"> \n<meta property=\"og:type\" content=\"website\"> \n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\"> \n<meta property=\"og:url\" content=\"https://visyond.com/solutions/private-equity-venture-capital/\"> \n\n<meta name=\"title\" content=\"Improve the Quality of Your Investment Decisions\">\n<meta name=\"description\" content=\"Improve investment analysis and reporting, Understand KPIs and their response to change, Simplify data gathering from portfolio companies.\"> \n<meta name=\"keywords\" content=\"private equity software, venture capital software, venture fund software, VC software, portfolio management software, investment software\">"
 title: Improve the Quality of Your Investment Decisions
 ThisSolutionIsFor: For Private Equity and Venture Capital
 topTitle: Improve the Quality of Your Investment Decisions
@@ -41,69 +17,6 @@ topSubTitle: >-
   makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - benefitsList:
-      - text: Instantly identify errors and their root cause
-      - text: 'Understand spreadsheet structure, detect errors and anomalies'
-      - text: >-
-          Control information flow by sharing only specific parts of your
-          projects
-      - text: Prevent version chaos and see history of changes
-    descr: "Quickly check correctness of spreadsheets provided by portfolio companies, and improve the quality of your investment decisions by insuring that you take action based on accurate, up-to-date numbers and audited, error-free financial models.<br><br>\r\nHave complete control over your projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r"
-    files:
-      - descr: >-
-          Instantly visualize the impact of important business drivers with
-          automated Sensitivity analysis without worrying about deleting or
-          changing your collaborators’ work or exporting data every time there
-          is a change in the spreadsheet.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        title: Focus on what's important
-      - descr: >-
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
-        file: /img/2019-02 Scenario Management Panel.png
-        title: Seamlessly switch between different scenarios in the spreadsheet
-      - descr: >-
-          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
-          fly, during meetings or presentations without depending on experts.
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
-        file: /img/2019-02 Scenario Analysis.png
-        title: Answer ‘What-if’ questions anywhere in real time
-      - descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
-      - descr: >-
-          Unlike other spreadsheets, multiple assumptions can coexist in a cell
-          as opposed to last value overwriting the existing one. Nobody,
-          including the project owner, can modify data entered by others.
-          Multiple collaborators can work on the same project, and Visyond will
-          track and report who added assumptions, when and why.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        title: Track Changes and Edit Without Overwriting
-      - descr: >-
-          Visyond will document the model automatically as you and your
-          collaborators work on it. You do not need to save support documents on
-          different platforms or try to remember where something is or who
-          provided certain assumptions.
-        file: /img/2019-02 Comments in Cells.png
-        title: 'Organize Assumptions, Documents and Conversations In Cells'
-      - descr: >-
-          Highlight spreadsheet structure, errors and potential data
-          inconsistencies in real time, understand complex formulas at a glance
-          and save countless hours of tedious work tracing errors and typos.
-        file: /img/2019-02 Audit On.png
-        title: 'Understand Model Structure, Detect Errors and Anomalies'
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies -
-      Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies -
-      Visyond.jpg
-    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
-    title: Improve Investment Analysis and Reporting
   - benefitsList:
       - text: >-
           Automate Sensitivity, Scenario and Waterfall analyses, and Monte Carlo
@@ -218,6 +131,69 @@ infoBlockFirst:
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights on Investment Strategy
+  - benefitsList:
+      - text: Instantly identify errors and their root cause
+      - text: 'Understand spreadsheet structure, detect errors and anomalies'
+      - text: >-
+          Control information flow by sharing only specific parts of your
+          projects
+      - text: Prevent version chaos and see history of changes
+    descr: "Quickly check correctness of spreadsheets provided by portfolio companies, and improve the quality of your investment decisions by insuring that you take action based on accurate, up-to-date numbers and audited, error-free financial models.<br><br>\r\nHave complete control over your projects at every step of the way and ensure data security, correctness and integrity of your models, identify errors, track changes, and document the information flows.\r"
+    files:
+      - descr: >-
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        title: Focus on what's important
+      - descr: >-
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Seamlessly switch between different scenarios in the spreadsheet
+      - descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
+      - descr: >-
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
+        file: /img/2019-02 Cases Panel and Dropdown.png
+        title: Track Changes and Edit Without Overwriting
+      - descr: >-
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: 'Organize Assumptions, Documents and Conversations In Cells'
+      - descr: >-
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
+        file: /img/2019-02 Audit On.png
+        title: 'Understand Model Structure, Detect Errors and Anomalies'
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.jpg
+    subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
+    title: Improve Investment Analysis and Reporting
 providesTitle: Visyond for remote work
 providesList:
   - text: >-
