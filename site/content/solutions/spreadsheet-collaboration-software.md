@@ -12,7 +12,7 @@ metaTags: >-
   software, spreadsheet collaboration online"> <meta property="og:title" content="Collaborate Remotely on Spreadsheets, Analysis, and
   Reports"> 
   <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
-  <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software">  
+  <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software"> 
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
 ThisSolutionIsFor: 'For Remote Work and Collaboration'
@@ -21,10 +21,8 @@ topSubTitle: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
   browser and focuses on data security and spreadsheet collaboration.
-
   <br><br>
-
-  Visyond offers a unique yet familiar all-in-one integrated solution that
+  Visyond's spreadsheet collaboration software offers a unique yet familiar all-in-one integrated solution that
   connects all steps of your business workflow in a single platform: from data
   gathering from subject-matter experts and subsequent analysis of this data to
   preparation of interactive visualizations and reports to **help decision
@@ -48,11 +46,9 @@ infoBlockFirst:
       Have **complete control over your projects at every step of the way** and
       ensure data security, correctness and integrity of your models, identify
       errors, track changes, and document the information flows.<br><br>
-
       Empower collaborative self-service planning, budgeting, forecasting and
       automated analytics without the fear of deleting or changing your
       collaborators’ work.<br><br>
-
       Instantly identify the impact of the important business drivers, visualize
       and compare scenarios (i.e. Budget vs. Actual) on-the-fly, anywhere you
       are.
@@ -122,7 +118,6 @@ infoBlockFirst:
           Multiple assumptions can coexist in a cell as opposed to last value overwriting the existing one, and nobody,   including the project owner, can modify data entered by others.        
     descr: >-
       Share special data-entry worksheets with subject-matter experts where they can input data. Then use that data to update   any predictive model you have. Data-entry people will only see their specific data entry worksheets without seeing the rest of the model.<br><br>
-
       Data-entry people can add supporting documents, attachments and comments directly inside the relevant cells so you can easily locate the source of information.
     files:
       - descr: >-
