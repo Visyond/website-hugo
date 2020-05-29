@@ -3,7 +3,7 @@ aliases: /solutions/modeling/
 metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Automate Financial Modeling Workflow\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
 topImage: /img/solutions/solutions_modeling_top.png
 title: Financial Modeling Software You Wish You Had Yesterday
-ThisSolutionIsFor: 'For Financial Modeling'
+ThisSolutionIsFor: For Financial Modeling
 topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
 topSubTitle: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
@@ -17,24 +17,25 @@ WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
     benefitsList:
-      - text: Analyze data in real time in a self-service mode
-      - text: Visualize the impact of important cells with Sensitivity analysis
-      - text: Answer ‘what-if’ questions with Scenario & Waterfall analysis
-      - text: Manage risk with Monte Carlo simulations
-      - text: View data from different angles with customizable Pivots
-    descr: >-
-      Automate routine analytical tasks and, in minutes, carry out analyses that
-      used to take hours or days to prepare. You don’t need to worry about
-      deleting or changing your collaborators’ work or exporting data every time
-      there is a change in the model.
+      - text: Visualize the impact of important cells
+      - text: Answer ‘what-if’ questions and compare scenarios
+      - text: Visualize the drivers that change between scenarios
+      - text: 'Manage risk, run simulations and create forecasts '
+      - text: >-
+          Slice and dice your data with customizable Pivots without additional
+          data preparation
+      - text: >-
+          Share the results of your analysis with stakeholders via interactive
+          dashboards, shielding them from sensitive or unnecessary information
+    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
     files:
       - alt: Financial Modeling Software - Compare Scenarios in Financial Models
         descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
-          few clicks!
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
         file: /img/2019-02 Scenario Analysis.png
         link: ''
-        title: COMPARE SCENARIOS IN REAL TIME
+        title: Answer ‘What-if’ questions anywhere in real time
       - alt: >-
           Financial Modeling Software - Set up Impact (Tornado) Analysis in
           Financial Model
@@ -63,23 +64,26 @@ infoBlockFirst:
         link: ''
         title: MONTE CARLO SIMULATION
     image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     link: ''
-    subtitle: Self-service analysis and stress-testing automation.
-    title: Instantly Identify Key Drivers of Your Financial Models
+    subtitle: "Collaborative analysis automation.\r\n<br>\r\nSelf-service stress-testing.\r\n<br>\r\nRisk management."
+    title: Visualize Key Drivers of Your Financial Models
   - benefitsList:
       - text: >-
-          Combine assumptions into scenarios that can be switched and compared
-          at any time
+          Switch between scenarios to visualize how changes affect KPIs without
+          the risk of breaking the model
       - text: >-
-          Instantly compare and generate scenario comparison charts with a few
-          clicks
-      - text: Manage assumptions for different clients on the same model
-      - text: Compare Budget vs. Actual figures
+          Answer ‘what-if’ questions and quickly compare scenarios with
+          user-friendly interfaces
+      - text: Visualize the drivers that change between scenarios
+      - text: >-
+          Share your insights with stakeholders via interactive dashboards,
+          shielding them from sensitive or unnecessary information
     descr: >-
-      Create and visually compare scenarios on the fly, during meetings or
-      presentations.<br><br>Switching between scenarios automatically updates
-      all linked cells, charts and presentations without compromising integrity
-      of data.
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
     files:
       - alt: Data Analysis Software - Compare Scenarios in Real Time in Visyond
         descr: >-
@@ -91,30 +95,23 @@ infoBlockFirst:
       - file: /img/2019-02 Scenarios Waterfall Analysis.png
         title: Scenario Waterfall
     image: /img/2019-02 Scenario Analysis.png
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     link: ''
-    subtitle: Collaborative scenario planning and analysis.
+    subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\r\nAutomated scenario planning.\r\n<br>\r\nScenario management and audit trail.\r"
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
     benefitsList:
+      - text: Change assumptions and visualize how changes affect KPIs
       - text: >-
-          Create & share interactive business case calculators without technical
-          know-how
-      - text: Have an independent presentation layer driven by your model
-      - text: >-
-          Empower stakeholders to self-serve on ‘what-if’ questions and
-          visualize different scenarios
-      - text: >-
-          Eliminate risk of accidental changes in the spreadsheet when
-          stakeholders test assumptions
-      - text: >-
-          Control information flow by sharing only specific parts of
-          presentations
+          Don’t worry about introducing accidental errors since changing data on
+          the dashboard does not change the model
     descr: >-
-      Create visual interactive presentations and spreadsheet-driven calculators
-      your clients and stakeholders can use to independently test assumptions
-      without touching or seeing the underlying financial model.
-      <br><br>Changing data on the slides does not make changes to the
-      spreadsheet.
+      **Create interactive, spreadsheet-driven calculators and dashboards,** and
+      share with each stakeholder only what they need to see or interact
+      with.<br><br>**Empower collaborators to test assumptions independently**
+      and self-serve on ‘what-if’ questions, while shielding them from sensitive
+      or unnecessary information.
     files:
       - alt: Financial Modeling Software - Share Financial Modeling Presentations
         descr: >-
@@ -125,22 +122,27 @@ infoBlockFirst:
         link: ''
         title: INTERACTIVE PRESENTATIONS
     image: /img/2019-02 Interactive Presentation.png
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     link: ''
-    subtitle: Data visualization & presentation.
-    title: Present Financial Models with Spreadsheet-driven Calculators
+    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\r\nSelf-service ‘what-if’ calculators.\r\n<br>\r\nStress-testing without touching the spreadsheet.\r"
+    title: Present Financial Models with Spreadsheet-driven Dashboards
   - altText: Financial Modeling Software - Share Only Relevant Data Pieces
     benefitsList:
+      - text: Have better control over information flow and data privacy
       - text: >-
-          Let collaborators see or interact only with what they need and let
-          everybody focus on their tasks
-      - text: >-
-          Avoid exposing sensitive data and shield stakeholders from unnecessary
+          Shield specific collaborators from sensitive or unnecessary
           information
+      - text: >-
+          Empower stakeholders to self-serve on ‘what-if’ questions  without
+          interacting with the spreadsheet directly
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with
+          collaborators without having them see the rest of the spreadsheet
     descr: >-
-      Share only specific worksheets, presentation slides and reports with
-      specific clients for better control over information flows and data
-      privacy, shield stakeholders from unnecessary information, and protect
-      your models and intellectual property.
+      **Make collaboration easier, safer and less error-prone.** Eliminate the
+      risk of accidental changes and data leakages by sharing only specific
+      worksheets, reports and interactive dashboards with specific people.
     files:
       - alt: Financial Modeling Software - Share Financial Models
         descr: >-
@@ -162,23 +164,26 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: SHARE PRESENTATIONS
     image: /img/2019-02 Share Project Panel.png
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
     link: ''
-    subtitle: Secure data sharing.
-    title: Share Only Specific Parts of Financial Models
+    subtitle: "Secure data sharing and IP protection.\r\n<br>\r\nGranular access control.\r"
+    title: Decide Who Sees and Interacts with Specific Parts of Financial Models
   - altText: Financial Modeling Software - Audit Financial Models
     benefitsList:
-      - text: Instantly identify errors and their root cause
       - text: >-
-          Understand complex formulas & spreadsheet structure with
-          human-readable names
-      - text: >-
-          Make your financial models easier to visualize and explain to
-          collaborators
+          Instantly identify errors, their propagation chain and root cause, and
+          navigate precedent and dependent cells
+      - text: Understand spreadsheet structure with natural language formulas
+      - text: Make your financial models easier to explain
     descr: >-
-      Visualize the structure of your financial models, highlight errors and
-      potential data inconsistencies as you type, understand complex formulas at
-      a glance, and save countless hours of tedious work tracing errors and
-      typos.
+      **Save countless hours of tracking errors in the spreadsheet.** Visualize
+      model structure, detect errors and potential data inconsistencies in real
+      time, and easily understand formulas.
     files:
       - alt: Financial Modeling Software - Audit Financial Models
         descr: >-
@@ -205,24 +210,30 @@ infoBlockFirst:
         link: ''
         title: TRACK ERRORS AND THEIR ROOT CAUSE 2/2
     image: /img/track errors 1.png
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.jpg
     link: ''
-    subtitle: Financial models audit and debugging.
+    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\r\nError root cause analysis.\r\n<br>\r\nBird’s-eye view of model structure.\r"
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
-          Collaborate on spreadsheets and know who contributed what, when and
-          why
-      - text: Prevent version chaos and see history of changes
-      - text: Reduce risk of architectural changes in the model
+          Multiple assumptions can coexist in the same cell. The last added
+          value does not overwrite the existing ones. Nobody, including the
+          project owner, can modify data entered by others
       - text: >-
-          Consolidate data without trouble of going through email threads and
-          attachments
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added which assumptions, when and why
+      - text: >-
+          Share only specific worksheets, reports and dashboards with specific
+          people for better control over information flow and data privacy
     descr: >-
-      Unlike other spreadsheets, multiple assumptions can coexist in a cell as
-      opposed to last value overwriting the existing one.<br><br>Nobody,
-      including the project owner, can modify data entered by
-      others.<br><br>Multiple collaborators can work on the same project, and
-      Visyond will track and report who added assumptions, when and why.
+      **Track changes and collaborate across multiple departments and
+      workstreams in a single secure environment** connecting decision makers,
+      analysts, modelers, consultants, clients and prospects.
     files:
       - alt: >-
           Business Consulting Software - Never Lose Important Information in
@@ -244,21 +255,26 @@ infoBlockFirst:
         link: ''
         title: Store Multiple Assumptions Simultaneously
     image: /img/2019-02 Overview Panel.png
+    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
+    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
     link: ''
-    subtitle: Spreadsheet governance & data tracking.
-    title: Track Changes and Edit Without Overwriting
+    subtitle: "Data governance and audit trail.\r\n<br>\r\nCollaboration without overwriting data.\r\n<br>\r\nData gathering without version chaos.\r"
+    title: Track What Is Happening in Your Projects
   - altText: >-
       Financial Modeling Software - Single Source of Truth for Your Financial
       Model
     benefitsList:
       - text: >-
-          Establish a single place to store all your spreadsheet data - changes,
-          assumptions, documents and conversations
+          Add supporting documents, attachments and comments directly inside the
+          relevant cells so you can easily retrieve them and know who provided
+          them
+      - text: >-
+          Automatically document the model as you and your collaborators work on
+          it
     descr: >-
-      Visyond will document your financial model automatically as you and your
-      collaborators work on it. <br><br>You do not need to save support
-      documents on different platforms or try to remember where something is or
-      who provided certain assumptions – everything is stored inside the cells.
+      **Establish a single place to store all your spreadsheet data** - changes,
+      assumptions, documents and conversations - in the same environment where
+      you carry out calculations, analyses and visualizations.
     files:
       - alt: >-
           Financial Modeling Software - Never Lose Information in Financial
@@ -287,8 +303,14 @@ infoBlockFirst:
         link: ''
         title: VERSIONS
     image: /img/2019-02 Comments in Cells.png
+    infoVideo: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.jpg
     link: ''
-    subtitle: Single source of truth and knowledge management.
+    subtitle: "Single source of truth and knowledge management.\r\n<br>\r\nModel documentation at your fingertips.\r\n<br>\r\nData sharing without external tools.\r"
     title: 'Organize Assumptions, Documents and Conversations In Cells'
 providesTitle: Financial Modeling Software for Remote Work
 providesList:
