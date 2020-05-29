@@ -74,7 +74,7 @@ infoBlockFirst:
       Visyond.jpg
     link: ''
     subtitle: Reports automation.
-    title: Auto-generate Financial Statements Driven by Your Model
+    title: Auto-generate Financial Statements Driven by Your Spreadsheet
 providesTitle: Visyond for Remote Work
 providesList:
   - text: >-
