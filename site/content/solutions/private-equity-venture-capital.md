@@ -96,7 +96,12 @@ infoBlockFirst:
           and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
-    image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies -
+      Visyond.jpg
     subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
     title: Improve Investment Analysis and Reporting
   - benefitsList:
@@ -124,7 +129,8 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
-    image: /img/2019-02 Interactive Presentation.png
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Self-service stress-testing and analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
@@ -173,7 +179,12 @@ infoBlockFirst:
           aware of all modifications made to the spreadsheet
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
-    image: /img/2019-02 Cases Panel and Dropdown.png
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
     subtitle: "Knowledge management for investment projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
     title: Simplify Data Gathering from Portfolio Companies
   - benefitsList:
@@ -203,7 +214,8 @@ infoBlockFirst:
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
-    image: /img/2019-02 Audit On.png
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights on Investment Strategy
 providesTitle: Visyond for remote work
