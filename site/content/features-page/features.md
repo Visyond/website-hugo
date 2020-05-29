@@ -20,7 +20,7 @@ section:
         text: >-
           Share spreadsheets and presentations fully or partially without
           exposing any other data or calculations.
-        title: Selective Sharing
+        title: Secure Data Sharing
     title: Collaboration
   - cards:
       - icon: /img/audit-mode@2x.png
@@ -42,32 +42,32 @@ section:
         text: >-
           Compare different assumptions in a few clicks without depending on
           experts.
-        title: Scenario Comparison
+        title: Scenario Analysis
       - icon: /img/sensitivity@2x.png
         link: /features/sensitivity-analysis-tool
         text: >-
           Instantly understand relationships between inputs and outputs of your
           spreadsheet.
-        title: Sensitivity
+        title: Sensitivity Analysis
       - icon: /img/impact@2x.png
         link: /features/business-impact-analysis-tool
         text: >-
           Identify which input cells have the greatest impact on key outputs of
           your model.
-        title: Impact
+        title: Impact (Tornado) Analysis
       - icon: /img/simulations@2x.png
         link: /features/monte-carlo-simulation-software
         text: >-
           Easily run Monte Carlo simulations that replace the inputs with random
           variables in a specified range and show how they affects the output.
-        title: Simulations
+        title: Monte Carlo Simulations
       - icon: /img/spreadsheet_collaboration_3x.png
         link: /features/multidimensional-olap-analysis-online/
         text: >-
           Find actionable insights and improve descriptive analytics with
           OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
           in real time.
-        title: OLAP/Cube/Pivot/Multidimensional analysis
+        title: OLAP/Cube/Pivot/Multidimensional Analysis
     title: Analysis
   - cards:
       - icon: /img/interactive presentations@2x.png
@@ -75,13 +75,13 @@ section:
         text: >-
           With Interactive Presentations the information is always up-to-date,
           and you can test assumptions without interacting with the spreadsheet.
-        title: Interactive Presentations
+        title: Interactive Dashboards
       - icon: /img/calculator-apps@2x.png
         link: /features/spreadsheet-calculators
         text: >-
           Create interactive calculators without a single line of code and
           securely test assumptions.
-        title: Calculators
+        title: Spreadsheet-driven Calculators
       - icon: /img/charts@2x.png
         link: /features/create-charts-online
         text: Easily create and customize charts that are always up-to-date.
@@ -93,7 +93,7 @@ section:
           long error-prone manual setups.
         title: Financial Statements
     title: Reporting
-titleBottom: Find out how to improve your decision-making process today
+titleBottom: Visyond for Remote Work
 bgBottom: /img/footer-bg.jpg
 botRequestURL: /request
 ---
