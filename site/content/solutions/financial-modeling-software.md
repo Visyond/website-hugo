@@ -240,7 +240,7 @@ infoBlockFirst:
       /video/Understand Model Structure, Detect Errors and Anomalies -
       Visyond.jpg
     link: ''
-    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\r\nError root cause analysis.\r\n<br>\r\nBird’s-eye view of model structure.\r"
+    subtitle: "Financial modeling and auditing.\r\n<br>\r\nError root cause analysis.\r\n<br>\r\nBird’s-eye view of model structure.\r"
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
       - text: >-
