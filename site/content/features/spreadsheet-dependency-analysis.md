@@ -3,6 +3,7 @@ aliases: /features/dependency-analysis/
 title: Trace Dependents with Spreadsheet Dependency Analysis
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
+  <meta name="robots" content="noindex">
   <meta name="title" content="Analyze spreadsheet cell dependencies and track dependent and precedent cells">
   <meta name="description" content="Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency Analysis">
   <meta name="keywords" content="spreadsheet dependency analysis, cell dependency analysis, trace dependents excel">
