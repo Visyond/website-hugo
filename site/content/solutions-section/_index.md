@@ -71,12 +71,15 @@ solDropdownCol:
         title: Management Consulting
       - descr: ''
         image: /img/telecommunication_3x.png
+        path: /solutions/financial-modeling-software/
         title: Telecommunication
       - descr: ''
         image: /img/real_estate_3x.png
+        path: /solutions/financial-modeling-software/
         title: Real Estate
       - descr: ''
         image: /img/insurance_3x.png
+        path: /solutions/financial-modeling-software/
         title: Insurance
     title: Industry
 allFeaturesText: View all solutions
