@@ -31,16 +31,22 @@
                             <!-- <span>*No credit card required</span> -->
                        <!-- </a> -->
                        
-                        
+                
                         {{ if .Params.WatchVideoURL }}
-                        <button class="button button-icon js-btn-video3" style="color: #ffffff;background-color: #0086ff;">
+                        <!-- <button class="button button-icon js-btn-video3" style="color: #ffffff;background-color: #0086ff;"> -->
+                        <button class="button button-icon js-btn-video3">
                             <i class="material-icons">
                                 play_arrow
                             </i>
                             Overview
                         </button>
                         {{ end }}    
-                    
+                         
+                         <a href="/request" class="button button-primary button-asterisk">
+	                          Request Demo
+                         </a>
+                
+                        <!-- 
                         {{ if .Params.WatchVideoURL2 }}
                         <button class="button button-icon js-btn-video2">
                             <i class="material-icons">
@@ -48,13 +54,17 @@
                             </i>
                             Short Demos
                             <!-- {{ .Params.heroPlayButton }} -->
-                        </button>
+                <!--    </button>
                         {{ end }}
+                        -->
                         
                         <!--
                         <span class="home-hero__or">or</span>
                         <a href="{{ .Params.heroDemoButtonLink }}" class="home-hero__demo-link">{{ .Params.heroDemoButton }}</a>
-                        -->                  
+                        -->
+                        <span class="home-hero__or">or</span>
+                        <a href="/accounts/signup/" class="home-hero__demo-link">Free Sign Up</a>
+                
               </div>
           </div>
           <div class="home-hero__full-width-wrap">
