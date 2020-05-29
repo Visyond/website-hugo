@@ -9,8 +9,7 @@ metaTags: >-
   <meta property="og:image"
   content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
 
-  <meta property="og:description" content="Get what no other spreadsheet-based
-  technology stack can give you. Anywhere you are, on any platform."> 
+  <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> 
 
   <meta property="og:url"
   content="https://visyond.com/solutions/financial-data-analysis-software/"> 
@@ -24,7 +23,7 @@ title: 'Automate Financial Planning, Analysis and Reporting'
 ThisSolutionIsFor: For Financial Services and FP&A
 topTitle: 'Automate Financial Planning, Analysis and Reporting'
 topSubTitle: >-
-  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
+  Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
   browser and focuses on data security and digital innovation.
 
@@ -99,7 +98,8 @@ infoBlockFirst:
           and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
-    image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
     subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
     title: Improve Project Analysis and Reporting
   - benefitsList:
@@ -127,7 +127,8 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
-    image: /img/2019-02 Interactive Presentation.png
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Self-service stress-testing and analysis automation.\n<br> \r\nCollaborative scenario planning.\n<br> \r\nSpreadsheet-driven ‘what-if’ dashboards."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
@@ -184,7 +185,12 @@ infoBlockFirst:
           aware of all modifications made to the spreadsheet
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
-    image: /img/2019-02 Cases Panel and Dropdown.png
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
     subtitle: "Knowledge management for investment projects.\n<br> \r\nData gathering without version chaos.\n<br> \r\nSecure and granular data sharing."
     title: Simplify Data Gathering and Consolidation
   - benefitsList:
@@ -212,7 +218,8 @@ infoBlockFirst:
           slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
         title: Present Models with Spreadsheet-driven Calculators
-    image: /img/2019-02 Audit On.png
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Share Actionable Insights
   - benefitsList:
@@ -237,7 +244,8 @@ infoBlockFirst:
           changed between scenarios and by how much.
         file: /img/2019-02 Scenarios Waterfall Analysis.png
         title: Scenario Waterfall
-    image: /img/2019-02 Scenario Analysis.png
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     subtitle: |
       Collaborative budgeting and forecasting.
       <br>
@@ -260,13 +268,16 @@ infoBlockFirst:
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
-    image: /img/2019-02 Financial Statements.png
+    infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Auto-generate Financial Statements Driven by Your Model -
+      Visyond.jpg
     subtitle: |-
       KPI reports automation.
       <br>
       Financial statements generation.
     title: Generate Financial Statements Linked To Your Model
-providesTitle: Visyond for remote work
+providesTitle: Financial Data Analysis Software for Remote Work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
