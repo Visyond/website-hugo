@@ -180,7 +180,7 @@ infoBlockFirst:
       Dashboards - Visyond.jpg
     link: ''
     subtitle: "Secure data sharing and IP protection.\r\n<br>\r\nGranular access control.\r"
-    title: Decide Who Sees and Interacts with Specific Parts of Financial Models
+    title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
   - altText: Financial Modeling Software - Audit Financial Models
     benefitsList:
       - text: >-
