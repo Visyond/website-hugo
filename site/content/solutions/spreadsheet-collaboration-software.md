@@ -7,7 +7,8 @@ metaTags: >-
   reporting platform that will help you democratize decision-making, remove
   bottlenecks, and empower efficient and transparent collaboration between
   stakeholders."> <meta name="keywords" content="Spreadsheet collaboration
-  software, spreadsheet collaboration online"> <meta property="og:title" content="Collaborate Remotely on Spreadsheets, Analysis, and   Reports"> <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> <meta property="og:description" content="Get what no other spreadsheet-based technology stack can give you. Anywhere you are, on any platform."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software">  
+  software, spreadsheet collaboration online"> <meta property="og:title" content="Collaborate Remotely on Spreadsheets, Analysis, and   Reports"> <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> <meta property="og:description" content="Get what no other spreadsheet-based technology can give you.
+Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software">  
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
 ThisSolutionIsFor: 'For Remote Work and Collaboration'
