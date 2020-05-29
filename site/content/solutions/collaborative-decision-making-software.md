@@ -39,8 +39,6 @@ infoBlockFirst:
       - descr: >-
           Create and visually compare scenarios (i.e. Budget vs. Actual) on the
           fly, during meetings or presentations without depending on experts.
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Analysis.png
         title: Answer ‘What-if’ questions anywhere in real time
       - descr: >
@@ -70,7 +68,8 @@ infoBlockFirst:
           and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
-    image: /img/2019-02 Sensitivity Two-Way Analysis.png
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
     subtitle: "Cloud-based budgeting and forecasting.\r\n<br> \r\nSelf-service planning and analysis.\r\n<br> \r\nData governance and spreadsheet audit.\r"
     title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
@@ -97,7 +96,8 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
-    image: /img/2019-02 Interactive Presentation.png
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven calculators."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
@@ -143,7 +143,12 @@ infoBlockFirst:
           aware of all modifications made to the spreadsheet
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
-    image: /img/2019-02 Cases Panel and Dropdown.png
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
     subtitle: "Single source of truth for projects.\r\n<br> \r\nData gathering without version chaos.\r\n<br> \r\nSecure and granular data sharing."
     title: Base Decisions on Reliable Assumptions
   - benefitsList:
@@ -173,7 +178,8 @@ infoBlockFirst:
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
-    image: /img/2019-02 Audit On.png
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: 'View Clear, Actionable Insights'
 providesTitle: Visyond for remote work
