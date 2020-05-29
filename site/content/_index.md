@@ -405,7 +405,7 @@ infoBlockFirst:
           Generate Financial Statements Linked To Your Model
         descr: >-
           Visyond creates forward looking predictive financial statements,
-          driven by assumptions in your spreadsheet.The statements can adapt to
+          driven by assumptions in your spreadsheet. The statements can adapt to
           any reporting/accounting standard and automate the preparation of
           reports based on your settings.
         file: /img/2019-02 Financial Statements.png
