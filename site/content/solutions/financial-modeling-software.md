@@ -15,7 +15,7 @@ topSubTitle: >-
   makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - altText: Financial Modeling Software - Automate Spreadsheet Modeling Analysis
+  - altText: ''
     benefitsList:
       - text: Visualize the impact of important cells
       - text: Answer ‘what-if’ questions and compare scenarios
@@ -100,7 +100,7 @@ infoBlockFirst:
     link: ''
     subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\r\nAutomated scenario planning.\r\n<br>\r\nScenario management and audit trail.\r"
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
-  - altText: Financial Modeling Software - Remove Financial Modeling Bottlenecks
+  - altText: ''
     benefitsList:
       - text: Change assumptions and visualize how changes affect KPIs
       - text: >-
@@ -127,7 +127,7 @@ infoBlockFirst:
     link: ''
     subtitle: "Always up-to-date interactive dashboards.\r\n<br>\r\nSelf-service ‘what-if’ calculators.\r\n<br>\r\nStress-testing without touching the spreadsheet.\r"
     title: Present Financial Models with Spreadsheet-driven Dashboards
-  - altText: Financial Modeling Software - Share Only Relevant Data Pieces
+  - altText: ''
     benefitsList:
       - text: Have better control over information flow and data privacy
       - text: >-
@@ -260,9 +260,7 @@ infoBlockFirst:
     link: ''
     subtitle: "Data governance and audit trail.\r\n<br>\r\nCollaboration without overwriting data.\r\n<br>\r\nData gathering without version chaos.\r"
     title: Track What Is Happening in Your Projects
-  - altText: >-
-      Financial Modeling Software - Single Source of Truth for Your Financial
-      Model
+  - altText: ''
     benefitsList:
       - text: >-
           Add supporting documents, attachments and comments directly inside the
