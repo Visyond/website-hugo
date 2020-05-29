@@ -26,10 +26,7 @@ topSubTitle: >-
   makers make better decisions, faster.**
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
-  - altText: >-
-      Spreadsheet Collaboration Software - Store Multiple Assumptions
-      Simultaneously in Visyond
-    benefitsList:
+  - benefitsList:
       - text: >-
           Collaborate on spreadsheets and analyses, and know who contributed
           what, when and why
@@ -106,10 +103,7 @@ infoBlockFirst:
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
     subtitle: "Cloud-based budgeting and forecasting.\r\n<br>\nSelf-service planning and analysis.\r\n<br>\nData governance and spreadsheet audit.\r"
     title: Work Remotely and Remove Bottlenecks
-  - altText: >-
-      Spreadsheet Collaboration Software - Store Conversations and Relevant
-      Documentation Directly in Cells in Visyond
-    benefitsList:
+  - benefitsList:
       - text: >-
           Collaborate on spreadsheets and know who contributed what, when and
           why
@@ -161,8 +155,7 @@ infoBlockFirst:
       Dashboards - Visyond.jpg
     subtitle: "Single source of truth for projects.\r\n<br>\nData gathering without version chaos.\r\n<br>\nSecure and granular data sharing.\r"
     title: Streamline Data Gathering
-  - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
-    benefitsList:
+  - benefitsList:
       - text: >-
           Eliminate risk of accidental changes in the model when testing
           assumptions
