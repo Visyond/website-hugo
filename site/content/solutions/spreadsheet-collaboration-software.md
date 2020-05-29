@@ -102,8 +102,8 @@ infoBlockFirst:
           and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
-    image: /img/2019-02 Sensitivity Two-Way Analysis.png
-    link: ''
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
     subtitle: "Cloud-based budgeting and forecasting.\r\n<br>\nSelf-service planning and analysis.\r\n<br>\nData governance and spreadsheet audit.\r"
     title: Work Remotely and Remove Bottlenecks
   - altText: >-
@@ -153,8 +153,12 @@ infoBlockFirst:
           aware of all modifications made to the spreadsheet
         file: /img/2019-02 Overview Panel.png
         title: Know What Is Happening in Your Projects
-    image: /img/2019-02 Cases Panel and Dropdown.png
-    link: ''
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
     subtitle: "Single source of truth for projects.\r\n<br>\nData gathering without version chaos.\r\n<br>\nSecure and granular data sharing.\r"
     title: Streamline Data Gathering
   - altText: Spreadsheet Collaboration Software - Interactive Presentations in Visyond
@@ -182,11 +186,11 @@ infoBlockFirst:
           everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
-    image: /img/2019-02 Interactive Presentation.png
-    link: ''
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Interactive data visualizations.\n<br>\r\nSelf-service on ‘what-if’ questions.\r\n<br>\nSpreadsheet-driven calculators.\r"
     title: Democratize Decision Making
-providesTitle: Visyond for remote work
+providesTitle: Spreadsheet Collaboration Software for Remote Work
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
