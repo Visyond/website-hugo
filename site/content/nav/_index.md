@@ -10,15 +10,9 @@ resourcesDropdown:
     title: Partner with Visyond
   - path: /blog/
     title: Blog
-solutionsInfoTitle: Get what no other spreadsheet-based technology stack can give you
-solutionsInfoDescr: >-
-  Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
-  solution that connects all steps of your business workflow in a single
-  platform.
-featuresInfoTitle: Get what no other spreadsheet-based technology stack can give you
-featuresInfoDescr: >-
-  Visyond offers a unique yet familiar Excel-compatible all-in-one integrated
-  solution that connects all steps of your business workflow in a single
-  platform.
+solutionsInfoTitle: Get what no other spreadsheet-based technology can give you
+solutionsInfoDescr: Carry out, in minutes, what takes experts hours or days to do.
+featuresInfoTitle: Get what no other spreadsheet-based technology can give you
+featuresInfoDescr: Carry out, in minutes, what takes experts hours or days to do.
 ---
 
