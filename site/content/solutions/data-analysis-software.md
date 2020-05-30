@@ -9,6 +9,70 @@ topSubTitle: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet mod
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
+      - text: Visualize the impact of important cells
+      - text: Answer ‘what-if’ questions and compare scenarios
+      - text: Visualize the drivers that change between scenarios
+      - text: 'Manage risk, run simulations and create forecasts '
+      - text: >-
+          Slice and dice your data with customizable Pivots without additional
+          data preparation
+      - text: >-
+          Share the results of your analysis with stakeholders via interactive
+          dashboards, shielding them from sensitive or unnecessary information
+    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
+    files:
+      - alt: Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
+        descr: >-
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
+        file: /img/2019-02 Scenario Analysis.png
+        title: Answer ‘What-if’ questions anywhere in real time
+      - alt: >-
+          Know Which Cells Change Between Scenarios with Waterfall Analysis in
+          Visyond
+        descr: >-
+          Know exactly which cells change between scenarios and by how much with
+          Waterfall analysis.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        link: ''
+        title: Quickly identify which cells change between scenarios
+      - alt: Run Impact (Tornado) Analysis in Seconds in Visyond
+        descr: >-
+          Know which input cells have the greatest impact on important output.
+          cells.
+        file: /img/2019-02 Impact Analysis.png
+        link: ''
+        title: Visualize the Impact of Important Cells
+      - alt: Easily Setup Sensitivity Analysis in Visyond
+        descr: >-
+          Instantly visualize the impact of important business drivers with
+          automated Sensitivity analysis without worrying about deleting or
+          changing your collaborators’ work or exporting data every time there
+          is a change in the spreadsheet.
+        file: /img/2019-02 Sensitivity Two-Way Analysis.png
+        link: ''
+        title: Focus On What’s Important
+      - alt: Run Monte Carlo Simulations in Visyond
+        descr: >-
+          Visyond generates descriptive statistics, probability density function
+          and cumulative distribution function.
+        file: /img/2019-02 Simulation Monte Carlo.png
+        link: ''
+        title: Manage Risk with Monte Carlo Simulations
+      - alt: >-
+          View Data From Different Angles with OLAP/Cube/Pivot Analysis in
+          Visyond
+        descr: >
+          Visyond’s self-service OLAP analysis is connected directly to your
+          spreadsheet models without additional data preparation, processing and
+          migrations.
+        file: /img/2019-05 Pivot Model Filter.png
+        title: View Data From Different Angles
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
+    title: Visualize the Impact of Important Business Drivers
+  - benefitsList:
       - text: >-
           Switch between scenarios to visualize how changes affect KPIs without
           the risk of breaking the model
@@ -79,70 +143,6 @@ infoBlockFirst:
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
     title: Share Insights with Spreadsheet-driven Dashboards
-  - benefitsList:
-      - text: Visualize the impact of important cells
-      - text: Answer ‘what-if’ questions and compare scenarios
-      - text: Visualize the drivers that change between scenarios
-      - text: 'Manage risk, run simulations and create forecasts '
-      - text: >-
-          Slice and dice your data with customizable Pivots without additional
-          data preparation
-      - text: >-
-          Share the results of your analysis with stakeholders via interactive
-          dashboards, shielding them from sensitive or unnecessary information
-    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
-    files:
-      - alt: Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
-        descr: >-
-          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
-          fly, during meetings or presentations without depending on experts.
-        file: /img/2019-02 Scenario Analysis.png
-        title: Answer ‘What-if’ questions anywhere in real time
-      - alt: >-
-          Know Which Cells Change Between Scenarios with Waterfall Analysis in
-          Visyond
-        descr: >-
-          Know exactly which cells change between scenarios and by how much with
-          Waterfall analysis.
-        file: /img/2019-02 Scenarios Waterfall Analysis.png
-        link: ''
-        title: Quickly identify which cells change between scenarios
-      - alt: Run Impact (Tornado) Analysis in Seconds in Visyond
-        descr: >-
-          Know which input cells have the greatest impact on important output.
-          cells.
-        file: /img/2019-02 Impact Analysis.png
-        link: ''
-        title: Visualize the Impact of Important Cells
-      - alt: Easily Setup Sensitivity Analysis in Visyond
-        descr: >-
-          Instantly visualize the impact of important business drivers with
-          automated Sensitivity analysis without worrying about deleting or
-          changing your collaborators’ work or exporting data every time there
-          is a change in the spreadsheet.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: ''
-        title: Focus On What’s Important
-      - alt: Run Monte Carlo Simulations in Visyond
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        link: ''
-        title: Manage Risk with Monte Carlo Simulations
-      - alt: >-
-          View Data From Different Angles with OLAP/Cube/Pivot Analysis in
-          Visyond
-        descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
-    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
-    title: Visualize the Impact of Important Business Drivers
   - benefitsList:
       - text: Have better control over information flow and data privacy
       - text: >-
