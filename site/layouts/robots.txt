@@ -32,3 +32,4 @@ Disallow: /features/spreadsheet-dependency-analysis/
 Disallow: /oldhome/
 Disallow: /homeupdate/
 Disallow: /vhome/
+Disallow: /overview/
