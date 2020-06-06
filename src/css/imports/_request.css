@@ -197,6 +197,13 @@
   top: 4px;
 }
 
+.request-form-checkbox-title {
+color: #383e4d;
+font-weight: 900;
+font-size: 1.4em;
+margin: 1.5em 0 .5em 3px;
+}
+
 .request-form-checkbox-wrap {
   font-size: 1.2em;
   font-weight: 400;
