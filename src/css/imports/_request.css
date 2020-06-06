@@ -169,7 +169,7 @@
   background: #0585ff;
   text-transform: uppercase;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 16px;
   border: none;
   border-radius: 4px;
@@ -205,6 +205,7 @@
 }
 
 .request-form-checkbox {
-  width: 16px;
-  height: 16px;
+  width: 1.5em;
+  height: 1.5em;
 }
+
