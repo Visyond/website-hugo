@@ -105,7 +105,7 @@
 }
 
 .request-demo__form {
-  width: 300px;
+  width: 400px;
   margin: 25px auto 0 auto;
 
   @media screen and (max-width: 768px) {
