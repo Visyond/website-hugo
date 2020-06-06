@@ -86,11 +86,10 @@
 
 .request-demo__form-title {
   text-align: center;
-  color: #7c7e8a;
+  color: #383e4d;
   font-size: 39px;
   margin-bottom: 0;
   font-weight: 700;
-  text-transform: uppercase;
 
   @media screen and (max-width: 768px) {
     font-size: 25px;
@@ -196,4 +195,16 @@
   color: #9f4bcc;
   position: relative;
   top: 4px;
+}
+
+.request-form-checkbox-wrap {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #383e4d;
+  margin-bottom: .5em;
+}
+
+.request-form-checkbox {
+  width: 16px;
+  height: 16px;
 }
