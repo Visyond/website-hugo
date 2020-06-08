@@ -1,6 +1,7 @@
 ---
 url: /different
 title: How is Visyond different?
+image: /img/back1.png
 ---
 # How is Visyond different from a general purpose spreadsheet (i.e. Excel, Google Sheets)?
 
