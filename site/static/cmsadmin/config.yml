@@ -1444,3 +1444,20 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
       ],}
+      
+  - file: "site/content/faq.md"
+    label: "FAQ"
+    name: "faq"
+    fields:
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}	  //How is Visyond different?
+      - {label: "FAQ Section", name: "faqSection", widget: "list",
+        fields: [
+          {label: "FAQ Section Title", name: "faqSectionTitle", widget: "string", fields: [
+          {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
+          {label: "Answers List", name: "answersList", widget: list, fields: [
+            {label: "Answer", name: "answer", widget: "string"},
+          ]},],
+        ],
+        required: false,
+        }			      
