@@ -1,1 +1,52 @@
-yes
+{{ partial "hexHomeHead" . }}
+
+<!-- TOP SECTION -->
+<div class="homehex ht">
+	<div class="container">
+		  <div class="home-hero__container">
+			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
+				  <h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.coverHeader }}</h1>
+			  </div>
+		  </div>
+		</div>
+</div>
+<!-- END: TOP SECTION -->
+
+<!-- FAQ SECTION -->
+<section class="enterV">
+    <div class="container">
+        <ul class="enterSections js-image-block">
+            <!-- LIST OF FAQ BLOCKS -->
+			{{ range $el := .Params.faqSection }}
+			<li class="enterSectionsA__block">
+				<section class="enterSectionsA__text-wrap">
+					<h2 class="enterSectionsA__block-title">
+						{{ .faqSectionTitle }}
+					</h2>
+				
+				<section class="enterSectionsA__text-wrap">
+					<div class="enterSectionsA__block-descr">
+						<div class="enterSections__benefits">
+							{{ if .answersList }}
+							<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
+							{{ end }}
+							<ul>
+								{{ range $list := .answersList }}
+								<li class="whyV__benefit-item">
+									{{ .answer | markdownify }}
+								</li>
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				</section>
+			</li>
+			{{ end }}
+            <!-- END: LIST OF FAQ BLOCKS -->
+        </ul>
+    </div>
+</section>
+<!-- END: FAQ SECTION -->
+
+
+{{ partial "hexFooter" . }}
