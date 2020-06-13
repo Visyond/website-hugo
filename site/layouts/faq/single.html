@@ -1,59 +1,51 @@
 {{ partial "hexHomeHead" . }}
 
-<!-- TOP SECTION -->
+
 <div class="homehex ht">
+	<!-- TOP SECTION -->
 	<div class="container">
 		  <div class="home-hero__container">
 			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
 				  <h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.coverHeader }}</h1>
 			  </div>
 		  </div>
-		</div>
-</div>
-<!-- END: TOP SECTION -->
-
-<!-- FAQ SECTION -->
-<section class="enterV">
-  <div class="container">
-    <ul class="enterSections js-image-block">
-			<!-- LIST OF FAQ SECTIONS -->
-			{{ range $el := .Params.faqSection }}
-			<li class="enterSectionsA__block">
-				<section class="enterSectionsA__text-wrap">
-					<h2 class="enterSectionsA__block-title">
-						{{ .faqSectionTitle }}
-					</h2>
-				
-				<!-- LIST OF FAQ SECTION BLOCKS -->
-				<ul>
-				{{ range $list := .faqSectionContent }}
-					<li class="enterSectionsA__text-wrap">
-						<div class="enterSectionsA__block-descr">
-							<div class="enterSections__benefits">
-								{{ if .answersList }}
-								<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
+	</div>
+	<!-- END: TOP SECTION -->	
+	
+	
+	<!-- FAQ SECTION -->
+	<section class="enterV">
+		<div class="container">
+			<ul>
+				<!-- LIST OF FAQ SECTIONS -->
+				{{ range $el := .Params.faqSection }}
+				<li>
+					<h2>{{ .faqSectionTitle }}</h2>
+					<ul>
+					<!-- LIST OF FAQ SECTION BLOCKS -->
+					{{ range $list := .faqSectionContent }}
+						<li>
+							<h3>{{ .faqSectionSubTitle }}</h3>
+							<ul>
+								{{ range $list := .answersList }}
+								<li>
+									{{ .answer | markdownify }}
+								</li>
 								{{ end }}
-								<ul>
-									{{ range $list := .answersList }}
-									<li class="whyV__benefit-item">
-										{{ .answer | markdownify }}
-									</li>
-									{{ end }}
-								</ul>
-							</div>
-						</div>
-					</li>
+							</ul>	
+						</li>
+					
 					{{ end }}
-				</ul>
-				<!-- LIST OF FAQ SECTION BLOCKS -->
-				
-			</li>
-			{{ end }}
-            <!-- END: LIST OF FAQ SECTIONS -->
-        </ul>
-    </div>
-</section>
-<!-- END: FAQ SECTION -->
+					<!-- LIST OF FAQ SECTION BLOCKS -->
+					</ul>
+				</li>
+				{{ end }}
+				<!-- END: LIST OF FAQ SECTIONS -->
+			</ul>
+		</div>
 
+	</section>
+	<!-- END: FAQ SECTION -->
+</div>
 
 {{ partial "hexFooter" . }}
