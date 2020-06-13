@@ -16,24 +16,24 @@
 	<!-- FAQ SECTION -->
 	<section class="enterV">
 		<div class="container">
-			<ul>
+			<ul class="enterSections">
 				<!-- LIST OF FAQ SECTIONS -->
 				{{ range $el := .Params.faqSection }}
-				<li>
-					<h2>{{ .faqSectionTitle }}</h2>
+				<li class="enterSectionsA__block">
+					<h2 class="enterSectionsA__block-title">{{ .faqSectionTitle }}</h2>
 					<ul>
 					<!-- LIST OF FAQ SECTION BLOCKS -->
 					{{ range $list := .faqSectionContent }}
-						<li>
-							<h3>{{ .faqSectionSubTitle }}</h3>
+						<div>
+							<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
 							<ul>
 								{{ range $list := .answersList }}
-								<li>
+								<li class="whyV__benefit-item">
 									{{ .answer | markdownify }}
 								</li>
 								{{ end }}
 							</ul>	
-						</li>
+						</div>
 					
 					{{ end }}
 					<!-- LIST OF FAQ SECTION BLOCKS -->
