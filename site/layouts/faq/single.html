@@ -21,12 +21,12 @@
 				{{ range $el := .Params.faqSection }}
 				<li class="enterSectionsA__block" style="text-align: left;">
 					<h2 class="enterSectionsA__block-title">{{ .faqSectionTitle }}</h2>
-					<ul>
+					<ul style="padding-left: 0px;">
 					<!-- LIST OF FAQ SECTION BLOCKS -->
 					{{ range $list := .faqSectionContent }}
 						<div class="enterSections__benefits">
-							<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
-							<ul>
+							<div class="enterSections__benefits--title" style="font-size: 1.5em;">{{ .faqSectionSubTitle }}</div>
+							<ul style="padding-left: 0px;">
 								{{ range $list := .answersList }}
 								<div class="enterSectionsA__block-descr">
 									{{ .answer | markdownify }}
