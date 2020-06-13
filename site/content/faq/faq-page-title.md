@@ -1,5 +1,4 @@
 ---
-url: /faq
 title: 'FAQ PAGE TITLE '
 coverHeader: FAQ COVER HEADER
 faqSection:
