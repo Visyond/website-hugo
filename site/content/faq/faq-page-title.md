@@ -52,7 +52,7 @@ faqSection:
               You visualize model structure, detect errors and potential data
               inconsistencies in real time, and easily understand formulas
               thanks to the option to use natural language (e.g., Revenues[2021]
-              = Revenues[2020](1 + growth[2021) vs B3 = B2( 1 + A3) ).
+              = Revenues[2020] * (1 + growth[2021) vs B3 = B2 * ( 1 + A3) ).
           - answer: >-
               You save countless hours of tracking errors in the spreadsheet.
               Instantly identify errors, their propagation chain and root cause,
@@ -187,7 +187,11 @@ faqSection:
         faqSectionSubTitle: Visyond is secure
     faqSectionTitle: Is Visyond secure?
   - faqSectionContent:
-      - faqSectionSubTitle: 'Please see our <a href="https://visyond.com/pricing">pricing page.</a>'
+      - answersList:
+          - answer: >-
+              Please see our <a href="https://visyond.com/pricing">pricing
+              page.</a>
+        faqSectionSubTitle: Pricing depends on the modules that you pick
     faqSectionTitle: How much does Visyond cost?
   - faqSectionContent:
       - answersList:
