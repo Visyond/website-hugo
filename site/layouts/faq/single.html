@@ -13,12 +13,12 @@
 	
 	
 	<!-- FAQ SECTION -->
-	<section class="enterV" style="background-color: #fff;">
+	<section class="enterV" style="background-color: #fff; padding-top: 0px;">
 		<div class="container">
 			<ul class="enterSections">
 				<!-- LIST OF FAQ SECTIONS -->
 				{{ range $el := .Params.faqSection }}
-				<li class="enterSectionsA__block" style="text-align: left;">
+				<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 2em;">
 					<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .faqSectionTitle }}</h2>
 					<section class="FAQSection__text-wrap">
 						<div class="enterSectionsA__block-descr">
@@ -26,7 +26,7 @@
 							<!-- LIST OF FAQ SECTION BLOCKS -->
 							{{ range $list := .faqSectionContent }}
 								<div class="enterSections__benefits">
-									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600;">{{ .faqSectionSubTitle }}</div>
+									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; margin-bottom: 0;">{{ .faqSectionSubTitle }}</div>
 									<ul style="padding-left: 0px;">
 										{{ range $list := .answersList }}
 										<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle">
