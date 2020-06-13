@@ -1,6 +1,5 @@
 {{ partial "hexHomeHead" . }}
 
-
 <div class="homehex ht">
 	<!-- TOP SECTION -->
 	<div class="container">
@@ -20,12 +19,12 @@
 				<!-- LIST OF FAQ SECTIONS -->
 				{{ range $el := .Params.faqSection }}
 				<li class="enterSectionsA__block" style="text-align: left;">
-					<h2 class="enterSectionsA__block-title" style="font-size: 2.5em; font-weight: 600;">{{ .faqSectionTitle }}</h2>
+					<h2 class="enterSectionsA__block-title" style="font-size: 2em;">{{ .faqSectionTitle }}</h2>
 					<ul style="padding-left: 0px;">
 					<!-- LIST OF FAQ SECTION BLOCKS -->
 					{{ range $list := .faqSectionContent }}
 						<div class="enterSections__benefits">
-							<div class="enterSections__benefits--title" style="font-size: 1.5em;">{{ .faqSectionSubTitle }}</div>
+							<div class="enterSections__benefits--title" style="font-size: 1.4em; font-weight: 600;">{{ .faqSectionSubTitle }}</div>
 							<ul style="padding-left: 0px;">
 								{{ range $list := .answersList }}
 								<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle">
