@@ -28,9 +28,9 @@
 							<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
 							<ul>
 								{{ range $list := .answersList }}
-								<li class="whyV__benefit-item">
+								<div>
 									{{ .answer | markdownify }}
-								</li>
+								</div>
 								{{ end }}
 							</ul>	
 						</div>
