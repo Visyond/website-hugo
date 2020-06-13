@@ -28,7 +28,7 @@
 							<div class="enterSections__benefits--title" style="font-size: 1.5em;">{{ .faqSectionSubTitle }}</div>
 							<ul style="padding-left: 0px;">
 								{{ range $list := .answersList }}
-								<div class="enterSectionsA__block-descr">
+								<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle">
 									{{ .answer | markdownify }}
 								</div>
 								{{ end }}
