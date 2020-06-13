@@ -25,24 +25,26 @@
 					</h2>
 				
 				<!-- LIST OF FAQ SECTION BLOCKS -->
-				{{ range $el := .Params.faqSectionContent }}
-				<section class="enterSectionsA__text-wrap">
-					<div class="enterSectionsA__block-descr">
-						<div class="enterSections__benefits">
-							{{ if .answersList }}
-							<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
-							{{ end }}
-							<ul>
-								{{ range $list := .answersList }}
-								<li class="whyV__benefit-item">
-									{{ .answer | markdownify }}
-								</li>
+				{{ range $list := .faqSectionContent }}
+				<ul>
+					<li class="enterSectionsA__text-wrap">
+						<div class="enterSectionsA__block-descr">
+							<div class="enterSections__benefits">
+								{{ if .answersList }}
+								<div class="enterSections__benefits--title">{{ .faqSectionSubTitle }}</div>
 								{{ end }}
-							</ul>
+								<ul>
+									{{ range $list := .answersList }}
+									<li class="whyV__benefit-item">
+										{{ .answer | markdownify }}
+									</li>
+									{{ end }}
+								</ul>
+							</div>
 						</div>
-					</div>
-				</section>
-				{{ end }}
+					</li>
+					{{ end }}
+				</ul>
 				<!-- LIST OF FAQ SECTION BLOCKS -->
 				
 			</li>
