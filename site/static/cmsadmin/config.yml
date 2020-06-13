@@ -1445,10 +1445,12 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Provides Item", name: "text", widget: "markdown"},
       ],}
       
-  - file: "site/content/faq.md"
+  - name: "faq"
     label: "FAQ"
-    name: "faq"
+    folder: "site/content/faq"
+	create: true
     fields:
+	  - {label: "Page url", name: "url", widget: string}
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
       - {label: "FAQ Section", name: "faqSection", widget: "list", fields: [
