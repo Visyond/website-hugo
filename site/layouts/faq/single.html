@@ -14,9 +14,9 @@
 
 <!-- FAQ SECTION -->
 <section class="enterV">
-    <div class="container">
-        <ul class="enterSections js-image-block">
-            <!-- LIST OF FAQ BLOCKS -->
+  <div class="container">
+    <ul class="enterSections js-image-block">
+			<!-- LIST OF FAQ SECTIONS -->
 			{{ range $el := .Params.faqSection }}
 			<li class="enterSectionsA__block">
 				<section class="enterSectionsA__text-wrap">
@@ -24,6 +24,8 @@
 						{{ .faqSectionTitle }}
 					</h2>
 				
+				<!-- LIST OF FAQ SECTION BLOCKS -->
+				{{ range $el := .Params.faqSectionContent }}
 				<section class="enterSectionsA__text-wrap">
 					<div class="enterSectionsA__block-descr">
 						<div class="enterSections__benefits">
@@ -40,9 +42,12 @@
 						</div>
 					</div>
 				</section>
+				{{ end }}
+				<!-- LIST OF FAQ SECTION BLOCKS -->
+				
 			</li>
 			{{ end }}
-            <!-- END: LIST OF FAQ BLOCKS -->
+            <!-- END: LIST OF FAQ SECTIONS -->
         </ul>
     </div>
 </section>
