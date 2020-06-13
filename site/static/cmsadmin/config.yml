@@ -1450,7 +1450,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/faq"
     create: true
     fields:
-      - {label: "Page url", name: "url", widget: string}
+      - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
       - {label: "FAQ Section", name: "faqSection", widget: "list", 
