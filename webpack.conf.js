@@ -29,8 +29,7 @@ export default {
     app: ["./js/app"],
     cms: ["./js/cms"],
     custom: ["./js/script.custom"],
-    plugin: ["./js/script.plugin"],
-    requestDemo: ["./js/script.requestDemo"]
+    plugin: ["./js/script.plugin"]
   },
   output: {
     path: path.join(__dirname, "dist"),
