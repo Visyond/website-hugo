@@ -1,3 +1,4 @@
+//Previous visited URL
 function getReferrer() {
 	if(!document.referrer) {
 		return "Unknow referrer";
