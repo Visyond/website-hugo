@@ -5,5 +5,3 @@ function getReferrer() {
 		return document.referrer;
 	}
 }
-
-alert(getReferrer());
