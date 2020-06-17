@@ -15,7 +15,7 @@ Meanwhile, feel free to learn more about Visyond or try to explore it on your ow
 
 ## Learn more about Visyond
 
-To help us give you the best bespoke demonstration and focus on what’s important for you, please watch the short demo videos below or see [this product tour](https://help.visyond.com/articles/new-to-visyond-a-visual-overview/).
+To help us give you the best bespoke demonstration and focus on what’s important for you, please watch the short demo videos below or see [**this product tour**](https://help.visyond.com/articles/new-to-visyond-a-visual-overview/).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uufPL_qXvaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -32,11 +32,11 @@ Analysts, experts, clients, CxOs must collaborate with strict requirements on da
 
 Without Visyond, the process requires multiple platforms and causes numerous problems.
 
-[Why Visyond?](https://visyond.com/why-visyond/)
+[**Why Visyond?**](https://visyond.com/why-visyond/)
 
 ## How is Visyond different?
 
-Please see the [FAQ](https://visyond.com/faq/).
+Please see the [**FAQ**](https://visyond.com/faq/).
 
 ## Try Visyond
 
