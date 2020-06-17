@@ -1,7 +1,5 @@
 {{ partial "hexHeader" . }}
 
-<script src="/requestDemo.js"></script>
-
 <div class="request-demo-page">
     <div class="container container--request-container">
         <!-- client asked -->
@@ -31,6 +29,8 @@
                 -->
 
                 <input type="hidden" name="_next" value="https://visyond.com/thank-you-for-your-request/" />
+		    
+		<input type="hidden" id="referrer" name="Referrer" value="" />
 
                 <!-- <input type="hidden" name="_cc" value="gianluca@get.visyond.com,gianluca.bisceglie@gmail.com,besnik@get.visyond.com,alexey.prokopovich@visyond.com,support@visyond.com" /> -->
 
@@ -104,5 +104,16 @@
         </div> <!-- ./form -->
     </div>
 </div>
+
+<script>
+function getReferrer() {
+	if(!document.referrer) {
+		document.getElementById('referrer').value = "No referrer";
+	} else {
+		document.getElementById('referrer').value = document.referrer;
+	}
+}
+</script>
+
 {{ partial "hexSlider" . }}
 {{ partial "hexFooter" . }}
