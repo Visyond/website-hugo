@@ -106,13 +106,16 @@
 </div>
 
 <script>
-function getReferrer() {
-	if(!document.referrer) {
+window.addEventListener('load', (event) => {
+	console.log('page is fully loaded');
+  
+  	if(!document.referrer) {
 		document.getElementById('referrer').value = "No referrer";
 	} else {
 		document.getElementById('referrer').value = document.referrer;
 	}
-}
+  
+});
 </script>
 
 {{ partial "hexSlider" . }}
