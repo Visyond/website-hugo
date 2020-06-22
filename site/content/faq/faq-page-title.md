@@ -1,7 +1,7 @@
 ---
 url: /faq
-title: How is Visyond different?
-coverHeader: How is Visyond different?
+title: FAQ
+coverHeader: Frequently Asked Questions
 faqSection:
   - faqSectionContent:
       - answersList:
@@ -188,15 +188,10 @@ faqSection:
     faqSectionTitle: How fast is Visyond?
   - faqSectionContent:
       - answersList:
-          - answer: We use industry-standard best practices to store data.
-        faqSectionSubTitle: Visyond is secure
-    faqSectionTitle: Is Visyond secure?
-  - faqSectionContent:
-      - answersList:
           - answer: >-
-              Please see our <a href="https://visyond.com/pricing">pricing
+              Please see the <a href="https://visyond.com/pricing">pricing
               page.</a>
-        faqSectionSubTitle: Pricing depends on the modules that you pick
+        faqSectionSubTitle: Pricing depends on the plan that you pick
     faqSectionTitle: How much does Visyond cost?
   - faqSectionContent:
       - answersList:
