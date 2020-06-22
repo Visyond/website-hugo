@@ -2,10 +2,12 @@
 resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Help
-  - path: /press/
-    title: Press
   - path: /casestudy/
     title: Case Studies
+  - path: /faq
+    title: FAQ
+  - path: /press/
+    title: Press   
   - path: /partner-with-visyond/
     title: Partner with Visyond
 solutionsInfoTitle: Answer questions in seconds
