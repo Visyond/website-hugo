@@ -29,23 +29,34 @@
   }
 }
 
-.simplepage-content h3 {
-  color: #52556c;
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 900;
-  margin-bottom: 1em;
+.simplepage-content h1 {
+  color: #383e4d;
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 600;
   width: 100%;
 }
 
+
 .simplepage-content h2 {
   color: #383e4d;
-  font-size: 22px;
-  line-height: 32px;
-  font-weight: 900;
-  margin-bottom: 1em;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 48px;
   width: 100%;
 }
+
+.simplepage-content h3 {
+  color: #52556c;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
 
 .simplepage-content p {
   font-weight: 400;
@@ -63,4 +74,9 @@
 
 .simplepage-content li {
   margin-bottom: 10px;
+}
+
+.simplepage-content a, a:visited {
+  text-decoration: underline;
+  color: #0086ff;
 }
