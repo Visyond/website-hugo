@@ -19,17 +19,23 @@ To help us give you the best bespoke demonstration and focus on what’s importa
 
 ### Collaborative Scenario Planning (2 min)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uufPL_qXvaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video poster="/video/Visyond Scenario Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+			  <source src="/video/Visyond Scenario Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+</video>
 <br><br>
 
 ### Auto-analysis and Interactive Dashboards (2.5 min)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4uZ7bKc91WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video poster="/video/Visyond Auto-Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+			  <source src="/video/Visyond Auto-Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+</video>
 <br><br>
 
 ### Interactive Presentations and Spreadsheet-driven Calculators (1.5 min)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xCJT4vkskq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video poster="/video/Visyond Interactive Presentations Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+			  <source src="/video/Visyond Interactive Presentations Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+</video>
 <br><br>
 
 ## Why Visyond?
