@@ -76,7 +76,7 @@
   margin-bottom: 10px;
 }
 
-.simplepage-content a {
+.simplepage-content a, .simplepage-content a:visited {
   text-decoration: underline;
   color: #0086ff;
 }
