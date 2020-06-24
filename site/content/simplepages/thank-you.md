@@ -19,21 +19,21 @@ To help us give you the best bespoke demonstration and focus on what’s importa
 
 ### Collaborative Scenario Planning (2 min)
 
-<video poster="/video/Visyond Scenario Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+<video style="width: 100%; height: auto;" poster="/video/Visyond Scenario Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
 			  <source src="/video/Visyond Scenario Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
 <br><br>
 
 ### Auto-analysis and Interactive Dashboards (2.5 min)
 
-<video poster="/video/Visyond Auto-Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+<video style="width: 100%; height: auto;" poster="/video/Visyond Auto-Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
 			  <source src="/video/Visyond Auto-Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
 <br><br>
 
 ### Interactive Presentations and Spreadsheet-driven Calculators (1.5 min)
 
-<video poster="/video/Visyond Interactive Presentations Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
+<video style="width: 100%; height: auto;" poster="/video/Visyond Interactive Presentations Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
 			  <source src="/video/Visyond Interactive Presentations Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
 <br><br>
