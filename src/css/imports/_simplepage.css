@@ -26,13 +26,7 @@
   @media screen and (max-width: 1024px) {
     width: 100%;
     padding: 40px 10px;
-  }
-  
-  a, a:visited {
-  text-decoration: underline;
-  color: #0086ff;
-}
-  
+  } 
 }
 
 .simplepage-content h1 {
@@ -80,5 +74,10 @@
 
 .simplepage-content li {
   margin-bottom: 10px;
+}
+
+.simplepage-content a {
+  text-decoration: underline;
+  color: #0086ff;
 }
 
