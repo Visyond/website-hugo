@@ -4,22 +4,30 @@ scripts: |-
     gtag('event', 'conversion', {'send_to': 'AW-982164483/VHbZCKjpuIoBEIPIqtQD'});
   </script>
 url: /thank-you-for-your-request
-title: We've Received Your Demo request!
+title: Thank You for Reaching Out!
 image: /img/back1.png
 ---
 # What's next?
 
-**Thank you for reaching out! We will get back to you shortly.**
+We will get back to you shortly.
 
-Meanwhile, feel free to learn more about Visyond or try to explore it on your own! Below you will find everything you need to get started.
+Meanwhile, **feel free to learn more about Visyond or explore it on your own!** Below you will find everything you need to get started.
 
 ## Learn more about Visyond
 
 To help us give you the best bespoke demonstration and focus on what’s important for you, please watch the short demo videos below or see [**this product tour**](https://help.visyond.com/articles/new-to-visyond-a-visual-overview/).
 
+### Collaborative Scenario Planning (2 min)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uufPL_qXvaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+
+### Auto-analysis and Interactive Dashboards (2.5 min)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4uZ7bKc91WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+
+### Interactive Presentations and Spreadsheet-driven Calculators (1.5 min)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xCJT4vkskq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
