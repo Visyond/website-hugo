@@ -60,3 +60,5 @@ You are solely responsible for any and all taxes, levies, charges and fees incur
 Please refer to the “Pricing” section of the Website for further details on subscription options.
 
 These Terms of Use will remain in full force and effect while you use the Visyond Service. Those terms that can continue to operate after you stop using Visyond, will survive after you stop using the Visyond Service.
+
+<br><br>
