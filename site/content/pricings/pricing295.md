@@ -24,7 +24,7 @@ pricingCards:
       subTitleList: Enjoy Visyond’s advanced spreadsheet for free.
       title: Base App
       url: ''
-    - BeforeBulletPoints: 'You get all the features, and can request:'
+    - BeforeBulletPoints: 'You get all the features, and can request (priced separately):'
       PricePrimary: $295
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,950 user/year'
@@ -32,7 +32,7 @@ pricingCards:
         text: Request a demo
         url: /request
       img: /img/report_presentation_visualization_3x.png
-      markdown: "* Premium Support\r\n* Customizations\r\n* Integrations\r\n* On-premise Installation (5+ licenses)\r\n* Whitelabeling"
+      markdown: "* Premium Support\r\n* Customizations\r\n* Integrations\r\n* On-premise Installation\n* Whitelabeling"
       subTitleList: Get everything Visyond has to offer without any limitations.
       title: Complete
       url: ''
