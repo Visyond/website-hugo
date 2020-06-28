@@ -1,9 +1,9 @@
 ---
 url: /financial-modelling-innovation-awards-2020
-title: >-
-  Visyond wins the Out of Excel award at the<br> Financial Modelling Innovation
-  Awards 2020!
+title: Financial Modelling Innovation Awards 2020
 ---
+# Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!
+
 <video style="width: 100%; height: auto;" poster="/video/Financial Modelling Award Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
 <source src="/video/Financial Modelling Award Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
