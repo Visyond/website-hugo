@@ -6,8 +6,10 @@ resourcesDropdown:
     title: Case Studies
   - path: /faq
     title: FAQ
+  - path: /financial-modelling-innovation-awards-2020/
+    title: Financial Modelling Innovation Awards 2020  
   - path: /press/
-    title: Press   
+    title: Press     
   - path: /partner-with-visyond/
     title: Partner with Visyond
 solutionsInfoTitle: Answer questions in seconds
