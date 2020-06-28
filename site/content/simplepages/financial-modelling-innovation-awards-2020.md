@@ -2,7 +2,7 @@
 url: /financial-modelling-innovation-awards-2020
 title: Financial Modelling Innovation Awards 2020
 ---
-# Visyond wins the Out of Excel award at the<br> Financial Modelling Innovation Awards 2020!
+# Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!
 
 <video style="width: 100%; height: auto;" poster="/video/Financial Modelling Award Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
 <source src="/video/Financial Modelling Award Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
@@ -72,3 +72,5 @@ Iain has degrees in mathematics from Cambridge and the London School of Economic
 Lance is a highly innovative, commercially savvy and lateral thinking financial modeller. His ability to distill complex financial problems into meaningful insight led him to founding Model Citizn.
 
 He is an ex-Investment Banker and KPMG modeller, CFO of fintech lender Banjo and Group CFO for Sequel CFO and is touring the world on the Future of Financial Modelling.
+
+<br><br>
