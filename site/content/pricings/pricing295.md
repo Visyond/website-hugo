@@ -6,7 +6,7 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: 'For free, you get:'
+    - BeforeBulletPoints: 'For free, you get:<br><br>'
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -44,27 +44,37 @@ pricingCards:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
-      markdown: |-
-        Scenario Management
+      markdown: >-
+        [Scenario Management]
 
-        Audit Mode and Error Root Cause
+
+        [Audit Mode and Error Root Cause](/features/spreadsheet-auditing/)
+
 
         [Sensitivity Analysis](/features/sensitivity-analysis-tool/)
 
-        Tornado Analysis
 
-        Scenario Analysis
+        [Tornado Analysis](/features/business-impact-analysis-tool/)
 
-        Scenario Waterfall
 
-        Monte Carlo Simulations
+        [Scenario Analysis](/features/scenario-analysis-software/)
 
-        Financial Statements
 
-        Interactive Dashboards
+        [Scenario Waterfall](/features/scenario-analysis-software/)
 
-        Sharing of Specific Project Parts with Specific People
-      subTitleList: Pick only the features that you need. Scale as your team grows.
+
+        [Monte Carlo Simulations](/features/monte-carlo-simulation-software/)
+
+
+        [Financial Statements](/features/financial-statement-generator/)
+
+
+        [Interactive Dashboards](/features/interactive-presentation-software/)
+
+
+        [Sharing of Specific Project Parts with Specific
+        People](/features/share-spreadsheets-and-presentations-online/)
+      subTitleList: Select only the features that you need. Scale as your team grows.
       title: Build Your Own
       url: ''
   title: 'After the Trial, Select What You Need'
