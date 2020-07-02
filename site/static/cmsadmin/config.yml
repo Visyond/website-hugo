@@ -680,7 +680,7 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "URL", name: "url", widget: "string"},
                 {label: "Icon", name: "img", widget: "image"},
                 {label: "Description", name: "subTitleList", widget: "markdown"},
-                {label: "BeforeBulletPoints", name: "BeforeBulletPoints", widget: "string"},
+                {label: "BeforeBulletPoints", name: "BeforeBulletPoints", widget: "markdown", required: false},
                 {label: "Features", name: "markdown", widget: "markdown", required: false},
                 {label: "CTA Button", name: "cta", widget: "object", fields: [
                         {label: "URL", name: "url", widget: "string"},
