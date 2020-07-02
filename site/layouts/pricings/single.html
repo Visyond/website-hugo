@@ -134,7 +134,12 @@
 		    <div class="price-wrapper">
                         <div class="price-primary-value">{{ .PricePrimary }}</div>
                         <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
-                        <div class="price-secondary">{{ .PriceSecondary }}</div>
+			    
+                        {{ if .Params.PriceSecondary }}
+			<div class="price-secondary">{{ .PriceSecondary }}</div>
+			{{ else }}
+			<div class="price-secondary"><br></div>
+			{{ end }}  
 		    </div>
 			
 			    
