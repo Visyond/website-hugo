@@ -6,53 +6,78 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: Includes everything in BUILD tab
-      PricePrimary: $100
-      PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $1,000 user/year'
+    - BeforeBulletPoints: 'For free, you get:'
+      PricePrimary: Free Forever
+      PricePrimaryPeriod: ''
+      PriceSecondary: ''
       cta:
         text: Request a Demo
         url: /request/
       img: /img/spreadsheet_collaboration_3x.png
-      markdown: "* Create, manage and merge Scenarios\n* Share only specific worksheets\r\n* Edit without overwriting others’ inputs\r\n\r* Track changes and assumptions\r\n* Organize documents and conversations\r"
-      subTitleList: >-
-        Import or build models, understand spreadsheet structure and identify
-        errors and anomalies 
-      title: Smart Modeler
+      markdown: |
+        * Assumptions Management
+        * Human-readable Formulas
+        * Project Status Report
+        * Advanced Charts
+        * Project Sharing
+        * Public Link
+      subTitleList: Enjoy Visyond’s advanced spreadsheet for free.
+      title: Base App
       url: ''
-    - BeforeBulletPoints: Includes everything in ANALYZE tab
-      PricePrimary: $100
+    - BeforeBulletPoints: 'You get all the features, and can request (priced separately):'
+      PricePrimary: $295
       PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $1,000 user/year'
+      PriceSecondary: 'or $2,950 user/year'
       cta:
         text: Request a demo
         url: /request
       img: /img/report_presentation_visualization_3x.png
-      markdown: |-
-        * Visually compare and analyze scenarios
-        * Find important cells with Sensitivity analysis
-        * Manage risk with Monte Carlo Simulations
-        * Visualize data without exporting to dedicated tools
-      subTitleList: >-
-        Automate analytical tasks, answer ‘what-if’ questions and present
-        results on the fly
-      title: Master Analyst
+      markdown: "Premium Support\r\n\nCustomizations\r\n\nIntegrations\r\n\nOn-premise Installation\n\nWhitelabeling"
+      subTitleList: Get everything Visyond has to offer without any limitations.
+      title: Complete
       url: ''
-    - BeforeBulletPoints: Includes everything in REPORT tab
-      PricePrimary: $110
+    - BeforeBulletPoints: 'Select what you need:'
+      PricePrimary: From $25
       PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $1,100 user/year'
+      PriceSecondary: depends on the features you pick
       cta:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
-      markdown: "* Share only specific slides\r\n* Create spreadsheet-driven calculators\r\n\r* Test assumptions w/o touching model\r\n* Generate and link Financial Statements to model\r"
-      subTitleList: >-
-        Effectively communicate results of your work to both technical and
-        non-technical audience
-      title: Agile Presenter
+      markdown: >-
+        [Scenario Management] (/features/scenario-analysis-software/)
+
+
+        [Audit Mode and Error Root Cause](/features/spreadsheet-auditing/)
+
+
+        [Sensitivity Analysis](/features/sensitivity-analysis-tool/)
+
+
+        [Tornado Analysis](/features/business-impact-analysis-tool/)
+
+
+        [Scenario Analysis](/features/scenario-analysis-software/)
+
+
+        [Scenario Waterfall](/features/scenario-analysis-software/)
+
+
+        [Monte Carlo Simulations](/features/monte-carlo-simulation-software/)
+
+
+        [Financial Statements](/features/financial-statement-generator/)
+
+
+        [Interactive Dashboards](/features/interactive-presentation-software/)
+
+
+        [Sharing of Specific Project Parts with Specific
+        People](/features/share-spreadsheets-and-presentations-online/)
+      subTitleList: Select only the features that you need. Scale as your team grows.
+      title: Build Your Own
       url: ''
-  title: Or Pick the Modules You Need
+  title: 'After the Trial, Select What You Need'
 whyCards:
   cards:
     - description:
