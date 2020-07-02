@@ -6,7 +6,7 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: 'For free, you get:<br><br>'
+    - BeforeBulletPoints: 'For free, you get:'
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -45,7 +45,7 @@ pricingCards:
         url: /request
       img: /img/analyst_and_consultant_3x.png
       markdown: >-
-        [Scenario Management]
+        [Scenario Management] (/features/scenario-analysis-software/)
 
 
         [Audit Mode and Error Root Cause](/features/spreadsheet-auditing/)
