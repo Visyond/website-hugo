@@ -302,6 +302,21 @@ text-align: center;
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
 
+/* BULLET POINTS AND PARAGRAPHIS INSIDE THE PRICING CARDS */
+.card__markdown p {
+margin-bottom: 15px;
+padding-left: 1em;
+font-weight: 400;
+color: #0e2639;
+font-size: 1.2rem;
+}
+
+.card__markdown a, .card__markdown a:visited {
+text-decoration: underline;
+color: #0086ff;
+}
+/* END BULLET POINTS AND PARAGRAPHIS INSIDE THE PRICING CARDS */
+
 /* CARDS FOR CONTACT US IF YOU NEED... SECTION */
 .pricing__card {
   display: -webkit-flex;
