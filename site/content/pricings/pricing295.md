@@ -32,7 +32,7 @@ pricingCards:
         text: Request a demo
         url: /request
       img: /img/report_presentation_visualization_3x.png
-      markdown: "* Premium Support\r\n* Customizations\r\n* Integrations\r\n* On-premise Installation\n* Whitelabeling"
+      markdown: "Premium Support\r\n\nCustomizations\r\n\nIntegrations\r\n\nOn-premise Installation\n\nWhitelabeling"
       subTitleList: Get everything Visyond has to offer without any limitations.
       title: Complete
       url: ''
@@ -44,7 +44,26 @@ pricingCards:
         text: Request a Demo
         url: /request
       img: /img/analyst_and_consultant_3x.png
-      markdown: "* Scenario Management\r\n* Audit Mode and Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r\n* Sharing of Specific Project Parts with Specific People"
+      markdown: |-
+        Scenario Management
+
+        Audit Mode and Error Root Cause
+
+        [Sensitivity Analysis](/features/sensitivity-analysis-tool/)
+
+        Tornado Analysis
+
+        Scenario Analysis
+
+        Scenario Waterfall
+
+        Monte Carlo Simulations
+
+        Financial Statements
+
+        Interactive Dashboards
+
+        Sharing of Specific Project Parts with Specific People
       subTitleList: Pick only the features that you need. Scale as your team grows.
       title: Build Your Own
       url: ''
