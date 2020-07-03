@@ -7,7 +7,9 @@ bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
     - BeforeBulletPoints: |
-        For free, you get:<br>  
+        For free, you get:
+
+        <br>  
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -38,7 +40,9 @@ pricingCards:
       title: Complete
       url: ''
     - BeforeBulletPoints: |
-        Select what you need:<br>  
+        Select what you need:
+
+        <br>  
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
       PriceSecondary: depends on the features you pick
