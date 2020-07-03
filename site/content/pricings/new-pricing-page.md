@@ -6,7 +6,7 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: |
+    - BeforeBulletPoints: >-
         For free, you get:<br>
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
@@ -25,7 +25,8 @@ pricingCards:
       subTitleList: Enjoy Visyond’s advanced spreadsheet for free.
       title: Base App
       url: ''
-    - BeforeBulletPoints: 'You get all the features. Contact us if you need:'
+    - BeforeBulletPoints: >-
+        You get all the features. Contact us if you need:
       PricePrimary: $295
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,950 user/year'
@@ -37,7 +38,8 @@ pricingCards:
       subTitleList: Get everything Visyond has to offer without any limitations.
       title: Complete
       url: ''
-    - BeforeBulletPoints: 'Select what you need:<br>'
+    - BeforeBulletPoints: >-
+        Select what you need:<br>
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
       PriceSecondary: depends on the features you pick
