@@ -78,8 +78,9 @@
     font-weight: 400;
     list-style-type: none;
     padding: 0;
-    opacity: 0.8;
+    /*opacity: 0.8;*/
     color: #0e2639;
+    font-size: 1.1em;
 
     & > ul {
         list-style: none;
