@@ -274,7 +274,7 @@ color: #0585ff;
 font-size: 1.5em;
 display: inline;
     @media screen and (max-width: 1024px) {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }		
 }
 
@@ -303,7 +303,7 @@ font-size: 1em;
 
 /* BEFORE BULLET POINTS IN PRICING CARD */
 .before-bullet-points {
-margin: 0 0 2em 0;
+margin: 0 0 1em 0;
 font-weight: 600;
 font-size: 1.1em;
 text-align: center;
