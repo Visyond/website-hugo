@@ -273,6 +273,9 @@ font-weight: 400;
 color: #0585ff;
 font-size: 1.5em;
 display: inline;
+    @media screen and (max-width: 1024px) {
+        font-size: 2.5em;
+    }		
 }
 
 
@@ -281,6 +284,9 @@ font-weight: 400;
 color: #0585ff;
 font-size: 1.2em;
 display: inline;
+    @media screen and (max-width: 1024px) {
+        font-size: 1.8em;
+    }		
 }
 
 
@@ -288,6 +294,9 @@ display: inline;
 font-weight: 400;
 color: #5f6976;
 font-size: 1em;
+    @media screen and (max-width: 1024px) {
+        font-size: 1.4em;
+    }		
 }
 /* END ANNUAL/MONTHLY PRICE */
 
@@ -299,6 +308,10 @@ font-weight: 600;
 font-size: 1.1em;
 text-align: center;
 color: #50546d;
+    @media screen and (max-width: 1024px) {
+        font-size: 1.4em;
+    }		
+	
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
@@ -309,10 +322,12 @@ margin-bottom: 15px;
 padding-left: 1em;
 font-weight: 400;
 color: #0e2639;
-font-size: 1.2rem;
+font-size: 1.2em;
 	
     @media screen and (max-width: 1024px) {
         text-align: center;
+	padding-left: 0em;
+	font-size: 1.4em;    
     }	
 	
 }
