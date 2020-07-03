@@ -295,11 +295,10 @@ font-size: 1em;
 /* BEFORE BULLET POINTS IN PRICING CARD */
 .before-bullet-points {
 margin: 0 0 2em 0;
-color: #5f6976;
 font-weight: 600;
-font-size: 1em;
+font-size: 1.1em;
 text-align: center;
-color: #0e2639;
+color: #50546d;
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
