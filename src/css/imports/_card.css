@@ -73,6 +73,9 @@
     font-size: 2em;
     font-weight: 600;
     color: #50546d;
+    @media screen and (max-width: 1024px) {
+        font-size: 2.5em;
+    }	     
 }
 
 .card__subtitle {
@@ -92,6 +95,10 @@
 
         margin: 1em 0;
     }
+    @media screen and (max-width: 1024px) {
+        font-size: 1.4em;
+    }	    
+    
 }
 
 .card__markdown {
@@ -109,7 +116,7 @@
     padding-left: 2em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 1.2rem;
+    font-size: 1.2em;
 
     &:not(:last-child) {
         margin-bottom: 15px;
@@ -126,6 +133,8 @@
 
     @media screen and (max-width: 1024px) {
         text-align: center;
+        padding-left: 0em;
+        font-size: 1.4em;
     }
 
     &:before {
