@@ -6,7 +6,8 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: 'For free, you get:'
+    - BeforeBulletPoints: |
+        For free, you get:<br>
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -36,7 +37,7 @@ pricingCards:
       subTitleList: Get everything Visyond has to offer without any limitations.
       title: Complete
       url: ''
-    - BeforeBulletPoints: 'Select what you need:'
+    - BeforeBulletPoints: 'Select what you need:<br>'
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
       PriceSecondary: depends on the features you pick
