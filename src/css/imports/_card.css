@@ -116,7 +116,7 @@
     padding-left: 2em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 1.2em;
+    font-size: 1.1em;
 
     &:not(:last-child) {
         margin-bottom: 15px;
