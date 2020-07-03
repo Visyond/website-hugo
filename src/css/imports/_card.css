@@ -14,10 +14,11 @@
 .card__list-item {
     width: 400px;
     background: #fff;
-    box-shadow: 0 1em 2.5em rgba(107, 133, 187, 0.33);
+    box-shadow: 0 1em 1em rgba(107, 133, 187, 0.33);
     padding: 40px 35px 30px;
     margin: 0 1em;
     transition: all 0.1s ease-out;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(241,244,252,1) 75%, rgba(241,244,252,1) 100%);
 
     @media screen and (--hd) {
         width: 320px;
@@ -70,8 +71,8 @@
 
 .card__title__pricing {
     font-size: 2em;
-    font-weight: 400;
-    color: #383e4d;
+    font-weight: 600;
+    color: #50546d;
 }
 
 .card__subtitle {
