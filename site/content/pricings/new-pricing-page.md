@@ -48,7 +48,7 @@ pricingCards:
         [Scenario Management] (/features/scenario-analysis-software/)
 
 
-        [Audit Mode and Error Root Cause](/features/spreadsheet-auditing/)
+        [Audit Mode & Error Root Cause](/features/spreadsheet-auditing/)
 
 
         [Sensitivity Analysis](/features/sensitivity-analysis-tool/)
