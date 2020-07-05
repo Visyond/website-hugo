@@ -11,8 +11,8 @@ pricingCards:
       PricePrimaryPeriod: ''
       PriceSecondary: ''
       cta:
-        text: Request a Demo
-        url: /request/
+        text: Sign Up
+        url: /accounts/signup/
       img: /img/spreadsheet_collaboration_3x.png
       markdown: |
         * Assumptions Management
@@ -29,8 +29,8 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: depends on the features you pick
       cta:
-        text: Request a Demo
-        url: /request
+        text: Upgrade
+        url: '/profile#billing'
       img: /img/analyst_and_consultant_3x.png
       markdown: >-
         [Scenario Management] (/features/scenario-analysis-software/)
@@ -70,15 +70,18 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,950 user/year'
       cta:
-        text: Request a demo
-        url: /request
+        text: Upgrade
+        url: '/profile#billing'
       img: /img/report_presentation_visualization_3x.png
       markdown: '* All features'
       subTitleList: Get all Visyond's features with a 20% discount.
       title: Complete
-      url: ''      
+      url: ''
     - BeforeBulletPoints: 'All in Complete, plus:'
       PricePrimary: Contact Us
+      cta:
+        text: Contact Us
+        url: /request
       img: /img/decision_makers_3x.png
       markdown: "* Discounts for multiple subscriptions\n\n* Premium Support\r\n\r\n* Customizations\r\n\r\n* Integrations\r\n\r\n* On-premise Installation\r\n\r\n* Whitelabeling"
       subTitleList: Ideal for small and large teams with unique requirements.
