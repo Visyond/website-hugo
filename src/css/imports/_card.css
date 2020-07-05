@@ -15,7 +15,7 @@
     width: 400px;
     background: #fff;
     box-shadow: 0 1em 1em rgba(107, 133, 187, 0.33);
-    padding: 40px 35px 30px;
+    padding: 20px 20px 30px;
     margin: 0 1em;
     transition: all 0.1s ease-out;
     /*background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(241,244,252,1) 75%, rgba(241,244,252,1) 100%); */
@@ -70,7 +70,7 @@
 }
 
 .card__title__pricing {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 600;
     color: #50546d;
     @media screen and (max-width: 1024px) {
@@ -84,7 +84,7 @@
     padding: 0;
     /*opacity: 0.8;*/
     color: #0e2639;
-    font-size: 1.1em;
+    font-size: 1em;
 
     & > ul {
         list-style: none;
@@ -116,7 +116,7 @@
     padding-left: 2em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 1.1em;
+    font-size: 1em;
 
     &:not(:last-child) {
         margin-bottom: 15px;
