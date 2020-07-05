@@ -75,16 +75,16 @@ pricingCards:
       img: /img/report_presentation_visualization_3x.png
       markdown: '* All features'
       subTitleList: Get all Visyond's features with a 20% discount.
-      title: Complete
+      title: Full
       url: ''
-    - BeforeBulletPoints: 'All in Complete, plus:'
+    - BeforeBulletPoints: 'All in Full, plus option to request:'
       PricePrimary: Contact Us
       cta:
         text: Contact Us
         url: /request
       img: /img/decision_makers_3x.png
-      markdown: "* Discounts for multiple subscriptions\r\n* Premium Support\r\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
-      subTitleList: Ideal for small and large teams with unique requirements.
+      markdown: "* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
+      subTitleList: Get discounts for multiple subscriptions and premium support.
       title: Teams
   title: 'After the Trial, Select What You Need'
 whyCards:
