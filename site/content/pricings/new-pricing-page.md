@@ -24,18 +24,6 @@ pricingCards:
       subTitleList: 'After the trial, you''ll keep access to your projects and data.'
       title: Base App
       url: ''
-    - BeforeBulletPoints: 'You get:'
-      PricePrimary: $295
-      PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $2,950 user/year'
-      cta:
-        text: Request a demo
-        url: /request
-      img: /img/report_presentation_visualization_3x.png
-      markdown: '* All features'
-      subTitleList: Get all Visyond's features with a 20% discount.
-      title: Complete
-      url: ''
     - BeforeBulletPoints: 'Select what you need:<br><br>'
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
@@ -77,6 +65,18 @@ pricingCards:
       subTitleList: Select only the features that you need. Scale as your team grows.
       title: Build Your Own
       url: ''
+    - BeforeBulletPoints: 'You get:'
+      PricePrimary: $295
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $2,950 user/year'
+      cta:
+        text: Request a demo
+        url: /request
+      img: /img/report_presentation_visualization_3x.png
+      markdown: '* All features'
+      subTitleList: Get all Visyond's features with a 20% discount.
+      title: Complete
+      url: ''      
     - BeforeBulletPoints: 'All in Complete, plus:'
       PricePrimary: Contact Us
       img: /img/decision_makers_3x.png
