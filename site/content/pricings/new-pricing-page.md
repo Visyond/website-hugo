@@ -6,7 +6,7 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: 'For free, you get:<br><br>'
+    - BeforeBulletPoints: 'You get:<br><br>'
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -21,10 +21,10 @@ pricingCards:
         * Advanced Charts
         * Project Sharing
         * Public Link
-      subTitleList: Enjoy Visyond’s advanced spreadsheet for free.
+      subTitleList: 'After the trial, you''ll keep access to your projects and data.'
       title: Base App
       url: ''
-    - BeforeBulletPoints: 'You get all the features.<br> Contact us if you need:'
+    - BeforeBulletPoints: 'You get:'
       PricePrimary: $295
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,950 user/year'
@@ -32,8 +32,8 @@ pricingCards:
         text: Request a demo
         url: /request
       img: /img/report_presentation_visualization_3x.png
-      markdown: "Premium Support\r\n\nCustomizations\r\n\nIntegrations\r\n\nOn-premise Installation\n\nWhitelabeling"
-      subTitleList: Get everything Visyond has to offer without any limitations.
+      markdown: '* All features'
+      subTitleList: Get all Visyond's features with a 20% discount.
       title: Complete
       url: ''
     - BeforeBulletPoints: 'Select what you need:<br><br>'
@@ -77,6 +77,12 @@ pricingCards:
       subTitleList: Select only the features that you need. Scale as your team grows.
       title: Build Your Own
       url: ''
+    - BeforeBulletPoints: 'All in Complete, plus:'
+      PricePrimary: Contact Us
+      img: /img/decision_makers_3x.png
+      markdown: "* Discounts for multiple subscriptions\n\n* Premium Support\r\n\r\n* Customizations\r\n\r\n* Integrations\r\n\r\n* On-premise Installation\r\n\r\n* Whitelabeling"
+      subTitleList: Ideal for small and large teams with unique requirements.
+      title: Teams
   title: 'After the Trial, Select What You Need'
 whyCards:
   cards:
