@@ -6,7 +6,7 @@ topSubTitle: ''
 bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
-    - BeforeBulletPoints: 'You get:<br><br>'
+    - BeforeBulletPoints: 'You get:'
       PricePrimary: Free Forever
       PricePrimaryPeriod: ''
       PriceSecondary: ''
@@ -24,7 +24,7 @@ pricingCards:
       subTitleList: 'After the trial, you''ll keep access to your projects and data.'
       title: Base App
       url: ''
-    - BeforeBulletPoints: 'Select what you need:<br><br>'
+    - BeforeBulletPoints: 'Select what you need:'
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
       PriceSecondary: depends on the features you pick
