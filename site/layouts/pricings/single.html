@@ -143,7 +143,14 @@
 		    </div>
 			
 			    
-                    
+                    {{ with .cta }}
+                    <div class="btn-wrap" style="margin-top: 0;">
+                        <a style="width: 80%; margin: 2em auto auto auto;"  href="{{.url}}" class="btn-primary fluid" aria-label="button">
+                            {{ .text }}
+                        </a>
+                    </div>
+                    {{ end }}
+			
                     <hr class="divider-thin">
 		<div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
 			
@@ -153,7 +160,7 @@
                     </div>
                     {{ end }}
 
-		  <!-- CTA -->		
+		  <!-- CTA 	
                     {{ with .cta }}
                     <div class="btn-wrap">
                         <a  href="{{.url}}"
@@ -163,7 +170,7 @@
                         </a>
                     </div>
                     {{ end }}
-		<!--//CTA -->
+		//CTA -->
 			
                 </article>
 
