@@ -27,7 +27,7 @@ pricingCards:
     - BeforeBulletPoints: 'Select what you need:'
       PricePrimary: From $25
       PricePrimaryPeriod: user/month
-      PriceSecondary: depends on the features you pick
+      PriceSecondary: or $250 user/year
       cta:
         text: Upgrade
         url: '/profile#billing'
