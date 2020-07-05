@@ -318,12 +318,14 @@ color: #50546d;
 
 /* BULLET POINTS AND PARAGRAPHIS INSIDE THE PRICING CARDS */
 .card__markdown p {
-margin-bottom: 15px;
 padding-left: 1em;
 font-weight: 400;
 color: #0e2639;
 font-size: 1em;
-	
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }	
     @media screen and (max-width: 1024px) {
         text-align: center;
 	padding-left: 0em;
