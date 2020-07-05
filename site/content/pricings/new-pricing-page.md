@@ -83,7 +83,7 @@ pricingCards:
         text: Contact Us
         url: /request
       img: /img/decision_makers_3x.png
-      markdown: "* Discounts for multiple subscriptions\n\n* Premium Support\r\n\r\n* Customizations\r\n\r\n* Integrations\r\n\r\n* On-premise Installation\r\n\r\n* Whitelabeling"
+      markdown: "* Discounts for multiple subscriptions\r\n* Premium Support\r\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
       subTitleList: Ideal for small and large teams with unique requirements.
       title: Teams
   title: 'After the Trial, Select What You Need'
