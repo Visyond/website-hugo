@@ -191,7 +191,7 @@ body > p {
     margin: 0 auto;
 
     @media screen and (max-width: 1211px) {
-        width: 1024px;
+        width: 100%;
     }
     @media screen and (max-width: 1051px) {
         width: 992px;
