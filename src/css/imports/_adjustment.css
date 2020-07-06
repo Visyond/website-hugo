@@ -194,7 +194,7 @@ body > p {
         width: 100%;
     }
     @media screen and (max-width: 1051px) {
-        width: 992px;
+        width: 100%;
     }
     @media screen and (max-width: 1021px) {
         width: 768px;
