@@ -7,7 +7,7 @@ bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
     - BeforeBulletPoints: 'You get:'
-      PricePrimary: Free Forever
+      PricePrimary: Free
       PricePrimaryPeriod: ''
       PriceSecondary: ''
       cta:
@@ -21,7 +21,9 @@ pricingCards:
         * Advanced Charts
         * Project Sharing
         * Public Link
-      subTitleList: 'After the trial, you''ll keep access to your projects and data.'
+      subTitleList: >-
+        Use the Base App and keep access to your projects and data after the
+        trial.
       title: Base App
       url: ''
     - BeforeBulletPoints: 'Select what you need:'
@@ -75,7 +77,7 @@ pricingCards:
       img: /img/report_presentation_visualization_3x.png
       markdown: '* All features'
       subTitleList: Get all Visyond's features with a 20% discount.
-      title: Full
+      title: Pro
       url: ''
     - BeforeBulletPoints: 'All in Full, plus option to request:'
       PricePrimary: Contact Us
