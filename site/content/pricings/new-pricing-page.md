@@ -79,7 +79,7 @@ pricingCards:
       subTitleList: Get all Visyond's features with a 20% discount.
       title: Pro
       url: ''
-    - BeforeBulletPoints: 'All in Full, plus option to request:'
+    - BeforeBulletPoints: 'You get all the features, plus you can request:'
       PricePrimary: Contact Us
       cta:
         text: Contact Us
