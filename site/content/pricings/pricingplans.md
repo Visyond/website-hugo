@@ -41,7 +41,9 @@ pricingCards:
         * 5 projects
         * 50MB storage
         * No external sources
-      subTitleList: Select only the features that you need. Scale as your team grows.
+      subTitleList: >-
+        If you mostly work on your own on a few projects and do not need all the
+        modules, you can select only the features that you need.
       title: Build Your Own
       url: ''
     - PricePrimary: $47
@@ -58,8 +60,9 @@ pricingCards:
         * 50MB storage
         * No external sources
       subTitleList: >-
-        Tratata, tratata, tararar jahaha blah blah blah asdasdasd. Ahdhasd
-        ujasgd hbaai yr yuawfd.
+        If you need all the modules and want to collaborate on your projects
+        with a few people. Consider this plan if you want to use more than 5
+        features.
       title: Basic
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
@@ -75,8 +78,8 @@ pricingCards:
         * 100MB storage
         * 2 external sources
       subTitleList: >-
-        Tratata, tratata, tararar jahaha blah blah blah asdasdasd. Ahdhasd
-        ujasgd hbaai yr yuawfd.
+        If you need all the modules and want to actively collaborate on your
+        projects. 
       title: Plus
     - BeforeBulletPoints: ''
       PricePrimary: $297
@@ -88,7 +91,9 @@ pricingCards:
       img: /img/report_presentation_visualization_3x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
       markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1000MB storage\r\n* ∞ external sources"
-      subTitleList: Get all Visyond's features with a 20% discount.
+      subTitleList: >-
+        If you need to collaborate with many internal and external stakeholders
+        on many projects simultaneously.
       title: Unlimited
       url: ''
     - BeforeBulletPoints: ''
@@ -104,10 +109,13 @@ pricingCards:
 
         * Customizations
         * Integrations
+        * Premium Support
         * On-premise Installation
         * Whitelabeling
       markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1000MB storage\r\n* ∞ external sources"
-      subTitleList: Get discounts for multiple subscriptions and premium support.
+      subTitleList: >-
+        Scale as your team grows. Talk to us if you have specific requirements
+        or want to buy multiple subscriptions.
       title: Teams
   title: 'After the Trial, Select What You Need'
 whyCards:
