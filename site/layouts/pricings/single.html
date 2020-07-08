@@ -160,6 +160,13 @@
                     </div>
                     {{ end }}
 
+		{{ with .markdown2 }}
+                    <hr class="divider-thin">			
+                    <div class="card__markdown">
+                        {{ . | markdownify }}
+                    </div>
+                    {{ end }}
+			
 		  <!-- CTA 	
                     {{ with .cta }}
                     <div class="btn-wrap">
