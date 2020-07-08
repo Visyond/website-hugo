@@ -132,6 +132,9 @@
 			
                     <hr class="divider-thin">			
 		    <div class="price-wrapper">
+			{{ if .BeforePricePrimary }}    
+			<div class="price-primary-period">{{ .BeforePricePrimary }}</div>
+			{{ end }}    
                         <div class="price-primary-value">{{ .PricePrimary }}</div>
                         <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
 			    
