@@ -107,13 +107,13 @@ pricingCards:
       subTitleList: Get all Visyond's features with a 20% discount.
       title: Unlimited
       url: ''
-    - BeforeBulletPoints: 'You get all the features, plus you can request:'
+    - BeforeBulletPoints: ''
       PricePrimary: Custom
       cta:
         text: Contact Us
         url: /request
       img: /img/decision_makers_3x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n* Selective Sharing\r\n* Public Link\n\nPlus, you can request:\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
+      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n* Selective Sharing\r\n* Public Link\n\n**Plus, you can request:**\n\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
       markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
       subTitleList: Get discounts for multiple subscriptions and premium support.
       title: Teams
