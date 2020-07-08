@@ -27,7 +27,8 @@ pricingCards:
       title: Base App
       url: ''
     - BeforeBulletPoints: 'Select what you need:'
-      PricePrimary: From $25
+      BeforePricePrimary: 'From  '
+      PricePrimary: $25
       PricePrimaryPeriod: user/month
       PriceSecondary: or $250 user/year
       cta:
