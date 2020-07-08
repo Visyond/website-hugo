@@ -103,7 +103,7 @@ pricingCards:
         url: '/profile#billing'
       img: /img/report_presentation_visualization_3x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
-      markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
+      markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1 GB storage\r\n* ∞ external sources"
       subTitleList: Get all Visyond's features with a 20% discount.
       title: Unlimited
       url: ''
