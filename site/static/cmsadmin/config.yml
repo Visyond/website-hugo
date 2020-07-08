@@ -674,6 +674,7 @@ collections: # A list of collections the CMS should be able to edit
         {label: "Title", name: "title", widget: "string"},
         {label: "Cards", name: "cards", widget: "list", fields: [
                 {label: "Title", name: "title", widget: "string"},
+		{label: "BeforePricePrimary", name: "BeforePricePrimary", widget: "string"},
                 {label: "PricePrimary", name: "PricePrimary", widget: "string"},
                 {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "string"},
                 {label: "PriceSecondary", name: "PriceSecondary", widget: "string"},
