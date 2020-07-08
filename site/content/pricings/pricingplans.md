@@ -27,7 +27,8 @@ pricingCards:
       title: Free
       url: ''
     - BeforeBulletPoints: ''
-      PricePrimary: From $10
+      BeforePricePrimary: 'From  '
+      PricePrimary: $10
       PricePrimaryPeriod: user/month
       PriceSecondary: or $100 user/year
       cta:
