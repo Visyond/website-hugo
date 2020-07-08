@@ -1,5 +1,5 @@
 ---
-title: Pricing
+title: PricingPlans
 url: /pricingplans
 topTitle: Scalable Solution That Grows With You
 topSubTitle: ''
@@ -113,6 +113,9 @@ pricingCards:
       img: /img/audit-mode@2x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n"
       markdown2: "* 10 collaborators\r\n* 10 projects\r\n* 100mb storage\n* 2 external sources"
+      subTitleList: >-
+        Tratata, tratata, tararar jahaha blah blah blah asdasdasd. Ahdhasd
+        ujasgd hbaai yr yuawfd.
       title: Plus
   title: 'After the Trial, Select What You Need'
 whyCards:
