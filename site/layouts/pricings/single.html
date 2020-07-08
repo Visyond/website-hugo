@@ -154,13 +154,13 @@
                     <hr class="divider-thin">
 		<div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
 			
-		{{ with .markdown }}
+		{{ with .markdown2 }}
                     <div class="card__markdown">
                         {{ . | markdownify }}
                     </div>
                     {{ end }}
 
-		{{ with .markdown2 }}
+		{{ with .markdown }}
                     <hr class="divider-thin">			
                     <div class="card__markdown">
                         {{ . | markdownify }}
