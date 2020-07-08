@@ -73,6 +73,7 @@
     font-size: 1.6em;
     font-weight: 600;
     color: #50546d;
+    height: 50px;
     @media screen and (max-width: 1024px) {
         font-size: 2.5em;
     }	     
@@ -85,6 +86,7 @@
     /*opacity: 0.8;*/
     color: #0e2639;
     font-size: 1em;
+    height: 100px;
 
     & > ul {
         list-style: none;
