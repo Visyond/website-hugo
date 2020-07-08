@@ -68,29 +68,6 @@ pricingCards:
       subTitleList: Select only the features that you need. Scale as your team grows.
       title: Build Your Own
       url: ''
-    - BeforeBulletPoints: ''
-      PricePrimary: $297
-      PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $2,970 user/year'
-      cta:
-        text: Upgrade
-        url: '/profile#billing'
-      img: /img/report_presentation_visualization_3x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
-      markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
-      subTitleList: Get all Visyond's features with a 20% discount.
-      title: Unlimited
-      url: ''
-    - BeforeBulletPoints: 'You get all the features, plus you can request:'
-      PricePrimary: Custom
-      cta:
-        text: Contact Us
-        url: /request
-      img: /img/decision_makers_3x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n* Selective Sharing\r\n* Public Link\n\nPlus, you can request:\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
-      markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
-      subTitleList: Get discounts for multiple subscriptions and premium support.
-      title: Teams
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
       PriceSecondary: or $470 user/year
@@ -117,6 +94,29 @@ pricingCards:
         Tratata, tratata, tararar jahaha blah blah blah asdasdasd. Ahdhasd
         ujasgd hbaai yr yuawfd.
       title: Plus
+    - BeforeBulletPoints: ''
+      PricePrimary: $297
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $2,970 user/year'
+      cta:
+        text: Upgrade
+        url: '/profile#billing'
+      img: /img/report_presentation_visualization_3x.png
+      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
+      markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
+      subTitleList: Get all Visyond's features with a 20% discount.
+      title: Unlimited
+      url: ''
+    - BeforeBulletPoints: 'You get all the features, plus you can request:'
+      PricePrimary: Custom
+      cta:
+        text: Contact Us
+        url: /request
+      img: /img/decision_makers_3x.png
+      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n* Selective Sharing\r\n* Public Link\n\nPlus, you can request:\n* Customizations\r\n* Integrations\r\n* On-premise Installation\r\n* Whitelabeling"
+      markdown2: "* Unlimited collaborators\r\n* Unlimited projects\r\n* 1 GB storage\r\n* Unlimited external sources"
+      subTitleList: Get discounts for multiple subscriptions and premium support.
+      title: Teams
   title: 'After the Trial, Select What You Need'
 whyCards:
   cards:
