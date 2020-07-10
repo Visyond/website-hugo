@@ -90,8 +90,11 @@
                     {{ end }}
 			
                     <hr class="divider-thin">
+		<!--	
 		<div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
+		-->
 			
+		<!--
 		{{ with .markdown2 }}
                     <div class="card__markdown">
                         {{ . | markdownify }}
@@ -104,7 +107,10 @@
                         {{ . | markdownify }}
                     </div>
                 {{ end }}
+		-->
 		
+
+
 		<!-- limits list -->
 		{{ if .limitslist }}
 		<hr class="divider-thin">	
