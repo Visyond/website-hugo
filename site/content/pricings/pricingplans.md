@@ -15,13 +15,23 @@ pricingCards:
         url: /accounts/signup/
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
-        - title: Base App LIMIT
+        - title: Title + Link + Tooltip
           tooltip: |-
             Base App includes:
             * This thing
             * That thing
             * All other things
           url: /features
+        - title: Title + Tooltip
+          tooltip: |-
+            this is tooltip.
+
+            It's tooltipy.
+
+            * yay
+            * yay 
+            * yay
+        - title: Title
       markdown: |
         * Base App
       markdown2: |-
