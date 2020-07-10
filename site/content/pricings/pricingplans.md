@@ -148,7 +148,7 @@ contact:
   buttonlink: /request
   cards:
     - img: /img/decision_makers_3x.png
-      text: Get bulk discounts if buy 10+ subscriptions.
+      text: Get bulk discounts if you buy 10+ subscriptions.
       title: Multiple subscriptions
     - img: /img/real_estate_3x.png
       text: Install Visyond on your server.
