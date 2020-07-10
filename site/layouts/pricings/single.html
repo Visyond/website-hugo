@@ -96,26 +96,25 @@
                     <div class="card__markdown">
                         {{ . | markdownify }}
                     </div>
-                    {{ end }}
+                {{ end }}
 
 		{{ with .markdown }}
                     <hr class="divider-thin">			
                     <div class="card__markdown">
                         {{ . | markdownify }}
                     </div>
-                    {{ end }}
+                {{ end }}
+		
 			
-		  <!-- CTA 	
-                    {{ with .cta }}
-                    <div class="btn-wrap">
-                        <a  href="{{.url}}"
-                            class="btn-primary fluid"
-                            aria-label="button">
-                            {{ .text }}
-                        </a>
-                    </div>
-                    {{ end }}
-		//CTA -->
+		<div class="card__markdown">	
+		{{ range .limitslist }}
+                  <a href="{{ .url }}">{{ .title }}</a>
+                  	<div class="tooltipPricing">Hover over me
+                          <span class="tooltiptextPricing">Tooltip text</span>
+                        </div>
+                {{ end }}
+		</div>
+                	
 			
                 </article>
 
@@ -124,82 +123,9 @@
 
         </div>
         {{ end }}
-	    
-	<!-- Button after the cards   
-	<div class="btn-wrap" style="margin-top: 1em;">
-            <a href="/profile#billing" class="btn-primary">Upgrade</a>
-        </div> 
-	-->    
-	    
+	        
     </div>
 </section>
-
-
-<!-- Contact us if you need OLD
-<section id="contactUs" class="section primary center-align" style="background: #ffffff;">
-  <h2 class="header-section" style="font-weight: 600;">Contact Us If You Need</h2>
-  <div class="header-section--divider" style="margin: 2em auto 2em;"></div>
-
-<div class="ftr-features__cards">
-    
-	
-	<div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="/img/decision_makers_3x.png" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title" style="font-weight: 400;">Multiple subscriptions</h3>
-      
-    </div>
-	
-	
-	
-    <div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="/img/real_estate_3x.png" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title" style="font-weight: 400;">On-premise installation</h3>
-      
-    </div>
-    	
-	
-	
-    <div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="/img/data_input_3x.png" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title" style="font-weight: 400;">Integrations or personalized workflow</h3>
-      
-    </div>	
-	
-        <div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="/img/sensitivity@2x.png" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title" style="font-weight: 400;">Custom branding</h3>
-      
-    </div>	
-    
-     <div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="/img/audit-mode@2x.png" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title" style="font-weight: 400;">Premium support</h3>
-      
-    </div>
-       
-      	
-      
-      
-    <div class="btn-wrap" style="margin-top: 1em;">
-		
-	</div>
-    
-  </div>
-    <div class="btn-wrap" style="margin-top: 1em;">
-		<a href="/request" class="btn-primary">Contact Us</a>
-	</div>
-</section>
--- //Contact us if you need OLD -->
 
 	
 	
@@ -211,7 +137,7 @@
 	
     <div class="ftr-features__cards" style="margin-top: 45px;">
       {{ range .cards }}
-      <div class="pricing__card" style="padding: 0; margin: 1em 1em;">
+      <div class="pricing__card">
         <div class="ftr-features__card-image-wrap">
           <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
         </div>
