@@ -687,7 +687,17 @@ collections: # A list of collections the CMS should be able to edit
 			{label: "Limit Title", name: "title", widget: "string"},
 			{label: "Limit URL", name: "url", widget: "string"},
 			{label: "Limit Tooltip", name: "tooltip", widget: "markdown"}
-		]},	
+		]},
+		{label: "Features List", name: "featureslist", widget: "list", fields: [
+			{label: "Feature Title", name: "title", widget: "string"},
+			{label: "Feature URL", name: "url", widget: "string"},
+			{label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
+		]},
+		{label: "Features List 2", name: "featureslist2", widget: "list", fields: [
+			{label: "Feature Title", name: "title", widget: "string"},
+			{label: "Feature URL", name: "url", widget: "string"},
+			{label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
+		]},		
                 {label: "Features", name: "markdown", widget: "markdown", required: false},
                 {label: "CTA Button", name: "cta", widget: "object", fields: [
                         {label: "URL", name: "url", widget: "string"},
