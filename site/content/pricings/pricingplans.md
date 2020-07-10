@@ -90,28 +90,28 @@ pricingCards:
       title: Pro
       url: ''
   title: 'After the Trial, Select What You Need'
-contactUsSection:
-  contactUsButtonLink: /request
-  contactUsButtonText: Contact Us
-  contactUsHeader: Contact Us If You Need
-  contactUsCards:
-    - contactUsCardImage: /img/decision_makers_3x.png
-      contactUsCardText: Get bulk discounts if buy 10+ subscriptions.
-      contactUsCardTitle: Multiple subscriptions
-    - contactUsCardImage: /img/real_estate_3x.png
-      contactUsCardText: Install Visyond on your server.
-      contactUsCardTitle: On-premise installation
-    - contactUsCardImage: /img/data_input_3x.png
-      contactUsCardText: >-
+contact:
+  buttonlink: /request
+  buttonlabel: Contact Us
+  title: Contact Us If You Need
+  cards:
+    - img: /img/decision_makers_3x.png
+      text: Get bulk discounts if buy 10+ subscriptions.
+      title: Multiple subscriptions
+    - img: /img/real_estate_3x.png
+      text: Install Visyond on your server.
+      title: On-premise installation
+    - img: /img/data_input_3x.png
+      text: >-
         Integrate your existing systems with Visyond and satisfy your specific
         requirements.
-      contactUsCardTitle: Integrations or personalized workflow
-    - contactUsCardImage: /img/sensitivity@2x.png
-      contactUsCardText: White-label Visyond to improve your offering to your clients.
-      contactUsCardTitle: Custom branding
-    - contactUsCardImage: /img/audit-mode@2x.png
-      contactUsCardText: Get premium support.
-      contactUsCardTitle: Premium support
+      title: Integrations or personalized workflow
+    - img: /img/sensitivity@2x.png
+      text: White-label Visyond to improve your offering to your clients.
+      title: Custom branding
+    - img: /img/audit-mode@2x.png
+      text: Get premium support.
+      title: Premium support
 whyCards:
   cards:
     - description:
