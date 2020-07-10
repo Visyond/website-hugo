@@ -1,38 +1,5 @@
 {{ partial "hexHeader" . }}
 
-<!-- first section 
-<section class="cover" style="background-image: url({{ .Params.BgImage }})">
-    
-    <h1 class="cover-header">
-        {{ .Params.TopTitle }}
-    </h1>
-
-    <div class="cover-header--sub">
-        {{ .Params.TopSubTitle }}
-    </div>
-</section>
-//first section -->
-
-
-<!-- section 9 3/4 
-<section class="section half-gray" style="background: #f8f8f9;">
-<div class="container">
-	<h2 class="header-section">How Pricing Works?</h2>
-	<div class="header-section--divider"></div> 
-
-	<div class="home-info__block-descr" style="text-align: center; color: #383e4d; font-weight: 400;">
-		<p><span style="font-weight: 600;">Visyond includes different modules</span> that you can subscribe to independently on top of the base app, which is free.</p>
-		
-		<p>You can evaluate all modules during a 14-day trial. <span style="font-weight: 600;">You will keep access to the base app, your projects and data after the trial.</span></p>
-	</div>
-	
-	<div class="btn-wrap" style="margin-top: 1em;">
-		<a href="/request" class="btn-primary">Request demo</a>
-	</div>
-</div>
-</section>
- //section 9 3/4 -->
-
 <!-- How pricing works -->
 <div class="homehex ht">
 <section class="home-hero" style="padding: 60px 0px 60px 0px;">
@@ -73,39 +40,7 @@
 <!-- //How pricing works -->
 
 <!-- second section -->
-<section class="section half-gray">
-    
-    <!--
-    <h2 class="header-section" style="font-weight: 600;">After the Trial, You Can</h2>
-    <div class="header-section--divider" style="margin: 2em auto 2em;"></div>
-    
-    <div class="container">
-	<h2 class="header-section" style="font-size: 2.4em;margin: 0 auto 45px auto;font-weight: 400;">Keep Using the Free Version</h2>
-
-	<div class="types">
-		<div class="types__item">
-			<img src="/img/selective-sharing@2x.png" alt="" class="types__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;font-size: 1.5em;">
-					Collaborate without overwriting other people’s work
-			</h5>
-		</div>        
-	
-		<div class="types__item">
-			<img src="/img/knowledge-base@2x.png" alt="" class="types__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;font-size: 1.5em;">
-					Gather assumptions without version chaos
-			</h5>
-		</div>        	       
-
-		<div class="types__item">
-			<img src="/img/audit-mode@2x.png" alt="" class="types__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;font-size: 1.5em;">
-					Switch between assumptions and see how changes affect KPIs
-			</h5>
-		</div>        
-	</div>
-    </div>	
-    -->
+<section class="section half-gray"> 
     <div class="container-pricing">
         {{ with .Params.pricingCards }}
 
@@ -305,12 +240,13 @@
     <div class="container">
       <h2 class="header-section" style="font-weight: 600;">Contact Us</h2>
       <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
-        <input type="hidden" name="_next" value="https://visyond.com/pricing/">   
+        <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+	<input type="hidden" id="referrer" name="Referrer" value="" />      
         <div class="form__left-column" style="margin: 0; width: 50%;">
           <input style="height: 70px;" placeholder="First name" type="text" class="form__input" name="First name" required>
           <input style="height: 70px;" placeholder="Last name" type="text" class="form__input" name="Last name" required>
           <input style="height: 70px;" name="Business email" class="form__input" type="email" placeholder="Business email" required>
-          <input style="height: 70px;" name="Company website" class="form__input" type="text" placeholder="Company website" required>
+          <input style="height: 70px;" name="Company website" class="form__input" type="text" placeholder="Company website">
           <div class="form__textarea-container" style="height: 90px;">
             <textarea name="Message" class="form__textarea" placeholder="Message" rows="2"></textarea>
             <span class="form__textarea_optional">Optional</span>
@@ -328,37 +264,18 @@
 	
 <!-- //Contact us if you need NEW -->	
 
-<!-- Custom & Enterprise
-<section class="section half-gray" style="background: #f8f8f9;">
-<div class="container">
-	<h2 class="header-section">Custom and Enterprise Plans</h2>
-	<div class="header-section--divider"></div> 
-
-	<div class="home-info__block-descr" style="text-align: center; color: #383e4d; font-weight: 400;">
-		<p>Do you want to have Visyond <span style="font-weight: 600;">installed on-premise?</span></p>
-		
-		<p>Do you need <span style="font-weight: 600;">custom integrations, branding or personalized workflow?</span></p>
-		
-		<p>Do you require <span style="font-weight: 600;">premium support?</span></p>
-		
-		<p>Do you want to <span style="font-weight: 600;">buy multiple licenses</span> or use Visyond to <span style="font-weight: 600;">work with clients?</span></p>
-		
-		<p> Subscription is either monthly or annual per user - <span style="font-weight: 600;">the price varies depending on the number of users and the features they use.</span></p>
-		
-	</div>
-	
-	<div class="btn-wrap" style="margin-top: 1em;">
-		<a href="/request" class="btn-primary">Contact Us</a>
-	</div>
-</div>
-</section>
- //Custom & Enterprise -->
-
-
 {{ partial "hexSlider" . }}
 
 {{ partial "why-visyond-cards" . }}
 
-<!-- {{ partial "get-started" . }} -->
-
+<script>
+window.addEventListener('load', (event) => {
+  if(!document.referrer) {
+    document.getElementById('referrer').value = "No referrer";
+   } else {
+     document.getElementById('referrer').value = document.referrer;
+   }
+});
+</script>	
+	
 {{ partial "hexFooter" . }}
