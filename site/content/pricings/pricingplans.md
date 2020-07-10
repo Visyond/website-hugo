@@ -15,7 +15,7 @@ pricingCards:
         url: /accounts/signup/
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r\n\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
         - title: 2 projects
@@ -38,7 +38,7 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
         - title: Select specific features
           tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\r\n\r\n\r\nAvailable features:\r\n\r\n* Scenario Management\r\n* Audit Mode & Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall]\r\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r"
       img: /img/analyst_and_consultant_3x.png
@@ -60,7 +60,7 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
         - title: Build Module
           tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
         - title: Analyze Module
@@ -85,7 +85,7 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
         - title: Build Module
           tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
         - title: Analyze Module
@@ -114,7 +114,7 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
         - title: Build Module
           tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
         - title: Analyze Module
