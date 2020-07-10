@@ -105,7 +105,9 @@
                     </div>
                 {{ end }}
 		
-			
+		<!-- limits list -->
+		{{ if .limitslist }}
+		<hr class="divider-thin">	
 		<div class="card__markdown">
 		<ul>
 		{{ range .limitslist }}
@@ -118,7 +120,7 @@
                              
                       {{ if .tooltip }}
 			<div class="tooltipPricing">  
-                          <i class="material-icons" style="color: #0585ff; font-size: 1.2em; margin-left: 0.2em;">info</i>
+                          <i class="material-icons, tooltipIcon">info</i>
                           <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
 			</div>         				
                       {{ end }}
@@ -127,8 +129,61 @@
                 {{ end }}
 		</ul>	
                 </div>
-                	
+		{{ end}}	
+                <!-- //limits list -->
 			
+                <!-- features list 1 -->
+		{{ if .featureslist1 }}	
+		<hr class="divider-thin">	
+		<div class="card__markdown">
+		<ul>
+		{{ range .featureslist }}
+                  <li>
+                      {{ if .url }}
+                      <a href="{{ .url }}">{{ .title }}</a>
+                      {{ else }}
+                        {{ .title }}
+                      {{ end }}
+                             
+                      {{ if .tooltip }}
+			<div class="tooltipPricing">  
+                          <i class="material-icons, tooltipIcon">info</i>
+                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+			</div>         				
+                      {{ end }}
+                                  
+                  </li> 	  
+                {{ end }}
+		</ul>	
+                </div>
+		{{ end }}	
+			
+                <!-- features list 2 -->
+		{{ if .featureslist2 }}
+		<hr class="divider-thin">	
+		<div class="card__markdown">
+		<ul>
+		{{ range .featureslist2 }}
+                  <li>
+                      {{ if .url }}
+                      <a href="{{ .url }}">{{ .title }}</a>
+                      {{ else }}
+                        {{ .title }}
+                      {{ end }}
+                             
+                      {{ if .tooltip }}
+			<div class="tooltipPricing">  
+                          <i class="material-icons, tooltipIcon">info</i>
+                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+			</div>         				
+                      {{ end }}
+                                  
+                  </li> 	  
+                {{ end }}
+		</ul>	
+                </div>
+		{{ end }} 	
+		 <!-- features list 2 -->	
                 </article>
 
             </div>
