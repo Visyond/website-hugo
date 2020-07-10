@@ -117,8 +117,10 @@
                       {{ end }}
                              
                       {{ if .tooltip }}
-                        <i class="material-icons" style="color: #0585ff; font-size: 1.2em; margin-left: 0.2em;">info</i>
-                        <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>  
+			<div class="tooltipPricing">  
+                          <i class="material-icons" style="color: #0585ff; font-size: 1.2em; margin-left: 0.2em;">info</i>
+                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+			</div>         				
                       {{ end }}
                                   
                   </li> 	  
