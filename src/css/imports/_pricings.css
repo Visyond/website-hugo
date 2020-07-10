@@ -403,7 +403,7 @@ color: #0086ff;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: #0585ff transparent transparent transparent;
 }
 
 .tooltipPricing:hover .tooltiptextPricing {
