@@ -90,6 +90,21 @@ pricingCards:
       subTitleList: Get discounts for multiple subscriptions and premium support.
       title: Teams
   title: 'After the Trial, Select What You Need'
+contact:
+  buttonlink: /request
+  buttonlabel: Contact Us
+  title: Contact Us If You Need
+  cards:
+    - img: /img/decision_makers_3x.png
+      title: Multiple subscriptions
+    - img: /img/real_estate_3x.png
+      title: On-premise installation
+    - img: /img/data_input_3x.png
+      title: Integrations or Customizations
+    - img: /img/sensitivity@2x.png
+      title: Custom branding
+    - img: /img/audit-mode@2x.png
+      title: Premium support
 whyCards:
   cards:
     - description:
