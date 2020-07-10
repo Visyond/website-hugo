@@ -388,13 +388,22 @@ color: #0086ff;
   padding: 1em 1em;
   position: absolute;
   z-index: 1;
-  bottom: 2em;
-  left: -9em;
-  margin-left: -60px;
-  
-  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  bottom: 150%;
+  left: 50%;
+  margin-left: -7.5em;
   opacity: 0;
   transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 
 .tooltipPricing:hover .tooltiptextPricing {
