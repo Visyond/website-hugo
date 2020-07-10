@@ -134,7 +134,9 @@ pricingCards:
         - title: 1000MB storage
         - title: Unlimited external sources
       markdown: ''
-      subTitleList: ''
+      subTitleList: >-
+        Get discounts for multiple subscriptions with possibility to request
+        customizations, integrations and  premium support.
       title: Teams
   title: 'After the Trial, Select What You Need'
 contact:
