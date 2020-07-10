@@ -270,8 +270,8 @@
 	
 <!-- Contact us if you need NEW -->
 <section class="section primary center-align" style="background: #ffffff;">
-  {{ with .Params.ContactUsSection }}	
-  <h2 class="header-section" style="font-weight: 600;">{{ .ContactUsHeader }}</h2>
+  {{ with .Params.contactUsSection }}	
+  <h2 class="header-section" style="font-weight: 600;">{{ .contactUsHeader }}</h2>
   <div class="header-section--divider" style="margin: 2em auto 2em;"></div>
   	
 	
@@ -279,16 +279,16 @@
       {{ range .contactUsCards }}
       <div class="pricing__card">
         <div class="ftr-features__card-image-wrap">
-          <img src="{{ .ContactUsCardImage }}" alt="icon" class="ftr-features__card-image">
+          <img src="{{ .contactUsCardImage }}" alt="icon" class="ftr-features__card-image">
         </div>
                      			
         <h3 class="ftr-features__card-title" style="font-weight: 400;">
-          {{ .ContactUsCardTitle }}
+          {{ .contactUsCardTitle }}
         </h3>
          
-        {{ if .ContactUsCardText }}       
+        {{ if .contactUsCardText }}       
           <p class="sp2nd__card-text">
-            {{ .ContactUsCardText }}
+            {{ .contactUsCardText }}
           </p>
         {{ end }}          	       
       </div>
@@ -296,9 +296,9 @@
     </div>	
     	
          	
-    {{ if .Params.ContactUsButtonLink }}  		
+    {{ if .contactUsButtonLink }}  		
     <div class="btn-wrap" style="margin-top: 1em;">
-      <a href="{{ .Params.ContactUsButtonLink }}" class="btn-primary">{{ .Params.ContactUsButtonText }}</a>
+      <a href="{{ .contactUsButtonLink }}" class="btn-primary">{{ .contactUsButtonText }}</a>
     </div>
     {{ end }}      	
   
