@@ -19,11 +19,9 @@ pricingCards:
       markdown2: |-
         * 2 collaborators
         * 2 projects
-        * 10MB storage
-        * No external sources
       subTitleList: >-
-        Use the Base App and keep access to your projects and data after the
-        trial.
+        Manage multiple assumptions, create advanced charts and use
+        human-readable formulas.
       title: Free
       url: ''
     - BeforeBulletPoints: ''
@@ -40,10 +38,7 @@ pricingCards:
         * 5 collaborators
         * 5 projects
         * 50MB storage
-        * No external sources
-      subTitleList: >-
-        If you mostly work on your own on a few projects and do not need all the
-        modules, you can select only the features that you need.
+      subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
       title: Build Your Own
       url: ''
     - PricePrimary: $47
@@ -58,11 +53,7 @@ pricingCards:
         * 5 collaborators
         * 5 projects
         * 50MB storage
-        * No external sources
-      subTitleList: >-
-        If you need all the modules and want to collaborate on your projects
-        with a few people. Consider this plan if you want to use more than 5
-        features.
+      subTitleList: Get all the modules at a discount compared to building your own plan.
       title: Basic
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
@@ -78,8 +69,8 @@ pricingCards:
         * 100MB storage
         * 2 external sources
       subTitleList: >-
-        If you need all the modules and want to actively collaborate on your
-        projects. 
+        If you need to collaborate with more people and connect external
+        sources.
       title: Plus
     - BeforeBulletPoints: ''
       PricePrimary: $297
@@ -91,9 +82,7 @@ pricingCards:
       img: /img/report_presentation_visualization_3x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
       markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1000MB storage\r\n* ∞ external sources"
-      subTitleList: >-
-        If you need to collaborate with many internal and external stakeholders
-        on many projects simultaneously.
+      subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Unlimited
       url: ''
     - BeforeBulletPoints: ''
@@ -118,6 +107,27 @@ pricingCards:
         or want to buy multiple subscriptions.
       title: Teams
   title: 'After the Trial, Select What You Need'
+ContactUsHeader: Contact Us If You Need
+contactUsCards:
+  - ContactUsCardImage: /img/decision_makers_3x.png
+    ContactUsCardText: Get bulk discounts if you buy 10+ subscriptions.
+    ContactUsCardTitle: Multiple subscriptions
+  - ContactUsCardImage: /img/real_estate_3x.png
+    ContactUsCardText: Get Visyond installed on your own server.
+    ContactUsCardTitle: On-premise installation
+  - ContactUsCardImage: /img/data_input_3x.png
+    ContactUsCardText: >-
+      Integrate your systems with Visyond and satisfy your specific
+      requirements.
+    ContactUsCardTitle: Integrations or personalized workflow
+  - ContactUsCardImage: /img/sensitivity@2x.png
+    ContactUsCardText: White-label Visyond to improve your offering to your clients.
+    ContactUsCardTitle: Custom branding
+  - ContactUsCardImage: /img/audit-mode@2x.png
+    ContactUsCardText: Get premium support.
+    ContactUsCardTitle: Premium support
+ContactUsButtonText: Contact Us
+ContactUsButtonLink: /request
 whyCards:
   cards:
     - description:
