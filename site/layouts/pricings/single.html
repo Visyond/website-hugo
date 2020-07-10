@@ -270,25 +270,25 @@
 	
 <!-- Contact us if you need NEW -->
 <section class="section primary center-align" style="background: #ffffff;">
-  {{ with .Params.ContactUsSection }}	
-  <h2 class="header-section" style="font-weight: 600;">{{ .contactusheader }}</h2>
+  {{ with .Params.contact }}	
+  <h2 class="header-section" style="font-weight: 600;">{{ .title }}</h2>
   <div class="header-section--divider" style="margin: 2em auto 2em;"></div>
   	
 	
     <div class="ftr-features__cards">
-      {{ range .contactuscards }}
+      {{ range .cards }}
       <div class="pricing__card">
         <div class="ftr-features__card-image-wrap">
-          <img src="{{ .contactuscardimage }}" alt="icon" class="ftr-features__card-image">
+          <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
         </div>
                      			
         <h3 class="ftr-features__card-title" style="font-weight: 400;">
-          {{ .contactuscardtitle }}
+          {{ .title }}
         </h3>
          
-        {{ if .contactUsCardText }}       
+        {{ if .text }}       
           <p class="sp2nd__card-text">
-            {{ .contactuscardtext }}
+            {{ .text }}
           </p>
         {{ end }}          	       
       </div>
@@ -296,9 +296,9 @@
     </div>	
     	
          	
-    {{ if .contactusbuttonlink }}  		
+    {{ if .buttonlink }}  		
     <div class="btn-wrap" style="margin-top: 1em;">
-      <a href="{{ .contactusbuttonlink }}" class="btn-primary">{{ .contactusbuttontext }}</a>
+      <a href="{{ .buttonlink }}" class="btn-primary">{{ .buttonlabel }}</a>
     </div>
     {{ end }}      	
   
