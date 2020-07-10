@@ -19,6 +19,28 @@ bgImage: /img/partners-hero cut.jpg
 topTitle: >-
   Data Analysis Software - An Elegant Solution for Analyzing Spreadsheet Data as
   a Team and Answering Questions On-The-Fly
+contactUsSection:
+  contactUsButtonLink: /request
+  contactUsButtonText: Contact Us
+  contactUsHeader: Contact Us If You Need
+  contactUsCards:
+    - contactUsCardImage: /img/decision_makers_3x.png
+      contactUsCardText: Get bulk discounts if buy 10+ subscriptions.
+      contactUsCardTitle: Multiple subscriptions
+    - contactUsCardImage: /img/real_estate_3x.png
+      contactUsCardText: Install Visyond on your server.
+      contactUsCardTitle: On-premise installation
+    - contactUsCardImage: /img/data_input_3x.png
+      contactUsCardText: >-
+        Integrate your existing systems with Visyond and satisfy your specific
+        requirements.
+      contactUsCardTitle: Integrations or personalized workflow
+    - contactUsCardImage: /img/sensitivity@2x.png
+      contactUsCardText: White-label Visyond to improve your offering to your clients.
+      contactUsCardTitle: Custom branding
+    - contactUsCardImage: /img/audit-mode@2x.png
+      contactUsCardText: Get premium support.
+      contactUsCardTitle: Premium support
 WhyVisyondImage: /img/vhome designer image draft (3).png
 infoBlockFirst:
   - descr: "* Add multiple assumptions (without erasing existing ones) to any cell and combine them into scenarios\r\n* Create as many scenarios as you like without the chaos of multiple files and model versions\r\n* Visualize and compare all the scenarios with in real time\r\n* Retrieve supporting documents instantaneously from inside the cell\r\n"
