@@ -204,8 +204,8 @@
 	
 	
 <!-- Contact us if you need NEW -->
-<section class="section primary center-align" style="background: #fafafa;">
-  {{ with .Params.contact }}	
+{{ with .Params.contact }}	
+<section class="section primary center-align" style="background: #fafafa;">	
   <h2 class="header-section" style="font-weight: 600;">{{ .title }}</h2>
   	
 	
@@ -258,9 +258,8 @@
       </form>
     </div>              	
                           
-  {{ end }}
 </section>
-	
+{{ end }}	
 	
 <!-- //Contact us if you need NEW -->	
 
