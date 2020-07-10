@@ -377,7 +377,7 @@ color: #0086ff;
 
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
-  width: 10em;
+  width: 13em;
   background-color: #0585ff;
   color: #ffffff;
   font-weight: 400;
@@ -441,7 +441,8 @@ color: #0086ff;
 .tooltiptextPricing p {
   margin-bottom: 5px!important;
   color: #ffffff!important;
-  font-size: 0.9em!important;	
+  font-size: 0.9em!important;
+  padding-left: 0!important;;	
 	
   @media screen and (max-width: 1024px) {
       text-align: left!important;
