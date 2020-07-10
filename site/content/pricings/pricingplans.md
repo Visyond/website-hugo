@@ -105,7 +105,7 @@ contact:
       text: >-
         Integrate your existing systems with Visyond and satisfy your specific
         requirements.
-      title: Integrations or personalized workflow
+      title: Integrations or Customizations
     - img: /img/sensitivity@2x.png
       text: White-label Visyond to improve your offering to your clients.
       title: Custom branding
