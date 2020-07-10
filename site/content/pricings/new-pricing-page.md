@@ -7,8 +7,8 @@ bgImage: /img/pricing-cover.png
 pricingCards:
   cards:
     - BeforeBulletPoints: ''
-      PricePrimary: Free
-      PricePrimaryPeriod: ''
+      PricePrimary: $0
+      PricePrimaryPeriod: user/month
       PriceSecondary: ''
       cta:
         text: Sign Up
@@ -33,7 +33,7 @@ pricingCards:
       subTitleList: >-
         Manage multiple assumptions, create advanced charts and use
         human-readable formulas.
-      title: Base App
+      title: Free
       url: ''
     - BeforeBulletPoints: ''
       BeforePricePrimary: 'From  '
@@ -47,7 +47,7 @@ pricingCards:
         - title: Base App
           tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
         - title: Select specific features
-          tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\n\nAvailable features:\n\n* Scenario Management\n* Audit Mode & Error Root Cause\n* Sensitivity Analysis\n* Tornado Analysis\n* Scenario Analysis\r\n* Scenario Waterfall]\n* Monte Carlo Simulations\n* Financial Statements\n* Interactive Dashboards\r\n* Sharing of Specific Project Parts with Specific People"
+          tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\n\n\nAvailable features:\n\n* Scenario Management\n* Audit Mode & Error Root Cause\n* Sensitivity Analysis\n* Tornado Analysis\n* Scenario Analysis\r\n* Scenario Waterfall]\n* Monte Carlo Simulations\n* Financial Statements\n* Interactive Dashboards\r"
       img: /img/analyst_and_consultant_3x.png
       limitslist:
         - title: 5 projects
