@@ -691,14 +691,14 @@ collections: # A list of collections the CMS should be able to edit
         ]}
       ]}
       - {label: "ContactUsSection", name: "contactUsSection", widget: "object", fields: [
-        {label: "ContactUsHeader", name: "contactUsHeader", widget: "string", required: false},
+        {label: "ContactUsHeader", name: "contactUsHeader", widget: "string", required: false,},
         {label: ContactUsCards, name: contactUsCards, widget: list, fields: [
           {label: ContactUsCardImage, name: contactUsCardImage, widget: image},
           {label: ContactUsCardTitle, name: contactUsCardTitle, widget: string},
           {label: ContactUsCardText , name: contactUsCardText, widget: text}
         ]},
-        {label: "ContactUsButtonText", name: "contactUsButtonText", widget: "string", required: false},  
-        {label: "ContactUsButtonLink", name: "contactUsButtonLink", widget: "string", required: false}
+        {label: "ContactUsButtonText", name: "contactUsButtonText", widget: "string", required: false,},  
+        {label: "ContactUsButtonLink", name: "contactUsButtonLink", widget: "string", required: false,}
 	]}
       - {label: "Why Visyond Section", name: "whyCards", widget: "object", fields: [
         {label: "Title", name: "title", widget: "string"},
