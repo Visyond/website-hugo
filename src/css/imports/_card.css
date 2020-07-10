@@ -105,6 +105,7 @@
 
 .card__markdown {
     color: #5f6976;
+    height: 10em;
 }
 
 .card__markdown ul {
@@ -118,10 +119,10 @@
     padding-left: 2em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 1em;
+    font-size: 0.9em;
 
     &:not(:last-child) {
-        margin-bottom: 10px;
+        margin-bottom: 0.5em;
     }
 
     /*
