@@ -243,12 +243,12 @@
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
 	<input type="hidden" id="referrer" name="Referrer" value="" />      
         <div class="form__left-column" style="margin: 0; width: 50%;">
-          <input style="height: 70px;" placeholder="First name" type="text" class="form__input" name="First name" required>
-          <input style="height: 70px;" placeholder="Last name" type="text" class="form__input" name="Last name" required>
-          <input style="height: 70px;" name="Business email" class="form__input" type="email" placeholder="Business email" required>
-          <input style="height: 70px;" name="Company website" class="form__input" type="text" placeholder="Company website">
+          <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+          <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+          <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+          <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
           <div class="form__textarea-container" style="height: 90px;">
-            <textarea name="Message" class="form__textarea" placeholder="Message" rows="2"></textarea>
+            <textarea name="message" class="form__textarea" placeholder="Message" rows="2"></textarea>
             <span class="form__textarea_optional">Optional</span>
           </div>     
           <div class="btn-wrap">
