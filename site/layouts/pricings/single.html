@@ -276,19 +276,19 @@
   	
 	
     <div class="ftr-features__cards">
-      {{ range .contactUsCards }}
+      {{ range .contactuscards }}
       <div class="pricing__card">
         <div class="ftr-features__card-image-wrap">
-          <img src="{{ .contactUsCardImage }}" alt="icon" class="ftr-features__card-image">
+          <img src="{{ .contactuscardimage }}" alt="icon" class="ftr-features__card-image">
         </div>
                      			
         <h3 class="ftr-features__card-title" style="font-weight: 400;">
-          {{ .contactUsCardTitle }}
+          {{ .contactuscardtitle }}
         </h3>
          
         {{ if .contactUsCardText }}       
           <p class="sp2nd__card-text">
-            {{ .contactUsCardText }}
+            {{ .contactuscardtext }}
           </p>
         {{ end }}          	       
       </div>
@@ -296,9 +296,9 @@
     </div>	
     	
          	
-    {{ if .contactUsButtonLink }}  		
+    {{ if .contactusbuttonlink }}  		
     <div class="btn-wrap" style="margin-top: 1em;">
-      <a href="{{ .contactUsButtonLink }}" class="btn-primary">{{ .contactUsButtonText }}</a>
+      <a href="{{ .contactusbuttonlink }}" class="btn-primary">{{ .contactusbuttontext }}</a>
     </div>
     {{ end }}      	
   
