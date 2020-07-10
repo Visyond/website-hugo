@@ -354,8 +354,8 @@ color: #0086ff;
   flex-direction: column;
   -ms-align-items: center;
   align-items: center;
-  padding: 20px 10px;
-  margin: 20px 10px;
+  padding: 0;
+  margin: 1em 1em;
   text-align: center;
   color: #595959;
   width: 100%;
@@ -366,6 +366,41 @@ color: #0086ff;
   border-radius: 5px;
 }
 /* END CARDS FOR CONTACT US IF YOU NEED... SECTION */
+
+/* TOOLTIPS FOR FEATURES IN PRICING CARDS */
+.tooltipPricing {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltipPricing .tooltiptextPricing {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltipPricing:hover .tooltiptextPricing {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* END TOOLTIPS FOR FEATURES IN PRICING CARDS */
+
+
 
 /*.prs3rd {
   background: rgba(0,0,0,.5) center center no-repeat;
