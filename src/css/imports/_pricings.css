@@ -411,7 +411,15 @@ color: #0086ff;
   padding-left: 0!important;
   margin-bottom: 5px!important;
   color: #ffffff!important;
-  font-weight: 400!important;	
+  font-weight: 400!important;
+	
+    &:before {
+        content: none!important;
+    }
+
+    &:after {
+        content: none!important;
+    }  	
 }	
 
 .tooltiptextPricing p {
