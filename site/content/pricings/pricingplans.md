@@ -14,6 +14,14 @@ pricingCards:
         text: Sign Up
         url: /accounts/signup/
       img: /img/spreadsheet_collaboration_3x.png
+      limitslist:
+        - title: Base App LIMIT
+          tooltip: |-
+            Base App includes:
+            * This thing
+            * That thing
+            * All other things
+          url: /features
       markdown: |
         * Base App
       markdown2: |-
@@ -91,9 +99,8 @@ pricingCards:
       url: ''
   title: 'After the Trial, Select What You Need'
 contact:
-  buttonlink: /request
   buttonlabel: Contact Us
-  title: Contact Us If You Need
+  buttonlink: /request
   cards:
     - img: /img/decision_makers_3x.png
       text: Get bulk discounts if buy 10+ subscriptions.
@@ -112,6 +119,7 @@ contact:
     - img: /img/audit-mode@2x.png
       text: Get premium support.
       title: Premium support
+  title: Contact Us If You Need
 whyCards:
   cards:
     - description:
