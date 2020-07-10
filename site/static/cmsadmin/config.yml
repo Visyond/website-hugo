@@ -696,7 +696,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: ContactUsCardImage, name: ContactUsCardImage, widget: image},
             {label: ContactUsCardTitle, name: ContactUsCardTitle, widget: string},
             {label: ContactUsCardText , name: ContactUsCardText, widget: text}
-          ]}
+          ]},
           {label: "ContactUsButtonText", name: "ContactUsButtonText", widget: "string", required: false},  
           {label: "ContactUsButtonLink", name: "ContactUsButtonLink", widget: "string", required: false}
 	]}
