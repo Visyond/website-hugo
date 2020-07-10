@@ -106,14 +106,16 @@
                 {{ end }}
 		
 			
-		<div class="card__markdown">	
+		<ul class="card__markdown">	
 		{{ range .limitslist }}
-                  <a href="{{ .url }}">{{ .title }}</a>
-                  	<div class="tooltipPricing">Hover over me
-                          <span class="tooltiptextPricing">Tooltip text</span>
-                        </div>
+                  <li>
+                    <div class="tooltipPricing">
+                      <a href="{{ .url }}">{{ .title }}</a>	
+                      <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                    </div>
+                  </li> 	  
                 {{ end }}
-		</div>
+		</ul>
                 	
 			
                 </article>
