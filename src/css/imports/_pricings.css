@@ -377,7 +377,7 @@ color: #0086ff;
 
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
-  width: 20em;
+  width: 15em;
   background-color: #0585ff;
   color: #ffffff;
   font-weight: 400;
@@ -388,8 +388,8 @@ color: #0086ff;
   padding: 1em 1em;
   position: absolute;
   z-index: 1;
-  bottom: 100%;
-  left: 80%;
+  bottom: 2em;
+  left: -9em;
   margin-left: -60px;
   
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
