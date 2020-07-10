@@ -395,7 +395,7 @@ color: #0086ff;
   transition: opacity 1s;
 }
 
-.tooltip .tooltiptext::after {
+.tooltipPricing .tooltiptextPricing::after {
   content: "";
   position: absolute;
   top: 100%;
