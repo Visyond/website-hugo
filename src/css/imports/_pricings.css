@@ -380,7 +380,7 @@ color: #0086ff;
   width: 20em;
   background-color: #0585ff;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.9em;	
   box-shadow: 0 0 0.5em 1px #8e8e8e;	
   text-align: left;
@@ -402,8 +402,17 @@ color: #0086ff;
   opacity: 1;
 }
 
+.tooltiptextPricing ul {
+  list-style: initial;
+  padding: 0 0 0 2em;
+  color: #ffffff;
+  font-weight: 400;	
+}
+
 .tooltiptextPricing li {
-	
+  padding-left: 0;
+  margin-bottom: 5px;	
+
 }	
 
 .tooltiptextPricing p {
