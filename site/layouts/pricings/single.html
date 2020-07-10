@@ -295,9 +295,9 @@
   </div>	
   {{ end }}	
 	
-  {{ if .ContactUsButtonLink }}  		
+  {{ if .Params.ContactUsButtonLink }}  		
   <div class="btn-wrap" style="margin-top: 1em;">
-    <a href="{{ .ContactUsButtonLink }}" class="btn-primary">{{ .ContactUsButtonText }}</a>
+    <a href="{{ .Params.ContactUsButtonLink }}" class="btn-primary">{{ .Params.ContactUsButtonText }}</a>
   </div>
   {{ end }}
 
