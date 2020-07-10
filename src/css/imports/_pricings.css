@@ -367,25 +367,29 @@ color: #0086ff;
 }
 /* END CARDS FOR CONTACT US IF YOU NEED... SECTION */
 
+
 /* TOOLTIPS FOR FEATURES IN PRICING CARDS */
 .tooltipPricing {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
+  cursor: pointer;
 }
 
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+  width: 20em;
+  background-color: #0585ff;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9em;	
+  box-shadow: 0 0 0.5em 1px #8e8e8e;	
+  text-align: left;
+  border-radius: 5px;
+  padding: 1em 1em;
   position: absolute;
   z-index: 1;
   bottom: 100%;
-  left: 50%;
+  left: 80%;
   margin-left: -60px;
   
   /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
@@ -396,6 +400,14 @@ color: #0086ff;
 .tooltipPricing:hover .tooltiptextPricing {
   visibility: visible;
   opacity: 1;
+}
+
+.tooltiptextPricing li {
+	
+}	
+
+.tooltiptextPricing p {
+	
 }
 
 /* END TOOLTIPS FOR FEATURES IN PRICING CARDS */
