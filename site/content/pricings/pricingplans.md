@@ -89,27 +89,6 @@ pricingCards:
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Pro
       url: ''
-    - BeforeBulletPoints: ''
-      PricePrimary: Custom
-      cta:
-        text: Contact Us
-        url: /request
-      img: /img/decision_makers_3x.png
-      markdown: |-
-        * Everything in Unlimited
-
-        **Plus, you can request:**
-
-        * Customizations
-        * Integrations
-        * Premium Support
-        * On-premise Installation
-        * Whitelabeling
-      markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1000MB storage\r\n* ∞ external sources"
-      subTitleList: >-
-        Scale as your team grows. Talk to us if you have specific requirements
-        or want to buy multiple subscriptions.
-      title: Teams
   title: 'After the Trial, Select What You Need'
 ContactUsHeader: Contact Us If You Need
 contactUsCards:
