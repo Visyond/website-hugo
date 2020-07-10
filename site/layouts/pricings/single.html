@@ -294,13 +294,34 @@
       {{ end }}
     </div>	
     	
-         	
+    <!--     	
     {{ if .buttonlink }}  		
     <div class="btn-wrap" style="margin-top: 1em;">
       <a href="{{ .buttonlink }}" class="btn-primary">{{ .buttonlabel }}</a>
     </div>
-    {{ end }}      	
-  
+    {{ end }}
+    -->
+           	
+    <div class="container">
+      <h2 class="header-section" style="font-weight: 600;">Contact Us</h2>
+      <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+        <input type="hidden" name="_next" value="https://visyond.com/pricing/">   
+        <div class="form__left-column" style="margin: 0; width: 50%;">
+          <input style="height: 70px;" placeholder="First name" type="text" class="form__input" name="First name" required>
+          <input style="height: 70px;" placeholder="Last name" type="text" class="form__input" name="Last name" required>
+          <input style="height: 70px;" name="Business email" class="form__input" type="email" placeholder="Business email" required>
+          <input style="height: 70px;" name="Company website" class="form__input" type="text" placeholder="Company website" required>
+          <div class="form__textarea-container" style="height: 90px;">
+            <textarea name="Message" class="form__textarea" placeholder="Message" rows="2"></textarea>
+            <span class="form__textarea_optional">Optional</span>
+          </div>     
+          <div class="btn-wrap">
+            <input type="submit" value="Contact Us" class="btn-primary">
+          </div>
+        </div>	
+      </form>
+    </div>              	
+                          
   {{ end }}
 </section>
 	
