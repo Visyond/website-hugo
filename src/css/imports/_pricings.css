@@ -403,16 +403,15 @@ color: #0086ff;
 }
 
 .tooltiptextPricing ul {
-  list-style: initial;
-  padding: 0 0 0 2em;
-  color: #ffffff;
-  font-weight: 400;	
+  list-style: initial!important;
+  padding: 0 0 0 2em!important;	
 }
 
 .tooltiptextPricing li {
-  padding-left: 0;
-  margin-bottom: 5px;	
-
+  padding-left: 0!important;
+  margin-bottom: 5px!important;
+  color: #ffffff!important;
+  font-weight: 400!important;	
 }	
 
 .tooltiptextPricing p {
