@@ -698,7 +698,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: ContactUsCardText , name: ContactUsCardText, widget: text}
           ]}
           {label: "ContactUsButtonText", name: "ContactUsButtonText", widget: "string", required: false},  
-          {label: "ContactUsButtonLink", name: "ContactUsButtonLink", widget: "string", required: false},
+          {label: "ContactUsButtonLink", name: "ContactUsButtonLink", widget: "string", required: false}
 	]}
       - {label: "Why Visyond Section", name: "whyCards", widget: "object", fields: [
         {label: "Title", name: "title", widget: "string"},
