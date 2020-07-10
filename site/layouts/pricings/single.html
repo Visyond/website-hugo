@@ -110,7 +110,17 @@
 		<ul>
 		{{ range .limitslist }}
                   <li>
-                      <a href="{{ .url }}">{{ .title }}</a>	
+                      {{ if .url }}
+                      <a href="{{ .url }}">{{ .title }}</a>
+                      {{ else }}
+                        {{ .title }}
+                      {{ end }}
+                             
+                      {{ if .tooltip }}
+                        <i class="material-icons" style="color: #0585ff; font-size: 1.2em; margin-left: 0.2em;">info</i>
+                        <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>  
+                      {{ end }}
+                                  
                   </li> 	  
                 {{ end }}
 		</ul>	
