@@ -269,9 +269,9 @@
 	
 	
 <!-- Contact us if you need NEW -->
-{{ with .Params.ContactUsSection }}
-<section class="section primary center-align" style="background: #ffffff;">	
-    <h2 class="header-section" style="font-weight: 600;">{{ .Params.ContactUsHeader }}</h2>
+<section class="section primary center-align" style="background: #ffffff;">
+{{ with .Params.ContactUsSection }}	
+    <h2 class="header-section" style="font-weight: 600;">{{ .ContactUsHeader }}</h2>
     <div class="header-section--divider" style="margin: 2em auto 2em;"></div>
   	
                        
@@ -302,8 +302,9 @@
       <a href="{{ .Params.ContactUsButtonLink }}" class="btn-primary">{{ .Params.ContactUsButtonText }}</a>
     </div>
     {{ end }}      	
+{{ end }}
 </section>
-{{ end }}	
+	
 	
 <!-- //Contact us if you need NEW -->	
 
