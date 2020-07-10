@@ -102,7 +102,7 @@ pricingCards:
       PricePrimary: Contact Us
       cta:
         text: Contact Us
-        url: /request
+        url: '/pricing/#contactUs'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
