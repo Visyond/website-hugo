@@ -99,6 +99,7 @@ pricingCards:
         - title: 10 scenarios
         - title: 10 collaborators
         - title: 100MB storage
+        - title: 2 external sources
       markdown: ''
       markdown2: ''
       subTitleList: >-
