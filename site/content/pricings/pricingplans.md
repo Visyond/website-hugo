@@ -13,32 +13,16 @@ pricingCards:
       cta:
         text: Sign Up
         url: /accounts/signup/
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
-        - title: Title + Link + Tooltip
-          tooltip: |-
-            Base App includes:
-
-            * This thing
-            * That thing
-            * All other things
-          url: /features
-        - title: Title + Tooltip
-          tooltip: |-
-            this is tooltip.
-
-            It's tooltipy.
-
-            * yay
-            * yay 
-            * yay
-        - title: Title
-      markdown: |
-        * Base App
-      markdown2: |-
-        * 2 projects
-        * 2 scenarios
-        * 2 collaborators
+        - title: 2 projects
+        - title: 2 scenarios
+        - title: 2 collaborators
+      markdown: ''
+      markdown2: ''
       subTitleList: >-
         Manage multiple assumptions, create advanced charts and use
         human-readable formulas.
@@ -52,13 +36,19 @@ pricingCards:
       cta:
         text: Upgrade
         url: '/profile#billing'
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+        - title: Select specific features
+          tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\r\n\r\n\r\nAvailable features:\r\n\r\n* Scenario Management\r\n* Audit Mode & Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall]\r\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r"
       img: /img/analyst_and_consultant_3x.png
-      markdown: '* Select only the features that you need'
-      markdown2: |-
-        * 5 projects
-        * 5 scenarios
-        * 5 collaborators
-        * 50MB storage
+      limitslist:
+        - title: 5 projects
+        - title: 5 scenarios
+        - title: 5 collaborators
+        - title: 50MB storage
+      markdown: ''
+      markdown2: ''
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
       title: Build Your Own
       url: ''
@@ -68,13 +58,23 @@ pricingCards:
       cta:
         text: Upgrade
         url: '/profile#billing'
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+        - title: Build Module
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+        - title: Analyze Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+        - title: Report Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
       img: /img/scenarios@2x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n"
-      markdown2: |-
-        * 5 projects
-        * 5 scenarios
-        * 5 collaborators
-        * 50MB storage
+      limitslist:
+        - title: 5 projects
+        - title: 5 scenarios
+        - title: 5 collaborators
+        - title: 50MB storage
+      markdown: ''
+      markdown2: ''
       subTitleList: Get all the modules at a discount compared to building your own plan.
       title: Basic
     - PricePrimary: $97
@@ -83,14 +83,24 @@ pricingCards:
       cta:
         text: Upgrade
         url: '/profile#billing'
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+        - title: Build Module
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+        - title: Analyze Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+        - title: Report Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          url: ''
       img: /img/audit-mode@2x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n"
-      markdown2: |-
-        * 10 projects
-        * 10 scenarios
-        * 10 collaborators
-        * 100MB storage
-        * 2 external sources
+      limitslist:
+        - title: 10 projects
+        - title: 10 scenarios
+        - title: 10 collaborators
+        - title: 100MB storage
+      markdown: ''
+      markdown2: ''
       subTitleList: >-
         If you need to collaborate with more people and connect external
         sources.
@@ -102,9 +112,33 @@ pricingCards:
       cta:
         text: Upgrade
         url: '/profile#billing'
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+        - title: Build Module
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+        - title: Analyze Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+        - title: Report Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+      featureslist2:
+        - title: Selective Sharing
+          tooltip: Share only specific worksheets and reports with specific people.
+          url: /features/share-spreadsheets-and-presentations-online/
+        - title: Public Link
+          tooltip: >-
+            Publicly share worksheets and reports. Combined with Selective
+            Sharing, you can specify which parts of projects public viewers can
+            see.
       img: /img/report_presentation_visualization_3x.png
-      markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
-      markdown2: "* Unlimited projects\r\n* Unlimited scenarios\n* Unlimited collaborators\r\n* 1000MB storage\r\n* Unlimited external sources"
+      limitslist:
+        - title: Unlimited projects
+        - title: Unlimited scenarios
+        - title: Unlimited collaborators
+        - title: 1000MB storage
+        - title: Unlimited external sources
+      markdown: ''
+      markdown2: ''
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Pro
       url: ''
