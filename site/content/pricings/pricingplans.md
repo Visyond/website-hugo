@@ -90,28 +90,28 @@ pricingCards:
       title: Pro
       url: ''
   title: 'After the Trial, Select What You Need'
-ContactUsSection:
-  ContactUsButtonLink: /request
-  ContactUsButtonText: Contact Us
-  ContactUsHeader: Contact Us If You Need
+contactUsSection:
+  contactUsButtonLink: /request
+  contactUsButtonText: Contact Us
+  contactUsHeader: Contact Us If You Need
   contactUsCards:
-    - ContactUsCardImage: /img/decision_makers_3x.png
-      ContactUsCardText: Get bulk discounts if buy 10+ subscriptions.
-      ContactUsCardTitle: Multiple subscriptions
-    - ContactUsCardImage: /img/real_estate_3x.png
-      ContactUsCardText: Install Visyond on your server.
-      ContactUsCardTitle: On-premise installation
-    - ContactUsCardImage: /img/data_input_3x.png
-      ContactUsCardText: >-
+    - contactUsCardImage: /img/decision_makers_3x.png
+      contactUsCardText: Get bulk discounts if buy 10+ subscriptions.
+      contactUsCardTitle: Multiple subscriptions
+    - contactUsCardImage: /img/real_estate_3x.png
+      contactUsCardText: Install Visyond on your server.
+      contactUsCardTitle: On-premise installation
+    - contactUsCardImage: /img/data_input_3x.png
+      contactUsCardText: >-
         Integrate your existing systems with Visyond and satisfy your specific
         requirements.
-      ContactUsCardTitle: Integrations or personalized workflow
-    - ContactUsCardImage: /img/sensitivity@2x.png
-      ContactUsCardText: White-label Visyond to improve your offering to your clients.
-      ContactUsCardTitle: Custom branding
-    - ContactUsCardImage: /img/audit-mode@2x.png
-      ContactUsCardText: Get premium support.
-      ContactUsCardTitle: Premium support
+      contactUsCardTitle: Integrations or personalized workflow
+    - contactUsCardImage: /img/sensitivity@2x.png
+      contactUsCardText: White-label Visyond to improve your offering to your clients.
+      contactUsCardTitle: Custom branding
+    - contactUsCardImage: /img/audit-mode@2x.png
+      contactUsCardText: Get premium support.
+      contactUsCardTitle: Premium support
 whyCards:
   cards:
     - description:
