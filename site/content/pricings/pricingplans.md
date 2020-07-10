@@ -17,8 +17,9 @@ pricingCards:
       markdown: |
         * Base App
       markdown2: |-
-        * 2 collaborators
         * 2 projects
+        * 2 scenarios
+        * 2 collaborators
       subTitleList: >-
         Manage multiple assumptions, create advanced charts and use
         human-readable formulas.
@@ -35,8 +36,9 @@ pricingCards:
       img: /img/analyst_and_consultant_3x.png
       markdown: '* Select only the features that you need'
       markdown2: |-
-        * 5 collaborators
         * 5 projects
+        * 5 scenarios
+        * 5 collaborators
         * 50MB storage
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
       title: Build Your Own
@@ -50,8 +52,9 @@ pricingCards:
       img: /img/scenarios@2x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n"
       markdown2: |-
-        * 5 collaborators
         * 5 projects
+        * 5 scenarios
+        * 5 collaborators
         * 50MB storage
       subTitleList: Get all the modules at a discount compared to building your own plan.
       title: Basic
@@ -64,8 +67,9 @@ pricingCards:
       img: /img/audit-mode@2x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\r\n"
       markdown2: |-
-        * 10 collaborators
         * 10 projects
+        * 10 scenarios
+        * 10 collaborators
         * 100MB storage
         * 2 external sources
       subTitleList: >-
@@ -81,9 +85,9 @@ pricingCards:
         url: '/profile#billing'
       img: /img/report_presentation_visualization_3x.png
       markdown: "* Build Module\r\n* Analyze Module\r\n* Report Module\n* Selective Sharing\n* Public Link"
-      markdown2: "* ∞ collaborators\r\n* ∞ projects\r\n* 1000MB storage\r\n* ∞ external sources"
+      markdown2: "* Unlimited projects\r\n* Unlimited scenarios\n* Unlimited collaborators\r\n* 1000MB storage\r\n* Unlimited external sources"
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
-      title: Unlimited
+      title: Pro
       url: ''
     - BeforeBulletPoints: ''
       PricePrimary: Custom
