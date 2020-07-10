@@ -378,11 +378,11 @@ color: #0086ff;
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
   width: 13em;
-  background-color: #0585ff;
+  background-color: #212121;
   color: #ffffff;
   font-weight: 400;
   font-size: 0.9em;	
-  box-shadow: 0 0 0.5em 1px #8e8e8e;	
+  box-shadow: 0 0 0.5em 1px #9a9a9a;	
   text-align: left;
   border-radius: 5px;
   padding: 1em 1em;
@@ -403,7 +403,7 @@ color: #0086ff;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: #0585ff transparent transparent transparent;
+  border-color: #212121 transparent transparent transparent;
 }
 
 .tooltipPricing:hover .tooltiptextPricing {
