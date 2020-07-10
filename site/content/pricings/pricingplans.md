@@ -15,7 +15,7 @@ pricingCards:
         url: /accounts/signup/
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r  \n\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "\nBase App includes:\r  \n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
         - title: 2 projects
