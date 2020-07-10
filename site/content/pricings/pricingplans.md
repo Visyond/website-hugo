@@ -18,6 +18,7 @@ pricingCards:
         - title: Title + Link + Tooltip
           tooltip: |-
             Base App includes:
+
             * This thing
             * That thing
             * All other things
