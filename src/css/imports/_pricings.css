@@ -438,7 +438,14 @@ color: #0086ff;
 }	
 
 .tooltiptextPricing p {
-      margin-bottom: 5px!important;	
+  margin-bottom: 5px!important;
+  color: #ffffff!important;
+	
+  @media screen and (max-width: 1024px) {
+      text-align: left!important;
+      padding-left: 0em;
+      font-size: 1em!important;
+  }  		
 }
 
 /* END TOOLTIPS FOR FEATURES IN PRICING CARDS */
