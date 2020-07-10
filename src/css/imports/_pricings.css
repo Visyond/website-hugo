@@ -377,7 +377,7 @@ color: #0086ff;
 
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
-  width: 15em;
+  width: 10em;
   background-color: #0585ff;
   color: #ffffff;
   font-weight: 400;
@@ -421,6 +421,7 @@ color: #0086ff;
   margin-bottom: 5px!important;
   color: #ffffff!important;
   font-weight: 400!important;
+  font-size: 0.9em!important;	
 	
     &:before {
         content: none!important;
@@ -433,18 +434,19 @@ color: #0086ff;
     @media screen and (max-width: 1024px) {
         text-align: left!important;
         padding-left: 0em;
-        font-size: 1em!important;
+        font-size: 0.9em!important;
     }  	
 }	
 
 .tooltiptextPricing p {
   margin-bottom: 5px!important;
   color: #ffffff!important;
+  font-size: 0.9em!important;	
 	
   @media screen and (max-width: 1024px) {
       text-align: left!important;
       padding-left: 0em;
-      font-size: 1em!important;
+      font-size: 0.9em!important;
   }  		
 }
 
