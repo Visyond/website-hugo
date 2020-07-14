@@ -56,7 +56,8 @@ pricingCards:
             spreadsheet.
         - title: 3 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 50MB storage
+        - title: 'Total cell attachments: 30MB'
+          tooltip: "You can attach your files directly to relevant cells.\r\n"
       markdown: ''
       markdown2: ''
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
@@ -87,7 +88,8 @@ pricingCards:
             spreadsheet.
         - title: 3 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 50MB storage
+        - title: 'Total cell attachments: 50MB'
+          tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
       markdown2: ''
       subTitleList: Get all the modules at a discount compared to Pay Per Feature plan.
@@ -118,7 +120,8 @@ pricingCards:
             spreadsheet.
         - title: 10 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 100MB storage
+        - title: 'Total cell attachments: 100MB'
+          tooltip: "You can attach your files directly to relevant cells.\r"
         - title: 2 external sources
           tooltip: >-
             You can link Excel files to a Visyond project and refer to their
@@ -166,7 +169,8 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 1000MB storage
+        - title: 'Total cell attachments: 1000MB'
+          tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
             You can link Excel files to a Visyond project and refer to their
