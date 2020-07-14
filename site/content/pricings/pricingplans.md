@@ -86,7 +86,7 @@ pricingCards:
           tooltip: >-
             Create and quickly switch between different scenarios in the
             spreadsheet.
-        - title: 3 collaborators per project
+        - title: 5 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 'Total cell attachments: 50MB'
           tooltip: "You can attach your files directly to relevant cells.\r"
