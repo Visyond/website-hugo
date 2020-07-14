@@ -30,8 +30,8 @@ pricingCards:
       title: Free
       url: ''
     - BeforeBulletPoints: ''
-      BeforePricePrimary: 'From  '
-      PricePrimary: $10
+      BeforePricePrimary: ''
+      PricePrimary: From $10
       PricePrimaryPeriod: user/month
       PriceSecondary: from $100 user/year
       cta:
@@ -52,7 +52,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
-      title: Starter
+      title: Per Per Feature
       url: ''
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
@@ -148,7 +148,7 @@ pricingCards:
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Pro
       url: ''
-  title: 'Find the Right Plan for You'
+  title: Find the Right Plan for You
 contact:
   buttonlabel: Contact Us
   buttonlink: /request
