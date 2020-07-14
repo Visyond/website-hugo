@@ -148,7 +148,7 @@ pricingCards:
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Pro
       url: ''
-  title: 'After the Trial, Select What You Need'
+  title: 'Find the Right Plan for You'
 contact:
   buttonlabel: Contact Us
   buttonlink: /request
