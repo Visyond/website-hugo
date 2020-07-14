@@ -156,9 +156,6 @@ contact:
     - img: /img/decision_makers_3x.png
       text: Get bulk discounts if you buy 10+ subscriptions.
       title: Multiple subscriptions
-    - img: /img/real_estate_3x.png
-      text: Install Visyond on your server.
-      title: On-premise installation
     - img: /img/data_input_3x.png
       text: >-
         Integrate your existing systems with Visyond and satisfy your specific
@@ -167,9 +164,9 @@ contact:
     - img: /img/sensitivity@2x.png
       text: White-label Visyond to improve your offering to your clients.
       title: Brand Identity & White Labeling
-    - img: /img/audit-mode@2x.png
-      text: Get premium support.
-      title: Premium support
+    - img: /img/real_estate_3x.png
+      text: Install Visyond on your server.
+      title: On-premise installation
   title: Contact Us If You Need
 whyCards:
   cards:
