@@ -20,8 +20,8 @@ pricingCards:
       limitslist:
         - title: 2 projects
         - title: 2 scenarios
-        - title: Share with up to 2 collaborators
-          tooltip: Functionality available to collaborators depends on their own plan.
+        - title: 2 collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
       markdown: ''
       markdown2: ''
       subTitleList: >-
@@ -33,7 +33,7 @@ pricingCards:
       BeforePricePrimary: 'From  '
       PricePrimary: $10
       PricePrimaryPeriod: user/month
-      PriceSecondary: or $100 user/year
+      PriceSecondary: from $100 user/year
       cta:
         text: Upgrade
         url: '/profile#billing'
@@ -46,13 +46,13 @@ pricingCards:
       limitslist:
         - title: 3 projects
         - title: 3 scenarios
-        - title: Share with up to 3 collaborators
-          tooltip: Functionality available to collaborators depends on their own plan.
+        - title: 3 collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 50MB storage
       markdown: ''
       markdown2: ''
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
-      title: Build Your Own
+      title: Starter
       url: ''
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
@@ -73,8 +73,8 @@ pricingCards:
       limitslist:
         - title: 5 projects
         - title: 5 scenarios
-        - title: Share with up to 3 collaborators
-          tooltip: Functionality available to collaborators depends on their own plan.
+        - title: 3 collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 50MB storage
       markdown: ''
       markdown2: ''
@@ -100,8 +100,8 @@ pricingCards:
       limitslist:
         - title: 10 projects
         - title: 10 scenarios
-        - title: Share with up to 10 collaborators
-          tooltip: Functionality available to collaborators depends on their own plan.
+        - title: 10 collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 100MB storage
         - title: 2 external sources
       markdown: ''
@@ -139,8 +139,8 @@ pricingCards:
       limitslist:
         - title: Unlimited projects
         - title: Unlimited scenarios
-        - title: Share with Unlimited number of collaborators
-          tooltip: Functionality available to collaborators depends on their own plan.
+        - title: Unlimited collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
         - title: 1000MB storage
         - title: Unlimited external sources
       markdown: ''
