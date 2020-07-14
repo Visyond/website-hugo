@@ -90,7 +90,7 @@ pricingCards:
         - title: 50MB storage
       markdown: ''
       markdown2: ''
-      subTitleList: Get all the modules at a discount compared to building your own plan.
+      subTitleList: Get all the modules at a discount compared to Pay Per Feature plan.
       title: Basic
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
