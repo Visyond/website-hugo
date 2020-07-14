@@ -36,8 +36,8 @@ pricingCards:
     - BeforeBulletPoints: ''
       BeforePricePrimary: ''
       PricePrimary: From $10
-      PricePrimaryPeriod: user/month
-      PriceSecondary: from $100 user/year
+      PricePrimaryPeriod: user/feature/month
+      PriceSecondary: from $100 user/feature/year
       cta:
         text: Upgrade
         url: '/profile#billing'
