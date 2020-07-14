@@ -166,11 +166,11 @@ contact:
       title: Integrations or Customizations
     - img: /img/sensitivity@2x.png
       text: White-label Visyond to improve your offering to your clients.
-      title: Custom branding
+      title: Brand Identity & White Labeling
     - img: /img/audit-mode@2x.png
       text: Get premium support.
       title: Premium support
-  title: Consultants, Teams, Enterprise?
+  title: Contact Us If You Need
 whyCards:
   cards:
     - description:
