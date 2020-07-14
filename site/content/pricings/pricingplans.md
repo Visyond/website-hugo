@@ -147,7 +147,6 @@ pricingCards:
           tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
           tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
-      featureslist2:
         - title: Selective Sharing
           tooltip: Share only specific worksheets and reports with specific people.
           url: /features/share-spreadsheets-and-presentations-online/
@@ -156,6 +155,7 @@ pricingCards:
             Publicly share worksheets and reports. Combined with Selective
             Sharing, you can specify which parts of projects public viewers can
             see.
+      featureslist2: []
       img: /img/report_presentation_visualization_3x.png
       limitslist:
         - title: Unlimited projects
