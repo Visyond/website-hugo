@@ -52,7 +52,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
-      title: Per Per Feature
+      title: Pay Per Feature
       url: ''
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
