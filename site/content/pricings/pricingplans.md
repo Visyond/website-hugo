@@ -19,7 +19,11 @@ pricingCards:
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
         - title: 2 projects
+          tooltip: The number of simultaneously active projects that you can work on.
         - title: 2 scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
         - title: 2 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
       markdown: ''
@@ -45,7 +49,11 @@ pricingCards:
       img: /img/analyst_and_consultant_3x.png
       limitslist:
         - title: 3 projects
+          tooltip: The number of simultaneously active projects that you can work on.
         - title: 3 scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
         - title: 3 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 50MB storage
@@ -72,7 +80,11 @@ pricingCards:
       img: /img/scenarios@2x.png
       limitslist:
         - title: 5 projects
+          tooltip: The number of simultaneously active projects that you can work on.
         - title: 5 scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
         - title: 3 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 50MB storage
@@ -99,11 +111,20 @@ pricingCards:
       img: /img/audit-mode@2x.png
       limitslist:
         - title: 10 projects
+          tooltip: The number of simultaneously active projects that you can work on.
         - title: 10 scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
         - title: 10 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
         - title: 100MB storage
         - title: 2 external sources
+          tooltip: >-
+            You can link Excel files to a Visyond project and refer to their
+            cells in formulas.
+          url: >-
+            https://help.visyond.com/articles/link-external-sources-to-visyond-cells/
       markdown: ''
       markdown2: ''
       subTitleList: >-
@@ -138,11 +159,20 @@ pricingCards:
       img: /img/report_presentation_visualization_3x.png
       limitslist:
         - title: Unlimited projects
+          tooltip: The number of simultaneously active projects that you can work on.
         - title: Unlimited scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
         - title: 1000MB storage
         - title: Unlimited external sources
+          tooltip: >-
+            You can link Excel files to a Visyond project and refer to their
+            cells in formulas.
+          url: >-
+            https://help.visyond.com/articles/link-external-sources-to-visyond-cells/
       markdown: ''
       markdown2: ''
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
