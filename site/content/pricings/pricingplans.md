@@ -167,7 +167,7 @@ contact:
     - img: /img/real_estate_3x.png
       text: Install Visyond on your server.
       title: On-premise installation
-  title: Contact Us If You Need
+  title: Contact Us if You Need
 whyCards:
   cards:
     - description:
