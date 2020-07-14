@@ -373,6 +373,7 @@ color: #0086ff;
   position: relative;
   display: inline-block;
   cursor: pointer;
+  float: right;
 }
 
 .tooltipPricing .tooltiptextPricing {
