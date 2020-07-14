@@ -15,7 +15,7 @@ pricingCards:
         url: /accounts/signup/
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r <br><br>\n\n\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r <br><br>\n\n\n* Assumptions Management\r\n* Scenario Management\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
       img: /img/spreadsheet_collaboration_3x.png
       limitslist:
         - title: 2 projects
@@ -43,7 +43,7 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
         - title: Select specific features
           tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\r\n\r\n\r\nAvailable features:\r\n\r\n* Scenario Management\r\n* Audit Mode & Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall]\r\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r"
       img: /img/analyst_and_consultant_3x.png
@@ -71,13 +71,13 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
         - title: Build Module
-          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Attachments and Conversations in Cells"
         - title: Analyze Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
       img: /img/scenarios@2x.png
       limitslist:
         - title: 5 projects
@@ -102,13 +102,13 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
         - title: Build Module
-          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Attachments and Conversations in Cells"
         - title: Analyze Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
           url: ''
       img: /img/audit-mode@2x.png
       limitslist:
@@ -143,13 +143,13 @@ pricingCards:
         url: '/profile#billing'
       featureslist:
         - title: Base App
-          tooltip: "Base App includes:\r\n\r\n\r\n* Assumptions Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Project Sharing"
+          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
         - title: Build Module
-          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Scenario Management"
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Attachments and Conversations in Cells"
         - title: Analyze Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
         - title: Selective Sharing
           tooltip: Share only specific worksheets and reports with specific people.
           url: /features/share-spreadsheets-and-presentations-online/
