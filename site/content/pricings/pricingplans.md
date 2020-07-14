@@ -20,7 +20,8 @@ pricingCards:
       limitslist:
         - title: 2 projects
         - title: 2 scenarios
-        - title: 2 collaborators
+        - title: Share with up to 2 collaborators
+          tooltip: Functionality available to collaborators depends on their own plan.
       markdown: ''
       markdown2: ''
       subTitleList: >-
@@ -43,9 +44,10 @@ pricingCards:
           tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\r\n\r\n\r\nAvailable features:\r\n\r\n* Scenario Management\r\n* Audit Mode & Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall]\r\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r"
       img: /img/analyst_and_consultant_3x.png
       limitslist:
-        - title: 5 projects
-        - title: 5 scenarios
-        - title: 5 collaborators
+        - title: 3 projects
+        - title: 3 scenarios
+        - title: Share with up to 3 collaborators
+          tooltip: Functionality available to collaborators depends on their own plan.
         - title: 50MB storage
       markdown: ''
       markdown2: ''
@@ -71,7 +73,8 @@ pricingCards:
       limitslist:
         - title: 5 projects
         - title: 5 scenarios
-        - title: 5 collaborators
+        - title: Share with up to 3 collaborators
+          tooltip: Functionality available to collaborators depends on their own plan.
         - title: 50MB storage
       markdown: ''
       markdown2: ''
@@ -97,7 +100,8 @@ pricingCards:
       limitslist:
         - title: 10 projects
         - title: 10 scenarios
-        - title: 10 collaborators
+        - title: Share with up to 10 collaborators
+          tooltip: Functionality available to collaborators depends on their own plan.
         - title: 100MB storage
         - title: 2 external sources
       markdown: ''
@@ -135,7 +139,8 @@ pricingCards:
       limitslist:
         - title: Unlimited projects
         - title: Unlimited scenarios
-        - title: Unlimited collaborators
+        - title: Share with Unlimited number of collaborators
+          tooltip: Functionality available to collaborators depends on their own plan.
         - title: 1000MB storage
         - title: Unlimited external sources
       markdown: ''
