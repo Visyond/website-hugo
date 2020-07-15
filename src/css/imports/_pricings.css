@@ -271,7 +271,7 @@
 .price-primary-value {
 font-weight: 600;
 color: #0585ff;
-font-size: 1.5em;
+font-size: 1.4em;
 display: inline;
     @media screen and (max-width: 1024px) {
         font-size: 2.2em;
@@ -282,7 +282,7 @@ display: inline;
 .price-primary-period {
 font-weight: 400; 
 color: #0585ff;
-font-size: 1.1em;
+font-size: 1em;
 display: block;
     @media screen and (max-width: 1024px) {
         font-size: 1.8em;
@@ -293,7 +293,7 @@ display: block;
 .price-secondary {
 font-weight: 400;
 color: #5f6976;
-font-size: 0.9em;
+font-size: 0.85em;
 margin-top: 0.3em;	
     @media screen and (max-width: 1024px) {
         font-size: 1.4em;
