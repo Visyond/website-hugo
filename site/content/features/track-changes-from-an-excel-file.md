@@ -18,63 +18,78 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
-      * Simultaneously store multiple assumptions that can be combined into
-      [scenarios](/features/scenarios/) in a single cell without overriding
-      inputs by other collaborators
-
-      * Store supporting documentation,  conversations and approvals directly in
-      the relevant cells
-    files:
-      - alt: Track Changes from an Excel File - Never Lose Important Information
-        descr: >-
-          All conversations and supporting documentation can be stored directly
-          in relevant cells so that you always know where the data comes from.
-        file: /img/2019-02 Comments in Cells.png
-        title: Never Lose Important Information
-    image: /img/2019-02 Comments in Cells.png
-    title: Store Related Information In Cells
-  - descr: "* All changes are documented, giving you a full audit trail - so you are aware of all modifications made to the spreadsheet\r\n* Revert individual changes or roll-back entire versions with Visyond’s enhanced spreadsheet version control\r\n"
+  - benefitsList:
+      - text: >-
+          Multiple assumptions can coexist in the same cell. The last added
+          value does not overwrite the existing ones. Nobody, including the
+          project owner, can modify data entered by others
+      - text: >-
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added which assumptions, when and why
+      - text: >-
+          Share only specific worksheets, reports and dashboards with specific
+          people for better control over information flow and data privacy
+    descr: >-
+      **Track changes and collaborate across multiple departments and
+      workstreams in a single secure environment** connecting decision makers,
+      analysts, modelers, consultants, clients and prospects.
     files:
       - alt: >-
-          Track Changes from an Excel File - Store Multiple Assumptions
-          Simultaneously
+          Collaborate without overwriting in Visyond
         descr: >-
-          Have all assumptions and numbers in a single place without worrying
-          about controlling versions or chasing pieces of information in long
-          email threads.
+          Unlike other spreadsheets, multiple assumptions can coexist in a cell
+          as opposed to last value overwriting the existing one. Nobody,
+          including the project owner, can modify data entered by others.
+          Multiple collaborators can work on the same project, and Visyond will
+          track and report who added assumptions, when and why.
         file: /img/2019-02 Cases Panel and Dropdown.png
-        title: Store Multiple Assumptions Simultaneously
+        title: Streamline Data Gathering from Experts 
       - alt: >-
-          Track Changes from an Excel File - Manage Spreadsheet Versions in
-          Visyond
+          Know What Is Happening in Your Projects in Visyond
         descr: >-
-          You can always roll-back entire versions of the spreadsheet if
-          required.
-        file: /img/2019-02 Versions Panel.png
-        title: Versions
-    image: /img/2019-02 Cases Panel and Dropdown.png
-    title: Track Inputs And Control Versions
-  - descr: "* Have full and granular control over who can view, interact or edit your spreadsheet and presentations with Visyond’s Selective Sharing.\r\n* Share the whole spreadsheet, certain worksheets or only specific parts of a worksheet and avoid errors & unwanted changes\r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
-    files:
-      - alt: Track Changes from an Excel File - Share Projects in Visyond
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet.
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects
+      - alt: >-
+          Create and Manage Scenarios in Visyond
         descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/2019-02 Share Project Panel.png
-        title: Share Project
-      - alt: Track Changes from an Excel File - Share Worksheets in Visyond
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
+        file: /img/2019-02 Scenario Management Panel.png
+        title: Switch between different scenario          
+    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
+    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
+    title: Track What Is Happening in Your Projects
+  - benefitsList:
+      - text: >-
+          Add supporting documents, attachments and comments directly inside the
+          relevant cells so you can easily retrieve them and know who provided
+          them
+      - text: >-
+          Automatically document the model as you and your collaborators work on
+          it
+    descr: >-
+      **Establish a single place to store all your spreadsheet data** - changes,
+      assumptions, documents and conversations - in the same environment where
+      you carry out calculations, analyses and visualizations.
+    files:      
+      - alt: >-
+          Organize Assumptions, Documents and Conversations In Cells in Visyond
         descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/2019-02 Share Project Panel.png
-        title: Share Worksheets
-      - alt: Track Changes from an Excel File - Share Slides in Visyond
-        descr: Share whole presentations or just individual slides.
-        file: /img/2019-02 Share Project Panel Slide Expanded.png
-        title: Share Presentations
-    image: /img/2019-02 Share Project Panel.png
-    title: Manage Access To Information
+          Visyond will document the model automatically as you and your
+          collaborators work on it. You do not need to save support documents on
+          different platforms or try to remember where something is or who
+          provided certain assumptions.
+        file: /img/2019-02 Comments in Cells.png
+        title: Organize Assumptions, Documents and Conversations In Cells
+    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4        
+    infoVideoPoster: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.jpg
+    subtitle: "Single source of truth and knowledge management.\r\n<br>\nModel documentation at your fingertips.\r\n<br>\nData sharing without external tools.\r"
+    title: 'Organize Assumptions, Documents and Conversations In Cells'    
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/import-export@2x.png
