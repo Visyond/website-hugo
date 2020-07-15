@@ -19,32 +19,53 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "* Make collaboration on spreadsheets, presentations and analysis faster, safer and less prone to errors, unwanted changes and accidental data leakages\r\n* Share whole projects and control what each collaborator gets to see\r\n* Share whole spreadsheets, certain worksheets or only specific parts of a worksheet \r\n* Share full presentations or only individual slides linked to the spreadsheet without exposing data or calculations\r\n"
+  - benefitsList:
+      - text: Have better control over information flow and data privacy
+      - text: >-
+          Shield specific collaborators from sensitive or unnecessary
+          information
+      - text: >-
+          Empower stakeholders to self-serve on ‘what-if’ questions  without
+          interacting with the spreadsheet directly
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with
+          collaborators without having them see the rest of the spreadsheet
+    descr: >-
+      **Make collaboration easier, safer and less error-prone.** Eliminate the
+      risk of accidental changes and data leakages by sharing only specific
+      worksheets, reports and interactive dashboards with specific people.
     files:
       - alt: >-
-          Share Spreadsheets, Presentations and Analysis Online - Share Projects
-          in Visyond
+          Know What Is Happening in Your Projects in Visyond
         descr: >-
-          Set access on project level with different roles - Owner, Reader,
-          Coworker with different access permissions.
-        file: /img/2019-02 Share Project Panel.png
-        title: Share Project
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet.
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects
       - alt: >-
-          Share Spreadsheets, Presentations and Analysis Online - Share
-          Worksheets in Visyond
+          Share Only Specific Dashboards and Reports in Visyond
         descr: >-
-          Manage who can see or can not see a specific worksheet in your
-          project.
-        file: /img/2019-02 Share Project Panel.png
-        title: Share Worksheets
-      - descr: Share whole presentations or just individual slides.
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
-        link: >-
-          Share Spreadsheets, Presentations and Analysis Online - Share
-          Presentations in Visyond
-        title: Share Presentations
-    image: /img/2019-02 Share Project Panel Slide Expanded.png
-    title: 'Share Spreadsheets, Presentation and Analysis Online'
+        title: Share Only Specific Dashboards and Reports
+      - alt: >-
+          Share Only Specific Worksheets in Visyond
+        descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets	
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
+    subtitle: "Secure data sharing and IP protection.\r\n<br>\nGranular access control.\r"
+    title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/knowledge-base@2x.png
