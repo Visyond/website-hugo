@@ -18,43 +18,85 @@ watchVideoURL: 'https://www.youtube.com/embed/xCJT4vkskq8'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "* Visualize spreadsheet data with Visyond’s Interactive Slides\r\n* Populate presentations with interactive elements such as charts, sliders and dropdown fields that affect and automatically updates displayed data\r\n* Securely test assumptions in an isolated environment without risking accidental changes to the model and underlying logic and calculations\r\n* Changes in the slides do not affect the model or anyone else’s view\r\n"
+  - benefitsList:
+      - text: Change assumptions and visualize how changes affect KPIs
+      - text: >-
+          Don’t worry about introducing accidental errors since changing data on
+          the dashboard does not change the model
+    descr: >-
+      **Create interactive, spreadsheet-driven calculators and dashboards,** and
+      share with each stakeholder only what they need to see or interact
+      with.<br><br>**Empower collaborators to test assumptions independently**
+      and self-serve on ‘what-if’ questions, while shielding them from sensitive
+      or unnecessary information.
     files:
       - alt: >-
-          Interactive Presentation Software - Create Interactive Presentations
-          in Visyond
+          Create interactive dashboards and calculators in Visyond 
         descr: >-
-          Empower stakeholders to test their own assumptions without interacting
-          directly with the spreadsheet by using Visyond's Interactive
-          Presentations!
+          Create visual interactive presentations and spreadsheet-driven
+          calculators your stakeholders can use to independently test
+          assumptions without touching the spreadsheet. Changing data on the
+          slides does not make changes to the spreadsheet.
         file: /img/2019-02 Interactive Presentation.png
-        title: Interactive Presentations
-    image: /img/2019-02 Interactive Presentation.png
-    link: 'https://help.visyond.com/articles/reports-and-presentations/'
-    title: Replace Static Powerpoint Visualizations
-  - descr: >-
-      * Share whole presentations or just individual slides with selected
-      stakeholders with Visyond’s unique [Selective
-      Sharing](/features/selective-sharing/)
-
-      * Avoid the risk of exposing sensitive or unnecessary information
-
-      * Protect model’s structure and layout from accidental changes when
-      testing assumptions
-
-      * Export Visyond’s presentations to static PowerPoint at any time
+        title: Present Models with Spreadsheet-driven Calculators
+      - alt: >-
+          Share interactive dashboards and calculators in Visyond 
+        descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
+        file: /img/2019-02 Share Project Panel Slide Expanded.png
+        title: Share Only Specific Worksheets and Reports    
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
+    title: Share Insights with Spreadsheet-driven Dashboards
+  - benefitsList:
+      - text: Have better control over information flow and data privacy
+      - text: >-
+          Shield specific collaborators from sensitive or unnecessary
+          information
+      - text: >-
+          Empower stakeholders to self-serve on ‘what-if’ questions  without
+          interacting with the spreadsheet directly
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with
+          collaborators without having them see the rest of the spreadsheet
+    descr: >-
+      **Make collaboration easier, safer and less error-prone.** Eliminate the
+      risk of accidental changes and data leakages by sharing only specific
+      worksheets, reports and interactive dashboards with specific people.
     files:
       - alt: >-
-          Interactive Presentation Software - Selectively Share Presentations in
-          Visyond
+          Know What Is Happening in Your Projects in Visyond
         descr: >-
-          Allow stakeholders to see only individual parts or whole presentations
-          that they can use to test their own assumptions without interacting
-          with the spreadsheet directly.
+          All changes are documented, giving you a full audit trail - so you are
+          aware of all modifications made to the spreadsheet.
+        file: /img/2019-02 Overview Panel.png
+        title: Know What Is Happening in Your Projects
+      - alt: >-
+          Share Only Specific Dashboards and Reports in Visyond
+        descr: >-
+          Let collaborators see or interact only with what they need and let
+          everybody focus on their tasks.
         file: /img/2019-02 Share Project Panel Slide Expanded.png
-        title: Selectively Share Presentations
-    image: /img/2019-02 Share Project Panel Slide Expanded.png
-    title: Share Only What Collaborators or Clients Need To See
+        title: Share Only Specific Dashboards and Reports
+      - alt: >-
+          Share Only Specific Worksheets in Visyond
+        descr: >-
+          Besides setting permissions for collaborators (editor, viewer), you
+          can share only specific worksheets, reports and presentation slides
+          with specific people for better control over information flow and data
+          privacy.
+        file: /img/2019-02 Share Project Panel.png
+        title: Share Only Specific Worksheets	
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
+    subtitle: "Secure data sharing and IP protection.\r\n<br>\nGranular access control.\r"
+    title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/calculator-apps@2x.png
