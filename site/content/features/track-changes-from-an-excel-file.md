@@ -57,7 +57,7 @@ infoBlockFirst:
           Switching between scenarios automatically updates all linked cells,
           charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
-        title: Switch between different scenario          
+        title: Switch between different scenarios          
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
     subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
