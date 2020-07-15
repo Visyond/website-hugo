@@ -15,76 +15,38 @@ signUpURL: /accounts/signup/
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: "* Instantly identify errors in your spreadsheets and their root cause\r\n* Instantly locate precedent and dependent cells\r\n"
+  - benefitsList:
+      - text: >-
+          Instantly identify errors, their propagation chain and root cause, and
+          navigate precedent and dependent cells
+      - text: Understand spreadsheet structure with natural language formulas
+      - text: Make your models easier to explain
+    descr: >-
+      **Save countless hours of tracking errors in the spreadsheet.** Visualize
+      model structure, detect errors and potential data inconsistencies in real
+      time, and easily understand formulas.
     files:
       - alt: >-
-          Spreadsheet and Formula Auditing Tool - Track Root Causes of Errors in
-          Visyond
+          Understand Model Structure, Detect Errors and Anomalies in Visyond
         descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/track errors 1.png
-        title: Track errors and their root cause
-      - alt: Spreadsheet and Formula Auditing Tool - Audit Spreadsheets in Visyond
-        descr: >-
-          It highlights error and circular cells clearly; The trendlines help
-          you visually identify unexpected behaviors; The Precedents Panel
-          displays on top the precedent cells that are error - this way you can
-          identify the root cause of the error propagation chain with a few
-          clicks.
-        file: /img/track errors.png
-        title: Track errors and their root cause
-    image: /img/track errors 1.png
-    link: >-
-      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
-    title: Quickly Find Errors and Their Root Cause
-  - descr: "* Simplify formula auditing with human-readable names that immediately reveal modeler’s logic\r\n* Understand complex formulas & spreadsheet structure faster\r\n"
-    files:
-      - alt: >-
-          Spreadsheet and Formula Auditing Tool - Human-Readable Formula Names
-          in Visyond
-        descr: >-
-          Visyond allows you to use human-readable names that immediately reveal
-          the modeler’s logic without you having to chase precedent cryptic
-          cells (i.e., what is B7? and G41?), especially when they are on
-          different worksheets.
-        file: /img/human readable names.png
-        title: Human-Readable Names
-    image: /img/human readable names.png
-    link: >-
-      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
-    title: Understand Spreadsheet Logic with Human-Readable Formula Names
-  - descr: "* Identify data types used in your spreadsheets at a glance\r\n* When Audit Mode is active, Visyond will tell you whether a cell contains a number, a string, a date or a formula by highlighting cells with distinct color codes\r\n"
-    files:
-      - alt: >-
-          Spreadsheet and Formula Auditing Tool - Spreadsheet Audit Mode in
-          Visyond
-        descr: >-
-          In the Audit Mode each cell looks different based on the type of data
-          it contains.
+          Highlight spreadsheet structure, errors and potential data
+          inconsistencies in real time, understand complex formulas at a glance
+          and save countless hours of tedious work tracing errors and typos.
         file: /img/2019-02 Audit On.png
-        title: Audit Mode On
-    image: /img/2019-02 Audit On.png
-    link: 'https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/'
-    title: Quickly Identify Data Type
-  - descr: "* Improve your spreadsheet audit process and uncover errors that would be otherwise painstaking to catch\r\n* Understand the structure of your models better\r\n* Make your spreadsheets easier to visualize and explain to colleagues or clients\r\n"
-    files:
-      - alt: Spreadsheet and Formula Auditing Tool - Track Errors in Visyond
+        title: Understand Model Structure, Detect Errors and Anomalies
+      - alt: >-
+          Track Root Causes of Errors in Visyond
         descr: >-
           When in Audit Mode, Visyond offers simple and intuitive ways to track
           errors and their root cause.
-        file: /img/track errors.png
-        title: Track Errors
-      - alt: >-
-          Spreadsheet and Formula Auditing Tool - Navigate Cells Dependencies in
-          Visyond
-        descr: Easily identify precedent and dependent cells.
-        file: /img/navigate dependencies.gif
-        title: Navigate Cell Dependencies
-    image: /img/track errors.png
-    link: >-
-      https://help.visyond.com/articles/how-to-audit-excel-spreadsheets-in-visyond/
-    title: Navigate & Visualize Cell Dependencies
+        file: /img/2019-02 Error Root Cause.png
+        title: Track Errors and their Root Cause        
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
+    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r\n<br>\nBird’s-eye view of model structure.\r"
+    title: 'Understand Model Structure, Detect Errors and Anomalies'
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/import-export@2x.png
