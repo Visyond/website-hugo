@@ -50,7 +50,7 @@ infoBlockFirst:
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
-    title: Share Insights with Spreadsheet-driven Dashboards
+    title: Answer 'What-if' questions with Spreadsheet-driven Calculators
   - benefitsList:
       - text: Have better control over information flow and data privacy
       - text: >-
