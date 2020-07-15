@@ -16,44 +16,46 @@ watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
 bgImage: /img/partners-hero cut.jpg
 infoBlockFirst:
-  - descr: >-
-      * Add multiple assumptions or cases along with supporting documentation
-      and have conversations directly in the relevant cells without overriding
-      inputs by other collaborators
+  - benefitsList:
+      - text: >-
+          Switch between scenarios to visualize how changes affect KPIs without
+          the risk of breaking the model
+      - text: >-
+          Answer ‘what-if’ questions and quickly compare scenarios with
+          user-friendly interfaces
+      - text: Visualize the drivers that change between scenarios
+      - text: >-
+          Share your insights with stakeholders via interactive dashboards,
+          shielding them from sensitive or unnecessary information
+    descr: >-
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
     files:
       - alt: >-
-          Scenario Analysis Software - Store Multiple Assumptions Simultaneously
-          in Visyond
+          Create and Manage Scenarios in Visyond
         descr: >-
-          Cells in Visyond can store multiple assumptions (cases) simultaneously
-          without overwriting other users' inputs.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        title: Add Multiple Assumptions
-    image: /img/2019-02 Cases Panel and Dropdown.png
-    title: Create and Gather Assumptions
-  - descr: "* Combine assumptions or cases into scenarios that can be switched and compared at any time\r\n* Create and compare as many scenarios as you like without the risk of losing data, managing multiple versions of a spreadsheet or overwriting inputs\r\n"
-    files:
-      - alt: >-
-          Scenario Analysis Software - Combine Assumptions Into Scenarios in
-          Visyond
-        descr: >-
-          Combine as many assumptions as you like into one or multiple scenarios
-          that you can switch on-the-fly and immediately see how different
-          assumptions affect the outcome.
+          Switching between scenarios automatically updates all linked cells,
+          charts and presentations without compromising integrity of data.
         file: /img/2019-02 Scenario Management Panel.png
-        title: Combine Assumptions Into Scenarios
-    image: /img/2019-02 Scenario Management Panel.png
-    title: Create Scenarios in a Few Clicks
-  - descr: "* Instantly compare multiple scenarios with just a few clicks\r\n* Visyond will build an interactive chart where you can compare data points side by side empowering you to answer ‘what-if’ questions in real time\r\n"
-    files:
-      - alt: Scenario Analysis Software - Compare Scenarios in Visyond
+        title: Switch between different scenarios   
+      - alt: >-
+          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
         descr: >-
-          Compare scenarios with Visyond and gain valuable insights in just a
-          few clicks!
+          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
+          fly, during meetings or presentations without depending on experts.
         file: /img/2019-02 Scenario Analysis.png
-        title: Compare Scenarios In Real Time
-    image: /img/2019-02 Scenario Analysis.png
-    title: Answer What-If Questions Anywhere in Real Time
+        title: Answer ‘What-if’ questions anywhere in real time    
+      - alt: >-
+          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
+        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
+        file: /img/2019-02 Scenarios Waterfall Analysis.png
+        link: ''
+        title: Quickly identify which cells change between scenarios
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
+    title: 'Create, Compare and Analyze Scenarios On-the-fly'
 featuresTitle: Related Features
 featuresCards:
   - icon: /img/sensitivity@2x.png
