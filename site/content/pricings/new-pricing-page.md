@@ -33,36 +33,6 @@ pricingCards:
         human-readable formulas.
       title: Free
       url: ''
-    - BeforeBulletPoints: ''
-      BeforePricePrimary: ''
-      PricePrimary: From $10
-      PricePrimaryPeriod: user/feature/month
-      PriceSecondary: from $100 user/feauture/year
-      cta:
-        text: Get Started
-        url: '/profile#billing'
-      featureslist:
-        - title: Base App
-          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
-        - title: Select specific features
-          tooltip: "For example, you can select only Scenario Analysis and Interactive Dashboards to carry out and present Budget vs. Actual analysis.\r\n\r\n\r\nAvailable features:\r\n\r\n* Scenario Management\r\n* Audit Mode & Error Root Cause\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Scenario Analysis\r\n* Scenario Waterfall\n* Monte Carlo Simulations\r\n* Financial Statements\r\n* Interactive Dashboards\r"
-      img: /img/analyst_and_consultant_3x.png
-      limitslist:
-        - title: 3 projects
-          tooltip: The number of simultaneously active projects that you can work on.
-        - title: 3 scenarios
-          tooltip: >-
-            Create and quickly switch between different scenarios in the
-            spreadsheet.
-        - title: 3 collaborators per project
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 'Total cell attachments: 30MB'
-          tooltip: "You can attach your files directly to relevant cells.\r\n"
-      markdown: ''
-      markdown2: ''
-      subTitleList: "If you mostly work on your own on a few projects, you can select only the features that you need.\r"
-      title: Pay Per Feature
-      url: ''
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
       PriceSecondary: or $470 user/year
@@ -133,7 +103,7 @@ pricingCards:
       subTitleList: >-
         If you need to collaborate with more people and connect external
         sources.
-      title: Plus
+      title: Pro
     - BeforeBulletPoints: ''
       PricePrimary: $297
       PricePrimaryPeriod: user/month
@@ -180,7 +150,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
-      title: Pro
+      title: Teams
       url: ''
   title: Find the Right Plan for You
 contact:
