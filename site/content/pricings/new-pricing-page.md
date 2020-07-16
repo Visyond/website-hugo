@@ -11,7 +11,7 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: ''
       cta:
-        text: Sign Up
+        text: Get Started
         url: /accounts/signup/
       featureslist:
         - title: Base App
@@ -39,7 +39,7 @@ pricingCards:
       PricePrimaryPeriod: user/feature/month
       PriceSecondary: from $100 user/feauture/year
       cta:
-        text: Upgrade
+        text: Get Started
         url: '/profile#billing'
       featureslist:
         - title: Base App
@@ -67,7 +67,7 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: or $470 user/year
       cta:
-        text: Upgrade
+        text: Get Started
         url: '/profile#billing'
       featureslist:
         - title: Base App
@@ -98,7 +98,7 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: or $970 user/year
       cta:
-        text: Upgrade
+        text: Get Started
         url: '/profile#billing'
       featureslist:
         - title: Base App
@@ -139,7 +139,7 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,970 user/year'
       cta:
-        text: Upgrade
+        text: Get Started
         url: '/profile#billing'
       featureslist:
         - title: Base App
