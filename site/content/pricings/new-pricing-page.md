@@ -153,12 +153,12 @@ pricingCards:
       title: Teams
       url: ''
     - BeforeBulletPoints: ''
-      PricePrimary: $297
-      PricePrimaryPeriod: user/month
-      PriceSecondary: 'or $2,970 user/year'
+      PricePrimary: Custom
+      PricePrimaryPeriod: ''
+      PriceSecondary: ''
       cta:
-        text: Get Started
-        url: '/profile#billing'
+        text: Contact Us
+        url: '/pricing/#contactUs'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
@@ -177,7 +177,7 @@ pricingCards:
             Sharing, you can specify which parts of projects public viewers can
             see.
       featureslist2: []
-      img: /img/report_presentation_visualization_3x.png
+      img: /img/decision_makers_3x.png
       limitslist:
         - title: Unlimited projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -187,7 +187,7 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 'Total cell attachments: 1000MB'
+        - title: 'Total cell attachments: Custom'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
@@ -197,9 +197,11 @@ pricingCards:
             https://help.visyond.com/articles/link-external-sources-to-visyond-cells/
       markdown: ''
       markdown2: ''
-      subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
+      subTitleList: >-
+        Get bulk discounts for multiple subscriptions, customize them according
+        to your needs, and satisfy your specific requirements. 
       title: Enterprise
-      url: ''      
+      url: ''
   title: Find the Right Plan for You
 contact:
   buttonlabel: Contact Us
