@@ -160,7 +160,9 @@ contact:
   buttonlink: /request
   cards:
     - img: /img/decision_makers_3x.png
-      text: Get bulk discounts if you buy 10+ subscriptions.
+      text: >-
+        Get bulk discounts if you buy 10+ subscriptions and customize them
+        according to your needs.
       title: Multiple subscriptions
     - img: /img/data_input_3x.png
       text: >-
