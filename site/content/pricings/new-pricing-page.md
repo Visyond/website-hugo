@@ -62,7 +62,9 @@ pricingCards:
           tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
       markdown2: ''
-      subTitleList: Get all the modules at a discount compared to Pay Per Feature plan.
+      subTitleList: >-
+        If you need to collaborate on a small number of projects with a few
+        people.
       title: Basic
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
