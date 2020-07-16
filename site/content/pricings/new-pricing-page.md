@@ -62,9 +62,7 @@ pricingCards:
           tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
       markdown2: ''
-      subTitleList: >-
-        If you need to collaborate on a small number of projects with a few
-        people.
+      subTitleList: 'Collaborate on a small number of projects with a few people. '
       title: Basic
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
@@ -103,7 +101,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: >-
-        If you need to collaborate with more people and connect external
+        Collaborate with more people on more projects, and connect external
         sources.
       title: Pro
     - BeforeBulletPoints: ''
