@@ -152,6 +152,54 @@ pricingCards:
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
       title: Teams
       url: ''
+    - BeforeBulletPoints: ''
+      PricePrimary: $297
+      PricePrimaryPeriod: user/month
+      PriceSecondary: 'or $2,970 user/year'
+      cta:
+        text: Get Started
+        url: '/profile#billing'
+      featureslist:
+        - title: Base App
+          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
+        - title: Build Module
+          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Attachments and Conversations in Cells"
+        - title: Analyze Module
+          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
+        - title: Report Module
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+        - title: Selective Sharing
+          tooltip: Share only specific worksheets and reports with specific people.
+          url: /features/share-spreadsheets-and-presentations-online/
+        - title: Public Link
+          tooltip: >-
+            Publicly share worksheets and reports. Combined with Selective
+            Sharing, you can specify which parts of projects public viewers can
+            see.
+      featureslist2: []
+      img: /img/report_presentation_visualization_3x.png
+      limitslist:
+        - title: Unlimited projects
+          tooltip: The number of simultaneously active projects that you can work on.
+        - title: Unlimited scenarios
+          tooltip: >-
+            Create and quickly switch between different scenarios in the
+            spreadsheet.
+        - title: Unlimited collaborators per project
+          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
+        - title: 'Total cell attachments: 1000MB'
+          tooltip: "You can attach your files directly to relevant cells.\r"
+        - title: Unlimited external sources
+          tooltip: >-
+            You can link Excel files to a Visyond project and refer to their
+            cells in formulas.
+          url: >-
+            https://help.visyond.com/articles/link-external-sources-to-visyond-cells/
+      markdown: ''
+      markdown2: ''
+      subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
+      title: Enterprise
+      url: ''      
   title: Find the Right Plan for You
 contact:
   buttonlabel: Contact Us
