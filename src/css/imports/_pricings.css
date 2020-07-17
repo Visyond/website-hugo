@@ -334,29 +334,7 @@ color: #50546d;
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
 
-/* BULLET POINTS AND PARAGRAPHIS INSIDE THE PRICING CARDS */
-.card__markdown p {
-padding-left: 1em;
-font-weight: 400;
-color: #0e2639;
-font-size: 1em;
 
-    &:not(:last-child) {
-        margin-bottom: 10px;
-    }	
-    @media screen and (max-width: 1024px) {
-        text-align: center;
-	padding-left: 0em;
-	font-size: 1.4em;    
-    }	
-	
-}
-
-.card__markdown a, .card__markdown a:visited {
-text-decoration: underline;
-color: #0086ff;
-}
-/* END BULLET POINTS AND PARAGRAPHIS INSIDE THE PRICING CARDS */
 
 /* CARDS FOR CONTACT US IF YOU NEED... SECTION */
 .pricing__card {
