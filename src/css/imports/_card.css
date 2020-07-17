@@ -174,18 +174,18 @@
 }
 
 
-.card__markdown__limits {
+.card-limits-markdown {
     color: #5f6976;
     height: 10em;
 }
 
-.card__markdown__limits ul {
+.card-limits-markdown ul {
     margin: 0 0 20px 0;
     padding: 0;
     list-style: none;
 }
 
-.card__markdown__limits li {
+.card-limits-markdown li {
     position: relative;
     padding-left: 2em;
     font-weight: 400;
