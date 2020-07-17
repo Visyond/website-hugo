@@ -266,6 +266,11 @@
 	/* margin-top: 1em;*/
 	text-align: center;
 	font-size: 1.1em;
+	height: 5.5em;
+    @media screen and (max-width: 1024px) {
+        height: 9em;
+    }	
+	
 }
 
 .price-primary-value {
