@@ -36,6 +36,7 @@ pricingCards:
     - PricePrimary: $47
       PricePrimaryPeriod: user/month
       PriceSecondary: or $470 user/year
+      PriceSecondaryMessage: (get 2 months free)
       cta:
         text: Get Started
         url: '/profile#billing'
@@ -67,6 +68,7 @@ pricingCards:
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
       PriceSecondary: or $970 user/year
+      PriceSecondaryMessage: (get 2 months free)
       cta:
         text: Get Started
         url: '/profile#billing'
@@ -108,6 +110,7 @@ pricingCards:
       PricePrimary: $297
       PricePrimaryPeriod: user/month
       PriceSecondary: 'or $2,970 user/year'
+      PriceSecondaryMessage: (get 2 months free)
       cta:
         text: Get Started
         url: '/profile#billing'
