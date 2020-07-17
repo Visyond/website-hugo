@@ -11,7 +11,7 @@ pricingCards:
       PricePrimaryPeriod: user/month
       PriceSecondary: ''
       cta:
-        text: Get Started
+        text: Sign Up
         url: /accounts/signup/
       featureslist:
         - title: Base App
