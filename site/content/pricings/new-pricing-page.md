@@ -82,7 +82,7 @@ pricingCards:
         - title: Report Module
           tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
           url: ''
-      img: /img/audit-mode@2x.png
+      img: /img/modelling_3x.png
       limitslist:
         - title: 10 projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -132,7 +132,7 @@ pricingCards:
             Sharing, you can specify which parts of projects public viewers can
             see.
       featureslist2: []
-      img: /img/report_presentation_visualization_3x.png
+      img: /img/audit-mode@2x.png
       limitslist:
         - title: Unlimited projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -153,7 +153,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: "Collaborate with many people on many projects. Decide who can see and interact with specific worksheets and reports.\r\n"
-      title: Teams
+      title: Advanced
       url: ''
     - BeforeBulletPoints: ''
       PricePrimary: Custom
@@ -180,7 +180,7 @@ pricingCards:
             Sharing, you can specify which parts of projects public viewers can
             see.
       featureslist2: []
-      img: /img/decision_makers_3x.png
+      img: /img/data_governance_3x.png
       limitslist:
         - title: Unlimited projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -201,8 +201,8 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: >-
-        Get bulk discounts for multiple subscriptions, customize them according
-        to your needs, and satisfy your specific requirements. 
+        Get bulk discounts for multiple subscriptions and customize features and
+        permissions for each team member.
       title: Enterprise
       url: ''
   title: Find the Right Plan for You
@@ -226,7 +226,7 @@ contact:
     - img: /img/real_estate_3x.png
       text: Install Visyond on your server.
       title: On-premise installation
-  title: Contact Us if You Need
+  title: Contact Us if You Need...
 whyCards:
   cards:
     - description:
