@@ -141,3 +141,27 @@
     background: #0585ff;
     border: 2px solid #0585ff;
 }    
+
+
+.btn-pricing-card-special {
+    margin: 1.3em auto 0.5em auto;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #fff;
+    padding: 0.7em 0em;
+    background: #0585ff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: color 0.2s ease-in-out, border 0.2s ease-in-out,
+    background 0.2s ease-in-out;
+    border: 2px solid #0585ff;
+    cursor: pointer;
+    width: 65%;
+}
+
+.btn-pricing-card-special:hover {
+    color: #0585ff;
+    background: #fff;
+    border: 2px solid #0585ff;
+}  
