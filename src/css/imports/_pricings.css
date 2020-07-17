@@ -382,16 +382,17 @@ color: #50546d;
   box-shadow: 0 0 0.5em 1px #9a9a9a;	
   text-align: left;
   border-radius: 5px;
-  padding: 1em 1em;
+  padding: 0.5em;
   position: absolute;
   z-index: 1;
-  bottom: 150%;
-  left: 50%;
+  top: -250%;
+  right: 100%;
   margin-left: -7.5em;
   opacity: 0;
   transition: opacity 0.5s;
 }
 
+/* arrow for the tooltip
 .tooltipPricing .tooltiptextPricing::after {
   content: "";
   position: absolute;
@@ -402,6 +403,7 @@ color: #50546d;
   border-style: solid;
   border-color: #212121 transparent transparent transparent;
 }
+*/
 
 .tooltipPricing:hover .tooltiptextPricing {
   visibility: visible;
