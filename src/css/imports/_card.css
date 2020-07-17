@@ -110,6 +110,28 @@
     height: 10em;
 }
 
+.card__markdown a, .card__markdown a:visited {
+text-decoration: underline;
+color: #0086ff;
+}
+
+.card__markdown p {
+padding-left: 1em;
+font-weight: 400;
+color: #0e2639;
+font-size: 1em;
+
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }	
+    @media screen and (max-width: 1024px) {
+        text-align: center;
+	padding-left: 0em;
+	font-size: 1.4em;    
+    }	
+	
+}
+
 .card__markdown ul {
     margin: 0 0 20px 0;
     padding: 0;
@@ -177,6 +199,11 @@
 .card-limits-markdown {
     color: #5f6976;
     height: 10em;
+}
+
+.card-limits-markdown a, .card-limits-markdown a:visited {
+text-decoration: underline;
+color: #0086ff;
 }
 
 .card-limits-markdown ul {
@@ -279,3 +306,4 @@
         font-size: 14px;
     }
 }
+
