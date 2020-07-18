@@ -59,7 +59,7 @@ pricingCards:
             spreadsheet.
         - title: 5 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 'Cell attachments: 50MB'
+        - title: '50MB cell attachments'
           tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
       markdown2: ''
@@ -92,7 +92,7 @@ pricingCards:
             spreadsheet.
         - title: 10 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 'Cell attachments: 100MB'
+        - title: '100MB cell attachments'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: 2 external sources
           tooltip: >-
@@ -142,7 +142,7 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 'Cell attachments: 1000MB'
+        - title: '1000MB cell attachments'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
@@ -190,7 +190,7 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 'Cell attachments: Custom'
+        - title: '1000MB cell attachments'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
