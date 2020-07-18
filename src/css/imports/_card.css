@@ -133,7 +133,7 @@ font-size: 1em;
 }
 
 .card__markdown ul {
-    margin: 0 0 20px 0;
+    margin: 0; /* 0 20px 0; */
     padding: 0;
     list-style: none;
 }
@@ -207,7 +207,7 @@ color: #0086ff;
 }
 
 .card-limits-markdown ul {
-    margin: 0 0 20px 0;
+    margin: 0; /* 0 20px 0; */
     padding: 0;
     list-style: none;
 }
