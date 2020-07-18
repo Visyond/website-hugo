@@ -59,7 +59,7 @@ pricingCards:
             spreadsheet.
         - title: 5 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 'Total cell attachments: 50MB'
+        - title: 'Cell attachments: 50MB'
           tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
       markdown2: ''
@@ -92,7 +92,7 @@ pricingCards:
             spreadsheet.
         - title: 10 collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
-        - title: 'Total cell attachments: 100MB'
+        - title: 'Cell attachments: 100MB'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: 2 external sources
           tooltip: >-
@@ -142,7 +142,7 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 'Total cell attachments: 1000MB'
+        - title: 'Cell attachments: 1000MB'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
@@ -190,7 +190,7 @@ pricingCards:
             spreadsheet.
         - title: Unlimited collaborators per project
           tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
-        - title: 'Total cell attachments: Custom'
+        - title: 'Cell attachments: Custom'
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
           tooltip: >-
