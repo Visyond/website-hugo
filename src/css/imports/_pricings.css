@@ -457,8 +457,7 @@ color: #50546d;
   margin-left: 0.2em;	
 }
 
-.formContainer {
-  margin-top: 1.5em;
+.pricingFormResize {
   width: 50%;	
 
   @media screen and (max-width: 1024px) {
