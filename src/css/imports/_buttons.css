@@ -122,10 +122,10 @@
 .btn-pricing-card {
     margin: 1.3em auto 0.5em auto;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: 600;
     color: #0585ff;
-    padding: 0.7em 0em;
+    padding: 0.5em 0em;
     background: #fff;
     text-transform: uppercase;
     border-radius: 5px;
@@ -133,7 +133,7 @@
     background 0.2s ease-in-out;
     border: 2px solid #0585ff;
     cursor: pointer;
-    width: 65%;
+    width: 50%;
 }
 
 .btn-pricing-card:hover {
@@ -146,10 +146,10 @@
 .btn-pricing-card-special {
     margin: 1.3em auto 0.5em auto;
     display: inline-block;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: 600;
     color: #fff;
-    padding: 0.7em 0em;
+    padding: 0.5em 0em;
     background: #0585ff;
     text-transform: uppercase;
     border-radius: 5px;
@@ -157,7 +157,7 @@
     background 0.2s ease-in-out;
     border: 2px solid #0585ff;
     cursor: pointer;
-    width: 65%;
+    width: 50%;
 }
 
 .btn-pricing-card-special:hover {
