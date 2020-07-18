@@ -389,7 +389,7 @@ color: #50546d;
   right: 100%;
   margin-left: -7.5em;
   opacity: 0;
-  transition: opacity 0.5s;
+  transition: opacity 0.3s;
 }
 
 /* arrow for the tooltip
