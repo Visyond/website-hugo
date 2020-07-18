@@ -243,17 +243,20 @@
            	
     <div class="container">
       <h2 class="header-section" style="font-weight: 600;">Talk To Us</h2>
-      <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
-        <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
-	<input type="hidden" id="referrer" name="Referrer" value="" />      
-        <div class="form__left-column" style="margin: 0; width: 50%;">
-          <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
-          <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
-          <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
-          <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
-          <div class="form__textarea-container" style="height: 90px;">
-            <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
-          </div>     
+      <div class="formContainer">	    
+        <form class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+          <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+	  <input type="hidden" id="referrer" name="Referrer" value="" />      
+          <div class="form__left-column" style="margin: 0; width: 50%;">
+            <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+            <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+            <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+            <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
+            <div class="form__textarea-container" style="height: 90px;">
+              <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
+            </div>
+          </div>
+		
           <div class="btn-wrap">
             <input type="submit" value="Contact Us" class="btn-primary">
           </div>
