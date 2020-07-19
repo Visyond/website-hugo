@@ -133,7 +133,7 @@
     background 0.2s ease-in-out;
     border: 2px solid #0585ff;
     cursor: pointer;
-    width: 50%;
+    width: 60%;
 }
 
 .btn-pricing-card:hover {
@@ -157,7 +157,7 @@
     background 0.2s ease-in-out;
     border: 2px solid #0585ff;
     cursor: pointer;
-    width: 50%;
+    width: 60%;
 }
 
 .btn-pricing-card-special:hover {
