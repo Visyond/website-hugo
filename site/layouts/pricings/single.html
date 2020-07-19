@@ -121,21 +121,23 @@
 		<div class="card-limits-markdown">
 		<ul>
 		{{ range .limitslist }}
-                  <li>
-                      {{ if .url }}
-                      <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                      {{ else }}
-                        {{ .title }}
-                      {{ end }}
+                  <div class="card-limits-markdown-li-wrapper">
+                    <li>
+                        {{ if .url }}
+                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                        {{ else }}
+                          {{ .title }}
+                        {{ end }}
                              
-                      {{ if .tooltip }}
-			<div class="tooltipPricing">  
-                          <i class="material-icons tooltipIcon">info</i>
-                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-			</div>         				
-                      {{ end }}
-                                  
-                  </li> 	  
+                        {{ if .tooltip }}
+			  <div class="tooltipPricing">  
+                            <i class="material-icons tooltipIcon">info</i>
+                            <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+			  </div>         				
+                        {{ end }}
+                                    
+                    </li>
+                  </div> 	  
                 {{ end }}
 		</ul>	
                 </div>
