@@ -230,6 +230,13 @@ color: #0086ff;
     }
 }
 
+.card-limits-markdown-li-wrapper {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 
 .function-card__bg {
     background: url("/img/vimages/banner.jpg") center center no-repeat;
