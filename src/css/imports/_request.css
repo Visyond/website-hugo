@@ -163,6 +163,11 @@
   }
 }
 
+.request-demo__input-dropdown {
+  color: #52556c;
+  font-family: "Open Sans",sans-serif;
+}
+
 .request-demo__submit {
   width: 100%;
   margin-top: 25px;
