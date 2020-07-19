@@ -186,7 +186,7 @@ body > p {
 }
 
 .container-pricing {
-    width: 100%;
+    width: 80%;
     max-width: 95%;
     /* padding: 0 15px; */
     margin: 0 auto;
@@ -195,7 +195,7 @@ body > p {
         width: 100%;
     }
     @media screen and (max-width: 1051px) {
-        width: 100%;
+        width: 60%;
     }
     @media screen and (max-width: 1021px) {
         width: 768px;
