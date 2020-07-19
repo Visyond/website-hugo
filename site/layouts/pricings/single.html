@@ -127,16 +127,16 @@
                         <a href="{{ .url }}" target="_blank">{{ .title }}</a>
                         {{ else }}
                           {{ .title }}
-                        {{ end }}
-                             
-                        {{ if .tooltip }}
-			  <div class="tooltipPricing">  
-                            <i class="material-icons tooltipIcon">info</i>
-                            <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-			  </div>         				
-                        {{ end }}
-                                    
+                        {{ end }}                
                     </li>
+			  
+                    {{ if .tooltip }}
+                    <div class="tooltipPricing">  
+                      <i class="material-icons tooltipIcon">info</i>
+                      <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                    </div>         				
+                    {{ end }}                      			  
+			  
                   </div> 	  
                 {{ end }}
 		</ul>	
