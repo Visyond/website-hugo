@@ -70,14 +70,17 @@
 }
 
 .card__title__pricing {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 600;
     color: #50546d;
-    height: 1.7em;
-    margin-bottom: 0em;
+    margin-bottom: 0.7em;
+
     @media screen and (max-width: 1024px) {
-        font-size: 2.5em;
-    }	     
+        font-size: 2em;
+    }
+    @media screen and (max-width: 784px) {
+        font-size: 2em;
+    }		
 }
 
 .card__subtitle {
@@ -109,14 +112,15 @@
     @media screen and (max-width: 1051px) {
         font-size: 0.9em;
     }
+    @media screen and (max-width: 784px) {
+        font-size: 1.1em;
+        height: auto;
+    }		
     @media screen and (max-width: 1024px) {
         font-size: 1.15em;
         height: auto;
     }
-    @media screen and (max-width: 784px) {
-        font-size: 1.1em;
-        height: auto;
-    }	
+
 	
 	
 	
@@ -162,10 +166,10 @@ font-size: 1em;
 
 .card__markdown li {
     position: relative;
-    padding-left: 2em;
+    padding-left: 1.7em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 0.9em;
+    font-size: 0.8em;
 
     &:not(:last-child) {
         margin-bottom: 0.5em;
@@ -198,7 +202,7 @@ font-size: 1em;
         margin-right: 10px;
         margin-bottom: 3px;
         width: 8px;
-        height: 3px;
+        height: 2px;
         background: #0685ff;
         display: inline-block;
     }
@@ -206,13 +210,13 @@ font-size: 1em;
     &:after {
         content: "";
         position: absolute;
-        top: 0.25em;
-        left: 10px;
+        top: 0.33em;
+        left: 9px;
         transform: rotate(-130deg);
         margin-right: 10px;
         margin-bottom: 3px;
-        width: 3px;
-        height: 16px;
+        width: 2px;
+        height: 12px;
         background: #0685ff;
         display: inline-block;
     }
@@ -221,8 +225,14 @@ font-size: 1em;
 
 .card-limits-markdown {
     color: #5f6976;
-    height: 13em;
+    height: 9em;
 	
+    @media screen and (max-width: 1211px) {
+        font-size: 0.9em;
+    }	
+    @media screen and (max-width: 1051px) {
+        font-size: 0.9em;
+    }	
     @media screen and (max-width: 1024px) {
         height: auto;
     }				
@@ -241,21 +251,15 @@ color: #0086ff;
 
 .card-limits-markdown li {
     position: relative;
-    padding-left: 1em;
+    padding-left: 0.3em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 0.82em;
+    font-size: 0.8em;
 
     &:not(:last-child) {
         margin-bottom: 0.5em;
     }
 
-     @media screen and (max-width: 1211px) {
-        width: 90%;
-    }
-    @media screen and (max-width: 1051px) {
-        width: 90%;
-    }
     @media screen and (max-width: 1024px) {
         text-align: center;
         padding-left: 0em;
