@@ -268,7 +268,7 @@
 	font-size: 1.1em;
 	height: 5.5em;
     @media screen and (max-width: 1024px) {
-        height: 9em;
+        height: auto;
     }	
 	
 }
@@ -279,7 +279,7 @@
   font-size: 1.4em;
   display: inline;
     @media screen and (max-width: 1024px) {
-        font-size: 2.2em;
+        font-size: 2em;
     }		
 }
 
@@ -291,7 +291,7 @@
   display: block;
   margin-top: -0.3em;	
     @media screen and (max-width: 1024px) {
-        font-size: 1.8em;
+        font-size: 1.3em;
     }		
 }
 
@@ -302,7 +302,7 @@
   font-size: 0.85em;
   margin-top: 0.5em;	
     @media screen and (max-width: 1024px) {
-        font-size: 1.4em;
+        font-size: 1.15em;
     }		
 }
 
@@ -312,7 +312,7 @@
   font-size: 0.75em;
   margin-top: 0em;;	
     @media screen and (max-width: 1024px) {
-        font-size: 1.05em;
+        font-size: 1em;
     }		
 }
 
