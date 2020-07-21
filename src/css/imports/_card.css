@@ -54,6 +54,15 @@
     font-size: 1.2em;
 }
 
+.card__image {
+  max-height: 4.5em;
+ 
+   @media screen and (max-width: 1024px) {
+     max-height: 6em;
+   }	
+}
+
+
 .card__title-wrap {
     text-align: center;
     color: #5f6976;
@@ -73,7 +82,7 @@
     font-size: 1.2em;
     font-weight: 600;
     color: #50546d;
-    margin-bottom: 0.7em;
+    margin-bottom: 0.5em;
 
     @media screen and (max-width: 1024px) {
         font-size: 2em;
@@ -91,6 +100,7 @@
     color: #0e2639;
     font-size: 0.85em;
     height: 6.5em;
+    margin-bottom: 0.5em;	
 
     & > ul {
         list-style: none;
