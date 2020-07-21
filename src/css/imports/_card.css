@@ -98,10 +98,28 @@
 
         margin: 1em 0;
     }
-    @media screen and (max-width: 1024px) {
+   /* @media screen and (max-width: 1024px) {
         font-size: 1.4em;
-         height: 5em;
-    }	    
+        height: 5em;
+    } */
+
+    @media screen and (max-width: 1211px) {
+        font-size: 0.9em;
+    }
+    @media screen and (max-width: 1051px) {
+        font-size: 0.9em;
+    }
+    @media screen and (max-width: 1021px) {
+        font-size: 1.2em;
+        height: 5em;
+    }
+    @media screen and (max-width: 784px) {
+        font-size: 1.2em;
+        height: 5em;
+    }	
+	
+	
+	
     
 }
 
