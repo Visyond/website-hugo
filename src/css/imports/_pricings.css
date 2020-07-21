@@ -420,7 +420,7 @@ color: #50546d;
   margin-bottom: 5px!important;
   color: #ffffff!important;
   font-weight: 400!important;
-  font-size: 1em!important;	
+  font-size: 12px!important;	
 	
     &:before {
         content: none!important;
@@ -440,7 +440,7 @@ color: #50546d;
 .tooltiptextPricing p {
   margin-bottom: 5px!important;
   color: #ffffff!important;
-  font-size: 0.9em!important;
+  font-size: 12px!important;
   padding-left: 0!important;;	
 	
   @media screen and (max-width: 1024px) {
