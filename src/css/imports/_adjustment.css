@@ -191,12 +191,12 @@ body > p {
     margin: 0 auto;
 
     @media screen and (max-width: 1211px) {
-        width: 85%;
+        width: 90%;
     }
     @media screen and (max-width: 1051px) {
         width: 90%;
     }
-    @media screen and (max-width: 1021px) {
+    @media screen and (max-width: 1024px) {
         width: 60%;
     }
     @media screen and (max-width: 784px) {
