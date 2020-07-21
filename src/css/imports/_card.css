@@ -111,11 +111,11 @@
     }
     @media screen and (max-width: 1024px) {
         font-size: 1.15em;
-        height: 5em;
+        height: auto;
     }
     @media screen and (max-width: 784px) {
-        font-size: 1.15emem;
-        height: 5em;
+        font-size: 1.1em;
+        height: auto;
     }	
 	
 	
