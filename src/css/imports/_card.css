@@ -86,7 +86,7 @@
     padding: 0;
     /*opacity: 0.8;*/
     color: #0e2639;
-    font-size: 0.9em;
+    font-size: 0.85em;
     height: 7em;
 
     & > ul {
@@ -126,6 +126,10 @@
 .card__markdown {
     color: #5f6976;
     height: 13em;
+	
+    @media screen and (max-width: 1024px) {
+        height: auto;
+    }		
 }
 
 .card__markdown a, .card__markdown a:visited {
@@ -218,6 +222,10 @@ font-size: 1em;
 .card-limits-markdown {
     color: #5f6976;
     height: 13em;
+	
+    @media screen and (max-width: 1024px) {
+        height: auto;
+    }				
 }
 
 .card-limits-markdown a, .card-limits-markdown a:visited {
@@ -236,18 +244,24 @@ color: #0086ff;
     padding-left: 1em;
     font-weight: 400;
     color: #0e2639;
-    font-size: 0.9em;
+    font-size: 0.82em;
 
     &:not(:last-child) {
         margin-bottom: 0.5em;
     }
 
+     @media screen and (max-width: 1211px) {
+        width: 90%;
+    }
+    @media screen and (max-width: 1051px) {
+        width: 90%;
+    }
     @media screen and (max-width: 1024px) {
         text-align: center;
         padding-left: 0em;
         font-size: 1.1em;
 	margin: 0 auto;
-    }
+    }	
 }
 
 .card-limits-markdown-li-wrapper {
