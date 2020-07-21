@@ -64,7 +64,7 @@ pricingCards:
       markdown: ''
       markdown2: ''
       subTitleList: 'Collaborate on a small number of projects with a few people. '
-      title: Basic
+      title: Standard
     - PricePrimary: $97
       PricePrimaryPeriod: user/month
       PriceSecondary: or $970 user/year
