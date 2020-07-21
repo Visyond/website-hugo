@@ -90,7 +90,7 @@
     /*opacity: 0.8;*/
     color: #0e2639;
     font-size: 0.85em;
-    height: 7em;
+    height: 6.5em;
 
     & > ul {
         list-style: none;
@@ -129,7 +129,7 @@
 
 .card__markdown {
     color: #5f6976;
-    height: 13em;
+    height: 8em;
 	
     @media screen and (max-width: 1024px) {
         height: auto;
@@ -196,7 +196,7 @@ font-size: 1em;
     &:before {
         content: "";
         position: absolute;
-        top: 0.7em;
+        top: 10px;
         left: 0;
         transform: rotate(-130deg);
         margin-right: 10px;
@@ -210,7 +210,7 @@ font-size: 1em;
     &:after {
         content: "";
         position: absolute;
-        top: 0.33em;
+        top: 4px;
         left: 9px;
         transform: rotate(-130deg);
         margin-right: 10px;
