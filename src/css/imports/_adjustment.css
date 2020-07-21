@@ -200,7 +200,7 @@ body > p {
         width: 80%;
     }
     @media screen and (max-width: 1024px) {
-        width: 60%;
+        width: 80%;
     }	
 	
 }
