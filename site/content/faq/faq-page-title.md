@@ -179,6 +179,27 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
+              Visyond can integrate with Excel and reference an Excel file as an
+              ‘external source’ inside a Visyond project (for example, to
+              display a value from an Excel cell in a Visyond cell). We are open
+              to discuss custom integrations for your specific needs, as we’ve
+              found out that ‘one size fits all’ integrations don’t really cut
+              it for something as varied as spreadsheet models and many
+              different systems people use in conjunction with them.
+        faqSectionSubTitle: Integrations
+      - answersList:
+          - answer: >-
+              We have an open API that allows you to interact with Visyond
+              projects externally (i.e. adding external sources, managing access
+              permissions and collaborators, etc.) but not internally (i.e.
+              querying the contents of a project). Please tell us more about how
+              you want to use an API.
+        faqSectionSubTitle: API
+    faqSectionTitle: Do you an open API? What integrations are available?
+  - {}
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
               It runs in the browser and its performance should be compared to
               Excel 365, Google Sheets and other online tools. Install the
               latest version of your browser for the best user experience (we
