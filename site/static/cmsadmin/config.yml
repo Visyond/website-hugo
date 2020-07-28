@@ -682,18 +682,20 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "URL", name: "url", widget: "string"},
                 {label: "Icon", name: "img", widget: "image"},
                 {label: "Description", name: "subTitleList", widget: "markdown"},
-                {label: "BeforeBulletPoints", name: "BeforeBulletPoints", widget: "markdown", required: false},
+                {label: "Limits List Header 1", name: "BeforeBulletPoints", widget: "markdown", required: false},
 		{label: "Limits", name: "markdown2", widget: "markdown", required: false},
 		{label: "Limits List", name: "limitslist", widget: "list", fields: [
 			{label: "Limit Title", name: "title", widget: "string"},
 			{label: "Limit URL", name: "url", widget: "string"},
 			{label: "Limit Tooltip", name: "tooltip", widget: "markdown"}
 		]},
-		{label: "Features List", name: "featureslist", widget: "list", fields: [
+		{label: "Features List 1 Header", name: "featuresList1Header", widget: "markdown", required: false},
+		{label: "Features List 1", name: "featureslist", widget: "list", fields: [
 			{label: "Feature Title", name: "title", widget: "string"},
 			{label: "Feature URL", name: "url", widget: "string"},
 			{label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
 		]},
+		{label: "Features List 2 Header", name: "featuresList2Header", widget: "markdown", required: false},
 		{label: "Features List 2", name: "featureslist2", widget: "list", fields: [
 			{label: "Feature Title", name: "title", widget: "string"},
 			{label: "Feature URL", name: "url", widget: "string"},
