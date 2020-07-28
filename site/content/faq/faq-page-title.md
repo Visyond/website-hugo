@@ -196,7 +196,6 @@ faqSection:
               you want to use an API.
         faqSectionSubTitle: API
     faqSectionTitle: Do you an open API? What integrations are available?
-  - {}
   - faqSectionContent:
       - answersList:
           - answer: >-
