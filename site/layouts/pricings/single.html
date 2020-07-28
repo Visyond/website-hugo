@@ -148,6 +148,7 @@
 		{{ if .featureslist }}	
 		<hr class="divider-thin">	
 		<div class="card__markdown">
+		<div class="before-bullet-points">{{ .FeaturesListHeader | markdownify }}</div>	
 		<ul>
 		{{ range .featureslist }}
                   <li>
