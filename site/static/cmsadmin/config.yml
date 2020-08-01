@@ -1518,24 +1518,24 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
       - {label: "Services Title", name: "servicesTitle", widget: "string", required: true}
       - {label: "Services Text", name: "servicesText", widget: "markdown", required: false}
-      - { label: "Services items", name: "servicesItems", widget: "list",
+      - {label: "Services items", name: "servicesItems", widget: "list",
         fields: [
           {label: "Title", name: "title", widget: "string", required: false,},
 	  {label: "Icon", name: "img", widget: "image", required: false,},
           {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
 	  {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", 
+          fields: [
+            {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
+            {label: "Answers List", name: "answersList", widget: list, 
             fields: [
-              {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
-              {label: "Answers List", name: "answersList", widget: list, 
-                fields: [
-                  {label: "Answer", name: "answer", widget: "string"},
-                ],}
+              {label: "Answer", name: "answer", widget: "string"},
               ],}
-	    ], 
-            required: false,
-            }
-          ],
+            ],}
+	  ], 
           required: false,
+          }
+        ],
+        required: false,
         }      
       - {label: "Contact Us Title", name: "contactTitle", widget: "string", required: false}
       - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
