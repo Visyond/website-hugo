@@ -11,6 +11,11 @@ faqSection:
               overwrite the existing ones. Nobody, including the project owner,
               can modify data entered by others.
           - answer: >-
+              <strong>You easily manage scenarios.</strong> Create and compare
+              scenarios on-the-fly with just a few clicks during meetings or
+              presentations, and quickly identify which business drivers change
+              between scenarios.
+          - answer: >-
               <strong>You decide who sees and interacts with specific worksheets
               and dashboards.</strong> Share only specific worksheets, reports
               and dashboards with specific people for better control over
@@ -21,13 +26,6 @@ faqSection:
               environment.</strong> Out of the box, every member of the team has
               access to automated tools that help them do their job faster,
               while minimizing the risk of accidental errors.
-          - answer: >-
-              <strong>You are in full control of all the steps of your
-              workflow.</strong> From spreadsheet modeling and auditing, data
-              gathering, forecasting and scenario planning, to the presentation
-              of interactive dashboards, financial statements and reports. All
-              this happens in one place, creating a single source of truth, in
-              the same environment where you carry out calculations.
         faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
       - answersList:
           - answer: >-
@@ -36,16 +34,18 @@ faqSection:
               will track and report all assumptions created by multiple
               collaborators, attachments, and conversations.
           - answer: >-
-              <strong>You easily manage scenarios.</strong> Create and compare
-              scenarios on-the-fly with just a few clicks during meetings or
-              presentations, and quickly identify which business drivers change
-              between scenarios.
-          - answer: >-
               <strong>You have a bird’s-eye view of your spreadsheets.</strong>
               At a glance you will be able to see all scenarios and assumptions
               that drive your spreadsheets, analyses and dashboards created by
               different collaborators, errors and their root causes,
               conversations and attachments.
+          - answer: >-
+              <strong>You are in full control of all the steps of your
+              workflow.</strong> From spreadsheet modeling and auditing, data
+              gathering, forecasting and scenario planning, to the presentation
+              of interactive dashboards, financial statements and reports. All
+              this happens in one place, creating a single source of truth, in
+              the same environment where you carry out calculations.
         faqSectionSubTitle: Visyond is built for data tracking and to provide real-time insights
       - answersList:
           - answer: >-
@@ -64,14 +64,18 @@ faqSection:
       - answersList:
           - answer: >-
               <strong>You analyze formula-driven data on the fly.</strong>
-              Automate and carry out impact analyses and stress-tests that
-              skilled professionals prepare in hours or days, in minutes and
-              without long error-prone manual setups.
+              Automate and carry out, in minutes, analyses and stress-tests that
+              used hours or days to set up.
           - answer: >-
               <strong>You analyze data in the same place where you carry out
-              calculations and create visualizations.</strong> Visyond combines
-              models and their outputs directly with analyses, allowing for
-              flexible, on-the-fly analysis.
+              calculations and create visualizations.</strong> Visyond connects
+              spreadsheets and their outputs directly to collaborative, flexible
+              and automated analysis tools. Each collaborator can run their own
+              set of analyses on-the-fly, without overwriting or changing
+              others’ work. Visyond then connects the outputs of analyses to
+              interactive, spreadsheet-driven dashboards, allowing collaborators
+              to view the outcome of your analyses and/or interact with the
+              spreadsheet without actually touching or seeing the spreadsheet.
           - answer: >-
               <strong>You operate with real-time data.</strong> You don’t have
               to waste time on data preparation or risk to introduce errors
@@ -99,14 +103,14 @@ faqSection:
           - answer: >-
               <strong>Visyond and BI Tools are not directly comparable:</strong>
               they are two different types of applications with different focus.
-              Visyond has general BI Functionalities. BI Tools cannot do what
-              Visyond does.
+              Visyond has general BI functionalities. BI Tools alone cannot do
+              what Visyond does.
         faqSectionSubTitle: Visyond and BI Tools are not directly comparable
       - answersList:
           - answer: >-
               <strong>Models and visualizations use the same data
               source.</strong> Dashboards and calculators are connected directly
-              to your spreadsheet models without additional data preparation,
+              to your spreadsheets without additional data preparation,
               processing and migrations.
           - answer: >-
               <strong>Not only backward-looking.</strong> Build forward-looking
@@ -115,10 +119,15 @@ faqSection:
         faqSectionSubTitle: Visyond is built for real-time data updates
       - answersList:
           - answer: >-
-              <strong>Interact with models indirectly through an always
+              <strong>Interact with spreadsheets through a secure, always
               up-to-date presentation layer.</strong> Create interactive,
               spreadsheet-driven calculators and dashboards, and share with each
-              stakeholder only what they need to see or interact with.
+              stakeholder only what they need to see or interact with. With
+              dashboard’s controls (sliders, drop-downs, etc.) connected
+              directly to the spreadsheet cells, you can let collaborators query
+              the spreadsheet and get the outputs without seeing or modifying
+              the spreadsheet. You can allow collaborators to apply certain
+              scenarios from you spreadsheet to the dashboard they see.
           - answer: >-
               <strong>Empower collaborators to test assumptions
               independently</strong> and self-serve on ‘what-if’ questions,
