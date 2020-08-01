@@ -1527,13 +1527,13 @@ collections: # A list of collections the CMS should be able to edit
             fields: [
               {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
               {label: "Answers List", name: "answersList", widget: list, 
-              fields: [
-                {label: "Answer", name: "answer", widget: "string"},
+                fields: [
+                  {label: "Answer", name: "answer", widget: "string"},
+                ],}
               ],}
-            ],}
-	  ], 
-          required: false,
-          }
+	    ], 
+            required: false,
+            }
           ],
           required: false,
         }      
