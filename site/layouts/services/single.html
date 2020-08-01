@@ -90,6 +90,25 @@
     </div>              	
                           
 </section>
-<!-- END: CONTACT US -->	
+<!-- END: CONTACT US -->
+
+
+<!-- PARTNERS -->
+<section class="homeBenefits">
+
+	<div class="container">
+		<h2 class="homeBenefits__header">{{ .Params.partnersTitle}}</h2>
+		
+		<div class="header-section--divider"></div>
+
+		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.partnersText | markdownify }}</div>
+		
+		<div class="btn-wrap" style="margin-bottom: 2em;">
+			<a href="{{ .Params.partnersURL}}" class="btn-primary">{{ .Params.partnersButtonText}}</a>
+		</div>	
+		
+	</div>
+</section>	
+<!-- END: PARTNERS -->
 
 {{ partial "hexFooter" . }}
