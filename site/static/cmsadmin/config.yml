@@ -1514,4 +1514,17 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}	
+      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
+      - {label: "Services Title", name: "servicesTitle", widget: "string", required: true}
+      - {label: "Services Text", name: "servicesText", widget: "markdown", required: false}
+      - { label: "Services items", name: "servicesItems", widget: "list",
+        fields: [
+          {label: "Icon", name: "img", widget: "image", required: false,},
+          {label: "Title", name: "title", widget: "string", required: false,},
+          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ],
+        required: false,
+      }      
+      - {label: "Contact Header", name: "contactHeader", widget: "string", required: false}
+      
+      
