@@ -148,7 +148,7 @@ faqSection:
               <strong>Visyond is a collaboration-first platform</strong> that
               combines spreadsheets, automated analysis and spreadsheet-driven
               visualizations into a streamlined, integrated workflow.
-        faqSectionSubTitle: Visyond is not a standalone visualization tool
+        faqSectionSubTitle: Visyond is not an add-on or a standalone visualization tool
     faqSectionTitle: What Visyond is not?
   - faqSectionContent:
       - answersList:
