@@ -1526,7 +1526,7 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
       }      
-      - {label: "Contact Header", name: "contactHeader", widget: "string", required: false}
+      - {label: "Contact Us Title", name: "contactTitle", widget: "string", required: false}
       - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
       - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
       - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
