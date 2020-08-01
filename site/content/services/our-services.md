@@ -1,7 +1,7 @@
 ---
 url: /services
 title: Our Services
-coverHeader: 'Consulting, Advisory and Modeling Services on Visyond''s Platform'
+coverHeader: 'Consulting, Advisory and Modeling Services<br> on Visyond''s Platform'
 coverDescription: >-
   Combine the benefits of the Visyond platform with the expertise of
   professional consultants, advisors and model builders.
@@ -20,7 +20,6 @@ servicesItems:
       specific tasks at hand (feasibility study, market forecasting, KPI system
       development, etc.)
     title: Build New Models
-  - {}
   - subTitle: "* Feasibility analysis for new investments\r\n* Operational efficiency improvement for existing assets\r\n* Market entry and expansion strategy development\r\n* Fundraising (debt and equity financing)\r\n* Business model selection, scenario analysis\r\n* Turnaround and restructuring plan development for distressed assets"
     title: Consulting and Advisory
 contactHeader: Tell Us What You Need
