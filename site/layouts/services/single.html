@@ -4,17 +4,9 @@
 <div class="homehex ht">
 	<div class="container">
 		  <div class="home-hero__container">
-			  <div class="home-hero__half-width-wrap" style="width: 100%;">
-				  
-				  <h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">Serivesasd</h1>
-			  <div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">We use in-house tech to deliver, in a fraction of the time, what takes top consultants days. We will deliver actionable insights faster and won’t waste time and budgets on long, error-prone, manual setups.
-</div>
-				  <ul class="home-hero__main-features" style="/*-webkit-box-pack: center; justify-content: center;*/font-weight: 600;justify-content: center;">
-					  <li>Consulting</li>
-					  <li>Modeling</li>
-					  <li>Advisory</li>
-					  <li>Platform</li>
-				  </ul>
+			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
+				<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.coverHeader }}</h1>
+				<div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">{{ .Params.coverDescription }}</div>
 			  </div>
 		  
 
@@ -49,135 +41,57 @@
 
 
 
-<!-- ENTER V -->
+<!-- SERVICES -->
 <section class="homeBenefits">
 
 	<div class="container">
-		<h2 class="homeBenefits__header">
-			Enter Visyond
-		</h2>
+		<h2 class="homeBenefits__header">{{ .servicesTitle }}</h2>
+		
 		<div class="header-section--divider"></div>
 
-		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">
-				<strong>Your team will make better and faster decisions</strong>, achieving results you couldn't get with any other spreadsheet-based technology.
-				<br>
-				<br>
-				<strong>You will be in full control of all the steps of your workflow</strong>: from spreadsheet modeling and auditing, data gathering, forecasting and scenario planning, to the presentation of interactive dashboards, financial statements and reports.
-		</div>
-		
+		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .servicesText | markdownify }}</div>
 		
 		<div class="benefits">
-			<div class="benefit__item">
-
-				<img src="/img/analyst_and_consultant_3x.png" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-				<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;">
-					Security and IP Protection
-				</h5>
-				<p class="benefit__text" style="opacity: 1; font-weight: 400;">
-					Collaborators <span style="font-weight: 600;">view or edit only selected parts of projects</span> without being exposed to unnecessary details or sensitive information.
-				</p>
-
-			</div>
-			
-			<div class="benefit__item">
-
-				<img src="/img/data_governance_3x.png" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-				<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;">
-					Data Governance
-				</h5>
-				<p class="benefit__text" style="opacity: 1; font-weight: 400;">
-					<span style="font-weight: 600;">Single source of truth</span> is established by tracking inputs, history of changes, scenarios, sensitivities, simulations, conversations, and supporting documentation in a single place that tells a story where <span style="font-weight: 600;">nobody can overwrite other’s work.</span>
-				</p>
-
-			</div>
-			
-			<div class="benefit__item">
-
-				<img src="/img/audit-mode@2x.png" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-				<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;">
-					Flexibility
-				</h5>
-				<p class="benefit__text" style="opacity: 1; font-weight: 400;">
-					Analyses, presentations and calculators, dashboards, financial statements and KPI reports are dynamically driven by spreadsheets, <span style="font-weight: 600;">built and shared in minutes without experts or moving data across tools.</span>
-				</p>
-
-			</div>
-			
-			<div class="benefit__item">
-
-				<img src="/img/charts@2x.png" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-				<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em;">
-					Error Reduction
-				</h5>
-				<p class="benefit__text" style="opacity: 1; font-weight: 400;">
-					<span style="font-weight: 600;">Risk of errors is reduced</span> with on-the-fly ‘What-If’ analysis, Financial Statements, KPIs, Pivot Tables and Cubes.
-				</p>
-
-			</div>
-			
+			{{ range .Params.servicesItems }}
+				<div class="benefit__item">
+					<img src="{{ .img }}" alt="" class="benefit__icon">
+					<h5 class="benefit__headline">{{ .title }}</h5>
+					<p class="benefit__text">{{ .subTitle | markdownify }}</p>
+				</div>
+			{{ end }}
 		</div>
+
 	</div>
-	
 </section>	
-
-<!-- END: ENTER V -->
-
+<!-- END: SERVICES -->
 
 
-
-<section class="homeBenefits" >
+<!-- CONTACT US -->
+{{ with .Params.contact }}	
+<section id="contactUs" class="section primary center-align" style="background: #fafafa;">	
     <div class="container">
-        <h2 class="homeBenefits__header">Benefits</h2>
-	<div class="header-section--divider"></div>    
-        <div class="homeBenefits__cards">
-            {{ range .Params.cards}}
-            <a
-                    {{ with .link }}
-                    href="{{.}}"
-                    {{ end }}
-                    class="homeBenefits__card">
-                <div class="homeBenefits__card-image-wrap">
-                    <img src="{{.icon}}" alt="icon" class="homeBenefits__card-image">
-                </div>
-                <h3 class="homeBenefits__card-title">
-                    {{ .header | markdownify }}
-                </h3>
-                <p class="homeBenefits__card-text">
-                    {{ .description | markdownify }}
-                </p>
-            </a>
-            {{ end }}
-        </div>
-    </div>
+      <h2 class="header-section" style="font-weight: 600;">{{ .contactUsHeader }}</h2>
+      <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+        <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+	<input type="hidden" id="referrer" name="Referrer" value="" />      
+        <div class="form__left-column pricingFormResize" style="margin: 0;">
+          <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+          <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+          <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+          <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
+          <div class="form__textarea-container" style="height: 90px;">
+            <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
+          </div>   
+		
+          <div class="btn-wrap">
+            <input type="submit" value="Contact Us" class="btn-primary">
+          </div>
+        </div>	
+      </form>
+    </div>              	
+                          
 </section>
-
-<!--
-<section class="section primary center-align">
-  <h2 class="header-section">{{ .Params.sectionTwoHeader | markdownify }}</h2>
-  <div class="header-section--divider"></div>
-
-  <div class="ftr-features__cards">
-    {{ range .Params.cards}}
-    <a
-      {{ with .link }}
-      href="{{.}}"
-      {{ end }}
-      class="ftr-features__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="{{.icon}}" alt="icon" class="ftr-features__card-image">
-      </div>
-      <h3 class="ftr-features__card-title">
-        {{ .header | markdownify }}
-      </h3>
-      <p class="ftr-features__card-text">
-        {{ .description | markdownify }}
-      </p>
-    </a>
-    {{ end }}
-  </div>
-</section>
--->
-
-
+{{ end }}	
+<!-- END: CONTACT US -->	
 
 {{ partial "hexFooter" . }}
