@@ -45,11 +45,11 @@
 <section class="homeBenefits">
 
 	<div class="container">
-		<h2 class="homeBenefits__header">{{ .servicesTitle }}</h2>
+		<h2 class="homeBenefits__header">{{ .Params.servicesTitle}}</h2>
 		
 		<div class="header-section--divider"></div>
 
-		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .servicesText | markdownify }}</div>
+		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.servicesText | markdownify }}</div>
 		
 		<div class="benefits">
 			{{ range .Params.servicesItems }}
