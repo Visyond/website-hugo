@@ -22,7 +22,7 @@ servicesItems:
     title: Build New Models
   - subTitle: "* Feasibility analysis for new investments\r\n* Operational efficiency improvement for existing assets\r\n* Market entry and expansion strategy development\r\n* Fundraising (debt and equity financing)\r\n* Business model selection, scenario analysis\r\n* Turnaround and restructuring plan development for distressed assets"
     title: Consulting and Advisory
-contactHeader: Tell Us What You Need
+contactTitle: Tell Us What You Need
 partnersTitle: Become a Partner
 partnersText: >-
   Are you a consultant, etc. and want to use Visyond's platform to offer your
