@@ -10,7 +10,7 @@
 .benefit__item {
     padding: 30px;
     background-color: #FFFFFF;
-    box-shadow: 13px 7px 41px 0 rgba(107,133,187,0.33);
+    box-shadow: 10px 5px 15px 0 rgb(165 165 165 / 33%);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
