@@ -24,8 +24,8 @@ metaTags: >-
 
   <meta property="og:url" content="https://visyond.com/why-visyond/" />
 type: why-visyond
-title: Why Visyond
-coverHeader: What is Visyond?
+title: Services Title
+coverHeader: Services Header
 coverDescription: >
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
