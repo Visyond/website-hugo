@@ -22,7 +22,7 @@ metaTags: >-
   reporting platform that works in the browser and focuses on data security and
   digital innovation."/>
 
-  <meta property="og:url" content="https://visyond.com/why-visyond/" />
+  <meta property="og:url" content="https://visyond.com/services/" />
 type: why-visyond
 title: Services Title
 coverHeader: Services Header
