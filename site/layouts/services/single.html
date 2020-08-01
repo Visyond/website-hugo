@@ -67,10 +67,9 @@
 
 
 <!-- CONTACT US -->
-{{ with .Params.contact }}	
 <section id="contactUs" class="section primary center-align" style="background: #fafafa;">	
     <div class="container">
-      <h2 class="header-section" style="font-weight: 600;">{{ .contactUsHeader }}</h2>
+      <h2 class="header-section" style="font-weight: 600;">{{ .Params.contactUsHeader }}</h2>
       <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
 	<input type="hidden" id="referrer" name="Referrer" value="" />      
@@ -91,7 +90,6 @@
     </div>              	
                           
 </section>
-{{ end }}	
 <!-- END: CONTACT US -->	
 
 {{ partial "hexFooter" . }}
