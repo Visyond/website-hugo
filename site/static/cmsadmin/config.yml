@@ -1529,7 +1529,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Contact Header", name: "contactHeader", widget: "string", required: false}
       - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
       - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
-      - {label: "Partners Button Text", name: "partnersButtonText", widget: "markdown", required: false} 
-      - {label: "Partners URL", name: "partnersURL", widget: "markdown", required: false}
+      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
+      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
       
       
