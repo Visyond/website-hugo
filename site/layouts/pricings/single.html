@@ -119,7 +119,7 @@
 		<!-- limits list -->
 		{{ if .limitslist }}
 		<div class="card-limits-markdown">
-                <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>			
+          <!--  <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>	-->		
 		<ul>
 		{{ range .limitslist }}
                   <div class="card-limits-markdown-li-wrapper">
@@ -149,7 +149,7 @@
 		{{ if .featureslist }}	
 		<hr class="divider-thin">	
 		<div class="card__markdown">
-		<div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div>					
+		<!-- <div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div> -->					
 		<ul>
 		{{ range .featureslist }}
                   <li>
