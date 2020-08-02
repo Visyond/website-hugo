@@ -8,7 +8,7 @@ coverDescription: >-
   actionable insights faster, and won’t waste time and budgets on long,
   error-prone, manual setups.
 servicesTitle: What Services Does Visyond Offer?
-servicesText: "Visyond has a network of established professionals - consultants, financial advisors and modelers, who can perform a variety of services for you and your business, using our platform.\r\r<br><br>\nVisyond will provide you with a subscription for the platform for the duration of the service and a grace period afterwards. You will be able to self-serve, use all the platform's functionalities and retain its benefits.\r<br><br>\nAfter your subscription expires, you will be downgraded to a Free plan, which you can upgrade to an appropriate plan at any time.<br><br>\n<span style=\"font-weight: 600\">You will not lose the deliverables. They will be available to you even on a Free plan, and can be exported from Visyond in common formats.\r</span>\n"
+servicesText: "Visyond has a network of established professionals - consultants, financial advisors and modelers, who can perform a variety of services for you and your business, using our platform.\r\r<br><br>Visyond will provide you with a subscription for the platform for the duration of the service and a grace period afterwards. You will be able to self-serve, use all the platform's functionalities and retain its benefits.\r<br><br>After your subscription expires, you will be downgraded to a Free plan, which you can upgrade to an appropriate plan at any time.<br><br><span style=\"font-weight: 600\">You will not lose the deliverables. They will be available to you even on a Free plan, and can be exported from Visyond in common formats.\r</span>"
 servicesItems:
   - faqSection:
       - faqSectionContent:
@@ -73,7 +73,7 @@ servicesItems:
                   changes, assumptions, documents and conversations - in the
                   same environment where you carry out calculations, analyses
                   and visualizations.
-            faqSectionSubTitle: You will be in control of what's happening in your projects
+            faqSectionSubTitle: You will be in control of your projects
         faqSectionTitle: Benefits of Visyond
     img: /img/spreadsheet_collaboration_3x.png
     subTitle: >-
