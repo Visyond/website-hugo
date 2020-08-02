@@ -57,39 +57,40 @@
 					<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
 					<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
 					<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
-			
 					
-				<div class="container">
-					<ul class="enterSections">
-						<!-- LIST OF FAQ SECTIONS -->
-						{{ range $el := .faqSection }}
-						<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
-							<h2 class="types__headline" style="text-align: left; margin-bottom: 15px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:20px;">{{ .faqSectionTitle }}</h2>
-							<section class="FAQSection__text-wrap">
-								<div class="enterSectionsA__block-descr">
-									<ul style="padding-left: 0px;">
-									<!-- LIST OF FAQ SECTION BLOCKS -->
-									{{ range $list := .faqSectionContent }}
-										<div class="enterSections__benefits" style="padding: 0 0 0;">
-											<div class="enterSections__benefits--title" style="font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
-											<ul style="padding-left: 0px;">
-												{{ range $list := .answersList }}
-												<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 1em;">
-													{{ .answer | markdownify }}
-												</div>
-												{{ end }}
-											</ul>	
-										</div>
-									{{ end }}
-									<!-- LIST OF FAQ SECTION BLOCKS -->
-									</ul>
-								</div>	
-							</section>
-						</li>
-						{{ end }}
-						<!-- END: LIST OF FAQ SECTIONS -->
-					</ul>
-				</div>
+					<hr class="divider-thin" style="margin-bottom: 20px;">
+					
+					<div class="container">
+						<ul class="enterSections">
+							<!-- LIST OF FAQ SECTIONS -->
+							{{ range $el := .faqSection }}
+							<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
+								<h2 class="types__headline" style="text-align: left; margin-bottom: 15px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:20px;">{{ .faqSectionTitle }}</h2>
+								<section class="FAQSection__text-wrap">
+									<div class="enterSectionsA__block-descr">
+										<ul style="padding-left: 0px;">
+										<!-- LIST OF FAQ SECTION BLOCKS -->
+										{{ range $list := .faqSectionContent }}
+											<div class="enterSections__benefits" style="padding: 0 0 0;">
+												<div class="enterSections__benefits--title" style="font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
+												<ul style="padding-left: 0px;">
+													{{ range $list := .answersList }}
+													<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 1em;">
+														{{ .answer | markdownify }}
+													</div>
+													{{ end }}
+												</ul>	
+											</div>
+										{{ end }}
+										<!-- LIST OF FAQ SECTION BLOCKS -->
+										</ul>
+									</div>	
+								</section>
+							</li>
+							{{ end }}
+							<!-- END: LIST OF FAQ SECTIONS -->
+						</ul>
+					</div>
 				
 		
 					
