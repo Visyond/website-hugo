@@ -50,11 +50,13 @@ servicesItems:
                   detection if you break something.
             faqSectionSubTitle: You can better understand the model structure
         faqSectionTitle: Benefits of Visyond
+    img: /img/spreadsheet_collaboration_3x.png
     subTitle: >-
       Building new financial models for your business as a whole, or for
       specific tasks at hand.
     title: Building Financial Models
   - faqSection: []
+    img: /img/audit-mode@2x.png
     subTitle: >-
       Fine-tuning and enhancing your existing financial models to maximize their
       usefulness and help you answer numeric and strategic questions you may
@@ -70,6 +72,7 @@ servicesItems:
               - answer: 'The description of Service #2.'
             faqSectionSubTitle: 'Service #2'
         faqSectionTitle: Examples of services
+    img: /img/analyst_and_consultant_3x.png
     subTitle: >-
       Do you have questions about your business that you can't answer or need an
       advice of an industry-professional?
@@ -88,6 +91,7 @@ servicesItems:
               - answer: We can add as many custom lists as we want!
             faqSectionSubTitle: We can do that!
         faqSectionTitle: We want a specific service category have specific list?
+    img: /img/financial-statement@2x.png
     subTitle: Would you like a digital back rub?
     title: Something Else
 contactTitle: Tell Us What You Need
