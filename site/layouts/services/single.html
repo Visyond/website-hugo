@@ -62,9 +62,9 @@
 					
 					<ul class="enterSections">
 						<!-- LIST OF FAQ SECTIONS -->
-						{{ range $el := .Params.faqSection }}
+						{{ range $el := .faqSection }}
 						<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
-							<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .Params.faqSectionTitle }}</h2>
+							<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .faqSectionTitle }}</h2>
 							<section class="FAQSection__text-wrap">
 								<div class="enterSectionsA__block-descr">
 									<ul style="padding-left: 0px;">
