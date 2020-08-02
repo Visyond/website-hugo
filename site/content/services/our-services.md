@@ -11,6 +11,30 @@ servicesText: >-
   stuff. You will be able to play with the results, and self-serve thanks to
   Visyond features.
 servicesItems:
+  - faqSection:
+      - faqSectionContent:
+          - answersList:
+              - answer: asfdasfasf
+              - answer: asfasfasf
+              - answer: asfasf
+            faqSectionSubTitle: uguguygu
+          - answersList:
+              - answer: sdfsdfsdf
+              - answer: sdfgf1
+            faqSectionSubTitle: asfasfasfas
+          - answersList:
+              - answer: sddsafdsfa
+              - answer: ddsdfsa
+            faqSectionSubTitle: sadgfasdf
+        faqSectionTitle: Services
+      - faqSectionContent:
+          - answersList:
+              - answer: asdfasdfsadf
+              - answer: asdfasdfasdf
+            faqSectionSubTitle: asdfasdfasdf
+        faqSectionTitle: asdfasdfasdf
+    subTitle: adfasfasfasfa
+    title: Sometghing
   - subTitle: >-
       Fine-tuning/enhancing your financial models to maximize their usefulness,
       helping answer numeric and strategic questions you may have
@@ -20,7 +44,17 @@ servicesItems:
       specific tasks at hand (feasibility study, market forecasting, KPI system
       development, etc.)
     title: Build New Models
-  - subTitle: "* Feasibility analysis for new investments\r\n* Operational efficiency improvement for existing assets\r\n* Market entry and expansion strategy development\r\n* Fundraising (debt and equity financing)\r\n* Business model selection, scenario analysis\r\n* Turnaround and restructuring plan development for distressed assets"
+  - faqSection:
+      - faqSectionContent:
+          - answersList:
+              - answer: asdfasdfasd
+              - answer: asdfasdf
+            faqSectionSubTitle: adsfasdfasdf
+          - answersList:
+              - answer: adsfasdfasdf
+            faqSectionSubTitle: adsfasdf
+        faqSectionTitle: asdfasdf
+    subTitle: "* Feasibility analysis for new investments\r\n* Operational efficiency improvement for existing assets\r\n* Market entry and expansion strategy development\r\n* Fundraising (debt and equity financing)\r\n* Business model selection, scenario analysis\r\n* Turnaround and restructuring plan development for distressed assets"
     title: Consulting and Advisory
 contactTitle: Tell Us What You Need
 partnersTitle: Become a Partner
