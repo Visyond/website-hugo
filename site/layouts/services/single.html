@@ -51,7 +51,7 @@
 
 		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.servicesText | markdownify }}</div>
 		
-		<div class="benefits">
+		<div class="benefits" style="margin-top: 60px;">
 			{{ range .Params.servicesItems }}
 				<div class="benefit__item">
 					<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
@@ -64,18 +64,18 @@
 						<ul class="enterSections">
 							<!-- LIST OF FAQ SECTIONS -->
 							{{ range $el := .faqSection }}
-							<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
-								<h2 class="types__headline" style="text-align: left; margin-bottom: 15px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:20px;">{{ .faqSectionTitle }}</h2>
+							<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 0em;">
+								<h2 class="types__headline" style="text-align: left; margin-bottom: 10px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:22px;">{{ .faqSectionTitle }}</h2>
 								<section class="FAQSection__text-wrap">
-									<div class="enterSectionsA__block-descr">
+									<div class="enterSectionsA__block-descr" style="margin-bottom: 10px">
 										<ul style="padding-left: 0px;">
 										<!-- LIST OF FAQ SECTION BLOCKS -->
 										{{ range $list := .faqSectionContent }}
 											<div class="enterSections__benefits" style="padding: 0 0 0;">
-												<div class="enterSections__benefits--title" style="font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
+												<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
 												<ul style="padding-left: 0px;">
 													{{ range $list := .answersList }}
-													<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 1em;">
+													<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
 														{{ .answer | markdownify }}
 													</div>
 													{{ end }}
