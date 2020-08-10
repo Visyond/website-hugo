@@ -223,9 +223,9 @@ contact:
     - img: /img/pricing/WHITE LABELING.png
       text: White-label Visyond to improve your offering to your clients.
       title: Brand Identity & White Labeling
-    - img: /img/real_estate_3x.png
+    - img: /img/pricing/ENTERPRISE.png
       text: Install Visyond on your server.
-      title: On-premise installation
+      title: On-premise installation   
   title: Contact Us if You Need...
 whyCards:
   cards:
