@@ -16,7 +16,7 @@ pricingCards:
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\n\n\n* Assumptions Management\r\n* Scenario Management\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
-      img: /img/spreadsheet_collaboration_3x.png
+      img: /img/pricing/FREE.png
       limitslist:
         - title: 2 projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -49,7 +49,7 @@ pricingCards:
           tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
           tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
-      img: /img/scenarios@2x.png
+      img: /img/pricing/STANDARD.png
       limitslist:
         - title: 5 projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -82,7 +82,7 @@ pricingCards:
         - title: Report Module
           tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
           url: ''
-      img: /img/modelling_3x.png
+      img: /img/pricing/PRO.png
       limitslist:
         - title: 10 projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -132,7 +132,7 @@ pricingCards:
             Sharing, you can specify which parts of projects public viewers can
             see.
       featureslist2: []
-      img: /img/audit-mode@2x.png
+      img: /img/pricing/ADVANCED.png
       limitslist:
         - title: Unlimited projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -180,7 +180,7 @@ pricingCards:
             Sharing, you can specify which parts of projects public viewers can
             see.
       featureslist2: []
-      img: /img/data_governance_3x.png
+      img: /img/pricing/ENTERPRISE.png
       limitslist:
         - title: Unlimited projects
           tooltip: The number of simultaneously active projects that you can work on.
@@ -220,7 +220,7 @@ contact:
         Integrate your existing systems with Visyond and satisfy your specific
         requirements.
       title: Integrations or Customizations
-    - img: /img/sensitivity@2x.png
+    - img: /img/pricing/WHITE LABELING.png
       text: White-label Visyond to improve your offering to your clients.
       title: Brand Identity & White Labeling
     - img: /img/real_estate_3x.png
