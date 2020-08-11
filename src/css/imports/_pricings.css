@@ -378,7 +378,7 @@ color: #0585ff;
   width: 260px;
   background-color: #212121;
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 0.8em;	
   box-shadow: 0 0 0.5em 1px #9a9a9a;	
   text-align: left;
@@ -420,7 +420,7 @@ color: #0585ff;
   padding-left: 0!important;
   margin-bottom: 5px!important;
   color: #ffffff!important;
-  font-weight: 400!important;
+  font-weight: 600!important;
   font-size: 12px!important;	
 	
     &:before {
@@ -442,7 +442,8 @@ color: #0585ff;
   margin-bottom: 5px!important;
   color: #ffffff!important;
   font-size: 12px!important;
-  padding-left: 0!important;;	
+  padding-left: 0!important;
+  font-weight: 600!important;	
 	
   @media screen and (max-width: 1024px) {
       text-align: left!important;
