@@ -226,7 +226,7 @@ contact:
     - img: /img/pricing/ENTERPRISE.png
       text: Install Visyond on your server.
       title: On-premise installation
-    - img: EDUCATION.png
+    - img: /img/pricing/EDUCATION.png
       text: Contact us for special offers for students and instructors.
       title: Educational Software      
   title: Contact Us if You Need...
