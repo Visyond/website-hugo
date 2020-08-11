@@ -321,13 +321,13 @@
 
 /* BEFORE BULLET POINTS IN PRICING CARD */
 .before-bullet-points {
-margin: 0 0 1em 0;
+margin: 0 0 0.5em;
 font-weight: 600;
-font-size: 1.1em;
+font-size: 0.85em;
 text-align: center;
-color: #50546d;
+color: #0585ff;
     @media screen and (max-width: 1024px) {
-        font-size: 1.4em;
+        font-size: 1.15em;
     }		
 	
 }
