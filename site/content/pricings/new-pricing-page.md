@@ -214,7 +214,7 @@ contact:
       text: >-
         Get bulk discounts for multiple subscriptions and customize features and
         permissions for each team member.
-      title: Multiple subscriptions
+      title: Multiple Subscriptions
     - img: /img/pricing/INTEGRATIONS.png
       text: >-
         Integrate your existing systems with Visyond and satisfy your specific
@@ -225,7 +225,7 @@ contact:
       title: Brand Identity & White Labeling
     - img: /img/pricing/ENTERPRISE.png
       text: Install Visyond on your server.
-      title: On-premise installation
+      title: On-premise Installation
     - img: /img/pricing/EDUCATION.png
       text: Contact us for special offers for students and instructors.
       title: Educational Software      
