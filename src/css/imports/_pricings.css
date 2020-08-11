@@ -328,6 +328,7 @@ text-align: center;
 color: #0585ff;
     @media screen and (max-width: 1024px) {
         font-size: 1.15em;
+	padding-right: 1.5em;
     }		
 	
 }
