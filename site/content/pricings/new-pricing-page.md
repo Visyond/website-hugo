@@ -162,23 +162,23 @@ pricingCards:
       cta:
         text: Contact Us
         url: '/pricing/#contactUs'
+      featuresList1Header: 'You can request:'
       featureslist:
-        - title: Base App
-          tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
-        - title: Build Module
-          tooltip: "Build Module includes:\r\n\r\n* Audit: Error Root Cause Analysis\r\n* Audit: Anomaly Detection\r\n* Attachments and Conversations in Cells"
-        - title: Analyze Module
-          tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
-        - title: Report Module
-          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
-        - title: Selective Sharing
-          tooltip: Share only specific worksheets and reports with specific people.
-          url: /features/share-spreadsheets-and-presentations-online/
-        - title: Public Link
+        - title: Bulk Discounts
+          tooltip: Get bulk discounts for multiple subscriptions.
+        - title: Customized Plans
           tooltip: >-
-            Publicly share worksheets and reports. Combined with Selective
-            Sharing, you can specify which parts of projects public viewers can
-            see.
+            Customize, mix and merge plans for your team according to your
+            needs.
+        - title: Integrations & Customizations
+          tooltip: >-
+            Integrate your existing systems with Visyond and satisfy your
+            specific requirements.
+        - title: Brand Identity & White Labeling
+          tooltip: White-label Visyond to improve your offering to your clients.
+        - title: On-premise Installation
+          tooltip: Install Visyond on your server.
+          url: ''
       featureslist2: []
       img: /img/pricing/ENTERPRISE.png
       limitslist:
@@ -228,7 +228,7 @@ contact:
       title: On-premise Installation
     - img: /img/pricing/EDUCATION.png
       text: Contact us for special offers for students and instructors.
-      title: Educational Software      
+      title: Educational Software
   title: Contact Us if You Need...
 whyCards:
   cards:
