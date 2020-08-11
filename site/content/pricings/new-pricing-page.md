@@ -180,7 +180,7 @@ pricingCards:
             specific requirements.
         - title: White Labeling
           tooltip: White-label Visyond to improve your offering to your clients.
-        - title: On-premise Installation
+        - title: Visyond On-premise
           tooltip: Install Visyond on your server.
           url: ''
       featureslist2: []
