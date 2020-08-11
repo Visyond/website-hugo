@@ -147,8 +147,14 @@
 			
                 <!-- features list - modules -->
 		{{ if .featureslist }}	
-		<hr class="divider-thin">	
-		<div class="card__markdown">
+		<hr class="divider-thin">
+			    	        
+		{{ if eq .title "Enterprise" }}	    
+		<div class="card-limits-markdown">
+		{{ else }}
+		<div class="card__markdown">	
+		{{ end }}
+		
 		<div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div> 				
 		<ul>
 		{{ range .featureslist }}
@@ -174,14 +180,7 @@
 			
                 <!-- features list 2 - additional features -->
 		{{ if .featureslist2 }}
-		<hr class="divider-thin">
-			    
-		{{ if eq .title "Enterprise" }}	    
-		<div class="card-limits-markdown">
-		{{ else }}
-		<div class="card__markdown">	
-		{{ end }}
-			
+		<hr class="divider-thin">	
                 <div class="before-bullet-points">{{ .featuresList2Header | markdownify }}</div>			
 		<ul>
 		{{ range .featureslist2 }}
