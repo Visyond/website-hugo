@@ -210,12 +210,12 @@ contact:
   buttonlabel: Contact Us
   buttonlink: /request
   cards:
-    - img: /img/decision_makers_3x.png
+    - img: /img/pricing/SUBSCRIPTIONS.png
       text: >-
         Get bulk discounts for multiple subscriptions and customize features and
         permissions for each team member.
       title: Multiple subscriptions
-    - img: /img/data_input_3x.png
+    - img: /img/pricing/INTEGRATIONS.png
       text: >-
         Integrate your existing systems with Visyond and satisfy your specific
         requirements.
@@ -225,7 +225,10 @@ contact:
       title: Brand Identity & White Labeling
     - img: /img/pricing/ENTERPRISE.png
       text: Install Visyond on your server.
-      title: On-premise installation   
+      title: On-premise installation
+    - img: EDUCATION.png
+      text: Contact us for special offers for students and instructors.
+      title: Educational Software      
   title: Contact Us if You Need...
 whyCards:
   cards:
