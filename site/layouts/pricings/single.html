@@ -84,7 +84,7 @@
 			
 		    {{ with .cta }}
                     <div class="btn-wrap" style="margin-top: 0;">
-                      {{ if eq .text "Contact Us" }}
+                      {{ if eq .title "Enterprise" }}
                       <a href="{{.url}}" class="btn-pricing-card-special fluid" aria-label="button">
                       {{ else }}			    
                       <a href="{{.url}}" class="btn-pricing-card fluid" aria-label="button">
@@ -174,8 +174,14 @@
 			
                 <!-- features list 2 - additional features -->
 		{{ if .featureslist2 }}
-		<hr class="divider-thin">			    
-		<div class="card__markdown">
+		<hr class="divider-thin">
+			    
+		{{ if eq .title "Enterprise" }}	    
+		<div class="card-limits-markdown">
+		{{ else }}
+		<div class="card__markdown">	
+		{{ end }}
+			
                 <div class="before-bullet-points">{{ .featuresList2Header | markdownify }}</div>			
 		<ul>
 		{{ range .featureslist2 }}
