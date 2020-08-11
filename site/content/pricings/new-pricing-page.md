@@ -13,6 +13,7 @@ pricingCards:
       cta:
         text: Sign Up
         url: /accounts/signup/
+      featuresList1Header: 'Includes:'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\n\n\n* Assumptions Management\r\n* Scenario Management\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
@@ -40,6 +41,7 @@ pricingCards:
       cta:
         text: Get Started
         url: '/profile#billing'
+      featuresList1Header: 'Includes:'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
@@ -72,6 +74,7 @@ pricingCards:
       cta:
         text: Get Started
         url: '/profile#billing'
+      featuresList1Header: 'Includes:'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
@@ -114,6 +117,7 @@ pricingCards:
       cta:
         text: Get Started
         url: '/profile#billing'
+      featuresList1Header: 'Includes:'
       featureslist:
         - title: Base App
           tooltip: "Base App includes:\r <br><br>\r\n\r\n\r\n* Assumptions Management\r\n* Scenario Management\r\n* Human-readable Formulas\r\n* Project Status Report\r\n* Advanced Charts\r\n* Basic Project Sharing"
@@ -170,11 +174,11 @@ pricingCards:
           tooltip: >-
             Customize, mix and merge plans for your team according to your
             needs.
-        - title: Integrations & Customizations
+        - title: Custom Integrations
           tooltip: >-
             Integrate your existing systems with Visyond and satisfy your
             specific requirements.
-        - title: Brand Identity & White Labeling
+        - title: White Labeling
           tooltip: White-label Visyond to improve your offering to your clients.
         - title: On-premise Installation
           tooltip: Install Visyond on your server.
