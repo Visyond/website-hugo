@@ -85,23 +85,5 @@ s0.parentNode.insertBefore(s1,s0);
 {{ end }}
 </div>
 
-<script>
-Tawk_API = Tawk_API || {};
-Tawk_API.onChatStarted = function(){
- 
-var url = 'https://hooks.slack.com/services/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';
-var text = 'We've got a new Tawk.io chat message!';
-jQuery.ajax({
-    data: 'payload=' + JSON.stringify({
-        "text": text
-    }),
-    dataType: 'json',
-    processData: false,
-    type: 'POST',
-    url: url
-});
- 
-};
-</script>
 
 {{ partial "hexFooter" . }}
