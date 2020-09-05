@@ -145,8 +145,19 @@
 	    
       <h2 class="header-section" style="font-weight: 600;">{{ .Params.contactTitle }}</h2>
       <div class="header-section--divider"></div>	
+	<!--[if lte IE 8]>
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+	<![endif]-->
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+	<script>
+	  hbspt.forms.create({
+		portalId: "3409378",
+		formId: "3f57d4c7-ce10-48b0-bb11-d3de95c66688"
+	});
+	</script>
 	    
-      <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+	    
+     <!-- <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
 	<input type="hidden" id="referrer" name="Referrer" value="" />      
         <div class="form__left-column pricingFormResize" style="margin: 0;">
@@ -162,7 +173,7 @@
             <input type="submit" value="Contact Us" class="btn-primary">
           </div>
         </div>	
-      </form>
+      </form> -->
     </div>              	
                           
 </section>
