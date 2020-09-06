@@ -6,7 +6,7 @@ coverDescription: >-
   Have professionals do the work and enjoy the benefits of Visyond platform.
   Understand your data and make better decisions, faster.
 whyVisyondTitle: How Visyond Will Speed Up Your Workflow?
-servicesTitleVisyond: Analytics, Dashboarding and Reporting as a Service
+servicesTitleVisyond: 'Analytics, Dashboarding and Reporting as a Service'
 servicesItemsVisyond:
   - faqSection:
       - faqSectionContent:
@@ -210,6 +210,12 @@ servicesItemsPartners:
                   for turnaround and restructuring for distressed assets,
                   feasibility analysis for new investments.
             faqSectionSubTitle: Management consulting
+          - answersList:
+              - answer: >-
+                  We can provide industry-specific assumptions to be used in
+                  your models so you can base your decisions on reliable
+                  forward-looking projections.
+            faqSectionSubTitle: Benchmarking and assumptions
           - answersList:
               - answer: >-
                   We can show you how to effectively utilize financial models
