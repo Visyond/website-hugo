@@ -42,101 +42,146 @@
 
 
 <!-- SERVICES -->
+
+<!-- WHY VISYOND -->
 <section class="homeBenefits" style="padding: 0px;">
-
 	<div class="container">
-		 <h2 class="header-section" style="font-weight: 600;">{{ .Params.servicesTitle}}</h2>
+		<h2 class="header-section" style="font-weight: 600;">{{ .Params.whyVisyondTitle}}</h2>
+		<div class="header-section--divider"></div>	
+	<div>	
 		
-		<div class="header-section--divider"></div>
-		
-<!--- Services we offer TEMP -->
-		<div>
-<div class="home-info__block-descr" style="text-align: center;font-weight: 400;"><section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
-        <h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">
-          Professional Expertise
-        </h2>
-        
-        
-        
-        
+	<div class="home-info__block-descr" style="text-align: center;font-weight: 400;">
+		<section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
+			<h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">Professional Expertise</h2>
+			<div class="enterSectionsA__block-descr" style="">We have a network of established professionals who can perform consulting and financial services for you and your business, using the Visyond platform.</div>
+		</section>
 
-        <div class="enterSectionsA__block-descr" style="">We have a network of established professionals who can perform consulting and financial services for you and your business, using the Visyond platform.</div>
-    </section>
+		<section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
+			<h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">Faster Time to Value </h2>
+			<div class="enterSectionsA__block-descr" style="">We use in-house tech to deliver actionable insights faster, without wasting time and budgets on long, error-prone, manual setups. </div>
+		</section>
 
-<section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
-        <h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">Faster Time to Value </h2>
-        
-        
-        
-        
-
-        <div class="enterSectionsA__block-descr" style="">We use in-house tech to deliver actionable insights faster, without wasting time and budgets on long, error-prone, manual setups. </div>
-    </section><section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
-        <h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">Self-service Platform</h2>
-        
-        
-        
-        
-
-        <div class="enterSectionsA__block-descr" style="">For the service duration and a grace period after, you will have full access to a powerful and easy-to-use platform.<br><br>Afterwards, you will have access to the free version and all deliverables, which can be exported at any time in common formats.</div>
-    </section>
-</div>
-</div>
-<!-- END: Services we offer TEMP -->
-
-		<!-- cms desc field <div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.servicesText | markdownify }}</div> -->
-		
-		<div class="benefits" style="margin-top: 60px;">
-			{{ range .Params.servicesItems }}
-				<div class="benefit__item">
-					<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
-					<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
-					<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
-					
-					<hr class="divider-thin" style="margin-bottom: 20px;">
-					
-					<div style="width: 100%; padding: 0 15px; margin: 0 auto;">
-						<ul class="enterSections">
-							<!-- LIST OF FAQ SECTIONS -->
-							{{ range $el := .faqSection }}
-							<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 0em;">
-								<h2 class="types__headline" style="text-align: left; margin-bottom: 10px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:22px;">{{ .faqSectionTitle }}</h2>
-								<section class="FAQSection__text-wrap">
-									<div class="enterSectionsA__block-descr" style="margin-bottom: 10px">
-										<ul style="padding-left: 0px;">
-										<!-- LIST OF FAQ SECTION BLOCKS -->
-										{{ range $list := .faqSectionContent }}
-											<div class="enterSections__benefits" style="padding: 0 0 0;">
-												<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
-												<ul style="padding-left: 0px;">
-													{{ range $list := .answersList }}
-													<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
-														{{ .answer | markdownify }}
-													</div>
-													{{ end }}
-												</ul>	
-											</div>
-										{{ end }}
-										<!-- LIST OF FAQ SECTION BLOCKS -->
-										</ul>
-									</div>	
-								</section>
-							</li>
-							{{ end }}
-							<!-- END: LIST OF FAQ SECTIONS -->
-						</ul>
-					</div>
-				
-		
-					
-		
-				</div>
-			{{ end }}
-		</div>
-
+		<section class="enterSectionsA__text-wrap" style="margin: auto auto auto 1em;width: 30%;display: inline-grid;">
+			<h2 class="enterSectionsA__block-title" style="font-size: 1.7em;">Self-service Platform</h2>
+			<div class="enterSectionsA__block-descr" style="">For the service duration and a grace period after, you will have full access to a powerful and easy-to-use platform.<br><br>Afterwards, you will have access to the free version and all deliverables, which can be exported at any time in common formats.</div>
+		</section>
 	</div>
+</section>		
+<!-- END: WHY VISYOND -->
+
+		
+<!--- VISYOND SERVICES -->
+<section class="homeBenefits" style="padding: 0px;">
+	<div class="container">
+		<h2 class="header-section" style="font-weight: 600;">{{ .Params.servicesTitleVisyond}}</h2>
+		<div class="header-section--divider"></div>	
+	<div>			
+
+	<div class="benefits" style="margin-top: 60px;">
+	{{ range .Params.servicesItemsVisyond }}
+		<div class="benefit__item">
+			<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
+			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
+			<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
+
+			<hr class="divider-thin" style="margin-bottom: 20px;">
+
+			<div style="width: 100%; padding: 0 15px; margin: 0 auto;">
+				<ul class="enterSections">
+					<!-- LIST OF FAQ SECTIONS -->
+					{{ range $el := .faqSection }}
+					<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 0em;">
+						<h2 class="types__headline" style="text-align: left; margin-bottom: 10px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:22px;">{{ .faqSectionTitle }}</h2>
+						<section class="FAQSection__text-wrap">
+							<div class="enterSectionsA__block-descr" style="margin-bottom: 10px">
+								<ul style="padding-left: 0px;">
+								<!-- LIST OF FAQ SECTION BLOCKS -->
+								{{ range $list := .faqSectionContent }}
+									<div class="enterSections__benefits" style="padding: 0 0 0;">
+										<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
+										<ul style="padding-left: 0px;">
+											{{ range $list := .answersList }}
+											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
+												{{ .answer | markdownify }}
+											</div>
+											{{ end }}
+										</ul>	
+									</div>
+								{{ end }}
+								<!-- LIST OF FAQ SECTION BLOCKS -->
+								</ul>
+							</div>	
+						</section>
+					</li>
+					{{ end }}
+					<!-- END: LIST OF FAQ SECTIONS -->
+				</ul>
+			</div>
+		</div>
+	{{ end }}
+</div>
+
+<!-- </div> -->
 </section>	
-<!-- END: SERVICES -->
+<!-- END: VISYOND SERVICES -->
+	
+	
+<!--- PARTNER SERVICES -->
+<section class="homeBenefits" style="padding: 0px;">
+	<div class="container">
+		<h2 class="header-section" style="font-weight: 600;">{{ .Params.servicesTitlePartners}}</h2>
+		<div class="header-section--divider"></div>	
+	<div>			
+
+	<div class="benefits" style="margin-top: 60px;">
+	{{ range .Params.servicesItemsPartners }}
+		<div class="benefit__item">
+			<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
+			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
+			<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
+
+			<hr class="divider-thin" style="margin-bottom: 20px;">
+
+			<div style="width: 100%; padding: 0 15px; margin: 0 auto;">
+				<ul class="enterSections">
+					<!-- LIST OF FAQ SECTIONS -->
+					{{ range $el := .faqSection }}
+					<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 0em;">
+						<h2 class="types__headline" style="text-align: left; margin-bottom: 10px;line-height: 1.5em; color: #383e4d; font-weight: 600; font-size:22px;">{{ .faqSectionTitle }}</h2>
+						<section class="FAQSection__text-wrap">
+							<div class="enterSectionsA__block-descr" style="margin-bottom: 10px">
+								<ul style="padding-left: 0px;">
+								<!-- LIST OF FAQ SECTION BLOCKS -->
+								{{ range $list := .faqSectionContent }}
+									<div class="enterSections__benefits" style="padding: 0 0 0;">
+										<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
+										<ul style="padding-left: 0px;">
+											{{ range $list := .answersList }}
+											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
+												{{ .answer | markdownify }}
+											</div>
+											{{ end }}
+										</ul>	
+									</div>
+								{{ end }}
+								<!-- LIST OF FAQ SECTION BLOCKS -->
+								</ul>
+							</div>	
+						</section>
+					</li>
+					{{ end }}
+					<!-- END: LIST OF FAQ SECTIONS -->
+				</ul>
+			</div>
+		</div>
+	{{ end }}
+</div>
+
+<!-- </div> -->
+</section>	
+<!-- END: PARNTER SERVICES -->
+		
+
 
 
 <!-- CONTACT US -->
