@@ -5,8 +5,8 @@ coverHeader: Managed Services on Visyond Platform
 coverDescription: >-
   Have professionals do the work and enjoy the benefits of Visyond platform.
   Understand your data and make better decisions, faster.
-whyVisyondTitle: Why Use the Visyond Platform?
-servicesTitleVisyond: Services Managed by Visyond
+whyVisyondTitle: How Visyond Will Speed Up Your Workflow?
+servicesTitleVisyond: Analytics, Dashboarding and Reporting as a Service
 servicesItemsVisyond:
   - faqSection:
       - faqSectionContent:
@@ -233,7 +233,7 @@ servicesItemsPartners:
       Do you have questions about your business that you can't answer or need an
       advice of an industry-professional?
     title: Consulting
-contactTitle: Tell Us What You Need
+contactTitle: Get in Touch with Us
 partnersTitle: Become a Partner
 partnersText: >-
   Are you an individual consultant or an advisory company and want to expand
