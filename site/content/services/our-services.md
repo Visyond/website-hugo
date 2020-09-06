@@ -5,7 +5,7 @@ coverHeader: Managed Services on Visyond Platform
 coverDescription: >-
   Have professionals do the work and enjoy the benefits of Visyond platform.
   Understand your data and make better decisions, faster.
-whyVisyondTitle: Why Use Managed Services on Visyond Platform?
+whyVisyondTitle: Why Use the Visyond Platform?
 servicesTitleVisyond: Services Managed by Visyond
 servicesItemsVisyond:
   - faqSection:
@@ -80,8 +80,8 @@ servicesItemsVisyond:
         faqSectionTitle: Platform Benefits
     img: /img/audit-mode@2x.png
     subTitle: >-
-      We will analyze your model and its data using our in-house tech, and
-      deliver valuable business insights you can conveniently self-serve on.
+      We will analyze your model and data using our in-house tech, and deliver
+      valuable business insights you can conveniently self-serve on.
     title: Data Analysis
   - faqSection:
       - faqSectionContent:
@@ -145,9 +145,8 @@ servicesItemsVisyond:
     img: /img/financial-statement@2x.png
     subTitle: >-
       Using our in-house tech, we will build scalable and maintainable financial
-      statements (e.g. Balance sheet, Income statement, Cash flow statement),
-      and create interactive dashboards driven by your model to help you answer
-      ‘what-if’ questions.
+      statements, and create interactive dashboards driven by your model to help
+      you answer ‘what-if’ questions.
     title: Reports and Dahsboards
 servicesTitlePartners: Services Managed by Partners
 servicesItemsPartners:
@@ -198,7 +197,7 @@ servicesItemsPartners:
     subTitle: >-
       Have professional consultants build new or enhance existing financial
       models for your business as a whole, or for specific tasks.
-    title: Create Models
+    title: Modeling
   - faqSection:
       - faqSectionContent:
           - answersList:
