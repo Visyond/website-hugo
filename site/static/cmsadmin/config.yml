@@ -1516,9 +1516,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
       - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
-      - {label: "Services Title", name: "servicesTitle", widget: "string", required: true}
-      - {label: "Services Text", name: "servicesText", widget: "markdown", required: false}
-      - {label: "Services items", name: "servicesItems", widget: "list",
+      - {label: "Why Visyond Title", name: "whyVisyondTitle", widget: "string", required: true}
+      - {label: "Visyond Services Title", name: "servicesTitleVisyond", widget: "string", required: true}
+      - {label: "Visyond Services Items", name: "servicesItemsVisyond", widget: "list",
         fields: [
           {label: "Title", name: "title", widget: "string", required: false,},
 	  {label: "Icon", name: "img", widget: "image", required: false,},
@@ -1539,7 +1539,30 @@ collections: # A list of collections the CMS should be able to edit
           },  
         ],
         required: false,
-      }			
+      }	
+      - {label: "Partners Services Title", name: "servicesTitlePartners", widget: "string", required: true}
+      - {label: "Partners Services Items", name: "servicesItemsPartners", widget: "list",
+        fields: [
+          {label: "Title", name: "title", widget: "string", required: false,},
+	  {label: "Icon", name: "img", widget: "image", required: false,},
+          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+	          {label: "FAQ Section", name: "faqSection", widget: "list",
+          fields: [ 
+            {label: "FAQ Section Title", name: "faqSectionTitle", widget: "string", required: true},		
+            {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", 
+            fields: [
+              {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
+              {label: "Answers List", name: "answersList", widget: list, 
+              fields: [
+                {label: "Answer", name: "answer", widget: "string"},
+              ],}
+            ],}
+	  ], 
+          required: false,
+          },  
+        ],
+        required: false,
+      }	      
       - {label: "Contact Us Title", name: "contactTitle", widget: "string", required: false}
       - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
       - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
