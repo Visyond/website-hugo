@@ -21,7 +21,7 @@ pricingCards:
       limitslist:
         - title: 2 projects
           tooltip: The number of simultaneously active projects that you can work on.
-        - title: 2 scenarios
+        - title: 2 scenarios per project
           tooltip: >-
             Create and quickly switch between different scenarios in the
             spreadsheet.
@@ -55,7 +55,7 @@ pricingCards:
       limitslist:
         - title: 5 projects
           tooltip: The number of simultaneously active projects that you can work on.
-        - title: 5 scenarios
+        - title: 5 scenarios per project
           tooltip: >-
             Create and quickly switch between different scenarios in the
             spreadsheet.
@@ -89,7 +89,7 @@ pricingCards:
       limitslist:
         - title: 10 projects
           tooltip: The number of simultaneously active projects that you can work on.
-        - title: 10 scenarios
+        - title: 10 scenarios per project
           tooltip: >-
             Create and quickly switch between different scenarios in the
             spreadsheet.
