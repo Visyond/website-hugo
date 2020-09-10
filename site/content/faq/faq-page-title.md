@@ -137,11 +137,12 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>Visyond wasn’t built to be used as a ‘data dump’</strong>
-              for millions of data rows. Instead, we focus on formula-based
-              calculations. You can filter large data sets outside of Visyond
-              and then feed it with aggregated data that you need for
-              calculations.
+              <strong> Like any other spreadsheet, Visyond is not a Big Data
+              platform.</strong>. Instead, we focus on formula-based
+              calculations. If you want to operate on more than 10,000 rows,
+              1,000 columns or 128 worksheets, then Visyond might not be what
+              you are looking for. However, you can use totals/aggregated data
+              as assumptions to drive your predictive model.
         faqSectionSubTitle: 'Visyond is not ‘Big Data’ '
       - answersList:
           - answer: >-
@@ -188,6 +189,19 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
+              We have an open API that allows you to interact with Visyond
+              projects externally (i.e. adding external sources, managing access
+              permissions and collaborators, etc.) but not internally (i.e.
+              querying the contents of a project). Please tell us more about how
+              you want to use an API.
+        faqSectionSubTitle: API
+      - answersList:
+          - answer: >-
+              Visyond does not support macros yet, but our team can port them to
+              JavaScript, if needed.
+        faqSectionSubTitle: Macros
+      - answersList:
+          - answer: >-
               Visyond can integrate with Excel and reference an Excel file as an
               ‘external source’ inside a Visyond project (for example, to
               display a value from an Excel cell in a Visyond cell). We are open
@@ -196,15 +210,7 @@ faqSection:
               it for something as varied as spreadsheet models and many
               different systems people use in conjunction with them.
         faqSectionSubTitle: Integrations
-      - answersList:
-          - answer: >-
-              We have an open API that allows you to interact with Visyond
-              projects externally (i.e. adding external sources, managing access
-              permissions and collaborators, etc.) but not internally (i.e.
-              querying the contents of a project). Please tell us more about how
-              you want to use an API.
-        faqSectionSubTitle: API
-    faqSectionTitle: Do you an open API? What integrations are available?
+    faqSectionTitle: Do you an API and Macros? What integrations are available?
   - faqSectionContent:
       - answersList:
           - answer: >-
