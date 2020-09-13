@@ -12,7 +12,7 @@ servicesItemsVisyond:
       - faqSectionContent:
           - answersList:
               - answer: >-
-                  We will identify the most important business drivers (i.e.
+                  We will identify the most important business drivers (e.g.
                   revenue streams and costs), and visualize their impact on
                   KPIs, enabling you to focus on what’s really important so you
                   can take appropriate action for cost reductions or revenue
@@ -36,7 +36,7 @@ servicesItemsVisyond:
           - answersList:
               - answer: >-
                   We will identify risk factors, run simulations on them and
-                  visualize the probability that certain KPIs (i.e. profits) are
+                  visualize the probability that certain KPIs (e.g. profits) are
                   going to be at a certain level.
               - answer: >-
                   Note: We don’t provide Excel files as an output. Instead, we
@@ -96,8 +96,8 @@ servicesItemsVisyond:
                   any specific period of the forecast.
               - answer: >-
                   Financial statements in Visyond can adapt to any accounting
-                  based on the settings (i.e. which expenses are CAPEX/OPEX or
-                  which assets are tangible/intangible.
+                  standard based on the settings (e.g. which expenses are CAPEX/OPEX or
+                  which assets are tangible/intangible).
               - answer: >-
                   Note: We don’t provide Excel files as an output. Instead, we
                   use the Visyond platform to generate analyses and reports that
