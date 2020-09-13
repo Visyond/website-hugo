@@ -126,7 +126,7 @@ servicesItemsVisyond:
           - answersList:
               - answer: >-
                   After we’ve set up financial statements, you’ll be able to
-                  easily customize and update them, e.g. add new periods add new
+                  easily customize and update them, e.g. add new periods, or new
                   revenue drivers.
             faqSectionSubTitle: Easy customization
           - answersList:
