@@ -184,14 +184,12 @@ servicesItemsPartners:
       - faqSectionContent:
           - answersList:
               - answer: >-
-                  Nada Corporate is a management consulting company with years
-                  of experience in the Finance and Mining industries.
-            faqSectionSubTitle: Nada Corporate
+                  Test 1
+            faqSectionSubTitle: Test 1
           - answersList:
               - answer: >-
-                  TacticalChoice is advisory company specializing in cookie
-                  baking industry.
-            faqSectionSubTitle: TacticalChoice
+                  Test 2
+            faqSectionSubTitle: Test 2
         faqSectionTitle: Partners
     img: /img/spreadsheet_collaboration_3x.png
     subTitle: >-
