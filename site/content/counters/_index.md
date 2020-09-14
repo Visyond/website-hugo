@@ -17,9 +17,9 @@ countersScripts: >-
 
   </script>
 
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3409378.js"></script>
-<!-- End of HubSpot Embed Code -->
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3409378.js"></script>
+  <!-- End of HubSpot Embed Code -->
 
 
   <!-- Global site tag (gtag.js) - Google Ads: 982164483 -->
