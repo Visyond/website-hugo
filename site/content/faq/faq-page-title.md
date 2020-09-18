@@ -210,7 +210,7 @@ faqSection:
               it for something as varied as spreadsheet models and many
               different systems people use in conjunction with them.
         faqSectionSubTitle: Integrations
-    faqSectionTitle: Do you an API and Macros? What integrations are available?
+    faqSectionTitle: Do you have an API and Macros? What integrations are available?
   - faqSectionContent:
       - answersList:
           - answer: >-
