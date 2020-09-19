@@ -13,29 +13,34 @@ We will get back to you shortly.
 
 Meanwhile, **feel free to learn more about Visyond or explore it on your own!** Below you will find everything you need to get started.
 
-## Learn more about Visyond
-
-To help us give you the best bespoke demonstration and focus on what’s important for you, please watch the short demo videos below or see [**this product tour**](https://help.visyond.com/articles/new-to-visyond-a-visual-overview/).
+## Short Demos
+Please watch the short demo videos below.
 
 ### Collaborative Scenario Planning (2 min)
 
 <video style="width: 100%; height: auto;" poster="/video/Visyond Scenario Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
-			  <source src="/video/Visyond Scenario Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+<source src="/video/Visyond Scenario Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
 <br><br>
 
 ### Auto-analysis and Interactive Dashboards (2.5 min)
 
 <video style="width: 100%; height: auto;" poster="/video/Visyond Auto-Analysis Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
-			  <source src="/video/Visyond Auto-Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+<source src="/video/Visyond Auto-Analysis Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
 <br><br>
 
 ### Interactive Presentations and Spreadsheet-driven Calculators (1.5 min)
 
 <video style="width: 100%; height: auto;" poster="/video/Visyond Interactive Presentations Onboarding Video.jpg" controls="" controlslist="nodownload noremoteplayback" playsinline="">
-			  <source src="/video/Visyond Interactive Presentations Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+<source src="/video/Visyond Interactive Presentations Onboarding Video.mp4" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 </video>
+<br><br>
+
+## Live Demo (15 minutes)
+
+The journey from the inception of the model creation to the delivery and ‘what-if’ analysis at the very end.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LmNCVp6l7rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
 
 ## Why Visyond?
@@ -46,9 +51,30 @@ Analysts, experts, clients, CxOs must collaborate with strict requirements on da
 
 Without Visyond, the process requires multiple platforms and causes numerous problems.
 
-[**Why Visyond?**](https://visyond.com/why-visyond/)
+[**Why Visyond?**](https://visyond.com/why-visyond/)
 
-## How is Visyond different?
+<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visond Inforgraphic 3 v4 short.png"></div>
+
+
+## Case Study
+
+How Ericsson accelerates their business case workflow by 80% and empowers their customers with Visyond. 
+
+[**Learn more.**](https://visyond.com/casestudy/ericsson-case-study-visyond/)
+
+## Product Tour
+
+See [**this product tour**](https://help.visyond.com/articles/new-to-visyond-a-visual-overview/).
+
+## How is Visyond Different from Other Spreadsheets?
+
+Visyond looks and feels like a spreadsheet but offers you much more than general purpose spreadsheets, even when augmented with add-ons.
+
+[**Learn more.**](https://help.visyond.com/articles/visyond-vs-other-spreadsheets/)
+
+<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Visyond-VS-infographics-After.png"></div>
+
+## Frequently Asked Questions
 
 Please see the [**FAQ**](https://visyond.com/faq/).
 
