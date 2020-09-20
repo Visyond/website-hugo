@@ -152,8 +152,22 @@ servicesItemsPartners:
                   <a href="https://adancorporate.com/">Adan Corporate</a> is an
                   international corporate advisory firm with global reach
                   through an expansive network of multi-disciplinary corporate
-                  professionals, mostly former c-suite executives of listed
+                  professionals, mostly former C-suite executives of listed
                   companies.
+              - answer: >-
+                  Our team has provided a wide range of bespoke advisory
+                  services to small and medium sized firms at every step of the
+                  value creation journey - from seed-funding to IPOs.
+              - answer: >-
+                  We specialize in providing junior and mid-tier growth firms
+                  with the widest reach to cross-border financing and
+                  transactions.
+              - answer: >-
+                  The spectrum of our relationships with key decision makers
+                  helps us assist clients with innovative forms of financing. We
+                  work on a long-term relationship basis with banks, PE/VC
+                  funds, promoters and investors, built on trust, transparency
+                  and results.
             faqSectionSubTitle: Adan Corporate
           - answersList:
               - answer: >-
