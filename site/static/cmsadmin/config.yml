@@ -1532,6 +1532,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Answers List", name: "answersList", widget: list, 
               fields: [
                 {label: "Answer", name: "answer", widget: "string"},
+		{label: "Screenshot", name: "img", widget: "image", required: false,},
               ],}
             ],}
 	  ], 
