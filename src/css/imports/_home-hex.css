@@ -543,7 +543,7 @@ margin-bottom: 30px;
     transition: max-height 1s linear;
 }
 .enterSections__benefits--title.opened + ul{
-    max-height: 800px;
+    max-height: 1600px;
 }
 .enterSections {
     display: flex;
