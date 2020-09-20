@@ -55,6 +55,24 @@ servicesItemsVisyond:
                   use the Visyond platform to generate analyses and reports that
                   can be exported in various formats if required.
             faqSectionSubTitle: Create interactive dashboards
+          - answersList:
+              - answer: >-
+                  We will create Balance sheets, Income statements and Cash flow
+                  statements based on your spreadsheet. We will calculate growth
+                  and changes against previous periods, and help you set up
+                  financial and management ratios.
+              - answer: >-
+                  We will find if your operations require additional funding in
+                  any specific period of the forecast.
+              - answer: >-
+                  Financial statements in Visyond can adapt to any accounting
+                  standard based on the settings (e.g. which expenses are
+                  CAPEX/OPEX or which assets are tangible/intangible).
+              - answer: >-
+                  Note: We don’t provide Excel files as an output. Instead, we
+                  use the Visyond platform to generate analyses and reports that
+                  can be exported in various formats if required.
+            faqSectionSubTitle: Build financial statements
         faqSectionTitle: 'We will:'
       - faqSectionContent:
           - answersList:
@@ -77,78 +95,26 @@ servicesItemsVisyond:
                   simulations), or customize the analyses we have created for
                   you, without the fear of overwriting completed work.
             faqSectionSubTitle: Easy-to-use analysis tools
-        faqSectionTitle: Platform Benefits
-    img: /img/audit-mode@2x.png
-    subTitle: >-
-      We will analyze your model and data using our in-house tech, and deliver
-      valuable business insights you can conveniently self-serve on.
-    title: Data Analysis
-  - faqSection:
-      - faqSectionContent:
-          - answersList:
-              - answer: >-
-                  We will create Balance sheets, Income statements and Cash flow
-                  statements based on your spreadsheet. We will calculate growth
-                  and changes against previous periods, and help you set up
-                  financial and management ratios.
-              - answer: >-
-                  We will find if your operations require additional funding in
-                  any specific period of the forecast.
-              - answer: >-
-                  Financial statements in Visyond can adapt to any accounting
-                  standard based on the settings (e.g. which expenses are CAPEX/OPEX or
-                  which assets are tangible/intangible).
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
-            faqSectionSubTitle: Build financial statements
-          - answersList:
-              - answer: >-
-                  We will create interactive, spreadsheet-driven dashboards that
-                  you and your stakeholders (team, clients, etc.) can use to
-                  independently answer ‘what-if’ questions and stress-test
-                  assumptions without breaking the model or exposing sensitive
-                  information (model or its data).
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
-            faqSectionSubTitle: Create interactive dashboards
-        faqSectionTitle: 'We will:'
-      - faqSectionContent:
           - answersList:
               - answer: >-
                   The statements will remain up-to-date when you change the
                   numbers in the spreadsheet or the financial statements
                   settings.
-            faqSectionSubTitle: Always up-to-date information
-          - answersList:
               - answer: >-
                   After we’ve set up financial statements, you’ll be able to
                   easily customize and update them, e.g. add new periods, or new
                   revenue drivers.
-            faqSectionSubTitle: Easy customization
-          - answersList:
-              - answer: >-
-                  After we do the work, you will be able to play with the
-                  numbers and answer ‘what-if’ questions by yourself, without
-                  any technical know-how, to see how your inputs change the
-                  outcome.
-              - answer: >-
-                  You can securely distribute interactive dashboards only to
-                  specific stakeholders, shielding them from the complexity of
-                  the model, unnecessary information, or sensitive data. You
-                  decide what each person can view or interact with.
-            faqSectionSubTitle: 'Collaborative, self-service environment'
+            faqSectionSubTitle: Always up-to-date information
         faqSectionTitle: Platform Benefits
-    img: /img/financial-statement@2x.png
+    img: /img/audit-mode@2x.png
     subTitle: >-
-      Using our in-house tech, we will build scalable and maintainable financial
-      statements, and create interactive dashboards driven by your model to help
-      you answer ‘what-if’ questions.
-    title: Reports and Dahsboards
-servicesTitlePartners: Services Managed by Partners
+      We will analyze your model and data using our in-house tech, and deliver
+      valuable business insights you can conveniently self-serve on. We will
+      build scalable and maintainable financial statements, and create
+      interactive dashboards driven by your model to help you answer ‘what-if’
+      questions.
+    title: 'Analysis, Reports and Dahsboards'
+servicesTitlePartners: Services Managed by Partners on the Visyond Platform
 servicesItemsPartners:
   - faqSection:
       - faqSectionContent:
@@ -161,7 +127,7 @@ servicesItemsPartners:
                   We can also build custom models for your specific use-case:
                   feasibility study, market forecasting, KPI system development,
                   etc.
-            faqSectionSubTitle: Building models from scratch
+            faqSectionSubTitle: Building new models
           - answersList:
               - answer: >-
                   We will maximize the usefulness of your models and help you
@@ -172,32 +138,6 @@ servicesItemsPartners:
                   recommend architectural changes based on the model's goal and
                   audience.
             faqSectionSubTitle: Fine-tuning existing models
-        faqSectionTitle: Partners' Services
-      - faqSectionContent:
-          - answersList:
-              - answer: 'Beneft Desc #1'
-            faqSectionSubTitle: 'Benefit #1'
-          - answersList:
-              - answer: 'Benefit Desc #2'
-            faqSectionSubTitle: 'Benefit #2'
-        faqSectionTitle: Platform Benefits
-      - faqSectionContent:
-          - answersList:
-              - answer: >-
-                  Test 1
-            faqSectionSubTitle: Test 1
-          - answersList:
-              - answer: >-
-                  Test 2
-            faqSectionSubTitle: Test 2
-        faqSectionTitle: Partners
-    img: /img/spreadsheet_collaboration_3x.png
-    subTitle: >-
-      Have professional consultants build new or enhance existing financial
-      models for your business as a whole, or for specific tasks.
-    title: Modeling
-  - faqSection:
-      - faqSectionContent:
           - answersList:
               - answer: >-
                   We can help you improve your organization’s performance,
@@ -219,24 +159,21 @@ servicesItemsPartners:
                   We can show you how to effectively utilize financial models
                   for strategy development, efficiency improvement, etc.
             faqSectionSubTitle: Utilizing financial models
-        faqSectionTitle: Partners' Services
+        faqSectionTitle: Services
       - faqSectionContent:
           - answersList:
-              - answer: '????'
-            faqSectionSubTitle: '????'
-        faqSectionTitle: Platform Benefits
-      - faqSectionContent:
+              - answer: Test 1
+            faqSectionSubTitle: Test 1
           - answersList:
-              - answer: >-
-                  Dee-DoubleYou-See is a multinational professional services
-                  network of firms headquartered in London, UK.
-            faqSectionSubTitle: Dee-DoubleYou-See
+              - answer: Test 2
+            faqSectionSubTitle: Test 2
         faqSectionTitle: Partners
-    img: /img/analyst_and_consultant_3x.png
+    img: /img/spreadsheet_collaboration_3x.png
     subTitle: >-
-      Do you have questions about your business that you can't answer or need an
-      advice of an industry-professional?
-    title: Consulting
+      Have professional modelers create financial models for your business as a
+      whole, or for specific tasks, and get a variety of management consulting
+      services.
+    title: Financial Modeling and Consulting
 contactTitle: Get in Touch with Us
 partnersTitle: Become a Partner
 partnersText: >-
