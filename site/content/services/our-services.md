@@ -13,23 +13,28 @@ servicesItemsVisyond:
           - answersList:
               - answer: >-
                   We will identify the most important business drivers (e.g.
-                  revenue streams and costs), and visualize their impact on
+                  revenue streams and costs)...
+                img: /img/2019-02 Impact Analysis.png
+              - answer: >-
+                  ...and visualize their impact on
                   KPIs, enabling you to focus on what’s really important so you
                   can take appropriate action for cost reductions or revenue
                   optimization.
-                img: /img/2019-02 Impact Analysis.png
+                img: /img/2019-02 Sensitivity Two-Way Analysis.png                
             faqSectionSubTitle: Find the most important business drivers
           - answersList:
               - answer: >-
                   We will create and analyze different scenarios, stress-test
                   various assumptions, and visualize how they affect KPIs to
                   help you answer ‘what-if’ questions.
+                img: /img/2019-02 Scenario Analysis.png               
             faqSectionSubTitle: Help you answer ‘what-if’ questions
           - answersList:
               - answer: >-
                   We will identify risk factors, run simulations on them and
                   visualize the probability that certain KPIs (e.g. profits) are
                   going to be at a certain level.
+                img: /img/2019-02 Simulation Monte Carlo.png                
             faqSectionSubTitle: Identify risk factors and run simulations
           - answersList:
               - answer: >-
@@ -38,13 +43,14 @@ servicesItemsVisyond:
                   independently answer ‘what-if’ questions and stress-test
                   assumptions without breaking the model or exposing sensitive
                   information (model or its data).
+                img: /img/2019-02 Interactive Presentation.png                  
             faqSectionSubTitle: Create interactive dashboards
           - answersList:
               - answer: >-
                   We will create Balance sheets, Income statements and Cash flow
                   statements based on your spreadsheet. We will calculate growth
                   and changes against previous periods, and help you set up
-                  financial and management ratios.
+                  financial and management ratios.               
               - answer: >-
                   We will find if your operations require additional funding in
                   any specific period of the forecast.
@@ -52,8 +58,9 @@ servicesItemsVisyond:
                   Financial statements in Visyond can adapt to any accounting
                   standard based on the settings (e.g. which expenses are
                   CAPEX/OPEX or which assets are tangible/intangible).
+                img: /img/2019-02 Financial Statements.png                     
             faqSectionSubTitle: Build financial statements
-        faqSectionTitle: Services
+        faqSectionTitle: Services and Deliverables
       - faqSectionContent:
           - answersList:
               - answer: >-
