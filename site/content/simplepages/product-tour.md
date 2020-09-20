@@ -71,6 +71,8 @@ Please see the [**FAQ**](https://visyond.com/faq/).
 
 Visyond wins the Out of Excel award at the [**Financial Modelling Innovation Awards 2020!**](https://visyond.com/financial-modelling-innovation-awards-2020/)
 
+<img src="/video/Financial Modelling Award Video.jpg" alt="Financial Modelling Innovation Awards Out Of Excel Category Winner - Visyond" style=”display:block; margin:auto;”>
+
 ## Try Visyond
 
 **Visyond includes different modules that you can evaluate during a 14-day trial.** After the trial, you can subscribe to the modules you need or use the free version.
