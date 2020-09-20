@@ -73,7 +73,7 @@ servicesItemsVisyond:
                   use the Visyond platform to generate analyses and reports that
                   can be exported in various formats if required.
             faqSectionSubTitle: Build financial statements
-        faqSectionTitle: 'We will:'
+        faqSectionTitle: 'Services'
       - faqSectionContent:
           - answersList:
               - answer: >-
