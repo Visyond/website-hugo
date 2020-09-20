@@ -150,7 +150,7 @@ servicesItemsPartners:
       - faqSectionContent:
           - answersList:
               - answer: >-
-                  <a href="https://adancorporate.com/">Adan Corporate</a> is an
+                  <a href="https://adancorporate.com/" target="_blank">Adan Corporate</a> is an
                   international corporate advisory firm with global reach
                   through an expansive network of multi-disciplinary corporate
                   professionals, mostly former C-suite executives of listed
@@ -172,7 +172,7 @@ servicesItemsPartners:
             faqSectionSubTitle: Adan Corporate
           - answersList:
               - answer: >-
-                  <a href="https://www.strategicchoice.org/">Strategic Choice
+                  <a href="https://www.strategicchoice.org/" target="_blank">Strategic Choice
                   Advisory Ltd.</a> core services include feasibility studies,
                   efficiency improvement programs, strategies for new market
                   entry and business turnarounds, and buy-side M&A advisory.
