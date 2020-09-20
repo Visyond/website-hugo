@@ -168,7 +168,7 @@ servicesItemsPartners:
               - answer: Test 2
             faqSectionSubTitle: Test 2
         faqSectionTitle: Partners
-    img: /img/spreadsheet_collaboration_3x.png
+    img: /img/analyst_and_consultant_3x.png
     subTitle: >-
       Have professional modelers create financial models for your business as a
       whole, or for specific tasks, and get a variety of management consulting
