@@ -4,10 +4,10 @@ metaTags: "<meta property=\"og:title\" content=\"Managed Services on Visyond Pla
 title: Managed Services on Visyond Platform
 coverHeader: Managed Services on Visyond Platform
 coverDescription: >-
-  Have professionals do the work and enjoy the benefits of Visyond platform.
-  Understand your data and make better decisions, faster.
-whyVisyondTitle: How Visyond Will Speed Up Your Workflow?
-servicesTitleVisyond: 'Analytics, Dashboarding and Reporting as a Service'
+  Combine the expertise of professional management consultants with the benefits
+  of Visyond platform. Understand your data and make better decisions, faster.
+whyVisyondTitle: Get a Decision Support System Based on Your Spreadsheet
+servicesTitleVisyond: Services Managed by Visyond
 servicesItemsVisyond:
   - faqSection:
       - faqSectionContent:
@@ -100,7 +100,7 @@ servicesItemsVisyond:
       build scalable and maintainable financial statements, and create
       interactive dashboards driven by your model to help you answer ‘what-if’
       questions.
-    title: 'Analysis, Reports and Dahsboards'
+    title: 'Analytics, Dashboards and Reporting as a Service'
 servicesTitlePartners: Services Managed by Partners on the Visyond Platform
 servicesItemsPartners:
   - faqSection:
@@ -150,11 +150,11 @@ servicesItemsPartners:
       - faqSectionContent:
           - answersList:
               - answer: >-
-                  <a href="https://adancorporate.com/" target="_blank">Adan Corporate</a> is an
-                  international corporate advisory firm with global reach
-                  through an expansive network of multi-disciplinary corporate
-                  professionals, mostly former C-suite executives of listed
-                  companies.
+                  <a href="https://adancorporate.com/" target="_blank">Adan
+                  Corporate</a> is an international corporate advisory firm with
+                  global reach through an expansive network of
+                  multi-disciplinary corporate professionals, mostly former
+                  C-suite executives of listed companies.
               - answer: >-
                   Our team has provided a wide range of bespoke advisory
                   services to small and medium sized firms at every step of the
@@ -172,10 +172,11 @@ servicesItemsPartners:
             faqSectionSubTitle: Adan Corporate
           - answersList:
               - answer: >-
-                  <a href="https://www.strategicchoice.org/" target="_blank">Strategic Choice
-                  Advisory Ltd.</a> core services include feasibility studies,
-                  efficiency improvement programs, strategies for new market
-                  entry and business turnarounds, and buy-side M&A advisory.
+                  <a href="https://www.strategicchoice.org/"
+                  target="_blank">Strategic Choice Advisory Ltd.</a> core
+                  services include feasibility studies, efficiency improvement
+                  programs, strategies for new market entry and business
+                  turnarounds, and buy-side M&A advisory.
               - answer: >-
                   Historically we have been working closely with clients from
                   Asia Pacific countries in CIS and other markets, including
@@ -183,7 +184,7 @@ servicesItemsPartners:
               - answer: >-
                   While we are capable of and regularly do work in various
                   industries across the board, over the years we have developed
-                  focused competencies in oil&gas downstream and chemicals, and
+                  focused competencies in Oil&Gas downstream and chemicals, and
                   healthcare (mainly, services and equipment, plus biotech). Our
                   other core competencies cover agriculture and food, machinery
                   & equipment, and IT.
