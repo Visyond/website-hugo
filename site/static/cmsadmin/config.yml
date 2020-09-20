@@ -1513,6 +1513,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page url", name: "url", widget: string, required: false}
+      - { label: "Meta tags", name: "metaTags", widget: "markdown"}    
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
       - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
