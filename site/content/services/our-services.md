@@ -1,5 +1,6 @@
 ---
 url: /services
+metaTags: "<meta property=\"og:title\" content=\"Managed Services on Visyond Platform\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"/>\r\n<meta property=\"og:description\" content=\"Have professionals do the work and enjoy the benefits of Visyond platform. Understand your data and make better decisions, faster.\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/services/\" />"
 title: Managed Services on Visyond Platform
 coverHeader: Managed Services on Visyond Platform
 coverDescription: >-
