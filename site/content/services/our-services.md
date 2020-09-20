@@ -16,25 +16,24 @@ servicesItemsVisyond:
                   revenue streams and costs)...
                 img: /img/2019-02 Impact Analysis.png
               - answer: >-
-                  ...and visualize their impact on
-                  KPIs, enabling you to focus on what’s really important so you
-                  can take appropriate action for cost reductions or revenue
-                  optimization.
-                img: /img/2019-02 Sensitivity Two-Way Analysis.png                
+                  ...and visualize their impact on KPIs, enabling you to focus
+                  on what’s really important so you can take appropriate action
+                  for cost reductions or revenue optimization.
+                img: /img/2019-02 Sensitivity Two-Way Analysis.png
             faqSectionSubTitle: Find the most important business drivers
           - answersList:
               - answer: >-
                   We will create and analyze different scenarios, stress-test
                   various assumptions, and visualize how they affect KPIs to
                   help you answer ‘what-if’ questions.
-                img: /img/2019-02 Scenario Analysis.png               
+                img: /img/2019-02 Scenario Analysis.png
             faqSectionSubTitle: Help you answer ‘what-if’ questions
           - answersList:
               - answer: >-
                   We will identify risk factors, run simulations on them and
                   visualize the probability that certain KPIs (e.g. profits) are
                   going to be at a certain level.
-                img: /img/2019-02 Simulation Monte Carlo.png                
+                img: /img/2019-02 Simulation Monte Carlo.png
             faqSectionSubTitle: Identify risk factors and run simulations
           - answersList:
               - answer: >-
@@ -43,7 +42,7 @@ servicesItemsVisyond:
                   independently answer ‘what-if’ questions and stress-test
                   assumptions without breaking the model or exposing sensitive
                   information (model or its data).
-                img: /img/2019-02 Interactive Presentation.png                  
+                img: /img/2019-02 Interactive Presentation.png
             faqSectionSubTitle: Create interactive dashboards
           - answersList:
               - answer: >-
@@ -58,7 +57,7 @@ servicesItemsVisyond:
                   Financial statements in Visyond can adapt to any accounting
                   standard based on the settings (e.g. which expenses are
                   CAPEX/OPEX or which assets are tangible/intangible).
-                img: /img/2019-02 Financial Statements.png                     
+                img: /img/2019-02 Financial Statements.png
             faqSectionSubTitle: Build financial statements
         faqSectionTitle: Services and Deliverables
       - faqSectionContent:
@@ -149,11 +148,31 @@ servicesItemsPartners:
         faqSectionTitle: Services
       - faqSectionContent:
           - answersList:
-              - answer: Test 1
-            faqSectionSubTitle: Test 1
+              - answer: >-
+                  <a href="https://adancorporate.com/">Adan Corporate</a> is an
+                  international corporate advisory firm with global reach
+                  through an expansive network of multi-disciplinary corporate
+                  professionals, mostly former c-suite executives of listed
+                  companies.
+            faqSectionSubTitle: Adan Corporate
           - answersList:
-              - answer: Test 2
-            faqSectionSubTitle: Test 2
+              - answer: >-
+                  <a href="https://www.strategicchoice.org/">Strategic Choice
+                  Advisory Ltd.</a> core services include feasibility studies,
+                  efficiency improvement programs, strategies for new market
+                  entry and business turnarounds, and buy-side M&A advisory.
+              - answer: >-
+                  Historically we have been working closely with clients from
+                  Asia Pacific countries in CIS and other markets, including
+                  Southeast Asia, India, and Israel.
+              - answer: >-
+                  While we are capable of and regularly do work in various
+                  industries across the board, over the years we have developed
+                  focused competencies in oil&gas downstream and chemicals, and
+                  healthcare (mainly, services and equipment, plus biotech). Our
+                  other core competencies cover agriculture and food, machinery
+                  & equipment, and IT.
+            faqSectionSubTitle: Strategic Choice Advisory Ltd.
         faqSectionTitle: Partners
     img: /img/analyst_and_consultant_3x.png
     subTitle: >-
