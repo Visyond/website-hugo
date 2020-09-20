@@ -17,6 +17,7 @@ servicesItemsVisyond:
                   KPIs, enabling you to focus on what’s really important so you
                   can take appropriate action for cost reductions or revenue
                   optimization.
+                img: /img/2019-02 Impact Analysis.png
             faqSectionSubTitle: Find the most important business drivers
           - answersList:
               - answer: >-
