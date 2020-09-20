@@ -136,7 +136,11 @@
 											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 15px;">
 												{{ .answer | markdownify }}
 											</div>
+											
+											{{ if .img }}
 											<img src="{{ .img }}" style="height: 100%; width: 100%;">
+											{{ end }}
+											
 											{{ end }}
 										</ul>	
 									</div>
@@ -193,6 +197,11 @@
 											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 15px;">
 												{{ .answer | markdownify }}
 											</div>
+											
+											{{ if .img }}
+											<img src="{{ .img }}" style="height: 100%; width: 100%;">
+											{{ end }}
+											
 											{{ end }}
 										</ul>	
 									</div>
