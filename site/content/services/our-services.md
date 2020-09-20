@@ -17,31 +17,18 @@ servicesItemsVisyond:
                   KPIs, enabling you to focus on what’s really important so you
                   can take appropriate action for cost reductions or revenue
                   optimization.
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
             faqSectionSubTitle: Find the most important business drivers
           - answersList:
               - answer: >-
                   We will create and analyze different scenarios, stress-test
                   various assumptions, and visualize how they affect KPIs to
                   help you answer ‘what-if’ questions.
-              - answer: 'Note: We don''t provide assumptions and benchmarks.'
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
             faqSectionSubTitle: Help you answer ‘what-if’ questions
           - answersList:
               - answer: >-
                   We will identify risk factors, run simulations on them and
                   visualize the probability that certain KPIs (e.g. profits) are
                   going to be at a certain level.
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
             faqSectionSubTitle: Identify risk factors and run simulations
           - answersList:
               - answer: >-
@@ -50,10 +37,6 @@ servicesItemsVisyond:
                   independently answer ‘what-if’ questions and stress-test
                   assumptions without breaking the model or exposing sensitive
                   information (model or its data).
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
             faqSectionSubTitle: Create interactive dashboards
           - answersList:
               - answer: >-
@@ -68,10 +51,6 @@ servicesItemsVisyond:
                   Financial statements in Visyond can adapt to any accounting
                   standard based on the settings (e.g. which expenses are
                   CAPEX/OPEX or which assets are tangible/intangible).
-              - answer: >-
-                  Note: We don’t provide Excel files as an output. Instead, we
-                  use the Visyond platform to generate analyses and reports that
-                  can be exported in various formats if required.
             faqSectionSubTitle: Build financial statements
         faqSectionTitle: Services
       - faqSectionContent:
