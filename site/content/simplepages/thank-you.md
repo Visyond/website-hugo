@@ -14,6 +14,7 @@ We will get back to you shortly.
 Meanwhile, **feel free to learn more about Visyond or explore it on your own!** Below you will find everything you need to get started.
 
 ## Short Demos
+
 Please watch the short demo videos below.
 
 ### Collaborative Scenario Planning (2 min)
@@ -39,7 +40,6 @@ Please watch the short demo videos below.
 
 ## Live Demo (15 minutes)
 
-The journey from the inception of the model creation to the delivery and ‘what-if’ analysis at the very end.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LmNCVp6l7rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
 
@@ -51,12 +51,11 @@ Analysts, experts, clients, CxOs must collaborate with strict requirements on da
 
 Without Visyond, the process requires multiple platforms and causes numerous problems.
 
-[**Why Visyond?**](https://visyond.com/why-visyond/)
+[**Why Visyond?**](https://visyond.com/why-visyond/)
 
 <div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visond Inforgraphic 3 v4 short.png"></div>
 
-
-## Case Study
+## Featured Case Study
 
 How Ericsson accelerates their business case workflow by 80% and empowers their customers with Visyond. 
 
