@@ -79,7 +79,7 @@
 
 	<div class="benefits" style="margin-top: 60px;">
 	{{ range .Params.servicesItemsVisyond }}
-		<div class="benefit__item">
+		<div class="benefit__item" style="margin-right: 0px; width: 90%; box-shadow: 0px 0px 20px 0px #ececec;">
 			<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
 			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
 			<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
@@ -97,11 +97,11 @@
 								<ul style="padding-left: 0px;">
 								<!-- LIST OF FAQ SECTION BLOCKS -->
 								{{ range $list := .faqSectionContent }}
-									<div class="enterSections__benefits" style="padding: 0 0 0;">
+									<div class="enterSections__benefits" style="padding: 0 0 0; margin-bottom: 15px;">
 										<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
 										<ul style="padding-left: 0px;">
 											{{ range $list := .answersList }}
-											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
+											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 20px;">
 												{{ .answer | markdownify }}
 											</div>
 											{{ end }}
@@ -135,7 +135,7 @@
 
 	<div class="benefits" style="margin-top: 60px;">
 	{{ range .Params.servicesItemsPartners }}
-		<div class="benefit__item">
+		<div class="benefit__item" style="margin-right: 0px; width: 90%; box-shadow: 0px 0px 20px 0px #ececec;">
 			<img src="{{ .img }}" alt="" class="benefit__icon" style="max-height: 100px;margin-bottom: 30px;width: auto;">
 			<h5 class="types__headline" style="text-align: center;margin-bottom: 30px;line-height: 1.5em; font-size: 30px; font-weight: 600; color: #383e4d;">{{ .title }}</h5>
 			<p class="benefit__text" style="opacity: 1; font-weight: 400;">{{ .subTitle | markdownify }}</p>
@@ -153,11 +153,11 @@
 								<ul style="padding-left: 0px;">
 								<!-- LIST OF FAQ SECTION BLOCKS -->
 								{{ range $list := .faqSectionContent }}
-									<div class="enterSections__benefits" style="padding: 0 0 0;">
+									<div class="enterSections__benefits" style="padding: 0 0 0; margin-bottom: 15px;">
 										<div class="enterSections__benefits--title" style="color: #848484;font-size: 18px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">{{ .faqSectionSubTitle }}</div>
 										<ul style="padding-left: 0px;">
 											{{ range $list := .answersList }}
-											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 10px;">
+											<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 20px;">
 												{{ .answer | markdownify }}
 											</div>
 											{{ end }}
