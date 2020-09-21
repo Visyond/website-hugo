@@ -117,23 +117,26 @@ servicesItemsPartners:
             faqSectionSubTitle: Building new models
           - answersList:
               - answer: >-
-                  We will maximize the usefulness of your models and help you
-                  answer numeric and strategic questions.
+                  We will maximize the usefulness of your models, and help you
+                  answer key numeric and strategic questions. To do this, we can
+                  restructure and/or design new output sheets in your model for
+                  specific use cases, such as feasibility analyses, business
+                  model selection, business restructuring, etc. 
               - answer: >-
-                  We will audit the spreadsheet and identify the root causes of
-                  errors or find unused cells cluttering the spreadsheet, and
-                  recommend architectural changes based on the model's goal and
-                  audience.
+                  We can also audit the spreadsheet and identify the root causes
+                  of errors, find unused cells cluttering the model, and suggest
+                  enhancements to improve the model’s overall user-friendliness.
             faqSectionSubTitle: Fine-tuning existing models
           - answersList:
               - answer: >-
-                  We can help you improve your organization’s performance,
-                  operational efficiency for existing assets, and fundraising
-                  (debt and equity financing).
+                  We can help you improve your organization’s performance by
+                  finding alternative revenue sources, working on operational
+                  efficiency, or determining optimal financing structures (debt
+                  and equity). 
               - answer: >-
-                  We can develop a market-entry and expansion strategy, a plan
-                  for turnaround and restructuring for distressed assets,
-                  feasibility analysis for new investments.
+                  Our core service areas also include market entry and expansion
+                  strategies, turnaround and restructuring plans for distressed
+                  assets, and feasibility analyses for new investments.
             faqSectionSubTitle: Management consulting
           - answersList:
               - answer: >-
@@ -141,19 +144,14 @@ servicesItemsPartners:
                   your models so you can base your decisions on reliable
                   forward-looking projections.
             faqSectionSubTitle: Benchmarking and assumptions
-          - answersList:
-              - answer: >-
-                  We can show you how to effectively utilize financial models
-                  for strategy development, efficiency improvement, etc.
-            faqSectionSubTitle: Utilizing financial models
         faqSectionTitle: Services
       - faqSectionContent:
           - answersList:
               - answer: >-
                   <a href="https://adancorporate.com/" target="_blank">Adan
-                  Corporate</a> is an international corporate advisory firm with
-                  global reach through an expansive network of
-                  multi-disciplinary corporate professionals, mostly former
+                  Corporate Services Limited</a> is an international corporate
+                  advisory firm with global reach through an expansive network
+                  of multi-disciplinary corporate professionals, mostly former
                   C-suite executives of listed companies.
               - answer: >-
                   Our team has provided a wide range of bespoke advisory
@@ -169,7 +167,7 @@ servicesItemsPartners:
                   work on a long-term relationship basis with banks, PE/VC
                   funds, promoters and investors, built on trust, transparency
                   and results.
-            faqSectionSubTitle: Adan Corporate
+            faqSectionSubTitle: Adan Corporate Services Limited
           - answersList:
               - answer: >-
                   <a href="https://www.strategicchoice.org/"
