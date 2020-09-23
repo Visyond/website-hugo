@@ -160,11 +160,11 @@ faqSection:
         faqSectionSubTitle: Minimal learning curve
       - answersList:
           - answer: >-
-              <strong>We have built an <a
-              href="https://help.visyond.com/">extensive knowledge
-              base</a></strong> that explains how to use Visyond should you have
-              any trouble. ‘Training mode’ in the application will walk you
-              through the features and workflows on the module’s page.
+              <strong>We have built an <a href="https://help.visyond.com/"
+              target="_blank">extensive knowledge base</a></strong> that
+              explains how to use Visyond should you have any trouble. ‘Training
+              mode’ in the application will walk you through the features and
+              workflows on the module’s page.
         faqSectionSubTitle: Step-by-step guides
       - answersList:
           - answer: >-
@@ -224,8 +224,8 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              Please see the <a href="https://visyond.com/pricing">pricing
-              page.</a>
+              Please see the <a href="https://visyond.com/pricing"
+              target="_blank">pricing page.</a>
         faqSectionSubTitle: Pricing depends on the plan that you pick
     faqSectionTitle: How much does Visyond cost?
   - faqSectionContent:
@@ -236,8 +236,14 @@ faqSection:
               to the modules you need or use the free version.
           - answer: >-
               <strong>Sign up</strong> for a free 14-day trial <a
-              href="https://visyond.com/accounts/signup/">here.</a>
+              href="https://visyond.com/accounts/signup/"
+              target="_blank">here.</a>
         faqSectionSubTitle: There is a free version of Visyond
     faqSectionTitle: Is there a free version?
+  - faqSectionContent:
+      - faqSectionSubTitle: >-
+          We and our partners offer <a href="/services" target="_blank"> managed
+          services on the Visyond platform.</a>
+    faqSectionTitle: Can you build a model for me? Do you provide services?
 ---
 
