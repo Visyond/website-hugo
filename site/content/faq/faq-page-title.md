@@ -229,9 +229,11 @@ faqSection:
         faqSectionSubTitle: Pricing depends on the plan that you pick
     faqSectionTitle: How much does Visyond cost?
   - faqSectionContent:
-      - faqSectionSubTitle: >-
-          We and our partners offer <a href="/services" target="_blank"> managed
-          services on the Visyond platform.</a>
+      - answersList:
+          - answer: >-
+              We and our partners offer <a href="/services" target="_blank">
+              managed services on the Visyond platform.</a>
+        faqSectionSubTitle: 'Yes'
     faqSectionTitle: Can you build a model for me? Do you provide services?
   - faqSectionContent:
       - answersList:
