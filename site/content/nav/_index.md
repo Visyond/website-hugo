@@ -13,8 +13,8 @@ resourcesDropdown:
   - path: /partner-with-visyond/
     title: Partner with Visyond
 solutionsInfoTitle: Get what no other spreadsheet-based technology can give you
-solutionsInfoDescr: 'Carry out, in minutes, what takes experts hours or days to do.'
+solutionsInfoDescr: Do in minutes what takes you days now.
 featuresInfoTitle: Get what no other spreadsheet-based technology can give you
-featuresInfoDescr: 'Carry out, in minutes, what takes experts hours or days to do.'
+featuresInfoDescr: Do in minutes what takes you days now.
 ---
 
