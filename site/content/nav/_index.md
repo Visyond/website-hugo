@@ -1,11 +1,13 @@
 ---
 resourcesDropdown:
-  - path: 'https://help.visyond.com/'
-    title: Help
-  - path: /casestudy/
-    title: Case Studies
+  - path: /why-visyond
+    title: Why Visyond
   - path: /faq
     title: FAQ
+  - path: /casestudy/
+    title: Case Studies
+  - path: 'https://help.visyond.com/'
+    title: Knowledge Base
   - path: /press/
     title: Press
   - path: /partner-with-visyond/
