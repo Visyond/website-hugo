@@ -14,23 +14,28 @@
         </div> <!-- ./client asked -->
 
 
-        <!-- form -->
+        <!-- form div-->
         <div class="request-demo__form-wrap">
             <h1 class="request-demo__form-title">Request a Demo</h1>
             <!--
             <h2 class="reuest-demo__form-subtitle">Please fill in the form to recieve your invitation</h2>
             -->
             
-           <!-- <form class="request-demo__form" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">  -->
-            <form class="request-demo__form" method="POST" action="https://formspree.io/xgeogoev">
-               <!-- <input type="hidden" name="subject" value="Feedback">
-               <input type="hidden" name="api_key" value="1fd701f8c4ae64d01bf1744e91434e86aee94bd3">
-
-                -->
+		<!--[if lte IE 8]>
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+		<![endif]-->
+		<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+		<script>
+		  hbspt.forms.create({
+			portalId: "3409378",
+			formId: "fe27afd9-f1cc-464b-90b6-fcc88a768d2a"
+		});
+		</script>		
+		
+           
+           <!-- form <form class="request-demo__form" method="POST" action="https://formspree.io/xgeogoev">
 
                 <input type="hidden" name="_next" value="https://visyond.com/thank-you-for-your-request/" />  
-
-                <!-- <input type="hidden" name="_cc" value="gianluca@get.visyond.com,gianluca.bisceglie@gmail.com,besnik@get.visyond.com,alexey.prokopovich@visyond.com,support@visyond.com" /> -->
 
                 <div class="request-form-field request-demo__input--required">
                     <input name="first_name" type="text" class="request-demo__input" placeholder="First name" required>
@@ -39,27 +44,11 @@
                     <input name="last_name" type="text" class="request-demo__input" placeholder="Last name" required>
                 </div>
                 
-                <!--
-                <div class="request-form-field">
-                    <input name="role" type="text" class="request-demo__input" placeholder="Your role">
-                </div>
-                -->
                 
                 <div class="request-form-field request-demo__input--required">
                     <input name="email" type="email" class="request-demo__input" placeholder="Business email" required>
                 </div>
                 
-                <!--
-                <div class="request-form-field">
-                    <input name="phone" type="tel" class="request-demo__input" placeholder="Phone">
-                </div>
-                -->
-                
-                <!--
-                <div class="request-form-field">
-                    <input name="company" type="text" class="request-demo__input" placeholder="Company">
-                </div>
-                -->
                
                 <div class="request-form-field">
                     <input name="website" type="text" class="request-demo__input" placeholder="Company website">
@@ -112,8 +101,11 @@
                 <input type="text" name="_gotcha" style="display:none" />
                 <button class="request-demo__submit" type="submit">Submit</button>
                 <span class="required-fields"><small>*</small>Required fields</span>
-            </form>
-        </div> <!-- ./form -->
+            </form> .form -->
+		
+		
+        </div> 
+	<!-- ./form div -->
     </div>
 </div>
 
