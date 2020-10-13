@@ -83,7 +83,20 @@
                 {{.Params.formHeader }}
             </h2>
             <div class="header-section--divider"></div>
-            <form class="form__inputs-container" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">
+            
+            <!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+	portalId: "3409378",
+	formId: "1b33b41c-ed3b-43c3-bf77-3354dbf53541"
+});
+</script>
+            
+            
+         <!-- <form class="form__inputs-container" method="POST" action="https://formspree.io/gianluca.bisceglie@visyond.com">
                 
                 <input type="hidden" name="_next" value="https://visyond.com/partner-with-visyond/" />
                 <input type="hidden" name="_cc" value="gianluca@get.visyond.com,gianluca.bisceglie@gmail.com,besnik@get.visyond.com,alex@get.visyond.com,alexey.prokopovich@visyond.com,support@visyond.com" />
@@ -118,7 +131,8 @@
                 <div class="btn-wrap">
                     <input type="submit" value={{ .Params.submitButtonTitle }} class="btn-primary"/>
                 </div>
-            </form>
+            </form> -->
+            
         </div>
     </section>
     <!-- form section -->
