@@ -2,7 +2,7 @@
 title: Partner page
 url: /partner-with-visyond
 topTitle: Partner with Visyond
-topSubTitle: Grow your business and build new revenue streams
+topSubTitle: Grow Your Business and Build New Revenue Streams
 bgImage: /img/partners-hero.jpg
 BenefitsHeader: Partner Benefits
 benefitsItems:
@@ -35,22 +35,22 @@ typesSection:
     - icon: /img/icons/bag-man.png
       subTitle: >-
         If you are a management consultant or an advisory company and want to expand your offering by using the Visyond platform to provide your services.
-      title: Service Partners
+      title: Service Partner
     - icon: /img/icons/handshake.png
       subTitle: >-
         If you are a sales professional and looking to add a new offer to your portfolio. 
-      title: Sales Partners
+      title: Sales Partner
     - icon: /img/icons/gear-man.png
       subTitle: >-
         If you want to integrate with Visyond and expand your solution or technology.
       title: Integration & Software Partners
-formHeader: Find Out More About Our Partner Programs
+formHeader: Contact Us
 radio:
-  - labelRadioButton: Independent Sales
-  - labelRadioButton: Channel Partners
+  - labelRadioButton: Service Partner
+  - labelRadioButton: Sales Partner
   - labelRadioButton: Integration & Software
-submitButtonTitle: Submit Inquiries
-providesTitle: Get started in minutes
+submitButtonTitle: Contact Us
+providesTitle: Get Started in Minutes
 providesList:
   - text: >-
       A flexible and familiar spreadsheet interface that is
