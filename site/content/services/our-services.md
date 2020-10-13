@@ -197,7 +197,7 @@ servicesItemsPartners:
 contactTitle: Get in Touch with Us
 partnersTitle: Become a Partner
 partnersText: >-
-  Are you an individual consultant or an advisory company and want to expand
+  Are you a consultant or an advisory company and want to expand
   your offering by using the Visyond platform to provide your services to our
   clients? 
 partnersButtonText: Become a Partner
