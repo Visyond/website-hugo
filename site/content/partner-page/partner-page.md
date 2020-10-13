@@ -34,14 +34,12 @@ typesSection:
   types:
     - icon: /img/icons/bag-man.png
       subTitle: >-
-        Whether you are a management consultant, technology advocate or a
-        self-employed sales professional, Visyond works with a variety of
-        specialists.
-      title: Independent Sales Partners
+        If you are a management consultant or an advisory company and want to expand your offering by using the Visyond platform to provide your services.
+      title: Service Partners
     - icon: /img/icons/handshake.png
       subTitle: >-
-        If you are an established reseller and looking to add a new offer to your portfolio then this is right for you.  Typically,             resellers will offer end-to-end solutions for clients in their markets whilst providing support.
-      title: Channel Partners & Resellers
+        If you are a sales professional and looking to add a new offer to your portfolio. 
+      title: Sales Partners
     - icon: /img/icons/gear-man.png
       subTitle: >-
         For those who want to integrate with Visyond to expand their solution
