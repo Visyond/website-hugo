@@ -18,7 +18,7 @@
     <section class="benefits-section half-light-blue">
 
         <div class="container">
-            <h2 class="header-section">
+            <h2 class="header-section" style="font-weight: 600;">
                 {{ .Params.BenefitsHeader }}
             </h2>
             <div class="header-section--divider"></div>
@@ -46,7 +46,7 @@
     <!-- second section -->
     <section class="types-section">
         <div class="container">
-            <h2 class="header-section">
+            <h2 class="header-section" style="font-weight: 600;">
                 {{ .Params.typesHeader }}
             </h2>
             <div class="header-section--divider"></div>
@@ -79,7 +79,7 @@
     <!-- form section -->
     <section class="form">
         <div class="container">
-            <h2 class="header-section">
+            <h2 class="header-section" style="font-weight: 600;">
                 {{.Params.formHeader }}
             </h2>
             <div class="header-section--divider"></div>
@@ -123,7 +123,8 @@
     </section>
     <!-- form section -->
 
-    {{ partial "get-started" . }}
+    <!-- {{ partial "get-started" . }} -->
+    {{ partial "hexStartedIn" . }}
 </div>
 
 {{ partial "hexFooter" . }}
