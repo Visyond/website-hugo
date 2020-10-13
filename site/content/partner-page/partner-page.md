@@ -35,11 +35,11 @@ typesSection:
     - icon: /img/icons/bag-man.png
       subTitle: >-
         If you are a management consultant or an advisory company and want to expand your offering by using the Visyond platform to provide your services.
-      title: Service Partner
+      title: Service Partners
     - icon: /img/icons/handshake.png
       subTitle: >-
         If you are a sales professional and looking to add a new offer to your portfolio. 
-      title: Sales Partner
+      title: Sales Partners
     - icon: /img/icons/gear-man.png
       subTitle: >-
         If you want to integrate with Visyond and expand your solution or technology.
