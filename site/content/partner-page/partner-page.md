@@ -42,8 +42,7 @@ typesSection:
       title: Sales Partners
     - icon: /img/icons/gear-man.png
       subTitle: >-
-        For those who want to integrate with Visyond to expand their solution
-        or technology.
+        If you want to integrate with Visyond and expand your solution or technology.
       title: Integration & Software Partners
 formHeader: Find Out More About Our Partner Programs
 radio:
