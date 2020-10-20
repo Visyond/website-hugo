@@ -120,7 +120,7 @@
 }
 @media screen and (min-width: 1025px){
     .home-hero__half-width-wrap{
-        width: 50%;
+        width: 51%;
         display: inline-block;
     }
     .home-hero__half-width-wrap--image{
@@ -134,7 +134,7 @@
 
 /*titles*/
 .home-hero__title{
-    font-size: 40px;
+    font-size: 38px;
     line-height: 50px;
     color: #383e4d;
     font-weight: 600;
