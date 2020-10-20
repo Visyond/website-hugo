@@ -151,7 +151,7 @@ margin-bottom: 30px;
 
 /*features list*/
 .home-hero__main-features{
-    font-size: 1.1em; /*15px;*/
+    font-size: 15px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -162,7 +162,6 @@ margin-bottom: 30px;
 }
 .home-hero__main-features li{
     white-space: nowrap;
-    font-weight: 400;
 }
 .home-hero__main-features li:not(:last-child):after {
     margin: 0 3px;
