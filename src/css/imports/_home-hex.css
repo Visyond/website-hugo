@@ -162,9 +162,10 @@ margin-bottom: 30px;
 }
 .home-hero__main-features li{
     white-space: nowrap;
+    font-weight: 400;
 }
 .home-hero__main-features li:not(:last-child):after {
-    margin: 0 5px;
+    margin: 0 3px;
     content: '|';
 }
 
