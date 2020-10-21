@@ -18,5 +18,7 @@ hexSliderLogos:
     logo: /img/catholic memorial school logo.png
   - alt: SGM Shipping Services logo
     logo: /img/SGM logo bnw.png
+  - alt: GIM UEMOA
+    logo: /img/gim uemoa.jpg 
 ---
 
