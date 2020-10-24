@@ -2,6 +2,8 @@
 resourcesDropdown:
   - path: /why-visyond
     title: Why Visyond
+  - path: /product-tour
+    title: Product Tour    
   - path: /faq
     title: FAQ    
   - path: /casestudy/
