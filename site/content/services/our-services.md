@@ -69,7 +69,7 @@ servicesItemsVisyond:
             faqSectionSubTitle: Easy-to-use analysis tools
           - answersList:
               - answer: >-
-                  The charts, analyses, and dashboards remain up-to-date when
+                  No need for manual maintenance - the charts, analyses, and dashboards remain up-to-date when
                   you change the numbers in the spreadsheet.
             faqSectionSubTitle: Always up-to-date information
         faqSectionTitle: Platform Benefits
