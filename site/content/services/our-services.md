@@ -28,7 +28,7 @@ servicesItemsVisyond:
                   various assumptions, and visualize how they affect KPIs to
                   help you answer ‘what-if’ questions.
                 img: /img/2019-02 Scenario Analysis.png
-            faqSectionSubTitle: Help you answer ‘what-if’ questions
+            faqSectionSubTitle: Answer ‘what-if’ questions
           - answersList:
               - answer: >-
                   We will identify risk factors, run simulations on them and
