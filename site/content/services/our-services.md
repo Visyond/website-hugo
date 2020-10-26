@@ -45,21 +45,6 @@ servicesItemsVisyond:
                   information (model or its data).
                 img: /img/2019-02 Interactive Presentation.png
             faqSectionSubTitle: Create interactive dashboards
-          - answersList:
-              - answer: >-
-                  We will create Balance sheets, Income statements and Cash flow
-                  statements based on your spreadsheet. We will calculate growth
-                  and changes against previous periods, and help you set up
-                  financial and management ratios.               
-              - answer: >-
-                  We will find if your operations require additional funding in
-                  any specific period of the forecast.
-              - answer: >-
-                  Financial statements in Visyond can adapt to any accounting
-                  standard based on the settings (e.g. which expenses are
-                  CAPEX/OPEX or which assets are tangible/intangible).
-                img: /img/2019-02 Financial Statements.png
-            faqSectionSubTitle: Build financial statements
         faqSectionTitle: Services and Deliverables
       - faqSectionContent:
           - answersList:
@@ -84,13 +69,8 @@ servicesItemsVisyond:
             faqSectionSubTitle: Easy-to-use analysis tools
           - answersList:
               - answer: >-
-                  The statements will remain up-to-date when you change the
-                  numbers in the spreadsheet or the financial statements
-                  settings.
-              - answer: >-
-                  After we’ve set up financial statements, you’ll be able to
-                  easily customize and update them, e.g. add new periods, or new
-                  revenue drivers.
+                  The charts, analyses, and dashboards remain up-to-date when
+                  you change the numbers in the spreadsheet.
             faqSectionSubTitle: Always up-to-date information
         faqSectionTitle: Platform Benefits
     img: /img/audit-mode@2x.png
@@ -197,8 +177,8 @@ servicesItemsPartners:
 contactTitle: Get in Touch with Us
 partnersTitle: Become a Partner
 partnersText: >-
-  Are you a consultant or an advisory company and want to expand
-  your offering by using the Visyond platform to provide your services? 
+  Are you a consultant or an advisory company and want to expand your offering
+  by using the Visyond platform to provide your services? 
 partnersButtonText: Become a Partner
 partnersURL: /partner-with-visyond/
 ---
