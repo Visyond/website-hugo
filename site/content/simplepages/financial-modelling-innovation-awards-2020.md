@@ -1,6 +1,16 @@
 ---
 url: /financial-modelling-innovation-awards-2020
 title: Financial Modelling Innovation Awards 2020
+metaTags: >-
+  <meta property="og:title" content="Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+  content="https://visyond.com/video/Financial%20Modelling%20Award%20Video.jpg">
+  <meta property="og:description" content="The winner of this category has sought to move the spreadsheet experience to the cloud and make scenario modelling a genuinely collaborative experience.">
+  <meta property="og:url" content="https://visyond.com/faq/">
+  <meta name="description" content="The winner of this category has sought to move the spreadsheet experience to the cloud and make scenario modelling a genuinely collaborative experience.">
+  <meta name="keywords" content="Financial Modeling Innovation Award, Financial Modelling Innovation Summit, Financial Modeling Innovation Award 2020">
+  <meta name="yandex-verification" content="7dfc91ce5829221e">
 ---
 Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!
 
