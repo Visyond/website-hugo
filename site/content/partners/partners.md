@@ -14,7 +14,7 @@ pressarticles:
       (ERM), Operational Risk Management (ORM), IT Risk Management (ITRM),
       Supply Chain Risk Management (SCRM), Cybersecurity Risk Management (CsRM),
       Enterprise Project Risk Management (EPRM), Governance, Risk, and
-      Compliance (GRC)
+      Compliance (GRC).
     url: 'https://www.ermoffice.com/'
   - alt: Orion Ventures Logo
     logo: /img/Orion Ventures.png
