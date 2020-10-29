@@ -77,6 +77,9 @@ Visyond looks and feels like a spreadsheet but offers you much more than general
 
 Please see the [**FAQ**](https://visyond.com/faq/).
 
+## Financial Services
+We and our partners offer [**managed services**](https://visyond.com/services/) on the Visyond platform.
+
 ## Try Visyond
 
 **Visyond includes different modules that you can evaluate during a 14-day trial.** After the trial, you can subscribe to the modules you need or use the free version.
