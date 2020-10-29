@@ -16,19 +16,6 @@ pressarticles:
       Enterprise Project Risk Management (EPRM), Governance, Risk, and
       Compliance (GRC)
     url: 'https://www.ermoffice.com/'
-  - alt: GF Accord logo
-    company: ''
-    logo: /img/GF Accord.jpg
-    name: ''
-    title: >-
-      Mincomes SA offers the GF-ACCORD services and products originally
-      conceived by Georgios Fradelos, PhD: 1. Global Business Consulting
-      produced with the help of GF-ACCORD BIG DATA and GF-ACCORD Artificial
-      Intelligence for HI-TECH, Pharma, Mergers and Acquisitions, Consumer Goods
-      businesses 2. GF-ACCORD Auto-harvested and AI processed Hints for
-      Business, Finance and Technology Professionals 3. AI-CHATBOTS replacing
-      first points of contact 4. Promotion of websites and Facebook pages
-    url: 'https://www.gf-accord.biz/'
   - alt: Orion Ventures Logo
     logo: /img/Orion Ventures.png
     title: >-
@@ -38,7 +25,7 @@ pressarticles:
       well-defined business and marketing solutions.
     url: 'https://www.ovsa.co.za/'
   - logo: /img/logo_color.png
-    title: Click here to fiind out more about our partner programs!
+    title: Click here to find out more about our partner programs!
     url: /partner-with-visyond/
 ---
 
