@@ -16,14 +16,6 @@ pressarticles:
       Enterprise Project Risk Management (EPRM), Governance, Risk, and
       Compliance (GRC).
     url: 'https://www.ermoffice.com/'
-  - alt: Orion Ventures Logo
-    logo: /img/Orion Ventures.png
-    title: >-
-      Orion Ventures is a business solutions provider based in Hillcrest, 
-      KZN. Their systems and business background as well as the experience
-      with leading retailers provide a solid foundation for creating
-      well-defined business and marketing solutions.
-    url: 'https://www.ovsa.co.za/'
   - logo: /img/logo_color.png
     title: Click here to find out more about our partner programs!
     url: /partner-with-visyond/
