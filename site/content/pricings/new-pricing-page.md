@@ -26,7 +26,7 @@ pricingCards:
             Create and quickly switch between different scenarios in the
             spreadsheet.
         - title: Invite up to 2 collaborators
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
+          tooltip: "Collaborators are other users of the platform that have their own subscription plans, and which you can invite to collaborate on your projects.\r"
       markdown: ''
       markdown2: ''
       subTitleList: >-
@@ -60,7 +60,7 @@ pricingCards:
             Create and quickly switch between different scenarios in the
             spreadsheet.
         - title: Invite up to 5 collaborators
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
+          tooltip: "Collaborators are other users of the platform that have their own subscription plans, and which you can invite to collaborate on your projects.\r"
         - title: 50MB cell attachments
           tooltip: "You can attach your files directly to relevant cells.\r"
       markdown: ''
@@ -94,7 +94,7 @@ pricingCards:
             Create and quickly switch between different scenarios in the
             spreadsheet.
         - title: Invite up to 10 collaborators
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r"
+          tooltip: "Collaborators are other users of the platform that have their own subscription plans, and which you can invite to collaborate on your projects.\r"
         - title: 100MB cell attachments
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: 2 external sources
@@ -145,7 +145,7 @@ pricingCards:
             Create and quickly switch between different scenarios in the
             spreadsheet.
         - title: Invite unlimited collaborators
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
+          tooltip: "Collaborators are other users of the platform that have their own subscription plans, and which you can invite to collaborate on your projects.\r\n"
         - title: 1000MB cell attachments
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
@@ -193,7 +193,7 @@ pricingCards:
             Create and quickly switch between different scenarios in the
             spreadsheet.
         - title: Invite unlimited collaborators
-          tooltip: "A collaborator is a stakeholder that, depending on the permissions you set and their subscription, can view or edit all or some worksheets and dashboard/slides.\r\n"
+          tooltip: "Collaborators are other users of the platform that have their own subscription plans, and which you can invite to collaborate on your projects.\r\n"
         - title: 1000MB cell attachments
           tooltip: "You can attach your files directly to relevant cells.\r"
         - title: Unlimited external sources
