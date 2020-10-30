@@ -6,7 +6,15 @@ about: /press.html
 topTitle: Partners
 bgImage: /img/banner.jpg
 pressarticles:
-  - logo: /img/ERM Office Logo.PNG
+  - logo: /img/adan logo.png
+    title: >-
+      Desc.
+    url: 'https://adancorporate.com/'
+  - logo: /img/Strategic Choice logo.png
+    title: >-
+      Desc
+    url: 'https://www.strategicchoice.org/'    
+  - logo: /img/ERM Office Logo.png
     title: >-
       ERM Office is Egypt- & UAE-based management consulting firm that provides
       Training and Certification, Consulting and Implementation, Value Added
