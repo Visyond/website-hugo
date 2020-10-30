@@ -15,8 +15,7 @@ pressarticles:
     url: 'https://www.ermoffice.com/'
 partnersTitle: Become a Partner
 partnersText: >-
-  Are you a consultant or an advisory company and want to expand your offering
-  by using the Visyond platform to provide your services? 
+  Grow your business and build new revenue streams with Visyond.
 partnersButtonText: Become a Partner
 partnersURL: /partner-with-visyond/
 ---
