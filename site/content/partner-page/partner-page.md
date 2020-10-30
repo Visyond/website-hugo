@@ -44,7 +44,7 @@ typesSection:
       subTitle: >-
         If you want to integrate with Visyond and expand your solution or technology.
       title: Integration & Software Partners
-partnersButtonText: See All Partners
+partnersButtonText: See Our Partners
 partnersURL: /partners	  
 formHeader: Contact Us
 radio:
