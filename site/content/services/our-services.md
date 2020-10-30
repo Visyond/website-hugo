@@ -75,9 +75,8 @@ servicesItemsVisyond:
         faqSectionTitle: Platform Benefits
     img: /img/audit-mode@2x.png
     subTitle: >-
-      We will analyze your model and data using our in-house tech, and deliver
-      valuable business insights you can conveniently self-serve on. We can also
-      build scalable and maintainable financial statements, and create
+      We will analyze your model and data using our in-house tech, deliver
+      valuable business insights you can conveniently self-serve on, and create
       interactive dashboards driven by your model to help you answer ‘what-if’
       questions.
     title: 'Analytics, Dashboards and Reporting as a Service'
