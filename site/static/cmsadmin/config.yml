@@ -773,6 +773,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page title", name: "title", widget: "string", required: false}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
       - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Page url", name: "url", widget: string}
       - { label: Type, name: type, widget: hidden, default: press }
