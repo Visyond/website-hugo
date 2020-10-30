@@ -1,6 +1,6 @@
 ---
 title: Visyond Partners
-topSubTitle: Explore our partners and their offers
+topSubTitle: Explore Our Partners and Their Offers
 metaTags: ''
 url: /partners/
 topTitle: Visyond Partners
