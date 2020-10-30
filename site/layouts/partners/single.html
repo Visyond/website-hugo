@@ -63,4 +63,23 @@
 </div>
 <!-- //second section -->
 
+
+<!-- PARTNERS -->
+<section class="homeBenefits" style="padding: 40px 0;">
+
+	<div class="container">
+		 <h2 class="header-section" style="font-weight: 600;">{{ .Params.partnersTitle}}</h2>
+		
+		<div class="header-section--divider"></div>
+
+		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.partnersText | markdownify }}</div>
+		
+		<div class="btn-wrap" style="margin-bottom: 2em;">
+			<a href="{{ .Params.partnersURL}}" class="btn-primary" style="text-transform: none;">{{ .Params.partnersButtonText}}</a>
+		</div>	
+		
+	</div>
+</section>	
+<!-- END: PARTNERS -->
+
 {{ partial "hexFooter" . }}
