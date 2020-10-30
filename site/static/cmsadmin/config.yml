@@ -231,7 +231,8 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Text", name: "text", widget: "string"}
         ]}
       ], required: false,}
-
+      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
+      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}		
       - {label: "Form Title", name: "formHeader", widget: "string", required: false,}
       - {label: "Radio Buttons", name: "radio", widget: "list",
         fields: [
@@ -792,6 +793,10 @@ collections: # A list of collections the CMS should be able to edit
             { label: "Tag title", name: "tagTitle", widget: string }
           ]}
       ]}
+      - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
+      - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
+      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
+      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
 
 
 
