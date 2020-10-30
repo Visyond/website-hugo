@@ -25,10 +25,11 @@
 <!-- END: TOP SECTION -->
 
 <!-- second section -->
-<div class="press2nd">
+<section class="homeBenefits" style="background: #fafafa; padding: 40px 0;">	
+<div class="container">
     <ul class="press2nd__list target-blank">
         {{ range $el := .Params.pressarticles }}
-        <li class="press2nd__item">
+        <li class="press2nd__item" style="background: #ffffff;">
             <a href="{{ $el.url }}" class="press2nd__link">
                 <div class="press2nd__top">
                     <span class="press2nd__company-wrap">
@@ -61,6 +62,7 @@
         {{ end }}
     </ul>
 </div>
+</section>	
 <!-- //second section -->
 
 
