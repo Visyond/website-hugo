@@ -13,8 +13,5 @@ pressarticles:
   - logo: /img/ERM Office Logo.png
     title: "ERM Office is Egypt- & UAE-based management consulting firm that provides Training and Certification, Consulting and Implementation, Value Added Reseller (VAR).\r\n\nERM Office specialize in Enterprise Risk Management (ERM), Operational Risk Management (ORM), IT Risk Management (ITRM), Supply Chain Risk Management (SCRM), Cybersecurity Risk Management (CsRM), Enterprise Project Risk Management (EPRM), Governance, Risk, and Compliance (GRC).\r\n"
     url: 'https://www.ermoffice.com/'
-  - logo: /img/logo_color.png
-    title: Click here to find out more about our partner programs!
-    url: /partner-with-visyond/
 ---
 
