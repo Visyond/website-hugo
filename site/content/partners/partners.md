@@ -1,8 +1,6 @@
 ---
 title: Partners
 url: /partners/
-type: press
-about: /press.html
 topTitle: Partners
 bgImage: /img/banner.jpg
 pressarticles:
