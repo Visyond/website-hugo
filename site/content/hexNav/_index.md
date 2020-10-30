@@ -16,6 +16,8 @@ resourcesDropdown:
     title: Press     
   - path: /partner-with-visyond/
     title: Partner with Visyond
+  - path: /partners/
+    title: Our Partners  
 solutionsInfoTitle: Answer questions in seconds
 solutionsInfoDescr: >-
   Explore our Solutions to learn more about how Visyond can help you, your team
