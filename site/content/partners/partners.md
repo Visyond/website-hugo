@@ -1,5 +1,7 @@
 ---
 title: Visyond Partners
+topSubTitle: Explore our partners and their offers
+metaTags: ''
 url: /partners/
 topTitle: Visyond Partners
 bgImage: /img/banner.jpg
@@ -14,8 +16,7 @@ pressarticles:
     title: "**ERM Office** is a Egypt- & UAE-based management consulting firm that provides Training and Certification, Consulting and Implementation, Value Added Reseller (VAR).\r\n<br><br>\nERM Office specialize in Enterprise Risk Management (ERM), Operational Risk Management (ORM), IT Risk Management (ITRM), Supply Chain Risk Management (SCRM), Cybersecurity Risk Management (CsRM), Enterprise Project Risk Management (EPRM), Governance, Risk, and Compliance (GRC).\r\n"
     url: 'https://www.ermoffice.com/'
 partnersTitle: Become a Partner
-partnersText: >-
-  Grow your business and build new revenue streams with Visyond.
+partnersText: Grow your business and build new revenue streams with Visyond.
 partnersButtonText: Become a Partner
 partnersURL: /partner-with-visyond/
 ---
