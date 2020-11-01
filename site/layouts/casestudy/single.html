@@ -16,20 +16,40 @@
 	</div>
 </div>
 <!-- END: TOP SECTION -->
-
-<section class="homeBenefits" style="">
-  <!-- container summary -->
-  <div class="container">
-    {{ range $itemAside := .Params.Aside }}
-    <section class="case-study__widget">
-      {{ $itemAside.content | markdownify }}
-    </section>
-    {{ end }}
-  </div> <!-- container summary -->
-</section>
 	
-<section class="homeBenefits" style="">	
-  <!-- container BODY-->
+
+    <section class="homeBenefits">    
+        <div class="container">
+            <h2 class="header-section" style="font-weight: 600;">
+                {{ .Params.BenefitsHeader }}
+            </h2>
+
+            <div class="benefits">
+                {{ range $itemAside := .Params.Aside }}
+                <div class="benefit__item">
+
+                    <img src="{{ .img }}" alt="" class="benefit__icon">
+                    <h5 class="benefit__headline">
+                        {{ $itemAside.title }}
+                    </h5>
+                    <p class="benefit__text">
+                        {{ $itemAside.content | markdownify }}
+                    </p>
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+
+    </section>	
+	
+	
+	
+	
+	
+	
+	
+<section class="homeBenefits">    	
   <div class="container">
     
     <figure class="case-study__person">
@@ -43,8 +63,7 @@
     </figure>
     {{ .Content | markdownify }}
     
-  </div> <!-- container BODY -->
-</section>	
-
+  </div>
+</section>
 
 {{ partial "hexFooter" . }}
