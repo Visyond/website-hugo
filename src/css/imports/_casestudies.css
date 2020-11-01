@@ -33,7 +33,7 @@
   }
   transition: box-shadow 0.2s ease-in-out;
   &:hover {
-    box-shadow: 0 5px 40px #dbddec;
+    box-shadow: 0 0 20px 0 #ececec;
   }
 
   @media screen and (max-width: 1021px) {
@@ -58,7 +58,7 @@
 }
 
 .casestudies__top {
-  border-bottom: 2px solid #dbddec;
+  border-bottom: 1px solid #e5e5e9;
   padding-bottom: 20px;
   display: flex;
   align-items: center;
