@@ -20,7 +20,17 @@
 <section class="homeBenefits" style="">
 <div class="container">
   
-  <!-- container case-study__left-column -->
+  <!-- container summary -->
+  <div class="container--case-study__right-column">
+    {{ range $itemAside := .Params.Aside }}
+    <section class="case-study__widget">
+      {{ $itemAside.content | markdownify }}
+    </section>
+    {{ end }}
+  </div> <!-- container summary -->
+	
+	
+  <!-- container BODY-->
   <div class="container--case-study__left-column">
     
     <figure class="case-study__person">
@@ -34,17 +44,8 @@
     </figure>
     {{ .Content | markdownify }}
     
-  </div> <!-- ./container case-study__left-column -->
+  </div> <!-- container BODY -->
   
-  <!-- container case-study__right-column -->
-  <div class="container--case-study__right-column">
-    {{ range $itemAside := .Params.Aside }}
-    <section class="case-study__widget">
-      {{ $itemAside.content | markdownify }}
-    </section>
-    {{ end }}
-
-  </div> <!-- ./container case-study__right-column -->
 </div>
 </section>	
 
