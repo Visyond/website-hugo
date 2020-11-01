@@ -24,7 +24,7 @@
   flex-flow: row wrap;
 }
 .casestudies__item {
-  border: 1px solid #dbddec;
+  border: 1px solid #e5e5e9;
   border-radius: 5px;
   width: calc(50% - 30px);
   margin-bottom: 30px;
@@ -114,7 +114,7 @@
 }
 
 .casestudies__title {
-  color: #52556c;
+  color: #383e4d;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -134,15 +134,17 @@
     margin-right: 15px;
   }
   position: relative;
-  background: #eef1f6;
-  color: #717e91;
+  background: #fafafa;
+  color: #383e4d;
   font-size: 14px;
   line-height: 16px;
   padding: 5px 10px;
+  font-weight: 400;
+  border-radius: 5px 0 0 5px;
   &:after {
     content: "";
     border: 13px solid transparent;
-    border-left: 10px solid rgb(238, 241, 246);
+    border-left: 10px solid #fafafa;
     position: absolute;
     right: -22px;
     top: 0;
