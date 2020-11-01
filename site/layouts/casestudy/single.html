@@ -48,29 +48,5 @@
 </div>
 </section>	
 
-<!-- solutions section -->
-<div class="case-study-section">
-  <h2 class="case-study-section__title">
-    {{ .Params.casestudyTitle }}
-  </h2>
-  <div class="case-study-section__cards">
-    {{ range $cards := .Params.casestudyCards }}
-    <a href="{{ .link }}" class="case-study-section__card">
-      <div class="case-study-section__card-image-wrap">
-        <img src="{{ .icon }}" alt="icon" class="case-study-section__card-image">
-      </div>
-      
-      <h3 class="case-study-section__card-title">
-        {{ .title }}
-      </h3>
-
-      <p class="case-study-section__card-text">
-        {{ .text }}
-      </p>
-    </a>
-    {{ end }}
-  </div>
-</div>
-<!-- solutions section -->
 
 {{ partial "hexFooter" . }}
