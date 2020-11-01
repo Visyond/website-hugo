@@ -18,20 +18,19 @@
 <!-- END: TOP SECTION -->
 
 <section class="homeBenefits" style="">
-<div class="container">
-  
   <!-- container summary -->
-  <div class="container--case-study__right-column">
+  <div class="container">
     {{ range $itemAside := .Params.Aside }}
     <section class="case-study__widget">
       {{ $itemAside.content | markdownify }}
     </section>
     {{ end }}
   </div> <!-- container summary -->
+</section>
 	
-	
+<section class="homeBenefits" style="">	
   <!-- container BODY-->
-  <div class="container--case-study__left-column">
+  <div class="container">
     
     <figure class="case-study__person">
       <div class="case-study__person-img">
@@ -45,8 +44,6 @@
     {{ .Content | markdownify }}
     
   </div> <!-- container BODY -->
-  
-</div>
 </section>	
 
 
