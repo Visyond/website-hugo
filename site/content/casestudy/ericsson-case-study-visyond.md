@@ -23,8 +23,8 @@ tooltip:
 client: /img/Chief Modeler Portrait.png
 client_ask: >-
   Every time Ericsson has to prepare a business case to display the value of
-  their solutions or an investment ROI, most likely they use spreadsheets,
-  business intelligence tools and presentations.
+  their solutions or an investment ROI, typically they use spreadsheets,
+  Business Intelligence tools and PowerPoint presentations.
 
 
   The business environment of Ericsson requires quick turnaround in model
@@ -37,23 +37,17 @@ client_ask: >-
 
   The stakeholders for this workflow are: 
 
-
-  **Chief Modeler** - before Visyond he had to maintain many copies of the
-  spreadsheets and presentations
-
+  **Chief Modeler** - before Visyond, the Chief Modeler had to maintain many copies of the
+  spreadsheets and presentations.
 
   > _"I have been doing business impact modeling for many years. Since it is an
   iterative process, I needed quick turnaround in testing and presenting changes
   after client interactions."_
 
+  **Account Managers** - the Account Managers are responsible for presenting the value of their solutions to their Clients' clients.
 
-  **Account Managers** - responsible for presenting to our Client's clients the
-  value of their solutions
-
-
-  **Clients** - requesting to test different scenarios and assumptions to better
-  understand the value of the solution
-
+  **Clients** - Clients request to test different scenarios and assumptions to better
+  understand the value of a solution.
 
   ![undefined](/img/0 Hierarchy fix.png)
 aside:
