@@ -306,7 +306,7 @@
   font-weight: 600;
   width: 100%;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 
@@ -362,9 +362,17 @@
    }
 }
 
+.caseStudy-body blockquote {
+  font-style: italic;
+  border-left: 3px solid #0086ff;
+  padding-left: 15px;
+  margin-inline-start: 10px;
+  margin-inline-end: 40px;  
+}  
+
 .caseStudy-body img {
   display: block;
-  margin: 40px auto 40px auto;
+  margin: 30px auto 50px auto;
   width: 85%;
   
     @media screen and (max-width: 1024px) {
