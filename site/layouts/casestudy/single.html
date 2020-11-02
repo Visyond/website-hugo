@@ -28,10 +28,10 @@
             <div class="benefits">
                 {{ range $itemAside := .Params.Aside }}
                 <div class="caseStudy-summary__item">
-                    <h5 class="types__headline">
+                    <h5 class="caseStudy-summary__title">
                         {{ $itemAside.title }}
                     </h5>
-                    <div class="benefit__text" style="text-align: left;">
+                    <div class="caseStudy-summary__text" style="text-align: left;">
                         {{ $itemAside.content | markdownify }}
                     </div>
 
