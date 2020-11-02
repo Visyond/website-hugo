@@ -53,7 +53,7 @@ client_ask: >-
   * **Clients** - Clients request to test different scenarios and assumptions to
   better understand the value of a solution.
   
-    !\[undefined](/img/0 Hierarchy fix.png)
+    ![Workflow Setup](/img/0 Hierarchy.png)
     
 aside:
   - content: "* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
