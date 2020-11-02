@@ -13,7 +13,6 @@ client_ask: >
   Fernando leads the preparation of forecasts and plans for the top management,
   and recommends where to allocate resources to optimise the sales process.
 aside:
-  - content: '![Elettronica Logo](/img/elet.png)'
   - content: |-
       **Use Cases**
 
