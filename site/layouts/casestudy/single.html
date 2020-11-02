@@ -25,7 +25,7 @@
             </h2>
 	    <div class="header-section--divider"></div>	
 
-            <div class="benefits">
+            <div class="caseStudy-summary">
                 {{ range $itemAside := .Params.Aside }}
                 <div class="caseStudy-summary__item">
                     <h5 class="caseStudy-summary__title">
@@ -34,7 +34,7 @@
 			
 		    <hr class="divider-thin">
 			
-                    <div class="caseStudy-summary__text" style="text-align: left;">
+                    <div class="caseStudy-summary__text">
                         {{ $itemAside.content | markdownify }}
                     </div>
 
