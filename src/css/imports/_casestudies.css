@@ -306,6 +306,8 @@
   font-weight: 600;
   width: 100%;
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 
@@ -315,7 +317,6 @@
   line-height: 38px;
   font-weight: 600;
   margin-bottom: 16px;
-  margin-top: 48px;
   width: 100%;
 }
 
@@ -345,11 +346,21 @@
 
 .caseStudy-body li {
   margin-bottom: 10px;
+  list-style: none;
+    &:before {
+      content: "";
+      border: solid #0086ff;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 3px;
+      transform: rotate(315deg);
+      margin-right: 10px;
+   }
 }
 
 .caseStudy-body img {
   display: block;
-  margin: 30px auto 30px auto;
+  margin: 40px auto 40px auto;
   width: 85%;
   
     @media screen and (max-width: 1024px) {
