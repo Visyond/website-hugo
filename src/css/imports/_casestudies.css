@@ -224,17 +224,28 @@
 .caseStudy-summary__title, .caseStudy-summary__text {
     width: 100%;
     font-family: "Open Sans";
-    color: #0E2639;
     text-align: center;
-    line-height: 1.8;
+    line-height: 24px;
 }
 .caseStudy-summary__title{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
+    margin-bottom: 0;
+    color: #50546d;
 }
 .caseStudy-summary__text{
     font-size: 16px;
-    opacity: 0.8;
     font-weight: 400;
+    color: #383e4d;
+    opacity: .95;
 }
+
+.caseStudy-summary__text ul{
+  padding-inline-start: 30px;	
+}
+
+.caseStudy-summary__text li{
+  margin-bottom: 14px;	
+}
+
 /* END SUMMARY CARD TEXT */
