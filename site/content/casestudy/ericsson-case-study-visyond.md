@@ -13,8 +13,8 @@ metaTags: >-
   <meta property="og:url"
   content="https://visyond.com/casestudy/ericsson-case-study-visyond" />
 title: >-
-  How Ericsson accelerates their business case workflow by 80% and empowers
-  their customers with Visyond
+  How Ericsson Accelerates Their Business Case Workflow by 80% and Empowers
+  Their Customers with Visyond
 image: /img/topImgCase.jpg
 tooltip:
   - title: 'Industry: Telecom'
@@ -37,19 +37,22 @@ client_ask: >-
 
   The stakeholders for this workflow are: 
 
-  * **Chief Modeler** - before Visyond, the Chief Modeler had to maintain many copies of the
-  spreadsheets and presentations.
+
+  * **Chief Modeler** - before Visyond, the Chief Modeler had to maintain many
+  copies of the spreadsheets and presentations.
+
 
   > _"I have been doing business impact modeling for many years. Since it is an
   iterative process, I needed quick turnaround in testing and presenting changes
   after client interactions."_
 
-  * **Account Managers** - the Account Managers are responsible for presenting the value of their solutions to their Clients' clients.
 
-  * **Clients** - Clients request to test different scenarios and assumptions to better
-  understand the value of a solution.
+  * **Account Managers** - the Account Managers are responsible for presenting
+  the value of their solutions to their Clients' clients.
 
-  ![undefined](/img/0 Hierarchy fix.png)
+  * **Clients** - Clients request to test different scenarios and assumptions to
+  better understand the value of a solution.
+    !\[undefined](/img/0 Hierarchy fix.png)
 aside:
   - content: "* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
     title: Challenge
