@@ -25,6 +25,7 @@
             </h2>
 	    <div class="header-section--divider"></div>	
 
+		
             <div class="caseStudy-summary">
                 {{ range $itemAside := .Params.Aside }}
                 <div class="caseStudy-summary__item">
@@ -63,7 +64,12 @@
         <p>{{.Params.Client_ask | markdownify}}</p>
       </figcaption>
     </figure>
-    {{ .Content | markdownify }}
+    
+     <div class="simplepage-content">
+      {{ .Content | markdownify }}
+    </div>
+	  
+    
     
   </div>
 </section>
