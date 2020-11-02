@@ -254,7 +254,9 @@
 }
 
 .caseStudy-summary__text ul{
-  padding-inline-start: 30px;	
+  padding-inline-start: 15px;
+  text-indent: -16px;
+  margin-left: 10px;
 }
 
 .caseStudy-summary__text li{
@@ -262,16 +264,13 @@
   list-style: none;
   
      &:before {
-       content: '';
+       content: "";
        border: solid #0086ff;
-       border-width: 0 3px 3px 0;
+       border-width: 0 2px 2px 0;
        display: inline-block;
        padding: 3px;
-       -webkit-transform: rotate(45deg);
        transform: rotate(315deg);
-       position: absolute;
-       right: -20px;
-       top: 6px;
+       margin-right: 10px;
     }
 }
 
