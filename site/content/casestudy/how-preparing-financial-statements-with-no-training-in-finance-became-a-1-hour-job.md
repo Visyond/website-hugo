@@ -3,6 +3,9 @@ title: >-
   How preparing Financial Statements with no training in Finance became a 1-hour
   job
 image: /img/casestud.jpg
+tooltip:
+  - title: 'Industry: IT Security'
+  - title: 'Use Cases: Financial Statements, Reporting'
 client: /img/armando.png
 client_ask: >+
   Armando is the Founder and CEO of **eLearnSecurity**, a Silicon Valley company
@@ -20,11 +23,6 @@ client_ask: >+
   a common language with finance people.
 
 aside:
-  - content: |-
-      **Use Cases**
-
-      * Reporting
-      * Preparing Financial Statements
   - content: >-
       **Challenge**
 
