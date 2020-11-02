@@ -14,9 +14,6 @@ client_ask: >
   and recommends where to allocate resources to optimise the sales process.
 aside:
   - content: >-
-      **Challenge**
-
-
       * Legacy spreadsheet-based Sales planning process was time-consuming and
       impractical
 
@@ -30,10 +27,8 @@ aside:
 
       * Routine analytical tasks had to be done manually requiring significant
       time investement at every at every iteration
+    title: Challenge
   - content: >-
-      **Solution**
-
-
       * Single, cloud-based Territory & Quota data model
 
       * Visyond Replaced multiple copies of the spreadsheets sent and
@@ -43,10 +38,8 @@ aside:
       made the process much faster
 
       * Transparency and accountability for data input Results at a Glance
+    title: Solution
   - content: >-
-      **Result at the glance**
-
-
       * Process completed in hours instead of the typical few days with
       Excel-based process: at least 20 times faster
 
@@ -60,6 +53,7 @@ aside:
       in real-time
 
       * Simplicity and quick turnaround for 'what-if' assumption changes
+    title: Results
 ---
 > It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
 
