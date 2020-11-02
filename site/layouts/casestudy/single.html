@@ -54,23 +54,18 @@
 	
 <section class="homeBenefits" style="padding: 40px 0;">    	
   <div class="container">
-            <h2 class="header-section" style="font-weight: 600;">
-                Case Study
-            </h2>
-	    <div class="header-section--divider"></div>	
+    <h2 class="header-section" style="font-weight: 600;">Case Study</h2>
 	  
-    <figure class="case-study__person">
-      <figcaption class="cast-study__person-comment">
-        <p>{{.Params.Client_ask | markdownify}}</p>
-      </figcaption>
-    </figure>
-    
+    <div class="header-section--divider"></div>	
+	  	  
      <div class="simplepage-content">
-      {{ .Content | markdownify }}
-    </div>
+       <p>{{.Params.Client_ask | markdownify}}</p>
+     </div>
 	  
-    
-    
+     <div class="simplepage-content">
+       {{ .Content | markdownify }}
+     </div>
+	  
   </div>
 </section>
 
