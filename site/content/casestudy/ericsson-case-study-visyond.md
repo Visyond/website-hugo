@@ -66,11 +66,6 @@ aside:
 ---
 > _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
 
-<br />
-<br />
-<br />
-<br />
-
 # Collaboration & Access Management
 
 ## Workflow Was Complicated
@@ -79,18 +74,11 @@ The typical process with Excel involved multiple versions of the model (for each
 
 ![Workflow Was Complicated](/img/1b Workflow Was Complicated.png)
 
-<br />
-
 ## With Visyond, Each Stakeholder Interacts with the Parts of the Project They Are Allowed To
 
 Visyond helped Ericsson to quickly build reliable models, perform analyses on-the-fly, securely share spreadsheets and effectively communicate with the customers in a **controlled environment** where stakeholders can model and **test assumptions seeing and interacting with only what they need/can see** while leaving the underlying core logic intact.
 
 ![Stakeholders interact only with what they are allowed to](/img/1b Stakeholders interact only with what they are allowed to 2.png)
-
-<br />
-<br />
-<br />
-<br />
 
 # Change Management & Version Control
 
@@ -104,18 +92,12 @@ Identifying the latest ‘approved’ version for each customer was a frustratin
 
 ![Modeler was a bottleneck](/img/2b Modeler was a bottleneck.png)
 
-<br />
 
 ## With Visyond, Modeler Is No Longer a Bottleneck
 
 **Change requests became much easier to manage** as manual data consolidation and version comparison were no longer required, which dramatically improved turnaround time and reduced the risk of errors introduced by clients and account managers.
 
 ![Modeler is no longer a bottleneck](/img/2b Modeler is no longer a bottleneck 2.png)
-
-<br />
-<br />
-<br />
-<br />
 
 # Data Tracking & Consolidation
 
@@ -125,18 +107,12 @@ In addition, tracking inputs and their authors was very challenging. This **info
 
 ![Visibility was obstructed](/img/3b Visibility was obstructed.png)
 
-<br />
 
 ## With Visyond, a Single Source of Truth Solved the Data Chaos
 
 With Visyond, Ericsson formed **a knowledge base that can be accessed anywhere at any time** and contains all changes, multiple co-existing scenarios, supporting documentation and conversations. It made tracking inputs and identifying their origins simpler as well as removed the need to manage multiple versions of the same spreadsheet during data gathering and consolidation.
 
 ![A single source of truth solved the data chaos](/img/3b A single source of truth solved the data chaos.png)
-
-<br />
-<br />
-<br />
-<br />
 
 # Error Detection & Model Audit
 
@@ -146,7 +122,6 @@ With Excel, the Chief Modeler had to spend a lot of time to  ensure that the cha
 
 ![Debugging was painful](/img/4b Debugging was painful.png)
 
-<br />
 
 ## With Visyond, Dependency Analysis and Error Detection Is Easy
 
@@ -154,10 +129,6 @@ Since the modeler, account managers and customers are no longer bounded by email
 
 ![Dependency analysis and error discovery is easier](/img/4b Dependency analysis and error discovery is easier.png)
 
-<br />
-<br />
-<br />
-<br />
 
 # Automated Data Analysis
 
@@ -167,18 +138,12 @@ Routine analytical tasks, such as sensitivity (what-if) analysis or scenario com
 
 ![Effort setting up analysis](/img/5b Effort setting up analysis.png)
 
-<br />
-
 ## With Visyond, 'What-if' Analysis Can Be Set Up in Minutes
 
 Analyses that used to take multiple days to set up and finalize **can be now completed with just a few clicks while also making them easy to update** if customers request so, providing great flexibility and improving turnaround time.
 
 ![Analyses can be set up in minutes](/img/5b Analyses can be set up in minutes 2.png)
 
-<br />
-<br />
-<br />
-<br />
 
 # Collaborative Self-Service ‘What-If’ Analysis
 
@@ -187,8 +152,6 @@ Analyses that used to take multiple days to set up and finalize **can be now com
 During meetings with the customers, Account Managers were often asked questions like _“can you tell me what happens if we do not get x% but y% improvement thank to your solution?”_. **Answering meant going back to the model to update and test it, redraw charts and update slides.** By the time Ericsson provided answers, the customer had prepared new questions. Back to square one.
 
 ![Impossible to answer What If](/img/6b Hard to answer What If.png)
-
-<br />
 
 ## The Excel model Had to Be Encoded Into a Web App to Help Clients Test Assumptions Independently
 
@@ -202,15 +165,11 @@ Therefore, the Chief Modeler **had to hire software developers to create a web v
 
 ![The Excel model had to be encoded into a web app](/img/7b Encode Excel Model.png)
 
-<br />
-
 ## Keeping Visualizations in Sync with Models Was Troublesome
 
 The work didn’t end with the preparation of the model. After each iteration, the Chief Modeler had to manually update charts and presentations where they were included, as well as ensure that the data was inline with the source spreadsheet. Given the large volume of models the Chief Modeler is working on, **having links between models and visualizations get broken** by something as simple as changing the file name was indeed very annoying.
 
 ![Visualizations in sync with the models](/img/8b Visualizations in sync with the models.png)
-
-<br />
 
 ## With Visyond, Customers are Empowered to Safely Test Assumptions
 
