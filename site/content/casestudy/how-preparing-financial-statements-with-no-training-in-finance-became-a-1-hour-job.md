@@ -47,7 +47,7 @@ aside:
       improving his productivity
     title: Results
 ---
-> The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data.
+> "The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data."
 
 ## Before Visyond
 
@@ -58,10 +58,10 @@ Armando has been looking for a solution for a long time but could not find a sui
 
 ![Flexibility](/img/flexibility.png)
 
-> The remarkable thing in Visyond is that if I have a lot of cost items, I don’t need to worry where to type them: I can decide later what is an OPEX or a CAPEX by selecting and deselecting them from intuitive screens.
+> "The remarkable thing in Visyond is that if I have a lot of cost items, I don’t need to worry where to type them: I can decide later what is an OPEX or a CAPEX by selecting and deselecting them from intuitive screens."
 
 ## After Visyond
 
 Armando had a lot of data in Excel and other ERPs so the way for him to benefit immediately from Visyond was by importing his Excel files.
 
-With Visyond, _“I simply started to categorize the items in my model following an intuitive step-by-step dialogue. The statements were ‘magically’ populated. This saved me a huge amount of time and mental sanity!”._
+> “With Visyond, I simply started to categorize the items in my model following an intuitive step-by-step dialogue. The statements were ‘magically’ populated. This saved me a huge amount of time and mental sanity!"
