@@ -55,7 +55,7 @@ aside:
       * Simplicity and quick turnaround for 'what-if' assumption changes
     title: Results
 ---
-> It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs.
+> "It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs."
 
 ## Before Visyond
 
@@ -68,7 +68,7 @@ This is how Fernando's job look like:
 * Every three months he had to _prepare a new set of spreadsheets and create several sets of different hypothesis/scenarios, each time rerunning the numbers_. This was not only inconvenient because of the large amount of slightly different versions of essentially the same file that had to be maintained but also because it was _very hard to keep track to whom each version should be sent_, and what inputs should each person consequently provide.
 * Finally, at each round there were _specific requests from senior management that led to the preparation of customized reports and charts_. Those reports have sometimes been based on different versions of the model as they contained different assumptions and scenarios. Often, by the time a custom report or chart has been completed, the management asked to test other assumptions and their impact, so Fernando had to go back to the model to tweak it, modify the numbers and update the visualizations.
 
-> Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally.
+> "Visyond’s automated tools are saving me a lot of time. It took me days to stress test my forecasts and it now takes me a few clicks. This also gives me peace of mind that nothing will be forgotten or broken accidentally."
 
 ## After Visyond
 
