@@ -42,9 +42,9 @@ client_ask: >-
   spreadsheets and presentations
 
 
-  > _I have been doing business impact modeling for many years. Since it is an
+  > _"I have been doing business impact modeling for many years. Since it is an
   iterative process, I needed quick turnaround in testing and presenting changes
-  after client interactions._
+  after client interactions."_
 
 
   **Account Managers** - responsible for presenting to our Client's clients the
@@ -64,7 +64,7 @@ aside:
   - content: "* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
     title: Results
 ---
-> _Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel._
+> _"Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel."_
 
 # Collaboration & Access Management
 
