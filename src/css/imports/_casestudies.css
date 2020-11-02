@@ -220,10 +220,18 @@
 
 .caseStudy-summary__item:nth-child(2n) {
   margin-left: 25px;
+  
+    @media screen and (max-width: 1021px) {
+      margin-left: 0;
+    }  
 }
 
 .caseStudy-summary__item:nth-child(3n) {
   margin-left: 25px;
+  
+      @media screen and (max-width: 1021px) {
+      margin-left: 0;
+    }  
 }
 
 /* END SUMMARY CARD */
