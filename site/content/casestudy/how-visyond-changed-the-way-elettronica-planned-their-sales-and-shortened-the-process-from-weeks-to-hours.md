@@ -76,12 +76,12 @@ This is how Fernando's job look like:
 
 ![Import Excel to Visyond](/img/Elet Import in Browser.png)
 
-* Visyond’s _Selective Sharing_ allows him to _share only specific elements of the model with his colleagues_. For example, he can share just a single cell with a person who needs to provide just a single number but otherwise should not have any visibility of the model. 
-* With his fellow sales managers, Fernando sometimes _shares a group of cells or an entire worksheet so that they can together verify the correctness of calculations and save time_. The comments, assumptions and supporting materials his close collaborators provide are all automatically tracked and documented so everybody sees a single version of the latest work. 
+* Visyond’s _Selective Sharing_ allows him to _share only specific elements of the model with his colleagues_. For example, he can share just an input worksheet with a person who needs to provide an assumption but otherwise should not have any visibility of the model. 
+* With his fellow sales managers, Fernando sometimes _shares calculation worksheets so that they can together verify the correctness of calculations and save time_. The comments, assumptions and supporting materials his close collaborators provide are all automatically tracked and documented so everybody sees a single version of the latest work. 
 
 ![Share Only Specific Cells in Visyond](/img/Template Manager in Browser v3.png)
 
-* With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overriding important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers and get valuable business insights to make their decisions. Senior management is extremely happy because they do not have to interact with all the unnecessary details in the spreadsheet.
+* With the senior management, Fernando _shares only interactive slides, reports and dashboards, without allowing them to access the model directly_ thus reducing the risk of accidentally overwriting important formulas or data, while not limiting the management’s ability to test their own assumptions, play with the numbers, and get valuable business insights to make their decisions. Senior management is very happy because they do not have to interact with all the unnecessary details in the spreadsheet.
 
 ![Share Slides with Management](/img/Interactive Calculator in iPad v2.png)
 
