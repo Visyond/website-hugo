@@ -37,16 +37,16 @@ client_ask: >-
 
   The stakeholders for this workflow are: 
 
-  **Chief Modeler** - before Visyond, the Chief Modeler had to maintain many copies of the
+  * **Chief Modeler** - before Visyond, the Chief Modeler had to maintain many copies of the
   spreadsheets and presentations.
 
   > _"I have been doing business impact modeling for many years. Since it is an
   iterative process, I needed quick turnaround in testing and presenting changes
   after client interactions."_
 
-  **Account Managers** - the Account Managers are responsible for presenting the value of their solutions to their Clients' clients.
+  * **Account Managers** - the Account Managers are responsible for presenting the value of their solutions to their Clients' clients.
 
-  **Clients** - Clients request to test different scenarios and assumptions to better
+  * **Clients** - Clients request to test different scenarios and assumptions to better
   understand the value of a solution.
 
   ![undefined](/img/0 Hierarchy fix.png)
