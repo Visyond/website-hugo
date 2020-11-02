@@ -24,25 +24,18 @@ client_ask: >+
 
 aside:
   - content: >-
-      **Challenge**
-
-
       * Streamlining the process of creation and analysis of a proforma
       financial statements (Balance sheet, Income Statement) inside an existing
       operating model of the company
 
       * Reporting Key Performance Indicators to key stakeholders
+    title: Challenge
   - content: >-
-      **Solution**
-
-
       * User-friendly, point & click interface to generate financial statements
       directly from your model, without the hassle and training of doing it
       manually
+    title: Solution
   - content: >-
-      **Result at the glance**
-
-
       * Clean & balanced financial statements created without the use of plugs
       or iterations (Visyond solves the equations linking the 3 statements)
 
@@ -52,14 +45,7 @@ aside:
       * The model owner can focus on working with the operating model that he
       masters, without worrying about financial statements, as a result
       improving his productivity
-solTitle: Related Solutions
-solArticle:
-  - title: Analysts & Consultants
-    image: /img/feature-icons-v1_03.png
-  - title: Decision Makers
-    image: /img/feature-icons-v1_25.png
-  - title: Data Input & Consolidation
-    image: /img/feature-icons-v1_13.png
+    title: Results
 ---
 > The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data.
 
