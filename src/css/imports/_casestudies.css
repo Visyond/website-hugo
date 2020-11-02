@@ -196,48 +196,61 @@
   justify-content: center;
 }
 
+
+.caseStudy-summary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
 /* SUMMARY CARD */
 .caseStudy-summary__item {
-    padding: 15px;
-    background-color: #ffffff;
-    box-shadow: 0 0 20px 0 #ececec;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: calc(33% - 15px);
-    min-width: 350px;
-    margin-bottom: 40px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px 0 #ececec;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: calc(33% - 15px);
+  min-width: 350px;
+  margin-bottom: 40px;
 }
 
 .caseStudy-summary__item:nth-child(2n) {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .caseStudy-summary__item:nth-child(3n) {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 /* END SUMMARY CARD */
 
+
 /* SUMMARY CARD TEXT */
 .caseStudy-summary__title, .caseStudy-summary__text {
-    width: 100%;
-    font-family: "Open Sans";
-    text-align: center;
-    line-height: 24px;
+  width: 100%;
+  font-family: "Open Sans";
+  line-height: 24px;
 }
+
 .caseStudy-summary__title{
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 0;
-    color: #50546d;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #50546d;
+  text-align: center;
+  padding: 10px;
 }
+
 .caseStudy-summary__text{
-    font-size: 16px;
-    font-weight: 400;
-    color: #383e4d;
-    opacity: .95;
+  font-size: 16px;
+  font-weight: 400;
+  color: #383e4d;
+  opacity: .95;
+  text-align: left;
 }
 
 .caseStudy-summary__text ul{
@@ -245,7 +258,21 @@
 }
 
 .caseStudy-summary__text li{
-  margin-bottom: 14px;	
+  margin-bottom: 14px;
+  list-style: none;
+  
+     &:before {
+       content: '';
+       border: solid #0086ff;
+       border-width: 0 3px 3px 0;
+       display: inline-block;
+       padding: 3px;
+       -webkit-transform: rotate(45deg);
+       transform: rotate(315deg);
+       position: absolute;
+       right: -20px;
+       top: 6px;
+    }
 }
 
 /* END SUMMARY CARD TEXT */
