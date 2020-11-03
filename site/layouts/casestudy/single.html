@@ -14,13 +14,15 @@
         <div class="caseStudy-header__title-wrap">
             <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
         </div>
-
-        <ul class="case-study-params__list">
-        {{ range $element := .Params.Tooltip }}
-             <li class="case-study-params__item">{{ $element.title }}</li>
-        {{ end }}
-        </ul>       
+	    
     </div>
+	
+    <ul class="case-study-params__list">
+    {{ range $element := .Params.Tooltip }}
+        <li class="case-study-params__item">{{ $element.title }}</li>
+     {{ end }}
+     </ul> 
+	
 </div>
 <!-- ///@@@@@@@@@@@ -->
 	</div>
