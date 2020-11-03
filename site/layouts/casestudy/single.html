@@ -2,32 +2,28 @@
 
 <!-- TOP SECTION -->
 <div class="homehex ht">
-	<div class="container">
-
-<!-- @@@@@@@@@@@ -->
-<div class="caseStudy-header__container">
-    <div class="caseStudy-header__container">
-        <div class="caseStudy-header__title-wrap caseStudy-header__logo-wrap--logo">
-            <img class="caseStudy-header__logo-image" src="{{ .Params.logo }}" alt="Logo">   
-        </div>
+    <div class="container">
+        <div class="caseStudy-header__container">
+            <div class="caseStudy-header__container">
+                <div class="caseStudy-header__title-wrap caseStudy-header__logo-wrap--logo">
+                    <img class="caseStudy-header__logo-image" src="{{ .Params.logo }}" alt="Logo">   
+                </div>
 		  
-        <div class="caseStudy-header__title-wrap">
-            <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
-        </div>
+                <div class="caseStudy-header__title-wrap">
+                    <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
+                </div>
 	    
+            </div>
+	
+            <ul class="case-study-params__list">
+            {{ range $element := .Params.Tooltip }}
+                <li class="case-study-params__item">{{ $element.title }}</li>
+             {{ end }}
+             </ul> 
+	
+        </div>
     </div>
-	
-    <ul class="case-study-params__list">
-    {{ range $element := .Params.Tooltip }}
-        <li class="case-study-params__item">{{ $element.title }}</li>
-     {{ end }}
-     </ul> 
-	
 </div>
-<!-- ///@@@@@@@@@@@ -->
-	</div>
-</div>
-
 <!-- END: TOP SECTION -->
 	
 
