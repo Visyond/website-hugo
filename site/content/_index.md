@@ -53,7 +53,7 @@ functionList:
   - {}
 caseList:
   - image: /img/home/visForColumn2/case1.png
-    text: Risk Management
+    text: Risk Analysis & Simulations
   - image: /img/home/visForColumn2/case2.png
     text: Planning & Modelling
   - image: /img/home/visForColumn2/case3.png
