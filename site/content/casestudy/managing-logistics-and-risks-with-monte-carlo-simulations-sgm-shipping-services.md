@@ -2,6 +2,7 @@
 title: >-
   Managing Logistics and Risks with Monte Carlo Simulations - SGM Shipping
   Services
+logo: SGM Logo Color.png  
 tooltip:
   - title: 'Industry: Logistics'
   - title: 'Function: Risk Management'
@@ -47,11 +48,13 @@ There is no need to install software on every stakeholder’s machine for them t
 
 ![undefined](/img/SGM CS Temp 4.PNG)
 
-All stakeholders collaborate and contribute assumptions in one place, thus **creating the single source of truth for decision makers.** Inputs from different stakeholders don’t overwrite each other like they did in Excel, and it’s always possible to trace who added certain assumptions and when. In addition, attaching files to relevant cells provided context for the data, and helped create a **shared knowledge base.**
+All stakeholders collaborate and contribute assumptions in one place, thus **creating the single source of truth for decision makers.** Inputs from different stakeholders don’t overwrite each other like they did in Excel, and it’s always possible to trace who added certain assumptions and when. In addition, attaching files to relevant cells provided context for the data, and helped create a **shared knowledge base.
+**
 
 
 
-The role- and object-based selective sharing system allows to share only specific data-input worksheets with specific stakeholders, without exposing the rest of the spreadsheet, thus **reducing the risk of data leaks and accidental changes to the model.**
+The role- and object-based selective sharing system allows to share only specific data-input worksheets with specific stakeholders, without exposing the rest of the spreadsheet, thus **reducing the risk of data leaks and accidental changes to the model.
+**
 
 # **Data Preparation**
 
