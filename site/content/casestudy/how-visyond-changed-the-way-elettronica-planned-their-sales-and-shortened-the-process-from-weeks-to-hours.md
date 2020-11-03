@@ -1,6 +1,7 @@
 ---
 title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
 image: /img/casestud.jpg
+logo: /img/elet.png
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
