@@ -3,18 +3,29 @@
 <!-- TOP SECTION -->
 <div class="homehex ht">
 	<div class="container">
-		  <div class="home-hero__container">
-			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
-				<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Title }}</h1>
-                    <ul class="case-study-params__list">
-                    {{ range $element := .Params.Tooltip }}
-                    <li class="case-study-params__item">{{ $element.title }}</li>
-                    {{ end }}
-                    </ul>
-			  </div>
-		  </div>
+
+<!-- @@@@@@@@@@@ -->
+<div class="caseStudy-header__container">
+    <div class="caseStudy-header__container">
+        <div class="caseStudy-header__title-wrap caseStudy-header__logo-wrap--logo">
+            <img class="caseStudy-header__logo-image" src="{{ .Logo }}" alt="Logo">   
+        </div>
+		  
+        <div class="caseStudy-header__title-wrap">
+            <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
+        </div>
+
+        <ul class="case-study-params__list">
+        {{ range $element := .Params.Tooltip }}
+             <li class="case-study-params__item">{{ $element.title }}</li>
+        {{ end }}
+        </ul>       
+    </div>
+</div>
+<!-- ///@@@@@@@@@@@ -->
 	</div>
 </div>
+
 <!-- END: TOP SECTION -->
 	
 
