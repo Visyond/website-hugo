@@ -2,7 +2,7 @@
 title: >-
   Managing Logistics and Risks with Monte Carlo Simulations - SGM Shipping
   Services
-logo: SGM Logo Color.png  
+logo: /img/SGM Logo Color.png  
 tooltip:
   - title: 'Industry: Logistics'
   - title: 'Function: Risk Management'
