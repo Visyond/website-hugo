@@ -563,10 +563,10 @@
 .caseStudy-body img {
   display: block;
   margin: 30px auto 50px auto;
-  width: 90%;
+  max-width: 90%;
   
     @media screen and (max-width: 1024px) {
-      width: 100%;
+      max-width: 100%;
   } 
 }
 
