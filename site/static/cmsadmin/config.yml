@@ -444,6 +444,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: true}      
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
       - {label: "Client image", name: "client", widget: "image", required: false}
