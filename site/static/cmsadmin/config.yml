@@ -444,7 +444,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Logo", name: "logo", widget: "image", required: true}      
+      - {label: "Logo", name: "logo", widget: "image", required: false}      
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
       - {label: "Client image", name: "client", widget: "image", required: false}
@@ -460,13 +460,6 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Text", name: "text", widget: text}
         ]}
 
-      # - {label: "Solutions Block Title", name: solTitle, widget: string}
-      # - {label: "Solutions Block Article", name: "solArticle", widget: list, fields: [
-      #     {label: "Title", name: "title", widget: string},
-      #     {label: "Image", name: "image", widget: image},
-      #     {label: "Description", name: descr, widget: text, required: false},
-      #     {label: "Link", name: "link", widget: string, default: "#"},
-      #   ]}
 
 
 
