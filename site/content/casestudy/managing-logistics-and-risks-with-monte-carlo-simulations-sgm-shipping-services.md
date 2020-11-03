@@ -34,7 +34,7 @@ Additional software on top of Excel had to be installed on the machine of every 
 
 ![undefined](/img/SGM CS Temp 2.PNG)
 
-There is no need to install software on every stakeholder’s machine for them to participate in the risk management and decision-making process.** All they have to do is open Visyond in the browser to get access to all the tools they need.** This also made working remotely much easier, and improved the team's flexibility.
+There is no need to install software on every stakeholder’s machine for them to participate in the risk management and decision-making process. **All they have to do is open Visyond in the browser to get access to all the tools they need.** This also made working remotely much easier, and improved the team's flexibility.
 
 # Data Gathering
 
@@ -42,23 +42,21 @@ There is no need to install software on every stakeholder’s machine for them t
 
 ![undefined](/img/SGM CS Temp 3.PNG)
 
-**Tracking assumptions was becoming more challenging the more people participated in the process. **There was always a risk of accidentally losing information in long email threads, and the frequent exchanges of Excel files contributed to the risk of exposing sensitive data and version chaos, which further lengthened and complicated the data gathering process.
+**Tracking assumptions was becoming more challenging the more people participated in the process.** There was always a risk of accidentally losing information in long email threads, and the frequent exchanges of Excel files contributed to the risk of exposing sensitive data and version chaos, which further lengthened and complicated the data gathering process.
 
 ## With Visyond, data governance was automated
 
 ![undefined](/img/SGM CS Temp 4.PNG)
 
-All stakeholders collaborate and contribute assumptions in one place, thus **creating the single source of truth for decision makers.** Inputs from different stakeholders don’t overwrite each other like they did in Excel, and it’s always possible to trace who added certain assumptions and when. In addition, attaching files to relevant cells provided context for the data, and helped create a **shared knowledge base.
-**
+All stakeholders collaborate and contribute assumptions in one place, thus **creating the single source of truth for decision makers.** Inputs from different stakeholders don’t overwrite each other like they did in Excel, and it’s always possible to trace who added certain assumptions and when. In addition, attaching files to relevant cells provided context for the data, and helped create a **shared knowledge base.**
 
 
 
-The role- and object-based selective sharing system allows to share only specific data-input worksheets with specific stakeholders, without exposing the rest of the spreadsheet, thus **reducing the risk of data leaks and accidental changes to the model.
-**
+The role- and object-based selective sharing system allows to share only specific data-input worksheets with specific stakeholders, without exposing the rest of the spreadsheet, thus **reducing the risk of data leaks and accidental changes to the model.**
 
-# **Data Preparation**
+# Data Preparation
 
-## **Moving data across tools was inconvenient and error-prone**
+## Moving data across tools was inconvenient and error-prone
 
 ![undefined](/img/SGM CS Temp 5.PNG)
 
@@ -86,11 +84,11 @@ When different stakeholders ran simulations in parallel, they **could not easily
 
 ![undefined](/img/SGM CS Temp 9.PNG)
 
-To help find the fitting distribution, Visyond provides** an interface to get the distribution by analyzing historical data.**
+To help find the fitting distribution, Visyond provides **an interface to get the distribution by analyzing historical data.**
 
 ![undefined](/img/SGM CS Temp 10.PNG)
 
-**The customization of simulations is straightforward **- select the KPI that needs to be simulated, the number of iterations, the assumptions to model probabilistically, and parameters in the order they are presented in the settings panel, and then press ‘Run’.
+**The customization of simulations is straightforward**- select the KPI that needs to be simulated, the number of iterations, the assumptions to model probabilistically, and parameters in the order they are presented in the settings panel, and then press ‘Run’.
 
 ![undefined](/img/SGM CS Temp 11.PNG)
 
@@ -106,13 +104,13 @@ To help find the fitting distribution, Visyond provides** an interface to get th
 
 Presentation and charts needed to be updated every time the assumptions or the parameters behind the simulation changed. Visualizations were static, and **stakeholders had to get in touch with the modeler if they wanted to stress-test new assumptions and get updated visualizations.**
 
-## **With Visyond, analyses are always up-to-date, and interactive dashboards let stakeholders securely stress-test assumptions on their own**
+## With Visyond, analyses are always up-to-date, and interactive dashboards let stakeholders securely stress-test assumptions on their own
 
 ![undefined](/img/SGM CS Temp 14.PNG)
 
 **Monte Carlo simulations module produces presentation-ready outputs** that can be added to interactive dashboards with a single click. The chart in the dashboard is linked to the analysis module, and when the analysis is re-run with the new data or parameters, the corresponding dashboard is automatically updated.
 
-Input and output cells from the model can be added to the dashboard in the form of sliders and dropdowns,** allowing stakeholders to interact with the model and answer ‘what-if’ questions in self-service mode,** without seeing, touching or modifying the underlying spreadsheet or data.
+Input and output cells from the model can be added to the dashboard in the form of sliders and dropdowns, **allowing stakeholders to interact with the model and answer ‘what-if’ questions in self-service mode,** without seeing, touching or modifying the underlying spreadsheet or data.
 
 **Stakeholders who aren’t working with the spreadsheet directly are shielded from the complexity of the model,** and the model is, in turn, protected from accidental changes by stakeholders with the help of permission-based system that allows to expose only specific dashboards with specific inputs and outputs only to specific stakeholders.
 
@@ -122,7 +120,7 @@ The dashboards and presentations are shared via links or can be viewed directly 
 
 ## With Visyond, simulations and analyses are accessible and easy to use
 
-Visyond does not have complicated menus that need to be memorized - all available actions are contextual and accessible with right-click. All the modules have similar layouts and come with a training mode that guides users through the modules step-by-step,** allowing stakeholders to start contributing value quickly and without going through a steep learning curve.**
+Visyond does not have complicated menus that need to be memorized - all available actions are contextual and accessible with right-click. All the modules have similar layouts and come with a training mode that guides users through the modules step-by-step, **allowing stakeholders to start contributing value quickly and without going through a steep learning curve.**
 
 Besides simulations, stakeholders can now quickly identify the cells that have the greatest impact on important output cells, perform sensitivity analysis with a few clicks, and easily create and compare scenarios on-the-fly.
 
