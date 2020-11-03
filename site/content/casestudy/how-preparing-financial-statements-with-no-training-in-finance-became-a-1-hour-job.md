@@ -3,6 +3,7 @@ title: >-
   How preparing Financial Statements with no training in Finance became a 1-hour
   job
 image: /img/casestud.jpg
+logo: /img/elearn new.png
 tooltip:
   - title: 'Industry: IT Security'
   - title: 'Use Cases: Financial Statements, Reporting'
