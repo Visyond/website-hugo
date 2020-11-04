@@ -23,7 +23,7 @@ casestudies:
     title: >-
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     url: >-
-      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/         
+      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/
   - alt: Elettronica Logo
     logo: /img/elet.png
     name: ''
