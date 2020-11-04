@@ -6,7 +6,7 @@ case:
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     caseIco: /img/SGM Logo Color.png 
     caseLink: >-
-      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/  
+      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/
   - alt: Ericsson Logo
     caseDescr: >-
       Ericsson Accelerates Their Business Case Workflow by
