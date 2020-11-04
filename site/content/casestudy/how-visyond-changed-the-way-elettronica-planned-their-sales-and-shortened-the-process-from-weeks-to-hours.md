@@ -1,5 +1,5 @@
 ---
-title: 'Transforming Elettronica''s sales planning process: from weeks to hours'
+title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
 image: /img/casestud.jpg
 logo: /img/elet.png
 tooltip:
