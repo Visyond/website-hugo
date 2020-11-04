@@ -24,6 +24,15 @@ casestudies:
     title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
     url: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
+  - alt: SGM Shipping Services Logo
+    logo: /img/SGM Logo Color.png  
+    tags:
+      - tagTitle: Risk Analysis
+      - tagTitle: Monte Carlo Simulations
+    title: >-
+      Managing Logistics and Analyzing Risks with Monte Carlo Simulations
+    url: >-
+      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/          
   - alt: eLearnSecurity Logo
     logo: /img/elearn new.png
     tags:
@@ -34,14 +43,5 @@ casestudies:
       Visyond
     url: >-
       /casestudy/how-preparing-financial-statements-with-no-training-in-finance-became-a-1-hour-job/
-  - alt: SGM Shipping Services Logo
-    logo: /img/SGM Logo Color.png  
-    tags:
-      - tagTitle: Risk Analysis
-      - tagTitle: Monte Carlo Simulations
-    title: >-
-      Managing Logistics and Risks with Monte Carlo Simulations
-    url: >-
-      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/    
 ---
 
