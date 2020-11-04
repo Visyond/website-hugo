@@ -6,7 +6,7 @@ logo: /img/SGM Logo Color.png
 tooltip:
   - title: 'Industry: Logistics'
   - title: 'Function: Risk Management'
-  - title: 'Use Case: Monte Carlo Simulations'
+  - title: 'Use Case: Risk Analysis, Monte Carlo Simulations'
 client_ask: >-
   Founded in the 1970s, the Switzerland-based company focuses on operation and
   co-ownership of vessels, asset management, investment services, the all-round
