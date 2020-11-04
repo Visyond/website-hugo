@@ -32,7 +32,7 @@ casestudies:
       - tagTitle: Territory & Quota planning
     title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
     url: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/       
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - alt: eLearnSecurity Logo
     logo: /img/elearn new.png
     tags:
