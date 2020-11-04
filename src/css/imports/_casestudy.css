@@ -512,11 +512,12 @@
        &:before {
        content: "";
        border: solid #0086ff;
-       border-width: 0 2px 2px 0;
+       border-width: 0 4px 4px 0;
        display: inline-block;
-       padding: 3px;
+       padding: 5px;
        transform: rotate(315deg);
-       margin-right: 10px;
+       margin-right: 15px;
+       vertical-align: middle;	       
     }	
 	
 }
