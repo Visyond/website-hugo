@@ -66,11 +66,19 @@ When different stakeholders ran simulations in parallel, they **could not easily
 
 **The simulations are automated with the ‘auto-analysis’** that performs a ‘quick and dirty’ analysis using heuristics, which then can be easily modified and tweaked as needed.
 
+![Visyond Autoanalysis](/img/SGM Case Study Autoanalysis.jpg)
+
 To help find the fitting distribution, Visyond provides **an interface to get the distribution by analyzing historical data.**
+
+![Monte Carlos Simulation Find Distribution](/img/SGM Case Study Distribution.jpg)
 
 **The customization of simulations is straightforward**- select the KPI that needs to be simulated, the number of iterations, the assumptions to model probabilistically, and parameters in the order they are presented in the settings panel, and then press ‘Run’.
 
+![Monte Carlos Simulation Settings](/img/SGM Case Study Simulation Settings.jpg)
+
 **The stakeholders can view the simulations run by others,** and then run their own analyses based on them - without modifying, overwriting or deleting any data.
+
+![Monte Carlos Simulation Collaborative Analysis](/img/SGM Case Study Collaborative Simulations.jpg)
 
 # Management Reporting
 
