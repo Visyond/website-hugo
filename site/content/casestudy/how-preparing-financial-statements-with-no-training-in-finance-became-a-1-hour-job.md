@@ -1,7 +1,6 @@
 ---
 title: >-
-  How preparing Financial Statements with no training in Finance became a 1-hour
-  job
+  eLearnSecurity Makes Financial Statements Preparation a 1-hour Job with Visyond
 image: /img/casestud.jpg
 logo: /img/elearn new.png
 tooltip:
