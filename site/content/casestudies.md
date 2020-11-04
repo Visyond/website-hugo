@@ -15,15 +15,6 @@ casestudies:
       80% and Empowers Their Customers with Visyond
     url: >-
       /casestudy/ericsson-case-study-visyond/
-  - alt: Elettronica Logo
-    logo: /img/elet.png
-    name: ''
-    tags:
-      - tagTitle: Sales planning
-      - tagTitle: Territory & Quota planning
-    title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
-    url: >-
-      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
   - alt: SGM Shipping Services Logo
     logo: /img/SGM Logo Color.png  
     tags:
@@ -32,7 +23,16 @@ casestudies:
     title: >-
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     url: >-
-      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/          
+      /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/         
+  - alt: Elettronica Logo
+    logo: /img/elet.png
+    name: ''
+    tags:
+      - tagTitle: Sales planning
+      - tagTitle: Territory & Quota planning
+    title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
+    url: >-
+      /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/       
   - alt: eLearnSecurity Logo
     logo: /img/elearn new.png
     tags:
