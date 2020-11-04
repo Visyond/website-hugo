@@ -504,10 +504,21 @@
 .caseStudy-body h2 {
   color: #383e4d;
   font-size: 24px;
-  line-height: 38px;
+  line-height: 34px;
   font-weight: 600;
   margin-bottom: 16px;
   width: 100%;
+	
+       &:before {
+       content: "";
+       border: solid #0086ff;
+       border-width: 0 2px 2px 0;
+       display: inline-block;
+       padding: 3px;
+       transform: rotate(315deg);
+       margin-right: 10px;
+    }	
+	
 }
 
 .caseStudy-body h3 {
