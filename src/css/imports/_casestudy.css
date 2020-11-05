@@ -406,6 +406,10 @@
   width: calc(33% - 15px);
   min-width: 350px;
   margin-bottom: 40px;
+	
+    @media screen and (max-width: 771px) {
+      width: 90%;
+    }  
 }
 
 .caseStudy-summary__item:nth-child(1n) {
