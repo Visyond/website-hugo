@@ -469,7 +469,8 @@
        display: inline-block;
        padding: 3px;
        transform: rotate(315deg);
-       margin-right: 10px;  
+       margin-right: 10px;
+       margin-bottom: 1px!important;	     
     }
 }
 
@@ -508,7 +509,6 @@
   font-weight: 600;
   margin-bottom: 16px;
   width: 100%;
-  text-indent: -26px;	
 	
        &:before {
        content: "";
@@ -517,7 +517,7 @@
        display: inline-block;
        padding: 3px;
        transform: rotate(315deg);
-       margin-right: 15px;
+       margin-right: 12px;
        vertical-align: middle;
        margin-bottom: 3px;	       
     }	
