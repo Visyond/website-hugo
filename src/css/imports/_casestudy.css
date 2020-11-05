@@ -415,25 +415,25 @@
 .caseStudy-summary__item:nth-child(1n) {
   margin-left: 0px;
   
-    @media screen and (max-width: 771px) {
+   /* @media screen and (max-width: 771px) {
       margin-left: 25px;
-    }  
+    }   */
 }
 
 .caseStudy-summary__item:nth-child(2n) {
   margin-left: 25px;
   
-    /*@media screen and (max-width: 771px) {
+    @media screen and (max-width: 771px) {
       margin-left: 0;
-    }  */
+    }  
 }
 
 .caseStudy-summary__item:nth-child(3n) {
   margin-left: 25px;
   
-    /*  @media screen and (max-width: 771px) {
+      @media screen and (max-width: 771px) {
       margin-left: 0;
-    }  */
+    } 
 }
 
 /* END SUMMARY CARD */
