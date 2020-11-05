@@ -116,7 +116,7 @@ Besides simulations, stakeholders can now quickly identify the cells that have t
 
 ## With Visyond, there is more control over the decision-making process
 
-By putting the model, its assumptions and scenarios at the center of the ecosystem of automated analysis tools and interactive dashboards, **the Visyond platform has become the one-stop-shop that connects modelers, analysts, decision makers and other stakeholders** together in a single secure environment.
+By putting the model, its assumptions and scenarios at the center of the ecosystem of automated analysis tools and interactive dashboards, **the Visyond platform has become a one-stop-shop that connects modelers, analysts, decision makers and other stakeholders** together in a single secure environment.
 
 ## With Visyond, it’s easier to understand the model structure
 
