@@ -465,12 +465,11 @@
      &:before {
        content: "";
        border: solid #0086ff;
+       border-width: 0 2px 2px 0;	     
        display: inline-block;
        padding: 3px;
        transform: rotate(315deg);
-       margin-right: 10px;
-       margin-bottom: 2px;
-       border-width: 0 2px 2px 0;
+       margin-right: 10px;  
     }
 }
 
