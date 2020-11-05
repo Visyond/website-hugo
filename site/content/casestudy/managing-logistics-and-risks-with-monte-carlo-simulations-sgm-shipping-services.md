@@ -1,4 +1,16 @@
 ---
+metaTags: >-
+  <meta property="og:title" content="Visyond - SGM Shipping Services Case Study"/>
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image"
+  content="https://visyond.com/img/Visyond SGM Case Study thumbnail 1200x628.png"/>
+
+  <meta property="og:description" content="Managing Logistics and Analyzing Risks with Monte Carlo Simulations - SGM Shipping Services"/>
+
+  <meta property="og:url"
+  content="https://visyond.com/casestudy/ericsson-case-study-visyond" />
 title: >-
   Managing Logistics and Analyzing Risks with Monte Carlo Simulations
 logo: /img/SGM Logo Color.png  
