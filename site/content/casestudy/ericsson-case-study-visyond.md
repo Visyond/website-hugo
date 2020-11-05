@@ -19,7 +19,6 @@ image: /img/topImgCase.jpg
 logo: /img/Ericsson_logo_250w.png
 tooltip:
   - title: 'Industry: Telecom'
-  - title: 'Function: Sales, Strategy'
   - title: 'Use Cases: Sales Negotiation, Impact Modeling, Analysis, Presentation'
 client: /img/Chief Modeler Portrait.png
 client_ask: >-
