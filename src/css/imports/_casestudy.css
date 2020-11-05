@@ -470,6 +470,7 @@
        padding: 3px;
        transform: rotate(315deg);
        margin-right: 10px;
+       margin-bottom: 2px;
     }
 }
 
@@ -508,16 +509,18 @@
   font-weight: 600;
   margin-bottom: 16px;
   width: 100%;
+  text-indent: -26px;	
 	
        &:before {
        content: "";
        border: solid #0086ff;
        border-width: 0 4px 4px 0;
        display: inline-block;
-       padding: 5px;
+       padding: 3px;
        transform: rotate(315deg);
        margin-right: 15px;
-       vertical-align: middle;	       
+       vertical-align: middle;
+       margin-bottom: 3px;	       
     }	
 	
 }
