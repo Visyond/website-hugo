@@ -15,9 +15,8 @@ title: >-
   Managing Logistics and Analyzing Risks with Monte Carlo Simulations
 logo: /img/SGM Logo Color.png  
 tooltip:
-  - title: 'Industry: Logistics'
-  - title: 'Function: Risk Management'
-  - title: 'Use Case: Risk Analysis, Monte Carlo Simulations'
+  - title: 'Industry: Logistics and Supply Chain'
+  - title: 'Use Case: Monte Carlo Simulations, Tornado and Sensitivity Analysis'
 client_ask: >-
   Founded in the 1970s, the Switzerland-based company focuses on operation and
   co-ownership of vessels, asset management, investment services, the all-round
