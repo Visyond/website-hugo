@@ -10,7 +10,7 @@ metaTags: >-
   <meta property="og:description" content="Managing Logistics and Analyzing Risks with Monte Carlo Simulations - SGM Shipping Services"/>
 
   <meta property="og:url"
-  content="https://visyond.com/casestudy/ericsson-case-study-visyond" />
+  content="https://visyond.com/casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services" />
 title: >-
   Managing Logistics and Analyzing Risks with Monte Carlo Simulations
 logo: /img/SGM Logo Color.png  
