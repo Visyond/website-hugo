@@ -18,8 +18,8 @@ casestudies:
   - alt: SGM Shipping Services Logo
     logo: /img/SGM Logo Color.png  
     tags:
-      - tagTitle: Risk Analysis
       - tagTitle: Monte Carlo Simulations
+      - tagTitle: Tornado and Sensitivity Analysis      
     title: >-
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     url: >-
