@@ -25,7 +25,7 @@
       <video style="width: 90%; height: auto;" poster="{{ .infoVideoPoster }}" class="enterSectionsA__block-img" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="">
 			  <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
 	  	</video> 
-
+	<!--
         <div class="button button-basicA--nobg button-icon centered show-slides">
             <i class="material-icons">play_circle_outline</i>
             <span>Slideshow</span>
@@ -37,6 +37,7 @@
 		     data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
 		     data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">		
         </div>
+	-->
 	        
       {{ else }}
       <div class="infoA__img-wrap js-img-wrap show-slides">	    
