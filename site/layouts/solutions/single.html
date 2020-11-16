@@ -106,8 +106,8 @@
 
   {{ partial "hexSlider" . }}
 
-      <!-- Why V section -->
-    <section class="whyV">
+<!-- Old Why V section -->
+    <!-- <section class="whyV">
         <div class="container">
             <div class="whyV__row">
                 <div class="whyV__half-width-wrap">
@@ -120,16 +120,6 @@
                     </div>
                 </div>
 
-                <!--
-                <ul class="whyV__list-wrap">
-                    {{ range $el := .Params.solvesList }}
-                    <li class="whyV__list-item">
-                        <img src="{{ .image }}" alt="{{ .text | markdownify }}">
-                        <span>{{ .text | markdownify }}</span>
-                    </li>
-                    {{ end }}
-                </ul>
-                -->
       
                 <div class="whyV__half-width-wrap" style="margin-bottom: 50px;">
                     <div class="whyV__text">{{ .Params.TopSubTitle | markdownify }}</div>
@@ -139,8 +129,29 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Why V section -->
+    </section> -->
+<!-- END: Old Why V section -->
+
+	
+<!-- Why V section - New infographics -->
+<section class="whyV">
+	<div class="container">
+		<div class="whyV__row">
+			<h2 class="enterV__headline">Why Visyond?</h2>
+			<div class="header-section--divider"></div>
+			
+			<div style="text-align: center;">
+				<img src="/img/Why Visyond Stairs Infographics.png">
+			</div>
+			
+			<div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.TopSubTitle | markdownify }}</div>
+
+			<div style="width: 90%; text-align: center; margin: auto;"><a href="/why-visyond" class="button button-primary" target="_blank">Learn more</a></div>
+			
+		</div>
+	</div>  
+</section>
+<!-- Why V section - New infographics -->
 	
 	
     <!-- section info -->
