@@ -3,6 +3,18 @@ metaTags: "<meta property=\"og:title\" content=\"Visyond: Product Tour\"/>\r\n<m
 url: /product-tour
 title: Product Tour
 ---
+## Why Visyond?
+
+Decision making requires modeling, scenario planning, forecasting, analytics, knowledge management, data visualization and reporting tools.
+
+Analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
+
+Without Visyond, the process requires multiple platforms and causes numerous problems.
+
+[**Why Visyond?**](https://visyond.com/why-visyond/)
+
+<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visyond Stairs Infographics.png"></div>
+
 ## Short Demos
 
 Please watch the short demo videos below.
@@ -33,18 +45,6 @@ Please watch the short demo videos below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LmNCVp6l7rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
 
-## Why Visyond?
-
-Decision making requires modeling, scenario planning, forecasting, analytics, knowledge management, data visualization and reporting tools.
-
-Analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
-
-Without Visyond, the process requires multiple platforms and causes numerous problems.
-
-[**Why Visyond?**](https://visyond.com/why-visyond/)
-
-<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visond Inforgraphic 3 v4 short.png"></div>
-
 ## Featured Case Study
 
 How Ericsson accelerates their business case workflow by 80% and empowers their customers with Visyond.
@@ -74,7 +74,8 @@ Visyond wins the Out of Excel award at the [**Financial Modelling Innovation Awa
 <img src="/video/Financial Modelling Award Video.jpg" alt="Financial Modelling Innovation Awards Out Of Excel Category Winner - Visyond" style=”display:block; margin:auto;”>
 
 ## Financial Services
-We and our partners offer [**managed services**](https://visyond.com/services/) on the Visyond platform.
+We and our partners offer [**managed services**](https://visyond.com/services/)
+ on the Visyond platform.
 
 ## Try Visyond
 
