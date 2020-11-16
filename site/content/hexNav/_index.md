@@ -11,9 +11,7 @@ resourcesDropdown:
   - path: 'https://help.visyond.com/'
     title: Knowledge Base
   - path: /financial-modelling-innovation-awards-2020/
-    title: Financial Modelling Innovation Awards 2020  
-  - path: /press/
-    title: Press     
+    title: Financial Modelling Innovation Awards 2020    
   - path: /partner-with-visyond/
     title: Partner with Visyond
   - path: /partners/
