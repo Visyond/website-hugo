@@ -5,7 +5,7 @@ metaTags: >-
   <meta property="og:title" content="Transform Your Spreadsheets into a Planning and Decision Platform">
   <meta property="og:type" content="website">
   <meta property="og:image"
-  content="https://visyond.com/img/Why Visyond Stairs Infographics.png">
+  content="https://visyond.com/img/Visyond%20homepage%20thumbnail%201200x628.jpg">
   <meta property="og:description" content="Create scenarios, what-if analyses and management reports in a collaborative decision making platform with your spreadsheet at the center.">
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Create scenarios, what-if analyses and management reports in a collaborative decision making platform with your spreadsheet at the center.">
