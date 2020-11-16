@@ -79,9 +79,9 @@ industryList:
     text: Insurance
 WhyVisyondHeader: Why Visyond?
 WhyVisyondText: >-
-  **Decision making requires** modeling, scenario planning, forecasting,
+  Decision making requires modeling, scenario planning, forecasting,
   analytics, knowledge management, data visualization and reporting
-  tools.<br><br>Analysts, experts, clients, CxOs must collaborate with strict
+  tools.<br><br>Analysts, experts, clients, and CxOs must collaborate with strict
   requirements on data security and governance.<br><br>Without Visyond, the
   process requires multiple platforms and causes numerous problems.<br><br>
 WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
