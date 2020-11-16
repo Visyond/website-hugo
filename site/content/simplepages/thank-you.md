@@ -15,6 +15,18 @@ We will get back to you shortly.
 
 Meanwhile, **feel free to learn more about Visyond or explore it on your own!** Below you will find everything you need to get started.
 
+## Why Visyond?
+
+Decision making requires modeling, scenario planning, forecasting, analytics, knowledge management, data visualization and reporting tools.
+
+Analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
+
+Without Visyond, the process requires multiple platforms and causes numerous problems.
+
+[**Why Visyond?**](https://visyond.com/why-visyond/)
+
+<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visyond Stairs Infographics.png"></div>
+
 ## Short Demos
 
 Please watch the short demo videos below.
@@ -44,18 +56,6 @@ Please watch the short demo videos below.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LmNCVp6l7rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
-
-## Why Visyond?
-
-Decision making requires modeling, scenario planning, forecasting, analytics, knowledge management, data visualization and reporting tools.
-
-Analysts, experts, clients, CxOs must collaborate with strict requirements on data security and governance.
-
-Without Visyond, the process requires multiple platforms and causes numerous problems.
-
-[**Why Visyond?**](https://visyond.com/why-visyond/)
-
-<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visond Inforgraphic 3 v4 short.png"></div>
 
 ## Featured Case Study
 
