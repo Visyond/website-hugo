@@ -144,23 +144,23 @@
     <!-- END: Why V section - 2-column -->
   
 <!-- Why V section - New infographics -->
-<div class="container">
-	<div class="whyV__row">
-		<h2 class="whyV__headline">{{ .Params.WhyVisyondHeader }}</h2>
-		<div class="header-section--divider"></div>
-		
-		<div style="text-align: center;">
-			<img src="/img/Why Visyond Stairs Infographics.png">
+<section class="whyV">
+	<div class="container">
+		<div class="whyV__row">
+			<h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
+			<div class="header-section--divider"></div>
+			
+			<div style="text-align: center;">
+				<img src="/img/Why Visyond Stairs Infographics.png">
+			</div>
+			
+			<div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
+
+			<div><a href="/why-visyond" class="button button-primary" target="_blank" style="margin-top: 2em;">Learn more</a></div>
+			
 		</div>
-		
-    <div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
-    
-		<div>
-			<a href="/why-visyond" class="button button-primary" target="_blank" style="margin-top: 2em;">Learn more</a>
-    </div>
-		
-	</div>
-</div>  
+	</div>  
+</section>
 <!-- Why V section - New infographics -->
   
 
