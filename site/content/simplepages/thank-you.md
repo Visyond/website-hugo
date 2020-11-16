@@ -25,7 +25,7 @@ Without Visyond, the process requires multiple platforms and causes numerous pro
 
 [**Why Visyond?**](https://visyond.com/why-visyond/)
 
-<div style="text-align: center; margin-top: 30px;"><img style="width: 70%;" src="/img/Why Visyond Stairs Infographics.png"></div>
+<div style="text-align: center; margin-top: 30px;"><img src="/img/Why Visyond Stairs Infographics.png"></div>
 
 ## Short Demos
 
