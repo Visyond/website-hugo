@@ -106,8 +106,9 @@
 
   {{ partial "hexSlider" . }}
 
-    <!-- Why V section -->
-    <section class="whyV">
+  
+    <!-- Why V section - 2-column -->
+     <!-- <section class="whyV">
         <div class="container">
             <div class="whyV__row">
                 <div class="whyV__half-width-wrap">
@@ -118,20 +119,20 @@
                     <div>
                         <img src="{{ .Params.WhyVisyondImage }}">
                     </div>
-                </div>
+                </div> -->
 
-                <!--
-                <ul class="whyV__list-wrap">
+                <!-- comment this if uncommenting the block -->
+                <!-- <ul class="whyV__list-wrap">
                     {{ range $el := .Params.solvesList }}
                     <li class="whyV__list-item">
                         <img src="{{ .image }}" alt="{{ .text | markdownify }}">
                         <span>{{ .text | markdownify }}</span>
                     </li>
                     {{ end }}
-                </ul>
-                -->
+                </ul> -->
+                <!-- END comment this if uncommenting the block -->
       
-                <div class="whyV__half-width-wrap">
+                <!-- <div class="whyV__half-width-wrap">
                     <div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
                     <div>
                         <a href="/why-visyond" class="button button-primary" style="margin-top: 2em;">Why Visyond</a>
@@ -139,8 +140,29 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Why V section -->
+    </section> -->
+    <!-- END: Why V section - 2-column -->
+  
+<!-- Why V section - New infographics -->
+<div class="container">
+	<div class="whyV__row">
+		<h2 class="whyV__headline">{{ .Params.WhyVisyondHeader }}</h2>
+		<div class="header-section--divider"></div>
+		
+		<div style="text-align: center;">
+			<img src="/img/Why Visyond Stairs Infographics.png">
+		</div>
+		
+    <div class="whyV__text">{{ .Params.WhyVisyondText | markdownify }}</div>
+    
+		<div>
+			<a href="/why-visyond" class="button button-primary" target="_blank" style="margin-top: 2em;">Learn more</a>
+    </div>
+		
+	</div>
+</div>  
+<!-- Why V section - New infographics -->
+  
 
     <!-- section info -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
