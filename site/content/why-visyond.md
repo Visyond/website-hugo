@@ -14,7 +14,7 @@ metaTags: >-
   <meta property="og:type" content="website" />
 
   <meta property="og:image"
-  content="https://visyond.com/img/why_visyond_infographic_linkedin_small.png">
+  content="https://visyond.com/img/Why Visyond Stairs Infographics.png">
 
   <meta property="og:description" content="Visyond is a secure cloud-based
   Excel-compatible spreadsheet modeling, analysis automation and interactive
