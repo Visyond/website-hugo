@@ -9,7 +9,7 @@ metaTags: >-
 topTitle: >-
   Easily Merge Excel Spreadsheets and Eliminate the Hassles of Data
   Consolidation & Gathering
-topSubTitle: >-
+WhyVisyondText: >-
   Make data gathering workflow more efficient and reduce days worth of effort
   down to minutes - seamlessly merge spreadsheets into one and automate manual
   data consolidation processes.
