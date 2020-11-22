@@ -139,7 +139,13 @@
 <section class="whyV">
 	<div class="container">
 		<div class="whyV__row">
-			<h2 class="enterV__headline">Why Visyond?</h2>
+			<h2 class="enterV__headline">
+				{{ if .Params.WhyVisyondHeader }}
+					{{ .Params.WhyVisyondHeader }}
+				{{ else }}
+					Why Visyond?
+				{{ end }}
+			</h2>
 			<div class="header-section--divider"></div>
 			
 			<div style="text-align: center;">
