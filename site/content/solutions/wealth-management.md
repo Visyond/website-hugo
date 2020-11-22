@@ -4,17 +4,11 @@ title: Accurately Forecast Portfolio Performance and Risks
 ThisSolutionIsFor: Wealth Management
 topTitle: Accurately Forecast Portfolio Performance and Risks
 topSubTitle: >-
-  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
-  analysis automation and interactive reporting platform that works in the
-  browser and focuses on data security and digital innovation.
+  Wealth managers are limited by the data provided by the fund managers. They use an average performance instead of simulation on specific fund allocation
 
   <br><br>
 
-  Visyond offers a unique yet familiar all-in-one integrated solution that
-  connects all steps of your business workflow in a single platform: from data
-  gathering from subject-matter experts and subsequent analysis of this data to
-  preparation of interactive visualizations and reports to **help decision
-  makers make better decisions, faster.**
+  Without Visyond, they cannot easily create multiple scenarios varying the expected return and allocation of funds, and open up self-service dashboards for clients to test assumptions on their own.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
