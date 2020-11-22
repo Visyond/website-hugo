@@ -6,7 +6,7 @@ topImage: /img/solutions/solutions_modeling_top.png
 title: Financial Modeling Software You Wish You Had Yesterday
 ThisSolutionIsFor: Financial Modeling
 topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
   flexibility and the look-and-feel of Excel and the structured approach to
   managing data characteristic of ERP systems.<br><br>With Visyond, you will be
