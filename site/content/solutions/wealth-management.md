@@ -3,7 +3,7 @@ metaTags: "<meta property=\"og:title\" content=\"Accurately Forecast Portfolio P
 title: Accurately Forecast Portfolio Performance and Risks
 ThisSolutionIsFor: Wealth Management
 topTitle: Accurately Forecast Portfolio Performance and Risks
-topSubTitle: >-
+WhyVisyondText: >-
   Wealth managers are limited by the data provided by the fund managers. They
   use an average performance instead of simulation on specific fund allocation.
 
