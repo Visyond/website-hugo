@@ -9,7 +9,14 @@
           <div class="home-hero__half-width-wrap" style="width: 100%;/* text-align: center;*/">
 		<div class="home-hero__topSubtitle" style="margin-bottom: 10px; font-weight: 600; font-size: 1.4em; color: #0086ff;">Visyond For {{ .Params.ThisSolutionIsFor }}</div>	  
               <h1 class="home-hero__title" style="margin-top: 20px;">{{ .Params.TopTitle | markdownify }}</h1>
-	      <div class="home-hero__topSubtitle">Get what no other spreadsheet-based technology can give you.<br> Do in minutes what takes you days now.</div>
+	      <div class="home-hero__topSubtitle">
+		      {{ if .Params.topSubTitle }}
+		      		{{ .Params.topSubTitle }}
+		      {{ else }}
+		      		Get what no other spreadsheet-based technology can give you.<br> Do in minutes what takes you days now.
+		      {{ end }}
+
+               </div>
              <!-- <ul class="home-hero__main-features" style="/*-webkit-box-pack: center; justify-content: center;*/ font-weight: 600;">
                   <li>Planning automation</li>
                   <li>Quick adoption</li>
