@@ -3,7 +3,7 @@ metaTags: "<meta property=\"og:title\" content=\"Improve the Quality of Your Inv
 title: Improve the Quality of Your Investment Decisions
 ThisSolutionIsFor: Private Equity and Venture Capital
 topTitle: Improve the Quality of Your Investment Decisions
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
   browser and focuses on data security and digital innovation.
