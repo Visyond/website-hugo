@@ -22,7 +22,7 @@ metaTags: >-
   spreadsheet modeling, analysis automation and interactive reporting
   platform."> <meta name="keywords" content="financial data analysis software">
 title: 'Automate Financial Planning, Analysis and Reporting'
-ThisSolutionIsFor: For Financial Services and FP&A
+ThisSolutionIsFor: Financial Services and FP&A
 topTitle: 'Automate Financial Planning, Analysis and Reporting'
 topSubTitle: >-
   Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling,
