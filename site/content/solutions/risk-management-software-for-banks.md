@@ -5,7 +5,7 @@ topImage: /img/solutions/solutions_banking_top.png
 title: Risk Management Software for Banks
 ThisSolutionIsFor: Banking
 topTitle: Make Better Lending Decisions<br> and Improve Portfolio Profitability
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
   flexibility and the look-and-feel of Excel and the structured approach to
   managing data characteristic of ERP systems.<br><br>With Visyond, you will be
