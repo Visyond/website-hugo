@@ -3,7 +3,7 @@ title: Spreadsheet Data Governance Software
 metaTags: >-
   <meta name="robots" content="noindex">
 topTitle: Spreadsheet Data Governance & Sharing
-topSubTitle: >-
+WhyVisyondText: >-
   Improve your data governance & sharing, dramatically reduce risk of
   unauthorized access,  establish single source of truth and have full control
   over it with Visyond
