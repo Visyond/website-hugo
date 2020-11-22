@@ -3,7 +3,7 @@ metaTags: "<meta property=\"og:title\" content=\"Collaborate Remotely on Energy 
 title: Collaborate Remotely on Energy Projects
 ThisSolutionIsFor: Energy and Utilities
 topTitle: Collaborate Remotely on Energy Projects
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling,
   analysis automation and interactive reporting platform that works in the
   browser and focuses on data security and digital innovation.
