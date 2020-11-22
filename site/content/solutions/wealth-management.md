@@ -1,5 +1,5 @@
 ---
-metaTags: "<meta property=\"og:title\" content=\"Accurately Forecast Portfolio Performance and Risks\"> \n<meta property=\"og:type\" content=\"website\"> \n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\"> \n<meta property=\"og:url\" content=\"https://visyond.com/solutions/private-equity-venture-capital/\"> \n\n<meta name=\"title\" content=\"Improve the Quality of Your Investment Decisions\">\n<meta name=\"description\" content=\"Improve investment analysis and reporting, Understand KPIs and their response to change, Simplify data gathering from portfolio companies.\"> \n<meta name=\"keywords\" content=\"private equity software, venture capital software, venture fund software, VC software, portfolio management software, investment software\">"
+metaTags: "<meta property=\"og:title\" content=\"Accurately Forecast Portfolio Performance and Risks\"> \n<meta property=\"og:type\" content=\"website\"> \n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\"> \n<meta property=\"og:url\" content=\"https://visyond.com/solutions/wealth-management/\"> \n\n<meta name=\"title\" content=\"Accurately Forecast Portfolio Performance and Risks\">\n<meta name=\"description\" content=\"Empower wealth managers with faster and more accurate performance simulation, greater transparency and more comprehensive valuations.\"> \n<meta name=\"keywords\" content=\"wealth management software, wealth management tools, wealth management solution\">"
 title: Accurately Forecast Portfolio Performance and Risks
 ThisSolutionIsFor: Wealth Management
 topTitle: Accurately Forecast Portfolio Performance and Risks
@@ -26,20 +26,22 @@ infoBlockFirst:
       Dashboards - Visyond.jpg
     subtitle: ''
     title: Build Granular Portfolio Models Without Coding
-  - infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    subtitle: >-
+  - descr: >-
       Discuss scenarios in real time with clients and show them simulations
       based on their assumptions.
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    subtitle: ''
     title: Collaborate with Clients on Scenarios and Simulations
-  - infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    subtitle: >-
+  - descr: >-
       Share interactive dashboards - that use the spreadsheet model as
       calculation engine - with clients, and empower them to test assumptions in
       a safe environment, without breaking the logic created by the advisor in
       the underlying model, which can be hidden from the client's view if
       needed.
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    subtitle: ''
     title: Share Interactive Self-Service Dashboards
 providesTitle: Visyond for Wealth Management
 providesList:
