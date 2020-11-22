@@ -3,7 +3,7 @@ aliases: /solutions/banking/
 metaTags: "<meta name=\"title\" content=\"Visyond’s Risk Management Software for Banks\">\n<meta name=\"description\" content=\"As a banking professional, you might often face these key challenges: ad-hoc model preparation & auditing requires inadequate time, lack of tracking & control over data changes and inputs, manual stress-testing and workflows, and having supporting information scattered around in endless threads of back-and-forth emails.\">\n<meta name=\"keywords\" content=\"Risk management software for banks\">\n\n<meta property=\"og:title\" content=\"Make Better Lending Decisions and Improve Portfolio Profitability\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/risk-management-software-for-banks\">"
 topImage: /img/solutions/solutions_banking_top.png
 title: Risk Management Software for Banks
-ThisSolutionIsFor: For Banking
+ThisSolutionIsFor: Banking
 topTitle: Make Better Lending Decisions<br> and Improve Portfolio Profitability
 topSubTitle: >-
   Visyond’s Financial Modeling Software combines the best of both worlds: the
