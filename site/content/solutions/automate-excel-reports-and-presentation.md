@@ -5,7 +5,7 @@ topImage: /img/solutions/solutions_reports_and_presentations_top.png
 title: Automate Reporting and Financial Statements
 ThisSolutionIsFor: Report Automation and Interactive Dashboards
 topTitle: Automate Reporting and Create Interactive<br> Spreadsheet-driven Dashboards
-topSubTitle: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
+WhyVisyondText: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
