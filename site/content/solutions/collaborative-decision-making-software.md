@@ -4,7 +4,7 @@ metaTags: "<meta name=\"title\" content=\"Collaborative Decision Making Software
 Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/collaborative-decision-making-software\">  "
 topImage: /img/solutions/solutions_decision_makers_top.png
 title: Collaborative Decision Making Software
-ThisSolutionIsFor: For Decision Makers
+ThisSolutionIsFor: Decision Makers
 topTitle: 'Get Reliable Business Insights <br> and Make Better Decisions, Faster'
 topSubTitle: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers make better decisions, faster.**\r"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
