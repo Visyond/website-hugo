@@ -4,22 +4,18 @@ title: Accurately Forecast Portfolio Performance and Risks
 ThisSolutionIsFor: Wealth Management
 topTitle: Accurately Forecast Portfolio Performance and Risks
 topSubTitle: >-
-  Empower wealth managers with faster and more accurate performance simulation,<br> greater transparency and more comprehensive valuations.
-WhyVisyondText: >-
-  Wealth managers are limited by the data provided by the fund managers. They
-  use an average performance instead of simulation on specific fund allocation.
-
-  <br><br>
-
-  Without Visyond, they cannot easily create multiple scenarios varying the
-  expected return and allocation of funds, and open up self-service dashboards
-  for clients to test assumptions on their own.
+  Empower wealth managers with faster and more accurate performance
+  simulation,<br> greater transparency and more comprehensive valuations.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - descr: >-
       Empower wealth managers and their IT departments to build granular
       portfolio models in a simple and well-known spreadsheet style, without any
       coding.
+
+
+
+      Enable advisers to set better expectations and provide better advice.
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
@@ -28,9 +24,19 @@ infoBlockFirst:
       Dashboards - Visyond.jpg
     subtitle: ''
     title: Build Granular Portfolio Models Without Coding
-  - descr: >-
+  - descr: >
       Discuss scenarios in real time with clients and show them simulations
-      based on their assumptions.
+      based on their assumptions to drive engagement and improve trust.
+
+
+
+      Perform faster and more accurate performance simulation based on fund
+      allocation, frequency and amount of premium contribution.
+
+
+
+      Achieve greater transparency and more comprehensive valuations, including
+      future performance projections.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: ''
@@ -41,6 +47,11 @@ infoBlockFirst:
       a safe environment, without breaking the logic created by the advisor in
       the underlying model, which can be hidden from the client's view if
       needed.
+
+
+      Empower of prospects and clients, offering them a digital platform that
+      makes them feel in control and easily view potential returns in an
+      informative, modern and interactive way.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: ''
