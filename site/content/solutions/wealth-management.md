@@ -43,7 +43,7 @@ infoBlockFirst:
       the underlying model, which can be hidden from the client's view if
       needed.<br><br>
 
-      Empower of prospects and clients, offering them a digital platform that
+      Empower prospects and clients, offering them a digital platform that
       makes them feel in control and easily view potential returns in an
       informative, modern and interactive way.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
