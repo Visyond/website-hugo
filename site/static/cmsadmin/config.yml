@@ -272,8 +272,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page title", name: "title", widget: "string", required: false,}
       - {label: "This Solution is For", name: "ThisSolutionIsFor", widget: "string", required: false,}
       - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}      
       - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: false}	
-      - {label: "Why Visyond Text", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}      
       - {label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
