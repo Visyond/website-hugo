@@ -11,9 +11,7 @@ infoBlockFirst:
   - descr: >-
       Empower wealth managers and their IT departments to build granular
       portfolio models in a simple and well-known spreadsheet style, without any
-      coding.
-
-
+      coding.<br><br>
 
       Enable advisers to set better expectations and provide better advice.
     infoVideo: >-
@@ -26,14 +24,10 @@ infoBlockFirst:
     title: Build Granular Portfolio Models Without Coding
   - descr: >
       Discuss scenarios in real time with clients and show them simulations
-      based on their assumptions to drive engagement and improve trust.
-
-
+      based on their assumptions to drive engagement and improve trust.<br><br>
 
       Perform faster and more accurate performance simulation based on fund
-      allocation, frequency and amount of premium contribution.
-
-
+      allocation, frequency and amount of premium contribution.<br><br>
 
       Achieve greater transparency and more comprehensive valuations, including
       future performance projections.
@@ -46,8 +40,7 @@ infoBlockFirst:
       calculation engine - with clients, and empower them to test assumptions in
       a safe environment, without breaking the logic created by the advisor in
       the underlying model, which can be hidden from the client's view if
-      needed.
-
+      needed.<br><br>
 
       Empower of prospects and clients, offering them a digital platform that
       makes them feel in control and easily view potential returns in an
