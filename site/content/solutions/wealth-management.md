@@ -6,7 +6,7 @@ topTitle: Accurately Forecast Portfolio Performance and Risks
 topSubTitle: >-
   Empower wealth managers with faster and more accurate performance
   simulation,<br> greater transparency and more comprehensive valuations.
-WhyVisyondText: "Wealth managers are limited by the data provided by the fund managers. They use an average performance instead of simulation on specific fund allocation\r.<br><br>\nWithout Visyond, they cannot easily create multiple scenarios varying the expected return and allocation of funds, and open up self-service dashboards for clients to test assumptions on their own.\r\n"
+WhyVisyondText: "Wealth managers are limited by the data provided by the fund managers. They use an average performance instead of simulation on specific fund allocation.\r<br><br>\nWithout Visyond, they cannot easily create multiple scenarios varying the expected return and allocation of funds, and open up self-service dashboards for clients to test assumptions on their own.\r\n"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - descr: >-
