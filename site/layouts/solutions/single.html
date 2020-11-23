@@ -11,7 +11,7 @@
               <h1 class="home-hero__title" style="margin-top: 20px;">{{ .Params.TopTitle | markdownify }}</h1>
 	      <div class="home-hero__topSubtitle">
 		      {{ if .Params.topSubTitle }}
-		      		{{ .Params.topSubTitle }}
+		      		{{ .Params.topSubTitle | markdownify }}
 		      {{ else }}
 		      		Get what no other spreadsheet-based technology can give you.<br> Do in minutes what takes you days now.
 		      {{ end }}
