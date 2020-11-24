@@ -57,23 +57,35 @@
 			</div>
 		</div>
 	</section>
-<!-- END: Top Section -->
+	<!-- END: Top Section -->
 
-	<!-- Request Section -->
+	<!-- Why Visyond Section -->
 	<section class="whyV" style="background-color: #fafafa;">
 		<div class="container">
 			<div class="whyV__row">
-				<h2 class="enterV__headline">{{ .Params.requestSectionHeader }}</h2>
+				<h2 class="enterV__headline">{{ .Params.whyVisyondSectionHeader }}</h2>
 				<div class="header-section--divider"></div>
 				
 				<div style="text-align: center;">
 					<img src="/img/Why Visyond Stairs Infographics.png">
 				</div>
 				
-				<div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.requestText | markdownify }}</div>
+				<div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.whyVisyondText | markdownify }}</div>
+
+			</div>
+		</div>  
+	</section>
+	<!-- END: Why Visyond Section -->
+	
+	<!-- Request Section -->
+	<section class="whyV" style="background-color: #fafafa;">
+		<div class="container">
+			<div class="whyV__row">
+				<h2 class="enterV__headline" id="request">{{ .Params.requestSectionHeader }}</h2>
+				<div class="header-section--divider"></div>
 
 				<!-- Hubspot Form -->
-				<div id="request" style="width: 600px; margin: auto;">
+				<div style="width: 600px; margin: auto;">
 					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 					<script>
 						hbspt.forms.create({
@@ -88,7 +100,7 @@
 		</div>  
 	</section>
 	<!-- END: Request Section -->
-
+	
 <div>
 
 {{ partial "hexFooter" . }}
