@@ -19,9 +19,10 @@ otherFeatures:
     featureIcon: /img/home/finger.svg
   - feature: Get Started in Minutes
     featureIcon: /img/home/sandWatch.svg
-requestSectionHeader: Talk to Us
-requestText: >-
+whyVisyondSectionHeader: Why Visyond? 
+whyVisyondText: >-
   Find out how to do this and that, and that and this, and solve specific
   use-cases.
+requestSectionHeader: Talk to Us
 ---
 
