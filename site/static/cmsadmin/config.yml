@@ -1572,4 +1572,23 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
       - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
       
-      
+  - name: "marketing"
+    label: "Marketing Landings"
+    folder: "site/content/marketing"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Page URL", name: "url", widget: string}
+      - {label: "Meta tags", name: "metaTags", widget: "markdown"}
+      - {label: "Visyond For...", name: "visyondFor", widget: "string", required: false,}
+      - {label: "Top Header", name: "topHeader", widget: "markdown", required: true}
+      - {label: "Top Subtitle", name: "topSubtitle", widget: "markdown", required: true}
+      - { label: "Other features", name: "otherFeatures", widget: "list",
+        fields: [
+          {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
+          {label: "Feature", name: "feature", widget: "markdown", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}
+      - {label: "Request Section Text", name: "requestText", widget: "markdown", required: false}     
