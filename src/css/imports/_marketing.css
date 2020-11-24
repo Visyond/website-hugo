@@ -1,0 +1,7 @@
+.marketing-form-wrapper {
+  width: 50%; 
+  margin: auto;
+    @media screen and (max-width: 991px) {
+    width: 80%;
+  }   
+}
