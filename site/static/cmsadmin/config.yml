@@ -1590,5 +1590,6 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }
-      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}
-      - {label: "Request Section Text", name: "requestText", widget: "markdown", required: false}     
+      - {label: "Why Visyond Section Header", name: "whyVisyondSectionHeader", widget: "string", required: true}
+      - {label: "Why Visyond Section Text", name: "whyVisyondText", widget: "markdown", required: false}        
+      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
