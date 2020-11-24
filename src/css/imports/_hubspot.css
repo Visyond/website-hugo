@@ -5,6 +5,6 @@
 }
 
 /* Thank you text after form submission on /marketing pages */
-#hs-form-iframe-0 {
-  margin: auto;	
+.submitted-message {
+  text-align: center;
 }	
