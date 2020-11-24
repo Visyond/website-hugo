@@ -3,3 +3,8 @@
 	  width: 100% !important;
 	}
 }
+
+/* Thank you text after form submission on /marketing pages */
+#hs-form-iframe-0 {
+  margin: auto;	
+}	
