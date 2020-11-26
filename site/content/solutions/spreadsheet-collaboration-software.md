@@ -9,7 +9,7 @@ metaTags: >-
   stakeholders."> 
   <meta name="keywords" content="Spreadsheet collaboration
   software, spreadsheet collaboration online"> <meta property="og:title" content="Shorten Your Team’s Journey from a Spreadsheet to a Decision"> 
-  <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
+  <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Solution%20Collaboration%20thumbnail%201200x628.png"> 
   <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software"> 
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Shorten Your Team’s Journey from a Spreadsheet to a Decision'
