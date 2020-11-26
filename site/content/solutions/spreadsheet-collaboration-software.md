@@ -2,29 +2,19 @@
 aliases: /solutions/collaboration/
 metaTags: >-
   <meta name="title" content="Shorten Your Team’s Journey from a Spreadsheet to a Decision"> 
-  <meta name="description" content="Visyond is a secure
-  Excel-compatible spreadsheet modeling, analysis automation and interactive
-  reporting platform that will help you democratize decision-making, remove
-  bottlenecks, and empower efficient and transparent collaboration between
-  stakeholders."> 
+  <meta name="description" content="Integrate spreadsheets, analytics, and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow."> 
   <meta name="keywords" content="Spreadsheet collaboration
   software, spreadsheet collaboration online"> <meta property="og:title" content="Shorten Your Team’s Journey from a Spreadsheet to a Decision"> 
   <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Solution%20Collaboration%20thumbnail%201200x628.png"> 
-  <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software"> 
+  <meta property="og:description" content="Integrate spreadsheets, analytics, and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software"> 
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Shorten Your Team’s Journey from a Spreadsheet to a Decision'
 ThisSolutionIsFor: Remote Work and Collaboration
 topTitle: 'Collaborate Remotely on Spreadsheets, <br> Analysis, and Reports'
 WhyVisyondText: >-
-  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
-  analysis automation and interactive reporting platform that works in the
-  browser and focuses on data security and spreadsheet collaboration.
+  In a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data.
   <br><br>
-  Visyond's spreadsheet collaboration software offers a unique yet familiar all-in-one integrated solution that
-  connects all steps of your business workflow in a single platform: from data
-  gathering from subject-matter experts and subsequent analysis of this data to
-  preparation of interactive visualizations and reports to **help decision
-  makers make better decisions, faster.**
+  Remove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
