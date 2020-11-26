@@ -10,7 +10,7 @@ metaTags: >-
 topImage: /img/solutions/solutions_collaboration_top.png
 title: 'Shorten Your Team’s Journey from a Spreadsheet to a Decision'
 ThisSolutionIsFor: Remote Work and Collaboration
-topTitle: 'Shorten Your Team’s Journey from a Spreadsheet to a Decision'
+topTitle: 'Shorten Your Team’s Journey<br> from a Spreadsheet to a Decision'
 WhyVisyondText: >-
   In a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data.
   <br><br>
