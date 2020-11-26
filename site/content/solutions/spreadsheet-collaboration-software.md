@@ -1,20 +1,18 @@
 ---
 aliases: /solutions/collaboration/
 metaTags: >-
-  <meta name="title" content="Collaborate Remotely on Spreadsheets, Analysis,
-  and Reports"> 
+  <meta name="title" content="Shorten Your Team’s Journey from a Spreadsheet to a Decision"> 
   <meta name="description" content="Visyond is a secure
   Excel-compatible spreadsheet modeling, analysis automation and interactive
   reporting platform that will help you democratize decision-making, remove
   bottlenecks, and empower efficient and transparent collaboration between
   stakeholders."> 
   <meta name="keywords" content="Spreadsheet collaboration
-  software, spreadsheet collaboration online"> <meta property="og:title" content="Collaborate Remotely on Spreadsheets, Analysis, and
-  Reports"> 
+  software, spreadsheet collaboration online"> <meta property="og:title" content="Shorten Your Team’s Journey from a Spreadsheet to a Decision"> 
   <meta property="og:type" content="website"> <meta property="og:image" content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
   <meta property="og:description" content="Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do."> <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-collaboration-software"> 
 topImage: /img/solutions/solutions_collaboration_top.png
-title: 'Collaborate Remotely on Spreadsheets, Analysis, and Reports'
+title: 'Shorten Your Team’s Journey from a Spreadsheet to a Decision'
 ThisSolutionIsFor: Remote Work and Collaboration
 topTitle: 'Collaborate Remotely on Spreadsheets, <br> Analysis, and Reports'
 WhyVisyondText: >-
