@@ -327,12 +327,6 @@ $(function () {
 
 
 
-
-
-
-
-
-
     // ===== AUTOPLAY VIDEO =====
     if(document.querySelector('.js-background-video')) {
         const video = document.querySelector('.js-background-video');
@@ -342,8 +336,36 @@ $(function () {
     }
 
 
-
-
+    // Returns a float between 0 and 1 representing the percentage of the element argument is in the window viewport
+    var percentVisible = function (elem) {
+        var bound = elem.getBoundingClientRect()
+        if(bound.y < 0) {
+            // element is above viewport
+            return Math.max(0, 1+bound.y/elem.offsetHeight)
+        }
+        else if(bound.y + elem.offsetHeight > window.innerHeight) {
+            // element is below viewport
+            return Math.max(0, (window.innerHeight-bound.y)/elem.offsetHeight)
+        }
+        else {
+            return 1.0;
+        }
+    };
+    
+    
+    // Toggle Video Play/Pause on Scroll Event
+    window.onscroll = function() {
+        var all_videos = document.getElementsByTagName("video");
+        for(var i = 0; i < all_videos.length; i++) {
+            if(all_videos[i].classList.contains("scroll_toggle") && percentVisible(all_videos[i]) > 0.5) {
+                console.log(percentVisible(all_videos[i]));
+                all_videos[i].play();
+            }
+            else {
+                all_videos[i].pause();
+            }
+        }
+    }
 
 
     //=====LOGO TRUSTED SLIDER=====
