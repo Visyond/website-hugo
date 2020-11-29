@@ -8,7 +8,7 @@ metaTags: >-
   <meta property="og:type" content="website">
 
   <meta property="og:image"
-  content="https://visyond.com/img/Financial%20Planning%20thumbnail%201200x628.jpg">
+  content="https://visyond.com/img/Financial%20Planning%20thumbnail%201200x628.png">
 
   <meta property="og:description" content="Automate scenarios and sensitivities,
   improve accuracy of assumptions, and manage multiple scenarios with ease.
