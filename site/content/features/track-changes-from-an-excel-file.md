@@ -10,7 +10,7 @@ ThisFeatureIsFor: 'Data Tracking and Governance'
 topTitle: >-
   Single Source of Truth for Your Spreadsheets - Track Changes from an Excel
   file
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond offers a  centralized repository to store and track all your
   spreadsheet data - changes, assumptions, supporting documentation,
   conversations and approvals, allowing to track changes from an Excel file.
