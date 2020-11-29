@@ -10,8 +10,11 @@ metaTags: |2-
     <meta property="og:url" content="https://visyond.com/financial-planning">
     <meta name="description" content="aaaaaaaaaaa.">
 visyondFor: Financial Planning
-topHeader: Finance Planning Header Temp
-topSubtitle: 'Do this and that, and that and this, and this and that, and that too.'
+topHeader: Transform Your Spreadsheets into a Collaborative Financial Planning Platform
+topSubtitle: >-
+  Automate scenarios and sensitivities, improve accuracy of assumptions, and
+  manage multiple scenarios with ease. Share insights via interactive
+  self-service dashboards driven by your model.
 otherFeatures:
   - feature: Excel Compatible
     featureIcon: /img/home/excel.svg
@@ -19,10 +22,8 @@ otherFeatures:
     featureIcon: /img/home/finger.svg
   - feature: Get Started in Minutes
     featureIcon: /img/home/sandWatch.svg
-whyVisyondSectionHeader: Why Visyond? 
-whyVisyondText: >-
-  Find out how to do this and that, and that and this, and solve specific
-  use-cases.
+whyVisyondSectionHeader: Why Visyond?
+whyVisyondText: "Quickly transform your company's spreadsheets into a collaborative, automated, self-service financial planning platform. <br><br>\r\nIn a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data. <br><br>\r\nRemove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.\r"
 requestSectionHeader: Talk to Us
 ---
 
