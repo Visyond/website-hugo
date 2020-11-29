@@ -10,7 +10,7 @@ metaTags: >-
 topTitle: >-
   Identify And Visualize Cell Dependencies with Visyond’s Spreadsheet Dependency
   Analysis
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond’s cell Dependency analysis allows you to visually navigate through
   different cells and see how they relate and impact one another, without
   tampering with the spreadsheet.
