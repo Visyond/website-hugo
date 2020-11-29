@@ -37,7 +37,7 @@ otherFeatures:
   - feature: Get Started in Minutes
     featureIcon: /img/home/sandWatch.svg
 whyVisyondSectionHeader: Why Visyond for Financial Planning?
-whyVisyondText: "* Quickly transform your company's spreadsheets into a collaborative, automated, self-service financial planning platform. <br><br>\r\n* In a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data. <br><br>\r\n* Remove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.\r"
+whyVisyondText: "* Quickly transform your company's spreadsheets into a collaborative, automated, self-service financial planning platform.\r\n* In a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data.\r\n* Remove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.\r"
 requestSectionHeader: Talk to Us
 ---
 
