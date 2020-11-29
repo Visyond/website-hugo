@@ -10,7 +10,7 @@ ThisFeatureIsFor: 'Scenario Comparison and Analysis'
 topTitle: >-
   Scenario Analysis Software - Compare Scenarios and Answer What-If Questions
   On-The-Fly
-topSubTitle: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
+WhyVisyondText: "With Visyond’s scenario analysis software you can quickly compare different assumptions in  real time without depending on experts.\r\n"
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
