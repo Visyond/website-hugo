@@ -6,18 +6,11 @@ title: Risks Analysis and Simulations
 ThisSolutionIsFor: Risks Analysis and Simulations
 topTitle: Analyze Risks with Simulations<br> and Manage Value at Risk
 topSubTitle: >-
-  Analyze risks and run simulations on the same, single platform where the model
-  and its evolving assumptions are. Effectively communicate performance risk
-  through self-service interactive dashboards.
+  Analyze risks and run simulations in the same place where the model and its
+  evolving assumptions are. Effectively communicate performance risk through
+  self-service interactive dashboards.
 WhyVisyondHeader: Why Visyond?
-WhyVisyondText: >-
-  Visyond transforms Risk Analysis and Monte Carlo Simulations into a truly
-  collaborative experience by removing the need to use multiple tools and
-  transfer data between them, connecting stakeholders and clients together in a
-  cloud decision-making platform with your spreadsheet at the center, and
-  providing easy-to-use tools for modeling, managing evolving assumptions,
-  analytics automation, and interactive self-service dashboards the stakeholders
-  can use to stress-test the assumptions on their own.
+WhyVisyondText: "Visyond transforms Risk Analysis and Monte Carlo Simulations into a truly collaborative experience by removing the need to use multiple tools and transfer data between them.\r\n<br><br>\r\nModelers, analysts, decision makers and clients can securely collaborate and have accessible and easy-to-use automation tools in a single, cloud-based decision-making platform with your spreadsheet model at the center, without version chaos and risks of losing information or overwriting data.\r\n<br><br>\r\nCustomers can communicate the performance risk through interactive dashboards that are managed in a single place, and seen only by specific stakeholders, without the need to update static slides at every assumption change.\r\n<br><br>\r\nStakeholders can stress-test the assumptions in a safe environment where they are the only one seeing the output driven by their changes and where they cannot accidentally break the underlying model.\r"
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
