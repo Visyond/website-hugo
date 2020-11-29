@@ -1,14 +1,28 @@
 ---
 title: Financial Planning
 url: /financial-planning
-metaTags: |2-
-    <meta property="og:title" content="Visyond For Financial Planning">
-    <meta property="og:type" content="website">
-    <meta property="og:image"
-    content="https://visyond.com/img/Financial%20Planning%20thumbnail%201200x628.jpg">
-    <meta property="og:description" content="aaaaaaaaaaaaa.">
-    <meta property="og:url" content="https://visyond.com/financial-planning">
-    <meta name="description" content="aaaaaaaaaaa.">
+metaTags: >-
+  <meta property="og:title" content="Transform Your Spreadsheets into a
+  Collaborative Financial Planning Platform">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:image"
+  content="https://visyond.com/img/Financial%20Planning%20thumbnail%201200x628.jpg">
+
+  <meta property="og:description" content="Automate scenarios and sensitivities,
+  improve accuracy of assumptions, and manage multiple scenarios with ease.
+  Share insights via interactive self-service dashboards driven by your model.">
+
+  <meta property="og:url" content="https://visyond.com/financial-planning">
+
+
+  <meta name="title" content="Transform Your Spreadsheets into a Collaborative
+  Financial Planning Platform">
+
+  <meta name="description" content="Automate scenarios and sensitivities,
+  improve accuracy of assumptions, and manage multiple scenarios with ease.
+  Share insights via interactive self-service dashboards driven by your model.">
 visyondFor: Financial Planning
 topHeader: Transform Your Spreadsheets into a Collaborative Financial Planning Platform
 topSubtitle: >-
@@ -22,7 +36,7 @@ otherFeatures:
     featureIcon: /img/home/finger.svg
   - feature: Get Started in Minutes
     featureIcon: /img/home/sandWatch.svg
-whyVisyondSectionHeader: Why Visyond?
+whyVisyondSectionHeader: Why Visyond for Financial Planning?
 whyVisyondText: "Quickly transform your company's spreadsheets into a collaborative, automated, self-service financial planning platform. <br><br>\r\nIn a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data. <br><br>\r\nRemove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.\r"
 requestSectionHeader: Talk to Us
 ---
