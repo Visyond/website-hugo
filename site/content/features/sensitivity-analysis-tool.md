@@ -10,7 +10,7 @@ ThisFeatureIsFor: 'Sensitivity Analysis'
 topTitle: >-
   Sensitivity Analysis Tool - Instantly Understand the Relationship Between
   Input and Output Variables in a Spreadsheet
-topSubTitle: >-
+WhyVisyondText: >-
   Sensitivity analysis tool offers a great way to better understand
   relationships between inputs and outputs of your spreadsheet. Visyond makes
   sensitivity analysis setup a few-clicks job.
