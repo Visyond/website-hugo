@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="description" content="Easily gather & consolidate data and merge Excel spreadsheets with Visyond’s data gathering and consolidation tool.">
   <meta name="keywords" content="merge spreadsheets, merge excel spreadsheets, excel data consolidation tool">
 topTitle: Structured Spreadsheet Data Gathering and Consolidation
-topSubTitle: >-
+WhyVisyondText: >-
   Easily gather & consolidate data and merge spreadsheets - you no longer need
   to create multiple spreadsheet templates, manually distribute it among
   stakeholders risking accidental layout and formula changes and spending long
