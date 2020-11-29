@@ -10,7 +10,7 @@ ThisFeatureIsFor: 'Impact (Tornado) Analysis'
 topTitle: >-
   Business Impact Analysis Tool - Know What Input Cells Have the Greatest Impact
   on Important Output Cells
-topSubTitle: >-
+WhyVisyondText: >-
   Ever wondered what input cells have the greatest impact on a key output so you
   can analyse them and understand how to reduce your costs, grow your revenues
   or increase/decrease any important Key Performance Indicator?
