@@ -1,15 +1,13 @@
 ---
 aliases: /features/knowledge-base/
-title: Track Changes from an Excel File
+title: Create a Single Source of Truth for Your Spreadsheets
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
-  <meta name="title" content="Single Source of Truth for Your Spreadsheets - Track Changes from an Excel File">
-  <meta name="description" content="Track changes in Excel, enjoy enhanced spreadsheet version control, store supporting documentation, conversations and approvals directly in relevant cells with Visyond">
-  <meta name="keywords" content="track changes in excel, spreadsheet version control">
+  <meta name="title" content="Create a Single Source of Truth for Your Spreadsheets">
+  <meta name="description" content="Establish a single source of truth for your spreadsheets, and track who added certain assumptions, scenarios, supporting documentation, and conversations.">
 ThisFeatureIsFor: 'Data Tracking and Governance'
 topTitle: >-
-  Single Source of Truth for Your Spreadsheets - Track Changes from an Excel
-  file
+  Establish a Single Source of Truth for Your Spreadsheets
 WhyVisyondText: >-
   Visyond offers a  centralized repository to store and track all your
   spreadsheet data - changes, assumptions, supporting documentation,
