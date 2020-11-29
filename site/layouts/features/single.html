@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="home-hero__container">
 				<div class="home-hero__half-width-wrap" style="width: 100%;/* text-align: center;*/">			
-					<div class="home-hero__topSubtitle" style="margin-bottom: 10px; font-weight: 400; font-size: 1.4em; color: #0086ff;">Visyond For {{ .Params.ThisSolutionIsFor }}</div>	  
+					<div class="home-hero__topSubtitle" style="margin-bottom: 10px; font-weight: 400; font-size: 1.4em; color: #0086ff;">Visyond For {{ .Params.ThisFeatureIsFor }}</div>	  
 						<h1 class="home-hero__title" style="margin-top: 20px;">{{ .Params.TopTitle | markdownify }}</h1>
 						
 						<div class="home-hero__topSubtitle" style="width: 70%;">
@@ -16,14 +16,6 @@
 								Get what no other spreadsheet-based technology can give you.<br> Do in minutes what takes you days now.
 							{{ end }}
 						</div>
-						 
-						<ul class="home-hero__main-features" style="/*-webkit-box-pack: center; justify-content: center;*/ font-weight: 600;">
-							<li>Planning automation</li>
-							<li>Quick adoption</li>
-							<li>Secure collaboration</li>
-							<li>Error reduction</li>
-						</ul>
-						 
 				</div>
 				
 				<!--    
@@ -79,46 +71,8 @@
 		</div>
 	</section>
 	<!-- END: TOP SECTION -->
-
 	
 	{{ partial "hexSlider" . }}
-	
-		
-	<!-- WHY V SECTION -->
-	<section class="whyV">
-		<div class="container">
-			<div class="whyV__row">
-				<h2 class="enterV__headline">
-					{{ if .Params.WhyVisyondHeader }}
-						{{ .Params.WhyVisyondHeader }}
-					{{ else }}
-						Why Visyond?
-					{{ end }}
-				</h2>
-				
-				<div class="header-section--divider"></div>
-				
-				<div class="whyV__text caseStudy-summary__text" style="width: 80%; margin: 0 auto 15px;">{{ .Params.WhyVisyondText | markdownify }}</div>
-				
-				<div style="text-align: center;">
-					<img src="/img/Why Visyond Stairs Infographics.png">
-				</div>
-				
-				<!-- <div style="width: 90%; text-align: center; margin: auto;"><a href="/why-visyond" class="button button-primary" target="_blank">Learn more</a></div> -->
-			</div>
-		</div>  
-	</section>
-	<!-- END: WHY V SECTION  -->
-
-	<!-- GET STARTED SECTION -->
-	<section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
-		<div class="container">
-			<h2 class="getHexStarted__title">Flexible. Familiar. Scalable.</h2>
-			<a href="#request" class="button button-contrast">Request Demo</a>
-		</div>
-	</section>
-	<!-- END: GET STARTED SECTION -->
-		
 		
 	<!-- ENTER V SECTION -->
 	<section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
