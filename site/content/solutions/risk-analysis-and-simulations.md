@@ -2,8 +2,8 @@
 aliases: ''
 metaTags: "<meta name=\"title\" content=\"Risks Analysis and Simulations\">\n<meta name=\"description\" content=\"Automate and collaborate on spreadsheet data analysis, and visualize the impact of the most important cells.\">\n\n<meta property=\"og:title\" content=\"Analyze Risks with Simulations and Manage Value at Risk\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. \rCarry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/risk-analysis-and-simulations\">"
 topImage: /img/solutions/solutions_collaborative_analysis_top.png
-title: Risks Analysis and Simulations
-ThisSolutionIsFor: Risks Analysis and Simulations
+title: Risk Analysis and Simulations
+ThisSolutionIsFor: Risk Analysis and Simulations
 topTitle: Analyze Risks with Simulations<br> and Manage Value at Risk
 topSubTitle: >-
   Analyze risks and run simulations in the same place where the model and its
