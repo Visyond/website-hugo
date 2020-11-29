@@ -10,7 +10,7 @@ ThisFeatureIsFor: 'Secure Data Sharing and Granular Access Control'
 topTitle: >-
   Share Spreadsheets, Presentations and Analysis Online - Only What
   Collaborators, Clients or Prospects Need To See
-topSubTitle: >-
+WhyVisyondText: >-
   Communicate more efficiently while avoiding data leaks by securely sharing
   spreadsheets, presentations and results of analysis online. Visyond removes
   the need for emailing spreadsheets, back-and-forth copy-paste between
