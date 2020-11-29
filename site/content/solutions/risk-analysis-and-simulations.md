@@ -53,21 +53,18 @@ WhyVisyondText: >-
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
+      - text: 'Analyze risks, run simulations and create forecasts '
       - text: Visualize the impact of important cells
       - text: Answer ‘what-if’ questions and compare scenarios
       - text: Visualize the drivers that change between scenarios
-      - text: 'Analyze risks, run simulations and create forecasts '
-      - text: >-
-          Slice and dice your data with customizable Pivots without additional
-          data preparation
       - text: >-
           Share the results of your analysis with stakeholders via interactive
           dashboards, shielding them from sensitive or unnecessary information
-    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
+    descr: "**Automate and carry out, in minutes, analyses that used to take hours or days to prepare,** without accidentally changing your collaborators’ work or transferring data between multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
     files: []
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk analysis.\r"
+    subtitle: "Risk analysis and simulations.\r\n<br>\nCollaborative analysis.\r\n<br>\nSelf-service stress-testing.\r"
     title: Visualize the Impact of Important Business Drivers
   - benefitsList:
       - text: Change assumptions and visualize how changes affect KPIs
@@ -83,7 +80,7 @@ infoBlockFirst:
     files: []
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
+    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without changing the model.\r"
     title: Share Insights with Spreadsheet-driven Dashboards
   - benefitsList:
       - text: >-
@@ -103,7 +100,7 @@ infoBlockFirst:
     files: []
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
+    subtitle: "Data gathering and scenario management.\r\n<br>\r\nCollaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r"
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
       - text: Have better control over information flow and data privacy
@@ -140,14 +137,11 @@ infoBlockFirst:
       - text: >-
           Share only specific worksheets, reports and dashboards with specific
           people for better control over information flow and data privacy
-    descr: >-
-      **Track changes and collaborate across multiple departments and
-      workstreams in a single secure environment** connecting decision makers,
-      analysts, modelers, consultants, clients and prospects.
+    descr: "**Track changes and collaborate with stakeholders in a single secure environment** connecting decision makers, analysts, modelers, consultants, clients and prospects. Know who and when contributed certain assumptions\r, scenarios and analyses."
     files: []
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
-    subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
+    subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without data overwriting.\r\n<br>\nData gathering without version chaos.\r"
     title: Track What Is Happening in Your Projects
   - benefitsList:
       - text: >-
