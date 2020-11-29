@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="keywords" content="monte carlo simulation software, online monte carlo simulation tool">
 ThisFeatureIsFor: 'Monte Carlo Simulations'
 topTitle: Monte Carlo Simulation Software - Explore Probabilities of Different Outcomes
-topSubTitle: >-
+WhyVisyondText: >-
   Monte Carlo Simulation replaces the inputs with random variables in a
   specified range and shows how it affects the output. With Visyond you can
   easily run Simulations without long manual setups.
