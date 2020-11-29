@@ -5,7 +5,7 @@ ThisFeatureIsFor: 'Pivot / Cube / OLAP Analysis'
 topTitle: >-
   Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
   Analysis Online
-topSubTitle: >-
+WhyVisyondText: >-
   Find actionable insights and improve descriptive analytics with Visyond’s
   Online OLAP Analysis and pivot tables that are synchronized with your
   spreadsheets in real time  and grant you flexibility other BI tools don’t.
