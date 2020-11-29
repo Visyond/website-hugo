@@ -10,13 +10,7 @@
 					<div class="home-hero__topSubtitle" style="margin-bottom: 10px; font-weight: 600; font-size: 1.4em; color: #0086ff;">Visyond For {{ .Params.visyondFor }}</div>
 					<h1 class="home-hero__title">{{ .Params.topHeader | markdownify }}</h1>
 					<div class="home-hero__topSubtitle">{{ .Params.topSubtitle | markdownify }}</div>
-					<ul class="home-hero__main-features">
-						{{ range .Params.mainFeatures }}
-						<li>{{ .feature }}</li>
-						{{ end }}
-					</ul>
 				</div>
-				
 				
 				<div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
 					<img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
@@ -37,7 +31,7 @@
 				</div>
 				
 				
-				<div class="home-hero__full-width-wrap">
+				<div class="home-hero__full-width-wrap" style="margin-top: 10px;">
 					<ul class="home-hero__other-features">
 						{{ range .Params.otherFeatures }}
 						<li>
@@ -58,28 +52,8 @@
 		</div>
 	</section>
 	<!-- END: Top Section -->
-
-	<!-- Why Visyond Section -->
-	<section class="whyV" style="background-color: #fafafa;">
-		<div class="container">
-			<div class="whyV__row">
-				<h2 class="enterV__headline">{{ .Params.whyVisyondSectionHeader }}</h2>
-				<div class="header-section--divider"></div>
-
-				<div style="text-align: center;">
-					<img src="/img/Why Visyond Stairs Infographics.png">
-				</div>				
-				
-				<div class="whyV__text caseStudy-summary__text" style="width: 85%; margin: 15px auto;">{{ .Params.whyVisyondText | markdownify }}</div>				
-				
-				<div style="width: 90%; text-align: center; margin: auto; margin-top: 20px;"><a href="#request" class="button button-primary">Request Demo</a></div>
-				
-			</div>
-		</div>  
-	</section>
-	<!-- END: Why Visyond Section -->
 	
-	<!-- Request Section -->
+	<!-- REQUEST SECTION -->
 	<section class="whyV">
 		<div class="container">
 			<div class="whyV__row">
@@ -101,7 +75,28 @@
 			</div>
 		</div>  
 	</section>
-	<!-- END: Request Section -->
+	<!-- END: REQUEST SECTION -->	
+	
+	<!-- Why Visyond Section -->
+	<section class="whyV" style="background-color: #fafafa;">
+		<div class="container">
+			<div class="whyV__row">
+				<h2 class="enterV__headline">{{ .Params.whyVisyondSectionHeader }}</h2>
+				<div class="header-section--divider"></div>
+
+				<div style="text-align: center;">
+					<img src="/img/Why Visyond Stairs Infographics.png">
+				</div>				
+				
+				<div class="whyV__text caseStudy-summary__text" style="width: 85%; margin: 15px auto;">{{ .Params.whyVisyondText | markdownify }}</div>				
+				
+				<div style="width: 90%; text-align: center; margin: auto; margin-top: 20px;"><a href="#request" class="button button-primary">Request Demo</a></div>
+				
+			</div>
+		</div>  
+	</section>
+	<!-- END: Why Visyond Section -->
+	
 </div>
 
 {{ partial "hexFooterBlank" . }}
