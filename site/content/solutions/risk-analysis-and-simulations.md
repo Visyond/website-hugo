@@ -1,11 +1,23 @@
 ---
-aliases: /solutions/analysis/
-metaTags: "<meta name=\"title\" content=\"Data Analysis Software\">\n<meta name=\"description\" content=\"Automate and collaborate on spreadsheet data analysis, and visualize the impact of the most important cells.\">\n<meta name=\"keywords\" content=\"data analysis software, spreadsheet data analysis, spreadsheet analysis software\">\n\n<meta property=\"og:title\" content=\"Automate Spreadsheet Data Analysis and Make Better Decisions, Faster\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. \rCarry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-analysis-software\">"
+aliases: ''
+metaTags: "<meta name=\"title\" content=\"Risks Analysis and Simulations\">\n<meta name=\"description\" content=\"Automate and collaborate on spreadsheet data analysis, and visualize the impact of the most important cells.\">\n\n<meta property=\"og:title\" content=\"Analyze Risks with Simulations and Manage Value at Risk\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. \rCarry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/risk-analysis-and-simulations\">"
 topImage: /img/solutions/solutions_collaborative_analysis_top.png
-title: Data Analysis Software
-ThisSolutionIsFor: Analysis Automation
-topTitle: 'Automate Spreadsheet Data Analysis<br> and Make Better Decisions, Faster '
-WhyVisyondText: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond's data analysis software, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
+title: Risks Analysis and Simulations
+ThisSolutionIsFor: Risks Analysis and Simulations
+topTitle: Analyze Risks with Simulations<br> and Manage Value at Risk
+topSubTitle: >-
+  Analyze risks and run simulations on the same, single platform where the model
+  and its evolving assumptions are. Effectively communicate performance risk
+  through self-service interactive dashboards.
+WhyVisyondHeader: Why Visyond?
+WhyVisyondText: >-
+  Visyond transforms Risk Analysis and Monte Carlo Simulations into a truly
+  collaborative experience by removing the need to use multiple tools and
+  transfer data between them, connecting stakeholders and clients together in a
+  cloud decision-making platform with your spreadsheet at the center, and
+  providing easy-to-use tools for modeling, managing evolving assumptions,
+  analytics automation, and interactive self-service dashboards the stakeholders
+  can use to stress-test the assumptions on their own.
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
