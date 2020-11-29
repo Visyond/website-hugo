@@ -1,7 +1,7 @@
 ---
 metaTags: "<meta property=\"og:title\" content=\"Improve the Quality of Your Investment Decisions\"> \n<meta property=\"og:type\" content=\"website\"> \n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\"> \n<meta property=\"og:url\" content=\"https://visyond.com/solutions/private-equity-venture-capital/\"> \n\n<meta name=\"title\" content=\"Improve the Quality of Your Investment Decisions\">\n<meta name=\"description\" content=\"Improve investment analysis and reporting, Understand KPIs and their response to change, Simplify data gathering from portfolio companies.\"> \n<meta name=\"keywords\" content=\"private equity software, venture capital software, venture fund software, VC software, portfolio management software, investment software\">"
 title: Improve the Quality of Your Investment Decisions
-ThisSolutionIsFor: Private Equity and Venture Capital
+ThisSolutionIsFor: M&A | Investment Analysis | PE&VC
 topTitle: Improve the Quality of Your Investment Decisions
 WhyVisyondText: >-
   Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
