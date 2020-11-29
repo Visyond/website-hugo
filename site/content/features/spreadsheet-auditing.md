@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="keywords" content="excel auditing tools, formula auditing in excel, find errors in excel, error checking tool excel">
 ThisFeatureIsFor: 'Spreadsheet Auditing and Error Root Cause Analysis'
 topTitle: 'Audit, Error-Check and Debug Spreadsheets With Ease'
-topSubTitle: >-
+WhyVisyondText: >-
   Audit Mode is a powerful spreadsheet auditing & error checking tool that will
   aid you greatly in debugging and auditing your spreadsheets.
 signUpURL: /accounts/signup/
