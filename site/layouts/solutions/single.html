@@ -39,7 +39,7 @@
 			  
 				<div class="home-hero__half-width-wrap" style="width: 100%;">
 					<div class="home-hero__buttons-section">
-						<a href="/request" class="button button-primary button-asterisk">
+						<a href="#request" class="button button-primary button-asterisk">
 							Request Demo
 						</a>		      
 					</div>
@@ -110,14 +110,14 @@
 	</section>
 	<!-- END: WHY V SECTION  -->
 
-	<!-- GET STARTED #1 SECTION -->
+	<!-- GET STARTED SECTION -->
 	<section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
 		<div class="container">
-			<h2 class="getHexStarted__title">Make Better Decisions, Faster</h2>
-			<a href="/request" class="button button-contrast">Request Demo</a>
+			<h2 class="getHexStarted__title">Flexible. Familiar. Scalable.</h2>
+			<a href="#request" class="button button-contrast">Request Demo</a>
 		</div>
 	</section>
-	<!-- END: GET STARTED #1 SECTION -->
+	<!-- END: GET STARTED SECTION -->
 		
 		
 	<!-- ENTER V SECTION -->
@@ -132,13 +132,27 @@
 	</section>
 	<!-- END: ENTER V SECTION -->
 
-	<section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+	<!-- REQUEST DEMO FORM -->
+	<section class="whyV">
 		<div class="container">
-			<h2 class="getHexStarted__title">Flexible. Familiar. Scalable.</h2>
-			<a href="/request" class="button button-contrast">Request Demo</a>
-		</div>
+			<div class="whyV__row">
+				<h2 class="enterV__headline" id="request">{{ .Params.requestSectionHeader }}</h2>
+				<div class="header-section--divider"></div>
+				<!-- Hubspot Form - Request Short -->
+				<div class="marketing-form-wrapper">
+					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+					<script>
+					  hbspt.forms.create({
+						portalId: "3409378",
+						formId: "e572bc81-ab4b-47d2-90cb-ebac170803f2"
+					});
+					</script>
+				</div>	
+				<!-- END: Hubspot Form - Request Short -->
+			</div>
+		</div>  
 	</section>
-
+	<!-- END: REQUEST DEMO FORM -->
 
 	<section class="homeFeatured" style="background-image: url('/img/home/visForBg.svg'), url('/img/home/blueRectangle.svg');">
 		{{ partial "hexCaseStudies" . }}
@@ -147,9 +161,7 @@
 		-->
 	</section>
 	
-	<!-- GET STARTED #2 SECTION -->
 	{{ partial "hexStartedIn" . }}
-	<!-- GET STARTED #2 SECTION -->
 
 </div>
 
