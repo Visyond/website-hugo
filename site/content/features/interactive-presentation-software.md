@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="keywords" content="interactive presentation software, financial model presentation, data visualization software">
 ThisFeatureIsFor: 'Interactive, Spreadsheet-driven Dashboards'
 topTitle: Create and Securely Share Powerful Interactive Presentations
-topSubTitle: >-
+WhyVisyondText: >-
   Visyond’s  Interactive Presentation software offers an elegant way to present
   and visualize your  spreadsheet data and securely test assumptions -
   information is always up to date, and each slide automatically syncs data with
