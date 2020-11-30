@@ -355,10 +355,9 @@ $(function () {
     
     // Toggle Video Play/Pause on Scroll Event
     window.onscroll = function() {
-        var all_videos = document.getElementsByTagName("video");
+        var all_videos = document.getElementsByTagName("video");     
         for(var i = 0; i < all_videos.length; i++) {
             if(all_videos[i].classList.contains("scroll_toggle") && percentVisible(all_videos[i]) > 0.5) {
-                console.log(percentVisible(all_videos[i]));
                 all_videos[i].play();
             }
             else {
@@ -367,6 +366,20 @@ $(function () {
         }
     }
 
+    // turn off all controls on page load, and add event listeners for mouse hover over videos to toggle controls
+    window.onload = function() {
+        var all_videos = document.getElementsByTagName("video");
+        for(var i = 0; i < all_videos.length; i++) {
+            all_videos[i].controls = false;
+            all_videos[i].onmouseover = function() {
+                this.controls = true;
+            }
+            all_videos[i].onmouseout = function() {
+                this.controls = false;
+            }
+        }
+    }
+    
 
     //=====LOGO TRUSTED SLIDER=====
 
