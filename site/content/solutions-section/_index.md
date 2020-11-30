@@ -41,6 +41,11 @@ solDropdownCol:
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
         title: Spreadsheet Modeling
+      - descr: >-
+          Analyze risks and run simulations in the same place where the model and its evolving assumptions are. Effectively communicate performance risk through self-service interactive dashboards.
+        image: /img/audit-mode@2x.png
+        path:  /solutions/risk-analysis-and-simulations/
+        title: Risk Analysis and Simulations
     title: Use case
   - solution_dropdown:
       - descr: >-
