@@ -1,14 +1,14 @@
 ---
 metaTags: >-
-  <meta property="og:title" content="Transform Your Spreadsheets Into a Decision-making Platform to Drive Performance">
+  <meta property="og:title" content="Transform Your Spreadsheets into a Decision-making Platform to Drive Performance">
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/Visyond%20homepage%20thumbnail%201200x628.jpg">
   <meta property="og:description" content="Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.">
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.">
-title: Transform Your Spreadsheets Into a Decision-making Platform to Drive Performance
-heroTitle: Transform Your Spreadsheets Into a Decision-making Platform to Drive Performance
+title: Transform Your Spreadsheets into a Decision-making Platform to Drive Performance
+heroTitle: Transform Your Spreadsheets into a Decision-making Platform to Drive Performance
 topSubTitle: >-
   Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.
 mainFeatures:
