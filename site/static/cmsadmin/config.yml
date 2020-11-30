@@ -854,11 +854,12 @@ collections: # A list of collections the CMS should be able to edit
         name: "homeName"
         file: "site/content/_index.md"
         fields:
-          - {label: "Title", name: "title", widget: "string", required: true}
           - {label: "Page url", name: "url", widget: string}
-          - { label: "Meta tags", name: "metaTags", widget: "markdown"}      
-          - {label: "Hero title", name: "heroTitle", widget: "markdown", required: true}
-          - { label: "Main features list", name: "mainFeatures", widget: "list",
+	  - {label: "Meta tags", name: "metaTags", widget: "markdown"}   
+          - {label: "Title", name: "title", widget: "string", required: true}   
+          - {label: "Top title", name: "heroTitle", widget: "markdown", required: true}
+          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
+          - {label: "Main features list", name: "mainFeatures", widget: "list",
             fields: [
               {label: "Feature", name: "feature", widget: "string", required: false,},
             ],
