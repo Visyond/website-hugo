@@ -1,16 +1,16 @@
 ---
 aliases: ''
 metaTags: >-
-  <meta name="title" content="Analyze Risks with Simulations and Manage Value at
-  Risk">
+  <meta name="title" content="Analyze Risks with Collaborative Simulations and
+  Interactive Dashboards">
 
   <meta name="description" content="Analyze risks and run simulations in the
   same place where the model and its evolving assumptions are. Effectively
   communicate performance risk through self-service interactive dashboards.">
 
 
-  <meta property="og:title" content="Analyze Risks with Simulations and Manage
-  Value at Risk">
+  <meta property="og:title" content="Analyze Risks with Collaborative
+  Simulations and Interactive Dashboards">
 
   <meta property="og:type" content="website">
 
@@ -24,14 +24,14 @@ metaTags: >-
   <meta property="og:url"
   content="https://visyond.com/solutions/risk-analysis-and-simulations">
 topImage: /img/solutions/solutions_collaborative_analysis_top.png
-title: Risk Analysis and Simulations
+title: Analyze Risks with Collaborative Simulations and Interactive Dashboards
 ThisSolutionIsFor: Risk Analysis and Simulations
-topTitle: Analyze Risks with Simulations<br> and Manage Value at Risk
+topTitle: Analyze Risks with Collaborative Simulations<br>and Interactive Dashboards
 topSubTitle: >-
   Analyze risks and run simulations in the same place where the model and its
   evolving assumptions are. Effectively communicate performance risk through
   self-service interactive dashboards.
-WhyVisyondHeader: Why Visyond?
+WhyVisyondHeader: Why Visyond for Risk Analysis?
 WhyVisyondText: >-
   * Visyond transforms Risk Analysis and Monte Carlo Simulations into a truly
   collaborative experience by removing the need to use multiple tools and
@@ -39,13 +39,12 @@ WhyVisyondText: >-
 
   * Modelers, analysts, decision makers and clients can securely collaborate and
   have accessible and easy-to-use automation tools in a single, cloud-based
-  decision-making platform with your spreadsheet model at the center, without
+  decision-making platform with the spreadsheet model at the center, without
   version chaos and risks of losing information or overwriting data.
 
-  * Customers can communicate the performance risk through interactive
-  dashboards that are managed in a single place, and seen only by specific
-  stakeholders, without the need to update static slides at every assumption
-  change.
+  * Performance risks can be communicated through interactive dashboards that
+  are managed in a single place, and seen only by specific stakeholders, without
+  the need to update static slides at every assumption change.
 
   * Stakeholders can stress-test the assumptions in a safe environment where
   they are the only one seeing the output driven by their changes and where they
