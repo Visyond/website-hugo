@@ -8,7 +8,7 @@
       <div class="home-hero__container">
           <div class="home-hero__half-width-wrap">
               <h1 class="home-hero__title">{{ .Params.heroTitle | markdownify }}</h1>
-              <div class="home-hero__topSubtitle">Create scenarios, what-if analyses and management reports in a collaborative decision making platform with your spreadsheet at the center.</div>
+              <div class="home-hero__topSubtitle">{{ .Params.topSubTitle | markdownify }}</div>
               <ul class="home-hero__main-features">
                   {{ range .Params.mainFeatures }}
                   <li>{{ .feature }}</li>
