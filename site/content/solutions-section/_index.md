@@ -1,18 +1,6 @@
 ---
 solDropdownCol:
   - solution_dropdown:
-      - descr: 'Automate data analysis, reporting and business consulting workflow.'
-        image: /img/analyst_and_consultant_3x.png
-        path: /solutions/data-analysis-and-business-consulting-software/
-        title: Analysts and Consultants
-      - descr: >-
-          Get valuable and reliable business insights and make better decisions,
-          faster.
-        image: /img/decision_makers_3x.png
-        path: /solutions/collaborative-decision-making-software/
-        title: Decision Makers
-    title: Function
-  - solution_dropdown:
       - descr: 'Collaborate remotely on spreadsheets, analysis, and reports.'
         image: /img/spreadsheet_collaboration_3x.png
         path: /solutions/spreadsheet-collaboration-software/
@@ -46,6 +34,16 @@ solDropdownCol:
         image: /img/audit-mode@2x.png
         path:  /solutions/risk-analysis-and-simulations/
         title: Risk Analysis and Simulations
+      - descr: 'Automate data analysis, reporting and business consulting workflow.'
+        image: /img/analyst_and_consultant_3x.png
+        path: /solutions/data-analysis-and-business-consulting-software/
+        title: Analysts and Consultants
+      - descr: >-
+          Get valuable and reliable business insights and make better decisions,
+          faster.
+        image: /img/decision_makers_3x.png
+        path: /solutions/collaborative-decision-making-software/
+        title: Decision Makers       
     title: Use case
   - solution_dropdown:
       - descr: >-
