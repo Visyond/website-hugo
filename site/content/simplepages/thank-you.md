@@ -2,6 +2,8 @@
 scripts: |-
   <script>
     gtag('event', 'conversion', {'send_to': 'AW-982164483/VHbZCKjpuIoBEIPIqtQD'});
+  	<!-- Event snippet for Request Demo conversion page - ADS -->
+    gtag('event', 'conversion', {'send_to': 'AW-587505457/YBnwCLLXlewBELG-kpgC'});
   </script>
 url: /thank-you-for-your-request
 title: Thank You for Reaching Out!
