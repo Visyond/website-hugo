@@ -1,0 +1,43 @@
+---
+title: Scenario Planning
+url: /scenario-planning
+metaTags: >-
+  <meta property="og:title" content="Transform Your Spreadsheets into a
+  Collaborative Scenario Planning Platform">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:image"
+  content="https://visyond.com/img/Financial%20Planning%20thumbnail%201200x628.png">
+
+  <meta property="og:description" content="Automate scenarios and sensitivities,
+  improve accuracy of assumptions, and manage multiple scenarios with ease.
+  Share insights via interactive self-service dashboards driven by your model.">
+
+  <meta property="og:url" content="https://visyond.com/scenario-planning">
+
+
+  <meta name="title" content="Transform Your Spreadsheets into a Collaborative
+  Scenario Planning Platform">
+
+  <meta name="description" content="Automate scenarios and sensitivities,
+  improve accuracy of assumptions, and manage multiple scenarios with ease.
+  Share insights via interactive self-service dashboards driven by your model.">
+visyondFor: Scenario Planning
+topHeader: Transform Your Spreadsheets into a Collaborative Scenario Planning Platform
+topSubtitle: >-
+  Automate scenarios and sensitivities, improve accuracy of assumptions, and
+  manage multiple scenarios with ease. Share insights via interactive
+  self-service dashboards driven by your model.
+otherFeatures:
+  - feature: Excel Compatible
+    featureIcon: /img/home/excel.svg
+  - feature: 'Intuitive, Familiar, & Easy to Use'
+    featureIcon: /img/home/finger.svg
+  - feature: Get Started in Minutes
+    featureIcon: /img/home/sandWatch.svg
+whyVisyondSectionHeader: Why Visyond for Scenario Planning?
+whyVisyondText: "* Quickly transform your company's spreadsheets into a collaborative, automated, self-service scenario planning platform.\r\n* In a few simple steps, integrate financial models, planning and forecasting, analytics and simulations, reports and dashboards in a 'one-stop-shop' solution that connects all participants of the workflow and enables collaboration without version chaos and loss of data.\r\n* Remove 'people bottlenecks' and get value here and now with quick adoption and ease of use while retaining the flexibility of Excel.\r"
+requestSectionHeader: Book a Demo
+---
+
