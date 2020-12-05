@@ -12,12 +12,12 @@
 					<div class="home-hero__topSubtitle">{{ .Params.topSubtitle | markdownify }}</div>
 				</div>
 				
-				{{ if .infoVideo }}
+				{{ if .Params.infoVideo }}
 					<div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
 						<img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
 						<div class="home-hero__video-container">
-							<video poster="{{ .topVideoPoster }}" class="home-hero__video scroll_toggle" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="" autoplay="" playsinline="" webkit-playsinline="" preload="auto">
-								<source src="{{ .topVideo }}" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+							<video poster="{{ .Params.topVideoPoster }}" class="home-hero__video scroll_toggle" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="" autoplay="" playsinline="" webkit-playsinline="" preload="auto">
+								<source src="{{ .Params.topVideo }}" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
 							</video>
 						</div>
 					</div>
