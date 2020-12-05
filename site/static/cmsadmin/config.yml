@@ -1586,6 +1586,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Visyond For...", name: "visyondFor", widget: "string", required: false,}
       - {label: "Top Header", name: "topHeader", widget: "markdown", required: true}
       - {label: "Top Subtitle", name: "topSubtitle", widget: "markdown", required: true}
+      - {label: "Top Video", name: "topVideo", widget: "string"}
+      - {label: "Top Video Poster", name: "topVideoPoster", widget: "string"}
       - { label: "Other features", name: "otherFeatures", widget: "list",
         fields: [
           {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
