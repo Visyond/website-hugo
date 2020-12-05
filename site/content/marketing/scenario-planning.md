@@ -29,6 +29,8 @@ topSubtitle: >-
   Automate scenarios and sensitivities, improve accuracy of assumptions, and
   manage multiple scenarios with ease. Share insights via interactive
   self-service dashboards driven by your model.
+topVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+topVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'  
 otherFeatures:
   - feature: Excel Compatible
     featureIcon: /img/home/excel.svg
