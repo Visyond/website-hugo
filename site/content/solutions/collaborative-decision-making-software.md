@@ -13,7 +13,7 @@ metaTags: >-
   <meta property="og:type" content="website"> 
 
   <meta property="og:image"
-  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
+  content="https://visyond.com/img/Solution%20Decision%20Makers%20thumbnail%201200x628.png"> 
 
   <meta property="og:description" content="Automate scenarios, analytics and
   simulations. Share insights via self-service dashboards in a collaborative
