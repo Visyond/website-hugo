@@ -1,12 +1,36 @@
 ---
 aliases: /solutions/decision-makers/
-metaTags: "<meta name=\"title\" content=\"Collaborative Decision Making Software\"> <meta name=\"description\" content=\"Visualize the impact of your spreadsheet based decisions and answer any questions in real time, reduce errors and control what each collaborator can see and interact with\"> <meta name=\"keywords\" content=\"collaborative decision making software, decision making software\">\n\n<meta property=\"og:title\" content=\"Get Valuable and Reliable Business Insights and Make Better Decisions, Faster\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.
-Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/collaborative-decision-making-software\">  "
+metaTags: >-
+  <meta name="title" content="Get Reliable Business Insights and Make Better
+  Decisions, Faster"> <meta name="description" content="Automate scenarios,
+  analytics and simulations. Share insights via self-service dashboards in a
+  collaborative planning and forecasting solution with an always up-to-date
+  spreadsheet at the center.">
+
+  <meta property="og:title" content="Get Reliable Business Insights and Make
+  Better Decisions, Faster"> 
+
+  <meta property="og:type" content="website"> 
+
+  <meta property="og:image"
+  content="https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png"> 
+
+  <meta property="og:description" content="Automate scenarios, analytics and
+  simulations. Share insights via self-service dashboards in a collaborative
+  planning and forecasting solution with an always up-to-date spreadsheet at the
+  center."> 
+
+  <meta property="og:url"
+  content="https://visyond.com/solutions/collaborative-decision-making-software">
 topImage: /img/solutions/solutions_decision_makers_top.png
 title: Collaborative Decision Making Software
 ThisSolutionIsFor: Decision Makers
 topTitle: 'Get Reliable Business Insights <br> and Make Better Decisions, Faster'
-WhyVisyondText: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation.<br><br>\r\nVisyond offers a unique yet familiar all-in-one integrated solution that connects all steps of your business workflow in a single platform: from data gathering from subject-matter experts and subsequent analysis of this data to preparation of interactive visualizations and reports to **help decision makers make better decisions, faster.**\r"
+topSubTitle: >-
+  Automate scenarios, analytics and simulations. Share insights via self-service
+  dashboards in a collaborative planning and forecasting solution with an always
+  up-to-date spreadsheet at the center.
+WhyVisyondText: "* Visyond transforms decision-making into a truly collaborative experience by removing the need to use multiple tools and transfer data between them.\r\n* Modelers, analysts, decision makers and clients can securely collaborate and have accessible and easy-to-use automation tools in a single, cloud-based decision-making platform with the spreadsheet model at the center, without version chaos and risks of losing information or overwriting data.\r\n* Insights can be communicated through interactive dashboards that are managed in a single place, and seen only by specific stakeholders, without the need to update static slides at every assumption change.\r\n* Stakeholders can stress-test the assumptions in a safe environment where they are the only one seeing the output driven by their changes and where they cannot accidentally break the underlying model."
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 infoBlockFirst:
   - benefitsList:
@@ -69,7 +93,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     subtitle: "Cloud-based budgeting and forecasting.\r\n<br> \r\nSelf-service planning and analysis.\r\n<br> \r\nData governance and spreadsheet audit.\r"
     title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
