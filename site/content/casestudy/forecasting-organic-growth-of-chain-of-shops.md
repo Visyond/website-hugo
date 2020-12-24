@@ -1,5 +1,5 @@
 ---
-metaTags: "<meta property=\"og:title\" content=\"Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond SGM Case Study thumbnail 1200x628.png\"/>\r\n<meta property=\"og:description\" content=\"Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/casestudy/forecasting-organic-growth-of-chain-of-shops/\" />"
+metaTags: "<meta property=\"og:title\" content=\"Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond Shops Case Study thumbnail 1200x628.png\"/>\r\n<meta property=\"og:description\" content=\"Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/casestudy/forecasting-organic-growth-of-chain-of-shops/\" />"
 title: >-
   Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to
   Independently Test Scenarios
