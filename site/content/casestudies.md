@@ -24,11 +24,21 @@ casestudies:
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     url: >-
       /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/
-  - alt: Elettronica Logo
+- alt: Visyond Logo
+    logo: /img/logo_small.png
+    name: ''
+    tags:
+      - tagTitle: Growth Forecasting
+      - tagTitle: Scenario Testing
+      - tagTitle: Interactive Dashboards     
+    title: Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios
+    url: >-
+      /casestudy/forecasting-organic-growth-of-chain-of-shops/
+- alt: Elettronica Logo
     logo: /img/elet.png
     name: ''
     tags:
-      - tagTitle: Sales planning
+      - tagTitle: Sales Planning
       - tagTitle: Territory & Quota planning
     title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
     url: >-
