@@ -1,5 +1,6 @@
 ---
 title: Assessing Innovative Health Technologies With Multi-criteria Decision Analysis
+logo: /img/cnr italy logo 2.png
 tooltip:
   - title: 'Industry: Healthcare'
   - title: 'Use-case: Scenario analysis, Modeling, Data sharing'
