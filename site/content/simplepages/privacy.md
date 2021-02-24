@@ -31,7 +31,11 @@ We implement a variety of security measures to maintain the safety of your perso
 
 We offer the use of a secure server. All supplied sensitive information is transmitted via Secure Socket Layer (SSL) technology and then stored into our database only to be accessible by those authorized with special access rights to such systems, and are required to keep the information confidential.
 
-After a transaction, your private information (credit cards, social security numbers, financials, etc.) will not be stored on our servers.
+## **DO YOU STORE MY CREDIT CARD INFORMATION?**
+
+After a transaction, your credit cards, financias, etc. WILL NOT be stored on our servers.
+
+We outsource payment processing to Stripe Inc. Stripe Inc is a [**PCI Level 1 Service Provider**](http://www.visa.com/splisting/searchGrsp.do?companyNameCriteria=stripe,%20inc). This is the most stringent level of certification available in the payments industry.
 <br></br>
 
 ## **DO WE USE COOKIES?**
@@ -88,7 +92,7 @@ By using our site, you consent to our privacy policy.
 
 If we decide to change our privacy policy, we will post those changes on this page, send an email notifying you of any changes, and/or update the Privacy Policy modification date below.
 
-This policy was last modified on 15 May 2018.
+This policy was last modified on 25 February 2021.
 <br></br>
 
 ## **RIGHT TO ERASURE (right to be forgotten)**
