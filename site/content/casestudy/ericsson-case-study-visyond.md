@@ -15,7 +15,6 @@ metaTags: >-
 title: >-
   Ericsson Accelerates Their Business Case Workflow by 80% and Empowers
   Their Customers with Visyond
-image: /img/topImgCase.jpg
 logo: /img/Ericsson_logo_250w.png
 tooltip:
   - title: 'Industry: Telecom'

@@ -448,23 +448,11 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Logo", name: "logo", widget: "image", required: false}      
-      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
       - {label: "Client image", name: "client", widget: "image", required: false}
       - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}    
       - {label: "Summary", name: aside, widget: list, fields: [{label: Title, name: "title", widget: string},{label: Text, name: "content", widget: "markdown"}], required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      
-      - {label: "Casestudy Title", name: "casestudyTitle", required: false, widget: string}
-      - {label: "Casestudy Cards", name: "casestudyCards", required: false, widget: list, fields: [
-          {label: "Link", name: "link", widget: string},
-          {label: "Icon", name: "icon", widget: image},
-          {label: "Title", name: "title", widget: string},
-          {label: "Text", name: "text", widget: text}
-        ]}
-
-
-
+      - {label: "Body", name: "body", widget: "markdown", required: false}
 
 
 

@@ -1,7 +1,6 @@
 ---
 title: >-
   eLearnSecurity Makes Financial Statements Preparation a 1-hour Job with Visyond
-image: /img/casestud.jpg
 logo: /img/elearn new.png
 tooltip:
   - title: 'Industry: IT Security'
