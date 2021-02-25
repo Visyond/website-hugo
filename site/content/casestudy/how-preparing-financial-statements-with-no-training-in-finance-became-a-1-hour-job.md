@@ -5,8 +5,31 @@ logo: /img/elearn new.png
 tooltip:
   - title: 'Industry: IT Security'
   - title: 'Use Cases: Financial Statements, Reporting'
-client: /img/armando.png
-client_ask: >+
+summary:
+  - content: >-
+      * Streamlining the process of creation and analysis of a proforma
+      financial statements (Balance sheet, Income Statement) inside an existing
+      operating model of the company.
+
+      * Reporting Key Performance Indicators to key stakeholders.
+    title: Challenge
+  - content: >-
+      * User-friendly, point & click interface to generate financial statements
+      directly from your model, without the hassle and training of doing it
+      manually.
+    title: Solution
+  - content: >-
+      * Clean & balanced financial statements created without the use of plugs
+      or iterations (Visyond solves the equations linking the 3 statements).
+
+      * The unnecessary intermediate worksheets have been eliminated - together
+      with the potential errors associated with them.
+
+      * The model owner can focus on working with the operating model that he
+      masters, without worrying about financial statements, as a result
+      improving his productivity.
+    title: Results
+study_intro: >+
   Armando is the Founder and CEO of **eLearnSecurity**, a Silicon Valley company
   providing cyber security training to IT Security professionals worldwide.
 
@@ -20,31 +43,6 @@ client_ask: >+
   Statement) are fundamental for many company-related activities, including
   company valuation, stock options allocation and other activities that require
   a common language with finance people.
-
-aside:
-  - content: >-
-      * Streamlining the process of creation and analysis of a proforma
-      financial statements (Balance sheet, Income Statement) inside an existing
-      operating model of the company
-
-      * Reporting Key Performance Indicators to key stakeholders
-    title: Challenge
-  - content: >-
-      * User-friendly, point & click interface to generate financial statements
-      directly from your model, without the hassle and training of doing it
-      manually
-    title: Solution
-  - content: >-
-      * Clean & balanced financial statements created without the use of plugs
-      or iterations (Visyond solves the equations linking the 3 statements)
-
-      * The unnecessary intermediate worksheets have been eliminated - together
-      with the potential errors associated with them
-
-      * The model owner can focus on working with the operating model that he
-      masters, without worrying about financial statements, as a result
-      improving his productivity
-    title: Results
 ---
 > "The process took 1 stressful week and I did not feel comfortable to update the data, fearing to break something. Now it is a 1-hour job and a few clicks to update data."
 

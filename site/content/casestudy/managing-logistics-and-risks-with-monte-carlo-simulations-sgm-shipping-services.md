@@ -17,18 +17,18 @@ logo: /img/SGM Logo Color.png
 tooltip:
   - title: 'Industry: Logistics and Supply Chain'
   - title: 'Use Case: Monte Carlo Simulations, Tornado and Sensitivity Analysis'
-client_ask: >-
+summary:
+  - content: "* The team needed to collaborate on risk management and running Monte Carlo simulations.\r\n* Additional software on top of Excel had to be installed for every stakeholder.\r\n* PowerPoint presentations had to be manually updated and shared with stakeholders.\r\n"
+    title: Challenge
+  - content: "* Ability to find the probability distribution of Freight Rates and Fuel Costs based on historical data, on the same platform where the model and its assumptions are.\r\n* Run Monte Carlo simulations in a few clicks based on the distribution found. \r\n* Cloud-based, collaborative environment eliminates the need to install add-ons on multiple machines.\r\n* End-to-end integration of spreadsheet, simulations and reporting dashboards automates updates of visualizations and analyses.\r\n* Secure, role- and object-based selective sharing reduces the risk of data leaks during data gathering and when sharing dashboards with stakeholders.\r\n"
+    title: Solution
+  - content: "* Without installing and maintaining additional software on every stakeholder’s machine or moving data across tools, the customer can easily assess the evolution of probable open positions results based on evolving assumptions, and confidently manage value at risk based on the calculated probabilistic outcomes.\r\n* Customers can communicate the performance risk through dashboards that are managed in one place, and seen only by specific stakeholders, without the need to copy-paste data points and charts to static slides at every assumption change.\r\n* Stakeholders can stress-test the assumptions in a safe environment where they are the only one seeing the output driven by their changes and where they cannot accidentally break the underlying spreadsheet.\r\n"
+    title: Results
+study_intro: >-
   Founded in the 1970s, the Switzerland-based company focuses on operation and
   co-ownership of vessels, asset management, investment services, the all-round
   management of shipping investment projects, and has provided consultancy
   services to banks, financiers, flag states and major ship-owning groups.
-aside:
-  - content: "* The team needed to collaborate on risk management and running Monte Carlo simulations\r\n* Additional software on top of Excel had to be installed for every stakeholder\r\n* PowerPoint presentations had to be manually updated and shared with stakeholders\r\n"
-    title: Challenge
-  - content: "* Ability to find the probability distribution of Freight Rates and Fuel Costs based on historical data, on the same platform where the model and its assumptions are\r\n* Run Monte Carlo simulations in a few clicks based on the distribution found \r\n* Cloud-based, collaborative environment eliminates the need to install add-ons on multiple machines\r\n* End-to-end integration of spreadsheet, simulations and reporting dashboards automates updates of visualizations and analyses\r\n* Secure, role- and object-based selective sharing reduces the risk of data leaks during data gathering and when sharing dashboards with stakeholders\r\n"
-    title: Solution
-  - content: "* Without installing and maintaining additional software on every stakeholder’s machine or moving data across tools, the customer can easily assess the evolution of probable open positions results based on evolving assumptions, and confidently manage value at risk based on the calculated probabilistic outcomes\r\n* Customers can communicate the performance risk through dashboards that are managed in one place, and seen only by specific stakeholders, without the need to copy-paste data points and charts to static slides at every assumption change\r\n* Stakeholders can stress-test the assumptions in a safe environment where they are the only one seeing the output driven by their changes and where they cannot accidentally break the underlying spreadsheet\r\n"
-    title: Results
 ---
 # Software Management
 

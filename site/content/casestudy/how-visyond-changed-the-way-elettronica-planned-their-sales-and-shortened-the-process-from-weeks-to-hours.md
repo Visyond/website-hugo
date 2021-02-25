@@ -1,60 +1,58 @@
 ---
 title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
-image: /img/casestud.jpg
 logo: /img/elet.png
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
-client: /img/Layer_6772x.png
-client_ask: >
+summary:
+  - content: >-
+      * Legacy spreadsheet-based Sales planning process was time-consuming and
+      impractical.
+
+      * Sharing the master spreadsheet with colleagues caused extra stress due
+      to risk of unwanted changes or data corruption.
+
+      * Scenario planning and analysis was cumbersome.
+
+      * Collecting assumptions from team members involved long and chaotic
+      e-mail exchanges.
+
+      * Routine analytical tasks had to be done manually requiring significant
+      time investement at every at every iteration.
+    title: Challenge
+  - content: >-
+      * Single, cloud-based Territory & Quota data model.
+
+      * Visyond Replaced multiple copies of the spreadsheets sent and
+      consolidated manually with Visyond dynamic cases and scenarios managed.
+
+      * Visyond introduced real-time collaboration to the existing workflow and
+      made the process much faster.
+
+      * Transparency and accountability for data input Results at a Glance.
+    title: Solution
+  - content: >-
+      * Process completed in hours instead of the typical few days with
+      Excel-based process: at least 20 times faster.
+
+      * Clarity for every stakeholder about different versions of data and
+      impact of their assumptions.
+
+      * Separate paperwork and notes have been eliminated thanks to auto
+      reporting.
+
+      * Ability to create different versions of the plan and compare scenarios
+      in real-time.
+
+      * Simplicity and quick turnaround for 'what-if' assumption changes.
+    title: Results
+study_intro: >
   Fernando is a Sales Manager at **Elettronica**, a company of more than 800
   employees active in the defense sector and selling its solutions worldwide.
 
 
   Fernando leads the preparation of forecasts and plans for the top management,
   and recommends where to allocate resources to optimise the sales process.
-aside:
-  - content: >-
-      * Legacy spreadsheet-based Sales planning process was time-consuming and
-      impractical
-
-      * Sharing the master spreadsheet with colleagues caused extra stress due
-      to risk of unwanted changes or data corruption
-
-      * Scenario planning and analysis was cumbersome
-
-      * Collecting assumptions from team members involved long and chaotic
-      e-mail exchanges
-
-      * Routine analytical tasks had to be done manually requiring significant
-      time investement at every at every iteration
-    title: Challenge
-  - content: >-
-      * Single, cloud-based Territory & Quota data model
-
-      * Visyond Replaced multiple copies of the spreadsheets sent and
-      consolidated manually with Visyond dynamic cases and scenarios managed
-
-      * Visyond introduced real-time collaboration to the existing workflow and
-      made the process much faster
-
-      * Transparency and accountability for data input Results at a Glance
-    title: Solution
-  - content: >-
-      * Process completed in hours instead of the typical few days with
-      Excel-based process: at least 20 times faster
-
-      * Clarity for every stakeholder about different versions of data and
-      impact of their assumptions
-
-      * Separate paperwork and notes have been eliminated thanks to auto
-      reporting
-
-      * Ability to create different versions of the plan and compare scenarios
-      in real-time
-
-      * Simplicity and quick turnaround for 'what-if' assumption changes
-    title: Results
 ---
 > "It was a very time consuming process with a high risk of mistakes at each step, due to the manual implementation and the large set of inputs."
 

@@ -19,8 +19,14 @@ logo: /img/Ericsson_logo_250w.png
 tooltip:
   - title: 'Industry: Telecom'
   - title: 'Use Cases: Sales Negotiation, Impact Modeling, Analysis, Presentation'
-client: /img/Chief Modeler Portrait.png
-client_ask: >-
+summary:
+  - content: "* Workflow was complicated.\r\n* Modeler was the main bottleneck.\r\n* Information was hard to retrieve.\r\n* Debugging was painful.\r\n* Analysis setup was manual and time consuming.\r\n* It was impossible to answer ‘what-if’ questions on-the-fly.\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently.\r\n* Keeping visualizations in sync with models was troublesome.\r\n"
+    title: Challenge
+  - content: "* Controlled secure environment to model and test assumptions.\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow.\r\n* Powerful debugging and auditing tools that reduces errors and time.\r\n* 1-click autoanalysis.\r\n* Interactive online presentations to answer ondemand questions and queries.\r\n* Workflow, permission and selective-sharing management.\r\n"
+    title: Solution
+  - content: "* 80% productivity boost.\r\n* Stakeholders interact only with what they are allowed to.\r\n* Modeler is no longer a bottleneck.\r\n* A single source of truth solved the data chaos.\r\n* Dependency analysis and error discovery is easier.\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions.\r\n\n"
+    title: Results
+study_intro: >-
   Every time Ericsson has to prepare a business case to display the value of
   their solutions or an investment ROI, typically they use spreadsheets,
   Business Intelligence tools and PowerPoint presentations.
@@ -56,13 +62,6 @@ client_ask: >-
 
   > _"Visyond has greatly improved my productivity by reducing time spent on spreadsheet analysis, presentations and updates by more than 80%. This allowed me to focus on business impact rather than the intricacies of modeling I had to deal with in Excel."_  
     
-aside:
-  - content: "* Workflow was complicated\r\n* Modeler was the main bottleneck\r\n* Information was hard to retrieve\r\n* Debugging was painful\r\n* Analysis setup was manual and time consuming\r\n* It was impossible to answer ‘what-if’ questions on-the-fly\r\n* The Excel model had to be encoded into a web app to help clients test assumptions independently\r\n* Keeping visualizations in sync with models was troublesome\r\n"
-    title: Challenge
-  - content: "* Controlled secure environment to model and test assumptions\r\n* Tools to aid in data tracking, gathering and consolidation for controlled information flow\r\n* Powerful debugging and auditing tools that reduces errors and time\r\n* 1-click autoanalysis\r\n* Interactive online presentations to answer ondemand questions and queries\r\n* Workflow, permission and selective-sharing management\r\n"
-    title: Solution
-  - content: "* 80% productivity boost\r\n* Stakeholders interact only with what they are allowed to\r\n* Modeler is no longer a bottleneck\r\n* A single source of truth solved the data chaos\r\n* Dependency analysis and error discovery is easier\r\n* Analyses can be set up in minutes\r\n* Customers are empowered to safely test assumptions\r\n\n"
-    title: Results
 ---
 
 # Collaboration & Access Management

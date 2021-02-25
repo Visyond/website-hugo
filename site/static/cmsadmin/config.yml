@@ -444,16 +444,14 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/casestudy"
     create: true
     fields: # The fields each document in this collection have
-      - {label: "Aliases", name: "aliases", widget: "string", required: false}
+      - {label: "Aliases (URLs)", name: "aliases", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Logo", name: "logo", widget: "image", required: false}      
       - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
-      - {label: "Client image", name: "client", widget: "image", required: false}
-      - {label: "Client asked", name: "client_ask", widget: "markdown", required: false}    
-      - {label: "Summary", name: aside, widget: list, fields: [{label: Title, name: "title", widget: string},{label: Text, name: "content", widget: "markdown"}], required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-
+      - {label: "Summary", name: summary, widget: list, fields: [{label: Title, name: "title", widget: string},{label: Text, name: "content", widget: "markdown"}], required: false}
+      - {label: "Case Study Intro", name: "study_intro", widget: "markdown", required: false}    
+      - {label: "Case Study Body", name: "body", widget: "markdown", required: false}
 
 
   - name: "landings"

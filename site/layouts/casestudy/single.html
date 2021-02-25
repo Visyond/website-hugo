@@ -27,33 +27,33 @@
 <!-- END: TOP SECTION -->
 	
 
-    <section class="homeBenefits" style="padding: 40px 0; background-color: #fafafa;">    
-        <div class="container">
-            <h2 class="header-section" style="font-weight: 600;">
-                Summary
-            </h2>
-	    <div class="header-section--divider"></div>	
+<section class="homeBenefits" style="padding: 40px 0; background-color: #fafafa;">    
+    <div class="container">
+        <h2 class="header-section" style="font-weight: 600;">
+            Summary
+        </h2>
 
-		
-            <div class="caseStudy-summary">
-                {{ range $itemAside := .Params.Aside }}
-                <div class="caseStudy-summary__item">
-                    <h5 class="caseStudy-summary__title">
-                        {{ $itemAside.title }}
-                    </h5>
-			
-		    <hr class="divider-thin">
-			
-                    <div class="caseStudy-summary__text">
-                        {{ $itemAside.content | markdownify }}
-                    </div>
-
+        <div class="header-section--divider"></div>	
+    
+        <div class="caseStudy-summary">
+            {{ range $itemSummary := .Params.Summary }}
+            <div class="caseStudy-summary__item">
+                <h5 class="caseStudy-summary__title">
+                    {{ $itemSummary.title }}
+                </h5>
+        
+                 <hr class="divider-thin">
+        
+                <div class="caseStudy-summary__text">
+                    {{ $itemSummary.content | markdownify }}
                 </div>
-                {{ end }}
-            </div>
-        </div>
 
-    </section>	
+            </div>
+            {{ end }}
+        </div>
+    </div>
+
+</section>	
 	
 	
 <section class="getHexStarted homehex ht" style="background-image: url('/img/home/getStarted.svg');">
@@ -73,7 +73,7 @@
     <div class="header-section--divider"></div>	
 	  	  
      <div class="caseStudy-body">
-       <p>{{.Params.Client_ask | markdownify}}</p>
+       <p>{{.Params.Study_intro | markdownify}}</p>
      </div>
 	  
      <div class="caseStudy-body">
