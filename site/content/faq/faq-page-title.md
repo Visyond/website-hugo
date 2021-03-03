@@ -6,7 +6,7 @@ metaTags: >-
   <meta property="og:title" content="How is Visyond different?">
   <meta property="og:type" content="website">
   <meta property="og:image"
-  content="https://visyond.com/img/Visyond%20homepage%20thumbnail%201200x628.jpg">
+  content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.jpg">
   <meta property="og:description" content="Connect spreadsheet models, automated analyses and interactive presentations in a single source of truth platform.">
   <meta property="og:url" content="https://visyond.com/faq/">
   <meta name="description" content="Connect spreadsheet models, automated analyses and interactive presentations in a single source of truth platform.">

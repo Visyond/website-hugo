@@ -1,5 +1,17 @@
 ---
-title: Assessing Innovative Health Technologies With Multi-criteria Decision Analysis
+metaTags: >-
+  <meta property="og:title" content="Assessing Innovative Health Technologies with Multi-criteria Decision Analysis"/>
+
+  <meta property="og:type" content="website" />
+
+  <meta property="og:image"
+  content="https://visyond.com/img/thumbnails/Visyond NRC Italy Case Study thumbnail 1200x628.png"/>
+
+  <meta property="og:description" content="Assessing Innovative Health Technologies with Multi-criteria Decision Analysis"/>
+
+  <meta property="og:url"
+  content="https://visyond.com/casestudy/assessing-innovative-health-technologies-with-multi-criteria-decision-analysis/" />
+title: Assessing Innovative Health Technologies with Multi-criteria Decision Analysis
 logo: /img/cnr italy logo 2.png
 tooltip:
   - title: 'Industry: Healthcare'

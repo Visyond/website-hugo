@@ -1,5 +1,5 @@
 ---
-metaTags: "<meta property=\"og:title\" content=\"Visyond: Product Tour\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20homepage%20thumbnail%201200x628.jpg\"/>\r\n<meta property=\"og:description\" content=\"Learn more about the Visyond platform and how it can help you understand your data and make better decisions, faster.\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/product-tour\" />"
+metaTags: "<meta property=\"og:title\" content=\"Visyond: Product Tour\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.jpg\"/>\r\n<meta property=\"og:description\" content=\"Learn more about the Visyond platform and how it can help you understand your data and make better decisions, faster.\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/product-tour\" />"
 url: /product-tour
 title: Product Tour
 ---

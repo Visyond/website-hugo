@@ -15,7 +15,7 @@ metaTags: >-
   <meta property="og:type" content="website">
 
   <meta property="og:image"
-  content="https://visyond.com/img/Solution%20Risk%20Analysis%20thumbnail%201200x628.png">
+  content="https://visyond.com/img/thumbnails/Solution%20Risk%20Analysis%20thumbnail%201200x628.png">
 
   <meta property="og:description" content="Analyze risks and run simulations in
   the same place where the model and its evolving assumptions are. Effectively

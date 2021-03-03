@@ -26,7 +26,6 @@ casestudies:
       /casestudy/managing-logistics-and-risks-with-monte-carlo-simulations-sgm-shipping-services/
   - alt: Visyond Logo
     logo: /img/logo_small.png
-    name: ''
     tags:
       - tagTitle: Growth Forecasting
       - tagTitle: Scenario Testing
@@ -34,9 +33,17 @@ casestudies:
     title: Forecasting Organic Growth of Chain of Shops and Enabling Stakeholders to Independently Test Scenarios
     url: >-
       /casestudy/forecasting-organic-growth-of-chain-of-shops/
-  - alt: Elettronica Logo
+  - alt: NRC Italy Logo
+    logo: /img/cnr italy logo 2.png
+    tags:
+      - tagTitle: Scenario Analysis
+      - tagTitle: Modeling
+      - tagTitle: Data Sharing   
+    title: Assessing Innovative Health Technologies with Multi-criteria Decision Analysis
+    url: >-
+      /casestudy/assessing-innovative-health-technologies-with-multi-criteria-decision-analysis/
+- alt: Elettronica Logo
     logo: /img/elet.png
-    name: ''
     tags:
       - tagTitle: Sales Planning
       - tagTitle: Territory & Quota planning

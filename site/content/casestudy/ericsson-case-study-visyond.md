@@ -5,7 +5,7 @@ metaTags: >-
   <meta property="og:type" content="website" />
 
   <meta property="og:image"
-  content="https://visyond.com/img/Visyond Ericsson Case Study thumbnail 1200x628.png"/>
+  content="https://visyond.com/img/thumbnails/Visyond Ericsson Case Study thumbnail 1200x628.png"/>
 
   <meta property="og:description" content="Ericsson Accelerates Their Business Case Workflow by 80% and Empowers
   Their Customers with Visyond"/>
@@ -28,7 +28,7 @@ summary:
     title: Results
 study_intro: >-
   Every time Ericsson has to prepare a business case to display the value of
-  their solutions or an investment ROI, typically they use spreadsheets,
+  their solutions or a ROI, typically they use spreadsheets,
   Business Intelligence tools and PowerPoint presentations.
 
 
