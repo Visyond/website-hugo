@@ -42,7 +42,7 @@ casestudies:
     title: Assessing Innovative Health Technologies with Multi-criteria Decision Analysis
     url: >-
       /casestudy/assessing-innovative-health-technologies-with-multi-criteria-decision-analysis/
-- alt: Elettronica Logo
+  - alt: Elettronica Logo
     logo: /img/elet.png
     tags:
       - tagTitle: Sales Planning
