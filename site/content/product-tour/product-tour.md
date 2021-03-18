@@ -57,4 +57,26 @@ industryList:
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance  
 FeaturesHeader: 'Watch demos'
+infoBlockFirst:
+  - descr: >-
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Collaborative Scenario Planning (2 min)'
+  - descr: >-
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
+    infoVideo: '/video/Visyond Auto-Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Auto-Analysis Onboarding Video.jpg'
+    title: 'Auto-analysis and Interactive Dashboards (2.5 min)'
+  - descr: >-
+      **Create and compare scenarios on-the-fly with just a few clicks** during
+      meetings or presentations, and quickly identify which business drivers
+      change between scenarios.
+    infoVideo: '/video/Visyond Interactive Presentations Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Interactive Presentations Onboarding Video.jpg'
+    title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
 ---
