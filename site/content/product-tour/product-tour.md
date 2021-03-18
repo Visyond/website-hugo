@@ -81,8 +81,4 @@ infoBlockFirst:
     title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
 BenefitsHeader: 'Useful Resources'
 cards:
-  - description: 'Learn about Visyond's unique value proposition'
-    header: How is Visyond Different?
-    icon: /img/audit-mode@2x.png
-    link: https://help.visyond.com/articles/visyond-vs-other-spreadsheets/
 ---
