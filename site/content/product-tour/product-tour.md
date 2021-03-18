@@ -84,7 +84,7 @@ cards:
   - description: 'Learn about Visyond's unique value proposition'
     header: How is Visyond Different?
     icon: /img/audit-mode@2x.png
-    link: https://help.visyond.com/articles/visyond-vs-other-spreadsheets/
+    link: 
   - description: 'Do you have questions? We got answers.'
     header: Frequently Asked Question
     icon: /img/audit-mode@2x.png
