@@ -80,7 +80,7 @@ infoBlockFirst:
     infoVideo: '/video/Visyond Interactive Presentations Onboarding Video.mp4'
     infoVideoPoster: '/video/Visyond Interactive Presentations Onboarding Video.jpg'
     title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
-BenefitsHeader: Useful Resources
+BenefitsHeader: 'Useful Resources'
 cards:
   - description: 'Learn about Visyond's unique value proposition'
     header: How is Visyond Different?
