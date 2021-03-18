@@ -30,7 +30,6 @@ functionList:
     text: Sales & Communication
   - image: /img/home/visForColumn1/function4.png
     text: Consultants
-  - {}
 caseList:
   - image: /img/home/visForColumn2/case1.png
     text: Risk Analysis & Simulations
@@ -80,6 +79,7 @@ infoBlockFirst:
     infoVideo: '/video/Visyond Interactive Presentations Onboarding Video.mp4'
     infoVideoPoster: '/video/Visyond Interactive Presentations Onboarding Video.jpg'
     title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
+BenefitsHeader: 'Useful Resources'
 cards:
   - description: 'Learn about Visyond's unique value proposition'
     header: How is Visyond Different?
