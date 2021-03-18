@@ -81,4 +81,5 @@ infoBlockFirst:
     title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
 BenefitsHeader: 'Useful Resources'
 cards:
+  - image: /img/home/visForColumn1/function2.png
 ---
