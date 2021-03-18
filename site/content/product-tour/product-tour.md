@@ -81,5 +81,5 @@ infoBlockFirst:
     title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
 BenefitsHeader: 'Useful Resources'
 cards:
-  - description: 'Learn about Visyond's unique value proposition'
+  - description: Learn about Visyond's unique value proposition
 ---
