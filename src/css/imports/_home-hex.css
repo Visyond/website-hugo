@@ -930,7 +930,7 @@ margin-bottom: 30px;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.4;
-    color: #0E2639;
+    color: #383e4d;
     width: 100%;
     max-width: 100%;
 }
@@ -941,6 +941,7 @@ margin-bottom: 30px;
     color: #383E4D;
     width: 100%;
     max-width: 100%;
+    font-weight: 400;
 }
 /*------------END BENEFITS---------------*/
 

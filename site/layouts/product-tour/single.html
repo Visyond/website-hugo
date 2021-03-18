@@ -56,7 +56,7 @@
 <!--END: WHY VISYOND -->
 
 <!-- VISYOND IS FOR -->
-<section class="visFor" style="background-image: url('/img/home/visForBg.svg');">
+<section class="visFor">
     <div class="container">
         <h2 class="visFor-header">{{ .Params.visForHeader }}</h2>
         <div class="header-section--divider"></div>
@@ -143,5 +143,29 @@
     </div>
 </section>
 <!-- END: LIST OF USEFUL RESOURCES  -->
+
+<!-- REQUEST SECTION -->
+<section class="whyV">
+    <div class="container">
+        <div class="whyV__row">
+            <h2 class="enterV__headline" id="request">{{ .Params.requestSectionHeader }}</h2>
+            <div class="header-section--divider"></div>
+
+            <!-- Hubspot Form - Request -->
+            <div class="marketing-form-wrapper">
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        portalId: "3409378",
+			            formId: "fe27afd9-f1cc-464b-90b6-fcc88a768d2a"
+                });
+                </script>
+            </div>	
+            <!-- END: Hubspot Form - Request -->
+
+        </div>
+    </div>  
+</section>
+<!-- END: REQUEST SECTION -->	
 
 {{ partial "hexFooter" . }}
