@@ -1207,8 +1207,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
-      - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+      - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
+      - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}
       - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
       - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
       - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
