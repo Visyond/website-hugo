@@ -1117,7 +1117,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page url", name: "url", widget: string, required: false}
-      - { label: "Meta tags", name: "metaTags", widget: "markdown"}    
+      - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
       - {label: "Page Title", name: "title", widget: "string", required: true}
       - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
       - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
@@ -1198,3 +1198,66 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Why Visyond Section Header", name: "whyVisyondSectionHeader", widget: "string", required: true}
       - {label: "Why Visyond Section Text", name: "whyVisyondText", widget: "markdown", required: false}        
       - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
+
+  - name: "product-tour"
+    label: "Product Tour"
+    folder: "site/content/product-tour"
+    create: true
+    fields:
+      - {label: "Page url", name: "url", widget: string, required: false}
+      - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
+      - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+      - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
+      - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
+      - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
+      - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
+      - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
+      - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
+      - {label: "Functions list", name: "functionList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Cases list", name: "caseList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Industries list", name: "industryList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        } 
+      - {label: "Features Title", name: "FeaturesHeader", widget: "string", required: false}
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+        fields: [
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Subtitle", name: "subtitle", widget: "string"},
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "string"},
+          ]},
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+          {label: "Info Link", name: "link", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+        ],
+        required: false,
+        }      
+      - {label: Benefits cards, name: cards, widget: list,
+        fields: [
+          {label: Card Icon, name: icon, widget: image},
+          {label: Card Title, name: header, widget: string},
+          {label: Card Text, name: description, widget: text},
+          {label: Card Link, name: link, widget: string}
+        ],
+        required: false,
+        }
