@@ -1257,7 +1257,7 @@ collections: # A list of collections the CMS should be able to edit
         fields: [
           {label: Card Icon, name: icon, widget: image},
           {label: Card Title, name: header, widget: string},
-          {label: Card Text, name: description, widget: text},
+          {label: Card Text, name: description, widget: string},
           {label: Card Link, name: link, widget: string}
         ],
         required: false,
