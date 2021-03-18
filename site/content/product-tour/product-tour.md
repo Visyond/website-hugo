@@ -85,20 +85,4 @@ cards:
     header: How is Visyond Different?
     icon: /img/audit-mode@2x.png
     link: https://help.visyond.com/articles/visyond-vs-other-spreadsheets/
-  - description: 'Do you have questions? We got answers.'
-    header: Frequently Asked Question
-    icon: /img/audit-mode@2x.png
-    link: /faq/
-  - description: 'We and our partners offer managed services on the Visyond platform.'
-    header: Managed Services
-    icon: /img/audit-mode@2x.png
-    link: /services/
-  - description: 'We and our partners offer managed services on the Visyond platform.'
-    header: Managed Services
-    icon: /img/audit-mode@2x.png
-    link: /services/ 
-  - description: 'Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!'
-    header: Financial Modelling Innovation Awards 2020
-    icon: /img/audit-mode@2x.png
-    link: /financial-modelling-innovation-awards-2020/
 ---
