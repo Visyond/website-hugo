@@ -1212,7 +1212,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
       - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
       - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
-      - { label: "Why Visyond Image", name: "WhyVisyondImage2", widget: "image", required: false}             
+      - {label: "Why Visyond Title 2", name: "WhyVisyondHeader2", widget: "string", required: false}
+      - {label: "Why Visyond Text 2", name: "WhyVisyondText2", widget: "markdown", required: false}
+      - { label: "Why Visyond Image 2", name: "WhyVisyondImage2", widget: "image", required: false}                  
       - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
       - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
       - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}

@@ -10,12 +10,14 @@ metaTags: >-
   <meta name="description" content="Product tour description">
 topTitle : Product Tour
 topDescription: Find out all everything you need to know about our wonderful platform
-WhyVisyondHeader: Why Visyond?
+WhyVisyondHeader: >-
+  The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
-WhyVisyondText: >-
-  The lack of appropriate spreadsheet-based decision-making tools leads to **errors, poor decisions, time and money wasted.**<br><br>
-  Visyond solves the **3 main challenges** of speadsheet-based decision-making:<br><br>
+WhyVisyondText:
+WhyVisyondHeader2: >-
+  Visyond solves the 3 main challenges of speadsheet-based decision-making
 WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
+WhyVisyondText2:
 visForHeader: Visyond is for...
 functionTitle: FUNCTION
 caseTitle: USE CASE
