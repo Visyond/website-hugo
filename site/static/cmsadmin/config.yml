@@ -1211,6 +1211,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}
       - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
       - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
+      - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
+      - { label: "Why Visyond Image", name: "WhyVisyondImage2", widget: "image", required: false}             
       - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
       - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
       - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}

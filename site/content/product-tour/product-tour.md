@@ -11,12 +11,11 @@ metaTags: >-
 topTitle : Product Tour
 topDescription: Find out all everything you need to know about our wonderful platform
 WhyVisyondHeader: Why Visyond?
+WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
 WhyVisyondText: >-
-  **Decision-making** requires modeling, scenario planning, forecasting,
-  analytics, knowledge management, data visualization and reporting
-  tools.<br><br>Analysts, experts, clients, and CxOs must collaborate with strict
-  requirements on data security and governance.<br><br>Without Visyond, the
-  process requires multiple platforms and causes numerous problems.<br><br>
+  The lack of appropriate spreadsheet-based decision-making tools leads to **errors, poor decisions, time and money wasted.**<br><br>
+  Visyond solves the **3 main challenges** of speadsheet-based decision-making:<br><br>
+WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
 visForHeader: Visyond is for...
 functionTitle: FUNCTION
 caseTitle: USE CASE

@@ -42,14 +42,23 @@
 			<h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
 			<div class="header-section--divider"></div>
 			
+            
+
 			<div style="text-align: center;">
-				<img src="/img/Why Visyond Stairs Infographics.png">
+				<img src="{{ .Params.WhyVisyondImage }}">
 			</div>
-			
+
 			<div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.WhyVisyondText | markdownify }}</div>
 
+			<div style="text-align: center;">
+				<img src="{{ .Params.WhyVisyondImage2 }}">
+			</div>
+
+
+            <!--
 			<div style="width: 90%; text-align: center; margin: auto;"><a href="/why-visyond" class="button button-primary" target="_blank">Learn more</a></div>
-			
+			-->
+
 		</div>
 	</div>  
 </section>
