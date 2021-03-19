@@ -57,29 +57,58 @@ industryList:
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance  
-FeaturesHeader: 'Watch demos'
+FeaturesHeader: 'Get Value in Minutes'
 infoBlockFirst:
   - descr: >-
-      **Create and compare scenarios on-the-fly with just a few clicks** during
-      meetings or presentations, and quickly identify which business drivers
-      change between scenarios.
+      Create an account, install Excel addon or import your Excel file into Visyond.<br><br>
+      No consultants or IT colleagues are needed!
     infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
     infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Collaborative Scenario Planning (2 min)'
+    title: 'Step 1: Start - 5-15 min (one-off)'
   - descr: >-
-      **Create and compare scenarios on-the-fly with just a few clicks** during
-      meetings or presentations, and quickly identify which business drivers
-      change between scenarios.
-    infoVideo: '/video/Visyond Auto-Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Auto-Analysis Onboarding Video.jpg'
-    title: 'Auto-analysis and Interactive Dashboards (2.5 min)'
+      Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
+    benefitsList:
+      - text: >-
+          Share only specific worksheets with only specific people
+      - text: >-
+          Quickly locate error root causes
+      - text: >-
+          Find anomalies in your data  
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 2: Build and Collaborate'   
   - descr: >-
-      **Create and compare scenarios on-the-fly with just a few clicks** during
-      meetings or presentations, and quickly identify which business drivers
-      change between scenarios.
-    infoVideo: '/video/Visyond Interactive Presentations Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Interactive Presentations Onboarding Video.jpg'
-    title: 'Dashboards and Spreadsheet-driven Calculators (1.5 min)'
+      Now, in minutes, Visyond will automatically:
+      * Show you what are the most important drivers and how they impact your inputs
+      * Perform a granular sensivitiy analysis
+      * Compare optimistic and pessimistic scenarios
+      * Perform risk analtsis based on Monte Carlo simulation
+    benefitsList:
+      - text: >-
+          Scenarios
+      - text: >-
+          Names
+      - text: >-
+          Some other stuff
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 3: Analyzes Your Data (1-5 min)'   
+  - descr: >-
+      Now, in minutes, Visyond will automatically:
+      * Show you what are the most important drivers and how they impact your inputs
+      * Perform a granular sensivitiy analysis
+      * Compare optimistic and pessimistic scenarios
+      * Perform risk analtsis based on Monte Carlo simulation
+    benefitsList:
+      - text: >-
+          Scenarios
+      - text: >-
+          Names
+      - text: >-
+          Some other stuff
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 4: Present and Report'   
 BenefitsHeader: 'Useful Resources'
 cards:
   - description: >-
