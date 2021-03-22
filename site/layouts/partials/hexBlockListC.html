@@ -78,6 +78,20 @@
                     {{ end }}
                 </ul>
             </div>
+
+            <div class="enterSections__benefits2">
+                {{ if .benefitsList2 }}
+                <div class="enterSections__benefits2--title">Learn more</div>
+                {{ end }}
+                <ul>
+                    {{ range $list := .benefitsList2 }}
+                    <li class="whyV__benefit-item">
+                        {{ .text | markdownify }}
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+
         </div>
     </section>
     <section class="enterSectionsA__text-wrap">

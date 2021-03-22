@@ -546,6 +546,43 @@ margin-bottom: 30px;
 .enterSections__benefits--title.opened + ul{
     max-height: 1600px;
 }
+/* Benefits expanding list #2 */
+.enterSections__benefits2--title{
+    color: #0086FF;
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.44;
+    margin-bottom: 1em;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.enterSections__benefits2--title:after{
+    content: '';
+    border: solid #0086FF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: all .3s linear;
+    position: absolute;
+    right: -20px;
+    top: 6px;
+}
+.enterSections__benefits2--title.opened2:after{
+    transform: rotate(-495deg);
+    top: 10px;
+}
+.enterSections__benefits ul{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s linear;
+}
+.enterSections__benefits2--title.opened2 + ul{
+    max-height: 1600px;
+}
+/* END: Benefits expanding list #2 */
 .enterSections {
     display: flex;
     flex-direction: column;

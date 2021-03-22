@@ -9,7 +9,7 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Product tour description">
 topTitle: >-
-  Automate spreadsheet-based decision-making workflow <br> in 3 steps and a few clicks
+  Automate Spreadsheet-based Decision-making Workflow <br> in 3 Steps and a Few Clicks
 topDescription: Learn more about Visyond - a cloud-based, secure, Excel-compatible spreadsheet modeling, auditing, analysis and visualization platform.
 FeaturesHeader: 'Decision-making Automation in 3 Easy Steps'
 infoBlockFirst:

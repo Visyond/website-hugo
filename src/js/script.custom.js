@@ -144,6 +144,15 @@ $(function () {
         });
     })();
 
+    (function () {
+        let toggles = $('.enterSections__benefits2--title');
+        toggles.each(function () {
+            $(this).click(function () {
+                $(this).toggleClass('opened2');
+            })
+        });
+    })();
+
     //=====HEXUP END=====
 
     /**
