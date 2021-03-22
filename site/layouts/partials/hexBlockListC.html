@@ -1,4 +1,4 @@
-<!-- COPY OF HEXBLOCKC BUT WITHOUT VIDEO AUTOPLAY-->
+<!-- COPY OF HEXBLOCKB BUT WITHOUT VIDEO AUTOPLAY-->
 <!-- info block -->
 {{ range $el := .Params.InfoBlockFirst }}
 
@@ -26,31 +26,13 @@
     <div class="infoA__img-wrap js-img-wrap" style="text-align: center;">	
       <video style="width: 90%; height: auto;" poster="{{ .infoVideoPoster }}" class="enterSectionsA__block-img" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="" autoplay="" playsinline="" webkit-playsinline="" preload="auto">
 			  <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
-	  	</video> 
-	<!--
-        <div class="button button-basicA--nobg button-icon centered show-slides">
-            <i class="material-icons">play_circle_outline</i>
-            <span>Slideshow</span>
-	       <img src="{{ .imageNopeDontNeedItHere }}" alt="{{ .altText }}"
-		     class="enterSectionsA__block-img"
-		     data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
-		     data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
-		     data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
-		     data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
-		     data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">		
-        </div>
-	-->
-	        
+	  </video>
+       	        
       {{ else }}
-      <div class="infoA__img-wrap js-img-wrap show-slides">	    
+      <div class="infoA__img-wrap js-img-wrap">	    
         <img src="{{ .image }}" alt="{{ .altText }}"
-             class="enterSectionsA__block-img"
-             data-src="{{ range $file := .files }}{{ .file }}::{{ end }}"
-             data-title="{{ range $file := .files }}{{ .title }}::{{ end }}"
-             data-descr="{{ range $file := .files }}{{ .descr }}::{{ end }}"
-             data-href="{{ range $file := .files }}{{ .link }}::{{ end }}"
-             data-alt="{{ range $file := .files }}{{ .alt }}::{{ end }}">
-
+             class="enterSectionsA__block-img">
+        <!--
         <a class="button button-icon button-primary over">
             <i class="material-icons"></i>
             <span>Slideshow</span>
@@ -60,7 +42,7 @@
             <i class="material-icons">play_circle_outline</i>
             <span>Slideshow</span>
         </div>	
-	    
+         -->
       {{ end }}    
 	    
     </div>
