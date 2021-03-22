@@ -17,21 +17,18 @@ infoBlockFirst:
       Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
     benefitsList:
       - text: >-
-          Share only specific worksheets with only specific people
+          Scenarios and assumptions and will be tracked and compared automatically
       - text: >-
-          Quickly locate error root causes
+          Each stakeholders can view and interact with only what they need, thus preventing data leaks and shielding stakeholders from information overload
       - text: >-
-          Find anomalies in your data
+          Each stakeholder can find anomalies and the root-cause of errors without having to inspect each cell in the recalculation chain.
     benefitsList2:
       - text: >-
-          smth23
+          [Sign up for free](/accounts/signup/)
       - text: >-
-          smth23
-      - text: >-
-          smth23       
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    subtitle: "One-off: 5-15 minutes"    
+          Import your Excel spreadsheet, install our Excel add-on, or create a new project from scratch         
+    image: /img/product-tour/step1.png
+    subtitle: "5-15 minutes, one-off"    
     title: 'Step 1: Connect your Excel spreadsheet'
   - descr: >-
       Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
