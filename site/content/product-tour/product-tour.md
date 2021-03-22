@@ -26,7 +26,14 @@ infoBlockFirst:
       - text: >-
           Quickly locate error root causes
       - text: >-
-          Find anomalies in your data  
+          Find anomalies in your data
+    benefitsList2:
+      - text: >-
+          smth23
+      - text: >-
+          smth23
+      - text: >-
+          smth23           
     infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
     infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
     title: 'Step 2: Build and Collaborate'   
