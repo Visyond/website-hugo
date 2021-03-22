@@ -40,6 +40,10 @@ Please watch the short demo videos below.
 </video>
 <br><br>
 
+### Automated Pro Forma Financial Statements
+Please see [**this article**](https://help.visyond.com/articles/how-to-make-financial-statement-in-visyond/).
+
+
 ## Live Demo (15 minutes)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LmNCVp6l7rE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
