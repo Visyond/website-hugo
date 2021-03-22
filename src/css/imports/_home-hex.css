@@ -547,6 +547,11 @@ margin-bottom: 30px;
     max-height: 1600px;
 }
 /* Benefits expanding list #2 */
+
+.enterSections__benefits2{
+    padding-top: 0px;
+}
+
 .enterSections__benefits2--title{
     color: #0086FF;
     text-decoration: underline;
@@ -574,7 +579,7 @@ margin-bottom: 30px;
     transform: rotate(-495deg);
     top: 10px;
 }
-.enterSections__benefits ul{
+.enterSections__benefits2 ul{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s linear;
@@ -1323,3 +1328,24 @@ padding-left: 10px;
     position: relative;
 }
 /*------------ENDENTER V NEW---------------*/
+
+
+/*------------Product tour ---------------*/
+.enterSectionsC__block-subtitle {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #383e4d;
+    line-height: 22px; 
+    @media screen and (max-width: 800px) {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }    
+}
+
+
+.tourIcon {
+    color: #0585ff; 
+     font-size: 22px; 
+ }    
+/*------------END: Product tour ---------------*/      
