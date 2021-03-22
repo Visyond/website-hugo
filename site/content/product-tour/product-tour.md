@@ -15,8 +15,23 @@ FeaturesHeader: 'Decision-making Automation in 3 Easy Steps'
 infoBlockFirst:
   - descr: >-
       Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
+    benefitsList:
+      - text: >-
+          Share only specific worksheets with only specific people
+      - text: >-
+          Quickly locate error root causes
+      - text: >-
+          Find anomalies in your data
+    benefitsList2:
+      - text: >-
+          smth23
+      - text: >-
+          smth23
+      - text: >-
+          smth23       
     infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
     infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    subtitle: "One-off: 5-15 minutes"    
     title: 'Step 1: Connect your Excel spreadsheet'
   - descr: >-
       Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
