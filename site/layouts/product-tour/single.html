@@ -13,18 +13,18 @@
 			  <div class="home-hero__full-width-wrap">
 				  <ul class="home-hero__other-features">
 					  <li>
-						  <img src="/img/home/excel.svg" alt="Excel Compatible">
-						  Excel Compatible
+						  <img src="/img/home/excel.svg" alt="Start with Excel">
+						  1. Start with Excel
 					  </li>
 					  
 					  <li>
-						  <img src="/img/home/finger.svg" alt="Intuitive, Familiar, &amp; Easy to Use">
-						  Intuitive, Familiar, &amp; Easy to Use
+						  <img src="/img/home/finger.svg" alt="Automate Analysis and Dashboards">
+						  2. Automate Analysis and Dashboards
 					  </li>
 					  
 					  <li>
-						  <img src="/img/home/sandWatch.svg" alt="Get Started in Minutes">
-						  Get Started in Minutes
+						  <img src="/img/home/sandWatch.svg" alt="Empower stakeholders">
+						  3. Empower stakeholders
 					  </li>
 				  </ul>
 				  <a class="home-hero__gartner" href="https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond">
@@ -34,6 +34,19 @@
 	</div>
 </div>
 <!-- END: TOP SECTION -->
+
+<!-- DEMOS -->
+<section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+    <div class="container">
+        <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+        <div class="header-section--divider"></div>
+        <ul class="enterSections js-image-block">
+            {{ partial "hexBlockListC" . }}
+        </ul>
+    </div>
+</section>
+<!-- END: DEMOS -->
+
 
 <!-- WHY VISYOND -->
 <section class="whyV">
@@ -125,19 +138,6 @@
     </div>
 </section>
 <!-- END: VISYOND IS FOR -->
-
-<!-- DEMOS -->
-<section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
-    <div class="container">
-        <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
-        <div class="header-section--divider"></div>
-        <ul class="enterSections js-image-block">
-            {{ partial "hexBlockListC" . }}
-        </ul>
-    </div>
-</section>
-<!-- END: DEMOS -->
-
 
 <!-- FEATURED CASE STUDIES -->
 {{ partial "hexCaseStudies" . }}

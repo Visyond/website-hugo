@@ -2,14 +2,66 @@
 title: Product Tour
 url: /testtour/
 metaTags: >-
-  <meta property="og:title" content="Visyond Product Tour">
+  <meta property="og:title" content="Automate spreadsheet-based decision-making workflow in 3 steps">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
   <meta property="og:description" content="Product tour description">
   <meta property="og:url" content="">
   <meta name="description" content="Product tour description">
-topTitle : Product Tour
-topDescription: Find out all everything you need to know about our wonderful platform
+topTitle: >-
+  Automate spreadsheet-based decision-making workflow <br> in 3 steps and a few clicks
+topDescription: Learn more about Visyond - a cloud-based, secure, Excel-compatible spreadsheet modeling, auditing, analysis and visualization platform.
+FeaturesHeader: 'Decision-making Automation in 3 Easy Steps'
+infoBlockFirst:
+  - descr: >-
+      Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 1: Connect your Excel spreadsheet'
+  - descr: >-
+      Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
+    benefitsList:
+      - text: >-
+          Share only specific worksheets with only specific people
+      - text: >-
+          Quickly locate error root causes
+      - text: >-
+          Find anomalies in your data  
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 2: Build and Collaborate'   
+  - descr: >-
+      Now, in minutes, Visyond will automatically:
+      * Show you what are the most important drivers and how they impact your inputs
+      * Perform a granular sensivitiy analysis
+      * Compare optimistic and pessimistic scenarios
+      * Perform risk analtsis based on Monte Carlo simulation
+    benefitsList:
+      - text: >-
+          Scenarios
+      - text: >-
+          Names
+      - text: >-
+          Some other stuff
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 3: Analyzes Your Data (1-5 min)'   
+  - descr: >-
+      Now, in minutes, Visyond will automatically:
+      * Show you what are the most important drivers and how they impact your inputs
+      * Perform a granular sensivitiy analysis
+      * Compare optimistic and pessimistic scenarios
+      * Perform risk analtsis based on Monte Carlo simulation
+    benefitsList:
+      - text: >-
+          Scenarios
+      - text: >-
+          Names
+      - text: >-
+          Some other stuff
+    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
+    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+    title: 'Step 4: Present and Report'
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
@@ -56,59 +108,7 @@ industryList:
   - image: /img/home/visForColumn3/industry3.png
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
-    text: Insurance  
-FeaturesHeader: 'Get Value in Minutes'
-infoBlockFirst:
-  - descr: >-
-      Create an account, install Excel addon or import your Excel file into Visyond.<br><br>
-      No consultants or IT colleagues are needed!
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 1: Start - 5-15 min (one-off)'
-  - descr: >-
-      Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
-    benefitsList:
-      - text: >-
-          Share only specific worksheets with only specific people
-      - text: >-
-          Quickly locate error root causes
-      - text: >-
-          Find anomalies in your data  
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 2: Build and Collaborate'   
-  - descr: >-
-      Now, in minutes, Visyond will automatically:
-      * Show you what are the most important drivers and how they impact your inputs
-      * Perform a granular sensivitiy analysis
-      * Compare optimistic and pessimistic scenarios
-      * Perform risk analtsis based on Monte Carlo simulation
-    benefitsList:
-      - text: >-
-          Scenarios
-      - text: >-
-          Names
-      - text: >-
-          Some other stuff
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 3: Analyzes Your Data (1-5 min)'   
-  - descr: >-
-      Now, in minutes, Visyond will automatically:
-      * Show you what are the most important drivers and how they impact your inputs
-      * Perform a granular sensivitiy analysis
-      * Compare optimistic and pessimistic scenarios
-      * Perform risk analtsis based on Monte Carlo simulation
-    benefitsList:
-      - text: >-
-          Scenarios
-      - text: >-
-          Names
-      - text: >-
-          Some other stuff
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 4: Present and Report'   
+    text: Insurance     
 BenefitsHeader: 'Useful Resources'
 cards:
   - description: >-
