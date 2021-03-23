@@ -579,12 +579,12 @@ margin-bottom: 30px;
     transform: rotate(-495deg);
     top: 10px;
 }
-.enterSections__benefits2 ul{
+.enterSections__benefits2 ol{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s linear;
 }
-.enterSections__benefits2--title.opened + ul{
+.enterSections__benefits2--title.opened + ol{
     max-height: 1600px;
 }
 /* END: Benefits expanding list #2 */
