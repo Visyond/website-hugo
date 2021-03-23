@@ -10,8 +10,8 @@ metaTags: >-
   <meta name="description" content="Product tour description">
 topTitle: >-
   Automate Spreadsheet-based Decision-making Workflow <br> in 3 Easy Steps
-topDescription: Enter Visyond - cloud-based, secure, Excel-compatible spreadsheet modeling, auditing, analysis and visualization platform.
-FeaturesHeader: 'Decision-making Automation in 3 Easy Steps'
+topDescription: Enter Visyond - cloud-based, secure spreadsheet modeling, auditing, analysis and visualization platform.
+FeaturesHeader: 'Automate Spreadshet Analsyis, Presentation, and Reports'
 infoBlockFirst:
   - descr: >-
       Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
