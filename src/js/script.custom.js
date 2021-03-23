@@ -153,6 +153,15 @@ $(function () {
         });
     })();
 
+    (function () {
+        let toggles = $('.enterSections__benefits3--title');
+        toggles.each(function () {
+            $(this).click(function () {
+                $(this).toggleClass('opened');
+            })
+        });
+    })();   
+
     //=====HEXUP END=====
 
     /**

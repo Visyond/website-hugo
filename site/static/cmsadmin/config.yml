@@ -1251,6 +1251,9 @@ collections: # A list of collections the CMS should be able to edit
           ]},
           {label: "Benefits list", name: "benefitsList2", widget: list, fields: [
             {label: "Benefit item", name: "text", widget: "markdown"},
+          ]},
+          {label: "Benefits list", name: "benefitsList3", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "markdown"},
           ]},          
           {label: "Info Image", name: "image", widget: image},
           {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},

@@ -27,28 +27,49 @@ infoBlockFirst:
           [Sign up for free](/accounts/signup/)
       - text: >-
           Import your Excel spreadsheet, install our Excel add-on, or create a new project from scratch         
+    benefitsList3:
+      - text: >-
+          No long installation processes
+      - text: >-
+          No need to involve consultants or IT departments  for configuration (unless you want Visyond on-premise)
+      - text: >-
+          Get started in minutes and leverage your Excel skills in a familiar environment       
     image: /img/product-tour/step1.png
     subtitle: "5-15 minutes, one-off"    
-    title: 'Step 1: Connect your Excel spreadsheet'
+    title: '1. Connect your Excel spreadsheet'
   - descr: >-
-      Congratulations! You've **transfromed your Excel model into a decision making-platform** with built-in collaboration and security.<br><br>
+      Get valuable insights with literally just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
     benefitsList:
       - text: >-
-          Share only specific worksheets with only specific people
+          Identify the key input cells that impact your KPIs (e.g. revenues)
       - text: >-
-          Quickly locate error root causes
+          Visualize the sensitivity of the KPIs to those key input drivers
       - text: >-
-          Find anomalies in your data
+          Automatically create and compare scenarios
+      - text: >-
+          Visualize project risks based on Monte Carlo Simulation
+      - text: >-
+          Easily create sharable web-calculators that use spreadsheet’s inputs and outputs
+      - text: >-
+          Automatically create and compare scenarios
+      - text: >-
+          Visyond will guide you to create pro forma financial statements
     benefitsList2:
       - text: >-
-          smth23
+          Select the decision KPI (e.g. an input cell like ROI or Revenues)
       - text: >-
-          smth23
+          Run Autoanalysis with a single click
+    benefitsList3:
       - text: >-
-          smth23           
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 2: Build and Collaborate'   
+          Remove 'human bottlenecks' - every stakeholder can easily self-serve with a few clicks instead of waiting for the 'spreadsheet guru'
+      - text: >-
+          Carry out, in seconds or minutes, tasks that take now hours or days of error-prone manual setups
+      - text: >-
+           Reduce costly accidental errors
+      - text: >-
+           Make more accurate decisions, faster                      
+    image: /img/product-tour/step2.png
+    title: '2. Automate Analysis, Scenarios, and Dashboards'   
   - descr: >-
       Now, in minutes, Visyond will automatically:
       * Show you what are the most important drivers and how they impact your inputs

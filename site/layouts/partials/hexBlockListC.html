@@ -64,10 +64,23 @@
 
             <div class="enterSections__benefits2">
                 {{ if .benefitsList2 }}
-                <div class="enterSections__benefits2--title">What you need to do</div>
+                <div class="enterSections__benefits2--title">How to get it/div>
+                {{ end }}
+                <ol>
+                    {{ range $list := .benefitsList2 }}
+                    <li class="">
+                        {{ .text | markdownify }}
+                    </li>
+                    {{ end }}
+                </ol>
+            </div>
+
+            <div class="enterSections__benefits3">
+                {{ if .benefitsList3 }}
+                <div class="enterSections__benefits3--title">Benefits</div>
                 {{ end }}
                 <ul>
-                    {{ range $list := .benefitsList2 }}
+                    {{ range $list := .benefitsList3 }}
                     <li class="whyV__benefit-item">
                         {{ .text | markdownify }}
                     </li>
