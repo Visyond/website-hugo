@@ -549,7 +549,7 @@ margin-bottom: 30px;
 /* Benefits expanding list #2 */
 
 .enterSections__benefits2{
-    padding-top: 0px;
+    padding: 0px 0 10px;
 }
 
 .enterSections__benefits2--title{
@@ -592,7 +592,7 @@ margin-bottom: 30px;
 /* Benefits expanding list #3 */
 
 .enterSections__benefits3{
-    padding-top: 0px;
+    padding: 0px 0 10px;
 }
 
 .enterSections__benefits3--title{

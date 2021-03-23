@@ -35,7 +35,7 @@ infoBlockFirst:
       - text: >-
           Get started in minutes and leverage your Excel skills in a familiar environment       
     image: /img/product-tour/step1.png
-    subtitle: "5-15 minutes, one-off"    
+    subtitle: '5-15 min, one-off'    
     title: '1. Connect your Excel spreadsheet'
   - descr: >-
       Get valuable insights with literally just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
@@ -69,39 +69,32 @@ infoBlockFirst:
       - text: >-
            Make more accurate decisions, faster                      
     image: /img/product-tour/step2.png
+    subtitle: '0-5 min, depending on spreadsheet size'     
     title: '2. Automate Analysis, Scenarios, and Dashboards'   
   - descr: >-
-      Now, in minutes, Visyond will automatically:
-      * Show you what are the most important drivers and how they impact your inputs
-      * Perform a granular sensivitiy analysis
-      * Compare optimistic and pessimistic scenarios
-      * Perform risk analtsis based on Monte Carlo simulation
+      Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
     benefitsList:
       - text: >-
-          Scenarios
+          Interactive dashboards to share with great permission granularity: decide what dashboard each stakeholder sees and what scenarios can be selected on each
       - text: >-
-          Names
+          A tool that transforms a long spreadsheet-based workflow (e.g., Budget vs Actuals, Price Negotiation model, etc.) into a real time experience, easy for the modeler and the user
+    benefitsList2:
       - text: >-
-          Some other stuff
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
+          Just click on the charts, key input and output cells you want on a dashboard
+      - text: >-
+          Share it with granular permissions (see Step 1)
+    benefitsList3:
+      - text: >-
+          No risk to break the spreadsheet or to interfere with the views and stress-testing of other stakeholders: charts and output cells on the dashboard that will respond only to changes of the input cells on that same dashboard
+      - text: >-
+          mpower every stakeholder, in self-service mode, to test scenarios and understand the impact of potential decisions without breaking the spreadsheet or interfering with others’ work
+      - text: >-
+           No more static copy paste to PowerPoint
+      - text: >-
+           Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
+    image: /img/product-tour/step4.png
+    subtitle: '10-30 min for one-off dashboard design, 1-5 min for updates'
     title: 'Step 3: Analyzes Your Data (1-5 min)'   
-  - descr: >-
-      Now, in minutes, Visyond will automatically:
-      * Show you what are the most important drivers and how they impact your inputs
-      * Perform a granular sensivitiy analysis
-      * Compare optimistic and pessimistic scenarios
-      * Perform risk analtsis based on Monte Carlo simulation
-    benefitsList:
-      - text: >-
-          Scenarios
-      - text: >-
-          Names
-      - text: >-
-          Some other stuff
-    infoVideo: '/video/Visyond Scenario Analysis Onboarding Video.mp4'
-    infoVideoPoster: '/video/Visyond Scenario Analysis Onboarding Video.jpg'
-    title: 'Step 4: Present and Report'
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
