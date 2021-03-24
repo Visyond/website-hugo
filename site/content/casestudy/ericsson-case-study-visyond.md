@@ -70,7 +70,7 @@ study_intro: >-
 
 The typical process with Excel involved multiple versions of the model (for each account manager) that were sent via email or shared drives. Version control was done manually, resulting in a **huge waste of time, slow responsiveness to customers and undetected errors.**
 
-![Workflow Was Complicated](/img/case-study/Ericsson/Ericsson CS 1.2 - After.png)
+![Workflow Was Complicated](/img/case-study/Ericsson/Ericsson CS 1.1 - Before.png)
 
 ## With Visyond, Each Stakeholder Interacts with the Parts of the Project They Are Allowed To
 
