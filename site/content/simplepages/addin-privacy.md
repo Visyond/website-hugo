@@ -1,6 +1,6 @@
 ---
 url: /addin-privacy
-title: Privacy policy - 
+title: Privacy Policy
 image: /img/privacy.jpg
 ---
 ## **ADD-INS FOR EXCEL FOR WINDOWS AND MAC, EXCEL ONLINE**
