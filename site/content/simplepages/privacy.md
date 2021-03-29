@@ -5,7 +5,7 @@ image: /img/privacy.jpg
 ---
 ## **WHAT INFORMATION DO WE COLLECT?**
 
-We collect information from you when you register on our site.
+We collect information from you when you create an account.
 
 * Name
 * Email
