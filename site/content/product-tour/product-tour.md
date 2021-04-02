@@ -93,7 +93,7 @@ infoBlockFirst:
       - text: >-
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
     image: /img/product-tour/step4.png
-    subtitle: '10-30 min for one-off dashboard design, 1-5 min for updates'
+    subtitle: '10-30 min for one-off dashboard design'
     title: '3. Present Insights and Share Interactive Dashboards'   
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
