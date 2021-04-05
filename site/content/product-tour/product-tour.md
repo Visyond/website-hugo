@@ -34,8 +34,8 @@ infoBlockFirst:
           No need to involve consultants or IT departments  for configuration (unless you want Visyond on-premise)
       - text: >-
           Get started in minutes and leverage your Excel skills in a familiar environment       
-    image: /img/product-tour/step1.png
-    subtitle: '5-15 min, one-off'    
+    image: /img/product-tour/step1n.png
+    subtitle: '5-10 min'    
     title: '1. Connect your Excel spreadsheet'
   - descr: >-
       Get valuable insights with literally just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
@@ -68,9 +68,9 @@ infoBlockFirst:
            Reduce costly accidental errors
       - text: >-
            Make more accurate decisions, faster                      
-    image: /img/product-tour/step2.png
-    subtitle: '0-5 min, depending on spreadsheet size'     
-    title: '2. Automate Analysis, Scenarios, and Dashboards'   
+    image: /img/product-tour/step2n.png
+    subtitle: '0-5 min'     
+    title: 'Automate Analysis, Scenarios, and Dashboards'   
   - descr: >-
       Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
     benefitsList:
@@ -92,9 +92,9 @@ infoBlockFirst:
            No more static copy paste to PowerPoint
       - text: >-
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
-    image: /img/product-tour/step4.png
-    subtitle: '10-30 min for one-off dashboard design'
-    title: '3. Present Insights and Share Interactive Dashboards'   
+    image: /img/product-tour/step3n.png
+    subtitle: '5-15 min'
+    title: 'Present Insights and Share Interactive Dashboards'   
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
