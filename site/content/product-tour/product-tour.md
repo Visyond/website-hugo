@@ -35,7 +35,7 @@ infoBlockFirst:
           No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
           Leverage your Excel skills in a familiar environment       
-    image: /img/product-tour/Step1.png
+    image: /img/product-tour/step1.png
     subtitle: '5 min'    
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
@@ -60,7 +60,7 @@ infoBlockFirst:
           Collaborators can easily self-serve on analysis instead of waiting for the 'spreadsheet guru'
       - text: >-
           In minutes, complete analyses that now take hours of error-prone manual setups       
-    image: /img/product-tour/Step2.png
+    image: /img/product-tour/step2.png
     subtitle: '0-5 min'     
     title: 'Automate Analytics with One Click'
     titlePrefix: '2'   
@@ -85,7 +85,7 @@ infoBlockFirst:
            No more static copy paste to PowerPoint
       - text: >-
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
-    image: /img/product-tour/Step4.png
+    image: /img/product-tour/step4.png
     subtitle: '5-15 min'
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
