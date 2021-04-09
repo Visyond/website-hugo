@@ -39,7 +39,7 @@ infoBlockFirst:
     subtitle: '5 min'    
     title: 'Connect Your Spreadsheet'
   - descr: >-
-      Get insights with just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
+      Visyond will auto-analyze the KPI cell of your choice and produce presentation-ready Sensitivity, Scenario and Risk analyses, which you can customize to your liking.
     benefitsList:
       - text: >-
           Identify the key input cells that impact your KPIs (e.g. revenues)
@@ -71,7 +71,7 @@ infoBlockFirst:
            Make more accurate decisions, faster                      
     image: /img/product-tour/Step2n.png
     subtitle: '0-5 min'     
-    title: 'Press One Button'   
+    title: 'Automate Analytics with One Click'   
   - descr: >-
       Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
     benefitsList:
@@ -95,7 +95,7 @@ infoBlockFirst:
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
     image: /img/product-tour/Step3n.png
     subtitle: '5-15 min'
-    title: 'Share Insights'   
+    title: 'Share Insights and Scenarios on Dashboards'   
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
