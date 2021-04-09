@@ -2,16 +2,16 @@
 title: Product Tour
 url: /testtour/
 metaTags: >-
-  <meta property="og:title" content="Automate spreadsheet-based decision-making workflow in 3 steps">
+  <meta property="og:title" content="Excel in Spreadsheet-based Decision-making">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
-  <meta property="og:description" content="Product tour description">
+  <meta property="og:description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
   <meta property="og:url" content="">
-  <meta name="description" content="Product tour description">
+  <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  Automate Spreadsheet-based Decision-making Workflow <br> in 3 Easy Steps
-topDescription: Enter Visyond - cloud-based, secure spreadsheet modeling, auditing, analysis and visualization platform.
-FeaturesHeader: 'Automate Spreadshet Analsyis, Presentation, and Reports'
+  Excel in Spreadsheet-based Decision-making
+topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
+FeaturesHeader: 'Understand Your Data and Make Better Decisions <br> in 3 Steps'
 infoBlockFirst:
   - descr: >-
       Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
@@ -36,7 +36,7 @@ infoBlockFirst:
           Get started in minutes and leverage your Excel skills in a familiar environment       
     image: /img/product-tour/Step1n.png
     subtitle: '5-10 min'    
-    title: '1. Connect your Excel spreadsheet'
+    title: 'Import Your Spreadsheet'
   - descr: >-
       Get valuable insights with literally just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
     benefitsList:
@@ -70,7 +70,7 @@ infoBlockFirst:
            Make more accurate decisions, faster                      
     image: /img/product-tour/Step2n.png
     subtitle: '0-5 min'     
-    title: 'Automate Analysis, Scenarios, and Dashboards'   
+    title: 'Press One Button'   
   - descr: >-
       Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
     benefitsList:
@@ -94,7 +94,7 @@ infoBlockFirst:
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
     image: /img/product-tour/Step3n.png
     subtitle: '5-15 min'
-    title: 'Present Insights and Share Interactive Dashboards'   
+    title: 'Share Insights'   
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
