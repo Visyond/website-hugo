@@ -9,10 +9,10 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  Make Better Decisions, Faster
+  Understand Spreadsheets, and Make Better Decisions, faster
 topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
 FeaturesHeader: >-
-      Excel in Spreadsheet-based Decision-making <br> in 3 Steps
+      Transform Your Spreadsheet into a Decision-making Platform <br> in 3 Steps
 infoBlockFirst:
   - descr: >-
       Import your Excel spreadsheet to transform it into a secure, scalable, and collaborative **decision-making platform**.
