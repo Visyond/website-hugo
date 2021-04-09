@@ -75,7 +75,7 @@ infoBlockFirst:
       - text: >-
           Just click on the charts, key input and output cells you want on a dashboard
       - text: >-
-          Share it with granular permissions (see Step 1)
+          Share it with granular permissions (see step 1)
     benefitsList3:
       - text: >-
           No risk to break the spreadsheet or to interfere with the views and stress-testing of other stakeholders: charts and output cells on the dashboard that will respond only to changes of the input cells on that same dashboard
