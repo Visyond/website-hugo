@@ -57,7 +57,7 @@
     <!-- DEMOS -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
-            <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+            <h2 class="enterV__headline">{{ .Params.FeaturesHeader | markdownify }}</h2>
             <div class="header-section--divider"></div>
             <ul class="enterSections js-image-block">
                 {{ partial "hexBlockListC" . }}
