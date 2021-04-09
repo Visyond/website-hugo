@@ -11,7 +11,8 @@ metaTags: >-
 topTitle: >-
   Make Better Decisions, Faster
 topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
-FeaturesHeader: 'Excel in Spreadsheet-based Decision-making <br> in 3 Steps'
+FeaturesHeader: >-
+      Excel in Spreadsheet-based Decision-making <br> in 3 Steps
 infoBlockFirst:
   - descr: >-
       Import your Excel spreadsheet to transform it into a secure, scalable, and collaborative **decision-making platform**.

@@ -53,6 +53,21 @@
 	
     <section class="enterSectionsA__text-wrap">
         <div class="enterSectionsA__block-descr">
+
+            <div class="enterSections__benefits" style="padding: 0 0 0;">
+                <div class="enterSections__benefits--title" style="font-weight: 600; text-decoration: none; color: #808080;">
+                    What you get
+                </div>
+                <ul style="padding-left: 0px;">
+                    {{ range $list := .benefitsList }}
+                    <div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
+                        {{ .text | markdownify }}
+                    </div>
+                    {{ end }}
+                </ul>	
+            </div>
+
+            <!-- 
             <div class="enterSections__benefits">
                 {{ if .benefitsList }}
                 <div class="enterSections__benefits--title">What you get</div>
@@ -65,7 +80,8 @@
                     {{ end }}
                 </ul>
             </div>
-
+            -->
+            
             <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
             <div class="enterSections__benefits2">
                 {{ if .benefitsList2 }}
@@ -80,7 +96,7 @@
                 </ol>
             </div>
             -->
-
+            <!--
             <div class="enterSections__benefits3">
                 {{ if .benefitsList3 }}
                 <div class="enterSections__benefits3--title">What's special?</div>
@@ -93,7 +109,7 @@
                     {{ end }}
                 </ul>
             </div>
-
+            -->
         </div>
     </section>
     <section class="enterSectionsA__text-wrap">

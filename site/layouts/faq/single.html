@@ -26,7 +26,9 @@
 							<!-- LIST OF FAQ SECTION BLOCKS -->
 							{{ range $list := .faqSectionContent }}
 								<div class="enterSections__benefits" style="padding: 0 0 0;">
-									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">{{ .faqSectionSubTitle }}</div>
+									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
+										{{ .faqSectionSubTitle }}
+									</div>
 									<ul style="padding-left: 0px;">
 										{{ range $list := .answersList }}
 										<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
