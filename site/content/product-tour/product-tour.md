@@ -9,10 +9,10 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  Understand Spreadsheets, and Make Better Decisions, faster
+  Transform Your Spreadsheet into a Decision-making Platform
 topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
 FeaturesHeader: >-
-      Transform Your Spreadsheet into a Decision-making Platform <br> in 3 Steps
+      Accelerate Decision-making in 3 Steps
 infoBlockFirst:
   - descr: >-
       Import your Excel spreadsheet to transform it into a secure, scalable, and collaborative **decision-making platform**.
@@ -20,7 +20,7 @@ infoBlockFirst:
       - text: >-
           Track data and quickly compare scenarios
       - text: >-
-          Control what collaborators can see and edit, prevent data leaks, and shield stakeholders from data overload
+          Control what collaborators can see and interact with
       - text: >-
           Find anomalies and root causes of errors
     benefitsList2:
@@ -30,7 +30,7 @@ infoBlockFirst:
           Import your Excel spreadsheet, install our Excel add-on, or create a new project from scratch         
     benefitsList3:
       - text: >-
-          No lenghty installations: get our Excel add-on, or use the web-version
+          No lenghty installations. Just get our Excel add-on, or use the web-version
       - text: >-
           No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
@@ -39,22 +39,16 @@ infoBlockFirst:
     subtitle: '5 min'    
     title: 'Connect Your Spreadsheet'
   - descr: >-
-      Visyond will auto-analyze the KPI cell of your choice and produce presentation-ready Sensitivity, Scenario and Risk analyses, which you can customize to your liking.
+      Auto-analyze KPI cells with a single click and **get presentation-ready Sensitivity, Scenario and Risk analyses**. Or customize the settings like a pro.
     benefitsList:
       - text: >-
-          Identify the key input cells that impact your KPIs (e.g. revenues)
+          Identify cells that impact your KPIs the most (e.g. revenues)
       - text: >-
-          Visualize the sensitivity of the KPIs to those key input cells
+          Visualize the sensitivity of the KPIs to important cells
       - text: >-
           Automatically create and compare scenarios
       - text: >-
           Visualize project risks based on Monte Carlo Simulation
-      - text: >-
-          Easily create sharable web-calculators that use spreadsheet’s inputs and outputs
-      - text: >-
-          Automatically create and compare scenarios
-      - text: >-
-          Visyond will guide you to create pro forma financial statements
     benefitsList2:
       - text: >-
           Select the decision KPI (e.g. an input cell like ROI or Revenues)
@@ -62,13 +56,9 @@ infoBlockFirst:
           Run Autoanalysis with a single click
     benefitsList3:
       - text: >-
-          Remove 'human bottlenecks' - every stakeholder can easily self-serve with a few clicks instead of waiting for the 'spreadsheet guru'
+          Collaborators can easily self-serve on analysis instead of waiting for the 'spreadsheet guru'
       - text: >-
-          Carry out, in seconds or minutes, tasks that take now hours or days of error-prone manual setups
-      - text: >-
-           Reduce costly accidental errors
-      - text: >-
-           Make more accurate decisions, faster                      
+          In minutes, complete analyses that now take hours of error-prone manual setups       
     image: /img/product-tour/Step2n.png
     subtitle: '0-5 min'     
     title: 'Automate Analytics with One Click'   
