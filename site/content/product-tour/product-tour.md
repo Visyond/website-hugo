@@ -9,19 +9,19 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  Excel in Spreadsheet-based Decision-making
+  Make Better Decisions, Faster
 topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
-FeaturesHeader: 'Understand Your Data and Make Better Decisions <br> in 3 Steps'
+FeaturesHeader: 'Excel in Spreadsheet-based Decision-making <br> in 3 Steps'
 infoBlockFirst:
   - descr: >-
-      Immediately, and without any extra effort you will transform your Excel spreadsheet into a secure, scalable, and collaborative decision-making platform.
+      Import your Excel spreadsheet to transform it into a secure, scalable, and collaborative **decision-making platform**.
     benefitsList:
       - text: >-
-          Scenarios and assumptions and will be tracked and compared automatically
+          Track data and quickly compare scenarios
       - text: >-
-          Each stakeholders can view and interact with only what they need, thus preventing data leaks and shielding stakeholders from information overload
+          Control what collaborators can see and edit, prevent data leaks, and shield stakeholders from data overload
       - text: >-
-          Each stakeholder can find anomalies and the root-cause of errors without having to inspect each cell in the recalculation chain.
+          Find anomalies and root causes of errors
     benefitsList2:
       - text: >-
           [Sign up for free](/accounts/signup/)
@@ -29,21 +29,21 @@ infoBlockFirst:
           Import your Excel spreadsheet, install our Excel add-on, or create a new project from scratch         
     benefitsList3:
       - text: >-
-          No long installation processes
+          No lenghty installations: get our Excel add-on, or use the web-version
       - text: >-
-          No need to involve consultants or IT departments  for configuration (unless you want Visyond on-premise)
+          No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
-          Get started in minutes and leverage your Excel skills in a familiar environment       
+          Leverage your Excel skills in a familiar environment       
     image: /img/product-tour/Step1n.png
-    subtitle: '5-10 min'    
-    title: 'Import Your Spreadsheet'
+    subtitle: '5 min'    
+    title: 'Connect Your Spreadsheet'
   - descr: >-
-      Get valuable insights with literally just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
+      Get insights with just a few clicks with automated Sensitivity and Risk analyses, Scenario comparison, financial statements and interactive dashboards.
     benefitsList:
       - text: >-
           Identify the key input cells that impact your KPIs (e.g. revenues)
       - text: >-
-          Visualize the sensitivity of the KPIs to those key input drivers
+          Visualize the sensitivity of the KPIs to those key input cells
       - text: >-
           Automatically create and compare scenarios
       - text: >-

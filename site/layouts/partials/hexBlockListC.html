@@ -8,12 +8,16 @@
             {{ .title }}
         </h2>
         
+        <!-- @@@@@@@@@@@@
         {{ if .subtitle }}
         <div class="enterSectionsC__block-subtitle">
             <i class="material-icons tourIcon">access_time</i>
             {{ .subtitle | markdownify }}
         </div>
         {{ end }}
+        -->
+
+
 
         <div class="enterSectionsA__block-descr">
             {{ .descr | markdownify }}
@@ -62,6 +66,7 @@
                 </ul>
             </div>
 
+            <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
             <div class="enterSections__benefits2">
                 {{ if .benefitsList2 }}
                 <div class="enterSections__benefits2--title">How to get it</div>
@@ -74,6 +79,7 @@
                     {{ end }}
                 </ol>
             </div>
+            -->
 
             <div class="enterSections__benefits3">
                 {{ if .benefitsList3 }}
