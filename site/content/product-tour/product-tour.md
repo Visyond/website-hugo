@@ -35,9 +35,10 @@ infoBlockFirst:
           No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
           Leverage your Excel skills in a familiar environment       
-    image: /img/product-tour/Step1n.png
+    image: /img/product-tour/Step1.png
     subtitle: '5 min'    
     title: 'Connect Your Spreadsheet'
+    titlePrefix: '1'
   - descr: >-
       Auto-analyze KPI cells with a single click and **get presentation-ready Sensitivity, Scenario and Risk analyses**. Or customize the settings like a pro.
     benefitsList:
@@ -59,9 +60,10 @@ infoBlockFirst:
           Collaborators can easily self-serve on analysis instead of waiting for the 'spreadsheet guru'
       - text: >-
           In minutes, complete analyses that now take hours of error-prone manual setups       
-    image: /img/product-tour/Step2n.png
+    image: /img/product-tour/Step2.png
     subtitle: '0-5 min'     
-    title: 'Automate Analytics with One Click'   
+    title: 'Automate Analytics with One Click'
+    titlePrefix: '2'   
   - descr: >-
       Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
     benefitsList:
@@ -83,9 +85,10 @@ infoBlockFirst:
            No more static copy paste to PowerPoint
       - text: >-
            Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
-    image: /img/product-tour/Step3n.png
+    image: /img/product-tour/Step4.png
     subtitle: '5-15 min'
-    title: 'Share Insights and Scenarios on Dashboards'   
+    title: 'Share Insights and Scenarios on Dashboards'
+    titlePrefix: '3'   
 WhyVisyondHeader: >-
   The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png

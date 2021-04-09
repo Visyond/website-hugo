@@ -1244,6 +1244,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
           {label: "Info Title", name: "title", widget: "string"},
+          {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
           {label: "Info Subtitle", name: "subtitle", widget: "string"},
           {label: "Info Description", name: "descr", widget: "markdown"},
           {label: "Benefits list", name: "benefitsList", widget: list, fields: [
