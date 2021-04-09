@@ -15,7 +15,7 @@ FeaturesHeader: >-
       Accelerate Decision-making in 3 Steps
 infoBlockFirst:
   - descr: >-
-      Import your Excel spreadsheet to transform it into a secure, scalable, and collaborative **decision-making platform**.
+      **Import your Excel spreadsheet** (or start from scratch) to transform it into a secure, scalable, and collaborative **decision-making platform** with an always up-to-date spreadsheet at the center.
     benefitsList:
       - text: >-
           Track data and quickly compare scenarios
@@ -30,7 +30,7 @@ infoBlockFirst:
           Import your Excel spreadsheet, install our Excel add-on, or create a new project from scratch         
     benefitsList3:
       - text: >-
-          No lenghty installations. Just get our Excel add-on, or use the web-version
+          No lenghty installations. Just get our **Excel add-on**, or use the **web-version**
       - text: >-
           No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
@@ -59,7 +59,7 @@ infoBlockFirst:
       - text: >-
           Collaborators can easily self-serve on analysis instead of waiting for the 'spreadsheet guru'
       - text: >-
-          In minutes, complete analyses that now take hours of error-prone manual setups       
+          In minutes, carry out analyses that now take hours of error-prone manual setups       
     image: /img/product-tour/step2.png
     subtitle: '0-5 min'     
     title: 'Automate Analytics with One Click'

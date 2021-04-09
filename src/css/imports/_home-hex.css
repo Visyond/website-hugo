@@ -1478,10 +1478,10 @@ padding-left: 10px;
 &:before {
      content: "";
      position: absolute;
-     top: 0.65em;
+     top: 0.68em; /* 0.65em */
      left: 0;
      transform: rotate(-130deg);
-     width: 0.5em;
+     width: .5em;
      height: 2px;
      background: #0086ff;
      display: inline-block;
@@ -1490,13 +1490,13 @@ padding-left: 10px;
 &:after {
      content: "";
      position: absolute;
-     top: 0;
-     left: .7em;
+     top: 4px; /* 0 */
+     left: .57em; /* .7em */
      transform: rotate(-130deg);
      margin-right: 10px;
      margin-bottom: 3px;
      width: 2px;
-     height: 1em;
+     height: .8em; /* 1em */
      background: #0086ff;
      display: inline-block;
  }
