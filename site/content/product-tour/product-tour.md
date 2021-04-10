@@ -20,7 +20,7 @@ infoBlockFirst:
       - text: >-
           Track data and quickly compare scenarios
       - text: >-
-          Control what collaborators can see and interact with
+          Control which worksheets collaborators can see and edit
       - text: >-
           Find anomalies and root causes of errors
     benefitsList2:
@@ -65,12 +65,14 @@ infoBlockFirst:
     title: 'Automate Analytics with One Click'
     titlePrefix: '2'   
   - descr: >-
-      Create interactive online dashboards and secure web-calculators driven by your spreadsheet that stakeholders can use to independently test scenarios and answer ‘what-if’ questions.
+      Add your analyses to dashboards, or create spreadsheet-driven web-calculators, and securely share them with collaborators.
     benefitsList:
       - text: >-
-          Interactive dashboards to share with great permission granularity: decide what dashboard each stakeholder sees and what scenarios can be selected on each
+          Share always up-to-date analytical insights with collaborators
       - text: >-
-          A tool that transforms a long spreadsheet-based workflow (e.g., Budget vs Actuals, Price Negotiation model, etc.) into a real time experience, easy for the modeler and the user
+          Empower stakeholders to independently test scenarios
+      - text: >-
+          Control which dashboards and scenarios are available for which collaborator        
     benefitsList2:
       - text: >-
           Just click on the charts, key input and output cells you want on a dashboard
@@ -78,13 +80,11 @@ infoBlockFirst:
           Share it with granular permissions (see step 1)
     benefitsList3:
       - text: >-
-          No risk to break the spreadsheet or to interfere with the views and stress-testing of other stakeholders: charts and output cells on the dashboard that will respond only to changes of the input cells on that same dashboard
+          Dashboards are linked to the spreadsheet and allow collaborators to play with the numbers without seeing the spreadsheet
       - text: >-
-          mpower every stakeholder, in self-service mode, to test scenarios and understand the impact of potential decisions without breaking the spreadsheet or interfering with others’ work
+          It’s not possible to accidentally break the spreadsheet or interfere with the dashboard views of other collaborators
       - text: >-
-           No more static copy paste to PowerPoint
-      - text: >-
-           Leverage the cloud (you can also have it on-premise) to create a secure and interactive analysis and presentation environment   
+           Visyond helps you keep dashboards up-to-date so you don’t waste time on maintenance
     image: /img/product-tour/step4.png
     subtitle: '5-15 min'
     title: 'Share Insights and Scenarios on Dashboards'
