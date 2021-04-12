@@ -1209,7 +1209,7 @@ margin-bottom: 30px;
 .enterSectionsA__block:nth-child(2n) li:before {
     content:"";
     background-color: red;
-    position: absolute;`
+    position: absolute;
     height: 100%;
     width: 200vw;
     left: -100vw;
