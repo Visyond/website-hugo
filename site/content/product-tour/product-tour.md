@@ -71,7 +71,7 @@ StepsBlock:
     image: /img/product-tour/step4.png
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
-visForHeader: `Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets`
+visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
 functionTitle: Function
 caseTitle: Use Case
 industryTitle: Industry
