@@ -359,20 +359,22 @@ margin-bottom: 30px;
 .visFor__column{
     width: 32%;
     padding: 40px;
-    box-shadow: 0 20px 20px rgba(56, 93, 299, 0.1);
+    box-shadow: 0 10px 10px rgba(56, 93, 299, 0.1);
     background-color: white;
     margin-bottom: 45px;
     transition: box-shadow .3s linear;
 }
+/*
 .visFor__column:hover{
-    box-shadow: 0 20px 20px rgba(56, 93, 299, 0.25);
+    box-shadow: 0 10px 10px rgba(56, 93, 299, 0.25);
 }
+*/
 .visFor__column--title{
     font-size: 16px;
     line-height: 26px;
     color: #383e4d;
     font-weight: 900;
-    letter-spacing: 2.5px;
+    /* letter-spacing: 2.5px; */
     text-align: center;
 }
 .visFor__list{

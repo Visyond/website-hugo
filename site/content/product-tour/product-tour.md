@@ -71,6 +71,45 @@ StepsBlock:
     image: /img/product-tour/step4.png
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
+visForHeader: `Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets`
+functionTitle: Function
+caseTitle: Use Case
+industryTitle: Industry
+functionList:
+  - image: /img/home/visForColumn1/function2.png
+    text: Analysts and Modelers
+  - image: /img/home/visForColumn1/function1.png
+    text: CxOs & Decision Makers
+  - image: /img/home/visForColumn1/function3.png
+    text: Sales & Communication
+  - image: /img/home/visForColumn1/function4.png
+    text: Consultants
+caseList:
+  - image: /img/home/visForColumn2/case1.png
+    text: Risk Analysis & Simulations
+  - image: /img/home/visForColumn2/case2.png
+    text: Planning & Modelling
+  - image: /img/home/visForColumn2/case3.png
+    text: Budgeting & Forecasting
+  - image: /img/home/visForColumn2/case4.png
+    text: Financial Reporting
+  - image: /img/home/visForColumn2/case5.png
+    text: Investment Analysis
+  - image: /img/home/visForColumn2/case6.png
+    text: Scenario Analysis
+industryList:
+  - image: /img/home/visForColumn3/industry1.png
+    text: Banking
+  - image: /img/home/visForColumn3/industry5.png
+    text: Management Consulting
+  - image: /img/home/visForColumn3/industry2.png
+    text: Financial Services
+  - image: /img/home/visForColumn3/industry6.png
+    text: Telecommunication
+  - image: /img/home/visForColumn3/industry3.png
+    text: Real Estate
+  - image: /img/home/visForColumn3/industry4.png
+    text: Insurance     
 FeaturesHeader: 'With Visyond, You Can'
 infoBlockFirst:
   - benefitsList:
@@ -224,52 +263,17 @@ infoBlockFirst:
     subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Model
 WhyVisyondHeader: >-
-  The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
+  Why Visyond?
 WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
-WhyVisyondText:
+WhyVisyondText: >-
+  The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
 WhyVisyondHeader2: >-
   Visyond solves the 3 main challenges of speadsheet-based decision-making
 WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
 WhyVisyondText2:
-visForHeader: Visyond is for...
-functionTitle: FUNCTION
-caseTitle: USE CASE
-industryTitle: INDUSTRY
-functionList:
-  - image: /img/home/visForColumn1/function2.png
-    text: Analysts and Modelers
-  - image: /img/home/visForColumn1/function1.png
-    text: CxOs & Decision Makers
-  - image: /img/home/visForColumn1/function3.png
-    text: Sales & Communication
-  - image: /img/home/visForColumn1/function4.png
-    text: Consultants
-caseList:
-  - image: /img/home/visForColumn2/case1.png
-    text: Risk Analysis & Simulations
-  - image: /img/home/visForColumn2/case2.png
-    text: Planning & Modelling
-  - image: /img/home/visForColumn2/case3.png
-    text: Budgeting & Forecasting
-  - image: /img/home/visForColumn2/case4.png
-    text: Financial Reporting
-  - image: /img/home/visForColumn2/case5.png
-    text: Investment Analysis
-  - image: /img/home/visForColumn2/case6.png
-    text: Scenario Analysis
-industryList:
-  - image: /img/home/visForColumn3/industry1.png
-    text: Banking
-  - image: /img/home/visForColumn3/industry5.png
-    text: Management Consulting
-  - image: /img/home/visForColumn3/industry2.png
-    text: Financial Services
-  - image: /img/home/visForColumn3/industry6.png
-    text: Telecommunication
-  - image: /img/home/visForColumn3/industry3.png
-    text: Real Estate
-  - image: /img/home/visForColumn3/industry4.png
-    text: Insurance     
+DemoStripTitle: Flexible. Familiar. Scalable.
+DemoStripTitleButton: Schedule Demo
+DemoStripTitleLink: /request
 BenefitsHeader: 'Useful Resources'
 cards:
   - description: >-

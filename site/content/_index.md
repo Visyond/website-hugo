@@ -36,9 +36,9 @@ gartnerImage: /img/home/gartner-mobile.png
 gartnerLink: >-
   https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
 visForHeader: Visyond is for...
-functionTitle: FUNCTION
-caseTitle: USE CASE
-industryTitle: INDUSTRY
+functionTitle: Function
+caseTitle: Use Case
+industryTitle: Industry
 functionList:
   - image: /img/home/visForColumn1/function2.png
     text: Analysts and Modelers
