@@ -1084,14 +1084,9 @@ margin-bottom: 30px;
 }
 }
 
-.enterSectionsA__block:nth-child(2n) .infoA__img-wrap {
+.enterSectionsA__block:nth-child(2n) .infoA__img-wrap .infoC__img-wrap {
     margin-left: 5%;
     float: right;
-
-@media screen and (max-width: 800px) {
-    margin-left: 0;
-    margin-bottom: 3rem;
-}
 
 &:before {
     content:"";
@@ -1101,7 +1096,11 @@ margin-bottom: 30px;
     width: 200vw;
     left: -100vw;
     z-index: -1;
+}
 
+@media screen and (max-width: 800px) {
+    margin-left: 0;
+    margin-bottom: 3rem;
 }
 
 }
