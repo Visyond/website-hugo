@@ -54,17 +54,36 @@
     </section>
     <!-- END: TOP SECTION -->
 
-    <!-- DEMOS -->
+    {{ partial "hexSlider" . }}
+    
+    
+    <!-- 3 STEPS -->
     <section class="enterV">
         <div class="container">
-            <h2 class="enterV__headline">{{ .Params.FeaturesHeader | markdownify }}</h2>
+            <h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
             <div class="header-section--divider"></div>
             <ul class="enterSections js-image-block">
                 {{ partial "hexBlockListC" . }}
             </ul>
         </div>
     </section>
-    <!-- END: DEMOS -->
+    <!-- END: 3 STEPS -->
+
+    
+    <!-- FEATURES VIDS -->
+    <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+        <div class="container">
+            <h2 class="enterV__headline">{{ .Params.FeaturesHeader }}</h2>
+            <div class="header-section--divider"></div>
+            <ul class="enterSections js-image-block">
+                <!-- list of info blocks with blue button -->
+                {{ partial "hexBlockListB" . }}
+                <!-- // list of info blocks with blue button -->
+            </ul>
+        </div>
+    </section>
+    <!-- END: FEATURES VIDS -->
+
 
 
     <!-- WHY VISYOND -->

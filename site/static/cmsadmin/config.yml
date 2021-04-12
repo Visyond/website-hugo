@@ -1240,29 +1240,42 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         } 
-      - {label: "Features Title", name: "FeaturesHeader", widget: "markdown", required: false}
-      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+      - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
+      - {label: "Steps block", name: "StepsBlock", widget: "list",
         fields: [
-          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Steps Title", name: "title", widget: "string"},
           {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
-          {label: "Info Subtitle", name: "subtitle", widget: "string"},
-          {label: "Info Description", name: "descr", widget: "markdown"},
-          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+          {label: "Steps Description", name: "descr", widget: "markdown"},
+          {label: "Steps list 1", name: "benefitsList", widget: list, fields: [
             {label: "Benefit item", name: "text", widget: "markdown"},
           ]},
-          {label: "Benefits list", name: "benefitsList2", widget: list, fields: [
+          {label: "Benefits list 2", name: "benefitsList2", widget: list, fields: [
             {label: "Benefit item", name: "text", widget: "markdown"},
-          ]},
-          {label: "Benefits list", name: "benefitsList3", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "markdown"},
-          ]},          
+          ]},        
           {label: "Info Image", name: "image", widget: image},
           {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
           {label: "Info Link", name: "link", widget: "string"},
           {label: "Youtube Link", name: "linkYoutube", widget: "string"},
         ],
         required: false,
-        }  
+        }
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+        fields: [
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
+          {label: "Info Video", name: "infoVideo", widget: "string"},
+          {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "string"},
+          ]},
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+          {label: "Info Link", name: "link", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+        ],
+        required: false,
+        }          
       - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: false}            
       - {label: Benefits cards, name: cards, widget: list,
         fields: [

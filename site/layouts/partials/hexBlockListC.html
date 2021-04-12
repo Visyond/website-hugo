@@ -1,6 +1,6 @@
 <!-- COPY OF HEXBLOCKB BUT WITHOUT VIDEO AUTOPLAY-->
 <!-- info block -->
-{{ range $el := .Params.InfoBlockFirst }}
+{{ range $el := .Params.StepsBlock }}
 
 <li class="enterSectionsA__block">
     <section class="enterSectionsC__text-wrap">
@@ -13,25 +13,13 @@
                 {{ .title }}
             </h2>
         </div>
-       
-        
-        <!-- @@@@@@@@@@@@
-        {{ if .subtitle }}
-        <div class="enterSectionsC__block-subtitle">
-            <i class="material-icons tourIcon">access_time</i>
-            {{ .subtitle | markdownify }}
-        </div>
-        {{ end }}
-        -->
-
-
 
         <div class="enterSectionsA__block-descr">
             {{ .descr | markdownify }}
         </div>
     </section>
     
-    <!-- <div class="infoA__img-wrap js-img-wrap show-slides"> -->
+
 	    
       {{ if .infoVideo }}
     <div class="infoC__img-wrap js-img-wrap" style="text-align: center;">	
@@ -43,19 +31,7 @@
       <div class="infoC__img-wrap js-img-wrap">	    
         <img src="{{ .image }}" alt="{{ .altText }}"
              class="enterSectionsA__block-img">
-        <!--
-        <a class="button button-icon button-primary over">
-            <i class="material-icons"></i>
-            <span>Slideshow</span>
-        </a>
-	    
-        <div class="button button-basic--nobg button-icon centered">
-            <i class="material-icons">play_circle_outline</i>
-            <span>Slideshow</span>
-        </div>	
-         -->
       {{ end }}    
-	    
     </div>
 	
     <section class="enterSectionsC__text-wrap">
@@ -74,27 +50,12 @@
                 </ul>
             </div>
             
-            <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-            <div class="enterSections__benefits2">
+            <div class="enterSections__benefits">
                 {{ if .benefitsList2 }}
-                <div class="enterSections__benefits2--title">How to get it</div>
-                {{ end }}
-                <ol>
-                    {{ range $list := .benefitsList2 }}
-                    <li class="">
-                        {{ .text | markdownify }}
-                    </li>
-                    {{ end }}
-                </ol>
-            </div>
-            -->
-
-            <div class="enterSections__benefits3">
-                {{ if .benefitsList3 }}
-                <div class="enterSections__benefits3--title" style="text-decoration: none;">What's special?</div>
+                <div class="enterSections__benefits--title" style="text-decoration: none;">With Visyond, you can</div>
                 {{ end }}
                 <ul>
-                    {{ range $list := .benefitsList3 }}
+                    {{ range $list := .benefitsList2 }}
                     <li class="whyV__benefit-item">
                         {{ .text | markdownify }}
                     </li>
@@ -104,67 +65,7 @@
 
         </div>
     </section>
-    <section class="enterSectionsC__text-wrap">
-        <!--<div class="button-wrap">-->
-            <!--{{ if .link }}-->
-            <!--<a href="{{ .link }}" class="button button-primary">Learn More</a>-->
-            <!--{{ end }}-->
-            <!--<span class="button button-icon btn-video4"-->
 
-                  <!--{{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}-->
-            <!--style="display: none;"-->
-            <!--{{ end }}-->
-
-            <!--&gt;-->
-            <!--<i class="material-icons">-->
-                <!--play_arrow-->
-            <!--</i>-->
-            <!--See Demo-->
-            <!--<div class="ht-top__popup js-popup">-->
-                <!--<div class="ht-top__iframe-wrap">-->
-                    <!--<button class="ht-top__popup-close js-popup-close">X</button>-->
-                    <!--<p>{{ .linkYoutube }}</p>-->
-                <!--</div>-->
-            <!--</div>-->
-            <!--</span>-->
-
-        <!--</div>-->
-        <div class="button-wrap">
-            {{ if .link }}
-            <a href="{{ .link }}" class="button button-primary">
-                <div>
-                    Learn more
-                </div>
-            </a>
-            {{ end }}
-            
-            {{ if .linkYoutube }}
-            <span style="padding: 0" class="button button-icon btn-video4"
-
-                  {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
-            style="display: none;"
-            {{ end }}
-
-            >
-                
-            <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-                    <i class="material-icons">
-                play_arrow
-              </i><span>
-                    2 min demo</span>
-
-                    </span>
-            <div class="ht-top__popup js-popup">
-                <div class="ht-top__iframe-wrap">
-                    <button class="ht-top__popup-close js-popup-close">X</button>
-                    <p>{{ .linkYoutube }}</p>
-                </div>
-            </div>
-            </span>
-            {{ end }}
-        </div>
-
-    </section>
 </li>
 {{ end }}
 <!-- //info block -->
