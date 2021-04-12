@@ -11,7 +11,7 @@ image: /img/back1.png
 ---
 # What's next?
 
-We will get back to you shortly.
+We will send you an email soon. If you have not received it, please check your Spam/Junk/Promotions folders and mark it as ‘not spam’ or add Visyond email to your contact list.
 
 Meanwhile, **feel free to learn more about Visyond or explore it on your own!** Below you will find everything you need to get started.
 
