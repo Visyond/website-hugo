@@ -1206,7 +1206,7 @@ margin-bottom: 30px;
 }
 }
 
-.enterSectionsA__block:nth-child(2n) section:before {
+.enterSectionsA__block:nth-child(2n) li:before {
     content:"";
     background-color: red;
     position: absolute;`
@@ -1215,6 +1215,7 @@ margin-bottom: 30px;
     left: -100vw;
     z-index: -1;
 }
+
 
 .infoC__img-wrap {
     width: 40%;
