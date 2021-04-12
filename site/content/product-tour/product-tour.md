@@ -110,7 +110,7 @@ industryList:
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance     
-FeaturesHeader: 'With Visyond, You Can'
+FeaturesHeader: 'Product Tour'
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -262,44 +262,18 @@ infoBlockFirst:
       Visyond.jpg
     subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Model
-WhyVisyondHeader: >-
-  Why Visyond?
-WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
-WhyVisyondText: >-
-  The lack of appropriate spreadsheet-based decision-making tools leads to errors, poor decisions, time and money wasted
-WhyVisyondHeader2: >-
-  Visyond solves the 3 main challenges of speadsheet-based decision-making
-WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
-WhyVisyondText2:
 DemoStripTitle: Flexible. Familiar. Scalable.
 DemoStripTitleButton: Schedule Demo
 DemoStripTitleLink: /request
-BenefitsHeader: 'Useful Resources'
-cards:
-  - description: >-
-      Learn about Visyond's unique value proposition
-    header: How is Visyond Different?
-    icon: /img/audit-mode@2x.png
-    link: https://help.visyond.com/articles/visyond-vs-other-spreadsheets/
-  - description: >-
-      Do you have questions? We got answers.
-    header: Frequently Asked Question
-    icon: /img/audit-mode@2x.png
-    link: /faq/
-  - description: >-
-      We and our partners offer managed services on the Visyond platform
-    header: Managed Services
-    icon: /img/audit-mode@2x.png
-    link: /services/
-  - description: >-
-      We and our partners offer managed services on the Visyond platform
-    header: Managed Services
-    icon: /img/audit-mode@2x.png
-    link: /services/ 
-  - description: >-
-      Visyond wins the Out of Excel award at the Financial Modelling Innovation Awards 2020!
-    header: Financial Modelling Innovation Awards 2020
-    icon: /img/audit-mode@2x.png
-    link: /financial-modelling-innovation-awards-2020/
+WhyVisyondHeader: >-
+  Why Visyond?
+WhyVisyondText: >-
+  The **lack of appropriate spreadsheet-based decision-making tools** leads to errors, poor decisions, time and money wasted
+WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
+WhyVisyondHeader2: >-
+  DELETE DELTE DELETE
+WhyVisyondText2: >-
+  Visyond solves the **3 main challenges** of speadsheet-based decision-making
+WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
 requestSectionHeader: 'Request a Demo'    
 ---

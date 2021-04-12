@@ -70,7 +70,7 @@
     <!-- END: 3 STEPS -->
 
     <!-- VISYOND IS FOR -->
-    <section class="visFor">
+    <section class="visFor" style="background-color: #f1f4fc;">
         <div class="container">
             <h2 class="visFor-header">{{ .Params.visForHeader }}</h2>
             <div class="header-section--divider"></div>
@@ -144,44 +144,48 @@
                 <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
                 <div class="header-section--divider"></div>
                 
-                
+                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
+                    {{ .Params.WhyVisyondText | markdownify }}
+                </div>
 
                 <div style="text-align: center;">
                     <img src="{{ .Params.WhyVisyondImage }}">
                 </div>
 
-                <div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.WhyVisyondText | markdownify }}</div>
-                <!--
-                <div style="width: 90%; text-align: center; margin: auto;"><a href="/why-visyond" class="button button-primary" target="_blank">Learn more</a></div>
-                -->
+                                
+                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
+                    {{ .Params.WhyVisyondText2 | markdownify }}
+                </div>
+
+                <div style="text-align: center;">
+                    <img src="{{ .Params.WhyVisyondImage2 }}">
+                </div>
 
             </div>
         </div>  
     </section>
     <!--END: WHY VISYOND -->
 
-    <!-- WHY VISYOND 2 -->
+    <!-- WHY VISYOND 2 
     <section class="whyV">
         <div class="container">
             <div class="whyV__row">
                 <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader2 }}</h2>
                 <div class="header-section--divider"></div>
                 
-                
+                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
+                    {{ .Params.WhyVisyondText2 | markdownify }}
+                </div>
 
                 <div style="text-align: center;">
                     <img src="{{ .Params.WhyVisyondImage2 }}">
                 </div>
 
-                <div class="whyV__text" style="width: 90%; text-align: center; margin: 15px auto;">{{ .Params.WhyVisyondText2 | markdownify }}</div>
-                <!--
-                <div style="width: 90%; text-align: center; margin: auto;"><a href="/why-visyond" class="button button-primary" target="_blank">Learn more</a></div>
-                -->
 
             </div>
         </div>  
     </section>
-    <!--END: WHY VISYOND 2-->
+    <!--END: WHY VISYOND 2
 
 
 

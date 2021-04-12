@@ -1279,14 +1279,4 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }          
-      - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: false}            
-      - {label: Benefits cards, name: cards, widget: list,
-        fields: [
-          {label: Card Icon, name: icon, widget: image},
-          {label: Card Title, name: header, widget: string},
-          {label: Card Text, name: description, widget: string},
-          {label: Card Link, name: link, widget: string}
-        ],
-        required: false,
-        }
       - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
