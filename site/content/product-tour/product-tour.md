@@ -12,10 +12,10 @@ topTitle: >-
   Transform Your Spreadsheet into a Decision-making Platform
 topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
 StepsHeader: >-
-      Accelerate Decision-making in 3 Steps
+      Get Started in 3 Quick Steps
 StepsBlock:
   - descr: >-
-      **Import your Excel spreadsheet** (or start from scratch) to transform it into a secure, scalable, and collaborative **decision-making platform** with an always up-to-date spreadsheet at the center.
+      **Import your Excel spreadsheet** (or start from scratch) or install our add-in to transform it into a secure, scalable, and collaborative **decision-making platform**.
     benefitsList:
       - text: >-
           Track data and quickly compare scenarios
@@ -29,12 +29,12 @@ StepsBlock:
       - text: >-
           No need to involve consultants or IT (unless you want Visyond on-premise)
       - text: >-
-          Leverage your Excel skills in a familiar environment       
+          No complicated menus to learn, and you can leverage your Excel skills      
     image: /img/product-tour/step1.png 
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Auto-analyze KPI cells with a single click and **get presentation-ready Sensitivity, Scenario and Risk analyses**. Or customize the settings like a pro.
+      Auto-analyze cells and get presentation-ready Sensitivity, Scenario and Risk analyses. Customize the settings like a pro if you want.
     benefitsList:
       - text: >-
           Identify cells that impact your KPIs the most (e.g. revenues)
@@ -56,8 +56,6 @@ StepsBlock:
       Add your analyses to dashboards, or create spreadsheet-driven web-calculators, and securely share them with collaborators.
     benefitsList:
       - text: >-
-          Share always up-to-date analytical insights with collaborators
-      - text: >-
           Empower stakeholders to independently test scenarios
       - text: >-
           Control which dashboards and scenarios are available for which collaborator        
@@ -67,14 +65,14 @@ StepsBlock:
       - text: >-
           It’s not possible to accidentally break the spreadsheet or interfere with the dashboard views of other collaborators
       - text: >-
-           Visyond helps you keep dashboards up-to-date so you don’t waste time on maintenance
+           No time wasted copy-pasting and keeping dashboards up-to-date
     image: /img/product-tour/step4.png
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
 visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
-functionTitle: Function
-caseTitle: Use Case
-industryTitle: Industry
+functionTitle: Functions
+caseTitle: Use Cases
+industryTitle: Industries
 functionList:
   - image: /img/home/visForColumn1/function2.png
     text: Analysts and Modelers
