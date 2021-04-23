@@ -113,10 +113,10 @@ AddinCloudHeader: 'Excel Addin and Cloud Application'
 summary:
   - content: "* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n"
     title: Excel Addin
-    image: /img/home/visForColumn3/industry1.png
+    image: /img/product-tour/excelAddinIcon.png
   - content: "* Secure and collaborative cloud-based platform for modeling and scenario testing.\r\n* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n"
     title: Cloud Platform
-    image: /img/home/visForColumn3/industry1.png
+    image: /img/product-tour/cloudPlatformIcon.png
 infoBlockFirst:
   - benefitsList:
       - text: >-
