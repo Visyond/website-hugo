@@ -1461,5 +1461,107 @@ padding-left: 10px;
 .tourIcon {
     color: #0585ff; 
      font-size: 22px; 
- }    
+ }
+ 
+ 
+ .addinCloud-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  /* ADDIN/WEB CARDS */
+  .addinCloud-summary__item {
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(33% - 15px);
+    min-width: 350px;
+    margin-bottom: 40px;
+      
+      @media screen and (max-width: 771px) {
+        width: 90%;
+      }  
+  }
+  
+  .addinCloud-summary__item:nth-child(1n) {
+    margin-left: 0px;
+    
+     /* @media screen and (max-width: 771px) {
+        margin-left: 25px;
+      }   */
+  }
+  
+  .addinCloud-summary__item:nth-child(2n) {
+    margin-left: 25px;
+    
+      @media screen and (max-width: 771px) {
+        margin-left: 0;
+      }  
+  }
+  
+  .addinCloud-summary__item:nth-child(3n) {
+    margin-left: 25px;
+    
+        @media screen and (max-width: 771px) {
+        margin-left: 0;
+      } 
+  }
+  
+  /* END ADDIN/WEB CARDS  */
+  
+  
+  /* ADDIN/WEB CARDS TEXT */
+  .addinCloud-summary__title, .addinCloud-summary__text {
+    width: 100%;
+    font-family: "Open Sans";
+    line-height: 24px;
+  }
+  
+  .addinCloud-summary__title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #50546d;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .addinCloud-summary__text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #383e4d;
+    text-align: left;
+  }
+  
+  .addinCloud-summary__text ul{
+    padding-inline-start: 15px;
+    text-indent: -18px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .addinCloud-summary__text li{
+    margin-bottom: 14px;
+    list-style: none;
+    
+       &:before {
+         content: "";
+         border: solid #0086ff;
+         border-width: 0 2px 2px 0!important;	     
+         display: inline-block;
+         padding: 3px;
+         transform: rotate(315deg);
+         margin-right: 10px;
+         margin-bottom: 1px!important;	     
+      }
+  }
+  
+  /* ADDIN/WEB CARDS TEXT */
+
 /*------------END: Product tour ---------------*/      

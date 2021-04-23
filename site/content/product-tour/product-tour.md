@@ -109,6 +109,14 @@ industryList:
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance     
 FeaturesHeader: 'Product Tour'
+AddinCloudHeader: 'Excel Addin and Cloud Application'
+summary:
+  - content: "* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n"
+    title: Excel Addin
+    image: /img/home/visForColumn3/industry1.png
+  - content: "* Secure and collaborative cloud-based platform for modeling and scenario testing.\r\n* Complicated workflow with many stakeholders.\r\n* Complicated workflow with many stakeholders.\r\n"
+    title: Cloud Platform
+    image: /img/home/visForColumn3/industry1.png
 infoBlockFirst:
   - benefitsList:
       - text: >-
