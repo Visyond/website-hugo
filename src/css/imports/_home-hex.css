@@ -1504,7 +1504,7 @@ padding-left: 10px;
     @media screen and (max-width: 991px) {
         margin-left: 0;
       }  
-      
+
       @media screen and (max-width: 771px) {
         margin-left: 0;
       }  
@@ -1541,7 +1541,8 @@ padding-left: 10px;
     font-size: 16px;
     font-weight: 400;
     color: #383e4d;
-    text-align: left;
+    text-align: center;
+    margin: 1em 2em 1em 2em;
   }
   
   .addinCloud-summary__text ul{
