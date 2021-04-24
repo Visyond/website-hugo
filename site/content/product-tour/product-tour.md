@@ -111,10 +111,10 @@ industryList:
 FeaturesHeader: 'Product Tour'
 AddinCloudHeader: 'Work the Way You Like'
 summary:
-  - content: "* Best for individual modelers and analysts who also need to present their work to stakeholders\r\n* Compatible with desktop and online Excel\r\n"
+  - content: "Best for individual modelers and analysts who also need to present their work to stakeholders"
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
-  - content: "* Best for teams that want secure internal and external collaboration on scenarios, analyses and data gathering\r\n* Works in a browser \r\n"
+  - content: "Best for teams that want secure internal and external collaboration on scenarios, analyses and data gathering"
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
 infoBlockFirst:
