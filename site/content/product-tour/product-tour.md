@@ -15,57 +15,55 @@ StepsHeader: >-
       Get Started in 3 Quick Steps
 StepsBlock:
   - descr: >-
-      **Import your Excel spreadsheet** (or start from scratch) or install our add-in to transform it into a secure, scalable, and collaborative **decision-making platform**.
+      **Import your Excel spreadsheet** (or build one in Visyond) or install our add-in (coming soon) to transform it into an interactive and collaborative **decision-making platform**.
     benefitsList:
       - text: >-
-          Track data and quickly compare scenarios
+          Always be on top of your scenarios and assumptions
       - text: >-
-          Control which worksheets collaborators can see and edit
+          Decide who gets to interact with what
       - text: >-
-          Find anomalies and root causes of errors   
+          Quickly find out if there's something wrong with your model
     benefitsList2:
       - text: >-
-          No lenghty installations. Just get our **Excel add-on**, or use the **web-version**
+          You don't need consultants, IT experts, or lenghty installations to get things rolling
       - text: >-
-          No need to involve consultants or IT (unless you want Visyond on-premise)
+           Leverage your Excel skills without having to learn new complicated menus
       - text: >-
-          No complicated menus to learn, and you can leverage your Excel skills      
+           Never have your formulas or values overwriten by somebody esle while still working on the same model together               
     image: /img/product-tour/step1.png 
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Auto-analyze cells and get presentation-ready Sensitivity, Scenario and Risk analyses. Customize the settings like a pro if you want.
+      Pick a cell you want to analyze, and get presentation-ready Sensitivity, Scenario analyses, and Monte Carlo Simulation right away. Customize the settings like a pro if you want.
     benefitsList:
       - text: >-
-          Identify cells that impact your KPIs the most (e.g. revenues)
+          Learn what really drives your KPIs
       - text: >-
-          Visualize the sensitivity of the KPIs to important cells
+          Vizualize how your model reacts to changes in key assumptions
       - text: >-
-          Automatically create and compare scenarios
+          Compare lots of scenarios with ease
       - text: >-
-          Visualize project risks based on Monte Carlo Simulation
+          Analyze risks with Monte Carlo Simulation
     benefitsList2:
       - text: >-
-          Collaborators can easily self-serve on analysis instead of waiting for the 'spreadsheet guru'
+          Analysis adepts will appreciate the automation, and the less-experienced users can get things done with just a few clicks
       - text: >-
-          In minutes, carry out analyses that now take hours of error-prone manual setups       
+          Build on top of your collaborators' analyses without anyone losing data
     image: /img/product-tour/step2.png  
-    title: 'Automate Analytics with One Click'
+    title: 'Analyze with One Click'
     titlePrefix: '2'   
   - descr: >-
-      Add your analyses to dashboards, or create spreadsheet-driven web-calculators, and securely share them with collaborators.
+      Add your analyses to dashboards, or create spreadsheet-driven web-calculators, and securely share them with others.
     benefitsList:
       - text: >-
-          Empower stakeholders to independently test scenarios
+          Enable stakeholders to test scenarios without your help, even if you didn't grant them access to the spreadsheet
       - text: >-
-          Control which dashboards and scenarios are available for which collaborator        
+          Share only certain dashboards and scenarios with certain collaborators      
     benefitsList2:
       - text: >-
-          Dashboards are linked to the spreadsheet and allow collaborators to play with the numbers without seeing the spreadsheet
+          You can't accidentally break the spreadsheet or obstruct the dashboard views of other collaborators
       - text: >-
-          It’s not possible to accidentally break the spreadsheet or interfere with the dashboard views of other collaborators
-      - text: >-
-           No time wasted copy-pasting and keeping dashboards up-to-date
+          Once created - always updated: Visyond's dashboards require no to minimal maintenance         
     image: /img/product-tour/step4.png
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
