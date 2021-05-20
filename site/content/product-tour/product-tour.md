@@ -10,60 +10,64 @@ metaTags: >-
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
   Transform Your Spreadsheet into a Decision-making Platform
-topDescription: Automate the journey from a spreadsheet cell to analytical insights on online dashboards
+topDescription: Automate the journey from spreadsheets to decisions based on interactive dashboards
 StepsHeader: >-
-      Get Started in 3 Quick Steps
+      Make Better Decisions in 3 Simple Steps
 StepsBlock:
   - descr: >-
       **Import your Excel spreadsheet** (or build one in Visyond) or install our add-in (coming soon) to transform it into an interactive and collaborative **decision-making platform**.
     benefitsList:
       - text: >-
-          Always be on top of your scenarios and assumptions
+          Track data and quickly compare scenarios
       - text: >-
-          Decide who gets to interact with what
+          Control which worksheets collaborators can see and edit
       - text: >-
-          Quickly find out if there's something wrong with your model
+          Find out if there's something wrong with your model
     benefitsList2:
       - text: >-
           You don't need consultants, IT experts, or lenghty installations to get things rolling
       - text: >-
            Leverage your Excel skills without having to learn new complicated menus
       - text: >-
-           Never have your formulas or values overwriten by somebody esle while still working on the same model together               
+           Your data is safe and can't be overwritted by collaborators            
     image: /img/product-tour/step1.png 
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Pick a cell you want to analyze, and get presentation-ready Sensitivity, Scenario analyses, and Monte Carlo Simulation right away. Customize the settings like a pro if you want.
+      Pick cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation. Customize the settings like a pro if you want.
     benefitsList:
       - text: >-
-          Learn what really drives your KPIs
+          Learn what really drives your decision metrics
       - text: >-
           Vizualize how your model reacts to changes in key assumptions
       - text: >-
-          Compare lots of scenarios with ease
+          Compare many scenarios in real time
       - text: >-
           Analyze risks with Monte Carlo Simulation
     benefitsList2:
       - text: >-
-          Analysis adepts will appreciate the automation, and the less-experienced users can get things done with just a few clicks
+          Excel experts will do things much faster
+      - text: >-    
+          Less-experienced users can get valuable insights with just a few clicks        
       - text: >-
-          Build on top of your collaborators' analyses without anyone losing data
+          Extend your collaborators' analyses without anyone losing data
     image: /img/product-tour/step2.png  
     title: 'Analyze with One Click'
     titlePrefix: '2'   
   - descr: >-
-      Add your analyses to dashboards, or create spreadsheet-driven web-calculators, and securely share them with others.
+      Add your analyses to dashboards, and create spreadsheet-driven calculators, and securely share them with others.
     benefitsList:
       - text: >-
-          Enable stakeholders to test scenarios without your help, even if you didn't grant them access to the spreadsheet
+          Hide the complexity of the spreadsheet and put important metrics on interactive dashboards  
+      - text: >-
+          Enable stakeholders to test scenarios without your help
       - text: >-
           Share only certain dashboards and scenarios with certain collaborators      
     benefitsList2:
       - text: >-
           You can't accidentally break the spreadsheet or obstruct the dashboard views of other collaborators
       - text: >-
-          Once created - always updated: Visyond's dashboards require no to minimal maintenance         
+          Once created - always updated: Visyond's dashboards require minimal to no maintenance         
     image: /img/product-tour/step4.png
     title: 'Share Insights and Scenarios on Dashboards'
     titlePrefix: '3'   
