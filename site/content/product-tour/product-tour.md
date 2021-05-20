@@ -34,7 +34,7 @@ StepsBlock:
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Pick cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation. Customize the settings like a pro if you want.
+      Pick cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation.
     benefitsList:
       - text: >-
           Learn what really drives your decision metrics
