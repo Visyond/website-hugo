@@ -21,7 +21,7 @@
                   
                 <div class="home-hero__half-width-wrap">
                     <div class="home-hero__buttons-section">
-                        <a href="/request" class="button button-primary button-asterisk">Schedule a Demo</a>
+                        <a href="/request" class="button button-primary button-asterisk">View Demo</a>
                     </div>
                 </div>
 
@@ -31,15 +31,15 @@
                     <ul class="home-hero__other-features">
                         <li>
                             <img src="/img/home/excel.svg" alt="Excel Add-on">
-                            Excel Add-on
+                            Excel Compatible
                         </li>
                         <li>
                             <img src="/img/home/finger.svg" alt="Cloud Platform">
-                            Cloud Platform
+                            Easy to Use
                         </li>
                         <li>
                             <img src="/img/home/sandWatch.svg" alt="Smart Automation">
-                            Quick Adoption
+                            Get Started in Minutes
                         </li>
                     </ul>
                 
@@ -225,56 +225,5 @@
     {{ partial "hexCaseStudies" . }}
     <!-- END: FEATURED CASE STUDIES -->
 
-    <!-- LIST OF USEFUL RESOURCES  -->
-    <section class="homeBenefits" >
-        <div class="container">
-            <h2 class="homeBenefits__header">{{ .Params.BenefitsHeader }}</h2>
-
-            <div class="homeBenefits__cards">
-                {{ range .Params.cards}}
-                <a
-                        {{ with .link }}
-                        href="{{.}}"
-                        {{ end }}
-                        class="homeBenefits__card">
-                    <div class="homeBenefits__card-image-wrap">
-                        <img src="{{.icon}}" alt="icon" class="homeBenefits__card-image">
-                    </div>
-                    <h3 class="homeBenefits__card-title">
-                        {{ .header | markdownify }}
-                    </h3>
-                    <p class="homeBenefits__card-text">
-                        {{ .description | markdownify }}
-                    </p>
-                </a>
-                {{ end }}
-            </div>
-        </div>
-    </section>
-    <!-- END: LIST OF USEFUL RESOURCES  -->
-
-    <!-- REQUEST SECTION -->
-    <section class="whyV">
-        <div class="container">
-            <div class="whyV__row">
-                <h2 class="enterV__headline" id="request">{{ .Params.requestSectionHeader }}</h2>
-                <div class="header-section--divider"></div>
-
-                <!-- Hubspot Form - Request -->
-                <div class="marketing-form-wrapper">
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-                    <script>
-                        hbspt.forms.create({
-                            portalId: "3409378",
-                            formId: "fe27afd9-f1cc-464b-90b6-fcc88a768d2a"
-                    });
-                    </script>
-                </div>	
-                <!-- END: Hubspot Form - Request -->
-
-            </div>
-        </div>  
-    </section>
-    <!-- END: REQUEST SECTION -->	
 </div>
 {{ partial "hexFooter" . }}

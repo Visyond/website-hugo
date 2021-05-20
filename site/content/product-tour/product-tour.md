@@ -9,8 +9,8 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  Transform Your Spreadsheet into a Decision-making Platform
-topDescription: Automate the journey from spreadsheets to decisions based on interactive dashboards
+  From Spreadsheets to Interactive Dashboards in a Few Clicks
+topDescription: Transform your spreadsheets into a decision-making platform that drives performance
 StepsHeader: >-
       Make Better Decisions in 3 Simple Steps
 StepsBlock:
@@ -44,18 +44,18 @@ StepsBlock:
           Compare many scenarios in real time
       - text: >-
           Analyze risks with Monte Carlo Simulation
+      - text: >-
+          Extend your collaborators' analyses without anyone losing data          
     benefitsList2:
-      - text: >-
-          Excel experts will do things much faster
       - text: >-    
-          Less-experienced users can get valuable insights with just a few clicks        
+          You don't need many tools. Visyond's analyses are intergrated with the spreadsheets and dashboards 
       - text: >-
-          Extend your collaborators' analyses without anyone losing data
+          Both Excel experts and novices will get things done quickly
     image: /img/product-tour/step2.png  
-    title: 'Analyze with One Click'
+    title: 'Analyze with Few Clicks'
     titlePrefix: '2'   
   - descr: >-
-      Add your analyses to dashboards, and create spreadsheet-driven calculators, and securely share them with others.
+      Add your analyses to dashboards, create spreadsheet-driven calculators, and securely share them with others.
     benefitsList:
       - text: >-
           Hide the complexity of the spreadsheet and put important metrics on interactive dashboards  
@@ -116,7 +116,7 @@ summary:
   - content: "Best for individual modelers and analysts who also need to present their work to stakeholders"
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
-  - content: "Best for teams that want secure internal and external collaboration on scenarios, analyses and data gathering"
+  - content: "Best for teams that want secure internal and external collaboration on scenarios, analyses and dashboards"
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
 infoBlockFirst:
@@ -271,7 +271,7 @@ infoBlockFirst:
     subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Model
 DemoStripTitle: Flexible. Familiar. Scalable.
-DemoStripTitleButton: Schedule Demo
+DemoStripTitleButton: Watch Demo
 DemoStripTitleLink: /request
 WhyVisyondHeader: >-
   Why Visyond?
