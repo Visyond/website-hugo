@@ -30,14 +30,16 @@
 										{{ .demoSectionSubTitle }}
 									</div>
 
-									<div>
-										{{ .demoVideoLink }}
+									<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
+										<div>
+											{{ .demoVideoLink }}
+										</div>
+	
+										<div>
+											{{ .demoDescription | markdownify }}
+										</div>		
 									</div>
 									
-									<div>
-										{{ .demoDescription | markdownify }}
-									</div>									
-
 									<!--
 									<ul style="padding-left: 0px;">
 										{{ range $list := .answersList }}
