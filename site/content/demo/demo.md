@@ -13,9 +13,9 @@ metaTags: >-
   <meta name="keywords" content="XXXXXXX">
 demoSection:
   - demoSectionContent:
-        demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+      - demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
   - demoSectionContent:
-        demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+      - demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
     demoSectionTitle: Is there a free version?                
 ---
 
