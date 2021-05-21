@@ -1282,3 +1282,25 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }          
       - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
+
+
+  - name: "demo"
+    label: "Demo"
+    folder: "site/content/demo"
+    create: true
+    fields:
+      - {label: "Page URL", name: "url", widget: string, required: false}
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
+      - {label: "Demo Section", name: "demoSection", widget: "list", 
+        fields: [
+          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
+          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
+          fields: [
+            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
+            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: false},
+            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
+          ],}
+	], 
+        required: false,
+        }      
