@@ -13,14 +13,9 @@ metaTags: >-
   <meta name="keywords" content="XXXXXXX">
 demoSection:
   - demoSectionContent:
-        demoSectionSubTitle: 'woot'
-        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: Demo description 123 *test*
-    demoSectionTitle: Short Demos
+        demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
   - demoSectionContent:
-        demoSectionSubTitle: 'xxxx'
-        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: aaaaaaaaaaa
-    demoSectionTitle: Live Demos
+        demoSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+    demoSectionTitle: Is there a free version?                
 ---
 

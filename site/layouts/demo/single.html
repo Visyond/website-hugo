@@ -20,24 +20,27 @@
 				{{ range $el := .Params.demoSection }}
 				<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
 					<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .demoSectionTitle }}</h2>
-					<section class="FAQSection__text-wrap">
+					<section class="demoSection__text-wrap">
 						<div class="enterSectionsA__block-descr">
 							<ul style="padding-left: 0px;">
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
 								<div class="enterSections__benefits" style="padding: 0 0 0;">
-                                    <ul style="padding-left: 0px;">
-                                        <div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
-                                            {{ .demoSectionSubTitle }}
-                                        </div>
-                                        <div>
-                                            {{ .demoVideoLink }}
-                                        </div>
-                                        <div>
-                                            {{ .demoDescription | markdownify }}
-                                        </div>
-                                    </ul>
+									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
+										{{ .demoSectionSubTitle }}
+									</div>
+
+									<!--
+									<ul style="padding-left: 0px;">
+										{{ range $list := .answersList }}
+										<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
+											{{ .answer | markdownify }}
+										</div>
+										{{ end }}
+									</ul>	
 								</div>
+								-->
+								
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							</ul>
@@ -45,12 +48,7 @@
 					</section>
 				</li>
 				{{ end }}
-				<!-- END: LIST OF FAQ SECTIONS -->
-			</ul>
-		</div>
-
-	</section>
-	<!-- END: DEMO SECTION -->
+				<!-- END: LIST OF DEMO SECTIONS -->
 </div>
 
 {{ partial "hexFooter" . }}
