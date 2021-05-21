@@ -15,21 +15,26 @@ demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: Scenarios and Collaboration
+        demoDescription: >-
+          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.
       - demoSectionSubTitle: Auto-analysis
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: Auto-analysis      
+        demoDescription: >-
+          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios. 
       - demoSectionSubTitle: Interactive Dashboards
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: Dashboards      
+        demoDescription: >-
+          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.     
     demoSectionTitle: Short Demos
   - demoSectionContent:
       - demoSectionSubTitle: Organic growth of shops
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: Shops     
+        demoDescription: >-
+          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.    
       - demoSectionSubTitle: General demo
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: General         
+        demoDescription: >-
+          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.       
     demoSectionTitle: Live Demos
 ---
 

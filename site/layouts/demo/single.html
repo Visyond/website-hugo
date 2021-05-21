@@ -31,13 +31,18 @@
 									</div>
 
 									<ul style="padding-left: 0px;">
-										<div>
-											{{ .demoVideoLink }}
+										<div style="width: 900px; padding-top: 25px; margin: 0 auto; max-width: 100%;"> <!--https://stackoverflow.com/questions/27126956/embed-an-responsive-youtube-iframe-to-center-of-an-page-->
+											<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 										</div>
 	
 										<div>
 											{{ .demoDescription | markdownify }}
-										</div>		
+										</div>
+										
+										<div>
+											<a href="/request" class="button button-primary">Try Visyond</a>
+										</div>
+										
 									</ul>
 									
 									<!--
