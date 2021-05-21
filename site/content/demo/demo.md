@@ -14,12 +14,22 @@ metaTags: >-
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: Scenarios and Collaboration
       - demoSectionSubTitle: Auto-analysis
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: Auto-analysis      
       - demoSectionSubTitle: Interactive Dashboards
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: Dashboards      
     demoSectionTitle: Short Demos
   - demoSectionContent:
       - demoSectionSubTitle: Organic growth of shops
-      - demoSectionSubTitle: General demo    
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: Shops     
+      - demoSectionSubTitle: General demo
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: General         
     demoSectionTitle: Live Demos
 ---
 
