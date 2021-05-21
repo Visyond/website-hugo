@@ -27,13 +27,13 @@
 							{{ range $list := .demoSectionContent }}
 								<div class="enterSections__benefits" style="padding: 0 0 0;">
 									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
-										{{ Params.demoSectionSubTitle }}
+										{{ .demoSectionSubTitle }}
 									</div>
                                     <div>
-                                        {{ Params.demoVideoLink }}
+                                        {{ .demoVideoLink }}
                                     </div>
                                     <div>
-                                        {{ Params.demoDescription | markdownify }}
+                                        {{ .demoDescription | markdownify }}
                                     </div>
 								</div>
 							{{ end }}

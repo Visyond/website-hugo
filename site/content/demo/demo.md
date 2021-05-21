@@ -13,7 +13,9 @@ metaTags: >-
   <meta name="keywords" content="XXXXXXX">
 demoSection:
   - demoSectionContent:
-      demoSectionSubTitle: 'woot'
+      - demoSectionSubTitle: 'woot'
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: Demo description 123 *test*
     demoSectionTitle: How is Visyond different from a general purpose spreadsheet?      
 ---
 
