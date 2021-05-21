@@ -16,6 +16,11 @@ demoSection:
       - demoSectionSubTitle: 'woot'
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
         demoDescription: Demo description 123 *test*
-    demoSectionTitle: How is Visyond different from a general purpose spreadsheet?      
+    demoSectionTitle: Short Demos
+  - demoSectionContent:
+      - demoSectionSubTitle: 'xxxx'
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: aaaaaaaaaaa
+    demoSectionTitle: Live Demos
 ---
 
