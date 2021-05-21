@@ -12,6 +12,7 @@ metaTags: >-
   <meta name="description" content="XXXXXX">
   <meta name="keywords" content="XXXXXXX">
 demoSection:
+    demoSectionTitle: How is Visyond different from a general purpose spreadsheet? 
   - demoSectionContent:
       - demoSectionContent:
           - demoSectionSubTitle: 'Scenarios and Collaboration'
@@ -24,6 +25,5 @@ demoSection:
           - demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
           - demoDescription: >-
               Demo description 456 *test2*
-        demoSectionTitle: Watch demos azaza     
 ---
 
