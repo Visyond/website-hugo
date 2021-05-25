@@ -165,7 +165,7 @@
     overflow: hidden;
     transition: max-height 1s linear;
 }
-.demoSection__body.opened + ul{
+.demoSection__body.opened > ul{
     max-height: 1600px;
 }
 
