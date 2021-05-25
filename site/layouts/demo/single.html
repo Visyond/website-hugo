@@ -26,20 +26,26 @@
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
 								<div class="enterSections__benefits" style="padding: 0 0 0;">
-									<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
+									<div class="demoSection--title">
 										{{ .demoSectionSubTitle }}
 
-										<div class="whyV__text" style="margin: 10px 0 0 0; width: 100%;">
+										<div class="demoText">
 											{{ .demoDescription | markdownify }}
 										</div>
 									</div>
 
 									<ul style="padding-left: 0px;">
-										<div style="width: 900px; padding-top: 25px; margin: 0 auto; max-width: 100%;"> <!--https://stackoverflow.com/questions/27126956/embed-an-responsive-youtube-iframe-to-center-of-an-page-->
+
+										<div class="demoVideo-container"> 
+											<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+										</div>	
+										
+										<!--https://stackoverflow.com/questions/27126956/embed-an-responsive-youtube-iframe-to-center-of-an-page-->
+										<!--
+										<div style="width: 900px; padding-top: 25px; margin: 0 auto; max-width: 100%;"> 
 											<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 										</div>
-	
-
+										-->	
 										
 										<div>
 											<a href="#request" style="color: #fff" class="button button-primary">Request Live Demo</a> <!--fix button color-->
