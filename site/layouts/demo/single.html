@@ -15,17 +15,17 @@
 	<!-- DEMO SECTION -->
 	<section class="enterV" style="background-color: #fff; padding-top: 0px;">
 		<div class="container">
-			<ul class="enterSections">
+			<ul class="demoSections">
 				<!-- LIST OF DEMO SECTIONS -->
 				{{ range $el := .Params.demoSection }}
-				<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
-					<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900; text-align: center;">{{ .demoSectionTitle }}</h2>
+				<li class="demoSection__block" style="text-align: left; margin-bottom: 1em;">
+					<h2 class="demoSection__block-title" style="font-size: 2em; font-weight: 900; text-align: center;">{{ .demoSectionTitle }}</h2>
 					<section class="demoSection__text-wrap">
-						<div class="enterSectionsA__block-descr">
+						<div class="demoSection__block-descr">
 							<ul style="padding-left: 0px;">
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
-								<div class="enterSections__benefits" style="padding: 0 0 0;">
+								<div class="demoSection__body" style="padding: 0 0 0;">
 									<div class="demoSection--title">
 										{{ .demoSectionSubTitle }}
 

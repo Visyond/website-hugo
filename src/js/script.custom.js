@@ -160,7 +160,18 @@ $(function () {
                 $(this).toggleClass('opened');
             })
         });
-    })();   
+    })(); 
+    
+    
+        //=====Toggle opening of demo video lists=====
+        (function () {
+            let toggles = $('.demoSection--title');
+            toggles.each(function () {
+                $(this).click(function () {
+                    $(this).toggleClass('opened');
+                })
+            });
+        })();
 
     //=====HEXUP END=====
 

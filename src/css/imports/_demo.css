@@ -16,6 +16,128 @@
 	height: 100%;
 }
 
+.demoSections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.demoSection__block {
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: right;
+
+    &:not(:last-child) {
+         margin-bottom: 0rem; /* 4rem */
+     }
+
+    &:nth-child(2n) {
+         text-align: left;
+    }
+}
+
+.demoSection__block:nth-child(2n + 1) .infoA__img-wrap {
+    margin-right: 5%;
+    float: left;
+
+@media screen and (max-width: 800px) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+}
+}
+
+.demoSection__block:nth-child(2n) .infoA__img-wrap {
+    margin-left: 5%;
+    float: right;
+
+@media screen and (max-width: 800px) {
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+}
+
+.demoSection__block-title {
+    color: #383E4D;
+    font-size: 2em;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 15px;
+    width: 100%;
+@media screen and (max-width: 800px) {
+    margin-bottom: 12px;
+    font-size: 24px;
+}
+}
+
+.demoSection__block-descr {
+    color: #383E4D;
+    font-size: 16px;
+    margin-bottom: 1em;
+    width: 100%;
+    font-weight: 400;
+}
+
+.demoSection__block-descr ul {
+    list-style: none;
+    padding: 0;
+}
+
+.demoSection__block-descr li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.4;
+
+&:before {
+     content: "";
+     position: absolute;
+     top: 0.68em; /* 0.65em */
+     left: 0;
+     transform: rotate(-130deg);
+     width: .5em;
+     height: 2px;
+     background: #0086ff;
+     display: inline-block;
+ }
+
+&:after {
+     content: "";
+     position: absolute;
+     top: 4px; /* 0 */
+     left: .57em; /* .7em */
+     transform: rotate(-130deg);
+     margin-right: 10px;
+     margin-bottom: 3px;
+     width: 2px;
+     height: .8em; /* 1em */
+     background: #0086ff;
+     display: inline-block;
+ }
+@media screen and (max-width: 800px) {
+    text-align: left;
+}
+}
+
+.demoSection__block-descr span,
+.demoSection__block-descr strong {
+    font-weight: 600;
+}
+
+.demoSection__block-descr a {
+    color: #0086ff;
+}
+
+
+.demoSection__body {
+    padding: 20px 0 10px;
+}
+
+
 .demoSection--title{
     color: #808080;
     text-decoration: none;
