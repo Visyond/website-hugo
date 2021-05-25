@@ -168,7 +168,7 @@
     transform: rotate(-495deg);
     top: 10px;
 }
-.demoSection--title ul{
+.demoSection__body ul{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s linear;
