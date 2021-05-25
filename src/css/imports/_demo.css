@@ -75,19 +75,6 @@
 }
 }
 
-.demoSection__block-subtitle {
-    margin-bottom: 20px;
-    font-size: 1.2em;
-    font-weight: 400;
-    color: #383e4d;
-    line-height: 22px;
-    border-left: 2px solid #0086ff;
-    padding-left: 10px;    
-    @media screen and (max-width: 800px) {
-        margin-bottom: 16px;
-        font-size: 16px;
-    }    
-    }
 
 .demoSection__block-descr {
     color: #383E4D;
