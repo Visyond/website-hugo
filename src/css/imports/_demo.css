@@ -29,7 +29,8 @@
     width: 100%;
     display: block;
     position: relative;
-    text-align: right;
+    text-align: left;
+    margin-bottom: 1em;
 
     &:not(:last-child) {
          margin-bottom: 0rem; /* 4rem */
@@ -64,9 +65,10 @@
     color: #383E4D;
     font-size: 2em;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 900;
     margin-bottom: 15px;
     width: 100%;
+    text-align: center;
 @media screen and (max-width: 800px) {
     margin-bottom: 12px;
     font-size: 24px;
@@ -134,7 +136,7 @@
 
 
 .demoSection__body {
-    padding: 20px 0 10px;
+    padding: 0 0 0;
 }
 
 
@@ -165,7 +167,7 @@
     transform: rotate(-495deg);
     top: 10px;
 }
-.enterSections__benefits ul{
+.demoSection--title ul{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s linear;
