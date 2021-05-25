@@ -27,16 +27,17 @@
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
 
-									<img src="/img/decision_makers_3x.png" alt="icon" class="ftr-features__card-image">
+									<img src="/img/decision_makers_3x.png" alt="icon" style="height: 80px;">
 									
-									
+
 									<div class="demoSection--title">
 										{{ .demoSectionSubTitle }}
-
-										<div class="demoText">
-											{{ .demoDescription | markdownify }}
-										</div>
 									</div>
+
+									<div class="demoText">
+										{{ .demoDescription | markdownify }}
+									</div>
+									
 
 
 									<ul>
