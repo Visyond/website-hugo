@@ -26,6 +26,10 @@
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
+
+									<img src="/img/decision_makers_3x.png" alt="icon" class="ftr-features__card-image">
+									
+									
 									<div class="demoSection--title">
 										{{ .demoSectionSubTitle }}
 
@@ -35,13 +39,13 @@
 									</div>
 
 
-									<ul style="padding-left: 0px;">
+									<ul>
 
 										<div class="demoVideo-container">
 											<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 										</div>	
 
-										
+
 										<!--https://stackoverflow.com/questions/27126956/embed-an-responsive-youtube-iframe-to-center-of-an-page-->
 										<!--
 										<div style="width: 900px; padding-top: 25px; margin: 0 auto; max-width: 100%;"> 
