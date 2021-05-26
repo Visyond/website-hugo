@@ -38,12 +38,78 @@
 											{{ .demoDescription | markdownify }}
 										</div>									
 									</div>
+
+									<div class="button-wrap">										
+										{{ if .demoVideoLink }}
+										<span style="padding: 0" class="button button-icon btn-video4"
+											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+										style="display: none;"
+										{{ end }}
+										>
+											
+										<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+											<i class="material-icons">play_arrow</i>
+											<span>Watch</span>
+										</span>
+
+										<div class="ht-top__popup js-popup">
+											<div class="ht-top__iframe-wrap">
+												<button class="ht-top__popup-close js-popup-close">X</button>
+												<p>{{ .demoVideoLink }}</p>
+											</div>
+										</div>
+
+										</span>
+										{{ end }}
+
+									</div>
+
+
+									<!--
+									<div class="button-wrap">
+										{{ if .link }}
+										<a href="{{ .link }}" class="button button-primary">
+											<div>
+												Learn more
+											</div>
+										</a>
+										{{ end }}
+										
+										{{ if .linkYoutube }}
+										<span style="padding: 0" class="button button-icon btn-video4"
+											{{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
+										style="display: none;"
+										{{ end }}
+										>
+											
+										<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+											<i class="material-icons">play_arrow</i>
+											<span>2 min demo</span>
+										</span>
+
+										<div class="ht-top__popup js-popup">
+											<div class="ht-top__iframe-wrap">
+												<button class="ht-top__popup-close js-popup-close">X</button>
+												<p>{{ .linkYoutube }}</p>
+											</div>
+										</div>
+
+										</span>
+										{{ end }}
+									</div>
+									-->
+
+									<!-- 
 									<div class="ht-top__popup js-popup">
 										<div class="ht-top__iframe-wrap">
 											<button class="ht-top__popup-close js-popup-close">X</button>
 											<p>https://www.youtube.com/embed/xCJT4vkskq8</p>
 										</div>
 									</div>
+									-->
+
+
+
 									<!--
 									<button class="button button-icon" style="color: #ffffff;background-color: #0086ff;">
 										<i class="material-icons">play_arrow</i>
