@@ -49,7 +49,10 @@ demoSection:
     demoSectionTitle: Live Demos
 WhyVisyondHeader: Why Visyond?
 WhyVisyondText: >-
-  How Visyond solves the **3 main challenges** of speadsheet-based decision-making
+  Visyond solves the **3 main challenges** of speadsheet-based decision-making:
+  * Manual tasks
+  * High complexity
+  * Security threats
 WhyVisyondButtonText: Learn More    
 ---
 
