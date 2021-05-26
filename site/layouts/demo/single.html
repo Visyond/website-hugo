@@ -158,26 +158,16 @@
 
 
     <!-- WHY VISYOND -->
-    <section class="whyV">
-        <div class="container">
-            <div class="whyV__row">
-                <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
-                <div class="header-section--divider"></div>
-                
-                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
-                    {{ .Params.WhyVisyondText | markdownify }}
-                </div>
-
-				<div class="home-hero__half-width-wrap" style="width: 100%;text-align: center;">
-					<div class="home-hero__buttons-section" style="display: inline-block;">
-					  <a href="/why-visyond/" class="button button-primary button-asterisk">{{ .Params.WhyVisyondButtonText }}</a>
-						
-					</div>
-				</div>
-
-            </div>
-        </div>  
-    </section>
+	<section class="whyV">
+		<div class="container">
+			 <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader}}</h2>
+			<div class="header-section--divider"></div>
+			<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.WhyVisyondText | markdownify }}</div>
+			<div class="btn-wrap" style="margin-bottom: 2em;">
+				<a href="{{ .Params.WhyVisyondButtonLink}}" class="btn-primary" style="text-transform: none;">{{ .Params.WhyVisyondButtonText}}</a>
+			</div>	
+		</div>
+	</section>
     <!--END: WHY VISYOND -->	
 
 {{ partial "hexFooter" . }}

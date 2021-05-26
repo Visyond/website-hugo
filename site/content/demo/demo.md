@@ -53,6 +53,7 @@ WhyVisyondText: >-
   * Manual tasks
   * High complexity
   * Security threats
-WhyVisyondButtonText: Learn More    
+WhyVisyondButtonText: Learn More
+WhyVisyondButtonLink: /why-visyond
 ---
 
