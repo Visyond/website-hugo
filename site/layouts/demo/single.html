@@ -27,7 +27,7 @@
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body" style="display: flex; align-items: center;">
 
-									<img src="/img/decision_makers_3x.png" alt="icon" style="height: 80px;">
+									<img src="/img/decision_makers_3x.png" alt="icon" style="height: 70px;">
 									
 									<div class="demoSectionTitleDescContainer">
 										<div class="demoSection--title">
@@ -46,14 +46,14 @@
 
 								</div>
 								
-								<ul>
+								<div class=demoExpandingSection>
 									<div class="demoVideo-container">
 										<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 									</div>	
 									<div>
 										<a href="#request" style="color: #fff" class="button button-primary">Request Live Demo</a> <!--fix button color-->
 									</div>
-								</ul>
+								</div>
 								
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->

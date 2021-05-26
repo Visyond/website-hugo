@@ -165,7 +165,7 @@ $(function () {
     
         //=====Toggle opening of demo video lists=====
         (function () {
-            let toggles = $('.demoSection__body');
+            let toggles = $('.demoExpandingSection');
             toggles.each(function () {
                 $(this).click(function () {
                     $(this).toggleClass('opened');
