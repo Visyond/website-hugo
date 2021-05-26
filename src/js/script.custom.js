@@ -354,6 +354,13 @@ $(function () {
         watchVideo5(btn6[i]);
     }
 
+    var demoPageButton = [];
+
+    var blocks7 = document.querySelectorAll('.demoSection__block');
+    for (var i = 0; i<blocks7.length; i++) {
+        demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
+        watchVideo5(demoPageButton[i]);
+    }
 
 
     // ===== AUTOPLAY VIDEO =====
