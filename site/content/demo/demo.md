@@ -10,8 +10,8 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com/demo/">
   <meta name="description" content="XXXXXX">
   <meta name="keywords" content="XXXXXXX">
-coverHeader: Watch Demo
-coverDescription: Watch the demos below and request a live demo if you want
+coverHeader: Explore Visyond
+coverDescription: Watch demos and request a live demonstration to see what Visyond can do for you
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
@@ -19,33 +19,37 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
         demoVideoButtonText: 2 min
         demoDescription: >-
-          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.
+          Manage and collaborate on assumptions, create and analyze scenarios on-the-fly. 
       - demoSectionSubTitle: Auto-analysis
         demoSectionImage: /img/audit-mode@2x.png
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
         demoVideoButtonText: 2 min
         demoDescription: >-
-          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios. 
+           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation in a few clicks.
       - demoSectionSubTitle: Interactive Dashboards
         demoSectionImage: /img/report_presentation_visualization_3x.png
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
         demoVideoButtonText: 2 min
         demoDescription: >-
-          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.     
+          Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
     demoSectionTitle: Short Demos
   - demoSectionContent:
-      - demoSectionSubTitle: Forecasting organic growth of a shop chain and testing scenarios
+      - demoSectionSubTitle: Forecasting Organic Growth of a Shop Chain and Testing Scenarios
         demoSectionImage: /img/simulations@2x.png
         demoVideoLink: 'https://www.youtube.com/embed/Mlwsq6LUTXI'
         demoVideoButtonText: 2 min
         demoDescription: >-
-          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.    
-      - demoSectionSubTitle: Scenarios and Dashboards Workflow
+          Forecasting organic growth of a chain of shops and enabling collaborators to test scenarios without your help.  
+      - demoSectionSubTitle: Visyond platfrom from A to Z
         demoSectionImage: /img/interactive presentations@2x.png
         demoVideoLink: 'https://www.youtube.com/embed/LmNCVp6l7rE'
         demoVideoButtonText: 15 min
         demoDescription: >-
-          Create and compare scenarios on-the-fly with just a few clicks during meetings or presentations, and quickly identify which business drivers change between scenarios.       
+          The journey from the spreadsheet to analysis and interactive dashboards to drive decision-making.     
     demoSectionTitle: Live Demos
+WhyVisyondHeader: Why Visyond?
+WhyVisyondText: >-
+  How Visyond solves the **3 main challenges** of speadsheet-based decision-making
+WhyVisyondButtonText: Learn More    
 ---
 

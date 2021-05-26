@@ -21,6 +21,7 @@
 				{{ range $el := .Params.demoSection }}
 				<li class="demoSection__block">
 					<h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2>
+					<div class="header-section--divider"></div>
 					<section class="demoSection__text-wrap">
 						<div class="demoSection__block-descr">
 							<ul>
@@ -117,30 +118,8 @@
 
 
 								</div>
-								
-								<div class="demoSection__body"></div>
-								
-								<!--
-								<div class=demoExpandingSection>
-									<div class="demoVideo-container">
-										<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
-									</div>	
-									<div>
-										<a href="#request" style="color: #fff" class="button button-primary">Request Live Demo</a> 
-									</div>
-								</div>									
-								-->
 
-								<!--
-								<div class="ht-top__popup js-popup">
-									<div class="ht-top__iframe-wrap">
-										<button class="ht-top__popup-close js-popup-close">X</button>
-										<p>{{ .linkYoutube }}</p>
-									</div>
-								</div>
-								-->
-
-
+								<div class="demoSection__divider"></div>
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							</ul>
@@ -156,7 +135,7 @@
 
 	<!-- CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM -->
 	<!-- REQUEST DEMO FORM -->
-	<section class="whyV">
+	<section class="whyV" style="background-color: #f1f4fc;">
 		<div class="container">
 			<div class="whyV__row">
 				<h2 class="enterV__headline" id="request">Request Demo</h2>
@@ -176,5 +155,29 @@
 		</div>  
 	</section>
 	<!-- END: REQUEST DEMO FORM -->
+
+
+    <!-- WHY VISYOND -->
+    <section class="whyV">
+        <div class="container">
+            <div class="whyV__row">
+                <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
+                <div class="header-section--divider"></div>
+                
+                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
+                    {{ .Params.WhyVisyondText | markdownify }}
+                </div>
+
+				<div class="home-hero__half-width-wrap" style="width: 100%;text-align: center;">
+					<div class="home-hero__buttons-section" style="display: inline-block;">
+					  <a href="/why-visyond/" class="button button-primary button-asterisk">{{ .Params.WhyVisyondButtonText }}</a>
+						
+					</div>
+				</div>
+
+            </div>
+        </div>  
+    </section>
+    <!--END: WHY VISYOND -->	
 
 {{ partial "hexFooter" . }}
