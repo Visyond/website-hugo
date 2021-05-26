@@ -144,6 +144,7 @@
 
 }
 
+/*
 .demoSection__body:after{
     content: '';
     border: solid #0086FF;
@@ -160,6 +161,9 @@
     transform: rotate(-495deg);
     top: 10px;
 }
+
+*/
+
 .demoSection__body ul{
     max-height: 0;
     overflow: hidden;
