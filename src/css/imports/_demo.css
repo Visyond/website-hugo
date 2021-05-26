@@ -123,14 +123,13 @@
 
 .demoSection__body {
     position: relative;
-    /* cursor: pointer; */
     display: flex;
     align-items: center;
-    /*margin-bottom: 2em;
-    background-color: #fafafa;
-    border-radius: 5px;
-    border: 1px solid #d7d5d5; */
     padding: 1em 2em;
+    flex-direction: row;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 
 .demoSection__divider {
@@ -140,39 +139,10 @@
     margin: 1em auto;
     border-radius: 2px;
 }
-/*
-.demoSection__body:after{
-    content: '';
-    border: solid #0086FF;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    transition: all .3s linear;
-    position: absolute;
-    right: -20px;
-    top: 6px;
-}
-.demoSection__body.opened:after{
-    transform: rotate(-495deg);
-    top: 10px;
-}
-
-*/
-
-/*
-.demoSection__body ul{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1s linear;
-}
-.demoSection__body.opened + ul{
-    max-height: 1600px;
-}
-*/
 
 .demoSectionTitleDescContainer {
     margin: 0 2em;
+    width: 100%;
 }
 
 .demoSection--title{
@@ -188,9 +158,9 @@
     display: inline-block;
     width: 100%;
     text-align: left;
-@media screen and (max-width: 800px) {
-    width: 95%;
-}
+    @media screen and (max-width: 800px) {
+        width: 95%;
+    }
 }
 
 .demoText{
