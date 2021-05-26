@@ -39,7 +39,7 @@
 										</div>									
 									</div>
 
-									<div class="button-wrap">										
+									<div class="button-wrap demoVideoButton">										
 										{{ if .demoVideoLink }}
 										<span style="padding: 0" class="button button-icon btn-video4"
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
@@ -117,14 +117,17 @@
 
 								</div>
 								
+								<!--
 								<div class=demoExpandingSection>
 									<div class="demoVideo-container">
 										<iframe width="900" height="506" src="{{ .demoVideoLink }}?autoplay=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
 									</div>	
 									<div>
-										<a href="#request" style="color: #fff" class="button button-primary">Request Live Demo</a> <!--fix button color-->
+										<a href="#request" style="color: #fff" class="button button-primary">Request Live Demo</a> 
 									</div>
-								</div>
+								</div>									
+								-->
+
 								<!--
 								<div class="ht-top__popup js-popup">
 									<div class="ht-top__iframe-wrap">
