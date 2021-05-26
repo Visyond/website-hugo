@@ -28,7 +28,7 @@
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
 
-									<img src="{{ .demoSectionImage }}" alt="icon" style="height: 70px;">
+									<img src="{{ .demoSectionImage }}" alt="icon" style="height: 60px;">
 									
 									<div class="demoSectionTitleDescContainer">
 										<div class="demoSection--title">
@@ -42,14 +42,14 @@
 
 									<div class="button-wrap demoVideoButton">										
 										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-video4" style="padding: 0; color: #ffffff;background-color: #0086ff;"
+										<span class="button button-icon btn-video4" style="padding: 0; color: #383e4d; background-color: #4edac3;"
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
 										>												
 											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
 												<i class="material-icons">play_arrow</i>
-												<span style="width: 3em;">{{ .demoVideoButtonText }}</span>
+												<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
 											</span>
 
 											<div class="ht-top__popup js-popup">

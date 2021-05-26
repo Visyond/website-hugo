@@ -143,11 +143,11 @@
     /* cursor: pointer; */
     display: flex;
     align-items: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     background-color: #fafafa;
     border-radius: 5px;
-    border: 1px solid #fafafa;
-    padding: 1em;
+    border: 1px solid #d7d5d5;
+    padding: 1em 2em 1em 2em;
 }
 
 /*
@@ -196,13 +196,12 @@
 }
 
 .demoSection--title{
-    color: #808080;
+    color: #383e4d;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2em;
     line-height: 1.44;
-    margin-bottom: 10px;
-
+    margin-bottom: 0.5em;
 }
 
 .demoSection__text-wrap {
