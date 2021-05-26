@@ -139,13 +139,15 @@
 
 
 .demoSection__body {
-    padding: 0 0 0;
-    display: inline-block;
     position: relative;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: flex;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+    background-color: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #fafafa;
+    padding: 1em;
 }
 
 /*
@@ -190,7 +192,7 @@
 */
 
 .demoSectionTitleDescContainer {
-    margin: 0 1em;
+    margin: 0 1em 0 2em;
 }
 
 .demoSection--title{
