@@ -30,7 +30,7 @@
     display: block;
     position: relative;
     text-align: left;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 
     &:not(:last-child) {
          margin-bottom: 0rem; /* 4rem */
@@ -143,7 +143,9 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
-
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
 }
 
 /*

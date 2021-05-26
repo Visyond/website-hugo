@@ -1297,9 +1297,11 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
           {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
           fields: [
+            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
             {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
             {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: false},
             {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
+            {label: "Demo Video Button Text", name: "demoVideoButtonText", widget: "string", required: false},
           ],}
 	], 
         required: false,

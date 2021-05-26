@@ -6,6 +6,7 @@
 		  <div class="home-hero__container">
 			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
 				  <h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.coverHeader }}</h1>
+				  <div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">{{ .Params.coverDescription }}</div>
 			  </div>
 		  </div>
 	</div>
@@ -25,9 +26,9 @@
 							<ul>
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
-								<div class="demoSection__body" style="display: flex; align-items: center;">
+								<div class="demoSection__body">
 
-									<img src="/img/decision_makers_3x.png" alt="icon" style="height: 70px;">
+									<img src="{{ .demoSectionImage }}" alt="icon" style="height: 70px;">
 									
 									<div class="demoSectionTitleDescContainer">
 										<div class="demoSection--title">
@@ -41,19 +42,19 @@
 
 									<div class="button-wrap demoVideoButton">										
 										{{ if .demoVideoLink }}
-										<span style="padding: 0" class="button button-icon btn-video4"
+										<span class="button button-icon btn-video4" style="padding: 0; color: #ffffff;background-color: #0086ff;"
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
 										>												
 											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
 												<i class="material-icons">play_arrow</i>
-												<span>Watch</span>
+												<span>{{ .demoVideoButtonText }}</span>
 											</span>
 
 											<div class="ht-top__popup js-popup">
 												<div class="ht-top__iframe-wrap">
-													<button class="ht-top__popup-close js-popup-close">X</button>
+													<button class="ht-top__popup-close js-popup-close"></button>
 													<p>{{ .demoVideoLink }}</p>
 												</div>
 											</div>
