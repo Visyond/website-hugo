@@ -107,20 +107,22 @@
      background: #0086ff;
      display: inline-block;
  }
-
+/*
 &:after {
      content: "";
      position: absolute;
-     top: 4px; /* 0 */
-     left: .57em; /* .7em */
+     top: 4px;
+     left: .57em; 
      transform: rotate(-130deg);
      margin-right: 10px;
      margin-bottom: 3px;
      width: 2px;
-     height: .8em; /* 1em */
+     height: .8em; 
      background: #0086ff;
      display: inline-block;
- }
+ } 
+*/
+
 @media screen and (max-width: 800px) {
     text-align: left;
 }
