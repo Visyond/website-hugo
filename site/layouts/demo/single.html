@@ -42,26 +42,23 @@
 									<div class="button-wrap">										
 										{{ if .demoVideoLink }}
 										<span style="padding: 0" class="button button-icon btn-video4"
-											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
-										>
-											
-										<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-											<i class="material-icons">play_arrow</i>
-											<span>Watch</span>
-										</span>
+										>												
+											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+												<i class="material-icons">play_arrow</i>
+												<span>Watch</span>
+											</span>
 
-										<div class="ht-top__popup js-popup">
-											<div class="ht-top__iframe-wrap">
-												<button class="ht-top__popup-close js-popup-close">X</button>
-												<p>{{ .demoVideoLink }}</p>
+											<div class="ht-top__popup js-popup">
+												<div class="ht-top__iframe-wrap">
+													<button class="ht-top__popup-close js-popup-close">X</button>
+													<p>{{ .demoVideoLink }}</p>
+												</div>
 											</div>
-										</div>
-
 										</span>
 										{{ end }}
-
 									</div>
 
 
