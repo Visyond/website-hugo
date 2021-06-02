@@ -276,7 +276,7 @@ DemoStripTitleLink: /demo
 providesTitle: Get Started Today
 providesList:
   - text: >-
-      Excel-compatible cloud or on-premise platfrom and Excel add-in
-  - text: Easy to use
+      Cloud or on-premise platform and Excel add-in
+  - text: Easy to use, no complicated menus to learn
   - text: Get started in minutes
 ---

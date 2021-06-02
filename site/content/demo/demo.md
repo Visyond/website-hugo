@@ -15,7 +15,7 @@ coverDescription: Explore different use-cases and request a live demo to see wha
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
-        demoSectionImage: /img/scenarios@2x.png
+        demoSectionImage: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
         demoVideoButtonText: 2 min
         demoDescription: >-

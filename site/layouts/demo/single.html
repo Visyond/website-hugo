@@ -5,7 +5,7 @@ TODO:
 - request CTA when video overlay is active?
 - why visyond list formatting/markdown
 - Top title and Demo Titles are looking the same
-- From hubspot form - make company field non mandatory
+- //From hubspot form - make company field non mandatory
 - see if we can place sign up button somehwere
 - change title/desc of 'Visyond platfrom from A to Z'
 -->
@@ -41,7 +41,33 @@ TODO:
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
 
-									<img src="{{ .demoSectionImage }}" alt="icon" style="height: 60px;">
+									<div class="homeHex-provides__img-wrap">
+										<img id="play-video" src="{{ .demoSectionImage }}" alt="demoVideoThumbnail" class="homeHex-provides__img">
+
+										<div class="button-wrap demoVideoButton">										
+											{{ if .demoVideoLink }}
+											<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
+											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+											style="display: none;"
+											{{ end }}
+											>												
+												<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+													<i class="material-icons">play_arrow</i>
+													<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
+												</span>
+	
+												<div class="ht-top__popup js-popup">
+													<div class="ht-top__iframe-wrap">
+														<button class="ht-top__popup-close js-popup-close"></button>
+														<p>{{ .demoVideoLink }}</p>
+													</div>
+												</div>
+											</span>
+											{{ end }}
+										</div>										
+									</div>
+									
+									<!--- <img src="{{ .demoSectionImage }}" alt="icon" style="height: 60px;"> --->
 									
 									<div class="demoSectionTitleDescContainer">
 										<div class="demoSection--title">
@@ -53,6 +79,7 @@ TODO:
 										</div>									
 									</div>
 
+									<!--
 									<div class="button-wrap demoVideoButton">										
 										{{ if .demoVideoLink }}
 										<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
@@ -74,64 +101,9 @@ TODO:
 										</span>
 										{{ end }}
 									</div>
-
-
-									<!--
-									<div class="button-wrap">
-										{{ if .link }}
-										<a href="{{ .link }}" class="button button-primary">
-											<div>
-												Learn more
-											</div>
-										</a>
-										{{ end }}
-										
-										{{ if .linkYoutube }}
-										<span style="padding: 0" class="button button-icon btn-video4"
-											{{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
-										style="display: none;"
-										{{ end }}
-										>
-											
-										<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-											<i class="material-icons">play_arrow</i>
-											<span>2 min demo</span>
-										</span>
-
-										<div class="ht-top__popup js-popup">
-											<div class="ht-top__iframe-wrap">
-												<button class="ht-top__popup-close js-popup-close">X</button>
-												<p>{{ .linkYoutube }}</p>
-											</div>
-										</div>
-
-										</span>
-										{{ end }}
-									</div>
 									-->
-
-									<!-- 
-									<div class="ht-top__popup js-popup">
-										<div class="ht-top__iframe-wrap">
-											<button class="ht-top__popup-close js-popup-close">X</button>
-											<p>https://www.youtube.com/embed/xCJT4vkskq8</p>
-										</div>
-									</div>
-									-->
-
-
-
-									<!--
-									<button class="button button-icon" style="color: #ffffff;background-color: #0086ff;">
-										<i class="material-icons">play_arrow</i>
-										Watch
-									</button>										
-									-->
-
 
 								</div>
-
-								<div class="demoSection__divider"></div>
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							</ul>
