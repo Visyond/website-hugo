@@ -25,11 +25,11 @@ StepsBlock:
           Find out if there's something wrong with your model
     benefitsList2:
       - text: >-
-          You don't need consultants, IT experts, or lenghty installations to get things rolling
+          You don't need consultants, IT experts, or lengthy installations to get things rolling
       - text: >-
            Leverage your Excel skills without having to learn new complicated menus
       - text: >-
-           Your data is safe and can't be overwritted by collaborators            
+           Your data is safe and can't be overwritten by collaborators            
     image: /img/product-tour/step1.png 
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
@@ -39,7 +39,7 @@ StepsBlock:
       - text: >-
           Learn what really drives your decision metrics
       - text: >-
-          Vizualize how your model reacts to changes in key assumptions
+          Visualize how your model reacts to changes in key assumptions
       - text: >-
           Compare many scenarios in real time
       - text: >-
@@ -48,7 +48,7 @@ StepsBlock:
           Extend your collaborators' analyses without anyone losing data          
     benefitsList2:
       - text: >-    
-          You don't need many tools. Visyond's analyses are intergrated with the spreadsheets and dashboards 
+          You don't need many tools. Visyond's analyses are integrated with the spreadsheets and dashboards 
       - text: >-
           Both Excel experts and novices will get things done quickly
     image: /img/product-tour/step2.png  

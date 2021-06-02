@@ -10,8 +10,8 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com/demo/">
   <meta name="description" content="XXXXXX">
   <meta name="keywords" content="XXXXXXX">
-coverHeader: Explore Visyond
-coverDescription: Watch demos and request a live demonstration to see what Visyond can do for you
+coverHeader: Watch Demos
+coverDescription: Explore different use-cases and request a live demo to see what Visyond can do for you
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
@@ -25,28 +25,28 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
         demoVideoButtonText: 2 min
         demoDescription: >-
-           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation in a few clicks.
+           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
       - demoSectionSubTitle: Interactive Dashboards
         demoSectionImage: /img/report_presentation_visualization_3x.png
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
         demoVideoButtonText: 2 min
         demoDescription: >-
           Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
-    demoSectionTitle: Short Demos
+    demoSectionTitle: Feature Demos
   - demoSectionContent:
-      - demoSectionSubTitle: Forecasting Organic Growth of a Shop Chain and Testing Scenarios
+      - demoSectionSubTitle: From a Spreadsheet to an Interactive Forecast on a Dashboard
         demoSectionImage: /img/simulations@2x.png
         demoVideoLink: 'https://www.youtube.com/embed/Mlwsq6LUTXI'
         demoVideoButtonText: 2 min
         demoDescription: >-
-          Forecasting organic growth of a chain of shops and enabling collaborators to test scenarios without your help.  
+          Forecasting organic growth of a chain of shops and enabling collaborators to independently test scenarios.
       - demoSectionSubTitle: Visyond platfrom from A to Z
         demoSectionImage: /img/interactive presentations@2x.png
         demoVideoLink: 'https://www.youtube.com/embed/LmNCVp6l7rE'
         demoVideoButtonText: 15 min
         demoDescription: >-
           The journey from the spreadsheet to analysis and interactive dashboards to drive decision-making.     
-    demoSectionTitle: Live Demos
+    demoSectionTitle: Use-cases Demos
 WhyVisyondHeader: Why Visyond?
 WhyVisyondText: >-
   Visyond solves the **3 main challenges** of speadsheet-based decision-making:
