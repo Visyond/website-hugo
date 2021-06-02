@@ -273,11 +273,10 @@ infoBlockFirst:
 DemoStripTitle: Flexible. Familiar. Scalable.
 DemoStripTitleButton: Watch Demo
 DemoStripTitleLink: /demo
-providesTitle: Visyond For Remote Work
+providesTitle: Get Started Today
 providesList:
   - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data    
+      Excel-compatible cloud or on-premise platfrom and Excel add-in
+  - text: Easy to use
+  - text: Get started in minutes
 ---
