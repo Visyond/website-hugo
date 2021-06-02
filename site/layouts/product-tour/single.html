@@ -21,7 +21,7 @@
                   
                 <div class="home-hero__half-width-wrap">
                     <div class="home-hero__buttons-section">
-                        <a href="/request" class="button button-primary button-asterisk">View Demo</a>
+                        <a href="/demo" class="button button-primary button-asterisk">Watch Demo</a>
                     </div>
                 </div>
 
@@ -54,8 +54,11 @@
     </section>
     <!-- END: TOP SECTION -->
 
+
+    <!-- LOGOS -->
     {{ partial "hexSlider" . }}
-    
+    <!-- END: LOGOS -->
+
     
     <!-- 3 STEPS -->
     <section class="enterV">
@@ -68,6 +71,7 @@
         </div>
     </section>
     <!-- END: 3 STEPS -->
+
 
     <!-- VISYOND IS FOR -->
     <section class="visFor" style="background-color: #f1f4fc;">
@@ -112,6 +116,7 @@
         </div>
     </section>
     <!-- END: VISYOND IS FOR -->
+ 
     
     <!-- EXCEL ADDIN OR WEB -->
     <section class="homeBenefits" style="padding: 40px 0; background-color: #fafafa;">    
@@ -144,6 +149,17 @@
     </section>	
     <!-- END: EXCEL ADDIN OR WEB -->
 
+
+    <!-- DEMO STRIP #1 -->
+    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+        <div class="container">
+            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
+            <a href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
+        </div>
+    </section>
+    <!-- END: DEMO STRIP #1 -->    
+
+
     <!-- FEATURES VIDS -->
     <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
         <div class="container">
@@ -159,71 +175,16 @@
     <!-- END: FEATURES VIDS -->
 
 
-    <!-- DEMO STRIP #1 -->
-    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
-        <div class="container">
-            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
-            <a href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
-        </div>
-    </section>
-    <!-- END: DEMO STRIP #1 -->    
-
-    <!-- WHY VISYOND
-    <section class="whyV">
-        <div class="container">
-            <div class="whyV__row">
-                <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
-                <div class="header-section--divider"></div>
-                
-                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
-                    {{ .Params.WhyVisyondText | markdownify }}
-                </div>
-
-                <div style="text-align: center;">
-                    <img src="{{ .Params.WhyVisyondImage }}">
-                </div>
-
-                                
-                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
-                    {{ .Params.WhyVisyondText2 | markdownify }}
-                </div>
-
-                <div style="text-align: center;">
-                    <img src="{{ .Params.WhyVisyondImage2 }}">
-                </div>
-
-            </div>
-        </div>  
-    </section>
-    END: WHY VISYOND -->
-
-    <!-- WHY VISYOND 2 
-    <section class="whyV">
-        <div class="container">
-            <div class="whyV__row">
-                <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader2 }}</h2>
-                <div class="header-section--divider"></div>
-                
-                <div class="home-hero__topSubtitle" style="text-align: center; margin: 1em auto;">
-                    {{ .Params.WhyVisyondText2 | markdownify }}
-                </div>
-
-                <div style="text-align: center;">
-                    <img src="{{ .Params.WhyVisyondImage2 }}">
-                </div>
-
-
-            </div>
-        </div>  
-    </section>
-     END: WHY VISYOND 2 -->
-
-
-
-
     <!-- FEATURED CASE STUDIES -->
     {{ partial "hexCaseStudies" . }}
     <!-- END: FEATURED CASE STUDIES -->
 
+
+	<!-- BOTTOM CTA WITH VIDEO -->
+	{{ partial "hexStartedIn" . }}
+	<!-- END: BOTTOM CTA WITH VIDEO -->
+
 </div>
+
+
 {{ partial "hexFooter" . }}

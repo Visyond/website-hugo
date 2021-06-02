@@ -272,16 +272,12 @@ infoBlockFirst:
     title: Auto-generate Financial Statements Driven by Your Model
 DemoStripTitle: Flexible. Familiar. Scalable.
 DemoStripTitleButton: Watch Demo
-DemoStripTitleLink: /request
-WhyVisyondHeader: >-
-  Why Visyond?
-WhyVisyondText: >-
-  The **lack of appropriate spreadsheet-based decision-making tools** leads to errors, poor decisions, time and money wasted
-WhyVisyondImage: /img/product-tour/ProductTourTemp1.png
-WhyVisyondHeader2: >-
-  DELETE DELTE DELETE
-WhyVisyondText2: >-
-  Visyond solves the **3 main challenges** of speadsheet-based decision-making
-WhyVisyondImage2: /img/product-tour/ProductTourTemp2.png
-requestSectionHeader: 'Request a Demo'    
+DemoStripTitleLink: /demo
+providesTitle: Visyond For Remote Work
+providesList:
+  - text: >-
+      A flexible and familiar spreadsheet interface that is
+      **cross-compatible**  with Excel
+  - text: Low entry barrier - Visyond is easy **to use and learn**
+  - text: Full **transparency and control** over your data    
 ---
