@@ -153,9 +153,9 @@
 
                     <div class="btn-wrap">
                         {{ if eq $itemSummary.title "Excel Add-in" }}
-                        <a href="{{ $itemSummary.buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em; background: #4edac3;">{{ $itemSummary.buttonText }}</a>
+                        <a href="{{ .buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em; background: #4edac3;">{{ .buttonText }}</a>
                         {{ else }}
-                        <a href="{{ $itemSummary.buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em;">{{ $itemSummary.buttonText }}</a>
+                        <a href="{{ .buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em;">{{ .buttonText }}</a>
                         {{ end }}	
                     </div>                    
     
