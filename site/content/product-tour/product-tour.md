@@ -129,7 +129,7 @@ infoBlockFirst:
           Automate scenario management and analysis.
       - text: >-
           Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from. 
-      - text: Visualize the drivers that change between scenarios
+      - text: Visualize the drivers that change between scenarios.
       - text: >-
           Empower collaborators to test scenarios independently via  interactive dashboards, shielding them from information overload.
     descr: >-
@@ -213,7 +213,7 @@ infoBlockFirst:
       - text: >-
           Automatically document the spreadsheet as you and your collaborators work on it.
     descr: >-
-      Establish a single place to store your spreadsheet data — changes, assumptions, attachments and conversations — in the same environment where you do calculations, create analyses and visualizations.
+      Establish a single place to store your spreadsheet data (changes, assumptions, attachments and conversations) in the same environment where you do calculations, create analyses and visualizations.
     infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4        
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
