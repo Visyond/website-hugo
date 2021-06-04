@@ -1362,11 +1362,12 @@ margin-bottom: 30px;
 
 .enterSectionsA__block-subtitle {
 margin-bottom: 20px;
-font-size: 1.2em;
+font-size: 15px;
+/*font-size: 1.2em;*/
 font-weight: 400;
 color: #383e4d;
-line-height: 22px;
-border-left: 2px solid #0086ff;
+line-height: 20px; /* 22px */
+border-left: 2px solid #4edac3;  /* #0086ff */
 padding-left: 10px;    
 @media screen and (max-width: 800px) {
     margin-bottom: 16px;
@@ -1542,7 +1543,7 @@ padding-left: 10px;
     font-weight: 400;
     color: #383e4d;
     text-align: center;
-    margin: 1em 2em 1em 2em;
+    margin: 1em 0;
   }
   
   .addinCloud-summary__text ul{

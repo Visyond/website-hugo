@@ -101,7 +101,8 @@
 .btn-primary {
     margin-top: 2em;
     display: inline-block;
-    font-size: 1em;
+    /*font-size: 1em;*/
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     padding: 1em 2em;
@@ -114,7 +115,7 @@
     cursor: pointer;
 
     @media screen and (max-width: 768px) {
-        padding: 14px 60px;
+        padding: 14px 40px;
     }
 }
 
