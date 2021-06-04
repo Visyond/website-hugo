@@ -116,9 +116,13 @@ summary:
   - content: 'If you want to keep using Excel, macros and other add-ins.'
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
+    buttonText: Watch Demo
+    buttonLink: /addin-demo
   - content: 'If you want to collaborate with internal and external stakeholders on scenarios, analyses and dashboards.'
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
+    buttonText: Watch Demo
+    buttonLink: /demo   
 infoBlockFirst:
   - benefitsList:
       - text: >-

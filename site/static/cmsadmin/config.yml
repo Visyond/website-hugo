@@ -1254,7 +1254,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }
       - {label: "Addin/Cloud Title", name: "AddinCloudHeader", widget: "markdown", required: false}   
-      - {label: "Addin/Cloud Summary", name: summary, widget: list, fields: [{label: Title, name: "title", widget: string},{label: "Image", name: "image", widget: image},{label: Text, name: "content", widget: "markdown"}], required: false}
+      - {label: "Addin/Cloud Summary", name: summary, widget: list, fields: [{label: Title, name: "title", widget: string},{label: "Image", name: "image", widget: image},{label: Text, name: "content", widget: "markdown"},{label: Excel/Cloud Button Link, name: "buttonLink", widget: string},{label: Excel/Cloud Button Text, name: "buttonText", widget: string}], required: false}
       - {label: "GetHexStarted Title", name: "DemoStripTitle", widget: "string", required: true}
       - {label: "GetHexStarted Button", name: "DemoStripTitleButton", widget: "string", required: true}
       - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        

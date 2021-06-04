@@ -73,6 +73,16 @@
     <!-- END: 3 STEPS -->
 
 
+    <!-- DEMO STRIP -->
+    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+        <div class="container">
+            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
+            <a href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
+        </div>
+    </section>
+    <!-- END: DEMO STRIP -->    
+
+
     <!-- VISYOND IS FOR -->
     <section class="visFor" style="background-color: #f1f4fc;">
         <div class="container">
@@ -140,6 +150,14 @@
                     <div class="addinCloud-summary__text">
                         {{ $itemSummary.content | markdownify }}
                     </div>
+
+                    <div class="btn-wrap">
+                        {{ if eq $itemSummary.title "Excel Add-in" }}
+                        <a href="{{ $itemSummary.buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em; background: #4edac3;">{{ $itemSummary.buttonText }}</a>
+                        {{ else }}
+                        <a href="{{ $itemSummary.buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em;">{{ $itemSummary.buttonText }}</a>
+                        {{ end }}	
+                    </div>                    
     
                 </div>
                 {{ end }}
@@ -148,16 +166,6 @@
     
     </section>	
     <!-- END: EXCEL ADDIN OR WEB -->
-
-
-    <!-- DEMO STRIP #1 -->
-    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
-        <div class="container">
-            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
-            <a href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
-        </div>
-    </section>
-    <!-- END: DEMO STRIP #1 -->    
 
 
     <!-- FEATURES VIDS -->
