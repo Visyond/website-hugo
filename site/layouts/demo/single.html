@@ -41,9 +41,8 @@ TODO:
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
 
-									<div class="homeHex-provides__img-wrap demoVideoButton">
-
-										<div class="button-wrap">										
+									<div class="homeHex-provides__img-wrap">
+										<div class="button-wrap demoVideoButton">										
 											{{ if .demoVideoLink }}
 											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">
 											
@@ -80,7 +79,7 @@ TODO:
 										</div>									
 									</div>
 
-									<!--
+									<!-- THIS WORKS
 									<div class="button-wrap demoVideoButton">										
 										{{ if .demoVideoLink }}
 										<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
@@ -118,7 +117,7 @@ TODO:
 	</section>
 
 
-	<!-- CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM CHECK TO UPDATE FORM -->
+
 	<!-- REQUEST DEMO FORM -->
 	<section class="whyV" style="background-color: #f1f4fc;">
 		<div class="container">
