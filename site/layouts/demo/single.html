@@ -42,11 +42,13 @@ TODO:
 								<div class="demoSection__body">
 
 									<!-- <div class="homeHex-provides__img-wrap"> -->
+									<div>
+
+										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">	
+
+
 										<div class="button-wrap demoVideoButton">										
 											{{ if .demoVideoLink }}
-											
-											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">	
-
 											<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
 											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 											style="display: none;"
@@ -66,7 +68,11 @@ TODO:
 											</span>
 
 											{{ end }}
-										</div>										
+										</div>	
+
+									</div>	
+
+									
 									<!-- </div> -->
 
 									<!--- <img src="{{ .demoSectionImage }}" alt="icon" style="height: 60px;"> --->
