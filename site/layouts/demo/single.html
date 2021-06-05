@@ -42,33 +42,26 @@ TODO:
 								<div class="demoSection__body">
 
 									<div class="homeHex-provides__img-wrap">
-										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">	
+										<!-- <img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">	-->
 
 
-										<div class="button-wrap demoVideoButton">										
-											{{ if .demoVideoLink }}
-											<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
-											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-											style="display: none;"
-											{{ end }}
-											>	
-											
-												<!-- {{ .demoVideoButtonText }} -->
-												<a class="button button-round-icon">
-													<i class="material-icons">play_arrow</i>
-												</a>
-	
-												<div class="ht-top__popup js-popup">
-													<div class="ht-top__iframe-wrap">
-														<button class="ht-top__popup-close js-popup-close"></button>
-														<p>{{ .demoVideoLink }}</p>
-													</div>
+										<div class="homeHex-provides__img-wrap demoVideoButton">
+											<img id="play-video" src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">
+					
+											<a class="button button-round-icon">
+												<i class="material-icons">
+													play_arrow
+												</i>
+											</a>
+
+											<div class="ht-top__popup js-popup">
+												<div class="ht-top__iframe-wrap">
+													<button class="ht-top__popup-close js-popup-close"></button>
+													<p>{{ .demoVideoLink }}</p>
 												</div>
-											</span>
+											</div>
 
-											{{ end }}
-										</div>	
-									</div>
+										</div>
 
 
 									<!-- 
