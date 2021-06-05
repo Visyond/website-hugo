@@ -44,7 +44,6 @@ TODO:
 									<!-- <div class="homeHex-provides__img-wrap"> -->
 										<div class="button-wrap demoVideoButton">										
 											{{ if .demoVideoLink }}
-											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">
 											
 											<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
 											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
@@ -63,6 +62,9 @@ TODO:
 													</div>
 												</div>
 											</span>
+
+											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="homeHex-provides__img">
+
 											{{ end }}
 										</div>										
 									<!-- </div> -->
