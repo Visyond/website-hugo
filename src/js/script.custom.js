@@ -366,7 +366,8 @@ $(function () {
         console.log('Wraps detected: ' + wrap.length);
         console.log('i (first) = ' + i);
 
-        demoPageSection = (wrap[i].querySelectorAll('.demoVideoButton'));
+        //demoPageSection = (wrap[i].querySelectorAll('.demoVideoButton')); //working but krivo
+        demoPageSection = (wrap[i].querySelectorAll('.button-wrap')); //new try
         console.log('demoPageSection length: ' + demoPageSection.length);
         console.log('Buttons detected: ' + demoPageSection.length);
       
