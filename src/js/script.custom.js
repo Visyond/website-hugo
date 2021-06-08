@@ -375,11 +375,9 @@ $(function () {
             console.log('x (second) = ' + x);
 
             button [x] = demoPageSection[x].querySelector('.btn-video4');
-            watchVideo5(demoPageButton[x]);
+            watchVideo5(button[x]);
             //button [x].style.backgroundColor = "green";
-            console.log('Video detected: ' + button.length);
-        
-
+            //console.log('Video detected: ' + button.length);  
         }
       }
 
