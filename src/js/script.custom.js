@@ -354,13 +354,37 @@ $(function () {
         watchVideo5(btn6[i]);
     }
 
-    var demoPageButton = [];
+    // DEMO PAGE VID - NEW
+    var demoPageSection = [];
+    var wrap, button, i;
+     
+     wrap = document.querySelectorAll(".homeHex-provides__img-wrap");
+     
+     for (i = 0; i < wrap.length; i++) {
+         //wrap[i].style.backgroundColor = "red";
+         demoPageSection [i] = (wrap[i].querySelector('.demoVideoButton'));
+ 
+        for (i = 0; i < wrap.length; i++) {
+            //demoPageSection [i].style.backgroundColor = "blue";
+            button = document.querySelectorAll('.btn-video4');
+                for (i = 0; i < demoPageSection.length; i++) {
+                //button [i].style.backgroundColor = "green";
+                watchVideo5(button[i]);
+                }
+        }
+     }
+
+
+
+
+    // DEMO PAGE VID - HIDE TEMP
+    /* var demoPageButton = [];
 
     var blocks7 = document.querySelectorAll('.demoVideoButton');
     for (var i = 0; i<blocks7.length; i++) {
         demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
         watchVideo5(demoPageButton[i]);
-    }
+    } */
 
 
     // ===== AUTOPLAY VIDEO =====
