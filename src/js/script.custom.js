@@ -355,24 +355,33 @@ $(function () {
     }
 
     // DEMO PAGE VID - NEW
-    var demoPageSection = [];
-    var wrap, button, i;
+    var wrap, demoPageSection;
+    var button = [];
+    var i, x, y;
      
-     wrap = document.querySelectorAll(".homeHex-provides__img-wrap");
+    wrap = document.querySelectorAll(".homeHex-provides__img-wrap"); //getting all nodes under this class
      
-     for (i = 0; i < wrap.length; i++) {
-         //wrap[i].style.backgroundColor = "red";
-         demoPageSection [i] = (wrap[i].querySelector('.demoVideoButton'));
- 
-        for (i = 0; i < wrap.length; i++) {
-            //demoPageSection [i].style.backgroundColor = "blue";
-            button = document.querySelectorAll('.btn-video4');
-                for (i = 0; i < demoPageSection.length; i++) {
-                //button [i].style.backgroundColor = "green";
-                watchVideo5(button[i]);
-                }
+    for (i = 0; i < wrap.length; i++) {
+        //wrap[i].style.backgroundColor = "red"; //setting all instances of wrap class red
+        console.log('Wraps detected: ' + wrap.length);
+        console.log('i (first) = ' + i);
+
+        demoPageSection = (wrap[i].querySelectorAll('.demoVideoButton'));
+        console.log('demoPageSection length: ' + demoPageSection.length);
+        console.log('Buttons detected: ' + demoPageSection.length);
+      
+        for (x = 0; x < demoPageSection.length; x++) {
+            //demoPageSection [x].style.backgroundColor = "blue";
+            console.log('x (second) = ' + x);
+
+            button [x] = demoPageSection[x].querySelector('.btn-video4');
+            watchVideo5(demoPageButton[x]);
+            //button [x].style.backgroundColor = "green";
+            console.log('Video detected: ' + button.length);
+        
+
         }
-     }
+      }
 
 
 
