@@ -354,6 +354,7 @@ $(function () {
         watchVideo5(btn6[i]);
     }
 
+    /*
     // DEMO PAGE VID - NEW
     var wrap, demoPageSection;
     var button = [];
@@ -362,30 +363,25 @@ $(function () {
     wrap = document.querySelectorAll(".demoSection__body--img-wrap"); //getting all nodes under this class
      
     for (i = 0; i < wrap.length; i++) {
-        //wrap[i].style.backgroundColor = "red"; //setting all instances of wrap class red
-        console.log('Wraps detected: ' + wrap.length);
-        console.log('i (first) = ' + i);
-
         //demoPageSection = (wrap[i].querySelectorAll('.demoVideoButton')); //working but krivo
         demoPageSection = (wrap[i].querySelectorAll('.button-wrap')); //new try
-        console.log('demoPageSection length: ' + demoPageSection.length);
-        console.log('Buttons detected: ' + demoPageSection.length);
-      
         for (x = 0; x < demoPageSection.length; x++) {
-            //demoPageSection [x].style.backgroundColor = "blue";
-            console.log('x (second) = ' + x);
-
             button [x] = (demoPageSection[x].querySelector('.btn-video4'));
             watchVideo5(button[x]);
-            //button [x].style.backgroundColor = "green";
-            //console.log('Video detected: ' + button.length);  
         }
       }
+    */  
 
+    // DEMO PAGE VID - NEW TRY
+    var demoPageButton = [];
 
+    var blocks7 = document.querySelectorAll('.demoSection__body--img-wrap');
+    for (var i = 0; i<blocks7.length; i++) {
+        demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
+        watchVideo5(demoPageButton[i]);
+    }
 
-
-    // DEMO PAGE VID - HIDE TEMP
+    // DEMO PAGE VID - OLD TRY
     /* var demoPageButton = [];
 
     var blocks7 = document.querySelectorAll('.demoVideoButton');
