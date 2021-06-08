@@ -115,6 +115,39 @@
     }
 }
 
+.demoSection__body--img-wrap {
+    width: 48%;
+    position: relative;
+    transition: all 0.3s;
+
+@media screen and (max-width: 800px) {
+    width: 100%;
+    justify-content: center;
+}
+
+&:hover img {
+     filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
+ }
+
+& .button {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transition: all 0.3s;
+      transform: translate(-50%, -50%);
+      font-size: 1.2em;
+      /*pointer-events: none;*/
+      box-shadow: 0 2px 4px rgba(0,0,0,.3);
+  }
+}
+
+.demoSection__body--img-wrap__img {
+    transition: all 0.2s;
+    width: 100%;
+    cursor: pointer;
+}
+
+
 .demoSection__divider {
     width: 90%;
     height: 1px;

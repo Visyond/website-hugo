@@ -359,7 +359,7 @@ $(function () {
     var button = [];
     var i, x, y;
      
-    wrap = document.querySelectorAll(".homeHex-provides__img-wrap"); //getting all nodes under this class
+    wrap = document.querySelectorAll(".demoSection__body--img-wrap"); //getting all nodes under this class
      
     for (i = 0; i < wrap.length; i++) {
         //wrap[i].style.backgroundColor = "red"; //setting all instances of wrap class red
