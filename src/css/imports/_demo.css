@@ -134,7 +134,7 @@
       left: 50%;
       top: 50%;
       transition: all 0.3s;
-      transform: translate(-50%, -50%); /*THIS RIGHT HERE */
+      /* transform: translate(-50%, -50%); /*THIS RIGHT HERE */
       font-size: 1.2em;
       /*pointer-events: none;*/
       box-shadow: 0 2px 4px rgba(0,0,0,.3);
