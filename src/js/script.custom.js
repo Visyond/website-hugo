@@ -374,7 +374,7 @@ $(function () {
 
     // DEMO PAGE VID - NEW TRY
     function watchDemoVideo(videoBtn) {
-        const videoSpan = videoBtn.querySelector('a'); // 'span'
+        const videoSpan = videoBtn.querySelector('span'); // 
         const videoPopup = videoBtn.querySelector('div');
         const closePopup = videoBtn.querySelector('.js-popup-close');
         watchVideo(videoSpan, videoPopup, closePopup);
