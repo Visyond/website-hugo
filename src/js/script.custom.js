@@ -381,13 +381,14 @@ $(function () {
 
 
         btn.addEventListener('click', e => {
-            var tt = e.target;
-            e.preventDefault();
-            //btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
             var buttons = document.querySelectorAll('.demoButtonOpacity');
             for (var i=0; i<buttons.length;i++){
                 buttons[i].classList.remove('demoButtonOpacity');
             }
+
+            var tt = e.target;
+            e.preventDefault();
+            //btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
 
             popup.classList.add('popup--show');
             createIframe();
@@ -418,7 +419,7 @@ $(function () {
                 for (var i=0; i<buttons.length;i++){
                     buttons[i].classList.add('demoButtonOpacity');
                 }
-                                
+
                 document.getElementById('request').scrollIntoView();
             }
         })
