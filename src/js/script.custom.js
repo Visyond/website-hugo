@@ -374,21 +374,11 @@ $(function () {
 
     // DEMO PAGE VID - NEW TRY
     function watchDemoVideo(videoBtn) {
-        const videoSpan = videoBtn.querySelector('span');
+        const videoSpan = videoBtn.querySelector('a'); // 'span'
         const videoPopup = videoBtn.querySelector('div');
         const closePopup = videoBtn.querySelector('.js-popup-close');
         watchVideo(videoSpan, videoPopup, closePopup);
     }
-
-
-    var demoPageButton = [];
-    var demoVideo = document.querySelectorAll('.demoVideo');
-
-    for (var i = 0; i<demoVideo.length; i++) {
-        demoPageButton[i] = (demoVideo[i].querySelector('.btn-video4'));
-        watchDemoVideo(demoPageButton[i]);
-    }
-
 
 
     /* ONLY SINGLE VIDEO WORKS
@@ -398,7 +388,7 @@ $(function () {
 
 
 
-    /* working but ploho
+    /* working but ploho */
     var demoPageButton = [];
 
     var blocks7 = document.querySelectorAll('.demoSection__body--img-wrap');
@@ -406,7 +396,7 @@ $(function () {
         demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
         watchDemoVideo(demoPageButton[i]);
     }
-    */
+   
 
 
     // DEMO PAGE VID - OLD TRY
