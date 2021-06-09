@@ -433,7 +433,7 @@ $(function () {
         demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
         watchVideo5(demoPageButton[i]);
     }
-   /*
+   */
 
 
 
