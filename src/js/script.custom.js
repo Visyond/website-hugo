@@ -395,7 +395,7 @@ $(function () {
             }
         })
         
-        popup.addEventListener('click', e => {
+        closePopupRequestDemo.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
                 popup.classList.remove('popup--show');
