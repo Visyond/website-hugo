@@ -106,6 +106,10 @@
     position: relative;
     transition: all 0.3s;
 
+&:hover {
+    box-shadow: 0px 0px 8px 0px #0000004f;
+}
+
 @media screen and (max-width: 800px) {
     width: 100%;
     justify-content: center;
@@ -178,7 +182,7 @@
     color: #383e4d;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: 1.44;
     margin-bottom: 0.5em;
 }
