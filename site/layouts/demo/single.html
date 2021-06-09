@@ -40,7 +40,7 @@ TODO:
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
 										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-demoVideo" 
+										<span class="button button-icon btn-demoVideo demoButtonOpacity" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
@@ -108,11 +108,11 @@ TODO:
     <!-- WHY VISYOND -->
 	<section class="whyV">
 		<div class="container">
-			 <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader}}</h2>
+			 <h2 class="enterV__headline">{{ .Params.WhyVisyondHeader }}</h2>
 			<div class="header-section--divider"></div>
 			<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.WhyVisyondText | markdownify }}</div>
 			<div class="btn-wrap" style="margin-bottom: 2em;">
-				<a href="{{ .Params.WhyVisyondButtonLink}}" class="btn-primary" style="text-transform: none;">{{ .Params.WhyVisyondButtonText}}</a>
+				<a href="{{ .Params.WhyVisyondButtonLink }}" class="btn-primary" style="text-transform: none;">{{ .Params.WhyVisyondButtonText | markdownify  }}</a>
 			</div>	
 		</div>
 	</section>

@@ -354,7 +354,7 @@ $(function () {
         watchVideo5(btn6[i]);
     }
 
-    // DEMO PAGE VID
+    // DEMO PAGE VIDEO POPUP WITH BUTTON
     function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo) {
         //const closePopup = document.querySelector('.js-popup-close');
         const srcIframe = popup.querySelector('p').innerHTML;
@@ -383,6 +383,7 @@ $(function () {
         btn.addEventListener('click', e => {
             var tt = e.target;
             e.preventDefault();
+            btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
             popup.classList.add('popup--show');
             createIframe();
         });
@@ -426,7 +427,7 @@ $(function () {
 
 
 
-    /* CURRENT WORKING
+    /* OLDER DEMO VIDEO
     var demoPageButton = [];
 
     var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
