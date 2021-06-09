@@ -41,38 +41,57 @@ TODO:
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
 
-									
+									<div class="demoSection__body--img-wrap btn-demoVideo">
+										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
+
+										{{ if .demoVideoLink }}
+										<span class="button button-icon" style="padding: 0; color: #fff; background-color: #4edac3;"
+										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+										style="display: none;"
+										{{ end }}
+										>												
+											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+												<i class="material-icons">play_arrow</i>
+												<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
+											</span>
+
+											<div class="ht-top__popup js-popup">
+												<div class="ht-top__iframe-wrap">
+													<button class="ht-top__popup-close js-popup-close"></button>
+													<p>{{ .demoVideoLink }}</p>
+												</div>
+											</div>
+										</span>
+										{{ end }}
+									</div>									
 
 
+									<!-- WORKS NO PLOHO !!!!!!!!!
 									<div class="demoSection__body--img-wrap">
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
-
-										<!--<div class="button-wrap">-->	<!-- <div class="button-wrap demoVideoButton">	-->									
-											{{ if .demoVideoLink }}
-											<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
-											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-											style="display: none;"
-											{{ end }}
-											>												
-												<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-													<i class="material-icons">play_arrow</i>
-													<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
-												</span>
-	
-												<div class="ht-top__popup js-popup">
-													<div class="ht-top__iframe-wrap">
-														<button class="ht-top__popup-close js-popup-close"></button>
-														<p>{{ .demoVideoLink }}</p>
-													</div>
-												</div>
+										{{ if .demoVideoLink }}
+										<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
+										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+										style="display: none;"
+										{{ end }}
+										>												
+											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+												<i class="material-icons">play_arrow</i>
+												<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
 											</span>
-											{{ end }}
-										<!--</div>	-->
+
+											<div class="ht-top__popup js-popup">
+												<div class="ht-top__iframe-wrap">
+													<button class="ht-top__popup-close js-popup-close"></button>
+													<p>{{ .demoVideoLink }}</p>
+												</div>
+											</div>
+										</span>
+										{{ end }}
 									</div>
-
+									-->	
 									
-
 
 
 

@@ -373,13 +373,28 @@ $(function () {
     */  
 
     // DEMO PAGE VID - NEW TRY
+    function watchDemoVideo(videoBtn) {
+        const videoSpan = videoBtn.querySelector('span');
+        const videoPopup = videoBtn.querySelector('div');
+        const closePopup = videoBtn.querySelector('.js-popup-close');
+        watchVideo(videoSpan, videoPopup, closePopup);
+    }
+
+
+    var demoButton = document.querySelector('.btn-demoVideo');
+    watchDemoVideo(demoButton);
+
+
+    /* working but ploho
     var demoPageButton = [];
 
     var blocks7 = document.querySelectorAll('.demoSection__body--img-wrap');
     for (var i = 0; i<blocks7.length; i++) {
         demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
-        watchVideo5(demoPageButton[i]);
+        watchDemoVideo(demoPageButton[i]);
     }
+    */
+
 
     // DEMO PAGE VID - OLD TRY
     /* var demoPageButton = [];

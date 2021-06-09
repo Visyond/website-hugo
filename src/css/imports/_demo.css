@@ -126,7 +126,7 @@
 }
 
 &:hover img {
-     filter: drop-shadow(0 0 1.5em #0086ff) grayscale(200%);
+     filter: drop-shadow(0 0 10px #0086ff) grayscale(200%);
  }
 
 & .button {
@@ -144,7 +144,7 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 
