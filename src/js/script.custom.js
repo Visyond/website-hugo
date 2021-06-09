@@ -355,8 +355,6 @@ $(function () {
     }
 
     // DEMO PAGE VID
-
-
     function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo) {
         //const closePopup = document.querySelector('.js-popup-close');
         const srcIframe = popup.querySelector('p').innerHTML;
@@ -406,7 +404,7 @@ $(function () {
         })
 
 
-    };    
+    }
 
 
     function watchDemoVideo(videoBtn) {
