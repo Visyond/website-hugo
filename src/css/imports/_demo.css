@@ -106,13 +106,17 @@
     position: relative;
     transition: all 0.3s;
 
+&:hover {
+    filter: blur(1px);
+}
+
 @media screen and (max-width: 800px) {
     width: 100%;
     justify-content: center;
 }
 
 &:hover img {
-     filter: drop-shadow(0 0 6px #616c89) grayscale(80%)!important blur(1px)!important;
+     filter: drop-shadow(0 0 6px #616c89) grayscale(80%)!important;
  }
 
 & .button {
@@ -130,7 +134,6 @@
         background-color: #0585ff!important;
         opacity: 1;
       }
-    
 
       @media screen and (max-width: 1201px) {
         left: 35%; 
