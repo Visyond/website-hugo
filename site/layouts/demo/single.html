@@ -1,13 +1,10 @@
 <!--
 TODO:
 - no divider for last element
-- screens instead of icons (e.g. homepage animations)
 - request CTA when video overlay is active?
 - why visyond list formatting/markdown
 - Top title and Demo Titles are looking the same
-- //From hubspot form - make company field non mandatory
 - see if we can place sign up button somehwere
-- change title/desc of 'Visyond platfrom from A to Z'
 -->
 
 {{ partial "hexHomeHead" . }}
@@ -44,7 +41,7 @@ TODO:
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
 										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-demoVideo" style="padding: 0; color: #fff; background-color: #4edac3;"
+										<span class="button button-icon btn-demoVideo" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
@@ -57,6 +54,7 @@ TODO:
 												<div class="ht-top__iframe-wrap">
 													<button class="ht-top__popup-close js-popup-close"></button>
 													<p>{{ .demoVideoLink }}</p>
+													<a href="#request" class="btn-primary js-popup-close-request" style="text-transform: none;">Request Live Demo</a>
 												</div>
 											</div>
 										</span>

@@ -149,6 +149,11 @@
     width: 100%;
 }
 
+.btn-demoVideo {
+    padding: 0;
+    color: #fff;
+    background-color: #4edac3;
+}
 
 .demoSection__divider {
     width: 90%;
