@@ -400,6 +400,7 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
                 popup.classList.remove('popup--show');
                 removeIframe();
+                document.getElementById('request').scrollIntoView();
             }
         })
 
