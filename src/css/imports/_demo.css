@@ -107,7 +107,8 @@
 .demoSection__body {
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    /*align-items: center; */
     padding: 1em 2em;
     flex-direction: row;
     @media screen and (max-width: 768px) {
@@ -131,21 +132,32 @@
 
 & .button {
       position: absolute;
-      left: 50%;
-      top: 50%;
+      left: 30%; /*50%*/
+      top: 40%; /*50%*/
       transition: all 0.3s;
       /* transform: translate(-50%, -50%); /*THIS RIGHT HERE */
       font-size: 1.2em;
       /*pointer-events: none;*/
       box-shadow: 0 2px 4px rgba(0,0,0,.3);
 
-      /*@media screen and (max-width: 991px) {
-        transform: translate(-60%,-210%);
+      @media screen and (max-width: 1201px) {
+        left: 25%; 
 
-        @media (max-width: 800px) {
-            transform: translate(-50%, -50%);
+        @media (max-width: 991px) {
+            left: 10%;  
+            top: 35%;
+
+            @media (max-width: 801px) {
+                left: 25%;  
+                top: 40%;
+
+                @media (max-width: 769px) {
+                    left: 35%;
+                    top: 45%;
+                }
+            }
         }
-      }*/
+      }
   }
 }
 

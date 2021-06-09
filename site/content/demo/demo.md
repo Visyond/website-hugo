@@ -15,19 +15,19 @@ coverDescription: Explore different use-cases and request a live demo to see wha
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
-        demoSectionImage: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+        demoSectionImage: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
         demoVideoButtonText: 2 min
         demoDescription: >-
           Manage and collaborate on assumptions, create and analyze scenarios on-the-fly. 
       - demoSectionSubTitle: Auto-analysis
-        demoSectionImage: /img/audit-mode@2x.png
+        demoSectionImage: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
         demoVideoButtonText: 2 min
         demoDescription: >-
            Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
       - demoSectionSubTitle: Interactive Dashboards
-        demoSectionImage: /img/report_presentation_visualization_3x.png
+        demoSectionImage: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
         demoVideoButtonText: 2 min
         demoDescription: >-
@@ -35,13 +35,13 @@ demoSection:
     demoSectionTitle: Feature Demos
   - demoSectionContent:
       - demoSectionSubTitle: From a Spreadsheet to an Interactive Forecast on a Dashboard
-        demoSectionImage: /img/simulations@2x.png
+        demoSectionImage: /video/Visyond Auto-Analysis Onboarding Video.jpg
         demoVideoLink: 'https://www.youtube.com/embed/Mlwsq6LUTXI'
         demoVideoButtonText: 2 min
         demoDescription: >-
           Forecasting organic growth of a chain of shops and enabling collaborators to independently test scenarios.
-      - demoSectionSubTitle: Visyond platfrom from A to Z
-        demoSectionImage: /img/interactive presentations@2x.png
+      - demoSectionSubTitle: Visyond platform - Complete overview
+        demoSectionImage: /video/Visyond Scenario Analysis Onboarding Video.jpg
         demoVideoLink: 'https://www.youtube.com/embed/LmNCVp6l7rE'
         demoVideoButtonText: 15 min
         demoDescription: >-
