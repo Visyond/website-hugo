@@ -383,7 +383,12 @@ $(function () {
         btn.addEventListener('click', e => {
             var tt = e.target;
             e.preventDefault();
-            btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
+            //btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
+            var buttons = document.querySelectorAll('.demoButtonOpacity');
+            for (var i=0; i<buttons.length;i++){
+                buttons[i].classList.remove('demoButtonOpacity');
+            }
+
             popup.classList.add('popup--show');
             createIframe();
         });
@@ -393,6 +398,12 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopup) {
                 popup.classList.remove('popup--show');
                 removeIframe();
+
+                //adding opacity back
+                var buttons = document.querySelectorAll('.btn-demoVideo');
+                for (var i=0; i<buttons.length;i++){
+                    buttons[i].classList.add('demoButtonOpacity');
+                }
             }
         })
         
@@ -401,6 +412,13 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
                 popup.classList.remove('popup--show');
                 removeIframe();
+
+                //adding opacity back
+                var buttons = document.querySelectorAll('.btn-demoVideo');
+                for (var i=0; i<buttons.length;i++){
+                    buttons[i].classList.add('demoButtonOpacity');
+                }
+                                
                 document.getElementById('request').scrollIntoView();
             }
         })

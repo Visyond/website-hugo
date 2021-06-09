@@ -94,7 +94,9 @@
     position: relative;
     display: flex;
     align-items: flex-start;
-    padding: 1em 2em;
+    padding: 1em 1em;
+    margin-bottom: 1em;
+
     flex-direction: row;
     @media screen and (max-width: 768px) {
         flex-direction: column;
