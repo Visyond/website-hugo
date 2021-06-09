@@ -50,10 +50,10 @@
 
       @media screen and (max-width: 991px) {
         transform: translate(-60%,-210%);
-      }
 
-      @media screen and (max-width: 800px) {
-        transform: translate(-50%, -50%);
+        @media (max-width: 800px) {
+            transform: translate(-50%, -50%);
+        }
       }
   }
 }
