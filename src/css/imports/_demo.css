@@ -112,7 +112,7 @@
 }
 
 &:hover img {
-     filter: drop-shadow(0 0 10px #0086ff) grayscale(200%);
+     filter: drop-shadow(0 0 10px #0086ff) grayscale(200%)!important;
  }
 
 & .button {
@@ -121,10 +121,15 @@
       top: 40%;
       transition: all 0.3s;
       font-size: 1.2em;
-      box-shadow: 0 2px 4px rgba(0,0,0,.3)!important;
+      box-shadow: 0 4px 8px rgba(0,0,0,.3)!important;
       padding: 0!important;
       color: #fff!important;
-      background-color: #4edac3!important;
+      background-color: #383e4d!important; /* #4edac3!important;*/
+    
+      &:hover {
+        background-color: #0585ff!important
+      }
+    
 
       @media screen and (max-width: 1201px) {
         left: 25%; 
