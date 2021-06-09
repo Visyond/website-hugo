@@ -357,7 +357,7 @@ $(function () {
     // DEMO PAGE VID
 
 
-    function demoVideoPopup(btn, popup, closePopup,closePopupRequestDemo) {
+    function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo) {
         //const closePopup = document.querySelector('.js-popup-close');
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
@@ -414,7 +414,7 @@ $(function () {
         const videoPopup = videoBtn.querySelector('div');
         const closePopup = videoBtn.querySelector('.js-popup-close');
         const closePopupRequestDemo = videoBtn.querySelector('.js-popup-close-request');
-        demoVideoPopup(videoSpan, videoPopup, closePopup,closePopupRequestDemo);
+        demoVideoPopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo);
     }
 
     var demoPageButton = [];
