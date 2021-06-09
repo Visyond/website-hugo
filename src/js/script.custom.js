@@ -363,8 +363,8 @@ $(function () {
         popup.children[0].removeChild(popup.querySelector('p'));
 
         const iframeBlock = document.createElement('iframe');
-        iframeBlock.setAttribute('width', '894');
-        iframeBlock.setAttribute('height', '500');
+        iframeBlock.setAttribute('width', '889');
+        iframeBlock.setAttribute('height', '501');
         iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
         iframeBlock.setAttribute('frameborder', '0');
         iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
