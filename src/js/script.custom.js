@@ -381,8 +381,21 @@ $(function () {
     }
 
 
-    var demoButton = document.querySelector('.btn-demoVideo');
-    watchDemoVideo(demoButton);
+    var demoPageButton = [];
+    var demoVideo = document.querySelectorAll('.demoVideo');
+
+    for (var i = 0; i<demoVideo.length; i++) {
+        demoPageButton[i] = (demoVideo[i].querySelector('.btn-video4'));
+        watchDemoVideo(demoPageButton[i]);
+    }
+
+
+
+    /* ONLY SINGLE VIDEO WORKS
+    var demoVideo = document.querySelectorAll('.demoVideo');
+    watchDemoVideo(demoVideo);
+    */
+
 
 
     /* working but ploho
