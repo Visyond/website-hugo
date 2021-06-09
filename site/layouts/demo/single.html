@@ -40,13 +40,13 @@ TODO:
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
 										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-demoVideo" 
+										<span class="button button-icon btn-demoVideo" style="opacity: 0.9;" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
 										>												
-											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-												<i class="material-icons">play_arrow</i>
+											<span style="display: flex; padding: 2.5em 2.5em;">
+												<i class="material-icons" style="left: 0.85em;">play_arrow</i>
 												<span style="width: 3.5em;">Watch</span>
 											</span>
 											<div class="ht-top__popup js-popup">

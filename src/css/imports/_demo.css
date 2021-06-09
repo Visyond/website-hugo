@@ -102,7 +102,7 @@
 }
 
 .demoSection__body--img-wrap {
-    width: 48%;
+    width: 55%;
     position: relative;
     transition: all 0.3s;
 
@@ -112,39 +112,40 @@
 }
 
 &:hover img {
-     filter: drop-shadow(0 0 10px #0086ff) grayscale(200%)!important;
+     filter: drop-shadow(0 0 6px #616c89) grayscale(80%)!important blur(1px)!important;
  }
 
 & .button {
       position: absolute;
-      left: 30%;
-      top: 40%;
+      left: 40%;
+      top: 30%;
       transition: all 0.3s;
-      font-size: 1.2em;
       box-shadow: 0 4px 8px rgba(0,0,0,.3)!important;
       padding: 0!important;
       color: #fff!important;
       background-color: #383e4d!important; /* #4edac3!important;*/
+      opacity: 0.9;
     
       &:hover {
         background-color: #0585ff!important
+        opacity: 1;
       }
     
 
       @media screen and (max-width: 1201px) {
-        left: 25%; 
+        left: 35%; 
 
         @media (max-width: 991px) {
-            left: 10%;  
-            top: 35%;
+            left: 30%;  
+            top: 20%;
 
             @media (max-width: 801px) {
-                left: 25%;  
-                top: 40%;
+                left: 35%;  
+                top: 30%;
 
                 @media (max-width: 769px) {
-                    left: 35%;
-                    top: 45%;
+                    left: 40%;
+                    top: 35%;
                 }
             }
         }
