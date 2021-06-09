@@ -1,57 +1,61 @@
 ---
 url: /demo
-title: Demo
+title: Watch Demos
 metaTags: >-
-  <meta property="og:title" content="XXXXXXX">
+  <meta property="og:title" content="Watch Demos of the Visyond Platform">
   <meta property="og:type" content="website">
   <meta property="og:image"
-  content="smth.png">
-  <meta property="og:description" content="XXXXXX">
+  content="https://visyond.com/img/thumbnails/Visyond Watch Demo thumbnail 1200x628.png">
+  <meta property="og:description" content="Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform">
   <meta property="og:url" content="https://visyond.com/demo/">
-  <meta name="description" content="XXXXXX">
-  <meta name="keywords" content="XXXXXXX">
+  <meta name="description" content="Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform">
 coverHeader: Watch Demos
-coverDescription: Explore different use-cases and request a live demo to see what Visyond can do for you
+coverDescription: Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Scenarios and Collaboration
-        demoSectionImage: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
+        demoSectionImage: /img/demo/Scenarios and Collaboration Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
-        demoVideoButtonText: 2 min
         demoDescription: >-
           Manage and collaborate on assumptions, create and analyze scenarios on-the-fly. 
       - demoSectionSubTitle: Auto-analysis
-        demoSectionImage: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+        demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
-        demoVideoButtonText: 2 min
         demoDescription: >-
            Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
       - demoSectionSubTitle: Interactive Dashboards
-        demoSectionImage: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+        demoSectionImage: /img/demo/Interactive Dashboards Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoVideoButtonText: 2 min
         demoDescription: >-
           Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
-    demoSectionTitle: Feature Demos
+    demoSectionTitle: Solutions
   - demoSectionContent:
       - demoSectionSubTitle: From a Spreadsheet to an Interactive Forecast on a Dashboard
-        demoSectionImage: /video/Visyond Auto-Analysis Onboarding Video.jpg
+        demoSectionImage: /img/demo/Shops Forecast Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/Mlwsq6LUTXI'
-        demoVideoButtonText: 2 min
         demoDescription: >-
           Forecasting organic growth of a chain of shops and enabling collaborators to independently test scenarios.
-      - demoSectionSubTitle: Visyond platform - Complete overview
-        demoSectionImage: /video/Visyond Scenario Analysis Onboarding Video.jpg
+      - demoSectionSubTitle: Visyond platform - Complete Overview
+        demoSectionImage: /img/demo/Full Platform Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/LmNCVp6l7rE'
-        demoVideoButtonText: 15 min
         demoDescription: >-
           The journey from the spreadsheet to analysis and interactive dashboards to drive decision-making.     
-    demoSectionTitle: Use-cases Demos
+    demoSectionTitle: Use Cases
+  - demoSectionContent:
+      - demoSectionSubTitle: Analyze Data On-the-fly with Excel Add-in
+        demoSectionImage: /img/demo/Excel Auto-analysis Demo Video Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/Pj3KaMt7EUc'
+        demoDescription: >-
+          Automate Sensitivity and Scenario analyses, and easily run Monte Carlo simulations with Visyond’s Excel add-in ([download from Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200002940)).  
+    demoSectionTitle: Excel Add-in
 WhyVisyondHeader: Why Visyond?
 WhyVisyondText: >-
   Visyond solves the **3 main challenges** of speadsheet-based decision-making:
+
   * Manual tasks
+
   * High complexity
+
   * Security threats
 WhyVisyondButtonText: Learn More
 WhyVisyondButtonLink: /why-visyond

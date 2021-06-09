@@ -40,24 +40,19 @@ TODO:
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
 								<div class="demoSection__body">
-							
-
-
-									<!-- WORKS NO PLOHO !!!!!!!!!-->	
 									<div class="demoSection__body--img-wrap">
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
 										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
+										<span class="button button-icon btn-demoVideo" style="padding: 0; color: #fff; background-color: #4edac3;"
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}
 										>												
 											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
 												<i class="material-icons">play_arrow</i>
-												<span style="width: 3.5em;">Watch <!--{{ .demoVideoButtonText }}--></span>
+												<span style="width: 3.5em;">Watch</span>
 											</span>
-
 											<div class="ht-top__popup js-popup">
 												<div class="ht-top__iframe-wrap">
 													<button class="ht-top__popup-close js-popup-close"></button>
@@ -67,19 +62,6 @@ TODO:
 										</span>
 										{{ end }}
 									</div>
-									
-									
-
-
-									<!---
-									<a class="button button-round-icon" style="color: #fff; background: #4edac3;">
-										<i class="material-icons" style="font-size: 3em;">play_arrow</i>
-									</a>
-									-->	
-
-
-
-									<!--- <img src="{{ .demoSectionImage }}" alt="icon" style="height: 60px;"> --->
 									
 									<div class="demoSectionTitleDescContainer">
 										<div class="demoSection--title">
@@ -90,31 +72,6 @@ TODO:
 											{{ .demoDescription | markdownify }}
 										</div>									
 									</div>
-
-									<!-- THIS WORKS
-									<div class="button-wrap demoVideoButton">										
-										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-video4" style="padding: 0; color: #fff; background-color: #4edac3;"
-										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-										style="display: none;"
-										{{ end }}
-										>												
-											<span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-												<i class="material-icons">play_arrow</i>
-												<span style="width: 3.5em;">{{ .demoVideoButtonText }}</span>
-											</span>
-
-											<div class="ht-top__popup js-popup">
-												<div class="ht-top__iframe-wrap">
-													<button class="ht-top__popup-close js-popup-close"></button>
-													<p>{{ .demoVideoLink }}</p>
-												</div>
-											</div>
-										</span>
-										{{ end }}
-									</div>
-									-->
-
 								</div>
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->
@@ -129,12 +86,11 @@ TODO:
 	</section>
 
 
-
 	<!-- REQUEST DEMO FORM -->
 	<section class="whyV" style="background-color: #f1f4fc;">
 		<div class="container">
 			<div class="whyV__row">
-				<h2 class="enterV__headline" id="request">Request Demo</h2>
+				<h2 class="enterV__headline" id="request">Request Live Demo</h2>
 				<div class="header-section--divider"></div>
 				<!-- Hubspot Form - Request Short -->
 				<div class="marketing-form-wrapper">
@@ -165,7 +121,6 @@ TODO:
 		</div>
 	</section>
     <!--END: WHY VISYOND -->
-
 </div>
 
 

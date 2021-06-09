@@ -354,60 +354,15 @@ $(function () {
         watchVideo5(btn6[i]);
     }
 
-    /*
-    // DEMO PAGE VID - NEW
-    var wrap, demoPageSection;
-    var button = [];
-    var i, x, y;
-     
-    wrap = document.querySelectorAll(".demoSection__body--img-wrap"); //getting all nodes under this class
-     
-    for (i = 0; i < wrap.length; i++) {
-        //demoPageSection = (wrap[i].querySelectorAll('.demoVideoButton')); //working but krivo
-        demoPageSection = (wrap[i].querySelectorAll('.button-wrap')); //new try
-        for (x = 0; x < demoPageSection.length; x++) {
-            button [x] = (demoPageSection[x].querySelector('.btn-video4'));
-            watchVideo5(button[x]);
-        }
-      }
-    */  
-
-    // DEMO PAGE VID - NEW TRY
-    function watchDemoVideo(videoBtn) {
-        const videoSpan = videoBtn.querySelector('span'); // 
-        const videoPopup = videoBtn.querySelector('div');
-        const closePopup = videoBtn.querySelector('.js-popup-close');
-        watchVideo(videoSpan, videoPopup, closePopup);
-    }
-
-
-    /* ONLY SINGLE VIDEO WORKS
-    var demoVideo = document.querySelectorAll('.demoVideo');
-    watchDemoVideo(demoVideo);
-    */
-
-
-
-    /* working but ploho */
+    // DEMO PAGE VID
     var demoPageButton = [];
 
-    var blocks7 = document.querySelectorAll('.demoSection__body--img-wrap');
-    for (var i = 0; i<blocks7.length; i++) {
-        demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
-        watchDemoVideo(demoPageButton[i]);
+    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
+    for (var i = 0; i<demoSections.length; i++) {
+        demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
+        watchVideo5(demoPageButton[i]);
     }
    
-
-
-    // DEMO PAGE VID - OLD TRY
-    /* var demoPageButton = [];
-
-    var blocks7 = document.querySelectorAll('.demoVideoButton');
-    for (var i = 0; i<blocks7.length; i++) {
-        demoPageButton[i] = (blocks7[i].querySelector('.btn-video4'));
-        watchVideo5(demoPageButton[i]);
-    } */
-
 
     // ===== AUTOPLAY VIDEO =====
     if(document.querySelector('.js-background-video')) {

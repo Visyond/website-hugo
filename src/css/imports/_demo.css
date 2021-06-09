@@ -16,7 +16,6 @@
 
     &:not(:last-child) {
         margin-bottom: 2em;
-        /*margin-bottom: 0rem; */
      }
 }
 
@@ -25,20 +24,7 @@
     color: #383E4D;
     font-weight: 600;
     line-height: 1.4;
-    text-align: center;    
-/*    
-    color: #383E4D;
-    font-size: 2em;
-    line-height: 1.1;
-    font-weight: 900;
-    margin-bottom: 15px;
-    width: 100%;
     text-align: center;
-@media screen and (max-width: 800px) {
-    margin-bottom: 12px;
-    font-size: 24px;
-}
-*/
 }
 
 
@@ -108,7 +94,6 @@
     position: relative;
     display: flex;
     align-items: flex-start;
-    /*align-items: center; */
     padding: 1em 2em;
     flex-direction: row;
     @media screen and (max-width: 768px) {
@@ -132,12 +117,10 @@
 
 & .button {
       position: absolute;
-      left: 30%; /*50%*/
-      top: 40%; /*50%*/
+      left: 30%;
+      top: 40%;
       transition: all 0.3s;
-      /* transform: translate(-50%, -50%); /*THIS RIGHT HERE */
       font-size: 1.2em;
-      /*pointer-events: none;*/
       box-shadow: 0 2px 4px rgba(0,0,0,.3);
 
       @media screen and (max-width: 1201px) {
@@ -164,7 +147,6 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
-    /*cursor: pointer;*/
 }
 
 
