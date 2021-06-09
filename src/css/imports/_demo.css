@@ -121,10 +121,10 @@
       top: 40%;
       transition: all 0.3s;
       font-size: 1.2em;
-      box-shadow: 0 2px 4px rgba(0,0,0,.3);
-      padding: 0;
-      color: #fff;
-      background-color: #4edac3;
+      box-shadow: 0 2px 4px rgba(0,0,0,.3)!important;
+      padding: 0!important;
+      color: #fff!important;
+      background-color: #4edac3!important;
 
       @media screen and (max-width: 1201px) {
         left: 25%; 
