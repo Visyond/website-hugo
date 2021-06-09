@@ -106,9 +106,10 @@
     position: relative;
     transition: all 0.3s;
 
-&:hover {
+/*&:hover {
     filter: blur(1px);
 }
+*/
 
 @media screen and (max-width: 800px) {
     width: 100%;
@@ -121,8 +122,8 @@
 
 & .button {
       position: absolute;
-      left: 40%;
-      top: 30%;
+      left: 32%;
+      top: 40%;
       transition: all 0.3s;
       box-shadow: 0 4px 8px rgba(0,0,0,.3)!important;
       padding: 0!important;
@@ -136,19 +137,20 @@
       }
 
       @media screen and (max-width: 1201px) {
-        left: 35%; 
+        left: 37.9%; 
+        top: 29%;
 
         @media (max-width: 991px) {
-            left: 30%;  
+            left: 32%;  
             top: 20%;
 
             @media (max-width: 801px) {
-                left: 35%;  
-                top: 30%;
+                left: 36.8%; 
+                top: 27.3%;
 
                 @media (max-width: 769px) {
-                    left: 40%;
-                    top: 35%;
+                    left: 44%;
+                    top: 39.7%;
                 }
             }
         }
