@@ -178,7 +178,7 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
-    filter: grayscale(60%);
+    filter: grayscale(80%);
 }
 
 .demoSection__divider {
