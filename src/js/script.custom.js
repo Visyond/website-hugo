@@ -380,15 +380,6 @@ $(function () {
 
 
         btn.addEventListener('click', e => {
-
-            /*
-            var buttons = document.getElementsByClassName('demoSection__body--img-wrap');
-            for (var i = 0; i < buttons.length; i++) {
-                var button = buttons[i].querySelector('.btn-demoVideo');
-                button.classList.remove('demoButtonOpacity');
-            } 
-            */
-
             var tt = e.target;
             e.preventDefault();
             popup.classList.add('popup--show');
@@ -400,13 +391,6 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopup) {
                 popup.classList.remove('popup--show');
                 removeIframe();
-
-                /*
-                var buttons = document.querySelectorAll('.btn-demoVideo');
-                for (var i=0; i<buttons.length;i++){
-                    buttons[i].classList.add('demoButtonOpacity');
-                }
-                */
             }
         })
         
@@ -415,14 +399,6 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
                 popup.classList.remove('popup--show');
                 removeIframe();
-
-                /*
-                var buttons = document.querySelectorAll('.btn-demoVideo');
-                for (var i=0; i<buttons.length;i++){
-                    buttons[i].classList.add('demoButtonOpacity');
-                }
-                */
-
                 document.getElementById('request').scrollIntoView();
             }
         })
@@ -446,19 +422,6 @@ $(function () {
         demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
         watchDemoVideo(demoPageButton[i]);
     }    
-
-
-
-    /* OLDER DEMO VIDEO
-    var demoPageButton = [];
-
-    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
-    for (var i = 0; i<demoSections.length; i++) {
-        demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
-        watchVideo5(demoPageButton[i]);
-    }
-   */
-
 
 
     // ===== AUTOPLAY VIDEO =====
