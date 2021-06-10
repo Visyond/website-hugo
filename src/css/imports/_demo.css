@@ -134,7 +134,7 @@
 }
 
 &:hover img {
-    filter: grayscale(0%);
+    filter: grayscale(80%);
  }
 
 & .button {
@@ -144,13 +144,15 @@
       transition: all 0.3s;
       box-shadow: 0 4px 8px rgb(0,0,0,.4)!important;
       padding: 0!important;
+      border: 2px solid #fff!important;
       color: rgb(255 255 255 / 90%)!important;
-      background-color: rgb(5, 133, 255, 0.9);
+      background-color: rgba(22, 24, 30, 0.85);
       /* background-color:rgb(78,218,195,.9); */
        
     
       &:hover {
-        background-color: rgba(22, 24, 30, 0.85);
+        background-color: rgb(5, 133, 255, 0.9);
+        border: 2px solid #191919;
       }
 
       @media screen and (max-width: 1201px) {
@@ -178,7 +180,7 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
-    filter: grayscale(80%);
+    /* filter: grayscale(80%); */
 }
 
 .demoSection__divider {
@@ -212,9 +214,6 @@
 .demoSection__text-wrap {
     display: inline-block;
     width: 100%;
-    @media screen and (max-width: 800px) {
-        width: 95%;
-    }
 }
 
 .demoText{
