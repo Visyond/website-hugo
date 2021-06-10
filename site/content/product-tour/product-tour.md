@@ -34,7 +34,7 @@ StepsBlock:
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Select cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation.
+      Select cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations.
     benefitsList:
       - text: >-
           Learn what really drives your decision metrics.
@@ -52,24 +52,24 @@ StepsBlock:
       - text: >-
           Both Excel experts and novices will get things done quickly.
     image: /img/product-tour/step2.png  
-    title: 'Analyze with Few Clicks'
+    title: 'Analyze with a Few Clicks'
     titlePrefix: '2'   
   - descr: >-
       Select cells and charts, add them to dashboards, create spreadsheet-driven calculators, and securely present them.
     benefitsList:
       - text: >-
+          Share only certain dashboards and scenarios with certain collaborators.      
+      - text: >-
           Hide the complexity of the spreadsheet and put important metrics on interactive dashboards.
       - text: >-
           Enable stakeholders to test scenarios without your help.
-      - text: >-
-          Share only certain dashboards and scenarios with certain collaborators.     
     benefitsList2:
       - text: >-
           Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
       - text: >-
           Once created - always updated: Visyond’s dashboards require minimal to no maintenance.        
     image: /img/product-tour/step4.png
-    title: 'Securely share Insights and Scenarios via Dashboards'
+    title: 'Share Insights via Dashboards'
     titlePrefix: '3'   
 visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
 functionTitle: Functions
