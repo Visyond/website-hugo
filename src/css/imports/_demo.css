@@ -112,6 +112,10 @@
     box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
     @media screen and (max-width: 768px) {
         max-width: 100%;
+        padding: 2em;
+        @media (max-width: 769px) {
+            padding: 1.5em;
+        }
     }
 }
 
@@ -121,7 +125,7 @@
     transition: all 0.3s;
 
 &:hover {
-    box-shadow: 0px 0px 30px 0px #d9d9d9;
+    box-shadow: 0px 0px 10px 0px #d9d9d9;
 }
 
 @media screen and (max-width: 800px) {
