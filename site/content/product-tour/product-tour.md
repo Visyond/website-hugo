@@ -9,10 +9,10 @@ metaTags: >-
   <meta property="og:url" content="">
   <meta name="description" content="Automate the journey from a spreadsheet cell to analytical insights on online dashboards">
 topTitle: >-
-  From Spreadsheets to Interactive Analytics and Dashboards in a Few Clicks
+  From Spreadsheets to Interactive Dashboards in a Few Clicks
 topDescription: Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance
 StepsHeader: >-
-      Make Better Decisions in 3 Simple Steps
+      Get Started in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your Excel spreadsheet (or build one in Visyond) or [install our add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940) to transform it into an interactive and collaborative decision-making platform.
@@ -110,7 +110,7 @@ industryList:
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
     text: Insurance     
-FeaturesHeader: 'Product Tour'
+FeaturesHeader: 'With Visyond, You Can'
 AddinCloudHeader: 'Work the Way You Like'
 summary:
   - content: 'If you want to keep using Excel, macros and other add-ins.'
