@@ -130,10 +130,10 @@
       box-shadow: 0 4px 8px rgba(0,0,0,.3)!important;
       padding: 0!important;
       color: #fff!important;
-      background-color: #383e4d!important; /* #4edac3!important;*/
+      background-color: rgba(22, 24, 30, 0.85); /* #383e4d!important;*/
     
       &:hover {
-        background-color: #0585ff!important;
+        background-color: #0585ff; /* #0585ff!important;*/
       }
 
       @media screen and (max-width: 1201px) {

@@ -39,8 +39,8 @@ TODO:
 									<div class="demoSection__body--img-wrap">
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
-										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-demoVideo demoButtonOpacity" 
+										{{ if .demoVideoLink }} <!--button button-icon btn-demoVideo demoButtonOpacity -->
+										<span class="button button-icon btn-demoVideo" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
 										{{ end }}

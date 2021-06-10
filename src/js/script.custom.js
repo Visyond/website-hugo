@@ -356,7 +356,6 @@ $(function () {
 
     // DEMO PAGE VIDEO POPUP WITH BUTTON
     function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo) {
-        //const closePopup = document.querySelector('.js-popup-close');
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
@@ -381,15 +380,17 @@ $(function () {
 
 
         btn.addEventListener('click', e => {
-            var buttons = document.querySelectorAll('.demoButtonOpacity');
-            for (var i=0; i<buttons.length;i++){
-                buttons[i].classList.remove('demoButtonOpacity');
-            }
+
+            /*
+            var buttons = document.getElementsByClassName('demoSection__body--img-wrap');
+            for (var i = 0; i < buttons.length; i++) {
+                var button = buttons[i].querySelector('.btn-demoVideo');
+                button.classList.remove('demoButtonOpacity');
+            } 
+            */
 
             var tt = e.target;
             e.preventDefault();
-            //btn.classList.remove('demoButtonOpacity'); //Need to remove opacity from button otherwise overlay is buggy
-
             popup.classList.add('popup--show');
             createIframe();
         });
@@ -400,11 +401,12 @@ $(function () {
                 popup.classList.remove('popup--show');
                 removeIframe();
 
-                //adding opacity back
+                /*
                 var buttons = document.querySelectorAll('.btn-demoVideo');
                 for (var i=0; i<buttons.length;i++){
                     buttons[i].classList.add('demoButtonOpacity');
                 }
+                */
             }
         })
         
@@ -414,11 +416,12 @@ $(function () {
                 popup.classList.remove('popup--show');
                 removeIframe();
 
-                //adding opacity back
+                /*
                 var buttons = document.querySelectorAll('.btn-demoVideo');
                 for (var i=0; i<buttons.length;i++){
                     buttons[i].classList.add('demoButtonOpacity');
                 }
+                */
 
                 document.getElementById('request').scrollIntoView();
             }
