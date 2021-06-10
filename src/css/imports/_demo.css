@@ -14,7 +14,7 @@
     margin-bottom: 0em;
 
     &:not(:last-child) {
-        margin-bottom: 2em;
+        margin-bottom: 4em;
      }
 }
 
