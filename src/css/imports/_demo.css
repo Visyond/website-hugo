@@ -139,34 +139,35 @@
 
 & .button {
       position: absolute;
-      left: 40%;
-      top: 32%;
+      left: 41%;
+      top: 35%;
       transition: all 0.3s;
       box-shadow: 0 4px 8px rgb(0,0,0,.4)!important;
       padding: 0!important;
       color: rgb(255 255 255 / 90%)!important;
-      background-color:rgb(78,218,195,.9);
-      /* background-color: rgb(5, 133, 255, 0.9); */
+      background-color: rgb(5, 133, 255, 0.9);
+      /* background-color:rgb(78,218,195,.9); */
+       
     
       &:hover {
         background-color: rgba(22, 24, 30, 0.85);
       }
 
       @media screen and (max-width: 1201px) {
-        left: 37.9%; 
-        top: 29%;
+        left: 39.2%;
+        top: 31.7%;
 
         @media (max-width: 991px) {
-            left: 32%;  
-            top: 20%;
+            left: 34.8%;
+            top: 23.2%;
 
             @media (max-width: 801px) {
-                left: 36.8%; 
-                top: 27.3%;
+                left: 34.4%;
+                top: 23.7%;
 
                 @media (max-width: 769px) {
-                    left: 41.7%;
-                    top: 35.7%;
+                    left: 42%;
+                    top: 36%;
                 }
             }
         }
