@@ -180,6 +180,7 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
+    display: flex
     /* filter: grayscale(80%); */
 }
 
