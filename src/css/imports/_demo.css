@@ -180,8 +180,10 @@
 .demoSection__body--img-wrap__img {
     transition: all 0.2s;
     width: 100%;
-    display: flex
-    /* filter: grayscale(80%); */
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 .demoSection__divider {
