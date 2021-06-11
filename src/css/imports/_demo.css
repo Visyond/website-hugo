@@ -242,11 +242,11 @@
     align-items: center;
     justify-content: center;
     flex: 1 1 0;
-    text-transform: none!important;
-    color: #fff!important;
+    text-transform: none;
+    color: #fff;
     background: #0585ff;
     font-weight: 700;
-    margin: 2em 3em!important;
+    margin: 2em 3em;
     padding: 1em 1em;
     border-radius: 4px;
     border: 2px solid #fff;
