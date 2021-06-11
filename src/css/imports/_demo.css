@@ -233,7 +233,8 @@
 
 .demoPopupButtonContainer {
     display: flex;
-    width: 100%;
+    width: 889px; /* YT iframe size */
+    max-width: 100%;
 }
 
 .btn-demoPopupCTA {
