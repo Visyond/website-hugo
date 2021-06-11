@@ -35,7 +35,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/Mlwsq6LUTXI'
         demoDescription: >-
           Forecasting organic growth of a chain of shops and enabling collaborators to independently test scenarios.
-      - demoSectionSubTitle: Visyond platform - Complete Overview
+      - demoSectionSubTitle: Visyond Platform - Complete Overview
         demoSectionImage: /img/demo/Full Platform Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/LmNCVp6l7rE'
         demoDescription: >-

@@ -355,7 +355,7 @@ $(function () {
     }
 
     // DEMO PAGE VIDEO POPUP WITH BUTTON
-    function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo) {
+    function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo, closePopupSignUp) {
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
@@ -403,6 +403,14 @@ $(function () {
             }
         })
 
+        closePopupSignUp.addEventListener('click', e => {
+            e.preventDefault();
+            if(e.target === e.currentTarget || e.target === closePopupSignUp) {
+                popup.classList.remove('popup--show');
+                removeIframe();
+                window.location.href='/accounts/signup/';
+            }
+        })
 
     }
 
@@ -412,7 +420,8 @@ $(function () {
         const videoPopup = videoBtn.querySelector('div');
         const closePopup = videoBtn.querySelector('.js-popup-close');
         const closePopupRequestDemo = videoBtn.querySelector('.js-popup-close-request');
-        demoVideoPopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo);
+        const closePopupSignUp = videoBtn.querySelector('.js-popup-close-signup');
+        demoVideoPopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo, closePopupSignUp);
     }
 
     var demoPageButton = [];
