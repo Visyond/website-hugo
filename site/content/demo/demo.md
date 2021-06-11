@@ -48,16 +48,10 @@ demoSection:
         demoDescription: >-
           Automate Sensitivity and Scenario analyses, and easily run Monte Carlo simulations with Visyond’s Excel add-in ([download from Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200002940)).  
     demoSectionTitle: Excel Add-in
-WhyVisyondHeader: Why Visyond?
-WhyVisyondText: >-
-  Visyond solves the **3 main challenges** of speadsheet-based decision-making:
-
-  * Manual tasks
-
-  * High complexity
-
-  * Security threats
-WhyVisyondButtonText: Learn More
-WhyVisyondButtonLink: /why-visyond
+FAQHeader: Frequently Asked Questions
+FAQText: >-
+  Find answers to common questions about Visyond
+FAQButtonText: See FAQ
+FAQButtonLink: /faq
 ---
 

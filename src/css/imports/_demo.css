@@ -125,7 +125,7 @@
     transition: all 0.3s;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
 
 &:hover {
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
@@ -235,6 +235,7 @@
     display: flex;
     width: 889px; /* YT iframe size */
     max-width: 100%;
+    justify-content: center;
 }
 
 .btn-demoPopupCTA {
@@ -246,13 +247,14 @@
     color: #fff;
     background: #0585ff;
     font-weight: 700;
-    margin: 2em 3em;
+    margin: 2em 2em;
     padding: 1em 1em;
     border-radius: 4px;
     border: 2px solid #fff;
     cursor: pointer;
     transition: color 0.2s ease-in-out, border 0.2s ease-in-out, background 0.2s ease-in-out;
     font-size: 1em;
+    max-width: 40%;
 }
 
 

@@ -1308,11 +1308,8 @@ collections: # A list of collections the CMS should be able to edit
 	], 
         required: false,
         }
-      - {label: "Why Visyond Header", name: "WhyVisyondHeader", widget: "string", required: false}
-      - {label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
-      - {label: "Why Visyond Button Text", name: "WhyVisyondButtonText", widget: "string", required: false}
-      - {label: "Why Visyond Button Link", name: "WhyVisyondButtonLink", widget: "string", required: false}
-      - {label: "Provides Title", name: "providesTitle", widget: "string"}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
+      - {label: "FAQ Header", name: "FAQHeader", widget: "string", required: false}
+      - {label: "FAQ Text", name: "FAQText", widget: "markdown", required: false}
+      - {label: "FAQ Button Text", name: "FAQButtonText", widget: "string", required: false}
+      - {label: "FAQ Button Link", name: "FAQButtonLink", widget: "string", required: false},
         ],}      
