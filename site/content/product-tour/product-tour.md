@@ -18,35 +18,15 @@ StepsBlock:
       Import your Excel spreadsheet (or build one in Visyond) or [install our add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940) to transform it into an interactive and collaborative decision-making platform.
     benefitsList:
       - text: >-
-          Track data and quickly compare scenarios.
-      - text: >-
-          Control which worksheets collaborators can see and edit.
-      - text: >-
-          Find out if there’s something wrong with your model.
-    benefitsList2:
-      - text: >-
           You don’t need consultants, IT experts, or lengthy installations to start using the platform.
       - text: >-
-           Use your Excel skills without having to learn new menus and workflow: if you can do it in Excel, you can do it right away in Visyond.
-      - text: >-
-           Your data is safe and can’t be overwritten by collaborators.        
+           Use your Excel skills without having to learn new menus and workflow: if you can do it in Excel, you can do it right away in Visyond.     
     image: /img/product-tour/step1.png 
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Select cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations.
+      Select cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations.  
     benefitsList:
-      - text: >-
-          Learn what really drives your decision metrics.
-      - text: >-
-          Visualize how your model reacts to changes in key assumptions.
-      - text: >-
-          Compare multiple scenarios in real time.
-      - text: >-
-          Analyze risks with Monte Carlo Simulation.
-      - text: >-
-          Extend your collaborators’ analyses without anyone losing or corrupting data.      
-    benefitsList2:
       - text: >-    
           You don’t need to move data across many tools: Visyond’s analyses are integrated with the spreadsheets and dashboards.
       - text: >-
@@ -58,14 +38,7 @@ StepsBlock:
       Select cells and charts, add them to dashboards, create spreadsheet-driven calculators, and securely present them.
     benefitsList:
       - text: >-
-          Share only certain dashboards and scenarios with certain collaborators.      
-      - text: >-
-          Hide the complexity of the spreadsheet and put important metrics on interactive dashboards.
-      - text: >-
-          Enable stakeholders to test scenarios without your help.
-    benefitsList2:
-      - text: >-
-          Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
+          Nobody can accidentally corrupt spreadsheet data or obstruct the dashboard views of other collaborators.
       - text: >-
           Once created - always updated: Visyond’s dashboards require minimal to no maintenance.        
     image: /img/product-tour/step4.png

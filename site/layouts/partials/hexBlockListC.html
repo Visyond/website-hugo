@@ -39,7 +39,7 @@
 
             <div class="enterSections__benefits">
                 {{ if .benefitsList }}
-                <div class="enterSections__benefits--title" style="text-decoration: none;">With Visyond, you can</div>
+                <div class="enterSections__benefits--title">Learn more</div>
                 {{ end }}
                 <ul>
                     {{ range $list := .benefitsList }}
@@ -49,20 +49,6 @@
                     {{ end }}
                 </ul>
             </div>
-            
-            <div class="enterSections__benefits">
-                {{ if .benefitsList2 }}
-                <div class="enterSections__benefits--title" style="padding: 0; text-decoration: none;">What's special?</div>
-                {{ end }}
-                <ul>
-                    {{ range $list := .benefitsList2 }}
-                    <li class="whyV__benefit-item">
-                        {{ .text | markdownify }}
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
-
         </div>
     </section>
 
