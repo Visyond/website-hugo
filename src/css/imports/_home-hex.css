@@ -221,12 +221,23 @@ margin-bottom: 30px;
     justify-content: space-between;
     margin-top: 40px;
 }
+.home-hero__full-width-wrap-noIcons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
 @media screen and (max-width: 1200px) {
     .home-hero__buttons-section{
         width: 100%;
     }
     .home-hero__full-width-wrap{
         padding: 0;
+    }
+    .home-hero__full-width-wrap-noIcons{
+        padding: 0;
+        justify-content: space-between;
     }
 }
 @media screen and (max-width: 1200px)  and (min-width: 1025px){
@@ -246,6 +257,9 @@ margin-bottom: 30px;
     .home-hero__full-width-wrap {
         flex-wrap: wrap;
     }
+    .home-hero__full-width-wrap-noIcons {
+        flex-wrap: wrap;
+    }   
     .home-hero__title{
         text-align: center;
         font-size: 28px;
