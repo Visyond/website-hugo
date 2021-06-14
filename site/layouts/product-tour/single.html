@@ -19,13 +19,13 @@
                     </div>
                 </div>
                   
-                <!--
+                
                 <div class="home-hero__half-width-wrap">
                     <div class="home-hero__buttons-section">
-                        <a href="/demo" class="button button-primary button-asterisk">Watch Demo</a>
+                        <a href="/accounts/signup/" class="button button-primary button-asterisk">Free Sign Up</a>
                     </div>
                 </div>
-                -->
+                
 
 
                 <div class="home-hero__full-width-wrap-noIcons" style="margin-top: 80px; justify-content: flex-end;">
@@ -167,15 +167,15 @@
                     <div class="addinCloud-summary__text">
                         {{ $itemSummary.content | markdownify }}
                     </div>
-                    <!-- 
+                     
                     <div class="btn-wrap">
                         {{ if eq $itemSummary.title "Excel Add-in" }}
-                        <a href="{{ .buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em; background: #4edac3;">{{ .buttonText }}</a>
+                        <a href="{{ .buttonLink }}" class="btn-primary" target="_blank" style="text-transform: none; margin-top: 1em; background: #4edac3;">{{ .buttonText }}</a>
                         {{ else }}
-                        <a href="{{ .buttonLink }}" class="btn-primary" style="text-transform: none; margin-top: 1em;">{{ .buttonText }}</a>
+                        <a href="{{ .buttonLink }}" class="btn-primary" target="_blank" style="text-transform: none; margin-top: 1em;">{{ .buttonText }}</a>
                         {{ end }}	
                     </div>                    
-                    -->
+                    
                 </div>
                 {{ end }}
             </div>
@@ -190,7 +190,7 @@
 
 
 	<!-- BOTTOM CTA WITH VIDEO -->
-	{{ partial "hexStartedIn" . }}
+	{{ partial "hexStartedInSignUp" . }}
 	<!-- END: BOTTOM CTA WITH VIDEO -->
 
 </div>

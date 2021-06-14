@@ -1,0 +1,58 @@
+{{ with .Params.bgBottom }}
+<section style="background-image: url(' {{ . }} '); background-repeat: no-repeat; background-size: cover;">
+    {{ else }}
+    <section style="background-image: url('/img/footer-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+        {{ end }}
+
+        {{ if and (isset .Params "providestitle") (isset .Params "provideslist") }}
+            <div class="container">
+                <div class="homeHex-provides">
+                    <section class="homeHex-provides__wrap">
+                        <h2 class="homeHex-provides__header">
+                            {{ .Params.ProvidesTitle }}
+                        </h2>
+                        <ul class="homeHex-provides__list">
+                            {{ range $el := .Params.ProvidesList }}
+                            <li class="homeHex-provides__item">
+                                {{ .text | markdownify }}
+                            </li>
+                            {{ end }}
+                        </ul>
+                        <a href="/accounts/signup/" class="button button-contrast">
+                            Free Sign Up
+                        </a>
+                    </section>
+                    <div class="homeHex-provides__img-wrap">
+                        <img id="play-video" src="/img/home/laptopWithPic2.png" alt="notebook" class="homeHex-provides__img">
+
+                        <a class="button button-round-icon">
+                            <i class="material-icons">
+                                play_arrow
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tubeplayer/2.1.0/jquery.tubeplayer.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#play-video").click(function() {
+
+                $(".overlay").addClass("overlay--active");
+
+                const wrap = '<div class="yt-wrap"><a class="close-yt"><i class="material-icons">close</i></a></div>'
+
+                $(".overlay").prepend(wrap);
+
+                $(".overlay .yt-wrap").tubeplayer({
+                    initialVideo: "q8WLu0gHzFE",
+                    playsinline: true
+                });
+
+            })
+        });
+    </script>
