@@ -41,6 +41,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
+    justify-content: center;
+
     @media screen and (max-width: 768px) {
         flex-direction: column;
         align-content: center;
@@ -101,7 +103,6 @@
     padding: 2em 2em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     max-width: 50%;
     align-items: center;
     width: 540px;
