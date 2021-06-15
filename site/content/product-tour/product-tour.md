@@ -88,6 +88,7 @@ AddinCloudHeader: 'Work the Way You Like'
 summary:
   - content: >-
       Get the Excel add-in if you want to:
+      
 
       * Use Excel, macros and other add-ins
       * Work with very large spreadsheets
@@ -99,6 +100,7 @@ summary:
   - content: >-
       Sign up for the cloud platform if you want:
       
+
       * Advanced collaboration on spreadsheets, scenarios, and analyses
       * Role-based access control and data tracking
       * Interactive dashboards driven by your spreadsheet
