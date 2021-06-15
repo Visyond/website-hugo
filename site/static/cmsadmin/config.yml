@@ -1256,7 +1256,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Addin/Cloud Title", name: "AddinCloudHeader", widget: "markdown", required: false}   
       - {label: "Addin/Cloud Summary", name: summary, widget: list,
         fields: [
-          {label: Title, name: "title", widget: string},
+          {label: Title ('Excel Add-in' = green button - template condition), name: "title", widget: string},
           {label: "Image", name: "image", widget: image},
           {label: Text, name: "content", widget: "markdown"},
           {label: Excel/Cloud Button Text, name: "buttonText", widget: string},
