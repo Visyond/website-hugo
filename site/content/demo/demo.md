@@ -48,6 +48,13 @@ demoSection:
         demoDescription: >-
           Automate Sensitivity and Scenario analyses, and easily run Monte Carlo simulations with Visyond’s Excel add-in ([download from Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200002940)).  
     demoSectionTitle: Excel Add-in
+  - demoSectionContent:
+      - demoSectionSubTitle: Financial Modelling Innovation Awards 2020
+        demoSectionImage: /video/Financial Modelling Award Video.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/40qmYTqeyKA'
+        demoDescription: >-
+          Visyond wins the Out of Excel award at the [Financial Modelling Innovation Awards 2020](/financial-modelling-innovation-awards-2020)!
+    demoSectionTitle: Awards  
 FAQHeader: Frequently Asked Questions
 FAQText: >-
   Find answers to common questions about Visyond
