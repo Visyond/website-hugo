@@ -21,7 +21,7 @@ StepsBlock:
           You don’t need consultants, IT experts, or lengthy installations to start using the platform.
       - text: >-
            Use your Excel skills and improve your performance without having to learn new menus and workflow.
-    image: /img/product-tour/step1.png 
+    image: /img/product-tour/step1.png
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
