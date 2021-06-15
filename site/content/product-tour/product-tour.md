@@ -88,8 +88,11 @@ AddinCloudHeader: 'Work the Way You Like'
 summary:
   - content: >-
       Get the Excel add-in if you want to:
+
       * Use Excel, macros and other add-ins
+
       * Work with very large spreadsheets
+
       * Use cutting-edge Excel features
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
@@ -97,8 +100,11 @@ summary:
     buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
   - content: >-
       Sign up for the cloud platform if you want:
+
       * Advanced collaboration on spreadsheets, scenarios, and analyses
+
       * Role-based access control and data tracking
+
       * Interactive dashboards driven by your spreadsheet
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
@@ -196,7 +202,7 @@ infoBlockFirst:
       - text: >-
           Automatically document the spreadsheet as you and your collaborators work on it.
     descr: >-
-      Establish a single place to store your spreadsheet data — changes, assumptions, attachments and comments — in the same environment where you do calculations, create analyses and visualizations.
+      Establish a single place to store your spreadsheet data — changes, scenarios, attachments and comments — in the same environment where you do calculations, create analyses and visualizations.
     infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
@@ -207,7 +213,7 @@ infoBlockFirst:
       - text: >-
           Automate Balance Sheets, Income Statements and Cash Flow statements.
       - text: >-
-          Customize reports to your accounting standards.
+          Customize reports according to your accounting standards.
       - text: >-
           Visyond will automatically calculate financial and management ratios.
       - text: >-
