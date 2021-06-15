@@ -89,11 +89,11 @@ summary:
   - content: >-
       Get the Excel add-in if you want to:
 
-      * Use Excel, macros and other add-ins
+      - Use Excel, macros and other add-ins
 
-      * Work with very large spreadsheets
+      - Work with very large spreadsheets
 
-      * Use cutting-edge Excel features
+      - Use cutting-edge Excel features
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
     buttonText: Get Add-in
@@ -101,11 +101,11 @@ summary:
   - content: >-
       Sign up for the cloud platform if you want:
 
-      * Advanced collaboration on spreadsheets, scenarios, and analyses
+      - Advanced collaboration on spreadsheets, scenarios, and analyses
 
-      * Role-based access control and data tracking
+      - Role-based access control and data tracking
 
-      * Interactive dashboards driven by your spreadsheet
+      - Interactive dashboards driven by your spreadsheet
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
     buttonText: Free Sign Up
