@@ -221,6 +221,7 @@ margin-bottom: 30px;
     justify-content: space-between;
     margin-top: 40px;
 }
+
 .home-hero__full-width-wrap-noIcons{
     width: 100%;
     display: flex;
@@ -256,6 +257,9 @@ margin-bottom: 30px;
     }
     .home-hero__full-width-wrap {
         flex-wrap: wrap;
+    }
+    .home-hero__gartner-wrapNoLogo {
+        margin: auto;
     }
     .home-hero__full-width-wrap-noIcons {
         flex-wrap: wrap;
@@ -1030,7 +1034,7 @@ margin-bottom: 30px;
     flex-shrink: 0;
     position: relative;
     margin-top: 0em;
-    margin-bottom: 8em;
+    margin-bottom: 10em;
 
 @media screen and (--tablet) {
     margin-top: 0;
@@ -1142,7 +1146,7 @@ margin-bottom: 30px;
     flex-shrink: 0;
     position: relative;
     margin-top: 0em;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 
 @media screen and (--tablet) {
     margin-top: 0;

@@ -30,7 +30,7 @@ TODO:
 				{{ range $el := .Params.demoSection }}
 				<li class="demoSection__block">
 					<h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2>
-					<div class="header-section--divider"></div>
+					<div class="demo-section--divider"></div>
 					<section class="demoSection__text-wrap">
 						<div class="demoSection__block-descr">
 							<ul>
@@ -91,7 +91,7 @@ TODO:
 		<div class="container">
 			<div class="whyV__row">
 				<h2 class="enterV__headline" id="request">Request Live Demo</h2>
-				<div class="header-section--divider"></div>
+				<div class="demo-section--divider"></div>
 				<!-- Hubspot Form - Request Demo Page -->
 				<div class="marketing-form-wrapper">
 					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
@@ -113,7 +113,7 @@ TODO:
 	<section class="whyV">
 		<div class="container">
 			 <h2 class="enterV__headline">{{ .Params.FAQHeader }}</h2>
-			<div class="header-section--divider"></div>
+			<div class="demo-section--divider"></div>
 			<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.FAQText | markdownify }}</div>
 			<div class="btn-wrap" style="margin-bottom: 2em;">
 				<a href="{{ .Params.FAQButtonLink }}" class="btn-primary" style="text-transform: none;">{{ .Params.FAQButtonText }}</a>

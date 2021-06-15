@@ -2,7 +2,7 @@
 url: /addin-demo
 title: Watch Visyond's Excel Add-in Demos
 metaTags: >-
-  <meta property="og:title" content="Watch Demos of the Visyond's Excel add-in">
+  <meta property="og:title" content="Watch Demos of the Visyond's Excel Add-in">
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/thumbnails/Visyond Watch Excel Add-in Demo thumbnail 1200x628.png">

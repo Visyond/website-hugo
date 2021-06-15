@@ -104,7 +104,7 @@ infoBlockFirst:
           Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from. 
       - text: Visualize the drivers that change between scenarios.
       - text: >-
-          Empower collaborators to test scenarios independently via  interactive dashboards, shielding them from information overload.
+          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
     descr: >-
       Compare scenarios in real time with a few clicks during client meetings or presentations, and turn planning and forecasting into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
