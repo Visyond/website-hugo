@@ -86,7 +86,7 @@ industryList:
 FeaturesHeader: 'With Visyond, You Can'
 AddinCloudHeader: 'Work the Way You Like'
 summary:
-  - content: >-
+  - body: >-
       Get the Excel add-in if you want to:
 
       * Use Excel, macros and other add-ins
@@ -96,7 +96,7 @@ summary:
     image: /img/product-tour/excelAddinIcon.png
     buttonText: Get Add-in
     buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
-  - content: >-
+  - body: >-
       Sign up for the cloud platform if you want:
       
       * Advanced collaboration on spreadsheets, scenarios, and analyses

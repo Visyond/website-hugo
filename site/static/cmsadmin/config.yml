@@ -1258,7 +1258,7 @@ collections: # A list of collections the CMS should be able to edit
         fields: [
           {label: Title ('Excel Add-in' = green button - template condition), name: "title", widget: string},
           {label: "Image", name: "image", widget: image},
-          {label: Text, name: "content", widget: "markdown"},
+          {label: Text, name: "body", widget: "markdown"},
           {label: Excel/Cloud Button Text, name: "buttonText", widget: string},
           {label: Excel/Cloud Button Link, name: "buttonLink", widget: string}
         ],
