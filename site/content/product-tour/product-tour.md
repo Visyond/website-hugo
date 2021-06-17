@@ -87,31 +87,13 @@ FeaturesHeader: 'With Visyond, You Can'
 AddinCloudHeader: 'Work the Way You Like'
 summary:
   - content: >-
-      Get the Excel add-in if you want to:
-
-
-      * Use Excel, macros and other add-ins
-
-      
-      * Work with very large spreadsheets
-
-
-      * Use cutting-edge Excel features  
+      Get the Excel add-in if you want to use macros, other add-ins and cutting-edge Excel features, or to work with very large spreadsheets.
     title: Excel Add-in
     image: /img/product-tour/excelAddinIcon.png
     buttonText: Get Add-in
     buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
   - content: >-
-      Sign up for the cloud platform if you want:
-
-
-      * Advanced collaboration on spreadsheets, scenarios, and analyses
-
-
-      * Role-based access control and data tracking
-
-
-      * Interactive dashboards driven by your spreadsheet  
+      Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role-based access control. 
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
     buttonText: Free Sign Up
