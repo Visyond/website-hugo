@@ -35,7 +35,7 @@ StepsBlock:
     title: 'Analyze with a Few Clicks'
     titlePrefix: '2'   
   - descr: >-
-      Select cells and charts from the spreadsheet, add them to interactive dashboards, and securely present them.
+      Select cells and charts from the spreadsheet, add them to interactive dashboards, and securely share them.
     benefitsList:
       - text: >-
           Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
