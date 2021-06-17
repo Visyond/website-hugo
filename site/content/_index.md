@@ -1,44 +1,52 @@
 ---
+title: From Spreadsheets to Interactive Dashboards in a Few Clicks
 metaTags: >-
-  <meta property="og:title" content="Transform Your Spreadsheets into a Decision-making Platform to Drive Performance">
+  <meta property="og:title" content="From Spreadsheets to Interactive Dashboards in a Few Clicks">
   <meta property="og:type" content="website">
-  <meta property="og:image"
-  content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
-  <meta property="og:description" content="Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
+  <meta property="og:description" content="Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.">
-title: Transform Your Spreadsheets into a Decision-making Platform to Drive Performance
-heroTitle: Transform Your Spreadsheets into a Decision-making Platform to Drive Performance
-topSubTitle: >-
-  Automate scenarios, analytics and simulations. Share insights via self-service dashboards in a collaborative planning and forecasting solution with an always up-to-date spreadsheet at the center.
-mainFeatures:
-  - feature: Planning automation
-  - feature: Quick adoption
-  - feature: Secure collaboration
-  - feature: Error reduction
-laptop: /img/home/laptop.png
-homepageAnimation: /img/home/2019-10-17 Homepage animation v4.mp4
-heroPrimaryButton: Request Demo
-heroPrimaryButtonLink: /request
-heroPlayButton: See Demo
-heroDemoButton: Sign Up
-heroDemoButtonLink: /accounts/signup
-watchVideoURL: 'https://www.youtube.com/embed/q8WLu0gHzFE'
-WatchVideoURL2: 'https://www.youtube.com/embed/re6E106dISo'
-otherFeatures:
-  - feature: Excel Compatible
-    featureIcon: /img/home/excel.svg
-  - feature: 'Intuitive, Familiar, & Easy to Use'
-    featureIcon: /img/home/finger.svg
-  - feature: Get Started in Minutes
-    featureIcon: /img/home/sandWatch.svg
-gartnerImage: /img/home/gartner-mobile.png
-gartnerLink: >-
-  https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond
-visForHeader: Visyond is for...
-functionTitle: Function
-caseTitle: Use Case
-industryTitle: Industry
+  <meta name="description" content="Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance">
+topTitle: >-
+  From Spreadsheets to Interactive Dashboards in a Few Clicks
+topDescription: Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance
+StepsHeader: >-
+      Get Started in 3 Simple Steps
+StepsBlock:
+  - descr: >-
+      Import your Excel spreadsheet (or build one in Visyond) or [install our add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940) to transform it into an interactive and collaborative decision-making platform.
+    benefitsList:
+      - text: >-
+          You don’t need consultants, IT experts, or lengthy installations to start using the platform.
+      - text: >-
+           Use your Excel skills and improve your performance without having to learn new menus and workflow.
+    image: /img/product-tour/step1.png
+    title: 'Connect Your Spreadsheet'
+    titlePrefix: '1'
+  - descr: >-
+      Select cells you want to analyze, and get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations.  
+    benefitsList:
+      - text: >-    
+          You don’t need to move data across many tools: Visyond’s analyses are integrated with the spreadsheets and dashboards.
+      - text: >-
+          Both Excel experts and novices will get things done quickly.
+    image: /img/product-tour/step2.png  
+    title: 'Analyze with a Few Clicks'
+    titlePrefix: '2'   
+  - descr: >-
+      Select cells and charts from the spreadsheet, add them to interactive dashboards, and securely present them.
+    benefitsList:
+      - text: >-
+          Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
+      - text: >-
+          Once created - always updated: Visyond’s dashboards require minimal to no maintenance.       
+    image: /img/product-tour/step4.png
+    title: 'Share Insights via Dashboards'
+    titlePrefix: '3'   
+visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
+functionTitle: Functions
+caseTitle: Use Cases
+industryTitle: Industries
 functionList:
   - image: /img/home/visForColumn1/function2.png
     text: Analysts and Modelers
@@ -48,7 +56,6 @@ functionList:
     text: Sales & Communication
   - image: /img/home/visForColumn1/function4.png
     text: Consultants
-  - {}
 caseList:
   - image: /img/home/visForColumn2/case1.png
     text: Risk Analysis & Simulations
@@ -74,392 +81,147 @@ industryList:
   - image: /img/home/visForColumn3/industry3.png
     text: Real Estate
   - image: /img/home/visForColumn3/industry4.png
-    text: Insurance
-WhyVisyondHeader: Why Visyond?
-WhyVisyondText: >-
-  **Decision-making** requires modeling, scenario planning, forecasting,
-  analytics, knowledge management, data visualization and reporting
-  tools.<br><br>Analysts, experts, clients, and CxOs must collaborate with strict
-  requirements on data security and governance.<br><br>Without Visyond, the
-  process requires multiple platforms and causes numerous problems.<br><br>
-WhyVisyondImage: /img/Why Visond Inforgraphic 3 v4 short.png
-solvesList:
-  - image: /img/home/solvesList/Group89.png
-    text: Data Leaks & Security Threats
-  - image: /img/home/solvesList/Group92.png
-    text: Messy Collaboration
-  - image: /img/home/solvesList/Group93.png
-    text: Governance is Difficult
-  - image: /img/home/solvesList/Group94.png
-    text: Hard to Trace Changes
-  - image: /img/home/solvesList/Group95.png
-    text: Long Manual Setup
-  - image: /img/home/solvesList/Group96.png
-    text: Data Gets Lost
+    text: Insurance     
 FeaturesHeader: 'With Visyond, You Can'
+AddinCloudHeader: 'Work the Way You Like'
+summary:
+  - content: >-
+      Get the Excel add-in if you want to use macros, other add-ins and cutting-edge Excel features, or to work with very large spreadsheets.
+    title: Excel Add-in
+    image: /img/product-tour/excelAddinIcon.png
+    buttonText: Get Add-in
+    buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
+  - content: >-
+      Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role-based access control. 
+    title: Cloud Platform
+    image: /img/product-tour/cloudPlatformIcon.png
+    buttonText: Free Sign Up
+    buttonLink: /accounts/signup/
 infoBlockFirst:
   - benefitsList:
       - text: >-
-          Switch between scenarios to visualize how changes affect KPIs without
-          the risk of breaking the model
+          Automate scenario management and analysis. 
       - text: >-
-          Answer ‘what-if’ questions and quickly compare scenarios with
-          user-friendly interfaces
-      - text: Visualize the drivers that change between scenarios
+          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from. 
+      - text: Visualize the drivers that change between scenarios.
       - text: >-
-          Share your insights with stakeholders via interactive dashboards,
-          shielding them from sensitive or unnecessary information
+          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
     descr: >-
-      **Create and compare scenarios on-the-fly with just a few clicks** during
-      meetings or presentations, and quickly identify which business drivers
-      change between scenarios.
-    files:
-      - alt: >-
-          Create and Manage Scenarios in Visyond
-        descr: >-
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
-        file: /img/2019-02 Scenario Management Panel.png
-        title: Switch between different scenarios   
-      - alt: >-
-          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
-        descr: >-
-          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
-          fly, during meetings or presentations without depending on experts.
-        file: /img/2019-02 Scenario Analysis.png
-        title: Answer ‘What-if’ questions anywhere in real time    
-      - alt: >-
-          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
-        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
-        file: /img/2019-02 Scenarios Waterfall Analysis.png
-        link: ''
-        title: Quickly identify which cells change between scenarios
+      Compare scenarios in real time during client meetings or presentations, and turn planning and forecasting into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
-    title: 'Create, Compare and Analyze Scenarios On-the-fly'
+    subtitle: "Budget vs. actual and forecasting.\r\n<br>\nScenario planning.\r"
+    title: 'Compare Scenarios On-the-fly'
   - benefitsList:
-      - text: Change assumptions and visualize how changes affect KPIs
       - text: >-
-          Don’t worry about introducing accidental errors since changing data on
-          the dashboard does not change the model
+          Add cells and charts from the spreadsheet to dashboards, style them as sliders or dropdowns, and see how changes in inputs affect the outputs in real time. 
+      - text: >-
+          Your spreadsheets are safe: changing data on the dashboard does not change the spreadsheets.
+      - text: >-
+          Share only specific dashboards and scenarios with specific collaborators.
     descr: >-
-      **Create interactive, spreadsheet-driven calculators and dashboards,** and
-      share with each stakeholder only what they need to see or interact
-      with.<br><br>**Empower collaborators to test assumptions independently**
-      and self-serve on ‘what-if’ questions, while shielding them from sensitive
-      or unnecessary information.
-    files:
-      - alt: >-
-          Create interactive dashboards and calculators in Visyond 
-        descr: >-
-          Create visual interactive presentations and spreadsheet-driven
-          calculators your stakeholders can use to independently test
-          assumptions without touching the spreadsheet. Changing data on the
-          slides does not make changes to the spreadsheet.
-        file: /img/2019-02 Interactive Presentation.png
-        title: Present Models with Spreadsheet-driven Calculators
-      - alt: >-
-          Share interactive dashboards and calculators in Visyond 
-        descr: >-
-          Let collaborators see or interact only with what they need and let
-          everybody focus on their tasks.
-        file: /img/2019-02 Share Project Panel Slide Expanded.png
-        title: Share Only Specific Worksheets and Reports    
+      Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
-    title: Share Insights with Spreadsheet-driven Dashboards
+    subtitle: "Interactive dashboards and ‘what-if’ calculators.\r\n<br>\nTest scenarios without corrupting data.\r"
+    title: Share Interactive Dashboards
   - benefitsList:
-      - text: Visualize the impact of important cells
-      - text: Answer ‘what-if’ questions and compare scenarios
-      - text: Visualize the drivers that change between scenarios
-      - text: 'Analyze risks, run simulations and create forecasts '
+      - text: Visualize the impact of important cells with Tornado Analysis.
+      - text: Answer ‘what-if’ questions with Scenario Analysis.
+      - text: Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
+      - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.    
+      - text: Analyze risks with Monte Carlo simulations.
       - text: >-
-          Slice and dice your data with customizable Pivots without additional
-          data preparation
+          Get presentation-ready analysis charts and securely share them with collaborators.
       - text: >-
-          Share the results of your analysis with stakeholders via interactive
-          dashboards, shielding them from sensitive or unnecessary information
-    descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
-    files:
-      - alt: >-
-          Compare Scenarios (Scenario Analysis) in a Few Clicks in Visyond
-        descr: >-
-          Create and visually compare scenarios (i.e. Budget vs. Actual) on the
-          fly, during meetings or presentations without depending on experts.
-        file: /img/2019-02 Scenario Analysis.png
-        title: Answer ‘What-if’ questions anywhere in real time    
-      - alt: >-
-          Know Which Cells Change Between Scenarios with Waterfall Analysis in Visyond
-        descr: Know exactly which cells change between scenarios and by how much with Waterfall analysis.
-        file: /img/2019-02 Scenarios Waterfall Analysis.png
-        link: ''
-        title: Quickly identify which cells change between scenarios
-      - alt: >-
-          Run Impact (Tornado) Analysis in Seconds in Visyond
-        descr: >-
-          Know which input cells have the greatest impact on important output.
-          cells.
-        file: /img/2019-02 Impact Analysis.png
-        link: ''
-        title: Visualize the Impact of Important Cells
-      - alt: >-
-          Easily Setup Sensitivity Analysis in Visyond
-        descr: >-
-          Instantly visualize the impact of important business drivers with automated Sensitivity analysis without worrying about deleting or changing your collaborators’ work or exporting data every time there is a change in the spreadsheet.
-        file: /img/2019-02 Sensitivity Two-Way Analysis.png
-        link: ''
-        title: Focus On What’s Important
-      - alt: Run Monte Carlo Simulations in Visyond
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        link: ''
-        title: Analyze Risks with Monte Carlo Simulations
-      - alt: View Data From Different Angles with OLAP/Cube/Pivot Analysis in Visyond
-        descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles         
+          Extend your collaborators’ analyses without anyone losing or corrupting data.
+    descr: >-
+      Analyze important decision metrics in a few clicks, and empower collaborators to contribute their own analyses, in a platform that connects spreadsheets, analyses and dashboards in a single place.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk analysis.\r"
-    title: Visualize the Impact of Important Business Drivers 
+    subtitle: "Collaborative analysis.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nMonte Carlo simulation.\r"
+    title: Automate Spreadsheet Analysis 
   - benefitsList:
-      - text: Have better control over information flow and data privacy
+      - text: Protect sensitive data from unauthorized access.
       - text: >-
-          Shield specific collaborators from sensitive or unnecessary
-          information
+          Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
       - text: >-
-          Empower stakeholders to self-serve on ‘what-if’ questions  without
-          interacting with the spreadsheet directly
-      - text: >-
-          Simplify data gathering by sharing data-entry worksheets with
-          collaborators without having them see the rest of the spreadsheet
+          Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
     descr: >-
-      **Make collaboration easier, safer and less error-prone.** Eliminate the
-      risk of accidental changes and data leakages by sharing only specific
-      worksheets, reports and interactive dashboards with specific people.
-    files:
-      - alt: >-
-          Know What Is Happening in Your Projects in Visyond
-        descr: >-
-          All changes are documented, giving you a full audit trail - so you are
-          aware of all modifications made to the spreadsheet.
-        file: /img/2019-02 Overview Panel.png
-        title: Know What Is Happening in Your Projects
-      - alt: >-
-          Share Only Specific Dashboards and Reports in Visyond
-        descr: >-
-          Let collaborators see or interact only with what they need and let
-          everybody focus on their tasks.
-        file: /img/2019-02 Share Project Panel Slide Expanded.png
-        title: Share Only Specific Dashboards and Reports
-      - alt: >-
-          Share Only Specific Worksheets in Visyond
-        descr: >-
-          Besides setting permissions for collaborators (editor, viewer), you
-          can share only specific worksheets, reports and presentation slides
-          with specific people for better control over information flow and data
-          privacy.
-        file: /img/2019-02 Share Project Panel.png
-        title: Share Only Specific Worksheets	
+      Make collaboration easier and safer. Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators and sharing only specific worksheets and dashboards with them.
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
     infoVideoPoster: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.jpg
-    subtitle: "Secure data sharing and IP protection.\r\n<br>\nGranular access control.\r"
-    title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
+    subtitle: "Secure data sharing.\r\n<br>\nRole-based access control.\r"
+    title: Control Who Sees Specific Worksheets and Dashboards
   - benefitsList:
       - text: >-
-          Instantly identify errors, their propagation chain and root cause, and
-          navigate precedent and dependent cells
-      - text: Understand spreadsheet structure with natural language formulas
-      - text: Make your models easier to explain
+          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
+      - text: Make your models easier to understand with natural language formulas.
+      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
     descr: >-
-      **Save countless hours of tracking errors in the spreadsheet.** Visualize
-      model structure, detect errors and potential data inconsistencies in real
-      time, and easily understand formulas.
-    files:
-      - alt: >-
-          Understand Model Structure, Detect Errors and Anomalies in Visyond
-        descr: >-
-          Highlight spreadsheet structure, errors and potential data
-          inconsistencies in real time, understand complex formulas at a glance
-          and save countless hours of tedious work tracing errors and typos.
-        file: /img/2019-02 Audit On.png
-        title: Understand Model Structure, Detect Errors and Anomalies
-      - alt: >-
-          Track Root Causes of Errors in Visyond
-        descr: >-
-          When in Audit Mode, Visyond offers simple and intuitive ways to track
-          errors and their root cause.
-        file: /img/2019-02 Error Root Cause.png
-        title: Track Errors and their Root Cause        
+      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.      
     infoVideo: >-
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
     infoVideoPoster: >-
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r\n<br>\nBird’s-eye view of model structure.\r"
-    title: 'Understand Model Structure, Detect Errors and Anomalies'
+    subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r"
+    title: Visualize Spreadsheet Structure, Detect Errors and Anomalies
   - benefitsList:
       - text: >-
-          Multiple assumptions can coexist in the same cell. The last added
-          value does not overwrite the existing ones. Nobody, including the
-          project owner, can modify data entered by others
+          Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
       - text: >-
-          Multiple collaborators can work on the same project, and Visyond will
-          track and report who added which assumptions, when and why
+          Visyond will track  who added each assumption.
       - text: >-
-          Share only specific worksheets, reports and dashboards with specific
-          people for better control over information flow and data privacy
+          Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
     descr: >-
-      **Track changes and collaborate across multiple departments and
-      workstreams in a single secure environment** connecting decision makers,
-      analysts, modelers, consultants, clients and prospects.
-    files:
-      - alt: >-
-          Collaborate without overwriting in Visyond
-        descr: >-
-          Unlike other spreadsheets, multiple assumptions can coexist in a cell
-          as opposed to last value overwriting the existing one. Nobody,
-          including the project owner, can modify data entered by others.
-          Multiple collaborators can work on the same project, and Visyond will
-          track and report who added assumptions, when and why.
-        file: /img/2019-02 Cases Panel and Dropdown.png
-        title: Streamline Data Gathering from Experts 
-      - alt: >-
-          Know What Is Happening in Your Projects in Visyond
-        descr: >-
-          All changes are documented, giving you a full audit trail - so you are
-          aware of all modifications made to the spreadsheet.
-        file: /img/2019-02 Overview Panel.png
-        title: Know What Is Happening in Your Projects
-      - alt: >-
-          Create and Manage Scenarios in Visyond
-        descr: >-
-          Switching between scenarios automatically updates all linked cells,
-          charts and presentations without compromising integrity of data.
-        file: /img/2019-02 Scenario Management Panel.png
-        title: Switch between different scenarios          
+      Track changes and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting decision makers, analysts, modelers, consultants, and clients.   
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
-    subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
-    title: Track What Is Happening in Your Projects
+    subtitle: "Data governance and tracking.\r\n<br>\nCollaboration without version chaos.\r"
+    title: Track What Is Happening in Your Spreadsheets
   - benefitsList:
       - text: >-
-          Add supporting documents, attachments and comments directly inside the
-          relevant cells so you can easily retrieve them and know who provided
-          them
+          Add attachments and comments in the relevant cells for easy access.
       - text: >-
-          Automatically document the model as you and your collaborators work on
-          it
+          Automatically document the spreadsheet as you and your collaborators work on it.
     descr: >-
-      **Establish a single place to store all your spreadsheet data** - changes,
-      assumptions, documents and conversations - in the same environment where
-      you carry out calculations, analyses and visualizations.
-    files:      
-      - alt: >-
-          Organize Assumptions, Documents and Conversations In Cells in Visyond
-        descr: >-
-          Visyond will document the model automatically as you and your
-          collaborators work on it. You do not need to save support documents on
-          different platforms or try to remember where something is or who
-          provided certain assumptions.
-        file: /img/2019-02 Comments in Cells.png
-        title: Organize Assumptions, Documents and Conversations In Cells
-    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4        
+      Establish a single place to store your spreadsheet data — changes, scenarios, attachments and comments — in the same environment where you do calculations, create analyses and visualizations.
+    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.jpg
-    subtitle: "Single source of truth and knowledge management.\r\n<br>\nModel documentation at your fingertips.\r\n<br>\nData sharing without external tools.\r"
-    title: 'Organize Assumptions, Documents and Conversations In Cells'
+    subtitle: "Knowledge management.\r\n<br>\nData sharing without external tools.\r"
+    title: Keep Important Information at Your Fingertips
   - benefitsList:
       - text: >-
-          Automate Balance Sheets, Income Statements and Cash Flow statements -
-          just select the drivers and depreciation parameters and Visyond will
-          do the rest
+          Automate Balance Sheets, Income Statements and Cash Flow statements.
       - text: >-
-          Visyond will automatically calculate growth and changes against
-          previous periods, financial and management ratios 
+          Customize reports according to your accounting standards.
       - text: >-
-          The statements will remain up-to-date when you change the numbers in
-          the spreadsheet or the settings
+          Visyond will automatically calculate financial and management ratios.
       - text: >-
-          Find out if your operations require additional funding in any specific
-          period of the forecast
+          The statements will remain up-to-date when you change the numbers in the spreadsheet.
+      - text: >-
+          If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
     descr: >-
-      **Generate always up-to-date, forward-looking financial statements,**
-      driven by the spreadsheet, and automate the preparation of reports based
-      on your settings and accounting standards.
-    files:
-      - alt: >-
-          Generate Financial Statements Linked To Your Model
-        descr: >-
-          Visyond creates forward looking predictive financial statements,
-          driven by assumptions in your spreadsheet. The statements can adapt to
-          any reporting/accounting standard and automate the preparation of
-          reports based on your settings.
-        file: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model
+      Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
     infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
     infoVideoPoster: >-
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg
     subtitle: Reports automation.
-    title: Auto-generate Financial Statements Driven by Your Model
-getHexStartedTitle: Flexible. Familiar. Scalable.
-getHexStartedButton: Request Demo
-getHexStartedButtonURL: /request
-BenefitsHeader: Benefits
-cards:
-  - description: 'Always know who contributed what, when and why'
-    header: Full Transparency and Data Governance
-    icon: /img/audit-mode@2x.png
-    link: /solutions/data-tracking-software/
-  - description: Manage access and share projects fully or partially
-    header: Secure Collaborative Environment
-    icon: /img/selective-sharing@2x.png
-    link: /solutions/spreadsheet-collaboration-software/
-  - description: Automate routine analytical tasks and their setup without experts
-    header: Data Analysis in <br> Minutes
-    icon: /img/scenarios@2x.png
-    link: /solutions/data-analysis-software/
-  - description: Quickly get insights from your data through interactive presentations
-    header: Testing Assumptions in Real Time
-    icon: /img/interactive presentations@2x.png
-    link: /solutions/automate-excel-reports-and-presentation/
-  - description: Have a single source of truth for your data & documentation
-    header: Streamlined Communications
-    icon: /img/knowledge-base@2x.png
-    link: /solutions/spreadsheet-collaboration-software/
-  - description: Easily generate financial statements and KPI reports
-    header: Automated Financial Statements
-    icon: /img/financial-statement@2x.png
-    link: /features/interactive-presentation-software/
-  - description: Start getting value immediately by importing your Excel file
-    header: Familiar Excel-Compatible Experience
-    icon: /img/import-export@2x.png
-    link: /features/compatibility-with-excel-and-powerpoint/
-  - description: 'Access at any time, from any place, using any device'
-    header: Cloud-based Global Accessibility
-    icon: /img/data_input_3x.png
-  - description: Audit spreadsheets and explore your models
-    header: Reduction of Errors
-    icon: /img/analyst_and_consultant_3x.png
-    link: /solutions/financial-modeling-software/
-providesTitle: Visyond For Remote Work
+    title: Automate Pro-Forma Financial Statements
+DemoStripTitle: Flexible. Familiar. Scalable.
+DemoStripTitleButton: Watch Demo
+DemoStripTitleLink: /demo
+providesTitle: Get Started Today
 providesList:
   - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
+      Cloud or on-premise platform and Excel add-in
+  - text: Easy to use, no complicated menus to learn
+  - text: Get started in minutes
 ---
-

@@ -616,71 +616,68 @@ collections: # A list of collections the CMS should be able to edit
         name: "homeName"
         file: "site/content/_index.md"
         fields:
-          - {label: "Page url", name: "url", widget: string}
-          - {label: "Meta tags", name: "metaTags", widget: "markdown"}
-          - {label: "Title", name: "title", widget: "string", required: true}
-          - {label: "Top title", name: "heroTitle", widget: "markdown", required: true}
-          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
-          - {label: "Main features list", name: "mainFeatures", widget: "list",
-            fields: [
-              {label: "Feature", name: "feature", widget: "string", required: false,},
-            ],
-            required: false,
-            }
-          - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
-          - {label: "Hero laptop video", name: "homepageAnimation", widget: "string", required: false,}
-          - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
-          - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
-          - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
-          - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
-          - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "string", required: true}
-          - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
-          - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
-          - { label: "Other features", name: "otherFeatures", widget: "list",
-            fields: [
-              {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
-              {label: "Feature", name: "feature", widget: "markdown", required: false,},
-            ],
-            required: false,
-            }
-          - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
-          - {label: "Gartner link", name: "gartnerLink", widget: "string", required: true}
+          - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
+          - {label: "Page Title", name: "title", widget: "string", required: true}
+          - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
+          - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
           - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
           - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
           - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
           - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
-          - { label: "Functions list", name: "functionList", widget: "list",
+          - {label: "Functions list", name: "functionList", widget: "list",
             fields: [
               {label: "image", name: "image", widget: "image", required: false,},
               {label: "text", name: "text", widget: "string", required: false,},
             ],
             required: false,
             }
-          - { label: "Cases list", name: "caseList", widget: "list",
+          - {label: "Cases list", name: "caseList", widget: "list",
             fields: [
               {label: "image", name: "image", widget: "image", required: false,},
               {label: "text", name: "text", widget: "string", required: false,},
             ],
             required: false,
             }
-          - { label: "Industries list", name: "industryList", widget: "list",
+          - {label: "Industries list", name: "industryList", widget: "list",
             fields: [
               {label: "image", name: "image", widget: "image", required: false,},
               {label: "text", name: "text", widget: "string", required: false,},
             ],
             required: false,
-            }
-          - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
-          - {label: "Why Visyond text", name: "WhyVisyondText", widget: "markdown", required: true}
-          - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
-          - { label: "Visyond solves, list", name: "solvesList", widget: "list",
+            } 
+          - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
+          - {label: "Steps block", name: "StepsBlock", widget: "list",
             fields: [
-              {label: "image", name: "image", widget: "image", required: false,},
-              {label: "text", name: "text", widget: "string", required: false,},
+              {label: "Steps Title", name: "title", widget: "string"},
+              {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
+              {label: "Steps Description", name: "descr", widget: "markdown"},
+              {label: "Steps list 1", name: "benefitsList", widget: list, fields: [
+                {label: "Benefit item", name: "text", widget: "markdown"},
+              ]},
+              {label: "Benefits list 2", name: "benefitsList2", widget: list, fields: [
+                {label: "Benefit item", name: "text", widget: "markdown"},
+              ]},        
+              {label: "Info Image", name: "image", widget: image},
+              {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+              {label: "Info Link", name: "link", widget: "string"},
+              {label: "Youtube Link", name: "linkYoutube", widget: "string"},
             ],
             required: false,
             }
-          - {label: "EnterV section title", name: "FeaturesHeader", widget: "string", required: true}
+          - {label: "Addin/Cloud Title", name: "AddinCloudHeader", widget: "markdown", required: false}   
+          - {label: "Addin/Cloud Summary", name: summary, widget: list,
+            fields: [
+              {label: Title ('Excel Add-in' = green button - template condition), name: "title", widget: string},
+              {label: "Image", name: "image", widget: image},
+              {label: Text, name: "content", widget: "markdown"},
+              {label: Excel/Cloud Button Text, name: "buttonText", widget: string},
+              {label: Excel/Cloud Button Link, name: "buttonLink", widget: string}
+            ],
+            required: false,
+            }
+          - {label: "GetHexStarted Title", name: "DemoStripTitle", widget: "string", required: true}
+          - {label: "GetHexStarted Button", name: "DemoStripTitleButton", widget: "string", required: true}
+          - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
             fields: [
               {label: "Info Title", name: "title", widget: "string"},
@@ -691,38 +688,131 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Benefits list", name: "benefitsList", widget: list, fields: [
                 {label: "Benefit item", name: "text", widget: "string"},
               ]},
-              {label: "Popup Files", name: "files", widget: list, fields: [
-                {label: "File", name: "file", widget: "file"},
-                {label: "Alt text", name: alt, widget: string},
-                {label: "Popup Link", name: "link", widget: string, default: "#"},
-                {label: "Title", name: "title", widget: "string"},
-                {label: "Description", name: "descr", widget: "text"},
-              ]},
               {label: "Info Image", name: "image", widget: image},
               {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
               {label: "Info Link", name: "link", widget: "string"},
               {label: "Youtube Link", name: "linkYoutube", widget: "string"},
             ],
             required: false,
-            }
-          - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
-          - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
-          - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
-          - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
-          - {label: Benefits cards, name: cards, widget: list,
-            fields: [
-              {label: Card Icon, name: icon, widget: image},
-              {label: Card Title, name: header, widget: string},
-              {label: Card Text, name: description, widget: text},
-              {label: Card Link, name: link, widget: string}
-            ],
-            required: false,
-            }
-          - {label: "Provides Title", name: "providesTitle", widget: "string"}
-          - {label: "Provides List", name: "providesList", widget: "list", fields: [
-            {label: "Provides Item", name: "text", widget: "markdown"},
-            ],}
+            }          
+          - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
 
+
+#  - name: "home" --- HOMEPAGE 2020
+#    label: "Home Page"
+#    #folder: "site/content/_index.md"
+#    create: true
+#    files:
+#      - label: "Home page CURRENT"
+#        name: "homeName"
+#        file: "site/content/_index.md"
+#        fields:
+#          - {label: "Page url", name: "url", widget: string}
+#          - {label: "Meta tags", name: "metaTags", widget: "markdown"}
+#          - {label: "Title", name: "title", widget: "string", required: true}
+#          - {label: "Top title", name: "heroTitle", widget: "markdown", required: true}
+#          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
+#          - {label: "Main features list", name: "mainFeatures", widget: "list",
+#            fields: [
+#              {label: "Feature", name: "feature", widget: "string", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
+#          - {label: "Hero laptop video", name: "homepageAnimation", widget: "string", required: false,}
+#          - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
+#          - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
+#          - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
+#          - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
+#          - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "string", required: true}
+#          - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
+#          - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
+#          - { label: "Other features", name: "otherFeatures", widget: "list",
+#            fields: [
+#              {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
+#              {label: "Feature", name: "feature", widget: "markdown", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
+#          - {label: "Gartner link", name: "gartnerLink", widget: "string", required: true}
+#          - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
+#          - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
+#          - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
+#          - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
+#          - { label: "Functions list", name: "functionList", widget: "list",
+#            fields: [
+#              {label: "image", name: "image", widget: "image", required: false,},
+#              {label: "text", name: "text", widget: "string", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - { label: "Cases list", name: "caseList", widget: "list",
+#            fields: [
+#              {label: "image", name: "image", widget: "image", required: false,},
+#              {label: "text", name: "text", widget: "string", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - { label: "Industries list", name: "industryList", widget: "list",
+#            fields: [
+#              {label: "image", name: "image", widget: "image", required: false,},
+#              {label: "text", name: "text", widget: "string", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
+#          - {label: "Why Visyond text", name: "WhyVisyondText", widget: "markdown", required: true}
+#          - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
+#          - { label: "Visyond solves, list", name: "solvesList", widget: "list",
+#            fields: [
+#              {label: "image", name: "image", widget: "image", required: false,},
+#              {label: "text", name: "text", widget: "string", required: false,},
+#            ],
+#            required: false,
+#            }
+#          - {label: "EnterV section title", name: "FeaturesHeader", widget: "string", required: true}
+#          - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+#            fields: [
+#              {label: "Info Title", name: "title", widget: "string"},
+#              {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
+#              {label: "Info Video", name: "infoVideo", widget: "string"},
+#              {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
+#              {label: "Info Description", name: "descr", widget: "markdown"},
+#              {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+#                {label: "Benefit item", name: "text", widget: "string"},
+#              ]},
+#              {label: "Popup Files", name: "files", widget: list, fields: [
+#                {label: "File", name: "file", widget: "file"},
+#                {label: "Alt text", name: alt, widget: string},
+#                {label: "Popup Link", name: "link", widget: string, default: "#"},
+#                {label: "Title", name: "title", widget: "string"},
+#                {label: "Description", name: "descr", widget: "text"},
+#              ]},
+#              {label: "Info Image", name: "image", widget: image},
+#              {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+#              {label: "Info Link", name: "link", widget: "string"},
+#              {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+#            ],
+#            required: false,
+#            }
+#          - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
+#          - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
+#          - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
+#          - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
+#          - {label: Benefits cards, name: cards, widget: list,
+#            fields: [
+#              {label: Card Icon, name: icon, widget: image},
+#              {label: Card Title, name: header, widget: string},
+#              {label: Card Text, name: description, widget: text},
+#              {label: Card Link, name: link, widget: string}
+#            ],
+#            required: false,
+#            }
+#          - {label: "Provides Title", name: "providesTitle", widget: "string"}
+#          - {label: "Provides List", name: "providesList", widget: "list", fields: [
+#            {label: "Provides Item", name: "text", widget: "markdown"},
+#            ],}            
 
 
   - name: "products"
