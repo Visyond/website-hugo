@@ -92,7 +92,7 @@ summary:
     buttonText: Get Add-in
     buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
   - content: >-
-      Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role-based access control. 
+      Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role- and object-based access control. 
     title: Cloud Platform
     image: /img/product-tour/cloudPlatformIcon.png
     buttonText: Free Sign Up
@@ -155,8 +155,8 @@ infoBlockFirst:
     infoVideoPoster: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.jpg
-    subtitle: "Secure data sharing.\r\n<br>\nRole-based access control.\r"
-    title: Control Who Sees Specific Worksheets and Dashboards
+    subtitle: "Secure data sharing.\r\n<br>\nRole and object-based access control.\r"
+    title: Assign Roles and Control Who Sees Specific Worksheets and Dashboards
   - benefitsList:
       - text: >-
           Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
