@@ -39,8 +39,8 @@
 			  
 				<div class="home-hero__half-width-wrap" style="width: 100%;">
 					<div class="home-hero__buttons-section">
-						<a href="#request" class="button button-primary button-asterisk">
-							Request Demo
+						<a href="/accounts/signup/" class="button button-primary button-asterisk">
+							Free Sign Up
 						</a>		      
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 	<section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
 		<div class="container">
 			<h2 class="getHexStarted__title">Flexible. Familiar. Scalable.</h2>
-			<a href="#request" class="button button-contrast">Request Demo</a>
+			<a href="/demo" class="button button-contrast">Watch Demo</a>
 		</div>
 	</section>
 	<!-- END: GET STARTED SECTION -->
@@ -132,13 +132,12 @@
 	</section>
 	<!-- END: ENTER V SECTION -->
 
-	<!-- REQUEST DEMO FORM -->
+	<!-- REQUEST DEMO FORM 
 	<section class="whyV">
 		<div class="container">
 			<div class="whyV__row">
 				<h2 class="enterV__headline" id="request">Request Demo</h2>
 				<div class="header-section--divider"></div>
-				<!-- Hubspot Form - Request Short -->
 				<div class="marketing-form-wrapper">
 					<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 					<script>
@@ -148,16 +147,16 @@
 					});
 					</script>
 				</div>	
-				<!-- END: Hubspot Form - Request Short -->
 			</div>
 		</div>  
 	</section>
-	<!-- END: REQUEST DEMO FORM -->
+	 END: REQUEST DEMO FORM -->
 
 	<section class="homeFeatured" style="background-image: url('/img/home/visForBg.svg'), url('/img/home/blueRectangle.svg');">
 		{{ partial "hexCaseStudies" . }}
 	</section>
 	
+	{{ partial "hexStartedIn" . }}
 </div>
 
 
