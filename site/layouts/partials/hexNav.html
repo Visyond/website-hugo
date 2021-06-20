@@ -3,61 +3,56 @@
 
 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
-        <a href="#solutions-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
-        <span>Solutions</span>
-        </a>
-        {{ with .Site.GetPage "section" "nav" }}
-        <div class="dropdown-menu-wrap">
-            <div
-                    class="dropdown-toggle dropdown-toggle--multicol"
-                    id="solutions-toggle"
-            >
-                <div class="dropdown__info">
-                    <h3 class="dropdown__info-title">
-                        {{ .Params.solutionsInfoTitle }}
-                    </h3>
-                    <div class="dropdown__info-descr">
-                        {{ .Params.solutionsInfoDescr }}
+            <a href="#solutions-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
+                <span>Solutions</span>
+            </a>
+            {{ with .Site.GetPage "section" "nav" }}
+            <div class="dropdown-menu-wrap">
+                <div class="dropdown-toggle dropdown-toggle--multicol" id="solutions-toggle">
+                    <div class="dropdown__info">
+                        <h3 class="dropdown__info-title">
+                            {{ .Params.solutionsInfoTitle }}
+                        </h3>
+                        <div class="dropdown__info-descr">
+                            {{ .Params.solutionsInfoDescr }}
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        {{ partial "solutions-section" . }}
                     </div>
                 </div>
-                <div class="dropdown">
-                    {{ partial "solutions-section" . }}
-                </div>
-            </div>
             {{end}}
-        </div>
-
+            </div>
         </li>
+
+        <!-- FEATURES LINK 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
-        <a href="#features-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
-        <span>Features</span>
-        </a>
-        {{ with .Site.GetPage "section" "nav" }}
-        <div class="dropdown-menu-wrap">
-            <div
-                    class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} hexNav--homepage-header-dropdown-toggle {{end}}"
-            id="features-toggle"
-            >
+            <a href="#features-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
+                <span>Features</span>
+            </a>
+            {{ with .Site.GetPage "section" "nav" }}
+            <div class="dropdown-menu-wrap">
+                <div class="dropdown-toggle dropdown-toggle--multicol {{ if eq .Title "Homepage Some"}} hexNav--homepage-header-dropdown-toggle {{end}}" id="features-toggle">
 
-            <div class="dropdown__info">
-                <h3 class="dropdown__info-title">
-                    {{ .Params.featuresInfoTitle }}
-                </h3>
+                    <div class="dropdown__info">
+                        <h3 class="dropdown__info-title">
+                            {{ .Params.featuresInfoTitle }}
+                        </h3>
 
-                <div class="dropdown__info-descr">
-                    {{ .Params.featuresInfoDescr }}
+                        <div class="dropdown__info-descr">
+                            {{ .Params.featuresInfoDescr }}
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        {{ partial "features-section" . }}
+                    </div>
                 </div>
+            {{end}}
             </div>
-
-            <div class="dropdown">
-                {{ partial "features-section" . }}
-            </div>
-
-        </div>
-        {{end}}
-        </div>
-
         </li>
+         END: FEATURES LINK -->
+
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
         <a href="/services" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}"><span>Services</span></a>
         </li>
