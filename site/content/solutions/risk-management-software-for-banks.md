@@ -19,10 +19,7 @@ infoBlockFirst:
       - text: Visualize the impact of important cells
       - text: Answer ‘what-if’ questions and compare scenarios
       - text: Visualize the drivers that change between scenarios
-      - text: 'Manage risk, run simulations and create forecasts '
-      - text: >-
-          Slice and dice your data with customizable Pivots without additional
-          data preparation
+      - text: 'Manage risk, run simulations and create forecasts'
       - text: >-
           Share the results of your analysis with stakeholders via interactive
           dashboards, shielding them from sensitive or unnecessary information
@@ -66,15 +63,6 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         link: ''
         title: Manage Risk with Monte Carlo Simulations
-      - alt: >-
-          View Data From Different Angles with OLAP/Cube/Pivot Analysis in
-          Visyond
-        descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"

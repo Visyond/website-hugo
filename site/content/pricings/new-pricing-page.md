@@ -50,7 +50,7 @@ pricingCards:
         - title: Analyze Module
           tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n"
       img: /img/pricing/STANDARD.png
       limitslist:
         - title: 5 projects
@@ -83,7 +83,7 @@ pricingCards:
         - title: Analyze Module
           tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n"
           url: ''
       img: /img/pricing/PRO.png
       limitslist:
@@ -126,7 +126,7 @@ pricingCards:
         - title: Analyze Module
           tooltip: "Analyze Module includes:\r\n\r\n* Scenario Analysis\r\n* Scenario Waterfall\r\n* Sensitivity Analysis\r\n* Tornado Analysis\r\n* Monte Carlo Simulations"
         - title: Report Module
-          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n* Pivots"
+          tooltip: "Report Module includes:\r\n\r\n* Interactive Dashboards\r\n* Financial Statements\r\n"
         - title: Selective Sharing
           tooltip: Share only specific worksheets and reports with specific people.
           url: /features/share-spreadsheets-and-presentations-online/

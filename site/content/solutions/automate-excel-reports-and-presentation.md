@@ -14,9 +14,6 @@ infoBlockFirst:
       - text: Visualize the drivers that change between scenarios
       - text: 'Manage risk, run simulations and create forecasts '
       - text: >-
-          Slice and dice your data with customizable Pivots without additional
-          data preparation
-      - text: >-
           Share the results of your analysis with stakeholders via interactive
           dashboards, shielding them from sensitive or unnecessary information
     descr: "**Automate and carry out, in minutes, analyses that skilled professionals prepare in hours or days,** without accidentally changing your collaborators’ work or transferring data among multiple tools.\r<br><br>**Empower collaborators to contribute their own analyses in self-service mode,** without long manual setups and in the same environment where you carry out calculations and create visualizations."
@@ -59,15 +56,6 @@ infoBlockFirst:
         file: /img/2019-02 Simulation Monte Carlo.png
         link: ''
         title: Manage Risk with Monte Carlo Simulations
-      - alt: >-
-          View Data From Different Angles with OLAP/Cube/Pivot Analysis in
-          Visyond
-        descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"

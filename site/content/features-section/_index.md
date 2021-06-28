@@ -39,13 +39,6 @@ feaDropdownCol:
         image: /img/simulations@2x.png
         path: /features/monte-carlo-simulation-software/
         title: Simulations
-      - descr: >-
-          Find actionable insights and improve descriptive analytics with
-          OLAP/Cube/Pivot Analysis that is synchronized with your spreadsheets
-          in real time.
-        image: /img/spreadsheet_collaboration_3x.png
-        path: /features/multidimensional-olap-analysis-online/
-        title: OLAP/Cube/Pivot
     title: Analysis
   - features_dropdown:
       - descr: >-

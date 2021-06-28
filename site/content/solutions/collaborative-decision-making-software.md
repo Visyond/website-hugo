@@ -65,12 +65,6 @@ infoBlockFirst:
           fly, during meetings or presentations without depending on experts.
         file: /img/2019-02 Scenario Analysis.png
         title: Answer ‘What-if’ questions anywhere in real time
-      - descr: >
-          Visyond’s self-service OLAP analysis is connected directly to your
-          spreadsheet models without additional data preparation, processing and
-          migrations.
-        file: /img/2019-05 Pivot Model Filter.png
-        title: View Data From Different Angles
       - descr: >-
           Unlike other spreadsheets, multiple assumptions can coexist in a cell
           as opposed to last value overwriting the existing one. Nobody,

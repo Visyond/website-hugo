@@ -76,8 +76,8 @@ textArea3: >-
   without experts or moving data across tools.**
 
 
-  <br /> **Risk of errors is reduced** with on-the-fly ‘What-If’ analysis,
-  Financial Statements, KPIs, Pivot Tables and Cubes.
+  <br /> **Risk of errors is reduced** with automated ‘What-If’ analysis,
+  and Financial Statements.
 sectionTwoHeader: Benefits
 cards:
   - description: 'Always know who contributed what, when and why'
