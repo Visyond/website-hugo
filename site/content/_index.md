@@ -24,7 +24,7 @@ infoBlockFirst:
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     title: Get Insights with Interactive Dashboards
-- benefitsList:
+  - benefitsList:
       - text: >-
           Answer ‘what-if’ questions with Scenario Analysis.
       - text: >-
