@@ -1625,6 +1625,15 @@ padding-left: 10px;
     }
 }
 
+@media  all and (-ms-high-contrast: none) and (max-width:975px) {
+
+.infoA__img-wrap .scroll_toggle { 
+    min-height: auto;
+
+}
+}
+
+
 @media  all and (-ms-high-contrast: none) and (max-width:767px)  and (min-width:320px),
         (-ms-high-contrast: active) and (min-width:320px)   and (max-width:767px) {
     min-height: auto !important;
