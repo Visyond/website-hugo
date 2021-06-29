@@ -1624,7 +1624,7 @@ padding-left: 10px;
 @media screen and (min-width: 576px) {
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         .infoA__img-wrap .scroll_toggle {
-            height: 31em !important;
+            min-height: auto !important;
         }
     }
 }
