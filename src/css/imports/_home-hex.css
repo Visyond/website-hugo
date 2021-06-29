@@ -1595,9 +1595,11 @@ padding-left: 10px;
 
 /*------------IE11 FIXES ---------------*/   
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /*
     .wrapper, body, html {
         display: block;
     }
+    */
     .enterSections {
         display: block;
     }
