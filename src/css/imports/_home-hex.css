@@ -1610,7 +1610,7 @@ padding-left: 10px;
         overflow: hidden !important;
         margin-bottom: 8em !important;
     }
-    .infoA__img-wrap { /* .scroll_toggle */
+    .infoA__img-wrap .scroll_toggle { 
         width: 100% !important;
         min-height: 36.4em;
     }
@@ -1619,7 +1619,7 @@ padding-left: 10px;
  @media  all and (-ms-high-contrast: none) and (max-width:2500px)  and (min-width:992px),
         (-ms-high-contrast: active) and (min-width:992px)   and (max-width:2500px) {
      
-    .infoA__img-wrap { /* .scroll_toggle */
+    .infoA__img-wrap .scroll_toggle { 
             min-height: 30em; /* 31em */
         
     }
