@@ -1593,12 +1593,12 @@ padding-left: 10px;
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .enterSectionsA__block::after {
-        content: '';
-        display: table;
-        clear: both;
+        content: '' !important;
+        display: table !important;
+        clear: both !important;
     }
      .infoA__img-wrap {
-        overflow: hidden;
-        margin-bottom: 8em;
+        overflow: hidden !important;
+        margin-bottom: 8em !important;
      }
 }
