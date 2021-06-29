@@ -54,7 +54,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/40qmYTqeyKA'
         demoDescription: >-
           Visyond wins the Out of Excel award at the [Financial Modelling Innovation Awards 2020](/financial-modelling-innovation-awards-2020)!
-    demoSectionTitle: Awards  
+    demoSectionTitle: Interviews and Awards  
 FAQHeader: Frequently Asked Questions
 FAQText: >-
   Find answers to common questions about Visyond

@@ -37,7 +37,7 @@ infoBlockFirst:
       Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Save Time on Forecasting, Budgeting and Scenario Planning'
+    title: 'Save Time on Forecasting, Budgeting and Planning'
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
