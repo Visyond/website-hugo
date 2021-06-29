@@ -1592,6 +1592,9 @@ padding-left: 10px;
 /*------------END: Product tour ---------------*/      
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .enterSections {
+        display: block;
+    }
     .enterSectionsA__block::after {
         content: '' !important;
         display: table !important;
@@ -1600,5 +1603,9 @@ padding-left: 10px;
      .infoA__img-wrap {
         overflow: hidden !important;
         margin-bottom: 8em !important;
+     }
+     .infoA__img-wrap .scroll_toggle {
+        width: 100% !important;
+        min-height: 36.4em;
      }
 }
