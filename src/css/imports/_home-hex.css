@@ -1590,3 +1590,15 @@ padding-left: 10px;
   /* ADDIN/WEB CARDS TEXT */
 
 /*------------END: Product tour ---------------*/      
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .enterSectionsA__block::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+     .infoA__img-wrap {
+        overflow: hidden;
+        margin-bottom: 8em;
+     }
+}
