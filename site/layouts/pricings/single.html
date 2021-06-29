@@ -46,7 +46,7 @@
     <div class="container-pricing">
         {{ with .Params.pricingCards }}
 
-        <h2 class="header-section" style="color: #50546d; font-weight: 600;">{{ .title | markdownify }}</h2>
+        <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
 	    
 	<div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
     		Consultants, Teams, Enterprise? <a href="#contactUs" style="color: #0086ff;">Contact us</a>!
@@ -222,7 +222,7 @@
 <!-- Contact us if you need NEW -->
 {{ with .Params.contact }}	
 <section id="contactUs" class="section primary center-align" style="background: #fafafa;">	
-  <h2 class="header-section" style="font-weight: 600;">{{ .title }}</h2>
+  <h2 class="enterV__headline">{{ .title }}</h2>
   	
 	
     <div class="ftr-features__cards" style="margin-top: 45px;">
@@ -254,7 +254,7 @@
     -->
            	
     <div class="container">
-      <h2 class="header-section" style="font-weight: 600;">Talk To Us</h2>
+      <h2 class="enterV__headline">Talk To Us</h2>
       <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
 	<input type="hidden" id="referrer" name="Referrer" value="" />      
