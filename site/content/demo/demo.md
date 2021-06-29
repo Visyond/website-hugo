@@ -60,6 +60,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/sO-iMxNoC1g'
         demoDescription: >-
           Visyond founder Gianluca Bisceglie explains the challenges the Visyond platform solves and gives a live demo.
+    demoSectionTitle: Interviews and Awards         
 FAQHeader: Frequently Asked Questions
 FAQText: >-
   Find answers to common questions about Visyond

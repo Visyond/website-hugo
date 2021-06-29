@@ -6,7 +6,8 @@
         <div class="container">
             <div class="whyV__row">
                 <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <h2 class="whyV__headline" style="font-weight: 300; color: #50546d; font-size: 2.75em; margin-bottom: 1.2em; font-weight: 600;">Get Started with a Free Trial</h2>
+                    <h2 class="whyV__headline" style="margin-bottom: 1.2em;">Get Started with a Free Trial</h2>
+                    <div class="header-section--divider"></div>
                 </div>
 
                 <!--
@@ -47,10 +48,13 @@
         {{ with .Params.pricingCards }}
 
         <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
+        
 	    
 	<div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
     		Consultants, Teams, Enterprise? <a href="#contactUs" style="color: #0086ff;">Contact us</a>!
-	</div>    
+	</div>
+  
+  <div class="header-section--divider"></div>
 
         <div class="card__list">
             {{ range .cards }}
@@ -223,6 +227,7 @@
 {{ with .Params.contact }}	
 <section id="contactUs" class="section primary center-align" style="background: #fafafa;">	
   <h2 class="enterV__headline">{{ .title }}</h2>
+  <div class="header-section--divider"></div>
   	
 	
     <div class="ftr-features__cards" style="margin-top: 45px;">
@@ -252,9 +257,12 @@
     </div>
     {{ end }}
     -->
-           	
+   
+    {{ partial "hexSlider" . }}
+
     <div class="container">
       <h2 class="enterV__headline">Talk To Us</h2>
+      <div class="header-section--divider"></div>
       <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
 	<input type="hidden" id="referrer" name="Referrer" value="" />      
@@ -279,9 +287,10 @@
 	
 <!-- //Contact us if you need NEW -->	
 
-{{ partial "hexSlider" . }}
 
-{{ partial "why-visyond-cards" . }}
+
+<!-- {{ partial "why-visyond-cards" . }} -->
+
 
 <script>
 window.addEventListener('load', (event) => {
