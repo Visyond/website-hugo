@@ -1612,6 +1612,11 @@ padding-left: 10px;
         overflow: hidden !important;
         margin-bottom: 8em !important;
     }
+    .infoA__img-wrap:after {
+        content: '';
+        display: block;
+        padding-top: 70%;
+    }
     .infoA__img-wrap .scroll_toggle { 
         width: 100% !important;
         height: 101%;
