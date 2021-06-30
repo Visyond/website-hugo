@@ -47,7 +47,7 @@ infoBlockFirst:
       - text: >-
           Extend your collaborators’ analyses without anyone losing or corrupting data.
     descr: >-
-      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses, in a platform that connects spreadsheets, analyses and dashboards in a single place.
+      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
@@ -93,7 +93,7 @@ infoBlockFirst:
       - text: >-
           Automatically document the spreadsheet as you and your collaborators work on it.
     descr: >-
-      Establish a single place to store your spreadsheet data — changes, scenarios, and comments — in the same environment where you do calculations, create analyses and visualizations.
+      Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
     infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
     infoVideoPoster: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
