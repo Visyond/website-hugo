@@ -18,12 +18,12 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
         demoDescription: >-
           Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
-      - demoSectionSubTitle: Scenarios and Collaboration
+      - demoSectionSubTitle: Collaborative Scenario Planning for Budgeting & Forecasting
         demoSectionImage: /img/demo/Scenarios and Collaboration Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
         demoDescription: >-
           Manage and collaborate on assumptions, create and analyze scenarios on-the-fly. 
-      - demoSectionSubTitle: Auto-analysis
+      - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
         demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
         demoDescription: >-
