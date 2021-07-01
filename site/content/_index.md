@@ -127,7 +127,7 @@ StepsBlock:
           You don’t need consultants, IT experts, or lengthy installations to start using the platform.
       - text: >-
            Use your Excel skills and improve your performance without having to learn new menus and workflow.
-    image: /img/product-tour/step1.png
+    image: /img/home/step1.png
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
@@ -137,7 +137,7 @@ StepsBlock:
           You don’t need to move data across many tools: Visyond’s analyses are integrated with the spreadsheets and dashboards.
       - text: >-
           Both Excel experts and novices will get things done quickly.
-    image: /img/product-tour/step2.png  
+    image: /img/home/step2.png  
     title: 'Analyze with a Few Clicks'
     titlePrefix: '2'   
   - descr: >-
@@ -147,7 +147,7 @@ StepsBlock:
           Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
       - text: >-
           Once created - always updated: Visyond’s dashboards require minimal to no maintenance.       
-    image: /img/product-tour/step4.png
+    image: /img/home/step4.png
     title: 'Share Insights via Dashboards'
     titlePrefix: '3'   
 visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
@@ -194,13 +194,13 @@ summary:
   - content: >-
       Get the Excel add-in if you want to use macros, other add-ins and cutting-edge Excel features, or to work with very large spreadsheets.
     title: Excel Add-in
-    image: /img/product-tour/excelAddinIcon.png
+    image: /img/home/excelAddinIcon.png
     buttonText: Get Add-in
     buttonLink: https://appsource.microsoft.com/en-us/product/office/WA200002940
   - content: >-
       Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role- and object-based access control. 
     title: Cloud Platform
-    image: /img/product-tour/cloudPlatformIcon.png
+    image: /img/home/cloudPlatformIcon.png
     buttonText: Free Sign Up
     buttonLink: /accounts/signup/
 DemoStripTitle: Flexible. Familiar. Scalable.
