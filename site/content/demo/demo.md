@@ -13,6 +13,11 @@ coverHeader: Watch Demos
 coverDescription: Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform
 demoSection:
   - demoSectionContent:
+      - demoSectionSubTitle: Interactive Dashboards
+        demoSectionImage: /img/demo/Interactive Dashboards Demo Video Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
+        demoDescription: >-
+          Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
       - demoSectionSubTitle: Scenarios and Collaboration
         demoSectionImage: /img/demo/Scenarios and Collaboration Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/uufPL_qXvaI'
@@ -22,12 +27,7 @@ demoSection:
         demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
         demoDescription: >-
-           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
-      - demoSectionSubTitle: Interactive Dashboards
-        demoSectionImage: /img/demo/Interactive Dashboards Demo Video Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/xCJT4vkskq8'
-        demoDescription: >-
-          Present your analyses with interactive dashboards, and securely share spreadsheet-driven calculators to test scenarios.    
+           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.  
     demoSectionTitle: Solutions
   - demoSectionContent:
       - demoSectionSubTitle: From a Spreadsheet to an Interactive Forecast on a Dashboard
