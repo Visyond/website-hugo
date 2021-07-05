@@ -1,53 +1,38 @@
 {{ partial "hexHeader" . }}
 
-<!-- How pricing works -->
+<!-- TOP SECTION -->
 <div class="homehex ht">
-<section class="home-hero" style="padding: 60px 0px 60px 0px;">
-        <div class="container">
-            <div class="whyV__row">
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <h2 class="whyV__headline" style="margin-bottom: 1.2em;">Get Started with a Free Trial</h2>
-                    <div class="header-section--divider"></div>
-                </div>
-
-                <!--
-                <div class="whyV__half-width-wrap whyV__image-wrap" style="width: 100%;">
-                    <div>
-                        <img src="/img/Pricing infographic Visyond modules features.png">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                -->
-
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <div class="whyV__text" style="font-size: 1.4em;width: 100%;"><span style="color: #383e4d; font-weight: 400;">
-			    	Try Visyond <span style="font-weight: 600;"> during a 14-day free trial.</span> No credit card required.
-
-				<br><br>
-				After the trial, <span style="font-weight: 600;">select the plan that you need,</span> or use the free version. 
- 				
-				<br><br>  
-			   	 
-			</div>
-		
-                    <div>
-                        <a href="/accounts/signup/" class="button button-primary">Try Visyond</a>
-                    </div>
-                </div>
-            </div>
+  <section class="home-hero" style="padding: 60px 0px 60px 0px;">
+    <div class="container">
+      <div class="whyV__row">
+        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+          <h2 class="home-hero__title">{{ .Params.topTitle }}</h2>
+          <div class="header-section--divider"></div>
         </div>
-    </section>
-    </div>	
-<!-- //How pricing works -->
 
-<!-- CARDS #1 -->
+        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+          <div class="whyV__text" style="font-size: 1.4em;width: 100%;">
+            {{ .Params.topSubTitle | markdownify }}  
+          </div>
+
+          <div>
+            <a href="/accounts/signup/" class="button button-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>	
+<!-- END: TOP SECTION -->
+
+
+
+<!-- PRICING SECTIONS -->
+{{ range .Params.pricingSections }} 
 <section class="homeBenefits">
-    {{ range .Params.pricingSections }} 
     <div class="container-pricing">
-      {{ with .pricingCards }}
-      <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
+      {{ with .pricingSection }}
+      <h2 class="enterV__headline">{{ .pricingSectionTitle | markdownify }}</h2>
 
       <!--
       <div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
@@ -58,13 +43,13 @@
       <div class="header-section--divider"></div>
 
       <div class="card__list">
-        {{ range .cards }}
-        <div href="{{.url}}" class="card__list-item">
+        {{ range .plansCards }}
+        <div class="card__list-item">
           <article class="card">
             <div class="card__title-wrap">
-              <img src="{{ .img }}" class="card__image">
-              <h3 class="card__title__pricing">{{ .title }}</h3>
-              {{ with .subTitleList }}
+              <img src="{{ .planCardIcon }}" class="card__image">
+              <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
+              {{ with .planCardDescription }}
               <div class="card__subtitle">
                   {{ . | markdownify }} 
               </div>
@@ -74,8 +59,8 @@
             <hr class="divider-thin">	
 
             <div class="price-wrapper">
-              {{ if .BeforePricePrimary }}    
-              <div class="price-primary-period">{{ .BeforePricePrimary }}</div>
+              {{ if .beforePriceText }}    
+              <div class="price-primary-period">{{ .beforePriceText }}</div>
               {{ end }}
 
               <div class="price-primary-value">{{ .PricePrimary }}</div>
@@ -89,56 +74,38 @@
               {{ end }}
             </div>
 
-            {{ with .cta }}
+            {{ with .cardButton }}
             <div class="btn-wrap" style="margin-top: 0;">
               {{ if eq .Params.title "Enterprise" }}
-              <a href="{{.url}}" class="btn-pricing-card-special fluid" aria-label="button">
+              <a href="{{.cardButtonURL}}" class="btn-pricing-card-special fluid" aria-label="button">
               {{ else }}			    
-              <a href="{{.url}}" class="btn-pricing-card fluid" aria-label="button">
+              <a href="{{.cardButtonURL}}" class="btn-pricing-card fluid" aria-label="button">
               {{ end }}			      
-                {{ .text }}
+                {{ .cardButtonText }}
               </a>
             </div>
             {{ end }}    			
 
             <hr class="divider-thin">
 
-            <!--	
-            <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
-            -->
-
-            <!--
-            {{ with .markdown2 }}
-            <div class="card__markdown">{{ . | markdownify }}</div>
-            {{ end }}
-
-            {{ with .markdown }}
-            <hr class="divider-thin">			
-            <div class="card__markdown">{{ . | markdownify }}</div>
-            {{ end }}
-            -->
-
             <!-- LIMITS LIST -->
-            {{ if .limitslist }}
+            {{ if .limitsList }}
             <div class="card-limits-markdown">
-              <!--  
-              <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
-              -->		
               <ul>
-                {{ range .limitslist }}
+                {{ range .limitsList }}
                 <div class="card-limits-markdown-li-wrapper">
                   <li>
-                    {{ if .url }}
-                    <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    {{ if .limitURL }}
+                    <a href="{{ .limitURL }}" target="_blank">{{ .limitTitle }}</a>
                     {{ else }}
-                      {{ .title }}
+                      {{ .limitTitle }}
                     {{ end }}                
                   </li>
 
-                  {{ if .tooltip }}
+                  {{ if .limitTooltip }}
                   <div class="tooltipPricing">  
                     <i class="material-icons tooltipIcon">info</i>
-                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                    <span class="tooltiptextPricing">{{ .limitTooltip | markdownify }}</span>
                   </div>         				
                   {{ end }}                      			   
                 </div> 	  
@@ -175,105 +142,83 @@
             </div>
             {{ end }}
             <!-- END: FEAUTURES LIST - MODULES -->
-
-            <!-- FEAUTURES LIST 2 - ADDITIONAL FEATURES -->
-            {{ if .featureslist2 }}
-            <hr class="divider-thin">	
-            <div class="before-bullet-points">{{ .featuresList2Header | markdownify }}</div>			
-            <ul>
-              {{ range .featureslist2 }}
-              <li>
-                {{ if .url }}
-                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                {{ else }}
-                  {{ .title }}
-                {{ end }}
-                          
-                {{ if .tooltip }}
-                <div class="tooltipPricing">  
-                  <i class="material-icons tooltipIcon">info</i>
-                  <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-                </div>         				
-                {{ end }}           
-              </li> 	  
-              {{ end }}
-            </ul>	
-          </div>
-            {{ end }} 	
-            <!-- END: FEAUTURES LIST 2 - ADDITIONAL FEATURES -->	
           </article>
         </div>
         {{ end }}
       </div>
       {{ end }}      
     </div>
-    {{ end }} 
 </section>
-<!-- END: CARDS #1 -->
+{{ end }} 
+<!-- END: PRICING SECTIONS -->
 	
+
 	
-<!-- Contact us if you need NEW -->
+<!-- CONTACT US -->
 {{ with .Params.contact }}	
 <section id="contactUs" class="homeBenefits" style="background: #fafafa;">	
   <h2 class="enterV__headline">{{ .title }}</h2>
   <div class="header-section--divider"></div>
   	
-	
-    <div class="ftr-features__cards" style="margin-top: 45px;">
-      {{ range .cards }}
-      <div class="pricing__card">
-        <div class="ftr-features__card-image-wrap">
-          <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
-        </div>
-                     			
-        <h3 class="ftr-features__card-title">
-          {{ .title }}
-        </h3>
-         
-        {{ if .text }}       
-          <p class="sp2nd__card-text" style="font-weight:400; font-size: 1.2em;">
-            {{ .text }}
-          </p>
-        {{ end }}          	       
+  <div class="ftr-features__cards" style="margin-top: 45px;">
+    {{ range .cards }}
+    <div class="pricing__card">
+      <div class="ftr-features__card-image-wrap">
+        <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
       </div>
-      {{ end }}
-    </div>	
-  </section>
-   
-    {{ partial "hexSlider" . }}
-
-    <section class="homeBenefits"> 
-      <div class="container">
-        <h2 class="enterV__headline">Talk To Us</h2>
-        <div class="header-section--divider"></div>
-        <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
-          <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
-    <input type="hidden" id="referrer" name="Referrer" value="" />      
-          <div class="form__left-column pricingFormResize" style="margin: 0;">
-            <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
-            <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
-            <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
-            <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
-            <div class="form__textarea-container" style="height: 90px;">
-              <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
-            </div>   
-      
-            <div class="btn-wrap">
-              <input type="submit" value="Contact Us" class="btn-primary">
-            </div>
-          </div>	
-        </form>
-      </div>   
-    </section>           	
-                          
-
-{{ end }}	
-	
-<!-- //Contact us if you need NEW -->	
+                        
+      <h3 class="ftr-features__card-title">
+        {{ .title }}
+      </h3>
+        
+      {{ if .text }}       
+        <p class="sp2nd__card-text" style="font-weight:400; font-size: 1.2em;">
+          {{ .text }}
+        </p>
+      {{ end }}          	       
+    </div>
+    {{ end }}
+  </div>	
+</section>
+{{ end }}
+<!-- END: CONTACT US -->
 
 
 
-<!-- {{ partial "why-visyond-cards" . }} -->
+{{ partial "hexSlider" . }}
+
+
+
+<!-- FORM -->
+<section class="homeBenefits"> 
+  <div class="container">
+    <h2 class="enterV__headline">Talk To Us</h2>
+    <div class="header-section--divider"></div>
+
+    <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+      <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+      <input type="hidden" id="referrer" name="Referrer" value="" /> 
+
+      <div class="form__left-column pricingFormResize" style="margin: 0;">
+        <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+        <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+        <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+        <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
+        
+        <div class="form__textarea-container" style="height: 90px;">
+          <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
+        </div>   
+  
+        <div class="btn-wrap">
+          <input type="submit" value="Contact Us" class="btn-primary">
+        </div>
+
+      </div>	
+    </form>
+  </div>   
+</section>           	
+<!-- END: FORM -->                          
+
 
 
 <script>
@@ -285,5 +230,7 @@ window.addEventListener('load', (event) => {
    }
 });
 </script>	
-	
+
+
+
 {{ partial "hexFooter" . }}

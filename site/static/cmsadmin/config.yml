@@ -473,49 +473,39 @@ collections: # A list of collections the CMS should be able to edit
     hrefTargetBlank: true
     create: true
     fields:
-      - {label: "Page title", name: "title", widget: "string", required: false,}
-      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
-      - {label: "Page url", name: "url", widget: string}
+      - {label: "Page URL", name: "url", widget: string}  
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}        
+      - {label: "Page Title", name: "title", widget: "string", required: false,}
       - {label: "Top Title", name: "topTitle", widget: string}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: string, required: false}
-      - {label: "Background Image", name: "bgImage", widget: image}
+      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
 
       - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
-          {label: "Pricing Cards", name: "pricingCards", widget: "object", fields: [
-            {label: "Plan Title", name: "title", widget: "string"},
-            {label: "Cards", name: "cards", widget: "list", fields: [
-              {label: "Title", name: "title", widget: "string"},
-              {label: "BeforePricePrimary", name: "BeforePricePrimary", widget: "string"},
+          {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
+            {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "string"},
+            {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
+              {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
+              {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
+              {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},              
+              {label: "Text Before Price", name: "beforePriceText", widget: "string"},
               {label: "PricePrimary", name: "PricePrimary", widget: "string"},
               {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "string"},
               {label: "PriceSecondary", name: "PriceSecondary", widget: "string"},
               {label: "PriceSecondaryMessage", name: "PriceSecondaryMessage", widget: "string"},
-              {label: "URL", name: "url", widget: "string"},
-              {label: "Icon", name: "img", widget: "image"},
-              {label: "Description", name: "subTitleList", widget: "markdown"},
-              {label: "Limits List Header 1", name: "BeforeBulletPoints", widget: "markdown", required: false},
-              {label: "Limits", name: "markdown2", widget: "markdown", required: false},
-              {label: "Limits List", name: "limitslist", widget: "list", fields: [
-                {label: "Limit Title", name: "title", widget: "string"},
-                {label: "Limit URL", name: "url", widget: "string"},
-                {label: "Limit Tooltip", name: "tooltip", widget: "markdown"}
+
+              {label: "Limits List", name: "limitsList", widget: "list", fields: [
+                {label: "Limit Title", name: "limitTitle", widget: "string"},
+                {label: "Limit URL", name: "limitURL", widget: "string"},
+                {label: "Limit Tooltip", name: "limitTooltip", widget: "markdown"}
               ]},
               {label: "Features List 1 Header", name: "featuresList1Header", widget: "markdown", required: false},
               {label: "Features List 1", name: "featureslist", widget: "list", fields: [
                 {label: "Feature Title", name: "title", widget: "string"},
                 {label: "Feature URL", name: "url", widget: "string"},
                 {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
-              ]},
-              {label: "Features List 2 Header", name: "featuresList2Header", widget: "markdown", required: false},
-              {label: "Features List 2", name: "featureslist2", widget: "list", fields: [
-                {label: "Feature Title", name: "title", widget: "string"},
-                {label: "Feature URL", name: "url", widget: "string"},
-                {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
-              ]},		
-              {label: "Features", name: "markdown", widget: "markdown", required: false},
-              {label: "CTA Button", name: "cta", widget: "object", fields: [
-                      {label: "URL", name: "url", widget: "string"},
-                      {label: "Text", name: "text", widget: "string"}
+              ]},	
+              {label: "CTA Button", name: "cardButton", widget: "object", fields: [
+                      {label: "URL", name: "cardButtonURL", widget: "string"},
+                      {label: "Text", name: "cardButtonText", widget: "string"}
               ]}
             ]}
         ]}
@@ -544,12 +534,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Text", name: "text", widget: "string"}
         ]}
       ]}
-      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
-      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-      - {label: "Link Bottom", name: "linkBottom", widget: "string", default: "https://visyond.com/contacts/", required: false}
-
-
-
+ 
 
 
 
