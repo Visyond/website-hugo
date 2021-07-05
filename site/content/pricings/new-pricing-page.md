@@ -51,20 +51,20 @@ pricingSections:
           PriceSecondaryMessage: ''
           cardButton:
             cardButtonText: Try for Free
-            cardButtonURL: '/profile#billing'
+            cardButtonURL: '/accounts/signup/'
           featuresList1Header: 'Includes Individual, plus:'
           featureslist:
             - title: Spreadsheet audit
               tooltip: "Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies."                       
           planCardIcon: /img/pricing/STANDARD.png
           limitsList:
-            - limitTitle: 5 project per user
+            - limitTitle: 5 projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: 5 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create and switch between in your spreadsheet and dashboards.
                 spreadsheet.
-            - limitTitle: 5 dashboard per project
+            - limitTitle: 5 dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
             - limitTitle: 5 charts per project
@@ -81,7 +81,7 @@ pricingSections:
           PriceSecondaryMessage: ''
           cardButton:
             cardButtonText: Try for Free
-            cardButtonURL: '/profile#billing'
+            cardButtonURL: '/accounts/signup/'
           featuresList1Header: 'Includes Basic, plus:'
           featureslist:
             - title: Advanced access control
@@ -93,13 +93,13 @@ pricingSections:
               tooltip: "Share spreadsheets and dashboards with the general public. Viewers don't need an account to access."                   
           planCardIcon: /img/pricing/PRO.png
           limitsList:
-            - limitTitle: 10 project per user
+            - limitTitle: 10 projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: 10 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create and switch between in your spreadsheet and dashboards.
                 spreadsheet.
-            - limitTitle: 10 dashboard per project
+            - limitTitle: 10 dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
             - limitTitle: 10 charts per project
@@ -125,13 +125,13 @@ pricingSections:
                 Connect up to 5 Excel files to a Visyond project and refer to their cells in formulas.     
           planCardIcon: /img/pricing/ADVANCED.png
           limitsList:
-            - limitTitle: Unlimited project per user
+            - limitTitle: Unlimited projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: Unlimited scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create and switch between in your spreadsheet and dashboards.
                 spreadsheet.
-            - limitTitle: Unlimited dashboard per project
+            - limitTitle: Unlimited dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
             - limitTitle: Unlimited charts per project
@@ -162,13 +162,13 @@ pricingSections:
               tooltip: Install Visyond on your server.
           planCardIcon: /img/pricing/ENTERPRISE.png
           limitsList:
-            - limitTitle: Unlimited project per user
+            - limitTitle: Unlimited projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: Unlimited scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create and switch between in your spreadsheet and dashboards.
                 spreadsheet.
-            - limitTitle: Unlimited dashboard per project
+            - limitTitle: Unlimited dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
             - limitTitle: Unlimited charts per project

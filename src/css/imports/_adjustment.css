@@ -186,22 +186,22 @@ body > p {
 }
 
 .container-pricing {
-    width: 80%;
-    /* padding: 0 15px; */
+    width: 90%;
     margin: 0 auto;
 
     @media screen and (max-width: 1211px) {
-        width: 90%;
+        width: 95%;
     }
     @media screen and (max-width: 1051px) {
-        width: 90%;
-    }
-    @media screen and (max-width: 784px) {
-        width: 80%;
+        width: 95%;
     }
     @media screen and (max-width: 1024px) {
         width: 80%;
     }	
+    @media screen and (max-width: 784px) {
+        width: 80%;
+    }
+
 	
 }
 
