@@ -46,7 +46,7 @@
 <section class="homeBenefits">
     {{ range .Params.pricingSections }} 
     <div class="container-pricing">
-      {{ with .Params.pricingCards }}
+      {{ with pricingCards }}
       <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
 
       <!--
