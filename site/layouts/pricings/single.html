@@ -42,185 +42,172 @@
     </div>	
 <!-- //How pricing works -->
 
-<!-- second section -->
+<!-- CARDS #1 -->
 <section class="homeBenefits"> 
     <div class="container-pricing">
-        {{ with .Params.pricingCards }}
+      {{ with .Params.pricingCards }}
+      <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
 
-        <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
-        
-	    
-	<div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
-    		Consultants, Teams, Enterprise? <a href="#contactUs" style="color: #0086ff;">Contact us</a>!
-	</div>
-  
-  <div class="header-section--divider"></div>
+      <!--
+      <div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
+            Consultants, Teams, Enterprise? <a href="#contactUs" style="color: #0086ff;">Contact us</a>!
+      </div>
+      -->
 
-        <div class="card__list">
-            {{ range .cards }}
-            <div href="{{.url}}" class="card__list-item">
+      <div class="header-section--divider"></div>
 
-                <article class="card">
-                    <div class="card__title-wrap">
-                        <img src="{{ .img }}" class="card__image">
-                        <h3 class="card__title__pricing">{{ .title }}</h3>
-                        {{ with .subTitleList }}
-                        <div class="card__subtitle">
-                            {{ . | markdownify }} 
-                        </div>
-                        {{ end }}
-                    </div>
-			
-                    <hr class="divider-thin">			
-		    <div class="price-wrapper">
-			{{ if .BeforePricePrimary }}    
-			<div class="price-primary-period">{{ .BeforePricePrimary }}</div>
-			{{ end }}    
-                        <div class="price-primary-value">{{ .PricePrimary }}</div>
-                        <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
-			    
-                        {{ if .PriceSecondary }}
-				<div class="price-secondary">{{ .PriceSecondary }}</div>
-			        <div class="price-secondary-message">{{ .PriceSecondaryMessage }}</div>
-			{{ else }}
-				<div class="price-secondary"><br></div>
-			{{ end }}
-			    	    
-		    </div>
-			
-		    {{ with .cta }}
-                    <div class="btn-wrap" style="margin-top: 0;">
-                      {{ if eq .title "Enterprise" }}
-                      <a href="{{.url}}" class="btn-pricing-card-special fluid" aria-label="button">
-                      {{ else }}			    
-                      <a href="{{.url}}" class="btn-pricing-card fluid" aria-label="button">
-                      {{ end }}			      
-                        {{ .text }}
-                      </a>
-                    </div>
-                    {{ end }}    			
-			
-                    <hr class="divider-thin">
-		<!--	
-		<div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
-		-->
-			
-		<!--
-		{{ with .markdown2 }}
-                    <div class="card__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                {{ end }}
-
-		{{ with .markdown }}
-                    <hr class="divider-thin">			
-                    <div class="card__markdown">
-                        {{ . | markdownify }}
-                    </div>
-                {{ end }}
-		-->
-		
-
-		
-		<!-- limits list -->
-		{{ if .limitslist }}
-		<div class="card-limits-markdown">
-          <!--  <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>	-->		
-		<ul>
-		{{ range .limitslist }}
-                  <div class="card-limits-markdown-li-wrapper">
-                    <li>
-                        {{ if .url }}
-                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                        {{ else }}
-                          {{ .title }}
-                        {{ end }}                
-                    </li>
-			  
-                    {{ if .tooltip }}
-                    <div class="tooltipPricing">  
-                      <i class="material-icons tooltipIcon">info</i>
-                      <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-                    </div>         				
-                    {{ end }}                      			  
-			  
-                  </div> 	  
-                {{ end }}
-		</ul>	
-                </div>
-		{{ end}}	
-                <!-- //limits list -->
-			
-                <!-- features list - modules -->
-		{{ if .featureslist }}	
-		<hr class="divider-thin">
-			    	        
-		{{ if eq .title "Enterprise" }}	    
-		<div class="card-limits-markdown">
-		{{ else }}
-		<div class="card__markdown">	
-		{{ end }}
-		
-		<div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div> 				
-		<ul>
-		{{ range .featureslist }}
-                  <li>
-                      {{ if .url }}
-                      <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                      {{ else }}
-                        {{ .title }}
-                      {{ end }}
-                             
-                      {{ if .tooltip }}
-			<div class="tooltipPricing">  
-                          <i class="material-icons tooltipIcon">info</i>
-                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-			</div>         				
-                      {{ end }}
-                                  
-                  </li> 	  
-                {{ end }}
-		</ul>	
-                </div>
-		{{ end }}	
-			
-                <!-- features list 2 - additional features -->
-		{{ if .featureslist2 }}
-		<hr class="divider-thin">	
-                <div class="before-bullet-points">{{ .featuresList2Header | markdownify }}</div>			
-		<ul>
-		{{ range .featureslist2 }}
-                  <li>
-                      {{ if .url }}
-                      <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                      {{ else }}
-                        {{ .title }}
-                      {{ end }}
-                             
-                      {{ if .tooltip }}
-			<div class="tooltipPricing">  
-                          <i class="material-icons tooltipIcon">info</i>
-                          <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-			</div>         				
-                      {{ end }}
-                                  
-                  </li> 	  
-                {{ end }}
-		</ul>	
-                </div>
-		{{ end }} 	
-		 <!-- features list 2 -->	
-                </article>
-
+      <div class="card__list">
+        {{ range .cards }}
+        <div href="{{.url}}" class="card__list-item">
+          <article class="card">
+            <div class="card__title-wrap">
+              <img src="{{ .img }}" class="card__image">
+              <h3 class="card__title__pricing">{{ .title }}</h3>
+              {{ with .subTitleList }}
+              <div class="card__subtitle">
+                  {{ . | markdownify }} 
+              </div>
+              {{ end }}
             </div>
+
+            <hr class="divider-thin">	
+
+            <div class="price-wrapper">
+              {{ if .BeforePricePrimary }}    
+              <div class="price-primary-period">{{ .BeforePricePrimary }}</div>
+              {{ end }}
+
+              <div class="price-primary-value">{{ .PricePrimary }}</div>
+              <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
+                
+              {{ if .PriceSecondary }}
+              <div class="price-secondary">{{ .PriceSecondary }}</div>
+              <div class="price-secondary-message">{{ .PriceSecondaryMessage }}</div>
+              {{ else }}
+              <div class="price-secondary"><br></div>
+              {{ end }}
+            </div>
+
+            {{ with .cta }}
+            <div class="btn-wrap" style="margin-top: 0;">
+              {{ if eq .title "Enterprise" }}
+              <a href="{{.url}}" class="btn-pricing-card-special fluid" aria-label="button">
+              {{ else }}			    
+              <a href="{{.url}}" class="btn-pricing-card fluid" aria-label="button">
+              {{ end }}			      
+                {{ .text }}
+              </a>
+            </div>
+            {{ end }}    			
+
+            <hr class="divider-thin">
+
+            <!--	
+            <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
+            -->
+
+            <!--
+            {{ with .markdown2 }}
+            <div class="card__markdown">{{ . | markdownify }}</div>
             {{ end }}
 
+            {{ with .markdown }}
+            <hr class="divider-thin">			
+            <div class="card__markdown">{{ . | markdownify }}</div>
+            {{ end }}
+            -->
+
+            <!-- LIMITS LIST -->
+            {{ if .limitslist }}
+            <div class="card-limits-markdown">
+              <!--  
+              <div class="before-bullet-points">{{ .BeforeBulletPoints | markdownify }}</div>
+              -->		
+              <ul>
+                {{ range .limitslist }}
+                <div class="card-limits-markdown-li-wrapper">
+                  <li>
+                    {{ if .url }}
+                    <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    {{ else }}
+                      {{ .title }}
+                    {{ end }}                
+                  </li>
+
+                  {{ if .tooltip }}
+                  <div class="tooltipPricing">  
+                    <i class="material-icons tooltipIcon">info</i>
+                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                  </div>         				
+                  {{ end }}                      			   
+                </div> 	  
+                {{ end }}
+              </ul>	
+            </div>
+            {{ end}}	
+            <!-- END: LIMITS LIST -->
+
+            <!-- FEAUTURES LIST - MODULES -->
+            {{ if .featureslist }}	
+            <hr class="divider-thin">
+            {{ if eq .title "Enterprise" }}	    
+            <div class="card-limits-markdown">{{ else }}<div class="card__markdown">{{ end }}
+              <div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div>
+              <ul>
+                {{ range .featureslist }}
+                <li>
+                  {{ if .url }}
+                  <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                  {{ else }}
+                    {{ .title }}
+                  {{ end }}
+                            
+                  {{ if .tooltip }}
+                  <div class="tooltipPricing">  
+                    <i class="material-icons tooltipIcon">info</i>
+                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                  </div>         				
+                  {{ end }}         
+                </li>
+                {{ end }}
+              </ul>	
+            </div>
+            {{ end }}
+            <!-- END: FEAUTURES LIST - MODULES -->
+
+            <!-- FEAUTURES LIST 2 - ADDITIONAL FEATURES -->
+            {{ if .featureslist2 }}
+            <hr class="divider-thin">	
+            <div class="before-bullet-points">{{ .featuresList2Header | markdownify }}</div>			
+            <ul>
+              {{ range .featureslist2 }}
+              <li>
+                {{ if .url }}
+                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                {{ else }}
+                  {{ .title }}
+                {{ end }}
+                          
+                {{ if .tooltip }}
+                <div class="tooltipPricing">  
+                  <i class="material-icons tooltipIcon">info</i>
+                  <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                </div>         				
+                {{ end }}           
+              </li> 	  
+              {{ end }}
+            </ul>	
+          </div>
+            {{ end }} 	
+            <!-- END: FEAUTURES LIST 2 - ADDITIONAL FEATURES -->	
+          </article>
         </div>
         {{ end }}
-	        
+      </div>
+      {{ end }}      
     </div>
 </section>
-
+<!-- END: CARDS #1 -->
 	
 	
 <!-- Contact us if you need NEW -->
