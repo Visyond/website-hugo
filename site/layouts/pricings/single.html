@@ -43,7 +43,8 @@
 <!-- //How pricing works -->
 
 <!-- CARDS #1 -->
-<section class="homeBenefits"> 
+<section class="homeBenefits">
+    {{ range .pricingSections }} 
     <div class="container-pricing">
       {{ with .Params.pricingCards }}
       <h2 class="enterV__headline">{{ .title | markdownify }}</h2>
@@ -206,6 +207,7 @@
       </div>
       {{ end }}      
     </div>
+    {{ end }} 
 </section>
 <!-- END: CARDS #1 -->
 	
