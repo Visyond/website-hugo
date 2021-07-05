@@ -135,7 +135,6 @@ pricingCards:
             Publicly share worksheets and reports. Combined with Selective
             Sharing, you can specify which parts of projects public viewers can
             see.
-      featureslist2: []
       img: /img/pricing/ADVANCED.png
       limitslist:
         - title: Unlimited projects
@@ -183,7 +182,6 @@ pricingCards:
         - title: Visyond On-premise
           tooltip: Install Visyond on your server.
           url: ''
-      featureslist2: []
       img: /img/pricing/ENTERPRISE.png
       limitslist:
         - title: Unlimited projects
