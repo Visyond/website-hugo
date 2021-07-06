@@ -1,276 +1,63 @@
-.prs1st {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -ms-align-items: center;
-    align-items: center;
-    text-align: center;
-    padding: 80px 10px 40px;
-    background-size: cover;
-}
-
-.prs1st__title {
-  font-size: 2.375rem;
-  font-weight: 400;
-  color: #fff;
-  margin-bottom: 1rem;
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-
-  @media screen and (max-width: 600px) {
-    font-size: 1.8rem;
-  }
-}
-
-.prs1st__title p {
-  margin: 0;
-}
-
-.prs1st__under-title {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #fff;
-  max-width: 850px;
-  margin-bottom: 2rem;
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-.outgrow__wrapper {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  -ms-align-items: center;
-  align-items: center;
-  justify-content: center;
-  padding: 30px;
-  font-weight: 600;
-  -webkit-flex-direction: column;
-  -moz-flex-direction: column;
-  -ms-flex-direction: column;
-  -o-flex-direction: column;
-  flex-direction: column;
-  background: #f5f6f9;
-}
-
-.outgrow__title {
-  color: rgba(81, 84, 107, 0.8);
-  font-size: 29px;
-  line-height: 42px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 2rem;
-  max-width: 1000px;
-
-  @media (max-width: 768px) {
-    font-size: 22px;
-  }
-}
-
-#outgrow .outgrow-l {
-  background: #0086ff;
-  text-transform: uppercase;
-  font-size: 1rem;
-  line-height: 1;
-  padding: 15px 36px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  text-align: center;
-  font-weight: 300;
-}
-
-.prs2nd {
-  padding: 75px 0;
-  background: #f5f6f9;
-  @media screen and (max-width: 1024px) {
-    padding: 40px 0;
-  }
-}
-.prs2nd__title {
-  color: rgba(81, 84, 107, 0.8);
-  font-size: 29px;
-  line-height: 42px;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-
-  @media screen and (max-width: 768px) {
-    font-size: 22px;
-  }
-}
-
-.prs2nd__subtitle {
-  text-align: center;
-  color: #5f6976;
-  font-size: 26px;
-  line-height: 1.7;
-  font-weight: 300;
-  margin: 30px auto 60px;
-}
-.prs2nd__subtitle > p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-top: 10px;
-}
-
-.prs2nd__item--middle {
-  padding: 40px 35px 40px;
-  box-shadow: 0 7px 20px rgba(82, 85, 108, 0.3);
-  margin-top: -10px;
-  transform: scale(1.1);
-
-  @media screen and (max-width: 1024px) {
-    margin-top: 0;
-    transform: scale(1);
-    order: 1;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .prs2nd__item--left {
-    order: 2;
-  }
-  .prs2nd__item--right {
-    order: 3;
-  }
-}
-
-.prs2nd__markdown strong {
-  font-weight: 600;
-}
-
-.prs2nd__asked-wrap {
-  text-align: center;
-  width: 450px;
-  margin: 85px auto 0 auto;
-
-  @media screen and (max-width: 651px) {
-    width: 100%;
-  }
-}
-
-.prs2nd__asked-descr {
-  text-align: left;
-  position: relative;
-  padding: 0 15px;
-  color: #52556c;
-  font-style: italic;
-  font-size: 18px;
-  line-height: 25px;
-  display: inline-block;
-  margin-bottom: 25px;
-  &:before,
-  &:after {
-    content: "";
-    background: url(/img/vimages/quote.png) no-repeat;
-    background-size: 10px;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-  }
-  &:before {
-    left: 0;
-    top: 5px;
-  }
-  &:after {
-    right: 0;
-    bottom: 0;
-    transform: rotate(180deg);
-  }
-}
-
-.prs2nd__asked-company {
-  color: rgba(82, 85, 108, 0.8);
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 25px;
-}
-
-.prs2nd__asked-img {
-  max-width: 200px;
-  display: block;
-  margin: 0 auto;
-}
-
-.prs3rd {
-  padding: 100px 1.5rem 0;
-  -webkit-box-shadow: 0 5px 15px #ddd;
-  box-shadow: 0 5px 15px #ddd, 0 -5px 15px #ddd;
-}
-
-.prs3rd__cols {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  @media (max-width: 800px) {
-    justify-content: center;
-  }
-}
-
-.prs3rd__col {
-  max-width: 350px;
-  margin: 0 1rem 3rem;
-}
-
-.prs3rd__col-title {
-  font-size: 16px;
-  color: #52556c;
-  font-weight: 700;
-}
-
-.prs3rd__col-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.prs3rd__col-item {
-  padding-left: 20px;
-  position: relative;
-  color: #5e6f85;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-
-  &:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-
-  &:before {
-    content: "";
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #00b5b8;
-    top: 10px;
-    left: 0;
-    position: absolute;
-  }
-}
-
 
 /* ANNUAL/MONTHLY PRICE */
+
+/*
 .price-wrapper {
-	/* margin-top: 1em;*/
 	text-align: center;
 	font-size: 1.1em;
 	height: 5.5em;
     @media screen and (max-width: 1024px) {
         height: auto;
     }	
-	
+}
+*/
+
+.price-wrapper-top {
+	font-size: 1.1em;
+	height: 3em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  @media screen and (max-width: 1024px) {
+      height: auto;
+  }	
+}
+
+.price-wrapper-bottom {
+	font-size: 1.1em;
+	height: 3em;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @media screen and (max-width: 1024px) {
+      height: auto;
+  }	
+}
+
+.price-card {
+  position: relative;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  margin: 0.5em;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
+  @media screen and (max-width: 768px) {
+      max-width: 100%;
+      padding: 2em;
+      @media (max-width: 769px) {
+          padding: 1.5em;
+      }
+  }
+
 }
 
 .price-primary-value {
@@ -287,11 +74,11 @@
 .price-primary-period {
   font-weight: 400; 
   color: #0585ff;
-  font-size: 1em;
+  font-size: 0.9em;
   display: block;
-  margin-top: -0.3em;	
+  margin-left: 0.6em
     @media screen and (max-width: 1024px) {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }		
 }
 
@@ -393,18 +180,6 @@ color: #0585ff;
   transition: opacity 0.3s;
 }
 
-/* arrow for the tooltip
-.tooltipPricing .tooltiptextPricing::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #212121 transparent transparent transparent;
-}
-*/
 
 .tooltipPricing:hover .tooltiptextPricing {
   visibility: visible;

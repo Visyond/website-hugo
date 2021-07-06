@@ -7,15 +7,14 @@
       <div class="whyV__row">
         <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
           <h2 class="home-hero__title">{{ .Params.topTitle }}</h2>
-          <div class="header-section--divider"></div>
         </div>
 
         <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-          <div class="whyV__text" style="font-size: 1.4em;width: 100%;">
+          <div class="home-hero__topSubtitle">
             {{ .Params.topSubTitle | markdownify }}  
           </div>
 
-          <div>
+          <div class="btn-wrap">
             <a href="/accounts/signup/" class="button button-primary">Get Started</a>
           </div>
         </div>
@@ -44,7 +43,7 @@
 
       <div class="card__list">
         {{ range .plansCards }}
-        <div class="card__list-item">
+        <div class="price-card">
           <article class="card">
             <div class="card__title-wrap">
               <img src="{{ .planCardIcon }}" class="card__image">
@@ -56,26 +55,8 @@
               {{ end }}
             </div>
 
-            <hr class="divider-thin">	
-
-            <div class="price-wrapper">
-              {{ if .beforePriceText }}    
-              <div class="price-primary-period">{{ .beforePriceText }}</div>
-              {{ end }}
-
-              <div class="price-primary-value">{{ .PricePrimary }}</div>
-              <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
-                
-              {{ if .PriceSecondary }}
-              <div class="price-secondary">{{ .PriceSecondary }}</div>
-              <div class="price-secondary-message">{{ .PriceSecondaryMessage }}</div>
-              {{ else }}
-              <div class="price-secondary"><br></div>
-              {{ end }}
-            </div>
-
             {{ with .cardButton }}
-            <div class="btn-wrap" style="margin-top: 0;">
+            <div class="btn-wrap">
               {{ if eq .Params.title "Enterprise" }}
               <a href="{{.cardButtonURL}}" class="btn-pricing-card-special fluid" aria-label="button">
               {{ else }}			    
@@ -84,7 +65,26 @@
                 {{ .cardButtonText }}
               </a>
             </div>
-            {{ end }}    			
+            {{ end }}   
+
+            <hr class="divider-thin">	
+
+            
+            <div class="price-wrapper-top">
+              {{ if .PriceSecondary }}
+              <div class="price-primary-value">{{ .PricePrimary }}</div>
+              <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
+              {{ end }}		
+            </div>           
+            
+            <div class="price-wrapper-bottom">
+              {{ if .PriceSecondary }}
+              <div class="price-secondary">{{ .PriceSecondary }}</div>
+              <div class="price-secondary-message">{{ .PriceSecondaryMessage }}</div>
+              {{ else }}
+              <div class="price-secondary"><br></div>
+              {{ end }}
+            </div> 			
 
             <hr class="divider-thin">
 

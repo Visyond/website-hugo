@@ -486,7 +486,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
               {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
               {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},              
-              {label: "Text Before Price", name: "beforePriceText", widget: "string"},
               {label: "PricePrimary", name: "PricePrimary", widget: "string"},
               {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "string"},
               {label: "PriceSecondary", name: "PriceSecondary", widget: "string"},
