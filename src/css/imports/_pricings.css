@@ -1,17 +1,3 @@
-
-/* ANNUAL/MONTHLY PRICE */
-
-/*
-.price-wrapper {
-	text-align: center;
-	font-size: 1.1em;
-	height: 5.5em;
-    @media screen and (max-width: 1024px) {
-        height: auto;
-    }	
-}
-*/
-
 .price-wrapper-top {
 	font-size: 1.1em;
 	height: 3em;
