@@ -1,3 +1,4 @@
+/* ANNUAL/MONTHLY PRICE */
 .price-wrapper-top {
 	font-size: 1.1em;
 	height: 3em;
@@ -62,7 +63,7 @@
   color: #0585ff;
   font-size: 0.9em;
   display: block;
-  margin-left: 0.6em
+  margin-left: 0.6em;
     @media screen and (max-width: 1024px) {
         font-size: 1.1em;
     }		
