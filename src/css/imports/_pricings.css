@@ -19,7 +19,7 @@
 .card__title-wrap__pricing {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /*align-items: flex-start;*/
 
   & > img {
       margin: 1em 0;
@@ -27,7 +27,7 @@
 }
 
 .card__title__pricing {
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 600;
   color: #383e4d;
   margin-bottom: 0.5em;
@@ -80,6 +80,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-items: flex-start;
   /*flex: 1;*/
 }
 
@@ -87,8 +88,7 @@
 	font-size: 1.1em;
 	height: 3em;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   /*flex: 1;*/
@@ -105,7 +105,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   /*flex: 1;*/ 
   @media screen and (max-width: 1024px) {
       height: auto;
@@ -124,13 +124,19 @@
   border: 1px solid #efefef;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
+
+  @media screen and (max-width: 1024px) {
+    padding: 2em;
+    max-width: 100%;
+}		
+  /*
   @media screen and (max-width: 768px) {
       max-width: 100%;
       padding: 2em;
       @media (max-width: 769px) {
           padding: 1.5em;
       }
-  }
+  } */
 
 }
 
@@ -150,7 +156,7 @@
   color: #0585ff;
   font-size: 0.9em;
   display: block;
-  margin-left: 0.6em;
+  margin-left: 0.5em;
   line-height: 1em;
     @media screen and (max-width: 1024px) {
         font-size: 1.1em;

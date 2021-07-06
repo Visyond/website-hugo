@@ -117,7 +117,7 @@ pricingSections:
           PriceSecondaryMessage: (min. 3 seats)
           cardButton:
             cardButtonText: Talk to Us
-            cardButtonURL: '/pricing/#contactUs'
+            cardButtonURL: '#contactUs'
           featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
             - title: External sources
@@ -147,7 +147,7 @@ pricingSections:
           PriceSecondaryMessage: (min. 10 seats)        
           cardButton:
             cardButtonText: Talk to Us
-            cardButtonURL: '/pricing/#contactUs'
+            cardButtonURL: '#contactUs'
           featuresListHeader: 'Includes Pro, <br/>plus you can request:'
           featureslist:
             - title: Custom Integrations
@@ -200,6 +200,6 @@ contact:
     - img: /img/pricing/EDUCATION.png
       text: Contact us for special offers for students and instructors.
       title: Educational Software
-  title: Contact Us if You Need...
+  title: Talk to Us if You Need...
 ---
 
