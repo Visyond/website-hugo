@@ -474,7 +474,7 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page URL", name: "url", widget: string}  
-      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}        
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
       - {label: "Page Title", name: "title", widget: "string", required: false,}
       - {label: "Top Title", name: "topTitle", widget: string}
       - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
@@ -485,7 +485,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
               {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
               {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
-              {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},              
+              {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},
               {label: "PricePrimary", name: "PricePrimary", widget: "string"},
               {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "string"},
               {label: "PriceSecondary", name: "PriceSecondary", widget: "string"},

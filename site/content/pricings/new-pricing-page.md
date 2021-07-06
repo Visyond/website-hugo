@@ -8,9 +8,9 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com/pricing/">
   <meta name="description" content="Explore Visyond during a 14-day free trial. No credit card required. After the trial, choose a plan that works for you.">
 title: Pricing
-topTitle: Make Better Decisions, Faster.Start Free.
+topTitle: Make Better Decisions, Faster. Start Free.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required.  
+  Explore Visyond during a 14-day free trial. No credit card required.
 
   After the trial, choose a plan that works for you.
 pricingSections:
