@@ -121,14 +121,13 @@
 
 /* BEFORE BULLET POINTS IN PRICING CARD */
 .before-bullet-points {
-  margin: 0 0 0.5em;
+  margin: 0 0 0.7em;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: left;
   color: #0585ff;
   @media screen and (max-width: 1024px) {
     font-size: 1.15em;
-    padding-right: 1.5em;
     text-align: center;
   }		
 }
@@ -243,7 +242,7 @@
 
 .tooltipIcon {
   color: #d2d2d2; 
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 0.2em;
     @media screen and (max-width: 1024px) {
         font-size: 18px;
@@ -343,10 +342,10 @@ color: #0086ff;
   /*padding-left: 0.3em; */
   font-weight: 400;
   color: #0e2639;
-  font-size: 13зч;
+  font-size: 0.85em;
 
   &:not(:last-child) {
-      margin-bottom: 0.5em;
+      margin-bottom: 0.7em;
   }
 
   @media screen and (max-width: 1024px) {
