@@ -106,7 +106,7 @@
 
 .price-card {
   position: relative;
-  padding: 1em 1em 2em 1em;
+  padding: 1em 0.9em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,6 +135,7 @@
   margin: 0 0.7em 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
+    padding: 2em 2em;
   }		
 }
 
@@ -142,6 +143,7 @@
   margin: 0 0.7em 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
+    padding: 2em 2em;
   }		
 }
 
@@ -149,6 +151,7 @@
   margin: 0 0.7em 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
+    padding: 2em 2em;
   }		
 }
 
@@ -156,6 +159,7 @@
   margin: 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
+    padding: 2em 2em;
   }		
 }
 
@@ -346,7 +350,7 @@
 
 .tooltipIcon {
   color: #383e4d; 
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 0.2em;
 }
 
@@ -374,7 +378,7 @@
   background 0.2s ease-in-out;
   border: 1px solid #0585ff;
   cursor: pointer;
-  width: 55%;
+  width: 60%;
 
   @media screen and (max-width: 1024px) {
     width: 30%;
@@ -402,7 +406,7 @@
   background 0.2s ease-in-out;
   border: 1px solid #0585ff;
   cursor: pointer;
-  width: 55%;
+  width: 60%;
 
   @media screen and (max-width: 1024px) {
     width: 30%;
@@ -429,7 +433,7 @@
   background 0.2s ease-in-out;
   border: 1px solid #52556c;
   cursor: pointer;
-  width: 55%;
+  width: 60%;
 
   @media screen and (max-width: 1024px) {
     width: 30%;
@@ -447,7 +451,7 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  flex-basis: 3em;
+  flex-basis: 11em;
 
   @media screen and (max-width: 1211px) {
       font-size: 0.9em;
@@ -475,7 +479,7 @@
   position: relative;
   font-weight: 400;
   color: #0e2639;
-  font-size: 0.85em;
+  font-size: 0.75em;
 
   &:not(:last-child) {
     margin-bottom: 0.7em;
