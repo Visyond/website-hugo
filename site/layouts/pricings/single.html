@@ -33,12 +33,6 @@
       {{ with .pricingSection }}
       <h2 class="enterV__headline">{{ .pricingSectionTitle | markdownify }}</h2>
 
-      <!--
-      <div style="text-align: center; margin-top: 15px; font-size: 1.6em; font-weight: 400; color: #50546d;">
-            Consultants, Teams, Enterprise? <a href="#contactUs" style="color: #0086ff;">Contact us</a>!
-      </div>
-      -->
-
       <div class="header-section--divider"></div>
 
       <div class="card__list">
@@ -92,6 +86,7 @@
             <!-- LIMITS LIST -->
             {{ if .limitsList }}
             <div class="plan-features-wrapper">
+              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
                 {{ range .limitsList }}
                 <div class="plan-features-wrapper-li-wrapper">
@@ -105,7 +100,7 @@
 
                   {{ if .limitTooltip }}
                   <div class="tooltipPricing">  
-                    <i class="material-icons tooltipIcon">info</i>
+                    <i class="material-icons-outlined tooltipIcon">info</i>
                     <span class="tooltiptextPricing">{{ .limitTooltip | markdownify }}</span>
                   </div>         				
                   {{ end }}                      			   
@@ -119,9 +114,8 @@
             <!-- FEAUTURES LIST - MODULES -->
             {{ if .featureslist }}	
             <hr class="divider-thin">
-
             <div class="plan-features-wrapper">
-              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
+
               <ul>
                 {{ range .featureslist }}
                 <div class="plan-features-wrapper-li-wrapper">
@@ -135,7 +129,7 @@
                             
                   {{ if .tooltip }}
                   <div class="tooltipPricing">  
-                    <i class="material-icons tooltipIcon">info</i>
+                    <i class="material-icons-outlined tooltipIcon">info</i>
                     <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
                   </div>         				
                   {{ end }}         

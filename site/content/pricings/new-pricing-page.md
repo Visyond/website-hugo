@@ -10,9 +10,7 @@ metaTags: >-
 title: Pricing
 topTitle: Make Better Decisions, Faster. Start Free.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required.
-
-  After the trial, choose a plan that works for you.
+  Explore Visyond during a 14-day free trial. No credit card required. <br/>After the trial, choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -23,7 +21,7 @@ pricingSections:
           cardButton:
             cardButtonText: Get Started
             cardButtonURL: /accounts/signup/
-          featuresListHeader: 'Individual plan includes:'
+          featuresListHeader: 'Individual plan <br/>includes:'
           featureslist:
             - title: Access control
               tooltip: "Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators."
@@ -53,7 +51,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-          featuresListHeader: 'Includes Individual, plus:'
+          featuresListHeader: 'Includes Individual, <br/>plus:'
           featureslist:
             - title: Spreadsheet audit
               tooltip: "Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies."                       
@@ -84,7 +82,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-          featuresListHeader: 'Includes Basic, plus:'
+          featuresListHeader: 'Includes Basic, <br/>plus:'
           featureslist:
             - title: Advanced access control
               tooltip: >-
@@ -120,7 +118,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
-          featuresListHeader: 'Includes Standard, plus:'
+          featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
             - title: External sources
               tooltip: >-
@@ -150,7 +148,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
-          featuresListHeader: 'Includes Pro, plus you can request:'
+          featuresListHeader: 'Includes Pro, <br/>plus you can request:'
           featureslist:
             - title: Custom Integrations
               tooltip: >-
