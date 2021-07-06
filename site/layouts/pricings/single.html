@@ -45,10 +45,17 @@
 
               <div class="price-wrapper">
                 <div class="price-wrapper-top">
-                  <div class="price-primary-value" {{ if .planCardPriceColor }} style="color: {{ .planCardPriceColor }};" {{ end }}>
+                  <div class="price-primary-value" 
+                  {{ if .planCardPriceColor }} 
+                  style="color: {{ .planCardPriceColor }};" 
+                  {{ end }}>
                     {{ .PricePrimary }}
                   </div>
-                  <div class="price-primary-period">
+                  
+                  <div class="price-primary-period" 
+                  {{ if .planCardPriceColor }} 
+                  style="color: {{ .planCardPriceColor }};" 
+                  {{ end }}>
                     {{ .PricePrimaryPeriod | markdownify  }}
                   </div>
                 </div>           
@@ -68,7 +75,12 @@
 
             {{ with .cardButton }}
             <div class="btn-wrap">		    
-              <a href="{{.cardButtonURL}}" class="btn-pricing-card fluid" aria-label="button">	      
+              <a href="{{ .cardButtonURL }}" 
+              {{ if .isButtonSpecial }} 
+              class="btn-pricing-card-special fluid" 
+              {{ else }} class="btn-pricing-card fluid" 
+              {{ end }} 
+              aria-label="button">	      
                 {{ .cardButtonText }}
               </a>
             </div>

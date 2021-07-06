@@ -498,15 +498,16 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Limit URL", name: "limitURL", widget: "string"},
                 {label: "Limit Tooltip", name: "limitTooltip", widget: "markdown"}
               ]},
-              {label: "Features List 1 Header", name: "featuresListHeader", widget: "markdown", required: false},
-              {label: "Features List 1", name: "featureslist", widget: "list", fields: [
+              {label: "Features List Header", name: "featuresListHeader", widget: "markdown", required: false},
+              {label: "Features List", name: "featureslist", widget: "list", fields: [
                 {label: "Feature Title", name: "title", widget: "string"},
                 {label: "Feature URL", name: "url", widget: "string"},
                 {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
               ]},	
               {label: "CTA Button", name: "cardButton", widget: "object", fields: [
-                      {label: "URL", name: "cardButtonURL", widget: "string"},
-                      {label: "Text", name: "cardButtonText", widget: "string"}
+                {label: "Is button special (will be diff. color)? (true / false)", name: "isButtonSpecial", widget: "boolean", default: false},
+                {label: "URL", name: "cardButtonURL", widget: "string"},
+                {label: "Text", name: "cardButtonText", widget: "string"}
               ]}
             ]}
         ]}
