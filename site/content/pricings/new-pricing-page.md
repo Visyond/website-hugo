@@ -43,11 +43,10 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account."
           planCardDescription: >-
             For individuals who want to easily create advanced charts and interactive dashboards.
-          planCardTitle: Dashboards Individual
+          planCardTitle: Individual
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          PriceSecondary: Billed monthly / annually
           PriceSecondaryMessage: ''
           cardButton:
             cardButtonText: Try for Free
@@ -110,7 +109,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For teams who want to collaborate externally.
-          planCardTitle: Dashboards Standard
+          planCardTitle: Standard
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
@@ -142,7 +141,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
-          planCardTitle: Dashboards Pro
+          planCardTitle: Pro
         - PricePrimary: ''
           PriceSecondary: 'Billed annually'
           PriceSecondaryMessage: (min. 10 seats)        
@@ -176,7 +175,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For organizations that need enterprise-level support and integrations.
-          planCardTitle: Dashboards Enterprise
+          planCardTitle: Enterprise
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards  
 contact:
   buttonlabel: Contact Us

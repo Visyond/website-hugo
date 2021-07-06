@@ -39,7 +39,7 @@
         {{ range .plansCards }}
         <div class="price-card">
           <article class="card">
-            <div class="card__title-wrap">
+            <div class="card__title-wrap__pricing">
               <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
               <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
 
@@ -60,9 +60,9 @@
                   {{ end }}
                 </div> 	
               </div>
-              
+
               {{ with .planCardDescription }}
-              <div class="card__subtitle">
+              <div class="card__subtitle__pricing">
                   {{ . | markdownify }} 
               </div>
               {{ end }}
@@ -215,8 +215,6 @@
   </div>   
 </section>           	
 <!-- END: FORM -->                          
-
-
 
 <script>
 window.addEventListener('load', (event) => {

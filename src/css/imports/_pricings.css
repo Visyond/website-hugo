@@ -1,5 +1,5 @@
 .container-pricing {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 
   @media screen and (max-width: 1211px) {
@@ -16,10 +16,69 @@
   }
 }
 
+.card__title-wrap__pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  & > img {
+      margin: 1em 0;
+  }
+}
+
+.card__title__pricing {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #383e4d;
+  margin-bottom: 0.5em;
+
+  @media screen and (max-width: 1024px) {
+      font-size: 2em;
+  }
+  @media screen and (max-width: 784px) {
+      font-size: 2em;
+  }		
+}
+
+.card__subtitle__pricing {
+  font-weight: 400;
+  list-style-type: none;
+  padding: 0;
+  color: #383e4d;
+  font-size: 0.85em;
+  height: 5em;
+  margin-bottom: 0.5em;	
+
+  & > ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  & ul > li {
+      margin: 1em 0;
+  }
+
+  @media screen and (max-width: 1211px) {
+      font-size: 0.9em;
+  }
+  @media screen and (max-width: 1051px) {
+      font-size: 0.9em;
+  }
+  @media screen and (max-width: 784px) {
+      font-size: 1.1em;
+      height: auto;
+  }		
+  @media screen and (max-width: 1024px) {
+      font-size: 1.15em;
+      height: auto;
+  }
+}
+
+
 /* ANNUAL/MONTHLY PRICE */
 .price-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   /*flex: 1;*/
 }
@@ -32,8 +91,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex: 1;
-  flex-basis: 2.5em;
+  /*flex: 1;*/
+  /*flex-basis: 2.5em;*/ 
   @media screen and (max-width: 1024px) {
       height: auto;
   }	
@@ -47,7 +106,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex: 1;
+  /*flex: 1;*/ 
   @media screen and (max-width: 1024px) {
       height: auto;
   }	
@@ -55,7 +114,7 @@
 
 .price-card {
   position: relative;
-  padding: 1em 1.5em 2em;
+  padding: 2em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
