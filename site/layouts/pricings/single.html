@@ -148,11 +148,13 @@
               <ul>
                 {{ range .featureslist }}
                 <div class="plan-features-wrapper-li-wrapper">
-                  {{ if .url }}
-                  <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                  {{ else }}
-                    {{ .title }}
-                  {{ end }}
+                  <li>
+                    {{ if .url }}
+                    <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    {{ else }}
+                      {{ .title }}
+                    {{ end }}
+                </li>
                             
                   {{ if .tooltip }}
                   <div class="tooltipPricing">  
