@@ -234,59 +234,6 @@ font-size: 1em;
 }
 
 
-.card-limits-markdown {
-    color: #5f6976;
-    height: 9em;
-	
-    @media screen and (max-width: 1211px) {
-        font-size: 0.9em;
-    }	
-    @media screen and (max-width: 1051px) {
-        font-size: 0.9em;
-    }	
-    @media screen and (max-width: 1024px) {
-        height: auto;
-    }				
-}
-
-.card-limits-markdown a, .card-limits-markdown a:visited {
-text-decoration: underline;
-color: #0086ff;
-}
-
-.card-limits-markdown ul {
-    margin: 0; /* 0 20px 0; */
-    padding: 0;
-    list-style: none;
-}
-
-.card-limits-markdown li {
-    position: relative;
-    padding-left: 0.3em;
-    font-weight: 400;
-    color: #0e2639;
-    font-size: 0.8em;
-
-    &:not(:last-child) {
-        margin-bottom: 0.5em;
-    }
-
-    @media screen and (max-width: 1024px) {
-        text-align: center;
-        padding-left: 0em;
-        font-size: 1.1em;
-	margin: 0 auto;
-    }	
-}
-
-.card-limits-markdown-li-wrapper {
-  display: flex; 
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-
 .function-card__bg {
     background: url("/img/vimages/banner.jpg") center center no-repeat;
     background-size: cover;

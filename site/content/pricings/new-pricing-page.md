@@ -17,7 +17,7 @@ pricingSections:
   - pricingSection:
       plansCards:
         - PricePrimary: $0
-          PricePrimaryPeriod:: >-
+          PricePrimaryPeriod: >-
             seat / <br/>month
           PriceSecondary: ''
           cardButton:
@@ -77,7 +77,7 @@ pricingSections:
             For teams just getting started with collaborating on dashboards and spreadsheets.
           planCardTitle: Basic
         - PricePrimary: $18
-          PricePrimaryPeriod:: >-
+          PricePrimaryPeriod: >-
             seat / <br/>month
           PriceSecondary: Billed annually
           PriceSecondaryMessage: ''
@@ -113,7 +113,7 @@ pricingSections:
             For teams who want to collaborate externally.
           planCardTitle: Standard
         - PricePrimary: $16
-          PricePrimaryPeriod:: >-
+          PricePrimaryPeriod: >-
             seat / <br/>month
           PriceSecondary: 'Billed annually'
           PriceSecondaryMessage: (min. 3 seats)
