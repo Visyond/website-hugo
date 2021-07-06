@@ -192,7 +192,14 @@ pricingSections:
           planCardTitle: Enterprise
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
-      pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards  
+      pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards
+      planInfoBlock:
+        - planInfoBlockTitle: 'Plan desc'
+          planInfoBlockDescription: >-
+            Ideal if you want to do cool stuff with dashboards.
+          planInfoBlockImage: /img/home/step1.png
+          planInfoBlockImageAltText: >-
+            Image alt text
 contact:
   buttonlabel: Contact Us
   buttonlink: /request

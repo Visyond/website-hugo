@@ -35,6 +35,30 @@
 
       <div class="header-section--divider"></div>
 
+      <!-- PRICING SECTION DESCRIPTION -->
+      <ul class="enterSections js-image-block">
+        {{ range $el := .Params.planInfoBlock }}
+        <li class="enterSectionsA__block">
+            <section class="enterSectionsC__text-wrap">
+              <div style="display: flex; align-items: center;">
+                <h2 class="enterSectionsA__block-title" style="padding-left: 15px; display: flex; justify-content: center; align-content: center; flex-direction: column; height: 60px;">
+                    {{ .planInfoBlockTitle }}
+                </h2>
+              </div>
+
+              <div class="enterSectionsA__block-descr">
+                {{ .planInfoBlockDescription | markdownify }}
+              </div>
+            </section>
+
+            <div class="infoC__img-wrap js-img-wrap">	    
+              <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="enterSectionsA__block-img">  
+            </div>
+        </li>
+        {{ end }}
+      </ul>
+      <!-- END: PRICING SECTION DESCRIPTION -->
+
       <div class="card__list">
         {{ range .plansCards }}
         <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 1em solid {{ .planCardLabelColor }};" {{end}}>
