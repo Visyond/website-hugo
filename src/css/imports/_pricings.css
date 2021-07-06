@@ -27,7 +27,7 @@
 }
 
 .card__title__pricing {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 600;
   color: #383e4d;
   margin-bottom: 0.5em;
@@ -79,8 +79,8 @@
 .price-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   /*flex: 1;*/
 }
 
@@ -88,6 +88,7 @@
 	font-size: 1.1em;
 	height: 3em;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
@@ -102,7 +103,7 @@
 	font-size: 1.1em;
 	height: 2em;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   /*justify-content: center;*/
   align-items: flex-start;
   flex-direction: row;
@@ -135,11 +136,8 @@
 .price-primary-value {
   font-weight: 600;
   color: #0585ff;
-  font-size: 2em;
+  font-size: 1.5em;
   display: inline;
-    @media screen and (max-width: 1024px) {
-        font-size: 2em;
-    }		
 }
 
 
@@ -159,7 +157,9 @@
 .price-billing-note {
   font-weight: 600;
   color: #50546d; /*#0ec78b;*/
-  font-size: 0.8em;
+  font-size: 0.75em;
+  flex: 1;
+  flex-basis: auto;
     @media screen and (max-width: 1024px) {
         font-size: 0.9em;
     }		
@@ -168,8 +168,10 @@
 .price-min-seats {
   font-weight: 600;
   color: #50546d; /*#0ec78b;*/
-  font-size: 0.8em;
+  font-size: 0.75em;
   margin-left: 0.5em;
+  flex: 1;
+  flex-basis: auto;
     @media screen and (max-width: 1024px) {
         font-size: 0.9em;
     }		

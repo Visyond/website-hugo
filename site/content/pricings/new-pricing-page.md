@@ -142,7 +142,7 @@ pricingSections:
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
-        - PricePrimary: ''
+        - PricePrimary: 'Talk to Us'
           priceBillingNote: 'Billed annually'
           priceMinSeats: (min. 10 seats)        
           cardButton:
