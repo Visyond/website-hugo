@@ -8,7 +8,8 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com/pricing/">
   <meta name="description" content="Explore Visyond during a 14-day free trial. No credit card required. After the trial, choose a plan that works for you.">
 title: Pricing
-topTitle: Make Better Decisions, Faster. Start Free.
+topTitle: >-
+  Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
   Explore Visyond during a 14-day free trial. No credit card required. <br/>After the trial, choose a plan that works for you.
 pricingSections:
@@ -16,7 +17,7 @@ pricingSections:
       plansCards:
         - PricePrimary: $0
           PricePrimaryPeriod: >-
-            seat / <br/>month
+            free <br/>forever
           PriceSecondary: ''
           cardButton:
             cardButtonText: Get Started
@@ -42,11 +43,11 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account."
           planCardDescription: >-
             For individuals who want to easily create advanced charts and interactive dashboards.
-          planCardTitle: Individual
+          planCardTitle: Dashboards Individual
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          PriceSecondary: Billed monthly
+          PriceSecondary: Billed monthly / annually
           PriceSecondaryMessage: ''
           cardButton:
             cardButtonText: Try for Free
@@ -109,7 +110,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For teams who want to collaborate externally.
-          planCardTitle: Standard
+          planCardTitle: Dashboards Standard
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
@@ -141,7 +142,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
-          planCardTitle: Pro
+          planCardTitle: Dashboards Pro
         - PricePrimary: ''
           PriceSecondary: 'Billed annually'
           PriceSecondaryMessage: (min. 10 seats)        
@@ -175,7 +176,7 @@ pricingSections:
               limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
           planCardDescription: >-
             For organizations that need enterprise-level support and integrations.
-          planCardTitle: Enterprise
+          planCardTitle: Dashboards Enterprise
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards  
 contact:
   buttonlabel: Contact Us

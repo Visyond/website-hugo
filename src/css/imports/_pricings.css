@@ -78,7 +78,7 @@
 .price-primary-value {
   font-weight: 600;
   color: #0585ff;
-  font-size: 1.7em;
+  font-size: 2em;
   display: inline;
     @media screen and (max-width: 1024px) {
         font-size: 2em;

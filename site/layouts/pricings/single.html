@@ -6,7 +6,7 @@
     <div class="container">
       <div class="whyV__row">
         <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-          <h2 class="home-hero__title">{{ .Params.topTitle }}</h2>
+          <h2 class="home-hero__title">{{ .Params.topTitle | markdownify }}</h2>
         </div>
 
         <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
@@ -40,8 +40,27 @@
         <div class="price-card">
           <article class="card">
             <div class="card__title-wrap">
-              <img src="{{ .planCardIcon }}" class="card__image">
+              <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
               <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
+
+              <div class="price-wrapper">
+                <div class="price-wrapper-top">
+                  {{ if .PricePrimary }}
+                  <div class="price-primary-value">{{ .PricePrimary }}</div>
+                  <div class="price-primary-period">{{ .PricePrimaryPeriod | markdownify  }}</div>
+                  {{ end }}		
+                </div>           
+                
+                <div class="price-wrapper-bottom">
+                  {{ if .PriceSecondary }}
+                  <div class="price-secondary">{{ .PriceSecondary | markdownify }}</div>
+                  <div class="price-secondary-message">{{ .PriceSecondaryMessage | markdownify }}</div>
+                  {{ else }}
+                  <div class="price-secondary"><br></div>
+                  {{ end }}
+                </div> 	
+              </div>
+              
               {{ with .planCardDescription }}
               <div class="card__subtitle">
                   {{ . | markdownify }} 
@@ -59,27 +78,7 @@
                 {{ .cardButtonText }}
               </a>
             </div>
-            {{ end }}   
-
-            <hr class="divider-thin">	
-
-            <div class="price-wrapper">
-              <div class="price-wrapper-top">
-                {{ if .PricePrimary }}
-                <div class="price-primary-value">{{ .PricePrimary }}</div>
-                <div class="price-primary-period">{{ .PricePrimaryPeriod | markdownify  }}</div>
-                {{ end }}		
-              </div>           
-              
-              <div class="price-wrapper-bottom">
-                {{ if .PriceSecondary }}
-                <div class="price-secondary">{{ .PriceSecondary | markdownify  }}</div>
-                <div class="price-secondary-message">{{ .PriceSecondaryMessage | markdownify  }}</div>
-                {{ else }}
-                <div class="price-secondary"><br></div>
-                {{ end }}
-              </div> 	
-            </div>
+            {{ end }}
 
             <hr class="divider-thin">
 

@@ -476,7 +476,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page URL", name: "url", widget: string}  
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
       - {label: "Page Title", name: "title", widget: "string", required: false,}
-      - {label: "Top Title", name: "topTitle", widget: string}
+      - {label: "Top Title", name: "topTitle", widget: markdown}
       - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
 
       - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
