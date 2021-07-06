@@ -11,7 +11,7 @@ title: Pricing
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required. <br/>After the trial, choose a plan that works for you.
+  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:

@@ -93,7 +93,7 @@
 .price-wrapper-bottom {
 	font-size: 1.1em;
 	height: 1.1em;
-  margin-top: 0.8em;
+  margin-top: 0.7em;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -381,7 +381,7 @@
   width: 60%;
 
   @media screen and (max-width: 1024px) {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -409,7 +409,7 @@
   width: 60%;
 
   @media screen and (max-width: 1024px) {
-    width: 30%;
+    width: 50%;
   }
 }
 
@@ -436,7 +436,7 @@
   width: 60%;
 
   @media screen and (max-width: 1024px) {
-    width: 30%;
+    width: 50%;
   }
 }
 
