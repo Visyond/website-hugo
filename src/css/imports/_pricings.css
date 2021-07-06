@@ -45,9 +45,10 @@
   list-style-type: none;
   padding: 0;
   color: #383e4d;
-  font-size: 0.85em;
+  font-size: 0.9em;
   height: 5em;
-  margin-bottom: 0.5em;	
+  margin-bottom: 0;
+  margin-top: 1em;
 
   & > ul {
       list-style: none;
@@ -85,8 +86,8 @@
 }
 
 .price-wrapper-top {
-	font-size: 1.1em;
-	height: 3em;
+	font-size: 1em;
+	height: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -101,7 +102,8 @@
 
 .price-wrapper-bottom {
 	font-size: 1.1em;
-	height: 2em;
+	height: 1em;
+  margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
@@ -125,6 +127,7 @@
   border: 1px solid #efefef;
   border-radius: 15px;
   box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
+  border: 1px solid #e8e8e8;
 
   @media screen and (max-width: 1024px) {
     padding: 2em;
@@ -142,7 +145,7 @@
 
 
 .price-primary-period {
-  font-weight: 400; 
+  font-weight: 600; 
   color: #0585ff;
   font-size: 0.9em;
   display: block;
