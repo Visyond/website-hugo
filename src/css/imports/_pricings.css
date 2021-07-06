@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   @media screen and (max-width: 1211px) {
-      width: 95%;
+      width: 99%;
   }
   @media screen and (max-width: 1051px) {
       width: 99%;
@@ -128,16 +128,8 @@
   @media screen and (max-width: 1024px) {
     padding: 2em;
     max-width: 100%;
-}		
-  /*
-  @media screen and (max-width: 768px) {
-      max-width: 100%;
-      padding: 2em;
-      @media (max-width: 769px) {
-          padding: 1.5em;
-      }
-  } */
-
+    margin: 2em 0;
+  }		
 }
 
 .price-primary-value {
@@ -165,7 +157,7 @@
 
 
 .price-billing-note {
-  font-weight: 400;
+  font-weight: 600;
   color: #50546d; /*#0ec78b;*/
   font-size: 0.8em;
     @media screen and (max-width: 1024px) {
@@ -174,9 +166,10 @@
 }
 
 .price-min-seats {
-  font-weight: 400;
+  font-weight: 600;
   color: #50546d; /*#0ec78b;*/
   font-size: 0.8em;
+  margin-left: 0.5em;
     @media screen and (max-width: 1024px) {
         font-size: 0.9em;
     }		

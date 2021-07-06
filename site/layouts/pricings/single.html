@@ -45,19 +45,13 @@
 
               <div class="price-wrapper">
                 <div class="price-wrapper-top">
-                  {{ if .PricePrimary }}
                   <div class="price-primary-value">{{ .PricePrimary }}</div>
                   <div class="price-primary-period">{{ .PricePrimaryPeriod | markdownify  }}</div>
-                  <div class="price-min-seats">{{ .priceMinSeats | markdownify }}</div>
-                  {{ end }}		
                 </div>           
                 
                 <div class="price-wrapper-bottom">
-                  {{ if .priceBillingNote }}
                   <div class="price-billing-note">{{ .priceBillingNote | markdownify }}</div>
-                  {{ else }}
-                  <div class="price-billing-note"><br></div>
-                  {{ end }}
+                  <div class="price-min-seats">{{ .priceMinSeats | markdownify }}</div>
                 </div> 	
               </div>
 
@@ -109,7 +103,7 @@
             {{ end}}	
             <!-- END: LIMITS LIST -->
 
-            <!-- FEAUTURES LIST - MODULES -->
+            <!-- FEAUTURES LIST -->
             {{ if .featureslist }}	
             <hr class="divider-thin">
             <div class="plan-features-wrapper">
@@ -136,9 +130,8 @@
               </ul>	
             </div>
             {{ end }}
-            
+            <!-- END: FEAUTURES LIST -->
 
-            <!-- END: FEAUTURES LIST - MODULES -->
           </article>
         </div>
         {{ end }}
