@@ -22,7 +22,7 @@ pricingSections:
           cardButton:
             cardButtonText: Get Started
             cardButtonURL: /accounts/signup/
-            isButtonSpecial: false
+            isButtonContactUs: false
           featuresListHeader: 'Individual plan <br/>includes:'
           featureslist:
             - title: Access control
@@ -54,7 +54,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-            isButtonSpecial: false
+            isButtonContactUs: false
           featuresListHeader: 'Includes Individual, <br/>plus:'
           featureslist:
             - title: Spreadsheet audit
@@ -88,7 +88,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-            isButtonSpecial: false
+            isButtonContactUs: false
           featuresListHeader: 'Includes Basic, <br/>plus:'
           featureslist:
             - title: Advanced access control
@@ -127,7 +127,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
-            isButtonSpecial: true
+            isButtonContactUs: true
           featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
             - title: External sources
@@ -160,7 +160,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
-            isButtonSpecial: true
+            isButtonEnterprise: true
           featuresListHeader: 'Includes Pro, <br/>plus you can request:'
           featureslist:
             - title: Custom Integrations

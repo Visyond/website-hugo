@@ -38,7 +38,7 @@
       <div class="card__list">
         {{ range .plansCards }}
         <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 1em solid {{ .planCardLabelColor }};" {{end}}>
-          <article class="card">
+          <article class="price-card-content">
             <div class="card__title-wrap__pricing">
               <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
               <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
@@ -52,10 +52,7 @@
                     {{ .PricePrimary }}
                   </div>
                   
-                  <div class="price-primary-period" 
-                  {{ if .planCardPriceColor }} 
-                  style="color: {{ .planCardPriceColor }};" 
-                  {{ end }}>
+                  <div class="price-primary-period">
                     {{ .PricePrimaryPeriod | markdownify  }}
                   </div>
                 </div>           
@@ -76,9 +73,12 @@
             {{ with .cardButton }}
             <div class="btn-wrap">		    
               <a href="{{ .cardButtonURL }}" 
-              {{ if .isButtonSpecial }} 
-              class="btn-pricing-card-special fluid" 
-              {{ else }} class="btn-pricing-card fluid" 
+              {{ if .isButtonContactUs }} 
+              class="btn-pricing-card-contactUs fluid"
+              {{ else if .isButtonEnterprise }}
+              class="btn-pricing-card-enterprise fluid"
+              {{ else }} 
+              class="btn-pricing-card fluid" 
               {{ end }} 
               aria-label="button">	      
                 {{ .cardButtonText }}

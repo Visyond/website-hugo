@@ -505,7 +505,8 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
               ]},	
               {label: "CTA Button", name: "cardButton", widget: "object", fields: [
-                {label: "Is button special (will be diff. color)? (true / false)", name: "isButtonSpecial", widget: "boolean", default: false},
+                {label: "Is button for Contact Us CTA (will be blue)? (true / false)", name: "isButtonContactUs", widget: "boolean", default: false},
+                {label: "Is button for Enterprise? (true / false)", name: "isButtonEnterprise", widget: "boolean", default: false},
                 {label: "URL", name: "cardButtonURL", widget: "string"},
                 {label: "Text", name: "cardButtonText", widget: "string"}
               ]}

@@ -27,17 +27,15 @@
 }
 
 .card__title__pricing {
-  font-size: 2em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 900;
   color: #383e4d;
   margin-bottom: 0.5em;
 
   @media screen and (max-width: 1024px) {
       font-size: 2em;
+      text-align: center;
   }
-  @media screen and (max-width: 784px) {
-      font-size: 2em;
-  }		
 }
 
 .card__subtitle__pricing {
@@ -47,8 +45,7 @@
   color: #383e4d;
   font-size: 0.9em;
   height: 5em;
-  margin-bottom: 0;
-  margin-top: 1em;
+  margin: 1em 0;
 
   & > ul {
       list-style: none;
@@ -59,19 +56,11 @@
       margin: 1em 0;
   }
 
-  @media screen and (max-width: 1211px) {
-      font-size: 0.9em;
-  }
-  @media screen and (max-width: 1051px) {
-      font-size: 0.9em;
-  }
-  @media screen and (max-width: 784px) {
-      font-size: 1.1em;
-      height: auto;
-  }		
+
   @media screen and (max-width: 1024px) {
       font-size: 1.15em;
       height: auto;
+      text-align: center;
   }
 }
 
@@ -83,6 +72,11 @@
   align-items: flex-start;
   flex-wrap: wrap;
   /*flex: 1;*/
+
+  @media screen and (max-width: 1024px) {
+    align-items: center;
+  }	
+
 }
 
 .price-wrapper-top {
@@ -102,8 +96,8 @@
 
 .price-wrapper-bottom {
 	font-size: 1.1em;
-	height: 1em;
-  margin-top: 10px;
+	height: 1.1em;
+  margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
@@ -128,6 +122,7 @@
   border-radius: 15px;
   box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
   border: 1px solid #e8e8e8;
+  width: 100%;
 
   @media screen and (max-width: 1024px) {
     padding: 2em;
@@ -136,17 +131,24 @@
   }		
 }
 
+.price-card-content {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  font-size: 1.2em;
+}
+
 .price-primary-value {
   font-weight: 600;
   color: #0585ff;
-  font-size: 1.5em;
+  font-size: 2em;
   display: inline;
 }
 
 
 .price-primary-period {
   font-weight: 600; 
-  color: #0585ff;
+  color: #383e4d;;
   font-size: 0.9em;
   display: block;
   margin-left: 0.5em;
@@ -305,7 +307,7 @@
 
 
 .tooltipIcon {
-  color: #0585ff; 
+  color: #383e4d; 
   font-size: 18px;
   margin-left: 0.2em;
 }
@@ -335,7 +337,7 @@
   background 0.2s ease-in-out;
   border: 1px solid #0585ff;
   cursor: pointer;
-  width: 60%;
+  width: 45%;
 }
 
 .btn-pricing-card:hover {
@@ -345,7 +347,7 @@
 }    
 
 
-.btn-pricing-card-special {
+.btn-pricing-card-contactUs {
   margin: 1.3em auto 0.5em auto;
   display: inline-block;
   font-size: 14px;
@@ -359,13 +361,36 @@
   background 0.2s ease-in-out;
   border: 1px solid #0585ff;
   cursor: pointer;
-  width: 60%;
+  width: 45%;
 }
 
-.btn-pricing-card-special:hover {
+.btn-pricing-card-contactUs:hover {
   color: #0585ff;
   background: #fff;
   border: 1px solid #0585ff;
+}
+
+.btn-pricing-card-enterprise {
+  margin: 1.3em auto 0.5em auto;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding: 0.5em 0em;
+  background: #52556c;
+  text-transform: none;
+  border-radius: 5px;
+  transition: color 0.2s ease-in-out, border 0.2s ease-in-out,
+  background 0.2s ease-in-out;
+  border: 1px solid #52556c;
+  cursor: pointer;
+  width: 45%;
+}
+
+.btn-pricing-card-enterprise:hover {
+  color: #52556c;
+  background: #fff;
+  border: 1px solid #52556c;
 }  
 
 .plan-features-wrapper {
