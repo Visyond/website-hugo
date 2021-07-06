@@ -29,19 +29,20 @@ pricingSections:
               tooltip: "Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators."
           planCardIcon: /img/pricing/FREE.png
           limitsList:
-            - limitTitle: 1 project per user
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 1 dashboard per project
+            - limitTitle: 1 project / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: 1 dashboard / project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                     
-            - limitTitle: 2 scenarios per project
+                The number of online dashboards you can create in each project and share with other people.                     
+            - limitTitle: 2 scenarios / project
               limitTooltip: >-
-                The number of scenarios you can create and switch between in your projects. Not available in the Excel add-in.          
-            - limitTitle: 2 charts per project
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.
+            - limitTitle: 2 charts / project
               limitTooltip: >-
-                The number of charts you can create and add to dashboards.                          
-            - limitTitle: 2 guests per project
-              limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account."
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: 2 guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For individuals who want to easily create advanced charts and interactive dashboards.
           planCardTitle: Individual
@@ -61,20 +62,20 @@ pricingSections:
               tooltip: "Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies."                       
           planCardIcon: /img/pricing/STANDARD.png
           limitsList:
-            - limitTitle: 5 projects per user
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 5 dashboards per project
+            - limitTitle: 5 projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: 5 dashboards / project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                
-            - limitTitle: 5 scenarios per project
+                The number of online dashboards you can create in each project and share with other people. 
+            - limitTitle: 5 scenarios / project
               limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
-                spreadsheet.                
-            - limitTitle: 5 charts per project
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.               
+            - limitTitle: 5 charts / project
               limitTooltip: >-
-                The number of charts you can create and add to dashboards.                          
-            - limitTitle: 5 guests per project
-              limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: 5 guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For teams just getting started with collaborating on dashboards and spreadsheets.
           planCardTitle: Basic
@@ -100,20 +101,20 @@ pricingSections:
               tooltip: "Share spreadsheets and dashboards with the general public. Viewers don't need an account to access."                   
           planCardIcon: /img/pricing/PRO.png
           limitsList:
-            - limitTitle: 10 projects per user
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 10 dashboards per project
+            - limitTitle: 10 projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: 10 dashboards / project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                
-            - limitTitle: 10 scenarios per project
+                The number of online dashboards you can create in each project and share with other people. 
+            - limitTitle: 10 scenarios / project
               limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
-                spreadsheet.                
-            - limitTitle: 10 charts per project
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.               
+            - limitTitle: 10 charts / project
               limitTooltip: >-
-                The number of charts you can create and add to dashboards.                          
-            - limitTitle: 10 guests per project
-              limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: 10 guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For teams who want to collaborate externally.
           planCardTitle: Standard
@@ -135,20 +136,20 @@ pricingSections:
                 Connect up to 5 Excel files to a Visyond project and refer to their cells in formulas.     
           planCardIcon: /img/pricing/ADVANCED.png
           limitsList:
-            - limitTitle: Unlimited projects per user
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: Unlimited dashboards per project
+            - limitTitle: Unlimited projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: Unlimited dashboards / project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                  
-            - limitTitle: Unlimited scenarios per project
+                The number of online dashboards you can create in each project and share with other people.
+            - limitTitle: Unlimited scenarios / project
               limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
-                spreadsheet.              
-            - limitTitle: Unlimited charts per project
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.           
+            - limitTitle: Unlimited charts / project
               limitTooltip: >-
-                The number of charts you can create and add to dashboards.                          
-            - limitTitle: Unlimited guests per project
-              limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: Unlimited guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
@@ -172,20 +173,20 @@ pricingSections:
               tooltip: Install Visyond on your server.
           planCardIcon: /img/pricing/ENTERPRISE.png
           limitsList:
-            - limitTitle: Unlimited projects per user
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: Unlimited dashboards per project
+            - limitTitle: Unlimited projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: Unlimited dashboards / project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                  
-            - limitTitle: Unlimited scenarios per project
+                The number of online dashboards you can create in each project and share with other people.
+            - limitTitle: Unlimited scenarios / project
               limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
-                spreadsheet.              
-            - limitTitle: Unlimited charts per project
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.           
+            - limitTitle: Unlimited charts / project
               limitTooltip: >-
-                The number of charts you can create and add to dashboards.                          
-            - limitTitle: Unlimited guests per project
-              limitTooltip: "The number of people you can invite to view or edit your project. Each invited person must have a Visyond account.\r"
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: Unlimited guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For organizations that need enterprise-level support and integrations.
           planCardTitle: Enterprise
