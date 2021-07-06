@@ -18,7 +18,7 @@ pricingSections:
         - PricePrimary: $0
           PricePrimaryPeriod: >-
             free <br/>forever
-          PriceSecondary: ''
+          priceBillingNote: ''
           cardButton:
             cardButtonText: Get Started
             cardButtonURL: /accounts/signup/
@@ -30,12 +30,12 @@ pricingSections:
           limitsList:
             - limitTitle: 1 project per user
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 2 scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in your projects.
             - limitTitle: 1 dashboard per project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                  
+                The number of online dashboards you can create and share with other people.                     
+            - limitTitle: 2 scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in your projects. Not available in the Excel add-in.          
             - limitTitle: 2 charts per project
               limitTooltip: >-
                 The number of charts you can create and add to dashboards.                          
@@ -47,7 +47,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          PriceSecondaryMessage: ''
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -59,13 +59,13 @@ pricingSections:
           limitsList:
             - limitTitle: 5 projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 5 scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards.
-                spreadsheet.
             - limitTitle: 5 dashboards per project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                  
+                The number of online dashboards you can create and share with other people.                
+            - limitTitle: 5 scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
+                spreadsheet.                
             - limitTitle: 5 charts per project
               limitTooltip: >-
                 The number of charts you can create and add to dashboards.                          
@@ -77,8 +77,8 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          PriceSecondary: Billed annually
-          PriceSecondaryMessage: ''
+          priceBillingNote: Billed annually
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -95,13 +95,13 @@ pricingSections:
           limitsList:
             - limitTitle: 10 projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 10 scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards.
-                spreadsheet.
             - limitTitle: 10 dashboards per project
               limitTooltip: >-
-                The number of online dashboards you can create and share with other people.                  
+                The number of online dashboards you can create and share with other people.                
+            - limitTitle: 10 scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
+                spreadsheet.                
             - limitTitle: 10 charts per project
               limitTooltip: >-
                 The number of charts you can create and add to dashboards.                          
@@ -113,8 +113,8 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          PriceSecondary: 'Billed annually'
-          PriceSecondaryMessage: (min. 3 seats)
+          priceBillingNote: 'Billed annually'
+          priceMinSeats: (min. 3 seats)
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -127,13 +127,13 @@ pricingSections:
           limitsList:
             - limitTitle: Unlimited projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: Unlimited scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards.
-                spreadsheet.
             - limitTitle: Unlimited dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
+            - limitTitle: Unlimited scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
+                spreadsheet.              
             - limitTitle: Unlimited charts per project
               limitTooltip: >-
                 The number of charts you can create and add to dashboards.                          
@@ -143,8 +143,8 @@ pricingSections:
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
         - PricePrimary: ''
-          PriceSecondary: 'Billed annually'
-          PriceSecondaryMessage: (min. 10 seats)        
+          priceBillingNote: 'Billed annually'
+          priceMinSeats: (min. 10 seats)        
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -161,13 +161,13 @@ pricingSections:
           limitsList:
             - limitTitle: Unlimited projects per user
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: Unlimited scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in your spreadsheet and dashboards.
-                spreadsheet.
             - limitTitle: Unlimited dashboards per project
               limitTooltip: >-
                 The number of online dashboards you can create and share with other people.                  
+            - limitTitle: Unlimited scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in your spreadsheet and dashboards. Not available in the Excel add-in.
+                spreadsheet.              
             - limitTitle: Unlimited charts per project
               limitTooltip: >-
                 The number of charts you can create and add to dashboards.                          
