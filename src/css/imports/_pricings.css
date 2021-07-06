@@ -1,4 +1,11 @@
 /* ANNUAL/MONTHLY PRICE */
+.price-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
 .price-wrapper-top {
 	font-size: 1.1em;
 	height: 3em;
@@ -14,7 +21,7 @@
 
 .price-wrapper-bottom {
 	font-size: 1.1em;
-	height: 3em;
+	height: 2em;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -50,7 +57,7 @@
 .price-primary-value {
   font-weight: 600;
   color: #0585ff;
-  font-size: 1.4em;
+  font-size: 1.7em;
   display: inline;
     @media screen and (max-width: 1024px) {
         font-size: 2em;
@@ -64,6 +71,7 @@
   font-size: 0.9em;
   display: block;
   margin-left: 0.6em;
+  line-height: 1em;
     @media screen and (max-width: 1024px) {
         font-size: 1.1em;
     }		

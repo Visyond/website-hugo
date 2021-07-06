@@ -16,9 +16,9 @@ topSubTitle: >-
 pricingSections:
   - pricingSection:
       plansCards:
-        - BeforeBulletPoints: ''
-          PricePrimary: $0
-          PricePrimaryPeriod: seat/month
+        - PricePrimary: $0
+          PricePrimaryPeriod:: >-
+            seat / <br/>month
           PriceSecondary: ''
           cardButton:
             cardButtonText: Get Started
@@ -46,7 +46,8 @@ pricingSections:
             For individuals who want to easily create advanced charts and interactive dashboards.
           planCardTitle: Individual
         - PricePrimary: $9
-          PricePrimaryPeriod: seat/month
+          PricePrimaryPeriod: >-
+            seat / <br/>month
           PriceSecondary: Billed monthly
           PriceSecondaryMessage: ''
           cardButton:
@@ -76,7 +77,8 @@ pricingSections:
             For teams just getting started with collaborating on dashboards and spreadsheets.
           planCardTitle: Basic
         - PricePrimary: $18
-          PricePrimaryPeriod: seat/month
+          PricePrimaryPeriod:: >-
+            seat / <br/>month
           PriceSecondary: Billed annually
           PriceSecondaryMessage: ''
           cardButton:
@@ -110,11 +112,11 @@ pricingSections:
           planCardDescription: >-
             For teams who want to collaborate externally.
           planCardTitle: Standard
-        - BeforeBulletPoints: ''
-          PricePrimary: $16
-          PricePrimaryPeriod: seat/month
+        - PricePrimary: $16
+          PricePrimaryPeriod:: >-
+            seat / <br/>month
           PriceSecondary: 'Billed annually'
-          PriceSecondaryMessage: (Min. 3 seats)
+          PriceSecondaryMessage: (min. 3 seats)
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
@@ -142,10 +144,7 @@ pricingSections:
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
-        - BeforeBulletPoints: ''
-          PricePrimary: Talk to us!
-          PricePrimaryPeriod: ''
-          PriceSecondary: ''
+        - PricePrimary: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'

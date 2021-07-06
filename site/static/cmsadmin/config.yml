@@ -487,9 +487,9 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
               {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},
               {label: "PricePrimary", name: "PricePrimary", widget: "string"},
-              {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "string"},
-              {label: "PriceSecondary", name: "PriceSecondary", widget: "string"},
-              {label: "PriceSecondaryMessage", name: "PriceSecondaryMessage", widget: "string"},
+              {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "markdown"},
+              {label: "PriceSecondary", name: "PriceSecondary", widget: "markdown"},
+              {label: "PriceSecondaryMessage", name: "PriceSecondaryMessage", widget: "markdown"},
 
               {label: "Limits List", name: "limitsList", widget: "list", fields: [
                 {label: "Limit Title", name: "limitTitle", widget: "string"},

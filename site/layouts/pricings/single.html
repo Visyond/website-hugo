@@ -57,7 +57,7 @@
 
             {{ with .cardButton }}
             <div class="btn-wrap">
-              {{ if eq .Params.title "Enterprise" }}
+              {{ if eq .Params.planCardTitle "Enterprise" }}
               <a href="{{.cardButtonURL}}" class="btn-pricing-card-special fluid" aria-label="button">
               {{ else }}			    
               <a href="{{.cardButtonURL}}" class="btn-pricing-card fluid" aria-label="button">
@@ -69,22 +69,23 @@
 
             <hr class="divider-thin">	
 
-            
-            <div class="price-wrapper-top">
-              {{ if .PricePrimary }}
-              <div class="price-primary-value">{{ .PricePrimary }}</div>
-              <div class="price-primary-period">{{ .PricePrimaryPeriod }}</div>
-              {{ end }}		
-            </div>           
-            
-            <div class="price-wrapper-bottom">
-              {{ if .PriceSecondary }}
-              <div class="price-secondary">{{ .PriceSecondary }}</div>
-              <div class="price-secondary-message">{{ .PriceSecondaryMessage }}</div>
-              {{ else }}
-              <div class="price-secondary"><br></div>
-              {{ end }}
-            </div> 			
+            <div class="price-wrapper">
+              <div class="price-wrapper-top">
+                {{ if .PricePrimary }}
+                <div class="price-primary-value">{{ .PricePrimary }}</div>
+                <div class="price-primary-period">{{ .PricePrimaryPeriod | markdownify  }}</div>
+                {{ end }}		
+              </div>           
+              
+              <div class="price-wrapper-bottom">
+                {{ if .PriceSecondary }}
+                <div class="price-secondary">{{ .PriceSecondary | markdownify  }}</div>
+                <div class="price-secondary-message">{{ .PriceSecondaryMessage | markdownify  }}</div>
+                {{ else }}
+                <div class="price-secondary"><br></div>
+                {{ end }}
+              </div> 	
+            </div>
 
             <hr class="divider-thin">
 
