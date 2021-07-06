@@ -43,12 +43,19 @@
               <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
               <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
 
+
+              {{ if eq $itemSummary.title "Excel Add-in" }}
+
+
               <div class="price-wrapper">
                 <div class="price-wrapper-top">
-                  <div class="price-primary-value" 
+                  <div class="price-primary-value" style="
                   {{ if .planCardPriceColor }} 
-                  style="color: {{ .planCardPriceColor }};" 
-                  {{ end }}>
+                  color: {{ .planCardPriceColor }}; 
+                  {{ end }}
+                  {{ if eq .planCardTitle "Enterprise" }}
+                  font-size: 1.5em;
+                  {{end}}">
                     {{ .PricePrimary }}
                   </div>
                   
@@ -68,23 +75,23 @@
                   {{ . | markdownify }} 
               </div>
               {{ end }}
-            </div>
 
-            {{ with .cardButton }}
-            <div class="btn-wrap">		    
-              <a href="{{ .cardButtonURL }}" 
-              {{ if .isButtonContactUs }} 
-              class="btn-pricing-card-contactUs fluid"
-              {{ else if .isButtonEnterprise }}
-              class="btn-pricing-card-enterprise fluid"
-              {{ else }} 
-              class="btn-pricing-card fluid" 
-              {{ end }} 
-              aria-label="button">	      
-                {{ .cardButtonText }}
-              </a>
+              {{ with .cardButton }}
+              <div class="btn-wrap">		    
+                <a href="{{ .cardButtonURL }}" 
+                {{ if .isButtonContactUs }} 
+                class="btn-pricing-card-contactUs fluid"
+                {{ else if .isButtonEnterprise }}
+                class="btn-pricing-card-enterprise fluid"
+                {{ else }} 
+                class="btn-pricing-card fluid" 
+                {{ end }} 
+                aria-label="button">	      
+                  {{ .cardButtonText }}
+                </a>
+              </div>
+              {{ end }}
             </div>
-            {{ end }}
 
             <hr class="divider-thin">
 
