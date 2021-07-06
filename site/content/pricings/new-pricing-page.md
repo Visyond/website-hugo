@@ -145,13 +145,13 @@ pricingSections:
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
         - PricePrimary: ''
+          PriceSecondary: 'Billed annually'
+          PriceSecondaryMessage: (min. 10 seats)        
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
-          featuresListHeader: 'Includes Pro, plus:'
+          featuresListHeader: 'Includes Pro, plus you can request:'
           featureslist:
-            - title: Bulk Discounts
-              tooltip: Get bulk discounts for multiple subscriptions.
             - title: Custom Integrations
               tooltip: >-
                 Integrate your existing systems with Visyond.
