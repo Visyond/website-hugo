@@ -86,7 +86,6 @@
             <!-- LIMITS LIST -->
             {{ if .limitsList }}
             <div class="plan-features-wrapper">
-              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
                 {{ range .limitsList }}
                 <div class="plan-features-wrapper-li-wrapper">
@@ -115,7 +114,7 @@
             {{ if .featureslist }}	
             <hr class="divider-thin">
             <div class="plan-features-wrapper">
-
+              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
                 {{ range .featureslist }}
                 <div class="plan-features-wrapper-li-wrapper">
