@@ -2,6 +2,10 @@
   width: 95%;
   margin: 0 auto;
 
+  @media screen and (min-width: 1201px) {
+    max-width: 1200px;
+  }
+
   @media screen and (max-width: 1211px) {
     width: 99%;
   }
@@ -16,7 +20,6 @@
 .card__title-wrap__pricing {
   display: flex;
   flex-direction: column;
-  /*align-items: flex-start;*/
 
   & > img {
     margin: 1em 0;
@@ -54,7 +57,7 @@
   }
 
   @media screen and (max-width: 1024px) {
-    font-size: 1.15em;
+    font-size: 1.1em;
     height: auto;
     text-align: center;
   }
@@ -67,12 +70,10 @@
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
-  /*flex: 1;*/
 
   @media screen and (max-width: 1024px) {
     align-items: center;
   }	
-
 }
 
 .price-wrapper-top {
@@ -83,8 +84,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  /*flex: 1;*/
-  /*flex-basis: 2.5em;*/ 
+
   @media screen and (max-width: 1024px) {
     height: auto;
   }	
@@ -96,10 +96,9 @@
   margin-top: 0.8em;
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
   align-items: flex-start;
   flex-direction: row;
-  /*flex: 1;*/ 
+
   @media screen and (max-width: 1024px) {
     height: auto;
   }	
@@ -112,7 +111,6 @@
   flex-direction: column;
   align-items: center;
   width: 540px;
-  /*margin: 0 0.7em 0 0;*/
   background-color: #fff;
   border: 1px solid #efefef;
   border-radius: 15px;
@@ -120,13 +118,17 @@
   border: 1px solid #e8e8e8;
   width: 100%;
 
-  /*
   @media screen and (max-width: 1024px) {
-    padding: 2em;
-    max-width: 100%;
-    margin: 2em 0;
+    width: 80%;
   }
-  */	
+  @media screen and (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 501px) {
+    width: 90%;
+  }
+
 }
 
 .price-card:nth-child(1n) {
@@ -190,7 +192,7 @@
 
 .price-billing-note {
   font-weight: 400;
-  color: #383e4d; /*#0ec78b;*/
+  color: #383e4d;
   font-size: 0.75em;
   flex: 1;
   flex-basis: auto;
@@ -202,7 +204,7 @@
 
 .price-min-seats {
   font-weight: 600;
-  color: #50546d; /*#0ec78b;*/
+  color: #50546d;
   font-size: 0.75em;
   margin-left: 0.5em;
   flex: 1;
@@ -225,7 +227,6 @@
   color: #50546d;
   @media screen and (max-width: 1024px) {
     font-size: 1.2em;
-    /*text-align: center;*/
   }		
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
@@ -269,6 +270,12 @@
   float: right;
 }
 
+.tooltiptextPricing {
+  @media screen and (max-width: 1024px) {
+    font-size: 1em;
+  }	
+}
+
 .tooltipPricing .tooltiptextPricing {
   visibility: hidden;
   width: 260px;
@@ -288,7 +295,6 @@
   opacity: 0;
   transition: opacity 0.3s;
 }
-
 
 .tooltipPricing:hover .tooltiptextPricing {
   visibility: visible;
@@ -332,7 +338,7 @@
   @media screen and (max-width: 1024px) {
     text-align: left!important;
     padding-left: 0em;
-    font-size: 0.9em!important;
+    font-size: 1em!important;
   }  		
 }
 
@@ -437,7 +443,6 @@
 
 .plan-features-wrapper {
   color: #5f6976;
-  /*height: 9em;*/
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -460,14 +465,13 @@
 }
 
 .plan-features-wrapper ul {
-  margin: 0; /* 0 20px 0; */
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .plan-features-wrapper li {
   position: relative;
-  /*padding-left: 0.3em; */
   font-weight: 400;
   color: #0e2639;
   font-size: 0.85em;
@@ -477,10 +481,8 @@
   }
 
   @media screen and (max-width: 1024px) {
-    /*text-align: center;*/
     padding-left: 0em;
     font-size: 1.1em;
-    /*margin: 0 auto;*/
   }	
 }
 
