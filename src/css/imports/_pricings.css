@@ -303,7 +303,7 @@
 
 .tooltipPricing:hover .tooltiptextPricing {
   visibility: visible;
-  opacity: 1;
+  opacity: 0.95;
 }
 
 .tooltiptextPricing ul {
