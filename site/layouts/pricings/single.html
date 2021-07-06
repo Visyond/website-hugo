@@ -48,15 +48,15 @@
                   {{ if .PricePrimary }}
                   <div class="price-primary-value">{{ .PricePrimary }}</div>
                   <div class="price-primary-period">{{ .PricePrimaryPeriod | markdownify  }}</div>
+                  <div class="price-min-seats">{{ .PriceSecondaryMessage | markdownify }}</div>
                   {{ end }}		
                 </div>           
                 
                 <div class="price-wrapper-bottom">
                   {{ if .PriceSecondary }}
-                  <div class="price-secondary">{{ .PriceSecondary | markdownify }}</div>
-                  <div class="price-secondary-message">{{ .PriceSecondaryMessage | markdownify }}</div>
+                  <div class="price-billing-note">{{ .PriceSecondary | markdownify }}</div>
                   {{ else }}
-                  <div class="price-secondary"><br></div>
+                  <div class="price-billing-note"><br></div>
                   {{ end }}
                 </div> 	
               </div>

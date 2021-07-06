@@ -78,7 +78,7 @@
 /* ANNUAL/MONTHLY PRICE */
 .price-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   align-items: flex-start;
   /*flex: 1;*/
@@ -103,8 +103,8 @@
 	height: 2em;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+  /*justify-content: center;*/
+  align-items: flex-start;
   flex-direction: row;
   /*flex: 1;*/ 
   @media screen and (max-width: 1024px) {
@@ -164,7 +164,7 @@
 }
 
 
-.price-secondary {
+.price-billing-note {
   font-weight: 400;
   color: #50546d; /*#0ec78b;*/
   font-size: 0.8em;
@@ -173,7 +173,7 @@
     }		
 }
 
-.price-secondary-message {
+.price-min-seats {
   font-weight: 400;
   color: #50546d; /*#0ec78b;*/
   font-size: 0.8em;
@@ -193,8 +193,8 @@
   text-align: left;
   color: #50546d;
   @media screen and (max-width: 1024px) {
-    font-size: 1.15em;
-    text-align: center;
+    font-size: 1.2em;
+    /*text-align: center;*/
   }		
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
@@ -412,10 +412,10 @@ color: #0086ff;
   }
 
   @media screen and (max-width: 1024px) {
-      text-align: center;
+      /*text-align: center;*/
       padding-left: 0em;
       font-size: 1.1em;
-      margin: 0 auto;
+      /*margin: 0 auto;*/
   }	
 }
 
