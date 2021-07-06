@@ -165,34 +165,35 @@
 	
 <!-- CONTACT US -->
 {{ with .Params.contact }}	
-<section class="homeBenefits" style="background: #fafafa;">	
-  <h2 class="enterV__headline">{{ .title }}</h2>
-  <div class="header-section--divider"></div>
-  	
-  <div class="ftr-features__cards" style="margin-top: 45px;">
-    {{ range .cards }}
-    <div class="pricing__card">
-      <div class="ftr-features__card-image-wrap">
-        <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
+<section class="homeBenefits" style="background: #fafafa;">
+  <div class=container>
+    <h2 class="enterV__headline">{{ .title }}</h2>
+    <div class="header-section--divider"></div>
+      
+    <div class="ftr-features__cards" style="margin-top: 45px;">
+      {{ range .cards }}
+      <div class="pricing__card">
+        <div class="ftr-features__card-image-wrap">
+          <img src="{{ .img }}" alt="icon" class="ftr-features__card-image">
+        </div>
+                          
+        <h3 class="ftr-features__card-title">
+          {{ .title }}
+        </h3>
+          
+        {{ if .text }}       
+          <p class="sp2nd__card-text" style="font-weight:400; font-size: 1.2em;">
+            {{ .text }}
+          </p>
+        {{ end }}          	       
       </div>
-                        
-      <h3 class="ftr-features__card-title">
-        {{ .title }}
-      </h3>
-        
-      {{ if .text }}       
-        <p class="sp2nd__card-text" style="font-weight:400; font-size: 1.2em;">
-          {{ .text }}
-        </p>
-      {{ end }}          	       
+      {{ end }}
     </div>
-    {{ end }}
+  
+    <div class="btn-wrap" style="margin-bottom: 2em;">
+      <a href="#contactUs" class="btn-primary" style="text-transform: none;">Talk to Us</a>
+    </div>
   </div>
-
-  <div class="btn-wrap" style="margin-bottom: 2em;">
-    <a href="#contactUs" class="btn-primary" style="text-transform: none;">Talk to Us</a>
-  </div>
-
 </section>
 {{ end }}
 <!-- END: CONTACT US -->

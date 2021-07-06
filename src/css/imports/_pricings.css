@@ -9,11 +9,8 @@
     width: 99%;
   }
   @media screen and (max-width: 1024px) {
-    width: 80%;
-  }	
-  @media screen and (max-width: 784px) {
     width: 90%;
-  }
+  }	
 }
 
 .card__title-wrap__pricing {
