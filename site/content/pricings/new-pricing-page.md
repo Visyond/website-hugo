@@ -23,7 +23,7 @@ pricingSections:
           cardButton:
             cardButtonText: Get Started
             cardButtonURL: /accounts/signup/
-          featuresList1Header: 'Individual plan includes:'
+          featuresListHeader: 'Individual plan includes:'
           featureslist:
             - title: Access control
               tooltip: "Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators."
@@ -53,7 +53,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-          featuresList1Header: 'Includes Individual, plus:'
+          featuresListHeader: 'Includes Individual, plus:'
           featureslist:
             - title: Spreadsheet audit
               tooltip: "Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies."                       
@@ -84,7 +84,7 @@ pricingSections:
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
-          featuresList1Header: 'Includes Basic, plus:'
+          featuresListHeader: 'Includes Basic, plus:'
           featureslist:
             - title: Advanced access control
               tooltip: >-
@@ -120,7 +120,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
-          featuresList1Header: 'Includes Standard, plus:'
+          featuresListHeader: 'Includes Standard, plus:'
           featureslist:
             - title: External sources
               tooltip: >-
@@ -148,7 +148,7 @@ pricingSections:
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '/pricing/#contactUs'
-          featuresList1Header: 'Includes Pro, plus:'
+          featuresListHeader: 'Includes Pro, plus:'
           featureslist:
             - title: Bulk Discounts
               tooltip: Get bulk discounts for multiple subscriptions.
@@ -178,7 +178,7 @@ pricingSections:
           planCardDescription: >-
             For organizations that need enterprise-level support and integrations.
           planCardTitle: Enterprise
-      pricingSectionTitle: Spreadsheet-driven Dashboards  
+      pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards  
 contact:
   buttonlabel: Contact Us
   buttonlink: /request

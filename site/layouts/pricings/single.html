@@ -119,9 +119,10 @@
             <!-- FEAUTURES LIST - MODULES -->
             {{ if .featureslist }}	
             <hr class="divider-thin">
+            <!--
             {{ if eq .title "Enterprise" }}	    
             <div class="plan-features-wrapper">{{ else }}<div class="card__markdown">{{ end }}
-              <div class="before-bullet-points">{{ .featuresList1Header | markdownify }}</div>
+              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
                 {{ range .featureslist }}
                 <li>
@@ -142,6 +143,30 @@
               </ul>	
             </div>
             {{ end }}
+            -->
+
+            <div class="plan-features-wrapper">
+              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
+              <ul>
+                {{ range .featureslist }}
+                <div class="plan-features-wrapper-li-wrapper">
+                  {{ if .url }}
+                  <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                  {{ else }}
+                    {{ .title }}
+                  {{ end }}
+                            
+                  {{ if .tooltip }}
+                  <div class="tooltipPricing">  
+                    <i class="material-icons tooltipIcon">info</i>
+                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                  </div>         				
+                  {{ end }}         
+                </div>
+                {{ end }}
+              </ul>	
+            </div>
+
             <!-- END: FEAUTURES LIST - MODULES -->
           </article>
         </div>
@@ -157,7 +182,7 @@
 	
 <!-- CONTACT US -->
 {{ with .Params.contact }}	
-<section id="contactUs" class="homeBenefits" style="background: #fafafa;">	
+<section class="homeBenefits" style="background: #fafafa;">	
   <h2 class="enterV__headline">{{ .title }}</h2>
   <div class="header-section--divider"></div>
   	
@@ -191,7 +216,7 @@
 
 
 <!-- FORM -->
-<section class="homeBenefits"> 
+<section id="contactUs" class="homeBenefits"> 
   <div class="container">
     <h2 class="enterV__headline">Talk To Us</h2>
     <div class="header-section--divider"></div>

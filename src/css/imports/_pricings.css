@@ -1,3 +1,21 @@
+.container-pricing {
+  width: 90%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1211px) {
+      width: 95%;
+  }
+  @media screen and (max-width: 1051px) {
+      width: 99%;
+  }
+  @media screen and (max-width: 1024px) {
+      width: 80%;
+  }	
+  @media screen and (max-width: 784px) {
+      width: 90%;
+  }
+}
+
 /* ANNUAL/MONTHLY PRICE */
 .price-wrapper {
   display: flex;
@@ -34,12 +52,12 @@
 
 .price-card {
   position: relative;
-  padding: 1em;
+  padding: 1em 1em 2em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 540px;
-  margin: 0.5em;
+  margin: 20px 5px;
   background-color: #fff;
   border: 1px solid #efefef;
   border-radius: 15px;
@@ -247,7 +265,7 @@
 .btn-pricing-card {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 0.9em;
+  font-size: 14px;
   font-weight: 600;
   color: #0585ff;
   padding: 0.5em 0em;
@@ -271,7 +289,7 @@
 .btn-pricing-card-special {
   margin: 1.3em auto 0.5em auto;
   display: inline-block;
-  font-size: 0.9em;
+  font-size: 14px;
   font-weight: 600;
   color: #fff;
   padding: 0.5em 0em;
