@@ -44,6 +44,7 @@ pricingSections:
           planCardDescription: >-
             For individuals who want to easily create advanced charts and interactive dashboards.
           planCardTitle: Individual
+          planCardLabelColor: '#fff'
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
@@ -74,6 +75,7 @@ pricingSections:
           planCardDescription: >-
             For teams just getting started with collaborating on dashboards and spreadsheets.
           planCardTitle: Basic
+          planCardLabelColor: '#b3ebff'
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
@@ -110,6 +112,7 @@ pricingSections:
           planCardDescription: >-
             For teams who want to collaborate externally.
           planCardTitle: Standard
+          planCardLabelColor: '#65cefb'
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
@@ -142,6 +145,7 @@ pricingSections:
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
           planCardTitle: Pro
+          planCardLabelColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
           priceBillingNote: 'Billed annually'
           priceMinSeats: (min. 10 seats)        
@@ -176,6 +180,7 @@ pricingSections:
           planCardDescription: >-
             For organizations that need enterprise-level support and integrations.
           planCardTitle: Enterprise
+          planCardLabelColor: '#52556c'
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards  
 contact:
   buttonlabel: Contact Us

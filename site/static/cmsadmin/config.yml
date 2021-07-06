@@ -483,6 +483,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
             {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "string"},
             {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
+              {label: "Plan Card Label Color (#hex)", name: "planCardLabelColor", widget: "string"},
               {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
               {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
               {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},

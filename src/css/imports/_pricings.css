@@ -115,7 +115,7 @@
 
 .price-card {
   position: relative;
-  padding: 2em 1em;
+  padding: 1em 1em 2em 1em;
   display: flex;
   flex-direction: column;
   align-items: center;

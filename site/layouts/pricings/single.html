@@ -37,7 +37,11 @@
 
       <div class="card__list">
         {{ range .plansCards }}
+        {{ if .planCardLabelColor }}
+        <div class="price-card" style="border-top: 1.5em solid {{ .planCardLabelColor }};">
+        {{ else }}
         <div class="price-card">
+        {{end}}
           <article class="card">
             <div class="card__title-wrap__pricing">
               <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
