@@ -119,30 +119,7 @@
             <!-- FEAUTURES LIST - MODULES -->
             {{ if .featureslist }}	
             <hr class="divider-thin">
-            <!--
-            {{ if eq .title "Enterprise" }}	    
-            <div class="plan-features-wrapper">{{ else }}<div class="card__markdown">{{ end }}
-              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
-              <ul>
-                {{ range .featureslist }}
-                <li>
-                  {{ if .url }}
-                  <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                  {{ else }}
-                    {{ .title }}
-                  {{ end }}
-                            
-                  {{ if .tooltip }}
-                  <div class="tooltipPricing">  
-                    <i class="material-icons tooltipIcon">info</i>
-                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-                  </div>         				
-                  {{ end }}         
-                </li>
-                {{ end }}
-              </ul>	
-            </div>
-            -->
+
             <div class="plan-features-wrapper">
               <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
@@ -158,7 +135,7 @@
                             
                   {{ if .tooltip }}
                   <div class="tooltipPricing">  
-                    <i class="material-icons-outlined tooltipIcon">info</i>
+                    <i class="material-icons tooltipIcon">info</i>
                     <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
                   </div>         				
                   {{ end }}         
