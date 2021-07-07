@@ -37,22 +37,22 @@
 
       <!-- PRICING SECTION DESCRIPTION -->
       <ul class="enterSections js-image-block">
-        {{ with .planInfoBlock }}
+        {{ if .planInfoBlock }}
         <li class="enterSectionsA__block">
             <section class="enterSectionsC__text-wrap">
               <div style="display: flex; align-items: center;">
                 <h2 class="enterSectionsA__block-title" style="padding-left: 15px; display: flex; justify-content: center; align-content: center; flex-direction: column; height: 60px;">
-                    {{ .Params.planInfoBlockTitle }}
+                    {{ .planInfoBlockTitle }}
                 </h2>
               </div>
 
               <div class="enterSectionsA__block-descr">
-                {{ .Params.planInfoBlockDescription | markdownify }}
+                {{ .planInfoBlockDescription | markdownify }}
               </div>
             </section>
 
             <div class="infoC__img-wrap js-img-wrap">	    
-              <img src="{{ .Params.planInfoBlockImage }}" alt="{{ .Params.planInfoBlockImageAltText }}" class="enterSectionsA__block-img">  
+              <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="enterSectionsA__block-img">  
             </div>
         </li>
         {{ end }}
