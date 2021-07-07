@@ -36,8 +36,8 @@
       <div class="header-section--divider"></div>
 
       <!-- PRICING SECTION DESCRIPTION -->
+      {{ if .planInfoBlock }}
       <ul class="enterSections js-image-block">
-        {{ if .planInfoBlock }}
         <li class="enterSectionsA__block">
             <section class="enterSectionsC__text-wrap">
               <div style="display: flex; align-items: center;">
@@ -55,8 +55,8 @@
               <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="enterSectionsA__block-img">  
             </div>
         </li>
-        {{ end }}
       </ul>
+      {{ end }}
       <!-- END: PRICING SECTION DESCRIPTION -->
 
       <div class="card__list">
