@@ -25,8 +25,12 @@ pricingSections:
             isButtonContactUs: false
           featuresListHeader: 'Individual plan <br/>includes:'
           featureslist:
+            - title: Interactive Dashboards
+              tooltip: >- 
+                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.          
             - title: Access control
-              tooltip: "Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators."
+              tooltip: >-
+                Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.
           planCardIcon: /img/pricing/FREE.png
           limitsList:
             - limitTitle: 1 project / user
@@ -194,12 +198,177 @@ pricingSections:
           planCardPriceColor: '#52556c'
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards
       planInfoBlock:
-        planInfoBlockTitle: 'Plan desc'
+        planInfoBlockTitle: 'Advanced Charts and Dashboards Made Easy'
         planInfoBlockDescription: >-
-          Ideal if you want to do cool stuff with dashboards.
-        planInfoBlockImage: /img/home/step1.png
+          Pick one of the plans below if you want to easily create and securely share interactive online dashboards and ‘what-if’ calculators driven by your spreadsheet.
+        planInfoBlockImage: /img/home/step4.png
         planInfoBlockImageAltText: >-
-          Image alt text
+          Advanced Charts and Dashboards Made Easy
+  - pricingSection:
+      plansCards:
+        - PricePrimary: $47
+          PricePrimaryPeriod: >-
+            seat / <br/>month
+          priceBillingNote: Billed annually
+          priceMinSeats: ''
+          cardButton:
+            cardButtonText: Try for Free
+            cardButtonURL: '/accounts/signup/'
+            isButtonContactUs: false
+          featuresListHeader: 'Basic plan <br/>includes:'
+          featureslist:
+            - title: Automated Analysis
+              tooltip: >- 
+                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+            - title: Interactive Dashboards
+              tooltip: >- 
+                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+            - title: Access control
+              tooltip: >- 
+                Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.              
+            - title: Spreadsheet audit
+              tooltip: >- 
+                Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.
+          planCardIcon: /img/pricing/STANDARD.png
+          limitsList:
+            - limitTitle: 5 projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: 5 dashboards / project
+              limitTooltip: >-
+                The number of online dashboards you can create in each project and share with other people. 
+            - limitTitle: 5 scenarios / project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.               
+            - limitTitle: 5 charts / project
+              limitTooltip: >-
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: 5 guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
+          planCardDescription: >-
+            For teams just getting started with collaborating on analyses, dashboards and spreadsheets.
+          planCardTitle: Basic
+          planCardLabelColor: '#00C9FF'
+          planCardPriceColor: '#00C9FF'
+        - PricePrimary: $97
+          PricePrimaryPeriod: >-
+            seat / <br/>month
+          priceBillingNote: Billed annually
+          priceMinSeats: ''
+          cardButton:
+            cardButtonText: Try for Free
+            cardButtonURL: '/accounts/signup/'
+            isButtonContactUs: false
+          featuresListHeader: 'Includes Basic, <br/>plus:'
+          featureslist:
+            - title: Advanced access control
+              tooltip: >-
+                Protect your project from unwanted changes and unauthorized access by assigning roles to collaborators, and sharing only specific worksheets and dashboards with them.
+            - title: Automated financial statements
+              tooltip: "Generate always up-to-date, forward-looking financial statements from your spreadsheet."  
+            - title: Public sharing
+              tooltip: "Share spreadsheets and dashboards with the general public. Viewers don't need an account to access."                   
+          planCardIcon: /img/pricing/PRO.png
+          limitsList:
+            - limitTitle: 10 projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: 10 dashboards / project
+              limitTooltip: >-
+                The number of online dashboards you can create in each project and share with other people. 
+            - limitTitle: 10 scenarios / project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.               
+            - limitTitle: 10 charts / project
+              limitTooltip: >-
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: 10 guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
+          planCardDescription: >-
+            For teams who want to collaborate externally.
+          planCardTitle: Standard
+          planCardLabelColor: '#00B1FF'
+          planCardPriceColor: '#00B1FF'
+        - PricePrimary: $80
+          PricePrimaryPeriod: >-
+            seat / <br/>month
+          priceBillingNote: 'Billed annually'
+          priceMinSeats: (min. 3 seats)
+          cardButton:
+            cardButtonText: Talk to Us
+            cardButtonURL: '#contactUs'
+            isButtonContactUs: true
+          featuresListHeader: 'Includes Standard, <br/>plus:'
+          featureslist:
+            - title: External sources
+              tooltip: >-
+                Connect up to 5 Excel files to a Visyond project and refer to their cells in formulas.     
+          planCardIcon: /img/pricing/ADVANCED.png
+          limitsList:
+            - limitTitle: Unlimited projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: Unlimited dashboards / project
+              limitTooltip: >-
+                The number of online dashboards you can create in each project and share with other people.
+            - limitTitle: Unlimited scenarios / project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.           
+            - limitTitle: Unlimited charts / project
+              limitTooltip: >-
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: Unlimited guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
+          planCardDescription: >-
+            For teams that need unlimited internal and external collaboration.
+          planCardTitle: Pro
+          planCardLabelColor: '#0585ff'
+          planCardPriceColor: '#0585ff'
+        - PricePrimary: 'Talk to Us'
+          priceBillingNote: 'Billed annually'
+          priceMinSeats: (min. 10 seats)        
+          cardButton:
+            cardButtonText: Talk to Us
+            cardButtonURL: '#contactUs'
+            isButtonEnterprise: true
+          featuresListHeader: 'Includes Pro, <br/>plus you can request:'
+          featureslist:
+            - title: Custom Integrations
+              tooltip: >-
+                Integrate your existing systems with Visyond.
+            - title: White Labeling
+              tooltip: Maintain your brand identity.
+            - title: On-premise installation
+              tooltip: Install Visyond on your server.
+          planCardIcon: /img/pricing/ENTERPRISE.png
+          limitsList:
+            - limitTitle: Unlimited projects / user
+              limitTooltip: The number of simultaneously active projects that each user can work on.
+            - limitTitle: Unlimited dashboards / project
+              limitTooltip: >-
+                The number of online dashboards you can create in each project and share with other people.
+            - limitTitle: Unlimited scenarios / project
+              limitTooltip: >-
+                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.           
+            - limitTitle: Unlimited charts / project
+              limitTooltip: >-
+                The number of charts you can create and add to dashboards in each project.
+            - limitTitle: Unlimited guests / project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
+          planCardDescription: >-
+            For organizations that need enterprise-level support and integrations.
+          planCardTitle: Enterprise
+          planCardLabelColor: '#52556c'
+          planCardPriceColor: '#52556c'
+      pricingSectionTitle: Auto-analyses and Dashboards
+      planInfoBlock:
+        planInfoBlockTitle: 'Improved Performance with Auto-Analyses'
+        planInfoBlockDescription: >-
+          Pick one of the plans below if you want to automate Sensitivities, Monte Carlo Simulations, and create interactive ‘what-if’ dashboards for scenario-testing.
+        planInfoBlockImage: /img/home/step4.png
+        planInfoBlockImageAltText: >-
+          Improved Performance with Auto-Analyses
 contact:
   buttonlabel: Contact Us
   buttonlink: /request
