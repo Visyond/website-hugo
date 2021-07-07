@@ -2,10 +2,12 @@
   width: 95%;
   margin: 0 auto;
 
+  @media screen and (min-width: 1401px) {
+    max-width: 1400px;
+  }  
   @media screen and (min-width: 1201px) {
     max-width: 1200px;
   }
-
   @media screen and (max-width: 1211px) {
     width: 99%;
   }
