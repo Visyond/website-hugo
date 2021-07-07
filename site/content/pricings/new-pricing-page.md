@@ -366,7 +366,7 @@ pricingSections:
         planInfoBlockTitle: 'Improved Performance with Auto-Analyses'
         planInfoBlockDescription: >-
           Pick one of the plans below if you want to automate Sensitivities, Monte Carlo Simulations, and create interactive ‘what-if’ dashboards for scenario-testing.
-        planInfoBlockImage: /img/home/step4.png
+        planInfoBlockImage: /img/home/step2.png
         planInfoBlockImageAltText: >-
           Improved Performance with Auto-Analyses
 contact:
