@@ -483,11 +483,11 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
             {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "string"},
             
-            {label: "Plan Info Block", name: "planInfoBlock", widget: "list", fields: [
+            {label: "Plan Info Block", name: "planInfoBlock", widget: "object", fields: [
               {label: "Plan Info Block Title", name: "planInfoBlockTitle", widget: "string"},
               {label: "Plan Info Block Description", name: "planInfoBlockDescription", widget: "markdown"},
               {label: "Plan Info Block Image", name: "planInfoBlockImage", widget: image},
-              {label: "Plan Info Block Image Alt Text", name: "planInfoBlockImageAltText", widget: string, default: "image"},
+              {label: "Plan Info Block Image Alt Text", name: "planInfoBlockImageAltText", widget: string, default: "Visyond Pricing Image"}
             ]},          
 
             {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
@@ -506,12 +506,14 @@ collections: # A list of collections the CMS should be able to edit
                 {label: "Limit URL", name: "limitURL", widget: "string"},
                 {label: "Limit Tooltip", name: "limitTooltip", widget: "markdown"}
               ]},
+
               {label: "Features List Header", name: "featuresListHeader", widget: "markdown", required: false},
               {label: "Features List", name: "featureslist", widget: "list", fields: [
                 {label: "Feature Title", name: "title", widget: "string"},
                 {label: "Feature URL", name: "url", widget: "string"},
                 {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
-              ]},	
+              ]},
+
               {label: "CTA Button", name: "cardButton", widget: "object", fields: [
                 {label: "Is button for Contact Us CTA (will be blue)? (true / false)", name: "isButtonContactUs", widget: "boolean", default: false},
                 {label: "Is button for Enterprise? (true / false)", name: "isButtonEnterprise", widget: "boolean", default: false},

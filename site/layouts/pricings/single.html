@@ -37,7 +37,7 @@
 
       <!-- PRICING SECTION DESCRIPTION -->
       <ul class="enterSections js-image-block">
-        {{ range $el := .Params.planInfoBlock }}
+        {{ with .planInfoBlock }}
         <li class="enterSectionsA__block">
             <section class="enterSectionsC__text-wrap">
               <div style="display: flex; align-items: center;">
