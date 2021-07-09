@@ -201,7 +201,7 @@ pricingSections:
         planInfoBlockTitle: 'Advanced Charts and Dashboards Made Easy'
         planInfoBlockDescription: >-
           Pick one of the plans below if you want to easily create and securely share interactive online dashboards and ‘what-if’ calculators driven by your spreadsheet.
-        planInfoBlockImage: /img/home/step4.png
+        planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
         planInfoBlockImageAltText: >-
           Advanced Charts and Dashboards Made Easy
   - pricingSection:
@@ -366,7 +366,7 @@ pricingSections:
         planInfoBlockTitle: 'Improved Performance with Auto-Analyses'
         planInfoBlockDescription: >-
           Pick one of the plans below if you want to automate Sensitivities, Monte Carlo Simulations, and create interactive ‘what-if’ dashboards for scenario-testing.
-        planInfoBlockImage: /img/home/step2.png
+        planInfoBlockImage: /img/pricing/pricingAnalysisPlans.png
         planInfoBlockImageAltText: >-
           Improved Performance with Auto-Analyses
 contact:
@@ -393,5 +393,29 @@ contact:
       text: Contact us for special offers for students and instructors.
       title: Educational Software
   title: Talk to Us if You Need...
+- faqSectionContent:
+    - answersList:
+        - answer: >-
+            <strong>You never lose information.</strong> Multiple assumptions
+            can coexist in the same cell. The last added value does not
+            overwrite the existing ones. Nobody, including the project owner,
+            can modify data entered by others.
+        - answer: >-
+            <strong>You easily manage scenarios.</strong> Create and compare
+            scenarios on-the-fly with just a few clicks during meetings or
+            presentations, and quickly identify which business drivers change
+            between scenarios.
+        - answer: >-
+            <strong>You decide who sees and interacts with specific worksheets
+            and dashboards.</strong> Share only specific worksheets, reports
+            and dashboards with specific people for better control over
+            information flow and data privacy.
+        - answer: >-
+            <strong>You connect decision makers, consultants, analysts,
+            modelers, and other stakeholders together in a single secure
+            environment.</strong> Out of the box, every member of the team has
+            access to automated tools that help them do their job faster,
+            while minimizing the risk of accidental errors.
+      faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management  
 ---
 
