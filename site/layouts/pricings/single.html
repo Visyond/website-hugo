@@ -247,26 +247,31 @@
 
 
 <!-- FAQ -->
-<section class="FAQSection__text-wrap">
-  <div class="enterSectionsA__block-descr">
-    <ul style="padding-left: 0px;">
-    {{ range $list := .Params.faqSectionContent }}
-      <div class="enterSections__benefits" style="padding: 0 0 0;">
-        <div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
-          {{ .faqSectionSubTitle }}
-        </div>
-        <ul style="padding-left: 0px;">
-          {{ range $list := .answersList }}
-          <div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
-            {{ .answer | markdownify }}
+<section class="homeBenefits" style="background-color: #f1f4fc;">    
+  <div class="container">
+    <div class="enterSectionsA__block-descr">
+      <ul style="padding-left: 0px;">
+      {{ range $list := .Params.faqSectionContent }}
+        <div class="enterSections__benefits" style="padding: 0 0 0;">
+          <div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
+            {{ .faqSectionSubTitle }}
           </div>
-          {{ end }}
-        </ul>	
-      </div>
-    {{ end }}
-    </ul>
-  </div>	
+          <ul style="padding-left: 0px;">
+            {{ range $list := .answersList }}
+            <div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
+              {{ .answer | markdownify }}
+            </div>
+            {{ end }}
+          </ul>	
+        </div>
+      {{ end }}
+      </ul>
+    </div>	
+  </div>
 </section>
+
+
+
 <!-- END: FAQ -->
 
 
