@@ -503,10 +503,10 @@
 .planInfo-container {
   display:flex;
   flex-direction: row;
-}
 
 .planInfo-image-container {
-
+  width: 40%;
+  margin: 0 2% 0 0;
 }
 
 .planInfo-image {
@@ -516,6 +516,7 @@
 .planInfo-description-container {
   display: flex;
   flex-direction: column;
+  width: 58%;
 }
 
 .planInfo-title {
