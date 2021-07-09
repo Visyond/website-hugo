@@ -503,6 +503,7 @@
 .planInfo-container {
   display:flex;
   flex-direction: row;
+}
 
 .planInfo-image-container {
   width: 40%;
