@@ -499,3 +499,37 @@
   flex-wrap: nowrap;
   justify-content: space-between;
 }
+
+.planInfo-container {
+  display:flex;
+  flex-direction: row;
+}
+
+.planInfo-image-container {
+
+}
+
+.planInfo-image {
+
+}
+
+.planInfo-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.planInfo-title {
+  color: #383e4d;
+  font-size: 2em;
+  line-height: 1.1;
+  font-weight: 600;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.planInfo-description {
+  color: #383e4d;
+  font-size: 16px;
+  width: 100%;
+  font-weight: 400;
+}
