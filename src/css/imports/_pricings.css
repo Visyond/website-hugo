@@ -536,3 +536,12 @@
   width: 100%;
   font-weight: 400;
 }
+
+.faqContainer {
+
+}
+
+.faqContainer ul {
+  list-style: none;
+  padding: 0;
+}
