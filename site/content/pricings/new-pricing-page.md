@@ -11,7 +11,11 @@ title: Pricing
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you.
+  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you:
+
+  * <a href="#dashboardPlans">1. Dashboards</a>
+  * <a href="#analysesPlans">2. Dashboards + Auto-analysis</a>
+  * <a href="#statementsPlans">Financial Statements</a>
 pricingSections:
   - pricingSection:
       plansCards:
@@ -156,7 +160,7 @@ pricingSections:
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
-          planCardTitle: Pro
+          planCardTitle: Team
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
@@ -166,7 +170,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonEnterprise: true
-          featuresListHeader: 'Includes Pro, <br/>plus you can request:'
+          featuresListHeader: 'Includes Team, <br/>plus you can request:'
           featureslist:
             - title: Custom Integrations
               tooltip: >-
@@ -198,13 +202,14 @@ pricingSections:
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '1'
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards
+      pricingSectionDivID: '#dashboardPlans'
       planInfoBlock:
-        planInfoBlockTitle: 'Advanced Charts and Dashboards Made Easy'
+        planInfoBlockTitle: 'Ideal if you want to...'
         planInfoBlockDescription: >-
           Pick one of the plans below if you want to easily create and securely share interactive online dashboards and ‘what-if’ calculators driven by your spreadsheet.
         planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
         planInfoBlockImageAltText: >-
-          Advanced Charts and Dashboards Made Easy
+          Dashboard plans image
   - pricingSection:
       plansCards:
         - PricePrimary: $47
@@ -322,7 +327,7 @@ pricingSections:
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             For teams that need unlimited internal and external collaboration.
-          planCardTitle: Pro
+          planCardTitle: Team
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
@@ -332,7 +337,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonEnterprise: true
-          featuresListHeader: 'Includes Pro, <br/>plus you can request:'
+          featuresListHeader: 'Includes Team, <br/>plus you can request:'
           featureslist:
             - title: Custom Integrations
               tooltip: >-
@@ -364,10 +369,12 @@ pricingSections:
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '2'    
       pricingSectionTitle: Auto-analyses and Dashboards
+      pricingSectionDivID: '#analysesPlans'
       planInfoBlock:
-        planInfoBlockTitle: 'Improved Performance with Auto-Analyses'
+        planInfoBlockTitle: 'Ideal if you want to...'
         planInfoBlockDescription: >-
-          Pick one of the plans below if you want to automate Sensitivities, Monte Carlo Simulations, and create interactive ‘what-if’ dashboards for scenario-testing.
+          * Create and share advanced charts
+          * Create and share interactive, spreadsheet-driven dashboards
         planInfoBlockImage: /img/pricing/pricingAnalysisPlans.png
         planInfoBlockImageAltText: >-
           Improved Performance with Auto-Analyses

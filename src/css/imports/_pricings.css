@@ -549,6 +549,9 @@
 .pricingSectionTitleContainer {
   display: flex; 
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }
 
 .pricingSectionTitlePrefix {
@@ -557,8 +560,9 @@
   justify-content: center;
   align-content: center; 
   flex-flow: wrap; 
-  height: 50px; width: 55px; 
-  background-color: #0086ff; 
+  height: 50px; 
+  width: 55px; 
+  background-color: #52556c; /*#0086ff*/ 
   border-radius: 4px; 
   color: #ffffff;
   font-weight: 600;
