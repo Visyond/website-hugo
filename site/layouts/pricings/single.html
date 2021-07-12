@@ -31,7 +31,12 @@
 <section class="homeBenefits">
     <div class="container-pricing">
       {{ with .pricingSection }}
-      <h2 class="enterV__headline">{{ .pricingSectionTitle | markdownify }}</h2>
+
+      <div class="pricingSectionTitleContainer">
+        <div class="pricingSectionTitlePrefix"> {{ .pricingSectionTitlePrefix }}</div>
+        <h2 class="enterV__headline">{{ .pricingSectionTitle | markdownify }}</h2>
+      </div>
+      
 
       <div class="header-section--divider"></div>
 

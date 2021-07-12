@@ -481,7 +481,8 @@ collections: # A list of collections the CMS should be able to edit
 
       - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
           {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
-            {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "string"},
+            {label: "Pricing Section Title Prefix", name: "pricingSectionTitlePrefix", widget: "string"},
+            {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "markdown"},
             
             {label: "Plan Info Block", name: "planInfoBlock", widget: "object", fields: [
               {label: "Plan Info Block Title", name: "planInfoBlockTitle", widget: "string"},

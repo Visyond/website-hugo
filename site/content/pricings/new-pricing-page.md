@@ -196,6 +196,7 @@ pricingSections:
           planCardTitle: Enterprise
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
+      pricingSectionTitlePrefix: '1'
       pricingSectionTitle: Interactive, Spreadsheet-driven Dashboards
       planInfoBlock:
         planInfoBlockTitle: 'Advanced Charts and Dashboards Made Easy'
@@ -361,6 +362,7 @@ pricingSections:
           planCardTitle: Enterprise
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
+      pricingSectionTitlePrefix: '2'    
       pricingSectionTitle: Auto-analyses and Dashboards
       planInfoBlock:
         planInfoBlockTitle: 'Improved Performance with Auto-Analyses'
