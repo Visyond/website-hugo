@@ -61,7 +61,7 @@
           <article class="price-card-content">
             <div class="card__title-wrap__pricing">
               <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
-              <h3 class="card__title__pricing">{{ .planCardTitle }}</h3>
+              <h3 class="card__title__pricing">{{ .planCardTitle | markdownify }}</h3>
 
               <div class="price-wrapper">
                 <div class="price-wrapper-top">
@@ -69,7 +69,7 @@
                   {{ if .planCardPriceColor }} 
                   color: {{ .planCardPriceColor }}; 
                   {{ end }}
-                  {{ if eq .planCardTitle "Enterprise" }}
+                  {{ if strings.HasPrefix .planCardTitle "Enterprise") }}
                   font-size: 1.5em;
                   {{end}}">
                     {{ .PricePrimary }}
@@ -114,6 +114,7 @@
             <!-- LIMITS LIST -->
             {{ if .limitsList }}
             <div class="plan-features-wrapper">
+              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
               <ul>
                 {{ range .limitsList }}
                 <div class="plan-features-wrapper-li-wrapper">
@@ -256,6 +257,8 @@
   <div class="container">
     <div class="faqContainer">
       <h2 class="enterV__headline">{{ .Params.faqTitle }}</h2>
+      <div class="header-section--divider"></div>
+
       <ul>
         {{ range $list := .Params.faqSectionContent }}
           <div class="enterSections__benefits">

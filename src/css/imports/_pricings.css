@@ -119,16 +119,20 @@
   box-shadow: 0px -5px 10px 0px rgb(228 228 228 / 55%); 
   border: 1px solid #e8e8e8;
   width: 100%;
+  max-width: 270px;
 
   @media screen and (max-width: 1024px) {
-    width: 80%;
+    /* width: 80%; */
+    max-width: 80%;
   }
   @media screen and (max-width: 768px) {
-    width: 80%;
+    /* width: 80%; */
+    max-width: 80%;
   }
 
   @media screen and (max-width: 501px) {
-    width: 90%;
+    /* width: 90%; */
+    max-width: 90%;
   }
 
 }

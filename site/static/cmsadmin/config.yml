@@ -496,13 +496,14 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Plan Card Label Color (#hex)", name: "planCardLabelColor", widget: "string"},
               {label: "Plan Card Price Color (#hex)", name: "planCardPriceColor", widget: "string"},
               {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
-              {label: "Plan Card Title", name: "planCardTitle", widget: "string"},
+              {label: "Plan Card Title", name: "planCardTitle", widget: "markdown"},
               {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},
               {label: "PricePrimary", name: "PricePrimary", widget: "string"},
               {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "markdown"},
               {label: "Billing Note", name: "priceBillingNote", widget: "markdown"},
               {label: "Price Min. Seats", name: "priceMinSeats", widget: "markdown"},
 
+              {label: "Features List Header", name: "limitsListHeader", widget: "markdown", required: false},
               {label: "Limits List", name: "limitsList", widget: "list", fields: [
                 {label: "Limit Title", name: "limitTitle", widget: "string"},
                 {label: "Limit URL", name: "limitURL", widget: "string"},
