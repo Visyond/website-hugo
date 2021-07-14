@@ -259,12 +259,44 @@
   text-align: center;
   color: #595959;
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   -webkit-transition: 0.1s;
   -o-transition: 0.1s;
   transition: 0.1s;
   border-radius: 5px;
 }
+
+.pricing__card-subtitle {
+  font-weight: 300;
+}
+
+.pricing__card > ul {
+  margin: 0 0 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pricing__card li {
+  position: relative;
+  text-indent: 10px;
+  font-weight: 300;
+  color: #5f6976;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  &:after {
+    content: "";
+    background: #00b5b8;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 9px;
+  }
+}
+
 /* END CARDS FOR CONTACT US IF YOU NEED... SECTION */
 
 
@@ -548,7 +580,7 @@
 
 .pricingSectionTitleContainer {
   display: flex; 
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
 
@@ -566,4 +598,5 @@
   border-radius: 4px; 
   color: #ffffff;
   font-weight: 600;
+  margin: 0 0.5em 0 0;
 }

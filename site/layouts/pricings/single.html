@@ -33,7 +33,7 @@
       {{ with .pricingSection }}
 
       <div class="pricingSectionTitleContainer">
-        <div class="pricingSectionTitlePrefix"> {{ .pricingSectionTitlePrefix }}</div>
+        <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
         <h2 class="enterV__headline" id="{{ .pricingSectionDivID }}">{{ .pricingSectionTitle | markdownify }}</h2>
       </div>
       
@@ -186,7 +186,7 @@
     <h2 class="enterV__headline">{{ .title }}</h2>
     <div class="header-section--divider"></div>
       
-    <div class="ftr-features__cards" style="margin-top: 45px;">
+    <div class="ftr-features__cards">
       {{ range .cards }}
       <div class="pricing__card">
         <div class="ftr-features__card-image-wrap">
@@ -198,7 +198,7 @@
         </h3>
           
         {{ if .text }}       
-          <p class="sp2nd__card-text" style="font-weight:400; font-size: 1.2em;">
+          <p class="ftr-features__card-text" style="font-weight:400; font-size: 1.2em;">
             {{ .text }}
           </p>
         {{ end }}          	       
@@ -223,7 +223,7 @@
 <!-- FORM -->
 <section id="contactUs" class="homeBenefits"> 
   <div class="container">
-    <h2 class="enterV__headline">Talk To Us</h2>
+    <h2 class="enterV__headline">{{ .formTitle }}</h2>
     <div class="header-section--divider"></div>
 
     <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
@@ -255,6 +255,7 @@
 <section class="homeBenefits" style="background-color: #fafafa;">    
   <div class="container">
     <div class="faqContainer">
+      <h2 class="enterV__headline">{{ .faqTitle }}</h2>
       <ul>
         {{ range $list := .Params.faqSectionContent }}
           <div class="enterSections__benefits">
