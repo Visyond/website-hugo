@@ -255,7 +255,7 @@
 <section class="homeBenefits" style="background-color: #fafafa;">    
   <div class="container">
     <div class="faqContainer">
-      <h2 class="enterV__headline">{{ .faqTitle }}</h2>
+      <h2 class="enterV__headline">{{ .Params.faqTitle }}</h2>
       <ul>
         {{ range $list := .Params.faqSectionContent }}
           <div class="enterSections__benefits">
