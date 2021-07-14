@@ -69,7 +69,7 @@
                   {{ if .planCardPriceColor }} 
                   color: {{ .planCardPriceColor }}; 
                   {{ end }}
-                  {{ if strings.HasPrefix .planCardTitle "Enterprise") }}
+                  {{ if strings.HasPrefix .planCardTitle "Enterprise" }}
                   font-size: 1.5em;
                   {{end}}">
                     {{ .PricePrimary }}
