@@ -558,7 +558,7 @@
 .planInfo-description-container {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   text-align: center;
 
   @media screen and (max-width: 1024px) {

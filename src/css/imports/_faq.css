@@ -23,7 +23,7 @@
     padding: 2em 0 0 0;
 
     @media screen and (max-width: 1024px) {
-        width: 90%;
+        width: 100%;
     }
 
     &:first-child {
@@ -36,6 +36,10 @@
     overflow: hidden;
     transition: max-height 0.5s linear;
     padding: 0 4em;
+
+    @media screen and (max-width: 1024px) {
+        padding: 0 2em;
+    }
 }
 
 .faqSection--title{
@@ -47,7 +51,7 @@
     display: inline-block;
     position: relative;
     cursor: pointer;
-    padding: 0 0 0 1em;
+    padding: 0 0 0 0.5em;
 }
 
 .faqSection--title:after{

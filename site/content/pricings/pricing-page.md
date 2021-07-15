@@ -383,55 +383,6 @@ pricingSections:
         planInfoBlockImage: /img/pricing/pricingAnalysisPlans.png
         planInfoBlockImageAltText: >-
           Improved Performance with Auto-Analyses
-  - pricingSection:
-      plansCards:
-        - PricePrimary: $18
-          PricePrimaryPeriod: >-
-            seat / <br/>month
-          priceMinSeats: ''
-          cardButton:
-            cardButtonText: Try for Free
-            cardButtonURL: '/accounts/signup/'
-            isButtonContactUs: false
-          featuresListHeader: 'Standard plan <br/>includes:'
-          featureslist:
-            - title: Financial statements
-              tooltip: >- 
-                Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.                
-            - title: Role-based access control
-              tooltip: >-
-                Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.
-          planCardIcon: /img/pricing/STANDARD.png
-          limitsListHeader: 'Up to 5:'
-          limitsList:
-            - limitTitle: Projects per user
-              limitTooltip: The number of simultaneously active projects that each user can work on.
-            - limitTitle: Dashboards per project
-              limitTooltip: >-
-                The number of online dashboards you can create in each project and share with other people.
-            - limitTitle: Scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create and switch between in each of your projects. Not available in the Excel add-in.
-            - limitTitle: Charts per project
-              limitTooltip: >-
-                The number of charts you can create and add to dashboards in each project.
-            - limitTitle: Guests per project
-              limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
-          planCardDescription: >-
-            If you want to generate pro-forma financial statements.
-          planCardTitle: Financial <br/>Statements
-          planCardLabelColor: '#00C9FF'
-          planCardPriceColor: '#00C9FF'
-      pricingSectionTitlePrefix: '3'
-      pricingSectionTitle: Financial Statements Plans
-      planInfoBlock:
-        planInfoBlockTitle: 'Ideal if you want to'
-        planInfoBlockDescription: >-
-          Generate always up-to-date, forward-looking financial statements by selecting rows and columns from your spreadsheet.
-        planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
-        planInfoBlockImageAltText: >-
-          Statements plans image
 contact:
   buttonlabel: Talk to Us
   buttonlink: /request
