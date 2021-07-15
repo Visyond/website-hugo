@@ -42,9 +42,11 @@
         <!-- PRICING SECTION DESCRIPTION -->
         {{ with .planInfoBlock }}
         <div class="planInfo-container">
+          <!--
           <div class="planInfo-image-container">
             <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="planInfo-image">
           </div>
+          -->
 
           <div class="planInfo-description-container">
             <div class="planInfo-title">{{ .planInfoBlockTitle }}</div>
@@ -198,9 +200,9 @@
           </h3>
             
           {{ if .text }}       
-            <p class="ftr-features__card-text">
+            <div class="ftr-features__card-text">
               {{ .text }}
-            </p>
+            </div>
           {{ end }}          	       
         </div>
         {{ end }}
@@ -250,11 +252,26 @@
 
 
   <!-- FORM -->
+
+
   <section id="contactUs" class="homeBenefits"> 
     <div class="container">
       <h2 class="enterV__headline">{{ .Params.formTitle }}</h2>
       <div class="header-section--divider"></div>
 
+      <!--[if lte IE 8]>
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+      <![endif]-->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+        hbspt.forms.create({
+        region: "na1",
+        portalId: "3409378",
+        formId: "7d249eff-acef-44ce-8255-c9f14ba3acba"
+      });
+      </script>
+
+      <!-- OLD FORMSPREE FORM 
       <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
         <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
         <input type="hidden" id="referrer" name="Referrer" value="" /> 
@@ -263,7 +280,6 @@
           <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
           <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
           <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
-          <!-- <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/> -->
           
           <div class="form__textarea-container" style="height: 90px;">
             <textarea name="message" class="form__textarea" placeholder="Your message..." rows="2" required></textarea>
@@ -272,9 +288,9 @@
           <div class="btn-wrap">
             <input type="submit" value="Contact Us" class="btn-primary">
           </div>
-
         </div>	
       </form>
+      -->
     </div>   
   </section>           	
   <!-- END: FORM -->                          
