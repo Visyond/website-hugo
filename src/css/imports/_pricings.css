@@ -577,15 +577,6 @@
   font-weight: 400;
 }
 
-.faqContainer {
-
-}
-
-.faqContainer ul {
-  list-style: none;
-  padding: 0;
-}
-
 .pricingSectionTitleContainer {
   display: flex; 
   align-items: center;

@@ -2,7 +2,55 @@
     display: inline-block;
     width: 100%;
     text-align: left;
-@media screen and (max-width: 800px) {
-    width: 95%;
+    @media screen and (max-width: 800px) {
+        width: 95%;
+    }
 }
+
+.faqContainer {
+    
+}
+
+.faqSection {
+    padding: 20px 0 10px;
+}
+  
+.faqSection--title{
+    color: #383e4d;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.44;
+    margin-bottom: 1em;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.faqSection--title:after{
+    content: '';
+    border: solid #0086FF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: all .3s linear;
+    position: absolute;
+    right: -20px;
+    top: 6px;
+}
+
+.faqSection--title.opened:after{
+    transform: rotate(-495deg);
+    top: 10px;
+}
+
+.faqSection ul{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s linear;
+}
+
+.faqSection--title.opened + ul{
+    max-height: 1600px;
 }
