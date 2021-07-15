@@ -34,7 +34,7 @@
 .faqSection ul{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s linear;
+    transition: max-height 0.5s linear;
     padding: 0 4em;
 }
 
@@ -64,10 +64,9 @@
 }
 
 .faqSection--title.opened:after{
-    transform: rotate(-495deg);
+    transform: rotate(225deg);
     top: 10px;
 }
-
 
 .faqSection--title.opened + ul{
     max-height: 1600px;
