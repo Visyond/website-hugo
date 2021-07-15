@@ -383,6 +383,9 @@ pricingSections:
         planInfoBlockImage: /img/pricing/pricingAnalysisPlans.png
         planInfoBlockImageAltText: >-
           Improved Performance with Auto-Analyses
+DemoStripTitle: Flexible. Familiar. Scalable.
+DemoStripTitleButton: Watch Demo
+DemoStripTitleLink: /demo
 contact:
   buttonlabel: Talk to Us
   buttonlink: /request

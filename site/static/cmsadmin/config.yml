@@ -526,7 +526,11 @@ collections: # A list of collections the CMS should be able to edit
         ]}
       ]}
 
-      - {label: "Contact Us Section", name: "contact", widget: "object", fields: [
+      - {label: "Demo Strip Title", name: "DemoStripTitle", widget: "string", required: true}
+      - {label: "Demo Strip Button", name: "DemoStripTitleButton", widget: "string", required: true}
+      - {label: "Demo Strip ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}
+
+      - {label: "Talk to Us If You Need Section", name: "contact", widget: "object", fields: [
         	{label: "Title", name: "title", widget: "string"},
         	{label: Cards, name: cards, widget: list, fields: [
             {label: "Image", name: "img", widget: "image"},
@@ -536,19 +540,7 @@ collections: # A list of collections the CMS should be able to edit
         	{label: "Button label", name: "buttonlabel", widget: "string", required: false},  
         	{label: "Button link", name: "buttonlink", widget: "string", required: false}
 	      ]}
-      - {label: "Why Visyond Section", name: "whyCards", widget: "object", fields: [
-        {label: "Title", name: "title", widget: "string"},
-        {label: "Cards", name: "cards", widget: "list", fields: [
-          {label: "Title", name: "title", widget: "string"},
-          {label: "URL", name: "url", widget: "string"},
-          {label: "Icon", name: "icon", widget: "image"},
-          {label: "Description items", name: "description", widget: "list", field: {name: "desc-str", widget: "string"}}
-        ]},
-        {label: "CTA Button", name: "cta", widget: "object", fields: [
-          {label: "URL", name: "url", widget: "string"},
-          {label: "Text", name: "text", widget: "string"}
-        ]}
-      ]}
+
       - {label: "Contact Form Title", name: "formTitle", widget: "string"}
       - {label: "FAQ Title", name: "faqTitle", widget: "string"}
       - {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", fields: [
