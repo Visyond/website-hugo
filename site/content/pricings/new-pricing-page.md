@@ -385,7 +385,7 @@ pricingSections:
           Improved Performance with Auto-Analyses
   - pricingSection:
       plansCards:
-        - PricePrimary: $9
+        - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
           priceMinSeats: ''
