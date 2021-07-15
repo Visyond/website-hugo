@@ -493,7 +493,7 @@ faqSectionContent:
       - answer: >-
           We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
     faqSectionSubTitle: What payment methods are accepted?
-- answersList:
+  - answersList:
       - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
     faqSectionSubTitle: Does Visyond offer plans for students?
