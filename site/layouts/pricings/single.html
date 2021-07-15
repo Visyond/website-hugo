@@ -259,24 +259,23 @@
     <div class="header-section--divider"></div>
 
     <div class="faqContainer">
-      <ul>
-        {{ range $list := .Params.faqSectionContent }}
-          <div class="faqSection">
-            <div class="faqSection--title">
-              {{ .faqSectionSubTitle }}
-            </div>
-            <ul>
-              {{ range $list := .answersList }}
-              <div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
-                {{ .answer | markdownify }}
-              </div>
-              {{ end }}
-            </ul>	
+      {{ range $list := .Params.faqSectionContent }}
+      <div class="faqSection">
+        <div class="faqSection--title">
+          {{ .faqSectionSubTitle }}
+        </div>
+        
+        <ul>
+          {{ range $list := .answersList }}
+          <div class="faqSection--description">
+            {{ .answer | markdownify }}
           </div>
-        {{ end }}
-        </ul>
+          {{ end }}
+        </ul>	
+      </div>
+      {{ end }}
     </div>
-    </div>
+  </div>
 </section>
 <!-- END: FAQ -->
 
