@@ -255,7 +255,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams just getting started with collaborating on analyses, dashboards and spreadsheets.
+            If you want to analyze spreadsheet data and present the results with interactive dashboards.
           planCardTitle: Standard <br/>Analyses
           planCardLabelColor: '#00C9FF'
           planCardPriceColor: '#00C9FF'
@@ -297,7 +297,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams who want to collaborate externally.
+            If you want to run simulations and need external collaboration.
           planCardTitle: Pro <br/>Analyses
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
@@ -425,9 +425,7 @@ faqSectionContent:
       - answer: >-
           If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans.
       - answer: >-
-          If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.
-      - answer: >-
-          If you want to generate financial statements, pick the _Financial Statements_ plan.                    
+          If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.             
     faqSectionSubTitle: Which plan should I pick?
   - answersList:
       - answer: >-

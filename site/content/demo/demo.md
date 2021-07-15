@@ -65,10 +65,11 @@ FAQText: >-
   Find answers to common questions about Visyond
 FAQButtonText: See FAQ
 FAQButtonLink: /faq
+providesTitle: Get Started Today
 providesList:
   - text: >-
       Cloud or on-premise platform and Excel add-in
   - text: Easy to use, no complicated menus to learn
-  - text: Get started in minutes   
+  - text: Get started in minutes    
 ---
 
