@@ -48,11 +48,6 @@
     position: relative;
     cursor: pointer;
     padding: 0 0 0 1em;
-
-    &:hover {
-        font-weight: 600;
-        transition: all .3s linear;    
-    }
 }
 
 .faqSection--title:after{
@@ -80,7 +75,6 @@
 
 .faqSection--title.opened + ul{
     max-height: 1600px;
-    
 }
 
 .faqSection--description {
