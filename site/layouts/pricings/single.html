@@ -257,15 +257,15 @@
   <div class="container">
     <h2 class="enterV__headline">{{ .Params.faqTitle }}</h2>
     <div class="header-section--divider"></div>
-    
+
     <div class="faqContainer">
       <ul>
         {{ range $list := .Params.faqSectionContent }}
           <div class="faqSection">
-            <div class="faqSection--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
+            <div class="faqSection--title">
               {{ .faqSectionSubTitle }}
             </div>
-            <ul style="padding-left: 0px;">
+            <ul>
               {{ range $list := .answersList }}
               <div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
                 {{ .answer | markdownify }}

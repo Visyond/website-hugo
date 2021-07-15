@@ -489,17 +489,30 @@ faqSectionContent:
           scenarios on-the-fly with just a few clicks during meetings or
           presentations, and quickly identify which business drivers change
           between scenarios.
+    faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+  - answersList:
       - answer: >-
-          <strong>You decide who sees and interacts with specific worksheets
-          and dashboards.</strong> Share only specific worksheets, reports
-          and dashboards with specific people for better control over
-          information flow and data privacy.
+          <strong>You never lose information.</strong> Multiple assumptions
+          can coexist in the same cell. The last added value does not
+          overwrite the existing ones. Nobody, including the project owner,
+          can modify data entered by others.
       - answer: >-
-          <strong>You connect decision makers, consultants, analysts,
-          modelers, and other stakeholders together in a single secure
-          environment.</strong> Out of the box, every member of the team has
-          access to automated tools that help them do their job faster,
-          while minimizing the risk of accidental errors.
+          <strong>You easily manage scenarios.</strong> Create and compare
+          scenarios on-the-fly with just a few clicks during meetings or
+          presentations, and quickly identify which business drivers change
+          between scenarios.
+    faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+  - answersList:
+      - answer: >-
+          <strong>You never lose information.</strong> Multiple assumptions
+          can coexist in the same cell. The last added value does not
+          overwrite the existing ones. Nobody, including the project owner,
+          can modify data entered by others.
+      - answer: >-
+          <strong>You easily manage scenarios.</strong> Create and compare
+          scenarios on-the-fly with just a few clicks during meetings or
+          presentations, and quickly identify which business drivers change
+          between scenarios.
     faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
 ---
 
