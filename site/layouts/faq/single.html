@@ -13,36 +13,38 @@
 	
 	
 	<!-- FAQ SECTION -->
-	<section class="homeBenefits" style="background-color: #fafafa;">
+	<section class="enterV" style="background-color: #fff; padding-top: 0px;">
 		<div class="container">
-			<div class="faqContainer">
+			<ul class="enterSections">
 				<!-- LIST OF FAQ SECTIONS -->
 				{{ range $el := .Params.faqSection }}
-				<div class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
+				<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
 					<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .faqSectionTitle }}</h2>
-					
-					<div class="faqContainer">
-						{{ range $list := .Params.faqSectionContent }}
-						<div class="faqSection">
-						  <div class="faqSection--title">
-							{{ .faqSectionSubTitle }}
-						  </div>
-						  
-						  <ul>
-							{{ range $list := .answersList }}
-							<div class="faqSection--description">
-							  {{ .answer | markdownify }}
+					<section class="FAQSection__text-wrap">
+						<div class="enterSectionsA__block-descr">
+							<div class="faqContainer">
+								{{ range $list := .Params.faqSectionContent }}
+								<div class="faqSection">
+								  <div class="faqSection--title">
+									{{ .faqSectionSubTitle }}
+								  </div>
+								  
+								  <ul>
+									{{ range $list := .answersList }}
+									<div class="faqSection--description">
+									  {{ .answer | markdownify }}
+									</div>
+									{{ end }}
+								  </ul>	
+								</div>
+								{{ end }}
 							</div>
-							{{ end }}
-						  </ul>	
-						</div>
-						{{ end }}
-					</div>
-					
-				</div>
+						</div>	
+					</section>
+				</li>
 				{{ end }}
 				<!-- END: LIST OF FAQ SECTIONS -->
-			</div>
+			</ul>
 		</div>
 
 	</section>
