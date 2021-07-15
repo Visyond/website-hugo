@@ -18,31 +18,28 @@
 			<div class="faqContainer">
 				<!-- LIST OF FAQ SECTIONS -->
 				{{ range $el := .Params.faqSection }}
-				<li class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
+				<div class="enterSectionsA__block" style="text-align: left; margin-bottom: 1em;">
 					<h2 class="enterSectionsA__block-title" style="font-size: 2em; font-weight: 900;">{{ .faqSectionTitle }}</h2>
-					<section class="FAQSection__text-wrap">
-						<div class="enterSectionsA__block-descr">
-							<ul style="padding-left: 0px;">
-							<!-- LIST OF FAQ SECTION BLOCKS -->
-							{{ range $list := .faqSectionContent }}
-								<div class="faqSection">
-									<div class="faqSection--title">
-										{{ .faqSectionSubTitle }}
-									</div>
-									<ul>
-										{{ range $list := .answersList }}
-										<div class="faqSection--description">
-											{{ .answer | markdownify }}
-										</div>
-										{{ end }}
-									</ul>	
-								</div>
+					
+					<div class="faqContainer">
+						{{ range $list := .Params.faqSectionContent }}
+						<div class="faqSection">
+						  <div class="faqSection--title">
+							{{ .faqSectionSubTitle }}
+						  </div>
+						  
+						  <ul>
+							{{ range $list := .answersList }}
+							<div class="faqSection--description">
+							  {{ .answer | markdownify }}
+							</div>
 							{{ end }}
-							<!-- LIST OF FAQ SECTION BLOCKS -->
-							</ul>
-						</div>	
-					</section>
-				</li>
+						  </ul>	
+						</div>
+						{{ end }}
+					</div>
+					
+				</div>
 				{{ end }}
 				<!-- END: LIST OF FAQ SECTIONS -->
 			</div>
