@@ -6,7 +6,7 @@ metaTags: >-
   <meta property="og:image" content="">
   <meta property="og:description" content="Make Better Decisions, Faster. Start Free.">
   <meta property="og:url" content="https://visyond.com/pricing/">
-  <meta name="description" content="Explore Visyond during a 14-day free trial. No credit card required. After the trial, choose a plan that works for you.">
+  <meta name="description" content="Make Better Decisions, Faster. Start Free.">
 title: Pricing and Plans
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
@@ -459,15 +459,21 @@ faqTitle: Frequently Asked Questions
 faqSectionContent:
   - answersList:
       - answer: >-
-          Yes. With the free Basic Dashboards plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators. Sign up for a <strong>[free 14-day trial](/accounts/signup/)</strong> to enjoy the full Visyond experience. No credit card required.
+          Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
+      - answer: >-
+          Sign up for a [free 14-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
-          Visyond plans start from $9 seat/month for _Dashboards_ and _Financial Statements_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
+          Visyond plans start from $9 seat/month for _Dashboards_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
     faqSectionSubTitle: How much does Visyond cost?
   - answersList:
       - answer: >-
-          If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans. If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans. If you want to generate financial statements, pick the _Financial Statements_ plan.
+          If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans.
+      - answer: >-
+          If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.
+      - answer: >-
+          If you want to generate financial statements, pick the _Financial Statements_ plan.                    
     faqSectionSubTitle: Which plan should I pick?
   - answersList:
       - answer: >-
@@ -485,7 +491,7 @@ faqSectionContent:
     faqSectionSubTitle: How do I manage my billing?
   - answersList:
       - answer: >-
-          Yes. If you choose a yearly plan, you will get a 17% discount (2 months free). [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
+          [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
     faqSectionSubTitle: Do you offer discounts?
   - answersList:
       - answer: >-
@@ -496,6 +502,12 @@ faqSectionContent:
   - answersList:
       - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
-    faqSectionSubTitle: Does Visyond offer plans for students?
+    faqSectionSubTitle: Do you offer plans for students?
+providesTitle: Get Started Today
+providesList:
+  - text: >-
+      Cloud or on-premise platform and Excel add-in
+  - text: Easy to use, no complicated menus to learn
+  - text: Get started in minutes    
 ---
 
