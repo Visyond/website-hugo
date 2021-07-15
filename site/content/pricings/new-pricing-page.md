@@ -25,9 +25,6 @@ pricingSections:
             isButtonContactUs: false
           featuresListHeader: 'Basic plan <br/>includes:'
           featureslist:
-            - title: Interactive dashboards
-              tooltip: >- 
-                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.          
             - title: Role-based access control
               tooltip: >-
                 Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.
@@ -164,7 +161,6 @@ pricingSections:
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
-          priceBillingNote: 'Billed annually'
           priceMinSeats: (min. 10 seats)
           cardButton:
             cardButtonText: Talk to Us
@@ -206,7 +202,7 @@ pricingSections:
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
-          Present and share interactive dashboards by selecting inputs, outputs, and charts from your spreadsheet.
+          Create spreadsheet-driven dashboards and 'what-if' calculators, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
         planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
         planInfoBlockImageAltText: >-
           Dashboard plans image
@@ -235,9 +231,6 @@ pricingSections:
             - title: Tornado analysis
               tooltip: >- 
                 Find the most important input drivers for given decision metrics, and their impact on the output.
-            - title: Interactive dashboards
-              tooltip: >- 
-                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
             - title: Role-based access control
               tooltip: >- 
                 Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.
@@ -345,7 +338,6 @@ pricingSections:
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
-          priceBillingNote: 'Billed annually'
           priceMinSeats: (min. 10 seats)
           cardButton:
             cardButtonText: Talk to Us
@@ -405,10 +397,7 @@ pricingSections:
           featureslist:
             - title: Financial statements
               tooltip: >- 
-                Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.            
-            - title: Interactive dashboards
-              tooltip: >- 
-                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.          
+                Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.                
             - title: Role-based access control
               tooltip: >-
                 Protect your projects from unwanted changes and unauthorized access by assigning roles to collaborators.
@@ -431,7 +420,7 @@ pricingSections:
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
             If you want to generate pro-forma financial statements.
-          planCardTitle: Standard <br/>Dashboards
+          planCardTitle: Financial <br/>Statements
           planCardLabelColor: '#00C9FF'
           planCardPriceColor: '#00C9FF'
       pricingSectionTitlePrefix: '3'
@@ -470,23 +459,11 @@ faqTitle: Frequently Asked Questions
 faqSectionContent:
   - answersList:
       - answer: >-
-          <strong>You never lose information.</strong> Multiple assumptions
-          can coexist in the same cell. The last added value does not
-          overwrite the existing ones. Nobody, including the project owner,
-          can modify data entered by others.
-      - answer: >-
-          <strong>You easily manage scenarios.</strong> Create and compare
-          scenarios on-the-fly with just a few clicks during meetings or
-          presentations, and quickly identify which business drivers change
-          between scenarios.
-    faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
-  - answersList:
-      - answer: >-
-          Yes. With the free Basic Dashboards plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators. Sign up for a <strong>[free 14-day trial](/accounts/signup/)<strong> to enjoy the full Visyond experience. No credit card required.
+          Yes. With the free Basic Dashboards plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators. Sign up for a <strong>[free 14-day trial](/accounts/signup/)</strong> to enjoy the full Visyond experience. No credit card required.
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
-          Visyond plans start from 9$ seat/month for _Dashboards_ and _Financial Statements_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
+          Visyond plans start from $9 seat/month for _Dashboards_ and _Financial Statements_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
     faqSectionSubTitle: How much does Visyond cost?
   - answersList:
       - answer: >-
@@ -504,7 +481,7 @@ faqSectionContent:
     faqSectionSubTitle: Can I change my plan?
   - answersList:
       - answer: >-
-          Please log in (/accounts/login/), and navigate to the Account tab → Billing.
+          Please [log in](/accounts/login/), and navigate to the Account tab → Billing.
     faqSectionSubTitle: How do I manage my billing?
   - answersList:
       - answer: >-
@@ -512,19 +489,13 @@ faqSectionContent:
     faqSectionSubTitle: Do you offer discounts?
   - answersList:
       - answer: >-
+          We accept credit cards, and wire transfers for Team and Enterprise plans.
+      - answer: >-
+          We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
+    faqSectionSubTitle: What payment methods are accepted?
+- answersList:
+      - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
     faqSectionSubTitle: Does Visyond offer plans for students?
-  - answersList:
-      - answer: >-
-          Visyond is hosted by [DigitalOcean](https://www.digitalocean.com/). The server is located in the Netherlands.
-      - answer: >-
-          We provide a fully secure connection between customers and our server. All transferred data is sent encrypted using the [TLS/SSL protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security).
-      - answer: >-
-          All projects are stored encrypted on the server using [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), adopted by the U.S. government and included in the [ISO/IEC 18033-3 standard](https://www.iso.org/standard/54531.html).
-      - answer: >-
-          We use [Cross Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) middleware that prevents stealing your session.
-      - answer: >-
-          Our developers have access to the server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) using [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) keys. This means that no one else can access the server, and that the access keys are stored locally on the computers and are not distributed on the network.
-    faqSectionSubTitle: How secure is Visyond?
 ---
 
