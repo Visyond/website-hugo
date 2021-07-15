@@ -34,7 +34,7 @@
 
       <div class="pricingSectionTitleContainer">
         <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
-        <h2 class="enterV__headline" id="{{ .pricingSectionDivID }}">{{ .pricingSectionTitle | markdownify }}</h2>
+        <h2 class="enterV__headline" id="{{ .pricingSectionDivID }}" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
       </div>
       
 
@@ -114,7 +114,7 @@
             <!-- LIMITS LIST -->
             {{ if .limitsList }}
             <div class="plan-features-wrapper">
-              <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
+              <div class="before-bullet-points">{{ .limitsListHeader | markdownify }}</div>
               <ul>
                 {{ range .limitsList }}
                 <div class="plan-features-wrapper-li-wrapper">
@@ -199,7 +199,7 @@
         </h3>
           
         {{ if .text }}       
-          <p class="ftr-features__card-text" style="font-weight:400; font-size: 1.2em;">
+          <p class="ftr-features__card-text">
             {{ .text }}
           </p>
         {{ end }}          	       

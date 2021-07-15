@@ -14,7 +14,6 @@ topSubTitle: >-
   Explore Visyond during a 14-day free trial. No credit card required. 
   <br/><br/>After the trial, choose a plan that works for you:
   
-
   * [1. Dashboards](#dashboardPlans)
 
   * [2. Dashboards + Auto-analysis](#analysesPlans)
@@ -31,7 +30,7 @@ pricingSections:
             cardButtonText: Get Started
             cardButtonURL: /accounts/signup/
             isButtonContactUs: false
-          featuresListHeader: 'Basic Dashboards plan <br/>includes:'
+          featuresListHeader: 'Basic plan <br/>includes:'
           featureslist:
             - title: Interactive Dashboards
               tooltip: >- 
@@ -69,7 +68,7 @@ pricingSections:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Includes Basic Dashboards, <br/>plus:'
+          featuresListHeader: 'Includes Basic, <br/>plus:'
           featureslist:
             - title: Spreadsheet audit
               tooltip: >- 
@@ -105,7 +104,7 @@ pricingSections:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Includes Standard Dashboards, <br/>plus:'
+          featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
             - title: Advanced access control
               tooltip: >-
@@ -144,7 +143,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonContactUs: true
-          featuresListHeader: 'Includes Pro Dashboards, <br/>plus:'
+          featuresListHeader: 'Includes Pro, <br/>plus:'
           featureslist:
             - title: External sources
               tooltip: >-
@@ -178,7 +177,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonEnterprise: true
-          featuresListHeader: 'Includes Team Dashboards, <br/>plus you can request:'
+          featuresListHeader: 'Includes Team, <br/>plus you can request:'
           featureslist:
             - title: Integrations
               tooltip: >-
@@ -213,7 +212,7 @@ pricingSections:
       pricingSectionTitle: Dashboards
       pricingSectionDivID: 'dashboardPlans'
       planInfoBlock:
-        planInfoBlockTitle: 'Ideal if you want to...'
+        planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
           Present and share interactive dashboards by selecting inputs, outputs, and charts from your spreadsheet.
         planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
@@ -230,7 +229,7 @@ pricingSections:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Standard Analyses plan <br/>includes:'
+          featuresListHeader: 'Standard plan <br/>includes:'
           featureslist:
             - title: Sensitivity analysis
               tooltip: >- 
@@ -284,7 +283,7 @@ pricingSections:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Includes Standard Analyses, <br/>plus:'
+          featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
             - title: Monte Carlo Simulations
               tooltip: >-
@@ -326,7 +325,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonContactUs: true
-          featuresListHeader: 'Includes Pro Analyses, <br/>plus:'
+          featuresListHeader: 'Includes Pro, <br/>plus:'
           featureslist:
             - title: External sources
               tooltip: >-
@@ -360,7 +359,7 @@ pricingSections:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
             isButtonEnterprise: true
-          featuresListHeader: 'Includes Team Analyses, <br/>plus you can request:'
+          featuresListHeader: 'Includes Team, <br/>plus you can request:'
           featureslist:
             - title: Integrations
               tooltip: >-
@@ -395,7 +394,7 @@ pricingSections:
       pricingSectionTitle: Dashboards + Auto-analysis
       pricingSectionDivID: 'analysesPlans'
       planInfoBlock:
-        planInfoBlockTitle: 'Ideal if you want to...'
+        planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
           Automate sensitivities, scenarios, Monte Carlo simulations and risk analyses, and present them with interactive dashboards.
         planInfoBlockImage: /img/pricing/pricingAnalysisPlans.png
@@ -411,7 +410,7 @@ pricingSections:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Standard Statements plan <br/>includes:'
+          featuresListHeader: 'Standard plan <br/>includes:'
           featureslist:
             - title: Financial Statements
               tooltip: >- 
@@ -448,7 +447,7 @@ pricingSections:
       pricingSectionTitle: Financial Statements
       pricingSectionDivID: 'statementsPlans'
       planInfoBlock:
-        planInfoBlockTitle: 'Ideal if you want to...'
+        planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
           Generate always up-to-date, forward-looking financial statements by selecting rows and columns from your spreadsheet.
         planInfoBlockImage: /img/pricing/pricingDashboardsPlans.png
