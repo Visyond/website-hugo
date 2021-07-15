@@ -35,7 +35,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s linear;
-    padding: 0 3em;
+    padding: 0 4em;
 }
 
 .faqSection--title{
@@ -68,10 +68,6 @@
     top: 10px;
 }
 
-.faqSection--title.opened {
-    font-weight: 600;
-    transition: all .3s linear;  
-}
 
 .faqSection--title.opened + ul{
     max-height: 1600px;

@@ -1,24 +1,17 @@
 ---
 url: /pricing
 metaTags: >-
-  <meta property="og:title" content="Make Better Decisions, Faster. Start free.">
+  <meta property="og:title" content="Visyond Pricing and Plans">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
-  <meta property="og:description" content="Explore Visyond during a 14-day free trial. No credit card required. After the trial, choose a plan that works for you.">
+  <meta property="og:description" content="Make Better Decisions, Faster. Start Free.">
   <meta property="og:url" content="https://visyond.com/pricing/">
   <meta name="description" content="Explore Visyond during a 14-day free trial. No credit card required. After the trial, choose a plan that works for you.">
-title: Pricing
+title: Pricing and Plans
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required. 
-  <br/><br/>After the trial, choose a plan that works for you:
-  
-  * [1. Dashboards](#dashboardPlans)
-
-  * [2. Dashboards + Auto-analysis](#analysesPlans)
-
-  * [3. Financial Statements](#statementsPlans)
+  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -32,7 +25,7 @@ pricingSections:
             isButtonContactUs: false
           featuresListHeader: 'Basic plan <br/>includes:'
           featureslist:
-            - title: Interactive Dashboards
+            - title: Interactive dashboards
               tooltip: >- 
                 Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.          
             - title: Role-based access control
@@ -209,8 +202,7 @@ pricingSections:
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '1'
-      pricingSectionTitle: Dashboards
-      pricingSectionDivID: 'dashboardPlans'
+      pricingSectionTitle: Dashboards Plans
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
@@ -237,13 +229,13 @@ pricingSections:
             - title: Scenario analysis
               tooltip: >- 
                 Compare multiple decision metrics simultaneously under different scenarios.
-            - title: Scenario Waterfall
+            - title: Scenario waterfall
               tooltip: >- 
                 See in detail what cells change between scenarios and their impact on the variability of the output metrics.
             - title: Tornado analysis
               tooltip: >- 
                 Find the most important input drivers for given decision metrics, and their impact on the output.
-            - title: Interactive Dashboards
+            - title: Interactive dashboards
               tooltip: >- 
                 Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
             - title: Role-based access control
@@ -285,7 +277,7 @@ pricingSections:
             isButtonContactUs: false
           featuresListHeader: 'Includes Standard, <br/>plus:'
           featureslist:
-            - title: Monte Carlo Simulations
+            - title: Monte Carlo simulations
               tooltip: >-
                 Manage the risks on the output metrics when input cells are modeled probabilistically (based on experience or historical data).   
             - title: Advanced access control
@@ -391,8 +383,7 @@ pricingSections:
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '2'    
-      pricingSectionTitle: Dashboards + Auto-analysis
-      pricingSectionDivID: 'analysesPlans'
+      pricingSectionTitle: Dashboards + Auto-analysis Plans
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
@@ -412,10 +403,10 @@ pricingSections:
             isButtonContactUs: false
           featuresListHeader: 'Standard plan <br/>includes:'
           featureslist:
-            - title: Financial Statements
+            - title: Financial statements
               tooltip: >- 
                 Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.            
-            - title: Interactive Dashboards
+            - title: Interactive dashboards
               tooltip: >- 
                 Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.          
             - title: Role-based access control
@@ -444,8 +435,7 @@ pricingSections:
           planCardLabelColor: '#00C9FF'
           planCardPriceColor: '#00C9FF'
       pricingSectionTitlePrefix: '3'
-      pricingSectionTitle: Financial Statements
-      pricingSectionDivID: 'statementsPlans'
+      pricingSectionTitle: Financial Statements Plans
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
@@ -492,27 +482,49 @@ faqSectionContent:
     faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
   - answersList:
       - answer: >-
-          <strong>You never lose information.</strong> Multiple assumptions
-          can coexist in the same cell. The last added value does not
-          overwrite the existing ones. Nobody, including the project owner,
-          can modify data entered by others.
-      - answer: >-
-          <strong>You easily manage scenarios.</strong> Create and compare
-          scenarios on-the-fly with just a few clicks during meetings or
-          presentations, and quickly identify which business drivers change
-          between scenarios.
-    faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+          Yes. With the free Basic Dashboards plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators. Sign up for a <strong>[free 14-day trial](/accounts/signup/)<strong> to enjoy the full Visyond experience. No credit card required.
+    faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
-          <strong>You never lose information.</strong> Multiple assumptions
-          can coexist in the same cell. The last added value does not
-          overwrite the existing ones. Nobody, including the project owner,
-          can modify data entered by others.
+          Visyond plans start from 9$ seat/month for _Dashboards_ and _Financial Statements_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
+    faqSectionSubTitle: How much does Visyond cost?
+  - answersList:
       - answer: >-
-          <strong>You easily manage scenarios.</strong> Create and compare
-          scenarios on-the-fly with just a few clicks during meetings or
-          presentations, and quickly identify which business drivers change
-          between scenarios.
-    faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+          If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans. If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans. If you want to generate financial statements, pick the _Financial Statements_ plan.
+    faqSectionSubTitle: Which plan should I pick?
+  - answersList:
+      - answer: >-
+          Plan upgrades take place immediately. You will be charged pro-rata (for the days remaining in the current billing period) on the price difference between the new and previous plan.
+      - answer: >-
+          Plan downgrades take place at the end of the current billing cycle.
+      - answer: >-
+          Changes to the billing cycle (e.g., from monthly to annual or vice versa) will take place at the end of the current billing cycle.
+      - answer: >-
+          We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).
+    faqSectionSubTitle: Can I change my plan?
+  - answersList:
+      - answer: >-
+          Please log in (/accounts/login/), and navigate to the Account tab → Billing.
+    faqSectionSubTitle: How do I manage my billing?
+  - answersList:
+      - answer: >-
+          Yes. If you choose a yearly plan, you will get a 17% discount (2 months free). [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
+    faqSectionSubTitle: Do you offer discounts?
+  - answersList:
+      - answer: >-
+          Yes. [Contact us](#contactUs) for special offers for students and instructors.
+    faqSectionSubTitle: Does Visyond offer plans for students?
+  - answersList:
+      - answer: >-
+          Visyond is hosted by [DigitalOcean](https://www.digitalocean.com/). The server is located in the Netherlands.
+      - answer: >-
+          We provide a fully secure connection between customers and our server. All transferred data is sent encrypted using the [TLS/SSL protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security).
+      - answer: >-
+          All projects are stored encrypted on the server using [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), adopted by the U.S. government and included in the [ISO/IEC 18033-3 standard](https://www.iso.org/standard/54531.html).
+      - answer: >-
+          We use [Cross Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) middleware that prevents stealing your session.
+      - answer: >-
+          Our developers have access to the server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) using [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) keys. This means that no one else can access the server, and that the access keys are stored locally on the computers and are not distributed on the network.
+    faqSectionSubTitle: How secure is Visyond?
 ---
 

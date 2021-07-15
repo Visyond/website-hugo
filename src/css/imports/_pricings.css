@@ -484,12 +484,16 @@
   border: 1px solid #52556c;
 }  
 
+.plan-limits-wrapper {
+  flex-basis: 9em!important;
+}
+
 .plan-features-wrapper {
   color: #5f6976;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  flex-basis: 11em;
+  flex-basis: 14em;
 
   @media screen and (max-width: 1211px) {
       font-size: 0.9em;

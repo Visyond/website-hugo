@@ -34,7 +34,7 @@
 
       <div class="pricingSectionTitleContainer">
         <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
-        <h2 class="enterV__headline" id="{{ .pricingSectionDivID }}" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
+        <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
       </div>
       
 
@@ -113,7 +113,7 @@
 
             <!-- LIMITS LIST -->
             {{ if .limitsList }}
-            <div class="plan-features-wrapper">
+            <div class="plan-features-wrapper plan-limits-wrapper">
               <div class="before-bullet-points">{{ .limitsListHeader | markdownify }}</div>
               <ul>
                 {{ range .limitsList }}
@@ -221,37 +221,6 @@
 
 
 
-<!-- FORM -->
-<section id="contactUs" class="homeBenefits"> 
-  <div class="container">
-    <h2 class="enterV__headline">{{ .Params.formTitle }}</h2>
-    <div class="header-section--divider"></div>
-
-    <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
-      <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
-      <input type="hidden" id="referrer" name="Referrer" value="" /> 
-
-      <div class="form__left-column pricingFormResize" style="margin: 0;">
-        <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
-        <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
-        <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
-        <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/>
-        
-        <div class="form__textarea-container" style="height: 90px;">
-          <textarea name="message" class="form__textarea" placeholder="Tell us what you need" rows="2" required></textarea>
-        </div>   
-  
-        <div class="btn-wrap">
-          <input type="submit" value="Contact Us" class="btn-primary">
-        </div>
-
-      </div>	
-    </form>
-  </div>   
-</section>           	
-<!-- END: FORM -->                          
-
-
 <!-- FAQ -->
 <section class="homeBenefits" style="background-color: #fafafa;">    
   <div class="container">
@@ -280,9 +249,43 @@
 <!-- END: FAQ -->
 
 
+
+<!-- FORM -->
+<section id="contactUs" class="homeBenefits"> 
+  <div class="container">
+    <h2 class="enterV__headline">{{ .Params.formTitle }}</h2>
+    <div class="header-section--divider"></div>
+
+    <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+      <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+      <input type="hidden" id="referrer" name="Referrer" value="" /> 
+
+      <div class="form__left-column pricingFormResize" style="margin: 0;">
+        <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+        <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+        <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+        <!-- <input type="text" name="website" placeholder="Company website" class="form__input" style="height: 70px;"/> -->
+        
+        <div class="form__textarea-container" style="height: 90px;">
+          <textarea name="message" class="form__textarea" placeholder="Your message..." rows="2" required></textarea>
+        </div>   
+  
+        <div class="btn-wrap">
+          <input type="submit" value="Contact Us" class="btn-primary">
+        </div>
+
+      </div>	
+    </form>
+  </div>   
+</section>           	
+<!-- END: FORM -->                          
+
+
+
 <!-- BOTTOM CTA WITH VIDEO -->
 {{ partial "hexStartedInSignUp" . }}
 <!-- END: BOTTOM CTA WITH VIDEO -->
+
 
 
 <script>
