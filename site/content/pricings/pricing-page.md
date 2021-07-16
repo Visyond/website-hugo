@@ -198,7 +198,7 @@ pricingSections:
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '1'
-      pricingSectionTitle: Dashboards Plans
+      pricingSectionTitle: Dashboards
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
@@ -375,7 +375,7 @@ pricingSections:
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
       pricingSectionTitlePrefix: '2'    
-      pricingSectionTitle: Dashboards + Auto-analysis Plans
+      pricingSectionTitle: Dashboards + Auto-analysis
       planInfoBlock:
         planInfoBlockTitle: 'Ideal if you want to'
         planInfoBlockDescription: >-
