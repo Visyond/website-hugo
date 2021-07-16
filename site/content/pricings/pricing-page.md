@@ -439,7 +439,7 @@ faqSectionContent:
     faqSectionSubTitle: Can I change my plan?
   - answersList:
       - answer: >-
-          Please [log in](/accounts/login/), and navigate to the Account tab → Billing.
+          Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
     faqSectionSubTitle: How do I manage my billing?
   - answersList:
       - answer: >-
