@@ -451,11 +451,11 @@ faqSectionContent:
       - answer: >-
           We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
     faqSectionSubTitle: How can I pay?
-- answersList:
+  - answersList:
       - answer: >-
           Yes. If you need help building the model, creating dashboards, or analyzing spreadsheet data, we and our partners offer [managed services on the Visyond platform](/services).
     faqSectionSubTitle: Do you provide services?
-- answersList:
+  - answersList:
       - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
     faqSectionSubTitle: Do you offer plans for students?
