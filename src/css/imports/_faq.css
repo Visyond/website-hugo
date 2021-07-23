@@ -1,10 +1,5 @@
-.FAQSection__text-wrap {
-    display: inline-block;
-    width: 100%;
-    text-align: left;
-    @media screen and (max-width: 800px) {
-        width: 95%;
-    }
+.faqSectionContainer {
+
 }
 
 .faqContainer {

@@ -27,26 +27,28 @@
 		<div class="container">
 			<!-- LIST OF FAQ SECTIONS -->
 			{{ range $el := .Params.faqSection }}
-			<h2 class="enterV__headline">{{ .faqSectionTitle }}</h2>
+			<div class=faqSectionContainer>
+				<h2 class="enterV__headline">{{ .faqSectionTitle }}</h2>
+				<div class="header-section--divider"></div>
 
-			<div class="faqContainer">
-				{{ range $list := .faqSectionContent }}
-				<div class="faqSection">
-					<div class="faqSection--title">
-						{{ .faqSectionSubTitle }}
-					</div>
-					
-					<ul>
-						{{ range $list := .answersList }}
-						<div class="faqSection--description">
-						{{ .answer | markdownify }}
+				<div class="faqContainer">
+					{{ range $list := .faqSectionContent }}
+					<div class="faqSection">
+						<div class="faqSection--title">
+							{{ .faqSectionSubTitle }}
 						</div>
-						{{ end }}
-					</ul>	
+						
+						<ul>
+							{{ range $list := .answersList }}
+							<div class="faqSection--description">
+							{{ .answer | markdownify }}
+							</div>
+							{{ end }}
+						</ul>	
+					</div>
+					{{ end }}
 				</div>
-				{{ end }}
 			</div>
-
 			{{ end }}
 			<!-- END: LIST OF FAQ SECTIONS -->
 		</div>
