@@ -29,28 +29,24 @@
 			{{ range $el := .Params.faqSection }}
 			<h2 class="enterV__headline">{{ .faqSectionTitle }}</h2>
 
-			<section class="FAQSection__text-wrap">
-				<div class="enterSectionsA__block-descr">
-					<ul style="padding-left: 0px;">
-					<!-- LIST OF FAQ SECTION BLOCKS -->
-					{{ range $list := .faqSectionContent }}
-						<div class="enterSections__benefits" style="padding: 0 0 0;">
-							<div class="enterSections__benefits--title" style="font-size: 1.2em; font-weight: 600; text-decoration: none; color: #808080;">
-								{{ .faqSectionSubTitle }}
-							</div>
-							<ul style="padding-left: 0px;">
-								{{ range $list := .answersList }}
-								<div class="enterSectionsA__block-descr enterSectionsA__block-subtitle" style="margin-bottom: 2em;">
-									{{ .answer | markdownify }}
-								</div>
-								{{ end }}
-							</ul>	
+			<div class="faqContainer">
+				{{ range $list := .faqSectionContent }}
+				<div class="faqSection">
+					<div class="faqSection--title">
+						{{ .faqSectionSubTitle }}
+					</div>
+					
+					<ul>
+						{{ range $list := .answersList }}
+						<div class="faqSection--description">
+						{{ .answer | markdownify }}
 						</div>
-					{{ end }}
-					<!-- LIST OF FAQ SECTION BLOCKS -->
-					</ul>
-				</div>	
-			</section>
+						{{ end }}
+					</ul>	
+				</div>
+				{{ end }}
+			</div>
+
 			{{ end }}
 			<!-- END: LIST OF FAQ SECTIONS -->
 		</div>
