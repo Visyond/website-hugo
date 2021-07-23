@@ -1,7 +1,8 @@
 ---
 url: /faq
 title: FAQ
-coverHeader: Frequently Asked Questions
+topTitle: Frequently Asked Questions
+topSubTitle: Get the answers to your questions.
 metaTags: >-
   <meta property="og:title" content="How is Visyond different?">
   <meta property="og:type" content="website">

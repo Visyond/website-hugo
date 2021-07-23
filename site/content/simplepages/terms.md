@@ -27,8 +27,6 @@ We claim no intellectual property rights over the User Content. Your profile and
 
 Your use of the Visyond Service is also subject to the Visyond Privacy Policy in effect at the time of your use, which is incorporated herein as though set forth in full. You can review the most current version of the Visyond Privacy Policy.
 
-With respect to the User Content, you hereby do and shall grant to Visyond a worldwide, non-exclusive, revocable, royalty-free, fully paid, sub-licensable, and transferable license to use, host, store, reproduce, modify, create derivative works, communicate, publish, publicly perform, publicly display, distribute and transmit the content.
-
 Any feedback, comments, or suggestions you may provide regarding Visyond is entirely voluntary and we will be free to use such feedback, comments or suggestions as we see fit and without any obligation to you.
 
 You understand and acknowledge that you are responsible for any User Content you submit or contribute and that you have full responsibility for such content, including its compliance with laws and regulations, reliability, accuracy and appropriateness. Any content and/or opinions uploaded, expressed or submitted to the Website, and all articles and responses to questions and other content, other than the content provided by the Company, are solely the opinion and the responsibility of the person or entity submitting them and do not necessarily reflect the opinion of the Company.

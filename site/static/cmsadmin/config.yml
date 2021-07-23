@@ -1189,7 +1189,8 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: false}
+      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
       - {label: "FAQ Section", name: "faqSection", widget: "list", 
         fields: [
           {label: "FAQ Section Title", name: "faqSectionTitle", widget: "string", required: true},		
