@@ -252,7 +252,7 @@ faqSection:
         faqSectionSubTitle: Do you provide services?
       - answersList:
           - answer: >-
-              Yes. <a href="#hs-chat-open">Contact us</a> for special offers for students and instructors.
+              Yes. <a id="openChat">Contact us</a> for special offers for students and instructors.
         faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
   - faqSectionContent:

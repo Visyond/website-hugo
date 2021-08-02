@@ -496,6 +496,12 @@ $(function () {
     }
     
 
+    //=====OPEN CHAT (hubspot)=====
+    document.getElementById('openChat').onclick = function() {
+      window.HubSpotConversations.widgset.open();  
+    }​;​
+
+
     //=====LOGO TRUSTED SLIDER=====
 
     function logoSlide() {
