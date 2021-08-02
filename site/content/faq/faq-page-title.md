@@ -17,33 +17,33 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              Visyond is for everyone who is involved in decision-making based on spreadsheets:
-
-              * **Analysts** building the model and analyzing scenarios, sensitivities, etc.
-
-              * **Managers** coordinating assumption gathering and creating dashboards
-
-              * **Auditors who** need to track changes and debug formulas
-
-              * **Decision-makers** who need to interact with user-friendly dashboards without the complexities of spreadsheets
+              Visyond is for everyone who is involved in decision-making based on spreadsheets.
+          - answer: >-
+              **Analysts** building the model and analyzing scenarios, sensitivities, etc.
+          - answer: >-
+              **Managers** coordinating assumption gathering and creating dashboards.
+          - answer: >-
+              **Auditors who** need to track changes and debug formulas.
+          - answer: >-
+              **Decision-makers** who need to interact with user-friendly dashboards without the complexities of spreadsheets.
         faqSectionSubTitle: Is Visyond for me?
       - answersList:
           - answer: >-
-              * Budgeting and Forecasting
-
-              * Budget vs Actuals
-
-              * Sensitivity and Scenario Analyses
-
-              * Risk management using Monte Carlo Simulations
-
-              * Pro-forma financial statements connected to scenarios in the spreadsheet
-
-              * Investment and valuation analysis
-
-              * Finding the root cause of errors
-
-              * Maintaining the model in one place while sharing parts of it only with specific people
+              Budgeting and Forecasting
+          - answer: >-
+              Budget vs Actuals
+          - answer: >-
+              Sensitivity and Scenario Analyses
+          - answer: >-
+              Risk management using Monte Carlo Simulations
+          - answer: >-
+              Pro-forma financial statements connected to scenarios in the spreadsheet
+          - answer: >-
+              Investment and valuation analysis
+          - answer: >-
+              Finding the root cause of errors
+          - answer: >-
+              Maintaining the model in one place while sharing parts of it only with specific people
         faqSectionSubTitle: What are the typical use-cases?
     faqSectionTitle: What can I do with Visyond?
   - faqSectionContent:
