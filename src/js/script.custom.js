@@ -269,7 +269,7 @@ $(function () {
         if(copyrights) {
             copyrights.each(function () {
                 $(this).html(function(  ) {
-                    return '2011-' + date.getFullYear() + '&copy; Visyond. All rights reserved'
+                    return '2011-' + date.getFullYear() + '&copy; Visyond. All rights reserved.'
                 });
             })
         }

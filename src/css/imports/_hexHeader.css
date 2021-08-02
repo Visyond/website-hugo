@@ -102,10 +102,6 @@ header.scrolled + .headerFix{
 }
 #trialButton{
     white-space: nowrap;
-    color: #fff !important;
-    font-weight: 700 !important;
-    background: #0585ff !important;
-    padding: .5em 2em !important;
 @media screen and (max-width: 1201px) {
     margin-left: auto;
     & .nav__link--primary {
