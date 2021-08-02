@@ -102,7 +102,7 @@
 
 @media screen and (max-width: 1201px) {
     padding: 0;
-    font-weight: 400;
+    font-weight: 600;
 }
 }
 
@@ -247,6 +247,9 @@
     margin: 0;
     padding: 1.5em 1em;
     width: 100%;
+    @media screen and (max-width: 1201px) {
+      padding: 0;
+  }    
 }
 
 .dropdown-toggle__group-list-item-link {
