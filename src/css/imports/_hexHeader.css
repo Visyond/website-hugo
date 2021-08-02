@@ -76,7 +76,7 @@ header.scrolled + .headerFix{
 }
 .hexHeader.scrolled{
     background-color: #fafafa;
-    box-shadow: 0 2px 22px 0 rgba(0, 0, 0, 0.34);
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.10);
     padding: 15px 0;
     position: fixed;
 }
