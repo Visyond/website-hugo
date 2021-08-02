@@ -238,7 +238,7 @@ faqSection:
         faqSectionSubTitle: How do I manage my billing?
       - answersList:
           - answer: >-
-              [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
+              Contact us for bulk discounts if you are purchasing 10+ seats.
         faqSectionSubTitle: Do you offer discounts?
       - answersList:
           - answer: >-
@@ -252,18 +252,18 @@ faqSection:
         faqSectionSubTitle: Do you provide services?
       - answersList:
           - answer: >-
-              Yes. [Contact us](#contactUs) for special offers for students and instructors.
+              Yes. <a onclick="window.hubspot.messages.EXPERIMENTAL_API.requestWidgetOpen();">Contact us</a> for special offers for students and instructors.
         faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
   - faqSectionContent:
       - answersList:
           - answer: >-
-              Please [see our Partners page](https://visyond.com/partner-with-visyond/) for more information.
+              Please [see our Partners page](/partner-with-visyond/) for more information.
         faqSectionSubTitle: Do you have a partnership program?
       - answersList:
           - answer: >-
-              We and our partners [offer a variety of services](https://visyond.com/services/).
-        faqSectionSubTitle: Do you offer services?
-    faqSectionTitle: Partners and Services
+              Please see [the list of our partners](/partners).
+        faqSectionSubTitle: Who are your partners?
+    faqSectionTitle: Partners
 ---
 
