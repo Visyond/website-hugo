@@ -55,7 +55,7 @@ solDropdownCol:
       - descr: Improve the quality of your investment decisions.
         image: /img/audit-mode@2x.png
         path: /solutions/private-equity-venture-capital
-        title: M&A | Investment Analysis | PE&VC
+        title: M&A, Investment Analysis, PE&VC
       - descr: >-
           Risk management software for banks - better lending decisions and
           higher portfolio profitability.
