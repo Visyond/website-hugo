@@ -56,6 +56,15 @@
 
 .hexNav__item {
     position: relative;
+
+    &:before { /* https://stackoverflow.com/questions/556153/inline-elements-shifting-when-made-bold-on-hover/20249560#20249560 */
+      display: block;
+      content: attr(title);
+      font-weight: 600;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;   
+     }
 }
 
 .hexNav__link {
@@ -81,16 +90,7 @@
      /* background: #fff; */
      color: #0585ff;
      font-weight: 600;
- }
-
- &:before { /* https://stackoverflow.com/questions/556153/inline-elements-shifting-when-made-bold-on-hover/20249560#20249560 */
-  display: block;
-  content: attr(title);
-  font-weight: 600;
-  height: 0;
-  overflow: hidden;
-  visibility: hidden;   
- }
+}
 
 &--primary {
      color: #fff !important;
