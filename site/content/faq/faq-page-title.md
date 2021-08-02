@@ -17,246 +17,207 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>You never lose information.</strong> Multiple assumptions
-              can coexist in the same cell. The last added value does not
-              overwrite the existing ones. Nobody, including the project owner,
-              can modify data entered by others.
-          - answer: >-
-              <strong>You easily manage scenarios.</strong> Create and compare
-              scenarios on-the-fly with just a few clicks during meetings or
-              presentations, and quickly identify which business drivers change
-              between scenarios.
-          - answer: >-
-              <strong>You decide who sees and interacts with specific worksheets
-              and dashboards.</strong> Share only specific worksheets, reports
-              and dashboards with specific people for better control over
-              information flow and data privacy.
-          - answer: >-
-              <strong>You connect decision makers, consultants, analysts,
-              modelers, and other stakeholders together in a single secure
-              environment.</strong> Out of the box, every member of the team has
-              access to automated tools that help them do their job faster,
-              while minimizing the risk of accidental errors.
-        faqSectionSubTitle: Visyond is built for secure collaboration and knowledge management
+              Visyond is for everyone who is involved in decision-making based on spreadsheets:
+
+              * **Analysts** building the model and analyzing scenarios, sensitivities, etc.
+              * **Managers** coordinating assumption gathering and creating dashboards
+              * **Auditors who** need to track changes and debug formulas
+              * **Decision-makers** who need to interact with user-friendly dashboards without the complexities of spreadsheets
+        faqSectionSubTitle: Is Visyond for me?
       - answersList:
           - answer: >-
-              <strong>You know what’s happening in your projects.</strong>
-              Multiple collaborators can work on the same project, and Visyond
-              will track and report all assumptions created by multiple
-              collaborators, attachments, and conversations.
+              Budgeting and Forecasting
           - answer: >-
-              <strong>You have a bird’s-eye view of your spreadsheets.</strong>
-              At a glance you will be able to see all scenarios and assumptions
-              that drive your spreadsheets, analyses and dashboards created by
-              different collaborators, errors and their root causes,
-              conversations and attachments.
+              Budget vs Actuals
           - answer: >-
-              <strong>You are in full control of all the steps of your
-              workflow.</strong> From spreadsheet modeling and auditing, data
-              gathering, forecasting and scenario planning, to the presentation
-              of interactive dashboards, financial statements and reports. All
-              this happens in one place, creating a single source of truth, in
-              the same environment where you carry out calculations.
-        faqSectionSubTitle: Visyond is built for data tracking and to provide real-time insights
-      - answersList:
+              Sensitivity and Scenario Analyses
           - answer: >-
-              <strong>You visualize model structure,</strong> detect errors and
-              potential data inconsistencies in real time, and easily understand
-              formulas thanks to the option to use natural language (e.g.,
-              Revenues[2021] = Revenues[2020] * (1 + growth[2021) vs B3 = B2 * (
-              1 + A3) ).
+              Risk management using Monte Carlo Simulations
           - answer: >-
-              <strong>You save countless hours of tracking errors in the
-              spreadsheet.</strong> Instantly identify errors, their propagation
-              chain and root cause, and navigate precedent and dependent cells.
-        faqSectionSubTitle: Visyond is built for reducing the risk of accidental errors
-    faqSectionTitle: How is Visyond different from a general purpose spreadsheet?
+              Pro-forma financial statements connected to scenarios in the spreadsheet
+          - answer: >-
+              Investment and valuation analysis
+          - answer: >-
+              Finding the root cause of errors
+          - answer: >-
+              Maintaining the model in one place while sharing parts of it only with specific people
+        faqSectionSubTitle: What are the typical use-cases?
+    faqSectionTitle: What can I do with Visyond?
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>You analyze formula-driven data on the fly.</strong>
-              Automate and carry out, in minutes, analyses and stress-tests that
-              used hours or days to set up.
-          - answer: >-
-              <strong>You analyze data in the same place where you carry out
-              calculations and create visualizations.</strong> Visyond connects
-              spreadsheets and their outputs directly to collaborative, flexible
-              and automated analysis tools. Each collaborator can run their own
-              set of analyses on-the-fly, without overwriting or changing
-              others’ work. Visyond then connects the outputs of analyses to
-              interactive, spreadsheet-driven dashboards, allowing collaborators
-              to view the outcome of your analyses and/or interact with the
-              spreadsheet without actually touching or seeing the spreadsheet.
-          - answer: >-
-              <strong>You operate with real-time data.</strong> You don’t have
-              to waste time on data preparation or risk to introduce errors
-              while transferring data between modeling software and
-              visualization or reporting tools. All changes in the models are
-              immediately reflected in the analyses that you run and in the
-              interactive dashboards you distribute to stakeholders.
-        faqSectionSubTitle: 'Visyond is built for automation, flexibility and convenience'
-      - answersList:
-          - answer: >-
-              <strong>You remove bottlenecks.</strong> Empower collaborators to
-              contribute their own analyses in self-service mode, without
-              depending on modelers and analysts.
-          - answer: >-
-              <strong>You don’t overwrite other people’s work.</strong>
-              Collaborators that contribute their analyses will not overwrite
-              each other’s work so you can safely collaborate without fear of
-              losing important information.
-        faqSectionSubTitle: >-
-          Visyond is built for self-service collaborative analysis and decision
-          making
-    faqSectionTitle: How is Visyond different from analytics tools?
+              **Visyond is a collaborative workspace** for your spreadsheets and scenarios that connects them to automated analysis tools and real-time interactive dashboards that use the spreadsheet as a calculation engine.
+        faqSectionSubTitle: You don’t need many tools to get the job done
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>Visyond and BI Tools are not directly comparable:</strong>
-              they are two different types of applications with different focus.
-              Visyond has general BI functionalities. BI Tools alone cannot do
-              what Visyond does.
-        faqSectionSubTitle: Visyond and BI Tools are not directly comparable
-      - answersList:
+              **Visyond ensures no data gets lost during the collaboration process** by tracking changes and saving each and every assumption added to the project without overwriting existing ones.
           - answer: >-
-              <strong>Models and visualizations use the same data
-              source.</strong> Dashboards and calculators are connected directly
-              to your spreadsheets without additional data preparation,
-              processing and migrations.
+              **Visyond ensures the integrity of data.** Nobody, including the project owner, can modify data entered by others. You have a bird’s-eye view of your projects that shows you assumptions, scenarios, analyses and dashboards created by collaborators.
           - answer: >-
-              <strong>Not only backward-looking.</strong> Build forward-looking
-              projections and forecasts based not only on raw data but also on
-              formulas from your spreadsheet models.
-        faqSectionSubTitle: Visyond is built for real-time data updates
-      - answersList:
-          - answer: >-
-              <strong>Interact with spreadsheets through a secure, always
-              up-to-date presentation layer.</strong> Create interactive,
-              spreadsheet-driven calculators and dashboards, and share with each
-              stakeholder only what they need to see or interact with. With
-              dashboard’s controls (sliders, drop-downs, etc.) connected
-              directly to the spreadsheet cells, you can let collaborators query
-              the spreadsheet and get the outputs without seeing or modifying
-              the spreadsheet. You can allow collaborators to apply certain
-              scenarios from you spreadsheet to the dashboard they see.
-          - answer: >-
-              <strong>Empower collaborators to test assumptions
-              independently</strong> and self-serve on ‘what-if’ questions,
-              while shielding them from sensitive or unnecessary information.
-        faqSectionSubTitle: Visyond is built for self-service and interactivity
-    faqSectionTitle: How is Visyond different from BI / data visualization tools?
+              **Scenario management becomes a breeze.** Your team can extend each others’ scenarios without breaking the spreadsheet or dealing with multiple versions.
+        faqSectionSubTitle: Planning and forecasting becomes a truly collaborative experience
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong> Like any other spreadsheet, Visyond is not a Big Data
-              platform.</strong>. Instead, we focus on formula-based
-              calculations. If you want to operate on more than 10,000 rows,
-              1,000 columns or 128 worksheets, then Visyond might not be what
-              you are looking for. However, you can use totals/aggregated data
-              as assumptions to drive your predictive model.
-        faqSectionSubTitle: 'Visyond is not ‘Big Data’ '
-      - answersList:
+              **Assign roles** to collaborators (e.g. viewer or editor) and **share only specific worksheets and dashboards** with them, protecting your projects from unauthorized access.
           - answer: >-
-              <strong>Visyond is a collaboration-first platform</strong> that
-              combines spreadsheets, automated analysis and spreadsheet-driven
-              visualizations into a streamlined, integrated workflow.
-        faqSectionSubTitle: Visyond is not an add-on or a standalone visualization tool
-    faqSectionTitle: What Visyond is not?
+              You can also use this to **shield collaborators from information overload**, e.g. senior management might not be interested in the intricacies of the spreadsheet but are keen to see dashboards with outputs they can play with.
+          - answer: >-
+              [Learn more about access management in Visyond here.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
+        faqSectionSubTitle: Your projects are protected by advanced role- and object-based access control
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>Visyond is very easy to use</strong> – it looks and feels
-              like a general spreadsheet. Keep your work habits & leverage Excel
-              skills in a familiar environment.
-        faqSectionSubTitle: Minimal learning curve
-      - answersList:
+              Visyond **visualizes spreadsheet structure**, and detects root causes of errors and anomalies in real time. 
           - answer: >-
-              <strong>We have built an <a href="https://help.visyond.com/"
-              target="_blank">extensive knowledge base</a></strong> that
-              explains how to use Visyond should you have any trouble. ‘Training
-              mode’ in the application will walk you through the features and
-              workflows on the module’s page.
-        faqSectionSubTitle: Step-by-step guides
-      - answersList:
-          - answer: >-
-              <strong>Visyond does not require installations or complex
-              setups</strong> – it works in the browser.
-        faqSectionSubTitle: Accessible anywhere
-    faqSectionTitle: How easy it is to start using Visyond?
+              If enabled, natural language formula names will make your spreadsheet easier to understand (e.g., _Revenues[2021] - Expenses[2021]_ vs _A2 - B2_).
+        faqSectionSubTitle: You will know if there’s something wrong with your spreadsheet
+    faqSectionTitle: Why Visyond instead of other spreadsheets?
   - faqSectionContent:
       - answersList:
           - answer: >-
-              <strong>We support Excel syntax and formulas so you can import
-              most Excel files</strong> or create a project directly in Visyond
-              using the same skill set you need to create an Excel file. You can
-              also export to Excel.
+              **No staging.** You don’t need to do any data preparation just to get it into the dashboards. Dashboards, charts, and analyses use a single data source - your spreadsheet.
           - answer: >-
-              You may have to tweak something on import as you would do when
-              importing from Excel to Google for example, but if your models are
-              not using cutting edge functionalities (that even Excel online
-              would not support), you would be good to go.
-        faqSectionSubTitle: 'Yes, Visyond is Excel-compatible'
-    faqSectionTitle: Can I work on my Excel projects?
+              **Real-time updates.** Dashboards always stay up-to-date by getting the latest changes from your spreadsheet.
+          - answer: >-
+              **No additional integrations.** You don’t need to set up and maintain integrations to move your data to dashboards.
+          - answer: >-
+              **No coding.** You don’t need to write a single line of code to create an interactive dashboard from your spreadsheet.
+        faqSectionSubTitle: Dashboards get data directly from your spreadsheet
+      - answersList:
+          - answer: >-
+              **Your spreadsheets are safe.** Dashboard controls (sliders, drop-downs, etc.) are connected directly to the spreadsheet cells, and you can let collaborators query the spreadsheet and get the outputs (in the form of charts and/or value) without seeing or modifying the spreadsheet.
+        faqSectionSubTitle: Changing data on the dashboard does not change the spreadsheet
+      - answersList:
+          - answer: >-
+              **Assign roles** to collaborators (e.g. viewer or editor) and **share only specific worksheets and dashboards** with them, protecting your projects from unauthorized access.
+          - answer: >-
+              You can also use this to **shield collaborators from information overload**, e.g. senior management might not be interested in the intricacies of the spreadsheet but are keen to see dashboards with outputs they can play with.
+          - answer: >-
+              [Learn more about access management in Visyond here.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
+        faqSectionSubTitle: Your projects are protected by advanced role- and object-based access control
+      - answersList:
+          - answer: >-
+              **You can allow collaborators to apply certain scenarios from your spreadsheet** to the dashboard they see. They can extend it, creating their own ‘what-if’ view, without modifying the original scenario.
+        faqSectionSubTitle: Collaborators can answer ‘what-if’ questions on their own
+      - answersList:
+          - answer: >-
+              You analyze formula-driven data for forecasting, not slicing and dicing historical data.
+        faqSectionSubTitle: You operate on forward-looking data
+    faqSectionTitle: Why Visyond instead of other dashboard solutions?
   - faqSectionContent:
       - answersList:
           - answer: >-
-              We have an open API that allows you to interact with Visyond
-              projects externally (i.e. adding external sources, managing access
-              permissions and collaborators, etc.) but not internally (i.e.
-              querying the contents of a project). Please tell us more about how
-              you want to use an API.
-        faqSectionSubTitle: API
+              Collaborators can **contribute their own analyses in self-service mode**, without depending on modelers and analysts. They will not overwrite each other’s work, and you can safely collaborate without losing data.
+        faqSectionSubTitle: Data analysis becomes accessible
       - answersList:
           - answer: >-
-              Visyond does not support macros yet, but our team can port them to
-              JavaScript, if needed.
-        faqSectionSubTitle: Macros
+              You analyze data in the **single place** that connects spreadsheets and their outputs directly to automated analyses tools and interactive dashboards.
+        faqSectionSubTitle: Analyses are connected to spreadsheets and dashboards
       - answersList:
           - answer: >-
-              Visyond can integrate with Excel and reference an Excel file as an
-              ‘external source’ inside a Visyond project (for example, to
-              display a value from an Excel cell in a Visyond cell). We are open
-              to discuss custom integrations for your specific needs, as we’ve
-              found out that ‘one size fits all’ integrations don’t really cut
-              it for something as varied as spreadsheet models and many
-              different systems people use in conjunction with them.
+              All changes in the spreadsheet are immediately reflected in the analyses that you run and in the interactive dashboards you share with collaborators.
+        faqSectionSubTitle: Analyses are always up-to-date
+    faqSectionTitle: Why Visyond instead of other analysis solutions?
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
+              **Visyond is easy to use.** You can use your Excel skills without having to learn new menus and workflow. Both Excel experts and novices will get things done quickly.
+          - answer: >-
+              [‘Training mode’](https://help.visyond.com/articles/how-to-learn-visyond/) in the application will help you get started quickly.
+        faqSectionSubTitle: How easy is it to use Visyond?
+      - answersList:
+          - answer: >-
+              There is an [extensive knowledge base](https://help.visyond.com/) with step-by-step tutorials. 
+        faqSectionSubTitle: Do you have tutorials?
+      - answersList:
+          - answer: >-
+              You don’t need consultants, IT experts, or lengthy installations to start using the cloud platform – Visyond works in the browser.
+        faqSectionSubTitle: Do I need to install anything?
+      - answersList:
+          - answer: >-
+              **Yes. We support Excel** so you can import most Excel files, all worksheets at once. All original formulas, values and formats are imported. Alternatively, you can create a project directly in Visyond using the same skill set you need to create an Excel file. 
+          - answer: >-
+              [Learn more about Excel import.](https://help.visyond.com/articles/importing-from-excel/)
+          - answer: >-
+              Alternatively, you can download the [Visyond add-in for Excel from Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200002940).
+        faqSectionSubTitle: Can I work on my Excel projects?
+      - answersList:
+          - answer: >-
+              Spreadsheets can be exported to _Excel_.
+          - answer: >-
+              Analysis charts can be printed, exported to _PPT_ or _PDF_. Analysis tables can be exported to _PPT_, _PDF_, _Excel_, _CSV_.
+          - answer: >-
+              Dashboards can be exported as _PDF_. Any PDF-to-PPT converter can be used to produce _PPT_.
+        faqSectionSubTitle: Can I export my projects?
+      - answersList:
+          - answer: >-
+              **Yes.** Visyond runs in the browser so any smartphone/tablet can load the interactive dashboards.
+        faqSectionSubTitle: Can I share and use dashboards on mobile?
+      - answersList:
+          - answer: >-
+              Visyond is as fast as leading online platforms can be. It runs in the browser and its performance should be compared to _Excel 365_, _Google Sheets_ and other online tools. 
+          - answer: >-
+              Install the latest version of your browser for the best user experience (_we recommend Google Chrome_). Also, close unneeded applications, tabs and browser windows to free up memory.
+          - answer: >-
+              If your spreadsheet is very large and you need desktop-app speeds, consider using our [Excel add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940).
+        faqSectionSubTitle: How fast is Visyond?
+      - answersList:
+          - answer: >-
+              Contact us to learn more about on-premise/personal cloud installation.
+        faqSectionSubTitle: Can I have Visyond on-premise?
+    faqSectionTitle: General
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
+              **No.** Visyond does not have an open API.
+        faqSectionSubTitle: Do you have an open API?
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
+              **Visyond does not support macros**, but our team can port them to JavaScript, if needed. Contact us to learn more.
+          - answer: >-
+              Alternatively, you can install [our Excel Add-In](https://appsource.microsoft.com/en-us/product/office/WA200002940).
+        faqSectionSubTitle: Do you support macros?
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
+              Visyond can integrate with Excel and reference an Excel file as an [‘external source’](https://help.visyond.com/articles/link-external-sources-to-visyond-cells/) inside a Visyond project (for example, to display a value from an Excel cell in a Visyond cell).
+          - answer: >-
+              Contact us if you need to use custom integrations for your specific needs.
         faqSectionSubTitle: Integrations
-    faqSectionTitle: Do you have an API and Macros? What integrations are available?
+    faqSectionTitle: API, Macros, Integrations
   - faqSectionContent:
       - answersList:
           - answer: >-
-              It runs in the browser and its performance should be compared to
-              Excel 365, Google Sheets and other online tools. Install the
-              latest version of your browser for the best user experience (we
-              recommend Google Chrome). Also, close unneeded applications, tabs
-              and browser windows to free up memory.
-        faqSectionSubTitle: Visyond is as fast as online leading platforms can be
-    faqSectionTitle: How fast is Visyond?
+              We use a variety of ways to secure your data.
+          - answer: >-
+              Visyond is hosted by [DigitalOcean](https://www.digitalocean.com/). The server is located in the Netherlands.
+          - answer: >-
+              We provide a fully secure connection between customers and our server. All transferred data is sent encrypted using the [TLS/SSL protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security).
+          - answer: >-
+              All projects are stored encrypted on the server using [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), adopted by the U.S. government and included in the [ISO/IEC 18033-3 standard](https://www.iso.org/standard/54531.html).
+          - answer: >-
+              We use [Cross Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) middleware that prevents stealing your session.
+          - answer: >-
+              Our developers have access to the server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) using [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) keys. This means that no one else can access the server, and that the access keys are stored locally on the computers and are not distributed on the network.
+        faqSectionSubTitle: How secure is Visyond?
   - faqSectionContent:
       - answersList:
           - answer: >-
-              Please see the <a href="https://visyond.com/pricing"
-              target="_blank">pricing page.</a>
-        faqSectionSubTitle: Pricing depends on the plan that you pick
-    faqSectionTitle: How much does Visyond cost?
+              Please see our [Privacy Policy](/privacy) and [Terms of Use](/terms).
+        faqSectionSubTitle: How do you use my data?
+    faqSectionTitle: Security
   - faqSectionContent:
       - answersList:
           - answer: >-
-              We and our partners offer <a href="/services" target="_blank">
-              managed services on the Visyond platform.</a>
-        faqSectionSubTitle: 'Yes'
-    faqSectionTitle: Can you build a model for me? Do you provide services?
-  - faqSectionContent:
+              Please [see our Partners page](https://visyond.com/partner-with-visyond/) for more information.
+        faqSectionSubTitle: Do you have a partnership program?
       - answersList:
           - answer: >-
-              <strong>Visyond includes different modules</strong> that you can
-              evaluate during a 14-day trial. After the trial, you can subscribe
-              to the modules you need or use the free version.
-          - answer: >-
-              <strong>Sign up</strong> for a free 14-day trial <a
-              href="https://visyond.com/accounts/signup/"
-              target="_blank">here.</a>
-        faqSectionSubTitle: There is a free version of Visyond
-    faqSectionTitle: Is there a free version?
+              We and our partners [offer a variety of services](https://visyond.com/services/).
+        faqSectionSubTitle: Do you offer services?
+    faqSectionTitle: Partners and Services
 ---
 
