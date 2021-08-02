@@ -56,15 +56,6 @@
 
 .hexNav__item {
     position: relative;
-
-    &:before { /* https://stackoverflow.com/questions/556153/inline-elements-shifting-when-made-bold-on-hover/20249560#20249560 */
-      display: block;
-      content: attr(title);
-      font-weight: 600;
-      height: 0;
-      overflow: hidden;
-      visibility: hidden;   
-     }
 }
 
 .hexNav__link {
@@ -89,7 +80,6 @@
 &:hover {
      /* background: #fff; */
      color: #0585ff;
-     font-weight: 600;
 }
 
 &--primary {
@@ -431,7 +421,7 @@
     align-items: flex-start;
     color: #767575;
     min-width: 240px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 @media (max-width: 1201px) {
     text-align: left !important;
@@ -450,9 +440,9 @@
 
 .dropdown-section__title {
     text-transform: none;
-    font-size: 14px;
-    padding: 0.7em 0.7em;
-    font-weight: 900;
+    font-size: 15px;
+    padding: 10px 10px 7px 10px;
+    font-weight: 600;
     color: #383e4d;
     margin-bottom: 0em;
 
@@ -462,7 +452,7 @@
     background: #ffffff;
     margin: 0 !important;
     border-bottom: none;
-    font-size: 1.1em;
+    font-size: 14px;
     padding: 0.5em 0.2em;
 }
 }
@@ -470,8 +460,9 @@
 .dropdown-section__group-list {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 5px 0 0 0;
     width: 100%;
+    border-top: 1px solid #f2f2f2;
 }
 
 .dropdown-section__group-link {
