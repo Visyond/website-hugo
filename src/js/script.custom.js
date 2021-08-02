@@ -536,16 +536,6 @@ $(function () {
     }
 
 
-
-    //=====OPEN CHAT (HUBSPOT)====
-    var openChatElement = document.getElementById('openChat');
-    if (openChatElement) {
-      openChatElement.onclick = function() {
-        window.HubSpotConversations.widgset.open();  
-      }​;​
-    }
-
-
     //=====POPUP INFO IMAGES====
 
     function PopupInfoImages() {
