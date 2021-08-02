@@ -3,7 +3,7 @@
 
 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
-            <a href="#solutions-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
+            <a href="#solutions-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}" title="Solutions">
                 <span>Solutions</span>
             </a>
             {{ with .Site.GetPage "section" "nav" }}
@@ -56,11 +56,11 @@
          END: FEATURES LINK -->
 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
-        <a href="/services" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}"><span>Services</span></a>
+        <a href="/services" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}" title="Services"><span>Services</span></a>
         </li>
 
         <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
-        <a href="/pricing/" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}"><span>Pricing</span></a>
+        <a href="/pricing/" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}" title="Pricing"><span>Pricing</span></a>
         </li>
 
         <!--
@@ -71,7 +71,7 @@
 
 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
-        <a href="#resources-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}"><span>Resources</span></a>
+        <a href="#resources-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}" title="Resources"><span>Resources</span></a>
         <div class="dropdown-menu-wrap">
             <div
                     class="dropdown-toggle {{ if eq .Title "Homepage Some"}} hexNav--homepage-header-dropdown-toggle {{end}}"
