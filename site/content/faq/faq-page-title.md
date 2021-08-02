@@ -20,27 +20,30 @@ faqSection:
               Visyond is for everyone who is involved in decision-making based on spreadsheets:
 
               * **Analysts** building the model and analyzing scenarios, sensitivities, etc.
+
               * **Managers** coordinating assumption gathering and creating dashboards
+
               * **Auditors who** need to track changes and debug formulas
+
               * **Decision-makers** who need to interact with user-friendly dashboards without the complexities of spreadsheets
         faqSectionSubTitle: Is Visyond for me?
       - answersList:
           - answer: >-
-              Budgeting and Forecasting
-          - answer: >-
-              Budget vs Actuals
-          - answer: >-
-              Sensitivity and Scenario Analyses
-          - answer: >-
-              Risk management using Monte Carlo Simulations
-          - answer: >-
-              Pro-forma financial statements connected to scenarios in the spreadsheet
-          - answer: >-
-              Investment and valuation analysis
-          - answer: >-
-              Finding the root cause of errors
-          - answer: >-
-              Maintaining the model in one place while sharing parts of it only with specific people
+              * Budgeting and Forecasting
+
+              * Budget vs Actuals
+
+              * Sensitivity and Scenario Analyses
+
+              * Risk management using Monte Carlo Simulations
+
+              * Pro-forma financial statements connected to scenarios in the spreadsheet
+
+              * Investment and valuation analysis
+
+              * Finding the root cause of errors
+
+              * Maintaining the model in one place while sharing parts of it only with specific people
         faqSectionSubTitle: What are the typical use-cases?
     faqSectionTitle: What can I do with Visyond?
   - faqSectionContent:
@@ -48,7 +51,6 @@ faqSection:
           - answer: >-
               **Visyond is a collaborative workspace** for your spreadsheets and scenarios that connects them to automated analysis tools and real-time interactive dashboards that use the spreadsheet as a calculation engine.
         faqSectionSubTitle: You don’t need many tools to get the job done
-  - faqSectionContent:
       - answersList:
           - answer: >-
               **Visyond ensures no data gets lost during the collaboration process** by tracking changes and saving each and every assumption added to the project without overwriting existing ones.
@@ -57,21 +59,19 @@ faqSection:
           - answer: >-
               **Scenario management becomes a breeze.** Your team can extend each others’ scenarios without breaking the spreadsheet or dealing with multiple versions.
         faqSectionSubTitle: Planning and forecasting becomes a truly collaborative experience
-  - faqSectionContent:
       - answersList:
           - answer: >-
               **Assign roles** to collaborators (e.g. viewer or editor) and **share only specific worksheets and dashboards** with them, protecting your projects from unauthorized access.
           - answer: >-
               You can also use this to **shield collaborators from information overload**, e.g. senior management might not be interested in the intricacies of the spreadsheet but are keen to see dashboards with outputs they can play with.
           - answer: >-
-              [Learn more about access management in Visyond here.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
+              [Learn more about access management in Visyond.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
         faqSectionSubTitle: Your projects are protected by advanced role- and object-based access control
-  - faqSectionContent:
       - answersList:
           - answer: >-
               Visyond **visualizes spreadsheet structure**, and detects root causes of errors and anomalies in real time. 
           - answer: >-
-              If enabled, natural language formula names will make your spreadsheet easier to understand (e.g., _Revenues[2021] - Expenses[2021]_ vs _A2 - B2_).
+              If enabled, **natural language formula names** will make your spreadsheet easier to understand (e.g., _Revenues[2021] - Expenses[2021]_ vs _A2 - B2_).
         faqSectionSubTitle: You will know if there’s something wrong with your spreadsheet
     faqSectionTitle: Why Visyond instead of other spreadsheets?
   - faqSectionContent:
@@ -95,7 +95,7 @@ faqSection:
           - answer: >-
               You can also use this to **shield collaborators from information overload**, e.g. senior management might not be interested in the intricacies of the spreadsheet but are keen to see dashboards with outputs they can play with.
           - answer: >-
-              [Learn more about access management in Visyond here.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
+              [Learn more about access management in Visyond.](https://help.visyond.com/articles/share-only-specific-worksheets-with-collaborators)
         faqSectionSubTitle: Your projects are protected by advanced role- and object-based access control
       - answersList:
           - answer: >-
@@ -117,7 +117,7 @@ faqSection:
         faqSectionSubTitle: Analyses are connected to spreadsheets and dashboards
       - answersList:
           - answer: >-
-              All changes in the spreadsheet are immediately reflected in the analyses that you run and in the interactive dashboards you share with collaborators.
+              All **changes in the spreadsheet are immediately reflected** in the analyses that you run and in the interactive dashboards you share with collaborators.
         faqSectionSubTitle: Analyses are always up-to-date
     faqSectionTitle: Why Visyond instead of other analysis solutions?
   - faqSectionContent:
@@ -157,7 +157,7 @@ faqSection:
         faqSectionSubTitle: Can I share and use dashboards on mobile?
       - answersList:
           - answer: >-
-              Visyond is as fast as leading online platforms can be. It runs in the browser and its performance should be compared to _Excel 365_, _Google Sheets_ and other online tools. 
+              **Visyond is as fast as leading online platforms can be.** It runs in the browser and its performance should be compared to _Excel 365_, _Google Sheets_ and other online tools. 
           - answer: >-
               Install the latest version of your browser for the best user experience (_we recommend Google Chrome_). Also, close unneeded applications, tabs and browser windows to free up memory.
           - answer: >-
@@ -173,14 +173,12 @@ faqSection:
           - answer: >-
               **No.** Visyond does not have an open API.
         faqSectionSubTitle: Do you have an open API?
-  - faqSectionContent:
       - answersList:
           - answer: >-
               **Visyond does not support macros**, but our team can port them to JavaScript, if needed. Contact us to learn more.
           - answer: >-
               Alternatively, you can install [our Excel Add-In](https://appsource.microsoft.com/en-us/product/office/WA200002940).
         faqSectionSubTitle: Do you support macros?
-  - faqSectionContent:
       - answersList:
           - answer: >-
               Visyond can integrate with Excel and reference an Excel file as an [‘external source’](https://help.visyond.com/articles/link-external-sources-to-visyond-cells/) inside a Visyond project (for example, to display a value from an Excel cell in a Visyond cell).
@@ -203,7 +201,6 @@ faqSection:
           - answer: >-
               Our developers have access to the server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) using [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) keys. This means that no one else can access the server, and that the access keys are stored locally on the computers and are not distributed on the network.
         faqSectionSubTitle: How secure is Visyond?
-  - faqSectionContent:
       - answersList:
           - answer: >-
               Please see our [Privacy Policy](/privacy) and [Terms of Use](/terms).
