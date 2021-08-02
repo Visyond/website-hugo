@@ -255,7 +255,7 @@ faqSection:
               Yes. [Contact us](#contactUs) for special offers for students and instructors.
         faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
-- faqSectionContent:
+  - faqSectionContent:
       - answersList:
           - answer: >-
               Please [see our Partners page](https://visyond.com/partner-with-visyond/) for more information.
