@@ -320,7 +320,7 @@
 .dropdown__info {
     padding: 30px 30px 15px;
     width: 320px;
-    border-right: 1px solid lightgrey;
+    /* border-right: 1px solid lightgrey; */
     background: #f7f8fc;
 
     @media (max-width: 1201px) {

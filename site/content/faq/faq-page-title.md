@@ -22,7 +22,7 @@ faqSection:
           - answer: >-
               **Managers** coordinating assumption gathering and creating dashboards.
           - answer: >-
-              **Auditors who** need to track changes and debug formulas.
+              **Auditors** who need to track changes and debug formulas.
           - answer: >-
               **Decision-makers** who need to interact with user-friendly dashboards without the complexities of spreadsheets.
         faqSectionSubTitle: Is Visyond for me?
