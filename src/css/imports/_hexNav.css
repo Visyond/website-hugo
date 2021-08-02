@@ -87,12 +87,13 @@
      font-weight: 700 !important;
      background: #0585ff !important;
      padding: 0.5em 2em !important;
-
+/*
 @media screen and (max-width: 1201px) {
     background: none !important;
     color: #0585ff !important;
     padding: 0 !important;
 }
+*/
 }
 
 &--active {
@@ -102,7 +103,6 @@
 
 @media screen and (max-width: 1201px) {
     padding: 0;
-    font-weight: 600;
 }
 }
 
@@ -143,7 +143,7 @@
 }
 }
 .hexHeader.scrolled .dropdown-toggle {
-    top: 57px;
+    top: 64px;
 }
 .dropdown-toggle--active {
     display: flex;
@@ -175,7 +175,7 @@
 }
 }
 .hexHeader.scrolled .dropdown-toggle--multicol {
-    top: 57px;
+    top: 64px;
 }
 
 .dropdown-toggle--left {

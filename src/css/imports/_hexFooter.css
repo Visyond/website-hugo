@@ -198,9 +198,11 @@
 .hexFooter-section-group__link {
     color: #383E4D;
     font-size: 14px;
+    font-weight: 400;
 
 &:hover {
-     text-decoration: underline;
+     text-decoration: none;
+     color: #0585ff;
  }
 }
 
