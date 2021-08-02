@@ -260,7 +260,7 @@
 
 .dropdown-toggle__group-list-item-link:hover {
     background: #e8e9ed;
-    color: #52556c !important;
+    color: #52556c;
 }
 
 .overlay {
