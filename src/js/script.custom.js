@@ -988,7 +988,7 @@ $(function () {
         })
     };
 
-    linkHover('features-toggle', 'Features');
+    //linkHover('features-toggle', 'Features');
     linkHover('solutions-toggle', 'Solutions');
 
     var isIE = /*@cc_on!@*/false || !!document.documentMode;

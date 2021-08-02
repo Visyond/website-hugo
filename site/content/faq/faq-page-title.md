@@ -164,7 +164,7 @@ faqSection:
         faqSectionSubTitle: How fast is Visyond?
       - answersList:
           - answer: >-
-              Contact us to learn more about on-premise/personal cloud installation.
+              <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more about on-premise/personal cloud installation.
         faqSectionSubTitle: Can I have Visyond on-premise?
     faqSectionTitle: General
   - faqSectionContent:
@@ -174,7 +174,7 @@ faqSection:
         faqSectionSubTitle: Do you have an open API?
       - answersList:
           - answer: >-
-              **Visyond does not support macros**, but our team can port them to JavaScript, if needed. Contact us to learn more.
+              **Visyond does not support macros**, but our team can port them to JavaScript, if needed. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more.
           - answer: >-
               Alternatively, you can install [our Excel Add-In](https://appsource.microsoft.com/en-us/product/office/WA200002940).
         faqSectionSubTitle: Do you support macros?
@@ -182,7 +182,7 @@ faqSection:
           - answer: >-
               Visyond can integrate with Excel and reference an Excel file as an [‘external source’](https://help.visyond.com/articles/link-external-sources-to-visyond-cells/) inside a Visyond project (for example, to display a value from an Excel cell in a Visyond cell).
           - answer: >-
-              Contact us if you need to use custom integrations for your specific needs.
+              <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> if you need to use custom integrations for your specific needs.
         faqSectionSubTitle: Integrations
     faqSectionTitle: API, Macros, Integrations
   - faqSectionContent:
@@ -238,7 +238,7 @@ faqSection:
         faqSectionSubTitle: How do I manage my billing?
       - answersList:
           - answer: >-
-              Contact us for bulk discounts if you are purchasing 10+ seats.
+              <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for bulk discounts if you are purchasing 10+ seats.
         faqSectionSubTitle: Do you offer discounts?
       - answersList:
           - answer: >-
@@ -252,7 +252,7 @@ faqSection:
         faqSectionSubTitle: Do you provide services?
       - answersList:
           - answer: >-
-              Yes. <a id="openChat">Contact us</a> for special offers for students and instructors.
+              Yes. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for special offers for students and instructors.
         faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
   - faqSectionContent:
