@@ -407,6 +407,7 @@
     align-items: flex-start;
     color: #767575;
     min-width: 240px;
+    margin-bottom: 1em;
 
 @media (max-width: 1201px) {
     text-align: left !important;
@@ -452,7 +453,7 @@
 .dropdown-section__group-link {
     font-size: 1em;
     line-height: 0.5em;
-    padding: 0.9em 0.7em;
+    padding: 0.7em 0.7em;
     border-radius: 0.5em;
     color: #383e4d;
     display: block;
