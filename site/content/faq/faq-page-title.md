@@ -205,55 +205,55 @@ faqSection:
               Please see our [Privacy Policy](/privacy) and [Terms of Use](/terms).
         faqSectionSubTitle: How do you use my data?
     faqSectionTitle: Security
-    - faqSectionContent:
-    - answersList:
-      - answer: >-
-          Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
-      - answer: >-
-          Sign up for a [free 14-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
-    faqSectionSubTitle: Is there a free version of Visyond?
-    - answersList:
-      - answer: >-
-          Visyond plans start from $9 seat/month for _Dashboards_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
-    faqSectionSubTitle: How much does Visyond cost?
-    - answersList:
-      - answer: >-
-          If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans.
-      - answer: >-
-          If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.             
-    faqSectionSubTitle: Which plan should I pick?
-    - answersList:
-      - answer: >-
-          Plan upgrades take place immediately. You will be charged pro-rata (for the days remaining in the current billing period) on the price difference between the new and previous plan.
-      - answer: >-
-          Plan downgrades take place at the end of the current billing cycle.
-      - answer: >-
-          Changes to the billing cycle (e.g., from monthly to annual or vice versa) will take place at the end of the current billing cycle.
-      - answer: >-
-          We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).
-    faqSectionSubTitle: Can I change my plan?
-    - answersList:
-      - answer: >-
-          Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
-    faqSectionSubTitle: How do I manage my billing?
-    - answersList:
-      - answer: >-
-          [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
-    faqSectionSubTitle: Do you offer discounts?
-    - answersList:
-      - answer: >-
-          We accept credit cards, and wire transfers for Team and Enterprise plans.
-      - answer: >-
-          We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
-    faqSectionSubTitle: How can I pay?
-    - answersList:
-      - answer: >-
-          Yes. If you need help building the model, creating dashboards, or analyzing spreadsheet data, we and our partners offer [managed services on the Visyond platform](/services).
-    faqSectionSubTitle: Do you provide services?
-    - answersList:
-      - answer: >-
-          Yes. [Contact us](#contactUs) for special offers for students and instructors.
-    faqSectionSubTitle: Do you offer plans for students?
+  - faqSectionContent:
+      - answersList:
+          - answer: >-
+              Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
+          - answer: >-
+              Sign up for a [free 14-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
+        faqSectionSubTitle: Is there a free version of Visyond?
+      - answersList:
+          - answer: >-
+              Visyond plans start from $9 seat/month for _Dashboards_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
+        faqSectionSubTitle: How much does Visyond cost?
+      - answersList:
+          - answer: >-
+              If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans.
+          - answer: >-
+              If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.             
+        faqSectionSubTitle: Which plan should I pick?
+      - answersList:
+          - answer: >-
+              Plan upgrades take place immediately. You will be charged pro-rata (for the days remaining in the current billing period) on the price difference between the new and previous plan.
+          - answer: >-
+              Plan downgrades take place at the end of the current billing cycle.
+          - answer: >-
+              Changes to the billing cycle (e.g., from monthly to annual or vice versa) will take place at the end of the current billing cycle.
+          - answer: >-
+              We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).
+        faqSectionSubTitle: Can I change my plan?
+      - answersList:
+          - answer: >-
+              Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
+        faqSectionSubTitle: How do I manage my billing?
+      - answersList:
+          - answer: >-
+              [Contact us](#contactUs) for bulk discounts if you are purchasing 10+ seats.
+        faqSectionSubTitle: Do you offer discounts?
+      - answersList:
+          - answer: >-
+              We accept credit cards, and wire transfers for Team and Enterprise plans.
+          - answer: >-
+              We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
+        faqSectionSubTitle: How can I pay?
+      - answersList:
+          - answer: >-
+              Yes. If you need help building the model, creating dashboards, or analyzing spreadsheet data, we and our partners offer [managed services on the Visyond platform](/services).
+        faqSectionSubTitle: Do you provide services?
+      - answersList:
+          - answer: >-
+              Yes. [Contact us](#contactUs) for special offers for students and instructors.
+        faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
 - faqSectionContent:
       - answersList:
