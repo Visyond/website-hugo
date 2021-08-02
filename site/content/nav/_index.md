@@ -12,9 +12,9 @@ resourcesDropdown:
     title: Press
   - path: /partner-with-visyond/
     title: Partner with Visyond
-solutionsInfoTitle: Get what no other spreadsheet-based technology can give you
-solutionsInfoDescr: Do in minutes what takes you days now.
-featuresInfoTitle: Get what no other spreadsheet-based technology can give you
-featuresInfoDescr: Do in minutes what takes you days now.
+solutionsInfoTitle: Make better decisions, faster.
+solutionsInfoDescr: Get what no other spreadsheet-based technology can give you
+featuresInfoTitle: Make better decisions, faster.
+featuresInfoDescr: Get what no other spreadsheet-based technology can give you
 ---
 
