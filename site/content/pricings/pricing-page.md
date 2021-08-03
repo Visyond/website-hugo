@@ -104,7 +104,7 @@ pricingSections:
                 Share spreadsheets and dashboards with the general public. Viewers don't need an account to access.
             - title: Financial Statements
               tooltip: >-
-                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+                Generate always up-to-date, forward-looking financial statements from your spreadsheet.
           planCardIcon: /img/pricing/PRO.png
           limitsListHeader: 'Up to 10:'
           limitsList:
@@ -242,7 +242,7 @@ pricingSections:
                 Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.
             - title: Financial Statements
               tooltip: >-
-                Create spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+                Generate always up-to-date, forward-looking financial statements from your spreadsheet.
           planCardIcon: /img/pricing/STANDARD.png
           limitsListHeader: 'Up to 5:'
           limitsList:
