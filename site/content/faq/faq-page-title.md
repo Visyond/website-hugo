@@ -48,7 +48,7 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              **Visyond is a collaborative workspace** for your spreadsheets and scenarios that connects them to automated analysis tools and real-time interactive dashboards that use the spreadsheet as a calculation engine.
+              **Visyond is a cloud collaborative workspace** that connects your spreadsheets and scenarios to automated ‘what-if’ analysis tools and real-time interactive dashboards, using the spreadsheet as a calculation engine.
         faqSectionSubTitle: You don’t need many tools to get the job done
       - answersList:
           - answer: >-
@@ -122,7 +122,7 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              **Visyond is easy to use.** You can use your Excel skills without having to learn new menus and workflow. Both Excel experts and novices will get things done quickly.
+              **Visyond is easy to use.** You can apply your Excel skills without having to learn new menus and workflow. Both Excel experts and novices will get things done quickly.
           - answer: >-
               [‘Training mode’](https://help.visyond.com/articles/how-to-learn-visyond/) in the application will help you get started quickly.
         faqSectionSubTitle: How easy is it to use Visyond?
