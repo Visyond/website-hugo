@@ -201,7 +201,7 @@ summary:
       Sign up for the cloud platform if you want advanced collaboration on spreadsheets, scenarios, analyses and interactive dashboards with secure, role- and object-based access control. 
     title: Cloud Platform
     image: /img/home/cloudPlatformIcon.png
-    buttonText: Free Sign Up
+    buttonText: Get Started
     buttonLink: /accounts/signup/
 DemoStripTitle: Flexible. Familiar. Scalable.
 DemoStripTitleButton: Watch Demo
