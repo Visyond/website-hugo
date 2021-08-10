@@ -204,8 +204,8 @@ summary:
     buttonText: Get Started
     buttonLink: /accounts/signup/
 DemoStripTitle: Flexible. Familiar. Scalable.
-DemoStripTitleButton: Watch Demo
-DemoStripTitleLink: /demo
+DemoStripTitleButton: Get started
+DemoStripTitleLink: /accounts/signup/
 providesTitle: Get Started Today
 providesList:
   - text: >-
