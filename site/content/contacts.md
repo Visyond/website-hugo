@@ -1,7 +1,8 @@
 ---
 metaTags: "<meta name=\"description\" content=\"Contact Visyond if you have any questions or inquiries about our product!\">\r\n\r\n<meta name=\"keywords\" content=\"Contact Visyond, Visyond email, Visyond phone, Visyond telephone, Visyond address, Visyond Mail, Visyond Linkedin, Visyond Twitter, Visyond Facebook\">"
 type: contacts
-title: Contact us
+title: Contact Us
+topSubTitle: Contact our team.
 locations:
   - contactsemail:
       - socialemail: info@visyond.com

@@ -30,7 +30,7 @@
 
           <div class="contact-page__contacts-card-top">
             {{ with $location.flag }}
-            <img src="{{ . }}" class=".contact-page__location-flag">
+            <img src="{{ . }}" class="contact-page__location-flag">
             {{ end }}
 
             {{ with $location.title }}
@@ -53,11 +53,11 @@
               </div>
             </div>
             <div class="contacts-page__item contacts-page__item--phone">
-              <h3 class="contacts-page__title">Telephone</h3>
+              <h3 class="contacts-page__title">Phone</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsPhone }}
                 <li class="contacts-page__item">
-                  <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialphone }}</a>
+                  <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__phone">{{ .socialphone }}</a>
                 </li>
                 {{ end }}
               </ul>

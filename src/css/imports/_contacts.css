@@ -28,22 +28,35 @@
 .contact-page__contacts-card {
   margin: 0 0 40px 0;
   width: 100%;
+  border: 1px solid red;
+  padding: 20px;
 }
 
 .contact-page__contacts-card-top {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 20px 0;
+
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .contact-page__location-flag {
+  max-height: 40px;
 
+  @media screen and (max-width: 768px) {
+    max-height: 30px;
+  }
 }
 
 .contact-page__location-title {
-  width: 100%;
   font-size: 1.5em;
-  line-height: 1.44;
   color: #383e4d;
+  margin: 0 0 0 10px;
 }
 
 
@@ -76,18 +89,31 @@
   color: #383e4d;
   font-size: 16px;
   margin-bottom: 20px;
-  letter-spacing: 0.7px;
+  font-weight: 600;
+
   @media screen and (max-width: 768px) {
     margin-bottom: 5px;
   }
 }
 
 .contacts-page__address,
+.contacts-page__phone,
 .contacts-page__link {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.contacts-page__link {
+  color: #0585ff;
+}  
+
+.contacts-page__address {
   color: #383e4d;
-  line-height: 30px;
+}
+
+.contacts-page__phone {
+  color: #383e4d;
 }
 
 .contacts-page__address p {
@@ -146,7 +172,7 @@
   color: #5e6f85;
   font-size: 15px;
   padding: 14px;
-  font-weight: 300;
+  font-weight: 400;
 
   &::-webkit-input-placeholder {
     color: rgba(94, 111, 133, 0.8);
@@ -200,7 +226,7 @@
   background: #0585ff;
   font-size: 16px;
   line-height: 18px;
-  font-weight: 300;
+  font-weight: 400;
   padding: 17px 60px;
   border-radius: 4px;
   cursor: pointer;

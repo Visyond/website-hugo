@@ -830,6 +830,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Type, name: type, widget: hidden, default: contact }
           - { label: Contact, name: contact, widget: hidden, default: "/contact.html" }
           - { label: Title, name: title, widget: markdown }
+          - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
           - { label: "Locations", name: locations, widget: list, fields: [
               { label: "Flag image", name: flag, widget: "image" }
               { label: Locations Title, name: title, widget: string },
