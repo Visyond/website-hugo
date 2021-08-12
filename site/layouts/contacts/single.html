@@ -26,22 +26,33 @@
     <div class="container">
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
-        <div style="border: 1px solid red;">
-          {{ with $location.title }}
-          <h3 class="contact-page__location-title">
-            {{ . }}
-          </h3>
-          {{ end }}
+        <div class ="contact-page__contacts-card">
+
+          <div class="contact-page__contacts-card-top">
+            {{ with $location.flag }}
+            <img src="{{ . }}" class=".contact-page__location-flag">
+            {{ end }}
+
+            {{ with $location.title }}
+            <h3 class="contact-page__location-title">
+              {{ . }}
+            </h3>
+            {{ end }}
+          </div>
+
+
+
+
           <div class="contact-page__location">
-            <article class="contacts-page__item contacts-page__item--mail">
+            <div class="contacts-page__item contacts-page__item--mail">
               <h3 class="contacts-page__title">Mail</h3>
               <span class="contacts-page__address">{{ $location.Mail | markdownify }}</span>
       
               <div class="contacts-page__social-wrap">
                 {{ partial "social" (dict "data" $location.contactssocial) }}
               </div>
-            </article>
-            <article class="contacts-page__item contacts-page__item--phone">
+            </div>
+            <div class="contacts-page__item contacts-page__item--phone">
               <h3 class="contacts-page__title">Telephone</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsPhone }}
@@ -50,9 +61,9 @@
                 </li>
                 {{ end }}
               </ul>
-            </article>
+            </div>
       
-            <article class="contacts-page__item contacts-page__item--email">
+            <div class="contacts-page__item contacts-page__item--email">
               <h3 class="contacts-page__title">Email</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsEmail }}
@@ -61,7 +72,7 @@
                 </li>
                 {{end}}
               </ul>
-            </article>
+            </div>
           </div>
 
         </div>
