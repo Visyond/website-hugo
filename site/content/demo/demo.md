@@ -6,11 +6,11 @@ metaTags: >-
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/thumbnails/Visyond Watch Demo thumbnail 1200x628.png">
-  <meta property="og:description" content="Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform">
+  <meta property="og:description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
   <meta property="og:url" content="https://visyond.com/demo/">
-  <meta name="description" content="Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform">
+  <meta name="description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
 coverHeader: Watch Demos
-coverDescription: Explore different solutions and use cases, and request a live demo if you want to deep dive on specific aspects of the platform
+coverDescription: Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Interactive Dashboards
