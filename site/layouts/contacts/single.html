@@ -46,10 +46,10 @@
           <div class="contact-page__location">
             <div class="contacts-page__item contacts-page__item--mail">
               <h3 class="contacts-page__title">Address</h3>
-              <span class="contacts-page__addresss">{{ $location.address }}</span>
+              <span class="contacts-page__address">{{ $location.address }}</span>
             </div>
 
-            {{ if .contactsphone }}
+
             <div class="contacts-page__item contacts-page__item--phone">
               <h3 class="contacts-page__title">Phone</h3>
               <ul class="contacts-page__list">
@@ -60,7 +60,6 @@
                 {{ end }}
               </ul>
             </div>
-            {{ end }}
       
             <div class="contacts-page__item contacts-page__item--email">
               <h3 class="contacts-page__title">Email</h3>
@@ -73,12 +72,12 @@
               </ul>
             </div>
 
-            {{ if .contactssocial }}
+
             <div class="contacts-page__social-wrap">
               {{ partial "social" (dict "data" $location.contactssocial) }}
               </div>
             </div>
-            {{ end }}
+
 
         </div>
         {{ end }}
