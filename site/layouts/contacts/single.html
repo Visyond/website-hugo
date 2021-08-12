@@ -2,7 +2,7 @@
 
 
 <div class="homehex ht">
-   TOP SECTION 
+  <!-- TOP SECTION -->
   <section class="home-hero" style="padding: 60px 0px 60px 0px;">
     <div class="container">
       <div class="whyV__row">
@@ -19,54 +19,54 @@
       </div>
     </div>
   </section>
-  < END: TOP SECTION 
+  <!-- END: TOP SECTION -->
   
-
-    <section class="homeBenefits">
-      <div class="container">
-        <div class="contact-page__contacts-wrapper">
-          {{ range $location := .Params.locations }}
-          {{ with $location.title }}
-          <h3 class="contact-page__location-title">
-            {{ . }}
-          </h3>
-          {{ end }}
-          <div class="contact-page__location">
-            <article class="contacts-page__item contacts-page__item--mail">
-              <h3 class="contacts-page__title">Mail</h3>
-              <span class="contacts-page__address">{{ $location.Mail | markdownify }}</span>
-      
-              <div class="contacts-page__social-wrap">
-                {{ partial "social" (dict "data" $location.contactssocial) }}
-              </div>
-            </article>
-            <article class="contacts-page__item contacts-page__item--phone">
-              <h3 class="contacts-page__title">Telephone</h3>
-              <ul class="contacts-page__list">
-                {{ range $element := $location.contactsPhone }}
-                <li class="contacts-page__item">
-                  <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialphone }}</a>
-                </li>
-                {{ end }}
-              </ul>
-            </article>
-      
-            <article class="contacts-page__item contacts-page__item--email">
-              <h3 class="contacts-page__title">Email</h3>
-              <ul class="contacts-page__list">
-                {{ range $element := $location.contactsEmail }}
-                <li class="contacts-page__item">
-                  <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
-                </li>
-                {{end}}
-              </ul>
-            </article>
-          </div>
-          {{ end }}
+  <!-- CONTACTS SECTION -->
+  <section class="homeBenefits">
+    <div class="container">
+      <div class="contact-page__contacts-wrapper">
+        {{ range $location := .Params.locations }}
+        {{ with $location.title }}
+        <h3 class="contact-page__location-title">
+          {{ . }}
+        </h3>
+        {{ end }}
+        <div class="contact-page__location">
+          <article class="contacts-page__item contacts-page__item--mail">
+            <h3 class="contacts-page__title">Mail</h3>
+            <span class="contacts-page__address">{{ $location.Mail | markdownify }}</span>
+    
+            <div class="contacts-page__social-wrap">
+              {{ partial "social" (dict "data" $location.contactssocial) }}
+            </div>
+          </article>
+          <article class="contacts-page__item contacts-page__item--phone">
+            <h3 class="contacts-page__title">Telephone</h3>
+            <ul class="contacts-page__list">
+              {{ range $element := $location.contactsPhone }}
+              <li class="contacts-page__item">
+                <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialphone }}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </article>
+    
+          <article class="contacts-page__item contacts-page__item--email">
+            <h3 class="contacts-page__title">Email</h3>
+            <ul class="contacts-page__list">
+              {{ range $element := $location.contactsEmail }}
+              <li class="contacts-page__item">
+                <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
+              </li>
+              {{end}}
+            </ul>
+          </article>
         </div>
+        {{ end }}
       </div>
-    </section>
-      
+    </div>      
+  </section>
+  <!-- END: CONTACTS SECTION -->
 
 
 
@@ -106,7 +106,6 @@
   </div>
 </div>
 -->
-
 <!--
 <div class="container">
 <section class="contacts-page">
