@@ -20,7 +20,7 @@
 }
 
 .contact-page__contacts-wrapper {
-  margin-right: 70px;
+  /*margin-right: 70px; */
   width: 100%;
 }
 
@@ -29,7 +29,6 @@
   font-size: 1.2rem;
   color: #52556c;
   margin-top: 20px;
-  border-top: 1px solid black;
 }
 
 .contact-page__location {
