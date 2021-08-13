@@ -3,26 +3,27 @@
 
 <div class="homehex ht">
   <!-- TOP SECTION -->
-	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
-		<div class="container">
-			<div class="whyV__row">
-				<div class="home-hero__container">
-					<div class="home-hero__half-width-wrap" style="width: 100%;">  
-						<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Title | markdownify }}</h1>
-					</div>
-		
-					<div class="home-hero__half-width-wrap" style="width: 100%;">  
-						<div class="home-hero__topSubtitle" style="text-align: center;">{{ .Params.topSubTitle | markdownify }}</div>
-						<div class="btn-wrap">
-							<a href="#contactUs" class="button button-primary">Talk to Us</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END: TOP SECTION -->	
- 
+  <section class="home-hero" style="padding: 60px 0px 60px 0px;">
+    <div class="container">
+      <div class="whyV__row">
+        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+          <h2 class="home-hero__title">{{ .Title | markdownify }}</h2>
+        </div>
+
+        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+          <div class="home-hero__topSubtitle">
+            {{ .Params.topSubTitle | markdownify }} 
+          </div>
+
+          <div class="btn-wrap">
+            <a href="#contactUs" class="button button-primary">Talk to Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: TOP SECTION -->
+
   
   <!-- CONTACTS SECTION -->
   <section class="homeBenefits">

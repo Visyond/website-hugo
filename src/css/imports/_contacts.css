@@ -54,7 +54,6 @@
 
 .contact-page__contacts-card-special {
 	border-top: 1em solid #0585ff!important;
-  max-width: 100%!important;
 }
 
 
@@ -171,16 +170,12 @@
   margin-bottom: 0;  
   
   &:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 }
 
 .contacts-page__item--address {
   margin-bottom: 0;  
-  
-  &:not(:last-child) {
-    margin-bottom: 5px;
-  }
 } 
 
 .contacts-page__social-wrap {
