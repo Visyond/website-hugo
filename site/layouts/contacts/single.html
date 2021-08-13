@@ -46,7 +46,13 @@
           <div class="contact-page__location">
             <div class="contacts-page__item contacts-page__item--mail">
               <h3 class="contacts-page__title">Address</h3>
-              <span class="contacts-page__address">{{ $location.address }}</span>
+              <ul class="contacts-page__list"></ul>
+                {{ range $element := $location.adress }}
+                <li class="contacts-page__item">
+                  <div class="contacts-page__address">{{ $location.addressLine }}</div>
+                </li>
+                {{ end }}
+              </ul>              
             </div>
 
 

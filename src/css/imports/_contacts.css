@@ -79,7 +79,6 @@
 }
 
 
-
 .contact-page__location {
   display: flex;
   width: 100%;
@@ -87,14 +86,6 @@
   flex-direction: column;
 }
 
-.contacts-page__item--mail {
-  width: 179px;
-}
-
-.contacts-page__item--phone,
-.contacts-page__item--email {
-  width: 150px;
-}
 
 .contacts-page__item--form {
   width: 470px;
@@ -152,7 +143,6 @@
 .contacts-page__item {
   display: flex;
   flex-flow: column nowrap;
-  min-width: 200px;
   &:not(:last-child) {
     margin-bottom: 20px;
   }

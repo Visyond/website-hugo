@@ -10,7 +10,10 @@ locations:
     contactssocial:
       - socialicon: /img/linkdn.png
         sociallink: 'https://www.linkedin.com/company/visyond' 
-    address: Visyond Ventures Ltd 86-90 Paul Street London EC2A 4NE United Kingdom
+    address:
+      - addressLine: 86-90 Paul Street
+        addressLine: London, EC2A 4NE
+        addressLine: United Kingdom
     flag: /img/flags/80x80/UK round flag 80x80.png
     title: United Kingdom
   - contactsemail:
@@ -18,24 +21,26 @@ locations:
     contactsphone:
       - socialphone: +27 03 1765 2312
       - socialphone: +27 08 2789 1915
-    address: |-
-      4 Hilldene Road 
-
-      Hillcrest 
-
-      Durban KZN 3610 
-
-      South Africa
+    address:
+      - addressLine: 4 Hilldene Road 
+        addressLine: Hillcrest, Durban, KZN 3610
+        addressLine: South Africa
     flag: /img/flags/80x80/SA round flag 80x80.png
     title: South Africa
   - contactsemail:
       - socialemail: amr.elgarhy@visyond.com
-    address: "The Polygon Business Park, \r\n\r\nFloor 4, Building 3,\r\n\r\nSODIC West, El Sheikh Zayed, 12451\r\n\r\nGiza, Egypt"
+    address:
+      - addressLine: The Polygon Business Park, Floor 4, Building 3
+        addressLine: Giza, SODIC West, El Sheikh Zayed, 12451
+        addressLine: Egypt
     flag: /img/flags/80x80/Egypt round flag 80x80.png
     title: Egypt
   - contactsemail:
       - socialemail: amr.elgarhy@visyond.com
-    address: "Sheikh Rashid Tower, Floor 26, \r\n\r\nDubai World Trade Centre, \r\n\r\nP.O. Box 340662, \r\n\r\nDubai, UAE\r\n"
+    address:
+      - addressLine: Sheikh Rashid Tower, Floor 26, Dubai World Trade Centre
+        addressLine: Dubai, P.O. Box 340662
+        addressLine: United Arab Emirastes
     flag: /img/flags/80x80/UAE round flag 80x80.png
     title: United Arab Emirates
 ---
