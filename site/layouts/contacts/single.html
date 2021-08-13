@@ -29,8 +29,7 @@
     <div class="container">
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
-        <div class ="contact-page__contacts-card {{ with $location.isMain}} contact-page__contacts-card-special {{end}}">
-
+        <div class ="contact-page__contacts-card {{ with $location.isMain }}contact-page__contacts-card-special{{end}}">
           <div class="contact-page__contacts-card-top">
             {{ with $location.flag }}
             <img src="{{ . }}" class="contact-page__location-flag">
@@ -83,10 +82,7 @@
                 {{ partial "social" (dict "data" $location.contactssocial) }}
               </div>
             </div>
-
-
-
-
+          </div>  
         </div>
         {{ end }}
       </div>
