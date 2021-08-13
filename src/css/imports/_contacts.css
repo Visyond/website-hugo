@@ -121,6 +121,11 @@
   line-height: 1.5;
 }
 
+.contacts-page__address,
+.contacts-page__phone {
+  color: #383e4d;
+}
+
 .contacts-page__link {
   color: #0585ff;
 }  
@@ -133,9 +138,6 @@
   }
 }
 
-.contacts-page__phone {
-  color: #383e4d;
-}
 
 .contacts-page__address p {
   margin-bottom: 0;

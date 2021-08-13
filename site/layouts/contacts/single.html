@@ -29,7 +29,7 @@
     <div class="container">
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
-        <div class ="contact-page__contacts-card">
+        <div class ="contact-page__contacts-card {{ with $location.isMain }}contact-page__contacts-card-special{{end}}">
           <div class="contact-page__contacts-card-top">
             {{ with $location.flag }}
             <img src="{{ . }}" class="contact-page__location-flag">
@@ -48,7 +48,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.address }}
                 <li class="contacts-page__item--address">
-                  <div class="contacts-page__address">{{ $location.addressLine }}</div>
+                  <div class="contacts-page__address">{{ .addressLine }}</div>
                 </li>
                 {{ end }}
               </ul>              
@@ -70,7 +70,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsEmail }}
                 <li class="contacts-page__item--email">
-                  <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
+                  <a href="mailto:{{ .socialEmail }}" class="contacts-page__link">{{ .socialEmail }}</a>
                 </li>
                 {{end}}
               </ul>
@@ -94,7 +94,7 @@
 
 
   <!-- CONTACT FORM -->
-  <section id="contactUs" class="homeBenefits"> 
+  <section id="contactUs" class="homeBenefits" style="background-color: #fafafa;"> 
     <div class="container">
       <!-- <h2 class="enterV__headline">{{ .Params.formTitle }}</h2> -->
       <!-- <div class="header-section--divider"></div> -->
