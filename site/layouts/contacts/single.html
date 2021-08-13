@@ -3,9 +3,9 @@
 
 <div class="homehex ht">
   <!-- TOP SECTION -->
-  <section class="home-hero" style="padding: 60px 0px 60px 0px;">
-    <div class="container">
-      <div class="whyV__row">
+	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
+		<div class="container">
+			<div class="whyV__row">
 				<div class="home-hero__container">
 					<div class="home-hero__half-width-wrap" style="width: 100%;">  
 						<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Title | markdownify }}</h1>
@@ -19,9 +19,9 @@
 					</div>
 				</div>
 			</div>
-    </div>
-  </section>
-  <!-- END: TOP SECTION -->
+		</div>
+	</section>
+	<!-- END: TOP SECTION -->	
  
   
   <!-- CONTACTS SECTION -->
@@ -29,7 +29,7 @@
     <div class="container">
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
-        <div class ="contact-page__contacts-card {{ with $location.isMain }}contact-page__contacts-card-special{{end}}">
+        <div class ="contact-page__contacts-card {{ if .isMain }}contact-page__contacts-card-special{{end}}">
           <div class="contact-page__contacts-card-top">
             {{ with $location.flag }}
             <img src="{{ . }}" class="contact-page__location-flag">
@@ -48,7 +48,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.address }}
                 <li class="contacts-page__item--address">
-                  <div class="contacts-page__address">{{ .addressLine }}</div>
+                  <div class="contacts-page__address">{{ $element.addressLine }}</div>
                 </li>
                 {{ end }}
               </ul>              
@@ -59,7 +59,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsPhone }}
                 <li class="contacts-page__item--phone">
-                  <a href="tel:{{ .socialphone }}" class="contacts-page__phone">{{ .socialphone }}</a>
+                  <a href="tel:{{ $element.socialphone }}" class="contacts-page__phone">{{ $element.socialphone }}</a>
                 </li>
                 {{ end }}
               </ul>
@@ -70,7 +70,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsEmail }}
                 <li class="contacts-page__item--email">
-                  <a href="mailto:{{ .socialEmail }}" class="contacts-page__link">{{ .socialEmail }}</a>
+                  <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
                 </li>
                 {{end}}
               </ul>
