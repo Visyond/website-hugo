@@ -150,16 +150,18 @@
 .contacts-page__item {
   display: flex;
   flex-flow: column nowrap;
+
   &:not(:last-child) {
     margin-bottom: 20px;
   }
 
-  @media screen and (max-width: 541px) {
+
+  /*@media screen and (max-width: 541px) {
     width: 100%;
     &:not(:last-child) {
       margin-bottom: 30px;
     }
-  }
+  } */
 }
 
 .contacts-page__item--phone,
@@ -177,8 +179,7 @@
   &:not(:last-child) {
     margin-bottom: 5px;
   }
-}  
-}
+} 
 
 .contacts-page__social-wrap {
   margin-top: auto;
