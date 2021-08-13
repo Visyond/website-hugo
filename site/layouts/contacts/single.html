@@ -34,9 +34,9 @@
             {{ end }}
 
             {{ with $location.title }}
-            <h3 class="contact-page__location-title">
+            <h2 class="contact-page__location-title">
               {{ . }}
-            </h3>
+            </h2>
             {{ end }}
           </div>
 
@@ -44,11 +44,11 @@
 
 
           <div class="contact-page__location">
-            <div class="contacts-page__item contacts-page__item--mail">
+            <div class="contacts-page__item">
               <h3 class="contacts-page__title">Address</h3>
               <ul class="contacts-page__list"></ul>
-                {{ range $element := $location.adress }}
-                <li class="contacts-page__item">
+                {{ range $element := $location.address }}
+                <li class="contacts-page__item--address">
                   <div class="contacts-page__address">{{ $location.addressLine }}</div>
                 </li>
                 {{ end }}
@@ -56,22 +56,22 @@
             </div>
 
 
-            <div class="contacts-page__item contacts-page__item--phone">
+            <div class="contacts-page__item">
               <h3 class="contacts-page__title">Phone</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsPhone }}
-                <li class="contacts-page__item">
+                <li class="contacts-page__item--phone">
                   <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__phone">{{ .socialphone }}</a>
                 </li>
                 {{ end }}
               </ul>
             </div>
       
-            <div class="contacts-page__item contacts-page__item--email">
+            <div class="contacts-page__item ">
               <h3 class="contacts-page__title">Email</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsEmail }}
-                <li class="contacts-page__item">
+                <li class="contacts-page__item--email">
                   <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
                 </li>
                 {{end}}
