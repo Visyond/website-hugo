@@ -48,7 +48,7 @@
               <ul class="contacts-page__list">
                 {{ range $element := $location.address }}
                 <li class="contacts-page__item--address">
-                  <div class="contacts-page__address">{{ $element.addressLine }}</div>
+                  <div class="contacts-page__address">{{ .addressLine }}</div>
                 </li>
                 {{ end }}
               </ul>              
