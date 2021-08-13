@@ -26,7 +26,7 @@
     <div class="container">
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
-        <div class ="contact-page__contacts-card">
+        <div class ="contact-page__contacts-card {{ if .isMain}} contact-page__contacts-card-special {{end}}">
 
           <div class="contact-page__contacts-card-top">
             {{ with $location.flag }}
@@ -40,13 +40,10 @@
             {{ end }}
           </div>
 
-
-
-
           <div class="contact-page__location">
             <div class="contacts-page__item">
               <h3 class="contacts-page__title">Address</h3>
-              <ul class="contacts-page__list"></ul>
+              <ul class="contacts-page__list">
                 {{ range $element := $location.address }}
                 <li class="contacts-page__item--address">
                   <div class="contacts-page__address">{{ $location.addressLine }}</div>
@@ -55,18 +52,17 @@
               </ul>              
             </div>
 
-
             <div class="contacts-page__item">
               <h3 class="contacts-page__title">Phone</h3>
               <ul class="contacts-page__list">
                 {{ range $element := $location.contactsPhone }}
                 <li class="contacts-page__item--phone">
-                  <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__phone">{{ .socialphone }}</a>
+                  <a href="tel:{{ .socialphone }}" class="contacts-page__phone">{{ .socialphone }}</a>
                 </li>
                 {{ end }}
               </ul>
             </div>
-      
+
             <div class="contacts-page__item ">
               <h3 class="contacts-page__title">Email</h3>
               <ul class="contacts-page__list">
@@ -78,11 +74,14 @@
               </ul>
             </div>
 
-
-            <div class="contacts-page__social-wrap">
-              {{ partial "social" (dict "data" $location.contactssocial) }}
+            <div class="contacts-page__item">
+              <h3 class="contacts-page__title">Phone</h3>
+              <div class="contacts-page__social-wrap">
+                {{ partial "social" (dict "data" $location.contactssocial) }}
               </div>
             </div>
+
+
 
 
         </div>

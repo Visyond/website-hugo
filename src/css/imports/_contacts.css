@@ -35,7 +35,7 @@
 
 .contact-page__contacts-card {
   margin: 0 0 40px 0;
-  padding: 30px 40px;
+  padding: 25px 35px;
   border: 1px solid #efefef;
   border-radius: 15px;
   box-shadow: 0 0 10px 2px rgb(231 231 231 / 55%);
@@ -54,6 +54,7 @@
 
 .contact-page__contacts-card-special {
 	border-top: 1em solid #0585ff!important;
+  max-width: 100%!important;
 }
 
 
@@ -161,7 +162,6 @@
   }
 }
 
-.contacts-page__item--address,
 .contacts-page__item--phone,
 .contacts-page__item--email {
   margin-bottom: 0;  
@@ -171,6 +171,14 @@
   }
 }
 
+.contacts-page__item--address {
+  margin-bottom: 0;  
+  
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}  
+}
 
 .contacts-page__social-wrap {
   margin-top: auto;

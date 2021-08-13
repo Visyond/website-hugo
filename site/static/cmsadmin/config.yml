@@ -832,6 +832,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: markdown }
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
           - { label: "Locations", name: locations, widget: list, fields: [
+              {label: "Is main address?", name: "isMain", widget: "boolean", default: false}
               { label: "Flag image", name: flag, widget: "image" }
               { label: Locations Title, name: title, widget: string },
               { label: Address, name: address, widget: list, fields: [
