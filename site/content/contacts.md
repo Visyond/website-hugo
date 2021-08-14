@@ -5,19 +5,19 @@ title: Contact Us
 topSubTitle: Get the answers to your questions or [contact us](#contactUs).
 cards:
   - description: 'Explore different solutions and use cases'
-    header: Watch Demos
+    title: Watch Demos
     image: /img/audit-mode@2x.png
     link: /demo
   - description: Choose a plan that works for you
-    header: Pricing
+    title: Pricing
     image: /img/selective-sharing@2x.png
     link: /pricing
   - description: Get the answers to your questions
-    header: Frequently Asked Questions
+    title: Frequently Asked Questions
     image: /img/scenarios@2x.png
     link: /faq
   - description: See guides and tutorials
-    header: Knowledge Base
+    title: Knowledge Base
     image: /img/interactive presentations@2x.png
     link: https://help.visyond.com/
 locationsTitle: Locations
