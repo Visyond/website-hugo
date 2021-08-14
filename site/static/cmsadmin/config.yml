@@ -831,6 +831,15 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Contact, name: contact, widget: hidden, default: "/contact.html" }
           - { label: Title, name: title, widget: markdown }
           - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+          - {label: Resources cards, name: cards, widget: list, fields: [
+              {label: Image, name: image, widget: image},
+              {label: Title, name: title, widget: string},
+              {label: Description, name: description, widget: text},
+              {label: Link, name: link, widget: string}
+            ],
+            required: false,
+            }
+          - { label: Locations Title, name: locationsTitle, widget: string }
           - { label: "Locations", name: locations, widget: list, fields: [
               {label: "Is main address?", name: "isMain", widget: "boolean", default: false}
               { label: "Flag image", name: flag, widget: "image" }
@@ -849,6 +858,7 @@ collections: # A list of collections the CMS should be able to edit
                 { label: "email", name: socialemail, widget: "string" }
               ]}
             ]}
+          - { label: Form Section Title, name: formTitle, widget: string }
 
 
       - file: "site/content/why-visyond.md"

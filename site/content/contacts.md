@@ -2,7 +2,26 @@
 metaTags: "<meta name=\"description\" content=\"Contact Visyond if you have any questions or inquiries about our product!\">\r\n\r\n<meta name=\"keywords\" content=\"Contact Visyond, Visyond email, Visyond phone, Visyond telephone, Visyond address, Visyond Mail, Visyond Linkedin, Visyond Twitter, Visyond Facebook\">"
 type: contacts
 title: Contact Us
-topSubTitle: Contact our team.
+topSubTitle: Get the answers to your questions or [contact us](#contactUs).
+cards:
+  - description: 'Always know who contributed what, when and why'
+    header: Full Transparency and Data Governance
+    icon: /img/audit-mode@2x.png
+    link: /solutions/data-tracking-software/
+  - description: Manage access and share projects fully or partially
+    header: Secure Collaborative Environment
+    icon: /img/selective-sharing@2x.png
+    link: /solutions/spreadsheet-collaboration-software/
+  - description: Automate routine analytical tasks and their setup without experts
+    header: Data Analysis in <br> Minutes
+    icon: /img/scenarios@2x.png
+    link: /solutions/data-analysis-software/
+  - description: Quickly get insights from your data through interactive presentations
+    header: Testing Assumptions in Real Time
+    icon: /img/interactive presentations@2x.png
+    link: /solutions/automate-excel-reports-and-presentation/
+  - description: Have a single source of truth for your data & documentation
+locationsTitle: Locations
 locations:
   - contactsemail:
       - socialemail: info@visyond.com
@@ -47,5 +66,6 @@ locations:
     flag: /img/flags/80x80/UAE round flag 80x80.png
     title: United Arab Emirates
     isMain: false
+formTitle: Talk to Us
 ---
 

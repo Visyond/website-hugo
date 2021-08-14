@@ -23,10 +23,29 @@
             {{ .Params.topSubTitle | markdownify }} 
           </div>
 
+          <!--
           <div class="btn-wrap">
             <a href="#contactUs" class="button button-primary">Talk to Us</a>
           </div>
+          -->
         </div>
+
+
+        <div class="contact-page__resources">
+          {{ range .Params.cards }}
+          <a {{ with .link }} href="{{.}}" {{ end }} class="contact-page__resources__card">
+              <div class="contact-page__resources__card-image-wrap">
+                  <img src="{{ .image }}" class="contact-page__resources__card-image">
+              </div>
+              <h3 class="contact-page__resources__card-title">{{ .title }}</h3>
+              <div class="contact-page__resources__card-text">{{ .description }}</div>
+          </a>
+          {{ end }}
+      </div>
+
+
+
+
       </div>
     </div>
   </section>
@@ -36,6 +55,9 @@
   <!-- CONTACTS SECTION -->
   <section class="homeBenefits">
     <div class="container">
+      <h2 class="enterV__headline">{{ .locationsTitle }}</h2>
+      <div class="header-section--divider"></div>
+
       <div class="contact-page__contacts-wrapper">
         {{ range $location := .Params.locations }}
         <div class ="contact-page__contacts-card {{ if .isMain }}contact-page__contacts-card-special{{end}}">
@@ -63,6 +85,7 @@
               </ul>              
             </div>
 
+            <!--
             <div class="contacts-page__item">
               <h3 class="contacts-page__title">Phone</h3>
               <ul class="contacts-page__list">
@@ -73,6 +96,7 @@
                 {{ end }}
               </ul>
             </div>
+            -->
 
             <div class="contacts-page__item ">
               <h3 class="contacts-page__title">Email</h3>
@@ -105,8 +129,8 @@
   <!-- CONTACT FORM -->
   <section id="contactUs" class="homeBenefits" style="background-color: #fafafa;"> 
     <div class="container">
-      <!-- <h2 class="enterV__headline">{{ .Params.formTitle }}</h2> -->
-      <!-- <div class="header-section--divider"></div> -->
+      <h2 class="enterV__headline">{{ .formTitle }}</h2>
+      <div class="header-section--divider"></div>
         <div class="marketing-form-wrapper">
           <!--[if lte IE 8]>
           <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
