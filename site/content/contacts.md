@@ -20,7 +20,6 @@ cards:
     header: Testing Assumptions in Real Time
     image: /img/interactive presentations@2x.png
     link: /solutions/automate-excel-reports-and-presentation/
-  - description: Have a single source of truth for your data & documentation
 locationsTitle: Locations
 locations:
   - contactsemail:
