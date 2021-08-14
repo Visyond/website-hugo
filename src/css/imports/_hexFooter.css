@@ -37,6 +37,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    @media screen and (max-width: 991px) {
+      justify-content: center;
+  }
 }
 
 .hexFooter__left {
@@ -44,7 +48,7 @@
     display: flex;
     flex-flow: column nowrap;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
     width: 100%;
     align-items: center;
 }
@@ -56,14 +60,11 @@
 }
 .hexContacts {
     font-style: normal;
-    margin-top: 25px;
+    margin-top: 20px;
     padding-right: 60px;
-@media screen and (max-width: 768px) {
-    padding: 0;
-}
-@media screen and (max-width: 651px) {
-    margin-top: 15px;
-}
+    @media screen and (max-width: 991px) {
+        padding: 0;
+    }
 }
 
 .hexContacts__desc {
@@ -86,7 +87,7 @@
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 991px) {
       justify-content: center;
   }
 }
