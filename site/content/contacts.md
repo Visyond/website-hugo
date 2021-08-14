@@ -6,19 +6,19 @@ topSubTitle: Get the answers to your questions or [contact us](#contactUs).
 cards:
   - description: 'Always know who contributed what, when and why'
     header: Full Transparency and Data Governance
-    icon: /img/audit-mode@2x.png
+    image: /img/audit-mode@2x.png
     link: /solutions/data-tracking-software/
   - description: Manage access and share projects fully or partially
     header: Secure Collaborative Environment
-    icon: /img/selective-sharing@2x.png
+    image: /img/selective-sharing@2x.png
     link: /solutions/spreadsheet-collaboration-software/
   - description: Automate routine analytical tasks and their setup without experts
     header: Data Analysis in <br> Minutes
-    icon: /img/scenarios@2x.png
+    image: /img/scenarios@2x.png
     link: /solutions/data-analysis-software/
   - description: Quickly get insights from your data through interactive presentations
     header: Testing Assumptions in Real Time
-    icon: /img/interactive presentations@2x.png
+    image: /img/interactive presentations@2x.png
     link: /solutions/automate-excel-reports-and-presentation/
   - description: Have a single source of truth for your data & documentation
 locationsTitle: Locations
