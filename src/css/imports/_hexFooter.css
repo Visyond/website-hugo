@@ -92,7 +92,7 @@
 }
 
 .hexContacts__link {
-    font-weight: 900;
+    font-weight: 600;
     color: #383E4D;
     letter-spacing: 0.06em;
     transition: color 0.1s ease-in-out;
@@ -112,7 +112,7 @@
 .hexCopyright {
     color: #383E4D;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
 @media screen and (max-width: 600px) {
     margin-bottom: 30px;
 }
@@ -131,6 +131,7 @@
 @media screen and (max-width: 1025px){
     width: 100%;
     border-left: 0;
+    justify-content: space-between;
 }
 @media screen and (max-width: 768px) {
     padding: 0;
@@ -172,7 +173,7 @@
 
 .hexFooter-section-group__list {
     list-style: none;
-    margin: 28px 0 0 0;
+    margin: 15px 0 0 0;
     padding: 0;
 }
 
