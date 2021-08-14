@@ -4,22 +4,22 @@ type: contacts
 title: Contact Us
 topSubTitle: Get the answers to your questions or [contact us](#contactUs).
 cards:
-  - description: 'Always know who contributed what, when and why'
-    header: Full Transparency and Data Governance
+  - description: 'Explore different solutions and use cases'
+    header: Watch Demos
     image: /img/audit-mode@2x.png
-    link: /solutions/data-tracking-software/
-  - description: Manage access and share projects fully or partially
-    header: Secure Collaborative Environment
+    link: /demo
+  - description: Choose a plan that works for you
+    header: Pricing
     image: /img/selective-sharing@2x.png
-    link: /solutions/spreadsheet-collaboration-software/
-  - description: Automate routine analytical tasks and their setup without experts
-    header: Data Analysis in <br> Minutes
+    link: /pricing
+  - description: Get the answers to your questions
+    header: Frequently Asked Questions
     image: /img/scenarios@2x.png
-    link: /solutions/data-analysis-software/
-  - description: Quickly get insights from your data through interactive presentations
-    header: Testing Assumptions in Real Time
+    link: /faq
+  - description: See guides and tutorials
+    header: Knowledge Base
     image: /img/interactive presentations@2x.png
-    link: /solutions/automate-excel-reports-and-presentation/
+    link: https://help.visyond.com/
 locationsTitle: Locations
 locations:
   - contactsemail:
