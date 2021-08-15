@@ -16,7 +16,7 @@ cards:
     title: FAQ
     image: /img/contacts/contacts FAQ image.png
     link: /faq
-  - description: See guides and tutorials
+  - description: See step-by-step guides and tutorials
     title: Knowledge Base
     image: /img/contacts/contacts knowledge base image.png
     link: https://help.visyond.com/
