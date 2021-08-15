@@ -206,10 +206,4 @@ summary:
 DemoStripTitle: Flexible. Familiar. Scalable.
 DemoStripTitleButton: Get started
 DemoStripTitleLink: /accounts/signup/
-providesTitle: Get Started Today
-providesList:
-  - text: >-
-      Cloud or on-premise platform and Excel add-in
-  - text: Easy to use, no complicated menus to learn
-  - text: Get started in minutes
 ---

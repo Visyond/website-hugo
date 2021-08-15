@@ -189,12 +189,5 @@ infoBlockFirst:
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Present Actionable Insights
-providesTitle: Visyond for remote work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

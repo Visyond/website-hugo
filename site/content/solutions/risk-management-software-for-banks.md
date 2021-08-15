@@ -319,18 +319,5 @@ infoBlockFirst:
       Visyond.jpg
     subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Model
-providesTitle: Risk Management Software for Remote Work
-providesList:
-  - text: '**Less Risk** - More control over critical information'
-  - text: >-
-      **Fewer errors and higher productivity** - Automated and standardized
-      workflows
-  - text: >-
-      **Better Customer Experience** - Quicker turn-around and modern
-      collaborative interface
-  - text: >-
-      **Lower switching costs & quick time-to-value** - Ready out of the box,
-      compatible with legacy systems, does not require full-scale transition &
-      can be adopted incrementally
 ---
 

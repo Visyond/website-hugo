@@ -465,11 +465,5 @@ faqSectionContent:
       - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
     faqSectionSubTitle: Do you offer plans for students?
-providesTitle: Get Started Today
-providesList:
-  - text: >-
-      Cloud or on-premise platform and Excel add-in
-  - text: Easy to use, no complicated menus to learn
-  - text: Get started in minutes    
 ---
 

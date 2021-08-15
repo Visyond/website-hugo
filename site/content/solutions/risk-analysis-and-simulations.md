@@ -163,12 +163,5 @@ infoBlockFirst:
       Visyond.jpg
     subtitle: "Single source of truth and knowledge management.\r\n<br>\nModel documentation at your fingertips.\r\n<br>\nData sharing without external tools.\r"
     title: 'Organize Assumptions, Documents and Conversations In Cells'
-providesTitle: Data Analysis Software for Remote Work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

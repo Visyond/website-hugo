@@ -50,12 +50,5 @@ infoBlockFirst:
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: ''
     title: Share Interactive Self-Service Dashboards
-providesTitle: Visyond for Wealth Management
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

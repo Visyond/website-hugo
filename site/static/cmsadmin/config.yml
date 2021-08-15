@@ -193,10 +193,6 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }
-      - {label: "Provides Title", name: "providesTitle", widget: "string"}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
-      ],}
 
 
 
@@ -240,13 +236,6 @@ collections: # A list of collections the CMS should be able to edit
         ], required: false,}
       - {label: "Submit Button Title", name: "submitButtonTitle", widget: "string", required: false,}
 
-      - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown", required: false,},
-      ], required: false,}
-
-      - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
-      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
 
   - name: "blog"
     label: "Blog"
@@ -300,15 +289,7 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Youtube Link", name: "linkYoutube", widget: "string"},
         ],
         required: false,
-        }
-
-      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false, default: "/img/footer-bg.jpg"}
-      - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
-        ],
-        required: false,
-      }  
+        } 
 
 
 
@@ -353,14 +334,6 @@ collections: # A list of collections the CMS should be able to edit
         ],
         required: false,
         }
-
-      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false, default: "/img/back2.png"}
-      - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
-        ],
-        required: false,
-      }  
 
 
 
@@ -888,10 +861,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Header", name: "header", widget: "string"},
               {label: "Link", name: "link", widget: "string"},
               {label: "Description", name: "description", widget: "markdown"}] }
-          - {label: "Section 3: Header", name: "sectionThreeHeader", widget: "string", required: fals}
-          - {label: "Footer Header", name: "providesTitle", widget: "string", required: false}
-          - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-          - {label: "Provides List", name: "providesList", widget: "list", fields: [{label: "Provides Item", name: "text", widget: "markdown"}],}
+          - {label: "Section 3: Header", name: "sectionThreeHeader", widget: "string", required: false}
 
       - file: "site/content/nav/_index.md"
         label: "Navigation"

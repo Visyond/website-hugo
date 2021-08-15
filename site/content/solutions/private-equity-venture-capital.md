@@ -188,12 +188,5 @@ infoBlockFirst:
       Visyond.jpg
     subtitle: "Data governance and spreadsheet audit.\n<br> \r\nErrors and data anomalies detection.\n<br> \r\nInformation exchange without version chaos."
     title: Improve Investment Analysis and Reporting
-providesTitle: Visyond for remote work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

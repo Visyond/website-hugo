@@ -52,14 +52,5 @@ radio:
   - labelRadioButton: Sales Partner
   - labelRadioButton: Integration & Software
 submitButtonTitle: Contact Us
-providesTitle: Get Started in Minutes
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-bgBottom: /img/footer-bg.jpg
 ---
 

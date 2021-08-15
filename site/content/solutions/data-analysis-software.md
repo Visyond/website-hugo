@@ -312,12 +312,5 @@ infoBlockFirst:
       Visyond.jpg
     subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Model
-providesTitle: Data Analysis Software for Remote Work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

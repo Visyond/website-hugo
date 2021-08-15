@@ -117,13 +117,5 @@ cards:
     icon: /img/analyst_and_consultant_3x.png
     link: /solutions/financial-modeling-software/
 sectionThreeHeader: How We Compare to Others?
-providesTitle: Visyond for remote work
-titleBottom: Find out how to improve your decision-making process today
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

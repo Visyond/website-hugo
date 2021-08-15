@@ -279,12 +279,5 @@ infoBlockFirst:
       <br>
       Financial statements generation.
     title: Generate Financial Statements Linked To Your Model
-providesTitle: Financial Data Analysis Software for Remote Work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
 

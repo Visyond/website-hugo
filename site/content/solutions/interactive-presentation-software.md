@@ -115,14 +115,5 @@ featuresCards:
       Speed-up the creation and accuracy of Financial Statements without long
       error-prone manual setups.
     title: Financial Statements
-providesTitle: Get started in minutes
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
-titleBottom: Find out how to improve your decision-making process today
-botRequestURL: /request
 ---
 

@@ -165,11 +165,4 @@ infoBlockFirst:
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     subtitle: "Interactive data visualizations.\n<br>\r\nSelf-service on ‘what-if’ questions.\r\n<br>\nSpreadsheet-driven calculators.\r"
     title: Democratize Decision Making
-providesTitle: Spreadsheet Collaboration Software for Remote Work
-providesList:
-  - text: >-
-      A flexible and familiar spreadsheet interface that is
-      **cross-compatible**  with Excel
-  - text: Low entry barrier - Visyond is easy **to use and learn**
-  - text: Full **transparency and control** over your data
 ---
