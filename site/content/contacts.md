@@ -1,8 +1,8 @@
 ---
 metaTags: "<meta name=\"description\" content=\"Contact Visyond if you have any questions or inquiries about our product!\">\r\n\r\n<meta name=\"keywords\" content=\"Contact Visyond, Visyond email, Visyond phone, Visyond telephone, Visyond address, Visyond Mail, Visyond Linkedin, Visyond Twitter, Visyond Facebook\">"
 type: contacts
-title: Contact Us
-topSubTitle: Get the answers to your questions or [contact us](#contactUs).
+title: Got questions? We'll be happy to help!
+topSubTitle: Quickly find answers to your questions or [contact us](#contactUs).
 cards:
   - description: 'Explore different solutions and use cases'
     title: Watch Demos
@@ -14,11 +14,11 @@ cards:
     link: /pricing
   - description: Get quick answers to your questions
     title: FAQ
-    image: /img/scenarios@2x.png
+    image: /img/contacts/contacts FAQ image.png
     link: /faq
   - description: See guides and tutorials
     title: Knowledge Base
-    image: /img/interactive presentations@2x.png
+    image: /img/contacts/contacts knowledge base image.png
     link: https://help.visyond.com/
 locationsTitle: Locations
 locations:

@@ -302,7 +302,7 @@ collections: # A list of collections the CMS should be able to edit
         required: false,
         }
 
-      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false, default: "/img/back2.png"}
+      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false, default: "/img/footer-bg.jpg"}
       - {label: "Provides Title", name: "providesTitle", widget: "string", required: false,}
       - {label: "Provides List", name: "providesList", widget: "list", fields: [
         {label: "Provides Item", name: "text", widget: "markdown"},
@@ -1021,6 +1021,18 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Alt Text", name: "alt", widget: string, default: "image"},
             ],
           }
+
+      - file: "site/content/getStartedSignUp/_index.md"
+        label: "Get Started with Video"
+        name: "getStartedSignUp"
+        fields:
+          - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
+          - {label: "Provides Title", name: "getStartedTitle", widget: "string", required: false,}
+          - {label: "Provides List", name: "getStartedList", widget: "list", fields: [
+            {label: "Provides Item", name: "getStartedText", widget: "markdown"},
+            ],
+            required: false,
+          }            
 
 
 

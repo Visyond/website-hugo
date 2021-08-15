@@ -148,6 +148,10 @@ font-weight: 400;
 margin-bottom: 30px;
 }
 
+.home-hero__topSubtitle a {
+  color: #0086ff;
+  text-decoration: none;
+}
 
 /*features list*/
 .home-hero__main-features{

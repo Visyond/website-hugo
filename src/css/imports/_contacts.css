@@ -40,6 +40,7 @@
   transition: all .2s linear;
   box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
   border: 1px solid #efefef;
+  background-color: #fff;
 
 &:hover {
   box-shadow: 0 0 10px 2px rgb(195 195 195 / 55%);
@@ -47,7 +48,7 @@
 }
 
 .contact-page__resources__card-image-wrap {
-  height: 90px;
+  height: 200px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
