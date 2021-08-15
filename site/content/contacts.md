@@ -9,7 +9,7 @@ cards:
     image: /img/contacts/contacts demo image.png
     link: /demo
   - description: Choose a plan that works for you
-    title: Pricing
+    title: Pricing and Plans
     image: /img/contacts/contacts pricing image.png
     link: /pricing
   - description: Get quick answers to your questions
