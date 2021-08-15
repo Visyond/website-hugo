@@ -7,7 +7,7 @@ WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Create a Single Source of Truth for Your Spreadsheets">
   <meta name="description" content="Establish a single source of truth for your spreadsheets, and track who added certain assumptions, scenarios, supporting documentation, and conversations.">
-ThisFeatureIsFor: 'Data Tracking and Governance'
+ThisSolutionIsFor: 'Data Tracking and Governance'
 topTitle: >-
   Establish a Single Source of Truth for Your Spreadsheets
 WhyVisyondText: >-

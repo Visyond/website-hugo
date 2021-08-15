@@ -3,7 +3,7 @@ aliases:
   - /features/multidimensional-olap-analysis-online/
 title: 'Multidimensional Analysis Online OLAP '
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-ThisFeatureIsFor: 'Pivot / Cube / OLAP Analysis'
+ThisSolutionIsFor: 'Pivot / Cube / OLAP Analysis'
 topTitle: >-
   Explore & Analyze Spreadsheet Data from New Perspectives with Multidimensional
   Analysis Online

@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="title" content="Share Spreadsheets, Presentations and Analysis Online">
   <meta name="description" content="Communicate and share spreadsheets, presentations and analysis more efficiently and avoid data leaks and manual back-and-forth copy-paste between Excel and Powerpoint.">
   <meta name="keywords" content="share spreadsheet online, share presentations">
-ThisFeatureIsFor: 'Secure Data Sharing and Granular Access Control'
+ThisSolutionIsFor: 'Secure Data Sharing and Granular Access Control'
 topTitle: >-
   Share Spreadsheets, Presentations and Analysis Online - Only What
   Collaborators, Clients or Prospects Need To See

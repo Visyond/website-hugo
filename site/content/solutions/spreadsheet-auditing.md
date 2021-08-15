@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="title" content="Find Errors in Spreadsheets with Spreadsheet and Formula Auditing Tool">
   <meta name="description" content="Visyond’s Audit Mode offers a powerful spreadsheet auditing & error checking tool that will simplify the debugging and auditing of your spreadsheets.">
   <meta name="keywords" content="excel auditing tools, formula auditing in excel, find errors in excel, error checking tool excel">
-ThisFeatureIsFor: 'Spreadsheet Auditing and Error Root Cause Analysis'
+ThisSolutionIsFor: 'Spreadsheet Auditing and Error Root Cause Analysis'
 topTitle: 'Audit, Error-Check and Debug Spreadsheets With Ease'
 WhyVisyondText: >-
   Audit Mode is a powerful spreadsheet auditing & error checking tool that will

@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="title" content="Create Up-To-Date Spreadsheet Charts Online with Ease">
   <meta name="description" content="In Visyond, charting is simple and fast -  create spreadsheets charts online and link presentations to your model. Charts sare automatically updated and synced when changes are introduced to the source spreadsheet.">
   <meta name="keywords" content="create chart online, spreadsheet chart">
-ThisFeatureIsFor: 'Advanced Charts'
+ThisSolutionIsFor: 'Advanced Charts'
 topTitle: Create Always Up-To-Date Spreadsheet Charts with Ease
 WhyVisyondText: >-
   Charts are the cornerstone of a good presentation and an irreplaceable

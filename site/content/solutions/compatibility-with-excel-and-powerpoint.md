@@ -4,7 +4,7 @@ aliases:
   - /features/compatibility-with-excel-and-powerpoint/
 title: Cross-Compatibility with Excel and Export to PowerPoint
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
-ThisFeatureIsFor: 'Import Excel Models'
+ThisSolutionIsFor: 'Import Excel Models'
 topTitle: "Cross-Compatibility with Excel And Export to PowerPoint\r"
 WhyVisyondText: >-
   Visyond was built with ease of use and flexibility in mind allowing you to

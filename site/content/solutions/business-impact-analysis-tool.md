@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="title" content="Financial & Business Impact Analysis Tool - Tornado Analysis">
   <meta name="description" content="Measure impact of input variables on your model’s key outputs with Visyond’s impact analysis software.">
   <meta name="keywords" content="business impact analysis tool, financial impact analysis, tornado sensitivity analysis">
-ThisFeatureIsFor: 'Impact (Tornado) Analysis'
+ThisSolutionIsFor: 'Impact (Tornado) Analysis'
 topTitle: >-
   Business Impact Analysis Tool - Know What Input Cells Have the Greatest Impact
   on Important Output Cells

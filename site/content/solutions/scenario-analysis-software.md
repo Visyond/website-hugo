@@ -8,7 +8,7 @@ metaTags: >-
   <meta name="title" content="Scenario Analysis Software - Compare Scenarios and Answer What-If Questions On-The-Fly">
   <meta name="description" content="Visyond’s scenario analysis tool - compare different scenarios easily without depending on experts.">
   <meta name="keywords" content="scenario analysis, scenario analysis software, scenario analysis tool">
-ThisFeatureIsFor: 'Scenario Comparison and Analysis'
+ThisSolutionIsFor: 'Scenario Comparison and Analysis'
 topTitle: >-
   Scenario Analysis Software - Compare Scenarios and Answer What-If Questions
   On-The-Fly
