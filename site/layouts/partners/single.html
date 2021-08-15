@@ -10,78 +10,89 @@
  //first section -->
 
 
-<!-- TOP SECTION -->
+
 <div class="homehex ht">
+  <!-- TOP SECTION -->
 	<div class="container">
 		  <div class="home-hero__container">
 			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
 				<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.TopTitle }}</h1>
 				<div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">{{ .Params.TopSubTitle }}</div>
 			  </div>
-		  
 		  </div>
 	</div>
+  <!-- END: TOP SECTION -->
+
+
+
+
+
+  <!-- second section -->
+  <section class="homeBenefits" style="background: #fafafa; padding: 40px 0;">	
+  <div class="container">
+      <ul class="press2nd__list target-blank">
+          {{ range $el := .Params.pressarticles }}
+          <li class="press2nd__item" style="background: #ffffff;">
+              <a href="{{ $el.url }}" class="press2nd__link">
+                  <div class="press2nd__top">
+                      <span class="press2nd__company-wrap">
+                          <img src="{{ $el.logo }}" alt="{{ $el.alt }}" style="max-height: 45px;">
+                      </span>
+                      <div class="press2nd__company-person-wrap">
+                          {{ if $el.photo }}
+                          <span class="press2nd__company-person-img">
+                              <img src="{{ $el.photo }}" alt="photo">
+                          </span>
+                          {{ end }}
+                          <div>
+                              <span class="press2nd__company-person-name">{{ $el.name }}</span>
+                              <span class="press2nd__company-person-company-name">
+                                  {{ $el.company }}
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="press2nd__bottom">
+                      <div class="press2nd__title" style="font-weight: 400; line-height: 28px;">{{ $el.title | markdownify }}</div>
+                      <ul class="press2nd__tag-list">
+                          {{ range $tag := $el.tags }}
+                          <li class="press2nd__tag-item">{{ .tagTitle }}</li>
+                          {{ end }}
+                      </ul>
+                  </div>
+              </a>
+          </li>
+          {{ end }}
+      </ul>
+  </div>
+  </section>	
+  <!-- //second section -->
+
+
+
+  <!-- PARTNERS -->
+  <section class="homeBenefits" style="padding: 40px 0;">
+
+    <div class="container">
+      <h2 class="enterV__headline">{{ .Params.partnersTitle}}</h2>
+      
+      <div class="header-section--divider"></div>
+
+      <div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.partnersText | markdownify }}</div>
+      
+      <div class="btn-wrap" style="margin-bottom: 2em;">
+        <a href="{{ .Params.partnersURL}}" class="btn-primary" style="text-transform: none;">{{ .Params.partnersButtonText}}</a>
+      </div>	
+      
+    </div>
+  </section>	
+  <!-- END: PARTNERS -->
+
+
+
+  <!-- BOTTOM CTA WITH VIDEO -->
+  {{ partial "getStartedSignUp" . }}
+  <!-- END: BOTTOM CTA WITH VIDEO -->
+  
 </div>
-<!-- END: TOP SECTION -->
-
-<!-- second section -->
-<section class="homeBenefits" style="background: #fafafa; padding: 40px 0;">	
-<div class="container">
-    <ul class="press2nd__list target-blank">
-        {{ range $el := .Params.pressarticles }}
-        <li class="press2nd__item" style="background: #ffffff;">
-            <a href="{{ $el.url }}" class="press2nd__link">
-                <div class="press2nd__top">
-                    <span class="press2nd__company-wrap">
-                        <img src="{{ $el.logo }}" alt="{{ $el.alt }}" style="max-height: 45px;">
-                    </span>
-                    <div class="press2nd__company-person-wrap">
-                        {{ if $el.photo }}
-                        <span class="press2nd__company-person-img">
-                            <img src="{{ $el.photo }}" alt="photo">
-                        </span>
-                        {{ end }}
-                        <div>
-                            <span class="press2nd__company-person-name">{{ $el.name }}</span>
-                            <span class="press2nd__company-person-company-name">
-                                {{ $el.company }}
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="press2nd__bottom">
-                    <div class="press2nd__title" style="font-weight: 400; line-height: 28px;">{{ $el.title | markdownify }}</div>
-                    <ul class="press2nd__tag-list">
-                        {{ range $tag := $el.tags }}
-                        <li class="press2nd__tag-item">{{ .tagTitle }}</li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </a>
-        </li>
-        {{ end }}
-    </ul>
-</div>
-</section>	
-<!-- //second section -->
-
-
-<!-- PARTNERS -->
-<section class="homeBenefits" style="padding: 40px 0;">
-
-	<div class="container">
-		 <h2 class="enterV__headline">{{ .Params.partnersTitle}}</h2>
-		
-		<div class="header-section--divider"></div>
-
-		<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.partnersText | markdownify }}</div>
-		
-		<div class="btn-wrap" style="margin-bottom: 2em;">
-			<a href="{{ .Params.partnersURL}}" class="btn-primary" style="text-transform: none;">{{ .Params.partnersButtonText}}</a>
-		</div>	
-		
-	</div>
-</section>	
-<!-- END: PARTNERS -->
-
 {{ partial "hexFooter" . }}

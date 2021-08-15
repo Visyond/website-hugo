@@ -13,44 +13,55 @@
 		  
 		  </div>
 	</div>
-</div>
 <!-- END: TOP SECTION -->
 
+
+<!-- CASE STUDIES -->
 <section class="homeBenefits" style="background: #fafafa; padding: 40px 0;">	
-<div class="container">
-  <ul class="casestudies__list">
-    {{ range $el := .Params.Casestudies }}
-    <li class="casestudies__item" style="background: #ffffff;">
-      <a href="{{ $el.url }}" class="casestudies__link">
-        <div class="casestudies__top">
-          <span class="casestudies__company-wrap">
-            <img src="{{ $el.logo }}" alt="{{ $el.alt }}" style="max-height: 45px;">
-          </span>
-          <div class="casestudies__company-person-wrap">
-            <span class="casestudies__company-person-img">
-              <img src="{{ $el.photo }}" alt="">
+  <div class="container">
+    <ul class="casestudies__list">
+      {{ range $el := .Params.Casestudies }}
+      <li class="casestudies__item" style="background: #ffffff;">
+        <a href="{{ $el.url }}" class="casestudies__link">
+          <div class="casestudies__top">
+            <span class="casestudies__company-wrap">
+              <img src="{{ $el.logo }}" alt="{{ $el.alt }}" style="max-height: 45px;">
             </span>
-            <div>
-              <span class="casestudies__company-person-name">{{ $el.name }}</span>
-              <span class="casestudies__company-person-company-name">
-                {{ $el.company }}
+            <div class="casestudies__company-person-wrap">
+              <span class="casestudies__company-person-img">
+                <img src="{{ $el.photo }}" alt="">
               </span>
+              <div>
+                <span class="casestudies__company-person-name">{{ $el.name }}</span>
+                <span class="casestudies__company-person-company-name">
+                  {{ $el.company }}
+                </span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="casestudies__bottom">
-          <h3 class="casestudies__title">{{ $el.title }}</h3>
-          <ul class="casestudies__tag-list">
-            {{ range $tag := $el.tags }}
-            <li class="casestudies__tag-item">{{ .tagTitle }}</li>
-            {{ end }}
-          </ul>
-        </div>
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+          <div class="casestudies__bottom">
+            <h3 class="casestudies__title">{{ $el.title }}</h3>
+            <ul class="casestudies__tag-list">
+              {{ range $tag := $el.tags }}
+              <li class="casestudies__tag-item">{{ .tagTitle }}</li>
+              {{ end }}
+            </ul>
+          </div>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+<section>
+<!-- END: CASE STUDIES -->
+
+
+<!-- BOTTOM CTA WITH VIDEO -->
+{{ partial "getStartedSignUp" . }}
+<!-- END: BOTTOM CTA WITH VIDEO -->
 
 </div>
-<section>  
+
+
+
 {{ partial "hexFooter" . }}
