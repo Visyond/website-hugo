@@ -30,25 +30,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 15px 20px;
-  margin: 20px 10px;
+  padding: 25px 25px;
+  margin: 10px;
   text-align: center;
-  color: #595959;
   width: 100%;
   max-width: 300px;
   cursor: pointer;
   border-radius: 5px;
   transition: all .2s linear;
-  box-shadow: 0 4px 30px #dbddeca8;
+  box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
+  border: 1px solid #efefef;
 
 &:hover {
-   box-shadow: 0 5px 40px #c0c2cf;
+  box-shadow: 0 0 10px 2px rgb(195 195 195 / 55%);
 }
 }
 
 .contact-page__resources__card-image-wrap {
   height: 90px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +66,8 @@
 
 .contact-page__resources__card-title{
   margin-bottom: 10px;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: 600;
   line-height: 1.4;
   color: #383e4d;
   width: 100%;

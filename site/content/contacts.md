@@ -6,14 +6,14 @@ topSubTitle: Get the answers to your questions or [contact us](#contactUs).
 cards:
   - description: 'Explore different solutions and use cases'
     title: Watch Demos
-    image: /img/audit-mode@2x.png
+    image: /img/contacts/contacts demo image.png
     link: /demo
   - description: Choose a plan that works for you
     title: Pricing
-    image: /img/selective-sharing@2x.png
+    image: /img/contacts/contacts pricing image.png
     link: /pricing
-  - description: Get the answers to your questions
-    title: Frequently Asked Questions
+  - description: Get quick answers to your questions
+    title: FAQ
     image: /img/scenarios@2x.png
     link: /faq
   - description: See guides and tutorials
