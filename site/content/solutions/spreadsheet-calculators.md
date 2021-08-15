@@ -1,5 +1,7 @@
 ---
-aliases: /features/calculators/
+aliases: 
+  - /features/calculators/
+  - /features/spreadsheet-calculators/
 title: Interactive Spreadsheet Calculators
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

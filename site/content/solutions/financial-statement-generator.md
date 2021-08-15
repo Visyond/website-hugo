@@ -1,5 +1,7 @@
 ---
-aliases: /features/financial-statements/
+aliases: 
+  - /features/financial-statements/
+  - /features/financial-statement-generator/
 metaTags: >-
   <meta name="title" content="Online Financial Statement Generator">
 

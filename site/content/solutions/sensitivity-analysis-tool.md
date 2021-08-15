@@ -1,5 +1,7 @@
 ---
-aliases: /features/sensitivity/
+aliases: 
+  - /features/sensitivity/
+  - /features/sensitivity-analysis-tool/
 title: Sensitivity Analysis Tool
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

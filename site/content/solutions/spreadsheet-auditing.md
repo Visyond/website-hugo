@@ -1,5 +1,7 @@
 ---
-aliases: /features/audit-mode/
+aliases: 
+  - /features/audit-mode/
+  - /features/spreadsheet-auditing/
 title: Spreadsheet and Formula Auditing Tool
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

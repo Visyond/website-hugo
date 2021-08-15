@@ -1,5 +1,7 @@
 ---
-aliases: /features/dependency-analysis/
+aliases: 
+  - /features/dependency-analysis/
+  - /features/spreadsheet-dependency-analysis/
 title: Trace Dependents with Spreadsheet Dependency Analysis
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

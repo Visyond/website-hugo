@@ -1,5 +1,7 @@
 ---
-aliases: /features/import-and-export/
+aliases: 
+  - /features/import-and-export/
+  - /features/compatibility-with-excel-and-powerpoint/
 title: Cross-Compatibility with Excel and Export to PowerPoint
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 ThisFeatureIsFor: 'Import Excel Models'

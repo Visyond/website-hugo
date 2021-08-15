@@ -1,5 +1,7 @@
 ---
-aliases: /features/selective-sharing/
+aliases: 
+  - /features/selective-sharing/
+  - /features/share-spreadsheets-and-presentations-online/
 title: 'Share Spreadsheets, Presentations and Analysis Online'
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

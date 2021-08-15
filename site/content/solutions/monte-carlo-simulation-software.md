@@ -1,5 +1,7 @@
 ---
-aliases: /features/simulations/
+aliases: 
+  - /features/simulations/
+  - /features/monte-carlo-simulation-software/
 title: Online Monte Carlo Simulation Software
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

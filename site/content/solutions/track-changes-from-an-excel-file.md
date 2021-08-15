@@ -1,5 +1,7 @@
 ---
-aliases: /features/knowledge-base/
+aliases: 
+  - /features/knowledge-base/
+  - /features/track-changes-from-an-excel-file/
 title: Create a Single Source of Truth for Your Spreadsheets
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

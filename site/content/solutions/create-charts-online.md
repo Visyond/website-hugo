@@ -1,5 +1,7 @@
 ---
-aliases: /features/charts/
+aliases: 
+  - /features/charts/
+  - /features/create-charts-online/
 title: Create Spreadsheet Charts Online
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
