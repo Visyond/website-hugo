@@ -1,5 +1,7 @@
 ---
-aliases: /features/scenarios/
+aliases: 
+  - /features/scenarios/
+  - /features/scenario-analysis-software/
 title: Scenario Analysis Software
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
