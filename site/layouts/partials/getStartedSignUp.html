@@ -1,40 +1,38 @@
 {{ with .Site.GetPage "section" "getStartedSignUp" }}
   {{ with .Params.backgroundImage }}
   <section style="background-image: url(' {{ . }} '); background-repeat: no-repeat; background-size: cover;">
-    {{ else }}
-    <section style="background-image: url('/img/footer-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
-      {{ end }}
+  {{ else }}
+  <section style="background-image: url('/img/footer-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
+  {{ end }}
 
-      <!-- {{ if and (isset .Params "getStartedTitle") (isset .Params "getStartedList") }} -->
-      <div class="container">
-        <div class="homeHex-provides">
-          <section class="homeHex-provides__wrap">
-            <h2 class="homeHex-provides__header">
-              {{ .Params.getStartedTitle }}
-            </h2>
-            <ul class="homeHex-provides__list">
-              {{ range $el := .Params.getStartedList }}
-              <li class="homeHex-provides__item">
-                {{ .getStartedText | markdownify }}
-              </li>
-              {{ end }}
-            </ul>
-            <a href="/accounts/signup/" class="button button-contrast">
-              Get Started
-            </a>
-          </section>
-          <div class="homeHex-provides__img-wrap">
-            <img id="play-video" src="/img/home/laptopWithPic2.png" alt="notebook" class="homeHex-provides__img">
+    <div class="container">
+      <div class="homeHex-provides">
+        <section class="homeHex-provides__wrap">
+          <h2 class="homeHex-provides__header">
+            {{ .Params.getStartedTitle }}
+          </h2>
+          <ul class="homeHex-provides__list">
+            {{ range $el := .Params.getStartedList }}
+            <li class="homeHex-provides__item">
+              {{ .getStartedText | markdownify }}
+            </li>
+            {{ end }}
+          </ul>
+          <a href="/accounts/signup/" class="button button-contrast">
+            Get Started
+          </a>
+        </section>
+        <div class="homeHex-provides__img-wrap">
+          <img id="play-video" src="/img/home/laptopWithPic2.png" alt="notebook" class="homeHex-provides__img">
 
-            <a class="button button-round-icon">
-              <i class="material-icons">
-                play_arrow
-              </i>
-            </a>
-          </div>
+          <a class="button button-round-icon">
+            <i class="material-icons">
+              play_arrow
+            </i>
+          </a>
         </div>
       </div>
-      <!-- {{ end }} -->
+    </div>
     </section>
   {{ end }}
 

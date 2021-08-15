@@ -1023,7 +1023,7 @@ collections: # A list of collections the CMS should be able to edit
           }
 
       - file: "site/content/getStartedSignUp/_index.md"
-        label: "Get Started with Video"
+        label: "Get Started Section"
         name: "getStartedSignUp"
         fields:
           - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
