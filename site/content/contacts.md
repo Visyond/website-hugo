@@ -13,7 +13,7 @@ cards:
     image: /img/contacts/contacts pricing image.png
     link: /pricing
   - description: Get quick answers to your questions
-    title: FAQ
+    title: FAQs
     image: /img/contacts/contacts FAQ image.png
     link: /faq
   - description: See step-by-step guides and tutorials
