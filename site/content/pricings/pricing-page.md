@@ -11,7 +11,7 @@ title: Pricing and Plans
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  You'll get a premium plan for 7 days to get the full Visyond experience. No credit card required. <br/><br/>Afterwards, you can stay on the free plan, or choose a plan that works for you.
+  Get the full Visyond experience with a 7-day premium plan. No credit card required. <br/><br/>Afterwards, you can stay on the free plan, or choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -160,7 +160,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams with 3+ members that need unlimited internal and external collaboration.
+            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Dashboards
           planCardLabelColor: '#0585ff's
           planCardPriceColor: '#0585ff'
@@ -340,7 +340,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams with 3+ members that need unlimited internal and external collaboration.
+            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Analyses
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
