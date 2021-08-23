@@ -88,7 +88,7 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$180</span> seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$180</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -129,7 +129,7 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$160</span> seat / year billed annually
+          priceBillingNote: 'or <span style="font-weight: 600;">$160</span> seat / year billed annually'
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -212,7 +212,7 @@ pricingSections:
         - PricePrimary: $47
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$470</span> seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$470</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -265,7 +265,7 @@ pricingSections:
         - PricePrimary: $97
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$970</span> seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$970</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -306,7 +306,7 @@ pricingSections:
         - PricePrimary: $80
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$800</span> seat / year billed annually
+          priceBillingNote: 'or <span style="font-weight: 600;">$800</span> seat / year billed annually'
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
