@@ -53,7 +53,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$90</span> seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$90</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
