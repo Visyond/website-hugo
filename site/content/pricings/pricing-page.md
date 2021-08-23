@@ -11,7 +11,7 @@ title: Pricing and Plans
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you.
+  You'll get a premium plan for 7 days to get the full Visyond experience. No credit card required. <br/><br/>Afterwards, you can stay on the free plan, or choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -53,6 +53,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
+          priceBillingNote: 'or $90 seat / year'
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -88,7 +89,7 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: 'or $180 seat / year'
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -130,8 +131,8 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'Billed annually'
-          priceMinSeats: (min. 3 seats)
+          priceBillingNote: '$160 seat / year billed anually'
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -159,9 +160,9 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams that need unlimited internal and external collaboration.
+            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Dashboards
-          planCardLabelColor: '#0585ff'
+          planCardLabelColor: '#0585ff's
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
           priceMinSeats: (min. 10 seats)
@@ -214,7 +215,7 @@ pricingSections:
         - PricePrimary: $47
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: 'or $470 seat / year'
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -268,7 +269,7 @@ pricingSections:
         - PricePrimary: $97
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: 'or $970 seat / year'
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -310,8 +311,8 @@ pricingSections:
         - PricePrimary: $80
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'Billed annually'
-          priceMinSeats: (min. 3 seats)
+          priceBillingNote: '$800 seat / year billed annually'
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -339,7 +340,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams that need unlimited internal and external collaboration.
+            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Analyses
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
