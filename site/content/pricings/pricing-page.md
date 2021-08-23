@@ -89,7 +89,7 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: or $180 seat / year
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -131,8 +131,8 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'Billed annually'
-          priceMinSeats: (min. 3 seats)
+          priceBillingNote: or $160 seat / year billed annually
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -215,7 +215,7 @@ pricingSections:
         - PricePrimary: $47
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: or $470 seat / year
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -269,7 +269,7 @@ pricingSections:
         - PricePrimary: $97
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: Billed annually
+          priceBillingNote: or $970 seat / year
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
@@ -311,8 +311,8 @@ pricingSections:
         - PricePrimary: $80
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'Billed annually'
-          priceMinSeats: (min. 3 seats)
+          priceBillingNote: or $800 seat / year billed annually
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
