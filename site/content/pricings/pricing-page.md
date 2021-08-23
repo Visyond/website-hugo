@@ -11,7 +11,7 @@ title: Pricing and Plans
 topTitle: >-
   Make Better Decisions, Faster. Start <span style="color: #0086ff;">Free</span>.
 topSubTitle: >-
-  Explore Visyond during a 14-day free trial. No credit card required. <br/><br/>After the trial, choose a plan that works for you.
+  Get the full Visyond experience with a 7-day premium plan. No credit card required. <br/><br/>Afterwards, you can stay on the free plan, or choose a plan that works for you.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -53,6 +53,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
+          priceBillingNote: or $90 seat / year
           priceMinSeats: ''
           cardButton:
             cardButtonText: Try for Free
