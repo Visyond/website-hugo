@@ -53,7 +53,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $90 seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$90</span> seat / year
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -88,7 +88,7 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $180 seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$180</span> seat / year
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -129,7 +129,7 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $160 seat / year billed annually
+          priceBillingNote: 'or <span style="font-weight: 600;">$160</span> seat / year billed annually
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -157,7 +157,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
+            <span style="font-weight: 600;">For teams with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Dashboards
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
@@ -212,7 +212,7 @@ pricingSections:
         - PricePrimary: $47
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $470 seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$470</span> seat / year
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -265,7 +265,7 @@ pricingSections:
         - PricePrimary: $97
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $970 seat / year
+          priceBillingNote: 'or <span style="font-weight: 600;">$970</span> seat / year
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -306,7 +306,7 @@ pricingSections:
         - PricePrimary: $80
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: or $800 seat / year billed annually
+          priceBillingNote: 'or <span style="font-weight: 600;">$800</span> seat / year billed annually
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -334,7 +334,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
+            <span style="font-weight: 600;">For teams with 3+ members</span> that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Analyses
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
