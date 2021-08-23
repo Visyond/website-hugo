@@ -160,7 +160,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
+            For teams with 3+ members that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Dashboards
           planCardLabelColor: '#0585ff's
           planCardPriceColor: '#0585ff'
@@ -340,7 +340,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For teams <span style="font-weight: 600;">with 3+ members</span> that need unlimited internal and external collaboration.
+            For teams with 3+ members that need unlimited internal and external collaboration.
           planCardTitle: Team <br/>Analyses
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
