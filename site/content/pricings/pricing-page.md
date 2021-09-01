@@ -53,7 +53,7 @@ pricingSections:
         - PricePrimary: $9
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$90</span> seat / year'
+          priceBillingNote: 'or <span style="font-weight: 600; font-size: 1.2em;">$90</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -88,7 +88,7 @@ pricingSections:
         - PricePrimary: $18
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$180</span> seat / year'
+          priceBillingNote: 'or <span style="font-weight: 600; font-size: 1.2em;">$180</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -129,7 +129,7 @@ pricingSections:
         - PricePrimary: $16
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$160</span> seat / year billed annually'
+          priceBillingNote: 'Billed annually at <span style="font-weight: 600; font-size: 1.2em;">$160</span> / seat'
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -162,7 +162,7 @@ pricingSections:
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
-          priceMinSeats: (min. 10 seats)
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -194,7 +194,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For large teams that need enterprise-level support and customizations.
+            <span style="font-weight: 600;">For teams with 10+ members</span> that need enterprise-level support and customizations.
           planCardTitle: Enterprise <br/>Dashboards
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
@@ -212,7 +212,7 @@ pricingSections:
         - PricePrimary: $47
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$470</span> seat / year'
+          priceBillingNote: 'or <span style="font-weight: 600; font-size: 1.2em;">$470</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -265,7 +265,7 @@ pricingSections:
         - PricePrimary: $97
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$970</span> seat / year'
+          priceBillingNote: 'or <span style="font-weight: 600; font-size: 1.2em;">$970</span> seat / year'
           cardButton:
             cardButtonText: Try for Free
             cardButtonURL: '/accounts/signup/'
@@ -306,7 +306,7 @@ pricingSections:
         - PricePrimary: $80
           PricePrimaryPeriod: >-
             seat / <br/>month
-          priceBillingNote: 'or <span style="font-weight: 600;">$800</span> seat / year billed annually'
+          priceBillingNote: 'Billed annually at <span style="font-weight: 600; font-size: 1.2em;">$800</span> / seat'
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -339,7 +339,7 @@ pricingSections:
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
         - PricePrimary: 'Talk to Us'
-          priceMinSeats: (min. 10 seats)
+          priceMinSeats: ''
           cardButton:
             cardButtonText: Talk to Us
             cardButtonURL: '#contactUs'
@@ -371,7 +371,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each invited person must have a Visyond account.
           planCardDescription: >-
-            For large teams that need enterprise-level support and customizations.
+            <span style="font-weight: 600;">For teams with 10+ members</span> that need enterprise-level support and customizations.
           planCardTitle: Enterprise <br/>Analyses
           planCardLabelColor: '#52556c'
           planCardPriceColor: '#52556c'
