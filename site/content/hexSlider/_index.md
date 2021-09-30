@@ -12,6 +12,8 @@ hexSliderLogos:
     logo: /img/logo_cy4gate black and white 25.png
   - alt: Ericsson Logo
     logo: /img/erricsson horizontal grey.png
+  - alt: Plytrix Logo
+    logo: /img/logos/Plytrix logo.png
   - alt: National Research Council Italy Logo
     logo: /img/CNR Italy logo grey 2.png
   - alt: Catholic Memorial School Logo
