@@ -3,7 +3,7 @@ type: pricing
 title: Pricing
 topTitle: |-
   Pay Only For What You Need
-  14-day Free Trial
+  7-day Free Trial
 topSubTitle: ''
 signUpURL: /accounts/signup/
 watchVideoURL: ''
@@ -149,7 +149,7 @@ bottomColumns:
   - list:
       - descr: >-
           When you signup for a free trial you get all the features of Visyond,
-          for free, for 14 days. No credit card required. If you sign up with
+          for free, for 7 days. No credit card required. If you sign up with
           LinkedIn or Google it only takes a click.
       - descr: >-
           You can enter your billing information and choose a plan at any time

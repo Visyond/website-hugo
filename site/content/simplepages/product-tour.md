@@ -83,6 +83,6 @@ We and our partners offer [**managed services**](https://visyond.com/services/)
 
 ## Try Visyond
 
-**Visyond includes different modules that you can evaluate during a 14-day trial.** After the trial, you can subscribe to the modules you need or use the free version.
+**Visyond includes different modules that you can evaluate during a 7-day trial.** After the trial, you can subscribe to the modules you need or use the free version.
 
 [**Sign up here!**](https://visyond.com/accounts/signup/)

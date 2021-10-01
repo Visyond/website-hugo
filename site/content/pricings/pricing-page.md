@@ -416,7 +416,7 @@ faqSectionContent:
       - answer: >-
           Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
       - answer: >-
-          Sign up for a [free 14-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
+          Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
