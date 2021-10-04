@@ -15,25 +15,25 @@ demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
         demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        demoVideoLink: ''
+        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
         isVisible: true
         demoDescription: >-
           Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.		  
       - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
-        demoVideoLink: ''
+        demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
         isVisible: true
         demoDescription: >-
           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks. 				  
       - demoSectionSubTitle: Collaborative Scenario Planning, Budgeting & Forecasting
         demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
-        demoVideoLink: ''
+        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
         isVisible: true
         demoDescription: >-
           Manage and collaborate on assumptions, create and analyze scenarios on-the-fly.		  
       - demoSectionSubTitle: Automated Pro-Forma Financial Statements
         demoSectionImage: /img/demo/Goals Statements Thumbnail.jpg
-        demoVideoLink: ''
+        demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
         isVisible: true
         demoDescription: >-
           Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.  
