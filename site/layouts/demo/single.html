@@ -37,11 +37,12 @@
 							<ul>
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							{{ range $list := .demoSectionContent }}
+              {{ if (eq .isVisible true)}}
 								<div class="demoSection__body">
 									<div class="demoSection__body--img-wrap">
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
-										{{ if and (.demoVideoLink) (eq .isVisible true) }}
+										{{ if .demoVideoLink }}
 										<span class="button button-icon btn-demoVideo" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
@@ -74,6 +75,7 @@
 										</div>									
 									</div>
 								</div>
+              {{ end }}  
 							{{ end }}
 							<!-- LIST OF DEMO SECTION BLOCKS -->
 							</ul>

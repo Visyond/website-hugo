@@ -1,7 +1,5 @@
 ---
 resourcesDropdown:
-  - path: /why-visyond
-    title: Why Visyond
   - path: /faq
     title: FAQ    
   - path: /casestudy/
