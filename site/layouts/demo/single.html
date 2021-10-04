@@ -41,7 +41,7 @@
 									<div class="demoSection__body--img-wrap">
 										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
-										{{ if and (.demoVideoLink) (eq .isVisible "true") }}
+										{{ if and (.demoVideoLink) (eq .isVisible true) }}
 										<span class="button button-icon btn-demoVideo" 
 										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
 										style="display: none;"
