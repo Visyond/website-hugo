@@ -1393,7 +1393,8 @@ collections: # A list of collections the CMS should be able to edit
           fields: [
             {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
             {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
-            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: false},
+            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
+            {label: "Display on page?", name: "isVisible", widget: "boolean", required: true},
             {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
           ],}
 	], 
