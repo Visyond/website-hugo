@@ -210,7 +210,7 @@ faqSection:
           - answer: >-
               Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
           - answer: >-
-              Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required.          
+              Sign up and get the full Visyond experience with a [7-day premium plan](/accounts/signup/). No credit card required.          
         faqSectionSubTitle: Is there a free version of Visyond?
       - answersList:
           - answer: >-
@@ -242,6 +242,10 @@ faqSection:
         faqSectionSubTitle: Do you offer discounts?
       - answersList:
           - answer: >-
+              Yes. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for special offers for students and instructors.
+        faqSectionSubTitle: Do you offer plans for students?        
+      - answersList:
+          - answer: >-
               We accept credit cards, and wire transfers for Team and Enterprise plans.
           - answer: >-
               We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
@@ -250,10 +254,6 @@ faqSection:
           - answer: >-
               Yes. If you need help building the model, creating dashboards, or analyzing spreadsheet data, we and our partners offer [managed services on the Visyond platform](/services).
         faqSectionSubTitle: Do you provide services?
-      - answersList:
-          - answer: >-
-              Yes. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for special offers for students and instructors.
-        faqSectionSubTitle: Do you offer plans for students?
     faqSectionTitle: Pricing
   - faqSectionContent:
       - answersList:
