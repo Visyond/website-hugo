@@ -127,6 +127,8 @@ StepsBlock:
           You don’t need consultants, IT experts, or lengthy installations to start using the platform.
       - text: >-
            Use your Excel skills and improve your performance without having to learn new menus and workflow.
+    infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
+    infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
     image: /img/home/step1.png
     title: 'Connect Your Spreadsheet'
     titlePrefix: '1'
@@ -137,6 +139,8 @@ StepsBlock:
           You don’t need to move data across many tools: Visyond’s analyses are integrated with the spreadsheets and dashboards.
       - text: >-
           Both Excel experts and novices will get things done quickly.
+    infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
+    infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
     title: 'Analyze with a Few Clicks'
     titlePrefix: '2'   
@@ -147,6 +151,8 @@ StepsBlock:
           Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
       - text: >-
           Once created - always updated: Visyond’s dashboards require minimal to no maintenance.       
+    infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
+    infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
     title: 'Share Insights via Dashboards'
     titlePrefix: '3'   
