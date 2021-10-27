@@ -1,26 +1,26 @@
 ---
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
-  <meta property="og:title" content="From Spreadsheets to Interactive Dashboards in Minutes">
+  <meta property="og:title" content="Unlock Your Spreadsheet’s Potential">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
-  <meta property="og:description" content="Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance">
+  <meta property="og:description" content="Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors. ">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance">
+  <meta name="description" content="Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors">
 topTitle: >-
-  From Spreadsheets to Interactive Dashboards in Minutes
-topDescription: Transform your spreadsheets into a collaborative planning and decision-making platform that drives performance
-FeaturesHeader: 'Your Journey to Fast and Accurate Decision Making'
+  Unlock Your Spreadsheet’s Potential
+topDescription: Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors
+FeaturesHeader: 'Be Productive, Insightful and in Control'
 infoBlockFirst:
   - benefitsList:
       - text: >-
-          Add cells and charts from the spreadsheet to dashboards, and see how changes in inputs affect the outputs in real time.
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, add input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
       - text: >-
-          Your spreadsheets are safe: changing data on the dashboard does not change the spreadsheets.
+          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
       - text: >-
-          Share only specific dashboards and scenarios with specific collaborators.
+          Control who has access. Share only specific dashboards and scenarios with specific collaborators.
     descr: >-
-      Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     title: Get Insights with Interactive Dashboards
@@ -37,7 +37,7 @@ infoBlockFirst:
       Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Save Time on Forecasting, Budgeting and Planning'
+    title: 'Compare and Find Optimal Scenarios'
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
@@ -81,7 +81,7 @@ infoBlockFirst:
       - text: >-
           Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
       - text: >-
-          Visyond will track  who added each assumption.
+          Visyond will track who added each assumption.
       - text: >-
           Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
     descr: >-
@@ -124,9 +124,9 @@ StepsBlock:
       Import your Excel spreadsheet (or build one in Visyond) or [install our add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940) to transform it into an interactive and collaborative decision-making platform.
     benefitsList:
       - text: >-
-          You don’t need consultants, IT experts, or lengthy installations to start using the platform.
+          Use your Excel skills and improve your performance without having to learn new menus and workflow.
       - text: >-
-           Use your Excel skills and improve your performance without having to learn new menus and workflow.
+           No need for consultants, IT experts, or lengthy installations to start using the platform.
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
     image: /img/home/step1.png
@@ -148,7 +148,7 @@ StepsBlock:
       Select cells and charts from the spreadsheet, add them to interactive dashboards, and securely share them.
     benefitsList:
       - text: >-
-          Nobody can accidentally corrupt  spreadsheet data or obstruct the dashboard views of other collaborators.
+          Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.
       - text: >-
           Once created - always updated: Visyond’s dashboards require minimal to no maintenance.       
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4

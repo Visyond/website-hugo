@@ -1152,10 +1152,6 @@ margin-bottom: 30px;
     margin-top: 0em;
     margin-bottom: 15em;
 
-    &:last-child {
-      margin-bottom: 6em;
- }
-
 @media screen and (--tablet) {
     margin-top: 0;
     width: 100%;
