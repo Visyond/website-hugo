@@ -10,9 +10,9 @@ metaTags: >-
 topTitle: >-
   Go Beyond Spreadsheets, Dashboards, and Analytics. <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
-  <div class="subtitle">Be <span>productive</span> with automated scenarios, sensitivities and Monte Carlo simulations.</div>
-  <div class="subtitle">Be <span>insightful</span> with interactive dashboards and error detection.</div>
-  <div class="subtitle">Be <span>in control</span> with selective sharing and data tracking.</div>
+  <div class="home-hero__topSubtitle-subtitle">Be <span>productive</span> with automated scenarios, sensitivities and Monte Carlo simulations.</div>
+  <div class="home-hero__topSubtitle-subtitle">Be <span>insightful</span> with interactive dashboards and error detection.</div>
+  <div class="home-hero__topSubtitle-subtitle">Be <span>in control</span> with selective sharing and data tracking.</div>
 FeaturesHeader: 'Be Productive, Insightful and in Control'
 infoBlockFirst:
   - benefitsList:
