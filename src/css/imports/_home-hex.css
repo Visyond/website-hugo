@@ -146,12 +146,25 @@ color: #383e4d;
 font-size: 20px;
 font-weight: 400;
 margin-bottom: 30px;
+
+  .subtitle {
+    margin-bottom: 12px;
+    
+    span {
+      color: #0086ff;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  }
+
 }
 
 .home-hero__topSubtitle a {
   color: #0086ff;
-  text-decoration: none;
+  text-decoration: underline;
 }
+
+
 
 /*features list*/
 .home-hero__main-features{
