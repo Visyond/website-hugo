@@ -48,8 +48,13 @@
 }
 @media screen and (min-width: 1201px) {
     .homehex .container {
-        max-width: 1180px;
+        max-width: 1200px;
     }
+}
+@media screen and (min-width: 1401px) {
+  .homehex .container {
+      max-width: 1400px;
+  }
 }
 
 /*button with note*/

@@ -213,7 +213,7 @@ summary:
     image: /img/home/cloudPlatformIcon.png
     buttonText: Get Started
     buttonLink: /accounts/signup/
-DemoStripTitle: Flexible. Familiar. Scalable.
+DemoStripTitle: Make Better Decisions, Faster.
 DemoStripTitleButton: Get started
 DemoStripTitleLink: /accounts/signup/
 ---
