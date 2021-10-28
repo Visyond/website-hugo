@@ -10,6 +10,7 @@
     font-size: 14px;
     box-shadow: 0 10px 10px 0 rgba(56, 93, 200, 0.25);
     padding: 1em 2em;
+    font-weight: 900;
 }
 .homehex .button-icon i {
     position: absolute;
@@ -47,7 +48,7 @@
 }
 @media screen and (min-width: 1201px) {
     .homehex .container {
-        max-width: 1120px;
+        max-width: 1180px;
     }
 }
 
@@ -128,7 +129,7 @@
         width: 49%;
     }
     .home-hero__title{
-        margin-top: 20px; /*50px*/
+        margin-top: 0; /* 20px; */ /*50px*/
     }
 }
 

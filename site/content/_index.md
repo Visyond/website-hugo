@@ -8,7 +8,8 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors">
 topTitle: >-
-  Go Beyond Spreadsheets, Dashboards, and Analytics. <span style="color: #0086ff;">In Minutes</span>.
+  Go Beyond Spreadsheets, Dashboards, and Analytics. </br>
+  <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Be <span>productive</span> with automated scenarios, sensitivities and Monte Carlo simulations.</div>
   <div class="home-hero__topSubtitle-subtitle">Be <span>insightful</span> with interactive dashboards and error detection.</div>
