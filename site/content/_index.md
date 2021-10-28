@@ -1,15 +1,18 @@
 ---
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
-  <meta property="og:title" content="Unlock Your Spreadsheet’s Potential">
+  <meta property="og:title" content="Go Beyond Spreadsheets, Dashboards, and Analytics. In Minutes.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
   <meta property="og:description" content="Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors. ">
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors">
 topTitle: >-
-  Unlock Your Spreadsheet’s Potential
-topDescription: Augment your spreadsheets with interactive dashboards, scenarios, automated analytics, and reduce the risk of errors
+  Go Beyond Spreadsheets, Dashboards, and Analytics. <span style="color: #0086ff;">In Minutes</span>.
+topDescription: >-
+  Be <span style="font-weight:600; color: #0086ff;">productive</span> with automated scenarios, sensitivities and Monte Carlo simulations. </br></br>
+  Be <span style="font-weight:600; color: #0086ff;">insightful</span> with interactive dashboards and error detection. </br></br>
+  Be <span style="font-weight:600; color: #0086ff;">in control</span> with selective sharing and data tracking.
 FeaturesHeader: 'Be Productive, Insightful and in Control'
 infoBlockFirst:
   - benefitsList:

@@ -594,7 +594,7 @@ collections: # A list of collections the CMS should be able to edit
         file: "site/content/_index.md"
         fields:
           - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
-          - {label: "Page Title", name: "title", widget: "string", required: true}
+          - {label: "Page Title", name: "title", widget: "markdown", required: true}
           - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
           - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
           - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
