@@ -18,11 +18,11 @@ FeaturesHeader: 'Be Productive, Insightful and in Control'
 infoBlockFirst:
   - benefitsList:
       - text: >-
-          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, add input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
       - text: >-
           Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
       - text: >-
-          Control who has access. Share only specific dashboards and scenarios with specific collaborators.
+          Control access. Share only specific dashboards and scenarios with specific collaborators.
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
@@ -89,7 +89,7 @@ infoBlockFirst:
       - text: >-
           Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
     descr: >-
-      Track changes, improve data governance, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+      Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
     title: Control What Is Happening in Your Projects
