@@ -103,6 +103,7 @@ infoBlockFirst:
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.jpg
     title: Keep Important Information at Your Fingertips
+    isVisible: false
   - benefitsList:
       - text: >-
           Automate Balance Sheets, Income Statements and Cash Flow statements.

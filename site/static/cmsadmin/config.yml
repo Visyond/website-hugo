@@ -657,6 +657,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
             fields: [
+              {label: "Display on page?", name: "isVisible", widget: "boolean", required: false},
               {label: "Info Title", name: "title", widget: "string"},
               {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
               {label: "Info Video", name: "infoVideo", widget: "string"},

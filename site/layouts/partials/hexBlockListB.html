@@ -1,6 +1,7 @@
 <!-- info block -->
 {{ range $el := .Params.InfoBlockFirst }}
 
+{{ if (not (eq .isVisible false)) }}
 <li class="enterSectionsA__block">
     <section class="enterSectionsA__text-wrap">
         <h2 class="enterSectionsA__block-title">
@@ -141,5 +142,7 @@
 
     </section>
 </li>
+{{ end }}
+
 {{ end }}
 <!-- //info block -->
