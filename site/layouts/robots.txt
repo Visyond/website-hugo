@@ -36,3 +36,4 @@ Disallow: /overview/
 Disallow: /casestudy/how-visyond-helps-accounting-tax-and-business-consultants/
 Disallow: /casestudy/how-a-leading-telecom-company-accelerates-their-business-case-workflow-by-80-and-empowers-their-customers-with-visyond/
 Disallow: /case_studies
+Disallow: /product-tour/
