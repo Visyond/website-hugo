@@ -164,6 +164,10 @@ faqSection:
         faqSectionSubTitle: How fast is Visyond?
       - answersList:
           - answer: >-
+              Yes. Visyond is a cloud-based software that can also be installed on private clouds and works anywhere in the world. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more about on-premise/personal cloud installation.
+        faqSectionSubTitle: Can I have Visyond on-premise?        
+      - answersList:
+          - answer: >-
               <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more about on-premise/personal cloud installation.
         faqSectionSubTitle: Can I have Visyond on-premise?
     faqSectionTitle: General
@@ -181,6 +185,8 @@ faqSection:
       - answersList:
           - answer: >-
               Visyond can integrate with Excel and reference an Excel file as an [‘external source’](https://help.visyond.com/articles/link-external-sources-to-visyond-cells/) inside a Visyond project (for example, to display a value from an Excel cell in a Visyond cell).
+          - answer: >-
+              Some of our clients prefer to enter QuickBooks, Xero and other accounting software data manually. If automating this via API is important to you, we would have to discuss data mapping with your IT.           
           - answer: >-
               <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> if you need to use custom integrations for your specific needs.
         faqSectionSubTitle: Integrations
