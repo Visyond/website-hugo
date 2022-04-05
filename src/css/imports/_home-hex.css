@@ -52,6 +52,12 @@
     }
 }
 
+@media screen and (min-width: 1301px) {
+    .homehex .container {
+        max-width: 1400px;
+    }
+}
+
 /*button with note*/
 .homehex .button-asterisk span{
     font-size: 10px;

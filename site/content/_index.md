@@ -76,7 +76,7 @@ StepsBlock:
       Know how revenue forecasts change under different scenarios?</br>
       Identify the metrics you should focus on?</br>
       Find the probability of certain outcomes?</br></br>
-      Visyond will show you this <br>in a few clicks</br>.
+      Visyond will show you this <b>in a few clicks</b>.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -158,6 +158,6 @@ summary:
     buttonText: Get Started
     buttonLink: /accounts/signup/
 DemoStripTitle: Make Better Decisions, Faster.
-DemoStripTitleButton: Get started
-DemoStripTitleLink: /accounts/signup/
+DemoStripTitleButton: Request Demo
+DemoStripTitleLink: /demo
 ---
