@@ -12,7 +12,7 @@ topTitle: >-
   <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Save time with no-code, automated <span>What-if Analysis</span>, <span>Scenarios</span> and <span>Monte Carlo Simulations</span>.</div>
-  <div class="home-hero__topSubtitle-subtitle">Present your spreadsheet and your insights as self-service <span>interactive online dashboards</span>.</div>
+  <div class="home-hero__topSubtitle-subtitle">Present your spreadsheet and your insights as self-service <span>Interactive Online Dashboards</span>.</div>
 FeaturesHeader: 'All Decision-making Tools in a Single Platform'
 infoBlockFirst:
   - benefitsList:
