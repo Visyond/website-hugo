@@ -87,7 +87,7 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Get Consultant-level Analysis'
+    title: 'Get Insights with Predictive Analytics'
     titlePrefix: '2'   
   - descr: >-
       Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
