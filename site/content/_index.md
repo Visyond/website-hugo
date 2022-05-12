@@ -1,4 +1,10 @@
 ---
+aliases: 
+  - /solutions/spreadsheet-calculators/
+  - /solutions/spreadsheet-auditing/
+  - /solutions/share-spreadsheets-and-presentations-online/
+  - /solutions/compatibility-with-excel-and-powerpoint/
+  - /solutions/track-changes-from-an-excel-file/
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">

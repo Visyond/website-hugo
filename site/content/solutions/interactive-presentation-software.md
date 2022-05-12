@@ -2,6 +2,7 @@
 aliases: 
   - /features/interactive-presentations/
   - /features/interactive-presentation-software/
+  - /solutions/spreadsheet-calculators/
 title: Interactive Presentation Software
 WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-

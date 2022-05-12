@@ -1,10 +1,6 @@
 ---
 solDropdownCol:
   - solution_dropdown:
-      - descr: 'Collaborate remotely on spreadsheets, analysis, and reports.'
-        image: /img/spreadsheet_collaboration_3x.png
-        path: /solutions/spreadsheet-collaboration-software/
-        title: Remote Collaboration
       - descr: >-
           Improve spreadsheet data tracking - reduce the risks of errors,
           unauthorized access, data overriding and breaking the model while
@@ -16,8 +12,8 @@ solDropdownCol:
           Collaboratively perform spreadsheet data analysis and securely share
           valuable business insights with Visyond’s data analysis software.
         image: /img/collaborative_analysis_3x.png
-        path: /solutions/data-analysis-software/
-        title: Collaborative Analysis
+        path: /solutions/what-if-analysis/
+        title: What-if Analysis
       - descr: >-
           Create insightful interactive data visualizations and empower
           collaborators to test assumptions only on information they are
@@ -56,37 +52,11 @@ solDropdownCol:
         image: /img/audit-mode@2x.png
         path: /solutions/private-equity-venture-capital
         title: M&A, Investment Analysis, PE&VC
-      - descr: >-
-          Risk management software for banks - better lending decisions and
-          higher portfolio profitability.
-        image: /img/banking_3x.png
-        path: /solutions/risk-management-software-for-banks/
-        title: Banking
-      - descr: >-
-          Cloud collaboration, planning, and self-service analytics for energy
-          and utilities projects.
-        image: /img/collaborative_analysis_3x.png
-        path: /solutions/energy-and-utilities
-        title: Energy and Utilities
       - descr: ''
         image: /img/management_consulting_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/
         title: Management Consulting
     title: Industry
-  - solution_dropdown:
-      - descr: >-
-          Spreadsheet data, assumptions, attachments, conversations and
-          approvals are stored in a single place.
-        image: /img/knowledge-base@2x.png
-        path: /solutions/track-changes-from-an-excel-file/
-        title: Knowledge Management
-      - descr: >-
-          Share spreadsheets and presentations fully or partially without
-          exposing any other data or calculations.
-        image: /img/selective-sharing@2x.png
-        path: /solutions/share-spreadsheets-and-presentations-online/
-        title: Secure Data Sharing
-    title: Collaboration
   - solution_dropdown:
       - descr: >-
           Compare different assumptions in a few clicks without depending on
@@ -120,12 +90,6 @@ solDropdownCol:
         image: /img/interactive presentations@2x.png
         path: /solutions/interactive-presentation-software/
         title: Interactive Dashboards
-      - descr: >-
-          Create interactive calculators without a single line of code and
-          securely test assumptions.
-        image: /img/calculator-apps@2x.png
-        path: /solutions/spreadsheet-calculators/
-        title: Spreadsheet-driven Calculators
       - descr: >-
           Speed-up the creation and accuracy of Financial Statements without
           long error-prone manual setups.
