@@ -24,44 +24,9 @@ solDropdownCol:
       - descr: Automate spreadsheet modeling workflow.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
-        title: Spreadsheet Modeling
-      - descr: >-
-          Analyze risks and run simulations in the same place where the model and its evolving assumptions are. Effectively communicate performance risk through self-service interactive dashboards.
-        image: /img/audit-mode@2x.png
-        path:  /solutions/risk-analysis-and-simulations/
-        title: Risk Analysis and Simulations
-      - descr: >-
-          Get valuable and reliable business insights and make better decisions,
-          faster.
-        image: /img/decision_makers_3x.png
-        path: /solutions/collaborative-decision-making-software/
-        title: Decision Makers       
+        title: Spreadsheet Modeling    
     title: Use case
   - solution_dropdown:
-      - descr: ''
-        image: /img/management_consulting_3x.png
-        path: /solutions/data-analysis-and-business-consulting-software/
-        title: Management Consulting
-    title: Industry
-  - solution_dropdown:
-      - descr: >-
-          Compare different assumptions in a few clicks without depending on
-          experts.
-        image: /img/scenarios@2x.png
-        path: /solutions/scenario-analysis-software/
-        title: Scenarios
-      - descr: >-
-          Instantly understand relationships between inputs and outputs of your
-          spreadsheet.
-        image: /img/sensitivity@2x.png
-        path: /solutions/sensitivity-analysis-tool/
-        title: Sensitivity
-      - descr: >-
-          Identify which input cells have the greatest impact on key outputs of
-          your model.
-        image: /img/impact@2x.png
-        path: /solutions/business-impact-analysis-tool/
-        title: Impact
       - descr: >-
           Easily run Monte Carlo simulations that replace the inputs with random
           variables in a specified range and show how they affects the output.
@@ -83,14 +48,6 @@ solDropdownCol:
         path: /solutions/financial-statement-generator/
         title: Financial Statements
     title: Reporting
-  - solution_dropdown:
-      - descr: >-
-          Audit spreadsheets, identify root causes of errors and understand your
-          models better with Audit Mode.
-        image: /img/audit-mode@2x.png
-        path: /solutions/spreadsheet-auditing/
-        title: Auditing
-    title: Modeling
 allFeaturesText: View all solutions
 allFeaturesLink: /solutions
 ---

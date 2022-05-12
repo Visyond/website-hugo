@@ -3,6 +3,9 @@ aliases:
   - /solutions/share-spreadsheets-and-presentations-online/
   - /solutions/compatibility-with-excel-and-powerpoint/
   - /solutions/track-changes-from-an-excel-file/
+  - /solutions/collaborative-decision-making-software/
+  - /solutions/spreadsheet-collaboration-software/
+  - /solutions/collaboration/
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">
