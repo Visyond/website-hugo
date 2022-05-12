@@ -5,8 +5,6 @@ topImage: /img/solutions/solutions_data_tracking_top.png
 title: Data Tracking Software
 ThisSolutionIsFor: Data Tracking and Governance
 topTitle: Track Changes and Control Information Flows in Spreadsheet Models
-WhyVisyondText: "Visyond is a secure, cloud-based, Excel-compatible spreadsheet modeling, analysis automation and interactive reporting platform that works in the browser and focuses on data security and digital innovation. <br><br>\r\nWith Visyond's data tracking software, you will be able to understand and visualize the structure of your financial models, save countless hours by automating routine analytical tasks, and present the results of your work in an impactful and interactive way, **helping decision makers make better decisions, faster.**"
-WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

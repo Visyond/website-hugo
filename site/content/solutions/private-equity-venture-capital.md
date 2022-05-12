@@ -3,19 +3,6 @@ metaTags: "<meta property=\"og:title\" content=\"Improve the Quality of Your Inv
 title: Improve the Quality of Your Investment Decisions
 ThisSolutionIsFor: M&A, Investment Analysis, PE&VCs
 topTitle: Improve the Quality of Your Investment Decisions
-WhyVisyondText: >-
-  Visyond is a secure cloud-based Excel-compatible spreadsheet modeling,
-  analysis automation and interactive reporting platform that works in the
-  browser and focuses on data security and digital innovation.s
-
-  <br><br>
-
-  Visyond offers a unique yet familiar all-in-one integrated solution that
-  connects all steps of your business workflow in a single platform: from data
-  gathering from subject-matter experts and subsequent analysis of this data to
-  preparation of interactive visualizations and reports to **help decision
-  makers make better decisions, faster.**
-WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

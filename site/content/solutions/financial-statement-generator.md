@@ -30,13 +30,6 @@ metaTags: >-
 title: Online Financial Statement Generator
 ThisSolutionIsFor: Financial Statements Automation
 topTitle: Auto-generate Financial Statements<br> Driven by Your Spreadsheet
-WhyVisyondText: >-
-  Visyond creates forward-looking predictive financial statements, driven by
-  assumptions in your spreadsheet. The statements can adapt to any
-  reporting/accounting standard and automate the preparation of Balance Sheets,
-  Income Statements, Cash Flow Statements, ratios and KPIs for financial and
-  management accounting.
-WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

@@ -4,17 +4,12 @@ aliases:
   - /features/monte-carlo-simulation-software/
   - /solutions/risk-analysis-and-simulations/
 title: Online Monte Carlo Simulation Software
-WhyVisyondImage: /img/2020-02-24 new homepage infographic What Is Visyond.png
 metaTags: >-
   <meta name="title" content="Online Monte Carlo Simulation Software">
   <meta name="description" content="Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.">
   <meta name="keywords" content="monte carlo simulation software, online monte carlo simulation tool">
 ThisSolutionIsFor: 'Monte Carlo Simulations'
 topTitle: Monte Carlo Simulation Software - Explore Probabilities of Different Outcomes
-WhyVisyondText: >-
-  Monte Carlo Simulation replaces the inputs with random variables in a
-  specified range and shows how it affects the output. With Visyond you can
-  easily run Simulations without long manual setups.
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'
 requestURL: /request
