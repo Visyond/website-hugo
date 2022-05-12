@@ -33,6 +33,8 @@ topTitle: >-
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Forget about plugs to balance financial statements, updates of depreciation schedules, and other error-prone activities.  Just upload your spreadsheet, and Visyond will transform an operating model into Balance Sheets, Income and Cash Flow Statements, with their management ratios.
+topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
+topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

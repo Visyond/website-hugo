@@ -9,6 +9,8 @@ Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta prop
 topImage: /img/solutions/solutions_modeling_top.png
 title: Financial Modeling Software You Wish You Had Yesterday
 topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
+topVideoThumbnail:
+topVideo:
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

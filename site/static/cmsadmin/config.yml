@@ -248,7 +248,9 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top image (laptop-sized)", name: "topImage", widget: "image", required: false}
       - {label: "Page title", name: "title", widget: "string", required: false,}
       - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
-      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}      
+      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
+      - {label: "Top Video", name: "topVideo", widget: "string"}              
 
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [

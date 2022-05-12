@@ -15,6 +15,8 @@ topTitle: >-
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Running Monte Carlo Simulations and analyzing risks of your spreadsheet model has never been easier. Just upload your spreadsheet and get ready-to-present simulation reports that you can customize and share.
+topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:
@@ -66,54 +68,44 @@ StepsBlock:
     title: 'Present Clear Results with Impact'
     titlePrefix: '3'  
 infoBlockFirst:
-  - descr: >-
-      Simulation analysis is a powerful forecasting tool applicable to almost
-      every field - from Finance and Sales to Engineering:
-
-
-      * Generate descriptive statistics, probability density function and
-      cumulative distribution function
-
-      * Manage uncertainty and risk and make forecasts quickly
-
-      * Easily identify what probability distribution is more appropriate for
-      your data
-    files:
-      - alt: Monte Carlo Simulation Software - Setup Data Simulations in Seconds
-        descr: >-
-          Visyond generates descriptive statistics, probability density function
-          and cumulative distribution function.
-        file: /img/2019-02 Simulation Monte Carlo.png
-        title: Monte Carlo Simulation
-    image: /img/2019-02 Simulation Monte Carlo.png
-    link: >-
-      https://help.visyond.com/articles/how-to-run-monte-carlo-simulations-in-visyond/
-    title: Powerful Forecasting Tool
-featuresTitle: Related Features
-featuresCards:
-  - icon: /img/scenarios@2x.png
-    link: /features/scenarios/
-    text: >-
-      Compare different assumptions in a few clicks without depending on
-      experts.
-    title: Scenario Comparison
-  - icon: /img/sensitivity@2x.png
-    link: /features/sensitivity/
-    text: >-
-      Instantly understand relationships between inputs and outputs of your
-      spreadsheet.
-    title: Sensitivity
-  - icon: /img/impact@2x.png
-    link: /features/tornado/
-    text: >-
-      Identify which input cells have the greatest impact on key outputs of your
-      model.
-    title: Impact
-  - icon: /img/dependency@2x.png
-    link: /features/dependency-analysis/
-    text: >-
-      Visually navigate through different cells and see how they impact one
-      another, without tampering with the spreadsheet.
-    title: Dependencies
+  - benefitsList:
+      - text: >-
+          Answer ‘what-if’ questions with Scenario Analysis.
+      - text: >-
+          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
+      - text: >-
+          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
+      - text: >-
+          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
+    descr: >-
+      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    title: 'Scenario Planning and Forecasting'
+  - benefitsList:
+      - text: Visualize the impact of important cells with Tornado Analysis.
+      - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
+      - text: Analyze risks with Monte Carlo simulations.
+      - text: >-
+          Get presentation-ready analysis charts and securely share them with collaborators.
+      - text: >-
+          Extend your collaborators’ analyses without anyone losing or corrupting data.
+    descr: >-
+      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    title: What-if Analysis and Monte Carlo Simulations
+  - benefitsList:
+      - text: >-
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+      - text: >-
+          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
+      - text: >-
+          Control access. Share only specific dashboards and scenarios with specific collaborators.
+    descr: >-
+      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    title: Decision-making Dashboards
 ---
 
