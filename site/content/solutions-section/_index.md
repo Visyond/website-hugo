@@ -30,10 +30,6 @@ solDropdownCol:
         image: /img/audit-mode@2x.png
         path:  /solutions/risk-analysis-and-simulations/
         title: Risk Analysis and Simulations
-      - descr: 'Automate data analysis, reporting and business consulting workflow.'
-        image: /img/analyst_and_consultant_3x.png
-        path: /solutions/data-analysis-and-business-consulting-software/
-        title: Analysts and Consultants
       - descr: >-
           Get valuable and reliable business insights and make better decisions,
           faster.
@@ -42,16 +38,6 @@ solDropdownCol:
         title: Decision Makers       
     title: Use case
   - solution_dropdown:
-      - descr: >-
-          Secure and automated spreadsheets to simplify your financial data
-          analysis workflow.
-        image: /img/finance_3x.png
-        path: /solutions/financial-data-analysis-software/
-        title: Financial Services
-      - descr: Improve the quality of your investment decisions.
-        image: /img/audit-mode@2x.png
-        path: /solutions/private-equity-venture-capital
-        title: M&A, Investment Analysis, PE&VC
       - descr: ''
         image: /img/management_consulting_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/

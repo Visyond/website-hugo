@@ -1,5 +1,9 @@
 ---
-aliases: /solutions/modeling/
+aliases: 
+  - /features/audit-mode/
+  - /features/spreadsheet-auditing/
+  - /solutions/spreadsheet-auditing/
+  - /solutions/modeling/
 metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.
 Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
 topImage: /img/solutions/solutions_modeling_top.png

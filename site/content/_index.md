@@ -1,7 +1,5 @@
 ---
 aliases: 
-  - /solutions/spreadsheet-calculators/
-  - /solutions/spreadsheet-auditing/
   - /solutions/share-spreadsheets-and-presentations-online/
   - /solutions/compatibility-with-excel-and-powerpoint/
   - /solutions/track-changes-from-an-excel-file/

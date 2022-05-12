@@ -1,5 +1,9 @@
 ---
-aliases: /solutions/presentation/
+aliases: 
+  - /features/interactive-presentations/
+  - /features/interactive-presentation-software/
+  - /solutions/spreadsheet-calculators/
+  - /solutions/presentation/
 metaTags: "<meta name=\"title\" content=\"Automate Reporting and Create Interactive Spreadsheet-driven Dashboards\">\n<meta name=\"description\" content=\"Automate reporting, auto-generate financial statements and create interactive spreadsheet-driven calculators in a few clicks.\">\n<meta name=\"keywords\" content=\"Automate Excel Reports, Financial Data Visualization, Presenting Financial Data\">\n\n<meta property=\"og:title\" content=\"Automate Reporting and Create Interactive Spreadsheet-driven Dashboards\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/automate-excel-reports-and-presentation/\">"
 topImage: /img/solutions/solutions_reports_and_presentations_top.png
 title: Automate Reporting and Financial Statements
