@@ -72,18 +72,6 @@ solDropdownCol:
         image: /img/management_consulting_3x.png
         path: /solutions/data-analysis-and-business-consulting-software/
         title: Management Consulting
-      - descr: ''
-        image: /img/telecommunication_3x.png
-        path: /solutions/financial-modeling-software/
-        title: Telecommunication
-      - descr: ''
-        image: /img/real_estate_3x.png
-        path: /solutions/financial-modeling-software/
-        title: Real Estate
-      - descr: ''
-        image: /img/insurance_3x.png
-        path: /solutions/financial-modeling-software/
-        title: Insurance
     title: Industry
   - solution_dropdown:
       - descr: >-
@@ -138,10 +126,6 @@ solDropdownCol:
         image: /img/calculator-apps@2x.png
         path: /solutions/spreadsheet-calculators/
         title: Spreadsheet-driven Calculators
-      - descr: Easily create and customize charts that are always up-to-date.
-        image: /img/charts@2x.png
-        path: /solutions/create-charts-online/
-        title: Charts
       - descr: >-
           Speed-up the creation and accuracy of Financial Statements without
           long error-prone manual setups.
