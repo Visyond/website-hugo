@@ -5,8 +5,8 @@
 	<section class="home-hero" style="background-image: url('/img/home/lightGrayRectangle.svg');">
 		<div class="container">
 			<div class="home-hero__container">
-				<div class="home-hero__half-width-wrap" style="width: 100%;">			
-						<h1 class="home-hero__title" style="margin-top: 20px;">{{ .Params.TopTitle | markdownify }}</h1>
+				<div class="home-hero__half-width-wrap">			
+						<h1 class="home-hero__title">{{ .Params.TopTitle | markdownify }}</h1>
 						
 						<div class="home-hero__topSubtitle">
 							{{ if .Params.topSubTitle }}
@@ -18,14 +18,14 @@
 				</div>
 				
 				   
-				<div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
-					<!-- <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop"> -->
-					<div class="home-hero__video-container">
-						<video poster="/video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg" class="home-hero__video" autoplay muted loop playsinline>
-							<source src="/video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
-						</video>
-					</div>
-				</div>
+                <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
+                    <img class="home-hero__laptop-image" src="/img/home/laptop.png" alt="Laptop">
+                    <div class="home-hero__video-container">
+                        <video poster="/img/home/videoPoster.jpg" class="home-hero__video scroll_toggle" autoplay muted loop playsinline>
+                            <source src="/img/home/2019-10-17%20Homepage%20animation%20v4.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+                        </video>
+                    </div>
+                </div>
 				
 			  
 				<div class="home-hero__half-width-wrap" style="width: 100%;">

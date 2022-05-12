@@ -14,7 +14,10 @@ aliases:
 metaTags: "<meta name=\"title\" content=\"Data Analysis Software\">\n<meta name=\"description\" content=\"Automate and collaborate on spreadsheet data analysis, and visualize the impact of the most important cells.\">\n<meta name=\"keywords\" content=\"data analysis software, spreadsheet data analysis, spreadsheet analysis software\">\n\n<meta property=\"og:title\" content=\"Automate Spreadsheet Data Analysis and Make Better Decisions, Faster\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. \rCarry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-analysis-software\">"
 topImage: /img/solutions/solutions_collaborative_analysis_top.png
 title: Data Analysis Software
-topTitle: 'Automate Spreadsheet Data Analysis<br> and Make Better Decisions, Faster '
+topTitle: >-
+  ‘What-if’ You Could Analyze Sensitivities and Scenarios <span style="color: #0086ff;">in Minutes</span>?
+topSubTitle: >-
+  What-if Analysis of your operating model has never been easier. Just upload your spreadsheet and get ready-to-present scenarios and sensitivity reports that you can customize and share.
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:

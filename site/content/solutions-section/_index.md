@@ -4,25 +4,26 @@ solDropdownCol:
 
   - solution_dropdown:
       - descr: >-
-          Easily run Monte Carlo simulations that replace the inputs with random
-          variables in a specified range and show how they affects the output.
-        image: /img/simulations@2x.png
-        path: /solutions/monte-carlo-simulation-software/
-        title: Risk Analysis and Simulations
-      - descr: >-
           Collaboratively perform spreadsheet data analysis and securely share
           valuable business insights with Visyond’s data analysis software.
         image: /img/collaborative_analysis_3x.png
         path: /solutions/what-if-analysis/
         title: What-if Analysis        
+      - descr: >-
+          Easily run Monte Carlo simulations that replace the inputs with random
+          variables in a specified range and show how they affects the output.
+        image: /img/simulations@2x.png
+        path: /solutions/monte-carlo-simulation-software/
+        title: Risk Analysis and Simulations  
     title: Analysis
   - solution_dropdown:
       - descr: >-
-          With Interactive Presentations the information is always up-to-date,
-          and you can test assumptions without interacting with the spreadsheet.
-        image: /img/interactive presentations@2x.png
-        path: /solutions/interactive-presentation-software/
-        title: Interactive Dashboards
+          Create insightful interactive data visualizations and empower
+          collaborators to test assumptions only on information they are
+          authorized to see.
+        image: /img/report_presentation_visualization_3x.png
+        path: /solutions/interactive-reports-and-dashboards
+        title: Interactive Reports
       - descr: >-
           Speed-up the creation and accuracy of Financial Statements without
           long error-prone manual setups.
@@ -38,13 +39,6 @@ solDropdownCol:
         image: /img/data_governance_3x.png
         path: /solutions/data-tracking-software/
         title: Data Tracking
-      - descr: >-
-          Create insightful interactive data visualizations and empower
-          collaborators to test assumptions only on information they are
-          authorized to see.
-        image: /img/report_presentation_visualization_3x.png
-        path: /solutions/automate-excel-reports-and-presentation/
-        title: Interactive Reports
       - descr: Automate spreadsheet modeling workflow.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
