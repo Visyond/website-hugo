@@ -1,7 +1,6 @@
 ---
 metaTags: "<meta property=\"og:title\" content=\"Accurately Forecast Portfolio Performance and Risks\"> \n<meta property=\"og:type\" content=\"website\"> \n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\"> \n<meta property=\"og:url\" content=\"https://visyond.com/solutions/wealth-management/\"> \n\n<meta name=\"title\" content=\"Accurately Forecast Portfolio Performance and Risks\">\n<meta name=\"description\" content=\"Empower wealth managers with faster and more accurate performance simulation, greater transparency and more comprehensive valuations.\"> \n<meta name=\"keywords\" content=\"wealth management software, wealth management tools, wealth management solution\">"
 title: Accurately Forecast Portfolio Performance and Risks
-ThisSolutionIsFor: Wealth Management
 topTitle: Accurately Forecast Portfolio Performance and Risks
 topSubTitle: >-
   Empower wealth managers with faster and more accurate performance

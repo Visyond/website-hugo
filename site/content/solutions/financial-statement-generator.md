@@ -28,7 +28,6 @@ metaTags: >-
   <meta property="og:url"
   content="https://visyond.com/features/financial-statement-generator/">
 title: Online Financial Statement Generator
-ThisSolutionIsFor: Financial Statements Automation
 topTitle: Auto-generate Financial Statements<br> Driven by Your Spreadsheet
 StepsHeader: >-
       Get Results in 3 Simple Steps

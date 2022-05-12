@@ -8,7 +8,6 @@ metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish Y
 Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
 topImage: /img/solutions/solutions_modeling_top.png
 title: Financial Modeling Software You Wish You Had Yesterday
-ThisSolutionIsFor: Financial Modeling
 topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
 StepsHeader: >-
       Get Results in 3 Simple Steps

@@ -8,7 +8,6 @@ metaTags: >-
   <meta name="title" content="Online Monte Carlo Simulation Software">
   <meta name="description" content="Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.">
   <meta name="keywords" content="monte carlo simulation software, online monte carlo simulation tool">
-ThisSolutionIsFor: 'Monte Carlo Simulations'
 topTitle: Monte Carlo Simulation Software - Explore Probabilities of Different Outcomes
 signUpURL: /accounts/signup/
 watchVideoURL: 'https://www.youtube.com/embed/4uZ7bKc91WE'

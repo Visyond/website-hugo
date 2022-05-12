@@ -6,6 +6,7 @@ aliases:
   - /solutions/collaborative-decision-making-software/
   - /solutions/spreadsheet-collaboration-software/
   - /solutions/collaboration/
+  - /product-tour/
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">

@@ -22,7 +22,6 @@ metaTags: >-
   spreadsheet modeling, analysis automation and interactive reporting
   platform."> <meta name="keywords" content="financial data analysis software">
 title: 'Automate Financial Planning, Analysis and Reporting'
-ThisSolutionIsFor: Financial Services and FP&A
 topTitle: 'Automate Financial Planning, Analysis and Reporting'
 StepsHeader: >-
       Get Results in 3 Simple Steps
