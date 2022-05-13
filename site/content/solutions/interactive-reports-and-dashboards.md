@@ -10,7 +10,7 @@ metaTags: "<meta name=\"title\" content=\"Automate Reporting and Create Interact
 topImage: /img/solutions/solutions_reports_and_presentations_top.png
 title: Automate Reporting and Financial Statements
 topTitle: >-
-  Look into the Future with Interactive Dashboards for Forecasting and ‘What-if’ Analysis.</br>
+  Look Forward with Interactive Dashboards for Forecasting and ‘What-if’ Analysis.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Just upload your spreadsheet, select key charts and cells (decision metrics) and get an interactive calculator where you and your stakeholders can safely play with the numbers and reflect on scenarios without the risk of breaking the model.

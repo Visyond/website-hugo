@@ -4,38 +4,31 @@ solDropdownCol:
 
   - solution_dropdown:
       - descr: >-
-          Collaboratively perform spreadsheet data analysis and securely share
-          valuable business insights with Visyond’s data analysis software.
+          ‘What-if’ you could analyze sensitivities and scenarios in minutes?
         image: /img/collaborative_analysis_3x.png
         path: /solutions/what-if-analysis/
         title: What-if Analysis        
       - descr: >-
-          Easily run Monte Carlo simulations that replace the inputs with random
-          variables in a specified range and show how they affects the output.
+          Explore the risks in your forecasts, and find the probability of success. In minutes.
         image: /img/simulations@2x.png
         path: /solutions/monte-carlo-simulation-software/
         title: Risk Analysis and Simulations  
     title: Analysis
   - solution_dropdown:
       - descr: >-
-          Create insightful interactive data visualizations and empower
-          collaborators to test assumptions only on information they are
-          authorized to see.
+          Look forward with interactive dashboards for forecasting and ‘what-if’ analysis. In minutes.
         image: /img/report_presentation_visualization_3x.png
         path: /solutions/interactive-reports-and-dashboards
         title: Interactive Reports
       - descr: >-
-          Speed-up the creation and accuracy of Financial Statements without
-          long error-prone manual setups.
+          Generate financial statements from your spreadsheet and automate financial reporting. In minutes.
         image: /img/financial-statement@2x.png
         path: /solutions/financial-statement-generator/
         title: Financial Statements
     title: Reporting
   - solution_dropdown:
       - descr: >-
-          Improve spreadsheet data tracking - reduce the risks of errors,
-          unauthorized access, data overriding and breaking the model while
-          testing assumptions.
+          Track changes, control information flows and accesses to the model and reports.
         image: /img/data_governance_3x.png
         path: /solutions/data-tracking-software/
         title: Data Tracking
