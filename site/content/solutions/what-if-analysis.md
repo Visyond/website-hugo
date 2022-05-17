@@ -51,7 +51,8 @@ StepsBlock:
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Get ready-to-present sensitivities and scenario analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date. It’s that simple.
+      Get ready-to-present sensitivities and scenario analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
+      It’s that simple.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
