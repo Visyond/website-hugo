@@ -70,7 +70,13 @@
 	<!-- ENTER V SECTION -->
 	<section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
 		<div class="container">
-			<h2 class="enterV__headline">With Visyond, You Can</h2>
+			<h2 class="enterV__headline">
+				{{ if .Params.featuresHeader }}
+					{{ .Params.featuresHeader }}
+				{{ else }}
+					All Decision-making Tools in a Single Platform
+				{{ end }}
+			</h2>
 			<div class="header-section--divider"></div>
 			<ul class="enterSections js-image-block">
 				{{ partial "hexBlockListB" . }}

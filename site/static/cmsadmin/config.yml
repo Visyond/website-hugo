@@ -252,6 +252,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
       - {label: "Top Video", name: "topVideo", widget: "string"}              
 
+
+      - {label: "Feature Section Header", name: "featuresHeader", widget: "markdown", required: false,}
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
           {label: "Info Title", name: "title", widget: "string"},

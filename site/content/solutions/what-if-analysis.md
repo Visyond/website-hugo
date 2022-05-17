@@ -38,11 +38,7 @@ StepsBlock:
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Want to see what impacts the profits the most?</br>
-      Know how revenue forecasts change under different scenarios?</br>
-      Identify the metrics you should focus on?</br>
-      Find the probability of certain outcomes?</br></br>
-      Visyond will show you this in a few clicks.
+      Get ready-to-present sensitivities and scenario analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date. It’s that simple.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -53,11 +49,10 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Get Insights with Predictive Analytics'
+    title: 'Automate What-if Analysis'
     titlePrefix: '2'   
   - descr: >-
-      Confidently answer ‘what-if’ questions, and share online dashboards where others can safely play with the numbers.</br></br>
-      Simply select cells and charts, and the dashboard is ready.
+      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (driven by your model’s formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -68,8 +63,9 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
-    title: 'Present Clear Results with Impact'
+    title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
+featuresHeader:
 infoBlockFirst:
   - benefitsList:
       - text: >-
