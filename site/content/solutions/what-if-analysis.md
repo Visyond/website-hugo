@@ -18,7 +18,7 @@ topTitle: >-
   ‘What-if’ You Could Analyze Sensitivities and Scenarios </br>
   <span style="color: #0086ff;">in Minutes</span>?
 topSubTitle: >-
-  What-if Analysis of your operating model has never been easier. Just upload your spreadsheet and get ready-to-present scenarios and sensitivity reports that you can customize and share.
+  Sensitivities, Scenarios and What-if Analysis of your operating model has never been easier.
 topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 StepsHeader: >-

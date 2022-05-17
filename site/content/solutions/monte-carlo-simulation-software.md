@@ -11,7 +11,7 @@ metaTags: >-
 signUpURL: /accounts/signup/
 requestURL: /request
 topTitle: >-
-  Explore the Risks in Your Forecasts, and Find the Probability of Success.</br>
+  Explore Risks in Forecasts. Find the Probability of Success.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Running Monte Carlo Simulations and analyzing risks of your spreadsheet model has never been easier. Just upload your spreadsheet and get ready-to-present simulation reports that you can customize and share.
