@@ -83,7 +83,7 @@ infoBlockFirst:
       - text: >-
           Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
     descr: >-
-      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
+      Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Scenario Planning and Forecasting'

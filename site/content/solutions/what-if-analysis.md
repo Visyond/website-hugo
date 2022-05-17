@@ -82,20 +82,6 @@ StepsBlock:
 featuresHeader:
 infoBlockFirst:
   - benefitsList:
-      - text: >-
-          Answer ‘what-if’ questions with Scenario Analysis.
-      - text: >-
-          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
-      - text: >-
-          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
-      - text: >-
-          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
-    descr: >-
-      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
-    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Scenario Planning and Forecasting'
-  - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
       - text: Analyze risks with Monte Carlo simulations.
@@ -119,19 +105,7 @@ infoBlockFirst:
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Decision-making Dashboards     
-  - benefitsList:
-      - text: >-
-          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
-      - text: >-
-          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
-      - text: >-
-          Control access. Share only specific dashboards and scenarios with specific collaborators.
-    descr: >-
-      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
-    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Get Insights with Interactive Dashboards
+    title: Decision-making Dashboards         
   - benefitsList:
       - text: >-
           Answer ‘what-if’ questions with Scenario Analysis.
@@ -142,23 +116,10 @@ infoBlockFirst:
       - text: >-
           Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
     descr: >-
-      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
+      Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Compare and Find Optimal Scenarios'
-  - benefitsList:
-      - text: Visualize the impact of important cells with Tornado Analysis.
-      - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
-      - text: Analyze risks with Monte Carlo simulations.
-      - text: >-
-          Get presentation-ready analysis charts and securely share them with collaborators.
-      - text: >-
-          Extend your collaborators’ analyses without anyone losing or corrupting data.
-    descr: >-
-      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
-    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
-    title: Automate Sensitivities and Monte Carlo Simulations
+    title: 'Scenario Planning and Forecasting'
   - benefitsList:
       - text: >-
           Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
@@ -193,7 +154,7 @@ infoBlockFirst:
       - text: >-
           Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
     descr: >-
-      Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+      Track assumptionsand scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
     title: Control What Is Happening in Your Projects
@@ -208,23 +169,5 @@ infoBlockFirst:
       Visyond.jpg
     title: Keep Important Information at Your Fingertips
     isVisible: false
-  - benefitsList:
-      - text: >-
-          Automate Balance Sheets, Income Statements and Cash Flow statements.
-      - text: >-
-          Customize reports according to your accounting standards.
-      - text: >-
-          Visyond will automatically calculate financial and management ratios.
-      - text: >-
-          The statements will remain up-to-date when you change the numbers in the spreadsheet.
-      - text: >-
-          If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
-    descr: >-
-      Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
-    infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.jpg
-    title: Automate Pro-Forma Financial Statements
 ---
 
