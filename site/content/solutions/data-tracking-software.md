@@ -1,7 +1,6 @@
 ---
 aliases: /solutions/governance/
 metaTags: "<meta name=\"title\" content=\"Track Changes and Control Information Flows in Spreadsheet Models\"> <meta name=\"description\" content=\"Track changes and take control of your spreadsheet models with Visyond’s spreadsheet data tracking software.\"> <meta name=\"keywords\" content=\"track changes in excel, spreadsheet governance\">\r\n\r\n<meta property=\"og:title\" content=\"Track Changes and Control Information Flows in Spreadsheet Models\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-tracking-software\"></p>"
-topImage: /img/solutions/solutions_data_tracking_top.png
 title: Data Tracking Software
 topTitle: Track Changes and Control Information Flows in Spreadsheet Models
 StepsHeader: >-

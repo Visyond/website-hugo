@@ -245,7 +245,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
 
-      - {label: "Top image (laptop-sized)", name: "topImage", widget: "image", required: false}
       - {label: "Page title", name: "title", widget: "string", required: false,}
       - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
       - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}

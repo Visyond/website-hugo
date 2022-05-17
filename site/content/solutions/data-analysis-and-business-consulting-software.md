@@ -1,7 +1,6 @@
 ---
 aliases: /solutions/analysts-and-consultants/
 metaTags: "<meta name=\"title\" content=\"Automate Data Analysis, Reporting and Business Consulting Workflow\"> <meta name=\"description\" content=\"Understand the structure of your financial models, automate analytical tasks, and present the results of your work in an interactive way, help decision makers make better decisions, faster.\"> <meta name=\"keywords\" content=\"data analysis, business consulting software\">\n\n<meta property=\"og:title\" content=\"Automate Data Analysis, Reporting and Business Consulting Workflow\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r\nCarry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-analysis-and-business-consulting-software\">"
-topImage: /img/solutions/solutions_analysts_consultants_top.png
 title: 'Automate Data Analysis, Reporting and Business Consulting Workflow'
 topTitle: 'Automate Data Analysis, Reporting <br> and Business Consulting Workflow'
 StepsHeader: >-
