@@ -83,6 +83,45 @@ featuresHeader:
 infoBlockFirst:
   - benefitsList:
       - text: >-
+          Answer ‘what-if’ questions with Scenario Analysis.
+      - text: >-
+          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
+      - text: >-
+          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
+      - text: >-
+          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
+    descr: >-
+      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    title: 'Scenario Planning and Forecasting'
+  - benefitsList:
+      - text: Visualize the impact of important cells with Tornado Analysis.
+      - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
+      - text: Analyze risks with Monte Carlo simulations.
+      - text: >-
+          Get presentation-ready analysis charts and securely share them with collaborators.
+      - text: >-
+          Extend your collaborators’ analyses without anyone losing or corrupting data.
+    descr: >-
+      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
+    infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    title: What-if Analysis and Monte Carlo Simulations
+  - benefitsList:
+      - text: >-
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+      - text: >-
+          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
+      - text: >-
+          Control access. Share only specific dashboards and scenarios with specific collaborators.
+    descr: >-
+      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    title: Decision-making Dashboards     
+  - benefitsList:
+      - text: >-
           Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
       - text: >-
           Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
