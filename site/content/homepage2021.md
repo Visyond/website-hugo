@@ -1,4 +1,5 @@
 ---
+url: /homepage2021/
 title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
   <meta property="og:title" content="Go Beyond Spreadsheets, Dashboards, and Analytics. In Minutes.">
