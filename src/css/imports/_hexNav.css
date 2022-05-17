@@ -69,6 +69,7 @@
     align-items: center;
     position: relative;
     height: 3em;
+    font-weight: 600;
 
 
 & > span > img {

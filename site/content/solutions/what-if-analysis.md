@@ -25,9 +25,8 @@ StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:
   - descr: >-
-      Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.</br></br>
-      If you are too busy – <b>we can build a model and maintain it for you.</b>
+      Import your model or create a new project from scratch.</br></br>
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
@@ -43,7 +42,7 @@ StepsBlock:
       Know how revenue forecasts change under different scenarios?</br>
       Identify the metrics you should focus on?</br>
       Find the probability of certain outcomes?</br></br>
-      Visyond will show you this <b>in a few clicks</b>.
+      Visyond will show you this in a few clicks.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -57,8 +56,8 @@ StepsBlock:
     title: 'Get Insights with Predictive Analytics'
     titlePrefix: '2'   
   - descr: >-
-      Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
-      <b>Simply select cells and charts, and the dashboard is ready.</b>
+      Confidently answer ‘what-if’ questions, and share online dashboards where others can safely play with the numbers.</br></br>
+      Simply select cells and charts, and the dashboard is ready.
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
