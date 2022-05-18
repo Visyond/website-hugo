@@ -141,7 +141,7 @@ demoSection:
       - demoSectionSubTitle: Automated Sensitivity and Scenario Analysis
         demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
-        isVisible: false
+        isVisible: true
         demoDescription: >-
            Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
     demoSectionTitle: Watch Automated Analysis in Action         
