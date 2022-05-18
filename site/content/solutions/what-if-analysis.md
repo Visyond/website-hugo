@@ -94,6 +94,7 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: What-if Analysis and Monte Carlo Simulations
+    isVisible: false
   - benefitsList:
       - text: >-
           Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.

@@ -37,6 +37,7 @@ topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Mode
 topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
+isStepsVisible: false
 StepsBlock:
   - descr: >-
       Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>

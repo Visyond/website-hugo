@@ -249,12 +249,33 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
       - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
       - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
-      - {label: "Top Video", name: "topVideo", widget: "string"}              
+      - {label: "Top Video", name: "topVideo", widget: "string"}
 
+      - {label: "Display Steps section?", name: "isStepsVisible", widget: "boolean", required: false, default: true},
+      - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
+      - {label: "Steps block", name: "StepsBlock", widget: "list",
+        fields: [
+          {label: "Steps Title", name: "title", widget: "string"},
+          {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
+          {label: "Steps Description", name: "descr", widget: "markdown"},
+          {label: "Steps list 1", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "markdown"},
+          ]},
+          {label: "Benefits list 2", name: "benefitsList2", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "markdown"},
+          ]},        
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+          {label: "Info Link", name: "link", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+        ],
+        required: false,
+        }                    
 
       - {label: "Feature Section Header", name: "featuresHeader", widget: "markdown", required: false,}
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
+          {label: "Display this feature on page?", name: "isVisible", widget: "boolean", required: false, default: true},
           {label: "Info Title", name: "title", widget: "string"},
           {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
           {label: "Info Video", name: "infoVideo", widget: "string"},
@@ -560,7 +581,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        
           - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
             fields: [
-              {label: "Display on page?", name: "isVisible", widget: "boolean", required: false},
+              {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
               {label: "Info Title", name: "title", widget: "string"},
               {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
               {label: "Info Video", name: "infoVideo", widget: "string"},
@@ -1185,7 +1206,7 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
             {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
             {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
-            {label: "Display on page?", name: "isVisible", widget: "boolean", required: true},
+            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
             {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
           ],}
 	], 

@@ -46,6 +46,7 @@
 
 
 	    <!-- 3 STEPS -->
+		{{ if (not (eq .isStepsVisible false)) }}
 		<section class="enterV">
 			<div class="container">
 				<h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
@@ -55,6 +56,7 @@
 				</ul>
 			</div>
 		</section>
+		{{ end }}
 		<!-- END: 3 STEPS -->
 
 	<!-- GET STARTED SECTION -->
