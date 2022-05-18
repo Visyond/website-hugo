@@ -3,33 +3,31 @@ aliases:
   - /features/simulations/
   - /features/monte-carlo-simulation-software/
   - /solutions/risk-analysis-and-simulations/
-title: Online Monte Carlo Simulation Software
+title: Monte Carlo Simulation Software
 metaTags: >-
-  <meta property="og:title" content="@@@@@@@s">
+  <meta property="og:title" content="Automate Risk Analysis and Monte Carlo Simulations. In Minutes.">
 
   <meta property="og:type" content="website">
 
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/@@@@@@.png">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Simulations 2022.png">
 
-  <meta property="og:description" content="What-if Analysis of your operating model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
+  <meta property="og:description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 
-  <meta property="og:url" content="https://visyond.com/solutions/what-if-analysis/">
+  <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
-  <meta name="title" content="Online Monte Carlo Simulation Software">
+  <meta name="title" content="Monte Carlo Simulation Software">
 
-  <meta name="description" content="Run Monte Carlo Simulations driven by spreadsheet data online, manage risks & uncertainty and explore probabilities of different outcomes with Visyond’s Monte Carlo Simulation software.">
+  <meta name="description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 topTitle: >-
-  Explore Risks in Forecasts and Probability of Success.</br>
+  Automate Risk Analysis and Monte Carlo Simulations.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model has never been easier.
 topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
-      Get Results in 3 Simple Steps
+      Quantitative Risk Analysis in 3 Simple Steps
 isStepsVisible: true
-StepsHeader: >-
-      Risk Analysis in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
@@ -70,18 +68,19 @@ StepsBlock:
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     title: 'Share Interactive Dashboards'
     titlePrefix: '3'  
-featuresHeader: Manage Risk and Uncertainty
+featuresHeader: Manage Risks and Uncertainty
 infoBlockFirst:
   - benefitsList:
-      - text: Visualize the impact of important cells with Tornado Analysis.
-      - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
-      - text: Analyze risks with Monte Carlo simulations.
+      - text: Get presentation-ready analysis charts and securely share them with collaborators.
+      - text: Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
       - text: >-
-          Get presentation-ready analysis charts and securely share them with collaborators.
+          Visyond will generate descriptive statistics, probability density and cumulative distribution functions.      
       - text: >-
-          Extend your collaborators’ analyses without anyone losing or corrupting data.
+          Visyond supports Various continuous and discrete probability distributions. If you aren’t sure what distribution to use, Visyond can analyze your historical data and suggest options.
+      - text: >-
+          You can generate samples elsewhere (e.g., using any random number generator) and add external samples to Visyond.
     descr: >-
-      Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
+      Improve your probabilistic modeling and quantitative risk analysis workflow with Monte Carlo Simulations and visualize the probability of the output decision metrics taking certain values.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Risk Analysis and Monte Carlo Simulations
@@ -103,21 +102,6 @@ infoBlockFirst:
     isVisible: true         
   - benefitsList:
       - text: >-
-          Answer ‘what-if’ questions with Scenario Analysis.
-      - text: >-
-          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
-      - text: >-
-          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
-      - text: >-
-          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
-    descr: >-
-      Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
-    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Scenario Planning and Forecasting'
-    isVisible: true
-  - benefitsList:
-      - text: >-
           Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
       - text: Make your models easier to understand with natural language formulas.
       - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
@@ -132,25 +116,12 @@ infoBlockFirst:
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:      
-      - demoSectionSubTitle: Sensitivies and What-if Analysis
+      - demoSectionSubTitle: Auto-analysis and Monte Carlo Simulations
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
         isVisible: true
         demoDescription: >-
-          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
-      - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
-        demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
-        isVisible: true
-        demoDescription: >-
-          Manage and collaborate on assumptions, create and analyze scenarios on-the-fly.        
-    demoSectionTitle: Watch Scenarios and Analysis in Action
-  - demoSectionContent:
-      - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
-        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
-        isVisible: true
-        demoDescription: >-
-          Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.
+          Get presentation-ready Monte Carlo Analysis in a few clicks.
+    demoSectionTitle: Watch Monte Carlo Simulations in Action
 ---
 

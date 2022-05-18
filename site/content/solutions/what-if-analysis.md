@@ -143,20 +143,19 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
         isVisible: true
         demoDescription: >-
-          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
+          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations with a few clicks.
       - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
         demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
         isVisible: true
         demoDescription: >-
-          Manage and collaborate on assumptions, create and analyze scenarios on-the-fly.        
-    demoSectionTitle: Watch Scenarios and Analysis in Action
-  - demoSectionContent:
-      - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
+          Create and analyze scenarios on-the-fly, manage and collaborate on assumptions.        
+      - demoSectionSubTitle: Interactive 'What-if' Dashboards
         demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
         isVisible: true
         demoDescription: >-
-          Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.		              
+          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
+    demoSectionTitle: Watch Scenarios and Analysis in Action           
 ---
 

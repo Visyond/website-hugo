@@ -18,7 +18,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
         isVisible: true
         demoDescription: >-
-          Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.		  
+          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
       - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
