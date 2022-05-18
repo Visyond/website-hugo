@@ -37,7 +37,7 @@ topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Mode
 topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
-isStepsVisible: false
+isStepsVisible: true
 StepsBlock:
   - descr: >-
       Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
@@ -48,8 +48,6 @@ StepsBlock:
           Improve your performance without changing your workflow.
       - text: >-
            You don’t need to install anything - just open the browser and start getting results right away.
-    infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
-    infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
     image: /img/home/step1.png
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
@@ -66,26 +64,9 @@ StepsBlock:
           Novices can easily analyze data, experts get powerful tools at a fraction of the cost.
       - text: >-
           No-code and no need for maintenance if the spreadsheet changes.
-    infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
-    infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Get Insights with Predictive Analytics'
-    titlePrefix: '2'   
-  - descr: >-
-      Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
-      <b>Simply select cells and charts, and the dashboard is ready.</b>
-    benefitsList:
-      - text: >-
-          Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
-      - text: >-
-          Manage access for each dashboard or worksheet per person for security and simplicity reasons.
-      - text: >-
-          Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.                 
-    infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
-    infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
-    image: /img/home/step4.png
-    title: 'Present Clear Results with Impact'
-    titlePrefix: '3'  
+    title: 'Generate Financial Statements'
+    titlePrefix: '2'
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -105,26 +86,7 @@ infoBlockFirst:
       **Generate always up-to-date, forward-looking financial statements,**
       driven by the spreadsheet, and automate the preparation of reports based
       on your settings and accounting standards.
-    files:
-      - alt: >-
-          Online Financial Statement Generator - Easily Create Financial
-          Statements in Visyond
-        descr: >-
-          Visyond creates forward looking predictive financial statements,
-          driven by assumptions in your spreadsheet. The statements can adapt to
-          any reporting/accounting standard and automate the preparation of
-          reports based on your settings.
-        file: /img/2019-02 Financial Statements.png
-        title: Generate Financial Statements Linked To Your Model
-    image: /img/2019-06-11 Financial Statements zoom.png
-    infoVideo: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.mp4
-    infoVideoPoster: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.jpg
-    link: ''
-    subtitle: Reports automation.
     title: Auto-generate Financial Statements Driven by Your Spreadsheet
+    isVisible: true
 ---
 

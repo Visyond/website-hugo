@@ -36,6 +36,7 @@ topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Vis
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
+isStepsVisible: false
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
@@ -94,7 +95,7 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: What-if Analysis and Monte Carlo Simulations
-    isVisible: false
+    isVisible: true
   - benefitsList:
       - text: >-
           Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
@@ -108,7 +109,8 @@ infoBlockFirst:
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Decision-making Dashboards         
+    title: Decision-making Dashboards
+    isVisible: true         
   - benefitsList:
       - text: >-
           Answer ‘what-if’ questions with Scenario Analysis.
@@ -123,6 +125,7 @@ infoBlockFirst:
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Scenario Planning and Forecasting'
+    isVisible: true
   - benefitsList:
       - text: >-
           Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
@@ -135,5 +138,6 @@ infoBlockFirst:
     infoVideoPoster: >-
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
     title: Fewer Errors
+    isVisible: true
 ---
 
