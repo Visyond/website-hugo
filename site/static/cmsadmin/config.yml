@@ -251,7 +251,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
       - {label: "Top Video", name: "topVideo", widget: "string"}
 
-      - {label: "Display Steps section?", name: "isStepsVisible", widget: "boolean", required: false, default: true},
+      - {label: "Display Steps section?", name: "isStepsVisible", widget: "boolean", required: false, default: true}
       - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
       - {label: "Steps block", name: "StepsBlock", widget: "list",
         fields: [
@@ -297,7 +297,23 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Youtube Link", name: "linkYoutube", widget: "string"},
         ],
         required: false,
-        } 
+        }
+
+      - {label: "Display Demo Video section?", name: "isDemoSectionVisible", widget: "boolean", required: false, default: false}
+      - {label: "Demo Section", name: "demoSection", widget: "list", 
+        fields: [
+          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
+          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
+          fields: [
+            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
+            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
+            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
+            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
+            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
+          ],}
+	], 
+        required: false,
+        }         
 
 
   - name: "solutions-page"

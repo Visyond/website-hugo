@@ -36,7 +36,7 @@ topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Vis
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 StepsHeader: >-
       Get Results in 3 Simple Steps
-isStepsVisible: false
+isStepsVisible: true
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
