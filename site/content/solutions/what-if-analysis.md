@@ -138,12 +138,18 @@ infoBlockFirst:
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:      
-      - demoSectionSubTitle: Automated Sensitivity and Scenario Analysis
-        demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
+      - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
+        demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
         isVisible: true
         demoDescription: >-
-           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
-    demoSectionTitle: Watch Automated Analysis in Action         
+          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
+      - demoSectionSubTitle: Collaborative Scenario Planning, Budgeting & Forecasting
+        demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
+        isVisible: true
+        demoDescription: >-
+          Manage and collaborate on assumptions, create and analyze scenarios on-the-fly.        
+    demoSectionTitle: Watch Scenario and Analysis in Action         
 ---
 
