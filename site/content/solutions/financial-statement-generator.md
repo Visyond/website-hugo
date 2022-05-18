@@ -12,13 +12,11 @@ metaTags: >-
 
   <meta property="og:type" content="website">
 
-  <meta property="og:image"content="https://visyond.com/video/Auto-generate
-  Financial Statements Driven by Your Model - Visyond.jpg"> 
+  <meta property="og:image"content="https://visyond.com/video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg"> 
 
   <meta property="og:description" content="Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.">
 
-  <meta property="og:url"
-  content="https://visyond.com/features/financial-statement-generator/">
+  <meta property="og:url" content="https://visyond.com/solutions/financial-statement-generator/">
 title: Online Financial Statement Generator
 topTitle: >-
   Generate Financial Statements and Automate Financial Reporting.</br>
