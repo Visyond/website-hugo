@@ -45,19 +45,19 @@
 	{{ partial "hexSlider" . }}
 
 
-	    <!-- 3 STEPS -->
-		{{ if (not (eq .isStepsVisible false)) }}
-		<section class="enterV">
-			<div class="container">
-				<h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
-				<div class="header-section--divider"></div>
-				<ul class="enterSections js-image-block">
-					{{ partial "hexBlockListC" . }}
-				</ul>
-			</div>
-		</section>
-		{{ end }}
-		<!-- END: 3 STEPS -->
+	<!-- 3 STEPS -->
+	{{ if (not (eq .Params.isStepsVisible false)) }}
+	<section class="enterV">
+		<div class="container">
+			<h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
+			<div class="header-section--divider"></div>
+			<ul class="enterSections js-image-block">
+				{{ partial "hexBlockListC" . }}
+			</ul>
+		</div>
+	</section>
+	{{ end }}
+	<!-- END: 3 STEPS -->
 
 	<!-- GET STARTED SECTION -->
 	<section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
