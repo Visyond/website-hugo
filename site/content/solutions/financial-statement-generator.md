@@ -7,19 +7,18 @@ metaTags: >-
 
   <meta name="description" content="Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.">
 
-
   <meta property="og:title" content="Generate Financial Statements and Automate Financial Reporting.">
 
   <meta property="og:type" content="website">
 
-  <meta property="og:image"content="https://visyond.com/video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg"> 
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Statements 2022.png">
 
   <meta property="og:description" content="Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.">
 
   <meta property="og:url" content="https://visyond.com/solutions/financial-statement-generator/">
-title: Online Financial Statement Generator
+title: Generate Financial Statements
 topTitle: >-
-  Generate Financial Statements and Automate Financial Reporting.</br>
+  Generate Financial Statements and Automate Reporting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
@@ -48,7 +47,7 @@ StepsBlock:
           You don’t need to move data across many tools - financial statements are in the cloud together with the model, its scenarios and dashboards.
       - text: >-
           No-code and no need for maintenance if the spreadsheet changes.
-    image: /img/home/step2.png  
+    image: /img/home/stepStatement.png
     title: 'Generate Financial Statements'
     titlePrefix: '2'
 featuresHeader: From Spreadsheet to Balance Sheets, Income and Cash Flow Statements
@@ -59,7 +58,7 @@ infoBlockFirst:
       - text: >-
           Visyond will automatically calculate financial and management ratios, growth and changes against previous periods.
       - text: >-
-          The statements will remain up-to-date when you change the numbers in the spreadsheet or the settings
+          The statements will remain up-to-date when you change the numbers in the spreadsheet or the settings.
       - text: >-
           If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.
     descr: >-
@@ -73,6 +72,19 @@ infoBlockFirst:
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg    
     isVisible: true
+  - benefitsList:
+      - text: >-
+          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
+      - text: Make your models easier to understand with natural language formulas.
+      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
+    descr: >-
+      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
+    title: Fewer Errors
+    isVisible: true    
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:  
@@ -81,7 +93,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
         isVisible: true
         demoDescription: >-
-          Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.  
-    demoSectionTitle: Financial Statements in Action
+          How to create Balance Sheets, Income and Cash Flow Statements in Visyond?
+    demoSectionTitle: Watch Financial Statements in Action
 ---
 

@@ -16,16 +16,15 @@ metaTags: >-
 
   <meta property="og:type" content="website">
 
-  <meta property="og:image"
-  content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - What-if 2022.png">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - What-if 2022.png">
 
-  <meta property="og:description" content="What-if Analysis of your operating model has never been easier. Just upload your spreadsheet and get scenarios and sensitivity reports that you can customize and share.">
+  <meta property="og:description" content="What-if Analysis of your operating model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
 
   <meta property="og:url" content="https://visyond.com/solutions/what-if-analysis/">
 
   <meta name="title" content="Analyze Sensitivities and Scenarios in Minutes">
 
-  <meta name="description" content="What-if Analysis of your operating model has never been easier. Just upload your spreadsheet and get scenarios and sensitivity reports that you can customize and share.">
+  <meta name="description" content="What-if Analysis of your operating model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
 title: What-if Analysis
 topTitle: >-
   ‘What-if’ You Could Analyze Sensitivities and Scenarios </br>
@@ -35,7 +34,7 @@ topSubTitle: >-
 topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 StepsHeader: >-
-      Get Results in 3 Simple Steps
+      What-if Analysis in 3 Simple Steps
 isStepsVisible: true
 StepsBlock:
   - descr: >-
@@ -48,7 +47,6 @@ StepsBlock:
            You don’t need to install anything - just open the browser and start getting results right away.
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
-    image: /img/home/step1.png
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
@@ -63,7 +61,6 @@ StepsBlock:
           No-code and no need for maintenance if the spreadsheet changes.
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
-    image: /img/home/step2.png  
     title: 'Automate What-if Analysis'
     titlePrefix: '2'   
   - descr: >-
@@ -77,10 +74,9 @@ StepsBlock:
           Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.                 
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
-    image: /img/home/step4.png
     title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
-featuresHeader:
+featuresHeader: Improve Your Spreadsheet Analysis Workflow
 infoBlockFirst:
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
@@ -139,5 +135,15 @@ infoBlockFirst:
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
     title: Fewer Errors
     isVisible: true
+isDemoSectionVisible: true
+demoSection:
+  - demoSectionContent:      
+      - demoSectionSubTitle: Automated Sensitivity and Scenario Analysis
+        demoSectionImage: /img/demo/Auto-analysis Demo Video Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/4uZ7bKc91WE'
+        isVisible: false
+        demoDescription: >-
+           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
+    demoSectionTitle: Watch Automated Analysis in Action         
 ---
 
