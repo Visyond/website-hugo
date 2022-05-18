@@ -33,9 +33,9 @@ topSubTitle: >-
   Sensitivities, Scenarios and What-if Analysis of your operating model has never been easier.
 topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
+isStepsVisible: true
 StepsHeader: >-
       What-if Analysis in 3 Simple Steps
-isStepsVisible: true
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
@@ -138,18 +138,25 @@ infoBlockFirst:
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:      
-      - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
+      - demoSectionSubTitle: Sensitivies and What-if Analysis
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
         isVisible: true
         demoDescription: >-
           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulation with a few clicks.
-      - demoSectionSubTitle: Collaborative Scenario Planning, Budgeting & Forecasting
+      - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
         demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
         isVisible: true
         demoDescription: >-
           Manage and collaborate on assumptions, create and analyze scenarios on-the-fly.        
-    demoSectionTitle: Watch Scenario and Analysis in Action         
+    demoSectionTitle: Watch Scenarios and Analysis in Action
+  - demoSectionContent:
+      - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
+        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
+        isVisible: true
+        demoDescription: >-
+          Securely share interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios in self-service mode without the risk of breaking the spreadsheet.		              
 ---
 

@@ -24,9 +24,9 @@ topSubTitle: >-
   Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
 topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
 topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+isStepsVisible: true
 StepsHeader: >-
       Financial Statements in 2 Simple Steps
-isStepsVisible: true
 StepsBlock:
   - descr: >-
       Import your spreadsheet, or create a model from scratch.</br></br>
