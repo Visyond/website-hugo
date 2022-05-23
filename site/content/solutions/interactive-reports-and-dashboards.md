@@ -6,22 +6,37 @@ aliases:
   - /solutions/spreadsheet-calculators/
   - /solutions/presentation/
   - /solutions/automate-excel-reports-and-presentation/
-metaTags: "<meta name=\"title\" content=\"Automate Reporting and Create Interactive Spreadsheet-driven Dashboards\">\n<meta name=\"description\" content=\"Automate reporting, auto-generate financial statements and create interactive spreadsheet-driven calculators in a few clicks.\">\n<meta name=\"keywords\" content=\"Automate Excel Reports, Financial Data Visualization, Presenting Financial Data\">\n\n<meta property=\"og:title\" content=\"Automate Reporting and Create Interactive Spreadsheet-driven Dashboards\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.\r Carry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/automate-excel-reports-and-presentation/\">"
-title: Automate Reporting and Financial Statements
+metaTags: >-
+  <meta property="og:title" content="Interactive Dashboards for What-if Analysis and Forecasting">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/@@@@@@@@@@@@@@@@.png">
+
+  <meta property="og:description" content="@@@@@">
+
+  <meta property="og:url" content="https://visyond.com/solutions/interactive-reports-and-dashboards/">
+
+  <meta name="title" content="Interactive Dashboards for What-if Analysis and Forecasting">
+
+  <meta name="description" content=@@@@@@@@@@@">
+title: Interactive Dashboards and Calculators
 topTitle: >-
-  Look Forward with Interactive Dashboards for Forecasting and ‘What-if’ Analysis.</br>
+  Interactive Dashboards for What-if Analysis and Forecasting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Just upload your spreadsheet, select key charts and cells (decision metrics) and get an interactive calculator where you and your stakeholders can safely play with the numbers and reflect on scenarios without the risk of breaking the model.
 topVideoThumbnail: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
 topVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+isStepsVisible: true
 StepsHeader: >-
       Get Results in 3 Simple Steps
+StepsHeader: >-
+      What-if Analysis in 3 Simple Steps
 StepsBlock:
   - descr: >-
-      Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.</br></br>
-      If you are too busy – <b>we can build a model and maintain it for you.</b>
+      Import your model or create a new project from scratch.</br></br>
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
@@ -29,15 +44,11 @@ StepsBlock:
            You don’t need to install anything - just open the browser and start getting results right away.
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
-    image: /img/home/step1.png
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Want to see what impacts the profits the most?</br>
-      Know how revenue forecasts change under different scenarios?</br>
-      Identify the metrics you should focus on?</br>
-      Find the probability of certain outcomes?</br></br>
-      Visyond will show you this <b>in a few clicks</b>.
+      Get ready-to-present sensitivities and scenario analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
+      It’s that simple.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -47,12 +58,10 @@ StepsBlock:
           No-code and no need for maintenance if the spreadsheet changes.
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
-    image: /img/home/step2.png  
-    title: 'Get Insights with Predictive Analytics'
+    title: 'Automate What-if Analysis'
     titlePrefix: '2'   
   - descr: >-
-      Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
-      <b>Simply select cells and charts, and the dashboard is ready.</b>
+      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (driven by your model’s formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -62,24 +71,25 @@ StepsBlock:
           Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.                 
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
-    image: /img/home/step4.png
-    title: 'Present Clear Results with Impact'
-    titlePrefix: '3'  
+    title: 'Share Interactive ‘What-if’ Dashboards'
+    titlePrefix: '3'
+featuresHeader: Improve Your Spreadsheet Analysis Workflow    
 infoBlockFirst:
   - benefitsList:
       - text: >-
-          Answer ‘what-if’ questions with Scenario Analysis.
+          Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
       - text: >-
-          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
       - text: >-
-          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
+          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
       - text: >-
-          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
+          Control access. Share only specific dashboards and scenarios with specific collaborators.
     descr: >-
-      Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
-    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Scenario Planning and Forecasting'
+      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    title: What-if Analysis Dashboards
+    isVisible: true    
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
@@ -93,17 +103,32 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: What-if Analysis and Monte Carlo Simulations
+    isVisible: true     
   - benefitsList:
       - text: >-
-          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+          Answer ‘what-if’ questions with Scenario Analysis.
       - text: >-
-          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
+          Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
       - text: >-
-          Control access. Share only specific dashboards and scenarios with specific collaborators.
+          Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
+      - text: >-
+          Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
     descr: >-
-      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
-    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Decision-making Dashboards   
+      Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
+    infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    title: 'Scenario Planning and Forecasting'
+    isVisible: true
+isDemoSectionVisible: true
+demoSection:
+  - demoSectionContent:         
+      - demoSectionSubTitle: Interactive 'What-if' Dashboards
+        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
+        isVisible: true
+        demoDescription: >-
+          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
+    demoSectionTitle: Watch Interactive Dashboards in Action             
+    
 ---
 

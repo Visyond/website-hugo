@@ -99,19 +99,6 @@ infoBlockFirst:
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     title: Decision-making Dashboards
-    isVisible: true         
-  - benefitsList:
-      - text: >-
-          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
-      - text: Make your models easier to understand with natural language formulas.
-      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
-    descr: >-
-      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    title: Fewer Errors
     isVisible: true
 isDemoSectionVisible: true
 demoSection:
@@ -122,6 +109,12 @@ demoSection:
         isVisible: true
         demoDescription: >-
           Get presentation-ready Monte Carlo Analysis in a few clicks.
+      - demoSectionSubTitle: Interactive Dashboards
+        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
+        isVisible: true
+        demoDescription: >-
+          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.          
     demoSectionTitle: Watch Monte Carlo Simulations in Action
 ---
 

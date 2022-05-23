@@ -18,19 +18,19 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - What-if 2022.png">
 
-  <meta property="og:description" content="What-if Analysis of your operating model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
+  <meta property="og:description" content="What-if Analysis of your spreadsheet model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
 
   <meta property="og:url" content="https://visyond.com/solutions/what-if-analysis/">
 
   <meta name="title" content="Analyze Sensitivities and Scenarios in Minutes">
 
-  <meta name="description" content="What-if Analysis of your operating model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
+  <meta name="description" content="What-if Analysis of your spreadsheet model has never been easier. Upload your spreadsheet and get ready-to-present scenarios and sensitivity reports.">
 title: What-if Analysis
 topTitle: >-
   ‘What-if’ You Could Analyze Sensitivities and Scenarios </br>
   <span style="color: #0086ff;">in Minutes</span>?
 topSubTitle: >-
-  Sensitivities, Scenarios and What-if Analysis of your operating model has never been easier.
+  Sensitivities, Scenarios and What-if Analysis of your spreadsheet model has never been easier.
 topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 isStepsVisible: true
@@ -105,7 +105,7 @@ infoBlockFirst:
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Decision-making Dashboards
+    title: What-if Analysis Dashboards
     isVisible: true         
   - benefitsList:
       - text: >-
@@ -121,19 +121,6 @@ infoBlockFirst:
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Scenario Planning and Forecasting'
-    isVisible: true
-  - benefitsList:
-      - text: >-
-          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
-      - text: Make your models easier to understand with natural language formulas.
-      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
-    descr: >-
-      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    title: Fewer Errors
     isVisible: true
 isDemoSectionVisible: true
 demoSection:

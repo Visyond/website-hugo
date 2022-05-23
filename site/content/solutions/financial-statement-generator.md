@@ -13,7 +13,7 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Statements 2022.png">
 
-  <meta property="og:description" content="Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.">
+  <meta property="og:description" content="Transform your spreadsheet model and its forecasts into Balance Sheets, Income and Cash Flow Statements.">
 
   <meta property="og:url" content="https://visyond.com/solutions/financial-statement-generator/">
 title: Generate Financial Statements
@@ -21,7 +21,7 @@ topTitle: >-
   Generate Financial Statements and Automate Reporting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Transform your operating model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
+  Transform your spreadsheet model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
 topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
 topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
 isStepsVisible: true
@@ -50,7 +50,7 @@ StepsBlock:
     image: /img/home/stepStatement.png
     title: 'Generate Financial Statements'
     titlePrefix: '2'
-featuresHeader: From Spreadsheet to Balance Sheets, Income and Cash Flow Statements
+featuresHeader: From Spreadsheets to Financial Statements
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -72,19 +72,6 @@ infoBlockFirst:
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg    
     isVisible: true
-  - benefitsList:
-      - text: >-
-          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
-      - text: Make your models easier to understand with natural language formulas.
-      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
-    descr: >-
-      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    title: Fewer Errors
-    isVisible: true    
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:  
