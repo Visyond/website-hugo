@@ -7,32 +7,30 @@ aliases:
   - /solutions/presentation/
   - /solutions/automate-excel-reports-and-presentation/
 metaTags: >-
-  <meta property="og:title" content="Interactive Dashboards for What-if Analysis and Forecasting">
+  <meta property="og:title" content="Dashboards for What-if Analysis and Forecasting">
 
   <meta property="og:type" content="website">
 
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/@@@@@@@@@@@@@@@@.png">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Dashboards 2022.png">
 
-  <meta property="og:description" content="@@@@@">
+  <meta property="og:description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.">
 
   <meta property="og:url" content="https://visyond.com/solutions/interactive-reports-and-dashboards/">
 
-  <meta name="title" content="Interactive Dashboards for What-if Analysis and Forecasting">
+  <meta name="title" content="Dashboards for What-if Analysis and Forecasting">
 
-  <meta name="description" content=@@@@@@@@@@@">
-title: Interactive Dashboards and Calculators
+  <meta name="description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.">
+title: What-if Dashboards for Forecasting
 topTitle: >-
-  Interactive Dashboards for What-if Analysis and Forecasting.</br>
+  Dashboards for What-if Analysis and Forecasting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Just upload your spreadsheet, select key charts and cells (decision metrics) and get an interactive calculator where you and your stakeholders can safely play with the numbers and reflect on scenarios without the risk of breaking the model.
+  Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.
 topVideoThumbnail: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
 topVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
 isStepsVisible: true
 StepsHeader: >-
-      Get Results in 3 Simple Steps
-StepsHeader: >-
-      What-if Analysis in 3 Simple Steps
+      What-if Dashboards in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
@@ -73,7 +71,7 @@ StepsBlock:
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'
-featuresHeader: Improve Your Spreadsheet Analysis Workflow    
+featuresHeader: Interactive Dashboards Powered by Your Spreadsheet
 infoBlockFirst:
   - benefitsList:
       - text: >-
