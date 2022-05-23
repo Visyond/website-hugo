@@ -18,8 +18,8 @@ solDropdownCol:
       - descr: >-
           Look forward with interactive dashboards for forecasting and ‘what-if’ analysis. In minutes.
         image: /img/report_presentation_visualization_3x.png
-        path: /solutions/interactive-reports-and-dashboards
-        title: Interactive Reports
+        path: /solutions/interactive-what-if-dashboards/
+        title: Interactive Dashboards
       - descr: >-
           Generate financial statements from your spreadsheet and automate financial reporting. In minutes.
         image: /img/financial-statement@2x.png
