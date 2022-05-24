@@ -11,15 +11,15 @@ title: From Spreadsheets to Interactive Dashboards in Minutes
 metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
-  <meta property="og:description" content="Automate What-if Analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
+  <meta property="og:description" content="Automate What-if analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Automate What-if Analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
+  <meta name="description" content="Automate What-if analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
 topTitle: >-
   Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">Automate What-if Analysis, Scenarios and Monte Carlo Simulations.</div>
+  <div class="home-hero__topSubtitle-subtitle">Automate What-if analysis, Scenarios and Monte Carlo Simulations.</div>
   <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.</div>
 StepsHeader: >-
       Get Results in 3 Simple Steps

@@ -31,7 +31,7 @@ solDropdownCol:
           Track changes, control information flows and accesses to the model and reports.
         image: /img/data_governance_3x.png
         path: /solutions/data-tracking-software/
-        title: Data Tracking
+        title: Tracking and Collaboration
       - descr: Automate spreadsheet modeling workflow.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
