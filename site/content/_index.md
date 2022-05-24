@@ -12,22 +12,22 @@ metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Visyond%20homepage%20thumbnail%201200x628.png">
-  <meta property="og:description" content="Save time with no-code, automated What-if Analysis, Scenarios and Monte Carlo Simulations. Present your spreadsheet and your insights as self-service interactive online dashboards.">
+  <meta property="og:description" content="Automate What-if Analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Save time with no-code, automated What-if Analysis, Scenarios and Monte Carlo Simulations. Present your spreadsheet and your insights as self-service interactive online dashboards.">
+  <meta name="description" content="Automate What-if Analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
 topTitle: >-
   Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">Save time with no-code, automated <span>What-if Analysis</span>, <span>Scenarios</span> and <span>Monte Carlo Simulations</span>.</div>
-  <div class="home-hero__topSubtitle-subtitle">Present your spreadsheet and your insights as self-service <span>Interactive Online Dashboards</span>.</div>
+  <div class="home-hero__topSubtitle-subtitle">Automate What-if Analysis, Scenarios and Monte Carlo Simulations.</div>
+  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.</div>
 StepsHeader: >-
       Get Results in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
       Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.</br></br>
-      If you are too busy – <b>we can build a model and maintain it for you.</b>
+      We can also build a model and maintain it for you.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
@@ -39,11 +39,8 @@ StepsBlock:
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Want to see what impacts the profits the most?</br>
-      Know how revenue forecasts change under different scenarios?</br>
-      Identify the metrics you should focus on?</br>
-      Find the probability of certain outcomes?</br></br>
-      Visyond will show you this <b>in a few clicks</b>.
+      Get ready-to-present What-if, Scenario, and Risk analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
+      It’s that simple.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -54,11 +51,10 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Get Insights with Predictive Analytics'
+    title: 'Automate Predictive Analytics'
     titlePrefix: '2'   
   - descr: >-
-      Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
-      <b>Simply select cells and charts, and the dashboard is ready.</b>
+      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -69,7 +65,7 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
-    title: 'Present Clear Results with Impact'
+    title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
 FeaturesHeader: 'All Decision-making Tools in a Single Platform'
 infoBlockFirst:

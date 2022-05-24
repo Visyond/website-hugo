@@ -14,19 +14,19 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Dashboards 2022.png">
 
-  <meta property="og:description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.">
+  <meta property="og:description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.">
 
   <meta property="og:url" content="https://visyond.com/solutions/interactive-reports-and-dashboards/">
 
   <meta name="title" content="Dashboards for What-if Analysis and Forecasting">
 
-  <meta name="description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.">
+  <meta name="description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.">
 title: What-if Dashboards for Forecasting
 topTitle: >-
   Dashboards for What-if Analysis and Forecasting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where stakeholders can safely play with the numbers and test scenarios.
+  Visualize your spreadsheets as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.
 topVideoThumbnail: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
 topVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
 isStepsVisible: true
@@ -60,7 +60,7 @@ StepsBlock:
     title: 'Automate What-if Analysis'
     titlePrefix: '2'   
   - descr: >-
-      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (driven by your model’s formulas).
+      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.

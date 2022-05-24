@@ -56,7 +56,7 @@ StepsBlock:
     title: 'Automate Risk Analysis'
     titlePrefix: '2'   
   - descr: >-
-      Create impactful presentations of your Risk Analysis and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (driven by your model’s formulas).
+      Create impactful presentations of your Risk Analysis and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
