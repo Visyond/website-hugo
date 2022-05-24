@@ -144,5 +144,27 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
+isDemoSectionVisible: true
+demoSection:
+  - demoSectionContent:      
+      - demoSectionSubTitle: Sensitivies and What-if Analysis
+        demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
+        isVisible: true
+        demoDescription: >-
+          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations with a few clicks.
+      - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
+        demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
+        isVisible: true
+        demoDescription: >-
+          Create and analyze scenarios on-the-fly, manage and collaborate on assumptions.        
+      - demoSectionSubTitle: Interactive 'What-if' Dashboards
+        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
+        isVisible: true
+        demoDescription: >-
+          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
+    demoSectionTitle: Watch Scenarios and Analysis in Action          
 ---
 
