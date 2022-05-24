@@ -51,7 +51,7 @@ StepsBlock:
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
-featuresHeader: Be in Control of Your Spreadsheet-based Workflows
+featuresHeader: Be in Control of Your Spreadsheet-based Workflows@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -61,10 +61,10 @@ infoBlockFirst:
       - text: >-
           Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
     descr: >-
-      Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+      Track assumptions and scenarios, and collaborate on spreadsheets, analyses and dashboards in a single secure environment.
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
     infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
-    title: Control What Is Happening in Your Projects
+    title: Know What's Going On
     isVisible: true    
   - benefitsList:
       - text: >-
@@ -72,14 +72,14 @@ infoBlockFirst:
       - text: >-
           Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
     descr: >-
-      Make collaboration easier and safer. Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators, and sharing only specific worksheets and dashboards with them.
+      Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators and sharing only specific worksheets and dashboards with them.
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
     infoVideoPoster: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.jpg
-    title: Protect Your Data
+    title: Manage Access to Data
     isVisible: true    
   - benefitsList:
       - text: >-
@@ -94,18 +94,6 @@ infoBlockFirst:
     isVisible: true
   - benefitsList:
       - text: >-
-          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
-      - text: >-
-          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
-      - text: >-
-          Control access. Share only specific dashboards and scenarios with specific collaborators.
-    descr: >-
-      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
-    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
-    title: Get Insights with Interactive Dashboards
-  - benefitsList:
-      - text: >-
           Answer ‘what-if’ questions with Scenario Analysis.
       - text: >-
           Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
@@ -117,7 +105,19 @@ infoBlockFirst:
       Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
-    title: 'Compare and Find Optimal Scenarios'
+    title: 'Compare and Analyze Scenarios'
+  - benefitsList:
+      - text: >-
+          Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+      - text: >-
+          Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
+      - text: >-
+          Control access. Share only specific dashboards and scenarios with specific collaborators.
+    descr: >-
+      Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
+    infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    title: Share Insights with Interactive Dashboards
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
@@ -131,18 +131,5 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
-  - benefitsList:
-      - text: >-
-          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
-      - text: Make your models easier to understand with natural language formulas.
-      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
-    descr: >-
-      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
-    infoVideo: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
-    title: Reduce the Risk of Errors
-
 ---
 
