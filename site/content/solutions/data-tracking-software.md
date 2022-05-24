@@ -1,6 +1,19 @@
 ---
 aliases: /solutions/governance/
-metaTags: "<meta name=\"title\" content=\"Track Changes and Control Information Flows in Spreadsheet Models\"> <meta name=\"description\" content=\"Track changes and take control of your spreadsheet models with Visyond’s spreadsheet data tracking software.\"> <meta name=\"keywords\" content=\"track changes in excel, spreadsheet governance\">\r\n\r\n<meta property=\"og:title\" content=\"Track Changes and Control Information Flows in Spreadsheet Models\">\r\n<meta property=\"og:type\" content=\"website\">\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\">\r\n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you. Carry out, in minutes, what takes experts hours or days to do.\">\r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/data-tracking-software\"></p>"
+metaTags: >-
+  <meta property="og:title" content="Improve Data Tracking and Spreadsheet Collaboration">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Tracking 2022.png">
+
+  <meta property="og:description" content="Track changes and control information flows in spreadsheet models. Turn scenario planning and forecasting into a collaborative and error-free experience.">
+
+  <meta property="og:url" content="https://visyond.com/solutions/data-tracking-software/">
+
+  <meta name="title" content="Improve Data Tracking and Spreadsheet Collaboration">
+
+  <meta name="description" content="Track changes and control information flows in spreadsheet models. Turn scenario planning and forecasting into a collaborative and error-free experience.">
 title: Data Tracking Software
 topTitle: >-
   Improve Data Tracking and Spreadsheet Collaboration.</br>
@@ -11,7 +24,7 @@ topVideoThumbnail: /video/Track What Is Happening in Your Projects - Visyond.jpg
 topVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
 isStepsVisible: true
 StepsHeader: >-
-      Collaborative Environment in 3 Simple Steps
+      Single Source of Truth in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
@@ -51,7 +64,7 @@ StepsBlock:
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
-featuresHeader: Be in Control of Your Spreadsheet-based Workflows@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+featuresHeader: Be Productive, Insightful and in Control
 infoBlockFirst:
   - benefitsList:
       - text: >-
