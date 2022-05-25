@@ -119,6 +119,7 @@ infoBlockFirst:
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Compare and Analyze Scenarios'
+    isVisible: true
   - benefitsList:
       - text: >-
           Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
@@ -131,6 +132,7 @@ infoBlockFirst:
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     title: Share Insights with Interactive Dashboards
+    isVisible: true
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
@@ -144,6 +146,7 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
+    isVisible: true
 isDemoSectionVisible: true
 demoSection:
   - demoSectionContent:      
