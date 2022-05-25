@@ -11,7 +11,7 @@ topTitle: >-
   Make Better Decisions with Financial Modeling Software.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Build error-free spreadsheets, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.
+  Reduce the risk of errors, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.
 topVideoThumbnail:
 topVideo:
 isStepsVisible: true
@@ -61,45 +61,6 @@ featuresHeader: Be Productive, Insightful and in Control
 infoBlockFirst:
   - benefitsList:
       - text: >-
-          Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
-      - text: >-
-          Visyond will track who added each assumption.
-      - text: >-
-          Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
-    descr: >-
-      Track assumptions and scenarios, and collaborate on spreadsheets, analyses and dashboards in a single secure environment.
-    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
-    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
-    title: Know What's Going On
-    isVisible: true    
-  - benefitsList:
-      - text: >-
-          Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
-      - text: >-
-          Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
-    descr: >-
-      Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators and sharing only specific worksheets and dashboards with them.
-    infoVideo: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
-    title: Manage Access to Data
-    isVisible: true    
-  - benefitsList:
-      - text: >-
-          Automatically document the spreadsheet as you and your collaborators work on it.
-    descr: >-
-      Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
-    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.jpg
-    title: Keep Important Information at Your Fingertips
-    isVisible: true
-  - benefitsList:
-      - text: >-
           Answer ‘what-if’ questions with Scenario Analysis.
       - text: >-
           Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
@@ -139,6 +100,45 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
+    isVisible: true
+  - benefitsList:
+      - text: >-
+          Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
+      - text: >-
+          Visyond will track who added each assumption.
+      - text: >-
+          Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
+    descr: >-
+      Track assumptions and scenarios, and collaborate on spreadsheets, analyses and dashboards in a single secure environment.
+    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
+    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    title: Know What's Going On
+    isVisible: true    
+  - benefitsList:
+      - text: >-
+          Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
+    descr: >-
+      Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators and sharing only specific worksheets and dashboards with them.
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
+    title: Manage Access to Data
+    isVisible: true    
+  - benefitsList:
+      - text: >-
+          Automatically document the spreadsheet as you and your collaborators work on it.
+    descr: >-
+      Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
+    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.jpg
+    title: Keep Important Information at Your Fingertips
     isVisible: true
   - benefitsList:
       - text: >-

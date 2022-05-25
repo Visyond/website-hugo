@@ -14,19 +14,19 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Dashboards 2022.png">
 
-  <meta property="og:description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.">
+  <meta property="og:description" content="Visualize your spreadsheets as interactive online dashboards for forecasting and what-if analysis where viewers can play with the numbers and compare scenarios.">
 
   <meta property="og:url" content="https://visyond.com/solutions/interactive-reports-and-dashboards/">
 
   <meta name="title" content="Dashboards for What-if Analysis and Forecasting">
 
-  <meta name="description" content="Visualize your spreadsheet model as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.">
+  <meta name="description" content="Visualize your spreadsheets as interactive online dashboards for forecasting and what-if analysis where viewers can play with the numbers and compare scenarios.">
 title: What-if Dashboards for Forecasting
 topTitle: >-
   Dashboards for What-if Analysis and Forecasting.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Visualize your spreadsheets as interactive dashboards for forecasting and what-if analysis where viewers can play with scenarios and numbers.
+  Visualize your spreadsheets as interactive online dashboards for forecasting and what-if analysis where viewers can play with the numbers and compare scenarios.
 topVideoThumbnail: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
 topVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
 isStepsVisible: true
