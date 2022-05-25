@@ -26,7 +26,7 @@ StepsHeader: >-
 StepsBlock:
   - descr: >-
       Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.</br></br>
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.</br></br>
       We can also build a model and maintain it for you.
     benefitsList:
       - text: >-

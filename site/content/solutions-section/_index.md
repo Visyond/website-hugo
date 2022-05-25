@@ -35,7 +35,7 @@ solDropdownCol:
       - descr: Automate spreadsheet modeling workflow.
         image: /img/modelling_3x.png
         path: /solutions/financial-modeling-software/
-        title: Financial Modeling    
+        title: Spreadsheet Modeling    
     title: Activity
 ---
 

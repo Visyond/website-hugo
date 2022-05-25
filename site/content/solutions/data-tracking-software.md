@@ -28,7 +28,7 @@ StepsHeader: >-
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
@@ -165,6 +165,6 @@ demoSection:
         isVisible: true
         demoDescription: >-
           Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
-    demoSectionTitle: Watch Scenarios and Analysis in Action          
+    demoSectionTitle: Watch Visyond in Action          
 ---
 

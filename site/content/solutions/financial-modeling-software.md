@@ -6,17 +6,21 @@ aliases:
   - /solutions/modeling/
 metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.
 Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
-title: Financial Modeling Software You Wish You Had Yesterday
-topTitle: Financial Modeling Software <br> You Wish You Had Yesterday
+title: Financial Modeling Software
+topTitle: >-
+  Make Better Decisions with Financial Modeling Software.</br>
+  <span style="color: #0086ff;">In Minutes</span>.
+topSubTitle: >-
+  Build error-free spreadsheets, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.
 topVideoThumbnail:
 topVideo:
+isStepsVisible: true
 StepsHeader: >-
-      Get Results in 3 Simple Steps
+      Get Powerful Financial Modeling Tools in 3 Simple Steps
 StepsBlock:
   - descr: >-
-      Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.</br></br>
-      If you are too busy – <b>we can build a model and maintain it for you.</b>
+      Import your model or create a new project from scratch.</br></br>
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
@@ -24,15 +28,11 @@ StepsBlock:
            You don’t need to install anything - just open the browser and start getting results right away.
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
-    image: /img/home/step1.png
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Want to see what impacts the profits the most?</br>
-      Know how revenue forecasts change under different scenarios?</br>
-      Identify the metrics you should focus on?</br>
-      Find the probability of certain outcomes?</br></br>
-      Visyond will show you this <b>in a few clicks</b>.
+      Get ready-to-present sensitivities and scenario analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
+      It’s that simple.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
@@ -42,12 +42,10 @@ StepsBlock:
           No-code and no need for maintenance if the spreadsheet changes.
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
-    image: /img/home/step2.png  
-    title: 'Get Insights with Predictive Analytics'
+    title: 'Automate What-if Analysis'
     titlePrefix: '2'   
   - descr: >-
-      Confidently answer ‘what-if’ questions, and publish interactive web-dashboards for others to safely play with the numbers.</br></br>
-      <b>Simply select cells and charts, and the dashboard is ready.</b>
+      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -57,9 +55,9 @@ StepsBlock:
           Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.                 
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
-    image: /img/home/step4.png
-    title: 'Present Clear Results with Impact'
-    titlePrefix: '3'  
+    title: 'Share Interactive ‘What-if’ Dashboards'
+    titlePrefix: '3'
+    
 infoBlockFirst:
   - altText: ''
     benefitsList:

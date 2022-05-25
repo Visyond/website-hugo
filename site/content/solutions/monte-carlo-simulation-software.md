@@ -31,7 +31,7 @@ isStepsVisible: true
 StepsBlock:
   - descr: >-
       Import your model or create a new project from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative environment if you need to work in teams and track changes.
+      Visyond will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.
     benefitsList:
       - text: >-
           Improve your performance without changing your workflow.
