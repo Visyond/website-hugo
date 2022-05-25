@@ -11,7 +11,7 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
-title: From Spreadsheets to Interactive Dashboards in Minutes
+title: Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model
 metaTags: >-
   <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">
   <meta property="og:type" content="website">
