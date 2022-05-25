@@ -4,8 +4,20 @@ aliases:
   - /features/spreadsheet-auditing/
   - /solutions/spreadsheet-auditing/
   - /solutions/modeling/
-metaTags: "<meta name=\"title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> <meta name=\"description\" content=\"Automate financial modeling. Audit models, create scenarios,  automate analysis, present models with Visyond’s Excel-compatible financial modeling software.\"> <meta name=\"keywords\" content=\"Financial Modeling Software, Financial Modeling Tools, Spreadsheet Modeling\">\n\n<meta property=\"og:title\" content=\"Financial Modeling Software You Wish You Had Yesterday\"> \r\n<meta property=\"og:type\" content=\"website\"> \r\n<meta property=\"og:image\" content=\"https://visyond.com/img/Visyond%20Inforgraphics%20%20NEW%20v23%201.5x%20supersample.png\"> \n<meta property=\"og:description\" content=\"Get what no other spreadsheet-based technology can give you.
-Carry out, in minutes, what takes experts hours or days to do.\"> \r\n<meta property=\"og:url\" content=\"https://visyond.com/solutions/financial-modeling-software\">  "
+metaTags: >-
+  <meta property="og:title" content="Make Better Decisions with Financial Modeling Software. In Minutes.">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Modeling 2022.png">
+
+  <meta property="og:description" content="Reduce the risk of errors, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.">
+
+  <meta property="og:url" content="https://visyond.com/solutions/solutions/financial-modeling-software/">
+
+  <meta name="title" content="Make Better Decisions with Financial Modeling Software. In Minutes.">
+
+  <meta name="description" content="Reduce the risk of errors, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.">
 title: Financial Modeling Software
 topTitle: >-
   Make Better Decisions with Financial Modeling Software.</br>
