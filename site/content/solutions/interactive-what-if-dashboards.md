@@ -7,6 +7,7 @@ aliases:
   - /solutions/presentation/
   - /solutions/automate-excel-reports-and-presentation/
   - /solutions/interactive-reports-and-dashboards/
+  - /solutions/create-charts-online/
 metaTags: >-
   <meta property="og:title" content="Dashboards for What-if Analysis and Forecasting">
 

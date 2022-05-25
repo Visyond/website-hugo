@@ -1,4 +1,6 @@
 ---
+aliases: 
+  - /request/
 url: /demo
 title: Watch Demos
 metaTags: >-

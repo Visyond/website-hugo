@@ -1,6 +1,6 @@
 ---
 title: Solutions
-url: solutions
+url: /Solutions/
 topTitle: Solutions
 topSubTitle: Explore Visyond's Solutions
 signUpURL: /accounts/signup/
