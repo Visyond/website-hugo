@@ -65,7 +65,7 @@ Generally, a financial model can be broken down into three parts:
 
 After the model has been built, you need to audit and debug it to make sure all the data and calculations are correct and produce accurate results. 
 
-This is an important step in building financial models as **mistakes can be difficult to detect, and errors can be costly.** According to MarketWatch, [88% of spreadsheets contain errors](https://www.marketwatch.com/story/88-of-spreadsheets-have-errors-2013-04-17). Your goal is to be in the other 12%.
+This is an important step in building financial models as **mistakes can be difficult to detect, and errors can be costly.** 
 
 **Best practice is to test the financial model on historical data.** To automate this process, you can use such means as data validation but make sure to not trust it blindly. 
 
@@ -75,7 +75,7 @@ We will review tools and techniques for spreadsheet auditing and debugging in th
 
 Model maintenance and updating is an ongoing process and can be as simple as updating a single value or adjusting dozens of formulae based on new requirements.
 
-This may sometimes feel tedious but do not let your guard down as **the main purpose of an update is to improve the quality of the model, not to break it.** [JPMorgan learned this the hard way](https://www.reuters.com/article/us-jpmorgan-risk/analysis-jpmorgan-to-be-haunted-by-change-in-risk-model-idUSBRE84H15120120518) after losing billions of dollars due to changes in its value-at-risk model.
+This may sometimes feel tedious but do not let your guard down as **the main purpose of an update is to improve the quality of the model, not to break it.**
 
 If you are a single person who does the update, it is rather straightforward - you go in, make changes and test them. If you are using Excel, create a copy of the initial model and remember to have understandable naming convention and version control.
 

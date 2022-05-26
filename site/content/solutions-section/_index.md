@@ -1,7 +1,5 @@
 ---
 solDropdownCol:
-
-
   - solution_dropdown:
       - descr: >-
           ‘What-if’ you could analyze sensitivities and scenarios in minutes?
