@@ -1,21 +1,19 @@
 {{ partial "hexHomeHead" . }}
 
 <div class="container">
+    
     <div class="blog_entry">
-        <h1>{{.Title}} </h1>
+        <h1>{{.Title}}</h1>
     </div>
 
     <div class="blog_entry_author">
-        <p>{{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}</p>
+        {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
     </div>
 
 
     <div class="blog_entry">
-    {{ if .Params.image }}
-        <p>    
-        <img src="{{ .Params.image }}"
-                    alt="{{ .Title }}" style="width: 100%;"/>
-        </p>
+        {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%;"/>
         {{ end }}
     </div>
 
@@ -26,7 +24,6 @@
     </div> 
     -->
 
-    </div>
 
     <div class="blog_entry">
         {{ .Content }}
