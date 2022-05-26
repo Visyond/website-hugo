@@ -5,8 +5,8 @@
 <!-- TOP SECTION -->
 <section class="home-hero">
     <div class="container">
-        <div class="home-hero__container" style="max-width: 900px;">
-            <h1 class="home-hero__title" style="text-align: center;margin-top: 80px;">{{ .Title | markdownify }}</h1>
+        <div class="home-hero__container" style="max-width: 900px; margin: 0 auto;">
+            <h1 class="home-hero__title" style="text-align: center;"">{{ .Title | markdownify }}</h1>
 
             <div class="home-hero__topSubtitle">
                 {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
@@ -14,7 +14,7 @@
 
             <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
                 {{ if .Params.image }}
-                    <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%;"/>
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; border-radius: 10px;"/>
                 {{ end }}
             </div>
         </div>
@@ -23,7 +23,7 @@
 <!-- END: TOP SECTION -->
 
 
-<section class="enterV">
+<section class="enterV" style="padding: 0 0 80px 0;">
     <div class="container">
         <div class="simplepage-content">
             {{ .Content }}
