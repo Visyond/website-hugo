@@ -1,42 +1,37 @@
 {{ partial "hexHomeHead" . }}
 
 
-<div class="homehex ht">
 
-    <!-- TOP SECTION -->
-	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
-        <div class="container">
-            <div class="whyV__row">
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <h1 class="home-hero__title">{{ .Title | markdownify }}</h1>
-                </div>
-        
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <div class="home-hero__topSubtitle">
-                        {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
-                    </div>
-                </div>
+<!-- TOP SECTION -->
+<section class="home-hero">
+    <div class="container">
+        <div class="home-hero__container" style="max-width: 900px;">
+            <h1 class="home-hero__title" style="text-align: center;margin-top: 80px;">{{ .Title | markdownify }}</h1>
 
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    {{ if .Params.image }}
-                        <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%;"/>
-                    {{ end }}
-                </div>
+            <div class="home-hero__topSubtitle">
+                {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
+            </div>
+
+            <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                {{ if .Params.image }}
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%;"/>
+                {{ end }}
             </div>
         </div>
-    </section>
-    <!-- END: TOP SECTION -->
+    </div>
+</section>
+<!-- END: TOP SECTION -->
 
 
-    <section class="enterV">
-		<div class="container">
-            <div class="simplepage-content">
-                {{ .Content }}
-            </div>
-		</div>
-	</section>
+<section class="enterV">
+    <div class="container">
+        <div class="simplepage-content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
 
-</div>
+
 
 
 
