@@ -9,7 +9,7 @@
             <h1 class="home-hero__title" style="text-align: center;">{{ .Params.title | markdownify }}</h1>
 
             <div class="home-hero__topSubtitle">
-                {{ Params.date.Format "Jan 2, 2006" }} by {{ .Params.author }}
+                {{ .date.Format "Jan 2, 2006" }} by {{ .Params.author }}
             </div>
 
             <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">

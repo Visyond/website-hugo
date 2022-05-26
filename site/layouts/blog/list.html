@@ -1,13 +1,23 @@
 {{ partial "hexHomeHead" . }}
 
+<div class="homehex ht">
+	<!-- TOP SECTION -->
+	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
+        <div class="container">
+            
+            <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                <h1 class="home-hero__title">{{ .Params.topTitle}}</h1>
+            </div>
+            
+        </div>
+    </section>
+	<!-- END: TOP SECTION -->	
+  
     
-    
+    <!--
     <section class="cover" style="background-image: url('/img/why-visyond-cover.png');">
         <h1 class="cover-header">
             Blog
-            <!--
-            {{ .Params.coverHeader | markdownify }}
-            -->
         </h1>
     
         <div class="cover-header--sub">
@@ -16,6 +26,8 @@
             </p>
         </div>
     </section>
+    -->
+
     {{ .Content}}
     <div class="grid_container grid_container2">
     {{ range .Pages.ByDate.Reverse }}
@@ -66,5 +78,5 @@
     {{ end }}
     </div>
     
-    
+</div>	      
     {{ partial "hexFooter" . }}

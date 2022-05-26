@@ -1,3 +1,3 @@
 ---
-title: Visyond Blog
+topTitle: Blog
 ---
