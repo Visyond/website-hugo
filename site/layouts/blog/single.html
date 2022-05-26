@@ -9,7 +9,7 @@
             <h1 class="home-hero__title" style="text-align: center;">{{ .Params.Title | markdownify }}</h1>
 
             <div class="home-hero__topSubtitle">
-                {{ .Params.Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
+                {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
             </div>
 
             <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
@@ -26,7 +26,7 @@
 <section class="enterV" style="padding: 0 0 80px 0;">
     <div class="container">
         <div class="simplepage-content">
-            {{ .Params.Content }}
+            {{ .Content }}
         </div>
     </div>
 </section>
