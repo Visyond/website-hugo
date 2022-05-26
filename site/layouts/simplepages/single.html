@@ -1,19 +1,11 @@
 {{ partial "hexHomeHead" . }}
-<!-- <div class="simplepage-title-wrap"> -->
-<div class="home-hero__container">
 
-	<!--
-	<style>
-		.simplepage-title-wrap {
-			background: url({{ .Params.Image }}) center center no-repeat;
-			background-size: cover;
-		}
-	</style>
-	<h1 class="simplepage__title">{{ .Title }}</h1>
-	-->
+<div class="home-hero__container">
 	<h1 class="home-hero__title" style="text-align: center;margin-top: 80px;">{{ .Title }}</h1>
 </div>
+
 <div class="simplepage-content">
 	{{ .Content }}
 </div>
+
 {{ partial "hexFooter" . }}
