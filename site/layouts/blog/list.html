@@ -32,16 +32,16 @@
                     <div class="demoSection__block-descr">
                         <ul>
                             {{ range .Pages.ByDate.Reverse }}
-                            <a href="{{.URL}}">
-                                <div class="demoSection__body">
-                                    {{ if .Params.image }}
+                            <a class="demoSection__body" href="{{.URL}}">
+                                {{ if .Params.image }}
+                                <div class="demoSection__body--img-wrap">
                                     <img src="{{ .Params.image }}" class="demoSection__body--img-wrap__img">
-                                    {{ end }}
+                                </div>
+                                {{ end }}
 
-                                    <div class="demoSectionTitleDescContainer">
-                                        <h2 class="demoSection--title">{{ .Params.Title }}</h2>
-                                        <div class="demoText">{{ .Params.annotation }}</div>									
-                                    </div>
+                                <div class="demoSectionTitleDescContainer">
+                                    <h2 class="demoSection--title">{{ .Params.Title }}</h2>
+                                    <div class="demoText">{{ .Params.annotation }}</div>									
                                 </div>
                             </a>
                             {{ end }}
