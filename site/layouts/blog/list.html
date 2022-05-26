@@ -22,12 +22,9 @@
         </div>
     </section>
     <!-- END: TOP SECTION -->	
-    
-
 
     <!-- LIST OF ARTICLES -->
     {{ .Content}}
-
     <section class="enterV" style="background-color: #fafafa;">
         <div class="container">
             <ul class="demoSections">
@@ -54,64 +51,7 @@
             </ul>
         </div>
     </section>
-
-
-    <!-- LIST OF ARTICLES -->
-
-
-
-
-
-
-    {{ .Content}}
-    <div class="grid_container grid_container2">
-    {{ range .Pages.ByDate.Reverse }}
-    <div class="section" style="padding: 0px; font-family: 'Open Sans', sans-serif">
-        <div class="ui text container2">
-            <div class="ui grid">
-                <div class="ui row">
-                    <div class="ui column">
-                        <div class="ui segment" style="border: none; box-shadow: none;">
-                            <a href="{{.URL}}" class="ui large header"
-                               style="font-family: 'Open Sans', sans-serif">
-                                {{ if .Params.image }}
-                                    <img src="{{ .Params.image }}"
-                                         alt="{{ .Title }}" style="width: 100%;"/>
-                                {{ end }}
-    
-                                <div class="blog_list">
-                                    <h2> {{.Title}} </h2>
-                                </div>
-    
-                                <!--
-                                <div class="sub header">by {{ .Params.author }}</div>
-                                -->
-    
-                                <!--
-                                <div class="sub header">
-                                    <p>Read in {{ .ReadingTime }} minutes</p>
-                                </div>
-                                -->
-    
-                            </a>
-    
-    
-                            <p class="blog_list">
-                                {{ .Params.annotation }}
-                            </p>
-    
-    
-                            <a href="{{.URL}}" class="button button-primary">Read</a>
-    
-                        </div>
-                </div>
-                </div>
-            </div>
-            <p class="overlined2" >{{ .Date.Format "Jan 2, 2006" }}</p>
-        </div>
-    </div>
-    {{ end }}
-    </div>
-    
+    <!-- END: LIST OF ARTICLES -->
 </div>	      
-    {{ partial "hexFooter" . }}
+
+{{ partial "hexFooter" . }}
