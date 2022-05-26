@@ -6,10 +6,10 @@
 <section class="home-hero">
     <div class="container">
         <div class="home-hero__container" style="max-width: 900px; margin: 0 auto;">
-            <h1 class="home-hero__title" style="text-align: center;">{{ .Params.Title | markdownify }}</h1>
+            <h1 class="home-hero__title" style="text-align: center;">{{ .Params.title | markdownify }}</h1>
 
             <div class="home-hero__topSubtitle">
-                {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
+                {{ Params.date.Format "Jan 2, 2006" }} by {{ .Params.author }}
             </div>
 
             <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
