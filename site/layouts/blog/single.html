@@ -8,9 +8,11 @@
         <div class="home-hero__container" style="max-width: 900px; margin: 0 auto;">
             <h1 class="home-hero__title" style="text-align: center;">{{ .Params.title | markdownify }}</h1>
 
+            <!-- date isn't displaed properly for some reason; doesn't matter for now
             <div class="home-hero__topSubtitle">
                 {{ .Date.Format "Jan 2, 2006" }} by {{ .Params.author }}
             </div>
+             -->
 
             <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
                 {{ if .Params.image }}
@@ -40,7 +42,7 @@
 
 
 
-<!-- 
+<!-- OLD STUFF
 <div class="container">
     
     <div class="blog_entry">

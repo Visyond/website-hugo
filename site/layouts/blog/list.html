@@ -1,32 +1,67 @@
 {{ partial "hexHomeHead" . }}
 
 <div class="homehex ht">
-	<!-- TOP SECTION -->
+  	<!-- TOP SECTION -->
 	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
         <div class="container">
+            <div class="whyV__row">
             
-            <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                <h1 class="home-hero__title">{{ .Params.topTitle}}</h1>
+                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                    <h1 class="home-hero__title">{{ .Params.topTitle}}</h1>
+                </div>
+                
+                
+                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                    <div class="home-hero__topSubtitle">
+                    {{ .Params.topSubTitle | markdownify }}  
+                    </div>
+                </div>
+                
+            
             </div>
-            
         </div>
     </section>
-	<!-- END: TOP SECTION -->	
-  
+    <!-- END: TOP SECTION -->	
     
-    <!--
-    <section class="cover" style="background-image: url('/img/why-visyond-cover.png');">
-        <h1 class="cover-header">
-            Blog
-        </h1>
-    
-        <div class="cover-header--sub">
-            <p>
-                {{ .Params.coverDescription | markdownify }}
-            </p>
+
+
+    <!-- LIST OF ARTICLES -->
+    {{ .Content}}
+
+    <section class="enterV" style="background-color: #fafafa;">
+        <div class="container">
+            <ul class="demoSections">
+                <section class="demoSection__text-wrap">
+                    <div class="demoSection__block-descr">
+                        <ul>
+                            {{ range .Pages.ByDate.Reverse }}
+                            <a href="{{.URL}}">
+                                <div class="demoSection__body">
+                                    {{ if .Params.image }}
+                                    <img src="{{ .Params.image }}" class="demoSection__body--img-wrap__img">
+                                    {{ end }}
+
+                                    <div class="demoSectionTitleDescContainer">
+                                        <h2 class="demoSection--title"></h2>
+                                        <div class="demoText">{{ .annotation }}</div>									
+                                    </div>
+                                </div>
+                            </a>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </section>
+            </ul>
         </div>
     </section>
-    -->
+
+
+    <!-- LIST OF ARTICLES -->
+
+
+
+
+
 
     {{ .Content}}
     <div class="grid_container grid_container2">
