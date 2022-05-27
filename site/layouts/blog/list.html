@@ -31,7 +31,7 @@
                     <div class="demoSection__block-descr">
                         <ul>
                             {{ range .Pages.ByDate.Reverse }}
-                                {{ if (eq Params.isVisible true)}}
+                                {{ if (eq .isVisible true)}}
                                 <a class="demoSection__body" href="{{.URL}}">
                                     {{ if .Params.image }}
                                     <div class="demoSection__body--img-wrap">
