@@ -23,22 +23,21 @@
     <!-- END: TOP SECTION -->	
 
     <!-- LIST OF ARTICLES -->
-    {{ .Content}}
-    <section class="enterV" style="background-color: #fafafa;">
+    {{ .Content }}
+    <section class="homeBenefits">
         <div class="container">
             <ul class="demoSections">
                 <section class="demoSection__text-wrap">
                     <div class="demoSection__block-descr">
                         <ul>
                             {{ range .Pages.ByDate.Reverse }}
-                                {{ if (eq .isVisible true)}}
+                                {{ if (eq .Params.isVisible true)}}
                                 <a class="demoSection__body" href="{{.URL}}">
                                     {{ if .Params.image }}
                                     <div class="demoSection__body--img-wrap">
                                         <img src="{{ .Params.image }}" class="demoSection__body--img-wrap__img">
                                     </div>
                                     {{ end }}
-
                                     <div class="demoSectionTitleDescContainer">
                                         <h2 class="demoSection--title">{{ .Params.Title }}</h2>
                                         <div class="demoText">{{ .Params.annotation }}</div>									
