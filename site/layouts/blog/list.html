@@ -5,19 +5,18 @@
 	<section class="home-hero" style="padding: 60px 0px 60px 0px;">
         <div class="container">
             <div class="whyV__row">
-            
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <h1 class="home-hero__title">{{ .Params.topTitle}}</h1>
-                </div>
-                
-                
-                <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-                    <div class="home-hero__topSubtitle">
-                    {{ .Params.topSubTitle | markdownify }}  
+                <div class="home-hero__container">
+                    <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                        <h1 class="home-hero__title">{{ .Params.topTitle}}</h1>
+                    </div>
+                    
+                    
+                    <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
+                        <div class="home-hero__topSubtitle">
+                        {{ .Params.topSubTitle | markdownify }}  
+                        </div>
                     </div>
                 </div>
-                
-            
             </div>
         </div>
     </section>
@@ -32,18 +31,20 @@
                     <div class="demoSection__block-descr">
                         <ul>
                             {{ range .Pages.ByDate.Reverse }}
-                            <a class="demoSection__body" href="{{.URL}}">
-                                {{ if .Params.image }}
-                                <div class="demoSection__body--img-wrap">
-                                    <img src="{{ .Params.image }}" class="demoSection__body--img-wrap__img">
-                                </div>
-                                {{ end }}
+                                {{ if (eq Params.isVisible true)}}
+                                <a class="demoSection__body" href="{{.URL}}">
+                                    {{ if .Params.image }}
+                                    <div class="demoSection__body--img-wrap">
+                                        <img src="{{ .Params.image }}" class="demoSection__body--img-wrap__img">
+                                    </div>
+                                    {{ end }}
 
-                                <div class="demoSectionTitleDescContainer">
-                                    <h2 class="demoSection--title">{{ .Params.Title }}</h2>
-                                    <div class="demoText">{{ .Params.annotation }}</div>									
-                                </div>
-                            </a>
+                                    <div class="demoSectionTitleDescContainer">
+                                        <h2 class="demoSection--title">{{ .Params.Title }}</h2>
+                                        <div class="demoText">{{ .Params.annotation }}</div>									
+                                    </div>
+                                </a>
+                                {{ end }}
                             {{ end }}
                         </ul>
                     </div>

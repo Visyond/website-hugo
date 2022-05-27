@@ -1241,6 +1241,7 @@ collections: # A list of collections the CMS should be able to edit
     folder: "site/content/blog"
     create: true
     fields:
+      - {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true}
       - {label: "Title", name: "title", widget: "markdown", required: true}
       - {label: "Image", name: "image", widget: "image", required: false, default: "/img/banner.jpg"}
       - {label: "Author", name: "author", widget: "string", required: false}

@@ -1,6 +1,6 @@
 ---
 isVisible: true
-title: What You Should Know When Building Financial Models
+title: Test Blog
 image: /img/banner.jpg
 author: Visyond
 metaTags: >-
@@ -19,8 +19,7 @@ metaTags: >-
   />
 date: 08/30/2019 3:00 PM
 annotation: >-
-  What is good spreadsheet design? What are the best practices of spreadsheet
-  modeling? How to present the results of your work with impact? 
+  Test Test. Blog Blog.
 ---
 What is good spreadsheet design? What are the best practices of building financial models? How to present the results of your work with impact? 
 
