@@ -1,32 +1,28 @@
 ---
-aliases: 
-  - /features/simulations/
-  - /features/monte-carlo-simulation-software/
-  - /solutions/risk-analysis-and-simulations/
 title: Monte Carlo Simulation Software
 metaTags: >-
-  <meta property="og:title" content="Automate Risk Analysis and Monte Carlo Simulations. In Minutes.">
+  <meta property="og:title" content="Run Monte Carlo Simulation on Mac. In Minutes.">
 
   <meta property="og:type" content="website">
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Simulations 2022.png">
 
-  <meta property="og:description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta property="og:description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 
   <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
   <meta name="title" content="Monte Carlo Simulation Software">
 
-  <meta name="description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta name="description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 topTitle: >-
-  Automate Risk Analysis and Monte Carlo Simulations.</br>
+  Run Monte Carlo Simulation on Mac.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model has never been easier.
+  Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier.
 topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
-      Quantitative Risk Analysis in 3 Simple Steps
+      Run Monte Carlo Simulations on macOS in 3 Simple Steps
 isStepsVisible: true
 StepsBlock:
   - descr: >-
