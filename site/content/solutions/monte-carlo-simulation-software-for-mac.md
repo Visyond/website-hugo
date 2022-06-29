@@ -1,7 +1,7 @@
 ---
 title: Monte Carlo Simulation Software
 metaTags: >-
-  <meta property="og:title" content="Run Monte Carlo Simulation on Mac. In Minutes.">
+  <meta property="og:title" content="Run Monte Carlo Simulations on Mac. In Minutes.">
 
   <meta property="og:type" content="website">
 
@@ -15,14 +15,14 @@ metaTags: >-
 
   <meta name="description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 topTitle: >-
-  Run Monte Carlo Simulation on Mac.</br>
+  Run Monte Carlo Simulations on Mac.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier.
 topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
-      Run Monte Carlo Simulations on macOS in 3 Simple Steps
+      Analyze Risks on macOS in 3 Simple Steps
 isStepsVisible: true
 StepsBlock:
   - descr: >-
