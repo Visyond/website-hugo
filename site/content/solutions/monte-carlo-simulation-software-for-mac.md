@@ -11,7 +11,7 @@ metaTags: >-
 
   <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
-  <meta name="title" content="Monte Carlo Simulation Software">
+  <meta name="title" content="Monte Carlo Simulation Software for Mac">
 
   <meta name="description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 topTitle: >-
