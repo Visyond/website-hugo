@@ -7,22 +7,22 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Simulations 2022.png">
 
-  <meta property="og:description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta property="og:description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on Mac has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 
   <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
   <meta name="title" content="Monte Carlo Simulation Software for Mac">
 
-  <meta name="description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta name="description" content="Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on Mac has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
 topTitle: >-
   Run Monte Carlo Simulations on Mac.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on macOS has never been easier.
+  Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on Mac has never been easier.
 topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
-      Analyze Risks on macOS in 3 Simple Steps
+      Analyze Risks on Mac in 3 Simple Steps
 isStepsVisible: true
 StepsBlock:
   - descr: >-
