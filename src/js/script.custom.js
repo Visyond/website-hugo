@@ -1088,10 +1088,10 @@ $(function () {
     };
 
     function showLiveDemo (demoBtn) {
-        const demoSpan = demoBtn.querySelector('span');
-        const demoPopup = demoBtn.querySelector('div');
-        const closePopup = demoBtn.querySelector('.js-popup-close');
-        demoVideoPopup(demoSpan, demoPopup, closePopup);
+        const liveDemoSpan = demoBtn.querySelector('span');
+        const liveDemoPopup = demoBtn.querySelector('div');
+        const closeLiveDemoPopup = demoBtn.querySelector('.js-popup-close');
+        liveDemoPopup(liveDemoSpan, liveDemoPopup, closeLiveDemoPopup);
     }
 
     var liveDemoButton = [];
