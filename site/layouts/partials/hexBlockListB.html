@@ -106,7 +106,7 @@
 
         <!--</div>-->
         <div class="button-wrap">
-            
+
             {{ if .link }}
             <a href="{{ .link }}" class="button button-primary">
                 <div>
@@ -116,9 +116,14 @@
             {{ end }}
 
 
+
             {{ if .demoLink }}
             <span class="button button-primary btn-iframeDemo">
-                Try It Live
+
+                <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+                    <i class="material-icons">play_arrow</i>
+                    <span>Try It Live</span>
+                </span>
 
                 <div class="ht-top__popup js-popup">
                     <div class="ht-top__iframe-wrap">
@@ -129,32 +134,25 @@
             </span>
             {{ end }}
             
-            <!--
+            
+
             {{ if .linkYoutube }}
-            <span style="padding: 0" class="button button-icon btn-video4"
-
-                  {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
-            style="display: none;"
-            {{ end }}
-
-            >
+            <span style="padding: 0" class="button button-icon btn-video4" {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }} style="display: none;" {{ end }}>
                 
-            <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
-                    <i class="material-icons">
-                play_arrow
-              </i><span>
-                    2 min demo</span>
+                <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
+                    <i class="material-icons">play_arrow</i>
+                    <span>2 min demo</span>
+                </span>
 
-                    </span>
-            <div class="ht-top__popup js-popup">
-                <div class="ht-top__iframe-wrap">
-                    <button class="ht-top__popup-close js-popup-close">X</button>
-                    <p>{{ .linkYoutube }}</p>
+                <div class="ht-top__popup js-popup">
+                    <div class="ht-top__iframe-wrap">
+                        <button class="ht-top__popup-close js-popup-close">X</button>
+                        <p>{{ .linkYoutube }}</p>
+                    </div>
                 </div>
-            </div>
             </span>
             {{ end }}
-             -->
+             
         </div>
 
     </section>
