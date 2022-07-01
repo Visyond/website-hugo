@@ -108,8 +108,6 @@
 
 
         <div class="button-wrap">
-
-
             {{ if .link }}
             <a href="{{ .link }}" class="button button-primary">
                 <div>
@@ -119,32 +117,8 @@
             {{ end }}
 
 
-
-
-            <!-- testing 
             {{ if .demoLink }}
-            <span class="button button-primary btn-iframeDemo">
-
-                <span style="display: flex; align-items: center;">
-                    <i class="material-icons">play_arrow</i>
-                    <span>Try It Live</span>
-                </span>
-
-                <div class="ht-top__popup js-popup">
-                    <div class="ht-top__iframe-wrap">
-                        <button class="ht-top__popup-close js-demoPopup-close"></button>
-                        <p>{{ .demoLink }}</p>
-                    </div>
-                </div>
-            </span>
-            {{ end }}
-            -->
-            
-            
-            
-            {{ if .demoLink }}
-
-            <span class="button button-icon btn-demoVideo" 
+            <span class="button button-primary btn-demoVideo" 
             {{ if or (eq .demoLink "") (not (isset . "demoLink")) }}
             style="display: none;"
             {{ end }}
@@ -168,7 +142,6 @@
 
 
             {{ if .linkYoutube }}
-            <!-- testing
             <span style="padding: 0" class="button button-icon btn-video4" {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }} style="display: none;" {{ end }}>
                 
                 <span style="display: flex; align-items: center;padding: 1em 2em;padding-left: 4.5em;">
@@ -183,7 +156,6 @@
                     </div>
                 </div>
             </span>
-            -->
             {{ end }}
 
 
