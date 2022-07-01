@@ -1045,8 +1045,3 @@ $(function () {
 
 
 
-    //===== Display iframe with Live demo on button click -- DUMB VERSION FOR PROOF OF CONCEPT !!!!!!!!!!!!!!!!!!!!! =====
-    function displayIframe() {
-        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28\" height=\"800\" width=\"600\" ></iframe>";
-    };
-
