@@ -1040,14 +1040,13 @@ $(function () {
     window.addEventListener("resize", onresize2);
 
 
-});
+
 
 
 
 
     //=====DISPLAY LIVE DEMO IN FRAME=====
-
-    function liveDemoPopup (btn, popup, closePopup) {
+    function demoPopup (btn, popup, closePopup) {
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
@@ -1058,8 +1057,6 @@ $(function () {
         iframeBlock.setAttribute('height', '600');
         iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
         iframeBlock.setAttribute('frameborder', '0');
-        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
-        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
 
 
         function removeIframe() {
@@ -1091,7 +1088,7 @@ $(function () {
         const liveDemoSpan = demoBtn.querySelector('span');
         const liveDemoPopup = demoBtn.querySelector('div');
         const closeLiveDemoPopup = demoBtn.querySelector('.js-popup-close');
-        liveDemoPopup(liveDemoSpan, liveDemoPopup, closeLiveDemoPopup);
+        demoPopup(liveDemoSpan, liveDemoPopup, closeLiveDemoPopup);
     }
 
     var liveDemoButton = [];
@@ -1101,3 +1098,17 @@ $(function () {
         liveDemoButton[i] = (liveDemos[i].querySelector('.iframeDemo-button'));
         showLiveDemo(liveDemoButton[i]);
     }    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+});    
