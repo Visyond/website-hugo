@@ -1611,20 +1611,6 @@ padding-left: 10px;
 
 
 
-
-
-/*------------iframe live demo ---------------*/      
-.iframeDemo {
-    display: none;
-}
-/*------------END: iframe live demo ---------------*/      
-
-
-
-
-
-
-
 /*------------IE11 FIXES ---------------*/   
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
    

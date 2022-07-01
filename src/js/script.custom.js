@@ -1046,8 +1046,8 @@ $(function () {
 
     //=====DISPLAY LIVE DEMO IN FRAME=====
     function liveDemoPopup(btn, popup, closePopup) {
-        const srcIframe = popup.querySelector('p').innerHTML;
-        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
+        //const srcIframe = popup.querySelector('p').innerHTML;
+        //let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
         popup.children[0].removeChild(popup.querySelector('p'));
 
@@ -1086,16 +1086,16 @@ $(function () {
     function showLiveDemo (demoBtn) {
         const demoSpan = demoBtn.querySelector('span');
         const demoPopup = demoBtn.querySelector('div');
-        const closeLiveDemoPopup = demoBtn.querySelector('.js-popup-close');
-        liveDemoPopup(demoSpan, demoPopup, closeLiveDemoPopup);
+        const closePopup = demoBtn.querySelector('.js-popup-close');
+        liveDemoPopup(demoSpan, demoPopup, closePopup);
     }
 
 
     var liveDemoButton = [];
 
-    var liveDemos = document.querySelectorAll('.iframeDisplay');
+    var liveDemos = document.querySelectorAll('.button-wrap');
     for (var i = 0; i<liveDemos.length; i++) {
-        liveDemoButton[i] = (liveDemos[i].querySelector('.iframeDemo-button'));
+        liveDemoButton[i] = (liveDemos[i].querySelector('.btn-iframeDemo'));
         showLiveDemo(liveDemoButton[i]);
     }    
 
