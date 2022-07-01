@@ -1046,15 +1046,15 @@ $(function () {
 
     //=====DISPLAY LIVE DEMO IN FRAME=====
     function liveDemoPopup(btn, popup, closePopup) {
-        //const srcIframe = popup.querySelector('p').innerHTML;
-        //let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
+        const srcIframe = popup.querySelector('p').innerHTML;
+        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
         popup.children[0].removeChild(popup.querySelector('p'));
 
         const iframeBlock = document.createElement('iframe');
         iframeBlock.setAttribute('width', '800');
         iframeBlock.setAttribute('height', '600');
-        iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
+        iframeBlock.setAttribute('src', `${srcPart}`);
         iframeBlock.setAttribute('frameborder', '0');
 
 
@@ -1093,7 +1093,7 @@ $(function () {
 
     var liveDemoButton = [];
 
-    var liveDemos = document.querySelectorAll('.enterSectionsA__text-wrap');
+    var liveDemos = document.querySelectorAll('.button-wrap');
     for (var i = 0; i<liveDemos.length; i++) {
         liveDemoButton[i] = (liveDemos[i].querySelector('.btn-iframeDemo'));
         showLiveDemo(liveDemoButton[i]);
