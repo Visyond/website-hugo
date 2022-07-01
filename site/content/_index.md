@@ -87,6 +87,7 @@ infoBlockFirst:
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Scenario Planning and Forecasting'
+    demoLink: https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   

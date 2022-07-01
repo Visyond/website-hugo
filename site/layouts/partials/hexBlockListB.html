@@ -106,12 +106,18 @@
 
         <!--</div>-->
         <div class="button-wrap">
-            {{ if .link }}
+            {{ if .demoLink }}
+                <div onclick="displayIframe()" class="button button-primary iframeDemo-button"> Try It Live </div>
+
+                <div id="iframeDisplay"></div> 
+
+            <!-- commented out because simple button is replaced by iframe showing live Visyond - aka interactive demo
             <a href="{{ .link }}" class="button button-primary">
                 <div>
                     Learn more
                 </div>
             </a>
+             -->
             {{ end }}
             
             {{ if .linkYoutube }}
