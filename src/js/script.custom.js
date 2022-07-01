@@ -440,8 +440,8 @@ $(function () {
 
     var demoPageButton = [];
 
-    // var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
-    var demoSections = document.querySelectorAll('.button-wrap');
+    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
+    //var demoSections = document.querySelectorAll('.button-wrap');
     for (var i = 0; i<demoSections.length; i++) {
         demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
         watchDemoVideo(demoPageButton[i]);
