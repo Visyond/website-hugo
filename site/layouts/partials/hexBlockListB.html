@@ -140,7 +140,7 @@
 
             {{ if .linkYoutube }}
             <span class="button button-icon btn-demoVideo" 
-            {{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+            {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
             style="display: none;"
             {{ end }}
             >												
