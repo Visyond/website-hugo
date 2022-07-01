@@ -1047,11 +1047,11 @@ $(function () {
 
 
     // DISPLAY LIVE DEMO IN IFRAME
-    function demoLivePopup(btn, popup, closePopup, closePopupRequestDemo, closePopupSignUp) {
-        const srcIframe = popup.querySelector('p').innerHTML;
+    function demoLivePopup(btnLiveDemo, popupLiveDemo, closePopup, closePopupRequestDemo, closePopupSignUp) {
+        const srcIframe = popupLiveDemo.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
-        popup.children[0].removeChild(popup.querySelector('p'));
+        popupLiveDemo.children[0].removeChild(popupLiveDemo.querySelector('p'));
 
         const iframeBlock = document.createElement('iframe');
         iframeBlock.setAttribute('width', '889');
@@ -1063,25 +1063,25 @@ $(function () {
 
 		
         function removeIframe() {
-            popup.children[0].removeChild(popup.querySelector('iframe'));
+            popupLiveDemo.children[0].removeChild(popupLiveDemo.querySelector('iframe'));
         }
 
         function createIframe() {
-            popup.children[0].appendChild(iframeBlock);
+            popupLiveDemo.children[0].appendChild(iframeBlock);
         }
 		
 
-        btn.addEventListener('click', e => {
+        btnLiveDemo.addEventListener('click', e => {
             var tt = e.target;
             e.preventDefault();
-            popup.classList.add('popup--show');
+            popupLiveDemo.classList.add('popup--show');
             createIframe();
         });
 
-        popup.addEventListener('click', e => {
+        popupLiveDemo.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopup) {
-                popup.classList.remove('popup--show');
+                popupLiveDemo.classList.remove('popup--show');
                 removeIframe();
             }
         })
@@ -1089,7 +1089,7 @@ $(function () {
         closePopupRequestDemo.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
-                popup.classList.remove('popup--show');
+                popupLiveDemo.classList.remove('popup--show');
                 removeIframe();
                 document.getElementById('request').scrollIntoView();
             }
@@ -1098,7 +1098,7 @@ $(function () {
         closePopupSignUp.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopupSignUp) {
-                popup.classList.remove('popup--show');
+                popupLiveDemo.classList.remove('popup--show');
                 removeIframe();
                 window.location.href='/accounts/signup/';
             }
@@ -1107,12 +1107,12 @@ $(function () {
     }
 
 
-    function tryLiveDemo(liveDemoBtn) {
-        const videoSpan = liveDemoBtn.querySelector('span');
-        const videoPopup = liveDemoBtn.querySelector('div');
-        const closePopup = liveDemoBtn.querySelector('.js-popup-close');
-        const closePopupRequestDemo = liveDemoBtn.querySelector('.js-popup-close-request');
-        const closePopupSignUp = liveDemoBtn.querySelector('.js-popup-close-signup');
+    function tryLiveDemo(liveDemobtnLiveDemo) {
+        const videoSpan = liveDemobtnLiveDemo.querySelector('span');
+        const videoPopup = liveDemobtnLiveDemo.querySelector('div');
+        const closePopup = liveDemobtnLiveDemo.querySelector('.js-popupLiveDemo-close');
+        const closePopupRequestDemo = liveDemobtnLiveDemo.querySelector('.js-popupLiveDemo-close-request');
+        const closePopupSignUp = liveDemobtnLiveDemo.querySelector('.js-popupLiveDemo-close-signup');
         demoLivePopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo, closePopupSignUp);
     }
 
@@ -1120,7 +1120,7 @@ $(function () {
 
     var liveDemoSections = document.querySelectorAll('.button-wrap');
     for (var i = 0; i<liveDemoSections.length; i++) {
-        liveDemoButton[i] = (liveDemoSections[i].querySelector('.btn-liveDemo'));
+        liveDemoButton[i] = (liveDemoSections[i].querySelector('.btnLiveDemo-liveDemo'));
         tryLiveDemo(liveDemoButton[i]);
     }  
 
