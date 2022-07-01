@@ -430,7 +430,7 @@ $(function () {
 
 
     function watchDemoVideo(videoBtn) {
-        const videoSpan = videoBtn; //.querySelector('span');
+        const videoSpan = videoBtn.querySelector('span');
         const videoPopup = videoBtn.querySelector('div');
         const closePopup = videoBtn.querySelector('.js-popup-close');
         const closePopupRequestDemo = videoBtn.querySelector('.js-popup-close-request');
