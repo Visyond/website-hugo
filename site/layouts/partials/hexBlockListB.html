@@ -143,20 +143,21 @@
             
             
             
-            {{ if .linkYoutube }}
+            {{ if .demoLink }}
 
             <span class="button button-icon btn-demoVideo" 
-            {{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+            {{ if or (eq .demoLink "") (not (isset . "demoLink")) }}
             style="display: none;"
             {{ end }}
             >												
-                <span style="display: flex; padding: 2.5em 2.5em;">
-                    <i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
-                </span>
+            <span style="display: flex; align-items: center;">
+                <i class="material-icons">play_arrow</i>
+                <span>Try It Live</span>
+            </span>
                 <div class="ht-top__popup js-popup">
                     <div class="ht-top__iframe-wrap">
                         <button class="ht-top__popup-close js-popup-close"></button>
-                        <p>{{ .demoVideoLink }}</p>
+                        <p>{{ .demoLink }}</p>
                     </div>
                     <div class=demoPopupButtonContainer>
                         <div class="btn-demoPopupCTA js-popup-close-request">Request Live Demo</div>
@@ -164,29 +165,10 @@
                     </div>
                 </div>
             </span>
-
-            <!--     
-            <span class="button button-icon btn-liveDemo" 
-            {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }}
-            style="display: none;"
             {{ end }}
-            >												
-                <span style="display: flex; padding: 2.5em 2.5em;">
-                    <i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
-                </span>
-                <div class="ht-top__popup js-popup">
-                    <div class="ht-top__iframe-wrap">
-                        <button class="ht-top__popup-close js-popupLiveDemo-close"></button>
-                        <p>{{ .linkYoutube }}</p>
-                    </div>
-                    <div class=demoPopupButtonContainer>
-                        <div class="btn-demoPopupCTA js-popupLiveDemo-close-request">Request Live Demo</div>
-                        <div class="btn-demoPopupCTA js-popupLiveDemo-close-signup">Sign Up</div>
-                    </div>
-                </div>
-            </span> -->
-            
 
+
+            {{ if .linkYoutube }}
             <!-- testing
             <span style="padding: 0" class="button button-icon btn-video4" {{ if or (eq .linkYoutube "") (not (isset . "linkYoutube")) }} style="display: none;" {{ end }}>
                 
