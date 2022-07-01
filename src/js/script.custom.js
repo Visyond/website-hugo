@@ -1086,7 +1086,7 @@ $(function () {
     function showLiveDemo (demoBtn) {
         const demoSpan = demoBtn.querySelector('span');
         const demoPopup = demoBtn.querySelector('div');
-        const closePopup = demoBtn.querySelector('.js-popup-close');
+        const closePopup = demoBtn.querySelector('.js-demoPopup-close');
         liveDemoPopup(demoSpan, demoPopup, closePopup);
     }
 

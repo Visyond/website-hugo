@@ -608,6 +608,7 @@ collections: # A list of collections the CMS should be able to edit
               ]},
               {label: "Info Image", name: "image", widget: image},
               {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+              {label: "Learn More Link", name: "link", widget: "string"},
               {label: "Demo Link", name: "demoLink", widget: "string"},
               {label: "Youtube Link", name: "linkYoutube", widget: "string"},
             ],

@@ -106,29 +106,30 @@
 
         <!--</div>-->
         <div class="button-wrap">
+            
+            {{ if .link }}
+            <a href="{{ .link }}" class="button button-primary">
+                <div>
+                    Learn more
+                </div>
+            </a>
+            {{ end }}
+
+
             {{ if .demoLink }}
-                <span class="button button-primary btn-iframeDemo">
-                    Try It Live
+            <span class="button button-primary btn-iframeDemo">
+                Try It Live
 
-                    <div class="ht-top__popup js-popup">
-                        <div class="ht-top__iframe-wrap">
-                            <button class="ht-top__popup-close js-popup-close"></button>
-                            <p>{{ .demoLink }}</p>
-                        </div>
+                <div class="ht-top__popup js-popup">
+                    <div class="ht-top__iframe-wrap">
+                        <button class="ht-top__popup-close js-demoPopup-close"></button>
+                        <p>{{ .demoLink }}</p>
                     </div>
-                </span>
-                
-
-
-                <!-- commented out because simple button is replaced by iframe showing live Visyond - aka interactive demo
-                <a href="{{ .link }}" class="button button-primary">
-                    <div>
-                        Learn more
-                    </div>
-                </a>
-                -->
+                </div>
+            </span>
             {{ end }}
             
+            <!--
             {{ if .linkYoutube }}
             <span style="padding: 0" class="button button-icon btn-video4"
 
@@ -153,6 +154,7 @@
             </div>
             </span>
             {{ end }}
+             -->
         </div>
 
     </section>
