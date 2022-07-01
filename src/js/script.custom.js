@@ -1045,7 +1045,7 @@ $(function () {
 
 
     //=====DISPLAY LIVE DEMO IN FRAME=====
-    function liveDemoPopup (btn, popup, closePopup) {
+    function liveDemoPopup(btn, popup, closePopup) {
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
@@ -1084,10 +1084,10 @@ $(function () {
     };
 
     function showLiveDemo (demoBtn) {
-        const liveDemoSpan = demoBtn.querySelector('span');
-        const liveDemoPopup = demoBtn.querySelector('div');
+        const demoSpan = demoBtn.querySelector('span');
+        const demoPopup = demoBtn.querySelector('div');
         const closeLiveDemoPopup = demoBtn.querySelector('.js-popup-close');
-        demoPopup(liveDemoSpan, liveDemoPopup, closeLiveDemoPopup);
+        liveDemoPopup(demoSpan, demoPopup, closeLiveDemoPopup);
     }
 
 
