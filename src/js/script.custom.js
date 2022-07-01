@@ -1093,7 +1093,7 @@ $(function () {
 
     var liveDemoButton = [];
 
-    var liveDemos = document.querySelectorAll('.button-wrap');
+    var liveDemos = document.querySelectorAll('.enterSectionsA__text-wrap');
     for (var i = 0; i<liveDemos.length; i++) {
         liveDemoButton[i] = (liveDemos[i].querySelector('.btn-iframeDemo'));
         showLiveDemo(liveDemoButton[i]);
