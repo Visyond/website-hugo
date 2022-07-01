@@ -378,8 +378,7 @@ $(function () {
         const iframeBlock = document.createElement('iframe');
         iframeBlock.setAttribute('width', '889');
         iframeBlock.setAttribute('height', '501');
-        //iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
-        iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
+        iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
         iframeBlock.setAttribute('frameborder', '0');
         iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
         iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
@@ -441,7 +440,8 @@ $(function () {
 
     var demoPageButton = [];
 
-    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
+    //@@@@@var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
+    var demoSections = document.querySelectorAll('.button-wrap');
     for (var i = 0; i<demoSections.length; i++) {
         demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
         watchDemoVideo(demoPageButton[i]);
