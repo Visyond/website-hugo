@@ -440,8 +440,7 @@ $(function () {
 
     var demoPageButton = [];
 
-    //@@@@@var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
-    var demoSections = document.querySelectorAll('.button-wrap');
+    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
     for (var i = 0; i<demoSections.length; i++) {
         demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
         watchDemoVideo(demoPageButton[i]);
@@ -1047,23 +1046,22 @@ $(function () {
 
 
 
-
-
-
-    //=====DISPLAY LIVE DEMO IN FRAME=====
-    function liveDemoPopup(btn, popup, closePopup) {
+    // DISPLAY LIVE DEMO IN IFRAME
+    function demoLivePopup(btn, popup, closePopup, closePopupRequestDemo, closePopupSignUp) {
         const srcIframe = popup.querySelector('p').innerHTML;
         let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
 
         popup.children[0].removeChild(popup.querySelector('p'));
 
         const iframeBlock = document.createElement('iframe');
-        iframeBlock.setAttribute('width', '800');
-        iframeBlock.setAttribute('height', '600');
-        iframeBlock.setAttribute('src', `${srcPart}`);
+        iframeBlock.setAttribute('width', '889');
+        iframeBlock.setAttribute('height', '501');
+        iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
         iframeBlock.setAttribute('frameborder', '0');
+        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
+        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
 
-
+		
         function removeIframe() {
             popup.children[0].removeChild(popup.querySelector('iframe'));
         }
@@ -1071,7 +1069,7 @@ $(function () {
         function createIframe() {
             popup.children[0].appendChild(iframeBlock);
         }
-
+		
 
         btn.addEventListener('click', e => {
             var tt = e.target;
@@ -1087,23 +1085,47 @@ $(function () {
                 removeIframe();
             }
         })
-    };
+        
+        closePopupRequestDemo.addEventListener('click', e => {
+            e.preventDefault();
+            if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
+                popup.classList.remove('popup--show');
+                removeIframe();
+                document.getElementById('request').scrollIntoView();
+            }
+        })
 
-    function showLiveDemo (demoBtn) {
-        const demoSpan = demoBtn.querySelector('span');
-        const demoPopup = demoBtn.querySelector('div');
-        const closePopup = demoBtn.querySelector('.js-demoPopup-close');
-        liveDemoPopup(demoSpan, demoPopup, closePopup);
+        closePopupSignUp.addEventListener('click', e => {
+            e.preventDefault();
+            if(e.target === e.currentTarget || e.target === closePopupSignUp) {
+                popup.classList.remove('popup--show');
+                removeIframe();
+                window.location.href='/accounts/signup/';
+            }
+        })
+
     }
 
 
+    function tryLiveDemo(liveDemoBtn) {
+        const videoSpan = liveDemoBtn.querySelector('span');
+        const videoPopup = liveDemoBtn.querySelector('div');
+        const closePopup = liveDemoBtn.querySelector('.js-popup-close');
+        const closePopupRequestDemo = liveDemoBtn.querySelector('.js-popup-close-request');
+        const closePopupSignUp = liveDemoBtn.querySelector('.js-popup-close-signup');
+        demoLivePopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo, closePopupSignUp);
+    }
+
     var liveDemoButton = [];
 
-    var liveDemos = document.querySelectorAll('.button-wrap');
-    for (var i = 0; i<liveDemos.length; i++) {
-        liveDemoButton[i] = (liveDemos[i].querySelector('.btn-iframeDemo'));
-        showLiveDemo(liveDemoButton[i]);
-    }    
+    var liveDemoSections = document.querySelectorAll('.button-wrap');
+    for (var i = 0; i<liveDemoSections.length; i++) {
+        liveDemoButton[i] = (liveDemoSections[i].querySelector('.btn-liveDemo'));
+        tryLiveDemo(liveDemoButton[i]);
+    }  
+
+
+
 
 
 
