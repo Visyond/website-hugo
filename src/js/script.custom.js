@@ -1045,3 +1045,59 @@ $(function () {
 
 
 
+    //=====DISPLAY LIVE DEMO IN FRAME=====
+
+    function liveDemoPopup (btn, popup, closePopup) {
+        const srcIframe = popup.querySelector('p').innerHTML;
+        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
+
+        popup.children[0].removeChild(popup.querySelector('p'));
+
+        const iframeBlock = document.createElement('iframe');
+        iframeBlock.setAttribute('width', '800');
+        iframeBlock.setAttribute('height', '600');
+        iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
+        iframeBlock.setAttribute('frameborder', '0');
+        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
+        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
+
+
+        function removeIframe() {
+            popup.children[0].removeChild(popup.querySelector('iframe'));
+        }
+
+        function createIframe() {
+            popup.children[0].appendChild(iframeBlock);
+        }
+
+
+        btn.addEventListener('click', e => {
+            var tt = e.target;
+            e.preventDefault();
+            popup.classList.add('popup--show');
+            createIframe();
+        });
+
+        popup.addEventListener('click', e => {
+            e.preventDefault();
+            if(e.target === e.currentTarget || e.target === closePopup) {
+                popup.classList.remove('popup--show');
+                removeIframe();
+            }
+        })
+    };
+
+    function showLiveDemo (demoBtn) {
+        const demoSpan = demoBtn.querySelector('span');
+        const demoPopup = demoBtn.querySelector('div');
+        const closePopup = demoBtn.querySelector('.js-popup-close');
+        demoVideoPopup(demoSpan, demoPopup, closePopup);
+    }
+
+    var liveDemoButton = [];
+
+    var liveDemos = document.querySelectorAll('.iframeDisplay');
+    for (var i = 0; i<liveDemos.length; i++) {
+        liveDemoButton[i] = (liveDemos[i].querySelector('.iframeDemo-button'));
+        showLiveDemo(liveDemoButton[i]);
+    }    

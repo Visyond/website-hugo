@@ -107,25 +107,17 @@
         <!--</div>-->
         <div class="button-wrap">
             {{ if .demoLink }}
+                <div class="iframeDisplay">
+                    <div class="button button-primary iframeDemo-button">Try It Live</div>
+                </div> 
 
-
-                <div onclick="displayIframe()" class="button button-primary iframeDemo-button"> Try It Live </div>
-
-                <div id="iframeDisplay"></div> 
-
-                <script>
-                    function displayIframe() {
-                        document.getElementById("iframeDisplay").innerHTML = "<iframe src=\"https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28\" height=\"800\" width=\"600\" ></iframe>";
-                    };
-                </script>
-
-            <!-- commented out because simple button is replaced by iframe showing live Visyond - aka interactive demo
-            <a href="{{ .link }}" class="button button-primary">
-                <div>
-                    Learn more
-                </div>
-            </a>
-             -->
+                <!-- commented out because simple button is replaced by iframe showing live Visyond - aka interactive demo
+                <a href="{{ .link }}" class="button button-primary">
+                    <div>
+                        Learn more
+                    </div>
+                </a>
+                -->
             {{ end }}
             
             {{ if .linkYoutube }}
