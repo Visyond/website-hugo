@@ -1046,7 +1046,7 @@ $(function () {
     window.addEventListener("resize", onresize2);
 
 
-/*
+
     // DISPLAY LIVE DEMO IN IFRAME
     function demoLivePopup(btnLiveDemo, popupLiveDemo, closePopup, closePopupRequestDemo, closePopupSignUp) {
         const srcIframe = popupLiveDemo.querySelector('p').innerHTML;
@@ -1124,14 +1124,6 @@ $(function () {
         liveDemoButton[i] = (liveDemoSections[i].querySelector('.btnLiveDemo-liveDemo'));
         tryLiveDemo(liveDemoButton[i]);
     }  
-
-
-
-*/
-
-
-
-
 });
 
 
