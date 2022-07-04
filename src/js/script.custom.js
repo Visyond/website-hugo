@@ -378,7 +378,7 @@ $(function () {
         const iframeBlock = document.createElement('iframe');
         iframeBlock.setAttribute('width', '889');
         iframeBlock.setAttribute('height', '501');
-        iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
+        iframeBlock.setAttribute('src', `https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28`);
         iframeBlock.setAttribute('frameborder', '0');
         iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
         iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
