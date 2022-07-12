@@ -91,10 +91,10 @@
 
 
 	<!-- REQUEST DEMO FORM -->
-	<section class="whyV"> <!-- style="background-color: #f1f4fc;" -->
+	<section class="whyV" style="background-color: #fafafa;">
 		<div class="container">
 			<div class="whyV__row">
-				<h2 class="enterV__headline" id="request">Request Live Demo</h2>
+				<h2 class="enterV__headline" id="request">Request Demo or Talk to Us</h2>
 				<div class="demo-section--divider"></div>
 				{{ partial "bookingScript" . }}
 			</div>
@@ -103,7 +103,7 @@
 	<!-- END: REQUEST DEMO FORM -->
 
     <!-- FAQ -->
-	<section class="whyV" style="background-color: #fafafa;">
+	<section class="whyV">
 		<div class="container">
 			 <h2 class="enterV__headline">{{ .Params.FAQHeader }}</h2>
 			<div class="demo-section--divider"></div>
@@ -117,13 +117,10 @@
 
 
 
-	<!-- BOTTOM CTA WITH VIDEO -->
+	<!-- BOTTOM CTA WITH VIDEO 
 	{{ partial "hexStartedInSignUp" . }}
-	<!-- END: BOTTOM CTA WITH VIDEO -->
+	 END: BOTTOM CTA WITH VIDEO -->
 </div>
 
 
 {{ partial "hexFooter" . }}
-
-<!-- Calendly script at the bottom so it loads last and after a delay - it's heavy and tanks page load time -->
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>

@@ -2,17 +2,17 @@
 aliases: 
   - /request/
 url: /demo
-title: Watch Demos
+title: Watch Recorded Demos
 metaTags: >-
   <meta property="og:title" content="Watch Demos of the Visyond Platform">
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/thumbnails/Visyond Watch Demo thumbnail 1200x628.png">
-  <meta property="og:description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
+  <meta property="og:description" content="Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.>
   <meta property="og:url" content="https://visyond.com/demo/">
-  <meta name="description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
+  <meta name="description" content="Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.">
 coverHeader: Watch Demos
-coverDescription: Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform
+coverDescription: Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
