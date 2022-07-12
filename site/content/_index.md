@@ -26,7 +26,7 @@ topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Automate What-if analysis, Scenarios and Monte Carlo Simulations.</div>
   <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.</div>
 StepsHeader: >-
-      Get Results in 3 Simple Steps
+      Get Started in 3 Simple Steps
 StepsBlock:
   - descr: >-
       Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
