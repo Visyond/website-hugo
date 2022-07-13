@@ -26,11 +26,11 @@ topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Automate What-if analysis, Scenarios and Monte Carlo Simulations.</div>
   <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.</div>
 StepsHeader: >-
-      Get Started in 3 Simple Steps
+      No Need to Install Anything. Just Follow These 3 Simple Steps.
 StepsBlock:
   - descr: >-
-      Import your spreadsheet to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch.</br></br>
-      Visyond will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.</br></br>
+      [Sign up](/accounts/signup/) and [import your spreadsheet](https://help.visyond.com/articles/importing-from-excel/) to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch in Visyond.</br></br>
+      We will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.</br></br>
       We can also build a model and maintain it for you.
     benefitsList:
       - text: >-
@@ -43,7 +43,7 @@ StepsBlock:
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Get ready-to-present What-if, Scenario, and Risk analysis reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
+      Get ready-to-present [What-if, Scenario, and Risk analysis](https://help.visyond.com/articles/auto-analysis/) reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
       It’s that simple.
     benefitsList:
       - text: >-    
@@ -55,10 +55,10 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Automate Predictive Analytics'
+    title: 'Identify and Analyze Important Cells'
     titlePrefix: '2'   
   - descr: >-
-      Create impactful presentations of your analyses and turn them into interactive ‘what-if’ calculators where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
+      Create impactful presentations of your analyses and turn them into [interactive ‘what-if’ calculators](https://help.visyond.com/articles/interactive-dashboards-presentations/) where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -71,7 +71,7 @@ StepsBlock:
     image: /img/home/step4.png
     title: 'Share Interactive ‘What-if’ Dashboards'
     titlePrefix: '3'  
-FeaturesHeader: 'All Decision-making Tools in a Single Platform'
+FeaturesHeader: 'Uncover and Present Insights of Your Model'
 infoBlockFirst:
   - benefitsList:
       - text: >-
