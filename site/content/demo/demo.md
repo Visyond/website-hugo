@@ -15,12 +15,12 @@ coverHeader: Watch Demos
 coverDescription: Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.
 demoSection:
   - demoSectionContent:
-      - demoSectionSubTitle: Interactive Dashboards Driven by Your Spreadsheet
+      - demoSectionSubTitle: Predictive ‘What-if’ Dashboards for Decision Making
         demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
         isVisible: true
         demoDescription: >-
-          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualized forecasts and test scenarios.
       - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
