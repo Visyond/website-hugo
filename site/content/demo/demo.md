@@ -20,7 +20,7 @@ demoSection:
         demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
         isVisible: true
         demoDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualized forecasts and test scenarios.
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
       - demoSectionSubTitle: Automated Sensitivies and Monte Carlo Simulations
         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
