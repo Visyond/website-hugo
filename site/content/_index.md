@@ -20,8 +20,7 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.">
 topTitle: >-
-  Understand and Present Scenarios and Risks of Your Excel Model.</br>
-  <span style="color: #0086ff;">In Minutes</span>.
+  Understand and Present Scenarios and Risks of Your Excel Model. <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.</div>
 StepsHeader: >-
@@ -44,7 +43,6 @@ StepsBlock:
     titlePrefix: '1'
   - descr: >-
       Get ready-to-present What-if analysis reports with a few clicks. It’s that simple.</br></br>
-      It’s that simple.</br></br>
       Deliver reliable insights and reduce the risk of errors.
     benefitsList:
       - text: >-    
@@ -62,11 +60,11 @@ StepsBlock:
       Create interactive ‘what-if’ dashboards to visualize scenarios and forecasts, powered by your model’s calculations, without exposing the intricacies of the spreadsheet.
     benefitsList:
       - text: >-
-          Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
+          Viewers playing with the numbers on the dashboard can’t break the spreadsheet (or even see it, if you so wish).
       - text: >-
-          Manage access for each dashboard or worksheet per person for security and simplicity reasons.
+          Each stakeholder has a unique view depending on which worksheets and dashboards they are allowed to see.
       - text: >-
-          Nobody can accidentally break the spreadsheet or obstruct the dashboard views of other collaborators.                 
+          Dashboards are secure and always up-to-date visualization layers on top of your spreadsheet, which acts as a calculation engine in the cloud (a single source of truth).             
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
