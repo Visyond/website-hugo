@@ -11,54 +11,55 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
-title: Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model
+title: Understand and Present Scenarios and Risks of Your Excel Model. In Minutes.
 metaTags: >-
-  <meta property="og:title" content="Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model">
+  <meta property="og:title" content="Understand and Present Scenarios and Risks of Your Excel Model. In Minutes.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
-  <meta property="og:description" content="Automate What-if analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
+  <meta property="og:description" content="Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Automate What-if analysis, Scenarios and Monte Carlo Simulations. Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.">
+  <meta name="description" content="Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.">
 topTitle: >-
-  Understand Success Factors, Scenarios, and Risks of Your Spreadsheet Model.</br>
+  Understand and Present Scenarios and Risks of Your Excel Model.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">Automate What-if analysis, Scenarios and Monte Carlo Simulations.</div>
-  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive dashboards for forecasting and What-if analysis.</div>
+  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.</div>
 StepsHeader: >-
-      No Need to Install Anything. Just Follow These 3 Simple Steps.
+      3 Simple Steps to Save Countless Hours
 StepsBlock:
   - descr: >-
-      [Sign up](/accounts/signup/) and [import your spreadsheet](https://help.visyond.com/articles/importing-from-excel/) to complement your existing toolkit (e.g., Excel, BI-tools) , or create one from scratch in Visyond.</br></br>
-      We will warn you if there are errors or data anomalies, and create a collaborative workspace if you need to work in teams and track changes.</br></br>
-      We can also build a model and maintain it for you.
+      Import your spreadsheet or create one in Visyond, turning it into a collaborative platform for predictive dashboards and self-service analysis.</br></br>
+      Complement your existing toolkit (Excel add-ins, BI-tools) for quick and agile business case development, and build a solid foundation for decision making.
     benefitsList:
       - text: >-
-          Improve your performance without changing your workflow.
+          No need to install anything. Visyond works in the browser, on any operating system.
       - text: >-
-           You don’t need to install anything - just open the browser and start getting results right away.
+           Fully utilize your Excel modeling experience - Visyond uses the same formulas and syntax.
+      - text: >-
+           Improve your workflows by reducing errors, controlling access, and tracking changes and scenarios.       
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
     image: /img/home/step1.png
     title: 'Import Your Spreadsheet'
     titlePrefix: '1'
   - descr: >-
-      Get ready-to-present [What-if, Scenario, and Risk analysis](https://help.visyond.com/articles/auto-analysis/) reports with a few clicks. If your model’s structure or data changes – just re-run the analysis to keep it up-to-date.</br></br>
-      It’s that simple.
+      Get ready-to-present What-if analysis reports with a few clicks. It’s that simple.</br></br>
+      It’s that simple.</br></br>
+      Deliver reliable insights and reduce the risk of errors.
     benefitsList:
       - text: >-    
           You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
       - text: >-
-          Novices can easily analyze data, experts get powerful tools at a fraction of the cost.
+          Both novices and experts can easily analyze data, and build powerful workflows that are difficult and expensive to set up otherwise.
       - text: >-
           No-code and no need for maintenance if the spreadsheet changes.
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Identify and Analyze Important Cells'
+    title: 'Understand How Changes Impact Forecasts'
     titlePrefix: '2'   
   - descr: >-
-      Create impactful presentations of your analyses and turn them into [interactive ‘what-if’ calculators](https://help.visyond.com/articles/interactive-dashboards-presentations/) where viewers can play with the numbers and visualize their own forecasts (powered by your spreadsheet's formulas).
+      Create interactive ‘what-if’ dashboards to visualize scenarios and forecasts, powered by your model’s calculations, without exposing the intricacies of the spreadsheet.
     benefitsList:
       - text: >-
           Apply scenarios to dashboards, or play with the numbers in ‘What-if’ mode.
@@ -69,9 +70,9 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
-    title: 'Share Interactive ‘What-if’ Dashboards'
+    title: 'Share Insights via Predictive Dashboards'
     titlePrefix: '3'  
-FeaturesHeader: 'Uncover and Present Insights of Your Model'
+FeaturesHeader: 'Be Prepared for Any Scenario and What-if Question'
 infoBlockFirst:
   - benefitsList:
       - text: >-
