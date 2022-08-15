@@ -1,8 +1,15 @@
 ---
-title: Partner page
+metaTags: >-
+  <meta property="og:title" content="Partner with Visyond">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Partners 2022">
+  <meta property="og:description" content="Add Value to Your Clients While Increasing Your Revenue.">
+  <meta property="og:url" content="https://visyond.com/partner-with-visyond/">
+  <meta name="description" content="Add Value to Your Clients While Increasing Your Revenue.">
+title: Partner with Visyond
 url: /partner-with-visyond
 topTitle: Partner with Visyond
-topSubTitle: Grow Your Business and Build New Revenue Streams
+topSubTitle: Add Value to Your Clients While Increasing Your Revenue
 bgImage: /img/partners-hero.jpg
 BenefitsHeader: Partner Benefits
 benefitsItems:
