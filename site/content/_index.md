@@ -167,7 +167,7 @@ summary:
     image: /img/home/cloudPlatformIcon.png
     buttonText: Get Started
     buttonLink: /accounts/signup/
-DemoStripTitle: Make Better Decisions, Faster.
-DemoStripTitleButton: Request Demo
-DemoStripTitleLink: /demo
+DemoStripTitle: Try It Live Before You Sign Up
+DemoStripTitleButton: See the Interactive Demo
+DemoStripTitleLink: https://visyond.com/project/125105b6-a269-4dd1-9145-5e4eea10276d
 ---
