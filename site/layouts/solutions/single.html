@@ -37,22 +37,20 @@
 				</div>
 
 				<div class="home-hero__full-width-wrap-noIcons" style="margin-top: 80px; justify-content: flex-end;">
-                    <!--
                     <ul class="home-hero__other-features">
                         <li>
-                            <img src="/img/home/excel.svg" alt="Excel Add-on">
-                            Excel-like
+                            <img src="/img/home/icons/homepage_cloud.png" alt="Cloud"> <!-- /img/home/excel.svg -->
+                            Cloud
                         </li>
                         <li>
-                            <img src="/img/home/finger.svg" alt="Cloud Platform">
-                            Easy to Use
+                            <img src="/img/home/icons/homepage_onpremise.png" alt="On-premise"> <!-- /img/home/finger.svg-->
+                            On-premise
                         </li>
                         <li>
-                            <img src="/img/home/sandWatch.svg" alt="Smart Automation">
-                            Get Started in Minutes
+                            <img src="/img/home/icons/homepage_label.png" alt="White-label"> <!-- /img/home/sandWatch.svg-->
+                            White label
                         </li>
                     </ul>
-                    -->
                     
                     <div class="home-hero__gartner-wrapNoLogo">
                         <a class="home-hero__gartner" href="https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond" target="_blank">
@@ -75,6 +73,7 @@
 	<section class="enterV">
 		<div class="container">
 			<h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
+			<div class="home-hero__topSubtitle" style="text-align: center;color: rgba(0,0,0,.8);">No installations. Easy-to-use. Value from day one.</div>
 			<div class="header-section--divider"></div>
 			<ul class="enterSections js-image-block">
 				{{ partial "hexBlockListC" . }}
