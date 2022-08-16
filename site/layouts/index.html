@@ -68,6 +68,7 @@
     <section id="getStartedSteps" class="enterV">
       <div class="container">
           <h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
+          <div class="home-hero__topSubtitle" style="text-align: center;color: rgba(0,0,0,.8);">{{ .Params.StepsSubtitle| markdownify }}</div>
           <div class="header-section--divider"></div>
           <ul class="enterSections js-image-block">
               {{ partial "hexBlockListC" . }}

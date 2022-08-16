@@ -25,6 +25,8 @@ topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.</div>
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
+StepsSubtitle: >-
+      No installations. Easy-to-use. Value from day one.
 StepsBlock:
   - descr: >-
       Import your spreadsheet or create one in Visyond, turning it into a collaborative platform for predictive dashboards and self-service analysis.</br></br>
