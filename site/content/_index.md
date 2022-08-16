@@ -11,18 +11,18 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
-title: Understand and Present Scenarios and Risks of Your Excel Model. In Minutes.
+title: Ask Your Excel Model Anything. Get Answers in Minutes.
 metaTags: >-
-  <meta property="og:title" content="Understand and Present Scenarios and Risks of Your Excel Model. In Minutes.">
+  <meta property="og:title" content="Ask Your Excel Model Anything. Get Answers in Minutes.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
-  <meta property="og:description" content="Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.">
+  <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.">
+  <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Understand and Present Scenarios and Risks of Your Excel Model. <span style="color: #0086ff;">In Minutes</span>.
+  Ask Your Excel Model Anything. Get Answers <span style="color: #0086ff;">in Minutes</span>.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as interactive ‘what-if’ dashboards for forecasting, and automate Sensitivities, Scenarios and Monte Carlo Simulations.</div>
+  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.</div>
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsBlock:
