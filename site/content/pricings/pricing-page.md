@@ -172,7 +172,7 @@ pricingSections:
             - title: Integrations
               tooltip: >-
                 Integrate your existing systems with Visyond.
-            - title: White Label
+            - title: White labeling
               tooltip: White label the platform, and maintain your brand identity when serving your clients.
             - title: On-premise installation
               tooltip: Install Visyond on your server.
@@ -349,8 +349,8 @@ pricingSections:
             - title: Integrations
               tooltip: >-
                 Integrate your existing systems with Visyond.
-            - title: Customizations
-              tooltip: Maintain your brand identity when serving clients.
+            - title: White labeling
+              tooltip: White label the platform, and maintain your brand identity when serving your clients.
             - title: On-premise installation
               tooltip: Install Visyond on your server.
           planCardIcon: /img/pricing/ENTERPRISE.png
@@ -400,8 +400,8 @@ contact:
         Integrate your existing systems with Visyond.
       title: Integrations
     - img: /img/pricing/WHITE LABELING.png
-      text: Maintain your brand identity when serving clients.
-      title: Customizations
+      text: White label the platform, and maintain your brand identity when serving your clients.
+      title: White Labeling
     - img: /img/pricing/ENTERPRISE.png
       text: Install Visyond on your server.
       title: On-premise Installation
