@@ -5,9 +5,9 @@
 <!-- <div class="partners-page"> -->
 <div class="homehex ht">
     <!-- TOP SECTION -->
-    <section class="home-hero">
+    <section class="home-hero" style="padding: 60px 0px 60px 0px;">
         <div class="container">
-            <div class="home-hero__container">
+            <div class="whyV__row">
 
                 <div class="home-hero__half-width-wrap" style="width: 100%;">  
                     <h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.TopTitle }}</h1>
@@ -40,28 +40,11 @@
     <!-- END: TOP SECTION -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
     <!-- ABOUT VISYOND -->
     <section class="enterV">
         <div class="container">
 
-            <h2 class="enterV__headline" id="productTour">What is Visyond?</h2>
+            <h2 class="enterV__headline" id="productTour">Why Visyond?</h2>
             <!-- <div class="home-hero__topSubtitle" style="text-align: center;color: rgba(0,0,0,.8);">No installations. Easy-to-use. Value from day one.</div> -->
             <div class="header-section--divider"></div>
             
@@ -123,18 +106,6 @@
        <!-- END: ABOUT VISYOND -->
 
 
-
-      <!-- WHY VISYOND? -->
-      <section class="homeBenefits" style="background-color: #fafafa;">    
-        <div class="container">
-            <h2 class="enterV__headline">Why Visyond?</h2>
-            <div class="header-section--divider"></div>
-            <div>Something goes here lalalalalalala</div>
-        </div>
-    </section>
-      <!-- END: WHY VISYOND?-->
-
-
     <!-- DEMO STRIP -->
     <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
         <div class="container">
@@ -154,9 +125,9 @@
 
             <div class="benefits">
                 {{ range .Params.benefitsItems }}
-                <div class="benefit__item">
+                <div class="demoSection__body">  <!-- class="benefit__item" -->
                     <img src="{{ .img }}" alt="" class="benefit__icon">
-                    <h5 class="benefit__headline">{{ .title }}</h5>
+                    <h5 class="demoSection--title">{{ .title }}</h5>
                     <p class="benefit__text">{{ .subTitle | markdownify }}</p>
                 </div>
                 {{ end }}
