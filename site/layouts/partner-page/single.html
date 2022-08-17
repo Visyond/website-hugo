@@ -4,6 +4,7 @@
 
 <!-- <div class="partners-page"> -->
 <div class="homehex ht">
+
     <!-- TOP SECTION -->
     <section class="home-hero" style="padding: 60px 0px 60px 0px;">
         <div class="container">
@@ -40,8 +41,10 @@
     <!-- END: TOP SECTION -->
 
 
+
+
     <!-- ABOUT VISYOND -->
-    <section class="enterV">
+    <section class="enterV" style="background-color: #ffffff;">
         <div class="container">
 
             <h2 class="enterV__headline" id="productTour">Why Visyond?</h2>
@@ -106,6 +109,8 @@
        <!-- END: ABOUT VISYOND -->
 
 
+
+
     <!-- DEMO STRIP -->
     <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
         <div class="container">
@@ -116,9 +121,11 @@
     <!-- END: DEMO STRIP -->
 
 
-   <!-- second section -->
+
+
+   <!-- PARTNER BENEFITS -->
    <!-- <section class="benefits-section half-light-blue"> -->
-    <section class="homeBenefits" style="background-color: #fafafa;">    
+    <section class="homeBenefits" style="background-color: #ffffff;">    
         <div class="container">
             <h2 class="enterV__headline">{{ .Params.BenefitsHeader }}</h2>
             <div class="header-section--divider"></div>
@@ -134,11 +141,13 @@
             </div>
         </div>
     </section>
-    <!-- //second section -->
+    <!-- END: PARTNER BENEFITS -->
 
-    <!-- second section -->
-    <!--   <section class="types-section"> -->
-    <section class="homeBenefits">	    
+
+
+
+    <!-- PARTNER TYPES -->
+    <section class="homeBenefits" style="background-color: #fafafa;"> <!-- class="types-section" -->     
         <div class="container">
             <h2 class="enterV__headline">{{ .Params.typesHeader }}</h2>
             <div class="header-section--divider"></div>
@@ -147,7 +156,7 @@
                     {{ range .types }}
                     <div class="types__item">
                         <img src="{{ .icon }}" alt="" class="types__icon">
-                        <h5 class="types__headline">{{ .title }}</h5>
+                        <h5 class="demoSection--title">{{ .title }}</h5>  <!-- class="types__headline" -->
                         <p class="types__text">{{ .subTitle | markdownify}}</p>
                     </div>
                     {{ end }}
@@ -170,7 +179,8 @@
             -->  
         </div>
     </section>
-    <!-- //second section -->
+    <!-- END: PARTNER TYPES -->
+
 
 
 
@@ -181,7 +191,7 @@
 
     
 
-    <!-- form section -->
+    <!-- FORM -->
     <section class="homeBenefits" style="background-color: #fafafa;">    
         <div class="container">
             <h2 class="enterV__headline">
@@ -201,7 +211,11 @@
             </script>
         </div>
     </section>
-    <!-- form section -->
+    <!-- END: FORM -->
+
+
+
+
 </div>
 
 {{ partial "hexFooter" . }}
