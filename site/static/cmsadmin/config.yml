@@ -618,6 +618,101 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
 
 
+
+# DESCRIPTION: This is an exact copy of the homepage template above. Keep it up to date + the content too when the homepage is updated.
+# PURPOSE: A landing page to be shared on social media (LinkedIn). The only difference is that the HTML template has "empty" header and footer to restrict navigation and guide user to the request demo form.
+  - name: "home-landing"
+    label: "Home Landing"
+    folder: "site/content/home-landing"
+    create: true
+    fields:
+      - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
+      - {label: "Page Title", name: "title", widget: "markdown", required: true}
+      - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
+      - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
+      - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
+      - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
+      - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
+      - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
+      - {label: "Functions list", name: "functionList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Cases list", name: "caseList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        }
+      - {label: "Industries list", name: "industryList", widget: "list",
+        fields: [
+          {label: "image", name: "image", widget: "image", required: false,},
+          {label: "text", name: "text", widget: "string", required: false,},
+        ],
+        required: false,
+        } 
+      - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
+      - {label: "Steps Subtitle", name: "StepsSubtitle", widget: "markdown", required: false}
+      - {label: "Steps block", name: "StepsBlock", widget: "list",
+        fields: [
+          {label: "Steps Title", name: "title", widget: "string"},
+          {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
+          {label: "Steps Description", name: "descr", widget: "markdown"},
+          {label: "Steps list 1", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "markdown"},
+          ]},
+          {label: "Benefits list 2", name: "benefitsList2", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "markdown"},
+          ]},        
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+          {label: "Info Link", name: "link", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+        ],
+        required: false,
+        }
+      - {label: "Addin/Cloud Title", name: "AddinCloudHeader", widget: "markdown", required: false}   
+      - {label: "Addin/Cloud Summary", name: summary, widget: list,
+        fields: [
+          {label: Title ('Excel Add-in' = green button - template condition), name: "title", widget: string},
+          {label: "Image", name: "image", widget: image},
+          {label: Text, name: "content", widget: "markdown"},
+          {label: Excel/Cloud Button Text, name: "buttonText", widget: string},
+          {label: Excel/Cloud Button Link, name: "buttonLink", widget: string}
+        ],
+        required: false,
+        }
+      - {label: "GetHexStarted Title", name: "DemoStripTitle", widget: "string", required: true}
+      - {label: "GetHexStarted Button", name: "DemoStripTitleButton", widget: "string", required: true}
+      - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        
+      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
+        fields: [
+          {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
+          {label: "Info Title", name: "title", widget: "string"},
+          {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
+          {label: "Info Video", name: "infoVideo", widget: "string"},
+          {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
+          {label: "Info Description", name: "descr", widget: "markdown"},
+          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
+            {label: "Benefit item", name: "text", widget: "string"},
+          ]},
+          {label: "Info Image", name: "image", widget: image},
+          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
+          {label: "Learn More Link", name: "link", widget: "string"},
+          {label: "Demo Link", name: "demoLink", widget: "string"},
+          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
+        ],
+        required: false,
+        }          
+      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
+##### END OF HOME-LANDING #####
+
+
+
 #  - name: "home" --- HOMEPAGE 2020
 #    label: "Home Page"
 #    #folder: "site/content/_index.md"
