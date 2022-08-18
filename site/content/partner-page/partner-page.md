@@ -11,6 +11,45 @@ url: /partner-with-visyond
 topTitle: Partner with Visyond
 topSubTitle: Add Value to Your Clients While Increasing Your Revenue
 bgImage: /img/partners-hero.jpg
+visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
+functionTitle: Functions
+caseTitle: Use Cases
+industryTitle: Industries
+functionList:
+  - image: /img/home/visForColumn1/function2.png
+    text: Analysts and Modelers
+  - image: /img/home/visForColumn1/function1.png
+    text: CxOs & Decision Makers
+  - image: /img/home/visForColumn1/function3.png
+    text: Sales & Communication
+  - image: /img/home/visForColumn1/function4.png
+    text: Consultants
+caseList:
+  - image: /img/home/visForColumn2/case1.png
+    text: Risk Analysis & Simulations
+  - image: /img/home/visForColumn2/case2.png
+    text: Planning & Modelling
+  - image: /img/home/visForColumn2/case3.png
+    text: Budgeting & Forecasting
+  - image: /img/home/visForColumn2/case4.png
+    text: Financial Reporting
+  - image: /img/home/visForColumn2/case5.png
+    text: Investment Analysis
+  - image: /img/home/visForColumn2/case6.png
+    text: Scenario Analysis
+industryList:
+  - image: /img/home/visForColumn3/industry1.png
+    text: Banking
+  - image: /img/home/visForColumn3/industry5.png
+    text: Management Consulting
+  - image: /img/home/visForColumn3/industry2.png
+    text: Financial Services
+  - image: /img/home/visForColumn3/industry6.png
+    text: Telecommunication
+  - image: /img/home/visForColumn3/industry3.png
+    text: Real Estate
+  - image: /img/home/visForColumn3/industry4.png
+    text: Insurance     
 BenefitsHeader: Partner Benefits
 benefitsItems:
   - img: /img/icons/flexible.png
