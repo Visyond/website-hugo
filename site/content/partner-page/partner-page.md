@@ -11,7 +11,7 @@ url: /partner-with-visyond
 topTitle: Partner with Visyond
 topSubTitle: Add Value to Your Clients While Increasing Your Revenue
 bgImage: /img/partners-hero.jpg
-visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
+visForHeader: It's for Everyone Who Makes Decisions Based on Spreadsheets
 functionTitle: Functions
 caseTitle: Use Cases
 industryTitle: Industries
