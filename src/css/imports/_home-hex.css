@@ -394,7 +394,9 @@ margin-bottom: 30px;
 .visFor__column{
     width: 32%;
     padding: 40px;
-    box-shadow: 0 10px 10px rgba(56, 93, 299, 0.1);
+    border: 1px solid #efefef;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
     background-color: white;
     margin-bottom: 45px;
     transition: box-shadow .3s linear;
@@ -405,12 +407,11 @@ margin-bottom: 30px;
 }
 */
 .visFor__column--title{
-    font-size: 16px;
-    line-height: 26px;
     color: #383e4d;
-    font-weight: 900;
-    /* letter-spacing: 2.5px; */
+    font-weight: 600;
     text-align: center;
+    font-size: 1.5em;
+    line-height: 1.44;
 }
 .visFor__list{
     list-style: none;
