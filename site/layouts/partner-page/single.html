@@ -111,23 +111,14 @@
 
 
 
-    <!-- DEMO STRIP -->
-    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
-        <div class="container">
-            <h2 class="getHexStarted__title">Try a Live Demo. No Sign Up Required.</h2>
-            <a target="_blank" href="https://visyond.com/project/125105b6-a269-4dd1-9145-5e4eea10276d" class="button button-contrast">Try Live Demo</a>
-        </div>
-    </section>
-    <!-- END: DEMO STRIP -->
-
     <!-- VISYOND IS FOR -->
     <section class="visFor">
         <div class="container">
-            <h2 class="visFor-header">{{ .Params.visForHeader }}</h2>
+            <h2 class="enterV__headline">{{ .Params.visForHeader }}</h2>  <!-- class="visFor-header" -->
             <div class="header-section--divider"></div>
             <ul class="visFor__row">
-                <li class="visFor__column">
-                    <h4 class="visFor__column--title">{{ .Params.functionTitle }}</h4>
+                <li class="demoSection__body"> <!-- class="visFor__column" -->
+                    <h4 class="demoSection--title">{{ .Params.functionTitle }}</h4>  <!-- class="visFor__column--title" -->
                     <ul class="visFor__list">
                         {{ range $el := .Params.functionList }}
                         <li class="visFor__list-item">
@@ -137,8 +128,8 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="visFor__column">
-                    <h4 class="visFor__column--title">{{ .Params.caseTitle }}</h4>
+                <li class="demoSection__body">  <!-- class="visFor__column" -->
+                    <h4 class="demoSection--title">{{ .Params.caseTitle }}</h4> <!-- class="visFor__column--title" -->
                     <ul class="visFor__list">
                         {{ range $el := .Params.caseList }}
                         <li class="visFor__list-item">
@@ -148,8 +139,8 @@
                         {{ end }}
                     </ul>
                 </li>
-                <li class="visFor__column">
-                    <h4 class="visFor__column--title">{{ .Params.industryTitle }}</h4>
+                <li class="visFor__column"> <!-- class="visFor__column" -->
+                    <h4 class="demoSection--title">{{ .Params.industryTitle }}</h4> <!-- class="visFor__column--title" -->
                     <ul class="visFor__list">
                         {{ range $el := .Params.industryList }}
                         <li class="visFor__list-item">
@@ -163,6 +154,20 @@
         </div>
     </section>
     <!--  END: VISYOND IS FOR -->
+
+
+
+
+    <!-- DEMO STRIP -->
+    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+        <div class="container">
+            <h2 class="getHexStarted__title">Try a Live Demo. No Sign Up Required.</h2>
+            <a target="_blank" href="https://visyond.com/project/125105b6-a269-4dd1-9145-5e4eea10276d" class="button button-contrast">Try Live Demo</a>
+        </div>
+    </section>
+    <!-- END: DEMO STRIP -->
+
+
 
 
    <!-- PARTNER BENEFITS -->
