@@ -10,8 +10,6 @@ resourcesDropdown:
     title: Financial Modelling Innovation Awards 2020    
   - path: /partner-with-visyond/
     title: Partner with Visyond
-  - path: /partners/
-    title: Our Partners
   - path: /contacts/
     title: Contact Us  
 solutionsInfoTitle: Answer questions in seconds
