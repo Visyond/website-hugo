@@ -13,16 +13,20 @@ aliases:
   - /why-visyond/
 title: Ask Your Excel Model Anything. Get Answers in Minutes.
 metaTags: >-
-  <meta property="og:title" content="Ask Your Excel Model Anything. Get Answers in Minutes.">
+  <meta property="og:title" content="Ask Your Excel Model Anything. Share Answers in Minutes.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
   <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Ask Your Excel Model Anything. Get Answers <span style="color: #0086ff;">in Minutes</span>.
+  Ask Your Excel Model Anything. Share Answers <span style="color: #0086ff;">in Minutes</span>.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.</div>
+  <div class="home-hero__topSubtitle-subtitle">
+  Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.
+  </br></br>
+  Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
+  </div>
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
