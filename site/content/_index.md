@@ -27,8 +27,26 @@ topDescription: >-
   </br></br>
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
+useCasesHeader: What would you like to do?
 useCaseSection:
   - useCaseSectionContent:
+      - useCaseTitle: Gather Data
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Gather data from different stakeholders, exposing only specific parts of the spreadsheet. Track contributions and improve accountability. Separate the model’s logic and data into different layers.
+      - useCaseTitle: Protect Spreadsheets from People
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Prevent people from accidentally corrupting the model. Establish a safe, interactive layer where teams can query the model without interfering with each other or changing the central calculation engine.
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Protect People from Spreadsheets
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Show only what matters to your collaborators and enable them to safely 'play' with it.
+        useCaseURL: /solutions/what-if-analysis/  
       - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
@@ -49,29 +67,14 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-    useCaseSectionTitle: Use Case Title 1
+    useCaseSectionTitle: Collaboration
   - useCaseSectionContent:
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+      - useCaseTitle: Generate Financial Statements from Your Spreadsheet
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-    useCaseSectionTitle: Use Case Title 2    
+          Transform your spreadsheet model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
+    useCaseSectionTitle: Financial Statements
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-

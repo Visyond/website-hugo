@@ -19,6 +19,17 @@
         border: none;
     }
 
+    &-disabled {
+        color: #9b9b9b;
+        background: #dfdfdf;
+        border: none;
+
+        &:hover {
+            cursor: not-allowed;
+            box-shadow: none;
+        }
+    }  
+
     &-contrast {
         background: #fff;
         color: #52546c;
@@ -101,7 +112,6 @@
 .btn-primary {
     margin-top: 2em;
     display: inline-block;
-    /*font-size: 1em;*/
     font-size: 14px;
     font-weight: 700;
     color: #fff;
