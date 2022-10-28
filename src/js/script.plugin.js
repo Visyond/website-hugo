@@ -108,8 +108,8 @@ $(function () {
           slidesToScroll: 3,
           autoplay: false,
           autoplaySpeed: 2000,
-          dots: false,
-          arrows: false,
+          dots: true,
+          arrows: true,
           responsive: [
               {
                 breakpoint: 1366,

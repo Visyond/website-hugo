@@ -68,49 +68,6 @@ useCaseSection:
         useCaseDescription: >-
           Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
     useCaseSectionTitle: Make Collaboration Secure and Improve Accountability
-  - useCaseSectionContent:
-      - useCaseTitle: Pricing and Valuation Calculators
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Turn your model into calculator blah-blah-blah.
-      - useCaseTitle: Scenario Forecasting and What-if Calculators
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Turn your model into calculator blah-blah-blah.
-      - useCaseTitle: Presentations for Management or Clients
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Turn your model into calculator blah-blah-blah.          
-    useCaseSectionTitle: Create Interactive Reports   
-  - useCaseSectionContent:
-      - useCaseTitle: Budget vs. Actual
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Easily do budget vs actual
-      - useCaseTitle: Scenario Comparison and What-if Analysis
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          What-if you could do what-if analysis blah blah blah.        
-    useCaseSectionTitle: Insights and Analytics   
-  - useCaseSectionContent:
-      - useCaseTitle: Generate Financial Statements from Your Spreadsheet
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Transform your spreadsheet model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
-    useCaseSectionTitle: Financial Statements
-  - useCaseSectionContent:
-      - useCaseTitle: Distribute models and blah blah
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Transform your spreadsheet model and its forecasts into Balance Sheets, Income and Cash Flow Statements.
-    useCaseSectionTitle: Spreadsheet Modeling
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
