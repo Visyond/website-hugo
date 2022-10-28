@@ -87,17 +87,17 @@
 										<div class="useCaseTitleDescContainer">
 											<div class="useCase--title">{{ .useCaseTitle }}</div>
 											<div class="useCaseText"> {{ .useCaseDescription | markdownify }}</div>
-
-                                            {{ if .useCaseURL }}
-                                            <div class="btn-wrap">
-                                                <a href="{{ .useCaseURL }}" class="button button-primary">Learn More</a>
-                                            </div>
-                                            {{ else }}
-                                            <div class="btn-wrap">
-                                                <a href="#request" class="button button-disabled">Coming Soon</a>
-                                            </div>
-                                            {{ end }}						
 										</div>
+
+                                        {{ if .useCaseURL }}
+                                        <div class="btn-wrap">
+                                            <a href="{{ .useCaseURL }}" class="button button-primary">Learn More</a>
+                                        </div>
+                                        {{ else }}
+                                        <div class="btn-wrap">
+                                            <a href="" class="button button-disabled">Coming Soon</a>
+                                        </div>
+                                        {{ end }}
 									</div>
 								{{ end }}
 							{{ end }}

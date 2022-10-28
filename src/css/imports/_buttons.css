@@ -23,10 +23,12 @@
         color: #9b9b9b;
         background: #dfdfdf;
         border: none;
+        box-shadow: none!important;
 
         &:hover {
-            cursor: not-allowed;
-            box-shadow: none;
+            cursor: default;
+            box-shadow: none!important;
+            top: 2px;
         }
     }  
 
