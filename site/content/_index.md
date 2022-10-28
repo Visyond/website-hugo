@@ -67,7 +67,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-    useCaseSectionTitle: Make collaboration secure and improve accountability
+    useCaseSectionTitle: Make Collaboration Secure and Improve Accountability
   - useCaseSectionContent:
       - useCaseTitle: Pricing and Valuation Calculators
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg

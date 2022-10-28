@@ -26,9 +26,14 @@
         box-shadow: none!important;
 
         &:hover {
-            cursor: default;
+            cursor: default!important;
             box-shadow: none!important;
-            top: 2px;
+            top: 2px!important;
+        }
+
+        &:active {
+            top: 0px;
+            box-shadow: none;
         }
     }  
 
