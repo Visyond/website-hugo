@@ -108,7 +108,7 @@ $(function () {
           slidesToScroll: 3,
           autoplay: false,
           autoplaySpeed: 2000,
-          dots: true,
+          dots: false,
           arrows: true,
           responsive: [
               {
