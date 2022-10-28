@@ -1647,3 +1647,241 @@ padding-left: 10px;
     }
 }
 /*------------END: IE11 FIXES ---------------*/   
+
+
+
+
+
+/*------------USE CASES ---------------*/   
+
+.useCaseSections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.useCase__block {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 0em;
+
+    &:not(:last-child) {
+        margin-bottom: 4em;
+     }
+}
+
+.useCase__block-title {
+    font-size: 34px;
+    color: #383E4D;
+    font-weight: 900;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.useCase__block-descr {
+    color: #383E4D;
+    font-size: 16px;
+    margin-bottom: 1em;
+    width: 100%;
+    font-weight: 400;
+}
+
+.useCase__block-descr ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+.useCase__block-descr li {
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.4;
+
+&:before {
+     content: "";
+     position: absolute;
+     top: 0.68em;
+     left: 0;
+     transform: rotate(-130deg);
+     width: .5em;
+     height: 2px;
+     background: #0086ff;
+     display: inline-block;
+ }
+
+@media screen and (max-width: 800px) {
+    text-align: left;
+}
+}
+
+.useCase__block-descr span,
+.useCase__block-descr strong {
+    font-weight: 600;
+}
+
+.useCase__block-descr a {
+    color: #0086ff;
+}
+
+
+.useCase__body {
+    position: relative;
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: center;
+    width: 540px;
+    max-width: 46%;
+    margin: 2%;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
+    @media screen and (max-width: 768px) {
+        max-width: 100%;
+        padding: 2em;
+        @media (max-width: 769px) {
+            padding: 1.5em;
+        }
+    }
+}
+
+.useCase__body--img-wrap {
+    width: 90%;
+    position: relative;
+    transition: all 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 1px rgb(228 228 228 / 55%);
+
+&:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+/* effect for button when hovering on container */
+&:hover .button {
+    background-color: rgb(5, 133, 255, 0.9);
+}
+
+@media screen and (max-width: 800px) {
+    width: 100%;
+    justify-content: center;
+}
+
+&:hover img {
+    filter: grayscale(80%);
+ }
+
+& .button {
+      position: absolute;
+      left: 41%;
+      top: 35%;
+      transition: all 0.3s;
+      box-shadow: 0 0 10px rgb(0,0,0,.6)!important;
+      padding: 0!important;
+      border: 2px solid #fff!important;
+      border-radius: 10px!important;
+      color: rgb(255 255 255 / 90%)!important;
+      background-color: rgba(22, 24, 30, 0.85);
+    
+      &:hover {
+        background-color: rgb(5, 133, 255, 1);
+        box-shadow: 0px 0px 20px rgb(5, 133, 255, / 60%)!important;
+      }
+
+      @media screen and (max-width: 1201px) {
+        left: 39.2%;
+        top: 31.7%;
+
+        @media (max-width: 991px) {
+            left: 34.8%;
+            top: 23.2%;
+
+            @media (max-width: 801px) {
+                left: 34.4%;
+                top: 23.7%;
+
+                @media (max-width: 769px) {
+                    left: 42%;
+                    top: 36%;
+                }
+            }
+        }
+      }
+  }
+}
+
+.useCase__body--img-wrap__img {
+    transition: all 0.2s;
+    width: 100%;
+    display: flex;
+}
+
+.useCase__divider {
+    width: 90%;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 1em auto;
+    border-radius: 2px;
+}
+
+.useCaseTitleDescContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 768px) {
+        margin: 1em 0;
+        text-align: center;
+    }
+}
+
+.useCase--title{
+    color: #383e4d;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.44;
+    margin: 1em 0 0.5em;
+    text-align: center;
+}
+
+.useCase__text-wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.useCaseText {
+    font-size: 16px;
+    line-height: 1.44;
+    color: #383E4D;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.useCase-section--divider {
+    width: 48px;
+    height: 4px;
+    background-color: #0685ff;
+    margin: 2em auto 2em auto;
+    border-radius: 2px;
+}
+
+
+/*------------END: USE CASES ---------------*/   

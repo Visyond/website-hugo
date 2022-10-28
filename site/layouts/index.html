@@ -63,6 +63,49 @@
     <!-- END: LOGOS -->
     
 
+	<!-- USE-CASES -->
+	<section class="homeBenefits">
+		<div class="container">
+			<ul class="useCaseSections">
+				<!-- LIST OF USE-CASE SECTIONS -->
+				{{ range $el := .Params.useCaseSection }}
+				<li class="useCase__block">
+					<h2 class="useCase__block-title">{{ .useCaseSectionTitle }}</h2>
+					<div class="useCase-section--divider"></div>
+					<section class="useCase__text-wrap">
+						<div class="useCase__block-descr">
+							<ul>
+							<!-- LIST OF USE-CASE BLOCKS -->
+							{{ range $list := .useCaseSectionContent }}
+								{{ if (eq .isVisible true)}}
+									<div class="useCase__body">
+										<div class="useCase__body--img-wrap">
+											<img src="{{ .useCaseImage }}" alt="Demo Video Thumbnail" class="useCase__body--img-wrap__img">
+										</div>
+										
+										<div class="useCaseTitleDescContainer">
+											<div class="useCase--title">{{ .useCaseTitle }}</div>
+											<div class="useCaseText"> {{ .useCaseDescription | markdownify }}</div>									
+										</div>
+									</div>
+								{{ end }}
+							{{ end }}
+							<!-- LIST OF USE-CASE SECTION BLOCKS -->
+							</ul>
+						</div>	
+					</section>
+				</li>
+				{{ end }}
+				<!-- END: LIST OF USE-CASE SECTIONS -->
+			</ul>	
+		</div>
+	</section>
+	<!-- END: USE-CASES -->
+
+
+
+
+
 
     <!-- 3 STEPS -->
     <section id="getStartedSteps" class="enterV">
@@ -77,49 +120,6 @@
     </section>
     <!-- END: 3 STEPS -->
 
-
-    
-    <!-- BENEFITS / CONCERNS  
-    <section class="homeBenefits" style="padding: 20px 0; background-color: #f1f4fc;">
-        <div class="container">
-            <div class="ftr-features__cards">
-                <div class="pricing__card" style="max-width: 300px;">
-                    <div class="ftr-features__card-image-wrap">
-                        <img src="/img/Vector Smart Object-8@2x.png" alt="icon" class="ftr-features__card-image">
-                    </div>
-                    <h3 class="ftr-features__card-title">Secure</h3>
-                    <div class="enterSectionsA__block-descr">
-                        We use security best practices for our cloud offering that works in a browser. For complete control - you can get Visyond on-premise or white-label it.
-                    </div>
-                </div>
-
-
-                <div class="pricing__card" style="max-width: 300px;">
-                    <div class="ftr-features__card-image-wrap">
-                        <img src="/img/Vector Smart Object-7@2x.png" alt="icon" class="ftr-features__card-image">
-                    </div>
-                    <h3 class="ftr-features__card-title">Excel-like</h3>
-                    <div class="enterSectionsA__block-descr">
-                        We put your Excel model, its formulas and interface in the cloud, automating workflows that would be difficult to achieve otherwise, while keeping things familiar.
-                    </div>
-                </div>
-
-
-                <div class="pricing__card" style="max-width: 300px;">
-                    <div class="ftr-features__card-image-wrap">
-                        <img src="/img/v_icon2.png" alt="icon" class="ftr-features__card-image">
-                    </div>
-                    <h3 class="ftr-features__card-title">Cost-efficient</h3>
-                    <div class="enterSectionsA__block-descr">
-                        Visyond is up to 10-100x more cost-efficient than other solutions (e.g., a combination of add-ins, code, apps, etc.). Get started for free – just follow these <a href="#getStartedSteps">3 simple steps</a>.
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-     END: BENEFITS / CONCERNS -->    
 
 
 
@@ -196,8 +196,6 @@
  
     
     <!-- EXCEL ADDIN OR WEB -->
-
-
     <!-- <section class="homeBenefits" style="background-color: #f1f4fc;">    
         <div class="container">
             <h2 class="enterV__headline">

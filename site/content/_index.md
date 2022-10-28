@@ -27,6 +27,51 @@ topDescription: >-
   </br></br>
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
+useCaseSection:
+  - useCaseSectionContent:
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+    useCaseSectionTitle: Use Case Title 1
+  - useCaseSectionContent:
+      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+    useCaseSectionTitle: Use Case Title 2    
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
