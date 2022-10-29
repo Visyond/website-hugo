@@ -40,11 +40,13 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
+        useCaseURL: /solutions/what-if-analysis/    
       - useCaseTitle: Engaging with Stakeholders
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
           Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date
+        useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Somthing 1
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
@@ -76,7 +78,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                 
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>.                                  
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
@@ -92,7 +94,8 @@ useCaseSection:
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Something-something something              
+          Something-something something
+        useCaseURL: /solutions/what-if-analysis/                         
       - useCaseTitle: Somthing 3
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true

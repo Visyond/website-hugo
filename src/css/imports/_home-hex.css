@@ -1663,14 +1663,22 @@ padding-left: 10px;
     padding: 0;
 }
 
+.useCaseSectionsHeader {
+    text-align: left!important;
+}
+
 .useCase__block {
     width: 100%;
+    display: flex; /
+    flex-direction: column;
+    /* 
     display: block;
     position: relative;
     margin-bottom: 0em;
+    */
 
     &:not(:last-child) {
-        margin-bottom: 4em;
+        margin-bottom: 1em;
      }
 }
 
@@ -1679,7 +1687,9 @@ padding-left: 10px;
     color: #383E4D;
     font-weight: 600;
     line-height: 1.4;
-    text-align: center;
+    text-align: right;
+    width: 70%;
+    align-self: end;
 }
 
 
@@ -1820,6 +1830,12 @@ padding-left: 10px;
     margin-bottom: 16px;
 }
 
+
+
+.useCases__list {
+    display:flex;
+}
+
 .useCases__list .slick-next, /* for carousel */   
 .useCases__list .slick-prev {
 
@@ -1839,5 +1855,7 @@ padding-left: 10px;
 .useCases__list .slick-next {
 
 }
+
+
 
 /*------------END: USE CASES ---------------*/   
