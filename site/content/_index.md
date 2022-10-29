@@ -40,54 +40,81 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
-    useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-  - useCaseSectionContent:
       - useCaseTitle: Engaging with Stakeholders
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
-    useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Engaging with Stakeholders
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date
+      - useCaseTitle: Somthing 1
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
-    useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Engaging with Stakeholders
+          Something-something something          
+      - useCaseTitle: Somthing 2
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
-    useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Engaging with Stakeholders
+          Something-something something              
+      - useCaseTitle: Somthing 3
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
-    useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Engaging with Stakeholders
+          Something-something something    
+      - useCaseTitle: Somthing 4
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+          Something-something something   
+      - useCaseTitle: Somthing 5
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something      
+      - useCaseTitle: Somthing 6
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something                                 
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>                                        
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>.                                  
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
           Securely contribute your data into the central model, track making teammates accountable and untangle the spreadsheet's data from its logic, and show people on what they need to see.
+      - useCaseTitle: Somthing 1
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something          
+      - useCaseTitle: Somthing 2
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something              
+      - useCaseTitle: Somthing 3
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something    
+      - useCaseTitle: Somthing 4
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something   
+      - useCaseTitle: Somthing 5
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something      
+      - useCaseTitle: Somthing 6
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something                                 
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>.       
     useCaseSectionTitle: >-
           <span style="color: #0086ff;">...</span>and boost <span style="color: #0086ff;">collaboration</span> and its security<span style="color: #0086ff;">.</span>
 StepsHeader: >-
