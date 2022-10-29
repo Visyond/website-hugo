@@ -1669,7 +1669,7 @@ padding-left: 10px;
 
 .useCase__block {
     width: 100%;
-    display: flex; /
+    display: flex;
     flex-direction: column;
     /* 
     display: block;
