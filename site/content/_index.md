@@ -28,57 +28,68 @@ topDescription: >-
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
 useCasesHeader: >-
-         Keep Excel's Flexibility
-         <span style="color: #0086ff;">.</span>
+         Engage in Agile Decision-making<span style="color: #0086ff;">.</span>
          <br>
-         Drive Engagement
-         <span style="color: #0086ff;">.</span>
+         Empower Yourself and Your Team<span style="color: #0086ff;">.</span>        
          <br>
-         Empower Yourself and Your Team
-         <span style="color: #0086ff;">...</span>
+         Keep Excel's Flexibility<span style="color: #0086ff;">...</span>
 useCaseSection:
   - useCaseSectionContent:
-      - useCaseTitle: Gather Data
+      - useCaseTitle: Communicating Insights
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
         useCaseDescription: >-
-          Gather data from different stakeholders, exposing only specific parts of the spreadsheet. Track contributions and improve accountability. Separate the model’s logic and data into different layers.
-      - useCaseTitle: Protect Spreadsheets from People
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Prevent people from accidentally corrupting the model. Establish a safe, interactive layer where teams can query the model without interfering with each other or changing the central calculation engine.
-        useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Protect People from Spreadsheets
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Show only what matters to your collaborators and enable them to safely 'play' with it.
-        useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-      - useCaseTitle: Predictive ‘What-if’ Dashboards for Decision Making
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
+          Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>
-          and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools
-          <span style="color: #0086ff;">.</span>
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+  - useCaseSectionContent:
+      - useCaseTitle: Engaging with Stakeholders
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+  - useCaseSectionContent:
+      - useCaseTitle: Engaging with Stakeholders
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+  - useCaseSectionContent:
+      - useCaseTitle: Engaging with Stakeholders
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+  - useCaseSectionContent:
+      - useCaseTitle: Engaging with Stakeholders
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+  - useCaseSectionContent:
+      - useCaseTitle: Engaging with Stakeholders
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>                                        
+  - useCaseSectionContent:
+      - useCaseTitle: Data Gathering
+        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        isVisible: true
+        useCaseDescription: >-
+          Securely contribute your data into the central model, track making teammates accountable and untangle the spreadsheet's data from its logic, and show people on what they need to see.
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>and boost <span style="color: #0086ff;">collaboration</span> and its security<span style="color: #0086ff;">.</span>
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
