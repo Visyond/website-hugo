@@ -73,38 +73,37 @@
 				{{ range $el := .Params.useCaseSection }}
 				<li class="useCase__block">
 					<h2 class="useCase__block-title">{{ .useCaseSectionTitle }}</h2>
-					<section class="useCase__text-wrap">
-						<div class="useCase__block-descr">
-							<ul class="useCases__list js-useCases__list">
-							<!-- LIST OF USE-CASE BLOCKS -->
-							{{ range $list := .useCaseSectionContent }}
-								{{ if (eq .isVisible true)}}
-									<div class="useCase__body">
-										<div class="useCase__body--img-wrap">
-											<img src="{{ .useCaseImage }}" alt="Demo Video Thumbnail" class="useCase__body--img-wrap__img">
-										</div>
-										
-										<div class="useCaseTitleDescContainer">
-											<div class="useCase--title">{{ .useCaseTitle }}</div>
-											<div class="useCaseText"> {{ .useCaseDescription | markdownify }}</div>
-										</div>
 
-                                        {{ if .useCaseURL }}
-                                        <div class="btn-wrap">
-                                            <a href="{{ .useCaseURL }}" class="button button-primary">Learn More</a>
-                                        </div>
-                                        {{ else }}
-                                        <div class="btn-wrap">
-                                            <div class="button button-disabled">Coming Soon</div>
-                                        </div>
-                                        {{ end }}
-									</div>
-								{{ end }}
-							{{ end }}
-							<!-- LIST OF USE-CASE SECTION BLOCKS -->
-							</ul>
-						</div>	
-					</section>
+                    <ul class="useCases__list js-useCases__list">
+                    <!-- LIST OF USE-CASE BLOCKS -->
+                    {{ range $list := .useCaseSectionContent }}
+                        {{ if (eq .isVisible true)}}
+                            <div class="useCase__body">
+                                <div class="useCase__body--img-wrap">
+                                    <img src="{{ .useCaseImage }}" alt="Demo Video Thumbnail" class="useCase__body--img-wrap__img">
+                                </div>
+                                
+                                <div class="useCaseTitleDescContainer">
+                                    <div class="useCase--title">{{ .useCaseTitle }}</div>
+                                    <div class="useCaseText"> {{ .useCaseDescription | markdownify }}</div>
+                                </div>
+
+                                {{ if .useCaseURL }}
+                                <div class="btn-wrap">
+                                    <a href="{{ .useCaseURL }}" class="button button-primary">Learn More</a>
+                                </div>
+                                {{ else }}
+                                <div class="btn-wrap">
+                                    <div class="button button-disabled">Coming Soon</div>
+                                </div>
+                                {{ end }}
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                    <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                    </ul>
+
+
 				</li>
 				{{ end }}
 				<!-- END: LIST OF USE-CASE SECTIONS -->
