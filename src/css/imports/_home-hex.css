@@ -1822,29 +1822,24 @@ padding-left: 10px;
 
 .useCases__list .slick-next, /* for carousel */   
 .useCases__list .slick-prev {
-  z-index: 9;
-  background: url("/img/vimages/arrowL.png") no-repeat;
-  background-size: 70px;
-  height: 139px;
-  width: 70px;
-  transition: background 0.2s ease-in-out;
 
   &:before {
-    content: "";
+    color: #0585ff;
+    opacity: 1;
   }
 
   &:hover {
-    background-size: 70px;
   }
 }
 
 .useCases__list .slick-prev {
-  left: 0;
+    content: "<";
+
 }
 
 .useCases__list .slick-next {
-  right: 0;
-  transform: rotate(180deg) translateY(50%);
+    content: "<";
+
 }
 
 /*------------END: USE CASES ---------------*/   

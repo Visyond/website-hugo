@@ -74,7 +74,7 @@
 				<li class="useCase__block">
 					<h2 class="useCase__block-title">{{ .useCaseSectionTitle }}</h2>
 
-                    <ul class="useCases__list js-useCases__list">
+                    <div class="useCases__list js-useCases__list">
                     <!-- LIST OF USE-CASE BLOCKS -->
                     {{ range $list := .useCaseSectionContent }}
                         {{ if (eq .isVisible true)}}
@@ -101,7 +101,7 @@
                         {{ end }}
                     {{ end }}
                     <!-- LIST OF USE-CASE SECTION BLOCKS -->
-                    </ul>
+                        </div>
 
 
 				</li>
