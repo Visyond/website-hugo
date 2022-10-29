@@ -33,8 +33,8 @@ $(function () {
 
     if($('.trusted__list').length) {
         $('.trusted__list').slick({
-            slidesToShow: 5,
-            slidesToScroll: 2,
+            slidesToShow: 4,
+            slidesToScroll: 3,
             autoplay: false,
             autoplaySpeed: 2000,
             dots: false,
@@ -105,10 +105,10 @@ $(function () {
     if($('.js-useCases__list').length) {
       $('.js-useCases__list').slick({
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 2,
           autoplay: false,
           autoplaySpeed: 2000,
-          dots: false,
+          dots: true,
           arrows: true,
           responsive: [
               {

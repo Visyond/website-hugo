@@ -27,7 +27,15 @@ topDescription: >-
   </br></br>
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
-useCasesHeader: What would you like to do?
+useCasesHeader: >-
+         Keep Excel's Flexibility
+         <span style="color: #0086ff;">.</span>
+         <br>
+         Drive Engagement
+         <span style="color: #0086ff;">.</span>
+         <br>
+         Empower Yourself and Your Team
+         <span style="color: #0086ff;">...</span>
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Gather Data
@@ -67,7 +75,10 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Link your spreadsheet models to interactive online dashboards, and empower collaborators to visualize forecasts and test scenarios.
-    useCaseSectionTitle: Make Collaboration Secure and Improve Accountability
+    useCaseSectionTitle: >-
+          <span style="color: #0086ff;">...</span>
+          and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools
+          <span style="color: #0086ff;">.</span>
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-

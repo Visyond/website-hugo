@@ -1675,7 +1675,7 @@ padding-left: 10px;
 }
 
 .useCase__block-title {
-    font-size: 28px;
+    font-size: 30px;
     color: #383E4D;
     font-weight: 600;
     line-height: 1.4;
@@ -1737,15 +1737,15 @@ padding-left: 10px;
 
 .useCase__body {
     position: relative;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    display: flex;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    display: flex!important;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     width: 340px;
-    margin: 5px;
+    margin: 3px;
     background-color: #fff;
     border: 1px solid #ebebeb;
     border-radius: 15px;

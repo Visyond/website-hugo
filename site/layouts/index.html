@@ -67,12 +67,12 @@
 	<section class="homeBenefits">
 		<div class="container">
             <h2 class="enterV__headline">{{ .Params.useCasesHeader | markdownify }}</h2>
-            <div class="header-section--divider"></div>
+            <!-- <div class="header-section--divider"></div> -->
 			<ul class="useCaseSections">
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
 				<li class="useCase__block">
-					<h2 class="useCase__block-title">{{ .useCaseSectionTitle }}</h2>
+					<h2 class="useCase__block-title">{{ .useCaseSectionTitle | markdownify }}</h2>
 
                     <div class="useCases__list js-useCases__list">
                     <!-- LIST OF USE-CASE BLOCKS -->
@@ -90,7 +90,7 @@
 
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
-                                    <a href="{{ .useCaseURL }}" class="button button-primary">Learn More</a>
+                                    <a href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
                                 </div>
                                 {{ else }}
                                 <div class="btn-wrap">
