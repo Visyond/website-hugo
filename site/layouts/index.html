@@ -72,7 +72,13 @@
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
 				<li class="useCase__block">
-					<h2 class="useCase__block-title">{{ .useCaseSectionTitle | markdownify }}</h2>
+					<h2 
+                    style="
+                        {{ if .useCaseSectionContentThemeCSS }}
+                            {{ .useCaseSectionContentThemeCSS }}
+                        {{ end }}
+                    "
+                    class="useCase__block-title">{{ .useCaseSectionTitle | markdownify }}</h2>
 
                     <div class="useCases__list js-useCases__list">
                     <!-- LIST OF USE-CASE BLOCKS -->
@@ -90,7 +96,13 @@
 
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
-                                    <a href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
+                                    <a style=" 
+                                        {{ with .useCaseSectionContent }}
+                                            {{ if .useCaseSectionContentThemeCSS }} 
+                                                {{ .useCaseSectionContentThemeCSS| markdownify  }} 
+                                            {{ end }} 
+                                        {{ end }}
+                                        " href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
                                 </div>
                                 {{ else }}
                                 <div class="btn-wrap">

@@ -40,7 +40,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
-        useCaseURL: /solutions/what-if-analysis/    
+        useCaseURL: /solutions/what-if-analysis/  
       - useCaseTitle: Engaging with Stakeholders
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
         isVisible: true
@@ -79,6 +79,8 @@ useCaseSection:
           Something-something something                                 
     useCaseSectionTitle: >-
           <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+    useCaseSectionContentThemeCSS: >-
+      color: red; background-color:red;            
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
@@ -117,9 +119,9 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                 
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>.       
-    useCaseSectionTitle: >-
           <span style="color: #0086ff;">...</span>and boost <span style="color: #0086ff;">collaboration</span> and its security<span style="color: #0086ff;">.</span>
+    useCaseSectionContentThemeCSS: >-
+      color: green; background-color:green;
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
