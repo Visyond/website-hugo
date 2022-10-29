@@ -79,8 +79,7 @@ useCaseSection:
           Something-something something                                 
     useCaseSectionTitle: >-
           <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
-    useCaseSectionContentThemeCSS: >-
-      color: red; background-color:red;            
+    useCaseSectionContentThemeColor: '#248f17'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
@@ -120,8 +119,7 @@ useCaseSection:
           Something-something something                                 
     useCaseSectionTitle: >-
           <span style="color: #0086ff;">...</span>and boost <span style="color: #0086ff;">collaboration</span> and its security<span style="color: #0086ff;">.</span>
-    useCaseSectionContentThemeCSS: >-
-      color: green; background-color:green;
+    useCaseSectionContentThemeColor: '#ff0000'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
