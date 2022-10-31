@@ -13,6 +13,7 @@
   }
 }
 
+/*
 .carouselBlock .slick-prev {
     &:before {
         content: url("/img/icons/arrows/arrow_circle_left.svg");    
@@ -24,6 +25,7 @@
         content: url("/img/icons/arrows/arrow_circle_right.svg");    
       }
 }
+*/
 
 .carouselBlock .slick-slide {
     padding: 16px;
