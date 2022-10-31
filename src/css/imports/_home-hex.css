@@ -1850,13 +1850,13 @@ padding-left: 10px;
 
 .useCases__list .slick-prev {
     &:before {
-        content: url("/img/icons//arrows/arrow_circle_left.svg");    
+        content: url("/img/icons/arrows/arrow_circle_left.svg");    
       }
 }
 
 .useCases__list .slick-next {
     &:before {
-        content: url("/img/icons//arrows/arrow_circle_right.svg");    
+        content: url("/img/icons/arrows/arrow_circle_right.svg");    
       }
 }
 

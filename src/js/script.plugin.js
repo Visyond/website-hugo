@@ -104,9 +104,9 @@ $(function () {
 
     if($('.js-useCases__list').length) {
       $('.js-useCases__list').slick({
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 3000,
           dots: true,
           arrows: true,

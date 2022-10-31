@@ -36,87 +36,53 @@ useCasesHeader: >-
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
           Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Engaging with Stakeholders
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+      - useCaseTitle: Interactive Calculators
+        useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer on top of your spreadsheet that always stays up-to-date
+          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Somthing 1
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something          
-      - useCaseTitle: Somthing 2
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something              
-      - useCaseTitle: Somthing 3
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something    
-      - useCaseTitle: Somthing 4
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+      - useCaseTitle: Budget vs Actual
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Something-something something   
-      - useCaseTitle: Somthing 5
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+      - useCaseTitle: Interactive Calculators
+        useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something      
-      - useCaseTitle: Somthing 6
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Budget vs Actual
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something                                 
+          Something-something something                                         
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
     useCaseSectionContentThemeColor: '#248f17'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        useCaseImage: /img/icons/use-cases/data-gathering.png
         isVisible: true
         useCaseDescription: >-
           Securely contribute your data into the central model, track making teammates accountable and untangle the spreadsheet's data from its logic, and show people on what they need to see.
-      - useCaseTitle: Somthing 1
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+      - useCaseTitle: Data Tracking
+        useCaseImage: /img/icons/use-cases/financial-statements.png
         isVisible: true
         useCaseDescription: >-
           Something-something something          
       - useCaseTitle: Somthing 2
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
+        useCaseImage: /img/icons/use-cases/data-tracking.png
         isVisible: true
         useCaseDescription: >-
           Something-something something
-        useCaseURL: /solutions/what-if-analysis/                         
-      - useCaseTitle: Somthing 3
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something    
-      - useCaseTitle: Somthing 4
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something   
-      - useCaseTitle: Somthing 5
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something      
-      - useCaseTitle: Somthing 6
-        useCaseImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something                                 
+        useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#ff0000'
