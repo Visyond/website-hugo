@@ -113,7 +113,61 @@
 
 
 
+	<!-- USE-CASES TEST-->
+	<section class="homeBenefits">
+		<div class="container">
+            <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
+            <!-- <div class="header-section--divider"></div> -->
+			<ul class="">
+				<!-- LIST OF USE-CASE SECTIONS -->
+				{{ range $el := .Params.useCaseSection }}
+				<li class="">
+                        {{ $themeColorz := .useCaseSectionContentThemeColor }}
+					<h2
+                        style="color: {{ $themeColorz }};"
+                    class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
+                    <div class="carouselBlock js-useCases__listTEST">
+                    <!-- LIST OF USE-CASE BLOCKS -->
+                    {{ range $list := .useCaseSectionContent }}
+                        {{ if (eq .isVisible true)}}
+                            <div class="">
+                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
+                                
+                                <div class="carouselSlide">
+                                    <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
+                                    <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
+                                </div>
+
+                                {{ if .useCaseURL }}
+                                <div class="btn-wrap">
+                                    <a 
+                                    style="background-color: {{ $themeColorz }};"
+                                    href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
+                                </div>
+                                {{ else }}
+                                <div class="btn-wrap">
+                                    <div class="button button-disabled">Coming Soon</div>
+                                </div>
+                                {{ end }}
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                    <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                    </div>
+
+
+				</li>
+				{{ end }}
+				<!-- END: LIST OF USE-CASE SECTIONS -->
+			</ul>	
+		</div>
+	</section>
+	<!-- END: USE-CASES TEST -->
+
+
+
+    
     <!-- 3 STEPS -->
     <section id="getStartedSteps" class="enterV">
       <div class="container">

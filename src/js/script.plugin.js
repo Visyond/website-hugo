@@ -145,7 +145,7 @@ $(function () {
   if($('.js-useCases__listTEST').length) {
     $('.js-useCases__listTEST').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: false,
         autoplaySpeed: 3000,
         dots: true,
