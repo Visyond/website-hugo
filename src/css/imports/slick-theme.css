@@ -21,7 +21,15 @@
 .slick-prev,
 .slick-next {
   font-size: 0;
-  line-height: 0;
+
+  cursor: pointer;
+
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+  
+  /* line-height: 0;
 
   position: absolute;
   top: 50%;
@@ -34,13 +42,8 @@
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
-
-  cursor: pointer;
-
-  color: transparent;
-  border: none;
-  outline: none;
-  background: transparent;
+   */
+  
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -75,7 +78,7 @@
 }
 
 .slick-prev {
-  left: -25px;
+  /* left: -25px; */
 }
 [dir="rtl"] .slick-prev {
   right: -25px;
@@ -89,7 +92,7 @@
 }
 
 .slick-next {
-  right: -25px;
+  /* right: -25px; */
 }
 [dir="rtl"] .slick-next {
   right: auto;

@@ -1,3 +1,7 @@
+.carouselBlock {
+    display: flex;
+}
+
 .carouselBlock .slick-next,
 .carouselBlock .slick-prev {
 
@@ -43,7 +47,8 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 1.44;
-    margin: 8px 0 8px; 
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .carouselSlide_description {
@@ -52,4 +57,5 @@
     color: #383e4d;
     font-weight: 400;
     text-align: left;
+    margin-bottom: 20px;
 }
