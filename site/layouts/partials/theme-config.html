@@ -9,15 +9,33 @@
 
 <style>
     /* Top menu */
-    .dropdown-toggle--multicol{
+    .dropdown-toggle--multicol,
+    .dropdown-toggle--active {
         border-color: {{ $primary }}!important; 
     }
     
 
     /* Buttons */
-    .hexNav__link--primary,
     .button-primary { 
          background: {{ $primary }}; 
+    }
+
+    .hexNav__link {
+        color: {{ $primary }};
+    }
+
+
+    .hexNav__link--primary {
+        background: {{ $white }};
+        border-color: {{ $primary }};
+        color: {{ $primary }};
+
+        &:hover {
+            color: {{ $white }};
+            background: {{ $primary }};
+            border-color: {{ $primary }};
+        }
+
     }
 
     

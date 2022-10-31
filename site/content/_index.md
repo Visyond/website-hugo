@@ -28,9 +28,7 @@ topDescription: >-
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
 useCasesHeader: >-
-         Keep Excel’s flexibility.
-         <br>
-         Transform your spreadsheet into...
+         Your spreadsheet model can be..
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
@@ -62,8 +60,8 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...an </span>effective communication tool<span style="color: #383e4d;">...</span>
-    useCaseSectionContentThemeColor: '#ff885b'           
+          <span style="color: #383e4d;">...an </span>effective communication tool<span style="color: #383e4d;">.</span>
+    useCaseSectionContentThemeColor: '#0086ff'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
@@ -82,8 +80,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...a </span> secure multiplayer space <span style="color: #383e4d;">where you are the referee...</span>
-          workflows <span style="color: #383e4d;">, securely.</span>
+          <span style="color: #383e4d;">...a </span> multiplayer workspace<span style="color: #383e4d;"> where you set the rules.</span>
     useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking

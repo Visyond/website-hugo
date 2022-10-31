@@ -12,6 +12,7 @@
     color: #0086ff;
     vertical-align: middle;
     display: inline-block;
+    border-radius: 100px!important;
 
     &-primary {
         color: #fff;
@@ -139,10 +140,8 @@
 }
 
 .button-primary__slider {
-    border-radius: 100px!important;
 
     &:hover {
-        /* top: -2px; */
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
 }

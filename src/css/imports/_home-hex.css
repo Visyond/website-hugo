@@ -1664,7 +1664,7 @@ padding-left: 10px;
     font-weight: 600;
     line-height: 1.4;
     text-align: right;
-    align-self: center;
+    align-self: flex-start;
 }
 
 
