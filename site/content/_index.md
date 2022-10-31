@@ -118,7 +118,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                 
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;"> and simplify </span>multiplayer workflows <span style="color: #383e4d;">,securely.</span>
+          ...<span style="color: #383e4d;"> and simplify </span>multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#ff0000'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
