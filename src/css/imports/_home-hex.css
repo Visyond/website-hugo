@@ -1840,11 +1840,12 @@ padding-left: 10px;
 .useCases__list .slick-prev {
 
   &:before {
-    /*
+    
     color: #0585ff;
     opacity: 1;
-    */
+    /*
     content: url('./img/home/icons/homepage_cloud.png');
+    */
   }
 
   &:hover {
