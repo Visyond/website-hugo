@@ -73,11 +73,7 @@
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
 				<li class="">
-                    {{ if  (isset .Params "useCaseSectionContentThemeColor") }}
                         {{ $themeColor := .useCaseSectionContentThemeColor }}
-                    {{ else }}
-                        {{ $themeColor := "#ff0000" }}
-                    {{ end }}
 					<h2
                         style="color: {{ $themeColor }};"
                     class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h2>
