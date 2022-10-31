@@ -1843,10 +1843,10 @@ padding-left: 10px;
    
     color: #0585ff;
     opacity: 1;
-     /*
-    content: url('/img/home/icons/homepage_cloud.png');
+    
+    content: url('../../../site/static/img/home/icons/homepage_cloud.png');
     content: "111";
-    */
+    
   }
 
   &:hover {
