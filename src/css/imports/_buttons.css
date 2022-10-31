@@ -137,7 +137,7 @@
 }
 
 .button-primary__slider {
-    border-radius: 30px;!important
+    border-radius: 30px!important;
 
     &:hover {
         /* top: -2px; */
