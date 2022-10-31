@@ -1659,13 +1659,12 @@ padding-left: 10px;
 
 
 .useCase__title {
-    font-size: 30px;
+    font-size: 28px;
     color: #383E4D;
     font-weight: 600;
     line-height: 1.4;
     text-align: right;
-    width: 70%;
-    align-self: end;
+    align-self: center;
 }
 
 

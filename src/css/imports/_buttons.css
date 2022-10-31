@@ -28,7 +28,7 @@
         &:hover {
             cursor: default!important;
             box-shadow: none!important;
-            top: 2px!important;
+            top: 0!important;
         }
 
         &:active {
@@ -100,12 +100,12 @@
     }
 
     &:hover {
-        top: -2px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        /* top: -2px; */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
 
     &:active {
-        top: 2px;
+        /* top: 2px; */
         box-shadow: none;
     }
 }
