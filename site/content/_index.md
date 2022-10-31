@@ -20,7 +20,7 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Ask Your Excel Model Anything. Share Answers <span style="color: #0086ff;">in Minutes</span>.
+  Ask Your Excel Model Anything. Share Answers <span style="color: #62bd82;">in Minutes</span>.
 topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">
   Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.
@@ -28,11 +28,9 @@ topDescription: >-
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
 useCasesHeader: >-
-         Engage in agile decision-making<span style="color: #0086ff;">.</span>
+         Keep Excel’s flexibility.
          <br>
-         Empower yourself and your team<span style="color: #0086ff;">.</span>        
-         <br>
-         Keep Excel's flexibility<span style="color: #0086ff;">...</span>
+         Transform your spreadsheet into...
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
@@ -64,7 +62,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;">and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
+          ...<span style="color: #383e4d;">an </span>effective communication tool<span style="color: #383e4d;">...</span>
     useCaseSectionContentThemeColor: '#ff885b'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
@@ -84,7 +82,8 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;">and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
+          <span style="color: #383e4d;">...a </span> secure multiplayer space <span style="color: #383e4d;">where you are the referee...</span>
+          workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
@@ -99,8 +98,23 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;">and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
-    useCaseSectionContentThemeColor: '#f76f83'          
+          <span style="color: #383e4d;">...an </span> insights machine anybody can drive <span style="color: #383e4d;">.</span>
+    useCaseSectionContentThemeColor: '#f76f83'   
+  - useCaseSectionContent:
+      - useCaseTitle: Data Tracking
+        useCaseImage: /img/icons/use-cases/financial-statements.png
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something          
+      - useCaseTitle: Somthing 2
+        useCaseImage: /img/icons/use-cases/data-tracking.png
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something
+        useCaseURL: /solutions/what-if-analysis/                                                    
+    useCaseSectionTitle: >-
+          <span style="color: #383e4d;">...a </span> productivity and decision-support <span style="color: #383e4d;">platform.</span>
+    useCaseSectionContentThemeColor: '#f76f83'              
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
