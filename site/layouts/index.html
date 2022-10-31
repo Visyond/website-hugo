@@ -72,9 +72,10 @@
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
 				<li class="useCase__block">
+                    {{ $themeColor := .useCaseSectionContentThemeColor }}
 					<h2 
                     {{ if .useCaseSectionContentThemeColor }}
-                        style="color: {{ .useCaseSectionContentThemeColor }};"
+                        style="color: {{ $themeColor }};"
                     {{ end }}
                     class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
@@ -93,7 +94,7 @@
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
                                     <a 
-                                    style="color: {{ .Params.title }};"
+                                    style="color: {{ $themeColor }};"
                                     href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
                                 </div>
                                 {{ else }}
