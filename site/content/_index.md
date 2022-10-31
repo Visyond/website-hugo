@@ -64,7 +64,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;"> and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
+          ...<span style="color: #383e4d;">and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
     useCaseSectionContentThemeColor: '#ff885b'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
@@ -84,7 +84,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
+          ...<span style="color: #383e4d;">and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
@@ -99,7 +99,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
+          ...<span style="color: #383e4d;">and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#f76f83'          
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours

@@ -1,0 +1,27 @@
+<!-- This is a hack to "change theme" - primary colors for CTA buttons, links, etc.  -->
+<!-- https://discourse.gohugo.io/t/how-to-use-hugo-template-variables-in-css/4464/14 -->
+
+
+{{ $primaryColor := ""#62bd82"" }}
+
+<style>
+    /* Top menu */
+    .dropdown-toggle--multicol{
+        border-color: {{ $primaryColor }}!important; 
+    }
+    
+
+    /* Buttons */
+    .hexNav__link--primary,
+    .button-primary { 
+         background: {{ $primaryColor }}!important; 
+    }
+
+    
+    /* Hovers */
+    .hexNav__link:hover {
+        color: {{ $primaryColor }}!important; 
+    }
+    
+</style>
+
