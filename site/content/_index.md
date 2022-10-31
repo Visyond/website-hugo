@@ -28,11 +28,11 @@ topDescription: >-
   Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
   </div>
 useCasesHeader: >-
-         Engage in Agile Decision-making<span style="color: #0086ff;">.</span>
+         Engage in agile decision-making<span style="color: #0086ff;">.</span>
          <br>
-         Empower Yourself and Your Team<span style="color: #0086ff;">.</span>        
+         Empower yourself and your team<span style="color: #0086ff;">.</span>        
          <br>
-         Keep Excel's Flexibility<span style="color: #0086ff;">...</span>
+         Keep Excel's flexibility<span style="color: #0086ff;">...</span>
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
@@ -78,7 +78,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                 
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and transform spreadsheets into <span style="color: #0086ff;">effective</span> communication tools<span style="color: #0086ff;">.</span>
+          ...<span style="color: #383e4d;">and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
     useCaseSectionContentThemeColor: '#248f17'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
@@ -118,7 +118,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                 
     useCaseSectionTitle: >-
-          <span style="color: #0086ff;">...</span>and boost <span style="color: #0086ff;">collaboration</span> and its security<span style="color: #0086ff;">.</span>
+          ...<span style="color: #383e4d;">and simplify </span>multiplayer workflows <span style="color: #383e4d;">,securely.</span>
     useCaseSectionContentThemeColor: '#ff0000'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
