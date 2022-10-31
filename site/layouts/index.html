@@ -83,9 +83,7 @@
                     {{ range $list := .useCaseSectionContent }}
                         {{ if (eq .isVisible true)}}
                             <div class="useCase__body">
-                                <div class="useCase__body--img-wrap">
-                                    <img src="{{ .useCaseImage }}" alt="Demo Video Thumbnail" class="useCase__body--img-wrap__img">
-                                </div>
+                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="useCase__body--img-wrap__img">
                                 
                                 <div class="useCaseTitleDescContainer">
                                     <div class="useCase--title">{{ .useCaseTitle }}</div>
@@ -95,7 +93,7 @@
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
                                     <a 
-                                    style="color: {{ $.Param "useCaseSection.useCaseSectionContentThemeColor" }};"
+                                    style="color: {{ .Params.useCaseSection.useCaseSectionContentThemeColor }};"
                                     href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
                                 </div>
                                 {{ else }}

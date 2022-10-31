@@ -39,7 +39,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Establish a layer where teams can safelty query the model without interfering with each other or engaging with the spreadsheet directly. Protect the spreadsheet from people and protect people from the spreadsheet.
+          Establish a layer where teams can safelty query the model without interfering with each other...
         useCaseURL: /solutions/what-if-analysis/  
       - useCaseTitle: Interactive Calculators
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -71,7 +71,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/data-gathering.png
         isVisible: true
         useCaseDescription: >-
-          Securely contribute your data into the central model, track making teammates accountable and untangle the spreadsheet's data from its logic, and show people on what they need to see.
+          Securely contribute your data into the central model, track contributions and do stuff...
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
         isVisible: true
@@ -86,6 +86,15 @@ useCaseSection:
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#ff0000'
+  - useCaseSectionContent:
+      - useCaseTitle: Test
+        useCaseImage: /img/icons/use-cases/data-gathering.png
+        isVisible: true
+        useCaseDescription: >-
+          Securely contribute your data into the central model, track contributions and do stuff...                                                 
+    useCaseSectionTitle: >-
+          ...<span style="color: #383e4d;"> and </span> be amazing <span style="color: #383e4d;"> and do cool stuff.</span>
+    useCaseSectionContentThemeColor: '#ff0000'    
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
