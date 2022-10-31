@@ -1840,11 +1840,8 @@ padding-left: 10px;
 .useCases__list .slick-prev {
 
   &:before {
-   
     color: #0585ff;
     opacity: 1;
-    
-    content: url("/img/home/icons/homepage_cloud.png");    
   }
 
   &:hover {
@@ -1852,11 +1849,15 @@ padding-left: 10px;
 }
 
 .useCases__list .slick-prev {
-
+    &:before {
+        content: url("/img/icons//arrows/arrow_circle_left.svg");    
+      }
 }
 
 .useCases__list .slick-next {
-
+    &:before {
+        content: url("/img/icons//arrows/arrow_circle_right.svg");    
+      }
 }
 
 

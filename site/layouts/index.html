@@ -95,7 +95,7 @@
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
                                     <a 
-                                    {{ if .useCaseSectionContentThemeColor }}
+                                    {{ with .Page.useCaseSection }}
                                     style="color: {{ .useCaseSectionContentThemeColor }};"
                                     {{ end }}
                                     href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
