@@ -118,10 +118,10 @@
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
             <!-- <div class="header-section--divider"></div> -->
-			<ul class="">
+			<div class="">
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
-				<li class="">
+				<div class="">
                         {{ $themeColorz := .useCaseSectionContentThemeColor }}
 					<h2
                         style="color: {{ $themeColorz }};"
@@ -131,13 +131,11 @@
                     <!-- LIST OF USE-CASE BLOCKS -->
                     {{ range $list := .useCaseSectionContent }}
                         {{ if (eq .isVisible true)}}
-                            <div class="">
+                            <div class="carouselSlide">
                                 <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
                                 
-                                <div class="carouselSlide">
-                                    <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
-                                    <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
-                                </div>
+                                <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
+                                <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
 
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
@@ -157,10 +155,10 @@
                     </div>
 
 
-				</li>
+				</div>
 				{{ end }}
 				<!-- END: LIST OF USE-CASE SECTIONS -->
-			</ul>	
+			</div>	
 		</div>
 	</section>
 	<!-- END: USE-CASES TEST -->

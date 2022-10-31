@@ -1,0 +1,55 @@
+.carouselBlock .slick-next,
+.carouselBlock .slick-prev {
+
+  &:before {
+
+  }
+
+  &:hover {
+  }
+}
+
+.carouselBlock .slick-prev {
+    &:before {
+        content: url("/img/icons/arrows/arrow_circle_left.svg");    
+      }
+}
+
+.carouselBlock .slick-next {
+    &:before {
+        content: url("/img/icons/arrows/arrow_circle_right.svg");    
+      }
+}
+
+.carouselBlock .slick-slide {
+    padding: 16px;
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    margin: 6px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 1px rgb(228 228 228 / 55%);
+}
+
+.carouselSlide__img {
+    width: 200px;
+}
+
+.carouselSlide__title {
+    color: #383e4d;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    margin: 8px 0 8px; 
+}
+
+.carouselSlide_description {
+    font-size: 15px;
+    line-height: 1.44;
+    color: #383e4d;
+    font-weight: 400;
+    text-align: left;
+}
