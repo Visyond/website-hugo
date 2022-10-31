@@ -1648,3 +1648,26 @@ padding-left: 10px;
 }
 /*------------END: IE11 FIXES ---------------*/   
 
+
+
+
+
+/*------------USE CASES ---------------*/   
+.useCaseSectionsHeader {
+    text-align: left!important;
+}
+
+
+.useCase__title {
+    font-size: 30px;
+    color: #383E4D;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: right;
+    width: 70%;
+    align-self: end;
+}
+
+
+
+/*------------END: USE CASES ---------------*/   

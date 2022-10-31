@@ -27,6 +27,15 @@
 }
 */
 
+.carousel-wrap {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+        margin-bottom: 28px;
+      }
+}
+
 .carouselBlock .slick-slide {
     padding: 16px;
     display: flex!important;
@@ -41,7 +50,7 @@
 }
 
 .carouselSlide__img {
-    width: 200px;
+    width: 160px;
 }
 
 .carouselSlide__title {
