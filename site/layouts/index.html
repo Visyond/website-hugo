@@ -63,42 +63,41 @@
     <!-- END: LOGOS -->
     
 
-	<!-- USE-CASES -->
+
+	<!-- USE-CASES TEST-->
 	<section class="homeBenefits">
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
             <!-- <div class="header-section--divider"></div> -->
-			<ul class="useCaseSections">
+			<ul class="">
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
-				<li class="useCase__block">
+				<li class="">
                     {{ if .useCaseSectionContentThemeColor }}
                         {{ $themeColor := .useCaseSectionContentThemeColor }}
+                    {{ else }}
+                        {{ $themeColor := "#ff0000" }}
                     {{ end }}
-					<h2 
-                    {{ if $themeColor }}
+					<h2
                         style="color: {{ $themeColor }};"
-                    {{ end }}
                     class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
-                    <div class="useCases__list js-useCases__list">
+                    <div class="js-useCases__list">
                     <!-- LIST OF USE-CASE BLOCKS -->
                     {{ range $list := .useCaseSectionContent }}
                         {{ if (eq .isVisible true)}}
-                            <div class="useCase__body">
-                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="useCase__image">
+                            <div class="">
+                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="">
                                 
-                                <div class="useCaseTitleDescContainer">
-                                    <div class="useCase--title">{{ .useCaseTitle }}</div>
-                                    <div class="useCaseText"> {{ .useCaseDescription | markdownify }}</div>
+                                <div class="">
+                                    <div class="">{{ .useCaseTitle }}</div>
+                                    <div class=""> {{ .useCaseDescription | markdownify }}</div>
                                 </div>
 
                                 {{ if .useCaseURL }}
                                 <div class="btn-wrap">
                                     <a 
-                                    {{ if $themeColor }}
                                     style="background-color: {{ $themeColor }};"
-                                    {{ end }}
                                     href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
                                 </div>
                                 {{ else }}
@@ -119,8 +118,7 @@
 			</ul>	
 		</div>
 	</section>
-	<!-- END: USE-CASES -->
-
+	<!-- END: USE-CASES TEST -->
 
 
 

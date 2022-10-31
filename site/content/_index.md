@@ -100,7 +100,6 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
-    useCaseSectionContentThemeColor: '#f76f83'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
