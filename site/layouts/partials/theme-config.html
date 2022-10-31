@@ -2,25 +2,34 @@
 <!-- https://discourse.gohugo.io/t/how-to-use-hugo-template-variables-in-css/4464/14 -->
 
 
-{{ $primaryColor := "#62bd82" }}
+{{ $primary := "#282828" }}
+{{ $secondary := "#0086ff" }}
+{{ $almost-white := "#fafafa" }}
+{{ $white := "#ffffff" }}
 
 <style>
     /* Top menu */
     .dropdown-toggle--multicol{
-        border-color: {{ $primaryColor }}!important; 
+        border-color: {{ $primary }}!important; 
     }
     
 
     /* Buttons */
     .hexNav__link--primary,
     .button-primary { 
-         background: {{ $primaryColor }}!important; 
+         background: {{ $primary }}; 
     }
 
     
     /* Hovers */
     .hexNav__link:hover {
-        color: {{ $primaryColor }}!important; 
+        color: {{ $secondary }}!important; 
+    }
+
+
+    /* Logo slider */
+    .hexSlider {
+        background-color: {{ $almost-white }}; 
     }
 
 </style>

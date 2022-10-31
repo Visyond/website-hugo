@@ -131,13 +131,15 @@
     border: 2px solid #fff;
     cursor: pointer;
 
+    border-radius: 30px!important;
+
     @media screen and (max-width: 768px) {
         padding: 14px 40px;
     }
 }
 
 .button-primary__slider {
-    border-radius: 30px!important;
+    border-radius: 100px!important;
 
     &:hover {
         /* top: -2px; */

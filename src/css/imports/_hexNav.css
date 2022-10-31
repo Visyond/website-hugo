@@ -84,10 +84,12 @@
 }
 
 &--primary {
-     color: #fff !important;
+     color: #282828;
      font-weight: 700 !important;
-     background: #0585ff !important;
+     background: #fff;
      padding: 0.5em 2em !important;
+     border-radius: 100px!important;
+     border: 2px solid #282828;
 /*
 @media screen and (max-width: 1201px) {
     background: none !important;
