@@ -72,35 +72,37 @@
 
             <!-- LIST OF USE-CASE SECTIONS -->
             {{ range $el := .Params.useCaseSection }}
-                {{ $themeColorz := .useCaseSectionContentThemeColor }}
-                <h2 style="color: {{ $themeColorz }};" class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h2>
+                {{ $themeColor := .useCaseSectionContentThemeColor }}
+                <div>
+                    <h3 style="color: {{ $themeColor }};" class="useCase__block-title"> {{ .useCaseSectionTitle | markdownify }}</h3>
 
-                <div class="carouselBlock js-useCases__list">
-                <!-- LIST OF USE-CASE BLOCKS -->
-                {{ range $list := .useCaseSectionContent }}
-                    {{ if (eq .isVisible true)}}
-                        <div class="carouselSlide">
-                            <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
-                            
-                            <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
-                            <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
+                    <div class="carouselBlock js-useCases__list">
+                    <!-- LIST OF USE-CASE BLOCKS -->
+                    {{ range $list := .useCaseSectionContent }}
+                        {{ if (eq .isVisible true)}}
+                            <div class="carouselSlide">
+                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
+                                
+                                <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
+                                <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
 
-                            {{ if .useCaseURL }}
-                            <div class="btn-wrap">
-                                <a 
-                                style="background-color: {{ $themeColorz }};"
-                                href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
+                                {{ if .useCaseURL }}
+                                <div class="btn-wrap">
+                                    <a 
+                                    style="background-color: {{ $themeColor }};"
+                                    href="{{ .useCaseURL }}" target="_blank" class="button button-primary">Learn More</a>
+                                </div>
+                                {{ else }}
+                                <div class="btn-wrap">
+                                    <div class="button button-disabled">Coming Soon</div>
+                                </div>
+                                {{ end }}
                             </div>
-                            {{ else }}
-                            <div class="btn-wrap">
-                                <div class="button button-disabled">Coming Soon</div>
-                            </div>
-                            {{ end }}
-                        </div>
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-                <!-- LIST OF USE-CASE SECTION BLOCKS -->
-                </div>
+                    <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                    </div>
+                </div>    
             {{ end }}
             <!-- END: LIST OF USE-CASE SECTIONS -->
 

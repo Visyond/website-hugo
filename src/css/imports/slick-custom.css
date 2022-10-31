@@ -6,7 +6,7 @@
 .carouselBlock .slick-prev {
 
   &:before {
-
+    color: red;
   }
 
   &:hover {
