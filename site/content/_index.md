@@ -65,7 +65,7 @@ useCaseSection:
           Something-something something                                         
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and turn your spreadsheet into an </span>effective communication tool<span style="color: #383e4d;">.</span>
-    useCaseSectionContentThemeColor: '#248f17'           
+    useCaseSectionContentThemeColor: '#ff885b'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
@@ -85,7 +85,7 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
-    useCaseSectionContentThemeColor: '#ff0000'
+    useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
@@ -100,7 +100,7 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
-    useCaseSectionContentThemeColor: '#ff0000'
+    useCaseSectionContentThemeColor: '#f76f83'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
