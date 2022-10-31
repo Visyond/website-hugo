@@ -73,8 +73,10 @@
 				<!-- LIST OF USE-CASE SECTIONS -->
 				{{ range $el := .Params.useCaseSection }}
 				<li class="">
-                    {{ if .useCaseSectionContentThemeColor }}
+                    {{ if  (isset .Params "useCaseSectionContentThemeColor") }}
                         {{ $themeColor := .useCaseSectionContentThemeColor }}
+                    {{ else }}
+                        {{ $themeColor := "#ff0000" }}
                     {{ end }}
 					<h2
                         style="color: {{ $themeColor }};"
