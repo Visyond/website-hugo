@@ -87,14 +87,20 @@ useCaseSection:
           ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
     useCaseSectionContentThemeColor: '#ff0000'
   - useCaseSectionContent:
-      - useCaseTitle: Test
-        useCaseImage: /img/icons/use-cases/data-gathering.png
+      - useCaseTitle: Data Tracking
+        useCaseImage: /img/icons/use-cases/financial-statements.png
         isVisible: true
         useCaseDescription: >-
-          Securely contribute your data into the central model, track contributions and do stuff...                                                 
+          Something-something something          
+      - useCaseTitle: Somthing 2
+        useCaseImage: /img/icons/use-cases/data-tracking.png
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something
+        useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          ...<span style="color: #383e4d;"> and </span> be amazing <span style="color: #383e4d;"> and do cool stuff.</span>
-    useCaseSectionContentThemeColor: '#ff0000'    
+          ...<span style="color: #383e4d;"> and </span> simplify multiplayer workflows <span style="color: #383e4d;">, securely.</span>
+    useCaseSectionContentThemeColor: '#ff0000'
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
