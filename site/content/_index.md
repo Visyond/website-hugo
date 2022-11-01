@@ -20,9 +20,9 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Excel flexibility <span style="color: #3da770;">for you</span>.
+  Excel flexibility <span style="color: #349bfd;">for you</span>.
   </br>
-  Cloud playground for<span style="color: #ff9759;"> your team</span>.
+  Cloud playground <span style="color: #349bfd;"> for your team</span>.
   </br>
   Interactive insights <span style="color:#349bfd;">for everybody</span>.
 topDescription: >-
@@ -60,8 +60,8 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #3da770;">...an effective</span> communication tool<span style="color: #3da770;">?</span>
-    useCaseSectionContentThemeColor: '#0086ff'           
+          <span style="color: #282828;">...an effective</span> communication tool<span style="color: #282828;">?</span>
+    useCaseSectionContentThemeColor: '#349bfd'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
@@ -80,7 +80,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #ff9759;">...a </span> multiplayer workspace<span style="color: #ff9759;"> where you set the rules</span><span style="color: #ff9759;">?</span>
+          <span style="color: #282828;">...a </span> multiplayer workspace<span style="color: #282828;"> where you set the rules</span><span style="color: #282828;">?</span>
     useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
@@ -95,7 +95,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #349bfd;">...an </span> insights machine anybody can drive <span style="color: #349bfd;">.</span>
+          <span style="color: #282828;">...an </span> insights machine anybody can drive <span style="color: #282828;">.</span>
     useCaseSectionContentThemeColor: '#f76f83'   
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking

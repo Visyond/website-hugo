@@ -70,6 +70,7 @@
     </section>
 
     <section class="homeBenefits">
+        <div class="container"></div>
             <!-- LIST OF USE-CASE SECTIONS -->
             {{ range $el := .Params.useCaseSection }}
                 {{ $themeColor := .useCaseSectionContentThemeColor }}
@@ -105,7 +106,8 @@
                 </div>    
             {{ end }}
             <!-- END: LIST OF USE-CASE SECTIONS -->
-        </section>
+        </div>
+    </section>
 	<!-- END: USE-CASES -->
 
 

@@ -544,9 +544,9 @@ margin-bottom: 36px;
 }
 .enterV__headline{
     font-size: 46px;
-    color: #383E4D;
     font-weight: 300;
     line-height: 1.44;
+    color: #282828;
     text-align: center;
     /* margin-bottom: 2em; */
     @media screen and (max-width: 800px) {
