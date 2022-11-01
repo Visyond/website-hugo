@@ -37,9 +37,11 @@
         </li>
         -->
 
+        <!-- 
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
         <a href="/pricing/" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}"><span>Pricing</span></a>
         </li>
+        -->
 
         <!--
         <li class="nav__item {{ if eq .Title "Homepage Some"}} nav--homepage-header__item {{end}}">
@@ -71,6 +73,13 @@
     </ul>
 
     <ul class="homepage__user-hexNav-list">
+
+        <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
+            <a href="/pricing/" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
+            Pricing
+        </a>
+        </li>
+
         <li class="hexNav__item {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__item {{end}}">
         <a href="/accounts/login" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
         Login
