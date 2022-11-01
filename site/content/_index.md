@@ -20,13 +20,13 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  <span style="color: #3da770;">Excel flexibility</span> you love.
+  Excel<span style="color: #3da770;"> flexibility</span> you love<span style="color: #3da770;">.</span>
   </br>
-  <span style="color: #ff9759;">Interactive playground</span> for teams.
+  Cloud <span style="color: #ff9759;">playground</span> for teams<span style="color: #ff9759;">.</span>
   </br>
-  <span style="color:#0086ff;">Insights machine</span> anybody can drive.
+  <span style="color:#349bfd;">Insights</span> machine anybody can drive<span style="color:#349bfd;">.</span>
 topDescription: >-
-  Transform your Excel templates and models into an engaging platform to support your teams’ decisions. Help them focus on what’s important by showing them only what they need. 
+  Transform your Excel templates and models into an agile and engaging decision-support workspace. Help everybody focus on what's important with poweful tools. Protect people from the spreadsheet and the defend the spreadsheet from people.
 useCasesHeader: >-
          Your spreadsheet model can be..
 useCaseSection:
