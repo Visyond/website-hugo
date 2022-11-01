@@ -81,6 +81,7 @@
 &:hover {
      /* background: #fff; */
      color: #0585ff;
+     border-color: #0585ff;
 }
 
 &--primary {
