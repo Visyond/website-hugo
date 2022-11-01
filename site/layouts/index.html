@@ -3,7 +3,7 @@
 
 <div class="homehex ht">
     <!-- TOP SECTION -->
-    <section class="home-hero" style="background-image: url('/img/home/blueRectangle.svg');">
+    <section class="home-hero" style="background-image: url('/img/home/blackRectangle.svg');">
         <div class="container">
             <div class="home-hero__container">
                 <div class="home-hero__half-width-wrap">
@@ -58,10 +58,6 @@
     </section>
     <!-- END: TOP SECTION -->
 
-
-    <!-- LOGOS -->
-    {{ partial "hexSlider" . }}
-    <!-- END: LOGOS -->
     
 
 
@@ -70,7 +66,10 @@
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
             <!-- <div class="header-section--divider"></div> -->
+        </div>
+    </section>
 
+    <section class="homeBenefits">
             <!-- LIST OF USE-CASE SECTIONS -->
             {{ range $el := .Params.useCaseSection }}
                 {{ $themeColor := .useCaseSectionContentThemeColor }}
@@ -106,12 +105,14 @@
                 </div>    
             {{ end }}
             <!-- END: LIST OF USE-CASE SECTIONS -->
-
-		</div>
-	</section>
+        </section>
 	<!-- END: USE-CASES -->
 
 
+
+    <!-- LOGOS -->
+    {{ partial "hexSlider" . }}
+    <!-- END: LOGOS -->    
 
     
     <!-- 3 STEPS -->

@@ -442,7 +442,7 @@
 /* SUMMARY CARD TEXT */
 .caseStudy-summary__title, .caseStudy-summary__text {
   width: 100%;
-  font-family: "Open Sans";
+  font-family: "Quicksand", "Open Sans", sans-serif;;
   line-height: 24px;
 }
 

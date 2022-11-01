@@ -79,7 +79,7 @@
 }
 .types__headline, .types__text {
     width: 100%;
-    font-family: "Open Sans";
+    font-family: "Quicksand", "Open Sans", sans-serif;
     color: #383e4d;
     text-align: center;
 }
@@ -171,7 +171,7 @@
     height: 78px;
 }
 .form__input, .form__checked-title, .form__textarea {
-    font-family: "Open Sans";
+    font-family: "Quicksand", "Open Sans", sans-serif;
     border: none;
     border-bottom: 2px solid rgba(82,84,108, 0.25);
     padding: 25px 0 20px;

@@ -126,25 +126,25 @@
   font-size: 14px;
   padding: 10px 14px;
   &::-webkit-input-placeholder {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 400;
   }
   &::-moz-placeholder {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 400;
   } /* Firefox 19+ */
   &:-moz-placeholder {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 400;
   } /* Firefox 18- */
   &:-ms-input-placeholder {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Quicksand", "Open Sans", sans-serif;
     font-size: 14px;
     color: #52556c;
     font-weight: 400;

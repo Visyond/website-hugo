@@ -43,13 +43,19 @@
 }
 @media screen and (min-width: 992px) {
     .homehex .container {
-        max-width: 960px;
+        max-width: 980px;
     }
 }
 @media screen and (min-width: 1201px) {
     .homehex .container {
-        max-width: 1120px;
+        max-width: 1180px;
     }
+@media screen and (min-width: 1441px) {
+    .homehex .container {
+        max-width: 1410px;
+    }
+}
+
 }
 
 
@@ -132,6 +138,9 @@
     .home-hero__title{
         margin-top: 0; /* 20px; */ /*50px*/
     }
+    .home-hero__title > span {
+        font-weight: 600; /* 20px; */ /*50px*/
+    }
 }
 
 /*titles*/
@@ -145,7 +154,7 @@
 /*subtitles*/
 .home-hero__topSubtitle {
 color: #383e4d;
-font-size: 22px;
+font-size: 16px;
 font-weight: 400;
 margin-bottom: 30px;
 }
@@ -1561,7 +1570,7 @@ padding-left: 10px;
   /* ADDIN/WEB CARDS TEXT */
   .addinCloud-summary__title, .addinCloud-summary__text {
     width: 100%;
-    font-family: "Open Sans";
+    font-family: "Quicksand", "Open Sans", sans-serif;
     line-height: 24px;
   }
   

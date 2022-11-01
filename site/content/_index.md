@@ -20,7 +20,11 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Ask Your Excel Model Anything. Share Answers <span style="color: #0086ff;">in Minutes</span>.
+  <span style="color: #3da770;">Excel flexibility</span> you love.
+  </br>
+  <span style="color: #ff9759;">Interactive playground</span> for teams.
+  </br>
+  <span style="color:#0086ff;">Insights machine</span> anybody can drive.
 topDescription: >-
   <div class="home-hero__topSubtitle-subtitle">
   Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.
@@ -103,7 +107,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Something-something something          
-      - useCaseTitle: Somthing 2
+      - useCaseTitle: No-code Apps
         useCaseImage: /img/icons/use-cases/data-tracking.png
         isVisible: true
         useCaseDescription: >-
