@@ -26,11 +26,7 @@ topTitle: >-
   </br>
   <span style="color:#0086ff;">Insights machine</span> anybody can drive.
 topDescription: >-
-  <div class="home-hero__topSubtitle-subtitle">
-  Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.
-  </br></br>
-  Protect sensitive data and reduce information overload by letting each collaborator interact only with what they need.
-  </div>
+  Transform your Excel templates and models into an engaging platform to support your teams’ decisions. Help them focus on what’s important by showing them only what they need. 
 useCasesHeader: >-
          Your spreadsheet model can be..
 useCaseSection:
