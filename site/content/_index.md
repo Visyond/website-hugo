@@ -22,7 +22,7 @@ metaTags: >-
 topTitle: >-
   The Excel flexibility <span style="color: #3da770;">you</span> value.
   </br>
-  The cloud playground <span style="color: #ff9759;">for teams</span>.
+  The cloud playground for <span style="color: #ff9759;">your team</span>.
   </br>
   Interactive insights for <span style="color:#349bfd;">everybody</span>.
 topDescription: >-
