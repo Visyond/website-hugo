@@ -62,6 +62,8 @@
 
 
 	<!-- USE-CASES-->
+
+
 	<section class="homeBenefits">
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
@@ -69,45 +71,49 @@
         </div>
     </section>
 
+
+    <!-- LIST OF USE-CASE SECTIONS -->
+    {{ range $el := .Params.useCaseSection }}
+    {{ $themeColor := .useCaseSectionContentThemeColor }}
     <section class="homeBenefits">
-        <div class="container"></div>
-            <!-- LIST OF USE-CASE SECTIONS -->
-            {{ range $el := .Params.useCaseSection }}
-                {{ $themeColor := .useCaseSectionContentThemeColor }}
-                <div class="carousel-wrap">
-                    <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
+        <div class="container">                
+            <div class="carousel-wrap">
+                <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
-                    <div class="carouselBlock js-useCases__list">
-                    <!-- LIST OF USE-CASE BLOCKS -->
-                    {{ range $list := .useCaseSectionContent }}
-                        {{ if (eq .isVisible true)}}
-                            <div class="carouselSlide">
-                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
-                                
-                                <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
-                                <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
+                <div class="carouselBlock js-useCases__list">
+                <!-- LIST OF USE-CASE BLOCKS -->
+                {{ range $list := .useCaseSectionContent }}
+                    {{ if (eq .isVisible true)}}
+                        <div class="carouselSlide">
+                            <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
+                            
+                            <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
+                            <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
 
-                                {{ if .useCaseURL }}
-                                <div class="btn-wrap">
-                                    <a 
-                                    style="background-color: {{ $themeColor }};"
-                                    href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">Get Started</a>
-                                </div>
-                                {{ else }}
-                                <div class="btn-wrap">
-                                    <div class="button button-disabled">Coming Soon</div>
-                                </div>
-                                {{ end }}
+                            {{ if .useCaseURL }}
+                            <div class="btn-wrap">
+                                <a 
+                                style="background-color: {{ $themeColor }};"
+                                href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">Get Started</a>
                             </div>
-                        {{ end }}
+                            {{ else }}
+                            <div class="btn-wrap">
+                                <div class="button button-disabled">Coming Soon</div>
+                            </div>
+                            {{ end }}
+                        </div>
                     {{ end }}
-                    <!-- LIST OF USE-CASE SECTION BLOCKS -->
-                    </div>
-                </div>    
-            {{ end }}
-            <!-- END: LIST OF USE-CASE SECTIONS -->
+                {{ end }}
+                <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                </div>
+            </div>
         </div>
-    </section>
+    </section>    
+    {{ end }}
+    <!-- END: LIST OF USE-CASE SECTIONS -->
+
+
+
 	<!-- END: USE-CASES -->
 
 
