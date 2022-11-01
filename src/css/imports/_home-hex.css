@@ -232,6 +232,7 @@ margin-bottom: 36px;
 .home-hero__other-features img {
     margin-right: 10px;
     display: inline-block;
+    width: 30px;
 }
 .home-hero__gartner{
     flex-grow: 1;

@@ -10,7 +10,7 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = '<img src="/img/vimages/logoColor.png" alt="Logo">'
+    name = '<img src="/img/common/Visyond Logo Vector 2022.svg" alt="Logo">'
     url = "/"
   [[menu.main]]
     identifier = "solutions"

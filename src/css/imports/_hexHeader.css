@@ -45,6 +45,7 @@ header.scrolled + .headerFix{
 .hexNav__logo-link{
     display: inline-block;
     width: 140px;
+    margin-right: 40px;
 }
 .hexHeader {
     padding: 37px 0;

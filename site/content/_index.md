@@ -20,7 +20,7 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  The Excel<span style="color: #3da770;"> flexibility</span> you value.<span style="color: #3da770;">.</span>
+  The Excel<span style="color: #3da770;"> flexibility</span> you value<span style="color: #3da770;">.</span>
   </br>
   The cloud <span style="color: #ff9759;">playground</span> for teams<span style="color: #ff9759;">.</span>
   </br>

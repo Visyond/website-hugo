@@ -4,14 +4,14 @@
 
 {{ $primary := "#282828" }}
 {{ $secondary := "#0086ff" }}
-{{ $almost_white := "#fafafa" }}
-{{ $white := "#ffffff" }}
+{{ $white_almost := "#fafafa" }}
+{{ $white_true := "#ffffff" }}
 
 <style>
     /* Top menu */
     .dropdown-toggle--multicol,
     .dropdown-toggle--active {
-        border-color: {{ $primary }}!important; 
+        border-color: {{ $secondary }}; 
     }
     
 
@@ -26,14 +26,14 @@
 
 
     .hexNav__link--primary {
-        background: {{ $white }};
+        background: {{ $white_true }};
         border-color: {{ $primary }};
         color: {{ $primary }};
 
         &:hover {
-            color: {{ $white }}important;
-            background: {{ $primary }}!important;
-            border-color: {{ $primary }}important;
+            color: {{ $white_true }}!;
+            background: {{ $primary }}!;
+            border-color: {{ $primary }};
         }
 
     }
@@ -41,13 +41,13 @@
     
     /* Hovers */
     .hexNav__link:hover {
-        color: {{ $secondary }}!; 
+        color: {{ $secondary }}; 
     }
 
 
     /* Logo slider */
     .hexSlider {
-        background-color: {{ $almost_white }}; 
+        background-color: {{ $white_almost }}; 
     }
 
 </style>
