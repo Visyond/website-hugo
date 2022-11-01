@@ -20,15 +20,15 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Excel<span style="color: #3da770;"> flexibility</span> you love<span style="color: #3da770;">.</span>
+  The Excel<span style="color: #3da770;"> flexibility</span> you value.<span style="color: #3da770;">.</span>
   </br>
-  Cloud <span style="color: #ff9759;">playground</span> for teams<span style="color: #ff9759;">.</span>
+  The cloud <span style="color: #ff9759;">playground</span> for teams<span style="color: #ff9759;">.</span>
   </br>
-  <span style="color:#349bfd;">Insights</span> machine anybody can drive<span style="color:#349bfd;">.</span>
+  Interactive <span style="color:#349bfd;">insights</span> for everybody<span style="color:#349bfd;">.</span>
 topDescription: >-
-  Transform your Excel templates and models into an agile and engaging decision-support workspace. Help everybody focus on what's important with poweful tools. Protect people from the spreadsheet and the defend the spreadsheet from people.
+  Transform Excel templates and models into interactive workspaces for agile decisions. Empower everybody to focus on what's important, drive engagement and shield the calculation core from accidents.
 useCasesHeader: >-
-         Your spreadsheet model can be..
+         What would you like your spreadsheet to be...
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
@@ -60,7 +60,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...an </span>effective communication tool<span style="color: #383e4d;">.</span>
+          <span style="color: #3da770;">...an effective</span> communication tool<span style="color: #3da770;">?</span>
     useCaseSectionContentThemeColor: '#0086ff'           
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
@@ -80,7 +80,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...a </span> multiplayer workspace<span style="color: #383e4d;"> where you set the rules.</span>
+          <span style="color: #ff9759;">...a </span> multiplayer workspace<span style="color: #ff9759;"> where you set the rules</span><span style="color: #ff9759;">?</span>
     useCaseSectionContentThemeColor: '#62bd82'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
@@ -95,7 +95,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...an </span> insights machine anybody can drive <span style="color: #383e4d;">.</span>
+          <span style="color: #349bfd;">...an </span> insights machine anybody can drive <span style="color: #349bfd;">.</span>
     useCaseSectionContentThemeColor: '#f76f83'   
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking

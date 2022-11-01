@@ -36,6 +36,10 @@
       }
 }
 
+.carousel-wrap > h2 > span {
+    font-weight: 400;
+}
+
 .carouselBlock .slick-slide {
     padding: 16px;
     display: flex!important;

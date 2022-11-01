@@ -26,6 +26,11 @@
         max-width: 1120px;
     }
 }
+@media screen and (min-width: 1441px) {
+    .hexHeader .container {
+        max-width: 1410px;
+    }
+}
 .headerFix{
     height: 110px;
     background: white;
