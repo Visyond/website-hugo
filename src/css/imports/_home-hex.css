@@ -133,14 +133,14 @@
     }
     .home-hero__half-width-wrap--image{
         float: right;
-        width: 49%;
+        width: 45%;
     }
     .home-hero__title{
         margin-top: 0; /* 20px; */ /*50px*/
         margin-bottom: 20px
     }
     .home-hero__title > span {
-        font-weight: 500; /* 20px; */ /*50px*/
+        font-weight: 600; /* 20px; */ /*50px*/
     }
 }
 
@@ -149,7 +149,7 @@
     font-size: 38px; /*34*/
     line-height: 1.44; /*45*/
     color: #282828; /* #383e4d*/
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /*subtitles*/
