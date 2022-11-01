@@ -20,11 +20,11 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  The Excel flexibility <span style="color: #3da770;">you</span> value.
+  Excel <span style="color: #3da770;">flexibility for you</span>.
   </br>
-  The cloud playground for <span style="color: #ff9759;">your team</span>.
+  Cloud <span style="color: #ff9759;">playground for your team</span>.
   </br>
-  Interactive insights for <span style="color:#349bfd;">everybody</span>.
+  Interactive <span style="color:#349bfd;">insights for everybody</span>.
 topDescription: >-
   Transform Excel templates and models into interactive workspaces for agile decisions. Empower everybody to focus on what's important, drive engagement and shield the calculation core from accidents.
 useCasesHeader: >-
