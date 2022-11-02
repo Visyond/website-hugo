@@ -5,12 +5,14 @@ $(function () {
 
     //===== dynamic top title ======
 
+    //  fix: breaks /faq and /pricing dropdowns
+
     var pageTopTitle = document.getElementById("js-dynamicTitle");
     var initialText = pageTopTitle.innerHTML;
     var initialColor = $("#js-dynamicTitle").css("color");
     var titlesCounter = 0;
     var titleChangeDelay = 4500;
-    var inst = setUpdateTitleInterval(updateTitle, titleChangeDelay);
+    var inst = setInterval(updateTitle, titleChangeDelay);
     
     var newTitles = [
     ["workflow automation", "#ffa946"],
