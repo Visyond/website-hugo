@@ -20,7 +20,9 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Make your spreadsheet ready for <span id="js-dynamicTitle">agile decision-making</span>
+  Make your spreadsheet ready for<
+  /br>
+  <span id="js-dynamicTitle">agile decision-making</span>
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
