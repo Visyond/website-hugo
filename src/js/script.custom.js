@@ -4,7 +4,7 @@ $(function () {
 
 
     //===== dynamic top title ======
-    /*
+
     var pageTopTitle = document.getElementById("js-dynamicTitle");
     var initialText = pageTopTitle.innerHTML;
     var initialColor = $("#js-dynamicTitle").css("color");
@@ -36,7 +36,7 @@ $(function () {
       }, 850);
       
     }
-    */
+
 
     
 
