@@ -149,6 +149,11 @@
     font-weight: 900;
 }
 
+.home-hero__title > span {
+    color:#349bfd;
+    transition: color 0.75s ease-in-out;
+}
+
 /*subtitles*/
 .home-hero__topSubtitle {
 font-size: 20px;

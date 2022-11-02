@@ -188,7 +188,7 @@ header.scrolled + .headerFix{
 
 .header-user__link--sign-up {
     text-transform: uppercase;
-    background: #0585ff;
+    background: #349bfd;
     color: #fff;
     padding: 10px 56px;
     border-radius: 3px;
@@ -210,8 +210,8 @@ header.scrolled + .headerFix{
 
 .header-section--divider {
     width: 48px;
-    height: 4px;
-    background-color: #0685ff;
+    height: 6px;
+    background-color: #349bfd;
     margin: 4em auto;
-    border-radius: 2px;
+    border-radius: 20px;
 }

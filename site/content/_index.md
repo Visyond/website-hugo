@@ -20,13 +20,9 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Excel flexibility <span style="color: #349bfd;">for you</span>.
-  </br>
-  Cloud playground <span style="color: #349bfd;"> for your team</span>.
-  </br>
-  Interactive insights <span style="color:#349bfd;">for everybody</span>.
+  Make your spreadsheet ready for <span id="js-dynamicTitle">agile decision-making</span>
 topDescription: >-
-  Transform Excel templates and models into interactive workspaces for agile decisions. Empower everybody to focus on what's important, drive engagement and shield the calculation core from accidents.
+  Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
          What would you like your spreadsheet to be...
 useCaseSection:
@@ -81,7 +77,7 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           <span style="color: #282828;">...a </span> multiplayer workspace<span style="color: #282828;"> where you set the rules</span><span style="color: #282828;">?</span>
-    useCaseSectionContentThemeColor: '#62bd82'
+    useCaseSectionContentThemeColor: '#34ae6e'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
@@ -96,7 +92,7 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           <span style="color: #282828;">...an </span> insights machine anybody can drive <span style="color: #282828;">.</span>
-    useCaseSectionContentThemeColor: '#f76f83'   
+    useCaseSectionContentThemeColor: '#ffa946'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
