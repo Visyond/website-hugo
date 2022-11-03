@@ -15,8 +15,9 @@ $(function () {
     var inst = setInterval(updateTitle, titleChangeDelay);
     
     var newTitles = [
-    ["workflow automation", "#ffa946"],
-    ["secure collaboration", "#34ae6e"],
+    ["collaboration challenges", "#ffa946"],
+    ["productivity boost", "#34ae6e"],
+    ["security risks", "#ff6f76"],
     [initialText, initialColor],
     ];
     

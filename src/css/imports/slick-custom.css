@@ -46,11 +46,10 @@
     flex-direction: column;
     align-items: center;
     width: 340px;
-    margin: 6px;
+    /* margin: 6px; */
     background-color: #fff;
-    border: 1px solid #ebebeb;
-    border-radius: 15px;
-    box-shadow: 0 0 8px 1px rgb(228 228 228 / 55%);
+    /* border-radius: 15px; */
+    /* box-shadow: 0 0 8px 1px rgb(228 228 228 / 55%); */
 }
 
 .carouselSlide__img {
@@ -67,10 +66,12 @@
 }
 
 .carouselSlide_description {
+    display: none;
     font-size: 15px;
     line-height: 1.44;
     color: #383e4d;
     font-weight: 400;
     text-align: left;
     margin-bottom: 20px;
+    
 }
