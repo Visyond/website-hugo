@@ -11,7 +11,7 @@ $(function () {
     var initialText = pageTopTitle.innerHTML;
     var initialColor = $("#js-dynamicTitle").css("color");
     var titlesCounter = 0;
-    var titleChangeDelay = 4500;
+    var titleChangeDelay = 4000;
     var inst = setInterval(updateTitle, titleChangeDelay);
     
     var newTitles = [
