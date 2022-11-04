@@ -76,13 +76,20 @@
     display: none;
 }
 
+.carouselSlide--disabled {
+    &:hover {
+        cursor: default;
+    }
+}
+
 .carouselSlide .btn-wrap {
     align-self: flex-end;
 }
 
-.carouselSlide--disabled {
+.carouselSlide .button-primary__slider {
+    padding: 10px 10px;
     &:hover {
-        cursor: default;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
 }
 

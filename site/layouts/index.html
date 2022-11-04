@@ -87,7 +87,7 @@
                         {{ if .useCaseURL }}
                         href="{{ .useCaseURL }}"
                         {{ end }} 
-                        class="carouselSlide {{ if .useCaseURL }} carouselSlide--disabled {{ end }}">
+                        class="carouselSlide {{ if not (isset ."useCaseURL") }} carouselSlide--disabled {{ end }}"> 
                             <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
                             
                             <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
@@ -97,11 +97,11 @@
                             <div class="btn-wrap">
                                 {{ if .useCaseURL }}
                                 <div style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
-                                    <i class="material-icons">play_arrow</i>
+                                    <i class="material-icons">keyboard_arrow_right</i>
                                 </div>
                                 {{ else }}
                                 <div class="button button-disabled">
-                                    <i class="material-icons">play_arrow</i>
+                                    <i class="material-icons">keyboard_arrow_right</i>
                                 </div>
                                 {{ end }}
                             </div>
