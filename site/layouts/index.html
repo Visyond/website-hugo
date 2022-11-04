@@ -81,13 +81,13 @@
 
                 <div class="carouselBlock js-useCases__list">
                 <!-- LIST OF USE-CASE BLOCKS -->
-                {{ range $list := .useCaseSectionContent }}
+                {{ range $list := .useCaseSectionContent }}   
                     {{ if (eq .isVisible true)}}
                         <a 
                         {{ if .useCaseURL }}
                         href="{{ .useCaseURL }}"
                         {{ end }} 
-                        class="carouselSlide">
+                        class="carouselSlide {{ if .useCaseURL }} carouselSlide--disabled {{ end}}">
                             <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
                             
                             <div class="carouselSlide__title">{{ .useCaseTitle }}</div>

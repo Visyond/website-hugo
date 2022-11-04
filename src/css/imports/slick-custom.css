@@ -56,6 +56,7 @@
     transition: background 0.2s ease-in-out;
     background: #fff;
     cursor: pointer;
+    display: flex;
     align-items: flex-start;
     
     &:hover {
@@ -67,18 +68,28 @@
     }
 }
 
-/*
+
 .carouselSlide:hover .carouselSlide__title {
-    transform: scaleY(0.66)
+   /* transform: scaleY(0.66) */
 }
 
 .carouselSlide:hover .carouselSlide_description {
-    transform: scaleY(0.66)
+    /*transform: scaleY(0.66) */
+    opacity: 1;
 }
-*/ 
 
 .carouselSlide .btn-wrap {
     align-self: flex-end;
+}
+
+.carouselSlide--disabled {
+    &:hover {
+        cursor: default;
+    }
+}
+
+.carouselSlide__img {
+    width: 140px;
 }
 
 
@@ -92,7 +103,7 @@
 }
 
 .carouselSlide_description {
-    display: none;
+    opacity: 0;
     font-size: 15px;
     line-height: 1.44;
     color: #383e4d;
