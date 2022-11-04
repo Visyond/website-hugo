@@ -56,6 +56,7 @@
     transition: background 0.2s ease-in-out;
     background: #fff;
     cursor: pointer;
+    align-items: flex-start;
     
     &:hover {
         background: #a4a4a4;
@@ -76,9 +77,10 @@
 }
 */ 
 
-.carouselSlide__img {
-    width: 160px;
+.carouselSlide .btn-wrap {
+    align-self: flex-end;
 }
+
 
 .carouselSlide__title {
     color: #383e4d;

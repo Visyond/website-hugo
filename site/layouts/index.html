@@ -97,10 +97,12 @@
                             <div class="btn-wrap">
                                 {{ if .useCaseURL }}
                                 <div style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
-                                    TEST
+                                    <i class="material-icons">play_arrow</i>
                                 </div>
                                 {{ else }}
-                                <div class="button button-disabled">Coming Soon</div>
+                                <div class="button button-disabled">
+                                    <i class="material-icons">play_arrow</i>
+                                </div>
                                 {{ end }}
                             </div>
                         </a>
