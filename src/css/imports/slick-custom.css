@@ -59,11 +59,14 @@
     
     &:hover {
         background: #a4a4a4;
+        /*
         transform: scaleY(1.5);
         transform-origin: bottom;
+        */
     }
 }
 
+/*
 .carouselSlide:hover .carouselSlide__title {
     transform: scaleY(0.66)
 }
@@ -71,7 +74,7 @@
 .carouselSlide:hover .carouselSlide_description {
     transform: scaleY(0.66)
 }
-
+*/ 
 
 .carouselSlide__img {
     width: 160px;
