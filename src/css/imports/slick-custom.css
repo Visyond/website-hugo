@@ -32,10 +32,6 @@
     flex-direction: column;
 }
 
-.carousel-wrap > h2 > span {
-    font-weight: 400;
-}
-
 .carouselBlock .slick-slide {
     padding: 24px;
     display: flex!important;
@@ -55,7 +51,7 @@
     
 
     &:hover {
-        background: #dfdfdf;
+        background: ##f6f6f6;
         align-items: flex-start;
 
         /*
@@ -102,7 +98,6 @@
     background: #fff;
     transition: color 0.2s ease-in-out; 
     transition: background 0.2s ease-in-out; 
-    transition: border-color 0.2s ease-in-out; 
     line-height: 0.5;
     
     &:hover {
@@ -130,7 +125,7 @@
     display: none;
     font-size: 15px;
     line-height: 1.44;
-    color: #383e4d;
+    color: #282828;
     font-weight: 400;
     text-align: left;
     margin-bottom: 20px;

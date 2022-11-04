@@ -1679,6 +1679,10 @@ padding-left: 10px;
     align-self: flex-start;
 }
 
+.useCase__title > span {
+    color: #349bfd;
+}
+
 .homeBenefits--useCases .container--useCase {
     &:not(:last-child) {
         margin-bottom: 60px;

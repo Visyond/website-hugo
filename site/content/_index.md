@@ -26,7 +26,7 @@ topTitle: >-
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
-         Turn Excel into...
+         Which tasks can Visyond help you with?
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
@@ -58,7 +58,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #282828;">...an effective</span> communication tool<span style="color: #282828;">?</span>       
+          Transform Excel into an <span>effective communication tool</span>.
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
