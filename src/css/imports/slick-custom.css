@@ -28,8 +28,7 @@
 */
 
 .carousel-wrap {
-    display: flex;
-    flex-direction: column;
+
 }
 
 .carouselBlock .slick-slide {

@@ -1672,11 +1672,10 @@ padding-left: 10px;
 
 .useCase__title {
     font-size: 34px;
-    color: #383E4D;
+    color: #282828;
     font-weight: 300;
     line-height: 1.4;
-    text-align: right;
-    align-self: flex-start;
+    text-align: center;
 }
 
 .useCase__title > span {

@@ -58,7 +58,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          Transform Excel into an <span>effective communication tool</span>.
+          Transform Excel into an <span>effective communication tool</span>
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
