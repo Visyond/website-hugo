@@ -63,7 +63,7 @@
 	<!-- USE-CASES-->
 
 
-	<section class="homeBenefits">
+	<section class="homeBenefits homeBenefits--useCases">
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
             <!-- <div class="header-section--divider"></div> -->
@@ -75,7 +75,7 @@
         {{ range $el := .Params.useCaseSection }}
         {{ $themeColor := .useCaseSectionContentThemeColor }}
         
-            <div class="container">                
+            <div class="container container--useCase">                
                 <div class="carousel-wrap">
                     <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
