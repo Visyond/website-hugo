@@ -66,7 +66,7 @@
 }
 
 .carouselSlide:hover .carouselSlide__title {
-   /* transform: scaleY(0.66) */
+    color: #349bfd;
 }
 
 .carouselSlide:hover .carouselSlide_description {
@@ -77,6 +77,12 @@
 .carouselSlide:hover .carouselSlide__img {
     /*transform: scaleY(0.66) */
     display: none;
+}
+
+.carouselSlide:hover .button-primary__slider {
+    color: #fff;
+    background: #349bfd;
+    border-color: #349bfd;
 }
 
 .carouselSlide--disabled {
@@ -91,16 +97,18 @@
 
 .carouselSlide .button-primary__slider {
     padding: 10px 12px!important;
-    border: 2px solid #282828;
+    border: 1.5px solid #282828;
     color: #282828;
     background: #fff;
     transition: color 0.2s ease-in-out; 
     transition: background 0.2s ease-in-out; 
+    transition: border-color 0.2s ease-in-out; 
+    line-height: 0.5;
     
     &:hover {
         color: #fff;
         background: #349bfd;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+        border-color: #349bfd;
     }
 }
 
