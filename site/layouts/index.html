@@ -68,50 +68,50 @@
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
             <!-- <div class="header-section--divider"></div> -->
         </div>
-    </section>
+   
 
 
-    <!-- LIST OF USE-CASE SECTIONS -->
-    {{ range $el := .Params.useCaseSection }}
-    {{ $themeColor := .useCaseSectionContentThemeColor }}
-    <section class="homeBenefits">
-        <div class="container">                
-            <div class="carousel-wrap">
-                <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
+        <!-- LIST OF USE-CASE SECTIONS -->
+        {{ range $el := .Params.useCaseSection }}
+        {{ $themeColor := .useCaseSectionContentThemeColor }}
+        
+            <div class="container">                
+                <div class="carousel-wrap">
+                    <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
-                <div class="carouselBlock js-useCases__list">
-                <!-- LIST OF USE-CASE BLOCKS -->
-                {{ range $list := .useCaseSectionContent }}   
-                    {{ if (eq .isVisible true)}}
-                        <a 
-                        {{ if .useCaseURL }}
-                        href="{{ .useCaseURL }}"
-                        {{ end }} 
-                        class="carouselSlide {{ if not (isset . "useCaseURL") }} carouselSlide--disabled {{ end }}"> 
-                            <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
-                            
-                            <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
-                            <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
+                    <div class="carouselBlock js-useCases__list">
+                    <!-- LIST OF USE-CASE BLOCKS -->
+                    {{ range $list := .useCaseSectionContent }}   
+                        {{ if (eq .isVisible true)}}
+                            <a 
+                            {{ if .useCaseURL }}
+                            href="{{ .useCaseURL }}"
+                            {{ end }} 
+                            class="carouselSlide {{ if not (isset . "useCaseURL") }} carouselSlide--disabled {{ end }}"> 
+                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
+                                
+                                <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
+                                <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
 
-                            
-                            <div class="btn-wrap">
-                                {{ if .useCaseURL }}
-                                <div style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
-                                    <i class="material-icons">keyboard_arrow_right</i>
+                                
+                                <div class="btn-wrap">
+                                    {{ if .useCaseURL }}
+                                    <div style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                    </div>
+                                    {{ else }}
+                                    <div class="button button-disabled">
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                    </div>
+                                    {{ end }}
                                 </div>
-                                {{ else }}
-                                <div class="button button-disabled">
-                                    <i class="material-icons">keyboard_arrow_right</i>
-                                </div>
-                                {{ end }}
-                            </div>
-                        </a>
+                            </a>
+                        {{ end }}
                     {{ end }}
-                {{ end }}
-                <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                    <!-- LIST OF USE-CASE SECTION BLOCKS -->
+                    </div>
                 </div>
             </div>
-        </div>
     </section>    
     {{ end }}
     <!-- END: LIST OF USE-CASE SECTIONS -->

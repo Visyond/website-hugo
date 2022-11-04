@@ -41,7 +41,7 @@
 }
 
 .carouselBlock .slick-slide {
-    padding: 16px;
+    padding: 30px;
     display: flex!important;
     flex-direction: column;
     align-items: center;
@@ -52,11 +52,11 @@
     cursor: pointer;
     display: flex;
     align-items: flex-start;
-    border-radius: 22px;
+    border-radius: 22px;    
     
 
     &:hover {
-        background: #a4a4a4;
+        background: #9b9b9b;
         /*
         transform: scaleY(1.5);
         transform-origin: bottom;
@@ -70,7 +70,7 @@
 
 .carouselSlide:hover .carouselSlide_description {
     /*transform: scaleY(0.66) */
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 .carouselSlide:hover .carouselSlide__img {
@@ -96,7 +96,7 @@
 }
 
 .carouselSlide__img {
-    width: 140px;
+    width: 100px;
 }
 
 

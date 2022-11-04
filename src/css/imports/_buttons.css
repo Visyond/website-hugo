@@ -30,7 +30,7 @@
             cursor: default!important;
             box-shadow: none!important;
             top: 0!important;
-            background: #dfdfdf;
+            background: #dfdfdf!important;
         }
 
         &:active {
