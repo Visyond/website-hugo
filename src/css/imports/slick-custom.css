@@ -78,6 +78,7 @@
     color: #fff;
     background: #349bfd;
     border-color: #349bfd;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
 }
 
 .carouselSlide--disabled {
