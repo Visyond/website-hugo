@@ -52,6 +52,8 @@
     cursor: pointer;
     display: flex;
     align-items: flex-start;
+    border-radius: 22px;
+    
 
     &:hover {
         background: #a4a4a4;
