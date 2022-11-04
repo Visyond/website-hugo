@@ -86,26 +86,23 @@
                         <a 
                         {{ if .useCaseURL }}
                         href="{{ .useCaseURL }}"
-                        {{ end}} 
+                        {{ end }} 
                         class="carouselSlide">
                             <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="carouselSlide__img">
                             
                             <div class="carouselSlide__title">{{ .useCaseTitle }}</div>
                             <div class="carouselSlide_description"> {{ .useCaseDescription | markdownify }}</div>
 
-                            {{ if .useCaseURL }}
+                            
                             <div class="btn-wrap">
-                                <a 
-                                style="background-color: {{ $themeColor }};"
-                                href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
+                                {{ if .useCaseURL }}
+                                <a style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
                                     <i class="material-icons">play_arrow</i>
                                 </a>
-                            </div>
-                            {{ else }}
-                            <div class="btn-wrap">
+                                {{ else }}
                                 <div class="button button-disabled">Coming Soon</div>
+                                {{ end }}
                             </div>
-                            {{ end }}
                         </a>
                     {{ end }}
                 {{ end }}
