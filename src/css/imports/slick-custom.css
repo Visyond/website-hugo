@@ -47,13 +47,17 @@
     background: #fff;
     cursor: pointer;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 22px;
     margin: 6px;
+    border: 1px solid #efefef;
+    box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
     
 
     &:hover {
         background: #dfdfdf;
+        align-items: flex-start;
+
         /*
         transform: scaleY(1.5);
         transform-origin: bottom;
@@ -87,7 +91,15 @@
 
 .carouselSlide .button-primary__slider {
     padding: 10px 12px!important;
+    border: 2px solid #282828;
+    color: #282828;
+    background: #fff;
+    transition: color 0.2s ease-in-out; 
+    transition: background 0.2s ease-in-out; 
+    
     &:hover {
+        color: #fff;
+        background: #349bfd;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     }
 }

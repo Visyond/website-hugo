@@ -73,11 +73,10 @@
 
         <!-- LIST OF USE-CASE SECTIONS -->
         {{ range $el := .Params.useCaseSection }}
-        {{ $themeColor := .useCaseSectionContentThemeColor }}
         
             <div class="container container--useCase">                
                 <div class="carousel-wrap">
-                    <h2 style="color: {{ $themeColor }};" class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
+                    <h2 class="useCase__title"> {{ .useCaseSectionTitle | markdownify }}</h2>
 
                     <div class="carouselBlock js-useCases__list">
                     <!-- LIST OF USE-CASE BLOCKS -->
@@ -96,7 +95,7 @@
                                 
                                 <div class="btn-wrap">
                                     {{ if .useCaseURL }}
-                                    <div style="background-color: {{ $themeColor }};" href="{{ .useCaseURL }}" target="_blank" class="button button-primary button-primary__slider">
+                                    <div href="{{ .useCaseURL }}" target="_blank" class="button button-primary__slider">
                                         <i class="material-icons">keyboard_arrow_right</i>
                                     </div>
                                     {{ else }}

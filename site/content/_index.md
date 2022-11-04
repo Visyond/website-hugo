@@ -58,8 +58,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #282828;">...an effective</span> communication tool<span style="color: #282828;">?</span>
-    useCaseSectionContentThemeColor: '#349bfd'           
+          <span style="color: #282828;">...an effective</span> communication tool<span style="color: #282828;">?</span>       
   - useCaseSectionContent:
       - useCaseTitle: Data Gathering
         useCaseImage: /img/icons/use-cases/data-gathering.png
@@ -79,7 +78,6 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           <span style="color: #282828;">...a </span> multiplayer workspace<span style="color: #282828;"> where you set the rules</span><span style="color: #282828;">?</span>
-    useCaseSectionContentThemeColor: '#34ae6e'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
@@ -94,7 +92,6 @@ useCaseSection:
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
           <span style="color: #282828;">...an </span> insights machine anybody can drive <span style="color: #282828;">.</span>
-    useCaseSectionContentThemeColor: '#ffa946'
   - useCaseSectionContent:
       - useCaseTitle: Data Tracking
         useCaseImage: /img/icons/use-cases/financial-statements.png
@@ -108,8 +105,7 @@ useCaseSection:
           Something-something something
         useCaseURL: /solutions/what-if-analysis/                                                    
     useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...a </span> productivity and decision-support <span style="color: #383e4d;">platform.</span>
-    useCaseSectionContentThemeColor: '#f76f83'              
+          <span style="color: #383e4d;">...a </span> productivity and decision-support <span style="color: #383e4d;">platform.</span>           
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
