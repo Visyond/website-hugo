@@ -52,6 +52,27 @@
     /* box-shadow: 0 0 8px 1px rgb(228 228 228 / 55%); */
 }
 
+.carouselSlide {
+    transition: background 0.2s ease-in-out;
+    background: #fff;
+    cursor: pointer;
+    
+    &:hover {
+        background: #a4a4a4;
+        transform: scaleY(1.5);
+        transform-origin: bottom;
+    }
+}
+
+.carouselSlide:hover .carouselSlide__title {
+    transform: scaleY(0.66)
+}
+
+.carouselSlide:hover .carouselSlide_description {
+    transform: scaleY(0.66)
+}
+
+
 .carouselSlide__img {
     width: 160px;
 }

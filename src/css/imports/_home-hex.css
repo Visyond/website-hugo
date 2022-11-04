@@ -549,7 +549,7 @@ margin-bottom: 36px;
 }
 .enterV__headline{
     font-size: 46px;
-    font-weight: 300;
+    font-weight: 900;
     line-height: 1.44;
     color: #282828;
     text-align: center;
@@ -1666,7 +1666,7 @@ padding-left: 10px;
 
 /*------------USE CASES ---------------*/   
 .useCaseSectionsHeader {
-    text-align: left!important;
+    text-align: center;
 }
 
 

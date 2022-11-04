@@ -26,7 +26,7 @@ topTitle: >-
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
-         What would you like your spreadsheet to be...
+         Turn Excel into...
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Communicating Insights
