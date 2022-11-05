@@ -58,54 +58,40 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          Transform Excel into an <span>effective communication tool</span>
+          Transform Excel into an <span>effective communication tool</span>   
+
+
   - useCaseSectionContent:
-      - useCaseTitle: Data Gathering
-        useCaseImage: /img/icons/use-cases/data-gathering.png
+      - useCaseTitle: Analyze spreadsheet data
+        useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Securely contribute your data into the central model, track contributions and do stuff...
-      - useCaseTitle: Data Tracking
-        useCaseImage: /img/icons/use-cases/financial-statements.png
+          Establish a layer where teams can safelty query the model without interfering with each other...
+        useCaseURL: /solutions/what-if-analysis/  
+      - useCaseTitle: Analyze and audit the model
+        useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something          
-      - useCaseTitle: Somthing 2
-        useCaseImage: /img/icons/use-cases/data-tracking.png
+          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Create interactive ‘what-if’ reports
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something
-        useCaseURL: /solutions/what-if-analysis/                                                    
+          Something-something something   
+      - useCaseTitle: Test scenarios with interactive dashboards
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Create financial statements
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Something-something something                                         
     useCaseSectionTitle: >-
-          <span style="color: #282828;">...a </span> multiplayer workspace<span style="color: #282828;"> where you set the rules</span><span style="color: #282828;">?</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Data Tracking
-        useCaseImage: /img/icons/use-cases/financial-statements.png
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something          
-      - useCaseTitle: Somthing 2
-        useCaseImage: /img/icons/use-cases/data-tracking.png
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something
-        useCaseURL: /solutions/what-if-analysis/                                                    
-    useCaseSectionTitle: >-
-          <span style="color: #282828;">...an </span> insights machine anybody can drive <span style="color: #282828;">.</span>
-  - useCaseSectionContent:
-      - useCaseTitle: Data Tracking
-        useCaseImage: /img/icons/use-cases/financial-statements.png
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something          
-      - useCaseTitle: No-code Apps
-        useCaseImage: /img/icons/use-cases/data-tracking.png
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something
-        useCaseURL: /solutions/what-if-analysis/                                                    
-    useCaseSectionTitle: >-
-          <span style="color: #383e4d;">...a </span> productivity and decision-support <span style="color: #383e4d;">platform.</span>           
+          Turns your spreadsheet into an <span>insights machine anybody can drive</span>.
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-

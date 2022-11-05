@@ -93,7 +93,7 @@
 
 .carouselSlide .button-primary__slider {
     padding: 10px 12px!important;
-    border: 1.5px solid #282828;
+    border: none;
     color: #282828;
     background: #fff;
     transition: color 0.2s ease-in-out; 
