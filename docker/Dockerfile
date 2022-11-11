@@ -1,12 +1,13 @@
-from node:10 as build
+FROM node:10 as build
 
 RUN mkdir /app
 COPY . /app
 WORKDIR /app
-RUN npm install
+RUN npm ci
 RUN npm run build
 
-from nginx:latest as run
+FROM nginx:latest as run
+
 RUN mkdir -p /srv/cms-release
 COPY --from=build /app/dist /srv/cms-release
 COPY docker/visyond.conf /etc/nginx/conf.d/
