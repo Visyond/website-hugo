@@ -5,43 +5,43 @@ $(function () {
 
     //===== dynamic top title ======
 
-    //  fix: breaks /faq and /pricing dropdowns
 
-    var pageTopTitle = document.getElementById("js-dynamicTitle");
-    var initialText = pageTopTitle.innerHTML;
-    var initialColor = $("#js-dynamicTitle").css("color");
-    var titlesCounter = 0;
-    var titleChangeDelay = 4000;
-    var inst = setInterval(updateTitle, titleChangeDelay);
-    
-    var newTitles = [
-    ["collaboration challenges", "#ffa946"],
-    ["productivity boost", "#34ae6e"],
-    ["security risks", "#ff6f76"],
-    [initialText, initialColor],
-    ];
-    
-    
-    function updateTitle() {
-    
-        $("#js-dynamicTitle").css({"color": "#fff"});
-      
-      setTimeout(function() {
-        pageTopTitle.innerHTML = newTitles[titlesCounter][0];
-        $("#js-dynamicTitle").css({"color": newTitles[titlesCounter][1]});
+    if(document.getElementById("js-dynamicTitle") != null){
+        var pageTopTitle = document.getElementById("js-dynamicTitle");
+        var initialText = pageTopTitle.innerHTML;
+        var initialColor = $("#js-dynamicTitle").css("color");
+        var titlesCounter = 0;
+        var titleChangeDelay = 4000;
+        var inst = setInterval(updateTitle, titleChangeDelay);
         
-        titlesCounter++;
-      
-        if (titlesCounter >= newTitles.length) {
-          titlesCounter = 0;
+        var newTitles = [
+        ["collaboration challenges", "#ffa946"],
+        ["productivity boost", "#34ae6e"],
+        ["security risks", "#ff6f76"],
+        [initialText, initialColor],
+        ];
+        
+        
+        function updateTitle() {
+        
+            $("#js-dynamicTitle").css({"color": "#fff"});
+          
+          setTimeout(function() {
+            pageTopTitle.innerHTML = newTitles[titlesCounter][0];
+            $("#js-dynamicTitle").css({"color": newTitles[titlesCounter][1]});
+            
+            titlesCounter++;
+          
+            if (titlesCounter >= newTitles.length) {
+              titlesCounter = 0;
+            }
+            
+          }, 850);
+          
         }
-        
-      }, 850);
-      
     }
 
 
-    
 
     /**
      *
