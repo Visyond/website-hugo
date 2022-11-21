@@ -529,18 +529,18 @@ $(function () {
     }
 
     // turn off all controls on page load, and add event listeners for mouse hover over videos to toggle controls
-    window.onload = function() {
-        var all_videos = document.getElementsByTagName("video");
-        for(var i = 0; i < all_videos.length; i++) {
-            all_videos[i].controls = false;
-            all_videos[i].onmouseover = function() {
-                this.controls = true;
-            }
-            all_videos[i].onmouseout = function() {
-                this.controls = false;
-            }
-        }
-    }
+    // window.onload = function() {
+    //     var all_videos = document.getElementsByTagName("video");
+    //     for(var i = 0; i < all_videos.length; i++) {
+    //         all_videos[i].controls = false;
+    //         all_videos[i].onmouseover = function() {
+    //             this.controls = true;
+    //         }
+    //         all_videos[i].onmouseout = function() {
+    //             this.controls = false;
+    //         }
+    //     }
+    // }
     
 
     //=====LOGO TRUSTED SLIDER=====
