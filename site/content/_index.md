@@ -29,36 +29,37 @@ useCasesHeader: >-
          Which tasks can Visyond help you with?
 useCaseSection:
   - useCaseSectionContent:
-      - useCaseTitle: Communicating Insights
+      - useCaseTitle: Planning and Forecasting
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Establish a layer where teams can safelty query the model without interfering with each other...
+          Enhance your investement spreadsheet models with superpowers. Scenario forecasting, budget vs. actual, and profitability analysis have never been easier.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Interactive Calculators
+      - useCaseTitle: Investement calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+          Make better decisions with interactive no-code investement calculators driven by your Excel model.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Budget vs Actual
+      - useCaseTitle: Gather data from portfolio companies
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something   
-      - useCaseTitle: Interactive Calculators
+          Safely feed data and supporting information directly into your predictive cloud model.
+      - useCaseTitle: Share insights on investement strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+          Ask your cloud model questions via visual and interactive interface.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Budget vs Actual
+      - useCaseTitle: Analyze new investements
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something                                         
+          Find top profitability drivers, explore sensitivities, manage risks and uncertainty.                                     
     useCaseSectionTitle: >-
-          VC / PE
+          VC & PE
+
 
 
   - useCaseSectionContent:
@@ -78,20 +79,23 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something   
-      - useCaseTitle: Test scenarios with interactive dashboards
+          Something-something something                                        
+    useCaseSectionTitle: >-
+          CFO & CxO
+
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: Reduce the risk of errors
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create financial statements
-        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
-        isVisible: true
-        useCaseDescription: >-
-          Something-something something                                         
+                                                               
     useCaseSectionTitle: >-
-          CFO
+          FP&A professionals
+
 
 
   - useCaseSectionContent:
@@ -125,7 +129,24 @@ useCaseSection:
           Visualize your model's inputs and outputs as interactive dashboards, powered by your Excel model and a cloud calculation engine.
         useCaseURL: /solutions/what-if-analysis/                                                                     
     useCaseSectionTitle: >-
-          Consultants / Clients
+          Consultants & Clients
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: Reduce the risk of errors
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Create financial statements
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
+    useCaseSectionTitle: >-
+          Quick workflows
+
 
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
