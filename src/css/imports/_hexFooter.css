@@ -70,7 +70,7 @@
 .hexContacts__desc {
     color: #383E4D;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .hexContacts__list {
@@ -113,7 +113,7 @@
 .hexCopyright {
     color: #383E4D;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
 @media screen and (max-width: 600px) {
     margin-bottom: 30px;
 }
@@ -167,7 +167,7 @@
 .hexFooter-section-group__title {
     color: #383E4D;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     line-height: 1.4;
 }
@@ -204,7 +204,7 @@
 
 .hexFooter-section-group__link {
     color: #383E4D;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
 
 &:hover {

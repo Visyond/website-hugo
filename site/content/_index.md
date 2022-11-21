@@ -11,7 +11,7 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
-title: Ask Your Excel Model Anything. Get Answers in Minutes.
+title: Ask your Excel model anything. Get answers in minutes.
 metaTags: >-
   <meta property="og:title" content="Ask Your Excel Model Anything. Share Answers in Minutes.">
   <meta property="og:type" content="website">
@@ -20,9 +20,9 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Make your spreadsheet ready for
+  Ask your Excel model anything.
   </br>
-  <span id="js-dynamicTitle">agile decision-making</span>
+  <span id="js-dynamicTitle">Get answers</span> in minutes.
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
@@ -58,7 +58,7 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          Transform Excel into an <span>effective communication tool</span>   
+          VC / PE
 
 
   - useCaseSectionContent:
@@ -91,7 +91,42 @@ useCaseSection:
         useCaseDescription: >-
           Something-something something                                         
     useCaseSectionTitle: >-
-          Turns your spreadsheet into an <span>insights machine anybody can drive</span>.
+          CFO
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: Reduce the risk of errors
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Create financial statements
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Generate forward-looking pro-forma financial statements from your spreadsheet.   
+      - useCaseTitle: Gather data
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Empower others to safely contribute their data and assumptions into the central model.
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Automate What-if analysis
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Find top drivers, visualize model's sensitivity, manage risks with Monte Carlo simulations and compare scenarios in a few clicks.
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Share Insights
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Visualize your model's inputs and outputs as interactive dashboards, powered by your Excel model and a cloud calculation engine.
+        useCaseURL: /solutions/what-if-analysis/                                                                     
+    useCaseSectionTitle: >-
+          Consultants / Clients
+
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-

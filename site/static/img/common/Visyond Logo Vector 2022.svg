@@ -1,1 +1,30 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1846.92 375.43"><defs><style>.cls-1{fill:#a1e2ff;}.cls-2{fill:#5cbdff;}.cls-3{fill:#1f9aff;}.cls-4{fill:#676768;}</style></defs><rect class="cls-1" y="187.71" width="88.98" height="187.72"/><rect class="cls-2" x="103.8" y="108.62" width="88.98" height="266.81"/><rect class="cls-3" x="207.59" width="88.98" height="375.43"/><polygon class="cls-4" points="296.57 375.43 296.57 229.69 469.47 0 578.06 0 296.57 375.43"/><path class="cls-4" d="M994.19,116.61c28.1,0,55.36,7.31,76.09,20l-19.89,37.24c-20.18-10.43-44.06-16.61-61.43-16.6-9,0-16.76,3.52-16.76,11.83,0,5.59,3.19,7.78,30.7,14.76,41.52,11.21,71,21.48,71,58.1,0,38.15-28.56,59-74,59-32.88,0-62.63-8.63-86.83-24.86l21.27-36c22.78,13.15,48.43,19.68,71,19.69,9.72,0,18.33-3.52,18.33-11.64,0-10.2-5.07-11.38-34.2-18.68-39.93-9.91-68.75-19.38-68.75-54.38,0-40.19,32.24-58.45,73.52-58.46Z"/><path class="cls-4" d="M1752.22,119.17c52.3,0,94.7,38.72,94.7,89.62s-42.4,89.6-94.7,89.6h-75.81V119.19Zm-28.17,136.09h26.39c26.39,0,47.79-20.09,47.79-46.5s-21.4-46.52-47.79-46.52H1724Z"/><path class="cls-4" d="M1590.42,298.37l-71.27-100v100h-46.76V119.17h49.2l71.29,100v-100h46.76v179.2Z"/><path class="cls-4" d="M1445.34,208.79c0,50.9-42.4,92.16-94.7,92.16s-94.7-41.26-94.7-92.16,42.4-92.17,94.7-92.17S1445.34,157.89,1445.34,208.79Zm-139.85,0c0,25.9,18.67,46.89,45.15,46.89s45.15-21,45.15-46.89-18.67-46.9-45.15-46.9S1305.49,182.89,1305.49,208.79Z"/><path class="cls-4" d="M1195,298.39h-47.64v-61l-70.26-118.22H1134l37.39,66.58,37.6-66.58h56.27L1195,236.69Z"/><path class="cls-4" d="M847.78,298.39V119.19h47.63v179.2Z"/><path class="cls-4" d="M707.36,298.39,640.43,119.17h56.88l41.32,122.56,41.69-122.56H837.2L769.67,298.39Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1846.9 375.4" style="enable-background:new 0 0 1846.9 375.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#B3EBFF;}
+	.st1{fill:#65CEFB;}
+	.st2{fill:#0585FF;}
+	.st3{fill:#52556C;}
+	.st4{font-family:'Loew-Heavy';}
+	.st5{font-size:256.9317px;}
+	.st6{font-family:'HurmeGeometricSans4-Black';}
+	.st7{font-size:254.7604px;}
+	.st8{font-size:254.6212px;}
+	.st9{font-size:258.7818px;}
+	.st10{font-size:255.2214px;}
+	.st11{font-size:256.0258px;}
+</style>
+<rect y="187.7" class="st0" width="89" height="187.7"/>
+<rect x="98.8" y="108.6" class="st1" width="89" height="266.8"/>
+<rect x="197.6" y="0" class="st2" width="89" height="375.4"/>
+<text transform="matrix(0.9525 0 0 1 910.8321 292.9036)" class="st3 st4 st5">S</text>
+<text transform="matrix(0.9991 0 0 1 1665.1827 292.0901)" class="st3 st6 st7">D</text>
+<text transform="matrix(1.0208 0 0 1 1462.5997 291.93)" class="st3 st6 st8">N</text>
+<text transform="matrix(0.9676 0 0 1 1249.4025 292.9026)" class="st3 st6 st9">O</text>
+<text transform="matrix(1.0217 0 0 1 1077.7843 292.3509)" class="st3 st6 st10">Y</text>
+<text transform="matrix(0.9685 0 0 1 836.5489 292.8382)" class="st3 st6 st11">I</text>
+<text transform="matrix(0.9867 0 0 1 641.1094 292.9026)" class="st3 st6 st11">V</text>
+<polygon class="st3" points="286.6,375.4 286.6,229.7 459.5,0 568.1,0 "/>
+</svg>
