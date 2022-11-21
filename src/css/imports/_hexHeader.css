@@ -211,7 +211,7 @@ header.scrolled + .headerFix{
 .header-section--divider {
     width: 48px;
     height: 6px;
-    background-color: #349bfd;
-    margin: 4em auto;
+    background-color: #0086ff;
+    margin: 36px auto;
     border-radius: 20px;
 }

@@ -15,9 +15,9 @@ $(function () {
         var inst = setInterval(updateTitle, titleChangeDelay);
         
         var newTitles = [
-        ["collaboration challenges", "#ffa946"],
-        ["productivity boost", "#34ae6e"],
-        ["security risks", "#ff6f76"],
+        ["Share insights", "#ffa946"],
+        ["Automate tasks", "#34ae6e"],
+        ["Reduce risks", "#ff6f76"],
         [initialText, initialColor],
         ];
         
@@ -991,100 +991,121 @@ $(function () {
     addTargetBlank('.target-blank');
 
 
+    //===== Tabs =====
+
+    (function($) {
+        $(function() {
+
+       // $('ul.tabs__control > li:first-child').addClass('active');
+          
+          $('ul.tabs__control').on('click', 'li:not(.active)', function() {
+            $(this)
+              .addClass('active').siblings().removeClass('active')
+              .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+          });
+          
+        });
+        })(jQuery);    
+
+    //===== END: Tabs =====
+
 
 
     //=====Visible Info when Hover On Navigation Link=====
+    
+    // function linkHover(blockId, blockName) {
+    //     const block = document.querySelector(`#${blockId}`);
+    //     const title = block.querySelector('.dropdown__info-title').innerHTML;
+    //     const descr = block.querySelector('.dropdown__info-descr').innerHTML;
+    //     const showBlock = document.querySelector(`#${blockId} .dropdown__info`);
 
-    function linkHover(blockId, blockName) {
-        const block = document.querySelector(`#${blockId}`);
-        const title = block.querySelector('.dropdown__info-title').innerHTML;
-        const descr = block.querySelector('.dropdown__info-descr').innerHTML;
-        const showBlock = document.querySelector(`#${blockId} .dropdown__info`);
+    //     block.addEventListener('mouseover', e => {
+    //         if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
+    //             const showTitle = document.createElement('h3');
+    //             showTitle.classList.add('dropdown__info-title');
+    //             showTitle.innerHTML = e.target.innerHTML;
+    //             const showImage = document.createElement('img');
+    //             showImage.classList.add('dropdown__info-img');
+    //             showImage.setAttribute('src', e.target.dataset.image);
+    //             const showDescr = document.createElement('div');
+    //             showDescr.classList.add('dropdown__info-descr');
+    //             showDescr.innerHTML = e.target.dataset.descr;
+    //             showBlock.innerHTML = '';
+    //             showBlock.appendChild(showTitle);
+    //             showBlock.appendChild(showImage);
+    //             showBlock.appendChild(showDescr);
+    //         }
+    //     })
 
-        block.addEventListener('mouseover', e => {
-            if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
-                const showTitle = document.createElement('h3');
-                showTitle.classList.add('dropdown__info-title');
-                showTitle.innerHTML = e.target.innerHTML;
-                const showImage = document.createElement('img');
-                showImage.classList.add('dropdown__info-img');
-                showImage.setAttribute('src', e.target.dataset.image);
-                const showDescr = document.createElement('div');
-                showDescr.classList.add('dropdown__info-descr');
-                showDescr.innerHTML = e.target.dataset.descr;
-                showBlock.innerHTML = '';
-                showBlock.appendChild(showTitle);
-                showBlock.appendChild(showImage);
-                showBlock.appendChild(showDescr);
-            }
-        })
+    //     block.addEventListener('mouseout', e => {
+    //         if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
+    //             const showTitle = document.createElement('h3');
+    //             showTitle.classList.add('dropdown__info-title');
+    //             showTitle.innerHTML = title;
+    //             const showDescr = document.createElement('div');
+    //             showDescr.classList.add('dropdown__info-descr');
+    //             showDescr.innerHTML = descr;
 
-        block.addEventListener('mouseout', e => {
-            if(e.target.tagName === 'A' && e.target.dataset.image && e.target.dataset.descr) {
-                const showTitle = document.createElement('h3');
-                showTitle.classList.add('dropdown__info-title');
-                showTitle.innerHTML = title;
-                const showDescr = document.createElement('div');
-                showDescr.classList.add('dropdown__info-descr');
-                showDescr.innerHTML = descr;
+    //             showBlock.innerHTML = '';
+    //             showBlock.appendChild(showTitle);
+    //             showBlock.appendChild(showDescr);
+    //         }
+    //     })
+    // };
 
-                showBlock.innerHTML = '';
-                showBlock.appendChild(showTitle);
-                showBlock.appendChild(showDescr);
-            }
-        })
-    };
+    // //linkHover('features-toggle', 'Features');
+    // linkHover('solutions-toggle', 'Solutions');
 
-    //linkHover('features-toggle', 'Features');
-    linkHover('solutions-toggle', 'Solutions');
+    // var isIE = /*@cc_on!@*/false || !!document.documentMode;
+    // if (isIE) {
+    //     var cover = document.querySelector('.cover-video--content');
+    //     cover.style.top = '0px'; // left: 200px;';
+    //     cover.style.left = '0px';
+    // }
 
-    var isIE = /*@cc_on!@*/false || !!document.documentMode;
-    if (isIE) {
-        var cover = document.querySelector('.cover-video--content');
-        cover.style.top = '0px'; // left: 200px;';
-        cover.style.left = '0px';
-    }
+    // var prevRatio = 0;
+    // function onresize2() {
+    //     var ratio = window.innerWidth / window.innerHeight;
+    //     var els = document.querySelectorAll(".video-wrapper");
+    //     var border = 1.6;
+    //     border = 2180 / 1244;
+    //     var changed = false;
+    //     if (prevRatio === 0) changed = true;
+    //     if ( (ratio > border) && (prevRatio  < border)) changed = true;
+    //     if ( (ratio < border) && (prevRatio  > border)) changed = true;
+    //     if (changed) {
+    //         if (border > ratio) {
+    //             for (var i = 0; i < els.length; i++) {
+    //                 els[i].style.width = null;
+    //                 els[i].style.height = "calc(100vh - 20px)";
+    //             }
+    //         } else {
+    //             for (var i = 0; i < els.length; i++) {
+    //                 els[i].style.height = null;
+    //                 els[i].style.width = "100%";
+    //                 //els[i].style.height = "calc(100vh + 70px);";
+    //             }
 
-    var prevRatio = 0;
-    function onresize2() {
-        var ratio = window.innerWidth / window.innerHeight;
-        var els = document.querySelectorAll(".video-wrapper");
-        var border = 1.6;
-        border = 2180 / 1244;
-        var changed = false;
-        if (prevRatio === 0) changed = true;
-        if ( (ratio > border) && (prevRatio  < border)) changed = true;
-        if ( (ratio < border) && (prevRatio  > border)) changed = true;
-        if (changed) {
-            if (border > ratio) {
-                for (var i = 0; i < els.length; i++) {
-                    els[i].style.width = null;
-                    els[i].style.height = "calc(100vh - 20px)";
-                }
-            } else {
-                for (var i = 0; i < els.length; i++) {
-                    els[i].style.height = null;
-                    els[i].style.width = "100%";
-                    //els[i].style.height = "calc(100vh + 70px);";
-                }
+    //         }
 
-            }
+    //     } // changed
+    //     prevRatio = ratio;
+    //     els[1].style.width = "100%";
+    //     if (window.innerWidth < 900) {
+    //         els[1].style.height = null;
+    //     } else {
+    //         els[1].style.height = "calc(100vh - 20px)";
+    //     }
 
-        } // changed
-        prevRatio = ratio;
-        els[1].style.width = "100%";
-        if (window.innerWidth < 900) {
-            els[1].style.height = null;
-        } else {
-            els[1].style.height = "calc(100vh - 20px)";
-        }
+    //     els[0].style.width = null;
+    //     els[0].style.height = null;
 
-        els[0].style.width = null;
-        els[0].style.height = null;
+    // }; // onresize2
+    // onresize2();
+    // window.addEventListener("resize", onresize2);
 
-    }; // onresize2
-    onresize2();
-    window.addEventListener("resize", onresize2);
+
+    //===== END: Visible Info when Hover On Navigation Link =====
 
 
 });
