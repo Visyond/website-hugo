@@ -1,0 +1,236 @@
+
+  .tabs {
+
+  }
+
+  .tabs__control {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: relative;
+    margin: -1px 0 0 -1px;
+    padding: 0;
+    justify-content: center;
+    border-bottom: 1px solid #efefef;
+  }
+
+  .tabs__control li:last-child:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: -2px;
+    z-index: -1;
+    height: 5px;
+    background: #0086ff;
+  }
+
+  .tabs__control:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .tabs__control li {
+    padding: 9px 15px;
+    margin: 1px 0 0 1px;
+    color: #647188;
+    position: relative;
+    border-width: 2px 2px 2px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+  }
+
+  .tabs__control li:not(.active) {
+    cursor: pointer;
+  }
+
+  .tabs__control li:not(.active):hover {
+    color: #282828;
+  }
+
+  .tabs__control .active {
+    color: #282828;
+
+  }
+
+  .tabs__control .active:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: #FFF;
+  }
+
+
+
+
+  .tabs__content {
+    display: none;
+  }
+
+  .tabs__content.active {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+
+
+
+
+  
+
+
+  .vertical .tabs__caption {
+    float: left;
+    display: block;
+  }
+
+  .vertical .tabs__caption li {
+    float: none;
+    border-width: 2px 0 2px 2px;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .vertical .tabs__caption li:last-child:before {
+    display: none;
+  }
+
+  .vertical .tabs__caption .active:after {
+    left: auto;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    width: 2px;
+    height: auto;
+  }
+
+  .vertical .tabs__content {
+    overflow: hidden;
+  }
+  
+
+
+
+
+  @media screen and (max-width: 650px) {
+    .tabs__caption li {
+      -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+    }
+    .vertical .tabs__caption {
+      float: none;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .vertical .tabs__caption li {
+      border-width: 2px 2px 0;
+      border-radius: 5px 5px 0 0;
+    }
+    .vertical .tabs__caption li:last-child:before {
+      display: block;
+    }
+    .vertical .tabs__caption .active:after {
+      top: auto;
+      bottom: -5px;
+      left: 0;
+      right: 0;
+      width: auto;
+      height: 5px;
+      background: #FFF;
+    }
+  }  
+
+
+
+
+  
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 540px;
+    max-width: 46%;
+    border: 1px solid #efefef;
+    margin: 2%;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
+    padding: 24px;
+}
+
+
+.content-card:hover .content-card__title {
+    color: #349bfd;
+}
+
+
+.content-card:hover .button-primary__slider {
+    color: #fff;
+    background: #349bfd;
+    border-color: #349bfd;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+}
+
+.content-card--disabled {
+    &:hover {
+        cursor: default;
+    }
+}
+
+.content-card .btn-wrap {
+    align-self: flex-end;
+}
+
+.content-card .button-primary__slider {
+    padding: 10px 12px!important;
+    border: none;
+    color: #282828;
+    background: #fff;
+    transition: color 0.2s ease-in-out; 
+    transition: background 0.2s ease-in-out; 
+    line-height: 0.5;
+    
+    &:hover {
+        color: #fff;
+        background: #349bfd;
+        border-color: #349bfd;
+    }
+}
+
+.content-card__img {
+    width: 100px;
+}
+
+
+.content-card__title {
+    color: #383e4d;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.44;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.content-card_description {
+    font-size: 16px;
+    line-height: 1.44;
+    color: #282828;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+    transition: opacity 0.2s ease-in-out;
+    
+}
