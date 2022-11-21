@@ -1,3 +1,8 @@
+# Setup local DEV environment with Docker
+
+https://docs.google.com/document/d/1eXi6DJ5w-AMx_pzx1KSgzrV5AV41oJUcBVIfuG2Mcxw/edit#
+
+
 # Hugo template for Netlify CMS with Netlify Identity
 
 This is a small business template built with [Victor Hugo](https://github.com/netlify/victor-hugo) and [Netlify CMS](https://github.com/netlify/netlify-cms), designed and developed by [Darin Dimitroff](http://www.darindimitroff.com/), [spacefarm.digital](https://www.spacefarm.digital).
