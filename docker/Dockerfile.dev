@@ -6,5 +6,4 @@ COPY . /app
 
 WORKDIR /app
 
-RUN npm ci
 
