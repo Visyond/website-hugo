@@ -1,0 +1,30 @@
+name: CI Pipeline For Visyond CMS
+
+on:
+  push:
+    branches: [ feature/op-staging ]
+  pull_request:
+    branches: [ feature/op-staging ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+#      -
+#        name: Login to DockerHub
+#        uses: docker/login-action@v2
+#        with:
+#          username: ${{ secrets.REGISTRY_USERNAME }}
+#          password: ${{ secrets.REGISTRY_PASSWORD }}
+      -
+        name: Build and push
+        run: |
+          echo ${{ secrets.REGISTRY_USERNAME }}
+          echo ${{ secrets.REGISTRY_PASSWORD }}
+          echo ${{ GITHUB_RUN_ID }}
+#        uses: docker/build-push-action@v3
+#        with:
+#          push: true
+#          tags: visyond/visyond-cms:
