@@ -9,8 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+#    env:
+#      GIT_KEY:
     steps:
       -
         name: Build and push
         run: |
-          echo "Github run ID: $GITHUB_RUN_ID"
+          echo "Github SHA: $GITHUB_SHA::6"
