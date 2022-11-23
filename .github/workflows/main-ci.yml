@@ -8,23 +8,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-#      -
-#        name: Login to DockerHub
-#        uses: docker/login-action@v2
-#        with:
-#          username: ${{ secrets.REGISTRY_USERNAME }}
-#          password: ${{ secrets.REGISTRY_PASSWORD }}
       -
         name: Build and push
         run: |
-#          echo ${{ secrets.REGISTRY_USERNAME }}
-#          echo ${{ secrets.REGISTRY_PASSWORD }}
           echo ${{ GITHUB_RUN_ID }}
-#        uses: docker/build-push-action@v3
-#        with:
-#          push: true
-#          tags: visyond/visyond-cms:
