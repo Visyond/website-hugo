@@ -21,8 +21,8 @@ jobs:
       -
         name: Build and push
         run: |
-          echo ${{ secrets.REGISTRY_USERNAME }}
-          echo ${{ secrets.REGISTRY_PASSWORD }}
+#          echo ${{ secrets.REGISTRY_USERNAME }}
+#          echo ${{ secrets.REGISTRY_PASSWORD }}
           echo ${{ GITHUB_RUN_ID }}
 #        uses: docker/build-push-action@v3
 #        with:
