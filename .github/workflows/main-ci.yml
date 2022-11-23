@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_SHA_SHORT: ${GITHUB_SHA::6}
     steps:
 #      -
 #        name: Login to DockerHub
@@ -18,8 +20,6 @@ jobs:
 #          password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        env:
-          GITHUB_SHA_SHORT: ${GITHUB_SHA::6}
         uses: docker/build-push-action@v3
         with:
           file: docker/Dockerfile
