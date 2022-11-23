@@ -20,8 +20,10 @@ jobs:
         name: Build and push
         env:
           GITHUB_SHA_SHORT: ${GITHUB_SHA::6}
-        uses: docker/build-push-action@v3
-        with:
-          file: docker/Dockerfile
-          push: false
-          tags: visyond/visyond-cms:$GITHUB_SHA_SHORT
+        run: |
+           echo "${{GITHUB_SHA_SHORT}}"
+#         uses: docker/build-push-action@v3
+#         with:
+#           file: docker/Dockerfile
+#           push: false
+#           tags: visyond/visyond-cms:$GITHUB_SHA_SHORT
