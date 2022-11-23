@@ -13,17 +13,20 @@ jobs:
       -
         name: Checkout
         uses: actions/checkout@v3
-      -
-        name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v4
-        with:
-           images: visyond/visyond-cms
-           tags: |
-                type=ref,event=branch
-                type=ref,event=pr
-                type=semver,pattern={{version}}
-                type=semver,pattern={{major}}.{{minor}}
+      - 
+        name: Create docker image
+        run: ./docker-build.sh    
+#       -
+#         name: Docker meta
+#         id: meta
+#         uses: docker/metadata-action@v4
+#         with:
+#            images: visyond/visyond-cms
+#            tags: |
+#                 type=ref,event=branch
+#                 type=ref,event=pr
+#                 type=semver,pattern={{version}}
+#                 type=semver,pattern={{major}}.{{minor}}
 #       -
 #         name: Login to DockerHub
 #         if: github.event_name != 'pull_request'
