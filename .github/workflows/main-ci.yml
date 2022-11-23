@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      TAG: visyond/visyond:${GITHUB_SHA::6}
+      TAG: visyond/visyond:${{GITHUB_SHA::6}}
     steps:
 #      -
 #        name: Login to DockerHub
