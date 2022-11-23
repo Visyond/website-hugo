@@ -21,7 +21,7 @@ jobs:
         env:
           GITHUB_SHA_SHORT: ${GITHUB_SHA::6}
         run: |
-           echo "${{GITHUB_SHA_SHORT}}"
+           echo "${{env.GITHUB_SHA_SHORT}}"
 #         uses: docker/build-push-action@v3
 #         with:
 #           file: docker/Dockerfile
