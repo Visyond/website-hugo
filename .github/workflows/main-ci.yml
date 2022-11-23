@@ -16,7 +16,7 @@ jobs:
       - 
         name: Create docker image
         run: |
-          bash docker-build.sh    
+          bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}    
 #       -
 #         name: Docker meta
 #         id: meta
