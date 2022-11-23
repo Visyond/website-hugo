@@ -9,10 +9,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-#    env:
-#      GIT_KEY:
     steps:
+#      -
+#        name: Login to DockerHub
+#        uses: docker/login-action@v2
+#        with:
+#          username: ${{ secrets.DOCKERHUB_USERNAME }}
+#          password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build and push
-        run: |
-          echo "Github SHA: ${GITHUB_SHA::6}"
+        uses: docker/build-push-action@v3
+        with:
+          file: docker/Dockerfile
+          push: false
+          tags: 
+            - visyond/visyond-cms:${GITHUB_SHA::6}
+            - visyond/visyond-cms:latest
