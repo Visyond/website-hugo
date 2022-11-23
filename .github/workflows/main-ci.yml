@@ -22,6 +22,4 @@ jobs:
         with:
           file: docker/Dockerfile
           push: false
-          tags: 
-            - visyond/visyond-cms:${GITHUB_SHA::6}
-            - visyond/visyond-cms:latest
+          tags: visyond/visyond-cms:latest,visyond/visyond-cms:${GITHUB_SHA::6}
