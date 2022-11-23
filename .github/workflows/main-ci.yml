@@ -15,4 +15,4 @@ jobs:
       -
         name: Build and push
         run: |
-          echo "Github SHA: $GITHUB_SHA::6"
+          echo "Github SHA: ${GITHUB_SHA::6}"
