@@ -18,4 +18,4 @@ sudo systemctl enable docker
 sudo systemctl start docker
 echo
 
-sudo docker build -t $DOCKER_USER/visyond-cms:latest -f docker/Dockerfile .
+sudo docker build -t $DOCKER_USER/visyond-cms:latest -f docker/Dockerfile.dev .
