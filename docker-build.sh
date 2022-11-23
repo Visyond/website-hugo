@@ -2,7 +2,8 @@
 
 DOCKER_USER="visyond"
 DOCKER_PASSWORD=""
-GITHUB_HASH=$(git rev-parse --short "${GITHUB_SHA::6}")
+IMAGE_TAG=$(git rev-parse --short "${GITHUB_SHA::6}")
+IMAGE_NAME="visyond-cms"
 
 echo "hash: " $GITHUB_HASH
 
@@ -18,4 +19,4 @@ sudo systemctl enable docker
 sudo systemctl start docker
 echo
 
-sudo docker build -t $DOCKER_USER/visyond-cms:latest -f docker/Dockerfile.dev .
+sudo docker build -t $DOCKER_USER/$IMAGE_NAME:$IMAGE_TAG -f docker/Dockerfile.dev .
