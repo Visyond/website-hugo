@@ -2,7 +2,7 @@
 
 REGISTRY_USER=$1
 REGISTRY_PASSWORD=$2
-IMAGE_TAG=$(git rev-parse --short "${GITHUB_SHA::6}")
+IMAGE_TAG=$(git rev-parse --short "${GITHUB_SHA}")
 IMAGE_NAME="visyond-cms"
 
 # Building/Pushing the Docker image
