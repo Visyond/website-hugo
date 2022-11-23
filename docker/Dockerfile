@@ -3,7 +3,7 @@ FROM node:10 as build
 RUN mkdir /app
 COPY . /app
 WORKDIR /app
-RUN npm ci
+RUN npm install
 RUN npm run build
 
 FROM nginx:latest as run
