@@ -13,4 +13,4 @@ jobs:
       -
         name: Build and push
         run: |
-          echo ${{ GITHUB_RUN_ID }}
+          echo "Github run ID: $GITHUB_RUN_ID"
