@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_SHA_SHORT: ${GITHUB_SHA::6}
+      TAG: visyond/visyond:${GITHUB_SHA::6}
     steps:
 #      -
 #        name: Login to DockerHub
@@ -24,4 +24,4 @@ jobs:
         with:
           file: docker/Dockerfile
           push: false
-          tags: visyond/visyond-cms:{{GITHUB_SHA::6}}
+          tags: ${{ env.TAG }}
