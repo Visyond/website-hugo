@@ -1,3 +1,13 @@
+.pricing-section {
+  background-color: #fff!important;
+  background-size: 80%,80%;
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 80vw),calc(100% + 55vw);
+  background-position-y: 5%,55%;
+  padding: 0 0 80px!important;
+  /* background-image: url('/img/home/grayRectangle.svg'); */
+}
+
 .container-pricing {
   width: 95%;
   margin: 0 auto;
@@ -29,25 +39,25 @@
 }
 
 .card__title__pricing {
-  font-size: 1.5em;
+  font-size: 38px;
   font-weight: 900;
-  color: #383e4d;
-  margin-bottom: 0.5em;
+  color: #181818;
+  margin-bottom: 14px;
 
   @media screen and (max-width: 1024px) {
-    font-size: 2em;
     text-align: center;
-  }
+  } 
+
 }
 
 .card__subtitle__pricing {
-  font-weight: 400;
+  font-weight: 500;
   list-style-type: none;
   padding: 0;
-  color: #383e4d;
-  font-size: 0.9em;
+  color: #181818;
+  font-size: 16px;
   height: 5em;
-  margin: 2em 0 1em 0;
+  margin: 10px 0 15px;
 
   & > ul {
     list-style: none;
@@ -59,10 +69,9 @@
   }
 
   @media screen and (max-width: 1024px) {
-    font-size: 1.1em;
     height: auto;
     text-align: center;
-  }
+  } 
 }
 
 
@@ -72,15 +81,15 @@
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+  height: 100px;
 
-  @media screen and (max-width: 1024px) {
+   @media screen and (max-width: 1024px) {
     align-items: center;
-  }	
+  }	 
 }
 
 .price-wrapper-top {
 	font-size: 1em;
-	height: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -93,9 +102,8 @@
 }
 
 .price-wrapper-bottom {
-	font-size: 1.1em;
-	height: 1.1em;
-  margin-top: 0.7em;
+	font-size: 4px;
+  margin-top: 1em;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -108,56 +116,44 @@
 
 .price-card {
   position: relative;
-  padding: 1em 0.9em;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 540px;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 1px solid #efefef;
   border-radius: 15px;
   box-shadow: 0px -5px 10px 0px rgb(228 228 228 / 55%); 
   border: 1px solid #e8e8e8;
   width: 100%;
-  max-width: 270px;
+  max-width: 400px;
 
   @media screen and (max-width: 1024px) {
-    /* width: 80%; */
-    max-width: 80%;
-  }
-  @media screen and (max-width: 768px) {
-    /* width: 80%; */
-    max-width: 80%;
+    max-width: 600px;
   }
 
-  @media screen and (max-width: 501px) {
-    /* width: 90%; */
-    max-width: 90%;
-  }
 
 }
 
 .price-card:nth-child(1n) {
-  margin: 0 0.7em 0 0;
+  margin: 0 14px 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
-    padding: 2em 2em;
   }		
 }
 
 .price-card:nth-child(2n) {
-  margin: 0 0.7em 0 0;
+  margin: 0 14px 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
-    padding: 2em 2em;
   }		
 }
 
 .price-card:nth-child(2n + 1) {
-  margin: 0 0.7em 0 0;
+  margin: 0 14px 0 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
-    padding: 2em 2em;
   }		
 }
 
@@ -165,7 +161,6 @@
   margin: 0;
   @media screen and (max-width: 1024px) {
     margin: 2em 0;
-    padding: 2em 2em;
   }		
 }
 
@@ -173,15 +168,12 @@
 .price-card-content {
   display: flex;
   flex-flow: column wrap;
-  height: 100%;
-  width: 100%;
-  font-size: 1.2em;
 }
 
 .price-primary-value {
-  font-weight: 600;
+  font-weight: 500;
   color: #0585ff;
-  font-size: 2em;
+  font-size: 40px;
   display: inline;
 }
 
@@ -189,27 +181,24 @@
 .price-primary-period {
   font-weight: 600; 
   color: #383e4d;
-  font-size: 0.9em;
+  font-size: 22px;
   display: block;
   margin-left: 0.5em;
   line-height: 1em;
-
-  @media screen and (max-width: 1024px) {
-      font-size: 1.1em;
-  }		
 }
 
 
 .price-billing-note {
   font-weight: 400;
   color: #383e4d;
-  font-size: 0.75em;
+  font-size: 20px;
   flex: 1;
   flex-basis: auto;
+}
 
-  @media screen and (max-width: 1024px) {
-    font-size: 0.9em;
-  }		
+.price-billing-note > span {
+  font-weight: 600;
+  font-size: 22px;
 }
 
 .price-min-seats {
@@ -232,12 +221,13 @@
 .before-bullet-points {
   margin: 0 0 0.7em;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 16px;
   text-align: left;
-  color: #50546d;
-  @media screen and (max-width: 1024px) {
+  color: #181818;
+
+  /* @media screen and (max-width: 1024px) {
     font-size: 1.2em;
-  }		
+  }		 */
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
@@ -330,11 +320,11 @@
   background-color: #212121;
   color: #ffffff;
   font-weight: 600;
-  font-size: 0.8em;	
-  box-shadow: 0 0 0.5em 1px #9a9a9a;	
+  font-size: 14px;	
+  box-shadow: 0 0 8px 1px #9a9a9a;	
   /*text-align: left;*/
   border-radius: 5px;
-  padding: 0.7em;
+  padding: 10px;
   position: absolute;
   /*margin-left: -7.5em;*/
 }
@@ -388,7 +378,7 @@
 
 .tooltipIcon {
   color: #383e4d; 
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 0.2em;
 }
 
@@ -405,7 +395,6 @@
 .btn-pricing-card {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #0585ff;
   padding: 0.7em 0.5em;
@@ -417,6 +406,8 @@
   border: 1px solid #0585ff;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
+  font-size: 16px;
 
   @media screen and (max-width: 1024px) {
     width: 50%;
@@ -433,7 +424,6 @@
 .btn-pricing-card-contactUs {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #fff;
   padding: 0.7em 0.5em;
@@ -445,6 +435,8 @@
   border: 1px solid #0585ff;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
+  font-size: 16px;
 
   @media screen and (max-width: 1024px) {
     width: 50%;
@@ -460,7 +452,6 @@
 .btn-pricing-card-enterprise {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #fff;
   padding: 0.7em 0.5em;
@@ -472,6 +463,7 @@
   border: 1px solid #52556c;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
 
   @media screen and (max-width: 1024px) {
     width: 50%;
@@ -521,16 +513,16 @@
   position: relative;
   font-weight: 400;
   color: #0e2639;
-  font-size: 0.75em;
+  font-size: 16px;
 
   &:not(:last-child) {
     margin-bottom: 0.7em;
   }
 
-  @media screen and (max-width: 1024px) {
+  /* @media screen and (max-width: 1024px) {
     padding-left: 0em;
     font-size: 1.1em;
-  }	
+  }	 */
 }
 
 .plan-features-wrapper-li-wrapper {
@@ -567,7 +559,7 @@
 }
 
 .planInfo-title {
-  color: #383e4d;
+  color: #181818;
   font-size: 2em;
   line-height: 1.1;
   font-weight: 600;
@@ -576,7 +568,7 @@
 }
 
 .planInfo-description {
-  color: #383e4d;
+  color: #181818;
   font-size: 16px;
   width: 100%;
   font-weight: 400;

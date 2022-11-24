@@ -559,6 +559,11 @@ color: #282828;
        /* margin-bottom: 70px; */
     }
 }
+
+.enterV__headline > span {
+    color: #0086ff;
+}
+
 .enterSections__benefits{
     padding: 20px 0 10px;
 }

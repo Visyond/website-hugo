@@ -26,7 +26,7 @@ topTitle: >-
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
-         Which tasks can Visyond help you with?
+         How can Visyond help <span>you</span> and <span>your team</span>?
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Planning and Forecasting
@@ -58,7 +58,7 @@ useCaseSection:
         useCaseDescription: >-
           Find top profitability drivers, explore sensitivities, manage risks and uncertainty.                                     
     useCaseSectionTitle: >-
-          VC & PE
+          Finance & Investement Analysis
 
 
 
@@ -79,22 +79,15 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something                                        
-    useCaseSectionTitle: >-
-          CFO & CxO
-
-
-
-  - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
-        useCaseImage: /img/icons/use-cases/calculators.png
+          Something-something something         
+      - useCaseTitle: Company valuation (also to VC/PE)
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
-        useCaseURL: /solutions/what-if-analysis/   
-                                                               
+          Something-something something                                                 
     useCaseSectionTitle: >-
-          FP&A professionals
+          Marketing & Sales (forecasts...)
+
 
 
 
@@ -114,7 +107,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Empower others to safely contribute their data and assumptions into the central model.
+          Empower others to safely contribute their data and assumptions into the central model. Get data from other tools - Excel, Power BI, etc.
         useCaseURL: /solutions/what-if-analysis/
       - useCaseTitle: Automate What-if analysis
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -127,17 +120,23 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Visualize your model's inputs and outputs as interactive dashboards, powered by your Excel model and a cloud calculation engine.
-        useCaseURL: /solutions/what-if-analysis/                                                                     
-    useCaseSectionTitle: >-
-          Consultants & Clients
-
-
-  - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
+        useCaseURL: /solutions/what-if-analysis/ 
+      - useCaseTitle: Protect your models and IP
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+          Your intellectual property is safe.
+        useCaseURL: /solutions/what-if-analysis/                                                                                 
+    useCaseSectionTitle: >-
+          Management Consulting (Kpis, whatifs waterfalls wheer to ivnest, how to approach initiatives)
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: Budget vs Actual
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Do it.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Create financial statements
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
@@ -145,8 +144,22 @@ useCaseSection:
         useCaseDescription: >-
           Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
     useCaseSectionTitle: >-
-          Quick workflows
+          Startups
 
+  - useCaseSectionContent:
+      - useCaseTitle: Budget vs Actual
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Do it.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Create financial statements
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
+    useCaseSectionTitle: >-
+          Excel Modeling
 
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
