@@ -40,8 +40,8 @@
 .faqSection--title{
     color: #383e4d;
     text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 22px;
     line-height: 1.44;
     display: inline-block;
     position: relative;
@@ -73,7 +73,7 @@
 
 .faqSection--description {
     color: #383e4d;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.44;
     margin-bottom: 1em;
     width: 100%;
