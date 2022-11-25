@@ -26,7 +26,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'With Free, you can:'
+          featuresListHeader: 'Free plan includes:'
           featureslist:
             - title: Create no-code dashboards
               tooltip: >- 
@@ -51,7 +51,7 @@ pricingSections:
           planCardDescription: >-
             Start your journey into the world of agile spreadsheet-based decision-making.
           planCardTitle: Free
-          planCardLabelColor: '#fafafa'
+          planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
 
 
@@ -64,7 +64,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: /accounts/signup/
             isButtonContactUs: false
-          featuresListHeader: 'Includes Free, and you can:'
+          featuresListHeader: 'All in Free, plus:'
           featureslist:
             - title: Generate financial statements
               tooltip: >-
@@ -99,7 +99,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Includes Statements, and you can'
+          featuresListHeader: 'All in Statements, plus:'
           featureslist:
             - title: Find top drivers
               tooltip: >-
@@ -143,7 +143,7 @@ pricingSections:
             cardButtonURL: '#contactUs'
             isButtonContactUs: true
             isButtonEnterprise: false
-          featuresListHeader: 'Includes Full, and you can:'
+          featuresListHeader: 'All in Full, plus:'
           featureslist:
             - title: Avoid information overload
               tooltip: >-
@@ -233,7 +233,7 @@ faqSectionContent:
       - answer: >-
           Yes.
       - answer: >-
-          Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required. Afterwards, you can upgrade or plan or continue using the free version.          
+          Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required. Afterwards, you can upgrade your plan or stay on the free plan.         
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
@@ -263,6 +263,20 @@ faqSectionContent:
       - answer: >-
           We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
     faqSectionSubTitle: How can I pay?
+  - answersList:
+      - answer: >-
+          We use a variety of ways to secure your data.
+      - answer: >-
+          Visyond is hosted by [DigitalOcean](https://www.digitalocean.com/). The server is located in the Netherlands.
+      - answer: >-
+          We provide a fully secure connection between customers and our server. All transferred data is sent encrypted using the [TLS/SSL protocol](https://en.wikipedia.org/wiki/Transport_Layer_Security).
+      - answer: >-
+          All projects are stored encrypted on the server using [Advanced Encryption Standard (AES)](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard), adopted by the U.S. government and included in the [ISO/IEC 18033-3 standard](https://www.iso.org/standard/54531.html).
+      - answer: >-
+          We use [Cross Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) middleware that prevents stealing your session.
+      - answer: >-
+          Our developers have access to the server via [SSH](https://en.wikipedia.org/wiki/Secure_Shell_Protocol) using [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) keys. This means that no one else can access the server, and that the access keys are stored locally on the computers and are not distributed on the network.
+    faqSectionSubTitle: How secure is Visyond?    
   - answersList:
       - answer: >-
           Yes. [Contact us](#contactUs) for special offers for students and instructors.
