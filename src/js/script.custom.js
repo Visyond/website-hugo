@@ -563,7 +563,7 @@ $(function () {
                 count++;
                 slidersBlock.style.transform = `translateX(-${step * count}px)`;
             }
-        }, 5000);
+        }, 4000);
 
         window.addEventListener('blur', () => {
             pause = true;

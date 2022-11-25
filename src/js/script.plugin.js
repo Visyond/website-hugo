@@ -102,47 +102,106 @@ $(function () {
     }
     */
 
+    // for /pricing page
+    if($('.js-pricing-cards').length) {
+      $('.js-pricing-cards').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 3000,
+          draggable: false,
+          dots: false,
+          arrows: false,
+          centerMode: false,
+          responsive: [
+              {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  draggable: true,
+                  arrows: false,
+                  dots: true,
+                  centerMode: true,
+                  centerPadding: '200px',
+                  initialSlide: 2,
+                }
+              },
+              {
+                breakpoint: 850,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  draggable: true,
+                  arrows: false,
+                  dots: true,
+                  centerMode: true,
+                  centerPadding: '140px',
+                  initialSlide: 2,
+                }
+              },
+              {
+                breakpoint: 700,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                  draggable: true,
+                  arrows: false,
+                  dots: true,
+                  centerMode: true,
+                  centerPadding: '50px',
+                  initialSlide: 2,
+                }
+              },
+          ]
+      })
+  }    
 
-  if($('.js-useCases__list').length) {
-    $('.js-useCases__list').slick({
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        autoplay: false,
-        autoplaySpeed: 3000,
-        dots: true,
-        arrows: true,
-        responsive: [
-            {
-              breakpoint: 1366,
-              settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true,
-              }
-            },
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
-                infinite: true,
-                dots: true,
-              }
-            },
-            {
-              breakpoint: 691,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true,
-                arrows: false,
-              }
-            },
-        ]
-    })
-}    
+
+// for homepage use-cases --- NOT USED 
+//   if($('.js-useCases__list').length) {
+//     $('.js-useCases__list').slick({
+//         slidesToShow: 4,
+//         slidesToScroll: 4,
+//         autoplay: false,
+//         autoplaySpeed: 3000,
+//         dots: true,
+//         arrows: true,
+//         responsive: [
+//             {
+//               breakpoint: 1366,
+//               settings: {
+//                 slidesToShow: 3,
+//                 slidesToScroll: 3,
+//                 infinite: true,
+//                 dots: true,
+//               }
+//             },
+//             {
+//               breakpoint: 1024,
+//               settings: {
+//                 slidesToShow: 2,
+//                 slidesToScroll: 2,
+//                 infinite: true,
+//                 dots: true,
+//               }
+//             },
+//             {
+//               breakpoint: 691,
+//               settings: {
+//                 slidesToShow: 1,
+//                 slidesToScroll: 1,
+//                 infinite: true,
+//                 dots: true,
+//                 arrows: false,
+//               }
+//             },
+//         ]
+//     })
+// }    
   
 
 
