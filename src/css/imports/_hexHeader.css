@@ -18,12 +18,12 @@
 }
 @media screen and (min-width: 992px) {
     .hexHeader .container {
-        max-width: 960px;
+        max-width: 980px;
     }
 }
 @media screen and (min-width: 1201px) {
     .hexHeader .container {
-        max-width: 1120px;
+        max-width: 1180px;
     }
 }
 @media screen and (min-width: 1441px) {
@@ -45,7 +45,6 @@ header.scrolled + .headerFix{
 .hexNav__logo-link{
     display: inline-block;
     width: 140px;
-    margin-right: 40px;
 }
 .hexHeader {
     padding: 37px 0;
@@ -132,7 +131,7 @@ header.scrolled + .headerFix{
     align-items: center;
     transition: all .2s linear;
 @media screen and (max-width: 1201px) {
-    padding: 10px 23px;
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 400px) {
