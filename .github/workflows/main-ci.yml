@@ -42,7 +42,7 @@ jobs:
       - name: Retrieve saved Docker image
         uses: actions/download-artifact@v3
         with:
-          name: docker-artifact
+          name: build-artifact
           path: dist
       -
         name: Create docker image
