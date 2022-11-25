@@ -7,7 +7,7 @@ on:
     branches: [ feature/op-staging ]
 
 jobs:
-  build:
+  build-arti:
     runs-on: macos-12
     steps:
       -
@@ -23,37 +23,29 @@ jobs:
         run: |
           npm install
           npm run build
-#       - 
-#         name: Create docker image
-#         run: |
-#           chmod +x docker-build.sh
-#           ./docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
+       
+      - 
+        name: Temporarily save Docker image
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: dist
+          retention-days: 1
 
-      -
-        name: Docker meta
-        id: meta
-        uses: docker/metadata-action@v4
+  build-img:
+    runs-on: ubuntu-latest
+    needs: build-arti
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Retrieve saved Docker image
+        uses: actions/download-artifact@v3
         with:
-           images: visyond/visyond-cms
-           tags: |
-                type=ref,event=branch
-                type=ref,event=pr
-                type=semver,pattern={{version}}
-                type=semver,pattern={{major}}.{{minor}}
+          name: docker-artifact
+          path: dist
       -
-        name: Login to DockerHub
-        if: github.event_name != 'pull_request'
-        uses: docker/login-action@v2
-        with:
-          username: ${{ secrets.REGISTRY_USER }}
-          password: ${{ secrets.REGISTRY_PASSWORD }}
-      -
-        name: Build and push the docker image
-        uses: docker/build-push-action@v3
-        with:
-          context: .
-          file: docker/Dockerfile
-#          push: ${{ github.event_name != 'pull_request' }}
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+        name: Create docker image
+        run: |
+          chmod +x docker-build.sh
+          ./docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
