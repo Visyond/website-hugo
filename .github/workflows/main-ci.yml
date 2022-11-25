@@ -21,7 +21,7 @@ jobs:
       - 
         name: Install dependencies and run build
         run: |
-          apt update && apt install -y libpng-dev
+          sudo apt update && sudo apt install -y libpng-dev
           npm ci
           npm run build
       - 
