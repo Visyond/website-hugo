@@ -26,4 +26,5 @@ jobs:
       - 
         name: Create docker image
         run: |
-          bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
+          chmod +x docker-build.sh
+          ./docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
