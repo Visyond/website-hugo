@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: debian-9.13
+    runs-on: ubuntu-latest
     steps:
       -
         name: Checkout
@@ -21,6 +21,7 @@ jobs:
       - 
         name: Install dependencies and run build
         run: |
+          apt update && apt install -y libpng-dev
           npm ci
           npm run build
       - 
