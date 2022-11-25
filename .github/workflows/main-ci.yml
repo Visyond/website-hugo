@@ -8,24 +8,22 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-12
     steps:
       -
         name: Checkout
         uses: actions/checkout@v3
 
-#       - name: Use Node.js
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: '10'
-#       - 
-#         name: Install dependencies and run build
-#         run: |
-#           sudo apt update
-#           sudo apt install -y libpng-dev
-#           npm install
-#           npm run build
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '10'
       - 
-        name: Create docker image
+        name: Install dependencies and run build
         run: |
-          bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
+          npm install
+#          npm run build
+#       - 
+#         name: Create docker image
+#         run: |
+#           bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
