@@ -315,6 +315,7 @@ color: #282828;
     .home-hero__half-width-wrap--image{
         display: inline-block;
         margin-bottom: 45px;
+        width: 100%;
     }
     .home-hero__laptop-image{
         max-width: 400px;
