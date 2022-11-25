@@ -8,7 +8,7 @@ IMAGE_NAME="visyond-cms"
 # Building/Pushing the Docker image
 docker login -u $REGISTRY_USER -p $REGISTRY_PASSWORD
 
-docker build -t $REGISTRY_USER/$IMAGE_NAME:$IMAGE_TAG -f docker/Dockerfile.dev .
+docker build -t $REGISTRY_USER/$IMAGE_NAME:$IMAGE_TAG -f docker/Dockerfile .
 docker tag $REGISTRY_USER/$IMAGE_NAME:$IMAGE_TAG $REGISTRY_USER/$IMAGE_NAME:latest
 
 docker push $REGISTRY_USER/$IMAGE_NAME:$IMAGE_TAG
