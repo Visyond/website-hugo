@@ -104,6 +104,7 @@ header.scrolled + .headerFix{
 .menu{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 #trialButton{
     white-space: nowrap;
