@@ -25,7 +25,7 @@ jobs:
           npm run build
        
       - 
-        name: Temporarily save Docker image
+        name: Temporarily save build folder
         uses: actions/upload-artifact@v3
         with:
           name: build-artifact
@@ -39,7 +39,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Retrieve saved Docker image
+      - name: Retrieve saved build folder
         uses: actions/download-artifact@v3
         with:
           name: build-artifact
