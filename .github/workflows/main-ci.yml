@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: debian-9.13
     steps:
       -
         name: Checkout
