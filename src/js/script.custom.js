@@ -991,21 +991,63 @@ $(function () {
     addTargetBlank('.target-blank');
 
 
-    //===== Tabs =====
+    //===== Tabs + slick carousel =====
 
     (function($) {
         $(function() {
 
        // $('ul.tabs__control > li:first-child').addClass('active');
-          
+
+       setupSlider();
+
           $('ul.tabs__control').on('click', 'li:not(.active)', function() {
-            $(this)
-              .addClass('active').siblings().removeClass('active')
-              .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+
+
+
+            $(this).addClass('active').siblings().removeClass('active')
+            .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+
+            setupSlider();
+            
+            //   var totalSliders = $('.js-useCases__list').length;
+            //   console.log("Total sliders: " + totalSliders);
+
+            //   var activeSliders = $('.js-useCases__list.active').length;
+            //   console.log("Active sliders: " + activeSliders);
+
+
+
           });
           
         });
         })(jQuery);    
+
+
+        function setupSlider (){
+
+            if($('.js-useCases__list').length) {
+                var maxDisplayNum= 4; 
+                var activeSlides = $('.js-useCases__list.active .content-card').length;
+                console.log("Slides in active slider: " + activeSlides);
+                
+                $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
+    
+                  if (activeSlides > 4 ){
+                      $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", maxDisplayNum, true);
+                      $('.js-useCases__list.active').slick("slickSetOption", "dots", true, true);
+                  }
+                  else {
+                      $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", activeSlides, true);
+                      $('.js-useCases__list.active').slick("slickSetOption", "dots", false, true);
+                  }
+    
+    
+                  $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
+            }
+        }
+
+
+
 
     //===== END: Tabs =====
 
