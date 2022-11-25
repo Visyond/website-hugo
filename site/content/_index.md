@@ -26,33 +26,33 @@ topTitle: >-
 topDescription: >-
   Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
 useCasesHeader: >-
-         How can Visyond help <span>you</span> and <span>your team</span>?
+         How can Visyond help you and your team?
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Planning and Forecasting
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Enhance your investement spreadsheet models with superpowers. Scenario forecasting, budget vs. actual, and profitability analysis have never been easier.
+          Scenario planning, budgeting, and variance analysis have never been easier.
         useCaseURL: /solutions/what-if-analysis/  
       - useCaseTitle: Investement calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Make better decisions with interactive no-code investement calculators driven by your Excel model.
+          Visualize ROI and other decision metrics from your model and test scenarios on predictive 'what-if' dashboards.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Gather data from portfolio companies
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Safely feed data and supporting information directly into your predictive cloud model.
+          Consolidate data points and assumptions from different sources into the central predictive model in the cloud. 
       - useCaseTitle: Share insights on investement strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Ask your cloud model questions via visual and interactive interface.
+          Bring interactive reporing to the next level, and empower stakeholders to focus on what's important.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Analyze new investements
+      - useCaseTitle: Investment & valuation analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
@@ -63,72 +63,84 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Analyze spreadsheet data
+      - useCaseTitle:  Sales & growth forecasting
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Establish a layer where teams can safelty query the model without interfering with each other...
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Analyze and audit the model
+      - useCaseTitle: Pricing & negotiation calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create interactive ‘what-if’ reports
+      - useCaseTitle: Budget vs. actual
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something         
-      - useCaseTitle: Company valuation (also to VC/PE)
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.     
+      - useCaseTitle: Financial presentations
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something                                                 
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.                                              
     useCaseSectionTitle: >-
-          Marketing & Sales (forecasts...)
+          Marketing & Sales
 
 
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
+      - useCaseTitle: Collaborate on business strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create financial statements
+      - useCaseTitle: Where to invest
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Generate forward-looking pro-forma financial statements from your spreadsheet.   
-      - useCaseTitle: Gather data
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
+      - useCaseTitle: how  to approach initiatives
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Empower others to safely contribute their data and assumptions into the central model. Get data from other tools - Excel, Power BI, etc.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
         useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Automate What-if analysis
+      - useCaseTitle: What-if and waterfalls
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Find top drivers, visualize model's sensitivity, manage risks with Monte Carlo simulations and compare scenarios in a few clicks.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
         useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Share Insights
+      - useCaseTitle: Consult with impact
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Visualize your model's inputs and outputs as interactive dashboards, powered by your Excel model and a cloud calculation engine.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
         useCaseURL: /solutions/what-if-analysis/ 
       - useCaseTitle: Protect your models and IP
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Your intellectual property is safe.
-        useCaseURL: /solutions/what-if-analysis/                                                                                 
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Protect your models and IP
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Protect your models and IP
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
     useCaseSectionTitle: >-
-          Management Consulting (Kpis, whatifs waterfalls wheer to ivnest, how to approach initiatives)
+          Management Consulting
 
 
   - useCaseSectionContent:
@@ -147,7 +159,7 @@ useCaseSection:
           Startups
 
   - useCaseSectionContent:
-      - useCaseTitle: Budget vs Actual
+      - useCaseTitle: Protect models and IP
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
