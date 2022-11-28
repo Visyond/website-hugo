@@ -20,11 +20,11 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Ask your Excel model anything.
+  Turn your Excel into an insights machine for
   </br>
-  <span id="js-dynamicTitle">Get answers</span> in minutes.
+  <span id="js-dynamicTitle">strategic planning</span>
 topDescription: >-
-  Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
+  Leverage your Excel skills, improve productivity with automation, and empower your team to focus on insights in a secure and organized environment.
 useCasesHeader: >-
          How can Visyond help you and your team?
 useCaseSection:
@@ -35,7 +35,7 @@ useCaseSection:
         useCaseDescription: >-
           Scenario planning, budgeting, and variance analysis have never been easier.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Investement calculators
+      - useCaseTitle: Investment calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
@@ -46,11 +46,11 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Consolidate data points and assumptions from different sources into the central predictive model in the cloud. 
-      - useCaseTitle: Share insights on investement strategy
+      - useCaseTitle: Share insights on investment strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Bring interactive reporing to the next level, and empower stakeholders to focus on what's important.
+          Bring interactive reporting to the next level, and empower stakeholders to focus on what's important.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Investment & valuation analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
@@ -58,7 +58,9 @@ useCaseSection:
         useCaseDescription: >-
           Find top profitability drivers, explore sensitivities, manage risks and uncertainty.                                     
     useCaseSectionTitle: >-
-          Finance & Investement Analysis
+          Finance & Investment Analysis
+
+
 
 
 
@@ -87,6 +89,24 @@ useCaseSection:
           Blah blah blah blah blah blah. Blah blah blah blah blah blah.                                              
     useCaseSectionTitle: >-
           Marketing & Sales
+
+
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: PM reporting
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Collect and aggregate numerical and financial data and create impactful reports for management.
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Something
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah.                                                                
+    useCaseSectionTitle: >-
+          Project Management
 
 
 
@@ -127,20 +147,11 @@ useCaseSection:
         useCaseDescription: >-
           Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
         useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Protect your models and IP
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
-        useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Protect your models and IP
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
-        useCaseURL: /solutions/what-if-analysis/
     useCaseSectionTitle: >-
           Management Consulting
+
+
+
 
 
   - useCaseSectionContent:
@@ -154,9 +165,12 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
+          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
     useCaseSectionTitle: >-
           Startups
+
+
+
 
   - useCaseSectionContent:
       - useCaseTitle: Protect models and IP
@@ -169,7 +183,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
+          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
     useCaseSectionTitle: >-
           Excel Modeling
 

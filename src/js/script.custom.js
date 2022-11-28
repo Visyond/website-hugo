@@ -15,9 +15,10 @@ $(function () {
         var inst = setInterval(updateTitle, titleChangeDelay);
         
         var newTitles = [
-        ["Share insights", "#ffa946"],
-        ["Automate tasks", "#34ae6e"],
-        ["Reduce risks", "#ff6f76"],
+        ["what-if analysis", "#ffa946"],
+        ["interactive reporting", "#34ae6e"],
+        ["predictive dashboards", "#c36bdc"],
+        ["risks something", "#c36bdc"],
         [initialText, initialColor],
         ];
         
