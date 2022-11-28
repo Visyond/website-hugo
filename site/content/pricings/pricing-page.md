@@ -4,20 +4,17 @@ metaTags: >-
   <meta property="og:title" content="Visyond Pricing and Plans">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
-  <meta property="og:description" content="Make Better Decisions, Faster. Start Free.">
+  <meta property="og:description" content="Pick a plan that works for you and your team. Start Free.">
   <meta property="og:url" content="https://visyond.com/pricing/">
-  <meta name="description" content="Make Better Decisions, Faster. Start Free.">
+  <meta name="description" content="Pick a plan that works for you and your team. Start Free.">
 title: Pricing and Plans
 topTitle: >-
-  Make decision-making agile. Start <span style="color: #0086ff;">free</span>.
+  Pick a plan that works for you and your team. Start <span style="color: #0086ff;">free</span>.
 topSubTitle: >-
-  Transform your spreadsheet into an insights machine anybody can drive. No credit card needed.
+  Get started today and try the Full plan for free. Afterwards, you can stay on the free plan or upgrade.
 pricingSections:
   - pricingSection:
       plansCards:
-
-
-
 
         - PricePrimary: $0
           PricePrimaryPeriod: >-
@@ -26,7 +23,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'Free plan includes:'
+          featuresListHeader: 'With Free plan, you can:'
           featureslist:
             - title: Create no-code dashboards
               tooltip: >- 
@@ -48,9 +45,12 @@ pricingSections:
             - limitTitle: 2 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
+            - limitTitle: 1 collaborator per project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.              
           planCardDescription: >-
             Start your journey into the world of agile spreadsheet-based decision-making.
-          planCardTitle: Free
+          planCardTitle: Essential
           planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
 
@@ -69,20 +69,23 @@ pricingSections:
             - title: Generate financial statements
               tooltip: >-
                 Generate always up-to-date, forward-looking pro-forma financial statements from your spreadsheet or operating model.
-            - title: Audit your model
+            - title: Find errors and anomalies
               tooltip: >-
                 Get insights on your model’s structure and content. Understand formulas with the help of natural formula language. Detect root causes of errors and data anomalies.               
           planCardIcon: /img/pricing/FREE.png
           limitsListHeader: 'You get:'
           limitsList:
-            - limitTitle: 2 projects
+            - limitTitle: 3 projects
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 2 dashboards per project
+            - limitTitle: 3 dashboards per project
               limitTooltip: >-
                 The number of dashboards you can create in each project.
-            - limitTitle: 2 scenarios per project
+            - limitTitle: 3 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
+            - limitTitle: 2 collaborators per project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
           planCardDescription: >-
             Generate financial statements from your spreadsheet in a few clicks.
           planCardTitle: Statements
@@ -115,7 +118,7 @@ pricingSections:
                 Run Monte Carlo simulations and manage the risks on the output metrics when they are modeled probabilistically (based on experience or historical data).
             - title: Auto-analyze models
               tooltip: >-
-                Get  quick insights on the outputs of your spreadsheet model by running heuristic auto-analysis that you can customize to your needs afterwards.
+                Get quick insights on the outputs of your spreadsheet model by running heuristic auto-analysis that you can customize to your needs afterwards.
           planCardIcon: /img/pricing/PRO.png
           limitsListHeader: 'You get:'
           limitsList:
@@ -127,9 +130,12 @@ pricingSections:
             - limitTitle: 5 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
+            - limitTitle: 5 collaborators per project
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.  
           planCardDescription: >-
             Supercharge your productivity and do in minutes what takes others hours.
-          planCardTitle: Full
+          planCardTitle: Pro
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
@@ -147,13 +153,13 @@ pricingSections:
           featureslist:
             - title: Avoid information overload
               tooltip: >-
-                Show and share with people only what they need, avoid information overload, and help your team or clients focus on what’s important.
+                Show and share with people only what they need, and help your team or clients focus on what’s important.
             - title: Secure sensitive data
               tooltip: >-
-                Expose only specific worksheets (for example, for a data entry sheet for clients) and dashboards with specific collaborators (for example, dashboards for CFO).   
-            - title: Be in control
+                Establish a single source of truth for your model in the cloud. Expose only specific worksheets (for example, for a data entry sheet for clients) and dashboards with specific collaborators (for example, dashboards for CFO).   
+            - title: Track information
               tooltip: >-
-                Establish a single source of truth for your model in the cloud. Track assumptions, scenarios, insights and supporting information from your team or clients.
+                Track assumptions, scenarios, insights and supporting information from your team or clients.
             - title: Simplify data gathering
               tooltip: >-
                 Improve data accuracy and reduce the risk of version chaos. Encourage collaborators to safely enter data into the model directly or by automatically pulling data from their Excel files.                 
@@ -169,26 +175,29 @@ pricingSections:
             - title: Get personalized onboarding
               tooltip: >-
                 Visyond will help you organize your custom workflows, onboard team members and reach maximum efficiency quickly.
-            - title: Use API
-              tooltip: >-
-                Get access to Visyond’s powerful calculation engine in the cloud and bring automation to the next level.
             - title: Request services
               tooltip: >-
                 Visyond can offer modeling consulting services or manage the platform for you. Billed separately.
             - title: White label the platform
               tooltip: >-
                 White label the platform, and maintain your brand identity when serving your team or clients.
+            - title: Request on-premises installation
+              tooltip: >-
+                Install Visyond on your server. Billed separately.               
           planCardIcon: /img/pricing/ADVANCED.png
           limitsListHeader: 'Your team gets:'
           limitsList:
-            - limitTitle: ∞ projects
+            - limitTitle: Unlimited projects
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: ∞ dashboards per project
+            - limitTitle: Unlimited dashboards
               limitTooltip: >-
                 The number of dashboards you can create in each project.
-            - limitTitle: ∞ scenarios per project
+            - limitTitle: Unlimited scenarios
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
+            - limitTitle: Unlimited collaborators
+              limitTooltip: >-
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
           planCardDescription: >-
             Transform your model into an effective and secure communication tool for team players.
           planCardTitle: Teams
