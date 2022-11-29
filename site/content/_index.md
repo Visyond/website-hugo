@@ -188,6 +188,9 @@ useCaseSection:
     useCaseSectionTitle: >-
           Excel Modeling
 
+
+
+
 StepsHeader: >-
       3 Simple Steps to Save Countless Hours
 StepsSubtitle: >-
@@ -237,6 +240,9 @@ StepsBlock:
     image: /img/home/step4.png
     title: 'Share Insights via Predictive Dashboards'
     titlePrefix: '3'  
+
+
+
 FeaturesHeader: 'Be Prepared for Any Scenario and What-if Question'
 infoBlockFirst:
   - benefitsList:
