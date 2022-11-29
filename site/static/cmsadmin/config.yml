@@ -852,8 +852,8 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: Locations Title, name: locationsTitle, widget: string }
           - { label: "Locations", name: locations, widget: list, fields: [
-              {label: "Is main address?", name: "isMain", widget: "boolean", default: false}
-              { label: "Flag image", name: flag, widget: "image" }
+              {label: "Is main address?", name: "isMain", widget: "boolean", default: false},
+              { label: "Flag image", name: flag, widget: "image" },
               { label: Locations Title, name: title, widget: string },
               { label: Address, name: address, widget: list, fields: [
                 { label: "Address Line", name: addressLine, widget: "string" }
@@ -1322,14 +1322,12 @@ collections: # A list of collections the CMS should be able to edit
             {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
             {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
           ],}
-	], 
-        required: false,
-        }
+	      ], 
+        required: false,}
       - {label: "FAQ Header", name: "FAQHeader", widget: "string", required: false}
       - {label: "FAQ Text", name: "FAQText", widget: "markdown", required: false}
       - {label: "FAQ Button Text", name: "FAQButtonText", widget: "string", required: false}
-      - {label: "FAQ Button Link", name: "FAQButtonLink", widget: "string", required: false},
-        ],}      
+      - {label: "FAQ Button Link", name: "FAQButtonLink", widget: "string", required: false}   
 
 
 
