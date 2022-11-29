@@ -15,10 +15,9 @@ $(function () {
         var inst = setInterval(updateTitle, titleChangeDelay);
         
         var newTitles = [
-        ["what-if analysis", "#ffa946"],
-        ["interactive reporting", "#34ae6e"],
-        ["predictive dashboards", "#c36bdc"],
-        ["risks something", "#c36bdc"],
+        ["what-if and risk analysis", "#ffa946"],
+        ["interactive reporting", "#0086ff"],
+        ["predictive dashboards", "#ffa946"],
         [initialText, initialColor],
         ];
         
@@ -1029,7 +1028,7 @@ $(function () {
             if($('.js-useCases__list').length) {
                 var maxDisplayNum= 4; 
                 var activeSlides = $('.js-useCases__list.active .content-card').length;
-                console.log("Slides in active slider: " + activeSlides);
+                //console.log("Slides in active slider: " + activeSlides);
                 
                 $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
     

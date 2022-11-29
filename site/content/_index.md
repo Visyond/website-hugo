@@ -22,9 +22,10 @@ metaTags: >-
 topTitle: >-
   Turn your Excel into an insights machine for
   </br>
-  <span id="js-dynamicTitle">strategic planning</span>
+  <span id="js-dynamicTitle">scenario planning</span>
 topDescription: >-
-  Leverage your Excel skills, improve productivity with automation, and empower your team to focus on insights in a secure and organized environment.
+  Transform Excel templates and models into data-driven workspaces and empower people to self-serve on insights.
+  Visualize spreadsheets as what-if dashboards and financial statements, automate what-if and risk analyses and protect sensitive data.
 useCasesHeader: >-
          How can Visyond help you and your team?
 useCaseSection:
