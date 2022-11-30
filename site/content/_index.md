@@ -20,132 +20,175 @@ metaTags: >-
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
 topTitle: >-
-  Ask your Excel model anything.
+  Turn your Excel into an insights machine for
   </br>
-  <span id="js-dynamicTitle">Get answers</span> in minutes.
+  <span id="js-dynamicTitle">scenario planning</span>
 topDescription: >-
-  Transform Excel templates and models into productivity workspaces, empowering teams to focus on insights in a decision-support platform that delivers authentic spreadsheet experience.
+  Transform Excel templates and models into data-driven workspaces and empower people to self-serve on insights.
+  Visualize spreadsheets as what-if dashboards and financial statements, automate what-if and risk analyses and protect sensitive data.
 useCasesHeader: >-
-         Which tasks can Visyond help you with?
+         How can Visyond help you and your team?
 useCaseSection:
   - useCaseSectionContent:
       - useCaseTitle: Planning and Forecasting
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Enhance your investement spreadsheet models with superpowers. Scenario forecasting, budget vs. actual, and profitability analysis have never been easier.
+          Scenario planning, budgeting, and variance analysis have never been easier.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Investement calculators
+      - useCaseTitle: Investment calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Make better decisions with interactive no-code investement calculators driven by your Excel model.
+          Visualize ROI and other decision metrics from your model and test scenarios on predictive 'what-if' dashboards.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Gather data from portfolio companies
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Safely feed data and supporting information directly into your predictive cloud model.
-      - useCaseTitle: Share insights on investement strategy
+          Consolidate data points and assumptions from different sources into the central predictive model in the cloud. 
+      - useCaseTitle: Share insights on investment strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Ask your cloud model questions via visual and interactive interface.
+          Bring interactive reporting to the next level, and empower stakeholders to focus on what's important.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Analyze new investements
+      - useCaseTitle: Investment & valuation analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Find top profitability drivers, explore sensitivities, manage risks and uncertainty.                                     
     useCaseSectionTitle: >-
-          VC & PE
+          Finance & Investment Analysis
+
+
 
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Analyze spreadsheet data
+      - useCaseTitle:  Sales & growth forecasting
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Establish a layer where teams can safelty query the model without interfering with each other...
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
         useCaseURL: /solutions/what-if-analysis/  
-      - useCaseTitle: Analyze and audit the model
+      - useCaseTitle: Pricing & negotiation calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Have a secure and interactive visualization layer that always stays up-to-date on top of your spreadsheet.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create interactive ‘what-if’ reports
+      - useCaseTitle: Budget vs. actual
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Something-something something                                        
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.     
+      - useCaseTitle: Financial presentations
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.                                              
     useCaseSectionTitle: >-
-          CFO & CxO
+          Marketing & Sales
+
 
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
+      - useCaseTitle: PM reporting
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+          Collect and aggregate numerical and financial data and create impactful reports for management.
         useCaseURL: /solutions/what-if-analysis/   
-                                                               
+      - useCaseTitle: Something
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah.                                                                
     useCaseSectionTitle: >-
-          FP&A professionals
+          Project Management
+
 
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
+      - useCaseTitle: Collaborate on business strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
+        useCaseURL: /solutions/what-if-analysis/   
+      - useCaseTitle: Where to invest
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
+      - useCaseTitle: how  to approach initiatives
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: What-if and waterfalls
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
+      - useCaseTitle: Consult with impact
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/ 
+      - useCaseTitle: Protect your models and IP
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+        useCaseURL: /solutions/what-if-analysis/
+    useCaseSectionTitle: >-
+          Management Consulting
+
+
+
+
+
+  - useCaseSectionContent:
+      - useCaseTitle: Budget vs Actual
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Do it.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Create financial statements
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Generate forward-looking pro-forma financial statements from your spreadsheet.   
-      - useCaseTitle: Gather data
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Empower others to safely contribute their data and assumptions into the central model.
-        useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Automate What-if analysis
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Find top drivers, visualize model's sensitivity, manage risks with Monte Carlo simulations and compare scenarios in a few clicks.
-        useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Share Insights
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Visualize your model's inputs and outputs as interactive dashboards, powered by your Excel model and a cloud calculation engine.
-        useCaseURL: /solutions/what-if-analysis/                                                                     
+          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
     useCaseSectionTitle: >-
-          Consultants & Clients
+          Startups
+
+
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Reduce the risk of errors
+      - useCaseTitle: Protect models and IP
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Audit models, detect anomalies, have full control over you model, and provide reliable insights.
+          Do it.
         useCaseURL: /solutions/what-if-analysis/   
       - useCaseTitle: Create financial statements
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Generate forward-looking pro-forma financial statements from your spreadsheet.                                                                    
+          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
     useCaseSectionTitle: >-
-          Quick workflows
+          Excel Modeling
+
+
 
 
 StepsHeader: >-
@@ -197,6 +240,9 @@ StepsBlock:
     image: /img/home/step4.png
     title: 'Share Insights via Predictive Dashboards'
     titlePrefix: '3'  
+
+
+
 FeaturesHeader: 'Be Prepared for Any Scenario and What-if Question'
 infoBlockFirst:
   - benefitsList:

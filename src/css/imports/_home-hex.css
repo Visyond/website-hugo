@@ -315,6 +315,7 @@ color: #282828;
     .home-hero__half-width-wrap--image{
         display: inline-block;
         margin-bottom: 45px;
+        width: 100%;
     }
     .home-hero__laptop-image{
         max-width: 400px;
@@ -559,6 +560,11 @@ color: #282828;
        /* margin-bottom: 70px; */
     }
 }
+
+.enterV__headline > span {
+    color: #0086ff;
+}
+
 .enterSections__benefits{
     padding: 20px 0 10px;
 }

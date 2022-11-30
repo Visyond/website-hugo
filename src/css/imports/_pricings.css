@@ -1,68 +1,47 @@
+
 .container-pricing {
-  width: 95%;
   margin: 0 auto;
 
   @media screen and (min-width: 1401px) {
     max-width: 1400px;
   }  
-  @media screen and (min-width: 1201px) {
-    max-width: 1200px;
+   @media screen and (max-width: 991px) {
+    max-width: 100%;
   }
-  @media screen and (max-width: 1211px) {
-    width: 99%;
-  }
-  @media screen and (max-width: 1051px) {
-    width: 99%;
-  }
-  @media screen and (max-width: 1024px) {
-    width: 90%;
-  }	
-}
+} 
 
 .card__title-wrap__pricing {
   display: flex;
   flex-direction: column;
 
   & > img {
-    margin: 1em 0;
+    margin: 14px 0;
   }
 }
 
 .card__title__pricing {
-  font-size: 1.5em;
+  font-size: 34px;
   font-weight: 900;
-  color: #383e4d;
-  margin-bottom: 0.5em;
+  color: #181818;
+  margin-bottom: 14px;
 
-  @media screen and (max-width: 1024px) {
-    font-size: 2em;
+  @media screen and (max-width: 991px) {
     text-align: center;
-  }
+  } 
+
 }
 
 .card__subtitle__pricing {
-  font-weight: 400;
-  list-style-type: none;
-  padding: 0;
-  color: #383e4d;
-  font-size: 0.9em;
+  font-weight: 500;
+  color: #181818;
+  font-size: 16px;
   height: 5em;
-  margin: 2em 0 1em 0;
+  margin: 10px 0 15px;
 
-  & > ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  & ul > li {
-    margin: 1em 0;
-  }
-
-  @media screen and (max-width: 1024px) {
-    font-size: 1.1em;
+  @media screen and (max-width: 991px) {
     height: auto;
     text-align: center;
-  }
+  } 
 }
 
 
@@ -72,116 +51,79 @@
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: wrap;
+  height: 100px;
 
-  @media screen and (max-width: 1024px) {
+   @media screen and (max-width: 991px) {
     align-items: center;
-  }	
+  }	 
 }
 
 .price-wrapper-top {
-	font-size: 1em;
-	height: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 991px) {
     height: auto;
   }	
 }
 
 .price-wrapper-bottom {
-	font-size: 1.1em;
-	height: 1.1em;
-  margin-top: 0.7em;
+	font-size: 4px;
+  margin-top: 6px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 991px) {
     height: auto;
   }	
 }
 
 .price-card {
   position: relative;
-  padding: 1em 0.9em;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 540px;
-  background-color: #fff;
+  background-color: #fafafa;
   border: 1px solid #efefef;
   border-radius: 15px;
   box-shadow: 0px -5px 10px 0px rgb(228 228 228 / 55%); 
   border: 1px solid #e8e8e8;
-  width: 100%;
-  max-width: 270px;
-
-  @media screen and (max-width: 1024px) {
-    /* width: 80%; */
-    max-width: 80%;
-  }
-  @media screen and (max-width: 768px) {
-    /* width: 80%; */
-    max-width: 80%;
-  }
-
-  @media screen and (max-width: 501px) {
-    /* width: 90%; */
-    max-width: 90%;
-  }
-
+  margin: 0 10px;
 }
 
 .price-card:nth-child(1n) {
-  margin: 0 0.7em 0 0;
-  @media screen and (max-width: 1024px) {
-    margin: 2em 0;
-    padding: 2em 2em;
-  }		
+  margin: 0 14px 0 0;
 }
 
 .price-card:nth-child(2n) {
-  margin: 0 0.7em 0 0;
-  @media screen and (max-width: 1024px) {
-    margin: 2em 0;
-    padding: 2em 2em;
-  }		
+  margin: 0 14px 0 0;
 }
 
 .price-card:nth-child(2n + 1) {
-  margin: 0 0.7em 0 0;
-  @media screen and (max-width: 1024px) {
-    margin: 2em 0;
-    padding: 2em 2em;
-  }		
+  margin: 0 14px 0 0;
 }
 
 .price-card:last-child {
   margin: 0;
-  @media screen and (max-width: 1024px) {
-    margin: 2em 0;
-    padding: 2em 2em;
-  }		
 }
+
 
 
 .price-card-content {
   display: flex;
   flex-flow: column wrap;
-  height: 100%;
-  width: 100%;
-  font-size: 1.2em;
 }
 
 .price-primary-value {
-  font-weight: 600;
+  font-weight: 500;
   color: #0585ff;
-  font-size: 2em;
+  font-size: 36px;
   display: inline;
 }
 
@@ -189,27 +131,24 @@
 .price-primary-period {
   font-weight: 600; 
   color: #383e4d;
-  font-size: 0.9em;
+  font-size: 20px;
   display: block;
   margin-left: 0.5em;
   line-height: 1em;
-
-  @media screen and (max-width: 1024px) {
-      font-size: 1.1em;
-  }		
 }
 
 
 .price-billing-note {
   font-weight: 400;
   color: #383e4d;
-  font-size: 0.75em;
+  font-size: 18px;
   flex: 1;
   flex-basis: auto;
+}
 
-  @media screen and (max-width: 1024px) {
-    font-size: 0.9em;
-  }		
+.price-billing-note > span {
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .price-min-seats {
@@ -220,8 +159,8 @@
   flex: 1;
   flex-basis: auto;
 
-  @media screen and (max-width: 1024px) {
-    font-size: 0.9em;
+  @media screen and (max-width: 991px) {
+    font-size: 12px;
   }		
 }
 
@@ -232,12 +171,9 @@
 .before-bullet-points {
   margin: 0 0 0.7em;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 16px;
   text-align: left;
-  color: #50546d;
-  @media screen and (max-width: 1024px) {
-    font-size: 1.2em;
-  }		
+  color: #181818;
 }
 /* END BEFORE BULLET POINTS IN PRICING CARD */	
 
@@ -313,16 +249,13 @@
 }
 
 .tooltiptextPricing {
-  width: 16em;
+  width: 200px;
   z-index: 1;
   top: -210%;
   right: -28%;
   opacity: 0;
   transition: opacity 0.3s;
 
-  @media screen and (max-width: 1024px) {
-    font-size: 1em!important;
-  }	
 }
 
 .tooltipPricing .tooltiptextPricing {
@@ -330,13 +263,11 @@
   background-color: #212121;
   color: #ffffff;
   font-weight: 600;
-  font-size: 0.8em;	
-  box-shadow: 0 0 0.5em 1px #9a9a9a;	
-  /*text-align: left;*/
+  font-size: 14px;	
+  box-shadow: 0 0 8px 1px #9a9a9a;	
   border-radius: 5px;
-  padding: 0.7em;
+  padding: 10px;
   position: absolute;
-  /*margin-left: -7.5em;*/
 }
 
 .tooltipPricing:hover .tooltiptextPricing {
@@ -364,7 +295,7 @@
     content: none!important;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 991px) {
   text-align: left!important;
   padding-left: 0em;
   font-size: 0.9em!important;
@@ -388,14 +319,14 @@
 
 .tooltipIcon {
   color: #383e4d; 
-  font-size: 16px;
-  margin-left: 0.2em;
+  font-size: 20px;
+  margin-left: 2px;
 }
 
 .pricingFormResize {
   width: 50%;	
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 991px) {
       width: 80%;
   }  		
 }	
@@ -405,7 +336,6 @@
 .btn-pricing-card {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #0585ff;
   padding: 0.7em 0.5em;
@@ -417,10 +347,10 @@
   border: 1px solid #0585ff;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
+  font-size: 16px;
 
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
+
 }
 
 .btn-pricing-card:hover {
@@ -433,7 +363,6 @@
 .btn-pricing-card-contactUs {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #fff;
   padding: 0.7em 0.5em;
@@ -445,10 +374,10 @@
   border: 1px solid #0585ff;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
+  font-size: 16px;
 
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
+
 }
 
 .btn-pricing-card-contactUs:hover {
@@ -460,7 +389,6 @@
 .btn-pricing-card-enterprise {
   margin: 0.5em auto;
   display: inline-block;
-  font-size: 14px;
   font-weight: 600;
   color: #fff;
   padding: 0.7em 0.5em;
@@ -472,10 +400,9 @@
   border: 1px solid #52556c;
   cursor: pointer;
   width: 60%;
+  border-radius: 50px;
 
-  @media screen and (max-width: 1024px) {
-    width: 50%;
-  }
+
 }
 
 .btn-pricing-card-enterprise:hover {
@@ -489,21 +416,10 @@
 }
 
 .plan-features-wrapper {
-  color: #5f6976;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  flex-basis: 14em;
-
-  @media screen and (max-width: 1211px) {
-      font-size: 0.9em;
-  }	
-  @media screen and (max-width: 1051px) {
-      font-size: 0.9em;
-  }	
-  @media screen and (max-width: 1024px) {
-      height: auto;
-  }				
+  flex-basis: 400px;
 }
 
 .plan-features-wrapper a, .plan-features-wrapper a:visited {
@@ -521,16 +437,12 @@
   position: relative;
   font-weight: 400;
   color: #0e2639;
-  font-size: 0.75em;
+  font-size: 15px;
 
   &:not(:last-child) {
-    margin-bottom: 0.7em;
+    margin-bottom: 10px;
   }
 
-  @media screen and (max-width: 1024px) {
-    padding-left: 0em;
-    font-size: 1.1em;
-  }	
 }
 
 .plan-features-wrapper-li-wrapper {
@@ -567,7 +479,7 @@
 }
 
 .planInfo-title {
-  color: #383e4d;
+  color: #181818;
   font-size: 2em;
   line-height: 1.1;
   font-weight: 600;
@@ -576,7 +488,7 @@
 }
 
 .planInfo-description {
-  color: #383e4d;
+  color: #181818;
   font-size: 16px;
   width: 100%;
   font-weight: 400;

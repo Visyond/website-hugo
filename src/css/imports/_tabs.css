@@ -7,7 +7,6 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: -1px 0 0 -1px;
     padding: 0;
     justify-content: center;
     /* border-bottom: 2px solid #efefef; */
@@ -159,29 +158,40 @@
 
 /* ===== CONTENT CARDS ===== */  
 .content-card {
-    display: flex;
+    display: flex!important;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    width: 500px;
-    max-width: 46%;
     border: 1px solid #efefef;
-    margin: 2%;
+    /* margin: 2%; */
     background-color: #fafafa;
     border-radius: 15px;
     box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
-    padding: 40px;
-    transition: all 0.2s ease-out; 
+    padding: 20px;
+    transition: all 0.2s ease-out;
 
-
-    @media screen and (max-width: 768px) {
-      max-width: 100%;
-      padding: 2em;
-      @media (max-width: 769px) {
-          padding: 1.5em;
-      }
-  }
+    &:hover {
+      box-shadow: 0 0 10px 1px #dfdfdf;
+    }
 }
+
+
+.content-card:nth-child(1n) {
+  margin: 0 14px 0 0;
+}
+
+.content-card:nth-child(2n) {
+  margin: 0 14px 0 0;
+}
+
+.content-card:nth-child(2n + 1) {
+  margin: 0 14px 0 0;
+}
+
+.content-card:last-child {
+  margin: 0;
+}
+
 
 
 .content-card:hover .content-card__title {
@@ -199,12 +209,6 @@
     background: #0086ff;
     border-color: #0086ff;
     box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
-}
-
-.content-card--disabled {
-    &:hover {
-        cursor: default;
-    }
 }
 
 .content-card .btn-wrap {
@@ -237,19 +241,20 @@
 .content-card__title {
     color: #282828;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.44;
     margin-top: 16px;
     margin-bottom: 16px;
+    text-align: center;
     transition: color 0.2s ease-in-out;
 }
 
 .content-card_description {
-    font-size: 18px;
+    font-size: 16px;
+    text-align: center;
     line-height: 1.44;
     color: #282828;
     font-weight: 400;
-    text-align: left;
     margin-bottom: 20px;
     transition: opacity 0.2s ease-in-out;
     

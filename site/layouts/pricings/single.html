@@ -3,7 +3,7 @@
 
 <div class="homehex ht">
   <!-- TOP SECTION -->
-  <section class="home-hero" style="padding: 60px 0px 60px 0px;">
+  <section class="home-hero" style="padding: 60px 0px 60px 0px; background: #fafafa;">
     <div class="container">
       <div class="whyV__row">
         <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
@@ -27,10 +27,13 @@
 
   <!-- PRICING SECTIONS -->
   {{ range .Params.pricingSections }} 
-  <section class="homeBenefits">
+  <section class="homeBenefits pricing-section">
+    
       <div class="container-pricing">
         {{ with .pricingSection }}
 
+
+        <!-- 
         <div class="pricingSectionTitleContainer">
           <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
           <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
@@ -39,14 +42,16 @@
 
         <div class="header-section--divider"></div>
 
+        -->
+
+        
         <!-- PRICING SECTION DESCRIPTION -->
+        <!--
         {{ with .planInfoBlock }}
         <div class="planInfo-container">
-          <!--
           <div class="planInfo-image-container">
             <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="planInfo-image">
           </div>
-          -->
 
           <div class="planInfo-description-container">
             <div class="planInfo-title">{{ .planInfoBlockTitle }}</div>
@@ -54,11 +59,12 @@
           </div>
         </div>
         {{ end }}
+        -->
         <!-- END: PRICING SECTION DESCRIPTION -->
 
-        <div class="card__list">
+        <div class="js-pricing-cards"> <!-- js-pricing-cards -->
           {{ range .plansCards }}
-          <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 1em solid {{ .planCardLabelColor }};" {{end}}>
+          <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 18px solid {{ .planCardLabelColor }};" {{end}}>
             <article class="price-card-content">
               <div class="card__title-wrap__pricing">
                 <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
@@ -71,7 +77,7 @@
                     color: {{ .planCardPriceColor }}; 
                     {{ end }}
                     {{ if strings.HasPrefix .planCardTitle "Enterprise" }}
-                    font-size: 1.5em;
+                    
                     {{end}}">
                       {{ .PricePrimary }}
                     </div>
@@ -101,7 +107,7 @@
                   {{ else if .isButtonEnterprise }}
                   class="btn-pricing-card-enterprise fluid"
                   {{ else }} 
-                  class="btn-pricing-card fluid" 
+                  class="btn-pricing-card fluid"
                   {{ end }} 
                   aria-label="button">	      
                     {{ .cardButtonText }}
@@ -179,19 +185,74 @@
   {{ end }} 
   <!-- END: PRICING SECTIONS -->
     
+  {{ partial "hexSlider" . }}
 
+
+    <!-- FORM -->
+    <section id="contactUs" class="homeBenefits"> 
+      <div class="container">
+        <h2 class="enterV__headline">{{ .Params.formTitle }}</h2>
+        <div class="header-section--divider"></div>
+          {{ partial "bookingScript" . }}
+  
+
+          <!-- HUBSPOT FORM -->
+          <!-- <div class="marketing-form-wrapper"> -->
+            <!--[if lte IE 8]>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <!-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+              region: "na1",
+              portalId: "3409378",
+              formId: "7d249eff-acef-44ce-8255-c9f14ba3acba"
+            });
+            </script>
+          </div> -->
+          <!-- HUBSPOT FORM -->
+
+
+        <!-- OLD FORMSPREE FORM 
+        <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
+          <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
+          <input type="hidden" id="referrer" name="Referrer" value="" /> 
+  
+          <div class="form__left-column pricingFormResize" style="margin: 0;">
+            <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
+            <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
+            <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
+            
+            <div class="form__textarea-container" style="height: 90px;">
+              <textarea name="message" class="form__textarea" placeholder="Your message..." rows="2" required></textarea>
+            </div>   
+      
+            <div class="btn-wrap">
+              <input type="submit" value="Contact Us" class="btn-primary">
+            </div>
+          </div>	
+        </form>
+        -->
+      </div>   
+    </section>           	
+    <!-- END: FORM -->                          
+
+    
 
   <!-- DEMO STRIP -->
+  <!--
   <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
     <div class="container">
         <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
         <a href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
     </div>
   </section>
+   -->
   <!-- END: DEMO STRIP -->   
       
 
   <!-- TALK TO US IF YOU NEED -->
+  <!-- 
   {{ with .Params.contact }}	
   <section class="homeBenefits" style="background: #fafafa;">
     <div class=container>
@@ -218,17 +279,17 @@
         {{ end }}
       </div>
     
-      <div class="btn-wrap" style="margin-bottom: 2em;">
-        <a href="#contactUs" class="btn-primary" style="text-transform: none;">Talk to Us</a>
+      <div class="btn-wrap">
+        <a href="#contactUs" class="button button-primary">Talk to Us</a>
       </div>
     </div>
   </section>
   {{ end }}
+  -->
   <!-- END: TALK TO US IF YOU NEED  -->
 
 
 
-  {{ partial "hexSlider" . }}
 
 
 
@@ -258,53 +319,6 @@
     </div>
   </section>
   <!-- END: FAQ -->
-
-
-
-  <!-- FORM -->
-  <section id="contactUs" class="homeBenefits"> 
-    <div class="container">
-      <h2 class="enterV__headline">{{ .Params.formTitle }}</h2>
-      <div class="header-section--divider"></div>
-
-
-        <div class="marketing-form-wrapper">
-          <!--[if lte IE 8]>
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-          <![endif]-->
-          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-          <script>
-            hbspt.forms.create({
-            region: "na1",
-            portalId: "3409378",
-            formId: "7d249eff-acef-44ce-8255-c9f14ba3acba"
-          });
-          </script>
-        </div>
-      <!-- OLD FORMSPREE FORM 
-      <form style="margin-top: 1.5em" class="form__inputs-container" method="POST" action="https://formspree.io/xwkrrdak">	
-        <input type="hidden" name="_next" value="https://visyond.com/pricing/">  
-        <input type="hidden" id="referrer" name="Referrer" value="" /> 
-
-        <div class="form__left-column pricingFormResize" style="margin: 0;">
-          <input type="text" name="first_name" placeholder="First name" class="form__input"style="height: 70px;" required/>
-          <input type="text" name="last_name"  placeholder="Last name" class="form__input" style="height: 70px;" required/>
-          <input type="email" name="email" placeholder="Business email" class="form__input"  style="height: 70px;" required/>
-          
-          <div class="form__textarea-container" style="height: 90px;">
-            <textarea name="message" class="form__textarea" placeholder="Your message..." rows="2" required></textarea>
-          </div>   
-    
-          <div class="btn-wrap">
-            <input type="submit" value="Contact Us" class="btn-primary">
-          </div>
-        </div>	
-      </form>
-      -->
-    </div>   
-  </section>           	
-  <!-- END: FORM -->                          
-
 
 
   <!-- BOTTOM CTA WITH VIDEO 

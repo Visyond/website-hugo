@@ -16,7 +16,7 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              **Visyond is for everyone who is involved in decision-making based on spreadsheets.**
+              **Visyond is for everyone who is involved in decision-making based on spreadsheet analysis and visualizations:**
           - answer: >-
               **Analysts** building the model and analyzing scenarios, sensitivities, etc.
           - answer: >-
@@ -28,19 +28,21 @@ faqSection:
         faqSectionSubTitle: Is Visyond for me?
       - answersList:
           - answer: >-
+              Investment and valuation analysis
+          - answer: >-
+              Sensitivity and Scenario Analyses
+          - answer: >-
               Budgeting and Forecasting
           - answer: >-
               Budget vs Actuals
           - answer: >-
-              Sensitivity and Scenario Analyses
+              Maintaining the model in one place while sharing parts of it only with specific people 
           - answer: >-
               Risk management using Monte Carlo Simulations
           - answer: >-
               Pro-forma financial statements connected to scenarios in the spreadsheet
           - answer: >-
-              Investment and valuation analysis
-          - answer: >-
-              Finding the root cause of errors
+              Finding the root cause of errors and data anomalies
           - answer: >-
               Maintaining the model in one place while sharing parts of it only with specific people
         faqSectionSubTitle: What are the typical use-cases?
@@ -48,13 +50,13 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              **Visyond is a cloud collaborative workspace** that connects your spreadsheets and scenarios to automated ‘what-if’ analysis tools and real-time interactive dashboards, using the spreadsheet as a calculation engine.
+              **Visyond is a collaborative workspace** that connects your scenarios to automated ‘what-if’ analysis and real-time interactive dashboards, using the spreadsheet as a calculation engine.
         faqSectionSubTitle: You don’t need many tools to get the job done
       - answersList:
           - answer: >-
               **Visyond ensures no data gets lost during the collaboration process** by tracking changes and saving each and every assumption added to the project without overwriting existing ones.
           - answer: >-
-              **Visyond ensures the integrity of data.** Nobody, including the project owner, can modify data entered by others. You have a bird’s-eye view of your projects that shows you assumptions, scenarios, analyses and dashboards created by collaborators.
+              **Visyond ensures the integrity of data.** Nobody, including the project owner, can modify data entered by others. You have a bird’s-eye view of your projects that shows you assumptions, scenarios, analyses and dashboards created by collaborators. Unlike Excel Online or Google Sheets, where the last entry overwrites the previous, in Visyond multiple assumptions and scenarios coexist.
           - answer: >-
               **Scenario management becomes a breeze.** Your team can extend each others’ scenarios without breaking the spreadsheet or dealing with multiple versions.
         faqSectionSubTitle: Planning and forecasting becomes a truly collaborative experience
@@ -72,7 +74,7 @@ faqSection:
           - answer: >-
               If enabled, **natural language formula names** will make your spreadsheet easier to understand (e.g., _Revenues[2021] - Expenses[2021]_ vs _A2 - B2_).
         faqSectionSubTitle: You will know if there’s something wrong with your spreadsheet
-    faqSectionTitle: Why Visyond instead of other spreadsheets?
+    faqSectionTitle: How does Visyond go beyond spreadsheet ecosystem limitations?
   - faqSectionContent:
       - answersList:
           - answer: >-
@@ -139,8 +141,6 @@ faqSection:
               **Yes. We support Excel** so you can import most Excel files, all worksheets at once. All original formulas, values and formats are imported. Alternatively, you can create a project directly in Visyond using the same skill set you need to create an Excel file. 
           - answer: >-
               [Learn more about Excel import.](https://help.visyond.com/articles/importing-from-excel/)
-          - answer: >-
-              Alternatively, you can download the [Visyond add-in for Excel from Microsoft Store](https://appsource.microsoft.com/en-us/product/office/WA200002940).
         faqSectionSubTitle: Can I work on my Excel projects?
       - answersList:
           - answer: >-
@@ -159,8 +159,6 @@ faqSection:
               **Visyond is as fast as leading online platforms can be.** It runs in the browser and its performance should be compared to _Excel 365_, _Google Sheets_ and other online tools. 
           - answer: >-
               Install the latest version of your browser for the best user experience (_we recommend Google Chrome_). Also, close unneeded applications, tabs and browser windows to free up memory.
-          - answer: >-
-              If your spreadsheet is very large and you need desktop-app speeds, consider using our [Excel add-in](https://appsource.microsoft.com/en-us/product/office/WA200002940).
         faqSectionSubTitle: How fast is Visyond?
       - answersList:
           - answer: >-
@@ -174,13 +172,11 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              **No.** Visyond does not have an open API.
+              **No.** Visyond does not have an open API, but we can work with your IT department to establish connections with your tools.
         faqSectionSubTitle: Do you have an open API?
       - answersList:
           - answer: >-
-              **Visyond does not support macros**, but our team can port them to JavaScript, if needed. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more.
-          - answer: >-
-              Alternatively, you can install [our Excel Add-In](https://appsource.microsoft.com/en-us/product/office/WA200002940).
+              **Visyond, like Excel Online and Google Sheet, cannot import Excel Desktop macros.** Our team can port them to JavaScript, if needed. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> to learn more.
         faqSectionSubTitle: Do you support macros?
       - answersList:
           - answer: >-
@@ -214,62 +210,8 @@ faqSection:
   - faqSectionContent:
       - answersList:
           - answer: >-
-              Yes. With the free _Basic Dashboards_ plan, you can create advanced charts and present interactive, spreadsheet-driven dashboards and ‘what-if’ calculators.
-          - answer: >-
-              Sign up and get the full Visyond experience with a [7-day premium plan](/accounts/signup/). No credit card required.          
-        faqSectionSubTitle: Is there a free version of Visyond?
-      - answersList:
-          - answer: >-
-              Visyond plans start from $9 seat/month for _Dashboards_ plans, and from $47 seat/month for _Dashboards + Auto-analysis_ plans.
-        faqSectionSubTitle: How much does Visyond cost?
-      - answersList:
-          - answer: >-
-              If you’d like to create and present interactive dashboards, pick one of the _Dashboard_ plans.
-          - answer: >-
-              If, additionally, you would like to automate spreadsheet analysis, choose one of the _Dashboards + Auto-analysis_ plans.             
-        faqSectionSubTitle: Which plan should I pick?
-      - answersList:
-          - answer: >-
-              Plan upgrades take place immediately. You will be charged pro-rata (for the days remaining in the current billing period) on the price difference between the new and previous plan.
-          - answer: >-
-              Plan downgrades take place at the end of the current billing cycle.
-          - answer: >-
-              Changes to the billing cycle (e.g., from monthly to annual or vice versa) will take place at the end of the current billing cycle.
-          - answer: >-
-              We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).
-        faqSectionSubTitle: Can I change my plan?
-      - answersList:
-          - answer: >-
-              Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
-        faqSectionSubTitle: How do I manage my billing?
-      - answersList:
-          - answer: >-
-              <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for bulk discounts if you are purchasing 10+ seats.
-        faqSectionSubTitle: Do you offer discounts?
-      - answersList:
-          - answer: >-
-              Yes. <a onclick="window.HubSpotConversations.widget.open();">Contact us</a> for special offers for students and instructors.
-        faqSectionSubTitle: Do you offer plans for students?        
-      - answersList:
-          - answer: >-
-              We accept credit cards, and wire transfers for Team and Enterprise plans.
-          - answer: >-
-              We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
-        faqSectionSubTitle: How can I pay?
-      - answersList:
-          - answer: >-
-              Yes. If you need help building the model, creating dashboards, or analyzing spreadsheet data, we and our partners offer [managed services on the Visyond platform](/services).
-        faqSectionSubTitle: Do you provide services?
-    faqSectionTitle: Pricing
-  - faqSectionContent:
-      - answersList:
-          - answer: >-
               Please [see our Partners page](/partner-with-visyond/) for more information.
         faqSectionSubTitle: Do you have a partnership program?
-      - answersList:
-          - answer: >-
-              Please see [the list of our partners](/partners).
-        faqSectionSubTitle: Who are your partners?
     faqSectionTitle: Partners
 ---
 

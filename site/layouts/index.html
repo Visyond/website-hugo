@@ -81,20 +81,22 @@
                 <ul class="tabs__control">
                     {{ range $index, $el := .Params.useCaseSection }}
                     <!-- if first element in collection, adds 'active' class (see _tabs.css and script.custom.js)-->
-                    <li class="tab__title {{ if ( eq $index 0) }}active{{ end }}">{{ .useCaseSectionTitle | markdownify }}</li>
+                    <li class="tab__title {{ if ( eq $index 0) }}active{{ end }}"> 
+                        {{ .useCaseSectionTitle | markdownify }}
+                    </li>
                     {{ end }}
                 </ul>
                   
                 {{ range $index, $el := .Params.useCaseSection }}
-                <!-- if first element in collection, adds 'active' class (see _tabs.css and script.custom.js)-->
-                <div class="tabs__content {{ if ( eq $index 0) }}active{{ end }}">
+                <!-- adds 'active' class to the first element in collection (see _tabs.css and script.custom.js)-->
+                <div class="tabs__content js-useCases__list {{ if ( eq $index 0) }}active{{ end }}">
                         {{ range $list := .useCaseSectionContent }}   
                         {{ if (eq .isVisible true)}}
                             <a 
                             {{ if .useCaseURL }}
                             href="{{ .useCaseURL }}"
                             {{ end }} 
-                            class="content-card {{ if not (isset . "useCaseURL") }} content-card--disabled {{ end }}"> 
+                            class="content-card"> 
                                 <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="content-card__img">
                                 
                                 <div class="content-card__title">{{ .useCaseTitle }}</div>
@@ -136,7 +138,7 @@
           <div class="home-hero__topSubtitle" style="text-align: center;color: rgba(0,0,0,.8);">{{ .Params.StepsSubtitle| markdownify }}</div>
           <div class="header-section--divider"></div>
           <ul class="enterSections js-image-block">
-              {{ partial "hexBlockListC" . }}
+              {{ partial "get-started-steps" . }}
           </ul>
       </div>
     </section>
@@ -270,7 +272,7 @@
 	<section class="whyV" style="background-color: #fafafa;">
 		<div class="container">
 			<div class="whyV__row">
-				<h2 class="enterV__headline" id="request">Request Live Demo</h2>
+				<h2 class="enterV__headline" id="request">Onboarding call</h2>
 				<div class="demo-section--divider"></div>
                 {{ partial "bookingScript" . }}
 			</div>
