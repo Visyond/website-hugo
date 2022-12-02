@@ -24,8 +24,7 @@ topTitle: >-
   </br>
   <span id="js-dynamicTitle">scenario planning</span>
 topDescription: >-
-  Transform Excel templates and models into data-driven workspaces and empower people to self-serve on insights.
-  Visualize spreadsheets as what-if dashboards and financial statements, automate what-if and risk analyses and protect sensitive data.
+  Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
 useCasesHeader: >-
          How can Visyond help you and your team?
 useCaseSection:
@@ -34,33 +33,43 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting, and variance analysis have never been easier.
-        useCaseURL: /solutions/what-if-analysis/  
+          Scenario planning, budgeting and variance analysis have never been easier and more organized.
+        useCaseURL: 
+
       - useCaseTitle: Investment calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Visualize ROI and other decision metrics from your model and test scenarios on predictive 'what-if' dashboards.
+          Visualize ROI and other decision metrics from your model and visually test scenarios on predictive 'what-if' dashboards.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Gather data from portfolio companies
+
+      - useCaseTitle: Gathering data from portfolio companies
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Consolidate data points and assumptions from different sources into the central predictive model in the cloud. 
-      - useCaseTitle: Share insights on investment strategy
+          Consolidate data points and assumptions from different sources into the central predictive model.
+
+      - useCaseTitle: Sharing insights on investment strategy
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Bring interactive reporting to the next level, and empower stakeholders to focus on what's important.
+          Bring interactive reporting to the next level, and empower stakeholders to self-serve on insights and focus on what's important.
         useCaseURL: /solutions/what-if-analysis/   
+
       - useCaseTitle: Investment & valuation analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Find top profitability drivers, explore sensitivities, manage risks and uncertainty.                                     
-    useCaseSectionTitle: >-
-          Finance & Investment Analysis
+          Find top profitability drivers, explore sensitivities, run simulations and manage risks and uncertainty. With just a few clicks.           
 
+      - useCaseTitle: Revenue optimization and cost reduction
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations. 
+
+    useCaseSectionTitle: >-
+          Finance & Investment
 
 
 
@@ -70,24 +79,34 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/commmunicate-insights.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
+          Simplify forecasting and empower stakeholders to self-serve on scenarios and what-if questions.Track assumptions from different sources and collect data into the central model.
         useCaseURL: /solutions/what-if-analysis/  
+
       - useCaseTitle: Pricing & negotiation calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.
+          Demonstrate the value of your offering to the clients, and provide your leads with personalized and interactive forecasts.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Budget vs. actual
+
+      - useCaseTitle: Marketing campaign planning
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.     
-      - useCaseTitle: Financial presentations
+          Plan marketing campaigns and their impact on costs, revenues and other decision metrics. Visually compare scenarios and simplify plan vs. actuals workflow.
+
+      - useCaseTitle: KPI and performance presentations
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.                                              
+          Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information and KPIs they need to see.      
+
+      - useCaseTitle: Revenue optimization and cost reduction
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations.   
+
     useCaseSectionTitle: >-
           Marketing & Sales
 
@@ -95,59 +114,61 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: PM reporting
+      - useCaseTitle: Business cases development
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Collect and aggregate numerical and financial data and create impactful reports for management.
+          Speed-up business case development while reducing the risk of errors, and empower your team and clients to provide data points and assumptions.
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Something
+
+      - useCaseTitle: Investments and risks analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah.                                                                
-    useCaseSectionTitle: >-
-          Project Management
+          Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
 
-
-
-
-  - useCaseSectionContent:
-      - useCaseTitle: Collaborate on business strategy
+      - useCaseTitle: Insightful visualizations for clients
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
-        useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Where to invest
-        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
-        isVisible: true
-        useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.   
-      - useCaseTitle: how  to approach initiatives
-        useCaseImage: /img/icons/use-cases/calculators.png
-        isVisible: true
-        useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+          Present your analytical insights, boosted by automation, and allow stakeholders to safely interact with the central model in a way you didn’t know was possible.  
         useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: What-if and waterfalls
+
+      - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+          Scenario planning, budgeting and variance analysis have never been easier and more organized.
         useCaseURL: /solutions/what-if-analysis/
-      - useCaseTitle: Consult with impact
+
+      - useCaseTitle: Stress-testing assumptions and scenarios
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+          Gather assumptions from different sources and stakeholders, and stress-test scenarios with your clients in a visual way, empowering them to self-serve on what-if questions.
         useCaseURL: /solutions/what-if-analysis/ 
-      - useCaseTitle: Protect your models and IP
+
+      - useCaseTitle: Creating Waterfall charts
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Blah blah blah blah blah blah. Blah blah blah blah blah blah.  
+          Easily create and securely share Waterfall charts (and many others) that are connected to the central model, its assumptions and analyses.
         useCaseURL: /solutions/what-if-analysis/
+
+      - useCaseTitle: Protecting your models and IP
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Conceal your model’s proprietary logic, protect intellectual property or other sensitive information and shield stakeholders from information overload by sharing only its sub-parts or visualizations with certain people.
+        useCaseURL: /solutions/what-if-analysis/
+
+      - useCaseTitle: Generate financial statements
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/what-if-analysis/
+
     useCaseSectionTitle: >-
           Management Consulting
 
@@ -156,17 +177,37 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Budget vs Actual
+      - useCaseTitle: Generate financial statements
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Do it.
-        useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create financial statements
+          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/what-if-analysis/  
+
+      - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
+          Scenario planning, budget vs. actuals and tracking goals have never been easier and more organized.
+          
+      - useCaseTitle: Presentations for investors
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Create impactful interactive presentations for your team and investors to visualize forecasts, track goals and performance, and test scenarios in a way you didn’t know was possible.
+
+      - useCaseTitle: Revenue optimization and cost reduction
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations.
+
+      - useCaseTitle: CFO-powers
+        useCaseImage: /img/icons/use-cases/budget-vs-actual.png
+        isVisible: true
+        useCaseDescription: >-
+          Be your own fractional CFO or augment their powers with automated tools designed to help teams to make better decisions, faster.
+
     useCaseSectionTitle: >-
           Startups
 
@@ -174,17 +215,47 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Protect models and IP
+      - useCaseTitle: Audit models and reduce errors
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
-          Do it.
+          Get insights on your model’s structure, scenarios and assumptions. Identify root causes of errors, data anomalies, and logical inconsistencies. 
         useCaseURL: /solutions/what-if-analysis/   
-      - useCaseTitle: Create financial statements
+
+      - useCaseTitle: What-if and risk analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
-          Transform operating models into scenario-driven, forward-looking financial statements.                                                                
+          Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.   
+          
+      - useCaseTitle: Scenario modeling
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Simply scenario modeling and data gathering workflows, empowering others to safely contribute assumptions without the risk of corrupting the model or exposing sensitive information.
+        useCaseURL: /solutions/what-if-analysis/             
+
+      - useCaseTitle: Creating charts
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Easily create and securely share always up-to-date charts that are connected to the central model, its assumptions and analyses.
+        useCaseURL: /solutions/what-if-analysis/   
+
+      - useCaseTitle: Pro-forma financial statements
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/what-if-analysis/   
+
+      - useCaseTitle: Distribute and share models
+        useCaseImage: /img/icons/use-cases/calculators.png
+        isVisible: true
+        useCaseDescription: >-
+          Conceal your model’s proprietary logic, protect intellectual property or other sensitive information and shield stakeholders from information overload by sharing only its sub-parts or visualizations with certain people.
+        useCaseURL: /solutions/what-if-analysis/   
+
     useCaseSectionTitle: >-
           Excel Modeling
 
@@ -192,7 +263,7 @@ useCaseSection:
 
 
 StepsHeader: >-
-      3 Simple Steps to Save Countless Hours
+      3 simple steps to save countless hours
 StepsSubtitle: >-
       No installations. Easy-to-use. Value from day one.
 StepsBlock:
@@ -209,7 +280,7 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
     infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
     image: /img/home/step1.png
-    title: 'Import Your Spreadsheet'
+    title: 'Import your spreadsheet'
     titlePrefix: '1'
   - descr: >-
       Get ready-to-present What-if analysis reports with a few clicks. It’s that simple.</br></br>
@@ -224,7 +295,7 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
     infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
     image: /img/home/step2.png  
-    title: 'Understand How Changes Impact Forecasts'
+    title: 'Understand how changes impact forecasts'
     titlePrefix: '2'   
   - descr: >-
       Create interactive ‘what-if’ dashboards to visualize scenarios and forecasts, powered by your model’s calculations, without exposing the intricacies of the spreadsheet.
@@ -238,12 +309,12 @@ StepsBlock:
     infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
     infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
     image: /img/home/step4.png
-    title: 'Share Insights via Predictive Dashboards'
+    title: 'Share insights via predictive dashboards'
     titlePrefix: '3'  
 
 
 
-FeaturesHeader: 'Be Prepared for Any Scenario and What-if Question'
+FeaturesHeader: 'Be prepared for any scenario and what-if question'
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -338,7 +409,7 @@ summary:
     image: /img/home/cloudPlatformIcon.png
     buttonText: Get Started
     buttonLink: /accounts/signup/
-DemoStripTitle: Try It Live Before You Sign Up
+DemoStripTitle: Try it live before you sign up
 DemoStripTitleButton: See the Interactive Demo
 DemoStripTitleLink: https://visyond.com/project/125105b6-a269-4dd1-9145-5e4eea10276d
 ---
