@@ -49,7 +49,7 @@ jobs:
           bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
       - 
         name: Delete the saved artifact
-        uses: geekyeggo/delete-artifact@v3
+        uses: geekyeggo/delete-artifact@v2
         with:
           name: build-artifact
 
