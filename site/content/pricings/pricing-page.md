@@ -47,7 +47,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.
             - limitTitle: 1 collaborator per project
               limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.              
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.             
           planCardDescription: >-
             Create interactive dashboards you didn’t know were possible.
           planCardTitle: Dashboards
@@ -75,7 +75,7 @@ pricingSections:
           planCardIcon: /img/pricing/FREE.png
           limitsListHeader: 'You get:'
           limitsList:
-            - limitTitle: 3 projects
+            - limitTitle: Unlimited projects
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: 3 dashboards per project
               limitTooltip: >-
@@ -85,7 +85,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.
             - limitTitle: 2 collaborators per project
               limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.               
           planCardDescription: >-
             If you also want to generate financial statements from your spreadsheet in a few clicks and audit models.
           planCardTitle: Statements
@@ -122,7 +122,7 @@ pricingSections:
           planCardIcon: /img/pricing/PRO.png
           limitsListHeader: 'You get:'
           limitsList:
-            - limitTitle: 5 projects
+            - limitTitle: Unlimited projects
               limitTooltip: The number of simultaneously active projects that you can work on.
             - limitTitle: 5 dashboards per project
               limitTooltip: >-
@@ -132,7 +132,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.
             - limitTitle: 5 collaborators per project
               limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.  
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.  
           planCardDescription: >-
             If you also want to automate what-if analysis and identify opportunities and risks.
           planCardTitle: Analysis
@@ -197,7 +197,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.
             - limitTitle: Unlimited collaborators
               limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
+                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.                
           planCardDescription: >-
             If you also want to establish a secure workspace for your team to self-serve on insights, reports and automated workflows.
           planCardTitle: Workflows
