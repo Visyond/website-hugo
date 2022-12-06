@@ -13,7 +13,7 @@
 					<div class="home-hero__half-width-wrap" style="width: 100%;">  
 						<div class="home-hero__topSubtitle" style="text-align: center;">{{ .Params.coverDescription }}</div>
 						<div class="btn-wrap">
-							<a href="#request" class="button button-primary">Request Live Demo</a>
+							<a href="#request" class="button button-primary">Onboarding Call</a>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,14 @@
 				<!-- LIST OF DEMO SECTIONS -->
 				{{ range $el := .Params.demoSection }}
 				<li class="demoSection__block">
-					<h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2>
+					<!-- <h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2> -->
+
+					<div class="pricingSectionTitleContainer">
+						<div class="pricingSectionTitlePrefix">1</div>
+						<h2 class="enterV__headline" style="margin-bottom: 0;">{{ .demoSectionTitle }}</h2>
+					</div>
+					  
+
 					<div class="demo-section--divider"></div>
 					<section class="demoSection__text-wrap">
 						<div class="demoSection__block-descr">
@@ -94,7 +101,14 @@
 	<section class="whyV" style="background-color: #fafafa;">
 		<div class="container">
 			<div class="whyV__row">
-				<h2 class="enterV__headline" id="request">Request Demo or Talk to Us</h2>
+				<!-- <h2 class="enterV__headline" id="request">Schedule an onboarding call</h2> -->
+
+				<div class="pricingSectionTitleContainer">
+					<div class="pricingSectionTitlePrefix">2</div>
+					<h2 id="request" class="enterV__headline" style="margin-bottom: 0;">Schedule an onboarding call</h2>
+				</div>				
+
+
 				<div class="demo-section--divider"></div>
 				{{ partial "bookingScript" . }}
 			</div>
@@ -107,9 +121,9 @@
 		<div class="container">
 			 <h2 class="enterV__headline">{{ .Params.FAQHeader }}</h2>
 			<div class="demo-section--divider"></div>
-			<div class="home-info__block-descr" style="text-align: center; font-weight: 400;">{{ .Params.FAQText | markdownify }}</div>
+			<div class="home-hero__topSubtitle" style="text-align: center; font-weight: 400;">{{ .Params.FAQText | markdownify }}</div>
 			<div class="btn-wrap" style="margin-bottom: 2em;">
-				<a href="{{ .Params.FAQButtonLink }}" class="btn-primary" style="text-transform: none;">{{ .Params.FAQButtonText }}</a>
+				<a target="_blank" href="{{ .Params.FAQButtonLink }}" class="btn-primary button" style="text-transform: none;">{{ .Params.FAQButtonText }}</a>
 			</div>	
 		</div>
 	</section>

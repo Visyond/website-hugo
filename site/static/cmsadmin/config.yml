@@ -1171,10 +1171,6 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-
-
-
-
       
   - name: "faq"
     label: "FAQ"

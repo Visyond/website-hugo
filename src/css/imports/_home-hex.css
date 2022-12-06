@@ -1193,7 +1193,7 @@ color: #282828;
 }
 
 .infoC__img-wrap {
-    width: 55%;
+    width: 45%;
     flex-shrink: 0;
     position: relative;
     margin-top: 0em;
@@ -1284,7 +1284,7 @@ color: #282828;
 
 .enterSectionsC__text-wrap {
     display: inline-block;
-    width: 40%;
+    width: 50%;
     text-align: left;
 
 @media screen and (max-width: 800px) {

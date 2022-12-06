@@ -1,9 +1,9 @@
 ---
 url: /pricing
 metaTags: >-
-  <meta property="og:title" content="Visyond Pricing and Plans">
+  <meta property="og:title" content="Get started with Visyond for free">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Pricing 2022.png">
   <meta property="og:description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">
   <meta property="og:url" content="https://visyond.com/pricing/">
   <meta name="description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">

@@ -2,17 +2,17 @@
 aliases: 
   - /request/
 url: /demo
-title: Watch Recorded Demos
+title: Onboarding call
 metaTags: >-
-  <meta property="og:title" content="Watch Demos of the Visyond Platform">
+  <meta property="og:title" content="Schedule an onboarding call with Visyond">
   <meta property="og:type" content="website">
   <meta property="og:image"
   content="https://visyond.com/img/thumbnails/Visyond Watch Demo thumbnail 1200x628.png">
-  <meta property="og:description" content="Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.>
+  <meta property="og:description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.>
   <meta property="og:url" content="https://visyond.com/demo/">
-  <meta name="description" content="Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.">
-coverHeader: Watch Demos
-coverDescription: Explore the short demo videos below, and schedule a call if you want to see a live demo or talk to us.
+  <meta name="description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.">
+coverHeader: Onboarding call
+coverDescription: Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Predictive ‘What-if’ Dashboards for Decision Making
@@ -69,10 +69,10 @@ demoSection:
         isVisible: false
         demoDescription: >-
           The journey from the spreadsheet to analysis and interactive dashboards to drive decision-making.     
-    demoSectionTitle: Solutions
+    demoSectionTitle: Watch short demos
 FAQHeader: Frequently Asked Questions
 FAQText: >-
-  Find answers to common questions about Visyond
+  Find answers to your questions.
 FAQButtonText: See FAQ
 FAQButtonLink: /faq
 providesTitle: Get Started Today
