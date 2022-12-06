@@ -39,7 +39,7 @@
     cursor: pointer;
     font-size: 22px;
     font-weight: 600;
-    border-bottom: 3px solid #fff;
+    border-bottom: 2px solid #fff;
     transition: all .3s ease-in-out;
   }
 
@@ -53,7 +53,7 @@
 
   .tabs__control .active {
     color: #0086ff;
-    border-bottom: 3px solid #0086ff;
+    border-bottom: 2px solid #0086ff;
 
   }
 
@@ -230,6 +230,7 @@
     }
 }
 
+
 .content-card__img {
     width: 100px;
     opacity: 0.75;
@@ -245,18 +246,21 @@
     line-height: 1.44;
     margin-top: 16px;
     margin-bottom: 16px;
-    text-align: center;
+    text-align: left;
     transition: color 0.2s ease-in-out;
+    align-self: flex-start;
+    min-height: 60px;
 }
 
 .content-card_description {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     line-height: 1.44;
     color: #282828;
     font-weight: 400;
     margin-bottom: 20px;
     transition: opacity 0.2s ease-in-out;
+    align-self: flex-start;
     
 }
 

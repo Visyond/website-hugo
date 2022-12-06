@@ -4,14 +4,14 @@ metaTags: >-
   <meta property="og:title" content="Visyond Pricing and Plans">
   <meta property="og:type" content="website">
   <meta property="og:image" content="">
-  <meta property="og:description" content="Pick a plan that works for you and your team. Start Free.">
+  <meta property="og:description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">
   <meta property="og:url" content="https://visyond.com/pricing/">
-  <meta name="description" content="Pick a plan that works for you and your team. Start Free.">
+  <meta name="description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">
 title: Pricing and Plans
 topTitle: >-
   Pick a plan that works for you and your team. Start <span style="color: #0086ff;">free</span>.
 topSubTitle: >-
-  Get started today and try the Full plan for free. Afterwards, you can stay on the free plan or upgrade.
+  Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.
 pricingSections:
   - pricingSection:
       plansCards:
@@ -23,7 +23,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'With Free plan, you can:'
+          featuresListHeader: 'With Dashboards plan, you can:'
           featureslist:
             - title: Create no-code dashboards
               tooltip: >- 
@@ -49,8 +49,8 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.              
           planCardDescription: >-
-            Start your journey into the world of agile spreadsheet-based decision-making.
-          planCardTitle: Essential
+            Create interactive dashboards you didn’t know were possible.
+          planCardTitle: Dashboards
           planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
 
@@ -64,7 +64,7 @@ pricingSections:
             cardButtonText: Try for free
             cardButtonURL: /accounts/signup/
             isButtonContactUs: false
-          featuresListHeader: 'All in Free, plus:'
+          featuresListHeader: 'All in Dashboards, plus:'
           featureslist:
             - title: Generate financial statements
               tooltip: >-
@@ -87,7 +87,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
           planCardDescription: >-
-            Generate financial statements from your spreadsheet in a few clicks.
+            If you also want to generate financial statements from your spreadsheet in a few clicks.
           planCardTitle: Statements
           planCardLabelColor: '#00C9FF'
           planCardPriceColor: '#00C9FF'
@@ -134,8 +134,8 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.  
           planCardDescription: >-
-            Supercharge your productivity and do in minutes what takes others hours.
-          planCardTitle: Pro
+            If you also want to automate what-if analysis and identify opportunities and risks.
+          planCardTitle: Analysis
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
@@ -143,13 +143,13 @@ pricingSections:
 
         - PricePrimary: Talk to us
           PricePrimaryPeriod:
-          priceBillingNote: for teams of 5+
+          priceBillingNote: For teams of 5+, billed annually
           cardButton:
             cardButtonText: Contact us
             cardButtonURL: '#contactUs'
             isButtonContactUs: true
             isButtonEnterprise: false
-          featuresListHeader: 'All in Full, plus:'
+          featuresListHeader: 'All in Analysis, plus:'
           featureslist:
             - title: Avoid information overload
               tooltip: >-
@@ -169,7 +169,7 @@ pricingSections:
             - title: Reduce the risk of errors
               tooltip: >-
                 Reduce the risk of errors by automating specific tasks or entire workflows. Focus on the job-to-be-done and not the tools to get there.
-            - title: Present to the world
+            - title: Publish models
               tooltip: >-
                 Share all or only specific worksheets and dashboards with the general public. Establish a visual interface to interact with the model from the outside world.
             - title: Get personalized onboarding
@@ -180,7 +180,7 @@ pricingSections:
                 Visyond can offer modeling consulting services or manage the platform for you. Billed separately.
             - title: White label the platform
               tooltip: >-
-                White label the platform, and maintain your brand identity when serving your team or clients.
+                White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
             - title: Request on-premises installation
               tooltip: >-
                 Install Visyond on your server. Billed separately.               
@@ -199,8 +199,8 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
           planCardDescription: >-
-            Transform your model into an effective and secure communication tool for team players.
-          planCardTitle: Teams
+            If you also want to establish a secure workspace for your team to self-serve on insights, reports and automated workflows.
+          planCardTitle: Workflows
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
 
