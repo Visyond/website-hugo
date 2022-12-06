@@ -13,7 +13,7 @@ jobs:
         name: Checkout
         uses: actions/checkout@v3
       - 
-	name: Use node.js version 10
+      	name: Use node.js version 10
         uses: actions/setup-node@v3
         with:
           node-version: '10'
@@ -35,10 +35,10 @@ jobs:
     needs: build-arti
     steps:
       - 
-	name: Checkout
+	      name: Checkout
         uses: actions/checkout@v3
       - 
-	name: Retrieve the saved artifact
+	      name: Retrieve the saved artifact
         uses: actions/download-artifact@v3
         with:
           name: build-artifact
@@ -58,10 +58,10 @@ jobs:
     needs: build-img
     steps:
       - 
-	name: Checkout code
+	      name: Checkout code
         uses: actions/checkout@v3
       - 
-	name: Create Release
+	      name: Create Release
         id: create_release
         uses: actions/create-release@v1
         env:
