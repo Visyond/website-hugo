@@ -2,9 +2,8 @@ name: CI Pipeline For Visyond CMS
 
 on:
   push:
-    branches: [ feature/op-staging ]
-  pull_request:
-    branches: [ feature/op-staging ]
+    tags:
+      - 'v0.1.0'
 
 jobs:
   build-arti:
@@ -48,3 +47,24 @@ jobs:
         name: Create docker image
         run: |
           bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }}
+
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            This Release has:
+            - <feature 01>
+            - <feature 02>
+            - <etc>
+          draft: false
+          prerelease: false
