@@ -4,14 +4,14 @@ metaTags: >-
   <meta property="og:title" content="Get started with Visyond for free">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Pricing 2022.png">
-  <meta property="og:description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">
+  <meta property="og:description" content="Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.">
   <meta property="og:url" content="https://visyond.com/pricing/">
-  <meta name="description" content="Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.">
+  <meta name="description" content="Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.">
 title: Pricing and Plans
 topTitle: >-
   Pick a plan that works for you and your team. Start <span style="color: #0086ff;">free</span>.
 topSubTitle: >-
-  Get started today and try the Full plan for free. After 7 days, you can continue with the free plan or upgrade.
+  Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.
 pricingSections:
   - pricingSection:
       plansCards:
