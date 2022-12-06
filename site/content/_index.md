@@ -11,14 +11,14 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
-title: Ask your Excel model anything. Get answers in minutes.
+title: Turn your Excel into an insights machine.
 metaTags: >-
-  <meta property="og:title" content="Ask Your Excel Model Anything. Share Answers in Minutes.">
+  <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
-  <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
+  <meta property="og:description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate Financial Statements, What-if and Risk analyses.">
+  <meta name="description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
 topTitle: >-
   Turn your Excel into an insights machine for
   </br>
