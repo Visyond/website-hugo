@@ -6,74 +6,73 @@ on:
       - 'v0.1.0'
 
 jobs:
-#  build-arti:
-#    runs-on: macos-12
-#    steps:
-#      -
-#        name: Checkout
-#        uses: actions/checkout@v3
-#      - 
-#        name: Use node.js version 10
-#        uses: actions/setup-node@v3
-#        with:
-#          node-version: '10'
-#      - 
-#        name: Install dependencies and build the app artifact
-#        run: |
-#          npm install
-#          npm run build
-#      - 
-#        name: Temporarily save the artifact
-#        uses: actions/upload-artifact@v3
-#        with:
-#          name: build-artifact
-#          path: dist
-#          retention-days: 1
+  build-arti:
+    runs-on: macos-12
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      - 
+        name: Use node.js version 10
+        uses: actions/setup-node@v3
+        with:
+          node-version: '10'
+      - 
+        name: Install dependencies and build the app artifact
+        run: |
+          npm install
+          npm run build
+      - 
+        name: Temporarily save the artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: dist
+          retention-days: 1
 
   build-img:
     runs-on: ubuntu-latest
-#    needs: build-arti
+    needs: build-arti
     steps:
       - 
         name: Checkout
         uses: actions/checkout@v3
-#      - 
-#        name: Retrieve the saved artifact
-#        uses: actions/download-artifact@v3
-#        with:
-#          name: build-artifact
-#          path: dist
+      - 
+        name: Retrieve the saved artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
+          path: dist
       -
         name: Create the docker image
         run: |
           bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }} ${GITHUB_REF#refs/*/}
-#      - 
-#        name: Delete the saved artifact
-#        uses: geekyeggo/delete-artifact@v2
-#        with:
-#          name: build-artifact
+      - 
+        name: Delete the saved artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: build-artifact
 
-#  release:
-#    runs-on: ubuntu-latest
-#    needs: build-img
-#    steps:
-#      - 
-#        name: Checkout code
-#        uses: actions/checkout@v3
-#      - 
-#        name: Create Release
-#        id: create_release
-#        uses: actions/create-release@v1
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        with:
-#          tag_name: ${{ github.ref }}
-#          release_name: Release ${{ github.ref }}
-#          body: |
-#            This Release has:
-#            - <feature 01>
-#            - <feature 02>
-#            - <etc>
-#          draft: false
-#          prerelease: false
-
+  release:
+    runs-on: ubuntu-latest
+    needs: build-img
+    steps:
+      - 
+        name: Checkout code
+        uses: actions/checkout@v3
+      - 
+        name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            This Release has:
+            - <feature 01>
+            - <feature 02>
+            - <etc>
+          draft: false
+          prerelease: false
