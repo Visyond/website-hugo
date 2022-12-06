@@ -87,7 +87,7 @@ pricingSections:
               limitTooltip: >-
                 The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account and be on a free or paid plan.                
           planCardDescription: >-
-            If you also want to generate financial statements from your spreadsheet in a few clicks.
+            If you also want to generate financial statements from your spreadsheet in a few clicks and audit models.
           planCardTitle: Statements
           planCardLabelColor: '#00C9FF'
           planCardPriceColor: '#00C9FF'
