@@ -44,12 +44,9 @@ pricingSections:
                 The number of dashboards you can create in each project.
             - limitTitle: 2 scenarios per project
               limitTooltip: >-
-                The number of scenarios you can create in each of your projects.
-            - limitTitle: 1 collaborator per project
-              limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.             
+                The number of scenarios you can create in each of your projects.          
           planCardDescription: >-
-            Create interactive dashboards you didn’t know were possible.
+            Create and share interactive dashboards you didn’t know were possible.
           planCardTitle: Dashboards
           planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
@@ -75,17 +72,14 @@ pricingSections:
           planCardIcon: /img/pricing/FREE.png
           limitsListHeader: 'You get:'
           limitsList:
-            - limitTitle: Unlimited projects
+            - limitTitle: 5 projects
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 3 dashboards per project
+            - limitTitle: 10 dashboards per project
               limitTooltip: >-
                 The number of dashboards you can create in each project.
-            - limitTitle: 3 scenarios per project
+            - limitTitle: 10 scenarios per project
               limitTooltip: >-
-                The number of scenarios you can create in each of your projects.
-            - limitTitle: 2 collaborators per project
-              limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.               
+                The number of scenarios you can create in each of your projects.           
           planCardDescription: >-
             If you also want to generate financial statements from your spreadsheet in a few clicks and audit models.
           planCardTitle: Statements
@@ -122,17 +116,14 @@ pricingSections:
           planCardIcon: /img/pricing/PRO.png
           limitsListHeader: 'You get:'
           limitsList:
-            - limitTitle: Unlimited projects
+            - limitTitle: 5 projects
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 5 dashboards per project
+            - limitTitle: 10 dashboards per project
               limitTooltip: >-
                 The number of dashboards you can create in each project.
-            - limitTitle: 5 scenarios per project
+            - limitTitle: 10 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
-            - limitTitle: 5 collaborators per project
-              limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.  
           planCardDescription: >-
             If you also want to automate what-if analysis and identify opportunities and risks.
           planCardTitle: Analysis
@@ -194,10 +185,7 @@ pricingSections:
                 The number of dashboards you can create in each project.
             - limitTitle: Unlimited scenarios
               limitTooltip: >-
-                The number of scenarios you can create in each of your projects.
-            - limitTitle: Unlimited collaborators
-              limitTooltip: >-
-                The number of people you can invite to view or edit each of your projects. Each collaborator must have a Visyond account.                
+                The number of scenarios you can create in each of your projects.              
           planCardDescription: >-
             If you also want to establish a secure workspace for your team to self-serve on insights, reports and automated workflows.
           planCardTitle: Workflows
