@@ -11,7 +11,13 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
+
+
+
 title: Turn your Excel into an insights machine.
+
+
+
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
   <meta property="og:type" content="website">
@@ -19,12 +25,22 @@ metaTags: >-
   <meta property="og:description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
   <meta property="og:url" content="https://visyond.com">
   <meta name="description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
+
+
+
+
 topTitle: >-
   Turn your Excel into an insights machine for
   </br>
   <span id="js-dynamicTitle">scenario planning</span>
 topDescription: >-
   Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
+
+
+
+
+
+
 useCasesHeader: >-
          How can Visyond help you and your team?
 useCaseSection:
@@ -36,6 +52,7 @@ useCaseSection:
           Scenario planning, budgeting and variance analysis have never been easier and more organized.
         useCaseURL: 
 
+
       - useCaseTitle: Investment calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
@@ -43,11 +60,13 @@ useCaseSection:
           Visualize ROI and other decision metrics from your model and visually test scenarios on predictive 'what-if' dashboards.
         useCaseURL: /solutions/what-if-analysis/   
 
+
       - useCaseTitle: Gathering data from portfolio companies
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Consolidate data points and assumptions from different sources into the central predictive model.
+
 
       - useCaseTitle: Sharing insights on investment strategy
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -56,11 +75,13 @@ useCaseSection:
           Bring interactive reporting to the next level, and empower stakeholders to self-serve on insights and focus on what's important.
         useCaseURL: /solutions/what-if-analysis/   
 
+
       - useCaseTitle: Investment & valuation analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Find top profitability drivers, explore sensitivities, run simulations and manage risks and uncertainty. With just a few clicks.           
+
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
@@ -82,6 +103,7 @@ useCaseSection:
           Simplify forecasting and empower stakeholders to self-serve on scenarios and what-if questions.Track assumptions from different sources and collect data into the central model.
         useCaseURL: /solutions/what-if-analysis/  
 
+
       - useCaseTitle: Pricing & negotiation calculators
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
@@ -89,17 +111,20 @@ useCaseSection:
           Demonstrate the value of your offering to the clients, and provide your leads with personalized and interactive forecasts.
         useCaseURL: /solutions/what-if-analysis/   
 
+
       - useCaseTitle: Marketing campaign planning
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Plan marketing campaigns and their impact on costs, revenues and other decision metrics. Visually compare scenarios and simplify plan vs. actuals workflow.
 
+
       - useCaseTitle: KPI and performance presentations
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information and KPIs they need to see.      
+
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
@@ -121,11 +146,13 @@ useCaseSection:
           Speed-up business case development while reducing the risk of errors, and empower your team and clients to provide data points and assumptions.
         useCaseURL: /solutions/what-if-analysis/   
 
+
       - useCaseTitle: Investments and risks analysis
         useCaseImage: /img/icons/use-cases/budget-vs-actual.png
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
+
 
       - useCaseTitle: Insightful visualizations for clients
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -134,12 +161,14 @@ useCaseSection:
           Present your analytical insights, boosted by automation, and allow stakeholders to safely interact with the central model in a way you didn’t know was possible.  
         useCaseURL: /solutions/what-if-analysis/
 
+
       - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
           Scenario planning, budgeting and variance analysis have never been easier and more organized.
         useCaseURL: /solutions/what-if-analysis/
+
 
       - useCaseTitle: Stress-testing assumptions and scenarios
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -148,6 +177,7 @@ useCaseSection:
           Gather assumptions from different sources and stakeholders, and stress-test scenarios with your clients in a visual way, empowering them to self-serve on what-if questions.
         useCaseURL: /solutions/what-if-analysis/ 
 
+
       - useCaseTitle: Creating Waterfall charts
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
@@ -155,12 +185,14 @@ useCaseSection:
           Easily create and securely share Waterfall charts (and many others) that are connected to the central model, its assumptions and analyses.
         useCaseURL: /solutions/what-if-analysis/
 
+
       - useCaseTitle: Protecting your models and IP
         useCaseImage: /img/icons/use-cases/calculators.png
         isVisible: true
         useCaseDescription: >-
           Conceal your model’s proprietary logic, protect intellectual property or other sensitive information and shield stakeholders from information overload by sharing only its sub-parts or visualizations with certain people.
         useCaseURL: /solutions/what-if-analysis/
+
 
       - useCaseTitle: Generate financial statements
         useCaseImage: /img/icons/use-cases/calculators.png
@@ -262,10 +294,14 @@ useCaseSection:
 
 
 
+
+
 StepsHeader: >-
       3 simple steps to save countless hours
+
 StepsSubtitle: >-
       No installations. Easy-to-use. Value from day one.
+
 StepsBlock:
   - descr: >-
       Import your spreadsheet or create one in Visyond, turning it into a collaborative platform for predictive dashboards and self-service analysis.</br></br>
@@ -282,6 +318,9 @@ StepsBlock:
     image: /img/home/step1.png
     title: 'Import your spreadsheet'
     titlePrefix: '1'
+
+
+
   - descr: >-
       Get ready-to-present What-if analysis reports with a few clicks. It’s that simple.</br></br>
       Deliver reliable insights and reduce the risk of errors.
@@ -297,6 +336,9 @@ StepsBlock:
     image: /img/home/step2.png  
     title: 'Understand how changes impact forecasts'
     titlePrefix: '2'   
+
+
+
   - descr: >-
       Create interactive ‘what-if’ dashboards to visualize scenarios and forecasts, powered by your model’s calculations, without exposing the intricacies of the spreadsheet.
     benefitsList:
@@ -314,7 +356,11 @@ StepsBlock:
 
 
 
+
+
+
 FeaturesHeader: 'Be prepared for any scenario and what-if question'
+
 infoBlockFirst:
   - benefitsList:
       - text: >-
@@ -331,6 +377,9 @@ infoBlockFirst:
     infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
     title: 'Scenario Planning and Forecasting'
     demoLink: 'https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28'
+
+
+
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
       - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
@@ -344,6 +393,9 @@ infoBlockFirst:
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
     infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
     title: What-if Analysis and Monte Carlo Simulations
+
+
+
   - benefitsList:
       - text: >-
           Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
@@ -356,6 +408,94 @@ infoBlockFirst:
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
     infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
     title: Predictive ‘What-if’ Dashboards     
+
+
+
+  - benefitsList:
+      - text: >-
+          Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
+      - text: >-
+          Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
+    descr: >-
+      Make collaboration easier and safer. Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators, and sharing only specific worksheets and dashboards with them.
+    infoVideo: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Decide Who Sees and Interacts with Specific Worksheets and
+      Dashboards - Visyond.jpg
+    title: Protect Your Data
+
+
+
+  - benefitsList:
+      - text: >-
+          Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
+      - text: Make your models easier to understand with natural language formulas.
+      - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
+    descr: >-
+      Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
+    infoVideo: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
+    title: Reduce the Risk of Errors
+
+
+
+  - benefitsList:
+      - text: >-
+          Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
+      - text: >-
+          Visyond will track who added each assumption.
+      - text: >-
+          Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
+    descr: >-
+      Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+    infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
+    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    title: Control What Is Happening in Your Projects
+
+
+
+  - benefitsList:
+      - text: >-
+          Automatically document the spreadsheet as you and your collaborators work on it.
+    descr: >-
+      Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
+    infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Organize Assumptions, Documents and Conversations In Cells -
+      Visyond.jpg
+    title: Keep Important Information at Your Fingertips
+    isVisible: false
+
+
+
+  - benefitsList:
+      - text: >-
+          Automate Balance Sheets, Income Statements and Cash Flow statements.
+      - text: >-
+          Customize reports according to your accounting standards.
+      - text: >-
+          Visyond will automatically calculate financial and management ratios.
+      - text: >-
+          The statements will remain up-to-date when you change the numbers in the spreadsheet.
+      - text: >-
+          If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
+    descr: >-
+      Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
+    infoVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+    infoVideoPoster: >-
+      /video/Auto-generate Financial Statements Driven by Your Model -
+      Visyond.jpg
+    title: Automate Pro-Forma Financial Statements
+
+
+
+
+
+
 visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
 functionTitle: Functions
 caseTitle: Use Cases
