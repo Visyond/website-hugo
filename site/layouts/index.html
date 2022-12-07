@@ -67,7 +67,7 @@
 
 
 	<!-- USE-CASES -->
-    <!-- <section class="homeBenefits">
+     <section class="homeBenefits">
 
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
@@ -79,17 +79,17 @@
             <div class="tabs">
                 
                 <ul class="tabs__control">
-                    {{ range $index, $el := .Params.useCaseSection }} -->
+                    {{ range $index, $el := .Params.useCaseSection }} 
                     <!-- if first element in collection, adds 'active' class (see _tabs.css and script.custom.js)-->
-                    <!-- <li class="tab__title {{ if ( eq $index 0) }}active{{ end }}"> 
+                    <li class="tab__title {{ if ( eq $index 0) }}active{{ end }}"> 
                         {{ .useCaseSectionTitle | markdownify }}
                     </li>
                     {{ end }}
                 </ul>
                   
-                {{ range $index, $el := .Params.useCaseSection }} -->
+                {{ range $index, $el := .Params.useCaseSection }} 
                 <!-- adds 'active' class to the first element in collection (see _tabs.css and script.custom.js)-->
-                <!-- <div class="tabs__content js-useCases__list {{ if ( eq $index 0) }}active{{ end }}">
+                 <div class="tabs__content js-useCases__list {{ if ( eq $index 0) }}active{{ end }}">
                         {{ range $list := .useCaseSectionContent }}   
                         {{ if (eq .isVisible true)}}
                             <a target="_blank"
@@ -117,13 +117,9 @@
                 {{ end }}
 
 
-
-  
-
-                
             </div>
         </div>
-    </section> -->
+    </section> 
 	<!-- END: USE-CASES -->
 
     
