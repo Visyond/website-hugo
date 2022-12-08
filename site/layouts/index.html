@@ -65,6 +65,35 @@
     {{ partial "hexSlider" . }}
     <!-- END: LOGOS -->       
 
+    <!-- FEATURES VIDS -->
+    <section class="enterV" style="background-color: #ffffff; background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+        <div  id="productTour" class="container">
+
+            <!-- <h2 class="enterV__headline" id="productTour">{{ .Params.FeaturesHeader }}</h2> -->
+            <!-- <div class="header-section--divider"></div> -->
+            
+            {{ partial "product-tour" . }} 
+
+            <!-- <ul class="enterSections js-image-block">
+                {{ partial "hexBlockListB" . }} 
+            </ul> -->
+
+        </div>
+    </section>
+    <!-- END: FEATURES VIDS --> 
+
+
+    <!-- DEMO STRIP -->
+    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
+        <div class="container">
+            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
+            <a target="_blank" href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
+        </div>
+    </section>
+    <!-- END: DEMO STRIP -->
+
+
+
 
 	<!-- USE-CASES -->
      <section class="homeBenefits">
@@ -140,29 +169,7 @@
 
 
 
-    <!-- DEMO STRIP -->
-    <section class="getHexStarted" style="background-image: url('/img/home/getStarted.svg');">
-        <div class="container">
-            <h2 class="getHexStarted__title">{{ .Params.DemoStripTitle }}</h2>
-            <a target="_blank" href="{{ .Params.DemoStripTitleLink }}" class="button button-contrast">{{ .Params.DemoStripTitleButton }}</a>
-        </div>
-    </section>
-    <!-- END: DEMO STRIP -->
 
-
-    <!-- FEATURES VIDS -->
-    <section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
-      <div class="container">
-          <h2 class="enterV__headline" id="productTour">{{ .Params.FeaturesHeader }}</h2>
-          <div class="header-section--divider"></div>
-          <ul class="enterSections js-image-block">
-              <!-- list of info blocks with blue button -->
-              {{ partial "hexBlockListB" . }}
-              <!-- // list of info blocks with blue button -->
-          </ul>
-      </div>
-    </section>
-    <!-- END: FEATURES VIDS --> 
 
 
 

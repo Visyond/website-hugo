@@ -164,7 +164,7 @@ $(function () {
 // for homepage use-cases
 if($('.js-useCases__list').length) {
 
-
+  /// @@@@@@@@@ TRY LAZYLOAD? Otherwise will be loading approx 20 icons right away
 
   $('.js-useCases__list').slick({ // see setupSlider () in scripts.custom.js
       slidesToShow: 1, 
@@ -177,7 +177,29 @@ if($('.js-useCases__list').length) {
       arrows: false,
       responsive: [
           {
-            breakpoint: 992,
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              infinite: false,
+              draggable: true,
+              arrows: false,
+              dots: true,
+            }
+          },
+          {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: false,
+              draggable: true,
+              arrows: false,
+              dots: true,
+            }
+          },          
+          {
+            breakpoint: 850,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 1,

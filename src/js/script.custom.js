@@ -223,6 +223,7 @@ $(function () {
             });
         })();
 
+
     //=====HEXUP END=====
 
     /**
@@ -991,62 +992,147 @@ $(function () {
     addTargetBlank('.target-blank');
 
 
+
+
+
+
+
+
+
+
     //===== Tabs + slick carousel =====
 
     (function($) {
         $(function() {
-
-       // $('ul.tabs__control > li:first-child').addClass('active');
-
-       setupSlider();
-
-          $('ul.tabs__control').on('click', 'li:not(.active)', function() {
-
-
-
-            $(this).addClass('active').siblings().removeClass('active')
-            .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
-
             setupSlider();
+
+            // $('ul.tabs__control').on('click', 'li:not(.active)', function() {
+            //     $(this).addClass('active').siblings().removeClass('active')
+            //     .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+
+            //     setupSlider();
+            // });
+
+            $('ul.tabs__control').on('click', 'li:not(.active)', clickTab);
+            // https://stackoverflow.com/questions/9980595/automatic-tab-switch-in-javascript-or-jquery
+
+            // setInterval(function() {
+            //     var tabs = $('.tabs__control .tab__title');
+            //     var activeTab = tabs.filter('.active');
+            //     console.log("all tabs: " + tabs.length + " active tabs: " + activeTab.length);
+
+            //     var nextTab = activeTab.index() < tabs.length - 1 ? activeTab.next().addClass('.active') : tabs.first().addClass('.active');
+            //     nextTab.clickTab();
+
+            // }, 1000);
             
-            //   var totalSliders = $('.js-useCases__list').length;
-            //   console.log("Total sliders: " + totalSliders);
 
-            //   var activeSliders = $('.js-useCases__list.active').length;
-            //   console.log("Active sliders: " + activeSliders);
-
-
-
-          });
-          
         });
         })(jQuery);    
 
+    function clickTab () {
+        $(this).addClass('active').siblings().removeClass('active')
+        .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
 
-        function setupSlider (){
+        setupSlider();
+    }
 
-            if($('.js-useCases__list').length) {
-                var maxDisplayNum= 4; 
-                var activeSlides = $('.js-useCases__list.active .content-card').length;
-                //console.log("Slides in active slider: " + activeSlides);
-                
-                $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
-    
-                  if (activeSlides > 4 ){
-                      $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", maxDisplayNum, true);
-                      $('.js-useCases__list.active').slick("slickSetOption", "dots", true, true);
-                  }
-                  else {
-                      $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", activeSlides, true);
-                      $('.js-useCases__list.active').slick("slickSetOption", "dots", false, true);
-                  }
-    
-    
-                  $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
+    function setupSlider () {
+        if($('.js-useCases__list').length) {
+            var maxDisplayNum= 5; 
+            var activeSlides = $('.js-useCases__list.active .content-card').length;
+            //console.log("Slides in active slider: " + activeSlides);
+            
+            $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
+
+            if (activeSlides > 4 ){
+                $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", maxDisplayNum, true);
+                $('.js-useCases__list.active').slick("slickSetOption", "dots", true, true);
             }
+            else {
+                $('.js-useCases__list.active').slick("slickSetOption", "slidesToShow", activeSlides, true);
+                $('.js-useCases__list.active').slick("slickSetOption", "dots", false, true);
+            }
+
+            $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)
         }
+    }
+
+    // autoSwitchTabs();
+    // function autoSwitchTabs () {
+    //     // var tabs = $('.tabs__control .active');
+    //     // console.log("titles count:" + tabs.length);
+        
+    //     // tabs.removeClass('active');
+    //     // tabs.next().addClass('active');
+    //     // setupSlider();
+    
+
+    //     var tabs = $('.tabs__control');
+    //     tabs.children().each(function () {
+    //         if (this.hasClass('active')){
+    //             this.removeClass('active').next().addClass('active');
+
+    //         }
+    //     });
+
+
+    //     //   $('.tabs__control').children('tab__title.active').each(function () {
+
+    //     //      this.removeClass('active');
+
+
+    //     //      // $(this).addClass('active').siblings().removeClass('active')
+    //     //      // .closest('div.tabs').find('div.tabs__content').removeClass('active').eq($(this).index()).addClass('active');
+
+    //     //      //  alert(this.value); // "this" is the current element in the loop
+    //     //  });
+
+
+    // }
 
     //===== END: Tabs =====
+
+
+
+
+
+
+
+
+    //===== PRODUCT VIDEO TABS =====
+    (function($) {
+        $(function() {
+            $("div.tabs-product__caption").on("click", ".tabs-product__caption--container:not(.active)", function() {
+                $(this)
+                .addClass("active")
+                .siblings()
+                .removeClass("active")
+                .closest("div.tabs-product__container")
+                .find("div.tabs-product__content")
+                .removeClass("active")
+                .eq($(this).index())
+                    .addClass("active");
+
+                $(this)
+                .children("div.tabs-product__caption--title")
+                .addClass("opened");
+
+                $(this)
+                .siblings().children()
+                .removeClass("opened");
+            });
+
+        });
+    })(jQuery);
+    //===== END: PRODUCT VIDEO TABS =====
+      
+
+
+
+
+
+
 
 
 
