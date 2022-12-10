@@ -1265,30 +1265,6 @@ collections: # A list of collections the CMS should be able to edit
 
 
 
-  - name: "marketing"
-    label: "Marketing Landings"
-    folder: "site/content/marketing"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Page URL", name: "url", widget: string}
-      - {label: "Meta tags", name: "metaTags", widget: "markdown"}
-      - {label: "Visyond For...", name: "visyondFor", widget: "string", required: false,}
-      - {label: "Top Header", name: "topHeader", widget: "markdown", required: true}
-      - {label: "Top Subtitle", name: "topSubtitle", widget: "markdown", required: true}
-      - {label: "Top Video", name: "topVideo", widget: "string"}
-      - {label: "Top Video Poster", name: "topVideoPoster", widget: "string"}
-      - { label: "Other features", name: "otherFeatures", widget: "list",
-        fields: [
-          {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
-          {label: "Feature", name: "feature", widget: "markdown", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Why Visyond Section Header", name: "whyVisyondSectionHeader", widget: "string", required: true}
-      - {label: "Why Visyond Section Text", name: "whyVisyondText", widget: "markdown", required: false}        
-      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
-
 
 
 
