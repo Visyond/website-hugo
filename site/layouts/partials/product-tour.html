@@ -1,47 +1,36 @@
 {{ range $index, $el := .Params.productTourBlocks }}
-
-
-        
-        <div class="tabs-product__container vertical">
-            <div class="tabs-product__container-left">
-                <h2 class="tabs-product__container-left--title"> {{ .blockTitle }} </h2>
-                <div class="tabs-product__container-left--desc">{{ .blockDesc | markdownify }}</div>
-                <div class="tabs-product__caption">
-                    {{ range $index, $el := .block }}
-                        <div class="tabs-product__caption--container {{ if ( eq $index 0) }}active{{ end }}">
-                            
-                            <div class="tabs-product__caption--title {{ if ( eq $index 0) }}opened{{ end }}"> 
-                                {{ .title }}
-                            </div>
-
-                            <div class="tabs-product__caption--desc">{{ .descr | markdownify }}</div>
-                        </div>
-                    {{ end }}
-                </div>
-            </div>
-
-            <div class="tabs-product__container-right">
+    <div class="tabs-product__container vertical">
+        <div class="tabs-product__container-left">
+            <h2 class="tabs-product__container-left--title"> {{ .blockTitle }} </h2>
+            <div class="tabs-product__container-left--desc">{{ .blockDesc | markdownify }}</div>
+            <div class="tabs-product__caption">
                 {{ range $index, $el := .block }}
-                    <!-- if first element in collection, adds 'active' class (see _tabs-product-video.css and script.custom.js) -->
-                    <div class="tabs-product__content {{ if ( eq $index 0) }}active{{ end }}">
-                        <!-- <div class="tabs-product__content--desc">
-                            {{ .descr | markdownify }}
-                        </div> -->
+                    <div class="tabs-product__caption--container {{ if ( eq $index 0) }}active{{ end }}">
+                        
+                        <div class="tabs-product__caption--title {{ if ( eq $index 0) }}opened{{ end }}"> 
+                            {{ .title }}
+                        </div>
 
-                        <video class="tabs-product__content--video scroll_toggle" poster="{{ .infoVideoPoster }}" controls="" controlslist="nodownload noremoteplayback" muted="" loop="" playsinline="" autoplay="" playsinline="" webkit-playsinline="" preload="auto">
-                            <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
-                        </video> 
+                        <div class="tabs-product__caption--desc">{{ .descr | markdownify }}</div>
                     </div>
                 {{ end }}
             </div>
         </div>
 
+        <div class="tabs-product__container-right">
+            {{ range $index, $el := .block }}
+                <!-- if first element in collection, adds 'active' class (see _tabs-product-video.css and script.custom.js) -->
+                <div class="tabs-product__content {{ if ( eq $index 0) }}active{{ end }}">
+                    <!-- <div class="tabs-product__content--desc">
+                        {{ .descr | markdownify }}
+                    </div> -->
 
-
+                    <video class="tabs-product__content--video lazy-video" poster="{{ .videoPoster }}" 
+                    controlslist="nodownload noremoteplayback" muted="" loop="" playsinline=""  webkit-playsinline="" preload="none">
+                        <source src="{{ .video }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+                    </video> 
+                </div>
+            {{ end }}
+        </div>
+    </div>
 {{ end }}
-
-    
-
-
-
-
