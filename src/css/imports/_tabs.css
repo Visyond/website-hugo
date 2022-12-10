@@ -163,7 +163,7 @@
     flex-wrap: wrap;
     align-items: center;
     border: 1px solid #efefef;
-    /* margin: 2%; */
+    margin: 0 10px 0 10px;
     background-color: #fafafa;
     border-radius: 15px;
     box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
@@ -174,24 +174,6 @@
       box-shadow: 0 0 10px 1px #dfdfdf;
     }
 }
-
-
-.content-card:nth-child(1n) {
-  margin: 0 14px 0 0;
-}
-
-.content-card:nth-child(2n) {
-  margin: 0 14px 0 0;
-}
-
-.content-card:nth-child(2n + 1) {
-  margin: 0 14px 0 0;
-}
-
-.content-card:last-child {
-  margin: 0;
-}
-
 
 
 .content-card:hover .content-card__title {
