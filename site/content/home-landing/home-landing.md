@@ -75,7 +75,7 @@ infoBlockFirst:
     descr: >-
       Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    infoVideoPoster: '/video/grid_thumbnail.jpg'
     title: 'Scenario Planning and Forecasting'
     demoLink: 'https://visyond.com/project/f884b9bd-2d01-4baf-b1cb-f8a037ab5c28'
   - benefitsList:
@@ -89,7 +89,7 @@ infoBlockFirst:
     descr: >-
       Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: What-if Analysis and Monte Carlo Simulations
   - benefitsList:
       - text: >-
@@ -101,7 +101,7 @@ infoBlockFirst:
     descr: >-
       Link your spreadsheet models to interactive online dashboards, and securely share them online. Empower your team or clients to visualize forecasts and scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Predictive ‘What-if’ Dashboards     
 visForHeader: 'Visyond Is for Everyone Who Makes Decisions Based on Spreadsheets'
 functionTitle: Functions

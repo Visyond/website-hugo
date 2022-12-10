@@ -27,7 +27,7 @@ infoBlockFirst:
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Get Insights with Interactive Dashboards
   - benefitsList:
       - text: >-
@@ -41,7 +41,7 @@ infoBlockFirst:
     descr: >-
       Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    infoVideoPoster: '/video/grid_thumbnail.jpg'
     title: 'Compare and Find Optimal Scenarios'
   - benefitsList:
       - text: Visualize the impact of important cells with Tornado Analysis.
@@ -54,7 +54,7 @@ infoBlockFirst:
     descr: >-
       Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
   - benefitsList:
       - text: >-
@@ -66,9 +66,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Protect Your Data
   - benefitsList:
       - text: >-
@@ -79,8 +77,7 @@ infoBlockFirst:
       Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
     infoVideo: >-
       /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Reduce the Risk of Errors
   - benefitsList:
       - text: >-
@@ -92,7 +89,7 @@ infoBlockFirst:
     descr: >-
       Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
-    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Control What Is Happening in Your Projects
   - benefitsList:
       - text: >-
@@ -100,9 +97,7 @@ infoBlockFirst:
     descr: >-
       Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
     infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Keep Important Information at Your Fingertips
     isVisible: false
   - benefitsList:

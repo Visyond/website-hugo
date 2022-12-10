@@ -106,7 +106,7 @@ infoBlockFirst:
         file: /img/2019-02 Audit On.png
         title: 'Understand Model Structure, Detect Errors and Anomalies'
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg' 
+    infoVideoPoster: '/video/grid_thumbnail.jpg' 
     subtitle: "Cloud-based budgeting and forecasting.\r\n<br> \r\nSelf-service planning and analysis.\r\n<br> \r\nData governance and spreadsheet audit.\r"
     title: 'Improve Project Planning, Analysis and Reporting'
   - benefitsList:
@@ -134,7 +134,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Interactive data visualizations.\r\n<br> \r\nSelf-service on ‘what-if’ questions.\r\n<br> \r\nSpreadsheet-driven dashboards."
     title: Visualize How Changes Affect KPIs
   - benefitsList:
@@ -186,9 +186,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Single source of truth for projects.\r\n<br> \r\nData gathering without version chaos.\r\n<br> \r\nSecure and granular data sharing."
     title: Streamline Data Gathering
   - benefitsList:
@@ -219,7 +217,7 @@ infoBlockFirst:
         file: /img/2019-02 Financial Statements.png
         title: Generate Financial Statements Linked To Your Model
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Always up-to-date presentation layer.\r\n<br> \r\nReports driven by your model.\r\n<br> \r\nControl over who sees what."
     title: Present Actionable Insights
 ---

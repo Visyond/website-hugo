@@ -62,9 +62,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: ''
     title: Build Granular Portfolio Models Without Coding
   - descr: >
@@ -77,7 +75,7 @@ infoBlockFirst:
       Achieve greater transparency and more comprehensive valuations, including
       future performance projections.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: ''
     title: Collaborate with Clients on Scenarios and Simulations
   - descr: >-
@@ -91,7 +89,7 @@ infoBlockFirst:
       makes them feel in control and easily view potential returns in an
       informative, modern and interactive way.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: ''
     title: Share Interactive Self-Service Dashboards
 ---
