@@ -6,7 +6,7 @@
             <a href="#solutions-toggle" class="hexNav__link {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
                 <span>Solutions</span>
             </a>
-            {{ with .Site.GetPage "section" "nav" }}
+            {{ with .Site.GetPage "section" "hexNav" }}
             <div class="dropdown-menu-wrap">
                 <div class="dropdown-toggle dropdown-toggle--multicol" id="solutions-toggle">
                     
