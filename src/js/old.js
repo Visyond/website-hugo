@@ -1,5 +1,34 @@
 // Here are unusued or no longer needed scripts that were moved from script.custom.js
 
+
+//===== DROPDOWN NAVIGATION ======
+function navLinkDropdown (e) {
+let link = $('.nav__item').has('.dropdown-menu-wrap').find('.nav__link');
+let parent = $('.nav__item').has('.dropdown-menu-wrap').find('.nav__link').find('span').after('<i class="material-icons dropdown-arrow">arrow_drop_down</i>');
+
+link.on('click', function (e) {
+    e.preventDefault();
+    let href = $(this).attr('href');
+    $(this).addClass('nav__link--active');
+    $(href).toggleClass('dropdown-toggle--active');
+});
+
+$(document).on('click', function (e) {
+    let parent = $('.nav__item');
+    for (let i = 0; i < parent.length; i++) {
+        let link = $(parent[i]).has('.dropdown-menu-wrap').find('.nav__link');
+        if (!link.is(e.target) && link.has(e.target).length === 0) {
+            let href = link.attr('href');
+            $(href).removeClass('dropdown-toggle--active');
+            link.removeClass('nav__link--active')
+        }
+    }
+})
+}
+navLinkDropdown();
+//===== END: DROPDOWN NAVIGATION ======
+
+
 //=====  VISIBLE INFO WHEN HOVERING ON NAVIGATION LINK =====
 function linkHover(blockId, blockName) {
     const block = document.querySelector(`#${blockId}`);
@@ -92,6 +121,7 @@ function onresize2() {
 onresize2();
 window.addEventListener("resize", onresize2);
 // ===== END: VISIBLE INFO WHEN HOVERING ON NAVIGATION LINK =====
+
 
 
 // ===== AUTOPLAY VIDEO =====
