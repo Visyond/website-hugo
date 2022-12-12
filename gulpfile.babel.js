@@ -53,6 +53,7 @@ gulp.task("css", () =>
       ])
     )
     .pipe(cleanCss())
+    .pipe(gulp.dest("./dist/css"))
     .pipe(gzip())
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
