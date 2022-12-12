@@ -181,8 +181,7 @@
 }
 
 .content-card:hover .content-card__img {
-  opacity: 1;
-  filter:grayscale(0);
+
 }
 
 
@@ -215,9 +214,6 @@
 
 .content-card__img {
     width: 100px;
-    opacity: 0.75;
-    transition: all 0.2s ease-out; 
-    filter:grayscale(0.25);
 }
 
 

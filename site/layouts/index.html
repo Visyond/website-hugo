@@ -119,7 +119,7 @@
                             href="{{ .useCaseURL }}"
                             {{ end }} 
                             class="content-card"> 
-                                <img src="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="content-card__img">
+                                <img data-lazy="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="content-card__img">
                                 
                                 <div class="content-card__title">{{ .useCaseTitle }}</div>
                                 <div class="content-card_description"> {{ .useCaseDescription | markdownify }}</div>

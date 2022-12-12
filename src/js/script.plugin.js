@@ -64,9 +64,8 @@ $(function () {
   // ===== HOMEPAGE USE-CASES =====
   if($('.js-useCases__list').length) {
 
-    /// @@@@@@@@@ TRY LAZYLOAD? Otherwise will be loading approx 20 icons right away
-
     $('.js-useCases__list').slick({ // see setupSlider () in scripts.custom.js
+        lazyLoad: 'ondemand',
         slidesToShow: 1, 
         slidesToScroll: 1,
         infinite: false,
