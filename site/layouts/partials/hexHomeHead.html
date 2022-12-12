@@ -4,34 +4,31 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+
     {{ partial "head-fonts" . }}
+
     <link href="/css/main.css?v=1.1" rel="stylesheet">
-    <title>{{ .Title }} | Visyond</title>
+
     <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
     <link rel="icon" type="image/png" href="/logo.png" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+
+    <title>{{ .Title }} | Visyond</title>
+
     {{ with .Params.MetaTags }}
     {{ . | markdownify }}
     {{ end }}
 
-    <!--The code is commented because it return 'false false' under the header-->
-    <!--false false-->
-    <!--{{ with .Site.GetPage "section" "counters" }}-->
-    <!--{{ range $el := .Params }}-->
-    <!--{{ $el | markdownify}}-->
-    <!--{{ end }}-->
-    <!--{{ end }}-->
-    <!--false false-->
-
-    {{ partial "scripts" . }}
+    {{ partial "utility/scripts-header" . }}
     
     {{ with .Params.scripts }}
     {{ . | markdownify }}
     {{ end }}
 </head>
+
 <body>
  
-<header class="hexHeader homeHeader">
+    <header class="hexHeader homeHeader">
     <div class="container">
         <div class="menu">
             <div id="logo">
@@ -52,7 +49,7 @@
             </button>
         </div>
     </div>
-</header>
+    </header>
 
 
-<div class="maincontent">
+    <div class="maincontent">
