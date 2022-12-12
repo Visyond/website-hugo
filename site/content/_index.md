@@ -34,7 +34,7 @@ topTitle: >-
   Turn your Excel into an insights machine for
   </br>
   <span id="js-dynamicTitle">scenario planning</span>
-topDescription: >-
+topSubTitle: >-
   Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
 
 

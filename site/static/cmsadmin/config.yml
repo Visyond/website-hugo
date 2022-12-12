@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
           - {label: "Page Title", name: "title", widget: "markdown", required: true}
           - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
-          - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
+          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}              
           - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
           - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
           - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
@@ -513,11 +513,11 @@ collections: # A list of collections the CMS should be able to edit
   - name: "partials"
     label: "Partials"
     files: 
-      - file: "site/content/hexSlider/_index.md"
-        label: "Hex slider"
-        name: "hexSlider"
+      - file: "site/content/clientLogos/_index.md"
+        label: "Client logos"
+        name: "clientLogosSlider"
         fields:
-          - { label: "Hex Logos", name: "hexSliderLogos", widget: "list",
+          - { label: Logos", name: "clientLogos", widget: "list",
             fields: [
               {label: "Logo", name: "logo", widget: "image"},
               {label: "Alt Text", name: "alt", widget: string, default: "image"},
@@ -536,9 +536,9 @@ collections: # A list of collections the CMS should be able to edit
             required: false,
           }
 
-      - file: "site/content/hexFeatured/_index.md"
-        label: "Hex featured"
-        name: "hexFeatured"
+      - file: "site/content/as-featured-in/_index.md"
+        label: "As featured in"
+        name: "as-featured-in"
         fields:
           - { label: "Featured title", name: "featuredTitle", widget: "string" }
           - { label: "Featured list", name: "featured", widget: "list",
@@ -620,9 +620,9 @@ collections: # A list of collections the CMS should be able to edit
             required: false,
           }
 
-      - file: "site/content/hexCaseStudies/_index.md"
-        label: "Hex Case studies"
-        name: "hexCaseStudies"
+      - file: "site/content/feauteredCaseStudies/_index.md"
+        label: "Feautered Case Studies"
+        name: "feauteredCaseStudies"
         fields:
           - { label: "Case study title", name: "caseTitle", widget: "string" }
           - { label: "Case study", name: "case", widget: "list",

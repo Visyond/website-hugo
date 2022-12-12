@@ -1,5 +1,5 @@
 ---
-hexSliderLogos:
+clientLogos:
   - alt: Elettronica Logo
     logo: /img/elet.png
   - alt: ABRT Logo

@@ -1,4 +1,5 @@
-{{ with .Site.GetPage "section" "hexCaseStudies" }}
+<!-- FEATURED CASE STUDIES -->
+{{ with .Site.GetPage "section" "feauteredCaseStudies" }}
 <section class="hexCaseStudy">
     <div class="container">
         <h2 class="enterV__headline">{{ .Params.caseTitle }}</h2>
@@ -21,3 +22,4 @@
     </div>
 </section>
 {{ end }}
+<!-- END: FEATURED CASE STUDIES -->

@@ -1,0 +1,52 @@
+	<!-- USE-CASES -->
+    <section class="homeBenefits">
+		<div class="container">
+            <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
+            <div class="header-section--divider"></div>
+        </div>
+
+        <div class="container-useCases">
+            <div class="tabs">
+                
+                <ul class="tabs__control">
+                    {{ range $index, $el := .Params.useCaseSection }} 
+                    <!-- if first element in collection, adds 'active' class (see _tabs.css and script.custom.js)-->
+                    <li class="tab__title {{ if ( eq $index 0) }}active{{ end }}"> 
+                        {{ .useCaseSectionTitle | markdownify }}
+                    </li>
+                    {{ end }}
+                </ul>
+                  
+                {{ range $index, $el := .Params.useCaseSection }} 
+                <!-- adds 'active' class to the first element in collection (see _tabs.css and script.custom.js)-->
+                 <div class="tabs__content js-useCases__list {{ if ( eq $index 0) }}active{{ end }}">
+                        {{ range $list := .useCaseSectionContent }}   
+                        {{ if (eq .isVisible true)}}
+                            <a target="_blank"
+                            {{ if .useCaseURL }}
+                            href="{{ .useCaseURL }}"
+                            {{ end }} 
+                            class="content-card"> 
+                                <img data-lazy="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="content-card__img">
+                                
+                                <div class="content-card__title">{{ .useCaseTitle }}</div>
+                                <div class="content-card_description"> {{ .useCaseDescription | markdownify }}</div>
+
+                                
+                                <div class="btn-wrap">
+                                    {{ if .useCaseURL }}
+                                    <div href="{{ .useCaseURL }}" target="_blank" class="button button-primary">
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                    </div>
+                                    {{ end }}
+                                </div>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                {{ end }}
+
+            </div>
+        </div>
+    </section> 
+	<!-- END: USE-CASES -->
