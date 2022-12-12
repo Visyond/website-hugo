@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
 
-    {{ partial "head-fonts" . }}
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet">
+        <link href="/css/main.css?v=1.1" rel="stylesheet">
+        <link rel="icon" type="image/png" href="/logo.png" /> 
+        <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
+        
+        <title>{{ .Title }} | Visyond</title>
 
-    <link href="/css/main.css?v=1.1" rel="stylesheet">
+        {{ with .Params.MetaTags }}
+            {{ . | markdownify }}
+        {{ end }}
 
-    <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"> -->
-    <link rel="icon" type="image/png" href="/logo.png" />
-    
+        {{ partial "utility/scripts-header" . }}
+        
+        {{ with .Params.scripts }}
+            {{ . | markdownify }}
+        {{ end }}
+    </head>
 
-    <title>{{ .Title }} | Visyond</title>
+    <body>
+        <header class="hexHeader homeHeader">
+            <div class="container">
+                <div class="menu">
+                    <div id="logo">
+                        <a href="/" class="hexNav__logo-link">
+                            <span><img src="/img/common/Visyond Logo 2022.png" alt="Logo"></span>
+                        </a>
+                    </div>
 
-    {{ with .Params.MetaTags }}
-    {{ . | markdownify }}
-    {{ end }}
+                    {{ partial "hexNav" . }}
 
-    {{ partial "utility/scripts-header" . }}
-    
-    {{ with .Params.scripts }}
-    {{ . | markdownify }}
-    {{ end }}
-</head>
-
-<body>
- 
-    <header class="hexHeader homeHeader">
-    <div class="container">
-        <div class="menu">
-            <div id="logo">
-                <a href="/" class="hexNav__logo-link">
-                    <span><img src="/img/common/Visyond Logo 2022.png" alt="Logo"></span>
-                </a>
+                    <div id="trialButton" class="hexNav-item">
+                        <a href="/demo" class="hexNav__link hexNav__link--primary {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
+                            Onboarding Call
+                        </a>
+                    </div>
+                    
+                    <button id="menu-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    </button>
+                </div>
             </div>
-
-            {{ partial "hexNav" . }}
-
-            <div id="trialButton" class="hexNav-item">
-                <a href="/demo" class="hexNav__link hexNav__link--primary {{ if eq .Title "Homepage Some"}} hexNav--homepage-header__link {{end}}">
-                    Onboarding Call
-                </a>
-            </div>
-            <button id="menu-toggle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
-            </button>
-        </div>
-    </div>
-    </header>
+        </header>
 
 
-    <div class="maincontent">
+        <div class="maincontent">
