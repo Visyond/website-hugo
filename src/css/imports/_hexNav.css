@@ -59,7 +59,7 @@
 }
 
 .hexNav__link {
-    color: #383E4D;
+    color: #282828;
     font-size: 16px;
     transition: background 0.1s ease-in-out, color 0.1s ease-in-out;
     padding: 0.5em 1em;
@@ -69,7 +69,7 @@
     align-items: center;
     position: relative;
     height: 3em;
-    font-weight: 600;
+    font-weight: 700;
 
 
 & > span > img {
@@ -91,6 +91,12 @@
      padding: 10px 16px !important;
      border-radius: 100px!important;
      border: 2px solid #282828;
+
+     &:hover {
+        color: #fff;
+        border-color: #282828;
+        background: #282828;
+   }
 /*
 @media screen and (max-width: 1201px) {
     background: none !important;

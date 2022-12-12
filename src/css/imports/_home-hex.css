@@ -10,7 +10,7 @@
     font-size: 16px;
     /* box-shadow: 0 10px 10px 0 rgba(56, 93, 200, 0.25); */
     padding: 1em 2em;
-    font-weight: 600;
+    font-weight: 700;
 }
 .homehex .button-icon i {
     position: absolute;
@@ -232,8 +232,8 @@ color: #282828;
 /*other features*/
 .home-hero__other-features{
     font-size: 18px;
-    color: #555555;
-    font-weight: 300;
+    color: #282828;
+    font-weight: 400;
     list-style-type: none;
     display: flex;
     flex-direction: row;
