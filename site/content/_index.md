@@ -11,6 +11,7 @@ aliases:
   - /solutions/
   - /features/
   - /why-visyond/
+  - /about/
 
 
 
