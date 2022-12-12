@@ -15,6 +15,9 @@ import pngquant from "imagemin-pngquant";
 import csso from "postcss-csso";
 import changed from "gulp-changed";
 import debug from "gulp-debug";
+import cleanCss from "gulp-clean-css";
+import gzip from "gulp-gzip";
+
 
 const browserSync = BrowserSync.create();
 const hugoBin = `./bin/hugo.${
@@ -49,6 +52,8 @@ gulp.task("css", () =>
         })
       ])
     )
+    .pipe(cleanCss())
+    .pipe(gzip())
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 );
