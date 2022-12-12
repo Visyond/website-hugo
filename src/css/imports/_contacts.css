@@ -71,7 +71,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
-  color: #383e4d;
+  color: #181818;
   width: 100%;
   max-width: 100%;
 }
@@ -79,7 +79,7 @@
 .contact-page__resources__card-text {
   font-size: 16px;
   line-height: 1.4;
-  color: #383E4D;
+  color: #181818;
   width: 100%;
   max-width: 100%;
   font-weight: 400;
@@ -147,7 +147,7 @@
 
 .contact-page__location-title {
   font-size: 1.5em;
-  color: #383e4d;
+  color: #181818;
   margin: 0 0 0 10px;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .contacts-page__title {
-  color: #383e4d;
+  color: #181818;
   font-size: 16px;
   font-weight: 600;
   margin: 0 0 6px 0;
@@ -189,7 +189,7 @@
 
 .contacts-page__address,
 .contacts-page__phone {
-  color: #383e4d;
+  color: #181818;
 }
 
 .contacts-page__link {
@@ -198,7 +198,7 @@
 
 
 .contacts-page__address {
-  color: #383e4d;
+  color: #181818;
   @media screen and (max-width: 541px) {
     margin-bottom: 0;
   }

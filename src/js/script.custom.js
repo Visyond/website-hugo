@@ -494,7 +494,7 @@ $(function () {
 
     function setupSlider () {
         if($('.js-useCases__list').length) {
-            var maxDisplayNum= 5; 
+            var maxDisplayNum= 4; 
             var activeSlides = $('.js-useCases__list.active .content-card').length;
             
             $('.js-useCases__list').slick('refresh'); //refreshing slick carousel (see in script.plugin.js)

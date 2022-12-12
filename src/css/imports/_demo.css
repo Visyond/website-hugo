@@ -20,7 +20,7 @@
 
 .demoSection__block-title {
     font-size: 34px;
-    color: #383E4D;
+    color: #181818;
     font-weight: 900;
     line-height: 1.4;
     text-align: center;
@@ -28,7 +28,7 @@
 
 
 .demoSection__block-descr {
-    color: #383E4D;
+    color: #181818;
     font-size: 16px;
     margin-bottom: 1em;
     width: 100%;
@@ -211,7 +211,7 @@
 }
 
 .demoSection--title{
-    color: #383e4d;
+    color: #181818;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.5em;
@@ -228,7 +228,7 @@
 .demoText{
     font-size: 16px;
     line-height: 1.44;
-    color: #383E4D;
+    color: #181818;
     font-weight: 400;
     text-align: center;
 }

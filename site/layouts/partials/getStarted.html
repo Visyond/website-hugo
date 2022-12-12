@@ -1,10 +1,5 @@
 {{ with .Site.GetPage "section" "getStarted" }}
-  {{ with .Params.backgroundImage }}
-  <section style="background-image: url(' {{ . }} '); background-repeat: no-repeat; background-size: cover;">
-  {{ else }}
-  <section style="background-image: url('/img/footer-bg.jpg'); background-repeat: no-repeat; background-size: cover;">
-  {{ end }}
-
+<section class="getStarted-section" style="background-image: url('/img/home/getStartedRectangle.svg');">
     <div class="container">
       <div class="homeHex-provides">
         <section class="homeHex-provides__wrap">
@@ -23,8 +18,8 @@
           </a>
         </section>
         <div class="homeHex-provides__img-wrap">
-          <img id="play-video" src="/img/home/laptopWithPic2.png" alt="notebook" class="homeHex-provides__img">
-
+          <img id="play-video" src="/img/home/laptop.svg" alt="laptop" class="homeHex-provides__img">
+          
           <a class="button button-round-icon">
             <i class="material-icons">
               play_arrow
@@ -35,24 +30,3 @@
     </div>
     </section>
   {{ end }}
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-tubeplayer/2.1.0/jquery.tubeplayer.min.js"></script> 
-
-  <script>
-    $(document).ready(function () {
-      $("#play-video").click(function () {
-
-        $(".overlay").addClass("overlay--active");
-
-        const wrap = '<div class="yt-wrap"><a class="close-yt"><i class="material-icons">close</i></a></div>'
-
-        $(".overlay").prepend(wrap);
-
-        $(".overlay .yt-wrap").tubeplayer({
-          initialVideo: "q8WLu0gHzFE",
-          playsinline: true
-        });
-
-      })
-    });
-  </script>

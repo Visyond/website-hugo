@@ -39,13 +39,13 @@
     }  
 
     &-contrast {
-        background: #fff;
-        color: #282828;
+        background: #282828;
+        color: #fff;
         border: 2px solid #282828;
 
         &:hover {
-            background: #282828!important;
-            color: #fff!important;
+            background: #fff!important;
+            color: #181818!important;
             border: 2px solid #282828!important;
         }
     }

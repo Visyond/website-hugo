@@ -130,7 +130,7 @@
 
 .price-primary-period {
   font-weight: 600; 
-  color: #383e4d;
+  color: #181818;
   font-size: 20px;
   display: block;
   margin-left: 0.5em;
@@ -140,7 +140,7 @@
 
 .price-billing-note {
   font-weight: 400;
-  color: #383e4d;
+  color: #181818;
   font-size: 18px;
   flex: 1;
   flex-basis: auto;
@@ -318,7 +318,7 @@
 
 
 .tooltipIcon {
-  color: #383e4d; 
+  color: #282828; 
   font-size: 20px;
   margin-left: 2px;
 }

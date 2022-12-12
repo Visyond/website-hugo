@@ -30,13 +30,13 @@
     height: auto;
 }
 .benefit__headline{
-    color: #383e4d;
+    color: #181818;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 .benefit__text{
-    color: #383e4d;
+    color: #181818;
     font-size: 16px!important;
     line-height: 1.8!important;
     text-align: center;
@@ -80,7 +80,7 @@
 .types__headline, .types__text {
     width: 100%;
     font-family: "Quicksand", "Open Sans", sans-serif;
-    color: #383e4d;
+    color: #181818;
     text-align: center;
 }
 .types__headline{

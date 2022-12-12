@@ -34,7 +34,7 @@
   .tabs__control li {
     padding: 9px 15px;
     margin: 1px 0 0 1px;
-    color: #282828;
+    color: #181818;
     text-align: center;
     cursor: pointer;
     font-size: 22px;
@@ -199,7 +199,7 @@
 .content-card .button-primary {
     padding: 10px 12px!important;
     border: none;
-    color: #282828;
+    color: #181818;
     background: #fafafa;
     transition: all 0.2s ease-out; 
     line-height: 0.5;
@@ -218,7 +218,7 @@
 
 
 .content-card__title {
-    color: #282828;
+    color: #181818;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.44;
@@ -234,7 +234,7 @@
     font-size: 16px;
     text-align: left;
     line-height: 1.44;
-    color: #282828;
+    color: #181818;
     font-weight: 400;
     margin-bottom: 20px;
     transition: opacity 0.2s ease-in-out;

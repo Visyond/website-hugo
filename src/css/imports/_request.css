@@ -86,7 +86,7 @@
 
 .request-demo__form-title {
   text-align: center;
-  color: #383e4d;
+  color: #181818;
   font-size: 39px;
   margin-bottom: 0;
   font-weight: 700;
@@ -203,7 +203,7 @@
 }
 
 .request-form-checkbox-title {
-color: #383e4d;
+color: #181818;
 font-weight: 900;
 font-size: 1.4em;
 margin: 1.5em 0 .5em 3px;
@@ -212,7 +212,7 @@ margin: 1.5em 0 .5em 3px;
 .request-form-checkbox-wrap {
   font-size: 1.2em;
   font-weight: 400;
-  color: #383e4d;
+  color: #181818;
   margin-bottom: .5em;
 }
 
