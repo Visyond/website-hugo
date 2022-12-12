@@ -524,9 +524,9 @@ collections: # A list of collections the CMS should be able to edit
             ],
           }
 
-      - file: "site/content/getStartedSignUp/_index.md"
-        label: "Get Started Section"
-        name: "getStartedSignUp"
+      - file: "site/content/getStarted/_index.md"
+        label: "Get Started CTA"
+        name: "getStarted"
         fields:
           - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
           - {label: "Provides Title", name: "getStartedTitle", widget: "string", required: false,}
