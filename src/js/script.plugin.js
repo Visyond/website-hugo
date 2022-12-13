@@ -61,6 +61,9 @@ $(function () {
   }    
   // ===== END: SLICK - PRICING PAGE PLAN CARDS =====
 
+
+
+
   // ===== HOMEPAGE USE-CASES =====
   if($('.js-useCases__list').length) {
 
@@ -126,4 +129,55 @@ $(function () {
     })
   }    
   // ===== END: SLICK - HOMEPAGE USE-CASES =====
+
+
+
+  // ===== END: SLICK - DEMOS ON /DEMO =====
+  if($('.js-demo__list').length) {
+
+    $('.js-demo__list').slick({
+        lazyLoad: 'ondemand',
+        slidesToShow: 3, 
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 8000,
+        draggable: true,
+        dots: true,
+        arrows: true,
+        responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 8000,
+                draggable: true,
+                dots: true,
+                arrows: true,
+              }
+            },          
+            {
+              breakpoint: 700,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                draggable: true,
+                arrows: false,
+                dots: true,
+              }
+            },
+        ]
+    })
+  }    
+  // ===== END: SLICK - DEMOS ON /DEMO =====
+
+
+
 });
+
+
+

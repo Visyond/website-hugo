@@ -190,8 +190,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(3px);
+    background: rgb(40 40 40 / 90%);
+    backdrop-filter: blur(8px);
     z-index: 99999;
     -ms-align-items: center;
     align-items: center;
@@ -217,9 +217,9 @@
     position: absolute;
     cursor: pointer;
     right: 0.5rem;
-    top: -30px;
-    width: 20px;
-    height: 20px;
+    top: -50px;
+    width: 30px;
+    height: 30px;
     border: none;
     background: linear-gradient(
         45deg,

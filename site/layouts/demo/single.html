@@ -25,7 +25,7 @@
 	
 	<!-- DEMO SECTION -->
 	<section class="homeBenefits">
-		<div class="container">
+		<div class="container container-demoVideos">
 			<ul class="demoSections">
 				<!-- LIST OF DEMO SECTIONS -->
 				{{ range $el := .Params.demoSection }}
@@ -39,55 +39,52 @@
 					  
 
 					<div class="demo-section--divider"></div>
-					<section class="demoSection__text-wrap">
-						<div class="demoSection__block-descr">
-							<ul>
-							<!-- LIST OF DEMO SECTION BLOCKS -->
-							{{ range $list := .demoSectionContent }}
-								{{ if (eq .isVisible true)}}
-									<div class="demoSection__body">
-										<div class="demoSection__body--img-wrap">
-											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 
-											{{ if .demoVideoLink }}
-											<span class="button button-icon btn-demoVideo" 
-											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-											style="display: none;"
-											{{ end }}
-											>												
-												<span style="display: flex; padding: 2.5em 2.5em;">
-													<i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
-												</span>
-												<div class="ht-top__popup js-popup">
-													<div class="ht-top__iframe-wrap">
-														<button class="ht-top__popup-close js-popup-close"></button>
-														<p>{{ .demoVideoLink }}</p>
-													</div>
-													<div class=demoPopupButtonContainer>
-														<div class="btn-demoPopupCTA js-popup-close-request">Request Live Demo</div>
-														<div class="btn-demoPopupCTA js-popup-close-signup">Sign Up</div>
-													</div>
-												</div>
+					<!-- LIST OF DEMO SECTION BLOCKS -->
+					<div class="js-demo__list">
+						{{ range $list := .demoSectionContent }}
+							{{ if (eq .isVisible true)}}
+								<div class="demoSection__body">
+									<div class="demoSection__body--img-wrap">
+										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
+
+										{{ if .demoVideoLink }}
+										<span class="button button-icon btn-demoVideo" 
+										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
+										style="display: none;"
+										{{ end }}
+										>												
+											<span style="display: flex; padding: 2.5em 2.5em;">
+												<i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
 											</span>
-											{{ end }}
-										</div>
-										
-										<div class="demoSectionTitleDescContainer">
-											<div class="demoSection--title">
-												{{ .demoSectionSubTitle }}
+											<div class="ht-top__popup js-popup">
+												<div class="ht-top__iframe-wrap">
+													<button class="ht-top__popup-close js-popup-close"></button>
+													<p>{{ .demoVideoLink }}</p>
+												</div>
+												<div class=demoPopupButtonContainer>
+													<a class="btn-demoPopupCTA js-popup-close-request">Onboarding Call</a>
+													<a class="btn-demoPopupCTA js-popup-close-signup">Sign Up</a>
+												</div>
 											</div>
-		
-											<div class="demoText">
-												{{ .demoDescription | markdownify }}
-											</div>									
-										</div>
+										</span>
+										{{ end }}
 									</div>
-								{{ end }}
+									
+									<div class="demoSectionTitleDescContainer">
+										<div class="demoSection--title">
+											{{ .demoSectionSubTitle }}
+										</div>
+
+										<div class="demoText">
+											{{ .demoDescription | markdownify }}
+										</div>									
+									</div>
+								</div>
 							{{ end }}
-							<!-- LIST OF DEMO SECTION BLOCKS -->
-							</ul>
-						</div>	
-					</section>
+						{{ end }}
+					</div>
+					<!-- LIST OF DEMO SECTION BLOCKS -->
 				</li>
 				{{ end }}
 				<!-- END: LIST OF DEMO SECTIONS -->

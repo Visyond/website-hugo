@@ -280,7 +280,7 @@ $(function () {
             if(e.target === e.currentTarget || e.target === closePopupSignUp) {
                 popup.classList.remove('popup--show');
                 removeIframe();
-                window.location.href='/accounts/signup/';
+                window.open('/accounts/signup/', '_blank');
             }
         })
 
