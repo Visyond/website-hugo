@@ -6,12 +6,12 @@ clientLogos:
     logo: /img/client-logos/abrt.png
   - alt: eLearnSecuiry Logo
     logo: /img/client-logos/elearn_security.png
-  - alt: Datadvance Logo
-    logo: /img/client-logos/datadvance.png
-  - alt: CY4GATE Logo
-    logo: /img/client-logos/cy4gate.png
   - alt: Ericsson Logo
     logo: /img/client-logos/erricsson.png
+  - alt: Salesflow Logo
+    logo: /img/client-logos/salesflow.png    
+  - alt: CY4GATE Logo
+    logo: /img/client-logos/cy4gate.png    
   - alt: Plytrix Logo
     logo: /img/client-logos/plytrix.png
   - alt: National Research Council Italy Logo
