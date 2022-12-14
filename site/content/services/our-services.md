@@ -2,10 +2,12 @@
 url: /services
 metaTags: "<meta property=\"og:title\" content=\"Managed Services on Visyond Platform\"/>\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:image\" content=\"https://visyond.com/img/thumbnails/Visyond%20services%20thumbnail%201200x628.png\"/>\r\n<meta property=\"og:description\" content=\"Combine the expertise of professional management consultants with the benefits of Visyond platform. Understand your data and make better decisions, faster.\"/>\r\n<meta property=\"og:url\" content=\"https://visyond.com/services/\" />"
 title: Managed Services on Visyond Platform
-coverHeader: Managed Services on Visyond Platform
-coverDescription: >-
+topTitle: Managed Services on Visyond Platform
+topSubTitle: >-
   Combine the expertise of professional management consultants with the benefits
   of Visyond platform. Understand your data and make better decisions, faster.
+topButtonText: 'Talk to us'
+topButtonLink: '#contactUs'  
 whyVisyondTitle: Get a Decision Support System Based on Your Spreadsheet
 servicesTitleVisyond: Services Managed by Visyond
 servicesItemsVisyond:

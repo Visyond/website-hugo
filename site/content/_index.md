@@ -12,7 +12,7 @@ aliases:
   - /features/
   - /why-visyond/
   - /about/
-
+  - /services/
 
 
 title: Turn your Excel into an insights machine.

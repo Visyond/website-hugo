@@ -1,65 +1,47 @@
 {{ partial "default/header" . }}
 
 <div class="homehex ht">
-	<!-- TOP SECTION -->
-	<section class="home-hero">
-	<div class="container">
-		<div class="home-hero__container">
-			<div class="whyV__row">
-			
-			<div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-				<h2 class="home-hero__title">{{ .Params.topTitle}}</h2>
-			</div>
+    {{ partial "covers/cover-simple" . }}
 
-			<!-- <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-				<div class="home-hero__topSubtitle">
-				{{ .Params.topSubTitle | markdownify }}  
-				</div>
-			</div> -->
-			
-			</div>
-		</div>
-	</div>
-	</section>
-	<!-- END: TOP SECTION -->	
-
-<!-- second section -->
-<div class="press2nd">
-    <ul class="press2nd__list">
-        {{ range $el := .Params.pressarticles }}
-        <li class="press2nd__item">
-            <a href="{{ $el.url }}" class="press2nd__link">
-                <div class="press2nd__top">
-                    <span class="press2nd__company-wrap">
-                        <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
-                    </span>
-                    <div class="press2nd__company-person-wrap">
-                        {{ if $el.photo }}
-                        <span class="press2nd__company-person-img">
-                            <img src="{{ $el.photo }}" alt="photo">
+    <!-- second section -->
+    <div class="press2nd">
+        <ul class="press2nd__list">
+            {{ range $el := .Params.pressarticles }}
+            <li class="press2nd__item">
+                <a href="{{ $el.url }}" class="press2nd__link">
+                    <div class="press2nd__top">
+                        <span class="press2nd__company-wrap">
+                            <img src="{{ $el.logo }}" alt="{{ $el.alt }}">
                         </span>
-                        {{ end }}
-                        <div>
-                            <span class="press2nd__company-person-name">{{ $el.name }}</span>
-                            <span class="press2nd__company-person-company-name">
-                                {{ $el.company }}
+                        <div class="press2nd__company-person-wrap">
+                            {{ if $el.photo }}
+                            <span class="press2nd__company-person-img">
+                                <img src="{{ $el.photo }}" alt="photo">
                             </span>
+                            {{ end }}
+                            <div>
+                                <span class="press2nd__company-person-name">{{ $el.name }}</span>
+                                <span class="press2nd__company-person-company-name">
+                                    {{ $el.company }}
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="press2nd__bottom">
-                    <h3 class="press2nd__title">{{ $el.title }}</h3>
-                    <ul class="press2nd__tag-list">
-                        {{ range $tag := $el.tags }}
-                        <li class="press2nd__tag-item">{{ .tagTitle }}</li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </a>
-        </li>
-        {{ end }}
-    </ul>
+                    <div class="press2nd__bottom">
+                        <h3 class="press2nd__title">{{ $el.title }}</h3>
+                        <ul class="press2nd__tag-list">
+                            {{ range $tag := $el.tags }}
+                            <li class="press2nd__tag-item">{{ .tagTitle }}</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    <!-- //second section -->
+
 </div>
-<!-- //second section -->
 
 {{ partial "default/footer" . }}

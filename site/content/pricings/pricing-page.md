@@ -12,6 +12,8 @@ topTitle: >-
   Pick a plan that works for you and your team. Start <span style="color: #0086ff;">free</span>.
 topSubTitle: >-
   Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.
+topButtonText: 'Get Started'
+topButtonLink: '/accounts/signup/'
 pricingSections:
   - pricingSection:
       plansCards:

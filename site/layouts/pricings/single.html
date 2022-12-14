@@ -2,28 +2,7 @@
 
 <div class="homehex ht">
   <!-- TOP SECTION -->
-  <section class="home-hero">
-    <div class="home-hero__container">
-      <div class="container">
-        <div class="whyV__row">
-          <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-            <h2 class="home-hero__title">{{ .Params.topTitle | markdownify }}</h2>
-          </div>
-
-          <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-            <div class="home-hero__topSubtitle">
-              {{ .Params.topSubTitle | markdownify }}  
-            </div>
-
-            <div class="btn-wrap">
-              <a href="/accounts/signup/" class="button button-primary">Get Started</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- END: TOP SECTION -->
+  {{ partial "covers/cover-simple" . }}
 
 
   <!-- PRICING SECTIONS -->

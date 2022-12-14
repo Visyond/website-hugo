@@ -201,6 +201,8 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page Title", name: "title", widget: "string", required: false}
       - {label: "Top Title", name: "topTitle", widget: markdown}
       - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
 
       - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
           {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
@@ -282,8 +284,10 @@ collections: # A list of collections the CMS should be able to edit
     create: true
     fields:
       - {label: "Page URL", name: "url", widget: string, required: false}
-      - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
+      - {label: "Top title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "string", required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
       - {label: "Demo Section", name: "demoSection", widget: "list", 
         fields: [
           {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
@@ -567,21 +571,21 @@ collections: # A list of collections the CMS should be able to edit
   - name: "case-studies"
     label: "Case studies"
     files: 
-      - file: "site/content/casestudiessection/_index.md"
-        label: "Case Studies Section"
-        name: "casestudiessection"
-        fields:
-          - {label: "Studies Title", name: "studiesTitle", widget: "string"}
-          - {label: "Studies Text Link", name: "studiesLinkText", widget: "string", required: false}
-          - {label: "Studies Link", name: "studiesLink", widget: "string", required: false}
-          - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-            {label: "Image", name: "image", widget: "image"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Text", name: "text", widget: "text"},
-            {label: "Author", name: "author", widget: "string"},
-            {label: "Link Text", name: "linkText", widget: "string"},
-            {label: "Link URL", name: "linkUrl", widget: "string"},
-          ],}
+      # - file: "site/content/casestudiessection/_index.md"
+      #   label: "Case Studies Section"
+      #   name: "casestudiessection"
+      #   fields:
+      #     - {label: "Studies Title", name: "studiesTitle", widget: "string"}
+      #     - {label: "Studies Text Link", name: "studiesLinkText", widget: "string", required: false}
+      #     - {label: "Studies Link", name: "studiesLink", widget: "string", required: false}
+      #     - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
+      #       {label: "Image", name: "image", widget: "image"},
+      #       {label: "Title", name: "title", widget: "string"},
+      #       {label: "Text", name: "text", widget: "text"},
+      #       {label: "Author", name: "author", widget: "string"},
+      #       {label: "Link Text", name: "linkText", widget: "string"},
+      #       {label: "Link URL", name: "linkUrl", widget: "string"},
+      #     ],}
 
       - file: "site/content/casestudies.md"
         label: "Case studies"
@@ -605,20 +609,20 @@ collections: # A list of collections the CMS should be able to edit
               ]}
           ]}
 
-      - file: "site/content/case-studies-section-new/_index.md"
-        label: "Case studies section new"
-        name: "case-studies-section-new"
-        fields:
-          - { label: "Case study title", name: "caseTitle", widget: "string" }
-          - { label: "Case study", name: "case", widget: "list",
-            fields: [
-              {label: "Case study link", name: "caseLink", widget: "string"},
-              {label: "Icon", name: "caseIco", widget: "image"},
-              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
-              {label: "Case study description", name: "caseDescr", widget: "string"},
-            ],
-            required: false,
-          }
+      # - file: "site/content/case-studies-section-new/_index.md"
+      #   label: "Case studies section new"
+      #   name: "case-studies-section-new"
+      #   fields:
+      #     - { label: "Case study title", name: "caseTitle", widget: "string" }
+      #     - { label: "Case study", name: "case", widget: "list",
+      #       fields: [
+      #         {label: "Case study link", name: "caseLink", widget: "string"},
+      #         {label: "Icon", name: "caseIco", widget: "image"},
+      #         {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+      #         {label: "Case study description", name: "caseDescr", widget: "string"},
+      #       ],
+      #       required: false,
+      #     }
 
       - file: "site/content/feauteredCaseStudies/_index.md"
         label: "Feautered Case Studies"
@@ -687,8 +691,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: Type, name: type, widget: hidden, default: why-visyond }
           - { label: "Page title", name: "title", widget: "string", required: false,}
-          - { label: "Cover Header", name: "coverHeader", widget: "string", required: false}
-          - { label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+          - { label: "Top title", name: "topTitle", widget: "string", required: false}
+          - { label: "Top subtitle", name: "topSubtitle", widget: "markdown", required: false}
           - { label: "Section 1: Header", name: "sectionOneHeader", widget: "string", required: false}
           - { label: "Text Area 1", name: "textArea1", widget: "markdown", required: false}
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
@@ -769,8 +773,10 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
-      - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+      - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
       - {label: "Why Visyond Title", name: "whyVisyondTitle", widget: "string", required: true}
       - {label: "Visyond Services Title", name: "servicesTitleVisyond", widget: "string", required: true}
       - {label: "Visyond Services Items", name: "servicesItemsVisyond", widget: "list",

@@ -11,9 +11,11 @@ metaTags: >-
   <meta property="og:description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.>
   <meta property="og:url" content="https://visyond.com/demo/">
   <meta name="description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.">
-coverHeader: View demo
-coverDescription: >-
+topTitle: View demo
+topSubTitle: >-
   Explore the short demo videos below, and schedule an onboarding call if you'd us to help you get started.
+topButtonText: 'Onboarding Call'
+topButtonLink: '#request'
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Predictive ‘What-if’ Dashboards for Decision Making

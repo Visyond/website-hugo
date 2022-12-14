@@ -9,8 +9,10 @@ metaTags: >-
   <meta property="og:description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
   <meta property="og:url" content="https://visyond.com/demo/">
   <meta name="description" content="Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform">
-coverHeader: Watch Demos
-coverDescription: Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform
+topTitle: Watch Demos
+topSubTitle: Explore different solutions and use cases, and request a live demo if you want to take a deep dive into specific aspects of the platform
+topButtonText: 'Onboarding Call'
+topButtonLink: '#request'
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Analyze Data On-the-fly with Excel Add-in

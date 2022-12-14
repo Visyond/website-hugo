@@ -1,7 +1,7 @@
 ---
 metaTags: "<meta name=\"description\" content=\"Contact Visyond if you have any questions or inquiries about our product!\">\r\n\r\n<meta name=\"keywords\" content=\"Contact Visyond, Visyond email, Visyond phone, Visyond telephone, Visyond address, Visyond Mail, Visyond Linkedin\">"
 type: contacts
-title: Got questions? We'll be happy to help!
+topTitle: Got questions? We'll be happy to help!
 topSubTitle: Quickly find answers to your questions or [contact us](#contactUs).
 cards:
   - description: 'Explore different solutions and use cases'
