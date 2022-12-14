@@ -126,7 +126,8 @@
 
 /* effect for button when hovering on container */
 &:hover .button {
-    background-color: rgb(5, 133, 255, 0.9);
+    background-color: #0086ff;
+    border-color: #0086ff;
 }
 
 @media screen and (max-width: 800px) {
@@ -140,18 +141,18 @@
 
 & .button {
       position: absolute;
-      left: calc(35%);
-      top: calc(20%);
+      left: calc(37.5%);
+      top: calc(27%);
       transition: all 0.3s;
       box-shadow: 0 0 10px rgb(0,0,0,.6)!important;
       padding: 0!important;
-      border: 2px solid #fff!important;
+      border: 2px solid #282828;
       border-radius: 50px;
-      color: rgb(255 255 255 / 90%)!important;
-      background-color: rgba(22, 24, 30, 0.85);
+      color:#fff!important;
+      background-color: #282828;
     
       &:hover {
-        background-color: rgb(5, 133, 255, 1);
+        background-color: #0086ff;
         box-shadow: 0px 0px 20px rgb(5, 133, 255, / 60%)!important;
       }
 

@@ -1,6 +1,6 @@
 .tabs-product__container {
     display:flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: space-between;
     margin-bottom: 10rem;
 
@@ -19,6 +19,7 @@
 .tabs-product__container-right {
     display: flex;
     width: 55%;
+    border-radius: 20px;
 }
 
 .tabs-product__container-left--title {
@@ -108,6 +109,7 @@
     opacity: 1;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
     
 
