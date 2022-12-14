@@ -1,26 +1,26 @@
 ---
 clientLogos:
   - alt: Elettronica Logo
-    logo: /img/elet.png
+    logo: /img/client-logos/eletronica.png
   - alt: ABRT Logo
-    logo: /img/v_abrt.png
+    logo: /img/client-logos/abrt.png
   - alt: eLearnSecuiry Logo
-    logo: /img/elearn new grey.png
+    logo: /img/client-logos/elearn_security.png
   - alt: Datadvance Logo
-    logo: /img/datadvance logo grey.png
+    logo: /img/client-logos/datadvance.png
   - alt: CY4GATE Logo
-    logo: /img/logo_cy4gate black and white 25.png
+    logo: /img/client-logos/cy4gate.png
   - alt: Ericsson Logo
-    logo: /img/erricsson horizontal grey.png
+    logo: /img/client-logos/erricsson.png
   - alt: Plytrix Logo
-    logo: /img/logos/Plytrix logo.png
+    logo: /img/client-logos/plytrix.png
   - alt: National Research Council Italy Logo
-    logo: /img/CNR Italy logo grey 2.png
+    logo: /img/client-logos/NRCI.png
   - alt: Catholic Memorial School Logo
-    logo: /img/catholic memorial school logo.png
+    logo: /img/client-logos/catholic_memorial_school.png
   - alt: SGM Shipping Services logo
-    logo: /img/SGM logo bnw.png
+    logo: /img/client-logos/SGM.png
   - alt: GIM UEMOA
-    logo: /img/gim uemoa.jpg 
+    logo: /img/client-logos/gim_uemoa.jpg
 ---
 
