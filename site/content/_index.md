@@ -25,7 +25,7 @@ metaTags: >-
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
   <meta property="og:description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
+  <meta name="description" content="Visualize spreadsheet templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
 
 
 
@@ -35,7 +35,7 @@ topTitle: >-
   </br>
   <span id="js-dynamicTitle">scenario planning</span>
 topSubTitle: >-
-  Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
+  Visualize spreadsheet templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
 
 
 

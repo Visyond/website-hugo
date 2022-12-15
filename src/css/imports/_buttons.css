@@ -39,13 +39,13 @@
     }  
 
     &-contrast {
-        background: #282828;
-        color: #fff;
+        background: #fff;
+        color: #282828;
         border: 2px solid #282828;
 
         &:hover {
-            background: #fff!important;
-            color: #181818!important;
+            background: #282828!important;
+            color: #fff!important;
             border: 2px solid #282828!important;
         }
     }
@@ -107,15 +107,13 @@
     }
 
     &:hover {
-        /* top: -2px; */
-        /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
         background: #fff;
         color: #0583fb;
         border-color: #0583fb;
+        transform: scale(1.05);
     }
 
     &:active {
-        /* top: 2px; */
         box-shadow: none;
     }
 }

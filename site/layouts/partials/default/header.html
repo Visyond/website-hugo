@@ -27,22 +27,34 @@
         <header class="hexHeader homeHeader">
             <div class="container">
                 <div class="menu">
-                    <div id="logo">
-                        <a href="/" class="hexNav__logo-link">
-                            <span><img src="/img/common/Visyond Logo.png" alt="Logo"></span>
-                        </a>
+                    <div class="logo-nav-container">
+                        <div id="logo">
+                            <a href="/" class="hexNav__logo-link">
+                                <span><img src="/img/common/Visyond Logo.png" alt="Logo"></span>
+                            </a>
+                        </div>
+    
+                        {{ partial "default/navigation" . }}
                     </div>
 
-                    {{ partial "default/navigation" . }}
+                    <div class="menu__cta">
+                        <div class="hexNav__item">
+                            <a href="/accounts/login" class="hexNav__link">Sign in</a>
+                        </div>
 
-                    <div id="trialButton" class="hexNav-item">
-                        <a href="/demo" class="hexNav__link hexNav__link--primary">
-                            View demo
-                        </a>
+                        <div id="trialButton" class="hexNav-item">
+                            <a href="/accounts/signup/" class="hexNav__link hexNav__link--primary">Get started</a>
+                        </div>
+    
+                        <div id="viewDemoButton" class="hexNav-item">
+                            <a href="/demo" class="hexNav__link hexNav__link--secondary">View demo</a>
+                        </div>
                     </div>
-                    
+
                     <button id="menu-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#181818" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
                     </button>
                 </div>
             </div>

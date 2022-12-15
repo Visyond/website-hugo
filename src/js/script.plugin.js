@@ -69,7 +69,7 @@ $(function () {
 
     $('.js-useCases__list').slick({ // see setupSlider () in scripts.custom.js
         lazyLoad: 'ondemand',
-        slidesToShow: 1, 
+        slidesToShow: 4, 
         slidesToScroll: 1,
         infinite: false,
         autoplay: false,
@@ -90,7 +90,7 @@ $(function () {
               }
             },
             {
-              breakpoint: 1100,
+              breakpoint: 1300,
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 1,
@@ -101,7 +101,7 @@ $(function () {
               }
             },          
             {
-              breakpoint: 850,
+              breakpoint: 990,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,

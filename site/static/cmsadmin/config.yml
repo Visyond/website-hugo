@@ -105,14 +105,11 @@ collections: # A list of collections the CMS should be able to edit
             }          
           - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
 
-
-
-
   - name: "solutions"
     label: "Solutions"
     folder: "site/content/solutions"
     create: true
-    fields: # The fields each document in this collection has
+    fields:
       - {label: "Aliases", name: "aliases", widget: "string", required: false}
       - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
 
@@ -185,10 +182,6 @@ collections: # A list of collections the CMS should be able to edit
 	      ], 
         required: false,
         }    
-
-
-
-
 
   - name: "pricings"
     label: "Pricings"
@@ -571,6 +564,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "case-studies"
     label: "Case studies"
     files: 
+      #  TODO: CHECK AND DELETE IF NOT NEEDED
       # - file: "site/content/casestudiessection/_index.md"
       #   label: "Case Studies Section"
       #   name: "casestudiessection"
@@ -587,6 +581,7 @@ collections: # A list of collections the CMS should be able to edit
       #       {label: "Link URL", name: "linkUrl", widget: "string"},
       #     ],}
 
+      ###### CASE STUDIES LISTING ######
       - file: "site/content/casestudies.md"
         label: "Case studies"
         name: "casestudies"
@@ -608,7 +603,9 @@ collections: # A list of collections the CMS should be able to edit
                 { label: "Tag title", name: "tagTitle", widget: string }
               ]}
           ]}
+      ###### END: CASE STUDIES LISTING ######    
 
+      #  TODO: CHECK AND DELETE IF NOT NEEDED  
       # - file: "site/content/case-studies-section-new/_index.md"
       #   label: "Case studies section new"
       #   name: "case-studies-section-new"

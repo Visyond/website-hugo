@@ -8,14 +8,15 @@ $(function () {
         var pageTopTitle = document.getElementById("js-dynamicTitle");
         var initialText = pageTopTitle.innerHTML;
         var initialColor = $("#js-dynamicTitle").css("color");
+        var secondColor = '#ffa773';
         var titlesCounter = 0;
         var titleChangeDelay = 4000;
         var inst = setInterval(updateTitle, titleChangeDelay);
         
         var newTitles = [
-            ["what-if and risk analysis", "#ffa946"],
+            ["what-if and risk analysis", secondColor],
             ["interactive reporting", "#0086ff"],
-            ["predictive dashboards", "#ffa946"],
+            ["predictive dashboards", secondColor],
             [initialText, initialColor],
         ];
         
@@ -120,6 +121,7 @@ $(function () {
         })
     }
     hexDropdown();
+    
     function mobileNav() {
         let nav = $('.hexNav');
         let btn = $('#menu-toggle');

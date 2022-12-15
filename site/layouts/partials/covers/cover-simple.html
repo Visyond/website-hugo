@@ -2,11 +2,12 @@
 <section class="home-hero">
     <div class="container">
         <div class="home-hero__container">
-            <h1 class="home-hero__title" style="text-align: center;">{{ .Params.topTitle | markdownify  }}</h1>
+            <div class="home-hero__full-width-wrap">
+                <h1 class="home-hero__title home-hero__title-fullWidth">{{ .Params.topTitle | markdownify  }}</h1>
+            </div>
             <div class="home-hero__full-width-wrap">  
-
                 {{ if .Params.topSubTitle }}                
-                    <div class="home-hero__topSubtitle" style="text-align: center;">{{ .Params.topSubTitle | markdownify }}</div>
+                    <div class="home-hero__topSubtitle home-hero__topSubtitle-fullWidth">{{ .Params.topSubTitle | markdownify }}</div>
                 {{ end }}
 
                 {{ if .Params.topButtonText }}

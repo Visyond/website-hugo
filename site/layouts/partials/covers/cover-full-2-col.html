@@ -1,20 +1,13 @@
     <!-- TOP SECTION -->
-    <section class="home-hero">
+    <section class="home-hero" style="background-image: url('/img/home/blueRectangle.svg');">
         <div class="container">
             <div class="home-hero__container">
-                <div class="home-hero__full-width-wrap">
-                    <h1 class="home-hero__title home-hero__title-fullWidth">{{ .Params.topTitle | markdownify }}</h1>
-                    <div class="home-hero__topSubtitle home-hero__topSubtitle-fullWidth">{{ .Params.topSubTitle | markdownify }}</div>
-                </div>
-
-                <div class="home-hero__full-width-wrap">
-                    <div class="home-hero__buttons-section">
-                        <a href="/accounts/signup/" class="button button-primary button-asterisk">Get started</a>
-                        <a href="/demo" class="button button-contrast">View demo</a>
-                    </div>
+                <div class="home-hero__half-width-wrap">
+                    <h1 class="home-hero__title">{{ .Params.topTitle | markdownify }}</h1>
+                    <div class="home-hero__topSubtitle">{{ .Params.topSubTitle | markdownify }}</div>
                 </div>
               
-                <div class="home-hero__full-width-wrap home-hero__half-width-wrap--image home-hero__half-width-wrap--image-fullWidth">
+                <div class="home-hero__half-width-wrap home-hero__half-width-wrap--image">
                     <img class="home-hero__laptop-image" src="/img/home/laptop.svg" alt="Laptop">
                     <div class="home-hero__video-container">
                         <video poster="
@@ -30,6 +23,13 @@
                     </div>
                  
                 </div>
+                 
+                <div class="home-hero__half-width-wrap">
+                    <div class="home-hero__buttons-section">
+                        <a href="/accounts/signup/" class="button button-primary button-asterisk">Get started</a>
+                        <a href="/demo" class="button button-contrast">View demo</a>
+                    </div>
+                </div>
                 
                 <div class="home-hero__full-width-wrap-noIcons">
                     <ul class="home-hero__other-features">
@@ -39,7 +39,7 @@
                     </ul>
                     
                     <div class="home-hero__gartner-wrapNoLogo">
-                        {{ partial "visuals/gartner-yellow" . }}
+                        {{ partial "visuals/gartner-white" . }}
                     </div>
                 </div>
             </div>

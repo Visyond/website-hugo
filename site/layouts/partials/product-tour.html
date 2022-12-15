@@ -1,9 +1,9 @@
 <!-- PRODUCT TOUR -->
 <section class="enterV" style="background-color: #ffffff; background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
-    <div  id="productTour" class="container">
+    <div  id="productTour" class="container productTour-container">
 
     {{ range $index, $el := .Params.productTourBlocks }}
-        <div class="tabs-product__container vertical">
+        <div class="tabs-product__container">
             <div class="tabs-product__container-left">
                 <h2 class="tabs-product__container-left--title"> {{ .blockTitle }} </h2>
                 <div class="tabs-product__container-left--desc">{{ .blockDesc | markdownify }}</div>
