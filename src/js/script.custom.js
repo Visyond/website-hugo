@@ -223,89 +223,125 @@ $(function () {
     }
 
     addCopyright();
-    // ===== END: COPYRIGHT =====    
+    // ===== END: COPYRIGHT =====    demoVideoLink
 
 
 
 
-    // ===== DEMO PAGE VIDEO POPUP WITH BUTTON =====
-    function demoVideoPopup(btn, popup, closePopup, closePopupRequestDemo, closePopupSignUp) {
-        const srcIframe = popup.querySelector('p').innerHTML;
-        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
+    // ===== YOUTUBE VIDEO POPUP WITH BUTTONS =====
 
-        popup.children[0].removeChild(popup.querySelector('p'));
+    //Find all video buttons
+    var videoButtons = document.querySelectorAll('.play-video-button');
+    for (var i = 0; i<videoButtons.length; i++) {
+        prepareYoutubeFrame(videoButtons[i]);
+    }
 
-        const iframeBlock = document.createElement('iframe');
-        iframeBlock.setAttribute('width', '889');
-        iframeBlock.setAttribute('height', '501');
-        iframeBlock.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
-        iframeBlock.setAttribute('frameborder', '0');
-        iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
-        iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
+    function prepareYoutubeFrame(btn) {
+        const srcIframe = btn.querySelector('p').innerHTML; // full video link is in <p> inside a button
+        let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1); // get video ID
 
+        btn.removeChild(btn.querySelector('p')); // removing <p> so the link is not rendered on page
 
-        function removeIframe() {
-            popup.children[0].removeChild(popup.querySelector('iframe'));
-        }
+        const youtubeFrame = document.createElement('iframe');
+        youtubeFrame.setAttribute('width', '889');
+        youtubeFrame.setAttribute('height', '501');
+        youtubeFrame.setAttribute('src', `https:www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
+        youtubeFrame.setAttribute('frameborder', '0');
+        youtubeFrame.setAttribute('allow', 'autoplay; encrypted-media');
+        youtubeFrame.setAttribute('allowfullscreen', 'allowfullscreen');
 
-        function createIframe() {
-            popup.children[0].appendChild(iframeBlock);
-        }
-
-
+        // Creating popup with the video and controls when clicking play button
         btn.addEventListener('click', e => {
-            var tt = e.target;
             e.preventDefault();
-            popup.classList.add('popup--show');
-            createIframe();
+            createVideoOverlay (youtubeFrame);
         });
+    }
 
-        popup.addEventListener('click', e => {
+
+    function createVideoOverlay (youtubeFrame) {
+        // Create the popup container
+        let popup = document.createElement("div");
+        popup.classList.add("ht-top__popup", "js-popup", "popup--show");
+
+        // Create wrap for the video
+        let iframeWrap = document.createElement("div");
+        iframeWrap.classList.add("ht-top__iframe-wrap");
+
+        // Create the close button
+        let closeButton = document.createElement("button");
+        closeButton.classList.add("ht-top__popup-close", "js-popup-close");
+
+        // Add the close button in the wrap
+        iframeWrap.appendChild(closeButton);
+
+        // Add the youtube in the wrap
+        iframeWrap.appendChild(youtubeFrame);
+
+        // Create the button container in the wrap
+        let buttonContainer = document.createElement("div");
+        buttonContainer.classList.add("demoPopupButtonContainer");
+
+        // Create the first button
+        let requestButton = document.createElement("a");
+        requestButton.classList.add("btn-demoPopupCTA", "js-popup-close-request");
+        requestButton.textContent = "Onboarding Call";
+
+        // Create the second button
+        let signupButton = document.createElement("a");
+        signupButton.classList.add("btn-demoPopupCTA", "js-popup-close-signup");
+        signupButton.textContent = "Get Started";
+
+        // Add the buttons to the button container
+        buttonContainer.appendChild(requestButton);
+        buttonContainer.appendChild(signupButton);
+
+        // Add the inner div and button container to the main div
+        popup.appendChild(iframeWrap);
+        popup.appendChild(buttonContainer);
+
+        // Append the main div to the document body
+        document.body.appendChild(popup);
+
+        // Close and remove the popup
+        closeButton.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopup) {
-                popup.classList.remove('popup--show');
-                removeIframe();
-            }
-        })
-        
-        closePopupRequestDemo.addEventListener('click', e => {
-            e.preventDefault();
-            if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
-                popup.classList.remove('popup--show');
-                removeIframe();
-                document.getElementById('request').scrollIntoView();
+                document.body.removeChild(popup);
             }
         })
 
-        closePopupSignUp.addEventListener('click', e => {
+        // Close and scroll to booking section
+        requestButton.addEventListener('click', e => {
             e.preventDefault();
-            if(e.target === e.currentTarget || e.target === closePopupSignUp) {
-                popup.classList.remove('popup--show');
-                removeIframe();
+            if(e.target === e.currentTarget || e.target === requestButton) {
+                document.body.removeChild(popup);
+
+                // on /demo, scroll to request section instead of opening it
+                if (window.location.href.indexOf("/demo") > -1 ) {
+                    document.getElementById('request').scrollIntoView();
+                }
+                else {
+                    window.open('/demo/#request', '_self')
+                }
+            }
+        })
+
+        // Close and go to signup
+        signupButton.addEventListener('click', e => {
+             e.preventDefault();
+             if(e.target === e.currentTarget || e.target === signupButton) {
+                document.body.removeChild(popup);
                 window.open('/accounts/signup/', '_blank');
-            }
-        })
-
+             }
+         })
     }
+    // ===== END: YOUTUBE VIDEO POPUP WITH BUTTONS =====
 
-    function watchDemoVideo(videoBtn) {
-        const videoSpan = videoBtn.querySelector('span');
-        const videoPopup = videoBtn.querySelector('div');
-        const closePopup = videoBtn.querySelector('.js-popup-close');
-        const closePopupRequestDemo = videoBtn.querySelector('.js-popup-close-request');
-        const closePopupSignUp = videoBtn.querySelector('.js-popup-close-signup');
-        demoVideoPopup(videoSpan, videoPopup, closePopup, closePopupRequestDemo, closePopupSignUp);
-    }
 
-    var demoPageButton = [];
 
-    var demoSections = document.querySelectorAll('.demoSection__body--img-wrap');
-    for (var i = 0; i<demoSections.length; i++) {
-        demoPageButton[i] = (demoSections[i].querySelector('.btn-demoVideo'));
-        watchDemoVideo(demoPageButton[i]);
-    }    
-    // ===== END: DEMO PAGE VIDEO POPUP WITH BUTTON =====
 
+
+    
 
     // ===== PRODUCT VIDEO TABS =====
     $(function() {

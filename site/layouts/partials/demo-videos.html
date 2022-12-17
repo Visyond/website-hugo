@@ -1,67 +1,53 @@
-	<!-- DEMO SECTION -->
-	{{ if (not (eq .Params.isDemoSectionVisible false)) }}
-	<section class="enterV" style="background-color: #f1f4fc;">
-		<div class="container">
-			<ul class="demoSections">
-				<!-- LIST OF DEMO SECTIONS -->
-				{{ range $el := .Params.demoSection }}
-				<li class="demoSection__block">
-					<h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2>
-					<div class="demo-section--divider"></div>
-					<section class="demoSection__text-wrap">
-						<div class="demoSection__block-descr">
-							<ul>
-							<!-- LIST OF DEMO SECTION BLOCKS -->
-							{{ range $list := .demoSectionContent }}
-								{{ if (eq .isVisible true)}}
-									<div class="demoSection__body">
-										<div class="demoSection__body--img-wrap">
-											<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
+<!-- DEMO SECTION -->
+<section class="homeBenefits">
+    <div class="container container-demoVideos">
+        <ul class="demoSections">
+            <!-- LIST OF DEMO SECTIONS -->
+            {{ range $el := .Params.demoSection }}
+            <li class="demoSection__block">
+                <!-- <h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2> -->
 
-											{{ if .demoVideoLink }}
-											<span class="button button-icon btn-demoVideo" 
-											{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-											style="display: none;"
-											{{ end }}
-											>												
-												<span style="display: flex; padding: 2.5em 2.5em;">
-													<i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
-												</span>
-												<div class="ht-top__popup js-popup">
-													<div class="ht-top__iframe-wrap">
-														<button class="ht-top__popup-close js-popup-close"></button>
-														<p>{{ .demoVideoLink }}</p>
-													</div>
-													<div class=demoPopupButtonContainer>
-														<div class="btn-demoPopupCTA js-popup-close-request">Request Live Demo</div>
-														<div class="btn-demoPopupCTA js-popup-close-signup">Sign Up</div>
-													</div>
-												</div>
-											</span>
-											{{ end }}
-										</div>
-										
-										<div class="demoSectionTitleDescContainer">
-											<div class="demoSection--title">
-												{{ .demoSectionSubTitle }}
-											</div>
-		
-											<div class="demoText">
-												{{ .demoDescription | markdownify }}
-											</div>									
-										</div>
-									</div>
-								{{ end }}
-							{{ end }}
-							<!-- LIST OF DEMO SECTION BLOCKS -->
-							</ul>
-						</div>	
-					</section>
-				</li>
-				{{ end }}
-				<!-- END: LIST OF DEMO SECTIONS -->
-			</ul>	
-		</div>
-	</section>
-	{{ end }}
-	<!-- END: DEMO SECTION -->
+                <div class="pricingSectionTitleContainer">
+                    <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .demoSectionTitle }}</h2>
+                </div>
+                    
+
+                <div class="demo-section--divider"></div>
+
+                <!-- LIST OF DEMO SECTION BLOCKS -->
+                <div class="js-demo__list">
+                    {{ range $list := .demoSectionContent }}
+                        {{ if (eq .isVisible true)}}
+                            <div class="demoSection__body js-video-container">
+                                <div class="demoSection__body--img-wrap">
+                                    <img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
+
+                                    {{ if .demoVideoLink }}										
+                                        <div class="play-video-button">
+                                            <i class="material-icons">play_arrow</i>
+                                            <p>{{ .demoVideoLink }}</p>
+                                        </div>
+                                    {{ end }}
+                                </div>
+                                
+                                <div class="demoSectionTitleDescContainer">
+                                    <div class="demoSection--title">
+                                        {{ .demoSectionSubTitle }}
+                                    </div>
+
+                                    <div class="demoText">
+                                        {{ .demoDescription | markdownify }}
+                                    </div>									
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                <!-- LIST OF DEMO SECTION BLOCKS -->
+            </li>
+            {{ end }}
+            <!-- END: LIST OF DEMO SECTIONS -->
+        </ul>	
+    </div>
+</section>
+<!-- END: DEMO SECTION -->

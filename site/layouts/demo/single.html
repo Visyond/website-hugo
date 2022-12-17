@@ -4,75 +4,7 @@
 	{{ partial "covers/cover-simple" . }}
 	
 	
-	<!-- DEMO SECTION -->
-	<section class="homeBenefits">
-		<div class="container container-demoVideos">
-			<ul class="demoSections">
-				<!-- LIST OF DEMO SECTIONS -->
-				{{ range $el := .Params.demoSection }}
-				<li class="demoSection__block">
-					<!-- <h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2> -->
-
-					<div class="pricingSectionTitleContainer">
-						<div class="pricingSectionTitlePrefix">1</div>
-						<h2 class="enterV__headline" style="margin-bottom: 0;">{{ .demoSectionTitle }}</h2>
-					</div>
-					  
-
-					<div class="demo-section--divider"></div>
-
-					<!-- LIST OF DEMO SECTION BLOCKS -->
-					<div class="js-demo__list">
-						{{ range $list := .demoSectionContent }}
-							{{ if (eq .isVisible true)}}
-								<div class="demoSection__body">
-									<div class="demoSection__body--img-wrap">
-										<img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
-
-										{{ if .demoVideoLink }}
-										<span class="button button-icon btn-demoVideo" 
-										{{ if or (eq .demoVideoLink "") (not (isset . "demoVideoLink")) }}
-										style="display: none;"
-										{{ end }}
-										>												
-											<span style="display: flex; padding: 2.5em 2.5em;">
-												<i class="material-icons" style="left: 0.85em; font-size: 3em;">play_arrow</i>
-											</span>
-											<div class="ht-top__popup js-popup">
-												<div class="ht-top__iframe-wrap">
-													<button class="ht-top__popup-close js-popup-close"></button>
-													<p>{{ .demoVideoLink }}</p>
-												</div>
-												<div class=demoPopupButtonContainer>
-													<a class="btn-demoPopupCTA js-popup-close-request">Onboarding Call</a>
-													<a class="btn-demoPopupCTA js-popup-close-signup">Sign Up</a>
-												</div>
-											</div>
-										</span>
-										{{ end }}
-									</div>
-									
-									<div class="demoSectionTitleDescContainer">
-										<div class="demoSection--title">
-											{{ .demoSectionSubTitle }}
-										</div>
-
-										<div class="demoText">
-											{{ .demoDescription | markdownify }}
-										</div>									
-									</div>
-								</div>
-							{{ end }}
-						{{ end }}
-					</div>
-					<!-- LIST OF DEMO SECTION BLOCKS -->
-				</li>
-				{{ end }}
-				<!-- END: LIST OF DEMO SECTIONS -->
-			</ul>	
-		</div>
-	</section>
-	<!-- END: DEMO SECTION -->
+	{{ partial "demo-videos" . }}
 
 
 	<!-- REQUEST DEMO FORM -->
@@ -82,7 +14,6 @@
 				<!-- <h2 class="enterV__headline" id="request">Schedule an onboarding call</h2> -->
 
 				<div class="pricingSectionTitleContainer">
-					<div class="pricingSectionTitlePrefix">2</div>
 					<h2 class="enterV__headline" style="margin-bottom: 0;">Schedule an onboarding call</h2>
 				</div>				
 
@@ -109,9 +40,8 @@
 
 
 
-	<!-- BOTTOM CTA WITH VIDEO 
-	{{ partial "getStarted" . }} 
-	 END: BOTTOM CTA WITH VIDEO -->
+	{{ partial "getStarted" . }}
+
 </div>
 
 

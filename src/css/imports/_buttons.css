@@ -146,3 +146,28 @@
     }
 }
 
+.play-video-button {
+    color: #fff;
+    background-color: #282828;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    cursor: pointer;
+    left: calc(50% - 35px);
+    top: calc(50% - 35px);
+    transition: all .4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: #0086ff;
+        transform: scale(1.15);
+    }
+}
+
+.play-video-button .material-icons {
+    font-size: 3em;
+}
+

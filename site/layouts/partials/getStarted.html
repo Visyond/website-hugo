@@ -1,32 +1,28 @@
 {{ with .Site.GetPage "section" "getStarted" }}
 <section class="getStarted-section" style="background-image: url('/img/home/getStartedRectangle.svg');">
     <div class="container">
-      <div class="homeHex-provides">
-        <section class="homeHex-provides__wrap">
-          <h2 class="homeHex-provides__header">
-            {{ .Params.getStartedTitle }}
-          </h2>
-          <ul class="homeHex-provides__list">
-            {{ range $el := .Params.getStartedList }}
-            <li class="homeHex-provides__item">
-              {{ .getStartedText | markdownify }}
-            </li>
-            {{ end }}
-          </ul>
-          <a href="/accounts/signup/" class="button button-contrast">
-            Get Started
-          </a>
-        </section>
-        <div class="homeHex-provides__img-wrap">
-          <img id="play-video" src="/img/home/laptop.svg" alt="laptop" class="homeHex-provides__img">
-          
-          <a class="button button-round-icon">
-            <i class="material-icons">
-              play_arrow
-            </i>
-          </a>
+        <div class="homeHex-provides">
+            <div class="homeHex-provides__wrap">
+                <h2 class="homeHex-provides__header">{{ .Params.getStartedTitle }}</h2>
+                <ul class="homeHex-provides__list">
+                    {{ range $el := .Params.getStartedList }}
+                        <li class="homeHex-provides__item">{{ .getStartedText | markdownify }}</li>
+                    {{ end }}
+                </ul>
+                <a href="/accounts/signup/" class="button button-contrast">Get Started</a>
+            </div>
+
+            <div class="homeHex-provides__img-wrap js-video-container">
+                <img src="/img/home/laptop.svg" alt="laptop" class="homeHex-provides__img">   <!-- id="play-video" -->
+
+                <div class="play-video-button">
+                    <i class="material-icons">play_arrow</i>
+                    <p>{{ .Params.getStartedVideoLink }}</p>
+                </div>       
+            </div>
         </div>
-      </div>
     </div>
-    </section>
+</section>
+
+    
   {{ end }}

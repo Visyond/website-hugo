@@ -527,6 +527,7 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
           - {label: "Provides Title", name: "getStartedTitle", widget: "string", required: false,}
+          - {label: "Video Link (Youtube)", name: "getStartedVideoLink", widget: "string", required: true},
           - {label: "Provides List", name: "getStartedList", widget: "list", fields: [
             {label: "Provides Item", name: "getStartedText", widget: "markdown"},
             ],

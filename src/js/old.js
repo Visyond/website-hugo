@@ -1,5 +1,94 @@
 // Here are unusued or no longer needed scripts that were moved from script.custom.js
 
+ // ===== YOUTUBE VIDEO POPUP WITH BUTTONS =====
+ function controlVideoPopup(btn, popup, closePopup, closePopupRequestDemo, closePopupSignUp) {
+    const srcIframe = popup.querySelector('p').innerHTML;
+    let srcPart = srcIframe.slice(srcIframe.lastIndexOf('/') + 1);
+
+    popup.children[0].removeChild(popup.querySelector('p'));
+
+    const iframeBlock = document.createElement('iframe');
+    iframeBlock.setAttribute('width', '889');
+    iframeBlock.setAttribute('height', '501');
+    iframeBlock.setAttribute('src', `https:www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
+    iframeBlock.setAttribute('frameborder', '0');
+    iframeBlock.setAttribute('allow', 'autoplay; encrypted-media');
+    iframeBlock.setAttribute('allowfullscreen', 'allowfullscreen');
+
+    function removeIframe() {
+        popup.children[0].removeChild(popup.querySelector('iframe'));
+    }
+
+    function createIframe() {
+        popup.children[0].appendChild(iframeBlock);
+    }
+
+
+    btn.addEventListener('click', e => {
+        var tt = e.target;
+        e.preventDefault();
+        popup.classList.add('popup--show');
+        createIframe();
+    });
+
+    popup.addEventListener('click', e => {
+        e.preventDefault();
+        if(e.target === e.currentTarget || e.target === closePopup) {
+            popup.classList.remove('popup--show');
+            removeIframe();
+        }
+    })
+   
+    closePopupRequestDemo.addEventListener('click', e => {
+        e.preventDefault();
+        if(e.target === e.currentTarget || e.target === closePopupRequestDemo) {
+            popup.classList.remove('popup--show');
+            removeIframe();
+            document.getElementById('request').scrollIntoView();
+        }
+    })
+
+    closePopupSignUp.addEventListener('click', e => {
+         e.preventDefault();
+         if(e.target === e.currentTarget || e.target === closePopupSignUp) {
+             popup.classList.remove('popup--show');
+             removeIframe();
+             window.open('/accounts/signup/', '_blank');
+         }
+     })
+
+     console.log("popup created");
+
+ }
+
+function prepareVideoPopup(videoBtn) {
+   const videoButton = videoBtn;
+   const videoSection = videoBtn.closest('.js-video-container');
+   const videoPopup = videoSection.querySelector('.js-popup');
+   const closePopup = videoPopup.querySelector('.js-popup-close');
+   const closePopupRequestDemo = videoPopup.querySelector('.js-popup-close-request');
+   const closePopupSignUp = videoPopup.querySelector('.js-popup-close-signup');
+   controlVideoPopup(videoButton, videoPopup, closePopup, closePopupRequestDemo, closePopupSignUp);
+}
+
+
+var testCount = 0;
+var videoButtons = document.querySelectorAll('.play-video-button');
+for (var i = 0; i<videoButtons.length; i++) {
+   // For if the play button is inside a slick carousel 
+   // since it clones slides (and buttons inside them) and "renders" more slides than there actually are.
+   if (!videoButtons[i].closest('.slick-cloned')) { 
+       prepareVideoPopup(videoButtons[i]);
+       testCount++;
+       console.log("FIRST LOOP: " + testCount + " " + $(videoButtons[i]).closest('.demoSection__body').children('.demoSectionTitleDescContainer').children('.demoSection--title').html());
+   }
+}
+// ===== END: YOUTUBE VIDEO POPUP WITH BUTTONS =====
+
+
+
+
+
 
 //===== DROPDOWN NAVIGATION ======
 function navLinkDropdown (e) {

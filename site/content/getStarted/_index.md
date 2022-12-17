@@ -5,4 +5,5 @@ getStartedList:
       Cloud or on-premise platform and Excel add-in
   - getStartedText: Easy to use, no complicated menus to learn
   - getStartedText: Get started in minutes    
+getStartedVideoLink: 'https://www.youtube.com/embed/q8WLu0gHzFE'  
 ---
