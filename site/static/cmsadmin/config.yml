@@ -509,7 +509,13 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "partials"
     label: "Partials"
-    files: 
+    files:
+      - file: "site/content/use-cases/_index.md"
+        label: "Use cases"
+        name: "useCases"
+        fields: ##  TODO
+          - {label: "TO DO..", name: "tododoodoo", widget: "string", required: false,}
+
       - file: "site/content/clientLogos/_index.md"
         label: "Client logos"
         name: "clientLogosSlider"

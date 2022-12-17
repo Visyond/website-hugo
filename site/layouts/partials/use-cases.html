@@ -1,4 +1,5 @@
-	<!-- USE-CASES -->
+<!-- USE-CASES -->
+{{ with .Site.GetPage "section" "use-cases" }}
     <section class="homeBenefits">
 		<div class="container">
             <h2 class="enterV__headline useCaseSectionsHeader">{{ .Params.useCasesHeader | markdownify }}</h2>
@@ -49,4 +50,5 @@
             </div>
         </div>
     </section> 
-	<!-- END: USE-CASES -->
+{{ end }}    
+<!-- END: USE-CASES -->
