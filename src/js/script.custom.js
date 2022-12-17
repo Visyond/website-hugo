@@ -14,7 +14,7 @@ $(function () {
         var inst = setInterval(updateTitle, titleChangeDelay);
         
         var newTitles = [
-            ["what-if and risk analysis", secondColor],
+            ["what-if & risk analysis", secondColor],
             ["interactive reporting", "#0086ff"],
             ["predictive dashboards", secondColor],
             [initialText, initialColor],

@@ -24,7 +24,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
           - {label: "Page Title", name: "title", widget: "markdown", required: true}
           - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
-          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}              
+          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}            
           - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
           - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
           - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}

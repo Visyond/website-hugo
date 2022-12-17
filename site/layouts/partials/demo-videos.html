@@ -18,7 +18,7 @@
                 <div class="js-demo__list">
                     {{ range $list := .demoSectionContent }}
                         {{ if (eq .isVisible true)}}
-                            <div class="demoSection__body js-video-container">
+                            <div class="demoSection__body">
                                 <div class="demoSection__body--img-wrap">
                                     <img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
 

@@ -111,6 +111,7 @@
         color: #0583fb;
         border-color: #0583fb;
         transform: scale(1.05);
+        box-shadow: 1px 1px 5px 1px rgb(0 0 0 / 15%);
     }
 
     &:active {
@@ -160,10 +161,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.9;
 
     &:hover {
         background-color: #0086ff;
         transform: scale(1.15);
+        box-shadow: 0 0 10px 1px rgb(0 0 0 / 55%);
+        opacity: 1;
     }
 }
 
