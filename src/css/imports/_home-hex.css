@@ -215,7 +215,7 @@
 .home-hero__title > span {
     color: #2f9aff;
     transition: color 0.75s ease-in-out;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /*subtitles*/
