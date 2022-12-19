@@ -486,7 +486,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
           - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
 
-      - file: "site/content/solutions-section/_index.md"
+      - file: "site/content/solutions-menu/_index.md"
         label: "Menu - Solutions"
         name: "menu-solutions"
         fields:
