@@ -15,13 +15,13 @@
 
 .tabs-product__container-left {
     display: flex;
-    width: 40%;
+    width: 50%;
     flex-direction: column;
 }
 
 .tabs-product__container-right {
     display: flex;
-    width: 55%;
+    width: 46%;
     border-radius: 20px;
 }
 
