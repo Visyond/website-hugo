@@ -1,9 +1,8 @@
 ---
 getStartedTitle: Get Started Today
 getStartedList:
-  - getStartedText: >-
-      Cloud or on-premise platform and Excel add-in
-  - getStartedText: Easy to use, no complicated menus to learn
-  - getStartedText: Get started in minutes    
+  - getStartedText: Leverage Excel skills
+  - getStartedText: Do in minutes what takes others days
+  - getStartedText: Be productive, insightful and in control
 getStartedVideoLink: 'https://www.youtube.com/embed/q8WLu0gHzFE'  
 ---
