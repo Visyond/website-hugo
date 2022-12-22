@@ -1,0 +1,32 @@
+<!-- EXCEL ADDIN OR WEB -->
+<section class="homeBenefits" style="background-color: #f1f4fc;">    
+    <div class="container">
+        <h2 class="enterV__headline">{{ .Params.AddinCloudHeader | markdownify }}</h2>
+
+        <div class="header-section--divider"></div>	
+    
+        <div class="addinCloud-summary">
+            {{ range $itemSummary := .Params.Summary }}
+                <div class="addinCloud-summary__item">
+                    <h5 class="addinCloud-summary__title">{{ $itemSummary.title }}</h5>
+
+                    <img src="{{ $itemSummary.image }}" style="margin: 1em 0 1em 0; height: 10em;" alt="">
+
+            
+                    <div class="addinCloud-summary__text">{{ $itemSummary.content | markdownify }}</div>
+                        
+                    <div class="btn-wrap">
+                        {{ if eq $itemSummary.title "Excel Add-in" }}
+                            <a href="{{ .buttonLink }}" class="btn-primary" target="_blank" style="text-transform: none; margin: 1em auto; background: #70c2bd;">{{ .buttonText }}</a>
+                        {{ else }}
+                            <a href="{{ .buttonLink }}" class="btn-primary" style="text-transform: none; margin: 1em auto;">{{ .buttonText }}</a>
+                        {{ end }}	
+                    </div>                    
+                    
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+</section>	
+<!-- END: EXCEL ADDIN OR WEB -->

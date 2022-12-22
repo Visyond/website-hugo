@@ -1,0 +1,82 @@
+<nav class="hexNav">
+    <ul class="hexNav__list">
+        <li class="hexNav__item">
+            <a href="#solutions-toggle" class="hexNav__link"><span>Solutions</span></a>
+            {{ with .Site.GetPage "section" "navigation" }}
+                <div class="dropdown-menu-wrap">
+                    <div id="solutions-toggle" class="dropdown-toggle dropdown-toggle--multicol">
+                        
+                        <!-- Dynamic sectiion that appears to the left when you hover over Solutions menu items in the dropdown -->
+                        <!--
+                        <div class="dropdown__info">
+                            <h3 class="dropdown__info-title">
+                                {{ .Params.solutionsInfoTitle }}
+                            </h3>
+                            <div class="dropdown__info-descr">
+                                {{ .Params.solutionsInfoDescr }}
+                            </div>
+                        </div>
+                        -->
+
+                        <div class="dropdown">
+                            {{ with .Site.GetPage "section" "solutions-menu" }}
+                                <div class="dropdown-section">
+                                    <ul class="dropdown-section__cols">
+                                        {{ range $element := .Params.solDropdownCol }}
+                                            <li class="dropdown-section__col">
+                                                <p class="dropdown-section__title">{{ $element.title }}</p>
+                                                <ul class="dropdown-section__group-list dropdown-section__list">
+                                                    {{ range $el := $element.solution_dropdown }}
+                                                        <li class="dropdown-section__group-item">
+                                                            <a href="{{ $el.path }}" class="dropdown-section__group-link" data-image="{{ .image }}">{{ $el.title }}</a> <!-- data-descr="{{ .descr }}" -->
+                                                        </li>
+                                                    {{ end }}
+                                                </ul>
+                                            </li>
+                                        {{ end }}
+                                    </ul>
+                                </div>
+                            {{ end }}
+                        </div>
+                    </div> 
+                </div>
+            {{end}}
+        </li>
+
+        <li class="hexNav__item">
+            <a href="#resources-toggle" class="hexNav__link"><span>Resources</span></a>
+            <div class="dropdown-menu-wrap">
+                <div id="resources-toggle" class="dropdown-toggle">
+                    <ul class="dropdown-toggle__group-list">
+                        {{ with .Site.GetPage "section" "navigation" }}
+                            {{ range $el := .Params.resourcesDropdown }}
+                            <li class="dropdown-toggle__group-list-item">
+                                <a href="{{ $el.path }}" class="dropdown-toggle__group-list-item-link">{{ $el.title }}</a>
+                            </li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        
+        <li class="hexNav__item">
+            <a href="/pricing/" class="hexNav__link"><span>Pricing</span></a>
+        </li>
+    </ul>
+
+    <ul class="homepage__user-hexNav-list">
+        <!-- <li class="hexNav__item">
+            <a href="/accounts/login" class="hexNav__link">Sign in</a>
+        </li> -->
+        
+        <li class="hexNav-item">
+            <a href="/accounts/signup/" class="hexNav__link hexNav__link--primary">Get Started</a>
+        </li>
+
+        <li class="hexNav-item">
+            <a href="/demo" class="hexNav__link hexNav__link--secondary">View demo</a>
+        </li>
+    </ul>
+</nav>

@@ -190,8 +190,8 @@
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    backdrop-filter: blur(3px);
+    background: rgb(40 40 40 / 95%);
+    backdrop-filter: blur(8px);
     z-index: 99999;
     -ms-align-items: center;
     align-items: center;
@@ -211,16 +211,19 @@
 
 .ht-top__iframe-wrap iframe {
     max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px 5px rgb(0 0 0 / 20%);
 }
 
 .ht-top__popup-close {
     position: absolute;
     cursor: pointer;
     right: 0.5rem;
-    top: -30px;
-    width: 20px;
-    height: 20px;
+    top: -50px;
+    width: 30px;
+    height: 30px;
     border: none;
+    transition: all .4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     background: linear-gradient(
         45deg,
         transparent 46%,
@@ -235,6 +238,10 @@
                     white 54%,
                     transparent 54%
                 );
+
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 
 .ht-info {

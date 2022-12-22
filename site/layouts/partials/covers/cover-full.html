@@ -1,0 +1,51 @@
+    <!-- TOP SECTION -->
+    <section class="home-hero home-hero-fullWidth" style="background-color: #ffffff; background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
+        <div class="container">
+            <div class="home-hero__container">
+                <div class="home-hero__full-width-wrap">
+                    <h1 class="home-hero__title home-hero__title-fullWidth">{{ .Params.topTitle | markdownify }}</h1>
+                    <div class="home-hero__topSubtitle home-hero__topSubtitle-fullWidth">{{ .Params.topSubTitle | markdownify }}</div>
+                </div>
+
+                <div class="home-hero__full-width-wrap">
+                    <div class="home-hero__buttons-section">
+                        <a href="/accounts/signup/" class="button button-primary button-asterisk">Get started</a>
+                        <a href="/demo" class="button button-contrast">View demo</a>
+                    </div>
+                </div>
+              
+                <div class="home-hero__full-width-wrap home-hero__half-width-wrap--image home-hero__half-width-wrap--image-fullWidth">
+                    <img class="home-hero__laptop-image" src="/img/home/laptop.svg" alt="Laptop">
+                    <div class="home-hero__video-container">
+                        <video poster="
+                        {{ if .Params.topVideoThumbnail }}
+                            {{ .Params.topVideoThumbnail }}
+                        {{ else }} 
+                            /img/home/videoPoster.jpg 
+                        {{ end }}"
+                        class="home-hero__video lazy-video" 
+                        controlslist="nodownload noremoteplayback" muted="" loop="" playsinline=""  webkit-playsinline="" preload="none">
+                        <source src="{{ if .Params.topVideo }} {{ .Params.topVideo }} {{ else }} /img/home/2019-10-17%20Homepage%20animation%20v4.mp4 {{ end }}" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+                        </video>
+                    </div>
+                    <div class="play-video-button">
+                        <i class="material-icons">play_arrow</i>
+                        <p>https://www.youtube.com/embed/q8WLu0gHzFE</p>
+                    </div>    
+                </div>
+                
+                <div class="home-hero__full-width-wrap-noIcons">
+                    <ul class="home-hero__other-features">
+                        <li><img src="/img/home/icons/homepage_cloud.svg" alt="Cloud">Remote</li>
+                        <li><img src="/img/home/icons/homepage_onpremise.svg" alt="On-premise"> On-premises</li>
+                        <li><img src="/img/home/icons/homepage_label.svg" alt="White-label">White label</li>
+                    </ul>
+                    
+                    <div class="home-hero__gartner-wrapNoLogo">
+                        {{ partial "visuals/gartner-yellow" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: TOP SECTION -->

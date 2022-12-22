@@ -2,7 +2,7 @@
 aliases: 
   - /request/
 url: /demo
-title: Onboarding call
+title: View demo
 metaTags: >-
   <meta property="og:title" content="Schedule an onboarding call with Visyond">
   <meta property="og:type" content="website">
@@ -11,8 +11,11 @@ metaTags: >-
   <meta property="og:description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.>
   <meta property="og:url" content="https://visyond.com/demo/">
   <meta name="description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.">
-coverHeader: Onboarding call
-coverDescription: Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.
+topTitle: View demo
+topSubTitle: >-
+  Explore the short demo videos below, and schedule an onboarding call if you'd us to help you get started.
+topButtonText: 'Onboarding Call'
+topButtonLink: '#request'
 demoSection:
   - demoSectionContent:
       - demoSectionSubTitle: Predictive ‘What-if’ Dashboards for Decision Making

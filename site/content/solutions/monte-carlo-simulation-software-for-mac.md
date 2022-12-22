@@ -19,7 +19,7 @@ topTitle: >-
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model on Mac has never been easier.
-topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
       Analyze Risks on Mac in 3 Simple Steps
@@ -83,7 +83,7 @@ infoBlockFirst:
     descr: >-
       Improve your probabilistic modeling and quantitative risk analysis workflow with Monte Carlo Simulations and visualize the probability of the output decision metrics taking certain values.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Risk Analysis and Monte Carlo Simulations
     isVisible: true
   - benefitsList:
@@ -98,7 +98,7 @@ infoBlockFirst:
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Decision-making Dashboards
     isVisible: true
 isDemoSectionVisible: true

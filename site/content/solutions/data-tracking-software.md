@@ -20,7 +20,7 @@ topTitle: >-
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
   Turn scenario planning, forecasting and spreadsheet modeling workflows into a collaborative and error-free experience.
-topVideoThumbnail: /video/Track What Is Happening in Your Projects - Visyond.jpg
+topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
 isStepsVisible: true
 StepsHeader: >-
@@ -82,7 +82,7 @@ infoBlockFirst:
     descr: >-
       Track assumptions and scenarios, and collaborate on spreadsheets, analyses and dashboards in a single secure environment.
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
-    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Know What's Going On
     isVisible: true    
   - benefitsList:
@@ -95,9 +95,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Manage Access to Data
     isVisible: true    
   - benefitsList:
@@ -106,9 +104,7 @@ infoBlockFirst:
     descr: >-
       Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
     infoVideo: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Keep Important Information at Your Fingertips
     isVisible: true
   - benefitsList:
@@ -123,7 +119,7 @@ infoBlockFirst:
     descr: >-
       Compare scenarios, create forecasts and update budget vs actual in real time during meetings or presentations, turning it into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    infoVideoPoster: '/video/grid_thumbnail.jpg'
     title: 'Compare and Analyze Scenarios'
     isVisible: true
   - benefitsList:
@@ -136,7 +132,7 @@ infoBlockFirst:
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Share Insights with Interactive Dashboards
     isVisible: true
   - benefitsList:
@@ -150,7 +146,7 @@ infoBlockFirst:
     descr: >-
       Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Automate Sensitivities and Monte Carlo Simulations
     isVisible: true
 isDemoSectionVisible: true

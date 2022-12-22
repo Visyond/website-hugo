@@ -1,0 +1,25 @@
+<!-- FEATURED CASE STUDIES -->
+{{ with .Site.GetPage "section" "feauteredCaseStudies" }}
+<section class="enterV">
+    <div class="container">
+        <h2 class="enterV__headline">{{ .Params.caseTitle }}</h2>
+	<div class="header-section--divider"></div>    
+
+        <ul class="hexCaseStudy__list">
+            {{ range $el := .Params.Case }}
+            <li class="hexCaseStudy__item">
+                <a href="{{ .caseLink }}" class="hexCaseStudy__link">
+                    <img src="{{ .caseIco }}" alt="{{ .alt }}">
+                    <h3 class="hexCaseStudy__title">{{ .caseDescr }}</h3>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+    
+    <div class="btn-wrap">
+	<a target="_blank" href="/casestudy/" class="button-primary button">See All Case Studies</a>
+    </div>
+</section>
+{{ end }}
+<!-- END: FEATURED CASE STUDIES -->

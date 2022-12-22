@@ -1,27 +1,10 @@
-<!-- {{ partial "hexHeader" . }} -->
-{{ partial "hexHomeHead" . }}
+{{ partial "default/header" . }}
 
-<!-- first section 
-<div class="cover" style="background-image: url({{ .Params.bgImage }})">
-    <h1 class="cover-header">
-        {{ .Params.topTitle }}
-    </h1>
-</div>
- //first section -->
 
 
 
 <div class="homehex ht">
-  <!-- TOP SECTION -->
-	<div class="container">
-		  <div class="home-hero__container">
-			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
-				<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.TopTitle }}</h1>
-				<div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">{{ .Params.TopSubTitle }}</div>
-			  </div>
-		  </div>
-	</div>
-  <!-- END: TOP SECTION -->
+    {{ partial "covers/cover-simple" . }}
 
 
 
@@ -30,7 +13,7 @@
   <!-- second section -->
   <section class="homeBenefits" style="background: #fafafa; padding: 40px 0;">	
   <div class="container">
-      <ul class="press2nd__list target-blank">
+      <ul class="press2nd__list">
           {{ range $el := .Params.pressarticles }}
           <li class="press2nd__item" style="background: #ffffff;">
               <a href="{{ $el.url }}" class="press2nd__link">
@@ -91,8 +74,8 @@
 
 
   <!-- BOTTOM CTA WITH VIDEO -->
-  <!-- {{ partial "getStartedSignUp" . }} -->
+  <!-- {{ partial "getStarted" . }} -->
   <!-- END: BOTTOM CTA WITH VIDEO -->
   
 </div>
-{{ partial "hexFooter" . }}
+{{ partial "default/footer" . }}

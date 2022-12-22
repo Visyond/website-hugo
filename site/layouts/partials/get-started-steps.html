@@ -1,57 +1,65 @@
-    <!-- COPY OF HEXBLOCKB BUT WITHOUT VIDEO AUTOPLAY-->
-    <!-- info block -->
-    {{ range $el := .Params.StepsBlock }}
+<!-- STEPS TO GET STARTED -->
+<section id="getStartedSteps" class="enterV">
+    <div class="container">
+        <h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
+        <div class="home-hero__topSubtitle" style="text-align: center;color: rgba(0,0,0,.8);">{{ .Params.StepsSubtitle| markdownify }}</div>
+        <div class="header-section--divider"></div>
 
-    <li class="enterSectionsA__block">
-        <section class="enterSectionsC__text-wrap">
+        <ul class="enterSections js-image-block">
+        {{ range $el := .Params.StepsBlock }}
+            <li class="enterSectionsA__block">
+                <section class="enterSectionsC__text-wrap">
 
-            <div style="display: flex; align-items: center;">
-                <div class="enterSectionsA__block-title_step">
-                    {{ .titlePrefix }}
+                    <div style="display: flex; align-items: center;">
+                        <div class="enterSectionsA__block-title_step">
+                            {{ .titlePrefix }}
+                        </div>
+                        <h2 class="enterSectionsA__block-title" style="padding-left: 15px; display: flex; justify-content: center; align-content: center; flex-direction: column;">
+                            {{ .title }}
+                        </h2>
+                    </div>
+
+                    <div class="enterSectionsA__block-descr">
+                        {{ .descr | markdownify }}
+                    </div>
+                </section>
+                
+    
+                {{ if .infoVideo }}
+                <div class="infoC__img-wrap js-img-wrap" style="text-align: center;">	
+                <video style="width: 100%; height: auto;" poster="{{ .infoVideoPoster }}" class="enterSectionsA__block-img lazy-video" muted="" loop="" playsinline="" webkit-playsinline="" preload="none">
+                        <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
+                </video>
+                            
+                {{ else }}
+                <div class="infoC__img-wrap js-img-wrap">	    
+                    <img src="{{ .image }}" alt="{{ .altText }}"
+                        class="enterSectionsA__block-img">
+                {{ end }}    
                 </div>
-                <h2 class="enterSectionsA__block-title" style="padding-left: 15px; display: flex; justify-content: center; align-content: center; flex-direction: column;">
-                    {{ .title }}
-                </h2>
-            </div>
+                
+                <section class="enterSectionsC__text-wrap">
+                    <div class="enterSectionsA__block-descr">
 
-            <div class="enterSectionsA__block-descr">
-                {{ .descr | markdownify }}
-            </div>
-        </section>
-        
+                        <div class="enterSections__benefits">
+                            {{ if .benefitsList }}
+                            <div class="enterSections__benefits--title">Learn more</div>
+                            {{ end }}
+                            <ul>
+                                {{ range $list := .benefitsList }}
+                                <li class="whyV__benefit-item">
+                                    {{ .text | markdownify }}
+                                </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </div>
+                </section>
 
-            
-        {{ if .infoVideo }}
-        <div class="infoC__img-wrap js-img-wrap" style="text-align: center;">	
-        <video class="scroll_toggle" style="width: 100%; height: auto;" poster="{{ .infoVideoPoster }}" class="enterSectionsA__block-img" muted="" loop="" playsinline="" autoplay="" webkit-playsinline="" preload="auto">
-                <source src="{{ .infoVideo }}" type="video/mp4; codecs=&quot;avc1.4D401E, mp4a.40.2&quot;">
-        </video>
-                    
-        {{ else }}
-        <div class="infoC__img-wrap js-img-wrap">	    
-            <img src="{{ .image }}" alt="{{ .altText }}"
-                class="enterSectionsA__block-img">
-        {{ end }}    
-        </div>
-        
-        <section class="enterSectionsC__text-wrap">
-            <div class="enterSectionsA__block-descr">
+            </li>
+        {{ end }}
+        </ul>
 
-                <div class="enterSections__benefits">
-                    {{ if .benefitsList }}
-                    <div class="enterSections__benefits--title">Learn more</div>
-                    {{ end }}
-                    <ul>
-                        {{ range $list := .benefitsList }}
-                        <li class="whyV__benefit-item">
-                            {{ .text | markdownify }}
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-    </li>
-    {{ end }}
-    <!-- //info block -->
+      </div>
+</section>
+<!-- END: STEPS TO GET STARTED -->

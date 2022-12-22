@@ -2,6 +2,8 @@
 title: Case Studies
 url: /casestudy/
 type: casestudies
+topTitle: 'Case Studies'
+topSubTitle: 'See success stories from our clients.'
 casestudies:
   - alt: Ericsson Logo
     logo: /img/Ericsson_logo_250w.png

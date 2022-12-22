@@ -1,3 +1,5 @@
+/* So that youtube iframes can be inserted into casestudies markdown files */
+
 .youtube-video-container {
     overflow: hidden;
     position: relative;

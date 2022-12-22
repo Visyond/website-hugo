@@ -31,7 +31,7 @@ topTitle: >-
   <span style="color: #0086ff;">in Minutes</span>?
 topSubTitle: >-
   Sensitivities, Scenarios and What-if Analysis of your spreadsheet model has never been easier.
-topVideoThumbnail: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg
+topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 isStepsVisible: true
 StepsHeader: >-
@@ -94,7 +94,7 @@ infoBlockFirst:
     descr: >-
       Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: What-if Analysis and Monte Carlo Simulations
     isVisible: true
   - benefitsList:
@@ -109,7 +109,7 @@ infoBlockFirst:
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: What-if Analysis Dashboards
     isVisible: true         
   - benefitsList:
@@ -124,7 +124,7 @@ infoBlockFirst:
     descr: >-
       Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    infoVideoPoster: '/video/grid_thumbnail.jpg'
     title: 'Scenario Planning and Forecasting'
     isVisible: true
 isDemoSectionVisible: true

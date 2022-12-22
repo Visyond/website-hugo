@@ -11,543 +11,20 @@ media_folder: "site/static/source-img" # Folder where user uploaded files should
 public_folder: "img"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "oldhome"
-    label: "Old Home Slides Vid"
-    folder: "site/content/oldhome"
-    create: false
-    fields:
-      - {label: "Page title label", name: "title", widget: "string"}
-      - {label: "Page title", name: "title", widget: "string"}
-      - { label: "Meta tags", name: "metaTags", widget: "markdown"}
-      - {label: "Top Title", name: "topTitle", widget: "markdown"}
-      - {label: "Fullscreen video", name: "noContentPadding", widget: "boolean"}
-      - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
-      - {label: "Sign Up URL", name: "signUpURL", widget: "string"}
-      - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
-      - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
-      - {label: "Request URL", name: "requestURL", widget: "string"}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown"}
-      - {label: "Top Image", name: "topImage", widget: "image", default: "/img/home/home_page_illustration_concept.png"}
-      - {label: "Video Icons", name: "videoIcons", widget: "list", fields: [
-          {label: "Icon Image", name: "image", widget: "image"},
-          {label: "Icon Describtion", name: "text", widget: "markdown"},
-          {label: "Icon URL", name: "url", widget: "string"}], required: false}
-
-      - {label: "Why Visyond Title", name: "WhyVisyondHeader", widget: "string", required: false}
-      - { label: "Why Visyond Text", name: "WhyVisyondText", widget: "markdown", required: false}
-      - { label: "Why Visyond Image", name: "WhyVisyondImage", widget: "image", required: false}
-
-      - {label: "Benefits Title", name: "BenefitsHeader", widget: "string", required: false}
-      - { label: "Benefits", name: "cards", widget: "list", fields: [
-          {label: "Icon", name: "icon" , widget: "image" },
-          {label: "Header", name: "header", widget: "string"},
-          {label: "Link", name: "link", widget: "string"},
-          {label: "Description", name: "description", widget: "markdown"}] }
-
-      - {label: "Features Title", name: "FeaturesHeader", widget: "string", required: false}
-
-      - {label: "Info Block First", name: "infoBlockFirst", widget: "list", fields: [
-          {label: "Info Image", name: "image", widget: image},
-          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-          {label: "Popup Files", name: "files", widget: list, fields: [
-            {label: "File", name: "file", widget: "file"},
-            {label: "Alt text", name: alt, widget: string},
-            {label: "Popup Link", name: "link", widget: string, default: "#"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Description", name: "descr", widget: "text"},
-          ]},
-          {label: "Info Title", name: "title", widget: "string"},
-          {label: "Info Description", name: "descr", widget: "markdown"},
-          {label: "Info Link", name: "link", widget: "string"},
-          {label: "Youtube Link", name: "linkYoutube", widget: "string"}
-        ],
-        required: false,
-      }
-
-      # - {label: "Capabilities Title", name: "capabilitiesTitle", widget: "string", required: true}
-      - {label: "Capabilities List", name: "capabilitiesList", widget: "list", fields: [
-        {label: "Capabilities Image", name: "image", widget: "image"},
-        {label: "Capabilities Text", name: "text", widget: "markdown"},
-        ],}
-
-      - {label: "Provides Title", name: "providesTitle", widget: "string"}
-      - {label: "Provides List", name: "providesList", widget: "list", fields: [
-        {label: "Provides Item", name: "text", widget: "markdown"},
-      ],}
-
-      - {label: "Title Bottom", name: "titleBottom", widget: "string"}
-      - {label: "Background Bottom", name: "bgBottom", widget: "image"}
-
-      - { label: "Featured Background", name: "featuredBg", widget: image}
-      - { label: "Featured Title", name: "featuredTitle", widget: string}
-      - { label: "Featured Hover", name: "featured", widget: "list",
-      fields: [
-      {label: "Logo", name: "logo", widget: "image"},
-      {label: "Link", name: "link", widget: "string"},
-      {label: "Logo Alt Text", name: "alt", widget: "string"},
-      {label: "Description", name: "descr", widget: "string"},
-      ],
-      required: false,
-      }
-
-
-
-
-  - name: "home-hex"
-    label: "Home Hex"
-    folder: "site/content/home-hex"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Page url", name: "url", widget: string}
-      - {label: "Hero title", name: "heroTitle", widget: "markdown", required: true}
-      - { label: "Main features list", name: "mainFeatures", widget: "list",
-        fields: [
-          {label: "Feature", name: "feature", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
-      - {label: "Hero laptop video", name: "homepageAnimation", widget: "string", required: false,}
-      - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
-      - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
-      - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
-      - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
-      - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "string", required: true}
-      - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
-      - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
-      - { label: "Other features", name: "otherFeatures", widget: "list",
-        fields: [
-          {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
-          {label: "Feature", name: "feature", widget: "markdown", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
-      - {label: "Gartner link", name: "gartnerLink", widget: "string", required: true}
-      - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
-      - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
-      - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
-      - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
-      - { label: "Functions list", name: "functionList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - { label: "Cases list", name: "caseList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - { label: "Industries list", name: "industryList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
-      - {label: "Why Visyond text", name: "WhyVisyondText", widget: "string", required: true}
-      - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
-      - { label: "Visyond solves, list", name: "solvesList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "EnterV section title", name: "FeaturesHeader", widget: "string", required: true}
-      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
-        fields: [
-          {label: "Info Title", name: "title", widget: "string"},
-          {label: "Info Subtitle", name: "subtitle", widget: "string"},
-          {label: "Info Description", name: "descr", widget: "markdown"},
-          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "string"},
-          ]},
-          {label: "Popup Files", name: "files", widget: list, fields: [
-            {label: "File", name: "file", widget: "file"},
-            {label: "Alt text", name: alt, widget: string},
-            {label: "Popup Link", name: "link", widget: string, default: "#"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Description", name: "descr", widget: "text"},
-          ]},
-          {label: "Info Image", name: "image", widget: image},
-          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-          {label: "Info Link", name: "link", widget: "string"},
-          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
-        ],
-        required: false,
-        }
-      - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
-      - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
-      - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
-      - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
-      - {label: Benefits cards, name: cards, widget: list,
-        fields: [
-          {label: Card Icon, name: icon, widget: image},
-          {label: Card Title, name: header, widget: string},
-          {label: Card Text, name: description, widget: text},
-          {label: Card Link, name: link, widget: string}
-        ],
-        required: false,
-        }
-
-
-
-
-  - name: "partner-page"
-    label: "Partner page"
-    folder: "site/content/partner-page"
-    create: false
-    fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Page url", name: "url", widget: string}
-      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
-
-      - {label: "Benefits Header", name: "BenefitsHeader", widget: "string", required: false}
-      - { label: "Benefits items", name: "benefitsItems", widget: "list",
-        fields: [
-          {label: "Icon", name: "img", widget: "image", required: false,},
-          {label: "Title", name: "title", widget: "string", required: false,},
-          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
-        ],
-        required: false,
-      }
-      - { label: "Types header", name: "typesHeader", widget: "string", required: false,}
-      - { label: "Types section", name: "typesSection", widget: "object", fields: [
-        { label: "Type", name: "types", widget: "list", fields: [
-          { label: "Icon", name: "icon", widget: "image", required: false,},
-          { label: "Title", name: "title", widget: "string", required: false,},
-          { label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
-        ], required: false,},
-        {label: "CTA Button", name: "cta", widget: "object", fields: [
-          {label: "Text", name: "text", widget: "string"}
-        ]}
-      ], required: false,}
-      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
-      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}		
-      - {label: "Form Title", name: "formHeader", widget: "string", required: false,}
-      - {label: "Radio Buttons", name: "radio", widget: "list",
-        fields: [
-          {label: "Label Radio Button", name: "labelRadioButton", widget: "string", required: false,}
-        ], required: false,}
-      - {label: "Submit Button Title", name: "submitButtonTitle", widget: "string", required: false,}
-
-
-
-
-  - name: "solutions"
-    label: "Solutions"
-    folder: "site/content/solutions"
-    create: true
-    fields: # The fields each document in this collection has
-      - {label: "Aliases", name: "aliases", widget: "string", required: false}
-      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
-
-      - {label: "Page title", name: "title", widget: "string", required: false,}
-      - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
-      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
-      - {label: "Top Video", name: "topVideo", widget: "string"}
-
-      - {label: "Display Steps section?", name: "isStepsVisible", widget: "boolean", required: false, default: true}
-      - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
-      - {label: "Steps block", name: "StepsBlock", widget: "list",
-        fields: [
-          {label: "Steps Title", name: "title", widget: "string"},
-          {label: "Title Prefix (number)", name: "titlePrefix", widget: "string"},
-          {label: "Steps Description", name: "descr", widget: "markdown"},
-          {label: "Steps list 1", name: "benefitsList", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "markdown"},
-          ]},
-          {label: "Benefits list 2", name: "benefitsList2", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "markdown"},
-          ]},        
-          {label: "Info Image", name: "image", widget: image},
-          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-          {label: "Info Link", name: "link", widget: "string"},
-          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
-        ],
-        required: false,
-        }                    
-
-      - {label: "Feature Section Header", name: "featuresHeader", widget: "markdown", required: false,}
-      - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
-        fields: [
-          {label: "Display this feature on page?", name: "isVisible", widget: "boolean", required: false, default: true},
-          {label: "Info Title", name: "title", widget: "string"},
-          {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
-          {label: "Info Video", name: "infoVideo", widget: "string"},
-          {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},          
-          {label: "Info Description", name: "descr", widget: "markdown"},
-          {label: "Benefits list", name: "benefitsList", widget: list, fields: [
-            {label: "Benefit item", name: "text", widget: "string"},
-          ]},
-          {label: "Popup Files", name: "files", widget: list, fields: [
-            {label: "File", name: "file", widget: "file"},
-            {label: "Alt text", name: alt, widget: string},
-            {label: "Popup Link", name: "link", widget: string, default: "#"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Description", name: "descr", widget: "text"},
-          ]},
-          {label: "Info Image", name: "image", widget: image},
-          {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-          {label: "Info Link", name: "link", widget: "string"},
-          {label: "Youtube Link", name: "linkYoutube", widget: "string"},
-        ],
-        required: false,
-        }
-
-      - {label: "Display Demo Video section?", name: "isDemoSectionVisible", widget: "boolean", required: false, default: false}
-      - {label: "Demo Section", name: "demoSection", widget: "list", 
-        fields: [
-          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
-          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
-          fields: [
-            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
-            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
-            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
-            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
-            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
-          ],}
-	      ], 
-        required: false,
-        }         
-
-
-
-
-  - name: "solutions-page"
-    label: "Solutions Page"
-    folder: "site/content/solutions-page"
-    create: true
-    fields:
-      - {label: "Page title", name: "title", widget: "string", required: false,}
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Page url", name: "url", widget: string}
-      - {label: "Top Title", name: "topTitle", widget: "markdown", required: false,}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
-      - {label: "Sign Up URL", name: "signUpURL", widget: "string", required: false, default: "/accounts/signup/"}
-      - {label: "Watch Video", name: "watchVideoURL", widget: "string", required: false}
-      - {label: "Request URL", name: "requestURL", widget: "string", required: false, default: "/request"}
-      - {label: "Background Image", name: "bgImage", widget: "image", required: false, default: "/img/banner.jpg"}
-
-      - {label: Section, name: section, widget: list, fields: [
-          {label: Title, name: title, widget: string},
-          {label: Cards, name: cards, widget: list, fields: [
-            {label: Card Icon, name: icon, widget: image},
-            {label: Card Title, name: title, widget: string},
-            {label: Card Text, name: text, widget: text},
-            {label: Card Link, name: link, widget: string}
-          ]}
-        ]}
-
-      - {label: "Title Bottom", name: "titleBottom", widget: "string", required: false,}
-      - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false, default: "/img/back2.png"}
-      - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request"}
-
-
-
-
-  - name: "casestudy"
-    label: "Case Study"
-    folder: "site/content/casestudy"
-    create: true
-    fields: # The fields each document in this collection have
-      - {label: "Aliases (URLs)", name: "aliases", widget: "string", required: false}
-      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Logo", name: "logo", widget: "image", required: false}      
-      - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
-      - {label: "Summary", name: summary, widget: list, fields: [{label: Title, name: "title", widget: string},{label: Text, name: "content", widget: "markdown"}], required: false}
-      - {label: "Case Study Intro", name: "study_intro", widget: "markdown", required: false}    
-      - {label: "Case Study Body", name: "body", widget: "markdown", required: false}
-
-
-
-
-  - name: "simplepages"
-    label: "Simplepages"
-    folder: "site/content/simplepages"
-    create: true
-    fields:
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - { label: "Scripts", name: scripts, widget: markdown , required: false }
-      - {label: "Page url", name: "url", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
-
-
-
-  - name: "pricings"
-    label: "Pricings"
-    folder: "site/content/pricings"
-    hrefTargetBlank: true
-    create: true
-    fields:
-      - {label: "Page URL", name: "url", widget: string}  
-      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
-      - {label: "Page Title", name: "title", widget: "string", required: false}
-      - {label: "Top Title", name: "topTitle", widget: markdown}
-      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
-
-      - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
-          {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
-            {label: "Pricing Section Title Prefix", name: "pricingSectionTitlePrefix", widget: "string"},
-            {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "markdown"},
-            
-            {label: "Plan Info Block", name: "planInfoBlock", widget: "object", fields: [
-              {label: "Plan Info Block Title", name: "planInfoBlockTitle", widget: "string"},
-              {label: "Plan Info Block Description", name: "planInfoBlockDescription", widget: "markdown"},
-              {label: "Plan Info Block Image", name: "planInfoBlockImage", widget: image},
-              {label: "Plan Info Block Image Alt Text", name: "planInfoBlockImageAltText", widget: string, default: "Visyond Pricing Image"}
-            ]},          
-
-            {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
-              {label: "Plan Card Label Color (#hex)", name: "planCardLabelColor", widget: "string"},
-              {label: "Plan Card Price Color (#hex)", name: "planCardPriceColor", widget: "string"},
-              {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
-              {label: "Plan Card Title", name: "planCardTitle", widget: "markdown"},
-              {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},
-              {label: "PricePrimary", name: "PricePrimary", widget: "string"},
-              {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "markdown"},
-              {label: "Billing Note", name: "priceBillingNote", widget: "markdown"},
-              {label: "Price Min. Seats", name: "priceMinSeats", widget: "markdown"},
-
-              {label: "Features List Header", name: "limitsListHeader", widget: "markdown", required: false},
-              {label: "Limits List", name: "limitsList", widget: "list", fields: [
-                {label: "Limit Title", name: "limitTitle", widget: "string"},
-                {label: "Limit URL", name: "limitURL", widget: "string"},
-                {label: "Limit Tooltip", name: "limitTooltip", widget: "markdown"}
-              ]},
-
-              {label: "Features List Header", name: "featuresListHeader", widget: "markdown", required: false},
-              {label: "Features List", name: "featureslist", widget: "list", fields: [
-                {label: "Feature Title", name: "title", widget: "string"},
-                {label: "Feature URL", name: "url", widget: "string"},
-                {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
-              ]},
-
-              {label: "CTA Button", name: "cardButton", widget: "object", fields: [
-                {label: "Is button for Contact Us CTA (will be blue)? (true / false)", name: "isButtonContactUs", widget: "boolean", default: false},
-                {label: "Is button for Enterprise? (true / false)", name: "isButtonEnterprise", widget: "boolean", default: false},
-                {label: "URL", name: "cardButtonURL", widget: "string"},
-                {label: "Text", name: "cardButtonText", widget: "string"}
-              ]}
-            ]}
-        ]}
-      ]}
-
-      - {label: "Demo Strip Title", name: "DemoStripTitle", widget: "string", required: true}
-      - {label: "Demo Strip Button", name: "DemoStripTitleButton", widget: "string", required: true}
-      - {label: "Demo Strip ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}
-
-      - {label: "Talk to Us If You Need Section", name: "contact", widget: "object", fields: [
-        	{label: "Title", name: "title", widget: "string"},
-        	{label: Cards, name: cards, widget: list, fields: [
-            {label: "Image", name: "img", widget: "image"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Text", name: "text", widget: "string"}
-        	]},
-        	{label: "Button label", name: "buttonlabel", widget: "string", required: false},  
-        	{label: "Button link", name: "buttonlink", widget: "string", required: false}
-	      ]}
-
-      - {label: "Contact Form Title", name: "formTitle", widget: "string"}
-      - {label: "FAQ Title", name: "faqTitle", widget: "string"}
-      - {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", fields: [
-          {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
-          {label: "Answers List", name: "answersList", widget: list, fields: [
-            {label: "Answer", name: "answer", widget: "string"},
-          ],}
-      ],}
- 
-
-
-
-  - name: "press"
-    label: "Press"
-    folder: "site/content/press"
-    create: true
-    fields:
-      - {label: "Page title", name: "title", widget: "string", required: false}
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Page url", name: "url", widget: string}
-      - { label: Type, name: type, widget: hidden, default: press }
-      - { label: About, name: about, widget: hidden, default: "/press.html" }
-      - { label: Top Title, name: topTitle, widget: string }
-      - { label: "Background Image", name: bgImage, widget: image}
-      - { label: "Press articles", name: "pressarticles", widget: list, fields: [
-          { label: "url", name: "url", widget: "string" },
-          { label: "Company logo", name: "logo", widget: "image" },
-          { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
-          { label: "Photo", name: "photo", widget: "image" },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Company", name: "company", widget: "string" },
-          { label: "Title", name: "title", widget: "string" },
-          { label: "tags", name: "tags", widget: list, fields: [
-            { label: "Tag title", name: "tagTitle", widget: string }
-          ]}
-      ]}
-
-
-
-
-  - name: "partners"
-    label: "Partners"
-    folder: "site/content/partners"
-    create: true
-    fields:
-      - {label: "Page title", name: "title", widget: "string", required: false}
-      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
-      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-      - {label: "Page url", name: "url", widget: string}
-      - { label: Type, name: type, widget: hidden, default: press }
-      - { label: About, name: about, widget: hidden, default: "/press.html" }
-      - { label: Top Title, name: topTitle, widget: string }
-      - { label: "Background Image", name: bgImage, widget: image}
-      - { label: "Press articles", name: "pressarticles", widget: list, fields: [
-          { label: "url", name: "url", widget: "string" },
-          { label: "Company logo", name: "logo", widget: "image" },
-          { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
-          { label: "Photo", name: "photo", widget: "image" },
-          { label: "Name", name: "name", widget: "string" },
-          { label: "Company", name: "company", widget: "string" },
-          { label: "Title", name: "title",  widget: markdown },
-          { label: "tags", name: "tags", widget: list, fields: [
-            { label: "Tag title", name: "tagTitle", widget: string }
-          ]}
-      ]}
-      - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
-      - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
-      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
-      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
-
-
-
 
   - name: "home"
     label: "Home Page"
     #folder: "site/content/_index.md"
     create: true
     files:
-      - label: "Home page CURRENT"
+      - label: "Home page"
         name: "homeName"
         file: "site/content/_index.md"
         fields:
           - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
           - {label: "Page Title", name: "title", widget: "markdown", required: true}
           - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
-          - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
+          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}            
           - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
           - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
           - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
@@ -628,47 +105,22 @@ collections: # A list of collections the CMS should be able to edit
             }          
           - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
 
-
-
-
-# DESCRIPTION: This is an exact copy of the homepage template above. Keep it up to date + the content too when the homepage is updated.
-# PURPOSE: A landing page to be shared on social media (LinkedIn). The only difference is that the HTML template has "empty" header and footer to restrict navigation and guide user to the request demo form.
-  - name: "home-landing"
-    label: "Home Landing"
-    folder: "site/content/home-landing"
+  - name: "solutions"
+    label: "Solutions"
+    folder: "site/content/solutions"
     create: true
     fields:
-      - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
-      - {label: "Page Title", name: "title", widget: "markdown", required: true}
-      - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
-      - {label: "Top Description", name: "topDescription", widget: "markdown", required: false}              
-      - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
-      - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
-      - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
-      - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
-      - {label: "Functions list", name: "functionList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Cases list", name: "caseList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Industries list", name: "industryList", widget: "list",
-        fields: [
-          {label: "image", name: "image", widget: "image", required: false,},
-          {label: "text", name: "text", widget: "string", required: false,},
-        ],
-        required: false,
-        } 
+      - {label: "Aliases", name: "aliases", widget: "string", required: false}
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false,}
+
+      - {label: "Page title", name: "title", widget: "string", required: false,}
+      - {label: "Title", name: "topTitle", widget: "markdown", required: false,}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Top Video Thumbnail", name: "topVideoThumbnail", widget: "string"}
+      - {label: "Top Video", name: "topVideo", widget: "string"}
+
+      - {label: "Display Steps section?", name: "isStepsVisible", widget: "boolean", required: false, default: true}
       - {label: "Steps Title", name: "StepsHeader", widget: "markdown", required: false}
-      - {label: "Steps Subtitle", name: "StepsSubtitle", widget: "markdown", required: false}
       - {label: "Steps block", name: "StepsBlock", widget: "list",
         fields: [
           {label: "Steps Title", name: "title", widget: "string"},
@@ -686,165 +138,516 @@ collections: # A list of collections the CMS should be able to edit
           {label: "Youtube Link", name: "linkYoutube", widget: "string"},
         ],
         required: false,
-        }
-      - {label: "Addin/Cloud Title", name: "AddinCloudHeader", widget: "markdown", required: false}   
-      - {label: "Addin/Cloud Summary", name: summary, widget: list,
-        fields: [
-          {label: Title ('Excel Add-in' = green button - template condition), name: "title", widget: string},
-          {label: "Image", name: "image", widget: image},
-          {label: Text, name: "content", widget: "markdown"},
-          {label: Excel/Cloud Button Text, name: "buttonText", widget: string},
-          {label: Excel/Cloud Button Link, name: "buttonLink", widget: string}
-        ],
-        required: false,
-        }
-      - {label: "GetHexStarted Title", name: "DemoStripTitle", widget: "string", required: true}
-      - {label: "GetHexStarted Button", name: "DemoStripTitleButton", widget: "string", required: true}
-      - {label: "GetHexStarted ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}        
+        }                    
+
+      - {label: "Feature Section Header", name: "featuresHeader", widget: "markdown", required: false,}
       - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
         fields: [
-          {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
+          {label: "Display this feature on page?", name: "isVisible", widget: "boolean", required: false, default: true},
           {label: "Info Title", name: "title", widget: "string"},
           {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
           {label: "Info Video", name: "infoVideo", widget: "string"},
-          {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
+          {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},          
           {label: "Info Description", name: "descr", widget: "markdown"},
           {label: "Benefits list", name: "benefitsList", widget: list, fields: [
             {label: "Benefit item", name: "text", widget: "string"},
           ]},
+          {label: "Popup Files", name: "files", widget: list, fields: [
+            {label: "File", name: "file", widget: "file"},
+            {label: "Alt text", name: alt, widget: string},
+            {label: "Popup Link", name: "link", widget: string, default: "#"},
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Description", name: "descr", widget: "text"},
+          ]},
           {label: "Info Image", name: "image", widget: image},
           {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-          {label: "Learn More Link", name: "link", widget: "string"},
-          {label: "Demo Link", name: "demoLink", widget: "string"},
+          {label: "Info Link", name: "link", widget: "string"},
           {label: "Youtube Link", name: "linkYoutube", widget: "string"},
         ],
         required: false,
-        }          
-      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
-##### END OF HOME-LANDING #####
+        }
 
+      - {label: "Display Demo Video section?", name: "isDemoSectionVisible", widget: "boolean", required: false, default: false}
+      - {label: "Demo Section", name: "demoSection", widget: "list", 
+        fields: [
+          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
+          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
+          fields: [
+            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
+            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
+            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
+            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
+            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
+          ],}
+	      ], 
+        required: false,
+        }    
 
+  - name: "pricings"
+    label: "Pricings"
+    folder: "site/content/pricings"
+    hrefTargetBlank: true
+    create: true
+    fields:
+      - {label: "Page URL", name: "url", widget: string}  
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false}
+      - {label: "Page Title", name: "title", widget: "string", required: false}
+      - {label: "Top Title", name: "topTitle", widget: markdown}
+      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
 
-#  - name: "home" --- HOMEPAGE 2020
-#    label: "Home Page"
-#    #folder: "site/content/_index.md"
-#    create: true
-#    files:
-#      - label: "Home page CURRENT"
-#        name: "homeName"
-#        file: "site/content/_index.md"
-#        fields:
-#          - {label: "Page url", name: "url", widget: string}
-#          - {label: "Meta tags", name: "metaTags", widget: "markdown"}
-#          - {label: "Title", name: "title", widget: "string", required: true}
-#          - {label: "Top title", name: "heroTitle", widget: "markdown", required: true}
-#          - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false,}
-#          - {label: "Main features list", name: "mainFeatures", widget: "list",
-#            fields: [
-#              {label: "Feature", name: "feature", widget: "string", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - {label: "Hero laptop", name: "laptop", widget: "image", required: false,}
-#          - {label: "Hero laptop video", name: "homepageAnimation", widget: "string", required: false,}
-#          - {label: "Hero primary button", name: "heroPrimaryButton", widget: "string", required: true}
-#          - {label: "Hero primary link", name: "heroPrimaryButtonLink", widget: "string", required: true}
-#          - {label: "Hero play button", name: "heroPlayButton", widget: "string", required: true}
-#          - {label: "Hero demo button", name: "heroDemoButton", widget: "string", required: true}
-#          - {label: "Hero demo link", name: "heroDemoButtonLink", widget: "string", required: true}
-#          - {label: "Watch Video Main", name: "watchVideoURL", widget: "string", required: false}
-#          - {label: "Watch Video Demo", name: "WatchVideoURL2", widget: "string", required: false}
-#          - { label: "Other features", name: "otherFeatures", widget: "list",
-#            fields: [
-#              {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
-#              {label: "Feature", name: "feature", widget: "markdown", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - {label: "Gartner image", name: "gartnerImage", widget: "image", required: true}
-#          - {label: "Gartner link", name: "gartnerLink", widget: "string", required: true}
-#          - {label: "VisFor section title", name: "visForHeader", widget: "string", required: true}
-#          - {label: "Functions list title", name: "functionTitle", widget: "string", required: true}
-#          - {label: "Cases list title", name: "caseTitle", widget: "string", required: true}
-#          - {label: "Industries list title", name: "industryTitle", widget: "string", required: true}
-#          - { label: "Functions list", name: "functionList", widget: "list",
-#            fields: [
-#              {label: "image", name: "image", widget: "image", required: false,},
-#              {label: "text", name: "text", widget: "string", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - { label: "Cases list", name: "caseList", widget: "list",
-#            fields: [
-#              {label: "image", name: "image", widget: "image", required: false,},
-#              {label: "text", name: "text", widget: "string", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - { label: "Industries list", name: "industryList", widget: "list",
-#            fields: [
-#              {label: "image", name: "image", widget: "image", required: false,},
-#              {label: "text", name: "text", widget: "string", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - {label: "Why Visyond section header", name: "WhyVisyondHeader", widget: "string", required: true}
-#          - {label: "Why Visyond text", name: "WhyVisyondText", widget: "markdown", required: true}
-#          - {label: "Why Visyond image", name: "WhyVisyondImage", widget: "image", required: true}
-#          - { label: "Visyond solves, list", name: "solvesList", widget: "list",
-#            fields: [
-#              {label: "image", name: "image", widget: "image", required: false,},
-#              {label: "text", name: "text", widget: "string", required: false,},
-#            ],
-#            required: false,
-#            }
-#          - {label: "EnterV section title", name: "FeaturesHeader", widget: "string", required: true}
-#          - {label: "Info Block First", name: "infoBlockFirst", widget: "list",
-#            fields: [
-#              {label: "Info Title", name: "title", widget: "string"},
-#              {label: "Info Subtitle", name: "subtitle", widget: "markdown"},
-#              {label: "Info Video", name: "infoVideo", widget: "string"},
-#              {label: "Info Video Poster", name: "infoVideoPoster", widget: "string"},
-#              {label: "Info Description", name: "descr", widget: "markdown"},
-#              {label: "Benefits list", name: "benefitsList", widget: list, fields: [
-#                {label: "Benefit item", name: "text", widget: "string"},
-#              ]},
-#              {label: "Popup Files", name: "files", widget: list, fields: [
-#                {label: "File", name: "file", widget: "file"},
-#                {label: "Alt text", name: alt, widget: string},
-#                {label: "Popup Link", name: "link", widget: string, default: "#"},
-#                {label: "Title", name: "title", widget: "string"},
-#                {label: "Description", name: "descr", widget: "text"},
-#              ]},
-#              {label: "Info Image", name: "image", widget: image},
-#              {label: "Info Image Alt Text", name: "altText", widget: string, default: "image"},
-#              {label: "Info Link", name: "link", widget: "string"},
-#              {label: "Youtube Link", name: "linkYoutube", widget: "string"},
-#            ],
-#            required: false,
-#            }
-#          - {label: "GetHexStarted Title", name: "getHexStartedTitle", widget: "string", required: true}
-#          - {label: "GetHexStarted Button", name: "getHexStartedButton", widget: "string", required: true}
-#          - {label: "GetHexStarted ButtonURL", name: "getHexStartedButtonURL", widget: "string", required: true}
-#          - {label: "Benefits header", name: "BenefitsHeader", widget: "string", required: true}
-#          - {label: Benefits cards, name: cards, widget: list,
-#            fields: [
-#              {label: Card Icon, name: icon, widget: image},
-#              {label: Card Title, name: header, widget: string},
-#              {label: Card Text, name: description, widget: text},
-#              {label: Card Link, name: link, widget: string}
-#            ],
-#            required: false,
-#            }
-#          - {label: "Provides Title", name: "providesTitle", widget: "string"}
-#          - {label: "Provides List", name: "providesList", widget: "list", fields: [
-#            {label: "Provides Item", name: "text", widget: "markdown"},
-#            ],}            
+      - {label: "Pricing Sections", name: "pricingSections", widget: "object", fields: [
+          {label: "Pricing Section", name: "pricingSection", widget: "object", fields: [
+            {label: "Pricing Section Title Prefix", name: "pricingSectionTitlePrefix", widget: "string"},
+            {label: "Pricing Section Title", name: "pricingSectionTitle", widget: "markdown"},
+            
+            {label: "Plan Info Block", name: "planInfoBlock", widget: "object", fields: [
+              {label: "Plan Info Block Title", name: "planInfoBlockTitle", widget: "string"},
+              {label: "Plan Info Block Description", name: "planInfoBlockDescription", widget: "markdown"},
+              {label: "Plan Info Block Image", name: "planInfoBlockImage", widget: image},
+              {label: "Plan Info Block Image Alt Text", name: "planInfoBlockImageAltText", widget: string, default: "Visyond Pricing Image"}
+            ]},          
+
+            {label: "Plans Cards", name: "plansCards", widget: "list", fields: [
+              {label: "Plan Card Label Color (#hex)", name: "planCardLabelColor", widget: "string"},
+              {label: "Plan Card Price Color (#hex)", name: "planCardPriceColor", widget: "string"},
+              {label: "Plan Card Icon", name: "planCardIcon", widget: "image"},
+              {label: "Plan Card Title", name: "planCardTitle", widget: "markdown"},
+              {label: "Plan Card Description", name: "planCardDescription", widget: "markdown"},
+              {label: "PricePrimary", name: "PricePrimary", widget: "string"},
+              {label: "PricePrimaryPeriod", name: "PricePrimaryPeriod", widget: "markdown"},
+              {label: "Billing Note", name: "priceBillingNote", widget: "markdown"},
+              {label: "Price Min. Seats", name: "priceMinSeats", widget: "markdown"},
+
+              {label: "Features List Header", name: "limitsListHeader", widget: "markdown", required: false},
+              {label: "Limits List", name: "limitsList", widget: "list", fields: [
+                {label: "Limit Title", name: "limitTitle", widget: "string"},
+                {label: "Limit URL", name: "limitURL", widget: "string"},
+                {label: "Limit Tooltip", name: "limitTooltip", widget: "markdown"}
+              ]},
+
+              {label: "Features List Header", name: "featuresListHeader", widget: "markdown", required: false},
+              {label: "Features List", name: "featureslist", widget: "list", fields: [
+                {label: "Feature Title", name: "title", widget: "string"},
+                {label: "Feature URL", name: "url", widget: "string"},
+                {label: "Feature Tooltip", name: "tooltip", widget: "markdown"}
+              ]},
+
+              {label: "CTA Button", name: "cardButton", widget: "object", fields: [
+                {label: "Is button for Contact Us CTA (will be blue)? (true / false)", name: "isButtonContactUs", widget: "boolean", default: false},
+                {label: "Is button for Enterprise? (true / false)", name: "isButtonEnterprise", widget: "boolean", default: false},
+                {label: "URL", name: "cardButtonURL", widget: "string"},
+                {label: "Text", name: "cardButtonText", widget: "string"}
+              ]}
+            ]}
+        ]}
+      ]}
+
+      - {label: "Demo Strip Title", name: "DemoStripTitle", widget: "string", required: true}
+      - {label: "Demo Strip Button", name: "DemoStripTitleButton", widget: "string", required: true}
+      - {label: "Demo Strip ButtonURL", name: "DemoStripTitleLink", widget: "string", required: true}
+
+      - {label: "Talk to Us If You Need Section", name: "contact", widget: "object", fields: [
+        	{label: "Title", name: "title", widget: "string"},
+        	{label: Cards, name: cards, widget: list, fields: [
+            {label: "Image", name: "img", widget: "image"},
+            {label: "Title", name: "title", widget: "string"},
+            {label: "Text", name: "text", widget: "string"}
+        	]},
+        	{label: "Button label", name: "buttonlabel", widget: "string", required: false},  
+        	{label: "Button link", name: "buttonlink", widget: "string", required: false}
+	      ]}
+
+      - {label: "Contact Form Title", name: "formTitle", widget: "string"}
+      - {label: "FAQ Title", name: "faqTitle", widget: "string"}
+      - {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", fields: [
+          {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
+          {label: "Answers List", name: "answersList", widget: list, fields: [
+            {label: "Answer", name: "answer", widget: "string"},
+          ],}
+      ],}
 
 
 
 
-  - name: "products"
+  - name: "demo"
+    label: "Demo"
+    folder: "site/content/demo"
+    create: true
+    fields:
+      - {label: "Page URL", name: "url", widget: string, required: false}
+      - {label: "Top title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "string", required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
+      - {label: "Demo Section", name: "demoSection", widget: "list", 
+        fields: [
+          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
+          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
+          fields: [
+            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
+            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
+            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
+            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
+            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
+          ],}
+	      ], 
+        required: false,}
+      - {label: "FAQ Header", name: "FAQHeader", widget: "string", required: false}
+      - {label: "FAQ Text", name: "FAQText", widget: "markdown", required: false}
+      - {label: "FAQ Button Text", name: "FAQButtonText", widget: "string", required: false}
+      - {label: "FAQ Button Link", name: "FAQButtonLink", widget: "string", required: false}   
+
+
+
+
+  - name: "faq"
+    label: "FAQ"
+    folder: "site/content/faq"
+    create: true
+    fields:
+      - {label: "Page url", name: "url", widget: string, required: false}
+      - {label: "Page Title", name: "title", widget: "string", required: true}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: false}
+      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
+      - {label: "FAQ Section", name: "faqSection", widget: "list", 
+        fields: [
+          {label: "FAQ Section Title", name: "faqSectionTitle", widget: "string", required: true},		
+          {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", 
+          fields: [
+            {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
+            {label: "Answers List", name: "answersList", widget: list, 
+            fields: [
+              {label: "Answer", name: "answer", widget: "string"},
+            ],}
+          ],}
+	      ], 
+        required: false,
+        }
+
+
+
+
+
+
+  - name: "partner-page"
+    label: "Partner page"
+    folder: "site/content/partner-page"
+    create: false
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Page url", name: "url", widget: string}
+      - {label: "Top Title", name: "topTitle", widget: "string", required: true}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+      - {label: "Hero background image", name: "bgImage", widget: "image", required: false,}
+
+      - {label: "Benefits Header", name: "BenefitsHeader", widget: "string", required: false}
+      - { label: "Benefits items", name: "benefitsItems", widget: "list",
+        fields: [
+          {label: "Icon", name: "img", widget: "image", required: false,},
+          {label: "Title", name: "title", widget: "string", required: false,},
+          {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ],
+        required: false,
+      }
+      - { label: "Types header", name: "typesHeader", widget: "string", required: false,}
+      - { label: "Types section", name: "typesSection", widget: "object", fields: [
+        { label: "Type", name: "types", widget: "list", fields: [
+          { label: "Icon", name: "icon", widget: "image", required: false,},
+          { label: "Title", name: "title", widget: "string", required: false,},
+          { label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
+        ], required: false,},
+        {label: "CTA Button", name: "cta", widget: "object", fields: [
+          {label: "Text", name: "text", widget: "string"}
+        ]}
+      ], required: false,}
+      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
+      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}		
+      - {label: "Form Title", name: "formHeader", widget: "string", required: false,}
+      - {label: "Radio Buttons", name: "radio", widget: "list",
+        fields: [
+          {label: "Label Radio Button", name: "labelRadioButton", widget: "string", required: false,}
+        ], required: false,}
+      - {label: "Submit Button Title", name: "submitButtonTitle", widget: "string", required: false,}
+
+
+
+
+     
+  - name: "casestudy"
+    label: "Case Study"
+    folder: "site/content/casestudy"
+    create: true
+    fields: # The fields each document in this collection have
+      - {label: "Aliases (URLs)", name: "aliases", widget: "string", required: false}
+      - {label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Logo", name: "logo", widget: "image", required: false}      
+      - {label: "Tooltip", name: tooltip, widget: list, fields: [{label: Heading, name: title, widget: string}], required: false}
+      - {label: "Summary", name: summary, widget: list, fields: [{label: Title, name: "title", widget: string},{label: Text, name: "content", widget: "markdown"}], required: false}
+      - {label: "Case Study Intro", name: "study_intro", widget: "markdown", required: false}    
+      - {label: "Case Study Body", name: "body", widget: "markdown", required: false}
+
+
+
+
+  - name: "simplepages"
+    label: "Simplepages"
+    folder: "site/content/simplepages"
+    create: true
+    fields:
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - { label: "Scripts", name: scripts, widget: markdown , required: false }
+      - {label: "Page url", name: "url", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+
+
+
+
+  - name: "press"
+    label: "Press"
+    folder: "site/content/press"
+    create: true
+    fields:
+      - {label: "Page title", name: "title", widget: "string", required: false}
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Page url", name: "url", widget: string}
+      - { label: Type, name: type, widget: hidden, default: press }
+      - { label: About, name: about, widget: hidden, default: "/press.html" }
+      - { label: Top Title, name: topTitle, widget: string }
+      - { label: "Background Image", name: bgImage, widget: image}
+      - { label: "Press articles", name: "pressarticles", widget: list, fields: [
+          { label: "url", name: "url", widget: "string" },
+          { label: "Company logo", name: "logo", widget: "image" },
+          { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
+          { label: "Photo", name: "photo", widget: "image" },
+          { label: "Name", name: "name", widget: "string" },
+          { label: "Company", name: "company", widget: "string" },
+          { label: "Title", name: "title", widget: "string" },
+          { label: "tags", name: "tags", widget: list, fields: [
+            { label: "Tag title", name: "tagTitle", widget: string }
+          ]}
+      ]}
+
+
+
+
+
+  - name: "partners"
+    label: "Partners"
+    folder: "site/content/partners"
+    create: true
+    fields:
+      - {label: "Page title", name: "title", widget: "string", required: false}
+      - {label: "Top Sub Title", name: "topSubTitle", widget: "markdown", required: false,}
+      - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+      - {label: "Page url", name: "url", widget: string}
+      - { label: Type, name: type, widget: hidden, default: press }
+      - { label: About, name: about, widget: hidden, default: "/press.html" }
+      - { label: Top Title, name: topTitle, widget: string }
+      - { label: "Background Image", name: bgImage, widget: image}
+      - { label: "Press articles", name: "pressarticles", widget: list, fields: [
+          { label: "url", name: "url", widget: "string" },
+          { label: "Company logo", name: "logo", widget: "image" },
+          { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
+          { label: "Photo", name: "photo", widget: "image" },
+          { label: "Name", name: "name", widget: "string" },
+          { label: "Company", name: "company", widget: "string" },
+          { label: "Title", name: "title",  widget: markdown },
+          { label: "tags", name: "tags", widget: list, fields: [
+            { label: "Tag title", name: "tagTitle", widget: string }
+          ]}
+      ]}
+      - {label: "Partners Title", name: "partnersTitle", widget: "string", required: true}
+      - {label: "Partners Text", name: "partnersText", widget: "markdown", required: false}
+      - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
+      - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
+
+
+
+
+
+  - name: "menu"
+    label: "Top menu"
+    files: 
+      - file: "site/content/navigation/_index.md"
+        label: "Navigation"
+        name: "nav"
+        fields:
+          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+          - { label: "Resources dropdown", name: "resourcesDropdown", widget: "list", fields: [
+            { label: "Title", name: "title", widget: "string" },
+            { label: "path", name: "path", widget: "string" }
+          ]}
+          - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
+          - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
+
+      - file: "site/content/solutions-menu/_index.md"
+        label: "Menu - Solutions"
+        name: "menu-solutions"
+        fields:
+          - { label: "Solutions dropdown column", name: "solDropdownCol", widget: "list", fields: [
+            { label: "Title Column", name: "title", widget: string },
+            { label: "Solutions dropdown", name: "solution_dropdown", widget: "list", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "path", name: "path", widget: "string" },
+              { label: "image", name: "image", widget: "image" },
+              { label: "descr", name: "descr", widget: "text" }
+              ]}
+            ]}
+
+          - { label: "All Features Text", name: "allFeaturesText", widget: string, required: false }
+          - { label: "All Features Link", name: "allFeaturesLink", widget: string, required: false }
+
+
+
+
+
+  - name: "partials"
+    label: "Partials"
+    files:
+      - file: "site/content/use-cases/_index.md"
+        label: "Use cases"
+        name: "useCases"
+        fields: ##  TODO
+          - {label: "TO DO..", name: "tododoodoo", widget: "string", required: false,}
+
+      - file: "site/content/clientLogos/_index.md"
+        label: "Client logos"
+        name: "clientLogosSlider"
+        fields:
+          - { label: Logos", name: "clientLogos", widget: "list",
+            fields: [
+              {label: "Logo", name: "logo", widget: "image"},
+              {label: "Alt Text", name: "alt", widget: string, default: "image"},
+            ],
+          }
+
+      - file: "site/content/getStarted/_index.md"
+        label: "Get Started CTA"
+        name: "getStarted"
+        fields:
+          - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
+          - {label: "Provides Title", name: "getStartedTitle", widget: "string", required: false,}
+          - {label: "Video Link (Youtube)", name: "getStartedVideoLink", widget: "string", required: true},
+          - {label: "Provides List", name: "getStartedList", widget: "list", fields: [
+            {label: "Provides Item", name: "getStartedText", widget: "markdown"},
+            ],
+            required: false,
+          }
+
+      - file: "site/content/as-featured-in/_index.md"
+        label: "As featured in"
+        name: "as-featured-in"
+        fields:
+          - { label: "Featured title", name: "featuredTitle", widget: "string" }
+          - { label: "Featured list", name: "featured", widget: "list",
+            fields: [
+              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+              {label: "Link", name: "link", widget: "string"},
+              {label: "Logo", name: "logo", widget: "image"},
+            ],
+            required: false,
+          }
+
+      - file: "site/content/cookies/_index.md"
+        label: "Cookies"
+        name: "cookies"
+        fields:
+          - {label: "Cookies Text", name: "cookiesText", widget: "markdown", required: false}
+          - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree"}
+          - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more"}
+          - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/"}
+
+
+
+
+
+
+  - name: "case-studies"
+    label: "Case studies"
+    files: 
+      #  TODO: CHECK AND DELETE IF NOT NEEDED
+      # - file: "site/content/casestudiessection/_index.md"
+      #   label: "Case Studies Section"
+      #   name: "casestudiessection"
+      #   fields:
+      #     - {label: "Studies Title", name: "studiesTitle", widget: "string"}
+      #     - {label: "Studies Text Link", name: "studiesLinkText", widget: "string", required: false}
+      #     - {label: "Studies Link", name: "studiesLink", widget: "string", required: false}
+      #     - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
+      #       {label: "Image", name: "image", widget: "image"},
+      #       {label: "Title", name: "title", widget: "string"},
+      #       {label: "Text", name: "text", widget: "text"},
+      #       {label: "Author", name: "author", widget: "string"},
+      #       {label: "Link Text", name: "linkText", widget: "string"},
+      #       {label: "Link URL", name: "linkUrl", widget: "string"},
+      #     ],}
+
+      ###### CASE STUDIES LISTING ######
+      - file: "site/content/casestudies.md"
+        label: "Case studies"
+        name: "casestudies"
+        fields:
+          - {label: "Page title", name: "title", widget: "string", required: false,}
+          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
+          - {label: "Page url", name: "url", widget: string}
+          - { label: Type, name: type, widget: hidden, default: about }
+          - { label: About, name: about, widget: hidden, default: "/casestudy.html" }
+          - { label: "Casy study", name: "casestudies", widget: list, fields: [
+              { label: "url", name: "url", widget: "string" },
+              { label: "Company logo", name: "logo", widget: "image" },
+              { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
+              { label: "Photo", name: "photo", widget: "image" },
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Company", name: "company", widget: "string" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "tags", name: "tags", widget: list, fields: [
+                { label: "Tag title", name: "tagTitle", widget: string }
+              ]}
+          ]}
+      ###### END: CASE STUDIES LISTING ######    
+
+      #  TODO: CHECK AND DELETE IF NOT NEEDED  
+      # - file: "site/content/case-studies-section-new/_index.md"
+      #   label: "Case studies section new"
+      #   name: "case-studies-section-new"
+      #   fields:
+      #     - { label: "Case study title", name: "caseTitle", widget: "string" }
+      #     - { label: "Case study", name: "case", widget: "list",
+      #       fields: [
+      #         {label: "Case study link", name: "caseLink", widget: "string"},
+      #         {label: "Icon", name: "caseIco", widget: "image"},
+      #         {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+      #         {label: "Case study description", name: "caseDescr", widget: "string"},
+      #       ],
+      #       required: false,
+      #     }
+
+      - file: "site/content/feauteredCaseStudies/_index.md"
+        label: "Feautered Case Studies"
+        name: "feauteredCaseStudies"
+        fields:
+          - { label: "Case study title", name: "caseTitle", widget: "string" }
+          - { label: "Case study", name: "case", widget: "list",
+            fields: [
+              {label: "Case study link", name: "caseLink", widget: "string"},
+              {label: "Icon", name: "caseIco", widget: "image"},
+              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
+              {label: "Case study description", name: "caseDescr", widget: "string"},
+            ],
+            required: false,
+          }
+
+
+
+
+
+  - name: "pages"
     label: "Pages"
     files:     
       - file: "site/content/contacts.md"
@@ -892,8 +695,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
           - { label: Type, name: type, widget: hidden, default: why-visyond }
           - { label: "Page title", name: "title", widget: "string", required: false,}
-          - { label: "Cover Header", name: "coverHeader", widget: "string", required: false}
-          - { label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+          - { label: "Top title", name: "topTitle", widget: "string", required: false}
+          - { label: "Top subtitle", name: "topSubtitle", widget: "markdown", required: false}
           - { label: "Section 1: Header", name: "sectionOneHeader", widget: "string", required: false}
           - { label: "Text Area 1", name: "textArea1", widget: "markdown", required: false}
           - { label: "Section 1: Image", name: "sectionOneImg", widget: "image", required: false}
@@ -913,158 +716,6 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Link", name: "link", widget: "string"},
               {label: "Description", name: "description", widget: "markdown"}] }
           - {label: "Section 3: Header", name: "sectionThreeHeader", widget: "string", required: false}
-
-      - file: "site/content/nav/_index.md"
-        label: "Navigation [OLD]"
-        name: "nav-old"
-        fields:
-          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-
-
-          - { label: "Resources dropdown", name: "resourcesDropdown", widget: "list", fields: [
-            { label: "Title", name: "title", widget: "string" },
-            { label: "path", name: "path", widget: "string" }
-          ]}
-
-          - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
-          - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
-          - {label: "Features Info Title", name: "featuresInfoTitle", widget: "string"}
-          - {label: "Features Info Descr", name: "featuresInfoDescr", widget: "text"}
-
-      - file: "site/content/hexNav/_index.md"
-        label: "Navigation"
-        name: "nav"
-        fields:
-          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-
-
-          - { label: "Resources dropdown", name: "resourcesDropdown", widget: "list", fields: [
-            { label: "Title", name: "title", widget: "string" },
-            { label: "path", name: "path", widget: "string" }
-          ]}
-
-          - {label: "Solutions Info Title", name: "solutionsInfoTitle", widget: "string"}
-          - {label: "Solutions Info Descr", name: "solutionsInfoDescr", widget: "text"}
-          - {label: "Features Info Title", name: "featuresInfoTitle", widget: "string"}
-          - {label: "Features Info Descr", name: "featuresInfoDescr", widget: "text"}
-
-      - file: "site/content/solutions-section/_index.md"
-        label: "Solutions Section"
-        name: "solutions-section"
-        fields:
-          - { label: "Solutions dropdown column", name: "solDropdownCol", widget: "list", fields: [
-            { label: "Title Column", name: "title", widget: string },
-            { label: "Solutions dropdown", name: "solution_dropdown", widget: "list", fields: [
-              { label: "Title", name: "title", widget: "string" },
-              { label: "path", name: "path", widget: "string" },
-              { label: "image", name: "image", widget: "image" },
-              { label: "descr", name: "descr", widget: "text" }
-              ]}
-            ]}
-
-          - { label: "All Features Text", name: "allFeaturesText", widget: string, required: false }
-          - { label: "All Features Link", name: "allFeaturesLink", widget: string, required: false }
-
-      - file: "site/content/cookies/_index.md"
-        label: "Cookies"
-        name: "cookies"
-        fields:
-          - {label: "Cookies Text", name: "cookiesText", widget: "markdown", required: false}
-          - {label: "Cookies Yes Button Text", name: "cookiesYesBtn", widget: "string", default: "I agree"}
-          - {label: "Cookies No Button Text", name: "cookiesNoBtn", widget: "string", default: "No, I want to know more"}
-          - {label: "Cookies No Button URL", name: "cookiesNoBtnURL", widget: "string", default: "/privacy/"}
-
-      - file: "site/content/counters/_index.md"
-        label: "Counters"
-        name: "counters"
-        fields:
-          - { label: "Counters scripts", name: "countersScripts", widget: markdown }
-
-      - file: "site/content/trustedslider/_index.md"
-        label: "Trusted Slider"
-        name: "trustedslider"
-        fields:
-          - {label: "Trusted Title", name: "trustedTitle", widget: "string"}
-          - { label: "Trusted Logos", name: "trustedLogos", widget: "list",
-            fields: [
-              {label: "Logo", name: "logo", widget: "image"},
-              {label: "Alt Text", name: "alt", widget: string, default: "image"},
-            ],
-          }
-
-      - file: "site/content/hexSlider/_index.md"
-        label: "Hex slider"
-        name: "hexSlider"
-        fields:
-          - { label: "Hex Logos", name: "hexSliderLogos", widget: "list",
-            fields: [
-              {label: "Logo", name: "logo", widget: "image"},
-              {label: "Alt Text", name: "alt", widget: string, default: "image"},
-            ],
-          }
-
-      - file: "site/content/getStartedSignUp/_index.md"
-        label: "Get Started Section"
-        name: "getStartedSignUp"
-        fields:
-          - {label: "Background Bottom", name: "backgroundImage", widget: "image", required: false, default: "/img/footer-bg.jpg"}
-          - {label: "Provides Title", name: "getStartedTitle", widget: "string", required: false,}
-          - {label: "Provides List", name: "getStartedList", widget: "list", fields: [
-            {label: "Provides Item", name: "getStartedText", widget: "markdown"},
-            ],
-            required: false,
-          }            
-
-      - file: "site/content/casestudiessection/_index.md"
-        label: "Case Studies Section"
-        name: "casestudiessection"
-        fields:
-          - {label: "Studies Title", name: "studiesTitle", widget: "string"}
-          - {label: "Studies Text Link", name: "studiesLinkText", widget: "string", required: false}
-          - {label: "Studies Link", name: "studiesLink", widget: "string", required: false}
-          - {label: "Studies Block", name: "studiesBlock", widget: "list", fields: [
-            {label: "Image", name: "image", widget: "image"},
-            {label: "Title", name: "title", widget: "string"},
-            {label: "Text", name: "text", widget: "text"},
-            {label: "Author", name: "author", widget: "string"},
-            {label: "Link Text", name: "linkText", widget: "string"},
-            {label: "Link URL", name: "linkUrl", widget: "string"},
-          ],}
-
-      - file: "site/content/testimonials/_index.md"
-        label: "Testimonials"
-        name: "testimonials"
-        fields:
-          - {label: "Title Customers", name: "titleCustomers", widget: "text", required: false}
-          - {label: "Slider Customers", name: "slider", widget: "list", fields: [
-            {label: "Slider Description", name: "sliderDescr", widget: "text", required: false},
-            {label: "Slider Company", name: "slidercompany", widget: "string", required: false},
-            {label: "Slider Logo", name: "sliderlogo", widget: "image", required: false},
-            {label: "Slider Logo Alt Text", name: "alt", widget: "string", default: "logo"},
-            {label: "Slider Photo", name: "sliderphoto", widget: "image", required: false},
-          ]}
-
-      - file: "site/content/casestudies.md"
-        label: "Case studies"
-        name: "casestudies"
-        fields:
-          - {label: "Page title", name: "title", widget: "string", required: false,}
-          - { label: "Meta tags", name: "metaTags", widget: markdown, required: false }
-          - {label: "Page url", name: "url", widget: string}
-          - { label: Type, name: type, widget: hidden, default: about }
-          - { label: About, name: about, widget: hidden, default: "/casestudy.html" }
-          - { label: "Casy study", name: "casestudies", widget: list, fields: [
-              { label: "url", name: "url", widget: "string" },
-              { label: "Company logo", name: "logo", widget: "image" },
-              { label: "Company logo alt text", name: "alt", widget: "string", default: "logo" },
-              { label: "Photo", name: "photo", widget: "image" },
-              { label: "Name", name: "name", widget: "string" },
-              { label: "Company", name: "company", widget: "string" },
-              { label: "Title", name: "title", widget: "string" },
-              { label: "tags", name: "tags", widget: list, fields: [
-                { label: "Tag title", name: "tagTitle", widget: string }
-              ]}
-          ]}
 
       - file: "site/content/pricing-old.md"
         label: "Pricing"
@@ -1114,87 +765,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Background Bottom", name: "bgBottom", widget: "image", required: false,}
           - {label: "Bottom Request URL", name: "botRequestURL", widget: "string", required: false, default: "/request-a-demo"}
 
-      - file: "site/content/case-studies-section-new/_index.md"
-        label: "Case studies section new"
-        name: "case-studies-section-new"
-        fields:
-          - { label: "Case study title", name: "caseTitle", widget: "string" }
-          - { label: "Case study", name: "case", widget: "list",
-            fields: [
-              {label: "Case study link", name: "caseLink", widget: "string"},
-              {label: "Icon", name: "caseIco", widget: "image"},
-              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
-              {label: "Case study description", name: "caseDescr", widget: "string"},
-            ],
-            required: false,
-          }
 
-      - file: "site/content/hexFeatured/_index.md"
-        label: "Hex featured"
-        name: "hexFeatured"
-        fields:
-          - { label: "Featured title", name: "featuredTitle", widget: "string" }
-          - { label: "Featured list", name: "featured", widget: "list",
-            fields: [
-              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
-              {label: "Link", name: "link", widget: "string"},
-              {label: "Logo", name: "logo", widget: "image"},
-            ],
-            required: false,
-          }
-
-      - file: "site/content/hexCaseStudies/_index.md"
-        label: "Hex Case studies"
-        name: "hexCaseStudies"
-        fields:
-          - { label: "Case study title", name: "caseTitle", widget: "string" }
-          - { label: "Case study", name: "case", widget: "list",
-            fields: [
-              {label: "Case study link", name: "caseLink", widget: "string"},
-              {label: "Icon", name: "caseIco", widget: "image"},
-              {label: "Alt text", name: "alt", widget: "string", default: "logo"},
-              {label: "Case study description", name: "caseDescr", widget: "string"},
-            ],
-            required: false,
-          }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-  - name: "faq"
-    label: "FAQ"
-    folder: "site/content/faq"
-    create: true
-    fields:
-      - {label: "Page url", name: "url", widget: string, required: false}
-      - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Top Title", name: "topTitle", widget: "string", required: false}
-      - {label: "Top Subtitle", name: "topSubTitle", widget: markdown, required: false}
-      - {label: "FAQ Section", name: "faqSection", widget: "list", 
-        fields: [
-          {label: "FAQ Section Title", name: "faqSectionTitle", widget: "string", required: true},		
-          {label: "FAQ Section Content", name: "faqSectionContent", widget: "list", 
-          fields: [
-            {label: "FAQ Section Subtitle", name: "faqSectionSubTitle", widget: "string", required: false},
-            {label: "Answers List", name: "answersList", widget: list, 
-            fields: [
-              {label: "Answer", name: "answer", widget: "string"},
-            ],}
-          ],}
-	      ], 
-        required: false,
-        }
 
 
 
@@ -1206,14 +777,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Page url", name: "url", widget: string, required: false}
       - {label: "Meta tags", name: "metaTags", widget: "markdown"}    
       - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "markdown", required: false}
-      - {label: "Cover Description", name: "coverDescription", widget: "markdown", required: false}
+      - {label: "Top title", name: "topTitle", widget: "markdown", required: false}
+      - {label: "Top subtitle", name: "topSubTitle", widget: "markdown", required: false}
+      - {label: "Top button text", name: "topButtonText", widget: "string", required: false}
+      - {label: "Top button link", name: "topButtonLink", widget: "string", required: false}
       - {label: "Why Visyond Title", name: "whyVisyondTitle", widget: "string", required: true}
       - {label: "Visyond Services Title", name: "servicesTitleVisyond", widget: "string", required: true}
       - {label: "Visyond Services Items", name: "servicesItemsVisyond", widget: "list",
         fields: [
           {label: "Title", name: "title", widget: "string", required: false,},
-	  {label: "Icon", name: "img", widget: "image", required: false,},
+	        {label: "Icon", name: "img", widget: "image", required: false,},
           {label: "Sub-title", name: "subTitle", widget: "markdown", required: false,},
 	          {label: "FAQ Section", name: "faqSection", widget: "list",
           fields: [ 
@@ -1224,7 +797,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Answers List", name: "answersList", widget: list, 
               fields: [
                 {label: "Answer", name: "answer", widget: "string"},
-		{label: "Screenshot", name: "img", widget: "image", required: false,},
+		            {label: "Screenshot", name: "img", widget: "image", required: false,},
               ],}
             ],}
 	  ], 
@@ -1262,61 +835,6 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Partners Button Text", name: "partnersButtonText", widget: "string", required: false} 
       - {label: "Partners URL", name: "partnersURL", widget: "string", required: false}
 
-
-
-
-  - name: "marketing"
-    label: "Marketing Landings"
-    folder: "site/content/marketing"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Page URL", name: "url", widget: string}
-      - {label: "Meta tags", name: "metaTags", widget: "markdown"}
-      - {label: "Visyond For...", name: "visyondFor", widget: "string", required: false,}
-      - {label: "Top Header", name: "topHeader", widget: "markdown", required: true}
-      - {label: "Top Subtitle", name: "topSubtitle", widget: "markdown", required: true}
-      - {label: "Top Video", name: "topVideo", widget: "string"}
-      - {label: "Top Video Poster", name: "topVideoPoster", widget: "string"}
-      - { label: "Other features", name: "otherFeatures", widget: "list",
-        fields: [
-          {label: "Feature icon", name: "featureIcon", widget: "image", required: false,},
-          {label: "Feature", name: "feature", widget: "markdown", required: false,},
-        ],
-        required: false,
-        }
-      - {label: "Why Visyond Section Header", name: "whyVisyondSectionHeader", widget: "string", required: true}
-      - {label: "Why Visyond Section Text", name: "whyVisyondText", widget: "markdown", required: false}        
-      - {label: "Request Section Header", name: "requestSectionHeader", widget: "string", required: true}   
-
-
-
-
-  - name: "demo"
-    label: "Demo"
-    folder: "site/content/demo"
-    create: true
-    fields:
-      - {label: "Page URL", name: "url", widget: string, required: false}
-      - {label: "Page Title", name: "title", widget: "string", required: true}
-      - {label: "Cover Header", name: "coverHeader", widget: "string", required: false}
-      - {label: "Demo Section", name: "demoSection", widget: "list", 
-        fields: [
-          {label: "Demo Section Title", name: "demoSectionTitle", widget: "string", required: true},		
-          {label: "Demo Section Content", name: "demoSectionContent", widget: "list", 
-          fields: [
-            {label: "Demo Section Image", name: "demoSectionImage", widget: "image", required: false},
-            {label: "Demo Subtitle", name: "demoSectionSubTitle", widget: "string", required: false},
-            {label: "Demo Video Link (Youtube)", name: "demoVideoLink", widget: "string", required: true},
-            {label: "Display on page?", name: "isVisible", widget: "boolean", required: false, default: true},
-            {label: "Demo Description", name: "demoDescription", widget: "markdown", required: false},
-          ],}
-	      ], 
-        required: false,}
-      - {label: "FAQ Header", name: "FAQHeader", widget: "string", required: false}
-      - {label: "FAQ Text", name: "FAQText", widget: "markdown", required: false}
-      - {label: "FAQ Button Text", name: "FAQButtonText", widget: "string", required: false}
-      - {label: "FAQ Button Link", name: "FAQButtonLink", widget: "string", required: false}   
 
 
 

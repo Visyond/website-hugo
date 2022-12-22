@@ -1,13 +1,25 @@
 /* @import './imports/_cms'; */
 
 /**
+ * Fonts
+ **/
+
+@import "./imports/_fonts.css";
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+
+
+
+
+/**
  * Plugins css
  **/
 
 @import "./imports/slick-theme.css";
 @import "./imports/slick.css";
 @import "./imports/slick-custom.css";
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
 
 /**
  * Basic page needs
@@ -16,13 +28,8 @@
 @import "./imports/_adjustment.css";
 @import "./imports/_buttons.css";
 @import "./imports/_cover.css";
-@import "./imports/_header.css";
-/* @import "./imports/_nav.css"; */
-@import "./imports/_homepage-header.css";
-@import "./imports/_footer.css";
 @import "./imports/_cookies.css";
 @import "./imports/_icons.css";
-@import "./imports/_trustedslider.css";
 @import "./imports/_hexSlider.css";
 @import "./imports/_hexFeatured.css";
 @import "./imports/_hexCaseStudies.css";
@@ -33,10 +40,16 @@
 @import "./imports/_homepage-hexHeader.css";
 @import "./imports/_casestudiessection.css";
 @import "./imports/_case-studies-section-new.css";
-@import "./imports/_testimonials.css";
-@import "./imports/_solutions-section.css";
-@import "./imports/_features-section.css";
-@import "./imports/_popup-info.css";
+/* @import "./imports/_testimonials.css"; */
+/* @import "./imports/_solutions-section.css"; */
+/* @import "./imports/_features-section.css"; */
+/* @import "./imports/_popup-info.css"; */
+/* @import "./imports/_nav.css"; */
+/* @import "./imports/_trustedslider.css"; */
+/* @import "./imports/_footer.css"; */
+/* @import "./imports/_homepage-header.css"; */
+/* @import "./imports/_header.css"; */
+
 
 /**
  * Pages
@@ -46,26 +59,28 @@
 @import "./imports/_casestudy.css";
 @import "./imports/_casestudies.css";
 @import "./imports/_press.css";
-@import "./imports/_landings.css";
-@import "./imports/_homepage.css";
 @import "./imports/_contacts.css";
 @import "./imports/_about.css";
-@import "./imports/_request.css";
-@import "./imports/_sign.css";
-@import "./imports/_hometest.css";
-@import "./imports/_solutions.css";
-@import "./imports/_features.css";
-@import "./imports/_pricing.css";
 @import "./imports/_pricings.css";
 @import "./imports/_partner-page.css";
-@import "./imports/_analysis.css";
-@import "./imports/_features-page.css";
-@import "./imports/_solutions-page.css";
-@import "./imports/_why-visyond.css";
-@import "./imports/_blog.css";
 @import "./imports/_faq.css";
 @import "./imports/_demo.css";
 @import "./imports/_home-hex.css";
+@import "./imports/_hometest.css";
+/* @import "./imports/_analysis.css"; */
+/* @import "./imports/_features-page.css"; */
+/* @import "./imports/_solutions-page.css"; */
+/* @import "./imports/_why-visyond.css"; */
+/* @import "./imports/_blog.css"; */
+/* @import "./imports/_request.css"; */
+/* @import "./imports/_sign.css"; */
+
+/* @import "./imports/_solutions.css"; */
+/* @import "./imports/_features.css"; */
+/* @import "./imports/_pricing.css"; */
+/* @import "./imports/_landings.css"; */
+/* @import "./imports/_homepage.css"; */
+
 
 
 /**
@@ -73,8 +88,8 @@
  **/
 
 @import "./imports/_card.css";
-@import "./imports/_podcastSection.css";
-@import "./imports/_hubspot.css";
-@import "./imports/_marketing.css";
 @import "./imports/_youtube.css";
 @import "./imports/_tabs.css";
+@import "./imports/_tabs-product-videos.css";
+/* @import "./imports/_podcastSection.css"; */
+

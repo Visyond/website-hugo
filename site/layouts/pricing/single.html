@@ -1,166 +1,130 @@
-{{ partial "hexHeader" . }}
+{{ partial "default/header" . }}
 
-<!-- first section -->
-<div class="cover" style="background-image: url({{ .Params.BgImage }})">
-  
-  <h2 class="cover-header">
-    {{ .Params.TopTitle }}
-  </h2>
+<div class="homehex ht">
 
-  <div class="cover-header--sub">
-    {{ .Params.TopSubTitle }}
+  {{ partial "covers/cover-simple" . }}
+
+
+
+  <!-- second section -->
+  <div class="second-section pri-sec">
+    <div class="pri-sec__table-wrapper">
+      <table class="pri-sec__table">
+        <col class="col">
+        <thead class="pri-sec__table-head">
+          <tr class="pri-sec__table-header">
+            <th class="pri-sec__table-data">
+              Price:
+            </th>
+            {{ range $el := .Params.tableHead }}
+            <th class="pri-sec__table-data">
+              {{ if $el.name }}
+              <div class="pri-sec__table-header-name">
+                {{ $el.name }}
+              </div>
+              {{ end }}
+              {{ if $el.linktext }}
+              <a href="{{ $el.linkurl }}" class="pri-sec__table-header-btn">
+                {{ $el.linktext }}
+              </a>
+              {{ end }}
+              {{ if $el.price }}
+              <div class="pri-sec__table-header-price">
+                {{ $el.price }}
+              </div>
+              {{ else }}
+              <a href="{{ $el.contactlink }}" class="pri-sec__table-header-contact">
+                {{ $el.contacttext }}
+              </a>
+              {{ end }}
+              {{ if $el.descr }}
+              <div class="pri-sec__table-header-descr">
+                {{ $el.descr }}
+              </div>
+              {{ end }}
+            </th>
+            {{ end }}
+          </tr>
+        </thead>
+        {{ range $el := .Params.tableBody }}
+        <tbody class="pri-sec__table-body">
+          {{ if $el.title }}
+          <tr class="pri-sec__table-row pri-sec__table-row--title">
+            <td class="pri-sec__table-data">
+              {{ $el.title }}
+            </td>
+          </tr>
+          {{ end }}
+          {{ range $row := $el.row }}
+          <tr class="pri-sec__table-row">
+            <td class="pri-sec__table-data pri-sec__table-data--title">
+              {{ if $row.titlelink }}
+              <a href="{{$row.titlelink}}" class="pri-sec__table-data-link">
+                {{ $row.rowname }}
+              </a>
+              {{ else }}
+              <div class="pri-sec__table-data-nolink">
+                {{ $row.rowname }}
+              </div>
+              {{ end }}
+            </td>
+            {{ range $cells := $row.cells }}
+            {{ if $cells.cell }}
+            <td class="pri-sec__table-data">
+              {{ $cells.cell }}
+            </td>
+            {{ else if $cells.check }}
+            <td class="pri-sec__table-data">
+              <i class="material-icons">done</i>
+            </td>
+            {{ else }}
+            <td class="pri-sec__table-data">
+              
+            </td>
+            {{ end }}
+            {{ end }}
+          </tr>
+          {{ end }}
+        </tbody>
+        {{ end }}
+      </table>
+    </div>
   </div>
+  <!-- //second section -->
 
-  <div class="cover-buttons--wrap">
-    {{ if .Params.SignUpURL }}
-    <a href="{{ .Params.SignUpURL }}" class="pri-fir__link pri-fir__link--sign-up">
-      free sign up
-    </a>
-    {{ end }}
+  <!-- third section -->
+  <div class="third-section pri-thi">
+    <div class="pri-thi__cols">
+      {{ range $el := .Params.BottomColumns }}
+      <div class="pri-thi__col">
+        <h3 class="pri-thi__col-title">
+          {{ $el.title }}
+        </h3>
+        <ul class="pri-thi__col-list">
+          {{ range $elem := $el.list }}
+          <li class="pri-thi__col-item">
+            {{ $elem.descr | markdownify}}  
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <!-- //third section -->
 
-    {{ if .Params.WatchVideoURL }}
-    <button class="pri-fir__link pri-fir__link--btn js-btn-video">
-      watch video
-    </button>
-    {{ end }}
+  <!-- fouth section -->
+  <section class="fouth-section pri-fou" style="background-image: url({{ .Params.BgBottom }})">
+    <h3 class="pri-fou__title">
+      {{ .Params.TitleBottom }}
+    </h3>
 
-    {{ if .Params.RequestURL }}
-    <a href="{{ .Params.RequestURL }}" class="pri-fir__link pri-fir__link--request">
+    <a href="{{ .Params.BotRequestURL }}" class="pri-fir__link pri-fir__link--request">
       request a demo
     </a>
-    {{ end }}
-  </div>
+  </section>
+  <!-- //fouth section -->
 
-  <div class="pri-fir__popup js-popup">
-    <div class="pri-fir__iframe-wrap">
-      <button class="pri-fir__popup-close js-popup-close"></button>
-      <p>{{ .Params.WatchVideoURL }}</p>
-
-    </div>
-  </div>
 </div>
-<!-- //first section -->
 
-
-
-<!-- second section -->
-<div class="second-section pri-sec">
-  <div class="pri-sec__table-wrapper">
-    <table class="pri-sec__table">
-      <col class="col">
-      <thead class="pri-sec__table-head">
-        <tr class="pri-sec__table-header">
-          <th class="pri-sec__table-data">
-            Price:
-          </th>
-          {{ range $el := .Params.tableHead }}
-          <th class="pri-sec__table-data">
-            {{ if $el.name }}
-            <div class="pri-sec__table-header-name">
-              {{ $el.name }}
-            </div>
-            {{ end }}
-            {{ if $el.linktext }}
-            <a href="{{ $el.linkurl }}" class="pri-sec__table-header-btn">
-              {{ $el.linktext }}
-            </a>
-            {{ end }}
-            {{ if $el.price }}
-            <div class="pri-sec__table-header-price">
-              {{ $el.price }}
-            </div>
-            {{ else }}
-            <a href="{{ $el.contactlink }}" class="pri-sec__table-header-contact">
-              {{ $el.contacttext }}
-            </a>
-            {{ end }}
-            {{ if $el.descr }}
-            <div class="pri-sec__table-header-descr">
-              {{ $el.descr }}
-            </div>
-            {{ end }}
-          </th>
-          {{ end }}
-        </tr>
-      </thead>
-      {{ range $el := .Params.tableBody }}
-      <tbody class="pri-sec__table-body">
-        {{ if $el.title }}
-        <tr class="pri-sec__table-row pri-sec__table-row--title">
-          <td class="pri-sec__table-data">
-            {{ $el.title }}
-          </td>
-        </tr>
-        {{ end }}
-        {{ range $row := $el.row }}
-        <tr class="pri-sec__table-row">
-          <td class="pri-sec__table-data pri-sec__table-data--title">
-            {{ if $row.titlelink }}
-            <a href="{{$row.titlelink}}" class="pri-sec__table-data-link">
-              {{ $row.rowname }}
-            </a>
-            {{ else }}
-            <div class="pri-sec__table-data-nolink">
-              {{ $row.rowname }}
-            </div>
-            {{ end }}
-          </td>
-          {{ range $cells := $row.cells }}
-          {{ if $cells.cell }}
-          <td class="pri-sec__table-data">
-            {{ $cells.cell }}
-          </td>
-          {{ else if $cells.check }}
-          <td class="pri-sec__table-data">
-            <i class="material-icons">done</i>
-          </td>
-          {{ else }}
-          <td class="pri-sec__table-data">
-            
-          </td>
-          {{ end }}
-          {{ end }}
-        </tr>
-        {{ end }}
-      </tbody>
-      {{ end }}
-    </table>
-  </div>
-</div>
-<!-- //second section -->
-
-<!-- third section -->
-<div class="third-section pri-thi">
-  <div class="pri-thi__cols">
-    {{ range $el := .Params.BottomColumns }}
-    <div class="pri-thi__col">
-      <h3 class="pri-thi__col-title">
-        {{ $el.title }}
-      </h3>
-      <ul class="pri-thi__col-list">
-        {{ range $elem := $el.list }}
-        <li class="pri-thi__col-item">
-          {{ $elem.descr | markdownify}}  
-        </li>
-        {{ end }}
-      </ul>
-    </div>
-    {{ end }}
-  </div>
-</div>
-<!-- //third section -->
-
-<!-- fouth section -->
-<section class="fouth-section pri-fou" style="background-image: url({{ .Params.BgBottom }})">
-  <h3 class="pri-fou__title">
-    {{ .Params.TitleBottom }}
-  </h3>
-
-  <a href="{{ .Params.BotRequestURL }}" class="pri-fir__link pri-fir__link--request">
-    request a demo
-  </a>
-</section>
-<!-- //fouth section -->
-
-
-{{ partial "footer" . }}
+{{ partial "default/footer" . }}

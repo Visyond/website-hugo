@@ -100,7 +100,7 @@ infoBlockFirst:
         link: ''
         title: Manage Risk with Monte Carlo Simulations
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Collaborative analysis automation.\r\n<br>\nSelf-service stress-testing.\r\n<br>\nRisk management.\r"
     title: Visualize the Impact of Important Business Drivers
   - benefitsList:
@@ -141,7 +141,7 @@ infoBlockFirst:
         link: ''
         title: Quickly identify which cells change between scenarios
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-    infoVideoPoster: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.jpg'
+    infoVideoPoster: '/video/grid_thumbnail.jpg'
     subtitle: "Collaborative scenario budgeting and forecasting.\r\n<br>\nAutomated scenario planning.\r\n<br>\nScenario management and audit trail.\r"
     title: 'Create, Compare and Analyze Scenarios On-the-fly'
   - benefitsList:
@@ -171,7 +171,7 @@ infoBlockFirst:
         file: /img/2019-02 Share Project Panel Slide Expanded.png
         title: Share Only Specific Worksheets and Reports
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Always up-to-date interactive dashboards.\r\n<br>\nSelf-service ‘what-if’ calculators.\r\n<br>\nStress-testing without touching the spreadsheet.\r"
     title: Share Insights with Spreadsheet-driven Dashboards
   - benefitsList:
@@ -213,9 +213,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Decide Who Sees and Interacts with Specific Worksheets and
       Dashboards - Visyond.mp4
-    infoVideoPoster: >-
-      /video/Decide Who Sees and Interacts with Specific Worksheets and
-      Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Secure data sharing and IP protection.\r\n<br>\nGranular access control.\r"
     title: Decide Who Sees and Interacts with Specific Worksheets and Dashboards
   - benefitsList:
@@ -245,9 +243,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Understand Model Structure, Detect Errors and Anomalies -
       Visyond.mp4
-    infoVideoPoster: >-
-      /video/Understand Model Structure, Detect Errors and Anomalies -
-      Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Spreadsheet modeling and auditing.\r\n<br>\nError root cause analysis.\r\n<br>\nBird’s-eye view of model structure.\r"
     title: 'Understand Model Structure, Detect Errors and Anomalies'
   - benefitsList:
@@ -288,7 +284,7 @@ infoBlockFirst:
         file: /img/2019-02 Scenario Management Panel.png
         title: Switch between different scenario
     infoVideo: /video/Track What Is Happening in Your Projects - Visyond.mp4
-    infoVideoPoster: /video/Track What Is Happening in Your Projects - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Data governance and audit trail.\r\n<br>\nCollaboration without overwriting data.\r\n<br>\nData gathering without version chaos.\r"
     title: Track What Is Happening in Your Projects
   - benefitsList:
@@ -315,9 +311,7 @@ infoBlockFirst:
     infoVideo: >-
       /video/Organize Assumptions, Documents and Conversations In Cells -
       Visyond.mp4
-    infoVideoPoster: >-
-      /video/Organize Assumptions, Documents and Conversations In Cells -
-      Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     subtitle: "Single source of truth and knowledge management.\r\n<br>\nModel documentation at your fingertips.\r\n<br>\nData sharing without external tools.\r"
     title: 'Organize Assumptions, Documents and Conversations In Cells'
   - benefitsList:

@@ -1,0 +1,15 @@
+{{ with .Site.GetPage "section" "clientLogos" }}
+<section class="hexSlider">
+    <div class="container">
+        <div class="hexSlider__wrapper">
+            <ul class="hexSlider__logos-wrap js-slider">
+                {{ range $el := .Params.clientLogos }}
+                <li class="hexSlider__logo-item">
+                    <img src="{{ .logo }}" alt="{{ .alt }}">
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+{{ end }}

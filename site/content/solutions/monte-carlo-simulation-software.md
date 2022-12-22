@@ -11,19 +11,19 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Simulations 2022.png">
 
-  <meta property="og:description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta property="og:description" content="Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.">
 
   <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
   <meta name="title" content="Monte Carlo Simulation Software">
 
-  <meta name="description" content="Monte Carlo Simulations and Risk Analysis of your operating model has never been easier. Upload your spreadsheet and get Monte Carlo Analysis reports.">
+  <meta name="description" content="Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.">
 topTitle: >-
   Automate Risk Analysis and Monte Carlo Simulations.</br>
   <span style="color: #0086ff;">In Minutes</span>.
 topSubTitle: >-
-  Running Monte Carlo Simulations and Risk Analysis of your spreadsheet model has never been easier.
-topVideoThumbnail: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+  Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
+topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
 StepsHeader: >-
       Quantitative Risk Analysis in 3 Simple Steps
@@ -87,7 +87,7 @@ infoBlockFirst:
     descr: >-
       Improve your probabilistic modeling and quantitative risk analysis workflow with Monte Carlo Simulations and visualize the probability of the output decision metrics taking certain values.
     infoVideo: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-    infoVideoPoster: /video/Visualize the Impact of Important Business Drivers - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Risk Analysis and Monte Carlo Simulations
     isVisible: true
   - benefitsList:
@@ -102,7 +102,7 @@ infoBlockFirst:
     descr: >-
       Create interactive dashboards powered by your spreadsheet, and securely share them online. Let your team or clients safely play with the numbers and reflect on scenarios without the risk of breaking the spreadsheet.
     infoVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-    infoVideoPoster: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.jpg
+    infoVideoPoster: /video/grid_thumbnail.jpg
     title: Decision-making Dashboards
     isVisible: true
 isDemoSectionVisible: true

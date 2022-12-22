@@ -36,5 +36,12 @@ export default {
     publicPath: "/",
     filename: "[name].js"
   },
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      compress: { warnings: false },
+      include: /\.js$/,
+      minimize: true
+    })
+  ],
   externals:  [/^vendor\/.+\.js$/]
 };

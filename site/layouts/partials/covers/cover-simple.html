@@ -1,0 +1,22 @@
+<!-- TOP SECTION -->
+<section class="home-hero">
+    <div class="container">
+        <div class="home-hero__container">
+            <div class="home-hero__full-width-wrap">
+                <h1 class="home-hero__title home-hero__title-fullWidth">{{ .Params.topTitle | markdownify  }}</h1>
+            </div>
+            <div class="home-hero__full-width-wrap">  
+                {{ if .Params.topSubTitle }}                
+                    <div class="home-hero__topSubtitle home-hero__topSubtitle-fullWidth">{{ .Params.topSubTitle | markdownify }}</div>
+                {{ end }}
+
+                {{ if .Params.topButtonText }}
+                    <div class="home-hero__buttons-section">
+                        <a href="{{ .Params.topButtonLink }}" class="button button-primary">{{ .Params.topButtonText }}</a>
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END: TOP SECTION -->	

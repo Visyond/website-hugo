@@ -1,0 +1,53 @@
+<!-- DEMO SECTION -->
+<section class="homeBenefits">
+    <div class="container container-demoVideos">
+        <ul class="demoSections">
+            <!-- LIST OF DEMO SECTIONS -->
+            {{ range $el := .Params.demoSection }}
+            <li class="demoSection__block">
+                <!-- <h2 class="demoSection__block-title">{{ .demoSectionTitle }}</h2> -->
+
+                <div class="pricingSectionTitleContainer">
+                    <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .demoSectionTitle }}</h2>
+                </div>
+                    
+
+                <div class="demo-section--divider"></div>
+
+                <!-- LIST OF DEMO SECTION BLOCKS -->
+                <div class="js-demo__list">
+                    {{ range $list := .demoSectionContent }}
+                        {{ if (eq .isVisible true)}}
+                            <div class="demoSection__body">
+                                <div class="demoSection__body--img-wrap">
+                                    <img src="{{ .demoSectionImage }}" alt="Demo Video Thumbnail" class="demoSection__body--img-wrap__img">
+
+                                    {{ if .demoVideoLink }}										
+                                        <div class="play-video-button">
+                                            <i class="material-icons">play_arrow</i>
+                                            <p>{{ .demoVideoLink }}</p>
+                                        </div>
+                                    {{ end }}
+                                </div>
+                                
+                                <div class="demoSectionTitleDescContainer">
+                                    <div class="demoSection--title">
+                                        {{ .demoSectionSubTitle }}
+                                    </div>
+
+                                    <div class="demoText">
+                                        {{ .demoDescription | markdownify }}
+                                    </div>									
+                                </div>
+                            </div>
+                        {{ end }}
+                    {{ end }}
+                </div>
+                <!-- LIST OF DEMO SECTION BLOCKS -->
+            </li>
+            {{ end }}
+            <!-- END: LIST OF DEMO SECTIONS -->
+        </ul>	
+    </div>
+</section>
+<!-- END: DEMO SECTION -->

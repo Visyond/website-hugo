@@ -37,7 +37,7 @@ export default class Pricings extends React.Component {
             </h2>
             <div className="header-section--divider"></div>
 
-            <ul className="card__list target-blank">
+            <ul className="card__list">
 
 
             { pricingCards.toJS().map((card, index) => {

@@ -1,38 +1,9 @@
-{{ partial "hexHomeHead" . }}
+{{ partial "default/header" . }}
 
 
 <div class="homehex ht">
-  <!-- TOP SECTION -->
-	<div class="container">
-		  <div class="home-hero__container">
-			  <div class="home-hero__half-width-wrap" style="width: 100%;">  
-				<h1 class="home-hero__title" style="margin-top: 80px;text-align: center;">{{ .Params.coverHeader | markdownify }}</h1>
-				<div class="home-hero__topSubtitle" style="text-align: center; color: rgba(0,0,0,.8);">{{ .Params.coverDescription | markdownify }}</div>
-			  </div>
-		  
+  {{ partial "covers/cover-simple" . }}
 
-			  <div class="home-hero__full-width-wrap">
-          <ul class="home-hero__other-features">
-            <li>
-                <img src="/img/home/icons/homepage_cloud.png" alt="Cloud"> <!-- /img/home/excel.svg -->
-                Cloud
-            </li>
-            <li>
-                <img src="/img/home/icons/homepage_onpremise.png" alt="On-premise"> <!-- /img/home/finger.svg-->
-                On-premise
-            </li>
-            <li>
-                <img src="/img/home/icons/homepage_label.png" alt="White-label"> <!-- /img/home/sandWatch.svg-->
-                White label
-            </li>
-        </ul>
-				  <a class="home-hero__gartner" href="https://www.gartner.com/reviews/market/financial-corporate-performance-management-solutions/vendor/visyond/product/visyond">
-					  <svg xmlns="http://www.w3.org/2000/svg" width="299.07" height="24.3" viewBox="0 0 299.07 24.3"><polygon class="star" fill="#0086ff" points="138.32 2.26 135.12 8.86 127.82 9.86 133.12 15.06 131.82 22.26 138.32 18.86 144.82 22.26 143.62 15.06 148.82 9.86 141.62 8.86 138.32 2.26"></polygon><polygon class="star" fill="#0086ff" points="167.32 2.26 164.12 8.86 156.82 9.86 162.12 15.06 160.82 22.26 167.32 18.86 173.82 22.26 172.62 15.06 177.82 9.86 170.62 8.86 167.32 2.26"></polygon><polygon class="star" fill="#0086ff" points="196.32 2.26 193.12 8.86 185.82 9.86 191.12 15.06 189.82 22.26 196.32 18.86 202.82 22.26 201.62 15.06 206.82 9.86 199.62 8.86 196.32 2.26"></polygon><polygon class="star" fill="#0086ff" points="223.32 2.26 220.12 8.86 212.82 9.86 218.12 15.06 216.82 22.26 223.32 18.86 229.82 22.26 228.62 15.06 233.82 9.86 226.62 8.86 223.32 2.26"></polygon><polygon class="star" fill="#0086ff" points="250.32 2.26 247.12 8.86 239.82 9.86 245.12 15.06 243.82 22.26 250.32 18.86 256.82 22.26 255.62 15.06 260.82 9.86 253.62 8.86 250.32 2.26"></polygon><text class="rate-number" transform="translate(276.82 17.26)" style="isolation:isolate;font-size:16px;fill: #7F7F7F;font-family:ArialMT, Arial;">4.5</text><path id="gartnerText" d="M99.29,8l-.22,3.57H97.73c-2.22,0-3.33,2-3.33,3.78V23.6h-4V8h3.78v2a4.5,4.5,0,0,1,4-2ZM71.69,23.82h-4V15.58c0-1.78-.22-4-2.45-4s-3.12,1.78-3.12,3.78v8.46h-4V8.24h3.78v2a5.08,5.08,0,0,1,4.45-2.45c4,0,5.35,3.12,5.35,6.24v9.79ZM56.33,20,56.1,23.6a11.39,11.39,0,0,1-2.89.44c-3.79,0-4.9-1.78-4.9-5.56V3.56h4V8h4l-.23,3.57H52.32V18c0,1.56.44,2.23,1.78,2.23A2.73,2.73,0,0,0,56.33,20M47,8l-.22,3.57H45.64a3.51,3.51,0,0,0-3.34,3.78V23.6h-4V8h3.79v2a4.48,4.48,0,0,1,4-2ZM20.26,22a14.8,14.8,0,0,1-8.91,2.23C4.68,24,0,19.59,0,12.24S4.9.22,11.35,0A12.29,12.29,0,0,1,20,3.12l-2.9,3.11a8.54,8.54,0,0,0-6-2C6.9,4.45,4.45,7.57,4.45,12c0,4.68,2.67,8,6.9,8.24A9.18,9.18,0,0,0,16,19.37v-4.9H11.58l.22-4h8.46V22Zm68.12-4.67H77.48A3.79,3.79,0,0,0,81,20.7a4.86,4.86,0,0,0,4.23-2l2.67,2A7.66,7.66,0,0,1,81.26,24c-4.45,0-7.79-3.34-7.79-8.23S76.81,7.57,81,7.57c4.67,0,7.34,3.12,7.34,8.46v1.34Zm-4-3.34c-.23-2-1.56-3.34-3.57-3.12A3.44,3.44,0,0,0,77.25,14Zm-48.54-.45V23.82H32.28V22.26a6,6,0,0,1-4.67,2c-2.68,0-5.35-1.34-5.35-4.68,0-5.12,5.57-5.56,9.13-5.56h.67V13.8c0-1.78-1.11-2.67-3.12-2.67a5.6,5.6,0,0,0-4,1.78l-2.22-2.45A9.58,9.58,0,0,1,29.39,8c4.45-.44,6.45,2,6.45,5.57m-4,3.34h-.45c-2,0-5.12,0-5.12,2.23,0,2.89,5.79,2,5.79-1.56v-.67Zm64.34,4.9A1.71,1.71,0,0,1,97.73,20a1.58,1.58,0,0,1,1.56,1.78,1.58,1.58,0,0,1-1.56,1.78,1.73,1.73,0,0,1-1.55-1.78M98,24a2.05,2.05,0,0,0,2-2.22,2,2,0,1,0-4,0A2.05,2.05,0,0,0,98,24m-.45-2H98l.67,1.11h.44L98.4,22a.59.59,0,0,0,.67-.67c0-.44-.22-.67-.89-.67H97.07v2.45h.44V22Zm0-.22v-.67H98c.22,0,.44,0,.44.45s-.22.44-.67.44h-.22v-.22Z" fill="rgb(127, 127, 127)"></path></svg>              </a>
-			  </div>
-		  </div>
-	</div>
-  <!-- END: TOP SECTION -->
-</div>
 
   <!-- WHY VISYOND -->
   <section class="homeBenefits" style="background-color: #fafafa;">
@@ -278,5 +249,5 @@
 
 
 
-
-{{ partial "hexFooter" . }}
+</div>
+{{ partial "default/footer" . }}

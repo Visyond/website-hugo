@@ -1,0 +1,43 @@
+<!-- VISYOND IS FOR -->
+<section class="visFor">
+    <div class="container">
+        <h2 class="visFor-header">{{ .Params.visForHeader }}</h2>
+        <div class="header-section--divider"></div>
+        <ul class="visFor__row">
+            <li class="visFor__column">
+                <h4 class="visFor__column--title">{{ .Params.functionTitle }}</h4>
+                <ul class="visFor__list">
+                    {{ range $el := .Params.functionList }}
+                        <li class="visFor__list-item">
+                            <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                            <div>{{ .text | markdownify }}</div>
+                        </li>
+                    {{ end }}
+                </ul>
+            </li>
+            <li class="visFor__column">
+                <h4 class="visFor__column--title">{{ .Params.caseTitle }}</h4>
+                <ul class="visFor__list">
+                    {{ range $el := .Params.caseList }}
+                        <li class="visFor__list-item">
+                            <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                            <div>{{ .text | markdownify }}</div>
+                        </li>
+                    {{ end }}
+                </ul>
+            </li>
+            <li class="visFor__column">
+                <h4 class="visFor__column--title">{{ .Params.industryTitle }}</h4>
+                <ul class="visFor__list">
+                    {{ range $el := .Params.industryList }}
+                        <li class="visFor__list-item">
+                            <img src="{{ .image }}" alt="{{ .text | markdownify }}">
+                            <div>{{ .text | markdownify }}</div>
+                        </li>
+                    {{ end }}
+                </ul>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- END: VISYOND IS FOR -->

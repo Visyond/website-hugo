@@ -1,30 +1,13 @@
-{{ partial "hexHeader" . }}
+{{ partial "default/header" . }}
 
 
 <div class="homehex ht">
-  <!-- TOP SECTION -->
-  <section class="home-hero" style="padding: 60px 0px 60px 0px;">
+  {{ partial "covers/cover-simple" . }}
+
+	<section class="homeBenefits">
     <div class="container">
-      <div class="whyV__row">
-        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-          <h2 class="home-hero__title">{{ .Title | markdownify }}</h2>
-        </div>
-
-        <div class="whyV__half-width-wrap" style="width: 100%; text-align: center;">
-          <div class="home-hero__topSubtitle">
-            {{ .Params.topSubTitle | markdownify }} 
-          </div>
-
-          <!--
-          <div class="btn-wrap">
-            <a href="#contactUs" class="button button-primary">Talk to Us</a>
-          </div>
-          -->
-        </div>
-
-
-        <div class="contact-page__resources">
-          {{ range .Params.cards }}
+      <div class="contact-page__resources">
+        {{ range .Params.cards }}
           <a {{ with .link }} href="{{.}}" {{ end }} class="contact-page__resources__card">
               <div class="contact-page__resources__card-image-wrap">
                   <img src="{{ .image }}" class="contact-page__resources__card-image">
@@ -32,18 +15,10 @@
               <h3 class="contact-page__resources__card-title">{{ .title }}</h3>
               <div class="contact-page__resources__card-text">{{ .description }}</div>
           </a>
-          {{ end }}
-      </div>
-
-
-
-
+        {{ end }}
       </div>
     </div>
   </section>
-  <!-- END: TOP SECTION -->
-
-
   
   <!-- CONTACT FORM -->
   <section id="contactUs" class="homeBenefits"> 
@@ -68,198 +43,17 @@
   <!-- END: CONTACT FORM -->  
 
 
-
-  <!-- LOCATIONS SECTION -- >
-  <section class="homeBenefits" style="background-color: #fafafa;">
-    <div class="container">
-      <h2 class="enterV__headline">{{ .Params.locationsTitle }}</h2>
-      <div class="header-section--divider"></div>
-
-      <div class="contact-page__contacts-wrapper">
-        {{ range $location := .Params.locations }}
-        <div class ="contact-page__contacts-card {{ if .isMain }}contact-page__contacts-card-special{{end}}">
-          <div class="contact-page__contacts-card-top">
-            {{ with $location.flag }}
-            <img src="{{ . }}" class="contact-page__location-flag">
-            {{ end }}
-
-            {{ with $location.title }}
-            <h2 class="contact-page__location-title">
-              {{ . }}
-            </h2>
-            {{ end }}
-          </div>
-
-          <div class="contact-page__location">
-            <div class="contacts-page__item">
-              <h3 class="contacts-page__title">Address</h3>
-              <ul class="contacts-page__list">
-                {{ range $element := $location.address }}
-                <li class="contacts-page__item--address">
-                  <div class="contacts-page__address">{{ .addressLine }}</div>
-                </li>
-                {{ end }}
-              </ul>              
-            </div>
-
-            < !--
-            <div class="contacts-page__item">
-              <h3 class="contacts-page__title">Phone</h3>
-              <ul class="contacts-page__list">
-                {{ range $element := $location.contactsPhone }}
-                <li class="contacts-page__item--phone">
-                  <a href="tel:{{ $element.socialphone }}" class="contacts-page__phone">{{ $element.socialphone }}</a>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-            -- >
-
-            <div class="contacts-page__item ">
-              <h3 class="contacts-page__title">Email</h3>
-              <ul class="contacts-page__list">
-                {{ range $element := $location.contactsEmail }}
-                <li class="contacts-page__item--email">
-                  <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
-                </li>
-                {{end}}
-              </ul>
-            </div>
-
-            < !--
-            <div class="contacts-page__item">
-              <h3 class="contacts-page__title">Phone</h3>
-              <div class="contacts-page__social-wrap">
-                {{ partial "social" (dict "data" $location.contactssocial) }}
-              </div>
-            </div>
-            -- >
-          </div>  
-        </div>
-        {{ end }}
-      </div>
-    </div>      
-  </section>
-  < !-- END: LOCATIONS SECTION -->
-
-
-
    <!-- LOGOS 
-  {{ partial "hexSlider" . }}
+  {{ partial "default/clientLogos" . }}
    END: LOGOS -->
 
 
 
-  <!-- BOTTOM CTA WITH VIDEO 
-  {{ partial "getStartedSignUp" . }}
-   END: BOTTOM CTA WITH VIDEO -->
-
+  <!-- BOTTOM CTA WITH VIDEO -->
+  {{ partial "getStarted" . }}
+  <!-- END: BOTTOM CTA WITH VIDEO -->
 
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<div class="case-study-title-wrap contacts-title-wrap">
-  <style>
-      .case-study-title-wrap {
-          background: url({{ .Params.TopImage }}) center center no-repeat;
-          background-size: cover;
-      }
-  </style>
-  <div class="container container--case-study-title-wrap">
-      <h1 class="case-study__title">
-          {{ .Title }}
-      </h1>
-  </div>
-</div>
--->
-<!--
-<div class="container">
-<section class="contacts-page">
-  <div class="contact-page__contacts-wrapper">
-    {{ range $location := .Params.locations }}
-    {{ with $location.title }}
-    <h3 class="contact-page__location-title">
-      {{ . }}
-    </h3>
-    {{ end }}
-    <div class="contact-page__location">
-      <article class="contacts-page__item contacts-page__item--mail">
-        <h3 class="contacts-page__title">Mail</h3>
-        <span class="contacts-page__address">{{ $location.Mail | markdownify }}</span>
-
-        <div class="contacts-page__social-wrap">
-          {{ partial "social" (dict "data" $location.contactssocial) }}
-        </div>
-      </article>
-      <article class="contacts-page__item contacts-page__item--phone">
-        <h3 class="contacts-page__title">Telephone</h3>
-        <ul class="contacts-page__list">
-          {{ range $element := $location.contactsPhone }}
-          <li class="contacts-page__item">
-            <a href=tel:{{replace .socialPhone " " "" }} class="contacts-page__link">{{ .socialphone }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </article>
-
-      <article class="contacts-page__item contacts-page__item--email">
-        <h3 class="contacts-page__title">Email</h3>
-        <ul class="contacts-page__list">
-          {{ range $element := $location.contactsEmail }}
-          <li class="contacts-page__item">
-            <a href="mailto:{{ $element.socialEmail }}" class="contacts-page__link">{{ $element.socialEmail }}</a>
-          </li>
-          {{end}}
-        </ul>
-      </article>
-    </div>
-    {{ end }}
-  </div>
-  
-  <article class="contacts-page__item contacts-page__item--form">
-    <h3 class="contacts-page__title">Contact us</h3>
-    <form class="contact__form-wrap" action="https://formspree.io/support@visyond.com" method="POST">
-      <div class="contact__form-item">
-        <input type="text" placeholder="Name" class="contact__form-input" name="name" required>
-        <span class="contact__form-state"></span>
-      </div>
-      <div class="contact__form-item">
-        <input type="email" placeholder="E-mail for answer" name="email" class="contact__form-input" required>
-        <span class="contact__form-state"></span>
-      </div>
-      <div class="contact__form-item">
-        <textarea placeholder="Your message" name="text" class="contact__form-input contact__form-input--message" required></textarea>
-        <span class="contact__form-state"></span>
-      </div>
-      <div class="contact__form-item contact__form-item--submit">
-        <button type="submit" class="contact__form-submit">contact us</button>
-      </div>
-              <input type="hidden" name="_next" value="https://visyond.com/thank-you-for-your-request/" />
-              <input type="hidden" name="_subject" value="Visyond :: support :: contactForm event" />
-              <input type="hidden" name="_format" value="plain" />
-              <input type="text" name="_gotcha" style="display:none" />
-    </form>
-  </article>
-</section>
-</div>
--->
-
-{{ partial "hexFooter" . }}
+{{ partial "default/footer" . }}
