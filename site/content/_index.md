@@ -248,7 +248,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, collaborate and update, manage access, and share without information chaos.
-      video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+      video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Establish a single source of truth
 
@@ -256,7 +256,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Track changes and contributions, and make your spreadsheets more reliable by separating the model's logic from data and preventing people from corrupting it. When editing cells, old values are not lost; instead, a new data layer is created automatically for each editor.
-      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+      video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Improve accountability 
 
@@ -271,7 +271,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Easily add cells from any worksheet that you can access to any scenario that you can edit, and adjust values or formulas as needed while keeping the original cell contents intact. Quickly update and merge scenarios from different stakeholders, and turn scenario planning into a truly collaborative experience.
-      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Model any scenario     
          
@@ -286,9 +286,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Create predictive online dashboards for people to play with the scenarios of the central spreadsheet and stress-test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’
-      video: >-
-        /video/Decide Who Sees and Interacts with Specific Worksheets and
-        Dashboards - Visyond.mp4
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Effectively communicate insights
 
@@ -296,8 +294,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Get collaborative analysis tools that everybody on the team can easily use — no code or macros — just press a button and get informative results.
-      video: >-
-        /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+      video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Automate what-if and risk analysis
 
@@ -305,7 +302,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Numbers and visualizations are linked to the central spreadsheet, maintaining their connection to the original calculation and automatically updating based on changes in the base model or scenarios, requiring minimal manual maintenance.
-      video: /video/Track What Is Happening in Your Projects - Visyond.mp4
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Preserve the ‘value-formula’ connection
 
@@ -313,7 +310,7 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Multiple people can safely query the model simultaneously without interfering with each other or changing the central spreadsheet. Each stakeholder has a personalized view of visualizations, tailored to their needs.
-      video: /video/Track What Is Happening in Your Projects - Visyond.mp4
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Personalize insights
 
@@ -324,21 +321,11 @@ productTourBlocks:
 
 
   - block:
-    - learnMore:
-      descr: >-
-        Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
-      video: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-      videoPoster: /video/grid_thumbnail.jpg
-      title: Keep Important Information at Your Fingertips
-
-
     - learnMore:   
       descr: >-
         Make models easier to understand and maintain; identify errors, data anomalies, and logical inconsistencies; track changes and data sources; and automatically document the model as people contribute to it.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: >-
-        /video/Auto-generate Financial Statements Driven by Your Model -
-        Visyond.jpg
+      videoPoster: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
       title: Audit model architecture and data
 
 
@@ -346,9 +333,7 @@ productTourBlocks:
       descr: >-
         Share only specific parts of the model that are necessary for the job, and minimize the risk of exposing sensitive information or proprietary modeling logic.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: >-
-        /video/Auto-generate Financial Statements Driven by Your Model -
-        Visyond.jpg
+      videoPoster: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
       title: Reduce security threats
 
 
@@ -356,9 +341,7 @@ productTourBlocks:
       descr: >-
         Ensure that data won’t be accidentally lost, corrupted or overwritten while you and your team test scenarios, analyze decision metrics or query the model through interactive dashboards.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: >-
-        /video/Auto-generate Financial Statements Driven by Your Model -
-        Visyond.jpg
+      videoPoster: /video/Track What Is Happening in Your Projects - Visyond.mp4
       title: Ensure integrity of data
 
     blockTitle: 'Reduce error probability and security risks'
