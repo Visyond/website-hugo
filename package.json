@@ -72,6 +72,6 @@
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
     "imagemin-pngquant": "^5.1.0",
-    "svg-sprite-loader": "^0.1.2"
+    "svg-sprite-loader": "^6.0.11"
   }
 }
