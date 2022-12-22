@@ -23,9 +23,9 @@ metaTags: >-
   <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
-  <meta property="og:description" content="Visualize templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
+  <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
   <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visualize spreadsheet templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.">
+  <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
 
 
 
@@ -35,7 +35,7 @@ topTitle: >-
   </br>
   <span id="js-dynamicTitle">scenario planning</span>
 topSubTitle: >-
-  Visualize spreadsheet templates and models as predictive dashboards and financial statements, and empower teams to self-serve on what-if and risk analyses while protecting sensitive data in a platform that delivers true Excel-like experience.
+  Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.
 
 
 
@@ -246,7 +246,7 @@ productTourBlocks:
         - text: >-
             Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
       descr: >-
-        Analyze scenarios, create forecasts, compare Budget vs Actual and turn scenario planning into a truly collaborative experience.
+        Visyond is a spreadsheet with the familiar syntax of Excel — dynamic arrays, XLOOKUPs and other features you love — that helps you and your team analyze the model, its scenarios, and create interactive visualizations quickly. 
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: '/video/grid_thumbnail.jpg'
       title: 'Keep the flexibility of a spreadsheet'
@@ -262,7 +262,7 @@ productTourBlocks:
         - text: >-
             Extend your collaborators’ analyses without anyone losing or corrupting data.
       descr: >-
-        Analyze important decision metrics, and empower teams to self-serve and collaborate on analyses. All this - in a single platform that connects spreadsheets, analyses and dashboards.
+        Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, collaborate and update, manage access, and share without information chaos.
       video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Establish a single source of truth
@@ -276,7 +276,7 @@ productTourBlocks:
         - text: >-
             Control access. Share only specific dashboards and scenarios with specific collaborators.
       descr: >-
-        Link your spreadsheet models to interactive online dashboards, and securely share them online. Empower your team or clients to visualize forecasts and scenarios without the risk of breaking the spreadsheet.
+        Track changes and contributions, and make your spreadsheets more reliable by separating the model's logic from data and preventing people from corrupting it. When editing cells, old values are not lost; instead, a new data layer is created automatically for each editor.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Improve accountability 
@@ -289,14 +289,28 @@ productTourBlocks:
         - text: >-
             Control access. Share only specific dashboards and scenarios with specific collaborators.
       descr: >-
-        Link your spreadsheet models to interactive online dashboards, and securely share them online. Empower your team or clients to visualize forecasts and scenarios without the risk of breaking the spreadsheet.
+        Reduce information overload and help people focus on important tasks by sharing only relevant parts of the model with them. For example, predictive dashboards for decision-makers, KPI reports for management, and data entry worksheets for contributors.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
-      title: Self-serve on insights    
+      title: Show people only what matters to them
+
+
+    - learnMore:
+        - text: >-
+            Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
+        - text: >-
+            Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
+        - text: >-
+            Control access. Share only specific dashboards and scenarios with specific collaborators.
+      descr: >-
+        Easily add cells from any worksheet that you can access to any scenario that you can edit, and adjust values or formulas as needed while keeping the original cell contents intact. Quickly update and merge scenarios from different stakeholders, and turn scenario planning into a truly collaborative experience.
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Model any scenario     
          
     blockTitle: Be the 'value architect'
     blockDesc: >-
-      Increase your productivity and grant your team superpowers they wouldn’t have otherwise, encouraging them to abandon their silos and engage with the insights machine that has your spreadsheet at its core.
+      Extend your own powers and boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you fully control.
 
 
 
@@ -308,12 +322,12 @@ productTourBlocks:
         - text: >-
             Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
       descr: >-
-        Make collaboration easier and safer. Protect spreadsheets and dashboards from unwanted changes and unauthorized access by assigning roles to collaborators, and sharing only specific worksheets and dashboards with them.
+        Create predictive online dashboards for people to play with the scenarios of the central spreadsheet and stress-test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’
       video: >-
         /video/Decide Who Sees and Interacts with Specific Worksheets and
         Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
-      title: Separate logic from the data
+      title: Effectively communicate insights
 
 
     - learnMore:
@@ -322,11 +336,11 @@ productTourBlocks:
         - text: Make your models easier to understand with natural language formulas.
         - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
       descr: >-
-        Make your spreadsheets error-proof. Get a bird’s-eye view of spreadsheet structure, detect root causes of errors and anomalies.   
+        Get collaborative analysis tools that everybody on the team can easily use — no code or macros — just press a button and get informative results.
       video: >-
         /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Reduce the risk of errors
+      title: Automate what-if and risk analysis
 
 
     - learnMore:
@@ -337,10 +351,10 @@ productTourBlocks:
         - text: >-
             Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
       descr: >-
-        Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+        Numbers in visualizations are linked to the central spreadsheet, maintaining their connection to the original calculation and automatically updating based on changes in the base model or scenarios, requiring minimal manual maintenance.
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Track data and its sources
+      title: Preserve the ‘value-formula’ connection
 
 
     - learnMore:
@@ -351,13 +365,14 @@ productTourBlocks:
         - text: >-
             Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
       descr: >-
-        Forget about version chaos. Track changes and scenarios, and collaborate on spreadsheets, analyses and dashboards in a secure environment connecting teams together.
+        Multiple people can safely query the model simultaneously without interfering with each other or changing the central spreadsheet. Each stakeholder has a personalized view of visualizations, tailored to their needs.
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Be sure that nobody can corrupt data
+      title: Protect the spreadsheet from people
 
-    blockTitle: "Solve version chaos"
-    blockDesc: "Make stuff that was complex before EZPZ with a few clicks."
+    blockTitle: 'Reduce time-to-insights'
+    blockDesc: >-
+      Establish a visualization layer for your team to ask the central model ‘what-if’ questions, analyze scenarios and risks — and share interactive insights in minutes. 
 
 
 

@@ -28,7 +28,7 @@
                                                 <ul class="dropdown-section__group-list dropdown-section__list">
                                                     {{ range $el := $element.solution_dropdown }}
                                                         <li class="dropdown-section__group-item">
-                                                            <a href="{{ $el.path }}" class="dropdown-section__group-link" data-image="{{ .image }}" data-descr="{{ .descr }}">{{ $el.title }}</a>
+                                                            <a href="{{ $el.path }}" class="dropdown-section__group-link" data-image="{{ .image }}">{{ $el.title }}</a> <!-- data-descr="{{ .descr }}" -->
                                                         </li>
                                                     {{ end }}
                                                 </ul>
