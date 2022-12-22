@@ -237,14 +237,6 @@ infoBlockFirst:
 productTourBlocks:
   - block:
     - learnMore:
-        - text: >-
-            Answer ‘what-if’ questions with Scenario Analysis.
-        - text: >-
-            Visualize the cells that change between scenarios with Scenario Waterfall Analysis.
-        - text: >-
-            Track assumptions and scenarios from your collaborators, and always know where the numbers are coming from.
-        - text: >-
-            Empower collaborators to test scenarios independently via interactive dashboards, shielding them from information overload.
       descr: >-
         Visyond is a spreadsheet with the familiar syntax of Excel — dynamic arrays, XLOOKUPs and other features you love — that helps you and your team analyze the model, its scenarios, and create interactive visualizations quickly. 
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
@@ -254,13 +246,6 @@ productTourBlocks:
 
 
     - learnMore:
-        - text: Visualize the impact of important cells with Tornado Analysis.
-        - text: Learn what really drives your decision metrics and see how sensitive your model is to changes with Sensitivity Analysis.   
-        - text: Analyze risks with Monte Carlo simulations.
-        - text: >-
-            Get presentation-ready analysis charts and securely share them with collaborators.
-        - text: >-
-            Extend your collaborators’ analyses without anyone losing or corrupting data.
       descr: >-
         Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, collaborate and update, manage access, and share without information chaos.
       video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
@@ -269,12 +254,6 @@ productTourBlocks:
 
 
     - learnMore:
-        - text: >-
-            Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
-        - text: >-
-            Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
-        - text: >-
-            Control access. Share only specific dashboards and scenarios with specific collaborators.
       descr: >-
         Track changes and contributions, and make your spreadsheets more reliable by separating the model's logic from data and preventing people from corrupting it. When editing cells, old values are not lost; instead, a new data layer is created automatically for each editor.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
@@ -282,12 +261,6 @@ productTourBlocks:
       title: Improve accountability 
 
     - learnMore:
-        - text: >-
-            Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
-        - text: >-
-            Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
-        - text: >-
-            Control access. Share only specific dashboards and scenarios with specific collaborators.
       descr: >-
         Reduce information overload and help people focus on important tasks by sharing only relevant parts of the model with them. For example, predictive dashboards for decision-makers, KPI reports for management, and data entry worksheets for contributors.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
@@ -296,12 +269,6 @@ productTourBlocks:
 
 
     - learnMore:
-        - text: >-
-            Creating a dashboard is easy. Add output cells with decision metrics from your spreadsheet, select input cells, style them as sliders or dropdowns, throw in some charts, and your dashboard is ready to go!
-        - text: >-
-            Your spreadsheet is safe. Changing data on the dashboard does not change the spreadsheet.
-        - text: >-
-            Control access. Share only specific dashboards and scenarios with specific collaborators.
       descr: >-
         Easily add cells from any worksheet that you can access to any scenario that you can edit, and adjust values or formulas as needed while keeping the original cell contents intact. Quickly update and merge scenarios from different stakeholders, and turn scenario planning into a truly collaborative experience.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
@@ -317,10 +284,6 @@ productTourBlocks:
 
   - block:
     - learnMore:
-        - text: >-
-            Hide the complexity of the spreadsheet behind easy-to-use interactive dashboards, exposing only relevant inputs collaborators can ‘play’ with.
-        - text: >-
-            Simplify data gathering by sharing data-entry worksheets with collaborators without exposing the rest of the spreadsheet.
       descr: >-
         Create predictive online dashboards for people to play with the scenarios of the central spreadsheet and stress-test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’
       video: >-
@@ -331,10 +294,6 @@ productTourBlocks:
 
 
     - learnMore:
-        - text: >-
-            Find out if there’s something wrong with your model: identify the root causes of errors, and navigate the propagation chain.
-        - text: Make your models easier to understand with natural language formulas.
-        - text: Identify cell types and content at a glance (i.e., input, output, numbers, strings, boolean).
       descr: >-
         Get collaborative analysis tools that everybody on the team can easily use — no code or macros — just press a button and get informative results.
       video: >-
@@ -344,31 +303,19 @@ productTourBlocks:
 
 
     - learnMore:
-        - text: >-
-            Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
-        - text: >-
-            Visyond will track who added each assumption.
-        - text: >-
-            Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
       descr: >-
-        Numbers in visualizations are linked to the central spreadsheet, maintaining their connection to the original calculation and automatically updating based on changes in the base model or scenarios, requiring minimal manual maintenance.
+        Numbers and visualizations are linked to the central spreadsheet, maintaining their connection to the original calculation and automatically updating based on changes in the base model or scenarios, requiring minimal manual maintenance.
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Preserve the ‘value-formula’ connection
 
 
     - learnMore:
-        - text: >-
-            Multiple assumptions can coexist in the same cell. The last added value does not overwrite the existing ones. Nobody, including the spreadsheet owner, can change data entered by others.
-        - text: >-
-            Visyond will track who added each assumption.
-        - text: >-
-            Share only specific worksheets and dashboards with specific people for better control over information flow and data privacy.
       descr: >-
         Multiple people can safely query the model simultaneously without interfering with each other or changing the central spreadsheet. Each stakeholder has a personalized view of visualizations, tailored to their needs.
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Protect the spreadsheet from people
+      title: Personalize insights
 
     blockTitle: 'Reduce time-to-insights'
     blockDesc: >-
@@ -378,8 +325,6 @@ productTourBlocks:
 
   - block:
     - learnMore:
-        - text: >-
-            Automatically document the spreadsheet as you and your collaborators work on it.
       descr: >-
         Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
       video: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
@@ -387,98 +332,41 @@ productTourBlocks:
       title: Keep Important Information at Your Fingertips
 
 
-    - learnMore:
-        - text: >-
-            Automate Balance Sheets, Income Statements and Cash Flow statements.
-        - text: >-
-            Customize reports according to your accounting standards.
-        - text: >-
-            Visyond will automatically calculate financial and management ratios.
-        - text: >-
-            The statements will remain up-to-date when you change the numbers in the spreadsheet.
-        - text: >-
-            If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
+    - learnMore:   
       descr: >-
-        Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
+        Make models easier to understand and maintain; identify errors, data anomalies, and logical inconsistencies; track changes and data sources; and automatically document the model as people contribute to it.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: >-
         /video/Auto-generate Financial Statements Driven by Your Model -
         Visyond.jpg
-      title: Automate Pro-Forma Financial Statements
-    blockTitle: "Protect spreadsheets from people"
-    blockDesc: "Because your Excel mess is killing ur productivity"
+      title: Audit model architecture and data
 
 
-
-
-
-  - block:
-    - learnMore:
-        - text: >-
-            Automatically document the spreadsheet as you and your collaborators work on it.
+    - learnMore:    
       descr: >-
-        Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
-      video: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-      videoPoster: /video/grid_thumbnail.jpg
-      title: Keep Important Information at Your Fingertips
-
-
-    - learnMore:
-        - text: >-
-            Automate Balance Sheets, Income Statements and Cash Flow statements.
-        - text: >-
-            Customize reports according to your accounting standards.
-        - text: >-
-            Visyond will automatically calculate financial and management ratios.
-        - text: >-
-            The statements will remain up-to-date when you change the numbers in the spreadsheet.
-        - text: >-
-            If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
-      descr: >-
-        Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
+        Share only specific parts of the model that are necessary for the job, and minimize the risk of exposing sensitive information or proprietary modeling logic.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: >-
         /video/Auto-generate Financial Statements Driven by Your Model -
         Visyond.jpg
-      title: Automate Pro-Forma Financial Statements
-    blockTitle: "Self-serve on insights"
-    blockDesc: "Because your Excel mess is killing ur productivity"
+      title: Reduce security threats
 
 
-
-
-
-  - block:
-    - learnMore:
-        - text: >-
-            Automatically document the spreadsheet as you and your collaborators work on it.
+    - learnMore:   
       descr: >-
-        Store your spreadsheet data — changes, scenarios, and comments— in the same environment where you create calculations, analyses and visualizations.
-      video: /video/Organize Assumptions, Documents and Conversations In Cells - Visyond.mp4
-      videoPoster: /video/grid_thumbnail.jpg
-      title: Keep Important Information at Your Fingertips
-
-
-    - learnMore:
-        - text: >-
-            Automate Balance Sheets, Income Statements and Cash Flow statements.
-        - text: >-
-            Customize reports according to your accounting standards.
-        - text: >-
-            Visyond will automatically calculate financial and management ratios.
-        - text: >-
-            The statements will remain up-to-date when you change the numbers in the spreadsheet.
-        - text: >-
-            If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.       
-      descr: >-
-        Generate always up-to-date, forward-looking financial statements from your spreadsheet. Just select relevant rows and columns, and Visyond will do the rest.
+        Ensure that data won’t be accidentally lost, corrupted or overwritten while you and your team test scenarios, analyze decision metrics or query the model through interactive dashboards.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: >-
         /video/Auto-generate Financial Statements Driven by Your Model -
         Visyond.jpg
-      title: Automate Pro-Forma Financial Statements
-    blockTitle: "Simplify workflows"
-    blockDesc: "Because your Excel mess is killing ur productivity"
+      title: Ensure integrity of data
+
+    blockTitle: 'Reduce error probability and security risks'
+    blockDesc: >-
+      Improve the accuracy of data, and make better decisions, faster. Reduce the risk of errors and minimize the probability of exposing sensitive information when sharing the model and insights.
+
+
+
 
 
 
