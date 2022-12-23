@@ -1,6 +1,6 @@
 ---
 title: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
-logo: /img/elet.png
+logo: /img/client-logos/eletronica.png
 tooltip:
   - title: 'Industry: Electronics Manufacturing'
   - title: 'Use Cases: Territory & Quota Planning, Sales Planning'
