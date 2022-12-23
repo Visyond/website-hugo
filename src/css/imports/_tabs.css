@@ -190,7 +190,8 @@
 
 
 .content-card__img {
-    max-width: 90%;
+    width: 150px;
+    height: 150px;
 }
 
 
