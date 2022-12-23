@@ -49,7 +49,7 @@ useCaseSection:
         useCaseURL: /solutions/revenue-optimization/ 
 
     useCaseSectionTitle: >-
-          Finance & Investment
+          Finance & Investments
 
 
 
@@ -215,7 +215,7 @@ useCaseSection:
         useCaseURL: /solutions/cfo-powers/   
 
     useCaseSectionTitle: >-
-          Startups
+          Small Business
 
 
 
