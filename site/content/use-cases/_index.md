@@ -19,13 +19,6 @@ useCaseSection:
         useCaseURL: /solutions/investment-calculators/   
 
 
-      - useCaseTitle: Gathering data from portfolio companies
-        useCaseImage: /img/icons/use-cases/use_case_3.svg
-        isVisible: true
-        useCaseDescription: >-
-          Consolidate data points and assumptions from different sources into the central predictive model.
-        useCaseURL: /solutions/data-gathering/
-
       - useCaseTitle: Sharing insights on investment strategy
         useCaseImage: /img/icons/use-cases/use_case_4.svg
         isVisible: true
@@ -48,6 +41,14 @@ useCaseSection:
           Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations. 
         useCaseURL: /solutions/revenue-optimization/ 
 
+        
+      - useCaseTitle: Gathering data from portfolio companies
+        useCaseImage: /img/icons/use-cases/use_case_3.svg
+        isVisible: true
+        useCaseDescription: >-
+          Consolidate data points and assumptions from different sources into the central predictive model.
+        useCaseURL: /solutions/data-gathering/
+
     useCaseSectionTitle: >-
           Finance & Investments
 
@@ -59,7 +60,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_7.svg
         isVisible: true
         useCaseDescription: >-
-          Simplify forecasting and empower stakeholders to self-serve on scenarios and what-if questions.Track assumptions from different sources and collect data into the central model.
+          Simplify forecasting and empower stakeholders to self-serve on scenarios and what-if questions. Track assumptions from different sources and collect data into the central model.
         useCaseURL: /solutions/sales-and-growth-forecasting/  
 
 
@@ -108,7 +109,7 @@ useCaseSection:
 
 
       - useCaseTitle: Investments and risks analysis
-        useCaseImage: /img/icons/use-cases/use_case_12.svg
+        useCaseImage: /img/icons/use-cases/use_case_5.svg
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
@@ -194,7 +195,7 @@ useCaseSection:
         useCaseURL: /solutions/planning-and-forecasting/  
           
       - useCaseTitle: Presentations for investors
-        useCaseImage: /img/icons/use-cases/use_case_4.svg
+        useCaseImage: /img/icons/use-cases/use_case_8.svg
         isVisible: true
         useCaseDescription: >-
           Create impactful interactive presentations for your team and investors to visualize forecasts, track goals and performance, and test scenarios in a way you didn’t know was possible.
@@ -229,7 +230,7 @@ useCaseSection:
         useCaseURL: /solutions/audit-models-and-reduce-errors/   
 
       - useCaseTitle: What-if and risk analysis
-        useCaseImage: /img/icons/use-cases/budget-vs-actual.svg
+        useCaseImage: /img/icons/use-cases/use_case_21.svg
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
