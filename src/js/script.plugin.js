@@ -120,9 +120,6 @@ $(function () {
                 draggable: true,
                 arrows: false,
                 dots: true,
-                centerMode: true,
-                centerPadding: '50px',
-                initialSlide: 2,
               }
             },
         ]

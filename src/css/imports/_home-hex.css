@@ -33,8 +33,12 @@
 }
 
 .container-demoVideos {
-    margin: 0 auto!important;
-    padding: 0 50px!important; 
+    margin: 0 auto;
+    padding: 0 50px;
+
+    @media screen and (max-width: 481px) {
+        padding: 0 15px;
+      }
 }
 
 .container-useCases {
@@ -47,6 +51,9 @@
      @media screen and (max-width: 991px) {
       max-width: 100%;
     }
+    @media screen and (max-width: 481px) {
+        padding: 0 15px;
+      }
   }
 
 @media screen and (min-width: 576px) {
@@ -271,11 +278,15 @@ line-height: 1.3;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 30px;
+    margin: 2em 0;
 }
 
 .home-hero__buttons-section > *:not(:last-child) {
     margin-right: 20px;
+
+    @media screen and (max-width: 361px) {
+        margin: 0;
+    }   
 }
 .home-hero__demo-link{
     color: #0086ff;
@@ -332,7 +343,7 @@ line-height: 1.3;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 40px;
+    margin-top: 2em;
 }
 @media screen and (max-width: 1200px) {
     .home-hero__buttons-section{
@@ -399,7 +410,6 @@ line-height: 1.3;
     }
     .home-hero__half-width-wrap--image{
         display: inline-block;
-        margin-bottom: 45px;
         width: 100%;
     }
     .home-hero__laptop-image{
@@ -450,6 +460,9 @@ line-height: 1.3;
     .home-hero__container {
         padding: 1rem 0;
     }
+    .home-hero__full-width-wrap-noIcons {
+        margin: 0;
+    }    
     .home-hero__other-features li{
         width: 100%;
         text-align: center;
