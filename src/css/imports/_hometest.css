@@ -206,7 +206,8 @@
 
 .ht-top__iframe-wrap {
     position: relative;
-    max-width: 100%;
+    max-width: 95%;
+    margin-top: 3em;
 }
 
 .ht-top__iframe-wrap iframe {

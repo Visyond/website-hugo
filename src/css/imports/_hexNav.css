@@ -29,7 +29,7 @@
   }
 
 & > ul > li {
-      padding: 0.25em 2em;
+      padding: 0.25em 1em;
 
 &:not(:last-child) {
      border-bottom: none;
@@ -72,66 +72,69 @@
     font-weight: 600;
 
 
-& > span > img {
-      display: block;
-      max-height: 1.8em;
-  }
+    & > span > img {
+        display: block;
+        max-height: 1.8em;
+    }
 
-
-&:hover {
-     /* background: #fff; */
-     color: #0585ff;
-     border-color: #0585ff;
-}
-
-&--primary {
-     color: #fff;
-     font-weight: 700 !important;
-     background: #0086ff;
-     padding: 10px 16px !important;
-     border-radius: 100px!important;
-     border: 2px solid #0086ff;
-     margin-right: 1em;
-
-     &:hover {
-        color: #0086ff;
-        border-color: #0086ff;
-        background: #fff;
-   }
-/*
-@media screen and (max-width: 1201px) {
-    background: none !important;
-    color: #0585ff !important;
-    padding: 0 !important;
-}
-*/
-}
-
-&--secondary {
-    color: #181818;
-    font-weight: 700 !important;
-    background: #fff;
-    padding: 10px 16px !important;
-    border-radius: 100px!important;
-    border: 2px solid #282828;
-    margin-right: 1em;
 
     &:hover {
-       color: #fff;
-       border-color: #282828;
-       background: #282828;
-  }
+        /* background: #fff; */
+        color: #0585ff;
+        border-color: #0585ff;
+    }
+
+    &--primary {
+        color: #fff;
+        font-weight: 700 !important;
+        background: #0086ff;
+        padding: 10px 16px !important;
+        border-radius: 100px!important;
+        border: 2px solid #0086ff;
+        margin-right: 1em;
+
+        &:hover {
+            color: #0086ff;
+            border-color: #0086ff;
+            background: #fff;
+        }
+
+        @media (max-width: 1201px) {
+            margin: 0;
+        }
+
 }
 
+    &--secondary {
+        color: #181818;
+        font-weight: 700 !important;
+        background: #fff;
+        padding: 10px 16px !important;
+        border-radius: 100px!important;
+        border: 2px solid #282828;
+        margin-right: 1em;
 
-&--active {
-     background: #fff;
-     color: #0585ff;
- }
+        &:hover {
+            color: #fff;
+            border-color: #282828;
+            background: #282828;
+        }
 
-@media screen and (max-width: 1201px) {
-    padding: 0;
-}
+        @media (max-width: 1201px) {
+            margin: 0;
+        }
+        
+    }
+
+
+    &--active {
+        background: #fff;
+        color: #0585ff;
+    }
+
+    @media screen and (max-width: 1201px) {
+        padding: 0;
+    }
 }
 
 .dropdown-arrow {
