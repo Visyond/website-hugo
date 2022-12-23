@@ -245,7 +245,7 @@ $(function () {
         const youtubeFrame = document.createElement('iframe');
         youtubeFrame.setAttribute('width', '889');
         youtubeFrame.setAttribute('height', '500');
-        youtubeFrame.setAttribute('src', `https:www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
+        youtubeFrame.setAttribute('src', `https://www.youtube.com/embed/${srcPart}?autoplay=1&rel=0`);
         youtubeFrame.setAttribute('frameborder', '0');
         youtubeFrame.setAttribute('allow', 'autoplay; encrypted-media');
         youtubeFrame.setAttribute('allowfullscreen', 'allowfullscreen');

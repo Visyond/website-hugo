@@ -16,7 +16,7 @@ case:
       /casestudy/ericsson-case-study-visyond/
   - alt: Elettronica Logo
     caseDescr: Elettronica Reduces the Sales Planning Cycle from Weeks to Hours
-    caseIco: /img/elet.png
+    caseIco: /img/client-logos/eletronica.png
     caseLink: >-
       /casestudy/how-visyond-changed-the-way-elettronica-planned-their-sales-and-shortened-the-process-from-weeks-to-hours/
 ---
