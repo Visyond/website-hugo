@@ -1,5 +1,5 @@
 ---
-getStartedTitle: Get Started Today
+getStartedTitle: Get started today
 getStartedList:
   - getStartedText: Leverage Excel skills
   - getStartedText: Do in minutes what takes days for others
