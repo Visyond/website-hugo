@@ -147,19 +147,17 @@
     transition: all 0.2s ease-out;
     min-height: 460px!important;
 
-    &:hover {
+    /* TODO: Add this style back when solution pages are ready */
+    /* &:hover {
       box-shadow: 0 0 10px 1px #dfdfdf;
-    }
+    } */
 }
 
 
-.content-card:hover .content-card__title {
+/* TODO: Add this style back when solution pages are ready */
+/* .content-card:hover .content-card__title {
     color: #0086ff;
-}
-
-.content-card:hover .content-card__img {
-
-}
+} */
 
 
 .content-card:hover .button-primary {
