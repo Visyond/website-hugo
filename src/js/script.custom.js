@@ -303,20 +303,13 @@ $(function () {
         document.body.appendChild(popup);
 
         // Close and remove the popup when pressing close button
-        closeButton.addEventListener('click', e => {
+        popup.addEventListener('click', e => {
             e.preventDefault();
-            if(e.target === e.currentTarget || e.target === closePopup) {
+            if(e.target === e.currentTarget || e.target === closeButton) {
                 document.body.removeChild(popup);
             }
         })
 
-        // Close and remove the popup when clicking on popup
-        popup.addEventListener('click', e => {
-            e.preventDefault();
-            if(e.target === e.currentTarget || e.target === closePopup) {
-                document.body.removeChild(popup);
-            }
-        })
 
         // Close and scroll to booking section
         requestButton.addEventListener('click', e => {
