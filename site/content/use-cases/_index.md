@@ -189,19 +189,19 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Generate financial statements
-        useCaseImage: /img/icons/use-cases/use_case_15.svg
-        isVisible: true
-        useCaseDescription: >-
-          Quickly transform operational models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
-        useCaseURL: /solutions/financial-statement-generator/
-
       - useCaseTitle: CFO-powers
         useCaseImage: /img/icons/use-cases/use_case_16.svg
         isVisible: true
         useCaseDescription: >-
           Be your own fractional CFO or boost their powers with automated tools designed to help teams make better decisions, faster.
         useCaseURL: /solutions/cfo-powers/   
+
+      - useCaseTitle: Generate financial statements
+        useCaseImage: /img/icons/use-cases/use_case_15.svg
+        isVisible: true
+        useCaseDescription: >-
+          Quickly transform operational models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/financial-statement-generator/
 
       - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/use_case_1.svg
@@ -238,6 +238,13 @@ useCaseSection:
 
 
   - useCaseSectionContent:
+      - useCaseTitle: Scenario modeling
+        useCaseImage: /img/icons/use-cases/use_case_18.svg
+        isVisible: true
+        useCaseDescription: >-
+          Simplify scenario modeling and data gathering, empower others to contribute assumptions without the risk of breaking the model, and protect sensitive data.
+        useCaseURL: /solutions/financial-modeling-software/      
+
       - useCaseTitle: Spreadsheet audit
         useCaseImage: /img/icons/use-cases/use_case_17.svg
         isVisible: true
@@ -250,14 +257,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes days for others.
-        useCaseURL: /solutions/monte-carlo-simulation-software/
-          
-      - useCaseTitle: Scenario modeling
-        useCaseImage: /img/icons/use-cases/use_case_18.svg
-        isVisible: true
-        useCaseDescription: >-
-          Simplify scenario modeling and data gathering, empower others to contribute assumptions without the risk of breaking the model, and protect sensitive data.
-        useCaseURL: /solutions/financial-modeling-software/             
+        useCaseURL: /solutions/monte-carlo-simulation-software/       
 
       - useCaseTitle: Insightful visualizations for stakeholders
         useCaseImage: /img/icons/use-cases/use_case_4.svg
