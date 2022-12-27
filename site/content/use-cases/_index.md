@@ -86,6 +86,15 @@ useCaseSection:
           Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information they need to see.   
         useCaseURL: /solutions/kpi-and-performance-presentations/
 
+
+      - useCaseTitle: Insightful visualizations for decision-makers
+        useCaseImage: /img/icons/use-cases/use_case_4.svg
+        isVisible: true
+        useCaseDescription: >-
+          Present your insights, and empower decision-makers to interact with the central model in a way you didn’t know was possible.
+        useCaseURL: /solutions/insightful-visualizations/
+
+
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
@@ -121,7 +130,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Present your insights, and empower stakeholders to interact with the central model in a way you didn’t know was possible.
-        useCaseURL: /solutions/insightful-visualizations-for-clients/
+        useCaseURL: /solutions/insightful-visualizations/
 
 
       - useCaseTitle: Scenario planning and forecasting
@@ -208,6 +217,13 @@ useCaseSection:
           Create interactive presentations for stakeholders to visualize forecasts, track goals & performance, and test scenarios in a way you didn’t know was possible.
         useCaseURL: /solutions/presentations-for-investors/
 
+      - useCaseTitle: Insightful visualizations for teams
+        useCaseImage: /img/icons/use-cases/use_case_4.svg
+        isVisible: true
+        useCaseDescription: >-
+          Present your insights, and empower teams to interact with the central model in a way you didn’t know was possible.
+        useCaseURL: /solutions/insightful-visualizations/
+
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
@@ -242,6 +258,13 @@ useCaseSection:
         useCaseDescription: >-
           Simplify scenario modeling and data gathering, empower others to contribute assumptions without the risk of breaking the model, and protect sensitive data.
         useCaseURL: /solutions/financial-modeling-software/             
+
+      - useCaseTitle: Insightful visualizations for stakeholders
+        useCaseImage: /img/icons/use-cases/use_case_4.svg
+        isVisible: true
+        useCaseDescription: >-
+          Present your insights, and empower stakeholders to interact with the central model in a way you didn’t know was possible.
+        useCaseURL: /solutions/insightful-visualizations/
 
       - useCaseTitle: Creating charts
         useCaseImage: /img/icons/use-cases/use_case_19.svg

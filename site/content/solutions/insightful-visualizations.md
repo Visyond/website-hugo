@@ -9,7 +9,7 @@ metaTags: >-
 
   <meta property="og:description" content="">
 
-  <meta property="og:url" content="https://visyond.com/solutions/insightful-visualizations-for-clients">
+  <meta property="og:url" content="https://visyond.com/solutions/insightful-visualizations">
 
   <meta name="title" content="">
 
@@ -21,7 +21,7 @@ title: Investment calculators
 
 
 topTitle: >-
-  Visyond for <span>insightful-visualizations-for-clients</span> something something
+  Visyond for <span>insightful-visualizations</span> something something
 topSubTitle: >-
   Present your analytical insights, boosted by automation, and allow stakeholders to safely interact with the central model in a way you didn’t know was possible.
 topVideoThumbnail: /video/grid_thumbnail.jpg
