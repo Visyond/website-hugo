@@ -169,7 +169,7 @@
     position: absolute;
     top: 0;
     left: 50%;
-    height: 82.4%;
+    height: 82.5%;
     transform: translateX(-50%);
     z-index: -1;
     background: white;
@@ -179,7 +179,7 @@
     height: 100%;
     width: 76%;
     position: absolute;
-    top: calc(5% + 5px);
+    top: calc(6.3%);
     left: 11.8%;
     overflow: hidden;
 }
@@ -209,13 +209,13 @@
 /*titles*/
 .home-hero__title{
     font-size: 48px; /*34*/
-    line-height: 1.3; /*45*/
+    line-height: 1.2; /*45*/
     color: #181818; /* #383e4d*/
     font-weight: 900;
 
     &-fullWidth {
         text-align: center;
-        font-size: 54px;
+        font-size: 64px;
     }
 }
 
