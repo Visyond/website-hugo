@@ -267,13 +267,6 @@ productTourBlocks:
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Show people only what matters to them
 
-
-    - learnMore:
-      descr: >-
-        Add any cell to any scenario, and modify values or formulas while keeping the original cell contents intact. Quickly update and combine scenarios, and turn planning into a collaborative experience.
-      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-      videoPoster: /video/grid_face_thumbnail.jpg
-      title: Model any scenario     
          
     blockTitle: Be in control
     blockDesc: >-
@@ -321,6 +314,14 @@ productTourBlocks:
 
 
   - block:
+    - learnMore:
+      descr: >-
+        Add any cell to any scenario, and modify values or formulas while keeping the original cell contents intact. Quickly update and combine scenarios, and turn planning into a collaborative experience.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Model any scenario     
+      
+      
     - learnMore:   
       descr: >-
         Make spreadsheets easier to understand and maintain. Identify errors, data anomalies, and logical inconsistencies. Track changes and data sources. Automatically document the model as people work on it.
