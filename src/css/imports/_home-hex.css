@@ -390,10 +390,13 @@ line-height: 1.3;
     }   
     .home-hero__title{
         text-align: center;
-        font-size: 54px;
+        font-size: 44px;
         line-height: 1.3;
         margin-top: 1em;
         text-underline-offset: 12px;
+    }
+    .home-hero__topSubtitle{
+        font-size: 20px;
     }
     .home-hero__main-features {
         justify-content: center;
@@ -1012,12 +1015,11 @@ line-height: 1.3;
 }
 .getHexStarted__title{
     font-size: 40px;
-    line-height: 80px;
+    line-height: 1.44;
     font-weight: 900;
     color: white;
 @media screen and (max-width: 420px) {
     font-size: 24px;
-    line-height: 1.3;
     font-weight: 400;
     margin-bottom: 20px;
 }
