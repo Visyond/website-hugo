@@ -7,7 +7,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier and more organized.
+          Scenario planning, budgeting and variance analysis have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/
 
 
@@ -15,7 +15,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_2.svg
         isVisible: true
         useCaseDescription: >-
-          Visualize ROI and other decision metrics from your model and visually test scenarios on predictive 'what-if' dashboards.
+          Visualize decision metrics from your spreadsheet and visually test scenarios on predictive 'what-if' dashboards.
         useCaseURL: /solutions/investment-calculators/   
 
 
@@ -23,34 +23,34 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_4.svg
         isVisible: true
         useCaseDescription: >-
-          Bring interactive reporting to the next level, and empower stakeholders to self-serve on insights and focus on what's important.
+          Empower stakeholders to quickly get insights and test their own scenarios with predictive dashboards connected to the central model.
         useCaseURL: /solutions/sharing-investment-insights/   
 
 
-      - useCaseTitle: Investment & valuation analysis
+      - useCaseTitle: Investment and valuation analysis
         useCaseImage: /img/icons/use-cases/use_case_5.svg
         isVisible: true
         useCaseDescription: >-
-          Find top profitability drivers, explore sensitivities, run simulations and manage risks and uncertainty. With just a few clicks.           
+          Find top profitability drivers, explore sensitivities, run simulations and manage risks and uncertainty. In a few clicks.
         useCaseURL: /solutions/investment-and-valuation-analysis/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
-          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations. 
+          Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.   
         useCaseURL: /solutions/revenue-optimization/ 
 
         
-      - useCaseTitle: Gathering data from portfolio companies
+      - useCaseTitle: Gathering data from different sources
         useCaseImage: /img/icons/use-cases/use_case_3.svg
         isVisible: true
         useCaseDescription: >-
-          Consolidate data points and assumptions from different sources into the central predictive model.
+          Consolidate data points and assumptions from departments, business units or portfolio companies into the central predictive model.
         useCaseURL: /solutions/data-gathering/
 
     useCaseSectionTitle: >-
-          Finance & Investments
+          Finance & Investment
 
 
 
@@ -60,7 +60,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_7.svg
         isVisible: true
         useCaseDescription: >-
-          Simplify forecasting and empower stakeholders to self-serve on scenarios and what-if questions. Track assumptions from different sources and collect data into the central model.
+          Simplify forecasting and empower stakeholders to test their own scenarios. Track and collect data into the central model.
         useCaseURL: /solutions/sales-and-growth-forecasting/  
 
 
@@ -68,7 +68,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_8.svg
         isVisible: true
         useCaseDescription: >-
-          Demonstrate the value of your offering to the clients, and provide your leads with personalized and interactive forecasts.
+          Demonstrate the value to your leads, and provide your clients with personalized and interactive forecasts.
         useCaseURL: /solutions/pricing-and-negotiation-support-calculators/   
 
 
@@ -76,21 +76,21 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_9.svg
         isVisible: true
         useCaseDescription: >-
-          Plan marketing campaigns and their impact on costs, revenues and other decision metrics. Visually compare scenarios and simplify plan vs. actuals workflow.
+          Plan campaigns and their impact on costs, revenues and other decision metrics. Visually compare scenarios and simplify budget vs actual.
         useCaseURL: /solutions/marketing-campaign-planning/
 
       - useCaseTitle: KPI and performance presentations
         useCaseImage: /img/icons/use-cases/use_case_10.svg
         isVisible: true
         useCaseDescription: >-
-          Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information and KPIs they need to see.      
+          Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information they need to see.   
         useCaseURL: /solutions/kpi-and-performance-presentations/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
-          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations.   
+          Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.  
         useCaseURL: /solutions/revenue-optimization/   
 
     useCaseSectionTitle: >-
@@ -104,15 +104,15 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_11.svg
         isVisible: true
         useCaseDescription: >-
-          Speed-up business case development while reducing the risk of errors, and empower your team and clients to provide data points and assumptions.
+          Accelerate business case development while minimizing errors, and empower your team and clients to get insights and contribute information.
         useCaseURL: /solutions/business-cases-development/   
 
 
-      - useCaseTitle: Investments and risks analysis
+      - useCaseTitle: Investment and risk analysis
         useCaseImage: /img/icons/use-cases/use_case_5.svg
         isVisible: true
         useCaseDescription: >-
-          Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
+          Automate what-if analysis, run simulations, identify risks, and do in minutes what takes days for others.
         useCaseURL: /solutions/investments-and-risks-analysis/   
 
 
@@ -120,7 +120,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_4.svg
         isVisible: true
         useCaseDescription: >-
-          Present your analytical insights, boosted by automation, and allow stakeholders to safely interact with the central model in a way you didn’t know was possible.  
+          Present your insights, and empower stakeholders to interact with the central model in a way you didn’t know was possible.
         useCaseURL: /solutions/insightful-visualizations-for-clients/
 
 
@@ -128,15 +128,15 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier and more organized.
+          Scenario planning, budgeting and variance analysis have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/
 
 
-      - useCaseTitle: Stress-testing assumptions and scenarios
+      - useCaseTitle: Stress-testing
         useCaseImage: /img/icons/use-cases/use_case_12.svg
         isVisible: true
         useCaseDescription: >-
-          Gather assumptions from different sources and stakeholders, and stress-test scenarios with your clients in a visual way, empowering them to self-serve on what-if questions.
+          Gather assumptions from different sources, and empower your team to visually stress-test scenarios and answer ‘what-if’ questions.
         useCaseURL: /solutions/data-gathering/ 
 
 
@@ -144,7 +144,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_13.svg
         isVisible: true
         useCaseDescription: >-
-          Easily create and securely share Waterfall charts (and many others) that are connected to the central model, its assumptions and analyses.
+          Easily create and share Waterfall charts — and many others — that are connected to the central model, its assumptions and analyses.
         useCaseURL: /solutions/create-waterfall-charts/
 
 
@@ -152,7 +152,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_14.svg
         isVisible: true
         useCaseDescription: >-
-          Conceal your model’s proprietary logic, protect intellectual property or other sensitive information and shield stakeholders from information overload by sharing only its sub-parts or visualizations with certain people.
+          Protect sensitive data and proprietary modeling logic, and shield people from information overload by sharing only specific parts of your model.
         useCaseURL: /solutions/what-if-analysis/
 
 
@@ -160,7 +160,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_15.svg
         isVisible: true
         useCaseDescription: >-
-          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+          Quickly transform operational models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
         useCaseURL: /solutions/financial-statement-generator/
 
 
@@ -168,7 +168,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
-          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations.
+          Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations. 
         useCaseURL: /solutions/revenue-optimization/   
 
 
@@ -184,45 +184,45 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_15.svg
         isVisible: true
         useCaseDescription: >-
-          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
-        useCaseURL: /solutions/financial-statement-generator/  
+          Quickly transform operational models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/financial-statement-generator/
+
+      - useCaseTitle: CFO-powers
+        useCaseImage: /img/icons/use-cases/use_case_16.svg
+        isVisible: true
+        useCaseDescription: >-
+          Be your own fractional CFO or boost their powers with automated tools designed to help teams make better decisions, faster.
+        useCaseURL: /solutions/cfo-powers/   
 
       - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budget vs. actuals and tracking goals have never been easier and more organized.
+          Scenario planning, budgeting and variance analysis have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/  
           
       - useCaseTitle: Presentations for investors
         useCaseImage: /img/icons/use-cases/use_case_8.svg
         isVisible: true
         useCaseDescription: >-
-          Create impactful interactive presentations for your team and investors to visualize forecasts, track goals and performance, and test scenarios in a way you didn’t know was possible.
+          Create interactive presentations for stakeholders to visualize forecasts, track goals & performance, and test scenarios in a way you didn’t know was possible.
         useCaseURL: /solutions/presentations-for-investors/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
-          Easily identify what drivers revenues, costs and other decision metrics, and find opportunities for optimizations.
+          Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.
         useCaseURL: /solutions/revenue-optimization/   
 
-      - useCaseTitle: CFO-powers
-        useCaseImage: /img/icons/use-cases/use_case_16.svg
-        isVisible: true
-        useCaseDescription: >-
-          Be your own fractional CFO or augment their powers with automated tools designed to help teams to make better decisions, faster.
-        useCaseURL: /solutions/cfo-powers/   
-
     useCaseSectionTitle: >-
-          Small Business
+          Small Businesses
 
 
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Audit models and reduce errors
+      - useCaseTitle: Spreadsheet audit
         useCaseImage: /img/icons/use-cases/use_case_17.svg
         isVisible: true
         useCaseDescription: >-
@@ -233,35 +233,35 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_21.svg
         isVisible: true
         useCaseDescription: >-
-          Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes others hours to achieve.
+          Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes days for others.
         useCaseURL: /solutions/monte-carlo-simulation-software/
           
       - useCaseTitle: Scenario modeling
         useCaseImage: /img/icons/use-cases/use_case_18.svg
         isVisible: true
         useCaseDescription: >-
-          Simply scenario modeling and data gathering workflows, empowering others to safely contribute assumptions without the risk of corrupting the model or exposing sensitive information.
+          Simplify scenario modeling and data gathering, empower others to contribute assumptions without the risk of breaking the model, and protect sensitive data.
         useCaseURL: /solutions/financial-modeling-software/             
 
       - useCaseTitle: Creating charts
         useCaseImage: /img/icons/use-cases/use_case_19.svg
         isVisible: true
         useCaseDescription: >-
-          Easily create and securely share always up-to-date charts that are connected to the central model, its assumptions and analyses.
+          Easily create and share always up-to-date charts that are connected to the central model, its assumptions and analyses.
         useCaseURL: /solutions/create-charts/   
 
       - useCaseTitle: Pro-forma financial statements
         useCaseImage: /img/icons/use-cases/use_case_15.svg
         isVisible: true
         useCaseDescription: >-
-          Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
-        useCaseURL: /solutions/what-if-analysis/   
+          Quickly transform operational models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+        useCaseURL: /solutions/financial-statement-generator/
 
-      - useCaseTitle: Distribute and share models
+      - useCaseTitle: Model distribution
         useCaseImage: /img/icons/use-cases/use_case_20.svg
         isVisible: true
         useCaseDescription: >-
-          Conceal your model’s proprietary logic, protect intellectual property or other sensitive information and shield stakeholders from information overload by sharing only its sub-parts or visualizations with certain people.
+          Protect sensitive data and proprietary modeling logic, and shield people from information overload by sharing only specific parts of your model.
         useCaseURL: /solutions/what-if-analysis/   
 
     useCaseSectionTitle: >-
