@@ -146,7 +146,7 @@
     box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
     padding: 20px;
     transition: all 0.2s ease-out;
-    min-height: 460px!important;
+    min-height: 400px!important; /* TODO: change to 460px when buttons are added back */
 
     /* TODO: Add this style back when solution pages are ready */
     /* &:hover {
