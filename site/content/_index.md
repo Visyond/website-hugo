@@ -275,7 +275,7 @@ productTourBlocks:
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Model any scenario     
          
-    blockTitle: Be the 'value architect'
+    blockTitle: Be in control
     blockDesc: >-
       Boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you control.
 
@@ -314,7 +314,7 @@ productTourBlocks:
       videoPoster: /video/grid_thumbnail.jpg
       title: Personalize insights
 
-    blockTitle: 'Reduce time-to-insights'
+    blockTitle: Get answers in minutes
     blockDesc: >-
       Establish a visualization layer for your team to ask the central model ‘what-if’ questions, analyze scenarios and risks, and share interactive insights in minutes.
 
@@ -324,27 +324,27 @@ productTourBlocks:
     - learnMore:   
       descr: >-
         Make spreadsheets easier to understand and maintain. Identify errors, data anomalies, and logical inconsistencies. Track changes and data sources. Automatically document the model as people work on it.
-      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+      video: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
       title: Audit spreadsheets
 
 
     - learnMore:    
       descr: >-
         Share with people only what they need to see, manage access permissions, and protect sensitive information or proprietary modeling logic.
-      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
+      video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
       title: Manage access
 
 
     - learnMore:   
       descr: >-
         Ensure that information won't be lost or corrupted while you and your team contribute data, test scenarios, analyze decision metrics, or query the model through interactive dashboards.
-      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
-      videoPoster: /video/Track What Is Happening in Your Projects - Visyond.mp4
+      video: /video/Track What Is Happening in Your Projects - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
       title: Control data
 
-    blockTitle: 'Reduce error probability and security risks'
+    blockTitle: Fewer errors, better security
     blockDesc: >-
       Improve data accuracy, reduce the risk of errors, protect sensitive information, and make better decisions, faster.
 
