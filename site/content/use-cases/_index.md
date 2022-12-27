@@ -222,7 +222,7 @@ useCaseSection:
 
 
   - useCaseSectionContent:
-      - useCaseTitle: Audit models and reduce errorsa
+      - useCaseTitle: Audit models and reduce errors
         useCaseImage: /img/icons/use-cases/use_case_17.svg
         isVisible: true
         useCaseDescription: >-
