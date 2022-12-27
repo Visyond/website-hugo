@@ -185,6 +185,7 @@
 }
 
 .ht-top__popup {
+    padding-top: 4em;
     position: fixed;
     top: 0;
     left: 0;
