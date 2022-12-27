@@ -238,7 +238,7 @@ productTourBlocks:
   - block:
     - learnMore:
       descr: >-
-        Visyond is a spreadsheet with the familiar syntax of Excel — dynamic arrays, XLOOKUPs and other features you love — that helps you and your team analyze the model, its scenarios, and create interactive visualizations quickly. 
+        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly analyze the model, its scenarios, and create interactive visualizations for your team.
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: '/video/grid_thumbnail.jpg'
       title: 'Keep the flexibility of a spreadsheet'
@@ -247,7 +247,7 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, collaborate and update, manage access, and share without information chaos.
+        Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, manage access to and share with others.
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Establish a single source of truth
@@ -255,14 +255,14 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Track changes and contributions, and make your spreadsheets more reliable by separating the model's logic from data and preventing people from corrupting it. When editing cells, old values are not lost; instead, a new data layer is created automatically for each editor.
+        Track changes, improve your model’s reliability by separating logic from data and prevent people from corrupting it. When cells are edited, a new data layer is created for each editor, and old values are preserved.
       video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Improve accountability 
 
     - learnMore:
       descr: >-
-        Reduce information overload and help people focus on important tasks by sharing only relevant parts of the model with them. For example, predictive dashboards for decision-makers, KPI reports for management, and data entry worksheets for contributors.
+        Focus on what’s important, reduce information overload, and share only specific parts of the model with people. For example, predictive dashboards for decision-makers or data entry worksheets for contributors.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Show people only what matters to them
@@ -270,14 +270,14 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Easily add cells from any worksheet that you can access to any scenario that you can edit, and adjust values or formulas as needed while keeping the original cell contents intact. Quickly update and merge scenarios from different stakeholders, and turn scenario planning into a truly collaborative experience.
+        Add any cell to any scenario, and modify values or formulas while keeping the original cell contents intact. Quickly update and combine scenarios, and turn planning into a collaborative experience.
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Model any scenario     
          
     blockTitle: Be the 'value architect'
     blockDesc: >-
-      Extend your own powers and boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you fully control.
+      Boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you control.
 
 
 
@@ -285,7 +285,7 @@ productTourBlocks:
   - block:
     - learnMore:
       descr: >-
-        Create predictive online dashboards for people to play with the scenarios of the central spreadsheet and stress-test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’
+        Create predictive dashboards for people to play with scenarios and test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Effectively communicate insights
@@ -293,7 +293,7 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Get collaborative analysis tools that everybody on the team can easily use — no code or macros — just press a button and get informative results.
+        Get collaborative analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
       video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Automate what-if and risk analysis
@@ -301,52 +301,52 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Numbers and visualizations are linked to the central spreadsheet, maintaining their connection to the original calculation and automatically updating based on changes in the base model or scenarios, requiring minimal manual maintenance.
+        Visualizations are connected to the central spreadsheet's data and formulas, allowing people to query the model and stay up to date with the latest changes in the model or scenarios.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Preserve the ‘value-formula’ connection
+      title: Keep the ‘value-formula’ connection
 
 
     - learnMore:
       descr: >-
-        Multiple people can safely query the model simultaneously without interfering with each other or changing the central spreadsheet. Each stakeholder has a personalized view of visualizations, tailored to their needs.
+        Adapt visualizations to your teammates’ needs and empower them to get insights from the central model without collaboration chaos or interfering with each other.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Personalize insights
 
     blockTitle: 'Reduce time-to-insights'
     blockDesc: >-
-      Establish a visualization layer for your team to ask the central model ‘what-if’ questions, analyze scenarios and risks — and share interactive insights in minutes. 
+      Establish a visualization layer for your team to ask the central model ‘what-if’ questions, analyze scenarios and risks, and share interactive insights in minutes.
 
 
 
   - block:
     - learnMore:   
       descr: >-
-        Make models easier to understand and maintain; identify errors, data anomalies, and logical inconsistencies; track changes and data sources; and automatically document the model as people contribute to it.
+        Make spreadsheets easier to understand and maintain. Identify errors, data anomalies, and logical inconsistencies. Track changes and data sources. Automatically document the model as people work on it.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
-      title: Audit model architecture and data
+      title: Audit spreadsheets
 
 
     - learnMore:    
       descr: >-
-        Share only specific parts of the model that are necessary for the job, and minimize the risk of exposing sensitive information or proprietary modeling logic.
+        Share with people only what they need to see, manage access permissions, and protect sensitive information or proprietary modeling logic.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
-      title: Reduce security threats
+      title: Manage access
 
 
     - learnMore:   
       descr: >-
-        Ensure that data won’t be accidentally lost, corrupted or overwritten while you and your team test scenarios, analyze decision metrics or query the model through interactive dashboards.
+        Ensure that information won't be lost or corrupted while you and your team contribute data, test scenarios, analyze decision metrics, or query the model through interactive dashboards.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: /video/Track What Is Happening in Your Projects - Visyond.mp4
-      title: Ensure integrity of data
+      title: Control data
 
     blockTitle: 'Reduce error probability and security risks'
     blockDesc: >-
-      Improve the accuracy of data, and make better decisions, faster. Reduce the risk of errors and minimize the probability of exposing sensitive information when sharing the model and insights.
+      Improve data accuracy, reduce the risk of errors, protect sensitive information, and make better decisions, faster.
 
 
 
