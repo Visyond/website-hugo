@@ -284,7 +284,7 @@ $(function () {
         // Create the first button
         let requestButton = document.createElement("a");
         requestButton.classList.add("btn-demoPopupCTA", "js-popup-close-request");
-        requestButton.textContent = "Onboarding Call";
+        requestButton.textContent = "View demo";
 
         // Create the second button
         let signupButton = document.createElement("a");
@@ -302,8 +302,16 @@ $(function () {
         // Append the main div to the document body
         document.body.appendChild(popup);
 
-        // Close and remove the popup
+        // Close and remove the popup when pressing close button
         closeButton.addEventListener('click', e => {
+            e.preventDefault();
+            if(e.target === e.currentTarget || e.target === closePopup) {
+                document.body.removeChild(popup);
+            }
+        })
+
+        // Close and remove the popup when clicking on popup
+        popup.addEventListener('click', e => {
             e.preventDefault();
             if(e.target === e.currentTarget || e.target === closePopup) {
                 document.body.removeChild(popup);
@@ -321,7 +329,7 @@ $(function () {
                     document.getElementById('request').scrollIntoView();
                 }
                 else {
-                    window.open('/demo/#request', '_self')
+                    window.open('/demo/', '_self')
                 }
             }
         })
