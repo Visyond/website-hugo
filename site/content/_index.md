@@ -291,14 +291,12 @@ productTourBlocks:
       videoPoster: /video/grid_thumbnail.jpg
       title: Automate what-if and risk analysis
 
-
     - learnMore:
       descr: >-
-        Visualizations are connected to the central spreadsheet's data and formulas, allowing people to query the model and stay up to date with the latest changes in the model or scenarios.
-      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
-      videoPoster: /video/grid_thumbnail.jpg
-      title: Keep the ‘value-formula’ connection
-
+        Add any cell to any scenario, and modify values or formulas while keeping the original cell contents intact. Quickly update and combine scenarios, and turn planning into a collaborative experience.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Model any scenario     
 
     - learnMore:
       descr: >-
@@ -314,14 +312,6 @@ productTourBlocks:
 
 
   - block:
-    - learnMore:
-      descr: >-
-        Add any cell to any scenario, and modify values or formulas while keeping the original cell contents intact. Quickly update and combine scenarios, and turn planning into a collaborative experience.
-      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
-      videoPoster: /video/grid_face_thumbnail.jpg
-      title: Model any scenario     
-      
-      
     - learnMore:   
       descr: >-
         Make spreadsheets easier to understand and maintain. Identify errors, data anomalies, and logical inconsistencies. Track changes and data sources. Automatically document the model as people work on it.
@@ -337,6 +327,12 @@ productTourBlocks:
       videoPoster: /video/grid_thumbnail.jpg
       title: Manage access
 
+    - learnMore:
+      descr: >-
+        Visualizations are connected to the central spreadsheet's data and formulas, allowing people to query the model and stay up to date with the latest changes in the model or scenarios.
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
+      title: Keep the ‘value-formula’ connection
 
     - learnMore:   
       descr: >-
