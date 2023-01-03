@@ -40,3 +40,4 @@ Disallow: /product-tour/
 Disallow: /about/
 Disallow: /why-visyond/
 Disallow: /features/
+Disallow: /services/
