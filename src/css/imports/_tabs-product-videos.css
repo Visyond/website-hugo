@@ -88,11 +88,11 @@
 }
 
 .tabs-product__caption .tabs-product__caption--container:not(.active):hover {
-    background: #f6f6f6;
+    background: #fafafa;
 }
 
 .tabs-product__caption .active {
-    background: #f6f6f6;
+    background: #fafafa;
 }
 
 .tabs-product__content {
@@ -115,6 +115,7 @@
     border-radius: 20px;
     display: block;
     margin: 0 auto;
+    box-shadow: 1px 1px 18px 2px rgb(0 0 0 / 8%);
 }
 
 .tabs-product__content--desc {
@@ -127,6 +128,7 @@
     color: #181818;
     text-decoration: underline;
     text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
     font-weight: 900;
     font-size: 18px;
     line-height: 1.6;
@@ -158,6 +160,7 @@
 
 .tabs-product__caption .tabs-product__caption--container.active:hover .tabs-product__caption--title {
     text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .tabs-product__caption--desc {

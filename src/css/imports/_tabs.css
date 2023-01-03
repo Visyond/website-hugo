@@ -23,8 +23,8 @@
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
-    border: 2px solid #fff;
     transition: all .3s ease-in-out;
+    border-bottom: 2px solid #fff;
 
     @media screen and (max-width: 700px) {
         font-size: 16px;
