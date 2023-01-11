@@ -74,7 +74,7 @@ header.scrolled + .headerFix{
 }
 .hexHeader + .maincontent .home-hero,
 .headerFix + .maincontent .home-hero{
-    padding-top: 110px;
+    padding-top: 140px;
 @media screen and (max-width: 1201px) {
     padding-top: 63px;
 }

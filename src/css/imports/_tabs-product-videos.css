@@ -15,7 +15,7 @@
 
 .tabs-product__container-left {
     display: flex;
-    width: 50%;
+    width: 51%;
     flex-direction: column;
 }
 
@@ -36,7 +36,7 @@
 .tabs-product__container-left--desc {
     color: #181818;
     font-size: 18px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-weight: 400;
     line-height: 1.44;
 }
@@ -75,11 +75,11 @@
     border-radius: 10px;
     cursor: pointer;
     transition: background 0.6s cubic-bezier(.48,.85,.51,1);
-    padding: 2rem;
+    padding: 1.5rem;
     align-items: flex-start;
 
     &:not(:last-child) {
-        margin-bottom: 8px;
+        margin-bottom: 5px;
     }
 }
 
@@ -88,11 +88,11 @@
 }
 
 .tabs-product__caption .tabs-product__caption--container:not(.active):hover {
-    background: #fafafa;
+    background: #f6f6f6;
 }
 
 .tabs-product__caption .active {
-    background: #fafafa;
+    background: #f6f6f6;
 }
 
 .tabs-product__content {
