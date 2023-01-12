@@ -7,6 +7,7 @@ aliases:
   - /solutions/spreadsheet-collaboration-software/
   - /solutions/collaboration/
   - /solutions/multidimensional-olap-analysis-online/
+  - /solutions/risk-management-software-for-banks/
   - /product-tour/
   - /solutions/
   - /features/

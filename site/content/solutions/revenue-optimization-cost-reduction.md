@@ -1,37 +1,65 @@
 ---
 aliases: 
 metaTags: >-
-  <meta property="og:title" content="">
+  <meta property="og:title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
   <meta property="og:type" content="website">
 
   <meta property="og:image" content="">
 
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
 
-  <meta property="og:url" content="https://visyond.com/solutions/cfo-powers">
+  <meta property="og:url" content="https://visyond.com/solutions/planning-budgeting-forecasting-software">
 
-  <meta name="title" content="">
+  <meta name="title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
-  <meta name="description" content="">
-title: Investment calculators
-
-
-
-
+  <meta name="description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
+title: Planning and forecasting
 
 topTitle: >-
-  Visyond for <span>cfo-powers</span> something something
+  Turn your Excel into a 
+  </br>
+  <span>Planning and Forecasting</span> machine for team players
 topSubTitle: >-
-  Be your own fractional CFO or augment their powers with automated tools designed to help teams to make better decisions, faster.
+   Use your spreadsheet models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
 topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
+topCoverImage: /img/icons/use-cases/use_case_1.svg
 
 
+productTourBlocks:
+  - block:
+    - learnMore:
+      descr: >-
+        Find the key business drivers, visualize their impact on your decision metrics under different scenarios, and make fast, informed decisions.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Focus on what matters
 
+    - learnMore:
+      descr: >-
+        Get ‘what-if’ and risk analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Manage risks and uncertainty
 
+    - learnMore:
+      descr: >-
+        Show stakeholders only what they need to see, and create predictive dashboards for people to play with scenarios, test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’ 
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Effectively communicate scenarios
 
-
+    - learnMore:
+      descr: >-
+        Ensure that decisions are based on the latest and audited model. Identify errors, data anomalies, and logical inconsistencies. Track changes, data sources, and feedback from stakeholders.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Improve the accuracy of forecasts
+         
+    blockTitle: Continuous planning and agile decision-making
+    blockDesc: >-
+      Plan and forecast as a team, automate scenario analysis and create interactive 'what-if' visualizations, while keeping the flexibility of a spreadsheet, simplifying data gathering, and protecting sensitive information.
 
 
 
@@ -81,31 +109,6 @@ infoBlockFirst:
     infoVideo: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
     infoVideoPoster: '/video/grid_thumbnail.jpg'
     title: 'Scenario Planning and Forecasting'
-    isVisible: true
-
-
-
-isDemoSectionVisible: true
-demoSection:
-  - demoSectionContent:      
-      - demoSectionSubTitle: Sensitivies and What-if Analysis
-        demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
-        isVisible: true
-        demoDescription: >-
-          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations with a few clicks.
-      - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
-        demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
-        isVisible: true
-        demoDescription: >-
-          Create and analyze scenarios on-the-fly, manage and collaborate on assumptions.        
-      - demoSectionSubTitle: Interactive 'What-if' Dashboards
-        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
-        isVisible: true
-        demoDescription: >-
-          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
-    demoSectionTitle: Watch Scenarios and Analysis in Action           
+    isVisible: true     
 ---
 
