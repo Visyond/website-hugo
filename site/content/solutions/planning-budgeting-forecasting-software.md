@@ -1,85 +1,65 @@
 ---
 aliases: 
 metaTags: >-
-  <meta property="og:title" content="">
+  <meta property="og:title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
   <meta property="og:type" content="website">
 
   <meta property="og:image" content="">
 
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
 
-  <meta property="og:url" content="https://visyond.com/solutions/planning-and-forecasting">
+  <meta property="og:url" content="https://visyond.com/solutions/planning-budgeting-forecasting-software">
 
-  <meta name="title" content="">
+  <meta name="title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
-  <meta name="description" content="">
+  <meta name="description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
 title: Planning and forecasting
 
-
-
-
-
 topTitle: >-
-  Visyond for planning and <span>forecasting</span> something something
+  Turn your Excel into a 
+  </br>
+  <span>Planning and Forecasting</span> machine for team players
 topSubTitle: >-
-  Scenario planning, budgeting and variance analysis have never been easier and more organized.
+   Use your spreadsheet models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
 topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
+topCoverImage: /img/icons/use-cases/use_case_1.svg
 
 
+productTourBlocks:
+  - block:
+    - learnMore:
+      descr: >-
+        Find the key business drivers, visualize their impact on your finances under different scenarios, and make fast, informed decisions.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Focus on what matters
 
+    - learnMore:
+      descr: >-
+        Get ‘what-if’ and risk analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Manage risks and uncertainty
 
+    - learnMore:
+      descr: >-
+        Show stakeholders only what they need to see, and create predictive dashboards for people to play with scenarios, test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’ 
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Effectively communicate scenarios
 
-isStepsVisible: true
-StepsHeader: >-
-      3 Simple Steps to Save Countless Hours
-StepsBlock:
-  - descr: >-
-      Import your spreadsheet or create one in Visyond, turning it into a collaborative platform for predictive dashboards and self-service analysis.</br></br>
-      Complement your existing toolkit (Excel add-ins, BI-tools) for quick and agile business case development, and build a solid foundation for decision making.
-    benefitsList:
-      - text: >-
-          No need to install anything. Visyond works in the browser, on any operating system.
-      - text: >-
-           Fully utilize your Excel modeling experience - Visyond uses the same formulas and syntax.
-      - text: >-
-           Improve your workflows by reducing errors, controlling access, and tracking changes and scenarios.       
-    infoVideo: /video/3 steps/Step 1 - Connect Your Spreadsheet.mp4
-    infoVideoPoster: /video/3 steps/Step 1 - Connect Your Spreadsheet.jpg
-    image: /img/home/step1.png
-    title: 'Import Your Spreadsheet'
-    titlePrefix: '1'
-  - descr: >-
-      Get ready-to-present What-if analysis reports with a few clicks. It’s that simple.</br></br>
-      Deliver reliable insights and reduce the risk of errors.
-    benefitsList:
-      - text: >-    
-          You don’t need to move data across many tools - analyses are in the cloud together with the model, its scenarios and dashboards.
-      - text: >-
-          Both novices and experts can easily analyze data, and build powerful workflows that are difficult and expensive to set up otherwise.
-      - text: >-
-          No-code and no need for maintenance if the spreadsheet changes.
-    infoVideo: /video/3 steps/Step 2 - Analyze with a Few Clicks.mp4
-    infoVideoPoster: /video/3 steps/Step 2 - Analyze with a Few Clicks.jpg      
-    image: /img/home/step2.png  
-    title: 'Understand How Changes Impact Forecasts'
-    titlePrefix: '2'   
-  - descr: >-
-      Create interactive ‘what-if’ dashboards to visualize scenarios and forecasts, powered by your model’s calculations, without exposing the intricacies of the spreadsheet.
-    benefitsList:
-      - text: >-
-          Viewers playing with the numbers on the dashboard can’t break the spreadsheet (or even see it, if you so wish).
-      - text: >-
-          Each stakeholder has a unique view depending on which worksheets and dashboards they are allowed to see.
-      - text: >-
-          Dashboards are secure and always up-to-date visualization layers on top of your spreadsheet, which acts as a calculation engine in the cloud (a single source of truth).             
-    infoVideo: /video/3 steps/Step 3 - Share Insights via Dashboards.mp4
-    infoVideoPoster: /video/Step 3 - Share Insights via Dashboards.jpg    
-    image: /img/home/step4.png
-    title: 'Share Insights via Predictive Dashboards'
-    titlePrefix: '3'  
-
+    - learnMore:
+      descr: >-
+        Ensure that decisions are based on the latest and audited model. Identify errors, data anomalies, and logical inconsistencies. Track changes, data sources, and feedback from stakeholders.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: Improve the accuracy of forecasts
+         
+    blockTitle: Continuous planning and agile decision-making
+    blockDesc: >-
+      Plan and forecast as a team, automate scenario analysis and create interactive 'what-if' visualizations, while keeping the flexibility of a spreadsheet, simplifying data gathering, and protecting sensitive information.
 
 
 

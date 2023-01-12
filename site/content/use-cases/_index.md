@@ -7,7 +7,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
+          Scenario planning, budgeting and forecasting have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/
 
 
@@ -137,7 +137,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
+          Scenario planning, budgeting and forecasting have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/
 
 
@@ -207,7 +207,7 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
+          Scenario planning, budgeting and forecasting have never been easier.
         useCaseURL: /solutions/planning-and-forecasting/  
           
       - useCaseTitle: Presentations for investors

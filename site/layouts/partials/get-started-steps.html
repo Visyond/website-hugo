@@ -1,4 +1,5 @@
 <!-- STEPS TO GET STARTED -->
+{{ with .Site.GetPage "section" "steps" }}
 <section id="getStartedSteps" class="enterV" style="background-color: #fafafa;">
     <div class="container">
         <h2 class="enterV__headline">{{ .Params.StepsHeader | markdownify }}</h2>
@@ -62,4 +63,5 @@
 
       </div>
 </section>
+{{ end }}
 <!-- END: STEPS TO GET STARTED -->
