@@ -185,12 +185,12 @@
 }
 @media screen and (min-width: 1025px){
     .home-hero__half-width-wrap{
-        width: 54%;
+        width: 57%;
         display: inline-block;
     }
     .home-hero__half-width-wrap--image{
         float: right;
-        width: 45%;
+        width: 42%;
         
         &-fullWidth {
             float:none;
@@ -208,7 +208,7 @@
 
 /*titles*/
 .home-hero__title{
-    font-size: 48px; /*34*/
+    font-size: 54px; /*34*/
     line-height: 1.2; /*45*/
     color: #181818; /* #383e4d*/
     font-weight: 900;
