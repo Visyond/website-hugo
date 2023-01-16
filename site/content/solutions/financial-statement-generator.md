@@ -3,27 +3,69 @@ aliases:
   - /features/financial-statements/
   - /features/financial-statement-generator/
 metaTags: >-
-  <meta name="title" content="Generate Financial Statements and Automate Financial Reporting">
+  <meta name="title" content="Generate Financial Statements from Excel">
 
-  <meta name="description" content="Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.">
+  <meta name="description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
 
-  <meta property="og:title" content="Generate Financial Statements and Automate Financial Reporting.">
+  <meta property="og:title" content="Generate Financial Statements from Excel">
 
   <meta property="og:type" content="website">
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Statements 2022.png">
 
-  <meta property="og:description" content="Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.">
+  <meta property="og:description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
 
   <meta property="og:url" content="https://visyond.com/solutions/financial-statement-generator/">
-title: Generate Financial Statements
+
+
+
+title: Generate Financial Statements from Excel
 topTitle: >-
-  Generate Financial Statements and Automate Reporting.</br>
-  <span style="color: #0086ff;">In Minutes</span>.
+  Transform your Excel into <span>financial statements</span>
 topSubTitle: >-
-  Quickly transform your operational financial models into scenario-driven pro-forma financial statements: Balance Sheets, Income and Cash Flow Statements.
+   Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.
 topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
 topVideo: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+topCoverImage: /img/icons/use-cases/use_case_15.svg
+
+
+
+productTourBlocks:
+  - block:
+    - learnMore:
+      descr: >-
+        Simply select rows and columns from your spreadsheet, and Visyond will generate financial statements and calculate ratios, KPIs for financial and management accounting, growth, and changes against previous periods.
+      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+      videoPoster: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
+      title: Generate financial statements
+
+    - learnMore:
+      descr: >-
+        Explore how the financial statements change depending on scenarios and forecasts that you and your team contribute to the central model.
+      video: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Visualize impact of scenarios
+
+    - learnMore:
+      descr: >-
+        If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.
+      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
+      videoPoster: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
+      title: Get actionable insights
+
+    - learnMore:
+      descr: >-
+        Forget about plugs to balance financial statements, updates of depreciation schedules, and other error-prone activities. The statements will also stay up-to-date with the latest changes in the central audited model.
+      video: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
+      title: Reduce errors
+         
+    blockTitle: Always look forward
+    blockDesc: >-
+      Quickly create forward-looking financial statements that are connected to the central model and its scenarios, and visualize how they change under different conditions.
+
+
+
 isStepsVisible: true
 StepsHeader: >-
       Financial Statements in 2 Simple Steps

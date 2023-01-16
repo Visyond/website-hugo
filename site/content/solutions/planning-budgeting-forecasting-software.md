@@ -16,6 +16,8 @@ metaTags: >-
   <meta name="description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
 title: Planning and forecasting
 
+
+
 topTitle: >-
   Turn your Excel into a 
   </br>
@@ -25,6 +27,7 @@ topSubTitle: >-
 topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 topCoverImage: /img/icons/use-cases/use_case_1.svg
+
 
 
 productTourBlocks:
