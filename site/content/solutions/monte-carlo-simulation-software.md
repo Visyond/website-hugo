@@ -3,6 +3,7 @@ aliases:
   - /features/simulations/
   - /features/monte-carlo-simulation-software/
   - /solutions/risk-analysis-and-simulations/
+  - /solutions/monte-carlo-simulation-software-for-mac/
 title: Monte Carlo Simulation Software
 metaTags: >-
   <meta property="og:title" content="Automate Risk Analysis and Monte Carlo Simulations. In Minutes.">
