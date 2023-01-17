@@ -141,12 +141,12 @@ useCaseSection:
         useCaseURL: /solutions/planning-and-forecasting/
 
 
-      - useCaseTitle: Stress-testing
-        useCaseImage: /img/icons/use-cases/use_case_12.svg
-        isVisible: true
-        useCaseDescription: >-
-          Gather assumptions from different sources, and empower your team to visually stress-test scenarios and answer ‘what-if’ questions.
-        useCaseURL: /solutions/data-gathering/ 
+    #   - useCaseTitle: Stress-testing
+    #     useCaseImage: /img/icons/use-cases/use_case_12.svg
+    #     isVisible: true
+    #     useCaseDescription: >-
+    #       Gather assumptions from different sources, and empower your team to visually stress-test scenarios and answer ‘what-if’ questions.
+    #     useCaseURL: /solutions/data-gathering/ 
 
 
       - useCaseTitle: Creating Waterfall charts
