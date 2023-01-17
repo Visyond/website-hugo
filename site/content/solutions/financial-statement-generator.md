@@ -19,7 +19,7 @@ metaTags: >-
 
 
 
-title: Generate Financial Statements from Excel
+title: Generate financial statements from Excel
 topTitle: >-
   Transform your Excel into <span>financial statements</span>
 topSubTitle: >-

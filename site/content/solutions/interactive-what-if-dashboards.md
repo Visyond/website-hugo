@@ -24,7 +24,7 @@ metaTags: >-
 
 
 
-title: Predictive What-if Dashboards for Forecasting
+title: Predictive what-if dashboards
 topTitle: >-
   Turn your Excel into <span>predictive dashboards</span> that tell a story
 topSubTitle: >-
