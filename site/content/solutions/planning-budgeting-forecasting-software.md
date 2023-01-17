@@ -9,7 +9,7 @@ metaTags: >-
 
   <meta property="og:description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
 
-  <meta property="og:url" content="https://visyond.com/solutions/planning-budgeting-forecasting-software">
+  <meta property="og:url" content="https://visyond.com/solutions/planning-budgeting-forecasting-software/">
 
   <meta name="title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
