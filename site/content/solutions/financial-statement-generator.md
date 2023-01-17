@@ -93,36 +93,40 @@ StepsBlock:
     title: 'Generate Financial Statements'
     titlePrefix: '2'
 featuresHeader: From Spreadsheets to Financial Statements
-infoBlockFirst:
-  - benefitsList:
-      - text: >-
-          Automate Balance Sheets, Income Statements and Cash Flow statements - just select the drivers and depreciation parameters and Visyond will do the rest.
-      - text: >-
-          Visyond will automatically calculate financial and management ratios, growth and changes against previous periods.
-      - text: >-
-          The statements will remain up-to-date when you change the numbers in the spreadsheet or the settings.
-      - text: >-
-          If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.
-    descr: >-
-      Forget about plugs to balance financial statements, updates of depreciation schedules, and other error-prone activities.</br></br>
-      Just select relevant rows and columns from your spreadsheet, and Visyond will transform your operating model into Balance Sheets, Income and Cash Flow Statements, ratios and KPIs for financial and management accounting.
-    title: Financial Statement Generator
-    infoVideo: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.mp4
-    infoVideoPoster: >-
-      /video/Auto-generate Financial Statements Driven by Your Model -
-      Visyond.jpg    
-    isVisible: true
-isDemoSectionVisible: true
-demoSection:
-  - demoSectionContent:  
-      - demoSectionSubTitle: Automated Pro-Forma Financial Statements
-        demoSectionImage: /img/demo/Goals Statements Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
-        isVisible: true
-        demoDescription: >-
-          How to create Balance Sheets, Income and Cash Flow Statements in Visyond?
-    demoSectionTitle: Watch Financial Statements in Action
+
+
+# infoBlockFirst:
+#   - benefitsList:
+#       - text: >-
+#           Automate Balance Sheets, Income Statements and Cash Flow statements - just select the drivers and depreciation parameters and Visyond will do the rest.
+#       - text: >-
+#           Visyond will automatically calculate financial and management ratios, growth and changes against previous periods.
+#       - text: >-
+#           The statements will remain up-to-date when you change the numbers in the spreadsheet or the settings.
+#       - text: >-
+#           If the forecasts detect that additional funding is required, Visyond will show how much debt and/or equity you need to raise.
+#     descr: >-
+#       Forget about plugs to balance financial statements, updates of depreciation schedules, and other error-prone activities.</br></br>
+#       Just select relevant rows and columns from your spreadsheet, and Visyond will transform your operating model into Balance Sheets, Income and Cash Flow Statements, ratios and KPIs for financial and management accounting.
+#     title: Financial Statement Generator
+#     infoVideo: >-
+#       /video/Auto-generate Financial Statements Driven by Your Model -
+#       Visyond.mp4
+#     infoVideoPoster: >-
+#       /video/Auto-generate Financial Statements Driven by Your Model -
+#       Visyond.jpg    
+#     isVisible: true
+    
+
+# isDemoSectionVisible: true
+# demoSection:
+#   - demoSectionContent:  
+#       - demoSectionSubTitle: Automated Pro-Forma Financial Statements
+#         demoSectionImage: /img/demo/Goals Statements Thumbnail.jpg
+#         demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
+#         isVisible: true
+#         demoDescription: >-
+#           How to create Balance Sheets, Income and Cash Flow Statements in Visyond?
+#     demoSectionTitle: Watch Financial Statements in Action
 ---
 
