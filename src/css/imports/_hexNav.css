@@ -29,7 +29,7 @@
   }
 
 & > ul > li {
-      padding: 0.25em 1em;
+      padding: 0.15em 0.5em;
 
 &:not(:last-child) {
      border-bottom: none;
@@ -70,6 +70,7 @@
     position: relative;
     height: 3em;
     font-weight: 600;
+    text-align: center;
 
 
     & > span > img {
