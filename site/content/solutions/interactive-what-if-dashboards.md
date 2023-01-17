@@ -3,8 +3,8 @@ aliases:
   - /features/interactive-presentations/
   - /features/interactive-presentation-software/
   - /solutions/interactive-presentation-software/
-  - /solutions/spreadsheet-calculators/
   - /solutions/presentation/
+  - /solutions/spreadsheet-calculators/
   - /solutions/automate-excel-reports-and-presentation/
   - /solutions/interactive-reports-and-dashboards/
   - /solutions/create-charts-online/
@@ -15,13 +15,13 @@ metaTags: >-
 
   <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Dashboards 2022.png">
 
-  <meta property="og:description" content="Visualize spreadsheets as interactive 'what-if' dashboards connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'">
+  <meta property="og:description" content="Visualize spreadsheets as predictive 'what-if' dashboards and interactive calculators connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'">
 
   <meta property="og:url" content="https://visyond.com/solutions/interactive-what-if-dashboards/">
 
   <meta name="title" content="Turn your Excel into predictive dashboards that tell a story">
 
-  <meta name="description" content="Visualize spreadsheets as interactive 'what-if' dashboards connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'">
+  <meta name="description" content="Visualize spreadsheets as predictive 'what-if' dashboards and interactive calculators connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'">
 
 
 
@@ -29,7 +29,7 @@ title: Predictive What-if Dashboards for Forecasting
 topTitle: >-
   Turn your Excel into <span>predictive dashboards</span> that tell a story
 topSubTitle: >-
-  Visualize spreadsheets as interactive 'what-if' dashboards connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'
+  Visualize spreadsheets as predictive 'what-if' dashboards and interactive calculators connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'
 topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
 topCoverImage: /img/icons/use-cases/use_case_8.svg
