@@ -37,7 +37,7 @@ productTourBlocks:
         Simply select rows and columns from your spreadsheet, and Visyond will generate financial statements and calculate ratios, KPIs for financial and management accounting, growth, and changes against previous periods.
       video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4
       videoPoster: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
-      title: Generate financial statements
+      title: Automate financial statements
 
     - learnMore:
       descr: >-
