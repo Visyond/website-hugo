@@ -238,7 +238,7 @@ productTourBlocks:
         Adapt visualizations to your teammates’ needs and empower them to get insights from the central model without collaboration chaos or interfering with each other.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Personalize insights
+      title: Personalize visualizations
 
     blockTitle: Get answers in minutes
     blockDesc: >-

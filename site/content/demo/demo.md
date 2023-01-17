@@ -14,7 +14,7 @@ metaTags: >-
 topTitle: View demo
 topSubTitle: >-
   Explore the short demo videos below, and schedule an onboarding call if you'd us to help you get started.
-topButtonText: 'Onboarding Call'
+topButtonText: 'Onboarding call'
 topButtonLink: '#request'
 demoSection:
   - demoSectionContent:

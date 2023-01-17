@@ -46,10 +46,10 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Get collaborative analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
-      video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
-      videoPoster: /video/grid_thumbnail.jpg
-      title: Automate what-if and risk analysis
+        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly create interactive visualizations and online calculators for your team.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: 'Keep the flexibility of a spreadsheet'
 
     - learnMore:
       descr: >-
@@ -64,7 +64,14 @@ productTourBlocks:
       video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Show people only what matters to them
-         
+ 
+    - learnMore:
+      descr: >-
+        Get collaborative analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
+      video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
+      title: Automate what-if and risk analysis 
+ 
     blockTitle: Effectively communicate insights
     blockDesc: >-
       Empower your team to get answers to their 'what-if' questions, and visualize scenarios from the central model without wasting time on updating the model and visualizations.

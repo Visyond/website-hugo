@@ -58,7 +58,14 @@ productTourBlocks:
       video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Show people only what matters to them
-         
+
+    - learnMore:
+      descr: >-
+        Get collaborative analysis tools that anyone on the team can easily use. No code, no macros — just press a button and get results.
+      video: /video/Visualize the Impact of Important Business Drivers - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
+      title: Automate what-if and risk analysis
+
     blockTitle: Bring your numbers to life
     blockDesc: >-
       Visualize spreadsheets as interactive online calculators for testing scenarios, answering 'what-if' questions on the spot, or presenting the value of your offering to clients and prospects.
