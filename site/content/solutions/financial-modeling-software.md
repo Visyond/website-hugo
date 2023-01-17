@@ -18,7 +18,9 @@ metaTags: >-
   <meta name="title" content="Make Better Decisions with Financial Modeling Software. In Minutes.">
 
   <meta name="description" content="Reduce the risk of errors, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.">
-title: Financial Modeling Software
+
+
+title: Financial modeling software
 topTitle: >-
   Make Better Decisions with Financial Modeling Software.</br>
   <span style="color: #0086ff;">In Minutes</span>.
@@ -26,6 +28,47 @@ topSubTitle: >-
   Reduce the risk of errors, automate scenarios and analytics, and present interactive dashboards in a single financial modeling platform.
 topVideoThumbnail:
 topVideo:
+
+
+
+productTourBlocks:
+  - block:
+    - learnMore:
+      descr: >-
+        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly analyze the model, its scenarios, and create interactive visualizations for your team.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: 'Keep the flexibility of a spreadsheet'
+
+
+    - learnMore:
+      descr: >-
+        Scenarios, analyses, and dashboards are connected to the central spreadsheet and stored in one place — easy to track, manage access to and share with others.
+      video: /video/Track What Is Happening in Your Projects - Visyond.mp4
+      videoPoster: /video/grid_thumbnail.jpg
+      title: Establish a single source of truth
+
+
+    - learnMore:
+      descr: >-
+        Track changes, improve your model’s reliability by separating logic from data and prevent people from corrupting it. When cells are edited, a new data layer is created for each editor, and old values are preserved.
+      video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Improve accountability 
+
+    - learnMore:
+      descr: >-
+        Focus on what’s important, reduce information overload, and share only specific parts of the model with people. For example, predictive dashboards for decision-makers or data entry worksheets for contributors.
+      video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Show people only what matters to them
+
+         
+    blockTitle: Be in control
+    blockDesc: >-
+      Boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you control.
+
+
 
 featuresHeader: Be Productive, Insightful and in Control
 infoBlockFirst:
@@ -138,33 +181,36 @@ infoBlockFirst:
       /video/Auto-generate Financial Statements Driven by Your Model -
       Visyond.jpg    
     isVisible: true
-isDemoSectionVisible: true
-demoSection:
-  - demoSectionContent:      
-      - demoSectionSubTitle: Sensitivies and What-if Analysis
-        demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
-        isVisible: true
-        demoDescription: >-
-          Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations with a few clicks.
-      - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
-        demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
-        isVisible: true
-        demoDescription: >-
-          Create and analyze scenarios on-the-fly, manage and collaborate on assumptions.        
-      - demoSectionSubTitle: Interactive 'What-if' Dashboards
-        demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
-        isVisible: true
-        demoDescription: >-
-          Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
-      - demoSectionSubTitle: Automated Pro-Forma Financial Statements
-        demoSectionImage: /img/demo/Goals Statements Thumbnail.jpg
-        demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
-        isVisible: true
-        demoDescription: >-
-          How to create Balance Sheets, Income and Cash Flow Statements in Visyond?          
-    demoSectionTitle: Watch Visyond in Action     
+
+
+
+# isDemoSectionVisible: true
+# demoSection:
+#   - demoSectionContent:      
+#       - demoSectionSubTitle: Sensitivies and What-if Analysis
+#         demoSectionImage: /img/demo/Goals Autoanalysis Thumbnail.jpg
+#         demoVideoLink: 'https://www.youtube.com/embed/ALUOmXgwfNA'
+#         isVisible: true
+#         demoDescription: >-
+#           Get presentation-ready Sensitivities, Scenarios, and Monte Carlo Simulations with a few clicks.
+#       - demoSectionSubTitle: Scenario Planning, Budgeting & Forecasting
+#         demoSectionImage: /img/demo/Goals Scenarios Thumbnail.jpg
+#         demoVideoLink: 'https://www.youtube.com/embed/wmhQj1o0DFo'
+#         isVisible: true
+#         demoDescription: >-
+#           Create and analyze scenarios on-the-fly, manage and collaborate on assumptions.        
+#       - demoSectionSubTitle: Interactive 'What-if' Dashboards
+#         demoSectionImage: /img/demo/Goals Dashboards Thumbnail.jpg
+#         demoVideoLink: 'https://www.youtube.com/embed/1AQ8urksVTg'
+#         isVisible: true
+#         demoDescription: >-
+#           Create interactive, spreadsheet-driven dashboards, and empower collaborators to test scenarios without the risk of breaking the model.
+#       - demoSectionSubTitle: Automated Pro-Forma Financial Statements
+#         demoSectionImage: /img/demo/Goals Statements Thumbnail.jpg
+#         demoVideoLink: 'https://www.youtube.com/embed/etjj39olxko'
+#         isVisible: true
+#         demoDescription: >-
+#           How to create Balance Sheets, Income and Cash Flow Statements in Visyond?          
+#     demoSectionTitle: Watch Visyond in Action     
 ---
 
