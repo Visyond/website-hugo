@@ -56,10 +56,17 @@ productTourBlocks:
     - learnMore:
       descr: >-
         Forget about plugs to balance financial statements, updates of depreciation schedules, and other error-prone activities. The statements will also stay up-to-date with the latest changes in the central audited model.
+      video: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.mp4 
+      videoPoster: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
+      title: Reduce errors
+
+    - learnMore:
+      descr: >-
+        Ensure that financial statements are based on the latest and audited model. Identify errors, data anomalies, and logical inconsistencies. Track changes, data sources, and feedback from stakeholders.
       video: /video/Understand Model Structure, Detect Errors and Anomalies - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
-      title: Reduce errors
-         
+      title: Improve the accuracy of data 
+
     blockTitle: Always look forward
     blockDesc: >-
       Quickly create forward-looking financial statements that are connected to the central model and its scenarios, and visualize how they change under different conditions.
