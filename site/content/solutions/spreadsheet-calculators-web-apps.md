@@ -20,7 +20,7 @@ metaTags: >-
 
 title: Online spreadsheet calculators and web apps
 topTitle: >-
-  Turn your Excel into <span>online calculators and web apps</span>
+  Turn your Excel into <span>online calculators</span> and <span>web apps</span>
 topSubTitle: >-
   Create no-code online calculators and web apps using the familiar syntax of Excel, helping your team to get insights from the central model and answer 'what-if' questions.
 topVideoThumbnail: /video/grid_thumbnail.jpg
