@@ -62,7 +62,7 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Show stakeholders only what they need to see, and create predictive dashboards for people to play with scenarios, test their own assumptions and forecasts so they will be prepared for ‘what wilPersonalize insightsl happen if…’ 
+        Show stakeholders only what they need to see, and create predictive dashboards for people to play with scenarios, test their own assumptions and forecasts so they will be prepared for ‘what will happen if…’ 
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
       title: Effectively communicate insights
