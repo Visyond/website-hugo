@@ -2,19 +2,16 @@
 aliases: 
 metaTags: >-
   <meta property="og:title" content="Create insightful charts from your Excel data like a pro">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="">
-
-  <meta property="og:description" content="Easily create Waterfall charts and other types of advanced and simple graphs, and use them in interactive reports that are connected to the central model, its scenarios and analyses.">
-
-  <meta property="og:url" content="https://visyond.com/solutions/create-charts">
-
   <meta name="title" content="Create insightful charts from your Excel data like a pro">
-
+  
+  <meta property="og:description" content="Easily create Waterfall charts and other types of advanced and simple graphs, and use them in interactive reports that are connected to the central model, its scenarios and analyses.">
   <meta name="description" content="Easily create Waterfall charts and other types of advanced and simple graphs, and use them in interactive reports that are connected to the central model, its scenarios and analyses.">
+  
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Charts 2023.png">
 
+  <meta property="og:url" content="https://visyond.com/solutions/create-charts/">
+  
+  <meta property="og:type" content="website">
 
 
 

@@ -2,18 +2,16 @@
 aliases: 
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into an insights machine to optimize revenues and reduce costs">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="">
+  <meta name="title" content="Turn your Excel into an insights machine to optimize revenues and reduce costs">
 
   <meta property="og:description" content="Quickly identify what drives revenues, costs, and other decision metrics, find opportunities for optimization, analyze scenarios and risks, and communicate insights with predictive dashboards.">
+  <meta name="description" content="Quickly identify what drives revenues, costs, and other decision metrics, find opportunities for optimization, analyze scenarios and risks, and communicate insights with predictive dashboards.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Optimizations 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/revenue-optimization-cost-reduction/">
 
-  <meta name="title" content="Turn your Excel into an insights machine to optimize revenues and reduce costs">
-
-  <meta name="description" content="Quickly identify what drives revenues, costs, and other decision metrics, find opportunities for optimization, analyze scenarios and risks, and communicate insights with predictive dashboards.">
+  <meta property="og:type" content="website">
 
 
 

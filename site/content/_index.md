@@ -1,36 +1,29 @@
 ---
 aliases: 
-  - /solutions/share-spreadsheets-and-presentations-online/
   - /solutions/compatibility-with-excel-and-powerpoint/
-  - /solutions/track-changes-from-an-excel-file/
-  - /solutions/collaborative-decision-making-software/
-  - /solutions/spreadsheet-collaboration-software/
-  - /solutions/collaboration/
-  - /solutions/multidimensional-olap-analysis-online/
-  - /solutions/risk-management-software-for-banks/
   - /product-tour/
   - /solutions/
   - /features/
   - /why-visyond/
   - /about/
   - /services/
+metaTags: >-
+  <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
+  <meta name="title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
+
+  
+  <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
+  <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
+  
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2023.png">
+
+  <meta property="og:url" content="https://visyond.com">
+  
+  <meta property="og:type" content="website">  
+
 
 
 title: Turn your Excel into an insights machine.
-
-
-
-metaTags: >-
-  <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Thumbnail - Homepage 2022.png">
-  <meta property="og:description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
-  <meta property="og:url" content="https://visyond.com">
-  <meta name="description" content="Visualize your spreadsheets as predictive dashboards, automate financial statements, and collaborate on what-if and risk analyses while protecting the model, sensitive data, and controlling exactly how much each and every person can interact with it.">
-
-
-
-
 topTitle: >-
   Turn your Excel into an insights machine for
   </br>

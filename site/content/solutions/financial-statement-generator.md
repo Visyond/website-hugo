@@ -3,23 +3,21 @@ aliases:
   - /features/financial-statements/
   - /features/financial-statement-generator/
 metaTags: >-
-  <meta name="title" content="Generate Financial Statements from Excel">
-
-  <meta name="description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
-
-  <meta property="og:title" content="Generate Financial Statements from Excel">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Statements 2022.png">
+  <meta property="og:title" content="Transform your Excel into financial statements">
+  <meta name="title" content="Transform your Excel into financial statements">
 
   <meta property="og:description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
+  <meta name="description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Statements 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/financial-statement-generator/">
 
+  <meta property="og:type" content="website">
 
 
-title: Generate financial statements from Excel
+
+title: Transform your Excel into financial statements
 topTitle: >-
   Transform your Excel into <span>financial statements</span>
 topSubTitle: >-

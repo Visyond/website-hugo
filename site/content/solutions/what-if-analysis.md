@@ -11,20 +11,19 @@ aliases:
   - /features/tornado/
   - /features/business-impact-analysis-tool/
   - /solutions/business-impact-analysis-tool/
+  - /solutions/multidimensional-olap-analysis-online/  
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into a what-if analysis machine for team players">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - What-if 2022.png">
+  <meta name="title" content="Turn your Excel into a what-if analysis machine for team players">
 
   <meta property="og:description" content="Be prepared for any possibility with a collaborative scenario, sensitivity and risk analysis solution that anyone on the team can easily use.">
+  <meta name="description" content="Be prepared for any possibility with a collaborative scenario, sensitivity and risk analysis solution that anyone on the team can easily use.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - What-if 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/what-if-analysis/">
 
-  <meta name="title" content="Turn your Excel into a what-if analysis machine for team players">
-
-  <meta name="description" content="Be prepared for any possibility with a collaborative scenario, sensitivity and risk analysis solution that anyone on the team can easily use.">
+  <meta property="og:type" content="website">
 
 
 

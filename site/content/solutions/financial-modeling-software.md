@@ -6,18 +6,17 @@ aliases:
   - /solutions/modeling/
 metaTags: >-
   <meta property="og:title" content="Get superpowers with an Excel-like financial modeling software">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Modeling 2022.png">
+  <meta name="title" content="Get superpowers with an Excel-like financial modeling software">
 
   <meta property="og:description" content="Improve every aspect of decision-making — from building and auditing the model, to collecting data and managing scenarios, to analyzing sensitivities and risks, to sharing insights with stakeholders.">
+  <meta name="description" content="Improve every aspect of decision-making — from building and auditing the model, to collecting data and managing scenarios, to analyzing sensitivities and risks, to sharing insights with stakeholders.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Modeling 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/solutions/financial-modeling-software/">
 
-  <meta name="title" content="Get superpowers with an Excel-like financial modeling software">
+  <meta property="og:type" content="website">
 
-  <meta name="description" content="Improve every aspect of decision-making — from building and auditing the model, to collecting data and managing scenarios, to analyzing sensitivities and risks, to sharing insights with stakeholders.">
 
 
 title: Financial modeling software

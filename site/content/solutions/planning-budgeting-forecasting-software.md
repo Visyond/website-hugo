@@ -2,28 +2,26 @@
 aliases: 
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into a Planning and Forecasting machine for team players">
+  <meta name="title" content="Turn your Excel into a Planning and Forecasting machine for team players">
 
-  <meta property="og:type" content="website">
+  <meta property="og:description" content="Use your Excel models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.">
+  <meta name="description" content="Use your Excel models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards..">
 
-  <meta property="og:image" content="">
-
-  <meta property="og:description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Planning 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/planning-budgeting-forecasting-software/">
 
-  <meta name="title" content="Turn your Excel into a Planning and Forecasting machine for team players">
+  <meta property="og:type" content="website">
 
-  <meta name="description" content="Keep using your Excel models and help teams align forecasts with strategic goals, providing them with predictive dashboards, and improving the accuracy of your planning.">
+
+
 title: Planning and forecasting
-
-
-
 topTitle: >-
   Turn your Excel into a 
   </br>
   <span>Planning and Forecasting</span> machine for team players
 topSubTitle: >-
-   Use your spreadsheet models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
+   Use your Excel models and help teams align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
 topVideoThumbnail: /video/grid_thumbnail.jpg
 topVideo: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
 topCoverImage: /img/icons/use-cases/use_case_1.svg

@@ -3,18 +3,16 @@ aliases:
   - /solutions/spreadsheet-calculators/
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into online calculators and web apps">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Dashboards 2022.png">
-
-  <meta property="og:description" content="Create no-code online calculators and web apps using the familiar syntax of Excel, helping your team to get insights from the central model and answer 'what-if' questions.">
-
-  <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-calculators/">
-
   <meta name="title" content="Turn your Excel into online calculators and web apps">
 
+  <meta property="og:description" content="Create no-code online calculators and web apps using the familiar syntax of Excel, helping your team to get insights from the central model and answer 'what-if' questions.">
   <meta name="description" content="Create no-code online calculators and web apps using the familiar syntax of Excel, helping your team to get insights from the central model and answer 'what-if' questions.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Calculators 2023.png">
+
+  <meta property="og:url" content="https://visyond.com/solutions/spreadsheet-calculators-web-apps/">
+
+  <meta property="og:type" content="website">
 
 
 

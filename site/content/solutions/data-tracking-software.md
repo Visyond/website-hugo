@@ -1,19 +1,23 @@
 ---
-aliases: /solutions/governance/
+aliases: 
+  - /solutions/spreadsheet-collaboration-software/
+  - /solutions/governance/
+  - /solutions/collaboration/
+  - /solutions/collaborative-decision-making-software/
+  - /solutions/track-changes-from-an-excel-file/
+  - /solutions/share-spreadsheets-and-presentations-online/  
 metaTags: >-
-  <meta property="og:title" content="Improve Data Tracking and Spreadsheet Collaboration">
+  <meta property="og:title" content="Turn your Excel into an agile decision-making machine for teams">
+  <meta name="title" content="Turn your Excel into an agile decision-making machine for teams">
 
-  <meta property="og:type" content="website">
+  <meta property="og:description" content="Boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you fully control.">
+  <meta name="description" content="Boost your team’s capabilities to get insights from and contribute information to the central spreadsheet in a secure and organized way that you fully control.">
 
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Tracking 2022.png">
-
-  <meta property="og:description" content="Track changes and control information flows in spreadsheet models. Turn scenario planning and forecasting into a collaborative and error-free experience.">
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Tracking 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/data-tracking-software/">
 
-  <meta name="title" content="Improve Data Tracking and Spreadsheet Collaboration">
-
-  <meta name="description" content="Track changes and control information flows in spreadsheet models. Turn scenario planning and forecasting into a collaborative and error-free experience.">
+  <meta property="og:type" content="website">
 
 
 
