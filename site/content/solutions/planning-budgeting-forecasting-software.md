@@ -59,7 +59,14 @@ productTourBlocks:
       video: /video/Track What Is Happening in Your Projects - Visyond.mp4
       videoPoster: '/video/grid_thumbnail.jpg'
       title: Improve the accuracy of forecasts
-         
+
+    - learnMore:
+      descr: >-
+        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly analyze the model, its scenarios, and create interactive visualizations for your team.
+      video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
+      videoPoster: '/video/grid_thumbnail.jpg'
+      title: 'Keep the flexibility of a spreadsheet'
+
     blockTitle: Continuous planning and agile decision-making
     blockDesc: >-
       Plan and forecast as a team, automate scenario analysis and create interactive 'what-if' visualizations, while keeping the flexibility of a spreadsheet, simplifying data gathering, and protecting sensitive information.
