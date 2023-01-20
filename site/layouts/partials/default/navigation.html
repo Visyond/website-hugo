@@ -1,7 +1,7 @@
 <nav class="hexNav">
     <ul class="hexNav__list">
         <li class="hexNav__item">
-            <a href="#solutions-toggle" class="hexNav__link"><span>Solutions</span></a>
+            <a href="#solutions-toggle" class="hexNav__link"><span>Use-cases</span></a>
             {{ with .Site.GetPage "section" "navigation" }}
                 <div class="dropdown-menu-wrap">
                     <div id="solutions-toggle" class="dropdown-toggle dropdown-toggle--multicol">
@@ -43,6 +43,15 @@
             {{end}}
         </li>
 
+
+        <li class="hexNav__item">
+            <a href="/#productTour" class="hexNav__link"><span>Product</span></a>
+        </li>
+
+        <li class="hexNav__item">
+            <a href="/pricing/" class="hexNav__link"><span>Pricing</span></a>
+        </li>        
+
         <li class="hexNav__item">
             <a href="#resources-toggle" class="hexNav__link"><span>Resources</span></a>
             <div class="dropdown-menu-wrap">
@@ -61,9 +70,6 @@
         </li>
 
         
-        <li class="hexNav__item">
-            <a href="/pricing/" class="hexNav__link"><span>Pricing</span></a>
-        </li>
     </ul>
 
     <ul class="homepage__user-hexNav-list">

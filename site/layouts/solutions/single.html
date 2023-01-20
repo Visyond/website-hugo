@@ -5,11 +5,10 @@
 
 	{{ partial "default/clientLogos" . }}
 
-	{{ partial "get-started-steps" . }}
+    {{ partial "product-tour" . }} 
 
-	{{ partial "default/demo-strip-CTA" . }} 
-		
-	<!-- ENTER V SECTION -->
+    <!-- ENTER V SECTION -->
+    <!--
 	<section class="enterV" style="background-image: url('/img/home/blueRectangle.svg'), url('/img/home/grayRectangle.svg');">
 		<div class="container">
 			<h2 class="enterV__headline">
@@ -25,11 +24,12 @@
 			</ul>
 		</div>
 	</section>
+    -->
 	<!-- END: ENTER V SECTION -->
 
+	{{ partial "default/demo-strip-CTA" . }} 
 
-	{{ partial "demo-videos" . }}
-
+    {{ partial "get-started-steps" . }}
 
 	{{ partial "getStarted" . }}
 

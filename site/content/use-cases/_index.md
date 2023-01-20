@@ -7,16 +7,16 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
-        useCaseURL: /solutions/planning-and-forecasting/
+          Align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
+        useCaseURL: /solutions/planning-budgeting-forecasting-software/
 
 
       - useCaseTitle: Investment calculators
         useCaseImage: /img/icons/use-cases/use_case_2.svg
         isVisible: true
         useCaseDescription: >-
-          Visualize decision metrics from your spreadsheet and visually test scenarios on predictive 'what-if' dashboards.
-        useCaseURL: /solutions/investment-calculators/   
+          Create no-code online calculators and web apps using the familiar syntax of Excel, helping your team to answer ‘what-if’ questions.
+        useCaseURL: /solutions/spreadsheet-calculators-web-apps/   
 
 
       - useCaseTitle: Sharing insights on investment strategy
@@ -24,7 +24,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Empower stakeholders to quickly get insights and test their own scenarios with predictive dashboards connected to the central model.
-        useCaseURL: /solutions/sharing-investment-insights/   
+        useCaseURL: /solutions/interactive-what-if-dashboards/ 
 
 
       - useCaseTitle: Investment and valuation analysis
@@ -32,14 +32,14 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Find top profitability drivers, explore sensitivities, run simulations and manage risks and uncertainty. In a few clicks.
-        useCaseURL: /solutions/investment-and-valuation-analysis/
+        useCaseURL: /solutions/what-if-analysis/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
           Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.   
-        useCaseURL: /solutions/revenue-optimization/ 
+        useCaseURL: /solutions/revenue-optimization-cost-reduction/
 
         
       - useCaseTitle: Gathering data from different sources
@@ -47,7 +47,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Consolidate data points and assumptions from departments, business units or portfolio companies into the central predictive model.
-        useCaseURL: /solutions/data-gathering/
+        useCaseURL: /solutions/data-tracking-software/
 
     useCaseSectionTitle: >-
           Finance & Investment
@@ -61,7 +61,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Simplify forecasting and empower stakeholders to test their own scenarios. Track and collect data into the central model.
-        useCaseURL: /solutions/sales-and-growth-forecasting/  
+        useCaseURL: /solutions/planning-budgeting-forecasting-software/
 
 
       - useCaseTitle: Pricing & negotiation calculators
@@ -69,7 +69,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Demonstrate the value to your leads, and provide your clients with personalized and interactive forecasts.
-        useCaseURL: /solutions/pricing-and-negotiation-support-calculators/   
+        useCaseURL: /solutions/spreadsheet-calculators-web-apps/  
 
 
       - useCaseTitle: Marketing campaign planning
@@ -77,30 +77,21 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Plan campaigns and their impact on costs, revenues and other decision metrics. Visually compare scenarios and simplify budget vs actual.
-        useCaseURL: /solutions/marketing-campaign-planning/
+        useCaseURL: /solutions/planning-budgeting-forecasting-software/
 
       - useCaseTitle: KPI and performance presentations
         useCaseImage: /img/icons/use-cases/use_case_10.svg
         isVisible: true
         useCaseDescription: >-
           Securely share insightful presentations with your team, clients and other stakeholders, exposing only the information they need to see.   
-        useCaseURL: /solutions/kpi-and-performance-presentations/
-
-
-      - useCaseTitle: Insightful visualizations for decision-makers
-        useCaseImage: /img/icons/use-cases/use_case_4.svg
-        isVisible: true
-        useCaseDescription: >-
-          Present your insights, and empower decision-makers to interact with the central model in a way you didn’t know was possible.
-        useCaseURL: /solutions/insightful-visualizations/
-
+        useCaseURL: /solutions/interactive-what-if-dashboards/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
           Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.  
-        useCaseURL: /solutions/revenue-optimization/   
+        useCaseURL: /solutions/revenue-optimization-cost-reduction/ 
 
     useCaseSectionTitle: >-
           Marketing & Sales
@@ -114,7 +105,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Accelerate business case development while minimizing errors, and empower your team and clients to get insights and contribute information.
-        useCaseURL: /solutions/business-cases-development/   
+        useCaseURL: /solutions/financial-modeling-software/ 
 
 
       - useCaseTitle: Investment and risk analysis
@@ -122,7 +113,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, run simulations, identify risks, and do in minutes what takes days for others.
-        useCaseURL: /solutions/investments-and-risks-analysis/   
+        useCaseURL: /solutions/what-if-analysis/
 
 
       - useCaseTitle: Insightful visualizations for clients
@@ -130,15 +121,15 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Present your insights, and empower stakeholders to interact with the central model in a way you didn’t know was possible.
-        useCaseURL: /solutions/insightful-visualizations/
+        useCaseURL: /solutions/interactive-what-if-dashboards/
 
 
       - useCaseTitle: Scenario planning and forecasting
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
-        useCaseURL: /solutions/planning-and-forecasting/
+          Align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
+        useCaseURL: /solutions/planning-budgeting-forecasting-software/
 
 
 #     - useCaseTitle: Stress-testing
@@ -153,8 +144,8 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_13.svg
         isVisible: true
         useCaseDescription: >-
-          Easily create and share Waterfall charts — and many others — that are connected to the central model, its assumptions and analyses.
-        useCaseURL: /solutions/create-waterfall-charts/
+          Easily create and share always up-to-date charts that are connected to the central model, its scenarios, analyses and dashboards.
+        useCaseURL: /solutions/create-charts/
 
 
       - useCaseTitle: Protecting your models and IP
@@ -162,7 +153,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Protect sensitive data and proprietary modeling logic, and shield people from information overload by sharing only specific parts of your model.
-        useCaseURL: /solutions/what-if-analysis/
+        useCaseURL: /solutions/data-tracking-software/
 
 
       - useCaseTitle: Generate financial statements
@@ -178,7 +169,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations. 
-        useCaseURL: /solutions/revenue-optimization/   
+        useCaseURL: /solutions/revenue-optimization-cost-reduction/
 
 
     useCaseSectionTitle: >-
@@ -194,7 +185,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Be your own fractional CFO or boost their powers with automated tools designed to help teams make better decisions, faster.
-        useCaseURL: /solutions/cfo-powers/   
+        useCaseURL: /solutions/financial-modeling-software/
 
       - useCaseTitle: Generate financial statements
         useCaseImage: /img/icons/use-cases/use_case_15.svg
@@ -207,29 +198,29 @@ useCaseSection:
         useCaseImage: /img/icons/use-cases/use_case_1.svg
         isVisible: true
         useCaseDescription: >-
-          Scenario planning, budgeting and variance analysis have never been easier.
-        useCaseURL: /solutions/planning-and-forecasting/  
+          Align forecasts with strategic goals, improve the accuracy of your planning, and communicate insights with predictive dashboards.
+        useCaseURL: /solutions/planning-budgeting-forecasting-software/
           
       - useCaseTitle: Presentations for investors
         useCaseImage: /img/icons/use-cases/use_case_8.svg
         isVisible: true
         useCaseDescription: >-
           Create interactive presentations for stakeholders to visualize forecasts, track goals & performance, and test scenarios in a way you didn’t know was possible.
-        useCaseURL: /solutions/presentations-for-investors/
+        useCaseURL: /solutions/interactive-what-if-dashboards/
 
       - useCaseTitle: Insightful visualizations for teams
         useCaseImage: /img/icons/use-cases/use_case_4.svg
         isVisible: true
         useCaseDescription: >-
           Present your insights, and empower teams to interact with the central model in a way you didn’t know was possible.
-        useCaseURL: /solutions/insightful-visualizations/
+        useCaseURL: /solutions/interactive-what-if-dashboards/
 
       - useCaseTitle: Revenue optimization and cost reduction
         useCaseImage: /img/icons/use-cases/use_case_6.svg
         isVisible: true
         useCaseDescription: >-
           Easily identify what drives revenues, costs and other decision metrics, and find opportunities for optimizations.
-        useCaseURL: /solutions/revenue-optimization/   
+        useCaseURL: /solutions/revenue-optimization-cost-reduction/
 
     useCaseSectionTitle: >-
           Small Businesses
@@ -243,35 +234,35 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Simplify scenario modeling and data gathering, empower others to contribute assumptions without the risk of breaking the model, and protect sensitive data.
-        useCaseURL: /solutions/financial-modeling-software/      
+        useCaseURL: /solutions/financial-modeling-software/    
 
       - useCaseTitle: Spreadsheet audit
         useCaseImage: /img/icons/use-cases/use_case_17.svg
         isVisible: true
         useCaseDescription: >-
           Get insights on your model’s structure, scenarios and assumptions. Identify root causes of errors, data anomalies, and logical inconsistencies. 
-        useCaseURL: /solutions/audit-models-and-reduce-errors/   
+        useCaseURL: /solutions/financial-modeling-software/  
 
       - useCaseTitle: What-if and risk analysis
         useCaseImage: /img/icons/use-cases/use_case_21.svg
         isVisible: true
         useCaseDescription: >-
           Automate what-if analysis, identify risks with Monte Carlo simulations, and do in minutes what takes days for others.
-        useCaseURL: /solutions/monte-carlo-simulation-software/       
+        useCaseURL: /solutions/what-if-analysis/     
 
       - useCaseTitle: Insightful visualizations for stakeholders
         useCaseImage: /img/icons/use-cases/use_case_4.svg
         isVisible: true
         useCaseDescription: >-
           Present your insights, and empower stakeholders to interact with the central model in a way you didn’t know was possible.
-        useCaseURL: /solutions/insightful-visualizations/
+        useCaseURL: /solutions/interactive-what-if-dashboards/
 
       - useCaseTitle: Creating charts
         useCaseImage: /img/icons/use-cases/use_case_19.svg
         isVisible: true
         useCaseDescription: >-
-          Easily create and share always up-to-date charts that are connected to the central model, its assumptions and analyses.
-        useCaseURL: /solutions/create-charts/   
+          Easily create and share always up-to-date charts that are connected to the central model, its scenarios, analyses and dashboards.
+        useCaseURL: /solutions/create-charts/ 
 
       - useCaseTitle: Pro-forma financial statements
         useCaseImage: /img/icons/use-cases/use_case_15.svg
@@ -285,7 +276,7 @@ useCaseSection:
         isVisible: true
         useCaseDescription: >-
           Protect sensitive data and proprietary modeling logic, and shield people from information overload by sharing only specific parts of your model.
-        useCaseURL: /solutions/what-if-analysis/   
+        useCaseURL: /solutions/financial-modeling-software/
 
     useCaseSectionTitle: >-
           Excel Modeling
