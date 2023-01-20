@@ -144,19 +144,17 @@
     box-shadow: 0 0 10px 1px rgb(228 228 228 / 55%);
     padding: 20px;
     transition: all 0.2s ease-out;
-    min-height: 400px!important; /* TODO: change to 460px when buttons are added back */
+    min-height: 460px!important;
 
-    /* TODO: Add this style back when solution pages are ready */
-    /* &:hover {
+    
+    &:hover {
       box-shadow: 0 0 10px 1px #dfdfdf;
-    } */
+    }
 }
 
-
-/* TODO: Add this style back when solution pages are ready */
-/* .content-card:hover .content-card__title {
+.content-card:hover .content-card__title {
     color: #0086ff;
-} */
+}
 
 
 .content-card:hover .button-primary {
@@ -171,7 +169,7 @@
 }
 
 .content-card .button-primary {
-    padding: 10px 12px!important;
+    padding: 10px!important;
     border: none;
     color: #0086ff;
     background: #fafafa;
@@ -211,7 +209,7 @@
     line-height: 1.44;
     color: #181818;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     transition: opacity 0.2s ease-in-out;
     align-self: center;
     

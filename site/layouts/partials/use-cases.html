@@ -24,18 +24,7 @@
                         {{ range $list := .useCaseSectionContent }}   
                         {{ if (eq .isVisible true)}}
 
-
-                            <div class="content-card"> 
-                                <img data-lazy="{{ .useCaseImage }}" alt="{{ .useCaseTitle }}" class="content-card__img">
-                                
-                                <div class="content-card__title">{{ .useCaseTitle }}</div>
-                                <div class="content-card_description"> {{ .useCaseDescription | markdownify }}</div>
-
-                            </div>
-
-                            <!-- TODO: Uncomment the block below and remove the <div> block above when solution pages are ready -->
-
-                            <!-- <a target="_blank"
+                            <a target="_blank"
                             {{ if .useCaseURL }}
                             href="{{ .useCaseURL }}"
                             {{ end }} 
@@ -53,7 +42,7 @@
                                     </div>
                                     {{ end }}
                                 </div>
-                            </a> -->
+                            </a>
                         {{ end }}
                     {{ end }}
                 </div>

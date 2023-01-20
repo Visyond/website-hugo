@@ -67,12 +67,6 @@ solDropdownCol:
         title: KPI presentations
 
       - descr: >-
-          Visualize spreadsheets as interactive 'what-if' dashboards connected to the central model, empowering your team to play with scenarios and get answers to 'what will happen if...'
-        image: /img/icons/use-cases/use_case_8.svg
-        path: /solutions/interactive-what-if-dashboards/
-        title: Visualizations for decision-makers
-
-      - descr: >-
           Quickly identify what drives revenues, costs, and other decision metrics, find opportunities for optimization, analyze scenarios and risks, and communicate insights with predictive dashboards.
         image: /img/icons/use-cases/use_case_5.svg
         path: /solutions/revenue-optimization-cost-reduction/
