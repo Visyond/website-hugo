@@ -37,6 +37,13 @@ productTourBlocks:
   - block:
     - learnMore:
       descr: >-
+        Focus on what’s important, reduce information overload, and share only specific parts of the model with people. For example, predictive dashboards for decision-makers or data entry worksheets for contributors.
+      video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
+      videoPoster: /video/grid_face_thumbnail.jpg
+      title: Show people only what matters to them
+
+    - learnMore:
+      descr: >-
         Adapt dashboards to your teammates’ needs and empower them to get insights from the central model without collaboration chaos or interfering with each other.
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
@@ -44,7 +51,7 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly create interactive visualizations and online calculators for your team.
+        Use the familiar syntax and formulas of Excel and quickly create interactive visualizations and online calculators for your team.
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: '/video/grid_thumbnail.jpg'
       title: 'Keep the flexibility of a spreadsheet'
@@ -55,13 +62,6 @@ productTourBlocks:
       video: /video/Share Insights with Spreadsheet-driven Dashboards - Visyond.mp4
       videoPoster: /video/grid_thumbnail.jpg
       title: Keep the ‘value-formula’ connection
-
-    - learnMore:
-      descr: >-
-        Focus on what’s important, reduce information overload, and share only specific parts of the model with people. For example, predictive dashboards for decision-makers or data entry worksheets for contributors.
-      video: /video/Decide Who Sees and Interacts with Specific Worksheets and Dashboards - Visyond.mp4
-      videoPoster: /video/grid_face_thumbnail.jpg
-      title: Show people only what matters to them
  
     - learnMore:
       descr: >-

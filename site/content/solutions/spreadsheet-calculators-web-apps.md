@@ -38,7 +38,7 @@ productTourBlocks:
 
     - learnMore:
       descr: >-
-        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly create interactive visualizations and online calculators for your team.
+        Use the familiar syntax and formulas of Excel and quickly create interactive visualizations and online calculators for your team.
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: '/video/grid_thumbnail.jpg'
       title: 'Keep the flexibility of a spreadsheet'
@@ -66,6 +66,6 @@ productTourBlocks:
 
     blockTitle: Bring your numbers to life
     blockDesc: >-
-      Visualize spreadsheets as interactive online calculators for testing scenarios, answering 'what-if' questions on the spot, or presenting the value of your offering to clients and prospects.
+      Visualize spreadsheets as interactive online calculators for testing scenarios, answering 'what-if' questions on the spot, or presenting the value of your offering to your customers.
 ---
 
