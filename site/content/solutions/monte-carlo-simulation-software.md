@@ -6,19 +6,21 @@ aliases:
   - /solutions/monte-carlo-simulation-software-for-mac/
   - /solutions/risk-management-software-for-banks/  
 metaTags: >-
-  <meta property="og:title" content="Automate Risk Analysis and Monte Carlo Simulations. In Minutes.">
-
-  <meta property="og:type" content="website">
-
-  <meta property="og:image" content="https://visyond.com/img/thumbnails/Solutions2022/Thumbnail - Solutions - Simulations 2022.png">
+  <meta property="og:title" content="Turn your Excel into a risk analysis machine for team players">
+  <meta name="title" content="Turn your Excel into a risk analysis machine for team players">
 
   <meta property="og:description" content="Model potential outcomes and scenarios, identify risks and opportunities with Monte Carlo simulations, and get collaborative ‘what-if’ and risk analysis tools that anyone on the team can easily use.">
+  <meta name="description" content="Model potential outcomes and scenarios, identify risks and opportunities with Monte Carlo simulations, and get collaborative ‘what-if’ and risk analysis tools that anyone on the team can easily use.">
+
+  <meta property="og:image" content="https://visyond.com/img/thumbnails/solutions2023/Thumbnail - Solutions - Simulations 2023.png">
 
   <meta property="og:url" content="https://visyond.com/solutions/monte-carlo-simulation-software/">
 
-  <meta name="title" content="Monte Carlo Simulation Software">
+  <meta property="og:type" content="website">
 
-  <meta name="description" content="Model potential outcomes and scenarios, identify risks and opportunities with Monte Carlo simulations, and get collaborative ‘what-if’ and risk analysis tools that anyone on the team can easily use.">
+  
+
+  
 
 
 
