@@ -3,8 +3,8 @@ aliases:
   - /features/financial-statements/
   - /features/financial-statement-generator/
 metaTags: >-
-  <meta property="og:title" content="Transform your Excel into financial statements">
-  <meta name="title" content="Transform your Excel into financial statements">
+  <meta property="og:title" content="Generate financial statements from your Excel">
+  <meta name="title" content="Generate financial statements from your Excel">
 
   <meta property="og:description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
   <meta name="description" content="Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.">
@@ -19,7 +19,7 @@ metaTags: >-
 
 title: Transform your Excel into financial statements
 topTitle: >-
-  Transform your Excel into <span>financial statements</span>
+  Generate <span>financial statements</span> from your Excel
 topSubTitle: >-
    Expand your planning and forecasting by visualizing spreadsheet models as scenario-driven financial statements: Balance Sheet, Income Statement, and Cash Flow Statement.
 topVideoThumbnail: /video/Auto-generate Financial Statements Driven by Your Model - Visyond.jpg
@@ -42,7 +42,7 @@ productTourBlocks:
         Explore how the financial statements change depending on scenarios and forecasts that you and your team contribute to the central model.
       video: /video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4
       videoPoster: /video/grid_face_thumbnail.jpg
-      title: Visualize impact of scenarios
+      title: Visualize the impact of scenarios
 
     - learnMore:
       descr: >-

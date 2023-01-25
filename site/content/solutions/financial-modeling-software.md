@@ -21,7 +21,7 @@ metaTags: >-
 
 title: Financial modeling software
 topTitle: >-
-  Get superpowers with an Excel-like <span>financial modeling</span> software
+  Understand your data with an Excel-like <span>financial modeling</span> software
 topSubTitle: >-
   Improve every aspect of decision-making — from building and auditing the model, to collecting data and managing scenarios, to analyzing sensitivities and risks, to sharing insights with stakeholders.
 topVideoThumbnail:
@@ -33,7 +33,7 @@ productTourBlocks:
   - block:
     - learnMore:
       descr: >-
-        Use the familiar syntax of Excel — including dynamic arrays and XLOOKUPs — and quickly analyze the model, its scenarios, and create interactive visualizations for your team.
+        Use the familiar syntax and formulas of Excel and quickly analyze the model, its scenarios, and create interactive visualizations for your team.
       video: '/video/Create, Compare and Analyze Scenarios On-the-fly - Visyond.mp4'
       videoPoster: '/video/grid_thumbnail.jpg'
       title: 'Keep the flexibility of a spreadsheet'

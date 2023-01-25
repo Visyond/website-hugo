@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - 'v0.2.1'
+      - 'v0.3.0'
 
 jobs:
   build-arti:
@@ -71,14 +72,8 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             This release includes:
-            - Various content updates: Homepage, Use-cases, Product tour, Demo, Get started section, Logos
-            - Various CSS improvements to increase readability and improve visuals
-            - Fixed the YouTube video popup script to work independent of DOM context
-            - Top menu desktop and mobile update - now it has two CTAs and updated style
-            - CMS / Content / Layouts reorganization and standatization: it's easier to update and maintain things now
-            - Scripts optimizations: updated external scripts loading order, removed unused custom scripts, moved heavy external scripts only to pages where they are used
-            - Assets optimizations: optimized image size, minimizing JS, compressing CSS, lazy loading for graphical and video assets, serving local fonts instead of external
-            - Updated some dependedncies (npm)
-            - Switched to newer version of Google Analytics
+            - New use-cases / solution pages
+            - Thumbnails (for sharing links on the web)
+            - QoL improvements and fixes
           draft: false
           prerelease: false
