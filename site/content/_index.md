@@ -4,6 +4,7 @@ aliases:
   - /solutions/private-equity-venture-capital/
   - /solutions/energy-and-utilities/
   - /solutions/data-analysis-and-business-consulting-software/
+  - /solutions/wealth-management/
   - /product-tour/
   - /solutions/
   - /features/
