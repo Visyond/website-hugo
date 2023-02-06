@@ -2,6 +2,10 @@ User-agent: *
 
 Disallow: /solutions/data-input-and-consolidation-software/
 Disallow: /solutions/data-input-and-consolidation/
+Disallow: /solutions/risk-management-software-for-banks/
+Disallow: /solutions/private-equity-venture-capital/
+Disallow: /solutions/energy-and-utilities/
+Disallow: /solutions/data-analysis-and-business-consulting-software/
 Disallow: /features/merge-excel-spreadsheets/
 Disallow: /features/data-input-and-consolidation/
 Disallow: /cases/
