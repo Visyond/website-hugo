@@ -1,7 +1,7 @@
 backend:
     name: github
     repo: visyond/website-hugo
-    base_url: https://cms.visyond.com
+    base_url: https://visyond.com
 
 publish_mode: editorial_workflow
 
