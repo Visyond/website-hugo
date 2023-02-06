@@ -1,12 +1,17 @@
 ---
 aliases: 
   - /solutions/compatibility-with-excel-and-powerpoint/
+  - /solutions/private-equity-venture-capital/
+  - /solutions/energy-and-utilities/
+  - /solutions/data-analysis-and-business-consulting-software/
   - /product-tour/
   - /solutions/
   - /features/
   - /why-visyond/
   - /about/
   - /services/
+  - /start/
+  - /blog/
 metaTags: >-
   <meta property="og:title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
   <meta name="title" content="Turn your Excel into an insights machine for scenario planning, what-if and risk analysis, interactive reporting, predictive dashboards.">
