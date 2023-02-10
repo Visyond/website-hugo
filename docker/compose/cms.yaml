@@ -3,6 +3,7 @@ services:
   cms:
     container_name: cms
     image: visyond/visyond-cms:latest
+    restart: unless-stopped
     ports:
       - 80:80
     networks:

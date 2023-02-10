@@ -3,7 +3,7 @@ name: CI Pipeline For Visyond CMS
 on:
   push:
     tags:
-      - 'v0.3.1'
+      - 'v0.3.2'
 
 jobs:
   build-arti:
