@@ -52,7 +52,7 @@ jobs:
 
   deploy-code:
     runs-on: ubuntu-latest
-    needs: build-arti
+#    needs: build-arti
     steps:
       -
         name: Checkout
