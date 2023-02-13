@@ -5,29 +5,29 @@ on:
       - feature/scw-stage
 
 jobs:
-#   build-arti:
-#     runs-on: macos-12
-#     steps:
-#       -
-#         name: Checkout
-#         uses: actions/checkout@v3
-#       - 
-#         name: Use node.js version 10
-#         uses: actions/setup-node@v3
-#         with:
-#           node-version: '10'
-#       - 
-#         name: Install dependencies and build the app artifact
-#         run: |
-#           npm install
-#           npm run build
-#       - 
-#         name: Temporarily save the artifact
-#         uses: actions/upload-artifact@v3
-#         with:
-#           name: build-artifact
-#           path: dist
-#           retention-days: 1
+  build-arti:
+    runs-on: macos-12
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+      - 
+        name: Use node.js version 10
+        uses: actions/setup-node@v3
+        with:
+          node-version: '10'
+      - 
+        name: Install dependencies and build the app artifact
+        run: |
+          npm install
+          npm run build
+      - 
+        name: Temporarily save the artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: dist
+          retention-days: 1
 
 #  build-img:
 #    runs-on: ubuntu-latest
@@ -49,7 +49,7 @@ jobs:
 
   deploy-code:
     runs-on: ubuntu-latest
- #   needs: build-arti
+    needs: build-arti
     steps:
       -
         name: Checkout
@@ -72,6 +72,7 @@ jobs:
           host: ${{ secrets.TEST_SCW_SERVER }}
           username: ${{ secrets.TEST_SCW_USER }}
           script: |
+           pwd
            export BUILD_DATE=`date "+%Y%m%d%H%M%S"` && \ 
               tar xzvf ./cms-release.tgz -C /srv && \ 
               mv /srv/dist /srv/cms-release-${BUILD_DATE} && \ 
