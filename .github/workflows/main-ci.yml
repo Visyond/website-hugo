@@ -1,9 +1,8 @@
 name: CI Pipeline For Visyond CMS
-
 on:
   push:
-    tags:
-      - 'v0.3.3'
+    branch:
+      - feature/scw-stage
 
 jobs:
   build-arti:
@@ -61,29 +60,41 @@ jobs:
         with:
           name: build-artifact
           path: dist
-
-      - 
-        name: Set up SSH key
-        uses: webfactory/ssh-agent@v0.4.0
-        with:
-          ssh-private-key: ${{ secrets.SCW_SSH_KEY }}
-
       -
-        name: Deploy arifact to the server
+        name: Compress artifact
         run: |
           tar czvf cms-release.tgz dist
-          ssh ${{ secrets.TEST_SCW_USER }}@${{ secrets.TEST_SCW_SERVER }} "export BUILD_DATE=`date "+%Y%m%d%H%M%S"` && \ 
-              tar xzvf ~/cms-release/cms-release.tgz -C /srv && \ 
-              mv /srv/dist /srv/cms-release-${BUILD_DATE} && \ 
-              rm -rf /srv/cms-release.bak && \ 
-              mv /srv/cms-release /srv/cms-release.bak && \ 
-              ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release && \ 
-              find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf"
-#      -
-#        name: Delete the saved artifact
-#        uses: geekyeggo/delete-artifact@v2
-#        with:
-#          name: build-artifact
+      - 
+        name: Copy artifact to the server
+        uses: appleboy/scp-action@master
+        with:
+          key: ${{ secrets.SCW_SSH_KEY }}
+          host: ${{ secrets.TEST_SCW_SERVER }}
+          username: ${{ secrets.TEST_SCW_USER }}
+          source: "cms-release.tgz"
+          target: "/root"
+      -
+        name: Configure artifact in the server
+        uses: appleboy/ssh-action@master
+        with:
+          key: ${{ secrets.SCW_SSH_KEY }}
+          host: ${{ secrets.TEST_SCW_SERVER }}
+          username: ${{ secrets.TEST_SCW_USER }}
+          script: |
+             export BUILD_DATE=`date "+%Y%m%d%H%M%S"` 
+             tar xzvf /root/cms-release.tgz -C /srv 
+             rm -rf /root/cms-release.tgz 
+             mv /srv/dist /srv/cms-release-${BUILD_DATE}
+             chown -R root:root /srv/cms-release-${BUILD_DATE}
+             rm -rf /srv/cms-release.bak
+             mv /srv/cms-release /srv/cms-release.bak
+             ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release
+             find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf
+      -
+        name: Delete the saved artifact
+        uses: geekyeggo/delete-artifact@v2
+        with:
+          name: build-artifact
 
 #  release:
 #    runs-on: ubuntu-latest

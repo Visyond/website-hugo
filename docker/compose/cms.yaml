@@ -4,6 +4,8 @@ services:
     container_name: cms
     image: visyond/visyond-cms:latest
     restart: unless-stopped
+    volumes:
+      - /etc/nginx/.htpasswd:/etc/nginx/.htpasswd
     ports:
       - 80:80
     networks:
