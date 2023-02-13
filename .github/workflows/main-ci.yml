@@ -81,15 +81,14 @@ jobs:
           host: ${{ secrets.TEST_SCW_SERVER }}
           username: ${{ secrets.TEST_SCW_USER }}
           script: |
-           ls $(pwd)
-           export BUILD_DATE=`date "+%Y%m%d%H%M%S"` && \ 
-              tar xzvf /root/cms-release.tgz -C /srv && \ 
-              rm -rf /srv/cms-release.tgz && \
-              mv /srv/site /srv/cms-release-${BUILD_DATE} && \ 
-              rm -rf /srv/cms-release.bak && \ 
-              mv /srv/cms-release /srv/cms-release.bak && \ 
-              ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release && \ 
-              find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf
+             export BUILD_DATE=`date "+%Y%m%d%H%M%S"` 
+             tar xzvf /root/cms-release.tgz -C /srv 
+             rm -rf /srv/cms-release.tgz 
+             mv /srv/site /srv/cms-release-${BUILD_DATE}
+             rm -rf /srv/cms-release.bak
+             mv /srv/cms-release /srv/cms-release.bak
+             ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release
+             find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf
 #      -
 #        name: Delete the saved artifact
 #        uses: geekyeggo/delete-artifact@v2
