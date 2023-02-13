@@ -73,7 +73,7 @@ jobs:
      -
        name: Deploy arifact to the server
        run: |
-          ssh root@51.15.193.149 "ls"
+          ssh -i ${{ secrets.SCW_SSH_KEY }} root@51.15.193.149 "ls"
 #          tar czvf cms-release.tgz dist
 #          ssh ${{ secrets.TEST_SCW_USER }}@${{ secrets.TEST_SCW_SERVER }} "export BUILD_DATE=`date "+%Y%m%d%H%M%S"` && \ 
 #               tar xzvf ~/cms-release/cms-release.tgz -C /srv && \ 
