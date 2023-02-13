@@ -3,3 +3,5 @@ dist/
 /npm-debug.log
 yarn-error.log
 .scannerwork/
+docker/.htpasswd
+docker/visyond_live.conf
