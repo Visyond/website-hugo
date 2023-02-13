@@ -64,16 +64,27 @@ jobs:
 #           name: build-artifact
 #           path: dist
 
-      - 
-        name: Set up SSH key
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SCW_SSH_KEY }}
+#       - 
+#         name: Set up SSH key
+#         uses: webfactory/ssh-agent@v0.7.0
+#         with:
+#           ssh-private-key: ${{ secrets.SCW_SSH_KEY }}
 
       -
-        name: Deploy arifact to the server
-        run: |
-          ssh root@51.15.193.149 "ls"
+        name: Run ssh test
+        uses: appleboy/ssh-action@master
+        with:
+          key: ${{ secrets.SCW_SSH_KEY }}
+          host: ${{ secrets.TEST_SCW_SERVER }}
+          username: ${{ secrets.TEST_SCW_USER }}
+          port: 22
+          script: |
+           ls /srv/
+
+#       -
+#         name: Deploy arifact to the server
+#         run: |
+#           ssh root@51.15.193.149 "ls"
 #          tar czvf cms-release.tgz dist
 #          ssh ${{ secrets.TEST_SCW_USER }}@${{ secrets.TEST_SCW_SERVER }} "export BUILD_DATE=`date "+%Y%m%d%H%M%S"` && \ 
 #               tar xzvf ~/cms-release/cms-release.tgz -C /srv && \ 
