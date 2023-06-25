@@ -1,109 +1,84 @@
 {{ partial "default/header" . }}
 
 
-  <div class="homehex ht">
-      <!-- TOP SECTION -->
-      <div class="container">
-          <div class="caseStudy-header__container">
-              <div class="caseStudy-header__container">
-                  <div class="caseStudy-header__title-wrap caseStudy-header__logo-wrap--logo">
-                      <img class="caseStudy-header__logo-image" src="{{ .Params.logo }}" alt="Logo">   
-                  </div>
-        
-                  <div class="caseStudy-header__title-wrap">
-                      <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
-                  </div>
-        
-              </div>
+<div class="homehex ht">
+
+    <!-- TOP SECTION -->
+    <div class="container">
+        <div class="caseStudy-header__container">
+            <div class="caseStudy-header__container">
+                <div class="caseStudy-header__title-wrap caseStudy-header__logo-wrap--logo">
+                    <img class="caseStudy-header__logo-image" src="{{ .Params.logo }}" alt="Logo">   
+                </div>
     
-              <ul class="case-study-params__list">
-              {{ range $element := .Params.Tooltip }}
-                  <li class="case-study-params__item">{{ $element.title }}</li>
-              {{ end }}
-              </ul> 
-          </div>
-      </div>
-      <!-- END: TOP SECTION -->
-  </div>
-	
+                <div class="caseStudy-header__title-wrap">
+                    <h1 class="caseStudy-header__title">{{ .Title }}</h1> 
+                </div>
+    
+            </div>
 
-  <section class="homeBenefits" style="background-color: #fafafa;">    
-      <div class="container">
-          <h2 class="enterV__headline">Summary</h2>
-
-          <div class="header-section--divider"></div>	
-      
-          <div class="caseStudy-summary">
-              {{ range $itemSummary := .Params.Summary }}
-              <div class="caseStudy-summary__item">
-                  <h5 class="caseStudy-summary__title">
-                      {{ $itemSummary.title }}
-                  </h5>
-          
-                  <hr class="divider-thin">
-          
-                  <div class="caseStudy-summary__text">
-                      {{ $itemSummary.content | markdownify }}
-                  </div>
-
-              </div>
-              {{ end }}
-          </div>
-      </div>
-  </section>	
-	
-
-	
-  <section class="getHexStarted homehex ht" style="background-image: url('/img/home/getStarted.svg');">
-          <div class="container">
-              <h2 class="getHexStarted__title">Flexible. Familiar. Scalable.</h2>
-              <a href="/demo/" class="button button-contrast">Watch Demo</a>
-          </div>
-  </section>	
-	
-	
-	
-  {{ if .Params.Study_intro }}
-  <section class="homeBenefits">    	
-    <div class="container">
-      <h2 class="enterV__headline">Case Study</h2>
-      
-      <div class="header-section--divider"></div>	
-          
-      <div class="caseStudy-body">
-        <p>{{.Params.Study_intro | markdownify}}</p>
-      </div>
-      
-      <div class="caseStudy-body">
-        {{ .Content | markdownify }}
-      </div>
-      
+            <ul class="case-study-params__list">
+            {{ range $element := .Params.Tooltip }}
+                <li class="case-study-params__item">{{ $element.title }}</li>
+            {{ end }}
+            </ul> 
+        </div>
     </div>
-  </section>
-  {{ end }}
+    <!-- END: TOP SECTION -->
+ 
+
+    <section class="homeBenefits" style="background-color: #fafafa;">    
+        <div class="container">
+            <h2 class="enterV__headline">Summary</h2>
+
+            <div class="header-section--divider"></div>	
+        
+            <div class="caseStudy-summary">
+                {{ range $itemSummary := .Params.Summary }}
+                <div class="caseStudy-summary__item">
+                    <h5 class="caseStudy-summary__title">
+                        {{ $itemSummary.title }}
+                    </h5>
+            
+                    <!-- <hr class="divider-thin"> -->
+            
+                    <div class="caseStudy-summary__text">
+                        {{ $itemSummary.content | markdownify }}
+                    </div>
+
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>	
+	
+	
+    {{ if .Params.Study_intro }}
+    <section class="homeBenefits">    	
+        <div class="container">
+            <h2 class="enterV__headline">Case Study</h2>
+            
+            <div class="header-section--divider"></div>	
+                
+            <div class="caseStudy-body">
+                <p>{{.Params.Study_intro | markdownify}}</p>
+            </div>
+            
+            <div class="caseStudy-body">
+                {{ .Content | markdownify }}
+            </div>
+            
+        </div>
+    </section>
+    {{ end }}
 
 
+    {{ partial "default/demo-strip-CTA" . }} 
 
+    {{ partial "feauteredCaseStudies" . }}
 
-  <section class="homeBenefits" style="background-color: #fafafa;">
-    <div class="container">
-      <h2 class="enterV__headline">See Success Stories from Our Users</h2>
-      
-      <div class="header-section--divider"></div>
+    {{ partial "getStarted" . }}
 
-      <div class="home-hero__topSubtitle" style="text-align: center; font-weight: 400;">Explore other Case Studies.</div>
-      
-      <div class="btn-wrap" style="margin-bottom: 2em;">
-        <a href="/casestudy/" class="button-primary button" style="text-transform: none;">See All Case Studies</a>
-      </div>	
-    </div>
-  </section>	
-
-
-
-
-
-
-
+</div>
 
 {{ partial "default/footer" . }}

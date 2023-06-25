@@ -15,7 +15,7 @@ title: Assessing Innovative Health Technologies with Multi-criteria Decision Ana
 logo: /img/cnr italy logo 2.png
 tooltip:
   - title: 'Industry: Healthcare'
-  - title: 'Use-case: Scenario analysis, Modeling, Data sharing'
+  - title: 'Use Case: Scenario analysis, Modeling, Data sharing'
 summary:
   - content: >- 
       * The team needed a simple way to conduct scenario analysis that can be shared among colleagues and stakeholders in the healthcare industry.

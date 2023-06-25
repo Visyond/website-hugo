@@ -11,7 +11,7 @@ casestudies:
       - tagTitle: Impact Modeling
       - tagTitle: Sales Negotiation
       - tagTitle: Analysis
-      - tagTitle: Presentation
+      - tagTitle: Dashboards
     title: >-
       Ericsson Accelerates Their Business Case Workflow by
       80% and Empowers Their Customers with Visyond
@@ -21,7 +21,7 @@ casestudies:
     logo: /img/SGM Logo Color.png  
     tags:
       - tagTitle: Monte Carlo Simulations
-      - tagTitle: Tornado and Sensitivity Analysis      
+      - tagTitle: Sensitivity Analysis      
     title: >-
       Managing Logistics and Analyzing Risks with Monte Carlo Simulations
     url: >-
@@ -45,7 +45,7 @@ casestudies:
     url: >-
       /casestudy/assessing-innovative-health-technologies-with-multi-criteria-decision-analysis/
   - alt: Elettronica Logo
-    logo: /img/elet.png
+    logo: /img/client-logos/eletronica.png
     tags:
       - tagTitle: Sales Planning
       - tagTitle: Territory & Quota planning

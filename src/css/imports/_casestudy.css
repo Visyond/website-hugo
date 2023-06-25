@@ -56,11 +56,11 @@
 .case-study-params__item {
   background: #f5f5f5;
   color: #181818;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 18px;
   padding: 15px 15px;
-  border-radius: 2px;
+  border-radius: 6px;
 
   &:not(:last-child) {
     margin-right: 30px;
@@ -113,7 +113,7 @@
 }
 .cast-study__person-comment p {
   color: #5f6976;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 22px;
 }
 .container--case-study__left-column > * {
@@ -126,7 +126,7 @@
   font-size: 24px;
 }
 .container--case-study__left-column p {
-  font-size: 16px;
+  font-size: 18px;
   color: #52556c;
 }
 
@@ -236,7 +236,7 @@
 .case-study__widget h3 {
   color: #5f6976;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   letter-spacing: 0.3px;
 }
@@ -406,6 +406,7 @@
   width: calc(33% - 15px);
   min-width: 350px;
   margin-bottom: 40px;
+  border-radius: 15px;
 	
     @media screen and (max-width: 771px) {
       width: 90%;
@@ -456,7 +457,7 @@
 }
 
 .caseStudy-summary__text{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #181818;
   text-align: left;
@@ -473,6 +474,7 @@
   margin-bottom: 14px;
   list-style: none;
   font-size: 18px;
+  line-height: 1.44;
   
      &:before {
        content: "";
@@ -549,8 +551,8 @@
 
 .caseStudy-body p {
   font-weight: 400;
-  line-height: 26px;
-  font-size: 18px;
+  line-height: 1.44!important;
+  font-size: 18px!important;
   color: #181818;
 }
 
