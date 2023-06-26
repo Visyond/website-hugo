@@ -53,10 +53,10 @@ pricingSections:
           planCardPriceColor: '#383e4d'
  
 
-        - PricePrimary: $250
+        - PricePrimary: $21
           PricePrimaryPeriod: >-
-            / year
-          priceBillingNote: Billed annually  
+            / month
+          priceBillingNote: Billed annually - $250
           # priceBillingNote: 'or <span>$250</span> / year'
           cardButton:
             cardButtonText: Get started
