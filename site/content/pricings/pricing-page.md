@@ -48,15 +48,16 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.          
           planCardDescription: >-
             Get all the tools from the get-go.
-          planCardTitle: Starter
+          planCardTitle: Small
           planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
  
 
-        - PricePrimary: $25
+        - PricePrimary: $250
           PricePrimaryPeriod: >-
-            / month
-          priceBillingNote: 'or <span>$250</span> / year'
+            / year
+          priceBillingNote: Billed annually  
+          # priceBillingNote: 'or <span>$250</span> / year'
           cardButton:
             cardButtonText: Get started
             cardButtonURL: '/accounts/signup/'
@@ -91,7 +92,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.
           planCardDescription: >-
             More projects, more dashboards, more Visyond.
-          planCardTitle: Pro
+          planCardTitle: Medium
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
@@ -132,7 +133,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.              
           planCardDescription: >-
             For deeper integration of Visyond into your processes.
-          planCardTitle: Pro+
+          planCardTitle: Large
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
 
@@ -174,11 +175,13 @@ faqSectionContent:
       - answer: >-
           Yes.
       - answer: >-
-          Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required. Afterwards, you can upgrade your plan or stay on the free plan.         
+          Sign up for the [free plan](/accounts/signup/) to get all features. No credit card required. Afterwards, you can upgrade your plan or stay on the free plan.         
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
-          Not sure which plan is the best for you or your team? [Contact us](#contactUs).
+          Start with the free one, and get all the features. Upgrade if you need more projects, more dashboards, and more scenarios. 
+      - answer: >-
+          Still not sure which plan is the best for you or your team? [Contact us](#contactUs).
     faqSectionSubTitle: Which plan should I pick?
   - answersList:
       - answer: >-
@@ -194,13 +197,13 @@ faqSectionContent:
       - answer: >-
           Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
     faqSectionSubTitle: How do I manage my billing?
+#   - answersList:
+#       - answer: >-
+#           Yes. If you choose an annual plan, you will get a 18% discount (2 months free).
+#     faqSectionSubTitle: Do you offer discounted plans?
   - answersList:
       - answer: >-
-          Yes. If you choose an annual plan, you will get a 18% discount (2 months free).
-    faqSectionSubTitle: Do you offer discounted plans?
-  - answersList:
-      - answer: >-
-          We accept credit cards, and wire transfers for the Teams plan.
+          We accept credit cards, and wire transfers for the 'Large' plan.
       - answer: >-
           We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
     faqSectionSubTitle: How can I pay?
