@@ -1,121 +1,121 @@
-name: CI Pipeline For Visyond CMS
-on:
-  push:
-    branch:
-      - feature/scw-stage
+# name: CI Pipeline For Visyond CMS
+# on:
+#   push:
+#     branch:
+#       - feature/scw-stage
 
-jobs:
-  build-arti:
-    runs-on: macos-12
-    steps:
-      -
-        name: Checkout
-        uses: actions/checkout@v3
-      - 
-        name: Use node.js version 10
-        uses: actions/setup-node@v3
-        with:
-          node-version: '10'
-      - 
-        name: Install dependencies and build the app artifact
-        run: |
-          npm install
-          npm run build
-      - 
-        name: Temporarily save the artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-artifact
-          path: dist
-          retention-days: 1
+# jobs:
+#   build-arti:
+#     runs-on: macos-12
+#     steps:
+#       -
+#         name: Checkout
+#         uses: actions/checkout@v3
+#       - 
+#         name: Use node.js version 10
+#         uses: actions/setup-node@v3
+#         with:
+#           node-version: '10'
+#       - 
+#         name: Install dependencies and build the app artifact
+#         run: |
+#           npm install
+#           npm run build
+#       - 
+#         name: Temporarily save the artifact
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: build-artifact
+#           path: dist
+#           retention-days: 1
 
-  build-img:
-    runs-on: ubuntu-latest
-    needs: build-arti
-    steps:
-      - 
-        name: Checkout
-        uses: actions/checkout@v3
-      - 
-        name: Retrieve the saved artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build-artifact
-          path: dist
-      -
-        name: Create the docker image
-        run: |
-          bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }} ${GITHUB_REF#refs/*/}
+#   build-img:
+#     runs-on: ubuntu-latest
+#     needs: build-arti
+#     steps:
+#       - 
+#         name: Checkout
+#         uses: actions/checkout@v3
+#       - 
+#         name: Retrieve the saved artifact
+#         uses: actions/download-artifact@v3
+#         with:
+#           name: build-artifact
+#           path: dist
+#       -
+#         name: Create the docker image
+#         run: |
+#           bash docker-build.sh ${{ secrets.REGISTRY_USER }} ${{ secrets.REGISTRY_PASSWORD }} ${GITHUB_REF#refs/*/}
 
-  deploy-code:
-    runs-on: ubuntu-latest
-    needs: build-arti
-    steps:
-      -
-        name: Checkout
-        uses: actions/checkout@v3
-      -
-        name: Retrieve the saved artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build-artifact
-          path: dist
-      -
-        name: Compress artifact
-        run: |
-          tar czvf cms-release.tgz dist
-      - 
-        name: Copy artifact to the server
-        uses: appleboy/scp-action@master
-        with:
-          key: ${{ secrets.SCW_SSH_KEY }}
-          host: ${{ secrets.TEST_SCW_SERVER }}
-          username: ${{ secrets.TEST_SCW_USER }}
-          source: "cms-release.tgz"
-          target: "/root"
-      -
-        name: Configure artifact in the server
-        uses: appleboy/ssh-action@master
-        with:
-          key: ${{ secrets.SCW_SSH_KEY }}
-          host: ${{ secrets.TEST_SCW_SERVER }}
-          username: ${{ secrets.TEST_SCW_USER }}
-          script: |
-             export BUILD_DATE=`date "+%Y%m%d%H%M%S"` 
-             tar xzvf /root/cms-release.tgz -C /srv 
-             rm -rf /root/cms-release.tgz 
-             mv /srv/dist /srv/cms-release-${BUILD_DATE}
-             chown -R root:root /srv/cms-release-${BUILD_DATE}
-             rm -rf /srv/cms-release.bak
-             mv /srv/cms-release /srv/cms-release.bak
-             ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release
-             find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf
-      -
-        name: Delete the saved artifact
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: build-artifact
+#   deploy-code:
+#     runs-on: ubuntu-latest
+#     needs: build-arti
+#     steps:
+#       -
+#         name: Checkout
+#         uses: actions/checkout@v3
+#       -
+#         name: Retrieve the saved artifact
+#         uses: actions/download-artifact@v3
+#         with:
+#           name: build-artifact
+#           path: dist
+#       -
+#         name: Compress artifact
+#         run: |
+#           tar czvf cms-release.tgz dist
+#       - 
+#         name: Copy artifact to the server
+#         uses: appleboy/scp-action@master
+#         with:
+#           key: ${{ secrets.SCW_SSH_KEY }}
+#           host: ${{ secrets.TEST_SCW_SERVER }}
+#           username: ${{ secrets.TEST_SCW_USER }}
+#           source: "cms-release.tgz"
+#           target: "/root"
+#       -
+#         name: Configure artifact in the server
+#         uses: appleboy/ssh-action@master
+#         with:
+#           key: ${{ secrets.SCW_SSH_KEY }}
+#           host: ${{ secrets.TEST_SCW_SERVER }}
+#           username: ${{ secrets.TEST_SCW_USER }}
+#           script: |
+#              export BUILD_DATE=`date "+%Y%m%d%H%M%S"` 
+#              tar xzvf /root/cms-release.tgz -C /srv 
+#              rm -rf /root/cms-release.tgz 
+#              mv /srv/dist /srv/cms-release-${BUILD_DATE}
+#              chown -R root:root /srv/cms-release-${BUILD_DATE}
+#              rm -rf /srv/cms-release.bak
+#              mv /srv/cms-release /srv/cms-release.bak
+#              ln -s /srv/cms-release-${BUILD_DATE} /srv/cms-release
+#              find /srv -name "cms-release-*"|sort| head -n -2 | xargs --no-run-if-empty rm -rf
+#       -
+#         name: Delete the saved artifact
+#         uses: geekyeggo/delete-artifact@v2
+#         with:
+#           name: build-artifact
 
-#  release:
-#    runs-on: ubuntu-latest
-#    needs: build-img
-#    steps:
-#      - 
-#        name: Checkout code
-#        uses: actions/checkout@v3
-#      - 
-#        name: Create Release
-#        id: create_release
-#        uses: actions/create-release@v1
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        with:
-#          tag_name: ${{ github.ref }}
-#          release_name: Release ${{ github.ref }}
-#          body: |
-#            This release includes:
-#            - New use-cases / solution pages
-#            - Thumbnails (for sharing links on the web)
-#            - QoL improvements and fixes
-#          draft: false
-#          prerelease: false
+# #  release:
+# #    runs-on: ubuntu-latest
+# #    needs: build-img
+# #    steps:
+# #      - 
+# #        name: Checkout code
+# #        uses: actions/checkout@v3
+# #      - 
+# #        name: Create Release
+# #        id: create_release
+# #        uses: actions/create-release@v1
+# #        env:
+# #          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# #        with:
+# #          tag_name: ${{ github.ref }}
+# #          release_name: Release ${{ github.ref }}
+# #          body: |
+# #            This release includes:
+# #            - New use-cases / solution pages
+# #            - Thumbnails (for sharing links on the web)
+# #            - QoL improvements and fixes
+# #          draft: false
+# #          prerelease: false
