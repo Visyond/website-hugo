@@ -1,5 +1,5 @@
 ---
-url: /pricing
+#url: /pricing
 metaTags: >-
   <meta property="og:title" content="Get started with Visyond for free">
   <meta property="og:type" content="website">
