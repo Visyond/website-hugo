@@ -1,5 +1,5 @@
 ---
-# url: /pricing
+url: /pricing
 metaTags: >-
   <meta property="og:title" content="Get started with Visyond for free">
   <meta property="og:type" content="website">
@@ -9,33 +9,32 @@ metaTags: >-
   <meta name="description" content="Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.">
 title: Pricing and Plans
 topTitle: >-
-  Pick a plan that works for you and your team. Start <span style="color: #0086ff;">free</span>.
+  Build<span style="color: #0086ff;">.</span> Analyze<span style="color: #0086ff;">.</span> Present<span style="color: #0086ff;">.</span>
 topSubTitle: >-
-  Get started today and try the premium plan for free. After 7 days, you can continue with the free plan or upgrade.
+  Get started with an actually useful free plan.
 topButtonText: 'Get started'
 topButtonLink: '/accounts/signup/'
 pricingSections:
   - pricingSection:
       plansCards:
-
         - PricePrimary: $0
           PricePrimaryPeriod: >-
             free <br/>forever
           cardButton:
-            cardButtonText: Try for free
+            cardButtonText: Get started
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'With Dashboards plan, you can:'
-          featureslist:
-            - title: Create no-code dashboards
-              tooltip: >- 
-                Build interactive online dashboards and ‘what-if’ calculators using Excel formulas and scenarios & charts you create in Visyond.
-            - title: Organize scenarios
-              tooltip: >- 
-                Create and manage scenarios without overwriting, corrupting or losing any data.
-            - title: Simplify charting
-              tooltip: >- 
-                Create beautiful charts, easily customize data series and keep information up-to-date.
+        #   featuresListHeader: 'With Starter plan, you can:'
+        #   featureslist:
+        #     - title: Create no-code dashboards
+        #       tooltip: >- 
+        #         Build interactive online dashboards and ‘what-if’ calculators using Excel formulas and scenarios & charts you create in Visyond.
+        #     - title: Organize scenarios
+        #       tooltip: >- 
+        #         Create and manage scenarios without overwriting, corrupting or losing any data.
+        #     - title: Simplify charting
+        #       tooltip: >- 
+        #         Create beautiful charts, easily customize data series and keep information up-to-date.
           planCardIcon: /img/pricing/STANDARD.png
           limitsListHeader: 'You get:'
           limitsList:
@@ -48,87 +47,52 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.          
           planCardDescription: >-
-            Create and share interactive dashboards you didn’t know were possible.
-          planCardTitle: Dashboards
+            Get all the tools from the get-go.
+          planCardTitle: Small
           planCardLabelColor: '#e8e8e8'
           planCardPriceColor: '#383e4d'
+ 
 
-
-
-        - PricePrimary: $23
+        - PricePrimary: $21
           PricePrimaryPeriod: >-
             / month
-          priceBillingNote: 'or <span>$230</span> / year'
+          priceBillingNote: Billed annually - $250
+          # priceBillingNote: 'or <span>$250</span> / year'
           cardButton:
-            cardButtonText: Try for free
-            cardButtonURL: /accounts/signup/
-            isButtonContactUs: false
-          featuresListHeader: 'All in Dashboards, plus:'
-          featureslist:
-            - title: Generate financial statements
-              tooltip: >-
-                Generate always up-to-date, forward-looking pro-forma financial statements from your spreadsheet or operating model.
-            - title: Find errors and anomalies
-              tooltip: >-
-                Get insights on your model’s structure and content. Understand formulas with the help of natural formula language. Detect root causes of errors and data anomalies.               
-          planCardIcon: /img/pricing/FREE.png
-          limitsListHeader: 'You get:'
-          limitsList:
-            - limitTitle: 5 projects
-              limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 10 dashboards per project
-              limitTooltip: >-
-                The number of dashboards you can create in each project.
-            - limitTitle: 10 scenarios per project
-              limitTooltip: >-
-                The number of scenarios you can create in each of your projects.           
-          planCardDescription: >-
-            If you also want to generate financial statements from your spreadsheet in a few clicks and audit models.
-          planCardTitle: Statements
-          planCardLabelColor: '#00C9FF'
-          planCardPriceColor: '#00C9FF'
-
-
-
-        - PricePrimary: $97
-          PricePrimaryPeriod: >-
-            / month
-          priceBillingNote: 'or <span>$970</span> / year'
-          cardButton:
-            cardButtonText: Try for free
+            cardButtonText: Get started
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
-          featuresListHeader: 'All in Statements, plus:'
-          featureslist:
-            - title: Find top drivers
-              tooltip: >-
-                Find the most important input drivers for your decision metrics, and their impact on the outputs of your model.
-            - title: Automate Sensitivity analysis
-              tooltip: >-
-                Easily run 1-way and 2-way sensitivities on your model’s outputs, and see how sensitive they are to changes.
-            - title: Compare scenarios
-              tooltip: >-
-                Compare and analyze scenarios of your model in detail, generating charts and comparison tables. Understand which metrics change and by how much between scenarios and see their impact on the variability of the outputs.
-            - title: Run Monte Carlo simulations
-              tooltip: >-
-                Run Monte Carlo simulations and manage the risks on the output metrics when they are modeled probabilistically (based on experience or historical data).
-            - title: Auto-analyze models
-              tooltip: >-
-                Get quick insights on the outputs of your spreadsheet model by running heuristic auto-analysis that you can customize to your needs afterwards.
+        #   featuresListHeader: 'All in Starter, plus:'
+        #   featureslist:
+        #     - title: Find top drivers
+        #       tooltip: >-
+        #         Find the most important input drivers for your decision metrics, and their impact on the outputs of your model.
+        #     - title: Automate Sensitivity analysis
+        #       tooltip: >-
+        #         Easily run 1-way and 2-way sensitivities on your model’s outputs, and see how sensitive they are to changes.
+        #     - title: Compare scenarios
+        #       tooltip: >-
+        #         Compare and analyze scenarios of your model in detail, generating charts and comparison tables. Understand which metrics change and by how much between scenarios and see their impact on the variability of the outputs.
+        #     - title: Run Monte Carlo simulations
+        #       tooltip: >-
+        #         Run Monte Carlo simulations and manage the risks on the output metrics when they are modeled probabilistically (based on experience or historical data).
+        #     - title: Auto-analyze models
+        #       tooltip: >-
+        #         Get quick insights on the outputs of your spreadsheet model by running heuristic auto-analysis that you can customize to your needs afterwards.
           planCardIcon: /img/pricing/PRO.png
           limitsListHeader: 'You get:'
           limitsList:
             - limitTitle: 5 projects
               limitTooltip: The number of simultaneously active projects that you can work on.
-            - limitTitle: 10 dashboards per project
+            - limitTitle: 5 dashboards per project
               limitTooltip: >-
                 The number of dashboards you can create in each project.
-            - limitTitle: 10 scenarios per project
+            - limitTitle: 5 scenarios per project
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
           planCardDescription: >-
-            If you also want to automate what-if analysis and identify opportunities and risks.
-          planCardTitle: Analysis
+            More projects, more dashboards, more Visyond.
+          planCardTitle: Medium
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
@@ -136,49 +100,28 @@ pricingSections:
 
         - PricePrimary: Talk to us
           PricePrimaryPeriod:
-          priceBillingNote: For teams of 5+, billed annually
+          priceBillingNote: Billed annually
           cardButton:
             cardButtonText: Contact us
             cardButtonURL: '#contactUs'
             isButtonContactUs: true
             isButtonEnterprise: false
-          featuresListHeader: 'All in Analysis, plus:'
+          featuresListHeader: 'Additional benefits:'
           featureslist:
-            - title: Avoid information overload
+            - title: Embed dashboards
               tooltip: >-
-                Show and share with people only what they need, and help your team or clients focus on what’s important.
-            - title: Secure sensitive data
+                Share dashboards and presentations with a large audience by embedding them on any web page.
+            - title: Remove watermarks
               tooltip: >-
-                Establish a single source of truth for your model in the cloud. Expose only specific worksheets (for example, for a data entry sheet for clients) and dashboards with specific collaborators (for example, dashboards for CFO).   
-            - title: Track information
-              tooltip: >-
-                Track assumptions, scenarios, insights and supporting information from your team or clients.
-            - title: Simplify data gathering
-              tooltip: >-
-                Improve data accuracy and reduce the risk of version chaos. Encourage collaborators to safely enter data into the model directly or by automatically pulling data from their Excel files.                 
-            - title: Self-serve on insights
-              tooltip: >-
-                Empower people to self-serve on insights and contribute to analytical workflows without technical know-how.           
-            - title: Reduce the risk of errors
-              tooltip: >-
-                Reduce the risk of errors by automating specific tasks or entire workflows. Focus on the job-to-be-done and not the tools to get there.
-            - title: Publish models
-              tooltip: >-
-                Share all or only specific worksheets and dashboards with the general public. Establish a visual interface to interact with the model from the outside world.
-            - title: Get personalized onboarding
-              tooltip: >-
-                Visyond will help you organize your custom workflows, onboard team members and reach maximum efficiency quickly.
-            - title: Request services
-              tooltip: >-
-                Visyond can offer modeling consulting services or manage the platform for you. Billed separately.
-            - title: White label the platform
+                Remove Visyond branding.
+            - title: Request White Labeling
               tooltip: >-
                 White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
             - title: Request on-premises installation
               tooltip: >-
-                Install Visyond on your server. Billed separately.               
+                Install Visyond on your server. Billed separately.          
           planCardIcon: /img/pricing/ADVANCED.png
-          limitsListHeader: 'Your team gets:'
+          limitsListHeader: 'Your get:'
           limitsList:
             - limitTitle: Unlimited projects
               limitTooltip: The number of simultaneously active projects that you can work on.
@@ -189,8 +132,8 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.              
           planCardDescription: >-
-            If you also want to establish a secure workspace for your team to self-serve on insights, reports and automated workflows.
-          planCardTitle: Workflows
+            For deeper integration of Visyond into your processes.
+          planCardTitle: Large
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
 
@@ -232,11 +175,13 @@ faqSectionContent:
       - answer: >-
           Yes.
       - answer: >-
-          Sign up for a [free 7-day trial](/accounts/signup/) to enjoy the full Visyond experience. No credit card required. Afterwards, you can upgrade your plan or stay on the free plan.         
+          Sign up for the [free plan](/accounts/signup/) to get all features. No credit card required. Afterwards, you can upgrade your plan or stay on the free plan.         
     faqSectionSubTitle: Is there a free version of Visyond?
   - answersList:
       - answer: >-
-          Not sure which plan is the best for you or your team? [Contact us](#contactUs).
+          Start with the free one, and get all the features. Upgrade if you need more projects, more dashboards, and more scenarios. 
+      - answer: >-
+          Still not sure which plan is the best for you or your team? [Contact us](#contactUs).
     faqSectionSubTitle: Which plan should I pick?
   - answersList:
       - answer: >-
@@ -252,13 +197,13 @@ faqSectionContent:
       - answer: >-
           Please [log in](/accounts/login/), and then navigate to the [Account tab → Billing](/dashboard#billing).
     faqSectionSubTitle: How do I manage my billing?
+#   - answersList:
+#       - answer: >-
+#           Yes. If you choose an annual plan, you will get a 18% discount (2 months free).
+#     faqSectionSubTitle: Do you offer discounted plans?
   - answersList:
       - answer: >-
-          Yes. If you choose an annual plan, you will get a 18% discount (2 months free).
-    faqSectionSubTitle: Do you offer discounted plans?
-  - answersList:
-      - answer: >-
-          We accept credit cards, and wire transfers for the Teams plan.
+          We accept credit cards, and wire transfers for the 'Large' plan.
       - answer: >-
           We **do not** store your credit card information. We process payments with [Stripe](https://stripe.com/), a PCI Level 1 Service Provider (this is the most stringent level of certification available in the payments industry).        
     faqSectionSubTitle: How can I pay?
