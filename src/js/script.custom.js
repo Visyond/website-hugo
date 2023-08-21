@@ -553,6 +553,30 @@ $(function () {
     // ===== END: TABS + SLICK CAROUSEL FOR USE-CASES =====
 
 
+    // ===== PRICING =====
+    function pricingCardsRadioButton () {
+        var priceCards = $(".price-card");
+        // Hide enterprise card by default
+        $('.js-pricing-cards').slick('slickFilter', priceCards.filter(":not(:has(.btn-pricing-card-enterprise))"));
+        // Filter pricing cards when radio button changes
+        $("input[name='users']").on('change', function() {
+            var selectedValue = $("input[name='users']:checked").val();
+            
+            if (selectedValue === "users-many") {
+                // Search for card that has the 'enterprise button'. Hugo template builds such a card if you set 'isButtonEnterprise: true' in the pricing .md content file.
+                // Can't simply search for the card's div id because slick rebuilds the carousel (and clones cards) when viewport is small, and the card loses its id.
+                // See scripts.plugin.js for the initial carousel setup.
+                $('.js-pricing-cards').slick('slickUnfilter');
+                $('.js-pricing-cards').slick('slickFilter', priceCards.filter(":has(.btn-pricing-card-enterprise)"));
+            } else {
+                $('.js-pricing-cards').slick('slickUnfilter');
+                $('.js-pricing-cards').slick('slickFilter', priceCards.filter(":not(:has(.btn-pricing-card-enterprise))"));
+            }
+        });
+    }
+    pricingCardsRadioButton ();
+    // ===== END: PRICING =====
+
 });
 
 

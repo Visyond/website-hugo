@@ -1,0 +1,11 @@
+.fasthide {
+    display: none!important;
+}
+
+.fastshow-block {
+    display: block!important;
+}
+
+.fastshow-flex {
+    display: flex!important;
+}

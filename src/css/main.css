@@ -24,7 +24,7 @@
 /**
  * Basic page needs
  **/
-
+ @import "./imports/_common.css";
 @import "./imports/_adjustment.css";
 @import "./imports/_buttons.css";
 @import "./imports/_cover.css";

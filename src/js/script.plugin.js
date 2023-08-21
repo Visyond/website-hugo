@@ -19,7 +19,7 @@ $(function () {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true,
+              infinite: false,
               draggable: true,
               arrows: false,
               dots: true,
@@ -33,7 +33,7 @@ $(function () {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true,
+              infinite: false,
               draggable: true,
               arrows: false,
               dots: true,
@@ -47,7 +47,7 @@ $(function () {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              infinite: true,
+              infinite: false,
               draggable: true,
               arrows: false,
               dots: true,

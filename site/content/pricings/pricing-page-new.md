@@ -1,5 +1,5 @@
 ---
-#url: /pricing
+url: /pricing-new-test
 metaTags: >-
   <meta property="og:title" content="Get started with Visyond for free">
   <meta property="og:type" content="website">
@@ -11,7 +11,7 @@ title: Pricing and Plans
 topTitle: >-
   Build<span style="color: #0086ff;">.</span> Analyze<span style="color: #0086ff;">.</span> Present<span style="color: #0086ff;">.</span>
 topSubTitle: >-
-  Get started with an actually useful free plan.
+  Get started with an <span style="font-weight: 900;">actually useful</span> free plan.
 topButtonText: 'Get started'
 topButtonLink: '/accounts/signup/'
 pricingSections:
@@ -47,16 +47,16 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.          
           planCardDescription: >-
-            Get all the tools from the get-go.
-          planCardTitle: Small
-          planCardLabelColor: '#e8e8e8'
+            Ultimate value and all features right from the start.
+          planCardTitle: Start 
+          planCardLabelColor: '#b3ebff'
           planCardPriceColor: '#383e4d'
  
 
-        - PricePrimary: $21
+        - PricePrimary: $25
           PricePrimaryPeriod: >-
             / month
-          priceBillingNote: Billed annually - $250
+          priceBillingNote: or $250 / year
           # priceBillingNote: 'or <span>$250</span> / year'
           cardButton:
             cardButtonText: Get started
@@ -91,29 +91,71 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
           planCardDescription: >-
-            More projects, more dashboards, more Visyond.
-          planCardTitle: Medium
+            More projects. More dashboards. More Scenarios.
+          planCardTitle: Use
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
 
 
+        - PricePrimary: $97
+          PricePrimaryPeriod: >-
+            / month
+          priceBillingNote: or $970 / year
+          cardButton:
+            cardButtonText: Get started
+            cardButtonURL: '/accounts/signup/'
+            isButtonContactUs: false
+            isButtonEnterprise: false
+          featuresListHeader: 'Additional benefits:'
+        #   featureslist:
+        #     - title: Embed dashboards
+        #       tooltip: >-
+        #         Share dashboards and presentations with a large audience by embedding them on any web page.
+        #     - title: Remove watermarks
+        #       tooltip: >-
+        #         Remove Visyond branding.
+        #     - title: Request White Labeling
+        #       tooltip: >-
+        #         White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
+        #     - title: Request on-premises installation
+        #       tooltip: >-
+        #         Install Visyond on your server. Billed separately.          
+          planCardIcon: /img/pricing/ADVANCED.png
+          limitsListHeader: 'Your get:'
+          limitsList:
+            - limitTitle: 10 projects
+              limitTooltip: The number of simultaneously active projects that you can work on.
+            - limitTitle: 10 dashboards per project
+              limitTooltip: >-
+                The number of dashboards you can create in each project.
+            - limitTitle: 10 scenarios per project
+              limitTooltip: >-
+                The number of scenarios you can create in each of your projects.      
+          planCardDescription: >-
+            Even more projects, dashboards, and scenarios.
+          planCardTitle: Expand
+          planCardLabelColor: '#0585ff'
+          planCardPriceColor: '#0585ff'
+
+
+
         - PricePrimary: Talk to us
           PricePrimaryPeriod:
-          priceBillingNote: Billed annually
+          priceBillingNote: 
           cardButton:
             cardButtonText: Contact us
             cardButtonURL: '#contactUs'
-            isButtonContactUs: true
-            isButtonEnterprise: false
+            isButtonContactUs: false
+            isButtonEnterprise: true
           featuresListHeader: 'Additional benefits:'
           featureslist:
+            - title: Selective sharing
+              tooltip: >-
+                Share only specific worksheets and/or dashboard with internal or external viewers.
             - title: Embed dashboards
               tooltip: >-
                 Share dashboards and presentations with a large audience by embedding them on any web page.
-            - title: Remove watermarks
-              tooltip: >-
-                Remove Visyond branding.
             - title: Request White Labeling
               tooltip: >-
                 White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
@@ -132,10 +174,11 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.              
           planCardDescription: >-
-            For deeper integration of Visyond into your processes.
-          planCardTitle: Large
-          planCardLabelColor: '#0585ff'
-          planCardPriceColor: '#0585ff'
+            Fully integrate Visyond into your tech and process stack.
+          planCardTitle: Teams
+          planCardLabelColor: '#3b3d4b'
+          planCardPriceColor: '#3b3d4b'
+
 
 
       pricingSectionTitlePrefix: '1'

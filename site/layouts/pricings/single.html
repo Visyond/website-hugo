@@ -7,160 +7,176 @@
 
   <!-- PRICING SECTIONS -->
   {{ range .Params.pricingSections }} 
-  <section class="homeBenefits pricing-section">
-    
-      <div class="container-pricing">
-        {{ with .pricingSection }}
+  <section class="homeBenefits pricing-section" style="background: #fafafa">
 
 
-        <!-- 
-        <div class="pricingSectionTitleContainer">
-          <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
-          <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
+    <div class="container-pricing">
+    {{ with .pricingSection }}
+
+    <div class="wantVisyondFor-container">
+        <div class="title">I want to get Visyond for...</div>
+        <div class="radio-container">
+            <div class="radioItem-wrap">
+                <input type="radio" id="users-one" name="users" value="users-one" checked />
+                <label for="users-one">Just myself</label>
+            </div>
+            <div class="radioItem-wrap">
+                <input type="radio" id="users-many" name="users" value="users-many" />
+                <label for="users-many">My team too</label>
+            </div>
         </div>
-        
+    </div>
 
-        <div class="header-section--divider"></div>
+    <!-- 
+    <div class="pricingSectionTitleContainer">
+        <div class="pricingSectionTitlePrefix">{{ .pricingSectionTitlePrefix }}</div>
+        <h2 class="enterV__headline" style="margin-bottom: 0;">{{ .pricingSectionTitle | markdownify }}</h2>
+    </div>
+    
 
-        -->
+    <div class="header-section--divider"></div>
 
-        
-        <!-- PRICING SECTION DESCRIPTION -->
-        <!--
-        {{ with .planInfoBlock }}
-        <div class="planInfo-container">
-          <div class="planInfo-image-container">
-            <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="planInfo-image">
-          </div>
+    -->
 
-          <div class="planInfo-description-container">
-            <div class="planInfo-title">{{ .planInfoBlockTitle }}</div>
-            <div class="planInfo-description">{{ .planInfoBlockDescription | markdownify }}</div>
-          </div>
+    
+    <!-- PRICING SECTION DESCRIPTION -->
+    <!--
+    {{ with .planInfoBlock }}
+    <div class="planInfo-container">
+        <div class="planInfo-image-container">
+        <img src="{{ .planInfoBlockImage }}" alt="{{ .planInfoBlockImageAltText }}" class="planInfo-image">
+        </div>
+
+        <div class="planInfo-description-container">
+        <div class="planInfo-title">{{ .planInfoBlockTitle }}</div>
+        <div class="planInfo-description">{{ .planInfoBlockDescription | markdownify }}</div>
+        </div>
+    </div>
+    {{ end }}
+    -->
+    <!-- END: PRICING SECTION DESCRIPTION -->
+
+    <div class="js-pricing-cards">
+        {{ range .plansCards }}
+        <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 18px solid {{ .planCardLabelColor }};" {{end}}
+        {{ if .cardButton.isButtonEnterprise }} id="enterprise" {{ end }}
+        >
+        <article class="price-card-content">
+            <div class="card__title-wrap__pricing">
+            <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
+            <h3 class="card__title__pricing">{{ .planCardTitle | markdownify }}</h3>
+
+            <div class="price-wrapper">
+                <div class="price-wrapper-top">
+                <div class="price-primary-value" style="
+                {{ if .planCardPriceColor }} 
+                color: {{ .planCardPriceColor }}; 
+                {{ end }}
+                {{ if strings.HasPrefix .planCardTitle "Enterprise" }}
+                {{end}}">
+                    {{ .PricePrimary }}
+                </div>
+                
+                <div class="price-primary-period">
+                    {{ .PricePrimaryPeriod | markdownify  }}
+                </div>
+                </div>           
+                
+                <div class="price-wrapper-bottom">
+                <div class="price-billing-note">{{ .priceBillingNote | markdownify }}</div>
+                <div class="price-min-seats">{{ .priceMinSeats | markdownify }}</div>
+                </div> 	
+            </div>
+
+            {{ with .planCardDescription }}
+            <div class="card__subtitle__pricing">
+                {{ . | markdownify }} 
+            </div>
+            {{ end }}
+
+            {{ with .cardButton }}
+            <div class="btn-wrap">		    
+                <a href="{{ .cardButtonURL }}" 
+                {{ if .isButtonContactUs }} 
+                class="btn-pricing-card-contactUs fluid"
+                {{ else if .isButtonEnterprise }}
+                class="btn-pricing-card-enterprise fluid"
+                {{ else }} 
+                class="btn-pricing-card fluid"
+                {{ end }} 
+                aria-label="button">	      
+                {{ .cardButtonText }}
+                </a>
+            </div>
+            {{ end }}
+            </div>
+
+            <hr class="divider-thin">
+
+            <!-- LIMITS LIST -->
+            {{ if .limitsList }}
+            <div class="plan-features-wrapper plan-limits-wrapper">
+            <div class="before-bullet-points">{{ .limitsListHeader | markdownify }}</div>
+            <ul>
+                {{ range .limitsList }}
+                <div class="plan-features-wrapper-li-wrapper">
+                <li>
+                    {{ if .limitURL }}
+                    <a href="{{ .limitURL }}" target="_blank">{{ .limitTitle }}</a>
+                    {{ else }}
+                    {{ .limitTitle }}
+                    {{ end }}                
+                </li>
+
+                {{ if .limitTooltip }}
+                <div class="tooltipPricing">  
+                    <i class="material-icons-outlined tooltipIcon">info</i>
+                    <div class="tooltiptextPricing">{{ .limitTooltip | markdownify }}</div>
+                </div>         				
+                {{ end }}                      			   
+                </div> 	  
+                {{ end }}
+            </ul>	
+            </div>
+            {{ end}}	
+            <!-- END: LIMITS LIST -->
+
+            
+            <!-- FEAUTURES LIST -->
+            {{ if .featureslist }}	
+            <hr class="divider-thin">
+            <div class="plan-features-wrapper">
+            <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
+            <ul>
+                {{ range .featureslist }}
+                <div class="plan-features-wrapper-li-wrapper">
+                <li>
+                    {{ if .url }}
+                    <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    {{ else }}
+                    {{ .title }}
+                    {{ end }}
+                </li>
+                            
+                {{ if .tooltip }}
+                <div class="tooltipPricing">  
+                    <i class="material-icons-outlined tooltipIcon">info</i>
+                    <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
+                </div>         				
+                {{ end }}         
+                </div>
+                {{ end }}
+            </ul>	
+            </div>
+            {{ end }}
+            <!-- END: FEAUTURES LIST -->
+
+        </article>
         </div>
         {{ end }}
-        -->
-        <!-- END: PRICING SECTION DESCRIPTION -->
-
-        <div class="js-pricing-cards"> <!-- js-pricing-cards -->
-          {{ range .plansCards }}
-          <div class="price-card" {{ if .planCardLabelColor }} style="border-top: 18px solid {{ .planCardLabelColor }};" {{end}}>
-            <article class="price-card-content">
-              <div class="card__title-wrap__pricing">
-                <img src="{{ .planCardIcon }}" class="card__image" style="display:none;">
-                <h3 class="card__title__pricing">{{ .planCardTitle | markdownify }}</h3>
-
-                <div class="price-wrapper">
-                  <div class="price-wrapper-top">
-                    <div class="price-primary-value" style="
-                    {{ if .planCardPriceColor }} 
-                    color: {{ .planCardPriceColor }}; 
-                    {{ end }}
-                    {{ if strings.HasPrefix .planCardTitle "Enterprise" }}
-                    
-                    {{end}}">
-                      {{ .PricePrimary }}
-                    </div>
-                    
-                    <div class="price-primary-period">
-                      {{ .PricePrimaryPeriod | markdownify  }}
-                    </div>
-                  </div>           
-                  
-                  <div class="price-wrapper-bottom">
-                    <div class="price-billing-note">{{ .priceBillingNote | markdownify }}</div>
-                    <div class="price-min-seats">{{ .priceMinSeats | markdownify }}</div>
-                  </div> 	
-                </div>
-
-                {{ with .planCardDescription }}
-                <div class="card__subtitle__pricing">
-                    {{ . | markdownify }} 
-                </div>
-                {{ end }}
-
-                {{ with .cardButton }}
-                <div class="btn-wrap">		    
-                  <a href="{{ .cardButtonURL }}" 
-                  {{ if .isButtonContactUs }} 
-                  class="btn-pricing-card-contactUs fluid"
-                  {{ else if .isButtonEnterprise }}
-                  class="btn-pricing-card-enterprise fluid"
-                  {{ else }} 
-                  class="btn-pricing-card fluid"
-                  {{ end }} 
-                  aria-label="button">	      
-                    {{ .cardButtonText }}
-                  </a>
-                </div>
-                {{ end }}
-              </div>
-
-              <hr class="divider-thin">
-
-              <!-- LIMITS LIST -->
-              {{ if .limitsList }}
-              <div class="plan-features-wrapper plan-limits-wrapper">
-                <div class="before-bullet-points">{{ .limitsListHeader | markdownify }}</div>
-                <ul>
-                  {{ range .limitsList }}
-                  <div class="plan-features-wrapper-li-wrapper">
-                    <li>
-                      {{ if .limitURL }}
-                      <a href="{{ .limitURL }}" target="_blank">{{ .limitTitle }}</a>
-                      {{ else }}
-                        {{ .limitTitle }}
-                      {{ end }}                
-                    </li>
-
-                    {{ if .limitTooltip }}
-                    <div class="tooltipPricing">  
-                      <i class="material-icons-outlined tooltipIcon">info</i>
-                      <div class="tooltiptextPricing">{{ .limitTooltip | markdownify }}</div>
-                    </div>         				
-                    {{ end }}                      			   
-                  </div> 	  
-                  {{ end }}
-                </ul>	
-              </div>
-              {{ end}}	
-              <!-- END: LIMITS LIST -->
-
-              <hr class="divider-thin">
-              <!-- FEAUTURES LIST -->
-              {{ if .featureslist }}	
-              <div class="plan-features-wrapper">
-                <div class="before-bullet-points">{{ .featuresListHeader | markdownify }}</div>
-                <ul>
-                  {{ range .featureslist }}
-                  <div class="plan-features-wrapper-li-wrapper">
-                    <li>
-                      {{ if .url }}
-                      <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                      {{ else }}
-                        {{ .title }}
-                      {{ end }}
-                  </li>
-                              
-                    {{ if .tooltip }}
-                    <div class="tooltipPricing">  
-                      <i class="material-icons-outlined tooltipIcon">info</i>
-                      <span class="tooltiptextPricing">{{ .tooltip | markdownify }}</span>
-                    </div>         				
-                    {{ end }}         
-                  </div>
-                  {{ end }}
-                </ul>	
-              </div>
-              {{ end }}
-              <!-- END: FEAUTURES LIST -->
-
-            </article>
-          </div>
-          {{ end }}
-        </div>
-        {{ end }}      
-      </div>
+    </div>
+    {{ end }}      
+    </div>
   </section>
   {{ end }} 
   <!-- END: PRICING SECTIONS -->
