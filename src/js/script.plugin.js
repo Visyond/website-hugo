@@ -25,7 +25,7 @@ $(function () {
               dots: true,
               centerMode: true,
               centerPadding: '200px',
-              initialSlide: 1,
+              initialSlide: 0,
             }
           },
           {
@@ -39,7 +39,7 @@ $(function () {
               dots: true,
               centerMode: true,
               centerPadding: '140px',
-              initialSlide: 1,
+              initialSlide: 0,
             }
           },
           {
@@ -53,7 +53,7 @@ $(function () {
               dots: true,
               centerMode: true,
               centerPadding: '50px',
-              initialSlide: 1,
+              initialSlide: 0,
             }
           },
         ]
