@@ -114,7 +114,7 @@ pricingSections:
                 Share only specific worksheets and/or dashboards with internal or external viewers.
             - title: Extended analysis functionality
               tooltip: >-
-                Extended functionality of analysis modules and more customization options: more displayed drivers in Tornado analysis; ability to run two-way Sensitivity analysis; more iterations and distributions for Monte Carlo Simulations; ability to run Scenario analysis on any number of scenarios.            
+                More displayed drivers in Tornado analysis. Two-way Sensitivity analysis. More iterations and distributions for Monte Carlo Simulations. Run Scenario analysis on any number of scenarios.            
         #     - title: Remove watermarks
         #       tooltip: >-
         #         Remove Visyond branding.
