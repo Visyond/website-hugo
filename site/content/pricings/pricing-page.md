@@ -48,7 +48,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.          
           planCardDescription: >-
             Ultimate value and all features right from the start.
-          planCardTitle: Start 
+          planCardTitle: Free 
           planCardLabelColor: '#b3ebff'
           planCardPriceColor: '#383e4d'
  
@@ -91,8 +91,8 @@ pricingSections:
               limitTooltip: >-
                 The number of scenarios you can create in each of your projects.
           planCardDescription: >-
-            More projects. More dashboards. More Scenarios.
-          planCardTitle: Use
+            More projects. More dashboards. More scenarios.
+          planCardTitle: Standard
           planCardLabelColor: '#00B1FF'
           planCardPriceColor: '#00B1FF'
 
@@ -107,11 +107,14 @@ pricingSections:
             cardButtonURL: '/accounts/signup/'
             isButtonContactUs: false
             isButtonEnterprise: false
-          featuresListHeader: 'Additional benefits:'
-        #   featureslist:
-        #     - title: Embed dashboards
-        #       tooltip: >-
-        #         Share dashboards and presentations with a large audience by embedding them on any web page.
+          featuresListHeader: 'All in Standard, plus:'
+          featureslist:
+            - title: Selective sharing
+              tooltip: >-
+                Share only specific worksheets and/or dashboards with internal or external viewers.
+            - title: Extended analysis functionality
+              tooltip: >-
+                Extended functionality of analysis modules and more customization options: more displayed drivers in Tornado analysis; ability to run two-way Sensitivity analysis; more iterations and distributions for Monte Carlo Simulations; ability to run Scenario analysis on any number of scenarios.            
         #     - title: Remove watermarks
         #       tooltip: >-
         #         Remove Visyond branding.
@@ -134,7 +137,7 @@ pricingSections:
                 The number of scenarios you can create in each of your projects.      
           planCardDescription: >-
             Even more projects, dashboards, and scenarios.
-          planCardTitle: Expand
+          planCardTitle: Pro
           planCardLabelColor: '#0585ff'
           planCardPriceColor: '#0585ff'
 
@@ -148,11 +151,11 @@ pricingSections:
             cardButtonURL: '#contactUs'
             isButtonContactUs: false
             isButtonEnterprise: true
-          featuresListHeader: 'Additional benefits:'
+          featuresListHeader: 'Get everything, plus:'
           featureslist:
             - title: Selective sharing
               tooltip: >-
-                Share only specific worksheets and/or dashboard with internal or external viewers.
+                Share only specific worksheets and/or dashboards with internal or external viewers.
             - title: Embed dashboards
               tooltip: >-
                 Share dashboards and presentations with a large audience by embedding them on any web page.
