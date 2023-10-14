@@ -109,23 +109,14 @@ pricingSections:
             isButtonEnterprise: false
           featuresListHeader: 'All in Standard, plus:'
           featureslist:
-            - title: Selective sharing
-              tooltip: >-
-                Share only specific worksheets and/or dashboards with internal or external viewers.
-            - title: Extended analysis functionality
-              tooltip: >-
-                More displayed drivers in Tornado analysis. Two-way Sensitivity analysis. More iterations and distributions for Monte Carlo Simulations. Run Scenario analysis on any number of scenarios.            
-        #     - title: Remove watermarks
-        #       tooltip: >-
-        #         Remove Visyond branding.
-        #     - title: Request White Labeling
-        #       tooltip: >-
-        #         White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
-        #     - title: Request on-premises installation
-        #       tooltip: >-
-        #         Install Visyond on your server. Billed separately.          
+            # - title: Selective sharing
+            #   tooltip: >-
+            #     Share only specific worksheets and/or dashboards with specific people to view or edit.
+            # - title: Extended analysis functionality
+            #   tooltip: >-
+            #     More displayed drivers in Tornado analysis. Two-way Sensitivity analysis. More iterations and distributions for Monte Carlo Simulations. Run Scenario analysis on any number of scenarios.
           planCardIcon: /img/pricing/ADVANCED.png
-          limitsListHeader: 'Your get:'
+          limitsListHeader: 'You get:'
           limitsList:
             - limitTitle: 10 projects
               limitTooltip: The number of simultaneously active projects that you can work on.
@@ -134,7 +125,9 @@ pricingSections:
                 The number of dashboards you can create in each project.
             - limitTitle: 10 scenarios per project
               limitTooltip: >-
-                The number of scenarios you can create in each of your projects.      
+                The number of scenarios you can create in each of your projects.  
+            - limitTitle: Advanced sharing
+              limitTooltip: Share only specific worksheets and/or dashboards with specific people to view or edit.                            
           planCardDescription: >-
             Even more projects, dashboards, and scenarios.
           planCardTitle: Pro
@@ -151,18 +144,18 @@ pricingSections:
             cardButtonURL: '#contactUs'
             isButtonContactUs: false
             isButtonEnterprise: true
-          featuresListHeader: 'Get everything, plus:'
+          featuresListHeader: 'You can request:'
           featureslist:
-            - title: Selective sharing
-              tooltip: >-
-                Share only specific worksheets and/or dashboards with internal or external viewers.
-            - title: Embed dashboards
-              tooltip: >-
-                Share dashboards and presentations with a large audience by embedding them on any web page.
-            - title: Request White Labeling
+            # - title: Advanced sharing
+            #   tooltip: >-
+            #     Share only specific worksheets and/or dashboards with specific people to view or edit.
+            # - title: Embed dashboards
+            #   tooltip: >-
+            #     Share dashboards and presentations with a large audience by embedding them on any web page.
+            - title: White Labeling
               tooltip: >-
                 White label the platform, and maintain your brand identity when serving your team or clients. Billed separately.
-            - title: Request on-premises installation
+            - title: On-premises installation
               tooltip: >-
                 Install Visyond on your server. Billed separately.          
           planCardIcon: /img/pricing/ADVANCED.png
@@ -175,9 +168,12 @@ pricingSections:
                 The number of dashboards you can create in each project.
             - limitTitle: Unlimited scenarios
               limitTooltip: >-
-                The number of scenarios you can create in each of your projects.              
+                The number of scenarios you can create in each of your projects.   
+            - limitTitle: Advanced sharing
+              limitTooltip: >-
+                Share only specific worksheets and/or dashboards with specific people to view or edit.                         
           planCardDescription: >-
-            Fully integrate Visyond into your tech and process stack.
+            Get all the features and unlimited projects, dashboards, scenarios.
           planCardTitle: Teams
           planCardLabelColor: '#3b3d4b'
           planCardPriceColor: '#3b3d4b'
