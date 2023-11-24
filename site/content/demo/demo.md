@@ -13,7 +13,7 @@ metaTags: >-
   <meta name="description" content="Explore the short demo videos below, and schedule an onboarding call if you want us to help you organize your workflows.">
 topTitle: View demo
 topSubTitle: >-
-  Explore the short demo videos below, and schedule an onboarding call if you'd us to help you get started.
+  Explore the short demo videos below, and schedule an onboarding call if you'd like us to help you get started.
 topButtonText: 'Onboarding call'
 topButtonLink: '#request'
 demoSection:
