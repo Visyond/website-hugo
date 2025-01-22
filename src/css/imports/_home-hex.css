@@ -34,7 +34,7 @@
 
 .container-demoVideos {
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 70px!important;
 
     @media screen and (max-width: 481px) {
         padding: 0 15px;
@@ -43,7 +43,7 @@
 
 .container-useCases {
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 70px!important;
   
     @media screen and (min-width: 1401px) {
       max-width: 1410px;
